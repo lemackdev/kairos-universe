@@ -1,0 +1,97 @@
+{
+  "id": "episode-008",
+  "slug": "episode-008",
+  "episodeNumber": 8,
+  "title": null,
+  "historicalTitle": "Os Primeiros Cinco",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 43,
+    "pageEnd": 48,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 8,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "emily-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Kairos completes the selection of its main League roster and assigns the remaining development players to Academy Blue and Academy White without publicly revealing them.",
+  "keyEvents": [
+    "The five-player main roster is selected.",
+    "Academy Blue and Academy White are formed as development rosters.",
+    "The selected players remain confidential pending the official announcement."
+  ],
+  "consequences": [
+    "All three League teams begin operating within one development system."
+  ],
+  "canonIntroduced": [
+    "The League division uses main, Academy Blue, and Academy White progression levels."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-007"
+  ],
+  "continuityNotes": [
+    "The episode does not explicitly name all Academy players or their roles."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 43-48",
+      "information": "Original historical source for Episode 8, \"Os Primeiros Cinco\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"Os Primeiros Cinco\".",
+    "The five-player main roster is selected.",
+    "Academy Blue and Academy White are formed as development rosters.",
+    "The selected players remain confidential pending the official announcement.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "episode-026",
+  "slug": "episode-026",
+  "episodeNumber": 26,
+  "title": "Finding the General",
+  "historicalTitle": "Encontrando o General",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 161,
+    "pageEnd": 167,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 26,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos narrows its current Counter-Strike focus to the IGL role and studies leadership, communication, adaptation, and teammate trust. The historical candidate is removed from active canon.",
+  "keyEvents": [
+    "Kairos prioritizes the IGL as the first roster piece.",
+    "The scouting criteria emphasize calm leadership, adaptation, communication, and teammate trust."
+  ],
+  "consequences": [
+    "The first player signing must be the IGL.",
+    "No current candidate is selected or signed."
+  ],
+  "canonIntroduced": [
+    "The IGL search is the current Counter-Strike roster objective."
+  ],
+  "canonChanged": [
+    "The historical 24-year-old candidate direction is removed.",
+    "The current preferred age range is 16 to 18, with age 19 only in exceptional cases."
+  ],
+  "continuityDependencies": [
+    "episode-025"
+  ],
+  "continuityNotes": [
+    "Connor \"North\" Sullivan must not appear in current characters or first appearances.",
+    "The historical interview, evaluation, and candidate identity are not active canon."
+  ],
+  "historicalNotes": [
+    "The episode introduces Connor \"North\" Sullivan, age 24, as a candidate; this material is historical and retconned."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "retcon-connor-north-sullivan-removal",
+      "status": "non-canonical",
+      "description": "Connor \"North\" Sullivan is historical only and is not an active candidate or character.",
+      "sourcePath": "docs/retcons/RETCON_HISTORY.md"
+    },
+    {
+      "id": "retcon-counter-strike-age-policy",
+      "status": "retconned",
+      "description": "The older-candidate direction is replaced by the current 16-to-18 preference and exceptional age-19 maximum.",
+      "sourcePath": "docs/retcons/RETCON_HISTORY.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 161-167",
+      "information": "Original historical source for Episode 26, \"Encontrando o General\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Connor \"North\" Sullivan",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"Encontrando o General\".",
+    "Kairos prioritizes the IGL as the first roster piece.",
+    "The scouting criteria emphasize calm leadership, adaptation, communication, and teammate trust.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

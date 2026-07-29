@@ -1,0 +1,314 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/common.schema.json",
+  "title": "Kairos Universe Common Definitions",
+  "description": "Reusable JSON Schema definitions shared by all canonical entity schemas.",
+  "$defs": {
+    "stableId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "A stable lowercase kebab-case identifier."
+    },
+    "stringOrTbd": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A confirmed string value or the literal TBD."
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "idArray": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/stableId"
+      },
+      "uniqueItems": true
+    },
+    "canonTextArray": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "openObject": {
+      "type": "object"
+    },
+    "knownGame": {
+      "enum": [
+        "Counter-Strike",
+        "League of Legends",
+        "TBD"
+      ],
+      "description": "A game currently represented in shared game data."
+    },
+    "knownRole": {
+      "enum": [
+        "ADC",
+        "ADC Mentor",
+        "Analytics and Performance",
+        "AWPer",
+        "Executive",
+        "Founder and CEO",
+        "General Manager",
+        "Head Coach",
+        "Head Coach and Support Mentor",
+        "IGL",
+        "Jungle",
+        "Jungle Mentor",
+        "Mid",
+        "Mid Mentor",
+        "Strategic Coach",
+        "Support",
+        "TBD",
+        "Top",
+        "Top Mentor"
+      ],
+      "description": "A role currently represented in shared role data."
+    },
+    "knownStatus": {
+      "enum": [
+        "active",
+        "active-pre-debut",
+        "active-training-pre-debut",
+        "being-scouted",
+        "confirmed",
+        "no-players-signed",
+        "non-canonical",
+        "planned",
+        "retconned",
+        "soft-canon",
+        "signed",
+        "staffed-scouting-pre-debut",
+        "TBD",
+        "training-pre-debut",
+        "under-evaluation",
+        "unsigned-prospect",
+        "unconfirmed"
+      ],
+      "description": "A status currently represented in shared status data."
+    },
+    "knownRosterLevel": {
+      "enum": [
+        "academy",
+        "academy-blue",
+        "academy-white",
+        "main",
+        "prospect"
+      ],
+      "description": "A roster level currently represented in shared data."
+    },
+    "knownCompetitionOrPurpose": {
+      "enum": [
+        "LCS",
+        "NACL",
+        "U19 development",
+        "TBD"
+      ],
+      "description": "A current competition destination or explicitly documented development purpose."
+    },
+    "nonNegativeIntegerOrTbd": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "const": "TBD"
+        }
+      ]
+    },
+    "nullableIdOrTbd": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        {
+          "const": "TBD"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "organizationReference": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "required": [
+        "city",
+        "region",
+        "country"
+      ],
+      "properties": {
+        "city": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "region": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "country": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        }
+      },
+      "additionalProperties": false
+    },
+    "storyPeriod": {
+      "type": "object",
+      "required": [
+        "period",
+        "displayName",
+        "exactDate",
+        "exactYear"
+      ],
+      "properties": {
+        "period": {
+          "enum": [
+            "early-2026",
+            "late-october-2026",
+            "TBD"
+          ]
+        },
+        "displayName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "exactDate": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "exactYear": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        }
+      },
+      "additionalProperties": false
+    },
+    "plannedPeriod": {
+      "type": "object",
+      "required": [
+        "status",
+        "month",
+        "exactDate",
+        "exactYear"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "planned",
+            "TBD"
+          ]
+        },
+        "month": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "exactDate": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "exactYear": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationship": {
+      "type": "object",
+      "required": [
+        "subjectId",
+        "type",
+        "status"
+      ],
+      "properties": {
+        "subjectId": {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        "type": {
+          "enum": [
+            "analytics-and-performance",
+            "coach",
+            "evaluator",
+            "executive",
+            "founder",
+            "general-manager",
+            "head-coach",
+            "chief-executive",
+            "first-meeting-completed",
+            "mentor",
+            "mutual-respect",
+            "owner",
+            "prospective-teammates",
+            "recruitment-target",
+            "role-mentor",
+            "scout",
+            "strategic-coach",
+            "subsidiary",
+            "initial-evaluation",
+            "tactical-evaluation-interest",
+            "tactical-evaluator",
+            "tactical-mentor"
+          ]
+        },
+        "status": {
+          "enum": [
+            "confirmed",
+            "TBD"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "contract": {
+      "type": "object",
+      "required": [
+        "status",
+        "signedDate",
+        "startDate",
+        "endDate",
+        "salary"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "signedDate": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "startDate": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "endDate": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "salary": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        }
+      },
+      "additionalProperties": false
+    },
+    "canonStatus": {
+      "enum": [
+        "confirmed",
+        "soft-canon",
+        "unconfirmed",
+        "retconned",
+        "non-canonical"
+      ]
+    }
+  }
+}

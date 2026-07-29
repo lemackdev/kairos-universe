@@ -1,0 +1,52 @@
+{
+  "id": "doublelift-kairos-adc-mentor",
+  "slug": "doublelift-kairos-adc-mentor",
+  "realName": "Yiliang Peng",
+  "nickname": "Doublelift",
+  "nationality": "TBD",
+  "role": "ADC Mentor",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-main",
+  "status": "active",
+  "firstAppearance": "episode-010",
+  "joinedKairos": "TBD",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Mentor the main roster ADC role."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "liam-aster-oconnor",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 10: Doublelift first appears through a public response to Kairos; Episode 15 confirms the ADC mentor assignment."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Doublelift is the confirmed ADC mentor for the Kairos League main roster.",
+    "Doublelift is a real-world esports figure used in a fictional Kairos role.",
+    "Doublelift's public real name is Yiliang Peng.",
+    "The first confirmed appearance is episode-010."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Former playing career details are TBD.",
+    "Detailed mentor duties are TBD."
+  ],
+  "canonNotes": [
+    "The Kairos role is fictional canon and must be distinguished from real-world background.",
+    "Do not invent contract values or exact start dates."
+  ]
+}

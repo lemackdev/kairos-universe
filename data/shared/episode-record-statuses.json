@@ -1,0 +1,27 @@
+[
+  {
+    "id": "episode-record-status-canon-verified",
+    "name": "Canon verified",
+    "value": "canon-verified"
+  },
+  {
+    "id": "episode-record-status-partially-reconstructed",
+    "name": "Partially reconstructed",
+    "value": "partially-reconstructed"
+  },
+  {
+    "id": "episode-record-status-placeholder",
+    "name": "Placeholder",
+    "value": "placeholder"
+  },
+  {
+    "id": "episode-record-status-reconstructed",
+    "name": "Reconstructed",
+    "value": "reconstructed"
+  },
+  {
+    "id": "episode-record-status-retconned",
+    "name": "Retconned",
+    "value": "retconned"
+  }
+]

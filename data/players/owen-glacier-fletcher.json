@@ -1,0 +1,106 @@
+{
+  "id": "owen-glacier-fletcher",
+  "slug": "owen-glacier-fletcher",
+  "realName": "Owen Fletcher",
+  "nickname": "Glacier",
+  "historicalAliases": [],
+  "nationality": "Canadian",
+  "city": "Mackenzie",
+  "homeTown": {
+    "city": "Mackenzie",
+    "region": "British Columbia",
+    "country": "Canada"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 16,
+  "game": "Counter-Strike",
+  "role": "AWPer",
+  "currentTeam": null,
+  "rosterLevel": "prospect",
+  "status": "unsigned-prospect",
+  "isCaptain": false,
+  "firstAppearance": "episode-033",
+  "joinedKairos": "Not joined",
+  "contract": null,
+  "personality": "Extremely patient, humble, quiet, mature beyond his age, and uncomfortable with attention.",
+  "playstyle": "Primary AWPer.",
+  "strengths": [
+    "Extreme patience.",
+    "Maturity beyond his age.",
+    "Humility."
+  ],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "scout",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "recruitment-target",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "prospective-teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "first-meeting-completed",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "mutual-respect",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 33: Owen first appears as a Counter-Strike prospect and primary AWPer candidate.",
+    "Late October 2026: Kairos identifies Owen, Adrian Vale travels personally to Mackenzie, British Columbia, and Adrian meets Owen for the first time.",
+    "Episode 35: the nickname Glacier becomes canonical."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "Frequently refuses tournament invitations."
+  ],
+  "currentState": [
+    "Unsigned prospect.",
+    "No contract.",
+    "Adrian Vale is personally recruiting him."
+  ],
+  "nicknameFirstAppearance": "episode-035",
+  "familyNotes": [
+    "Owen lives with his grandfather.",
+    "His grandfather is undergoing cancer treatment.",
+    "His grandfather is Owen's only living close relative."
+  ],
+  "confirmedFacts": [
+    "Owen Fletcher is a canonical Counter-Strike prospect known as Glacier.",
+    "He is the primary AWPer candidate in the Kairos pipeline.",
+    "He is 16 years old at the current story date.",
+    "He is Canadian and from Mackenzie, British Columbia.",
+    "He is a Primary AWPer.",
+    "He is an unsigned prospect and has no contract.",
+    "Adrian Vale travels personally to meet him.",
+    "His first appearance is Episode 33.",
+    "The nickname Glacier is first established in Episode 35."
+  ],
+  "unconfirmedDetails": [
+    "Date of birth is TBD.",
+    "Previous teams and tournament history are TBD.",
+    "Objectives, insecurities, statistics, and achievements are TBD.",
+    "The outcome of the recruitment process is TBD."
+  ],
+  "canonNotes": [
+    "Do not expand Owen's family backstory beyond the approved facts.",
+    "Scouting and personal recruitment do not constitute a signing or contract."
+  ]
+}

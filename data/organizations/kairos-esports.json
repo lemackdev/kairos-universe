@@ -1,0 +1,213 @@
+{
+  "id": "kairos-esports",
+  "slug": "kairos-esports",
+  "name": "Kairos Esports",
+  "parentOrganization": {
+    "id": "asterion-intelligence",
+    "name": "Asterion Intelligence"
+  },
+  "founder": {
+    "id": "adrian-elias-vale",
+    "realName": "Adrian Elias Vale",
+    "commonName": "Adrian Vale",
+    "narrativeRole": "main protagonist and first-person narrator"
+  },
+  "owner": {
+    "id": "adrian-elias-vale",
+    "realName": "Adrian Elias Vale",
+    "commonName": "Adrian Vale"
+  },
+  "status": "active-pre-debut",
+  "headquarters": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
+  },
+  "storyStartPeriod": {
+    "period": "early-2026",
+    "displayName": "Early 2026",
+    "exactDate": "TBD",
+    "exactYear": "2026"
+  },
+  "currentStoryPeriod": {
+    "period": "late-october-2026",
+    "displayName": "Late October 2026",
+    "exactDate": "TBD",
+    "exactYear": "2026"
+  },
+  "officialDebutPeriod": {
+    "leagueOfLegends": {
+      "status": "planned",
+      "month": "February",
+      "exactDate": "TBD",
+      "exactYear": "2027"
+    },
+    "counterStrike": {
+      "status": "planned",
+      "month": "February",
+      "exactDate": "TBD",
+      "exactYear": "2027"
+    }
+  },
+  "divisions": [
+    {
+      "id": "kairos-league-of-legends",
+      "slug": "league-of-legends",
+      "name": "League of Legends",
+      "status": "training-pre-debut",
+      "teams": [
+        {
+          "id": "kairos-lol-main",
+          "slug": "main",
+          "name": "Main team",
+          "purpose": "Primary roster intended for the LCS",
+          "status": "training-pre-debut"
+        },
+        {
+          "id": "kairos-lol-academy-blue",
+          "slug": "academy-blue",
+          "name": "Academy Blue",
+          "purpose": "Academy roster intended for the NACL",
+          "status": "training-pre-debut"
+        },
+        {
+          "id": "kairos-lol-academy-white",
+          "slug": "academy-white",
+          "name": "Academy White",
+          "purpose": "Younger development roster",
+          "status": "training-pre-debut"
+        }
+      ]
+    },
+    {
+      "id": "kairos-counter-strike",
+      "slug": "counter-strike",
+      "name": "Counter-Strike",
+      "status": "staffed-scouting-pre-debut",
+      "coachingStaffStatus": "hired",
+      "exactStaffRoles": "Lukas \"Luk\" Novak is Head Coach of Kairos Counter-Strike; Ethan \"Trace\" Miller is Head Coach of Kairos Counter-Strike Academy.",
+      "signedPlayerCount": 1,
+      "signedPlayers": [
+        "caleb-atlas-mercer"
+      ],
+      "unsignedProspects": [
+        "owen-glacier-fletcher",
+        "cameron-mold-ruiz",
+        "emiliano-moteconhuesillo-navarro"
+      ],
+      "currentObjective": "Evaluate unsigned prospects and build the remaining roster around the Founding Captain",
+      "firstSigningRequirement": "Fulfilled: the first signed player is IGL Caleb \"Atlas\" Mercer.",
+      "teams": [
+        {
+          "id": "kairos-cs-main",
+          "slug": "main",
+          "name": "Main team",
+          "status": "training-pre-debut"
+        },
+        {
+          "id": "kairos-cs-academy",
+          "slug": "academy",
+          "name": "Academy team",
+          "status": "training-pre-debut"
+        }
+      ],
+      "thirdTeam": false
+    }
+  ],
+  "philosophy": [
+    "Player development over superteam construction.",
+    "Long-term infrastructure over short-term publicity.",
+    "Coaching and analytics are core competitive advantages.",
+    "Academy systems must have real developmental purpose.",
+    "Young players should receive structured support.",
+    "The organization should avoid exploiting players.",
+    "Competitive ambition remains extremely high.",
+    "Winning Worlds and Counter-Strike Majors are long-term goals.",
+    "Kairos is being built for a multi-year narrative.",
+    "Canon consistency is more important than improvisational convenience."
+  ],
+  "longTermGoals": [
+    "Develop players through sustainable systems.",
+    "Win Worlds.",
+    "Win Counter-Strike Majors.",
+    "Remain sustainable across a multi-year narrative."
+  ],
+  "facilities": {
+    "name": "Kairos campus",
+    "location": {
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States",
+      "exactAddress": "TBD"
+    },
+    "confirmedElements": [
+      "Separate League of Legends building.",
+      "Separate Counter-Strike building.",
+      "Shared operational areas.",
+      "Shared performance resources where appropriate.",
+      "Space reserved for future esports divisions.",
+      "Support for training, coaching, analytics, health, performance, content, and administration."
+    ],
+    "dimensions": "TBD",
+    "costs": "TBD",
+    "roomCounts": "TBD",
+    "architecturalDetails": "TBD",
+    "constructionCompletionAndOpeningDates": "TBD"
+  },
+  "sponsorship": {
+    "status": "proposals-received",
+    "proposalCategories": [
+      "Gaming chairs",
+      "Peripherals",
+      "Monitors",
+      "Energy drinks",
+      "Betting company"
+    ],
+    "rejectedCategories": [
+      "Betting company",
+      "Branding-first proposals that conflict with player development"
+    ],
+    "confirmedAcceptedSponsors": [],
+    "principles": [
+      "Reject betting-company partnerships without negotiation.",
+      "Reject sponsorships that prioritize branding over player development.",
+      "Evaluate sponsorships against Kairos's long-term player-development philosophy."
+    ]
+  },
+  "confirmedFacts": [
+    "Adrian Vale is the founder and owner of Kairos Esports.",
+    "Kairos Esports is a long-term talent development project.",
+    "Asterion Intelligence is the parent company.",
+    "Long-term sustainability matters more than immediate trophies.",
+    "League of Legends and Counter-Strike are the first divisions.",
+    "Additional games may be added later.",
+    "Kairos Esports has not played an official match.",
+    "Both first divisions have their next competitive milestone planned for February 2027.",
+    "Kairos is scheduled to begin official League, NACL, and Counter-Strike competition in February 2027.",
+    "The story begins in early 2026.",
+    "The current narrative date is late October 2026.",
+    "The next competitive milestone is February 2027.",
+    "Kairos has begun receiving sponsorship proposals.",
+    "Adrian Vale rejected a betting-company proposal without negotiation.",
+    "Kairos rejects sponsorships that prioritize branding over player development.",
+    "Caleb \"Atlas\" Mercer is the first signed Kairos Counter-Strike player and Founding Captain.",
+    "Owen \"Glacier\" Fletcher, Cameron \"Mold\" Ruiz, and Emiliano \"MoteConHuesillo\" Navarro are unsigned Counter-Strike prospects."
+  ],
+  "unconfirmedDetails": [
+    "The exact founding date is TBD.",
+    "The exact competitive milestone dates in February 2027 are TBD.",
+    "Unsupported League biographical, contract, salary, and statistical details are TBD.",
+    "Counter-Strike shared analyst, sports psychology, and performance staff names and exact structures are TBD.",
+    "Contracts, salaries, rankings, statistics, and official results are TBD until narratively confirmed.",
+    "The exact campus address, dimensions, costs, room counts, architecture, and completion dates are TBD."
+  ],
+  "canonNotes": [
+    "A planned debut is not an official match.",
+    "Adrian Elias Vale is referenced through the adrian-elias-vale character record.",
+    "Only Caleb Mercer is signed to the Counter-Strike roster.",
+    "Prospect evaluation does not constitute a signing.",
+    "Northstar Esports is a historical development name; current canon uses Kairos Esports.",
+    "No additional game division is currently confirmed.",
+    "Real-world references must be distinguished from fictional involvement."
+  ]
+}

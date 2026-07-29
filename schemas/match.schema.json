@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/match.schema.json",
+  "title": "Match Record",
+  "description": "Validates a scheduled or completed match while allowing unknown results to remain TBD.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "game",
+    "status",
+    "storyPeriod",
+    "competition",
+    "season",
+    "teams",
+    "scheduledDate",
+    "result",
+    "statistics",
+    "sources",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "game": {
+      "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "storyPeriod": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "competition": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "season": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "teams": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/stableId"
+      },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "scheduledDate": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "result": {
+      "oneOf": [
+        {
+          "type": "object"
+        },
+        {
+          "const": "TBD"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "statistics": {
+      "$ref": "common.schema.json#/$defs/openObject"
+    },
+    "sources": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

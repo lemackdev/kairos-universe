@@ -1,0 +1,12 @@
+[
+  {
+    "id": "competition-lcs",
+    "name": "LCS",
+    "value": "LCS"
+  },
+  {
+    "id": "competition-nacl",
+    "name": "NACL",
+    "value": "NACL"
+  }
+]

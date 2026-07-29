@@ -1,0 +1,76 @@
+{
+  "id": "kairos-lol-main",
+  "slug": "kairos-lol-main",
+  "name": "Kairos League of Legends Main Team",
+  "shortName": "Kairos LoL",
+  "organization": {
+    "id": "kairos-esports",
+    "name": "Kairos Esports"
+  },
+  "game": "League of Legends",
+  "level": "main",
+  "intendedCompetition": "LCS",
+  "status": "active-training-pre-debut",
+  "currentStoryPeriod": {
+    "period": "late-october-2026",
+    "displayName": "Late October 2026",
+    "exactDate": "TBD",
+    "exactYear": "2026"
+  },
+  "officialDebutPeriod": {
+    "status": "planned",
+    "month": "February",
+    "exactDate": "TBD",
+    "exactYear": "2027"
+  },
+  "roster": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "coachingStaff": [
+    "zaqueri-aphromoo-black"
+  ],
+  "mentors": [
+    "darshan-kairos-top-mentor",
+    "xmithie-kairos-jungle-mentor",
+    "pobelter-kairos-mid-mentor",
+    "doublelift-kairos-adc-mentor",
+    "zaqueri-aphromoo-black"
+  ],
+  "captain": "daniel-moss-reyes",
+  "trainingLocation": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
+  },
+  "competitiveHistory": [],
+  "achievements": [],
+  "statistics": {},
+  "confirmedFacts": [
+    "The main team is intended for the LCS.",
+    "The complete five-player main roster is active and training.",
+    "Daniel \"Moss\" Reyes is the captain.",
+    "Aphromoo is Head Coach.",
+    "Each main roster role has a confirmed mentor.",
+    "The League division previously completed a Korean bootcamp and returned to Los Angeles.",
+    "The team has not made its official LCS debut or played an official match.",
+    "The current narrative date is late October 2026.",
+    "The next competitive milestone is February 2027."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar day in late October 2026 is TBD.",
+    "The exact competitive milestone date in February 2027 is TBD.",
+    "Exact Kairos join dates are TBD.",
+    "Contracts, salaries, future results, rankings, and statistics are TBD.",
+    "Detailed staff duties beyond confirmed responsibilities are TBD.",
+    "Exact team assignments for Thinkcard and Emily Chen are TBD."
+  ],
+  "canonNotes": [
+    "A planned LCS debut is not confirmed participation or an official match.",
+    "404 is the Mid laner and must never be listed as captain.",
+    "Moss is the only confirmed captain."
+  ]
+}

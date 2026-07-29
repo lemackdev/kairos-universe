@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/season.schema.json",
+  "title": "Season Record",
+  "description": "Validates a season record without fabricating competition results.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "game",
+    "status",
+    "storyPeriod",
+    "startDate",
+    "endDate",
+    "teams",
+    "competitions",
+    "matches",
+    "standings",
+    "achievements",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "game": {
+      "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "storyPeriod": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "startDate": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "endDate": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "teams": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "competitions": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "matches": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "standings": {
+      "$ref": "common.schema.json#/$defs/openObject"
+    },
+    "achievements": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

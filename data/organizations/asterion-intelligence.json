@@ -1,0 +1,53 @@
+{
+  "id": "asterion-intelligence",
+  "slug": "asterion-intelligence",
+  "name": "Asterion Intelligence",
+  "type": "parent-company",
+  "status": "active",
+  "founder": {
+    "id": "adrian-elias-vale",
+    "realName": "Adrian Elias Vale",
+    "commonName": "Adrian Vale",
+    "narrativeRole": "main protagonist and first-person narrator"
+  },
+  "chiefExecutive": {
+    "id": "adrian-elias-vale",
+    "realName": "Adrian Elias Vale",
+    "commonName": "Adrian Vale",
+    "title": "CEO"
+  },
+  "headquarters": {
+    "city": "TBD",
+    "region": "TBD",
+    "country": "TBD"
+  },
+  "subsidiaries": [
+    {
+      "organizationId": "kairos-esports",
+      "name": "Kairos Esports",
+      "relationship": "subsidiary"
+    }
+  ],
+  "description": "Asterion Intelligence is the parent company of Kairos Esports and provides its financial and organizational foundation.",
+  "confirmedFacts": [
+    "Adrian Elias Vale, commonly known as Adrian Vale, is the main protagonist and first-person narrator.",
+    "Adrian Vale is the founder and CEO of Asterion Intelligence.",
+    "Adrian Vale is the founder and owner of Kairos Esports.",
+    "Asterion Intelligence is the parent company of Kairos Esports.",
+    "Asterion Intelligence provides the financial and organizational foundation of Kairos Esports."
+  ],
+  "unconfirmedDetails": [
+    "The exact founding date is TBD.",
+    "The headquarters are TBD.",
+    "The detailed corporate structure is TBD.",
+    "Business activities beyond supporting Kairos Esports are TBD.",
+    "Financial figures, valuation, and funding details are TBD."
+  ],
+  "canonNotes": [
+    "Do not infer Asterion Intelligence's headquarters from the location of the Kairos campus.",
+    "The narrator's confirmed full name is Adrian Elias Vale.",
+    "The stable character ID for Adrian is adrian-elias-vale.",
+    "Historical Episode 1 corporate history, valuation, and technical details do not override current TBD fields.",
+    "Additional company details remain unconfirmed unless supported by a canonical source."
+  ]
+}

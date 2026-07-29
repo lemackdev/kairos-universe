@@ -1,0 +1,151 @@
+{
+  "id": "adrian-elias-vale",
+  "slug": "adrian-elias-vale",
+  "fullName": "Adrian Elias Vale",
+  "commonName": "Adrian Vale",
+  "nationality": "American",
+  "baseLocation": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
+  },
+  "occupations": [
+    {
+      "title": "Founder and CEO",
+      "organizationId": "asterion-intelligence",
+      "status": "active"
+    },
+    {
+      "title": "Founder and owner",
+      "organizationId": "kairos-esports",
+      "status": "active"
+    }
+  ],
+  "narrativeRoles": [
+    "first-person-narrator",
+    "main-protagonist"
+  ],
+  "firstAppearance": {
+    "episodeId": "episode-001",
+    "episodeNumber": 1,
+    "historicalTitle": "O Começo"
+  },
+  "lifeStatus": "alive",
+  "status": "active",
+  "canonStatus": "confirmed",
+  "publicProfile": "Technology entrepreneur and billionaire",
+  "personality": [
+    "Reserved.",
+    "Long-term thinker.",
+    "Highly analytical.",
+    "More interested in building institutions than receiving attention.",
+    "Protective of young players and their futures.",
+    "Willing to accept financial losses to strengthen North American esports."
+  ],
+  "visualTraits": [
+    "Usually wears black shirts.",
+    "Drives a relatively ordinary car despite his wealth.",
+    "Lives in a modern home in Bel Air."
+  ],
+  "philosophy": [
+    "Develop people before pursuing championships.",
+    "Do not trap players through abusive contracts.",
+    "Build systems intended to survive for decades.",
+    "Kairos exists to strengthen the entire North American ecosystem."
+  ],
+  "relationships": [
+    {
+      "subjectId": "asterion-intelligence",
+      "type": "chief-executive",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "asterion-intelligence",
+      "type": "founder",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "kairos-esports",
+      "type": "founder",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "kairos-esports",
+      "type": "owner",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "founder",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "mutual-respect",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "scout",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "recruitment-target",
+      "status": "confirmed"
+    }
+  ],
+  "individualTimeline": [
+    "Episode 1, \"O Começo\": Adrian first appears as the unnamed first-person narrator in the historical prose.",
+    "Early 2026: Adrian begins planning the organization that becomes Kairos Esports.",
+    "Early 2026: Adrian establishes Kairos Esports as its founder and owner.",
+    "2026: Adrian personally participates in recruiting and developing the original League of Legends program.",
+    "Late October 2026: Adrian oversees the early construction of the Counter-Strike division.",
+    "Episodes 30-35: Adrian personally evaluates Caleb Mercer, rejects sponsorship proposals that conflict with Kairos philosophy, and begins personally recruiting Owen Fletcher.",
+    "Late October 2026: Adrian travels to Mackenzie, British Columbia, and meets Owen Fletcher for the first time.",
+    "February 2027: Kairos is scheduled to begin official League, NACL, and Counter-Strike competition."
+  ],
+  "confirmedFacts": [
+    "Adrian Elias Vale is commonly known as Adrian Vale.",
+    "Adrian is American and based in Los Angeles, California.",
+    "He is the founder and CEO of Asterion Intelligence.",
+    "He is the founder and owner of Kairos Esports.",
+    "He is the main protagonist and first-person narrator of the original episodes.",
+    "He first appears in Episode 1, \"O Começo\".",
+    "He is alive and active.",
+    "His public profile is a technology entrepreneur and billionaire.",
+    "He usually wears black shirts.",
+    "He drives a relatively ordinary car despite his wealth.",
+    "He lives in a modern home in Bel Air.",
+    "He personally evaluates Caleb Mercer.",
+    "He rejects a betting-company proposal without negotiation.",
+    "He rejects sponsorship proposals that prioritize branding over player development.",
+    "He begins personally recruiting Owen Fletcher."
+  ],
+  "unconfirmedDetails": [
+    "Age and date of birth are TBD.",
+    "Parents and other family history are TBD.",
+    "Romantic relationships are TBD.",
+    "Education is TBD.",
+    "Ethnicity is TBD.",
+    "Physical appearance beyond the established clothing detail is TBD.",
+    "Personal history beyond confirmed source material is TBD.",
+    "Exact net worth and financial holdings are TBD."
+  ],
+  "canonNotes": [
+    "The historical episode prose leaves the narrator unnamed; current canon metadata identifies him as Adrian Elias Vale.",
+    "Do not insert Adrian's name retroactively into archived dialogue or narration.",
+    "Future episodes may use Adrian's name naturally when another character addresses or introduces him.",
+    "No unsupported biographical detail is established by this record."
+  ]
+}

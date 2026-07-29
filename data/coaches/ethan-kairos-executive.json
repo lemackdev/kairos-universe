@@ -1,0 +1,56 @@
+{
+  "id": "ethan-kairos-executive",
+  "slug": "ethan-kairos-executive",
+  "realName": "Ethan",
+  "nickname": "TBD",
+  "nationality": "TBD",
+  "role": "Executive",
+  "division": "TBD",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "TBD",
+  "status": "active",
+  "firstAppearance": "episode-001",
+  "joinedKairos": "TBD",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Serve as an executive within Kairos Esports."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-esports",
+      "type": "executive",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 1: Ethan first appears as an Asterion executive involved in the esports project."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Ethan is an active executive at Kairos Esports.",
+    "Ethan is a fictional character.",
+    "Ethan the executive is distinct from Ethan \"Vanta\" Walker.",
+    "The first confirmed appearance is episode-001."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Full name is TBD.",
+    "Age is TBD.",
+    "Exact title is TBD.",
+    "Division assignment is TBD.",
+    "Exact reporting line is TBD.",
+    "Former playing career is TBD."
+  ],
+  "canonNotes": [
+    "Use the stable ID ethan-kairos-executive.",
+    "Do not confuse this character with Ethan \"Vanta\" Walker."
+  ]
+}

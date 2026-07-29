@@ -1,0 +1,112 @@
+{
+  "id": "episode-020",
+  "slug": "episode-020",
+  "episodeNumber": 20,
+  "title": null,
+  "historicalTitle": "A Última Partida",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 123,
+    "pageEnd": 129,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 20,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Seoul, South Korea"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "doublelift-kairos-adc-mentor",
+    "pobelter-kairos-mid-mentor",
+    "marcus-kairos-general-manager",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Kairos wins the deciding private practice game and completes the T1 Academy scrim series with a 2-1 practice result.",
+  "keyEvents": [
+    "Kairos wins the third practice game against T1 Academy.",
+    "The private scrim series ends 2-1 for Kairos.",
+    "The narrator later reviews the internal replay."
+  ],
+  "consequences": [
+    "The roster gains confidence without treating the practice result as an official achievement."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-019"
+  ],
+  "continuityNotes": [
+    "The 2-1 score is a private scrim result, not an official match, title, ranking, or achievement.",
+    "Internal replay access is the current interpretation of the recording inconsistency."
+  ],
+  "historicalNotes": [
+    "The narrator's replay review conflicts with Episode 19's literal no-recording statement."
+  ],
+  "realWorldReferences": [
+    "T1 Academy appears as a fictional private scrim opponent."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 123-129",
+      "information": "Original historical source for Episode 20, \"A Última Partida\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "T1 Academy Scrim Recording",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"A Última Partida\".",
+    "Kairos wins the third practice game against T1 Academy.",
+    "The private scrim series ends 2-1 for Kairos.",
+    "The narrator later reviews the internal replay.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

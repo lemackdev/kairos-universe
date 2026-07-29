@@ -1,0 +1,88 @@
+{
+  "id": "lukas-luk-novak",
+  "slug": "lukas-luk-novak",
+  "realName": "Lukas Novak",
+  "nickname": "Luk",
+  "nationality": "Slovenian",
+  "role": "Head Coach",
+  "division": "Counter-Strike",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-cs-main",
+  "status": "active",
+  "firstAppearance": "episode-025",
+  "joinedKairos": "TBD",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "Recently retired European Tier 2 Counter-Strike player",
+  "coachingPhilosophy": "Develop players through complementary roles, adaptable decision-making, balanced structure and creativity, and high-quality communication, with the IGL as the first structural piece and long-term growth prioritized over early rankings.",
+  "responsibilities": [
+    "Define the overall Kairos Counter-Strike philosophy.",
+    "Lead Kairos Counter-Strike as Head Coach.",
+    "Mentor Ethan \"Trace\" Miller.",
+    "Build the roster around complementary roles.",
+    "Make the IGL the first structural piece of the roster.",
+    "Lead the Counter-Strike scouting process.",
+    "Present Caleb Mercer and Owen Fletcher as primary candidates.",
+    "Participate in player evaluation."
+  ],
+  "personality": "Calm, analytical, and development-focused",
+  "relationships": [
+    {
+      "subjectId": "kairos-cs-main",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "role-mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "tactical-evaluator",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [
+    "Create a sustainable Counter-Strike development system.",
+    "Develop young players rather than hide their weaknesses.",
+    "Teach players to make decisions instead of only executing fixed calls.",
+    "Build the main roster beginning with its IGL."
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 25: Luk is introduced, becomes Head Coach of Kairos Counter-Strike, and begins mentoring Trace.",
+    "Episodes 30-35: Luk leads scouting, presents Caleb Mercer and Owen Fletcher, and participates in player evaluation."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Lukas Novak is a fictional Slovenian Counter-Strike coach known as Luk.",
+    "He is Head Coach of Kairos Counter-Strike.",
+    "He is a recently retired European Tier 2 Counter-Strike player.",
+    "He is not presented as a former elite superstar.",
+    "He understands the European development system.",
+    "He is calm, analytical, and development-focused.",
+    "He defines the overall Kairos Counter-Strike philosophy.",
+    "He mentors Ethan \"Trace\" Miller.",
+    "His philosophy prioritizes player development, decision-making, complementary roles, communication quality, and long-term growth.",
+    "His first confirmed appearance is Episode 25.",
+    "He leads the current scouting process and presents Caleb Mercer and Owen Fletcher.",
+    "He participates in player evaluation."
+  ],
+  "unconfirmedDetails": [
+    "His exact age, date of birth, and city are TBD.",
+    "His former teams, playing role, playing statistics, and exact retirement date are TBD.",
+    "His exact Kairos join date is TBD.",
+    "His exact contract terms, contract dates, and salary are TBD.",
+    "His previous achievements, Major appearances, and coaching history are TBD."
+  ],
+  "canonNotes": [
+    "Luk is a fictional character.",
+    "Do not present him as a former elite superstar.",
+    "Do not invent former teams, achievements, Major appearances, contracts, salary, or coaching history."
+  ]
+}

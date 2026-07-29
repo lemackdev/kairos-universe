@@ -1,0 +1,52 @@
+{
+  "id": "darshan-kairos-top-mentor",
+  "slug": "darshan-kairos-top-mentor",
+  "realName": "Darshan Upadhyaya",
+  "nickname": "Darshan",
+  "nationality": "TBD",
+  "role": "Top Mentor",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-main",
+  "status": "active",
+  "firstAppearance": "episode-015",
+  "joinedKairos": "TBD",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Mentor the main roster Top role."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "noah-rkn-bennett",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 15: Darshan first appears as the confirmed Top mentor."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Darshan is the confirmed Top mentor for the Kairos League main roster.",
+    "Darshan is a real-world esports figure used in a fictional Kairos role.",
+    "Darshan's public real name is Darshan Upadhyaya.",
+    "The first confirmed appearance is episode-015."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Former playing career details are TBD.",
+    "Detailed mentor duties are TBD."
+  ],
+  "canonNotes": [
+    "The Kairos role is fictional canon and must be distinguished from real-world background.",
+    "Do not invent contract values or exact start dates."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "episode-006",
+  "slug": "episode-006",
+  "episodeNumber": 6,
+  "title": null,
+  "historicalTitle": "As Primeiras Propostas",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 28,
+    "pageEnd": 34,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 6,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "noah-rkn-bennett",
+    "mason-404-brooks"
+  ],
+  "firstAppearances": [
+    "mason-404-brooks"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Kairos formalizes a family-centered recruitment approach and evaluates how to support talented young players without ignoring personal risk or development needs.",
+  "keyEvents": [
+    "Kairos presents its first player proposals to families.",
+    "Education, health, and structured support are treated as recruitment requirements.",
+    "Mason Brooks appears as an unnamed scouting subject later explicitly identified in Episode 9."
+  ],
+  "consequences": [
+    "Kairos establishes that talent does not replace character and support evaluation.",
+    "Mason remains in the recruitment process."
+  ],
+  "canonIntroduced": [
+    "Young players receive structured organizational support.",
+    "Kairos avoids treating player welfare as secondary to competitive talent."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-005"
+  ],
+  "continuityNotes": [
+    "Episode 9 explicitly identifies Mason as the previously unnamed candidate described here.",
+    "Private family details are historical narrative context and are not added to the current player schema."
+  ],
+  "historicalNotes": [
+    "The source contains sensitive family and mental-health context that is preserved in the archive but not duplicated into the current player profile."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 28-34",
+      "information": "Original historical source for Episode 6, \"As Primeiras Propostas\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"As Primeiras Propostas\".",
+    "Kairos presents its first player proposals to families.",
+    "Education, health, and structured support are treated as recruitment requirements.",
+    "Mason Brooks appears as an unnamed scouting subject later explicitly identified in Episode 9.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/organization.schema.json",
+  "title": "Organization Record",
+  "description": "Validates company and esports organization records while allowing entity-specific optional sections.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "status",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "founder": {
+      "type": "object",
+      "required": [
+        "id",
+        "realName"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        "realName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "commonName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "narrativeRole": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "chiefExecutive": {
+      "type": "object",
+      "required": [
+        "id",
+        "realName",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        "realName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "commonName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "owner": {
+      "type": "object",
+      "required": [
+        "id",
+        "realName",
+        "commonName"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        "realName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        },
+        "commonName": {
+          "$ref": "common.schema.json#/$defs/stringOrTbd"
+        }
+      },
+      "additionalProperties": false
+    },
+    "headquarters": {
+      "$ref": "common.schema.json#/$defs/location"
+    },
+    "subsidiaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "organizationId",
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "organizationId": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relationship": {
+            "enum": [
+              "subsidiary"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parentOrganization": {
+      "$ref": "common.schema.json#/$defs/organizationReference"
+    },
+    "currentStoryPeriod": {
+      "$ref": "common.schema.json#/$defs/storyPeriod"
+    },
+    "storyStartPeriod": {
+      "$ref": "common.schema.json#/$defs/storyPeriod"
+    },
+    "officialDebutPeriod": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "common.schema.json#/$defs/plannedPeriod"
+      }
+    },
+    "divisions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "philosophy": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "longTermGoals": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "facilities": {
+      "type": "object"
+    },
+    "sponsorship": {
+      "type": "object",
+      "required": [
+        "status",
+        "proposalCategories",
+        "rejectedCategories",
+        "confirmedAcceptedSponsors",
+        "principles"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposalCategories": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "rejectedCategories": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "confirmedAcceptedSponsors": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "principles": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        }
+      },
+      "additionalProperties": false
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

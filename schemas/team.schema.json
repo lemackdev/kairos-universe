@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/team.schema.json",
+  "title": "Team Record",
+  "description": "Validates a team, its references, current competitive state, and canon metadata.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "shortName",
+    "organization",
+    "game",
+    "level",
+    "intendedCompetition",
+    "status",
+    "currentStoryPeriod",
+    "officialDebutPeriod",
+    "roster",
+    "coachingStaff",
+    "mentors",
+    "captain",
+    "trainingLocation",
+    "competitiveHistory",
+    "achievements",
+    "statistics",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "shortName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organization": {
+      "$ref": "common.schema.json#/$defs/organizationReference"
+    },
+    "game": {
+      "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "level": {
+      "$ref": "common.schema.json#/$defs/knownRosterLevel"
+    },
+    "intendedCompetition": {
+      "$ref": "common.schema.json#/$defs/knownCompetitionOrPurpose"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "currentStoryPeriod": {
+      "$ref": "common.schema.json#/$defs/storyPeriod"
+    },
+    "officialDebutPeriod": {
+      "$ref": "common.schema.json#/$defs/plannedPeriod"
+    },
+    "roster": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "coachingStaff": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "mentors": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "captain": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "trainingLocation": {
+      "$ref": "common.schema.json#/$defs/location"
+    },
+    "competitiveHistory": {
+      "type": "array"
+    },
+    "achievements": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "statistics": {
+      "$ref": "common.schema.json#/$defs/openObject"
+    },
+    "prospectPipeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "candidateId",
+          "priority",
+          "status"
+        ],
+        "properties": {
+          "role": {
+            "$ref": "common.schema.json#/$defs/knownRole"
+          },
+          "candidateId": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "priority": {
+            "enum": [
+              "active",
+              "primary"
+            ]
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/knownStatus"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

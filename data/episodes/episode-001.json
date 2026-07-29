@@ -1,0 +1,117 @@
+{
+  "id": "episode-001",
+  "slug": "episode-001",
+  "episodeNumber": 1,
+  "title": null,
+  "historicalTitle": "O Começo",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 1,
+    "pageEnd": 4,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 1,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "ethan-kairos-executive"
+  ],
+  "firstAppearances": [
+    "adrian-elias-vale",
+    "ethan-kairos-executive"
+  ],
+  "organizations": [
+    "asterion-intelligence",
+    "kairos-esports"
+  ],
+  "teams": [],
+  "summary": "The narrator establishes the organizational motive for a long-term esports development project backed by Asterion Intelligence. The organization is Kairos Esports in current canon.",
+  "keyEvents": [
+    "Asterion Intelligence exists under the narrator's leadership.",
+    "The narrator conceives a long-term esports talent-development organization.",
+    "League of Legends and Counter-Strike are identified as the first divisions."
+  ],
+  "consequences": [
+    "The Kairos Esports project begins.",
+    "Asterion provides the project's financial and organizational foundation."
+  ],
+  "canonIntroduced": [
+    "The narrator leads Asterion Intelligence and founds Kairos Esports.",
+    "Kairos is designed around long-term player development."
+  ],
+  "canonChanged": [
+    "The historical Northstar Esports development name is replaced by Kairos Esports in current canon."
+  ],
+  "continuityDependencies": [],
+  "continuityNotes": [
+    "Current canon uses Kairos Esports from the organization's inception.",
+    "The story begins in early 2026."
+  ],
+  "historicalNotes": [
+    "The episode uses Northstar Esports as the initial organization name.",
+    "The episode's early 2026 reference matches current canon; its detailed Asterion financial and corporate history remains historical only."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "retcon-organization-name-northstar-to-kairos",
+      "status": "retconned",
+      "description": "Northstar Esports is a historical development name. The current organization name is Kairos Esports.",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 1-4",
+      "information": "Original historical source for Episode 1, \"O Começo\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Organization Name; Timeline Drift",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Começo\".",
+    "Asterion Intelligence exists under the narrator's leadership.",
+    "The narrator conceives a long-term esports talent-development organization.",
+    "League of Legends and Counter-Strike are identified as the first divisions.",
+    "The story begins in early 2026."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "roster-level-academy",
+    "name": "Academy",
+    "value": "academy"
+  },
+  {
+    "id": "roster-level-academy-blue",
+    "name": "Academy Blue",
+    "value": "academy-blue"
+  },
+  {
+    "id": "roster-level-academy-white",
+    "name": "Academy White",
+    "value": "academy-white"
+  },
+  {
+    "id": "roster-level-main",
+    "name": "Main",
+    "value": "main"
+  },
+  {
+    "id": "roster-level-prospect",
+    "name": "Prospect",
+    "value": "prospect"
+  }
+]

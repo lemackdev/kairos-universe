@@ -1,0 +1,70 @@
+{
+  "id": "kairos-lol-academy-blue",
+  "slug": "kairos-lol-academy-blue",
+  "name": "Kairos Academy Blue",
+  "shortName": "Academy Blue",
+  "organization": {
+    "id": "kairos-esports",
+    "name": "Kairos Esports"
+  },
+  "game": "League of Legends",
+  "level": "academy-blue",
+  "intendedCompetition": "NACL",
+  "status": "active-training-pre-debut",
+  "currentStoryPeriod": {
+    "period": "late-october-2026",
+    "displayName": "Late October 2026",
+    "exactDate": "TBD",
+    "exactYear": "2026"
+  },
+  "officialDebutPeriod": {
+    "status": "planned",
+    "month": "February",
+    "exactDate": "TBD",
+    "exactYear": "2027"
+  },
+  "roster": [
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster"
+  ],
+  "coachingStaff": [],
+  "mentors": [
+    "zaqueri-aphromoo-black"
+  ],
+  "captain": "TBD",
+  "trainingLocation": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
+  },
+  "competitiveHistory": [],
+  "achievements": [],
+  "statistics": {},
+  "confirmedFacts": [
+    "Academy Blue is intended for the NACL.",
+    "The five-player roster is active and training.",
+    "Owen \"Kite\" Hughes is explicitly identified as the Mid player in historical Episode 22.",
+    "The League division previously completed a Korean bootcamp and returned to Los Angeles.",
+    "Academy Blue has not played an official match.",
+    "The current narrative date is late October 2026.",
+    "The next competitive milestone is February 2027.",
+    "Aphromoo mentors academy players with a focus on professional habits and player development."
+  ],
+  "unconfirmedDetails": [
+    "Roles other than Kite's Mid role, plus player ages, cities, birth dates, personalities, and playstyles, are TBD.",
+    "The captain is TBD.",
+    "Specific coaching staff and mentor assignments beyond Aphromoo are TBD.",
+    "The exact calendar day in late October 2026 is TBD.",
+    "The exact competitive milestone date in February 2027 is TBD.",
+    "Contracts, salaries, future results, rankings, and statistics are TBD."
+  ],
+  "canonNotes": [
+    "Do not infer roles from roster order.",
+    "Kite's role is source-backed and does not rely on roster-order inference.",
+    "NACL is the intended destination, not a completed competition entry.",
+    "Academy Blue exists for real player development and progression."
+  ]
+}

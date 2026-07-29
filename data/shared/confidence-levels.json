@@ -1,0 +1,27 @@
+[
+  {
+    "id": "confidence-confirmed",
+    "name": "Confirmed",
+    "value": "confirmed"
+  },
+  {
+    "id": "confidence-high",
+    "name": "High",
+    "value": "high"
+  },
+  {
+    "id": "confidence-low",
+    "name": "Low",
+    "value": "low"
+  },
+  {
+    "id": "confidence-medium",
+    "name": "Medium",
+    "value": "medium"
+  },
+  {
+    "id": "confidence-unknown",
+    "name": "Unknown",
+    "value": "unknown"
+  }
+]

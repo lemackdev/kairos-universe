@@ -1,0 +1,123 @@
+{
+  "id": "episode-028",
+  "slug": "episode-028",
+  "episodeNumber": 28,
+  "title": "The October Report",
+  "historicalTitle": "O Relatório de Outubro",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 173,
+    "pageEnd": 178,
+    "duplicatePageRanges": [
+      "179-184"
+    ]
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 28,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "emily-chen",
+    "claire-kairos-executive",
+    "lukas-luk-novak",
+    "ethan-trace-miller"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos reviews global development patterns, confirms its preference for recruiting Counter-Strike players aged 16 to 18, and keeps February 2027 as the planned debut period.",
+  "keyEvents": [
+    "Kairos reviews development systems across League and Counter-Strike.",
+    "The Counter-Strike age preference is set at 16 to 18.",
+    "February 2027 remains the planned League and Counter-Strike debut period.",
+    "The long-term Counter-Strike goal remains Major contention rather than short-term launch results."
+  ],
+  "consequences": [
+    "The age policy and long-term roster-building approach are reinforced.",
+    "No Counter-Strike player is signed."
+  ],
+  "canonIntroduced": [
+    "Kairos prefers signing Counter-Strike prospects aged 16 to 18.",
+    "The February 2027 launch is a milestone, not the final objective."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-027"
+  ],
+  "continuityNotes": [
+    "The source's statement that coaches still need to be hired means remaining support staff and coaching infrastructure, not Luk and Trace.",
+    "Only pages 173-178 are used as the Episode 28 historical record.",
+    "Pages 179-184 are an identical duplicate retained only inside the immutable PDF."
+  ],
+  "historicalNotes": [
+    "The PDF duplicates Episode 28 exactly.",
+    "Global regional assessments and numerical analysis remain historical setting material.",
+    "The coaching statement conflicts literally with Episodes 25-26 and is normalized through the audit interpretation."
+  ],
+  "realWorldReferences": [
+    "LCK, LPL, LEC, LCS, CBLOL, Majors, and global Counter-Strike regions are historical background references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 173-178",
+      "information": "Original historical source for Episode 28, \"O Relatório de Outubro\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Counter-Strike Coaching Timeline; Episode 28 Duplication; Timeline Drift",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Relatório de Outubro\".",
+    "Kairos reviews development systems across League and Counter-Strike.",
+    "The Counter-Strike age preference is set at 16 to 18.",
+    "February 2027 remains the planned League and Counter-Strike debut period.",
+    "The long-term Counter-Strike goal remains Major contention rather than short-term launch results.",
+    "The episode occurs in late October 2026."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

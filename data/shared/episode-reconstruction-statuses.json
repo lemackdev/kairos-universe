@@ -1,0 +1,17 @@
+[
+  {
+    "id": "episode-reconstruction-status-initial-record-source-recovery-required",
+    "name": "Initial record created; source recovery required",
+    "value": "initial-record-source-recovery-required"
+  },
+  {
+    "id": "episode-reconstruction-status-source-recovery-required",
+    "name": "Source recovery required",
+    "value": "source-recovery-required"
+  },
+  {
+    "id": "episode-reconstruction-status-source-recovered",
+    "name": "Historical source recovered",
+    "value": "source-recovered"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "id": "episode-019",
+  "slug": "episode-019",
+  "episodeNumber": 19,
+  "title": null,
+  "historicalTitle": "A T1 Academy",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 118,
+    "pageEnd": 122,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 19,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Seoul, South Korea"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "emily-chen",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Kairos begins a private best-of-three scrim against T1 Academy, loses the first game, and wins the second through adaptation.",
+  "keyEvents": [
+    "The private T1 Academy scrim begins.",
+    "Kairos loses the first practice game.",
+    "Kairos wins the second practice game.",
+    "The series reaches a deciding third practice game."
+  ],
+  "consequences": [
+    "The main roster demonstrates that it can adapt within a series."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-018"
+  ],
+  "continuityNotes": [
+    "The source says there is no broadcast and no recording.",
+    "Current interpretation treats this as no public broadcast or public recording; internal replay access remains plausible.",
+    "The practice games are not official match results."
+  ],
+  "historicalNotes": [
+    "The no-recording statement conflicts with Episode 20's internal replay review."
+  ],
+  "realWorldReferences": [
+    "T1 Academy appears as a fictional private scrim opponent."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 118-122",
+      "information": "Original historical source for Episode 19, \"A T1 Academy\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "T1 Academy Scrim Recording",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"A T1 Academy\".",
+    "The private T1 Academy scrim begins.",
+    "Kairos loses the first practice game.",
+    "Kairos wins the second practice game.",
+    "The series reaches a deciding third practice game.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

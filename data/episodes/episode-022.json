@@ -1,0 +1,132 @@
+{
+  "id": "episode-022",
+  "slug": "episode-022",
+  "episodeNumber": 22,
+  "title": null,
+  "historicalTitle": "De Volta Para Casa",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 136,
+    "pageEnd": 141,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 22,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Incheon, South Korea",
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "emily-chen",
+    "darshan-kairos-top-mentor",
+    "doublelift-kairos-adc-mentor",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "owen-kite-hughes",
+    "benjamin-vex-carter",
+    "cole-june-mercer"
+  ],
+  "firstAppearances": [
+    "connor-mako-sullivan",
+    "owen-kite-hughes",
+    "benjamin-vex-carter",
+    "cole-june-mercer"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "The League division returns to Los Angeles and begins a formal cross-roster progression program connecting the main team, Academy Blue, and Academy White.",
+  "keyEvents": [
+    "The main roster returns from South Korea to Los Angeles.",
+    "Kairos opens movement and training pathways between all three League rosters.",
+    "The Kairos Progression Program begins.",
+    "Vex is explicitly identified as Academy White's Jungle player.",
+    "Kite is explicitly identified as Academy Blue's Mid player.",
+    "June is explicitly identified as Academy White's ADC."
+  ],
+  "consequences": [
+    "All three League teams train within one progression system.",
+    "Source-proven Academy role information becomes available for Vex, Kite, and June."
+  ],
+  "canonIntroduced": [
+    "Academy players may progress upward through structured cross-roster training.",
+    "Academy teams share methodology with the main team."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-021"
+  ],
+  "continuityNotes": [
+    "Mako appears in a Top-focused training context, but the source does not explicitly state Mako's role; it remains TBD."
+  ],
+  "historicalNotes": [
+    "Historical cross-team scrim percentages are not copied into current statistics."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 136-141",
+      "information": "Original historical source for Episode 22, \"De Volta Para Casa\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"De Volta Para Casa\".",
+    "The main roster returns from South Korea to Los Angeles.",
+    "Kairos opens movement and training pathways between all three League rosters.",
+    "The Kairos Progression Program begins.",
+    "Vex is explicitly identified as Academy White's Jungle player.",
+    "Kite is explicitly identified as Academy Blue's Mid player.",
+    "June is explicitly identified as Academy White's ADC.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

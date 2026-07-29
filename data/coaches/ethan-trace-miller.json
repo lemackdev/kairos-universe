@@ -1,0 +1,82 @@
+{
+  "id": "ethan-trace-miller",
+  "slug": "ethan-trace-miller",
+  "realName": "Ethan Miller",
+  "nickname": "Trace",
+  "nationality": "American",
+  "role": "Head Coach",
+  "division": "Counter-Strike",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-cs-academy",
+  "status": "active",
+  "firstAppearance": "episode-025",
+  "joinedKairos": "TBD",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "Former American regional Counter-Strike player",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Lead Kairos Counter-Strike Academy as Head Coach.",
+    "Translate Luk's philosophy into academy training.",
+    "Learn roster construction, player development, and tactical preparation.",
+    "Develop an independent coaching identity over time.",
+    "Prepare academy players for progression to the main team.",
+    "Continue evaluating Caleb Mercer.",
+    "Conduct tactical discussions during prospect evaluation.",
+    "Assist the recruitment process."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-cs-academy",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lukas-luk-novak",
+      "type": "role-mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "tactical-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [
+    "Develop into a future elite coach.",
+    "Learn roster construction and player development from Luk.",
+    "Build an academy pathway that prepares players for the main team.",
+    "Develop his own coaching identity over time."
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 25: Trace is introduced and appointed Head Coach of Kairos Counter-Strike Academy after expecting a possible assistant-coach role.",
+    "Episodes 30-35: Trace continues evaluating Caleb Mercer, conducts tactical discussions, and assists recruitment."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Ethan Miller is a fictional American Counter-Strike coach known as Trace.",
+    "He is Head Coach of Kairos Counter-Strike Academy.",
+    "He is a former American regional Counter-Strike player.",
+    "He originally expected to become an assistant coach.",
+    "He was instead appointed Head Coach of the Academy.",
+    "He is a pupil of Lukas \"Luk\" Novak.",
+    "Kairos is developing him as a future elite coach.",
+    "He prepares academy players for progression to the main team.",
+    "His first confirmed appearance is Episode 25.",
+    "He continues evaluating Caleb Mercer and serves as Caleb's tactical mentor.",
+    "He assists the recruitment process."
+  ],
+  "unconfirmedDetails": [
+    "His exact age, date of birth, and city are TBD.",
+    "His former teams, playing role, playing statistics, and exact retirement date are TBD.",
+    "His exact Kairos join date is TBD.",
+    "His exact contract terms, contract dates, and salary are TBD.",
+    "His detailed coaching philosophy, personality, previous organizations, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "Trace is a fictional character.",
+    "Do not confuse Ethan \"Trace\" Miller with Ethan \"Vanta\" Walker or the Kairos executive named Ethan.",
+    "Do not invent previous organizations, achievements, contracts, salary, or coaching history."
+  ]
+}

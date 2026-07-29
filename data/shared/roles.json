@@ -1,0 +1,97 @@
+[
+  {
+    "id": "role-adc",
+    "name": "ADC",
+    "value": "ADC"
+  },
+  {
+    "id": "role-adc-mentor",
+    "name": "ADC Mentor",
+    "value": "ADC Mentor"
+  },
+  {
+    "id": "role-analytics-and-performance",
+    "name": "Analytics and Performance",
+    "value": "Analytics and Performance"
+  },
+  {
+    "id": "role-awper",
+    "name": "AWPer",
+    "value": "AWPer"
+  },
+  {
+    "id": "role-executive",
+    "name": "Executive",
+    "value": "Executive"
+  },
+  {
+    "id": "role-founder-and-ceo",
+    "name": "Founder and CEO",
+    "value": "Founder and CEO"
+  },
+  {
+    "id": "role-general-manager",
+    "name": "General Manager",
+    "value": "General Manager"
+  },
+  {
+    "id": "role-head-coach",
+    "name": "Head Coach",
+    "value": "Head Coach"
+  },
+  {
+    "id": "role-head-coach-and-support-mentor",
+    "name": "Head Coach and Support Mentor",
+    "value": "Head Coach and Support Mentor"
+  },
+  {
+    "id": "role-igl",
+    "name": "IGL",
+    "value": "IGL"
+  },
+  {
+    "id": "role-jungle",
+    "name": "Jungle",
+    "value": "Jungle"
+  },
+  {
+    "id": "role-jungle-mentor",
+    "name": "Jungle Mentor",
+    "value": "Jungle Mentor"
+  },
+  {
+    "id": "role-mid",
+    "name": "Mid",
+    "value": "Mid"
+  },
+  {
+    "id": "role-mid-mentor",
+    "name": "Mid Mentor",
+    "value": "Mid Mentor"
+  },
+  {
+    "id": "role-strategic-coach",
+    "name": "Strategic Coach",
+    "value": "Strategic Coach"
+  },
+  {
+    "id": "role-support",
+    "name": "Support",
+    "value": "Support"
+  },
+  {
+    "id": "role-tbd",
+    "name": "TBD",
+    "value": "TBD"
+  },
+  {
+    "id": "role-top",
+    "name": "Top",
+    "value": "Top"
+  },
+  {
+    "id": "role-top-mentor",
+    "name": "Top Mentor",
+    "value": "Top Mentor"
+  }
+]

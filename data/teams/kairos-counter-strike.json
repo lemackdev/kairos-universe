@@ -1,0 +1,91 @@
+{
+  "id": "kairos-cs-main",
+  "slug": "kairos-cs-main",
+  "name": "Kairos Counter-Strike",
+  "shortName": "Kairos CS",
+  "organization": {
+    "id": "kairos-esports",
+    "name": "Kairos Esports"
+  },
+  "game": "Counter-Strike",
+  "level": "main",
+  "intendedCompetition": "TBD",
+  "status": "training-pre-debut",
+  "currentStoryPeriod": {
+    "period": "late-october-2026",
+    "displayName": "Late October 2026",
+    "exactDate": "TBD",
+    "exactYear": "2026"
+  },
+  "officialDebutPeriod": {
+    "status": "planned",
+    "month": "February",
+    "exactDate": "TBD",
+    "exactYear": "2027"
+  },
+  "roster": [
+    "caleb-atlas-mercer"
+  ],
+  "coachingStaff": [
+    "lukas-luk-novak"
+  ],
+  "mentors": [],
+  "captain": "caleb-atlas-mercer",
+  "trainingLocation": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
+  },
+  "competitiveHistory": [],
+  "achievements": [],
+  "statistics": {},
+  "prospectPipeline": [
+    {
+      "role": "AWPer",
+      "candidateId": "owen-glacier-fletcher",
+      "priority": "primary",
+      "status": "unsigned-prospect"
+    },
+    {
+      "role": "TBD",
+      "candidateId": "cameron-mold-ruiz",
+      "priority": "active",
+      "status": "unsigned-prospect"
+    },
+    {
+      "role": "TBD",
+      "candidateId": "emiliano-moteconhuesillo-navarro",
+      "priority": "active",
+      "status": "unsigned-prospect"
+    }
+  ],
+  "confirmedFacts": [
+    "Kairos Counter-Strike is the main Counter-Strike team.",
+    "The team is pre-competitive and training.",
+    "Lukas \"Luk\" Novak is the Head Coach.",
+    "Caleb \"Atlas\" Mercer is the first signed player.",
+    "Caleb Mercer is the Founding Captain and only confirmed Counter-Strike captain.",
+    "No official match has been played.",
+    "The official competitive debut is planned for February 2027.",
+    "The first signed player is the IGL.",
+    "Kairos Counter-Strike Academy is the division's developmental academy.",
+    "The current narrative date is late October 2026.",
+    "The next competitive milestone is February 2027.",
+    "Owen \"Glacier\" Fletcher is the primary unsigned AWPer prospect.",
+    "Cameron \"Mold\" Ruiz and Emiliano \"MoteConHuesillo\" Navarro are unsigned prospects.",
+    "All remaining player positions are vacant."
+  ],
+  "unconfirmedDetails": [
+    "The intended competition is TBD.",
+    "The exact calendar day in late October 2026 is TBD.",
+    "The exact competitive milestone date in February 2027 is TBD.",
+    "The four remaining roster positions are vacant.",
+    "Future tournament invitations, qualifiers, rankings, leagues, results, achievements, and statistics are TBD."
+  ],
+  "canonNotes": [
+    "Only Caleb Mercer is on the signed roster.",
+    "Prospect records and evaluations do not place unsigned candidates on the roster.",
+    "A planned February 2027 debut is not an official match or confirmed competition entry.",
+    "Caleb Mercer fulfilled the requirement that the first signing be the IGL."
+  ]
+}

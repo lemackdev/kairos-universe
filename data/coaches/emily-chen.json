@@ -1,0 +1,59 @@
+{
+  "id": "emily-chen",
+  "slug": "emily-chen",
+  "realName": "Emily Chen",
+  "nickname": "TBD",
+  "nationality": "TBD",
+  "role": "Analytics and Performance",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "TBD",
+  "status": "active",
+  "firstAppearance": "episode-004",
+  "joinedKairos": "TBD",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Support League analytics and performance.",
+    "Coordinate sponsorship proposals.",
+    "Coordinate scouting travel.",
+    "Assist Adrian Vale during scouting."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "division-league-of-legends",
+      "type": "analytics-and-performance",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 4: Emily first appears in the League analytics and performance project.",
+    "Episodes 30-35: Emily coordinates sponsorship proposals and travel and assists Adrian during scouting."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Emily Chen is active in Analytics and Performance for the Kairos League of Legends division.",
+    "Emily Chen is a fictional character.",
+    "The first confirmed appearance is episode-004.",
+    "Emily coordinates sponsorship proposals and travel.",
+    "Emily assists Adrian Vale during scouting."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Exact title is TBD.",
+    "Age is TBD.",
+    "Exact reporting line is TBD.",
+    "Exact team assignment is TBD.",
+    "Former playing career is TBD."
+  ],
+  "canonNotes": [
+    "Do not infer nationality from the surname Chen."
+  ]
+}

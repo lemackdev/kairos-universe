@@ -1,0 +1,100 @@
+{
+  "id": "episode-018",
+  "slug": "episode-018",
+  "episodeNumber": 18,
+  "title": null,
+  "historicalTitle": "O Convite Inesperado",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 112,
+    "pageEnd": 117,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 18,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Seoul, South Korea"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "doublelift-kairos-adc-mentor",
+    "emily-chen",
+    "darshan-kairos-top-mentor",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "T1 privately invites Kairos to visit its training facilities and schedules a short practice series with T1 Academy.",
+  "keyEvents": [
+    "Kairos receives a private invitation from T1.",
+    "The main roster visits T1's training operation.",
+    "T1 confirms a three-game practice series."
+  ],
+  "consequences": [
+    "Kairos gains an opportunity to measure itself against T1 Academy."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-017"
+  ],
+  "continuityNotes": [
+    "The visit and scrim are fictional involvement by a real-world organization."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "T1 appears in a fictional private visit and scrim arrangement."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 112-117",
+      "information": "Original historical source for Episode 18, \"O Convite Inesperado\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Convite Inesperado\".",
+    "Kairos receives a private invitation from T1.",
+    "The main roster visits T1's training operation.",
+    "T1 confirms a three-game practice series.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

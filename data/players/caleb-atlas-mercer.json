@@ -1,0 +1,154 @@
+{
+  "id": "caleb-atlas-mercer",
+  "slug": "caleb-atlas-mercer",
+  "realName": "Caleb Mercer",
+  "nickname": "Atlas",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "Silver City",
+  "homeTown": {
+    "city": "Silver City",
+    "region": "New Mexico",
+    "country": "United States"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 18,
+  "game": "Counter-Strike",
+  "role": "IGL",
+  "currentTeam": "kairos-cs-main",
+  "rosterLevel": "main",
+  "status": "signed",
+  "isCaptain": true,
+  "firstAppearance": "episode-030",
+  "joinedKairos": "TBD",
+  "contract": {
+    "status": "signed",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "personality": "Calm under pressure, team-first, a natural leader, extremely coachable, and committed to studying demos.",
+  "playstyle": "In-Game Leader, former rifler, and left-handed player.",
+  "strengths": [
+    "Exceptional communicator.",
+    "Prioritizes teammates over personal statistics.",
+    "Natural leadership.",
+    "Calm under pressure.",
+    "Extremely coachable.",
+    "Studies demos extensively."
+  ],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "founder",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "mutual-respect",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lukas-luk-novak",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lukas-luk-novak",
+      "type": "tactical-evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "tactical-mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "prospective-teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "first-meeting-completed",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "mutual-respect",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "initial-evaluation",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "tactical-evaluation-interest",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-cs-main",
+      "status": "signed",
+      "joinedKairos": "TBD",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
+  "individualTimeline": [
+    "Episode 30: Caleb first appears as a Counter-Strike prospect and primary IGL candidate.",
+    "Late October 2026: Caleb visits the Kairos campus, completes multiple tactical evaluations, and is personally interviewed by Adrian Vale.",
+    "Episode 35: the nickname Atlas becomes canonical.",
+    "Current canon: Caleb becomes the first signed Kairos Counter-Strike player and Founding Captain."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "currentState": [
+    "Signed to Kairos Counter-Strike.",
+    "Founding Captain.",
+    "First signed Kairos Counter-Strike player."
+  ],
+  "nicknameFirstAppearance": "episode-035",
+  "confirmedFacts": [
+    "Caleb Mercer is the canonical identity of the Counter-Strike player known as Atlas.",
+    "He is the Kairos Counter-Strike In-Game Leader.",
+    "He is 18 years old at the current story date.",
+    "He is American and from Silver City, New Mexico.",
+    "He is a former rifler and left-handed player.",
+    "He is the first signed Kairos Counter-Strike player.",
+    "He is the Founding Captain and only confirmed Counter-Strike captain.",
+    "His first appearance remains Episode 30.",
+    "The nickname Atlas is first established in Episode 35."
+  ],
+  "unconfirmedDetails": [
+    "Date of birth is TBD.",
+    "Previous teams and tournament history are TBD.",
+    "Exact contract date, duration, and salary are TBD.",
+    "Objectives, insecurities, statistics, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "This record replaces the retired Counter-Strike Atlas identity documented in the retcon history.",
+    "The correction resolves a duplicate-name conflict with the League Mid laner known as 404.",
+    "The nickname Atlas, biography, role, relationships, first appearance, and signed status are preserved.",
+    "The Atlas nickname is distinct from the historical Project Atlas internal division name."
+  ]
+}

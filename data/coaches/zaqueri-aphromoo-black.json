@@ -1,0 +1,75 @@
+{
+  "id": "zaqueri-aphromoo-black",
+  "slug": "zaqueri-aphromoo-black",
+  "realName": "Zaqueri Black",
+  "nickname": "Aphromoo",
+  "nationality": "TBD",
+  "role": "Head Coach and Support Mentor",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-main",
+  "status": "active",
+  "firstAppearance": "episode-004",
+  "joinedKairos": "TBD",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "Former professional Support player",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Lead the main League competitive project.",
+    "Serve as the Support mentor.",
+    "Mentor League academy players and Support prospects.",
+    "Teach professional habits and long-term player development."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-lol-main",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "daniel-moss-reyes",
+      "type": "role-mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "kairos-lol-academy-blue",
+      "type": "mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "kairos-lol-academy-white",
+      "type": "mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 4: Aphromoo first appears and joins the fictional Kairos League project.",
+    "Episodes 30-35: Aphromoo mentors academy players and League Support prospects with a focus on professional habits and player development."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Aphromoo is Head Coach of the League of Legends division.",
+    "Aphromoo is responsible for the main League competitive project.",
+    "Aphromoo is the confirmed Support mentor.",
+    "Aphromoo is a real-world esports figure used in a fictional Kairos role.",
+    "Aphromoo is a former professional Support player.",
+    "The first confirmed appearance is episode-004.",
+    "Aphromoo mentors League academy players and Support prospects.",
+    "His current mentoring emphasizes professional habits and player development."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Exact responsibilities beyond the confirmed head-coach and Support-mentor functions are TBD."
+  ],
+  "canonNotes": [
+    "The Kairos role is fictional canon and must be distinguished from real-world background.",
+    "Do not invent contract dates or salary.",
+    "Historical Episode 4 incorrectly uses the identity David Turley; current canon uses Zaqueri Black."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "thinkcard-kairos-strategic-coach",
+  "slug": "thinkcard-kairos-strategic-coach",
+  "realName": "Thomas Slotkin",
+  "nickname": "Thinkcard",
+  "nationality": "TBD",
+  "role": "Strategic Coach",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "TBD",
+  "status": "active",
+  "firstAppearance": "episode-004",
+  "joinedKairos": "TBD",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Focus on strategy and competitive structure."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "division-league-of-legends",
+      "type": "strategic-coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 4: Thinkcard first appears and joins the fictional Kairos League project."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Thinkcard is an active Strategic Coach for the Kairos League of Legends division.",
+    "Thinkcard focuses on strategy and competitive structure.",
+    "Thinkcard is a real-world esports figure used in a fictional Kairos role.",
+    "Thinkcard's public real name is Thomas Slotkin.",
+    "The first confirmed appearance is episode-004."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Exact team assignment is TBD.",
+    "Former playing career is TBD.",
+    "Responsibilities beyond strategy and competitive structure are TBD."
+  ],
+  "canonNotes": [
+    "The Kairos role is fictional canon and must be distinguished from real-world background.",
+    "Do not invent detailed duties, contract dates, or salary."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "episode-013",
+  "slug": "episode-013",
+  "episodeNumber": 13,
+  "title": null,
+  "historicalTitle": "O Primeiro Bootcamp",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 76,
+    "pageEnd": 83,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 13,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "emily-chen",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Kairos begins its first internal League training block with cross-roster rotations, explicit team-culture rules, and trust analysis.",
+  "keyEvents": [
+    "All three League rosters begin structured training.",
+    "Players rotate across team levels.",
+    "Moss is confirmed as the trust center and captain of the main roster.",
+    "Role mentors begin visiting the League operation."
+  ],
+  "consequences": [
+    "Kairos establishes one shared methodology across all League rosters.",
+    "Training emphasizes constructive disagreement and team trust."
+  ],
+  "canonIntroduced": [
+    "Moss's captaincy is based on observed team trust.",
+    "Cross-roster development is part of Kairos League training."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-012"
+  ],
+  "continuityNotes": [
+    "The historical title refers to the first internal Kairos bootcamp, not the later Korean bootcamp.",
+    "The mentors are not individually named here, so no mentor first appearances are assigned."
+  ],
+  "historicalNotes": [
+    "Historical evaluation measurements are not stored as current official statistics."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 76-83",
+      "information": "Original historical source for Episode 13, \"O Primeiro Bootcamp\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Primeiro Bootcamp\".",
+    "All three League rosters begin structured training.",
+    "Players rotate across team levels.",
+    "Moss is confirmed as the trust center and captain of the main roster.",
+    "Role mentors begin visiting the League operation.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

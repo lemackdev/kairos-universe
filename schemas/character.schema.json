@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/character.schema.json",
+  "title": "Character Record",
+  "description": "Validates a canonical narrative character without requiring unsupported biographical detail.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "fullName",
+    "commonName",
+    "nationality",
+    "baseLocation",
+    "occupations",
+    "narrativeRoles",
+    "firstAppearance",
+    "lifeStatus",
+    "status",
+    "canonStatus",
+    "publicProfile",
+    "personality",
+    "visualTraits",
+    "philosophy",
+    "relationships",
+    "individualTimeline",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "fullName": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "commonName": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "nationality": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "baseLocation": {
+      "$ref": "common.schema.json#/$defs/location"
+    },
+    "occupations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "organizationId",
+          "status"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "organizationId": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/knownStatus"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "narrativeRoles": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "first-person-narrator",
+          "main-protagonist"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "firstAppearance": {
+      "type": "object",
+      "required": [
+        "episodeId",
+        "episodeNumber",
+        "historicalTitle"
+      ],
+      "properties": {
+        "episodeId": {
+          "$ref": "common.schema.json#/$defs/stableId"
+        },
+        "episodeNumber": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "historicalTitle": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "lifeStatus": {
+      "enum": [
+        "alive",
+        "TBD"
+      ]
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
+    },
+    "publicProfile": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "personality": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "visualTraits": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "philosophy": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/relationship"
+      }
+    },
+    "individualTimeline": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

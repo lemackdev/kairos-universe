@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/tournament.schema.json",
+  "title": "Tournament Record",
+  "description": "Validates a tournament reference and its canonical participation data.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "game",
+    "status",
+    "organizer",
+    "region",
+    "startDate",
+    "endDate",
+    "teams",
+    "matches",
+    "results",
+    "achievements",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "game": {
+      "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "organizer": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "region": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "startDate": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "endDate": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "teams": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "matches": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "results": {
+      "$ref": "common.schema.json#/$defs/openObject"
+    },
+    "achievements": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

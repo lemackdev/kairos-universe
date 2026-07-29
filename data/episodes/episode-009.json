@@ -1,0 +1,131 @@
+{
+  "id": "episode-009",
+  "slug": "episode-009",
+  "episodeNumber": 9,
+  "title": null,
+  "historicalTitle": "Os Primeiros Jogadores da Kairos",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 49,
+    "pageEnd": 55,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 9,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "emily-chen",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Kairos privately confirms the five main League players and prepares the organization for public launch. The episode uses historical nicknames that are replaced by current canon.",
+  "keyEvents": [
+    "Noah Bennett is selected for Top.",
+    "Ethan Walker is selected for Jungle.",
+    "Mason Brooks is selected for Mid.",
+    "Liam O'Connor is selected for ADC.",
+    "Daniel Reyes is selected for Support and captain."
+  ],
+  "consequences": [
+    "The main League roster is complete.",
+    "Moss becomes captain of the main roster."
+  ],
+  "canonIntroduced": [
+    "The current main roster consists of rkN, Vanta, 404, Aster, and Moss.",
+    "Moss is the only confirmed League captain."
+  ],
+  "canonChanged": [
+    "Rook, North, Cipher, Forge, and Anchor are replaced by rkN, Vanta, 404, Aster, and Moss."
+  ],
+  "continuityDependencies": [
+    "episode-008"
+  ],
+  "continuityNotes": [
+    "Current records use only the current nicknames outside historical and retcon fields.",
+    "404 remains a Mid player and is not captain."
+  ],
+  "historicalNotes": [
+    "The historical roster is named Rook, North, Cipher, Forge, and Anchor."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "retcon-league-main-roster-nicknames",
+      "status": "retconned",
+      "description": "The five historical main-roster nicknames are replaced by the current nicknames.",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 49-55",
+      "information": "Original historical source for Episode 9, \"Os Primeiros Jogadores da Kairos\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "League Main-Roster Nicknames",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"Os Primeiros Jogadores da Kairos\".",
+    "Noah Bennett is selected for Top.",
+    "Ethan Walker is selected for Jungle.",
+    "Mason Brooks is selected for Mid.",
+    "Liam O'Connor is selected for ADC.",
+    "Daniel Reyes is selected for Support and captain.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

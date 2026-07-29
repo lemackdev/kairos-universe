@@ -1,0 +1,72 @@
+{
+  "id": "isaac-pebble-young",
+  "slug": "isaac-pebble-young",
+  "realName": "Isaac Young",
+  "nickname": "Pebble",
+  "historicalAliases": [],
+  "nationality": "TBD",
+  "city": "TBD",
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": "TBD",
+  "game": "League of Legends",
+  "role": "TBD",
+  "currentTeam": "kairos-lol-academy-white",
+  "rosterLevel": "academy-white",
+  "status": "active-training-pre-debut",
+  "isCaptain": null,
+  "firstAppearance": "TBD",
+  "joinedKairos": "TBD",
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "personality": "TBD",
+  "playstyle": "TBD",
+  "strengths": [],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-lol-academy-white",
+      "status": "active",
+      "joinedKairos": "TBD",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
+  "individualTimeline": [],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "confirmedFacts": [
+    "Isaac Young \"Pebble\" is active on Kairos Academy White.",
+    "The player is training in Los Angeles.",
+    "The player has not made an official competitive debut with Kairos."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "Date of birth is TBD.",
+    "First appearance is TBD.",
+    "The exact date the player joined Kairos is TBD.",
+    "Contract status, dates, and salary are TBD.",
+    "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
+    "Statistics, achievements, and trivia are TBD.",
+    "Personality is TBD.",
+    "Role is TBD and must not be inferred from roster order.",
+    "Age at the current story date is TBD.",
+    "City is TBD.",
+    "Captain status is TBD.",
+    "Whether Kairos is the player's first professional team is TBD."
+  ],
+  "canonNotes": [
+    "Do not infer nationality from city.",
+    "Do not fabricate a birth date from age.",
+    "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded."
+  ]
+}

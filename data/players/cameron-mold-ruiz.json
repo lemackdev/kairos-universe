@@ -1,0 +1,56 @@
+{
+  "id": "cameron-mold-ruiz",
+  "slug": "cameron-mold-ruiz",
+  "realName": "Cameron Ruiz",
+  "nickname": "Mold",
+  "historicalAliases": [],
+  "nationality": "TBD",
+  "city": "TBD",
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": "TBD",
+  "game": "Counter-Strike",
+  "role": "TBD",
+  "currentTeam": null,
+  "rosterLevel": "prospect",
+  "status": "unsigned-prospect",
+  "isCaptain": false,
+  "firstAppearance": "TBD",
+  "joinedKairos": "Not joined",
+  "contract": null,
+  "personality": "TBD",
+  "playstyle": "TBD",
+  "strengths": [],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "initial-evaluation",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "currentState": [
+    "Unsigned Counter-Strike prospect.",
+    "Initial evaluation with Caleb Mercer is confirmed."
+  ],
+  "confirmedFacts": [
+    "Cameron Ruiz is a canonical unsigned Counter-Strike prospect known as Mold.",
+    "An initial evaluation relationship with Caleb Mercer is confirmed.",
+    "No contract has been signed."
+  ],
+  "unconfirmedDetails": [
+    "Age, nationality, home town, date of birth, role, first appearance, personality, and playstyle are TBD.",
+    "Recruitment outcome, statistics, achievements, and contract details are TBD."
+  ],
+  "canonNotes": [
+    "Do not infer missing biography or competitive role.",
+    "Prospect status does not constitute roster membership."
+  ]
+}

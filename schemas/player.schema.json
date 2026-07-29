@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/player.schema.json",
+  "title": "Player Record",
+  "description": "Validates a canonical player record without requiring unconfirmed optional detail.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "realName",
+    "nickname",
+    "historicalAliases",
+    "nationality",
+    "city",
+    "dateOfBirth",
+    "ageAtCurrentStoryDate",
+    "game",
+    "role",
+    "currentTeam",
+    "rosterLevel",
+    "status",
+    "isCaptain",
+    "firstAppearance",
+    "joinedKairos",
+    "contract",
+    "personality",
+    "playstyle",
+    "strengths",
+    "weaknesses",
+    "inspirations",
+    "objectives",
+    "insecurities",
+    "relationships",
+    "careerHistory",
+    "individualTimeline",
+    "statistics",
+    "achievements",
+    "trivia",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "realName": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "nickname": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "historicalAliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nickname",
+          "status",
+          "sourceEpisode",
+          "notes"
+        ],
+        "properties": {
+          "nickname": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "retconned",
+              "historical"
+            ]
+          },
+          "sourceEpisode": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nationality": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "city": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "homeTown": {
+      "$ref": "common.schema.json#/$defs/location"
+    },
+    "dateOfBirth": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "ageAtCurrentStoryDate": {
+      "$ref": "common.schema.json#/$defs/nonNegativeIntegerOrTbd"
+    },
+    "game": {
+      "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "role": {
+      "$ref": "common.schema.json#/$defs/knownRole"
+    },
+    "currentTeam": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "rosterLevel": {
+      "$ref": "common.schema.json#/$defs/knownRosterLevel"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "isCaptain": {
+      "oneOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "firstAppearance": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "joinedKairos": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "contract": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/contract"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "personality": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "playstyle": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "strengths": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "weaknesses": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "inspirations": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "objectives": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "insecurities": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/relationship"
+      }
+    },
+    "careerHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "organizationId",
+          "teamId",
+          "status",
+          "joinedKairos",
+          "firstProfessionalTeam"
+        ],
+        "properties": {
+          "organizationId": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "teamId": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/knownStatus"
+          },
+          "joinedKairos": {
+            "$ref": "common.schema.json#/$defs/stringOrTbd"
+          },
+          "firstProfessionalTeam": {
+            "oneOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "const": "TBD"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "individualTimeline": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "statistics": {
+      "$ref": "common.schema.json#/$defs/openObject"
+    },
+    "achievements": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "trivia": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "currentState": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "nicknameFirstAppearance": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "familyNotes": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

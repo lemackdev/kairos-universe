@@ -1,0 +1,54 @@
+{
+  "id": "claire-kairos-executive",
+  "slug": "claire-kairos-executive",
+  "realName": "Claire",
+  "nickname": "TBD",
+  "nationality": "TBD",
+  "role": "Executive",
+  "division": "TBD",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "TBD",
+  "status": "active",
+  "firstAppearance": "episode-003",
+  "joinedKairos": "TBD",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Serve as an executive within Kairos Esports."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-esports",
+      "type": "executive",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 3: Claire first appears during the organizational foundation work."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Claire is an active executive at Kairos Esports.",
+    "Claire is a fictional character.",
+    "The first confirmed appearance is episode-003."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "The exact date this person joined Kairos is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Full name is TBD.",
+    "Age is TBD.",
+    "Exact title is TBD.",
+    "Division assignment is TBD.",
+    "Exact reporting line is TBD.",
+    "Former playing career is TBD."
+  ],
+  "canonNotes": [
+    "Do not invent a surname or exact executive title."
+  ]
+}

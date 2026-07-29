@@ -1,0 +1,71 @@
+{
+  "id": "kairos-lol-academy-white",
+  "slug": "kairos-lol-academy-white",
+  "name": "Kairos Academy White",
+  "shortName": "Academy White",
+  "organization": {
+    "id": "kairos-esports",
+    "name": "Kairos Esports"
+  },
+  "game": "League of Legends",
+  "level": "academy-white",
+  "intendedCompetition": "U19 development",
+  "status": "active-training-pre-debut",
+  "currentStoryPeriod": {
+    "period": "late-october-2026",
+    "displayName": "Late October 2026",
+    "exactDate": "TBD",
+    "exactYear": "2026"
+  },
+  "officialDebutPeriod": {
+    "status": "planned",
+    "month": "February",
+    "exactDate": "TBD",
+    "exactYear": "2027"
+  },
+  "roster": [
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "coachingStaff": [],
+  "mentors": [
+    "zaqueri-aphromoo-black"
+  ],
+  "captain": "TBD",
+  "trainingLocation": {
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
+  },
+  "competitiveHistory": [],
+  "achievements": [],
+  "statistics": {},
+  "confirmedFacts": [
+    "Academy White is a U19 development roster.",
+    "The five-player roster is active and training.",
+    "Benjamin \"Vex\" Carter is explicitly identified as the Jungle player in historical Episode 22.",
+    "Cole \"June\" Mercer is explicitly identified as the ADC in historical Episode 22.",
+    "The League division previously completed a Korean bootcamp and returned to Los Angeles.",
+    "Academy White has not played an official match.",
+    "The current narrative date is late October 2026.",
+    "The next competitive milestone is February 2027.",
+    "Aphromoo mentors academy players with a focus on professional habits and player development."
+  ],
+  "unconfirmedDetails": [
+    "Roles other than Vex's Jungle role and June's ADC role, plus player ages, cities, birth dates, personalities, and playstyles, are TBD.",
+    "The captain is TBD.",
+    "Specific coaching staff and mentor assignments beyond Aphromoo are TBD.",
+    "The exact calendar day in late October 2026 is TBD.",
+    "The exact competitive milestone date in February 2027 is TBD.",
+    "Contracts, salaries, future results, rankings, and statistics are TBD."
+  ],
+  "canonNotes": [
+    "Do not infer roles from roster order.",
+    "Vex's and June's roles are source-backed and do not rely on roster-order inference.",
+    "U19 development is a roster purpose, not an official match result.",
+    "Academy White exists for real player development and progression."
+  ]
+}

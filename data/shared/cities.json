@@ -1,0 +1,32 @@
+[
+  {
+    "id": "city-billings",
+    "name": "Billings",
+    "value": "Billings"
+  },
+  {
+    "id": "city-chicago",
+    "name": "Chicago",
+    "value": "Chicago"
+  },
+  {
+    "id": "city-halifax",
+    "name": "Halifax",
+    "value": "Halifax"
+  },
+  {
+    "id": "city-los-angeles",
+    "name": "Los Angeles",
+    "value": "Los Angeles"
+  },
+  {
+    "id": "city-seattle",
+    "name": "Seattle",
+    "value": "Seattle"
+  },
+  {
+    "id": "city-toronto",
+    "name": "Toronto",
+    "value": "Toronto"
+  }
+]

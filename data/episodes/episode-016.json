@@ -1,0 +1,114 @@
+{
+  "id": "episode-016",
+  "slug": "episode-016",
+  "episodeNumber": 16,
+  "title": null,
+  "historicalTitle": "Solo Queue",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 98,
+    "pageEnd": 104,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 16,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Seoul, South Korea"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "darshan-kairos-top-mentor",
+    "xmithie-kairos-jungle-mentor",
+    "pobelter-kairos-mid-mentor",
+    "doublelift-kairos-adc-mentor",
+    "emily-chen",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "The main roster begins Korean solo-queue training and confronts the speed, pressure, and decision-making demands of the server.",
+  "keyEvents": [
+    "All five players begin Korean solo queue.",
+    "Each role mentor gives position-specific feedback.",
+    "The training focus shifts from win rate to adaptation speed."
+  ],
+  "consequences": [
+    "The roster recognizes the gap between its current level and its target level.",
+    "Players begin adapting their decision-making and communication."
+  ],
+  "canonIntroduced": [
+    "The Korean bootcamp is a development phase rather than an official competition."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-015"
+  ],
+  "continuityNotes": [
+    "Historical performance measurements are not current official statistics."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "The Korean League server and Riot-provided bootcamp accounts are historical setting references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 98-104",
+      "information": "Original historical source for Episode 16, \"Solo Queue\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"Solo Queue\".",
+    "All five players begin Korean solo queue.",
+    "Each role mentor gives position-specific feedback.",
+    "The training focus shifts from win rate to adaptation speed.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

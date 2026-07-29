@@ -1,0 +1,113 @@
+{
+  "id": "episode-021",
+  "slug": "episode-021",
+  "episodeNumber": 21,
+  "title": null,
+  "historicalTitle": "O Convite de Faker",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 130,
+    "pageEnd": 135,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 21,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Seoul, South Korea"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "doublelift-kairos-adc-mentor",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Faker privately visits the Kairos players during the Korean bootcamp, and the roster completes its final training phase before returning home.",
+  "keyEvents": [
+    "Faker meets the main roster in a private fictional visit.",
+    "The roster reflects on continuous improvement.",
+    "The Korean bootcamp approaches completion."
+  ],
+  "consequences": [
+    "The team completes the Korean development phase with a clearer understanding of its level."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-020"
+  ],
+  "continuityNotes": [
+    "The source's statement that the official debut is only days away is superseded by current canon's planned February 2027 milestone.",
+    "Exact bootcamp dates remain TBD; the story year is confirmed as 2026."
+  ],
+  "historicalNotes": [
+    "The final line creates timeline drift by placing the official debut within days."
+  ],
+  "realWorldReferences": [
+    "Faker appears in a fictional private visit.",
+    "T1 and LCK Challengers appear as historical setting references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 130-135",
+      "information": "Original historical source for Episode 21, \"O Convite de Faker\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Timeline Drift",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Convite de Faker\".",
+    "Faker meets the main roster in a private fictional visit.",
+    "The roster reflects on continuous improvement.",
+    "The Korean bootcamp approaches completion.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "status-active",
+    "name": "Active",
+    "value": "active"
+  },
+  {
+    "id": "status-active-pre-debut",
+    "name": "Active pre-debut",
+    "value": "active-pre-debut"
+  },
+  {
+    "id": "status-active-training-pre-debut",
+    "name": "Active, training, and pre-debut",
+    "value": "active-training-pre-debut"
+  },
+  {
+    "id": "status-being-scouted",
+    "name": "Being scouted",
+    "value": "being-scouted"
+  },
+  {
+    "id": "status-confirmed",
+    "name": "Confirmed",
+    "value": "confirmed"
+  },
+  {
+    "id": "status-no-players-signed",
+    "name": "No players signed",
+    "value": "no-players-signed"
+  },
+  {
+    "id": "status-non-canonical",
+    "name": "Non-canonical",
+    "value": "non-canonical"
+  },
+  {
+    "id": "status-planned",
+    "name": "Planned",
+    "value": "planned"
+  },
+  {
+    "id": "status-retconned",
+    "name": "Retconned",
+    "value": "retconned"
+  },
+  {
+    "id": "status-soft-canon",
+    "name": "Soft canon",
+    "value": "soft-canon"
+  },
+  {
+    "id": "status-signed",
+    "name": "Signed",
+    "value": "signed"
+  },
+  {
+    "id": "status-staffed-scouting-pre-debut",
+    "name": "Staffed, scouting, and pre-debut",
+    "value": "staffed-scouting-pre-debut"
+  },
+  {
+    "id": "status-tbd",
+    "name": "TBD",
+    "value": "TBD"
+  },
+  {
+    "id": "status-training-pre-debut",
+    "name": "Training and pre-debut",
+    "value": "training-pre-debut"
+  },
+  {
+    "id": "status-under-evaluation",
+    "name": "Under evaluation",
+    "value": "under-evaluation"
+  },
+  {
+    "id": "status-unsigned-prospect",
+    "name": "Unsigned prospect",
+    "value": "unsigned-prospect"
+  },
+  {
+    "id": "status-unconfirmed",
+    "name": "Unconfirmed",
+    "value": "unconfirmed"
+  }
+]

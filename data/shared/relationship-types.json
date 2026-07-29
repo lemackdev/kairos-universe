@@ -1,0 +1,112 @@
+[
+  {
+    "id": "relationship-type-analytics-and-performance",
+    "name": "Analytics and performance",
+    "value": "analytics-and-performance"
+  },
+  {
+    "id": "relationship-type-chief-executive",
+    "name": "Chief executive",
+    "value": "chief-executive"
+  },
+  {
+    "id": "relationship-type-coach",
+    "name": "Coach",
+    "value": "coach"
+  },
+  {
+    "id": "relationship-type-evaluator",
+    "name": "Evaluator",
+    "value": "evaluator"
+  },
+  {
+    "id": "relationship-type-executive",
+    "name": "Executive",
+    "value": "executive"
+  },
+  {
+    "id": "relationship-type-founder",
+    "name": "Founder",
+    "value": "founder"
+  },
+  {
+    "id": "relationship-type-first-meeting-completed",
+    "name": "First meeting completed",
+    "value": "first-meeting-completed"
+  },
+  {
+    "id": "relationship-type-general-manager",
+    "name": "General manager",
+    "value": "general-manager"
+  },
+  {
+    "id": "relationship-type-head-coach",
+    "name": "Head coach",
+    "value": "head-coach"
+  },
+  {
+    "id": "relationship-type-initial-evaluation",
+    "name": "Initial evaluation",
+    "value": "initial-evaluation"
+  },
+  {
+    "id": "relationship-type-mentor",
+    "name": "Mentor",
+    "value": "mentor"
+  },
+  {
+    "id": "relationship-type-mutual-respect",
+    "name": "Mutual respect",
+    "value": "mutual-respect"
+  },
+  {
+    "id": "relationship-type-owner",
+    "name": "Owner",
+    "value": "owner"
+  },
+  {
+    "id": "relationship-type-prospective-teammates",
+    "name": "Prospective teammates",
+    "value": "prospective-teammates"
+  },
+  {
+    "id": "relationship-type-recruitment-target",
+    "name": "Recruitment target",
+    "value": "recruitment-target"
+  },
+  {
+    "id": "relationship-type-role-mentor",
+    "name": "Role mentor",
+    "value": "role-mentor"
+  },
+  {
+    "id": "relationship-type-scout",
+    "name": "Scout",
+    "value": "scout"
+  },
+  {
+    "id": "relationship-type-strategic-coach",
+    "name": "Strategic coach",
+    "value": "strategic-coach"
+  },
+  {
+    "id": "relationship-type-subsidiary",
+    "name": "Subsidiary",
+    "value": "subsidiary"
+  },
+  {
+    "id": "relationship-type-tactical-evaluation-interest",
+    "name": "Tactical evaluation interest",
+    "value": "tactical-evaluation-interest"
+  },
+  {
+    "id": "relationship-type-tactical-evaluator",
+    "name": "Tactical evaluator",
+    "value": "tactical-evaluator"
+  },
+  {
+    "id": "relationship-type-tactical-mentor",
+    "name": "Tactical mentor",
+    "value": "tactical-mentor"
+  }
+]

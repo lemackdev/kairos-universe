@@ -1,0 +1,87 @@
+{
+  "id": "episode-035",
+  "slug": "episode-035",
+  "episodeNumber": 35,
+  "title": "Chamados pelo Nome",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "partially-reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovery-required",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 35,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [],
+  "characters": [
+    "adrian-elias-vale",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [],
+  "summary": "The nicknames Atlas for Caleb Mercer and Glacier for Owen Fletcher become canonical.",
+  "keyEvents": [
+    "Caleb Mercer is canonically identified by the nickname Atlas.",
+    "Owen Fletcher is canonically identified by the nickname Glacier."
+  ],
+  "consequences": [
+    "Future current-canon records may use Atlas and Glacier as the prospects' nicknames."
+  ],
+  "canonIntroduced": [
+    "Caleb Mercer uses the nickname Atlas.",
+    "Owen Fletcher uses the nickname Glacier."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-034"
+  ],
+  "continuityNotes": [
+    "Nickname confirmation does not constitute a signing.",
+    "Caleb's later signing and captaincy are recorded in the current player and team state."
+  ],
+  "historicalNotes": [
+    "This episode is not part of the archived Episodes 1-29 PDF."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "canon-document",
+      "sourcePath": "docs/canon/CANON_BATCH_030_035.md",
+      "locator": "Episode Titles; First Appearances",
+      "information": "Confirms the episode title and first canonical use of the nicknames Atlas and Glacier.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The approved narrative prose was not supplied.",
+    "The exact calendar date is TBD.",
+    "Episode-specific scenes, dialogue, and locations beyond confirmed metadata are TBD."
+  ],
+  "confirmedFacts": [
+    "The approved title is \"Chamados pelo Nome\".",
+    "The nickname Atlas is established for Caleb Mercer.",
+    "The nickname Glacier is established for Owen Fletcher.",
+    "The episode occurs in late October 2026."
+  ],
+  "unconfirmedDetails": [
+    "The full narrative text and exact event sequence are TBD.",
+    "The exact calendar date is TBD."
+  ],
+  "notes": [
+    "No narrative prose was invented.",
+    "The episode record preserves the nickname event without inventing the later signing scene."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "episode-010",
+  "slug": "episode-010",
+  "episodeNumber": 10,
+  "title": null,
+  "historicalTitle": "O Anúncio",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 56,
+    "pageEnd": 62,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 10,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "doublelift-kairos-adc-mentor"
+  ],
+  "firstAppearances": [
+    "doublelift-kairos-adc-mentor"
+  ],
+  "organizations": [
+    "asterion-intelligence",
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Kairos Esports is publicly announced through its player-development philosophy before the player roster is revealed.",
+  "keyEvents": [
+    "Kairos publicly announces the organization.",
+    "The public message emphasizes development, education, health, and long-term infrastructure.",
+    "Real-world esports figures respond to the fictional Kairos announcement."
+  ],
+  "consequences": [
+    "Kairos becomes publicly known.",
+    "Public attention increases before the roster reveal."
+  ],
+  "canonIntroduced": [
+    "Kairos measures its legacy through the players it develops."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-009"
+  ],
+  "continuityNotes": [
+    "Historical audience and social-media measurements are not current repository statistics."
+  ],
+  "historicalNotes": [
+    "The episode supplies exact public metrics that remain historical only."
+  ],
+  "realWorldReferences": [
+    "Doublelift comments on the fictional Kairos announcement.",
+    "Sneaky, Meteos, Scarra, CaptainFlowers, and Azael are historical background references.",
+    "Riot Games and multiple real esports organizations appear as setting references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 56-62",
+      "information": "Original historical source for Episode 10, \"O Anúncio\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Anúncio\".",
+    "Kairos publicly announces the organization.",
+    "The public message emphasizes development, education, health, and long-term infrastructure.",
+    "Real-world esports figures respond to the fictional Kairos announcement.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

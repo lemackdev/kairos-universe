@@ -1,0 +1,75 @@
+{
+  "id": "cole-june-mercer",
+  "slug": "cole-june-mercer",
+  "realName": "Cole Mercer",
+  "nickname": "June",
+  "historicalAliases": [],
+  "nationality": "TBD",
+  "city": "TBD",
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": "TBD",
+  "game": "League of Legends",
+  "role": "ADC",
+  "currentTeam": "kairos-lol-academy-white",
+  "rosterLevel": "academy-white",
+  "status": "active-training-pre-debut",
+  "isCaptain": null,
+  "firstAppearance": "episode-022",
+  "joinedKairos": "TBD",
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "personality": "TBD",
+  "playstyle": "TBD",
+  "strengths": [],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-lol-academy-white",
+      "status": "active",
+      "joinedKairos": "TBD",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
+  "individualTimeline": [
+    "Episode 22: June first appears as the Academy White ADC during a training exchange with Aster."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "confirmedFacts": [
+    "Cole Mercer \"June\" is active on Kairos Academy White.",
+    "The player is training in Los Angeles.",
+    "The player has not made an official competitive debut with Kairos.",
+    "The player's first confirmed appearance is episode-022.",
+    "The player's role is ADC."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "Date of birth is TBD.",
+    "The exact date the player joined Kairos is TBD.",
+    "Contract status, dates, and salary are TBD.",
+    "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
+    "Statistics, achievements, and trivia are TBD.",
+    "Personality is TBD.",
+    "Age at the current story date is TBD.",
+    "City is TBD.",
+    "Captain status is TBD.",
+    "Whether Kairos is the player's first professional team is TBD."
+  ],
+  "canonNotes": [
+    "Do not infer nationality from city.",
+    "Do not fabricate a birth date from age.",
+    "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
+    "The role is stated explicitly in historical Episode 22 and does not rely on roster-order inference."
+  ]
+}

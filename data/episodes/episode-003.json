@@ -1,0 +1,116 @@
+{
+  "id": "episode-003",
+  "slug": "episode-003",
+  "episodeNumber": 3,
+  "title": null,
+  "historicalTitle": "A Fundação",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 10,
+    "pageEnd": 15,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 3,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "ethan-kairos-executive",
+    "claire-kairos-executive",
+    "marcus-kairos-general-manager",
+    "sofia-kairos-executive"
+  ],
+  "firstAppearances": [
+    "claire-kairos-executive",
+    "marcus-kairos-general-manager",
+    "sofia-kairos-executive"
+  ],
+  "organizations": [
+    "asterion-intelligence",
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Kairos establishes its operating philosophy, staff framework, three-team League development system, and high-level multi-division campus plan.",
+  "keyEvents": [
+    "Kairos defines its player-development philosophy.",
+    "The League main team, Academy Blue, and Academy White structure is established.",
+    "Core executive and operational staff begin building the organization."
+  ],
+  "consequences": [
+    "Kairos gains a three-level League development pathway.",
+    "Coaching, analytics, health, education, and administration become organizational priorities."
+  ],
+  "canonIntroduced": [
+    "Academy teams exist for real progression rather than decoration.",
+    "The campus supports League, Counter-Strike, and shared performance operations."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-002"
+  ],
+  "continuityNotes": [
+    "Specific future game divisions mentioned by the historical source are not confirmed current divisions."
+  ],
+  "historicalNotes": [
+    "The episode names VALORANT and Dota as possible future campus uses; current canon confirms only that additional games may be added later."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 10-15",
+      "information": "Original historical source for Episode 3, \"A Fundação\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"A Fundação\".",
+    "Kairos defines its player-development philosophy.",
+    "The League main team, Academy Blue, and Academy White structure is established.",
+    "Core executive and operational staff begin building the organization.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

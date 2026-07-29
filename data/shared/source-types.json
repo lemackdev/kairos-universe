@@ -1,0 +1,37 @@
+[
+  {
+    "id": "source-type-canon-document",
+    "name": "Canon document",
+    "value": "canon-document"
+  },
+  {
+    "id": "source-type-conversation-summary",
+    "name": "Conversation summary",
+    "value": "conversation-summary"
+  },
+  {
+    "id": "source-type-inference",
+    "name": "Inference",
+    "value": "inference"
+  },
+  {
+    "id": "source-type-original-episode",
+    "name": "Original episode",
+    "value": "original-episode"
+  },
+  {
+    "id": "source-type-retcon-log",
+    "name": "Retcon log",
+    "value": "retcon-log"
+  },
+  {
+    "id": "source-type-structured-data",
+    "name": "Structured data",
+    "value": "structured-data"
+  },
+  {
+    "id": "source-type-user-confirmation",
+    "name": "User confirmation",
+    "value": "user-confirmation"
+  }
+]

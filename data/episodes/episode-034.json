@@ -1,0 +1,73 @@
+{
+  "id": "episode-034",
+  "slug": "episode-034",
+  "episodeNumber": 34,
+  "title": "Ecos",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "partially-reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovery-required",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 34,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [],
+  "characters": [
+    "adrian-elias-vale"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [],
+  "summary": null,
+  "keyEvents": [],
+  "consequences": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-033"
+  ],
+  "continuityNotes": [
+    "The batch does not assign specific sponsorship or scouting events to this episode."
+  ],
+  "historicalNotes": [
+    "This episode is not part of the archived Episodes 1-29 PDF."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "canon-document",
+      "sourcePath": "docs/canon/CANON_BATCH_030_035.md",
+      "locator": "Episode Titles",
+      "information": "Confirms the episode number and approved title.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The approved narrative prose was not supplied.",
+    "Episode-specific events, characters beyond the narrator, locations, and consequences are TBD.",
+    "The exact calendar date is TBD."
+  ],
+  "confirmedFacts": [
+    "The approved title is \"Ecos\".",
+    "The episode occurs in late October 2026."
+  ],
+  "unconfirmedDetails": [
+    "The full narrative text and episode-specific event sequence are TBD.",
+    "The exact calendar date is TBD."
+  ],
+  "notes": [
+    "No narrative prose or event mapping was invented."
+  ]
+}

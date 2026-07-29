@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/coach.schema.json",
+  "title": "Coach, Mentor, or Staff Record",
+  "description": "Validates coaches, mentors, executives, and supporting staff stored in data/coaches.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "realName",
+    "nickname",
+    "nationality",
+    "role",
+    "division",
+    "currentOrganization",
+    "currentTeam",
+    "status",
+    "firstAppearance",
+    "joinedKairos",
+    "realWorldFigure",
+    "formerPlayingCareer",
+    "coachingPhilosophy",
+    "responsibilities",
+    "personality",
+    "relationships",
+    "objectives",
+    "careerHistory",
+    "individualTimeline",
+    "achievements",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "realName": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "nickname": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "nationality": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "role": {
+      "$ref": "common.schema.json#/$defs/knownRole"
+    },
+    "division": {
+      "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "currentOrganization": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "currentTeam": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/knownStatus"
+    },
+    "firstAppearance": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "joinedKairos": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "realWorldFigure": {
+      "type": "boolean"
+    },
+    "formerPlayingCareer": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "coachingPhilosophy": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "responsibilities": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "personality": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/relationship"
+      }
+    },
+    "objectives": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "careerHistory": {
+      "type": "array"
+    },
+    "individualTimeline": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "achievements": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "canonNotes": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    }
+  },
+  "additionalProperties": false
+}

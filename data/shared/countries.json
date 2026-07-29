@@ -1,0 +1,22 @@
+[
+  {
+    "id": "country-canada",
+    "name": "Canada",
+    "value": "Canada"
+  },
+  {
+    "id": "country-mexico",
+    "name": "Mexico",
+    "value": "Mexico"
+  },
+  {
+    "id": "country-slovenia",
+    "name": "Slovenia",
+    "value": "Slovenia"
+  },
+  {
+    "id": "country-united-states",
+    "name": "United States",
+    "value": "United States"
+  }
+]

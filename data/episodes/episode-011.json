@@ -1,0 +1,114 @@
+{
+  "id": "episode-011",
+  "slug": "episode-011",
+  "episodeNumber": 11,
+  "title": null,
+  "historicalTitle": "O Dia da Revelação",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 63,
+    "pageEnd": 69,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 11,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "emily-chen",
+    "doublelift-kairos-adc-mentor",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "asterion-intelligence",
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Kairos publicly reveals the main League roster under the current nicknames rkN, Vanta, 404, Aster, and Moss.",
+  "keyEvents": [
+    "The current main-roster nicknames are publicly revealed.",
+    "The five players receive Kairos jerseys.",
+    "Moss is presented as captain."
+  ],
+  "consequences": [
+    "The current main League roster becomes public canon."
+  ],
+  "canonIntroduced": [
+    "rkN, Vanta, 404, Aster, and Moss are the official current nicknames."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-010"
+  ],
+  "continuityNotes": [
+    "This is the first historical use of all five current nicknames together."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Doublelift attends the fictional Kairos roster reveal.",
+    "Sneaky, CaptainFlowers, Azael, Riot Games, and real players used in public speculation are background references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 63-69",
+      "information": "Original historical source for Episode 11, \"O Dia da Revelação\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "League Main-Roster Nicknames",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Dia da Revelação\".",
+    "The current main-roster nicknames are publicly revealed.",
+    "The five players receive Kairos jerseys.",
+    "Moss is presented as captain.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

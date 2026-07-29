@@ -1,0 +1,91 @@
+{
+  "id": "mason-404-brooks",
+  "slug": "mason-404-brooks",
+  "realName": "Mason Brooks",
+  "nickname": "404",
+  "historicalAliases": [
+    {
+      "nickname": "Cipher",
+      "status": "retconned",
+      "sourceEpisode": "episode-009",
+      "notes": "Historical source nickname replaced by 404 in current canon."
+    }
+  ],
+  "nationality": "TBD",
+  "city": "Toronto",
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 18,
+  "game": "League of Legends",
+  "role": "Mid",
+  "currentTeam": "kairos-lol-main",
+  "rosterLevel": "main",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-006",
+  "joinedKairos": "TBD",
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "personality": "Disciplined",
+  "playstyle": "TBD",
+  "strengths": [],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "pobelter-kairos-mid-mentor",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-lol-main",
+      "status": "active",
+      "joinedKairos": "TBD",
+      "firstProfessionalTeam": true
+    }
+  ],
+  "individualTimeline": [
+    "Episode 6: Mason appears as an unnamed scouting subject later explicitly identified in Episode 9."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "confirmedFacts": [
+    "Mason Brooks \"404\" is active on Kairos League of Legends Main Team.",
+    "The player is training in Los Angeles.",
+    "The player has not made an official competitive debut with Kairos.",
+    "The player's role is Mid.",
+    "The player is age 18 at the current story date.",
+    "The player's confirmed city is Toronto.",
+    "Kairos is the player's first professional team.",
+    "Mason \"404\" Brooks is disciplined.",
+    "404 is not the team captain.",
+    "The player's first confirmed appearance is episode-006."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "Date of birth is TBD.",
+    "The exact date the player joined Kairos is TBD.",
+    "Contract status, dates, and salary are TBD.",
+    "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
+    "Statistics, achievements, and trivia are TBD."
+  ],
+  "canonNotes": [
+    "Do not infer nationality from city.",
+    "Do not fabricate a birth date from age.",
+    "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
+    "404 must remain a Mid laner.",
+    "404 must never be listed as team captain.",
+    "404 did not play for another professional team before Kairos.",
+    "Historical aliases are archival only; current records and wiki pages must use the current nickname."
+  ]
+}

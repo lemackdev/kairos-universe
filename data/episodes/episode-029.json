@@ -1,0 +1,100 @@
+{
+  "id": "episode-029",
+  "slug": "episode-029",
+  "episodeNumber": 29,
+  "title": "A Name on the Board",
+  "historicalTitle": "Um Nome no Quadro",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 185,
+    "pageEnd": 189,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 29,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "claire-kairos-executive",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos defines the qualities required of its first Counter-Strike IGL without naming, selecting, or signing a candidate.",
+  "keyEvents": [
+    "Kairos formalizes the first-IGL profile.",
+    "Leadership, accountability, strategic thinking, teaching ability, humility, discipline, resilience, and emotional control are prioritized.",
+    "No candidate name is added to the board."
+  ],
+  "consequences": [
+    "The IGL profile becomes the foundation for every later roster decision.",
+    "The first player remains unsigned."
+  ],
+  "canonIntroduced": [
+    "The first IGL must improve teammates and represent Kairos inside the server.",
+    "Leadership matters more than individual rating or fragging."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-028"
+  ],
+  "continuityNotes": [
+    "The episode defines a profile, not a candidate.",
+    "The current story endpoint is late October 2026."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "HLTV and TeamSpeak are historical Counter-Strike background references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 185-189",
+      "information": "Original historical source for Episode 29, \"Um Nome no Quadro\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"Um Nome no Quadro\".",
+    "Kairos formalizes the first-IGL profile.",
+    "Leadership, accountability, strategic thinking, teaching ability, humility, discipline, resilience, and emotional control are prioritized.",
+    "No candidate name is added to the board.",
+    "The episode occurs in late October 2026."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "daniel-moss-reyes",
+  "slug": "daniel-moss-reyes",
+  "realName": "Daniel Reyes",
+  "nickname": "Moss",
+  "historicalAliases": [
+    {
+      "nickname": "Anchor",
+      "status": "retconned",
+      "sourceEpisode": "episode-009",
+      "notes": "Historical source nickname replaced by Moss in current canon."
+    }
+  ],
+  "nationality": "TBD",
+  "city": "Chicago",
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 18,
+  "game": "League of Legends",
+  "role": "Support",
+  "currentTeam": "kairos-lol-main",
+  "rosterLevel": "main",
+  "status": "active-training-pre-debut",
+  "isCaptain": true,
+  "firstAppearance": "episode-009",
+  "joinedKairos": "TBD",
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "personality": "TBD",
+  "playstyle": "TBD",
+  "strengths": [],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "zaqueri-aphromoo-black",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-lol-main",
+      "status": "active",
+      "joinedKairos": "TBD",
+      "firstProfessionalTeam": true
+    }
+  ],
+  "individualTimeline": [
+    "Episode 9: Daniel first appears when the main roster is privately confirmed and he is named captain."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "confirmedFacts": [
+    "Daniel Reyes \"Moss\" is active on Kairos League of Legends Main Team.",
+    "The player is training in Los Angeles.",
+    "The player has not made an official competitive debut with Kairos.",
+    "The player's role is Support.",
+    "The player is age 18 at the current story date.",
+    "The player's confirmed city is Chicago.",
+    "Kairos is the player's first professional team.",
+    "Moss is captain of the Kairos League of Legends main roster.",
+    "The player's first confirmed appearance is episode-009."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "Date of birth is TBD.",
+    "The exact date the player joined Kairos is TBD.",
+    "Contract status, dates, and salary are TBD.",
+    "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
+    "Statistics, achievements, and trivia are TBD.",
+    "Personality is TBD."
+  ],
+  "canonNotes": [
+    "Do not infer nationality from city.",
+    "Do not fabricate a birth date from age.",
+    "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
+    "Moss is the only confirmed captain in the League division.",
+    "Historical aliases are archival only; current records and wiki pages must use the current nickname."
+  ]
+}

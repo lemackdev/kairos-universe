@@ -1,0 +1,117 @@
+{
+  "id": "episode-002",
+  "slug": "episode-002",
+  "episodeNumber": 2,
+  "title": null,
+  "historicalTitle": "O Primeiro Recruta",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 5,
+    "pageEnd": 9,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 2,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States",
+    "Seattle"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "noah-rkn-bennett"
+  ],
+  "firstAppearances": [
+    "noah-rkn-bennett"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Kairos begins its League recruitment process and identifies Noah Bennett as its first named player prospect while the Los Angeles campus project takes shape.",
+  "keyEvents": [
+    "The Los Angeles campus project is evaluated.",
+    "Noah Bennett becomes the first named League player recruited by Kairos.",
+    "Kairos presents its long-term support model to Noah and his family."
+  ],
+  "consequences": [
+    "Noah enters the Kairos League development project.",
+    "Player and family support becomes part of the recruitment model."
+  ],
+  "canonIntroduced": [
+    "Noah Bennett is a 17-year-old Top player from Seattle.",
+    "Kairos is Noah's first professional team."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-001"
+  ],
+  "continuityNotes": [
+    "Noah's current nickname is rkN.",
+    "Exact campus dimensions and architectural details remain TBD."
+  ],
+  "historicalNotes": [
+    "The episode calls Noah Bennett \"Rook\"; that nickname is retconned.",
+    "The episode describes a specific warehouse size and Playa Vista site; current canon does not confirm exact dimensions or address."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "retcon-league-main-roster-nicknames",
+      "status": "retconned",
+      "description": "Noah's historical nickname Rook is replaced by rkN in current canon.",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 5-9",
+      "information": "Original historical source for Episode 2, \"O Primeiro Recruta\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "League Main-Roster Nicknames; Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Primeiro Recruta\".",
+    "The Los Angeles campus project is evaluated.",
+    "Noah Bennett becomes the first named League player recruited by Kairos.",
+    "Kairos presents its long-term support model to Noah and his family.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

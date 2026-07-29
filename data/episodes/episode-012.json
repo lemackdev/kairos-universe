@@ -1,0 +1,116 @@
+{
+  "id": "episode-012",
+  "slug": "episode-012",
+  "episodeNumber": 12,
+  "title": null,
+  "historicalTitle": "O Campus",
+  "archiveSource": {
+    "path": "archive/sources/kairos-original-episodes.pdf",
+    "pageStart": 70,
+    "pageEnd": 75,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "TBD",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 12,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Los Angeles, California, United States"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "marcus-kairos-general-manager",
+    "sofia-kairos-executive",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "The Los Angeles campus becomes operational for the League division while Counter-Strike facilities continue toward readiness.",
+  "keyEvents": [
+    "League training, performance, health, content, and administrative areas become operational.",
+    "The three League teams arrive at the campus.",
+    "Space remains allocated to Counter-Strike and future growth."
+  ],
+  "consequences": [
+    "The League division gains its permanent Los Angeles training base."
+  ],
+  "canonIntroduced": [
+    "The campus supports separate game buildings and shared operational resources."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-011"
+  ],
+  "continuityNotes": [
+    "Current canon confirms the campus at a high level only.",
+    "Exact completion dates and architectural specifications remain TBD."
+  ],
+  "historicalNotes": [
+    "The episode gives exact construction timing, room layouts, and facility details that are not promoted to current canon.",
+    "Specific VALORANT and Dota spaces are historical plans, not confirmed divisions."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/sources/kairos-original-episodes.pdf",
+      "locator": "PDF pages 70-75",
+      "information": "Original historical source for Episode 12, \"O Campus\".",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "retcon-log",
+      "sourcePath": "docs/retcons/CANON_INCONSISTENCY_AUDIT.md",
+      "locator": "Timeline Drift; Additional Historical Boundaries",
+      "information": "Defines how historical conflicts, retcons, or source-boundary issues in this episode are represented in current canon.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The exact calendar date remains TBD; the story year is confirmed as 2026.",
+    "A current-canon publication title is TBD; the original Portuguese historical title is preserved separately."
+  ],
+  "confirmedFacts": [
+    "The historical source title is \"O Campus\".",
+    "League training, performance, health, content, and administrative areas become operational.",
+    "The three League teams arrive at the campus.",
+    "Space remains allocated to Counter-Strike and future growth.",
+    "The episode occurs during the 2026 story year."
+  ],
+  "unconfirmedDetails": [
+    "The exact calendar date is TBD; the story year is confirmed as 2026."
+  ],
+  "notes": [
+    "The structured record summarizes source-supported events and does not replace the immutable historical prose.",
+    "Current repository canon overrides conflicting historical details.",
+    "No official match result, contract, salary, ranking, or unsupported statistic is created by this reconstruction."
+  ]
+}

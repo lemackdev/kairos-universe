@@ -1,0 +1,87 @@
+{
+  "id": "liam-aster-oconnor",
+  "slug": "liam-aster-oconnor",
+  "realName": "Liam O'Connor",
+  "nickname": "Aster",
+  "historicalAliases": [
+    {
+      "nickname": "Forge",
+      "status": "retconned",
+      "sourceEpisode": "episode-009",
+      "notes": "Historical source nickname replaced by Aster in current canon."
+    }
+  ],
+  "nationality": "TBD",
+  "city": "Halifax",
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 17,
+  "game": "League of Legends",
+  "role": "ADC",
+  "currentTeam": "kairos-lol-main",
+  "rosterLevel": "main",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-009",
+  "joinedKairos": "TBD",
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "personality": "TBD",
+  "playstyle": "TBD",
+  "strengths": [],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "doublelift-kairos-adc-mentor",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-lol-main",
+      "status": "active",
+      "joinedKairos": "TBD",
+      "firstProfessionalTeam": true
+    }
+  ],
+  "individualTimeline": [
+    "Episode 9: Liam first appears when the main roster is privately confirmed."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [],
+  "confirmedFacts": [
+    "Liam O'Connor \"Aster\" is active on Kairos League of Legends Main Team.",
+    "The player is training in Los Angeles.",
+    "The player has not made an official competitive debut with Kairos.",
+    "The player's role is ADC.",
+    "The player is age 17 at the current story date.",
+    "The player's confirmed city is Halifax.",
+    "Kairos is the player's first professional team.",
+    "The player's first confirmed appearance is episode-009."
+  ],
+  "unconfirmedDetails": [
+    "Nationality is TBD.",
+    "Date of birth is TBD.",
+    "The exact date the player joined Kairos is TBD.",
+    "Contract status, dates, and salary are TBD.",
+    "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
+    "Statistics, achievements, and trivia are TBD.",
+    "Personality is TBD."
+  ],
+  "canonNotes": [
+    "Do not infer nationality from city.",
+    "Do not fabricate a birth date from age.",
+    "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
+    "Historical aliases are archival only; current records and wiki pages must use the current nickname."
+  ]
+}

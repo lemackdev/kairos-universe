@@ -1,0 +1,84 @@
+{
+  "id": "episode-033",
+  "slug": "episode-033",
+  "episodeNumber": 33,
+  "title": "Dois Caminhos",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "partially-reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovery-required",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 33,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [],
+  "characters": [
+    "adrian-elias-vale",
+    "owen-glacier-fletcher"
+  ],
+  "firstAppearances": [
+    "owen-glacier-fletcher"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [],
+  "summary": "Owen Fletcher first appears as a Counter-Strike prospect and primary AWPer candidate.",
+  "keyEvents": [
+    "Owen Fletcher first appears."
+  ],
+  "consequences": [
+    "Owen becomes the primary AWPer candidate in the Kairos scouting pipeline."
+  ],
+  "canonIntroduced": [
+    "Owen Fletcher is a canonical Counter-Strike prospect."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-032"
+  ],
+  "continuityNotes": [
+    "Owen is a recruitment target, not a signed Kairos player."
+  ],
+  "historicalNotes": [
+    "This episode is not part of the archived Episodes 1-29 PDF."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "canon-document",
+      "sourcePath": "docs/canon/CANON_BATCH_030_035.md",
+      "locator": "Episode Titles; First Appearances; Counter-Strike Pipeline",
+      "information": "Confirms the episode title, Owen's first appearance, and his pipeline status.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The approved narrative prose was not supplied.",
+    "The exact calendar date is TBD.",
+    "Episode-specific scenes, dialogue, locations, and staff participation beyond confirmed metadata are TBD."
+  ],
+  "confirmedFacts": [
+    "The approved title is \"Dois Caminhos\".",
+    "Owen Fletcher first appears in Episode 33.",
+    "The episode occurs in late October 2026."
+  ],
+  "unconfirmedDetails": [
+    "The full narrative text and exact event sequence are TBD.",
+    "The exact calendar date is TBD."
+  ],
+  "notes": [
+    "No narrative prose was invented.",
+    "Owen's family history is not expanded beyond the approved character record."
+  ]
+}

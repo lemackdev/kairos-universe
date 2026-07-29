@@ -1,0 +1,334 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/episode.schema.json",
+  "title": "Episode Record",
+  "description": "Validates completed episode records, partial reconstructions, and source-recovery placeholders.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "episodeNumber",
+    "title",
+    "historicalTitle",
+    "archiveSource",
+    "recordStatus",
+    "canonStatus",
+    "reconstructionStatus",
+    "approximateStoryPeriod",
+    "storyYear",
+    "exactStoryDate",
+    "publicationOrder",
+    "narrator",
+    "protagonist",
+    "divisions",
+    "locations",
+    "characters",
+    "firstAppearances",
+    "organizations",
+    "teams",
+    "summary",
+    "keyEvents",
+    "consequences",
+    "canonIntroduced",
+    "canonChanged",
+    "continuityDependencies",
+    "continuityNotes",
+    "historicalNotes",
+    "realWorldReferences",
+    "retcons",
+    "sourceReferences",
+    "confidence",
+    "missingInformation",
+    "confirmedFacts",
+    "unconfirmedDetails",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "episodeNumber": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "historicalTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "archiveSource": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "path",
+            "pageStart",
+            "pageEnd",
+            "duplicatePageRanges"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[^\\\\]+$"
+            },
+            "pageStart": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "pageEnd": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "duplicatePageRanges": {
+              "$ref": "common.schema.json#/$defs/stringArray"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "recordStatus": {
+      "enum": [
+        "placeholder",
+        "partially-reconstructed",
+        "reconstructed",
+        "canon-verified",
+        "retconned"
+      ]
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
+    },
+    "reconstructionStatus": {
+      "enum": [
+        "source-recovery-required",
+        "initial-record-source-recovery-required",
+        "source-recovered"
+      ]
+    },
+    "approximateStoryPeriod": {
+      "enum": [
+        "early-2026",
+        "late-october-2026",
+        "TBD"
+      ]
+    },
+    "storyYear": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "exactStoryDate": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "publicationOrder": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "narrator": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "protagonist": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "divisions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "Counter-Strike",
+          "League of Legends"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "locations": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "characters": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "firstAppearances": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "organizations": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "teams": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "summary": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "keyEvents": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "consequences": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "canonIntroduced": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "canonChanged": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "continuityDependencies": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "continuityNotes": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "historicalNotes": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "realWorldReferences": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "retcons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status",
+          "description",
+          "sourcePath"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "status": {
+            "enum": [
+              "retconned",
+              "non-canonical"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourcePath": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[^\\\\]+$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sourceType",
+          "sourcePath",
+          "locator",
+          "information",
+          "evidenceLevel",
+          "confidence",
+          "userConfirmationRequired"
+        ],
+        "properties": {
+          "sourceType": {
+            "enum": [
+              "original-episode",
+              "conversation-summary",
+              "canon-document",
+              "structured-data",
+              "retcon-log",
+              "user-confirmation",
+              "inference"
+            ]
+          },
+          "sourcePath": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[^\\\\]+$"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "information": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidenceLevel": {
+            "enum": [
+              "explicit",
+              "indirect"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "unknown",
+              "low",
+              "medium",
+              "high",
+              "confirmed"
+            ]
+          },
+          "userConfirmationRequired": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "confidence": {
+      "enum": [
+        "unknown",
+        "low",
+        "medium",
+        "high",
+        "confirmed"
+      ]
+    },
+    "missingInformation": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "confirmedFacts": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "unconfirmedDetails": {
+      "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    }
+  },
+  "additionalProperties": false
+}

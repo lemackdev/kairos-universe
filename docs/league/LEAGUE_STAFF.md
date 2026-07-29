@@ -53,6 +53,8 @@ error. Current canon uses Zaqueri "Aphromoo" Black.
 
 - Head Coach of the League division.
 - Responsible for the main League competitive project.
+- Expands mentorship of Academy players.
+- Makes communication and team culture measurable development goals.
 - Support mentor.
 - Former professional Support player.
 

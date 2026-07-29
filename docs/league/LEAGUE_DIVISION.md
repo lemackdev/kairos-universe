@@ -11,7 +11,7 @@
 | Game | League of Legends |
 | Headquarters and training location | Los Angeles, California, United States |
 | Story start | Early 2026 |
-| Current story period | Late October 2026 |
+| Current story date | November 7, 2026 |
 | Current status | Active, training, and pre-debut |
 | Planned official debut | February 2027 |
 | Exact debut date | TBD |
@@ -38,6 +38,10 @@ rosters.
 - The League division previously completed a Korean bootcamp.
 - The League division has returned to Los Angeles.
 - Competitive history, achievements, and statistics are currently empty.
+- The League division appears in Episodes 34, 36, 38, 55, and 56.
+- All three League rosters participate in the November 7 community vote.
+- These appearances create no roster, role, captain, contract, or official
+  match change.
 
 ## Main competitive project
 
@@ -66,6 +70,14 @@ The division follows the broader Kairos philosophy:
 - Academy systems with genuine developmental purpose.
 - Structured support for young players.
 - High competitive ambition without exploiting players.
+
+## Current Development State
+
+- League infrastructure continues operating normally.
+- Aphromoo has expanded mentorship of Academy players.
+- Communication and team culture are measurable development goals.
+- Academy performance continues improving internally.
+- No roster change occurs in Episodes 36 through 42.
 
 ## Canon constraints
 

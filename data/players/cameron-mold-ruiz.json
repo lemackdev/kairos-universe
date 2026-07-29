@@ -5,21 +5,32 @@
   "nickname": "Mold",
   "historicalAliases": [],
   "nationality": "TBD",
-  "city": "TBD",
+  "city": "Truth or Consequences",
+  "homeTown": {
+    "city": "Truth or Consequences",
+    "region": "New Mexico",
+    "country": "United States"
+  },
   "dateOfBirth": "TBD",
-  "ageAtCurrentStoryDate": "TBD",
+  "ageAtCurrentStoryDate": 19,
   "game": "Counter-Strike",
-  "role": "TBD",
+  "role": "Entry",
   "currentTeam": null,
   "rosterLevel": "prospect",
-  "status": "unsigned-prospect",
+  "status": "being-scouted",
   "isCaptain": false,
-  "firstAppearance": "TBD",
+  "firstAppearance": "episode-038",
   "joinedKairos": "Not joined",
   "contract": null,
-  "personality": "TBD",
-  "playstyle": "TBD",
-  "strengths": [],
+  "occupation": "Part-time mechanic",
+  "personality": "Honest, straightforward, and team-first.",
+  "playstyle": "Extremely aggressive Entry who accepts sacrificial roles.",
+  "strengths": [
+    "Aggressive entry play.",
+    "Team-first mentality.",
+    "Willingness to accept sacrificial roles.",
+    "Honest and direct communication."
+  ],
   "weaknesses": [],
   "inspirations": [],
   "objectives": [],
@@ -29,28 +40,63 @@
       "subjectId": "caleb-atlas-mercer",
       "type": "initial-evaluation",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lukas-luk-novak",
+      "type": "scout",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "evaluator",
+      "status": "confirmed"
     }
   ],
   "careerHistory": [],
-  "individualTimeline": [],
+  "individualTimeline": [
+    "Episode 38: Cameron and the nickname Mold first appear in the Kairos scouting process.",
+    "Episode 41: Cameron completes an initial interview; no trial, invitation, travel, or contract occurs.",
+    "Episodes 42-56: Cameron remains under scouting observation without an invitation or contract."
+  ],
   "statistics": {},
   "achievements": [],
   "trivia": [],
   "currentState": [
+    "Under active scouting observation.",
     "Unsigned Counter-Strike prospect.",
-    "Initial evaluation with Caleb Mercer is confirmed."
+    "No invitation.",
+    "No contract."
   ],
+  "nicknameFirstAppearance": "episode-038",
   "confirmedFacts": [
     "Cameron Ruiz is a canonical unsigned Counter-Strike prospect known as Mold.",
+    "He is 19 years old at the current story date.",
+    "His nationality is TBD; it must not be inferred from his home town.",
+    "He is from Truth or Consequences, New Mexico.",
+    "He is an Entry prospect and works as a part-time mechanic.",
+    "He is extremely aggressive, team-first, accepts sacrificial roles, and is honest and straightforward.",
+    "His first appearance and the first appearance of the nickname Mold are in Episode 38.",
     "An initial evaluation relationship with Caleb Mercer is confirmed.",
+    "He completes an initial interview in Episode 41.",
+    "The Episode 41 interview is not a trial, invitation, travel event, or contract.",
+    "He remains under scouting observation through Episode 56.",
+    "He is a confirmed individual 19-year-old exception; this does not establish general eligibility for every 19-year-old.",
+    "No invitation has been issued.",
     "No contract has been signed."
   ],
   "unconfirmedDetails": [
-    "Age, nationality, home town, date of birth, role, first appearance, personality, and playstyle are TBD.",
-    "Recruitment outcome, statistics, achievements, and contract details are TBD."
+    "Nationality and date of birth are TBD.",
+    "Previous teams and tournament history are TBD.",
+    "Recruitment outcome, statistics, and achievements are TBD."
   ],
   "canonNotes": [
-    "Do not infer missing biography or competitive role.",
+    "Do not expand Cameron's biography beyond approved facts.",
+    "Do not generalize Cameron's individual age exception into a broader rule.",
     "Prospect status does not constitute roster membership."
   ]
 }

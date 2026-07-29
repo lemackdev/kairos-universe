@@ -76,6 +76,11 @@ and only confirmed Counter-Strike captain. Luk defines the overall
 Counter-Strike philosophy and mentors Trace. The Academy is a developmental
 pathway into the main team.
 
+The current unsigned pipeline consists of Owen "Glacier" Fletcher and Emiliano
+"MoteConHuesillo" Navarro under evaluation, plus Cameron "Mold" Ruiz under
+scouting observation after an interview. Cameron has no trial, invitation,
+travel arrangement, or contract.
+
 Detailed Counter-Strike records:
 
 - [Counter-Strike division](../counter-strike/COUNTER_STRIKE_DIVISION.md)
@@ -104,6 +109,13 @@ organization where appropriate:
 
 Exact departments, leaders, staffing counts, reporting lines, and allocation of
 shared resources are **TBD**.
+
+Project Casa Arthur is a conditional plan, not an operating department or
+completed facility. Richard Collins is a medical provider involved in Arthur
+Fletcher's care and is not documented as a Kairos employee.
+
+The approved food-service policy authorizes invitations and negotiations only.
+It creates no restaurant partnership, contract, campus operation, or sponsor.
 
 ## Related documents
 

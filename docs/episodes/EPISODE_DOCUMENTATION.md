@@ -18,8 +18,8 @@ The current structured model is defined by
 
 The authored narrative text of an episode. It may contain dialogue, scene
 descriptions, pacing, and narrative voice. Original prose should be preserved
-separately and must not be rewritten to match current canon. The recovered
-original source is cataloged in the
+separately and must not be rewritten to match current canon. Recovered
+historical and normalized sources are cataloged in the
 [Historical Source Manifest](../../archive/SOURCE_MANIFEST.md).
 
 ### Structured Episode Record
@@ -116,7 +116,8 @@ contain confirmed facts while still requiring original prose.
 
 ## Historical Source Integration
 
-1. Preserve the source file byte-for-byte.
+1. Preserve supplied source artifacts byte-for-byte before any documented
+   searchable normalization.
 2. Record its checksum and page map.
 3. Store the historical title and page range in the episode record.
 4. Apply current repository canon before the historical source.
@@ -142,12 +143,12 @@ be labeled and cannot override confirmed evidence.
 ## Current Reconstruction Boundary
 
 - Episodes 1 through 29 are reconstructed from the archived historical source.
-- Episodes 30 through 35 have approved metadata and require source prose
-  recovery.
+- Episodes 30 through 56 are reconstructed from the normalized source package.
 - Episodes 1 through 24 retain **TBD** current titles and preserve their
   historical Portuguese titles separately.
-- Episode 35 is the current story episode.
-- The story year is 2026. Exact calendar days remain **TBD**.
+- Episode 56 is the current story episode.
+- The story year is 2026. Episodes 55 and 56 are dated November 7, 2026;
+  exact dates for Episodes 30 through 54 remain **TBD**.
 
 See [Episode Reconstruction Status](EPISODE_RECONSTRUCTION_STATUS.md) and
 [Source Gaps](SOURCE_GAPS.md).

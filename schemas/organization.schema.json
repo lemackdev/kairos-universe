@@ -33,10 +33,7 @@
     },
     "founder": {
       "type": "object",
-      "required": [
-        "id",
-        "realName"
-      ],
+      "required": ["id", "realName"],
       "properties": {
         "id": {
           "$ref": "common.schema.json#/$defs/stableId"
@@ -56,11 +53,7 @@
     },
     "chiefExecutive": {
       "type": "object",
-      "required": [
-        "id",
-        "realName",
-        "title"
-      ],
+      "required": ["id", "realName", "title"],
       "properties": {
         "id": {
           "$ref": "common.schema.json#/$defs/stableId"
@@ -80,11 +73,7 @@
     },
     "owner": {
       "type": "object",
-      "required": [
-        "id",
-        "realName",
-        "commonName"
-      ],
+      "required": ["id", "realName", "commonName"],
       "properties": {
         "id": {
           "$ref": "common.schema.json#/$defs/stableId"
@@ -105,11 +94,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "organizationId",
-          "name",
-          "relationship"
-        ],
+        "required": ["organizationId", "name", "relationship"],
         "properties": {
           "organizationId": {
             "$ref": "common.schema.json#/$defs/stableId"
@@ -119,9 +104,7 @@
             "minLength": 1
           },
           "relationship": {
-            "enum": [
-              "subsidiary"
-            ]
+            "enum": ["subsidiary"]
           }
         },
         "additionalProperties": false
@@ -186,6 +169,70 @@
           "$ref": "common.schema.json#/$defs/stringArray"
         },
         "principles": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        }
+      },
+      "additionalProperties": false
+    },
+    "foodServicePolicy": {
+      "type": "object",
+      "required": [
+        "status",
+        "voteDate",
+        "eligibleVoters",
+        "votesCast",
+        "yesVotes",
+        "noVotes",
+        "proposalChainCount",
+        "selectionLimit",
+        "selectedChains",
+        "confirmedPartnerships",
+        "restrictions",
+        "currentState"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "voteDate": {
+          "type": "string",
+          "minLength": 1
+        },
+        "eligibleVoters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "votesCast": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "yesVotes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "noVotes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "proposalChainCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "selectionLimit": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "selectedChains": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "confirmedPartnerships": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "restrictions": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "currentState": {
           "$ref": "common.schema.json#/$defs/stringArray"
         }
       },

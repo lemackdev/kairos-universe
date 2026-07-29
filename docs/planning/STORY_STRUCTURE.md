@@ -1,5 +1,9 @@
 # Story Structure
 
+See [Future Canon Reservations](FUTURE_CANON_RESERVATIONS.md) for concepts that
+are approved for possible later use but are not active story entities or
+events.
+
 **Document type:** Narrative planning rules
 
 ## Narrative frame
@@ -26,19 +30,20 @@ Majors. These are goals, not achieved results.
 ## Current story point
 
 - Story start: early 2026.
-- Current story period: late October 2026.
+- Current story date: November 7, 2026.
 - Kairos is training and has not officially debuted.
 - The next League of Legends and Counter-Strike competitive milestone is
   planned for February 2027.
 - Caleb "Atlas" Mercer is the signed Counter-Strike IGL and Founding Captain.
-- Counter-Strike is currently scouting the remaining roster positions.
+- Owen Fletcher and Emiliano Navarro are participating in evaluations.
+- Cameron Ruiz remains under active scouting.
 
 The complete current snapshot is maintained in
 [CURRENT_WORLD_STATE.md](../world-state/CURRENT_WORLD_STATE.md).
 
 ## Episode Record Model
 
-Episodes 1 through 35 now have structured records in `data/episodes/`. The
+Episodes 1 through 56 now have structured records in `data/episodes/`. The
 record model includes:
 
 - Stable ID, slug, episode number, and publication order
@@ -56,9 +61,9 @@ record model includes:
 - Structured source references and confidence
 - Missing information, confirmed facts, and unconfirmed details
 
-The current story episode is 35. Episodes 1 through 29 are reconstructed from
-the immutable historical PDF. Episodes 30 through 35 have approved titles and
-metadata but require source prose recovery. Episodes 1 through 24 retain
+The current story episode is 56. Episodes 1 through 29 are reconstructed from
+the immutable historical PDF. Episodes 30 through 56 are reconstructed from
+the authoritative normalized source package. Episodes 1 through 24 retain
 **TBD** current titles while preserving their historical Portuguese titles.
 Episodes 25 through 29 retain their current English working titles and
 historical titles.
@@ -74,7 +79,11 @@ See the [episode documentation guide](../episodes/EPISODE_DOCUMENTATION.md).
 - Episode Reconstruction Phase A: complete
 - Historical source recovery: complete
 - Counter-Strike Founding Captain canonization: complete
-- Episodes 30-35 source recovery: pending and next
+- Canon Batch 36-42: complete
+- Canon Batch 43-53: complete
+- Canon Batch 54-56: complete
+- Episodes 30-56 source normalization and canonization: complete
+- Entity chronology and relationship enrichment: next
 
 The source-integration phase reconstructs every episode record while keeping
 historical conflicts separate from current canon. It does not promote every

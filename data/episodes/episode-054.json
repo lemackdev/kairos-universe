@@ -1,0 +1,89 @@
+{
+  "id": "episode-054",
+  "slug": "episode-054",
+  "episodeNumber": 54,
+  "title": "Casa",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 54,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "emily-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "arthur-fletcher",
+    "richard-collins"
+  ],
+  "firstAppearances": ["richard-collins"],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "After Arthur's doctor reports that chemotherapy is responding well, Adrian develops Project Casa Arthur as a conditional housing plan tied to safe travel and independent medical approval.",
+  "keyEvents": [
+    "Dr. Richard Collins first appears as Arthur Fletcher's doctor and medical information provider.",
+    "Arthur's chemotherapy is responding well.",
+    "Owen feels guilty about being far from Arthur.",
+    "Project Casa Arthur is planned within the Kairos campus property with one bedroom, a living room, kitchen, garden, full accessibility, and proximity to medical resources.",
+    "The plan is conditional on safe travel and independent medical approval.",
+    "No construction, relocation, acceptance, or medical approval occurs.",
+    "The episode occurs some days after the first internal Counter-Strike scrim."
+  ],
+  "consequences": [
+    "The plan remains conditional and Arthur continues living in Mackenzie.",
+    "The concept is intended to help Owen balance career and family."
+  ],
+  "canonIntroduced": [
+    "Project Casa Arthur is a planned conditional facility, not a completed residence."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-053"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 54 — Casa",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"Casa\".",
+    "Dr. Richard Collins first appears as Arthur Fletcher's doctor and medical information provider.",
+    "Arthur's chemotherapy is responding well.",
+    "Owen feels guilty about being far from Arthur.",
+    "Project Casa Arthur is planned within the Kairos campus property with one bedroom, a living room, kitchen, garden, full accessibility, and proximity to medical resources.",
+    "The plan is conditional on safe travel and independent medical approval.",
+    "No construction, relocation, acceptance, or medical approval occurs.",
+    "The episode occurs some days after the first internal Counter-Strike scrim."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

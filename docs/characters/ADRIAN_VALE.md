@@ -46,6 +46,30 @@ No further physical description is confirmed.
 3. Build systems intended to survive for decades.
 4. Kairos exists to strengthen the entire North American ecosystem.
 
+## Current Counter-Strike Actions
+
+- Personally visits Mackenzie, British Columbia, to recruit Owen Fletcher.
+- Meets Owen's grandfather.
+- Introduces a non-binding three-week evaluation program.
+- Signs Caleb Mercer as the first Counter-Strike player in Kairos history.
+- Appoints Caleb as Founding Captain.
+- Begins evaluating Cameron Ruiz.
+- Reviews Emiliano Navarro's scouting report.
+- Personally oversees Owen's and Emiliano's evaluation periods.
+- Establishes that Kairos recruits people before players.
+- Begins background verification procedures for future recruits.
+- Requires cultural fit before additional recruitment advances.
+
+## Episodes 54-56 Actions
+
+- Develops Project Casa Arthur as a conditional support plan without beginning
+  construction or relocation.
+- Submits the food-service policy to all 143 eligible Kairos community
+  members.
+- After the 126-17 approval, authorizes invitations and negotiations with
+  In-N-Out Burger, Chipotle Mexican Grill, and Chick-fil-A without confirming
+  a partnership.
+
 ## Historical-Source Boundary
 
 The historical episodes remain first-person accounts whose prose does not name

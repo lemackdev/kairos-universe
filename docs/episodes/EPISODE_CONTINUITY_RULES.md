@@ -14,7 +14,9 @@
    happen.
 6. Source priority is current repository, Canon Inconsistency Audit, then
    historical archive.
-7. Original prose and source files are immutable.
+7. Preserved source artifacts are immutable. A searchable normalized
+   transcription may change only through an explicit, checksummed
+   normalization record.
 8. A historical title is not automatically the current title.
 
 ## Dates And Order
@@ -38,7 +40,7 @@
    confined to a structured retcon note.
 4. Every original episode record identifies `adrian-elias-vale` as narrator
    and protagonist through metadata without rewriting the historical prose.
-4. Later source recovery may clarify a first appearance, but the affected
+5. Later source recovery may clarify a first appearance, but the affected
    character record must be updated in the same change.
 
 ## Summaries And Missing Prose
@@ -74,7 +76,7 @@ does not mean that a partial record is fully reconstructed.
 4. A placeholder must state that source recovery is required.
 5. A placeholder must state that no story content was invented.
 
-No placeholders currently remain for Episodes 1 through 29. These rules remain
+No placeholders currently remain for Episodes 1 through 56. These rules remain
 in force for future unrecovered episodes.
 
 ## Real-World References

@@ -8,5 +8,10 @@
     "id": "story-period-late-october-2026",
     "name": "Late October 2026",
     "value": "late-october-2026"
+  },
+  {
+    "id": "story-period-early-november-2026",
+    "name": "Early November 2026",
+    "value": "early-november-2026"
   }
 ]

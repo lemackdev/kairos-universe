@@ -1,0 +1,77 @@
+{
+  "id": "episode-045",
+  "slug": "episode-045",
+  "episodeNumber": 45,
+  "title": "A Ligação",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 45,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "arthur-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Arthur accepts Owen's three-week evaluation after Kairos guarantees Owen's return to Mackenzie if no contract follows.",
+  "keyEvents": [
+    "Arthur accepts the evaluation plan on Owen's behalf.",
+    "Kairos guarantees Owen's travel home if the evaluation does not produce a contract.",
+    "Caleb asks for Owen's and Emiliano's first team session to occur together."
+  ],
+  "consequences": [
+    "Owen prepares to travel to Los Angeles while remaining unsigned."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-044"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 45 — A Ligação",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"A Ligação\".",
+    "Arthur accepts the evaluation plan on Owen's behalf.",
+    "Kairos guarantees Owen's travel home if the evaluation does not produce a contract.",
+    "Caleb asks for Owen's and Emiliano's first team session to occur together."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

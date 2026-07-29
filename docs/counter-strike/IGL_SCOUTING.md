@@ -91,8 +91,13 @@ negotiation details are **TBD**.
 ## Current Pipeline
 
 - **Signed:** Caleb "Atlas" Mercer, IGL and Founding Captain.
-- **Unsigned:** Owen "Glacier" Fletcher, Cameron "Mold" Ruiz, and Emiliano
-  "MoteConHuesillo" Navarro.
+- **Evaluation:** Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo"
+  Navarro, no contracts.
+- **Scouted and unsigned:** Cameron "Mold" Ruiz, no invitation or contract.
+
+Caleb now leads tactical sessions, participates in teammate evaluation, and
+acts as captain in practice. The current process weighs communication, trust,
+decision-making, adaptability, and character references alongside gameplay.
 
 ## Related Documents
 

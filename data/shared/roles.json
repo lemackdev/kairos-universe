@@ -25,6 +25,11 @@
     "value": "Executive"
   },
   {
+    "id": "role-entry",
+    "name": "Entry",
+    "value": "Entry"
+  },
+  {
     "id": "role-founder-and-ceo",
     "name": "Founder and CEO",
     "value": "Founder and CEO"
@@ -68,6 +73,11 @@
     "id": "role-mid-mentor",
     "name": "Mid Mentor",
     "value": "Mid Mentor"
+  },
+  {
+    "id": "role-rifler",
+    "name": "Rifler",
+    "value": "Rifler"
   },
   {
     "id": "role-strategic-coach",

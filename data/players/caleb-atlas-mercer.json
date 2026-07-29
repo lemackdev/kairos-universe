@@ -20,7 +20,7 @@
   "status": "signed",
   "isCaptain": true,
   "firstAppearance": "episode-030",
-  "joinedKairos": "TBD",
+  "joinedKairos": "Episode 39; exact date TBD",
   "contract": {
     "status": "signed",
     "signedDate": "TBD",
@@ -40,7 +40,11 @@
   ],
   "weaknesses": [],
   "inspirations": [],
-  "objectives": [],
+  "objectives": [
+    "Participate in future Kairos Counter-Strike roster construction.",
+    "Help build the founding roster around complementary roles.",
+    "Build communication and trust before prioritizing mechanical skill."
+  ],
   "insecurities": [],
   "relationships": [
     {
@@ -51,6 +55,11 @@
     {
       "subjectId": "adrian-elias-vale",
       "type": "mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "captain-relationship",
       "status": "confirmed"
     },
     {
@@ -94,6 +103,21 @@
       "status": "confirmed"
     },
     {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "captain-relationship",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "growing-trust",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "tactical-partnership",
+      "status": "confirmed"
+    },
+    {
       "subjectId": "cameron-mold-ruiz",
       "type": "initial-evaluation",
       "status": "confirmed"
@@ -102,6 +126,16 @@
       "subjectId": "emiliano-moteconhuesillo-navarro",
       "type": "tactical-evaluation-interest",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "tactical-compatibility",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "mutual-respect",
+      "status": "confirmed"
     }
   ],
   "careerHistory": [
@@ -109,7 +143,7 @@
       "organizationId": "kairos-esports",
       "teamId": "kairos-cs-main",
       "status": "signed",
-      "joinedKairos": "TBD",
+      "joinedKairos": "Episode 39; exact date TBD",
       "firstProfessionalTeam": "TBD"
     }
   ],
@@ -117,15 +151,24 @@
     "Episode 30: Caleb first appears as a Counter-Strike prospect and primary IGL candidate.",
     "Late October 2026: Caleb visits the Kairos campus, completes multiple tactical evaluations, and is personally interviewed by Adrian Vale.",
     "Episode 35: the nickname Atlas becomes canonical.",
-    "Current canon: Caleb becomes the first signed Kairos Counter-Strike player and Founding Captain."
+    "Episode 39: Caleb signs the first professional Counter-Strike contract in Kairos history and becomes Founding Captain.",
+    "Episode 40: Caleb begins participating in future roster construction and completes his first meeting with Owen Fletcher.",
+    "Episodes 43-53: Caleb leads tactical sessions, helps evaluate Owen and Emiliano, and begins acting as captain in practice.",
+    "Episode 49: Caleb participates in the first internal Kairos Counter-Strike scrim.",
+    "Episodes 50-53: Caleb's leadership, communication, trust, and decision-making are evaluated beyond mechanical skill.",
+    "Episode 54: Caleb is present when Project Casa Arthur is discussed as a conditional plan.",
+    "Episodes 55-56: Caleb participates in the Kairos community food-service policy vote and its result."
   ],
   "statistics": {},
   "achievements": [],
   "trivia": [],
   "currentState": [
     "Signed to Kairos Counter-Strike.",
+    "Active.",
     "Founding Captain.",
-    "First signed Kairos Counter-Strike player."
+    "First signed Kairos Counter-Strike player.",
+    "Authorized to participate in future roster construction.",
+    "Leading tactical sessions and evaluating prospective teammates."
   ],
   "nicknameFirstAppearance": "episode-035",
   "confirmedFacts": [
@@ -136,13 +179,21 @@
     "He is a former rifler and left-handed player.",
     "He is the first signed Kairos Counter-Strike player.",
     "He is the Founding Captain and only confirmed Counter-Strike captain.",
+    "He signs the first professional Counter-Strike contract in Kairos history in Episode 39.",
+    "He has authority to participate in future roster construction.",
+    "He leads his first tactical sessions and begins acting as captain rather than only as an IGL.",
+    "He prioritizes communication, trust, and decision-making over mechanical skill.",
+    "He helps evaluate Owen Fletcher and Emiliano Navarro.",
+    "He participates in the first internal Kairos Counter-Strike scrim.",
+    "He continues working directly with Adrian Vale, Luk, and Trace.",
     "His first appearance remains Episode 30.",
-    "The nickname Atlas is first established in Episode 35."
+    "The nickname Atlas is first established in Episode 35.",
+    "Caleb remains the only signed Counter-Strike player through Episode 56."
   ],
   "unconfirmedDetails": [
     "Date of birth is TBD.",
     "Previous teams and tournament history are TBD.",
-    "Exact contract date, duration, and salary are TBD.",
+    "Exact calendar date, contract duration, and salary are TBD.",
     "Objectives, insecurities, statistics, and achievements are TBD."
   ],
   "canonNotes": [

@@ -1,0 +1,112 @@
+{
+  "id": "episode-055",
+  "slug": "episode-055",
+  "episodeNumber": 55,
+  "title": "A Escolha",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-07",
+  "publicationOrder": 55,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike", "League of Legends"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-academy"
+  ],
+  "summary": "At 08:15 on November 7, the full Kairos community votes by secret ballot on proposals from twelve fast-food chains seeking to operate on campus.",
+  "keyEvents": [
+    "All 143 eligible Kairos community members participate in a secret ballot.",
+    "The proposal offers optional food access and excludes gambling, alcohol, performance metrics, competitive influence, and individual athlete endorsements.",
+    "The proposal limits each person to one use of each restaurant per week and three total fast-food meals per week, enforced through the campus badge.",
+    "The policy permits selection of no more than three restaurant chains.",
+    "The same policy and Kairos nutritional standards apply to players, coaches, staff, and Adrian Vale.",
+    "The result is intentionally withheld until Episode 56.",
+    "The vote begins at 08:15 on Saturday, November 7, 2026.",
+    "Twelve fast-food chains submit proposals to operate on campus."
+  ],
+  "consequences": [
+    "No restaurant partnership, contract, or campus operation is created by the vote alone."
+  ],
+  "canonIntroduced": [
+    "Kairos submits the food-service policy proposal to a 143-person community vote."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-054"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 55 — A Escolha",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The individual secret ballots are not disclosed."],
+  "confirmedFacts": [
+    "The canonical title is \"A Escolha\".",
+    "All 143 eligible Kairos community members participate in a secret ballot.",
+    "The proposal offers optional food access and excludes gambling, alcohol, performance metrics, competitive influence, and individual athlete endorsements.",
+    "The proposal limits each person to one use of each restaurant per week and three total fast-food meals per week, enforced through the campus badge.",
+    "The policy permits selection of no more than three restaurant chains.",
+    "The same policy and Kairos nutritional standards apply to players, coaches, staff, and Adrian Vale.",
+    "The result is intentionally withheld until Episode 56.",
+    "The vote begins at 08:15 on Saturday, November 7, 2026.",
+    "Twelve fast-food chains submit proposals to operate on campus."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

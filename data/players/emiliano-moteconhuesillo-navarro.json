@@ -4,22 +4,37 @@
   "realName": "Emiliano Navarro",
   "nickname": "MoteConHuesillo",
   "historicalAliases": [],
-  "nationality": "TBD",
+  "nationality": "Mexican",
   "city": "TBD",
+  "currentResidence": {
+    "city": "Puerto Varas",
+    "region": "Los Lagos Region",
+    "country": "Chile"
+  },
   "dateOfBirth": "TBD",
-  "ageAtCurrentStoryDate": "TBD",
+  "ageAtCurrentStoryDate": 18,
   "game": "Counter-Strike",
-  "role": "TBD",
+  "role": "Rifler",
   "currentTeam": null,
   "rosterLevel": "prospect",
-  "status": "unsigned-prospect",
+  "status": "under-evaluation",
   "isCaptain": false,
-  "firstAppearance": "TBD",
+  "firstAppearance": "episode-042",
   "joinedKairos": "Not joined",
   "contract": null,
-  "personality": "TBD",
-  "playstyle": "TBD",
-  "strengths": [],
+  "occupation": "Part-time computer assembler at a local computer shop",
+  "background": [
+    "Mexican citizen whose father moved the family to Chile for work four years before Episode 42.",
+    "Competes primarily in Chilean and Argentine amateur events."
+  ],
+  "personality": "Quiet and intelligent.",
+  "playstyle": "Rifler who wins rounds through positioning, timing, and space control rather than seeking highlight plays.",
+  "strengths": [
+    "Exceptional positioning.",
+    "Timing.",
+    "Space control.",
+    "Intelligent decision-making."
+  ],
   "weaknesses": [],
   "inspirations": [],
   "objectives": [],
@@ -29,28 +44,95 @@
       "subjectId": "caleb-atlas-mercer",
       "type": "tactical-evaluation-interest",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "tactical-compatibility",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "mutual-respect",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lukas-luk-novak",
+      "type": "scout",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "evaluation-teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "positive-first-impression",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emily-chen",
+      "type": "logistics",
+      "status": "confirmed"
     }
   ],
   "careerHistory": [],
-  "individualTimeline": [],
+  "individualTimeline": [
+    "Episode 42: Emiliano first appears after South American scouting identifies him; Luk presents him to Adrian, and Trace reviews his demos.",
+    "Episodes 43-46: Emiliano receives and accepts a three-week, no-obligation evaluation invitation, receives United States visa approval, and travels from Puerto Varas to Los Angeles.",
+    "Episode 47: Emiliano meets Caleb Mercer and Owen Fletcher.",
+    "Episode 49: Emiliano participates in his first internal Counter-Strike scrim.",
+    "Episode 51: Emiliano participates in a strategic pressure exercise; no scrim is played.",
+    "Episodes 55-56: Emiliano participates in the Kairos community food-service policy vote and remains unsigned."
+  ],
   "statistics": {},
   "achievements": [],
   "trivia": [],
   "currentState": [
-    "Unsigned Counter-Strike prospect.",
-    "Tactical evaluation interest involving Caleb Mercer is confirmed."
+    "Under evaluation.",
+    "Three-week, no-obligation evaluation invitation accepted.",
+    "United States visa approved.",
+    "Present at the Kairos campus in Los Angeles.",
+    "No contract.",
+    "Unsigned."
   ],
+  "nicknameFirstAppearance": "episode-042",
   "confirmedFacts": [
     "Emiliano Navarro is a canonical unsigned Counter-Strike prospect known as MoteConHuesillo.",
+    "MoteConHuesillo is his only canonical nickname.",
+    "He is 18 years old at the current story date.",
+    "He is a Mexican citizen currently living in Puerto Varas, Los Lagos Region, Chile.",
+    "His father moved the family to Chile for work four years before Episode 42.",
+    "He is a Rifler prospect who competes primarily in Chilean and Argentine amateur events.",
+    "He works part-time assembling computers at a local computer shop.",
+    "He is quiet and wins rounds through positioning, timing, space control, and intelligent decisions rather than highlight plays.",
+    "His first appearance is Episode 42.",
     "A tactical evaluation interest relationship with Caleb Mercer is confirmed.",
+    "He accepts a three-week, no-obligation evaluation invitation.",
+    "His United States visa is approved before he travels from Puerto Varas to Los Angeles.",
+    "He begins an evaluation period and remains unsigned.",
+    "He meets Caleb Mercer and establishes tactical compatibility and mutual respect.",
+    "He participates in his first internal Counter-Strike scrim.",
     "No contract has been signed."
   ],
   "unconfirmedDetails": [
-    "Age, nationality, home town, date of birth, role, first appearance, personality, and playstyle are TBD.",
-    "Recruitment outcome, statistics, achievements, and contract details are TBD."
+    "Date of birth and Mexican home town are TBD.",
+    "Previous teams and detailed tournament history are TBD.",
+    "Recruitment outcome, statistics, and achievements are TBD."
   ],
   "canonNotes": [
-    "Do not infer missing biography or competitive role.",
+    "MoteConHuesillo is the canonical nickname and replaces all drafting placeholders.",
+    "Do not expand Emiliano's biography beyond approved facts.",
     "Prospect status does not constitute roster membership."
   ]
 }

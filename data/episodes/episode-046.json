@@ -1,0 +1,79 @@
+{
+  "id": "episode-046",
+  "slug": "episode-046",
+  "episodeNumber": 46,
+  "title": "Chegadas",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 46,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Owen arrives at the Kairos campus, Caleb welcomes him, and Emiliano's United States visa is approved.",
+  "keyEvents": [
+    "Owen arrives in Los Angeles.",
+    "Owen begins his three-week evaluation.",
+    "Emily continues Emiliano's visa and travel arrangements.",
+    "Caleb welcomes Owen to the campus.",
+    "Emiliano's United States visa is approved."
+  ],
+  "consequences": ["Owen trains at Kairos but remains unsigned."],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-045"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 46 — Chegadas",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"Chegadas\".",
+    "Owen arrives in Los Angeles.",
+    "Owen begins his three-week evaluation.",
+    "Emily continues Emiliano's visa and travel arrangements.",
+    "Caleb welcomes Owen to the campus.",
+    "Emiliano's United States visa is approved."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

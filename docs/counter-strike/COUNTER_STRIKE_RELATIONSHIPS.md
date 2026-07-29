@@ -30,19 +30,31 @@
 - Kairos Esports is a subsidiary of Asterion Intelligence.
 - Adrian Vale, the main protagonist and first-person narrator, founded and owns
   Kairos Esports.
-- Adrian oversees the early construction of the Counter-Strike division.
+- Adrian oversees every current Counter-Strike recruitment and establishes
+  that Kairos recruits people before players.
 
 ## Player Relationships
 
-- Adrian Vale is Caleb "Atlas" Mercer's founder, mentor, and evaluator. Their
-  mutual respect is confirmed.
+- Adrian Vale is Caleb "Atlas" Mercer's founder and mentor.
 - Luk is Caleb's Head Coach and tactical evaluator.
 - Trace is Caleb's tactical mentor.
-- Caleb and Owen "Glacier" Fletcher are prospective teammates. Their first
-  meeting is complete, and their mutual respect is confirmed.
+- Caleb is Owen "Glacier" Fletcher's captain during evaluation. Their trust is
+  growing, and they have a tactical partnership.
+- Caleb and Emiliano "MoteConHuesillo" Navarro have tactical compatibility and
+  mutual respect.
+- Owen and Emiliano are first teammates during evaluation and have a positive
+  first impression.
 - Caleb has an initial-evaluation relationship with Cameron "Mold" Ruiz.
-- Caleb has tactical-evaluation interest in Emiliano "MoteConHuesillo" Navarro.
+- Trace evaluates Owen and Emiliano.
+- Emily handles logistics for Owen and Emiliano.
+- Luk leads scouting investigations, tactical evaluations, and reference
+  checks.
 - Caleb is the Founding Captain and only confirmed Counter-Strike captain.
+- Arthur Fletcher is Owen's grandfather and raised him.
+- Richard Collins is a medical provider involved in Arthur's care.
+
+The anonymous candidate and anonymous stand-ins receive no relationship
+records.
 
 Exact friendships, conflicts, rivalries, and personal bonds are **TBD**.
 

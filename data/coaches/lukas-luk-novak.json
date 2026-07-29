@@ -22,7 +22,14 @@
     "Make the IGL the first structural piece of the roster.",
     "Lead the Counter-Strike scouting process.",
     "Present Caleb Mercer and Owen Fletcher as primary candidates.",
-    "Participate in player evaluation."
+    "Participate in player evaluation.",
+    "Participate in Caleb Mercer's signing.",
+    "Evaluate Cameron Ruiz.",
+    "Present Emiliano Navarro to Adrian Vale.",
+    "Lead scouting investigations.",
+    "Conduct reference checks.",
+    "Coordinate tactical evaluations.",
+    "Research future prospects without identifying unapproved candidates."
   ],
   "personality": "Calm, analytical, and development-focused",
   "relationships": [
@@ -45,6 +52,16 @@
       "subjectId": "caleb-atlas-mercer",
       "type": "tactical-evaluator",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "scout",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "scout",
+      "status": "confirmed"
     }
   ],
   "objectives": [
@@ -56,7 +73,11 @@
   "careerHistory": [],
   "individualTimeline": [
     "Episode 25: Luk is introduced, becomes Head Coach of Kairos Counter-Strike, and begins mentoring Trace.",
-    "Episodes 30-35: Luk leads scouting, presents Caleb Mercer and Owen Fletcher, and participates in player evaluation."
+    "Episodes 30-35: Luk leads scouting, presents Caleb Mercer and Owen Fletcher, and participates in player evaluation.",
+    "Episode 39: Luk participates in Caleb Mercer's signing.",
+    "Episodes 41-42: Luk evaluates Cameron Ruiz and presents Emiliano Navarro to Adrian Vale.",
+    "Episodes 43-53: Luk leads scouting investigations, conducts reference checks, coordinates tactical evaluations, and researches future prospects.",
+    "Episodes 54-56: Luk remains active in the Counter-Strike project and participates in the Kairos community vote."
   ],
   "achievements": [],
   "confirmedFacts": [
@@ -71,7 +92,13 @@
     "His philosophy prioritizes player development, decision-making, complementary roles, communication quality, and long-term growth.",
     "His first confirmed appearance is Episode 25.",
     "He leads the current scouting process and presents Caleb Mercer and Owen Fletcher.",
-    "He participates in player evaluation."
+    "He participates in player evaluation.",
+    "He participates in Caleb Mercer's signing.",
+    "He evaluates Cameron Ruiz.",
+    "He presents Emiliano Navarro to Adrian Vale.",
+    "He leads scouting investigations and reference checks.",
+    "He coordinates tactical evaluations and begins researching future prospects.",
+    "He participates in the November 7 Kairos community vote."
   ],
   "unconfirmedDetails": [
     "His exact age, date of birth, and city are TBD.",

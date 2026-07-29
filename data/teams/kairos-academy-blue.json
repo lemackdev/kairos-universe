@@ -12,9 +12,9 @@
   "intendedCompetition": "NACL",
   "status": "active-training-pre-debut",
   "currentStoryPeriod": {
-    "period": "late-october-2026",
-    "displayName": "Late October 2026",
-    "exactDate": "TBD",
+    "period": "early-november-2026",
+    "displayName": "Early November 2026",
+    "exactDate": "2026-11-07",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -31,9 +31,7 @@
     "lucas-grit-foster"
   ],
   "coachingStaff": [],
-  "mentors": [
-    "zaqueri-aphromoo-black"
-  ],
+  "mentors": ["zaqueri-aphromoo-black"],
   "captain": "TBD",
   "trainingLocation": {
     "city": "Los Angeles",
@@ -49,9 +47,12 @@
     "Owen \"Kite\" Hughes is explicitly identified as the Mid player in historical Episode 22.",
     "The League division previously completed a Korean bootcamp and returned to Los Angeles.",
     "Academy Blue has not played an official match.",
-    "The current narrative date is late October 2026.",
+    "The current narrative date is November 7, 2026.",
+    "The full Academy Blue roster participated in the November 7 Kairos community vote.",
     "The next competitive milestone is February 2027.",
-    "Aphromoo mentors academy players with a focus on professional habits and player development."
+    "Aphromoo expands Academy mentorship with a focus on professional habits and player development.",
+    "Communication and team culture are measurable development goals.",
+    "Academy performance continues improving internally."
   ],
   "unconfirmedDetails": [
     "Roles other than Kite's Mid role, plus player ages, cities, birth dates, personalities, and playstyles, are TBD.",

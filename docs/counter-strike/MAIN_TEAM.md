@@ -15,7 +15,7 @@
 | Status | Pre-competitive and training |
 | Intended competition | TBD |
 | Story start | Early 2026 |
-| Current story period | Late October 2026 |
+| Current story date | November 7, 2026 |
 | Planned official debut | February 2027 |
 | Head Coach | Lukas "Luk" Novak |
 | Captain | Caleb "Atlas" Mercer |
@@ -27,12 +27,25 @@
 | `caleb-atlas-mercer` | Caleb "Atlas" Mercer | IGL | Signed, Founding Captain |
 
 Caleb is the first signed Kairos Counter-Strike player and the only confirmed
-Counter-Strike captain. The remaining confirmed recruitment order is Primary
-AWPer, Star Rifler, Entry, then Anchor / Support.
+Counter-Strike captain. He has authority to participate in future roster
+construction. The remaining confirmed recruitment order is Primary AWPer, Star
+Rifler, Entry, then Anchor / Support.
 
 Unsigned prospects are tracked separately in the
 [Prospect Pipeline](PROSPECT_PIPELINE.md). Prospect status does not place a
 player on this roster.
+
+Current unsigned pipeline:
+
+- Owen "Glacier" Fletcher is participating in a three-week evaluation.
+- Emiliano "MoteConHuesillo" Navarro accepted an invitation, arrived in Los
+  Angeles, and began evaluation.
+- Cameron "Mold" Ruiz remains under active scouting without an invitation.
+- Cameron is an Entry prospect. His Episode 41 interaction is an interview
+  only, not a trial.
+
+All three remain unsigned. Caleb, Owen, and Emiliano participated in the first
+internal Counter-Strike scrim, which was not an official match.
 
 ## Competitive Record
 
@@ -55,7 +68,6 @@ is confirmed.
 ## TBD Details
 
 - The intended competition is **TBD**.
-- The exact current calendar day is **TBD**.
 - The exact February 2027 debut date is **TBD**.
 - The four remaining roster positions are **TBD**.
 - Future competitions, rankings, results, achievements, and statistics are

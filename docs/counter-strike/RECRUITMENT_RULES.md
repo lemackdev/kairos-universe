@@ -29,6 +29,9 @@ circumstances. The criteria for an exceptional case are **TBD**. A
 
 Candidates older than 19 cannot be created under the current policy.
 
+Cameron "Mold" Ruiz is one confirmed individual 19-year-old exception. His
+case does not generalize eligibility to other 19-year-old candidates.
+
 ## Recruitment Order
 
 1. IGL
@@ -45,12 +48,28 @@ importance.
 ## Candidate Status
 
 - Caleb "Atlas" Mercer is signed and is not part of the unsigned pipeline.
-- Owen "Glacier" Fletcher, Cameron "Mold" Ruiz, and Emiliano
-  "MoteConHuesillo" Navarro are unsigned prospects.
+- Owen "Glacier" Fletcher is participating in a three-week evaluation and
+  remains unsigned.
+- Emiliano "MoteConHuesillo" Navarro accepted a three-week, no-obligation
+  evaluation invitation, received visa approval, arrived in Los Angeles, and
+  began evaluation. He remains unsigned.
+- Cameron "Mold" Ruiz remains under active scouting without an invitation or
+  contract.
 - Evaluation details not explicitly recorded remain **TBD**.
 - No contract is confirmed for any unsigned prospect.
 - A scouting archetype is not a person.
 - A real-world style reference is not a fictional Kairos candidate.
+
+## Evaluation Rules
+
+- Teams are built before lineups.
+- Character is evaluated before contracts.
+- Communication under pressure is measurable.
+- Leadership is evaluated outside official matches.
+- Internal scrims may be used for recruitment evaluation.
+- Former teammates, coaches, and tournament organizers may provide character
+  references.
+- Kairos recruits people and long-term teammates, not short-term stars.
 
 ## Nickname Policy
 

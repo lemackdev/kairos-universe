@@ -12,9 +12,9 @@
   "intendedCompetition": "TBD",
   "status": "training-pre-debut",
   "currentStoryPeriod": {
-    "period": "late-october-2026",
-    "displayName": "Late October 2026",
-    "exactDate": "TBD",
+    "period": "early-november-2026",
+    "displayName": "Early November 2026",
+    "exactDate": "2026-11-07",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -24,9 +24,7 @@
     "exactYear": "2027"
   },
   "roster": [],
-  "coachingStaff": [
-    "ethan-trace-miller"
-  ],
+  "coachingStaff": ["ethan-trace-miller"],
   "mentors": [],
   "captain": null,
   "trainingLocation": {
@@ -46,12 +44,12 @@
     "No captain has been assigned.",
     "No official match has been played.",
     "The official competitive debut is planned for February 2027.",
-    "The current narrative date is late October 2026.",
+    "The current narrative date is November 7, 2026.",
+    "Future player recruitment is planned for California residents ages 15 to 17 so high-school players can remain near family and use simpler school transfers.",
     "The next competitive milestone is February 2027."
   ],
   "unconfirmedDetails": [
     "The intended competition is TBD.",
-    "The exact calendar day in late October 2026 is TBD.",
     "The exact competitive milestone date in February 2027 is TBD.",
     "The future roster and captain are TBD.",
     "Future academy tournaments, partner leagues, results, achievements, and statistics are TBD."

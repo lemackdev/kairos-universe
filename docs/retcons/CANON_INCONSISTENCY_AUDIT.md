@@ -77,7 +77,7 @@ The current canonical order is:
 7. February 2027 is the next planned competitive milestone.
 
 The PDF's early 2026 reference now aligns with current canon. The story begins
-in early 2026 and reaches late October 2026 at the current endpoint.
+in early 2026 and reaches November 7, 2026 at the current Episode 56 endpoint.
 
 **Status:** Requires chronological normalization.
 

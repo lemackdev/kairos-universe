@@ -30,9 +30,9 @@
     "exactYear": "2026"
   },
   "currentStoryPeriod": {
-    "period": "late-october-2026",
-    "displayName": "Late October 2026",
-    "exactDate": "TBD",
+    "period": "early-november-2026",
+    "displayName": "Early November 2026",
+    "exactDate": "2026-11-07",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -87,15 +87,13 @@
       "coachingStaffStatus": "hired",
       "exactStaffRoles": "Lukas \"Luk\" Novak is Head Coach of Kairos Counter-Strike; Ethan \"Trace\" Miller is Head Coach of Kairos Counter-Strike Academy.",
       "signedPlayerCount": 1,
-      "signedPlayers": [
-        "caleb-atlas-mercer"
-      ],
-      "unsignedProspects": [
+      "signedPlayers": ["caleb-atlas-mercer"],
+      "evaluationPlayers": [
         "owen-glacier-fletcher",
-        "cameron-mold-ruiz",
         "emiliano-moteconhuesillo-navarro"
       ],
-      "currentObjective": "Evaluate unsigned prospects and build the remaining roster around the Founding Captain",
+      "scoutedProspects": ["cameron-mold-ruiz"],
+      "currentObjective": "Evaluate Owen Fletcher and Emiliano Navarro, continue scouting Cameron Ruiz, and confirm cultural fit before advancing future recruitment",
       "firstSigningRequirement": "Fulfilled: the first signed player is IGL Caleb \"Atlas\" Mercer.",
       "teams": [
         {
@@ -152,7 +150,32 @@
     "costs": "TBD",
     "roomCounts": "TBD",
     "architecturalDetails": "TBD",
-    "constructionCompletionAndOpeningDates": "TBD"
+    "constructionCompletionAndOpeningDates": "TBD",
+    "projectCasaArthur": {
+      "name": "Project Casa Arthur",
+      "status": "planned-conditional",
+      "intendedResident": "arthur-fletcher",
+      "conditions": [
+        "Arthur Fletcher must be medically cleared for safe travel.",
+        "Arthur Fletcher must receive independent medical approval before any relocation."
+      ],
+      "confirmedPlannedElements": [
+        "An accessible residence within the Kairos campus property.",
+        "One bedroom.",
+        "Living room.",
+        "Kitchen.",
+        "Garden.",
+        "Full accessibility.",
+        "Proximity to campus medical resources.",
+        "A way for Owen Fletcher to balance career and family."
+      ],
+      "currentState": [
+        "The project is a plan only.",
+        "No construction has begun.",
+        "Arthur has not accepted or moved.",
+        "Arthur continues living in Mackenzie, British Columbia."
+      ]
+    }
   },
   "sponsorship": {
     "status": "proposals-received",
@@ -174,6 +197,39 @@
       "Evaluate sponsorships against Kairos's long-term player-development philosophy."
     ]
   },
+  "foodServicePolicy": {
+    "status": "approved-for-invitations-and-negotiations",
+    "voteDate": "2026-11-07",
+    "eligibleVoters": 143,
+    "votesCast": 143,
+    "yesVotes": 126,
+    "noVotes": 17,
+    "proposalChainCount": 12,
+    "selectionLimit": 3,
+    "selectedChains": [
+      "In-N-Out Burger",
+      "Chipotle Mexican Grill",
+      "Chick-fil-A"
+    ],
+    "confirmedPartnerships": [],
+    "restrictions": [
+      "Participation must remain optional.",
+      "No gambling or alcohol involvement.",
+      "No use of performance metrics.",
+      "No competitive influence.",
+      "No individual athlete endorsements.",
+      "Each person may use each restaurant once per week.",
+      "Each person may have no more than three fast-food meals per week.",
+      "Purchases are enforced through the campus badge.",
+      "The same rules apply to players, coaches, staff, and Adrian Vale.",
+      "Kairos nutritional standards apply.",
+      "Alcoholic beverages are prohibited."
+    ],
+    "currentState": [
+      "The selected chains may receive invitations to negotiate.",
+      "No partnership, contract, campus opening, or construction is confirmed."
+    ]
+  },
   "confirmedFacts": [
     "Adrian Vale is the founder and owner of Kairos Esports.",
     "Kairos Esports is a long-term talent development project.",
@@ -185,13 +241,22 @@
     "Both first divisions have their next competitive milestone planned for February 2027.",
     "Kairos is scheduled to begin official League, NACL, and Counter-Strike competition in February 2027.",
     "The story begins in early 2026.",
-    "The current narrative date is late October 2026.",
+    "The current narrative date is November 7, 2026.",
     "The next competitive milestone is February 2027.",
     "Kairos has begun receiving sponsorship proposals.",
     "Adrian Vale rejected a betting-company proposal without negotiation.",
     "Kairos rejects sponsorships that prioritize branding over player development.",
     "Caleb \"Atlas\" Mercer is the first signed Kairos Counter-Strike player and Founding Captain.",
-    "Owen \"Glacier\" Fletcher, Cameron \"Mold\" Ruiz, and Emiliano \"MoteConHuesillo\" Navarro are unsigned Counter-Strike prospects."
+    "Caleb participates in future Counter-Strike roster construction.",
+    "Owen \"Glacier\" Fletcher has a non-binding three-week evaluation invitation and remains unsigned.",
+    "Owen \"Glacier\" Fletcher accepted the invitation, arrived in Los Angeles, and began the three-week evaluation.",
+    "Emiliano \"MoteConHuesillo\" Navarro accepted an evaluation invitation, arrived in Los Angeles, and remains unsigned.",
+    "Cameron \"Mold\" Ruiz remains under active scouting without an invitation or contract.",
+    "Caleb, Owen, and Emiliano participated in the first internal Counter-Strike scrim.",
+    "Kairos recruits people before players and requires cultural fit before recruitment advances.",
+    "Project Casa Arthur is a conditional future plan and has not been built.",
+    "On November 7, 2026, all 143 eligible community members voted on the food-service policy; 126 voted yes and 17 voted no.",
+    "In-N-Out Burger, Chipotle Mexican Grill, and Chick-fil-A were selected for invitations and negotiations only."
   ],
   "unconfirmedDetails": [
     "The exact founding date is TBD.",
@@ -199,15 +264,18 @@
     "Unsupported League biographical, contract, salary, and statistical details are TBD.",
     "Counter-Strike shared analyst, sports psychology, and performance staff names and exact structures are TBD.",
     "Contracts, salaries, rankings, statistics, and official results are TBD until narratively confirmed.",
-    "The exact campus address, dimensions, costs, room counts, architecture, and completion dates are TBD."
+    "The exact campus address, dimensions, costs, room counts, architecture, and completion dates are TBD.",
+    "Project Casa Arthur's cost, dimensions, address, construction schedule, medical approval, and final acceptance are TBD.",
+    "The selected restaurant chains' responses and any future agreement terms are TBD."
   ],
   "canonNotes": [
     "A planned debut is not an official match.",
     "Adrian Elias Vale is referenced through the adrian-elias-vale character record.",
     "Only Caleb Mercer is signed to the Counter-Strike roster.",
-    "Prospect evaluation does not constitute a signing.",
+    "Prospect evaluation, an interview, or a non-binding invitation does not constitute a signing.",
     "Northstar Esports is a historical development name; current canon uses Kairos Esports.",
     "No additional game division is currently confirmed.",
-    "Real-world references must be distinguished from fictional involvement."
+    "Real-world references must be distinguished from fictional involvement.",
+    "No food-service partnership is confirmed; the Episode 56 result authorizes invitations and negotiations only."
   ]
 }

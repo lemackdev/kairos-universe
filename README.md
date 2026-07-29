@@ -22,7 +22,7 @@ The website is intentionally not implemented in the current phase.
 | `schemas/` | JSON Schema Draft 2020-12 validation contracts |
 | `index/` | Alphabetical path-only indexes for entity discovery |
 | `assets/` | Logos, player images, team images, and tournament media |
-| `archive/` | Immutable historical source files and checksum manifests |
+| `archive/` | Preserved source artifacts, rendered derivatives, and checksum manifests |
 | `scripts/` | Documentation and future project tooling |
 | `website/` | Reserved for the future Next.js wiki |
 | `wiki/` | Reserved for future generated or local wiki material |
@@ -79,8 +79,11 @@ Core references:
 - [Episode index](docs/episodes/EPISODE_INDEX.md)
 - [Episode reconstruction status](docs/episodes/EPISODE_RECONSTRUCTION_STATUS.md)
 - [Episode source audit](docs/episodes/EPISODE_SOURCE_AUDIT.md)
+- [Episodes 30-56 source normalization](docs/episodes/SOURCE_NORMALIZATION_030_056.md)
+- [Episodes 30-56 searchable source](docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md)
 - [Episode continuity rules](docs/episodes/EPISODE_CONTINUITY_RULES.md)
 - [Episode source gaps](docs/episodes/SOURCE_GAPS.md)
+- [Future canon reservations](docs/planning/FUTURE_CANON_RESERVATIONS.md)
 - [Future validation workflow](scripts/validate-project.md)
 
 ## Shared datasets
@@ -138,7 +141,7 @@ change.
 - Highest episode confirmed as fully reconstructed, when applicable.
 - Validation metadata when an authorized process records it.
 
-The current canon version is `0.5.4`. Release notes are maintained in the
+The current canon version is `0.6.0`. Release notes are maintained in the
 [canon changelog](docs/canon/CHANGELOG.md).
 
 Canon versions follow semantic versioning:
@@ -220,24 +223,27 @@ If established canon is removed or replaced, update the
 - **COMPLETED:** Historical episode source recovery
 - **COMPLETED:** Initial timeline normalization
 - **COMPLETED:** Counter-Strike Founding Captain canonization
-- **NEXT:** Episodes 30-35 source recovery
-- **PLANNED:** Entity chronology and relationship enrichment
+- **COMPLETED:** Canon Batch 36-42
+- **COMPLETED:** Canon Batch 43-53
+- **COMPLETED:** Canon Batch 54-56
+- **COMPLETED:** Episodes 30-56 source normalization and canonization
+- **NEXT:** Entity chronology and relationship enrichment
 - **PLANNED:** Website
 - **PLANNED:** CMS
 - **PLANNED:** Statistics engine
 
 ## Current limitations
 
-The story begins in early 2026. The current narrative date is late October
-2026, and the next competitive milestone is February 2027.
+The story begins in early 2026. The current narrative date is November 7, 2026,
+and the next competitive milestone is February 2027.
 
-The current story episode is 35. Episodes 1 through 29 are reconstructed from
-the archived historical PDF. Episodes 30 through 35 have approved titles and
-structured metadata but require source prose recovery. Episodes 1 through 24
+The current story episode is 56. Episodes 1 through 29 are reconstructed from
+the archived historical PDF. Episodes 30 through 56 are reconstructed from the
+authoritative normalized DOCX and Markdown source. Episodes 1 through 24
 preserve original Portuguese titles but retain **TBD** current-canon English
 titles. Episodes 25 through 29 preserve both current working titles and
-historical titles. Exact calendar days remain **TBD** where they have not been
-confirmed.
+historical titles. Exact dates for Episodes 30 through 54 remain **TBD**.
+Episodes 55 and 56 are dated November 7, 2026.
 
 Unknown names, dates, academy roles, facility specifications, contracts,
 salaries, rankings, results, and statistics must not be invented.
@@ -246,6 +252,8 @@ The League package establishes three teams, fifteen player records, and its
 coaches, mentors, executives, and supporting staff. The Counter-Strike package
 establishes two teams, two fictional Head Coaches, recruitment rules, five role
 archetypes, Caleb "Atlas" Mercer as the signed IGL and Founding Captain, and
-three unsigned prospects. Historical source recovery produces twenty-nine
-reconstructed episode records with immutable page references, historical
-notes, current-canon normalization, and explicit retcon boundaries.
+two unsigned evaluation players plus one unsigned scouted prospect.
+Reserved future concepts remain only in planning and have no active player
+records, narrative appearances, or recruitment references. Source recovery
+now covers all fifty-six episode records with explicit provenance and retcon
+boundaries.

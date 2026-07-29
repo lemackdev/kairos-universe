@@ -18,7 +18,13 @@
     "Support League analytics and performance.",
     "Coordinate sponsorship proposals.",
     "Coordinate scouting travel.",
-    "Assist Adrian Vale during scouting."
+    "Assist Adrian Vale during scouting.",
+    "Coordinate travel logistics.",
+    "Organize player visits.",
+    "Support the Counter-Strike recruitment workflow.",
+    "Coordinate international travel and visa processes.",
+    "Organize player logistics.",
+    "Collect external references for scouting investigations."
   ],
   "personality": "TBD",
   "relationships": [
@@ -26,13 +32,27 @@
       "subjectId": "division-league-of-legends",
       "type": "analytics-and-performance",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "logistics",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "logistics",
+      "status": "confirmed"
     }
   ],
   "objectives": [],
   "careerHistory": [],
   "individualTimeline": [
     "Episode 4: Emily first appears in the League analytics and performance project.",
-    "Episodes 30-35: Emily coordinates sponsorship proposals and travel and assists Adrian during scouting."
+    "Episodes 30-35: Emily coordinates sponsorship proposals and travel and assists Adrian during scouting.",
+    "Episodes 36-42: Emily coordinates travel logistics, organizes player visits, and supports the Counter-Strike recruitment workflow.",
+    "Episodes 43-53: Emily coordinates Owen Fletcher's and Emiliano Navarro's travel, visa processes, player logistics, and external reference collection.",
+    "Episode 54: Emily supports the internal discussion of Project Casa Arthur as a conditional plan.",
+    "Episodes 55-56: Emily administers the 143-person food-service policy vote and reports its result."
   ],
   "achievements": [],
   "confirmedFacts": [
@@ -40,7 +60,11 @@
     "Emily Chen is a fictional character.",
     "The first confirmed appearance is episode-004.",
     "Emily coordinates sponsorship proposals and travel.",
-    "Emily assists Adrian Vale during scouting."
+    "Emily assists Adrian Vale during scouting.",
+    "Emily organizes player visits and supports Counter-Strike recruitment.",
+    "Emily coordinates international travel, visa processes, and player logistics.",
+    "Emily collects external references for scouting investigations.",
+    "Emily administers the November 7 community vote and records 143 ballots, 126 yes votes, and 17 no votes."
   ],
   "unconfirmedDetails": [
     "Nationality is TBD.",
@@ -53,7 +77,5 @@
     "Exact team assignment is TBD.",
     "Former playing career is TBD."
   ],
-  "canonNotes": [
-    "Do not infer nationality from the surname Chen."
-  ]
+  "canonNotes": ["Do not infer nationality from the surname Chen."]
 }

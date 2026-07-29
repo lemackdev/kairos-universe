@@ -31,6 +31,12 @@ Confirmed characteristics and responsibilities:
 - He mentors Ethan "Trace" Miller.
 - He treats the IGL as the first structural roster piece.
 - He is Caleb "Atlas" Mercer's Head Coach and tactical evaluator.
+- He participates in Caleb's signing.
+- He evaluates Cameron Ruiz.
+- He presents Emiliano Navarro to Adrian Vale.
+- He leads scouting investigations and reference checks.
+- He coordinates tactical evaluations.
+- He researches future prospects without identifying unapproved candidates.
 - He prioritizes long-term player growth over early rankings.
 
 His first confirmed appearance is Episode 25. His exact age, birth date, city,
@@ -62,10 +68,24 @@ Confirmed development role:
 - He develops his own coaching identity over time.
 - He prepares academy players for the main team.
 - He is a tactical mentor to Caleb "Atlas" Mercer.
+- He participates in Cameron Ruiz's evaluation.
+- He reviews Emiliano Navarro's demos.
+- He conducts tactical workshops with Caleb, Owen, and Emiliano.
+- He introduces non-mechanical evaluations focused on communication, teamwork,
+  and adaptability.
+- He evaluates Owen and Emiliano.
+- He oversees the first internal Counter-Strike scrim.
 
 His first confirmed appearance is Episode 25. His exact age, birth date, city,
 former teams, playing role, statistics, retirement date, Kairos join date,
 contract, salary, personality, and detailed coaching philosophy are **TBD**.
+
+## Emily Chen
+
+Emily coordinates international travel, visa processes, and player logistics
+for Owen and Emiliano. She also collects external references for scouting
+investigations. Her League analytics and performance role remains unchanged;
+her exact cross-divisional title and reporting line remain **TBD**.
 
 ## Canon Boundaries
 

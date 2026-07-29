@@ -17,18 +17,14 @@
   "role": "AWPer",
   "currentTeam": null,
   "rosterLevel": "prospect",
-  "status": "unsigned-prospect",
+  "status": "under-evaluation",
   "isCaptain": false,
   "firstAppearance": "episode-033",
   "joinedKairos": "Not joined",
   "contract": null,
   "personality": "Extremely patient, humble, quiet, mature beyond his age, and uncomfortable with attention.",
   "playstyle": "Primary AWPer.",
-  "strengths": [
-    "Extreme patience.",
-    "Maturity beyond his age.",
-    "Humility."
-  ],
+  "strengths": ["Extreme patience.", "Maturity beyond his age.", "Humility."],
   "weaknesses": [],
   "inspirations": [],
   "objectives": [],
@@ -45,6 +41,11 @@
       "status": "confirmed"
     },
     {
+      "subjectId": "adrian-elias-vale",
+      "type": "recruitment-in-progress",
+      "status": "confirmed"
+    },
+    {
       "subjectId": "caleb-atlas-mercer",
       "type": "prospective-teammates",
       "status": "confirmed"
@@ -58,27 +59,76 @@
       "subjectId": "caleb-atlas-mercer",
       "type": "mutual-respect",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "captain-relationship",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "growing-trust",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "tactical-partnership",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "evaluation-teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "positive-first-impression",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emily-chen",
+      "type": "logistics",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "arthur-fletcher",
+      "type": "grandfather",
+      "status": "confirmed"
     }
   ],
   "careerHistory": [],
   "individualTimeline": [
     "Episode 33: Owen first appears as a Counter-Strike prospect and primary AWPer candidate.",
     "Late October 2026: Kairos identifies Owen, Adrian Vale travels personally to Mackenzie, British Columbia, and Adrian meets Owen for the first time.",
-    "Episode 35: the nickname Glacier becomes canonical."
+    "Episode 35: the nickname Glacier becomes canonical.",
+    "Episode 37: Adrian meets Owen and Owen's grandfather.",
+    "Episode 37: Owen receives a non-binding invitation for a three-week evaluation at Kairos.",
+    "Episode 40: Owen completes his first meeting with Caleb Mercer, and their mutual respect is established.",
+    "Episodes 43-46: Owen accepts Kairos's invitation, arrives at the Kairos campus, and begins his three-week evaluation.",
+    "Episode 47: Owen meets Emiliano Navarro as an evaluation teammate.",
+    "Episode 49: Owen participates in his first internal Counter-Strike scrim.",
+    "Episode 51: Owen demonstrates calm communication under pressure during a strategic exercise; no scrim is played.",
+    "Episode 54: Owen feels guilty about being far from Arthur; Arthur's chemotherapy is responding well, and Project Casa Arthur is discussed as a conditional future plan.",
+    "Episodes 55-56: Owen participates in the Kairos community food-service policy vote and remains unsigned."
   ],
   "statistics": {},
   "achievements": [],
-  "trivia": [
-    "Frequently refuses tournament invitations."
-  ],
+  "trivia": ["Frequently refuses tournament invitations."],
   "currentState": [
-    "Unsigned prospect.",
+    "Participating in a three-week Kairos evaluation.",
     "No contract.",
-    "Adrian Vale is personally recruiting him."
+    "Unsigned.",
+    "Recruitment remains unresolved."
   ],
   "nicknameFirstAppearance": "episode-035",
   "familyNotes": [
     "Owen lives with his grandfather.",
+    "Owen continues caring for his grandfather.",
     "His grandfather is undergoing cancer treatment.",
     "His grandfather is Owen's only living close relative."
   ],
@@ -88,8 +138,18 @@
     "He is 16 years old at the current story date.",
     "He is Canadian and from Mackenzie, British Columbia.",
     "He is a Primary AWPer.",
-    "He is an unsigned prospect and has no contract.",
+    "He accepted Kairos's invitation and is participating in a three-week evaluation without a contract.",
     "Adrian Vale travels personally to meet him.",
+    "Adrian meets Owen's grandfather.",
+    "Owen receives a non-binding invitation for a three-week Kairos evaluation.",
+    "Owen arrives at the Kairos campus and begins the evaluation.",
+    "Owen meets Caleb Mercer in person and participates in his first internal scrim.",
+    "Owen demonstrates calm communication under pressure.",
+    "Arthur Fletcher is Owen's grandfather and raised him.",
+    "Arthur's chemotherapy is responding well by Episode 54.",
+    "Owen feels guilty about being far from Arthur in Episode 54.",
+    "Project Casa Arthur remains conditional on safe travel and independent medical approval.",
+    "Arthur continues living in Mackenzie through Episode 56.",
     "His first appearance is Episode 33.",
     "The nickname Glacier is first established in Episode 35."
   ],
@@ -97,10 +157,10 @@
     "Date of birth is TBD.",
     "Previous teams and tournament history are TBD.",
     "Objectives, insecurities, statistics, and achievements are TBD.",
-    "The outcome of the recruitment process is TBD."
+    "The outcome of the evaluation and recruitment process is TBD."
   ],
   "canonNotes": [
     "Do not expand Owen's family backstory beyond the approved facts.",
-    "Scouting and personal recruitment do not constitute a signing or contract."
+    "Scouting, personal recruitment, and the non-binding invitation do not constitute a signing or contract."
   ]
 }

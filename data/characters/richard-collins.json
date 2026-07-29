@@ -1,0 +1,48 @@
+{
+  "id": "richard-collins",
+  "slug": "richard-collins",
+  "fullName": "Dr. Richard Collins",
+  "commonName": "Richard Collins",
+  "nationality": "TBD",
+  "baseLocation": {
+    "city": "TBD",
+    "region": "TBD",
+    "country": "TBD"
+  },
+  "occupations": [],
+  "narrativeRoles": [],
+  "firstAppearance": {
+    "episodeId": "episode-054",
+    "episodeNumber": 54,
+    "historicalTitle": "Casa"
+  },
+  "lifeStatus": "alive",
+  "status": "active",
+  "canonStatus": "confirmed",
+  "publicProfile": "Arthur Fletcher's doctor and medical information provider.",
+  "personality": [],
+  "visualTraits": [],
+  "philosophy": [],
+  "relationships": [
+    {
+      "subjectId": "arthur-fletcher",
+      "type": "medical-provider",
+      "status": "confirmed"
+    }
+  ],
+  "individualTimeline": [
+    "Episode 54: Richard Collins first appears in connection with Arthur Fletcher's medical care and Project Casa Arthur's independent medical-approval requirement."
+  ],
+  "confirmedFacts": [
+    "Dr. Richard Collins is Arthur Fletcher's doctor and medical information provider.",
+    "Richard first appears in Episode 54, \"Casa\".",
+    "Independent medical approval is required before any Project Casa Arthur relocation could occur."
+  ],
+  "unconfirmedDetails": [
+    "Richard's nationality, age, date of birth, employer, specialty, hospital, and base location are TBD."
+  ],
+  "canonNotes": [
+    "No unsupported medical diagnosis, treatment detail, or professional credential was added.",
+    "Richard is not documented as a Kairos employee."
+  ]
+}

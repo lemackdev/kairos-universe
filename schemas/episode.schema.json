@@ -73,12 +73,7 @@
       "oneOf": [
         {
           "type": "object",
-          "required": [
-            "path",
-            "pageStart",
-            "pageEnd",
-            "duplicatePageRanges"
-          ],
+          "required": ["path", "pageStart", "pageEnd", "duplicatePageRanges"],
           "properties": {
             "path": {
               "type": "string",
@@ -124,11 +119,7 @@
       ]
     },
     "approximateStoryPeriod": {
-      "enum": [
-        "early-2026",
-        "late-october-2026",
-        "TBD"
-      ]
+      "enum": ["early-2026", "late-october-2026", "early-november-2026", "TBD"]
     },
     "storyYear": {
       "type": "integer",
@@ -158,10 +149,7 @@
     "divisions": {
       "type": "array",
       "items": {
-        "enum": [
-          "Counter-Strike",
-          "League of Legends"
-        ]
+        "enum": ["Counter-Strike", "League of Legends"]
       },
       "uniqueItems": true
     },
@@ -219,21 +207,13 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "id",
-          "status",
-          "description",
-          "sourcePath"
-        ],
+        "required": ["id", "status", "description", "sourcePath"],
         "properties": {
           "id": {
             "$ref": "common.schema.json#/$defs/stableId"
           },
           "status": {
-            "enum": [
-              "retconned",
-              "non-canonical"
-            ]
+            "enum": ["retconned", "non-canonical"]
           },
           "description": {
             "type": "string",
@@ -287,19 +267,10 @@
             "minLength": 1
           },
           "evidenceLevel": {
-            "enum": [
-              "explicit",
-              "indirect"
-            ]
+            "enum": ["explicit", "indirect"]
           },
           "confidence": {
-            "enum": [
-              "unknown",
-              "low",
-              "medium",
-              "high",
-              "confirmed"
-            ]
+            "enum": ["unknown", "low", "medium", "high", "confirmed"]
           },
           "userConfirmationRequired": {
             "type": "boolean"
@@ -309,13 +280,7 @@
       }
     },
     "confidence": {
-      "enum": [
-        "unknown",
-        "low",
-        "medium",
-        "high",
-        "confirmed"
-      ]
+      "enum": ["unknown", "low", "medium", "high", "confirmed"]
     },
     "missingInformation": {
       "$ref": "common.schema.json#/$defs/stringArray"

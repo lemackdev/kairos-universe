@@ -71,6 +71,12 @@ associated with this active record.
 Specific Academy Blue coaching assignments, mentor assignments, captain, and
 the exact February 2027 debut date are **TBD**.
 
+## Current Development
+
+Internal Academy performance continues improving. Aphromoo's expanded
+mentorship makes communication and team culture measurable development goals.
+No roster change or official result is created.
+
 ## Related documents
 
 - [League division](LEAGUE_DIVISION.md)

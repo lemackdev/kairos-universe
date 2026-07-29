@@ -63,6 +63,41 @@ rendered duplicates of pages 173 through 178. Episode 28 has one structured
 record and cites pages 173 through 178. The duplicate remains inside the
 immutable source PDF but is not treated as a second episode.
 
+## Normalized Episodes 30-56 Source
+
+### Preserved DOCX
+
+- **File:** [KAIROS_EPISODES_030_056_NORMALIZED.docx](episode-sources/KAIROS_EPISODES_030_056_NORMALIZED.docx)
+- **Source type:** Supplied normalized episode source
+- **Episodes represented:** 30 through 56
+- **SHA-256:** `bcff37746ba77d2ff4d90b116889f1944e85b932fdf0a549b8c34ee9d082b5d4`
+- **Preservation status:** Preserved byte-for-byte from the supplied file
+
+### Searchable Markdown
+
+- **File:** [KAIROS_EPISODES_030_056_NORMALIZED.md](../docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md)
+- **Source type:** Searchable normalized transcription
+- **Supplied-file SHA-256:** `b676238682073decbbe8f102cf9d6f7ed78d9eef127484474de3c0f20579bba9`
+- **Repository SHA-256:** `33cc223df366dcf0e2fe3c63829c615cd81a63065b83f9afddb282213dcee065`
+- **Normalization status:** Three residual third-person sentences in Episode 53
+  were converted to first person under the explicit source-normalization rule.
+
+### Rendered PDF
+
+- **File:** [KAIROS_EPISODES_030_056_NORMALIZED.pdf](episode-sources/KAIROS_EPISODES_030_056_NORMALIZED.pdf)
+- **Source type:** Generated normalized reading copy
+- **Pages:** 82
+- **SHA-256:** `b41125490d91c7f93033b2c24aa6e1e589ea70112bc11f4813d0ca9c2b9041a3`
+- **Derivative status:** Generated from the preserved DOCX with the documented
+  Episode 53 first-person corrections applied during rendering
+
+The DOCX is the preserved supplied artifact. The Markdown is the canonical
+searchable source used by episode records. The PDF is a generated reading
+derivative and must not override either source.
+
+See [Source Normalization 030-056](../docs/episodes/SOURCE_NORMALIZATION_030_056.md)
+for the controlled correction log.
+
 ## Preservation Rules
 
 - Never rewrite the historical episode prose.
@@ -72,3 +107,5 @@ immutable source PDF but is not treated as a second episode.
 - Preserve historical aliases and factual errors as documented history.
 - Add future source files with a checksum and provenance entry.
 - If the archived file hash changes, treat that as an integrity failure.
+- Preserve supplied source artifacts before applying documented searchable or
+  rendered normalizations.

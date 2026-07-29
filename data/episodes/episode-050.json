@@ -1,0 +1,79 @@
+{
+  "id": "episode-050",
+  "slug": "episode-050",
+  "episodeNumber": 50,
+  "title": "Um Lugar à Mesa",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 50,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "The evaluation group defines team values while the anonymous scouting file is marked high priority without revealing an identity.",
+  "keyEvents": [
+    "The recruitment process examines trust and belonging beyond mechanical performance.",
+    "Caleb increasingly acts as captain during the evaluations.",
+    "The group defines team values.",
+    "The anonymous scouting file is marked high priority without disclosing an identity or biography."
+  ],
+  "consequences": [
+    "Owen and Emiliano remain evaluation players without contracts."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-049"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 50 — Um Lugar à Mesa",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"Um Lugar à Mesa\".",
+    "The recruitment process examines trust and belonging beyond mechanical performance.",
+    "Caleb increasingly acts as captain during the evaluations.",
+    "The group defines team values.",
+    "The anonymous scouting file is marked high priority without disclosing an identity or biography."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

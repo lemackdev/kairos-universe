@@ -1,0 +1,73 @@
+{
+  "id": "episode-048",
+  "slug": "episode-048",
+  "episodeNumber": 48,
+  "title": "O Arquivo Sem Nome",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 48,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "The staff opens a confidential file for an unnamed future candidate without adding that person to the recruitment pipeline.",
+  "keyEvents": [
+    "An anonymous candidate file is reviewed.",
+    "The candidate remains unnamed and is not contacted, scouted, invited, or evaluated."
+  ],
+  "consequences": [
+    "No entity record or recruitment status is created for the anonymous candidate."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-047"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 48 — O Arquivo Sem Nome",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"O Arquivo Sem Nome\".",
+    "An anonymous candidate file is reviewed.",
+    "The candidate remains unnamed and is not contacted, scouted, invited, or evaluated."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

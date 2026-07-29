@@ -21,10 +21,7 @@
       "status": "active"
     }
   ],
-  "narrativeRoles": [
-    "first-person-narrator",
-    "main-protagonist"
-  ],
+  "narrativeRoles": ["first-person-narrator", "main-protagonist"],
   "firstAppearance": {
     "episodeId": "episode-001",
     "episodeNumber": 1,
@@ -86,6 +83,11 @@
     },
     {
       "subjectId": "caleb-atlas-mercer",
+      "type": "captain-relationship",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
       "type": "evaluator",
       "status": "confirmed"
     },
@@ -103,6 +105,21 @@
       "subjectId": "owen-glacier-fletcher",
       "type": "recruitment-target",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "recruitment-in-progress",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "evaluator",
+      "status": "confirmed"
     }
   ],
   "individualTimeline": [
@@ -113,6 +130,13 @@
     "Late October 2026: Adrian oversees the early construction of the Counter-Strike division.",
     "Episodes 30-35: Adrian personally evaluates Caleb Mercer, rejects sponsorship proposals that conflict with Kairos philosophy, and begins personally recruiting Owen Fletcher.",
     "Late October 2026: Adrian travels to Mackenzie, British Columbia, and meets Owen Fletcher for the first time.",
+    "Episodes 36-38: Adrian meets Owen's grandfather and offers Owen a non-binding three-week evaluation invitation.",
+    "Episode 39: Adrian signs Caleb as Kairos's first Counter-Strike player and appoints him Founding Captain.",
+    "Episodes 41-42: Adrian begins evaluating Cameron Ruiz and reviews Emiliano Navarro's scouting report.",
+    "Episodes 43-53: Adrian oversees Owen Fletcher's and Emiliano Navarro's evaluations, establishes people-first recruiting, and begins background verification for future recruits.",
+    "Episode 53: Adrian delays further recruitment until cultural fit is confirmed.",
+    "Episode 54: Adrian develops Project Casa Arthur as a conditional future support plan without beginning construction or relocation.",
+    "Episodes 55-56: Adrian puts a restricted food-service proposal to a full Kairos community vote and authorizes invitations and negotiations after approval.",
     "February 2027: Kairos is scheduled to begin official League, NACL, and Counter-Strike competition."
   ],
   "confirmedFacts": [
@@ -130,7 +154,20 @@
     "He personally evaluates Caleb Mercer.",
     "He rejects a betting-company proposal without negotiation.",
     "He rejects sponsorship proposals that prioritize branding over player development.",
-    "He begins personally recruiting Owen Fletcher."
+    "He begins personally recruiting Owen Fletcher.",
+    "He meets Owen's grandfather and introduces a non-binding three-week evaluation program.",
+    "He signs Caleb Mercer as the first Counter-Strike player in Kairos history.",
+    "He appoints Caleb Mercer as Founding Captain.",
+    "He begins evaluating Cameron Ruiz.",
+    "He reviews Emiliano Navarro's scouting report.",
+    "He personally oversees every Counter-Strike recruitment in Episodes 43 through 53.",
+    "He establishes that Kairos recruits people before players.",
+    "He oversees Owen Fletcher's and Emiliano Navarro's evaluations.",
+    "He begins background verification procedures for future recruits.",
+    "He delays future recruitment until cultural fit is confirmed.",
+    "He develops Project Casa Arthur as a conditional plan tied to safe travel and independent medical approval.",
+    "He submits the food-service policy to all 143 eligible Kairos community members.",
+    "After the 126-17 approval, he authorizes invitations and negotiations with the three selected restaurant chains without confirming any partnership."
   ],
   "unconfirmedDetails": [
     "Age and date of birth are TBD.",

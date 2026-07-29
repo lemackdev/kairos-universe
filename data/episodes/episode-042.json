@@ -1,0 +1,77 @@
+{
+  "id": "episode-042",
+  "slug": "episode-042",
+  "episodeNumber": 42,
+  "title": "MoteConHuesillo",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 42,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer",
+    "emiliano-moteconhuesillo-navarro"
+  ],
+  "firstAppearances": ["emiliano-moteconhuesillo-navarro"],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "South American scouting identifies Emiliano Navarro, known as MoteConHuesillo, as a Mexican prospect living in Puerto Varas.",
+  "keyEvents": [
+    "Emiliano Navarro and the nickname MoteConHuesillo make their first canonical appearance.",
+    "Kairos begins evaluating Emiliano through South American scouting."
+  ],
+  "consequences": [
+    "Emiliano remains unsigned and has not yet accepted an invitation."
+  ],
+  "canonIntroduced": [
+    "Emiliano Navarro is a Mexican Counter-Strike prospect living in Puerto Varas, Chile.",
+    "Emiliano's father moved the family to Chile four years earlier."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-041"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 42 — MoteConHuesillo",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"MoteConHuesillo\".",
+    "Emiliano Navarro and the nickname MoteConHuesillo make their first canonical appearance.",
+    "Kairos begins evaluating Emiliano through South American scouting."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

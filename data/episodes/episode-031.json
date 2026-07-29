@@ -5,69 +5,72 @@
   "title": "Sem Nome, Sem Logo",
   "historicalTitle": "TBD",
   "archiveSource": null,
-  "recordStatus": "partially-reconstructed",
+  "recordStatus": "reconstructed",
   "canonStatus": "confirmed",
-  "reconstructionStatus": "source-recovery-required",
+  "reconstructionStatus": "source-recovered",
   "approximateStoryPeriod": "late-october-2026",
   "storyYear": 2026,
   "exactStoryDate": null,
   "publicationOrder": 31,
   "narrator": "adrian-elias-vale",
   "protagonist": "adrian-elias-vale",
-  "divisions": [
-    "Counter-Strike"
-  ],
-  "locations": [],
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
   "characters": [
-    "adrian-elias-vale"
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer"
   ],
   "firstAppearances": [],
-  "organizations": [
-    "kairos-esports"
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Caleb visits Los Angeles and completes an unbranded evaluation that includes his behavior toward staff without organizational influence.",
+  "keyEvents": [
+    "Caleb participates in a blind evaluation without knowing Kairos is behind it.",
+    "The staff evaluates communication and leadership rather than reputation.",
+    "Caleb visits Los Angeles for the evaluation.",
+    "Caleb's behavior toward non-influential staff is part of the evaluation.",
+    "Caleb naturally assumes leadership among unfamiliar players."
   ],
-  "teams": [],
-  "summary": null,
-  "keyEvents": [],
-  "consequences": [],
+  "consequences": ["Caleb remains under evaluation and unsigned."],
   "canonIntroduced": [],
   "canonChanged": [],
-  "continuityDependencies": [
-    "episode-030"
-  ],
+  "continuityDependencies": ["episode-030"],
   "continuityNotes": [
-    "The batch does not assign specific sponsorship or scouting events to this episode."
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
   ],
   "historicalNotes": [
-    "This episode is not part of the archived Episodes 1-29 PDF."
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
   ],
   "realWorldReferences": [],
   "retcons": [],
   "sourceReferences": [
     {
-      "sourceType": "canon-document",
-      "sourcePath": "docs/canon/CANON_BATCH_030_035.md",
-      "locator": "Episode Titles",
-      "information": "Confirms the episode number and approved title.",
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 31 — Sem Nome, Sem Logo",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
       "evidenceLevel": "explicit",
       "confidence": "confirmed",
       "userConfirmationRequired": false
     }
   ],
   "confidence": "confirmed",
-  "missingInformation": [
-    "The approved narrative prose was not supplied.",
-    "Episode-specific events, characters beyond the narrator, locations, and consequences are TBD.",
-    "The exact calendar date is TBD."
-  ],
+  "missingInformation": ["The exact calendar date is TBD."],
   "confirmedFacts": [
-    "The approved title is \"Sem Nome, Sem Logo\".",
-    "The episode occurs in late October 2026."
+    "The canonical title is \"Sem Nome, Sem Logo\".",
+    "Caleb participates in a blind evaluation without knowing Kairos is behind it.",
+    "The staff evaluates communication and leadership rather than reputation.",
+    "Caleb visits Los Angeles for the evaluation.",
+    "Caleb's behavior toward non-influential staff is part of the evaluation.",
+    "Caleb naturally assumes leadership among unfamiliar players."
   ],
-  "unconfirmedDetails": [
-    "The full narrative text and episode-specific event sequence are TBD.",
-    "The exact calendar date is TBD."
-  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
   "notes": [
-    "No narrative prose or event mapping was invented."
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
   ]
 }

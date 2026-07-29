@@ -5,81 +5,72 @@
   "title": "A Voz no Servidor",
   "historicalTitle": "TBD",
   "archiveSource": null,
-  "recordStatus": "partially-reconstructed",
+  "recordStatus": "reconstructed",
   "canonStatus": "confirmed",
-  "reconstructionStatus": "source-recovery-required",
+  "reconstructionStatus": "source-recovered",
   "approximateStoryPeriod": "late-october-2026",
   "storyYear": 2026,
   "exactStoryDate": null,
   "publicationOrder": 30,
   "narrator": "adrian-elias-vale",
   "protagonist": "adrian-elias-vale",
-  "divisions": [
-    "Counter-Strike"
-  ],
-  "locations": [],
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
   "characters": [
     "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
     "caleb-atlas-mercer"
   ],
-  "firstAppearances": [
-    "caleb-atlas-mercer"
-  ],
-  "organizations": [
-    "kairos-esports"
-  ],
-  "teams": [],
-  "summary": "Caleb Mercer first appears as a Counter-Strike prospect and primary IGL candidate.",
+  "firstAppearances": ["caleb-atlas-mercer"],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Luk and Trace narrow the IGL search to three candidates, and Adrian hears the voice that current canon identifies as Caleb Mercer.",
   "keyEvents": [
-    "Caleb Mercer first appears."
+    "The Counter-Strike staff reduces the IGL search to three candidates.",
+    "Caleb Mercer makes his first canonical appearance through the evaluation process.",
+    "The profile that becomes Atlas is valued for communication, accountability, and leadership rather than individual statistics."
   ],
   "consequences": [
-    "Caleb becomes the primary IGL candidate in the Kairos scouting pipeline."
+    "Caleb advances as Kairos's primary IGL candidate without receiving a contract."
   ],
   "canonIntroduced": [
-    "Caleb Mercer is a canonical Counter-Strike prospect."
+    "Caleb Mercer first appears as a Counter-Strike IGL prospect."
   ],
   "canonChanged": [],
-  "continuityDependencies": [
-    "episode-029"
-  ],
+  "continuityDependencies": ["episode-029"],
   "continuityNotes": [
-    "This record preserves Caleb's Episode 30 prospect state; current canon later establishes him as signed.",
-    "The League roster remains unchanged."
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
   ],
   "historicalNotes": [
-    "This episode is not part of the archived Episodes 1-29 PDF."
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
   ],
   "realWorldReferences": [],
   "retcons": [],
   "sourceReferences": [
     {
-      "sourceType": "canon-document",
-      "sourcePath": "docs/canon/CANON_BATCH_030_035.md",
-      "locator": "Episode Titles; First Appearances; Counter-Strike Pipeline",
-      "information": "Confirms the episode title, Caleb's first appearance, and his pipeline status.",
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 30 — A Voz no Servidor",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
       "evidenceLevel": "explicit",
       "confidence": "confirmed",
       "userConfirmationRequired": false
     }
   ],
   "confidence": "confirmed",
-  "missingInformation": [
-    "The approved narrative prose was not supplied.",
-    "The exact calendar date is TBD.",
-    "Episode-specific scenes, dialogue, locations, and staff participation beyond confirmed metadata are TBD."
-  ],
+  "missingInformation": ["The exact calendar date is TBD."],
   "confirmedFacts": [
-    "The approved title is \"A Voz no Servidor\".",
-    "Caleb Mercer first appears in Episode 30.",
-    "The episode occurs in late October 2026."
+    "The canonical title is \"A Voz no Servidor\".",
+    "The Counter-Strike staff reduces the IGL search to three candidates.",
+    "Caleb Mercer makes his first canonical appearance through the evaluation process.",
+    "The profile that becomes Atlas is valued for communication, accountability, and leadership rather than individual statistics."
   ],
-  "unconfirmedDetails": [
-    "The full narrative text and exact event sequence are TBD.",
-    "The exact calendar date is TBD."
-  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
   "notes": [
-    "No narrative prose was invented.",
-    "The structured record contains only explicitly approved canon."
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
   ]
 }

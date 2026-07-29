@@ -1,57 +1,56 @@
 # Episode Reconstruction Status
 
-**Phase:** Episodes 30-35 source recovery required
+**Phase:** Episodes 1-56 source recovered
 
 ## Status Summary
 
-| Episode range | Record status | Historical source | Current boundary |
+| Episode range | Record status | Primary source | Current boundary |
 | --- | --- | --- | --- |
-| Episodes 1-24 | Reconstructed | Original Portuguese titles and prose recovered from the archived PDF | Current-canon English titles remain TBD |
-| Episodes 25-29 | Reconstructed | Original Portuguese titles and prose recovered from the archived PDF | Existing English working titles remain current |
-| Episodes 30-35 | Partially reconstructed | Approved titles and canon metadata only | Original or approved prose is not present |
+| 1-24 | Reconstructed | Immutable historical PDF | Current English titles remain TBD |
+| 25-29 | Reconstructed | Immutable historical PDF | Existing working English titles remain current |
+| 30-56 | Reconstructed | Normalized Markdown source | Approved prose and metadata recovered |
 
 ## Completion Boundary
 
-- Thirty-five structured episode records exist.
-- Twenty-nine records are marked `reconstructed`.
-- Twenty-nine records are marked `source-recovered`.
-- Six records are marked `partially-reconstructed`.
-- Six records require source prose recovery.
-- Episode 35 is the current story episode.
-- The current story year is confirmed as 2026. Exact calendar days remain
-  **TBD**.
+- Fifty-six structured episode records exist.
+- All fifty-six records are `reconstructed`.
+- All fifty-six records are `source-recovered`.
+- Episode 56 is the current story episode.
+- Episodes 30-42 occur in late October 2026.
+- Episodes 43-56 occur in early November 2026.
+- Episodes 55-56 are dated November 7, 2026.
+- Exact dates for Episodes 30-54 remain TBD.
 
-`reconstructed` means the source was read, mapped, and represented in
-structured form. It does not mean every historical statement became current
-canon. Retcons, chronology drift, factual errors, and duplicate source material
-remain separated through:
-
-- [Canon Inconsistency Audit](../retcons/CANON_INCONSISTENCY_AUDIT.md)
-- [Retcon History](../retcons/RETCON_HISTORY.md)
-- Per-episode `historicalNotes`, `continuityNotes`, and `retcons`
+Reconstruction means the source has been read, mapped, and represented in
+structured form. It does not make outdated historical facts current canon.
+Retcons and normalization decisions remain documented separately.
 
 ## Source Integrity
 
-The archived PDF contains 189 pages and has SHA-256:
+- Episodes 1-29 PDF SHA-256:
+  `78a90435ffd9c88ccfad66c2710360e0c1c56dbe69839141a147ec558d238342`
+- Episodes 30-56 preserved DOCX SHA-256:
+  `bcff37746ba77d2ff4d90b116889f1944e85b932fdf0a549b8c34ee9d082b5d4`
+- Episodes 30-56 searchable Markdown SHA-256:
+  `33cc223df366dcf0e2fe3c63829c615cd81a63065b83f9afddb282213dcee065`
+- Episodes 30-56 rendered PDF SHA-256:
+  `b41125490d91c7f93033b2c24aa6e1e589ea70112bc11f4813d0ca9c2b9041a3`
 
-`78a90435ffd9c88ccfad66c2710360e0c1c56dbe69839141a147ec558d238342`
-
-Episode 28 appears twice in the PDF. Pages 173-178 are the canonical historical
-source range. Pages 179-184 are an identical duplicate retained only to
-preserve the immutable source file.
+Episode 28's duplicate pages remain in the immutable historical PDF.
 
 ## Next Phase
 
-The next documentation phase is `episode-source-recovery-030-035`.
+The next documentation phase is post-Episode-56 continuity maintenance. New
+episodes must update:
 
-That phase should ingest the approved prose for Episodes 30 through 35 if it
-becomes available, preserve it separately, and enrich the existing records
-without inventing scenes or dialogue. It must not rewrite the archived source.
+- [Current World State](../world-state/CURRENT_WORLD_STATE.md)
+- [Master Timeline](../timeline/MASTER_TIMELINE.md)
+- [Episode Index](EPISODE_INDEX.md)
+- Structured entity and relationship records affected by the episode
 
 ## Related Documents
 
-- [Episode index](EPISODE_INDEX.md)
-- [Episode source audit](EPISODE_SOURCE_AUDIT.md)
-- [Source gaps](SOURCE_GAPS.md)
-- [Episode continuity rules](EPISODE_CONTINUITY_RULES.md)
-- [Historical source manifest](../../archive/SOURCE_MANIFEST.md)
+- [Source normalization](SOURCE_NORMALIZATION_030_056.md)
+- [Source manifest](../../archive/SOURCE_MANIFEST.md)
+- [Canon inconsistency audit](../retcons/CANON_INCONSISTENCY_AUDIT.md)
+- [Retcon history](../retcons/RETCON_HISTORY.md)

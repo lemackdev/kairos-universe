@@ -5,69 +5,78 @@
   "title": "Mais do que Counter-Strike",
   "historicalTitle": "TBD",
   "archiveSource": null,
-  "recordStatus": "partially-reconstructed",
+  "recordStatus": "reconstructed",
   "canonStatus": "confirmed",
-  "reconstructionStatus": "source-recovery-required",
+  "reconstructionStatus": "source-recovered",
   "approximateStoryPeriod": "late-october-2026",
   "storyYear": 2026,
   "exactStoryDate": null,
   "publicationOrder": 32,
   "narrator": "adrian-elias-vale",
   "protagonist": "adrian-elias-vale",
-  "divisions": [
-    "Counter-Strike"
-  ],
-  "locations": [],
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
   "characters": [
-    "adrian-elias-vale"
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer"
   ],
   "firstAppearances": [],
-  "organizations": [
-    "kairos-esports"
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Adrian evaluates Caleb's character, rejects sponsorship proposals that conflict with Kairos values, and receives an anonymous 16-year-old AWPer scouting lead.",
+  "keyEvents": [
+    "Kairos evaluates the person behind the player.",
+    "Adrian reinforces that recruitment cannot rely on Counter-Strike skill alone.",
+    "Adrian personally evaluates the IGL candidate's character.",
+    "Kairos receives sponsorship proposals.",
+    "Adrian rejects a betting proposal without negotiation.",
+    "Adrian rejects branding-first proposals that conflict with player development.",
+    "An unidentified 16-year-old AWPer reaches the scouting process."
   ],
-  "teams": [],
-  "summary": null,
-  "keyEvents": [],
-  "consequences": [],
+  "consequences": ["Caleb's candidacy continues without a contract."],
   "canonIntroduced": [],
   "canonChanged": [],
-  "continuityDependencies": [
-    "episode-031"
-  ],
+  "continuityDependencies": ["episode-031"],
   "continuityNotes": [
-    "The batch does not assign specific sponsorship or scouting events to this episode."
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
   ],
   "historicalNotes": [
-    "This episode is not part of the archived Episodes 1-29 PDF."
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
   ],
   "realWorldReferences": [],
   "retcons": [],
   "sourceReferences": [
     {
-      "sourceType": "canon-document",
-      "sourcePath": "docs/canon/CANON_BATCH_030_035.md",
-      "locator": "Episode Titles",
-      "information": "Confirms the episode number and approved title.",
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 32 — Mais do que Counter-Strike",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
       "evidenceLevel": "explicit",
       "confidence": "confirmed",
       "userConfirmationRequired": false
     }
   ],
   "confidence": "confirmed",
-  "missingInformation": [
-    "The approved narrative prose was not supplied.",
-    "Episode-specific events, characters beyond the narrator, locations, and consequences are TBD.",
-    "The exact calendar date is TBD."
-  ],
+  "missingInformation": ["The exact calendar date is TBD."],
   "confirmedFacts": [
-    "The approved title is \"Mais do que Counter-Strike\".",
-    "The episode occurs in late October 2026."
+    "The canonical title is \"Mais do que Counter-Strike\".",
+    "Kairos evaluates the person behind the player.",
+    "Adrian reinforces that recruitment cannot rely on Counter-Strike skill alone.",
+    "Adrian personally evaluates the IGL candidate's character.",
+    "Kairos receives sponsorship proposals.",
+    "Adrian rejects a betting proposal without negotiation.",
+    "Adrian rejects branding-first proposals that conflict with player development.",
+    "An unidentified 16-year-old AWPer reaches the scouting process.",
+    "The unidentified AWPer is not assigned an entity or first appearance in this episode."
   ],
-  "unconfirmedDetails": [
-    "The full narrative text and episode-specific event sequence are TBD.",
-    "The exact calendar date is TBD."
-  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
   "notes": [
-    "No narrative prose or event mapping was invented."
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
   ]
 }

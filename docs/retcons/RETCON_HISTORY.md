@@ -167,7 +167,8 @@ The current event order is:
 7. February 2027 is the next planned competitive milestone.
 
 Historical month references that conflict with this order remain in the
-archive. Current canon begins in early 2026 and reaches late October 2026.
+archive. Current canon begins in early 2026 and reaches the late October /
+early November 2026 range.
 
 ## T1 Academy recording interpretation
 

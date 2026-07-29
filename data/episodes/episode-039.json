@@ -1,0 +1,78 @@
+{
+  "id": "episode-039",
+  "slug": "episode-039",
+  "episodeNumber": 39,
+  "title": "Capitão",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 39,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Caleb signs the first professional Counter-Strike contract in Kairos history and is appointed Founding Captain.",
+  "keyEvents": [
+    "Caleb Mercer signs with Kairos Counter-Strike.",
+    "Caleb becomes the first signed Counter-Strike player.",
+    "Caleb is appointed Founding Captain and receives a role in roster evaluation."
+  ],
+  "consequences": [
+    "Caleb becomes the only signed Counter-Strike player and only confirmed captain.",
+    "Four main-roster positions remain open."
+  ],
+  "canonIntroduced": [
+    "Caleb Mercer is Kairos Counter-Strike's Founding Captain."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-038"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 39 — Capitão",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"Capitão\".",
+    "Caleb Mercer signs with Kairos Counter-Strike.",
+    "Caleb becomes the first signed Counter-Strike player.",
+    "Caleb is appointed Founding Captain and receives a role in roster evaluation."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

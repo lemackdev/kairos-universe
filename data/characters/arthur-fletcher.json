@@ -1,0 +1,59 @@
+{
+  "id": "arthur-fletcher",
+  "slug": "arthur-fletcher",
+  "fullName": "Arthur Fletcher",
+  "commonName": "Arthur",
+  "nationality": "TBD",
+  "baseLocation": {
+    "city": "Mackenzie",
+    "region": "British Columbia",
+    "country": "Canada"
+  },
+  "occupations": [],
+  "narrativeRoles": [],
+  "firstAppearance": {
+    "episodeId": "episode-036",
+    "episodeNumber": 36,
+    "historicalTitle": "Até o Fim da Estrada"
+  },
+  "lifeStatus": "alive",
+  "status": "active",
+  "canonStatus": "confirmed",
+  "publicProfile": "Owen Fletcher's grandfather and primary family support.",
+  "personality": [],
+  "visualTraits": [],
+  "philosophy": [],
+  "relationships": [
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "grandfather",
+      "status": "confirmed"
+    }
+  ],
+  "individualTimeline": [
+    "Episode 36: Arthur first appears as Owen Fletcher's unnamed grandfather.",
+    "Episode 37: Arthur's name is revealed.",
+    "Episode 44: Arthur contacts Kairos about Owen's pending evaluation decision.",
+    "Episode 45: Arthur accepts the three-week evaluation plan after Kairos guarantees Owen's return travel if no contract follows.",
+    "Episode 54: Arthur's chemotherapy is responding well, and Adrian presents Project Casa Arthur as a conditional future plan.",
+    "Episode 56: Arthur still lives in Mackenzie; no relocation, construction, acceptance, or medical approval has occurred."
+  ],
+  "confirmedFacts": [
+    "Arthur Fletcher is Owen Fletcher's grandfather.",
+    "Arthur raised Owen and remains Owen's only living close relative.",
+    "Arthur is undergoing cancer treatment.",
+    "Arthur's chemotherapy is responding well by Episode 54.",
+    "Arthur lives in Mackenzie, British Columbia, Canada.",
+    "Arthur first appears unnamed in Episode 36 and is named in Episode 37.",
+    "Project Casa Arthur is conditional on safe travel and independent medical approval."
+  ],
+  "unconfirmedDetails": [
+    "Arthur's nationality, age, date of birth, occupation, and detailed medical information are TBD.",
+    "Whether Arthur will accept or eventually use Project Casa Arthur is TBD."
+  ],
+  "canonNotes": [
+    "Arthur has not moved to Los Angeles.",
+    "Project Casa Arthur has not been built.",
+    "Do not infer an Owen contract or Arthur relocation from the planning discussion."
+  ]
+}

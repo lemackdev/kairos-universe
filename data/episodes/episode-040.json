@@ -1,0 +1,74 @@
+{
+  "id": "episode-040",
+  "slug": "episode-040",
+  "episodeNumber": 40,
+  "title": "Primeiro Round",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 40,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "ethan-trace-miller",
+    "emily-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Caleb begins participating in Owen's evaluation and tests how the prospective AWPer communicates with a future captain.",
+  "keyEvents": [
+    "Caleb and Owen complete their first direct evaluation session.",
+    "Caleb participates in prospective teammate evaluation."
+  ],
+  "consequences": [
+    "Caleb and Owen establish initial mutual respect.",
+    "Owen remains unsigned."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-039"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 40 — Primeiro Round",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"Primeiro Round\".",
+    "Caleb and Owen complete their first direct evaluation session.",
+    "Caleb participates in prospective teammate evaluation."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

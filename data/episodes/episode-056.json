@@ -1,0 +1,117 @@
+{
+  "id": "episode-056",
+  "slug": "episode-056",
+  "episodeNumber": 56,
+  "title": "A Decisão",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-07",
+  "publicationOrder": 56,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike", "League of Legends"],
+  "locations": ["Kairos campus, Los Angeles, California"],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-academy"
+  ],
+  "summary": "At 19:30 on November 7, the 143-person vote approves the food-service policy and selects three chains for invitations and negotiations only.",
+  "keyEvents": [
+    "All 143 eligible voters participate.",
+    "The proposal receives 126 yes votes and 17 no votes.",
+    "In-N-Out Burger, Chipotle Mexican Grill, and Chick-fil-A receive the highest preferences.",
+    "Adrian authorizes invitations and negotiations, not partnerships or contracts.",
+    "The result is presented at 19:30 on Saturday, November 7, 2026.",
+    "Aphromoo stands beside Thinkcard, and 404 speaks with Moss.",
+    "League and Counter-Strike personnel interact as one organization."
+  ],
+  "consequences": [
+    "The selected chains may be invited to negotiate under Kairos's restrictions.",
+    "No partnership, opening, construction, or contract is confirmed."
+  ],
+  "canonIntroduced": [
+    "The Kairos community approves the food-service policy by 126 votes to 17."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-055"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [
+    "In-N-Out Burger",
+    "Chipotle Mexican Grill",
+    "Chick-fil-A"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 56 — A Decisão",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The invited restaurant chains' responses are not yet known."
+  ],
+  "confirmedFacts": [
+    "The canonical title is \"A Decisão\".",
+    "All 143 eligible voters participate.",
+    "The proposal receives 126 yes votes and 17 no votes.",
+    "In-N-Out Burger, Chipotle Mexican Grill, and Chick-fil-A receive the highest preferences.",
+    "Adrian authorizes invitations and negotiations, not partnerships or contracts.",
+    "The result is presented at 19:30 on Saturday, November 7, 2026.",
+    "Aphromoo stands beside Thinkcard, and 404 speaks with Moss.",
+    "League and Counter-Strike personnel interact as one organization."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

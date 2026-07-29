@@ -22,7 +22,14 @@
     "Prepare academy players for progression to the main team.",
     "Continue evaluating Caleb Mercer.",
     "Conduct tactical discussions during prospect evaluation.",
-    "Assist the recruitment process."
+    "Assist the recruitment process.",
+    "Continue Caleb Mercer's tactical development.",
+    "Participate in Cameron Ruiz's evaluation.",
+    "Review Emiliano Navarro's demos.",
+    "Conduct tactical workshops with Caleb Mercer, Owen Fletcher, and Emiliano Navarro.",
+    "Introduce non-mechanical evaluations.",
+    "Evaluate communication, teamwork, and adaptability.",
+    "Oversee the first internal Kairos Counter-Strike scrim."
   ],
   "personality": "TBD",
   "relationships": [
@@ -40,6 +47,21 @@
       "subjectId": "caleb-atlas-mercer",
       "type": "tactical-mentor",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "evaluator",
+      "status": "confirmed"
     }
   ],
   "objectives": [
@@ -51,7 +73,12 @@
   "careerHistory": [],
   "individualTimeline": [
     "Episode 25: Trace is introduced and appointed Head Coach of Kairos Counter-Strike Academy after expecting a possible assistant-coach role.",
-    "Episodes 30-35: Trace continues evaluating Caleb Mercer, conducts tactical discussions, and assists recruitment."
+    "Episodes 30-35: Trace continues evaluating Caleb Mercer, conducts tactical discussions, and assists recruitment.",
+    "Episodes 36-42: Trace continues Caleb's tactical development, participates in Cameron Ruiz's evaluation, and reviews Emiliano Navarro's demos.",
+    "Episodes 43-53: Trace conducts tactical workshops and non-mechanical evaluations with Caleb, Owen, and Emiliano.",
+    "Episode 49: Trace oversees the first internal Kairos Counter-Strike scrim.",
+    "Episode 51: Trace runs a strategic pressure exercise; no scrim is played.",
+    "Episodes 55-56: Trace participates in the Kairos community vote."
   ],
   "achievements": [],
   "confirmedFacts": [
@@ -65,7 +92,14 @@
     "He prepares academy players for progression to the main team.",
     "His first confirmed appearance is Episode 25.",
     "He continues evaluating Caleb Mercer and serves as Caleb's tactical mentor.",
-    "He assists the recruitment process."
+    "He assists the recruitment process.",
+    "He participates in Cameron Ruiz's evaluation.",
+    "He reviews Emiliano Navarro's demos.",
+    "He conducts the first tactical workshops with Caleb Mercer, Owen Fletcher, and Emiliano Navarro.",
+    "He prioritizes communication, teamwork, and adaptability in non-mechanical evaluations.",
+    "He oversees the first internal Kairos Counter-Strike scrim.",
+    "He conducts the Episode 51 strategic pressure exercise without running a scrim.",
+    "He participates in the November 7 Kairos community vote."
   ],
   "unconfirmedDetails": [
     "His exact age, date of birth, and city are TBD.",

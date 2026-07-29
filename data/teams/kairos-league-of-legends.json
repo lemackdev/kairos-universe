@@ -12,9 +12,9 @@
   "intendedCompetition": "LCS",
   "status": "active-training-pre-debut",
   "currentStoryPeriod": {
-    "period": "late-october-2026",
-    "displayName": "Late October 2026",
-    "exactDate": "TBD",
+    "period": "early-november-2026",
+    "displayName": "Early November 2026",
+    "exactDate": "2026-11-07",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -30,9 +30,7 @@
     "liam-aster-oconnor",
     "daniel-moss-reyes"
   ],
-  "coachingStaff": [
-    "zaqueri-aphromoo-black"
-  ],
+  "coachingStaff": ["zaqueri-aphromoo-black"],
   "mentors": [
     "darshan-kairos-top-mentor",
     "xmithie-kairos-jungle-mentor",
@@ -57,7 +55,10 @@
     "Each main roster role has a confirmed mentor.",
     "The League division previously completed a Korean bootcamp and returned to Los Angeles.",
     "The team has not made its official LCS debut or played an official match.",
-    "The current narrative date is late October 2026.",
+    "Communication and team culture are measurable development goals.",
+    "The League infrastructure continues operating normally with no roster changes.",
+    "The current narrative date is November 7, 2026.",
+    "The full main roster participated in the November 7 Kairos community vote.",
     "The next competitive milestone is February 2027."
   ],
   "unconfirmedDetails": [

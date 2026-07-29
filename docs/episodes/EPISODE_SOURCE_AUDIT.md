@@ -2,6 +2,9 @@
 
 **Audit scope:** Archived 189-page historical PDF, Episodes 1 through 29
 
+Episodes 30 through 56 are covered separately by
+[Source Normalization 030-056](SOURCE_NORMALIZATION_030_056.md).
+
 ## Result
 
 The complete historical source has been recovered, read, rendered for visual

@@ -25,6 +25,8 @@ infer friendships, rivalries, conflicts, or family-like bonds.
 - Zaqueri "Aphromoo" Black is Head Coach of the League division.
 - Aphromoo is responsible for the main League competitive project.
 - Aphromoo is also the Support mentor.
+- Aphromoo has expanded mentorship of Academy players.
+- Communication and team culture are measurable development goals.
 
 ## Main-roster mentor relationships
 
@@ -63,6 +65,15 @@ relationship is **TBD**.
 
 Exact friendships, rivalries, conflicts, romantic relationships, family-like
 relationships, and informal alliances are **TBD** unless later confirmed.
+
+## Episodes 55-56
+
+- All three League rosters participate in the November 7 community vote.
+- Aphromoo stands beside Thinkcard when the result is presented.
+- 404 speaks with Moss.
+- These scenes do not change captaincy, roles, rosters, or contracts.
+- Moss remains the only confirmed League captain.
+- 404 remains Mid and is never captain.
 
 ## Related documents
 

@@ -13,7 +13,7 @@
 | Headquarters | Los Angeles, California, United States |
 | Current competitive status | Active, training, and pre-debut |
 | Story start | Early 2026 |
-| Current story period | Late October 2026 |
+| Current story date | November 7, 2026 |
 | Next competitive milestone | February 2027 |
 | Exact milestone dates | TBD |
 
@@ -64,10 +64,41 @@ Long-term sustainability matters more than immediate trophies.
 - Ethan "Trace" Miller is Head Coach of Kairos Counter-Strike Academy.
 - Caleb "Atlas" Mercer is the first signed Counter-Strike player.
 - Caleb is the IGL, Founding Captain, and only confirmed Counter-Strike captain.
-- Owen "Glacier" Fletcher, Cameron "Mold" Ruiz, and Emiliano
-  "MoteConHuesillo" Navarro are unsigned prospects.
+- Caleb participates in future roster construction.
+- Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo" Navarro are
+  participating in evaluations and remain unsigned.
+- Cameron "Mold" Ruiz remains under active scouting without an invitation or
+  contract.
+- Cameron is an Entry prospect and part-time mechanic. His nationality is TBD.
+- Caleb, Owen, and Emiliano participated in the first internal Counter-Strike
+  scrim.
+- Kairos evaluates communication, trust, character, and cultural fit alongside
+  gameplay.
 - Scouting remains active for the four open main-team positions.
 - Official Counter-Strike competition is scheduled to begin in February 2027.
+
+## Project Casa Arthur
+
+Project Casa Arthur is a conditional future support plan. It depends on safe
+travel and Arthur Fletcher receiving independent medical approval.
+No construction, relocation, acceptance, or medical approval has occurred.
+
+## Food-Service Policy
+
+- Vote date: November 7, 2026.
+- Eligible voters and votes cast: 143.
+- Result: 126 yes, 17 no.
+- Restaurant-chain limit: three.
+- Selected for invitations and negotiations: In-N-Out Burger, Chipotle Mexican
+  Grill, and Chick-fil-A.
+- Usage limit: each person may use each restaurant once per week, with no more
+  than three fast-food meals per week.
+- Enforcement: campus badge.
+- Scope: the same rules and Kairos nutritional standards apply to players,
+  coaches, staff, and Adrian.
+- Alcoholic beverages are prohibited.
+- Confirmed restaurant partnerships: none.
+- Confirmed accepted sponsors: none.
 
 ## Future divisions
 
@@ -91,6 +122,9 @@ document.
   and exact structures are **TBD**.
 - Contracts, salaries, rankings, statistics, and official results are **TBD**
   until narratively confirmed.
+- Project Casa Arthur's cost, dimensions, address, schedule, medical approval,
+  and acceptance are **TBD**.
+- Restaurant responses and any agreement terms are **TBD**.
 
 ## Related records
 
@@ -105,3 +139,4 @@ document.
 - [Structured organization record](../../data/organizations/kairos-esports.json)
 - [Adrian Vale](../characters/ADRIAN_VALE.md)
 - [Adrian Vale structured record](../../data/characters/adrian-elias-vale.json)
+- [Future canon reservations](../planning/FUTURE_CANON_RESERVATIONS.md)

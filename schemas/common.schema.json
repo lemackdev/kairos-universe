@@ -39,11 +39,7 @@
       "type": "object"
     },
     "knownGame": {
-      "enum": [
-        "Counter-Strike",
-        "League of Legends",
-        "TBD"
-      ],
+      "enum": ["Counter-Strike", "League of Legends", "TBD"],
       "description": "A game currently represented in shared game data."
     },
     "knownRole": {
@@ -53,6 +49,7 @@
         "Analytics and Performance",
         "AWPer",
         "Executive",
+        "Entry",
         "Founder and CEO",
         "General Manager",
         "Head Coach",
@@ -62,6 +59,7 @@
         "Jungle Mentor",
         "Mid",
         "Mid Mentor",
+        "Rifler",
         "Strategic Coach",
         "Support",
         "TBD",
@@ -93,22 +91,11 @@
       "description": "A status currently represented in shared status data."
     },
     "knownRosterLevel": {
-      "enum": [
-        "academy",
-        "academy-blue",
-        "academy-white",
-        "main",
-        "prospect"
-      ],
+      "enum": ["academy", "academy-blue", "academy-white", "main", "prospect"],
       "description": "A roster level currently represented in shared data."
     },
     "knownCompetitionOrPurpose": {
-      "enum": [
-        "LCS",
-        "NACL",
-        "U19 development",
-        "TBD"
-      ],
+      "enum": ["LCS", "NACL", "U19 development", "TBD"],
       "description": "A current competition destination or explicitly documented development purpose."
     },
     "nonNegativeIntegerOrTbd": {
@@ -137,10 +124,7 @@
     },
     "organizationReference": {
       "type": "object",
-      "required": [
-        "id",
-        "name"
-      ],
+      "required": ["id", "name"],
       "properties": {
         "id": {
           "$ref": "common.schema.json#/$defs/stableId"
@@ -154,11 +138,7 @@
     },
     "location": {
       "type": "object",
-      "required": [
-        "city",
-        "region",
-        "country"
-      ],
+      "required": ["city", "region", "country"],
       "properties": {
         "city": {
           "$ref": "common.schema.json#/$defs/stringOrTbd"
@@ -174,17 +154,13 @@
     },
     "storyPeriod": {
       "type": "object",
-      "required": [
-        "period",
-        "displayName",
-        "exactDate",
-        "exactYear"
-      ],
+      "required": ["period", "displayName", "exactDate", "exactYear"],
       "properties": {
         "period": {
           "enum": [
             "early-2026",
             "late-october-2026",
+            "early-november-2026",
             "TBD"
           ]
         },
@@ -202,18 +178,10 @@
     },
     "plannedPeriod": {
       "type": "object",
-      "required": [
-        "status",
-        "month",
-        "exactDate",
-        "exactYear"
-      ],
+      "required": ["status", "month", "exactDate", "exactYear"],
       "properties": {
         "status": {
-          "enum": [
-            "planned",
-            "TBD"
-          ]
+          "enum": ["planned", "TBD"]
         },
         "month": {
           "$ref": "common.schema.json#/$defs/stringOrTbd"
@@ -229,11 +197,7 @@
     },
     "relationship": {
       "type": "object",
-      "required": [
-        "subjectId",
-        "type",
-        "status"
-      ],
+      "required": ["subjectId", "type", "status"],
       "properties": {
         "subjectId": {
           "$ref": "common.schema.json#/$defs/stableId"
@@ -248,40 +212,41 @@
             "general-manager",
             "head-coach",
             "chief-executive",
+            "captain-relationship",
+            "evaluation-teammates",
             "first-meeting-completed",
+            "growing-trust",
+            "logistics",
             "mentor",
             "mutual-respect",
             "owner",
+            "positive-first-impression",
             "prospective-teammates",
             "recruitment-target",
+            "recruitment-in-progress",
             "role-mentor",
             "scout",
             "strategic-coach",
             "subsidiary",
             "initial-evaluation",
             "tactical-evaluation-interest",
+            "tactical-compatibility",
             "tactical-evaluator",
-            "tactical-mentor"
+            "tactical-mentor",
+            "tactical-partnership",
+            "grandfather",
+            "medical-provider"
           ]
         },
         "status": {
-          "enum": [
-            "confirmed",
-            "TBD"
-          ]
+          "enum": ["confirmed", "TBD"]
         }
       },
       "additionalProperties": false
     },
     "contract": {
       "type": "object",
-      "required": [
-        "status",
-        "signedDate",
-        "startDate",
-        "endDate",
-        "salary"
-      ],
+      "required": ["status", "signedDate", "startDate", "endDate", "salary"],
       "properties": {
         "status": {
           "$ref": "common.schema.json#/$defs/stringOrTbd"

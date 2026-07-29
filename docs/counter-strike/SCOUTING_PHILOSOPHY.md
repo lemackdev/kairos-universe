@@ -9,6 +9,19 @@ buying an established roster. Scouting must identify young players whose
 decision-making, communication, role fit, and growth potential can be developed
 within that system.
 
+## Current Canon Principles
+
+1. Teams are built before lineups.
+2. Leadership is more valuable than individual statistics.
+3. Character is evaluated before contracts.
+4. Communication under pressure is considered a measurable skill.
+5. Kairos recruits long-term teammates instead of short-term stars.
+6. Chemistry is evaluated before individual skill.
+7. Leadership is evaluated outside official matches.
+8. Internal scrims are part of recruitment.
+9. Character references matter as much as gameplay references.
+10. Recruit the person before the player.
+
 ## Luk's Coaching Principles
 
 1. Systems should develop players rather than hide their weaknesses.
@@ -33,9 +46,9 @@ The weights measure recruitment priority. They do not rank the roles' in-game
 importance.
 
 The first signed player had to be the IGL. Caleb "Atlas" Mercer fulfilled that
-requirement and is the Founding Captain. Owen "Glacier" Fletcher, Cameron
-"Mold" Ruiz, and Emiliano "MoteConHuesillo" Navarro are canonical unsigned
-prospects.
+requirement and is the Founding Captain. Owen "Glacier" Fletcher and Emiliano
+"MoteConHuesillo" Navarro are unsigned evaluation players. Cameron "Mold" Ruiz
+is under active scouting without an invitation or contract.
 
 ## Evaluation Focus
 
@@ -49,6 +62,9 @@ Scouts should evaluate:
 - Ability to improve within a structured system
 - Ability to complement the eventual roster
 - Responsibility under pressure
+- Chemistry and cultural fit
+- Character references from former teammates, coaches, and tournament
+  organizers
 
 Role-specific qualities are documented in
 [Player Archetypes](PLAYER_ARCHETYPES.md). The planned first-IGL process is
@@ -62,8 +78,8 @@ achievements, or fictional Kairos involvement.
 
 ## Unknowns
 
-- Identities beyond the signed player and three confirmed unsigned prospects
-  are **TBD**.
+- Active prospect identities beyond Caleb, Owen, Emiliano, and Cameron are
+  **TBD**.
 - Unrecorded evaluation details and trial results are **TBD**.
 - The criteria for an exceptional 19-year-old candidate are **TBD**.
 - Final competition destinations, contracts, rankings, and statistics are

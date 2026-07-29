@@ -1,0 +1,77 @@
+{
+  "id": "episode-037",
+  "slug": "episode-037",
+  "episodeNumber": 37,
+  "title": "A Pergunta Certa",
+  "historicalTitle": "TBD",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-october-2026",
+  "storyYear": 2026,
+  "exactStoryDate": null,
+  "publicationOrder": 37,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": ["Counter-Strike"],
+  "locations": ["Mackenzie, British Columbia, Canada"],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "owen-glacier-fletcher",
+    "arthur-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
+  "summary": "Arthur Fletcher is named, and Kairos offers Owen a no-obligation three-week evaluation with guaranteed return travel.",
+  "keyEvents": [
+    "Arthur Fletcher's name is revealed.",
+    "Owen and Arthur discuss what a Kairos evaluation would mean for their family.",
+    "Kairos offers Owen a three-week evaluation with no obligation to sign.",
+    "Kairos guarantees Owen's return travel."
+  ],
+  "consequences": [
+    "Owen receives a non-binding three-week evaluation invitation and remains unsigned."
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": ["episode-036"],
+  "continuityNotes": [
+    "The normalized source preserves first-person narration by Adrian Vale.",
+    "No official competitive debut has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The searchable normalized source records approved identity and continuity corrections."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md",
+      "locator": "Episódio 37 — A Pergunta Certa",
+      "information": "Supplies the normalized episode prose, chronology, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": ["The exact calendar date is TBD."],
+  "confirmedFacts": [
+    "The canonical title is \"A Pergunta Certa\".",
+    "Arthur Fletcher's name is revealed.",
+    "Owen and Arthur discuss what a Kairos evaluation would mean for their family.",
+    "Kairos offers Owen a three-week evaluation with no obligation to sign.",
+    "Kairos guarantees Owen's return travel.",
+    "Evaluation is not a signing."
+  ],
+  "unconfirmedDetails": ["The exact calendar date is TBD."],
+  "notes": [
+    "The approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported result, statistic, salary, ranking, or contract term was added."
+  ]
+}

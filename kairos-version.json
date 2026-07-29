@@ -1,9 +1,9 @@
 {
-  "canonVersion": "0.5.4",
+  "canonVersion": "0.6.0",
   "project": "Kairos Universe",
-  "storyEpisode": 35,
+  "storyEpisode": 56,
   "storyStartPeriod": "early-2026",
-  "storyPeriod": "late-october-2026",
+  "storyPeriod": "early-november-2026",
   "storyYear": 2026,
   "nextCompetitiveMilestone": {
     "period": "february-2027",
@@ -11,21 +11,17 @@
     "exactDate": "TBD"
   },
   "websiteImplemented": false,
-  "currentDocumentationPhase": "counter-strike-founding-captain-canonized",
-  "nextPhase": "episode-source-recovery-030-035",
-  "reconstructedThroughEpisode": 29,
-  "episodeRecordsCreatedThrough": 35,
+  "currentDocumentationPhase": "episodes-030-056-source-normalized-and-canonized",
+  "nextPhase": "entity-chronology-and-relationship-enrichment",
+  "reconstructedThroughEpisode": 56,
+  "episodeRecordsCreatedThrough": 56,
   "lastValidated": null,
   "notes": [
-    "Episodes 1 through 29 are reconstructed from the immutable historical PDF.",
-    "Current repository canon overrides historical conflicts documented in the Canon Inconsistency Audit.",
-    "The story begins in early 2026 and the current narrative date is late October 2026.",
-    "The next competitive milestone is planned for February 2027.",
-    "Adrian Elias Vale is the canonical main protagonist and first-person narrator.",
-    "Narrator, founder, owner, and CEO references use the adrian-elias-vale stable ID.",
-    "Current titles for Episodes 1 through 24 remain TBD.",
-    "Episodes 30 through 35 have confirmed metadata but require source prose recovery.",
-    "Caleb \"Atlas\" Mercer is the first signed Kairos Counter-Strike player and Founding Captain.",
-    "The repository contained version 0.5.1 before this approved update; no version 0.5.3 artifact was present."
+    "Episodes 1-29 are reconstructed from the immutable historical PDF.",
+    "Episodes 30-56 are reconstructed from the authoritative normalized DOCX and Markdown source.",
+    "Episode 56 is the current story episode.",
+    "The current narrative date is November 7, 2026.",
+    "The next planned competitive milestone remains February 2027.",
+    "No official Kairos match has occurred."
   ]
 }

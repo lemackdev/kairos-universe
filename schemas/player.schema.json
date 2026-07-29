@@ -57,22 +57,14 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "nickname",
-          "status",
-          "sourceEpisode",
-          "notes"
-        ],
+        "required": ["nickname", "status", "sourceEpisode", "notes"],
         "properties": {
           "nickname": {
             "type": "string",
             "minLength": 1
           },
           "status": {
-            "enum": [
-              "retconned",
-              "historical"
-            ]
+            "enum": ["retconned", "historical"]
           },
           "sourceEpisode": {
             "$ref": "common.schema.json#/$defs/stableId"
@@ -90,6 +82,9 @@
     },
     "city": {
       "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "currentResidence": {
+      "$ref": "common.schema.json#/$defs/location"
     },
     "homeTown": {
       "$ref": "common.schema.json#/$defs/location"
@@ -140,6 +135,12 @@
           "type": "null"
         }
       ]
+    },
+    "occupation": {
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "background": {
+      "$ref": "common.schema.json#/$defs/stringArray"
     },
     "personality": {
       "$ref": "common.schema.json#/$defs/stringOrTbd"

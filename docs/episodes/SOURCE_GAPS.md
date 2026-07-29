@@ -1,52 +1,38 @@
 # Episode Source Gaps
 
-## Historical Source Status
+## Source Status
 
-There is no remaining prose-recovery gap for Episodes 1 through 29. The
-historical PDF is archived, checksummed, and mapped in the
-[Historical Source Manifest](../../archive/SOURCE_MANIFEST.md).
+There is no remaining prose-recovery gap through Episode 56.
 
-Episodes 30 through 35 have approved titles and structured canon metadata, but
-their approved prose is not present in the repository. Episodes 36 through 42
-have no source text or structured records in the repository.
+- Episodes 1-29 are recovered from the immutable historical PDF.
+- Episodes 30-56 are recovered from the normalized source package.
+- Source provenance and checksums are in the
+  [Source Manifest](../../archive/SOURCE_MANIFEST.md).
 
 ## Remaining Canon Gaps
 
-Source recovery does not resolve details that current canon intentionally keeps
-unknown or newer than the historical source.
+- Exact dates for Episodes 30-54.
+- Current-canon English titles for Episodes 1-24.
+- Exact Kairos join dates and most contract dates.
+- Salaries, rankings, official statistics, and future results.
+- Most League Academy player roles and first appearances.
+- Exact campus dimensions, cost, address, room counts, and architecture.
+- Project Casa Arthur's dimensions, cost, address, construction schedule,
+  medical approval, and final acceptance.
+- The selected restaurant chains' responses and any future agreement terms.
+- Detailed Asterion corporate history and valuation.
+- Remaining Counter-Strike support staff and main-roster identities.
 
-- Exact calendar day within late October 2026
-- Exact calendar dates for most events
-- Current-canon English titles for Episodes 1 through 24
-- Exact Kairos join dates and contract dates
-- Salaries, rankings, official statistics, and future results
-- Most Academy player roles and first appearances
-- Exact campus dimensions, cost, address, room counts, and architecture
-- Detailed Asterion corporate history and valuation
-- Criteria for the exceptional Counter-Strike age-19 case
-- Remaining Counter-Strike support staff and player identities
-- Approved prose, scenes, and dialogue for Episodes 30 through 35
-- Any source material for Episodes 36 through 42
+## Active Boundaries
 
-## Unresolved Historical Boundaries
-
-- Historical 2026 references align with the separately confirmed current story
-  year of 2026.
-- Historical exact staff ages and nationalities do not override current entity
-  TBD fields.
-- Historical social, scrim, and performance measurements are not official
-  current statistics.
-- Real-world organizations and figures appearing in the episodes do not create
-  real-world Kairos claims.
-
-## Next Action
-
-Recover the approved prose for Episodes 30 through 35 before expanding their
-metadata. Do not create Episodes 36 through 42 without an approved source.
-Unknown details must remain **TBD**.
+- Episodes 55-56 are dated November 7, 2026.
+- Anonymous candidates and stand-ins receive no entity records.
+- Internal scrims are not official match results.
+- Invitations and negotiations are not contracts or partnerships.
+- Future reservations remain outside active indexes and timelines.
 
 ## Related Documents
 
-- [Episode source audit](EPISODE_SOURCE_AUDIT.md)
 - [Episode reconstruction status](EPISODE_RECONSTRUCTION_STATUS.md)
-- [Canon inconsistency audit](../retcons/CANON_INCONSISTENCY_AUDIT.md)
+- [Source normalization](SOURCE_NORMALIZATION_030_056.md)
+- [Future canon reservations](../planning/FUTURE_CANON_RESERVATIONS.md)

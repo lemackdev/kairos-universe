@@ -7,13 +7,15 @@
 
 ## Roster
 
-| Player | Stable ID | Role | Age | City |
-| --- | --- | --- | --- | --- |
-| Isaac "Pebble" Young | `isaac-pebble-young` | TBD | TBD | TBD |
-| Benjamin "Vex" Carter | `benjamin-vex-carter` | Jungle | TBD | TBD |
-| Nathan "0bit" Hall | `nathan-0bit-hall` | TBD | TBD | TBD |
-| Cole "June" Mercer | `cole-june-mercer` | ADC | TBD | TBD |
-| Ryan "Luma" Chen | `ryan-luma-chen` | TBD | TBD | TBD |
+| Player | Stable ID | Role | Date of birth | Age | City |
+| --- | --- | --- | --- | ---: | --- |
+| Isaac "Pebble" Young | `isaac-pebble-young` | Top | 12/01/2010 | 16 | TBD |
+| Benjamin "Vex" Carter | `benjamin-vex-carter` | Jungle | 24/10/2009 | 17 | TBD |
+| Nathan "0bit" Hall | `nathan-0bit-hall` | Mid | 18/03/2010 | 16 | TBD |
+| Cole "June" Mercer | `cole-june-mercer` | ADC | 02/06/2009 | 17 | TBD |
+| Ryan "Luma" Chen | `ryan-luma-chen` | Support | 29/09/2010 | 16 | TBD |
+
+Ages are calculated on 24/11/2026.
 
 Player records:
 
@@ -32,8 +34,9 @@ Player records:
 - The League division previously completed a Korean bootcamp and returned to
   Los Angeles.
 
-U19 development is the roster's confirmed purpose. It does not establish exact
-player ages or an official competition entry.
+U19 development is the roster's confirmed purpose. The confirmed player ages
+range from 16 through 17. The purpose does not establish an official
+competition entry.
 
 ## Development purpose
 
@@ -41,24 +44,27 @@ Academy White belongs to the same development system as the main team and
 Academy Blue. It is the younger development roster and exists for genuine
 player progression.
 
-## Unknown roster details
+## Confirmed positional structure
 
-The following details are **TBD** for all five players unless stated below:
+Academy White is a complete positional roster: Pebble is Top, Vex is Jungle,
+0bit is Mid, June is ADC, and Luma is Support. Vex's Jungle role and June's ADC
+role remain the roles established previously; the other three roles are
+confirmed by the current canon update.
 
-- Age
+The following details remain **TBD** for all five players:
+
 - City
 - Nationality
-- Date of birth
 - Personality and playstyle
 - Contract and salary
 - Statistics and achievements
 - Exact Kairos join date
 - Captain status
 
-Roles and ages must not be inferred from roster order or from the U19 purpose.
 Historical Episode 22 explicitly identifies Vex as Jungle and June as ADC;
 both first appear in that episode. Isaac "Pebble" Young, Nathan "0bit" Hall,
-and Ryan "Luma" Chen still have **TBD** roles and first appearances.
+and Ryan "Luma" Chen still have **TBD** first appearances. The captain remains
+**TBD**.
 
 ## Team-level TBD details
 
@@ -69,7 +75,9 @@ the exact February 2027 debut date are **TBD**.
 
 Internal Academy performance continues improving. Aphromoo's expanded
 mentorship makes communication and team culture measurable development goals.
-No roster change or official result is created.
+Episode 75 establishes fundamentals, communication, and adaptation as Academy
+White's December Phase Two focus. No roster change, promotion, demotion,
+benching, replacement, or official result is created.
 
 ## Related documents
 

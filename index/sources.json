@@ -1,0 +1,16 @@
+[
+  "data/sources/source-document-league-mentors.json",
+  "data/sources/source-document-league-relationships.json",
+  "data/sources/source-document-league-staff.json",
+  "data/sources/source-kairos-version.json",
+  "data/sources/source-organization-kairos-esports.json",
+  "data/sources/source-player-daniel-moss-reyes.json",
+  "data/sources/source-player-ethan-vanta-walker.json",
+  "data/sources/source-player-liam-aster-oconnor.json",
+  "data/sources/source-player-mason-404-brooks.json",
+  "data/sources/source-player-noah-rkn-bennett.json",
+  "data/sources/source-staff-emily-chen.json",
+  "data/sources/source-staff-thinkcard-kairos-strategic-coach.json",
+  "data/sources/source-staff-zaqueri-aphromoo-black.json",
+  "data/sources/source-team-kairos-lol-main.json"
+]

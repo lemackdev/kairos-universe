@@ -1,0 +1,121 @@
+{
+  "id": "episode-074",
+  "slug": "episode-074",
+  "episodeNumber": 74,
+  "title": "Os Últimos Dois",
+  "historicalTitle": "Os Últimos Dois",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-23",
+  "datePrecision": "exact",
+  "publicationOrder": 74,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Counter-Strike Academy room, Los Angeles, California",
+    "Kairos campus meeting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-academy"
+  ],
+  "summary": "Stewie2K becomes Academy Head Coach, Trace becomes Development Coach, and dentalplan and wrongnumber complete the five-player Academy roster without fixed positions.",
+  "keyEvents": [
+    "Jake “Stewie2K” Yip accepts and becomes active Academy Head Coach.",
+    "Trace remains active and transitions to Development Coach.",
+    "Nolan “dentalplan” Hart and Reid “wrongnumber” Hart are selected.",
+    "The five-player Academy roster becomes complete.",
+    "No permanent position, captain, IGL, substitute, or starter hierarchy is assigned."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "The Academy begins evaluating responsibilities under Stewie2K.",
+    "Nolan and Reid demonstrate different behavior when separated."
+  ],
+  "relationshipDevelopments": [
+    "Nolan and Reid are twin brothers; Nolan is eleven minutes older.",
+    "Stewie2K becomes coach of all five Academy players.",
+    "Trace supports Stewie2K as Development Coach."
+  ],
+  "rosterChanges": [
+    "dentalplan joins Kairos Counter-Strike Academy.",
+    "wrongnumber joins Kairos Counter-Strike Academy.",
+    "The Academy roster reaches five selected players."
+  ],
+  "staffChanges": [
+    "Stewie2K becomes active Counter-Strike Academy Head Coach on 2026-11-23.",
+    "Trace becomes active Counter-Strike Development Coach on 2026-11-23 and remains part of Kairos."
+  ],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Kairos Counter-Strike Academy completes its first five-player roster."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-073"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [
+    "Jake “Stewie2K” Yip"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 74 — Os Últimos Dois",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Jake “Stewie2K” Yip accepts and becomes active Academy Head Coach.",
+    "Trace remains active and transitions to Development Coach.",
+    "Nolan “dentalplan” Hart and Reid “wrongnumber” Hart are selected.",
+    "The five-player Academy roster becomes complete.",
+    "No permanent position, captain, IGL, substitute, or starter hierarchy is assigned."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

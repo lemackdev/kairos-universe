@@ -4,7 +4,7 @@
   "realName": "Ethan Miller",
   "nickname": "Trace",
   "nationality": "American",
-  "role": "Head Coach",
+  "role": "Development Coach",
   "division": "Counter-Strike",
   "currentOrganization": "kairos-esports",
   "currentTeam": "kairos-cs-academy",
@@ -15,29 +15,15 @@
   "formerPlayingCareer": "Former American regional Counter-Strike player",
   "coachingPhilosophy": "TBD",
   "responsibilities": [
-    "Lead Kairos Counter-Strike Academy as Head Coach.",
-    "Translate Luk's philosophy into academy training.",
-    "Learn roster construction, player development, and tactical preparation.",
-    "Develop an independent coaching identity over time.",
-    "Prepare academy players for progression to the main team.",
-    "Continue evaluating Caleb Mercer.",
-    "Conduct tactical discussions during prospect evaluation.",
-    "Assist the recruitment process.",
-    "Continue Caleb Mercer's tactical development.",
-    "Participate in Cameron Ruiz's evaluation.",
-    "Review Emiliano Navarro's demos.",
-    "Conduct tactical workshops with Caleb Mercer, Owen Fletcher, and Emiliano Navarro.",
-    "Introduce non-mechanical evaluations.",
-    "Evaluate communication, teamwork, and adaptability.",
-    "Oversee the first internal Kairos Counter-Strike scrim."
+    "Lead Counter-Strike development methodology.",
+    "Support individual player development.",
+    "Integrate the Academy and main-team development pathways.",
+    "Support the Academy coaching structure.",
+    "Develop players and coaches.",
+    "Coordinate with Academy Head Coach Stewie2K."
   ],
   "personality": "TBD",
   "relationships": [
-    {
-      "subjectId": "kairos-cs-academy",
-      "type": "head-coach",
-      "status": "confirmed"
-    },
     {
       "subjectId": "lukas-luk-novak",
       "type": "role-mentor",
@@ -62,6 +48,41 @@
       "subjectId": "owen-glacier-fletcher",
       "type": "evaluator",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "kairos-cs-academy",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "evan-soupcrime-nakamura",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "milo-velcrodog-radovic",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "zayn-parkinglot-haddad",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "nolan-dentalplan-hart",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "reid-wrongnumber-hart",
+      "type": "development-coach",
+      "status": "confirmed"
     }
   ],
   "objectives": [
@@ -78,15 +99,15 @@
     "Episodes 43-53: Trace conducts tactical workshops and non-mechanical evaluations with Caleb, Owen, and Emiliano.",
     "Episode 49: Trace oversees the first internal Kairos Counter-Strike scrim.",
     "Episode 51: Trace runs a strategic pressure exercise; no scrim is played.",
-    "Episodes 55-56: Trace participates in the Kairos community vote."
+    "Episodes 55-56: Trace participates in the Kairos community vote.",
+    "Episodes 63-73: Trace builds and provisionally leads the Academy development structure before a permanent Head Coach is appointed.",
+    "Episode 74: Trace becomes active Development Coach on 2026-11-23 when Stewie2K becomes Academy Head Coach."
   ],
   "achievements": [],
   "confirmedFacts": [
     "Ethan Miller is a fictional American Counter-Strike coach known as Trace.",
-    "He is Head Coach of Kairos Counter-Strike Academy.",
     "He is a former American regional Counter-Strike player.",
     "He originally expected to become an assistant coach.",
-    "He was instead appointed Head Coach of the Academy.",
     "He is a pupil of Lukas \"Luk\" Novak.",
     "Kairos is developing him as a future elite coach.",
     "He prepares academy players for progression to the main team.",
@@ -99,7 +120,10 @@
     "He prioritizes communication, teamwork, and adaptability in non-mechanical evaluations.",
     "He oversees the first internal Kairos Counter-Strike scrim.",
     "He conducts the Episode 51 strategic pressure exercise without running a scrim.",
-    "He participates in the November 7 Kairos community vote."
+    "He participates in the 2026-11-07 Kairos community vote.",
+    "Trace remains active at Kairos as Counter-Strike Development Coach beginning 2026-11-23.",
+    "His transition is not a firing, removal, or punitive demotion.",
+    "He is responsible for development methodology, individual development, Academy-main integration, coaching support, and development of players and coaches."
   ],
   "unconfirmedDetails": [
     "His exact age, date of birth, and city are TBD.",
@@ -111,6 +135,7 @@
   "canonNotes": [
     "Trace is a fictional character.",
     "Do not confuse Ethan \"Trace\" Miller with Ethan \"Vanta\" Walker or the Kairos executive named Ethan.",
-    "Do not invent previous organizations, achievements, contracts, salary, or coaching history."
+    "Do not invent previous organizations, achievements, contracts, salary, or coaching history.",
+    "Trace’s Head Coach role is historical before 2026-11-23; his current role is Development Coach."
   ]
 }

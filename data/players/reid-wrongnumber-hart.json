@@ -1,0 +1,100 @@
+{
+  "id": "reid-wrongnumber-hart",
+  "slug": "reid-wrongnumber-hart",
+  "realName": "Reid Hart",
+  "nickname": "wrongnumber",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "Long Beach",
+  "currentResidence": {
+    "city": "Long Beach",
+    "region": "California",
+    "country": "United States"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 16,
+  "game": "Counter-Strike",
+  "role": "TBD",
+  "currentTeam": "kairos-cs-academy",
+  "rosterLevel": "academy",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-074",
+  "joinedKairos": "Selected on 2026-11-23",
+  "contract": null,
+  "background": [
+    "American player living in Long Beach, California.",
+    "Nolan Hart's twin brother.",
+    "Reid is eleven minutes younger than Nolan."
+  ],
+  "personality": "Talkative, improvisational, and energetic.",
+  "playstyle": "Permanent role TBD; he adapts when structure breaks but can also contribute to communication overload.",
+  "strengths": [
+    "Improvisation.",
+    "Finding solutions after a plan breaks.",
+    "Competitive energy."
+  ],
+  "weaknesses": [
+    "Can communicate too many ideas at once.",
+    "Can contribute to unnecessary disorder."
+  ],
+  "inspirations": [],
+  "objectives": [
+    "Develop within the Kairos Counter-Strike Academy."
+  ],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "nolan-dentalplan-hart",
+      "type": "twin-brother",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 74: Reid is evaluated separately from Nolan and selected for Kairos Counter-Strike Academy.",
+    "Episode 74: Reid begins working under Head Coach Stewie2K with no permanent position assigned."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "The nickname wrongnumber must remain lowercase.",
+    "The nickname began after Reid received an amateur-team server invitation intended for another person."
+  ],
+  "currentState": [
+    "Active Kairos Counter-Strike Academy player.",
+    "Training and pre-debut.",
+    "Permanent position TBD.",
+    "No captaincy or IGL designation."
+  ],
+  "confirmedFacts": [
+    "Reid Hart is an American Counter-Strike Academy player known as wrongnumber.",
+    "He is 16 years old on his 2026-11-23 selection date.",
+    "He lives in Long Beach, California.",
+    "He is Nolan Hart's twin brother and is eleven minutes younger.",
+    "He is selected for Kairos Counter-Strike Academy in Episode 74.",
+    "His permanent playing position is not assigned.",
+    "He is not the captain or IGL."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth is TBD.",
+    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "Contract status and terms are TBD.",
+    "Previous teams, official statistics, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "Do not capitalize or alter the nickname wrongnumber.",
+    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy.",
+    "Do not treat Nolan and Reid as a single entity or inseparable roster package."
+  ]
+}

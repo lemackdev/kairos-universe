@@ -1,0 +1,130 @@
+{
+  "id": "episode-075",
+  "slug": "episode-075",
+  "episodeNumber": 75,
+  "title": "Depois da Pausa",
+  "historicalTitle": "Depois da Pausa",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-24",
+  "datePrecision": "exact",
+  "publicationOrder": 75,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus meeting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "emily-chen",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "The League division receives its December Phase Two plan while Thanksgiving remains scheduled for the following day and no roster change or official match occurs.",
+  "keyEvents": [
+    "League Main will begin regular external scrims in December.",
+    "Academy Blue will focus on consistency and meaningful internal pressure.",
+    "Academy White will continue fundamentals, communication, and adaptation.",
+    "Roster mixing must have a specific developmental or evaluative purpose.",
+    "Moss remains captain and is responsible for helping Main discover its identity when the initial plan fails.",
+    "No player is promoted, demoted, benched, or replaced.",
+    "The Kairos Thanksgiving gathering is planned for 2026-11-25 and has not occurred."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Moss receives a broader responsibility for team identity.",
+    "All three League rosters receive distinct Phase Two objectives."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [
+    {
+      "id": "kairos-thanksgiving-gathering-2026-11-25",
+      "date": "2026-11-25",
+      "status": "planned",
+      "summary": "Kairos plans an early Thanksgiving gathering; the event has not occurred by the Episode 75 endpoint."
+    },
+    {
+      "id": "league-december-external-scrims",
+      "date": "TBD",
+      "status": "planned",
+      "summary": "The League main roster plans regular external scrims in December; no opponent is named."
+    }
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-074"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 75 — Depois da Pausa",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "League Main will begin regular external scrims in December.",
+    "Academy Blue will focus on consistency and meaningful internal pressure.",
+    "Academy White will continue fundamentals, communication, and adaptation.",
+    "Roster mixing must have a specific developmental or evaluative purpose.",
+    "Moss remains captain and is responsible for helping Main discover its identity when the initial plan fails.",
+    "No player is promoted, demoted, benched, or replaced.",
+    "The Kairos Thanksgiving gathering is planned for 2026-11-25 and has not occurred."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

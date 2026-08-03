@@ -11,7 +11,7 @@
 | Game | League of Legends |
 | Headquarters and training location | Los Angeles, California, United States |
 | Story start | Early 2026 |
-| Current story date | November 7, 2026 |
+| Current story date | 24/11/2026 |
 | Current status | Active, training, and pre-debut |
 | Planned official debut | February 2027 |
 | Exact debut date | TBD |
@@ -38,8 +38,10 @@ rosters.
 - The League division previously completed a Korean bootcamp.
 - The League division has returned to Los Angeles.
 - Competitive history, achievements, and statistics are currently empty.
-- The League division appears in Episodes 34, 36, 38, 55, and 56.
-- All three League rosters participate in the November 7 community vote.
+- Every established League player's role and date of birth are confirmed.
+- All League Academy players are between 16 and 18 years old on 24/11/2026.
+- The League division appears in Episodes 34, 36, 38, 55-57, 65, 67, and 75.
+- All three League rosters participate in the 07/11/2026 community vote.
 - These appearances create no roster, role, captain, contract, or official
   match change.
 
@@ -77,15 +79,26 @@ The division follows the broader Kairos philosophy:
 - Aphromoo has expanded mentorship of Academy players.
 - Communication and team culture are measurable development goals.
 - Academy performance continues improving internally.
-- No roster change occurs in Episodes 36 through 42.
+- Episode 75 establishes December Phase Two planning.
+- League Main will begin regular external scrims in December; no opponent is
+  named.
+- Academy Blue will focus on consistency and meaningful internal pressure on
+  the main roster.
+- Academy White will continue fundamentals, communication, and adaptation.
+- Future roster mixing must have a specific developmental or evaluative
+  purpose.
+- No promotion, demotion, benching, replacement, or other roster change occurs
+  in Episode 75.
 
 ## Canon constraints
 
 - Do not create match results before an official match is confirmed.
 - Do not treat intended LCS or NACL destinations as completed participation.
 - Do not invent player nationalities from their cities.
-- Do not derive birth dates from current ages.
-- Do not infer academy roles from roster order.
+- Player birth dates use the confirmed canon records rather than age-derived
+  estimates.
+- Academy roles are confirmed directly and must not be reassigned from roster
+  order.
 - Do not invent contracts, salaries, rankings, or statistics.
 - Real-world esports figures in Kairos roles must be labeled as fictional
   involvement.

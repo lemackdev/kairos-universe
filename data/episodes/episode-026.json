@@ -19,12 +19,8 @@
   "publicationOrder": 26,
   "narrator": "adrian-elias-vale",
   "protagonist": "adrian-elias-vale",
-  "divisions": [
-    "Counter-Strike"
-  ],
-  "locations": [
-    "Los Angeles, California, United States"
-  ],
+  "divisions": ["Counter-Strike"],
+  "locations": ["Los Angeles, California, United States"],
   "characters": [
     "adrian-elias-vale",
     "marcus-kairos-general-manager",
@@ -33,12 +29,8 @@
     "ethan-trace-miller"
   ],
   "firstAppearances": [],
-  "organizations": [
-    "kairos-esports"
-  ],
-  "teams": [
-    "kairos-cs-main"
-  ],
+  "organizations": ["kairos-esports"],
+  "teams": ["kairos-cs-main"],
   "summary": "Kairos narrows its current Counter-Strike focus to the IGL role and studies leadership, communication, adaptation, and teammate trust. The historical candidate is removed from active canon.",
   "keyEvents": [
     "Kairos prioritizes the IGL as the first roster piece.",
@@ -53,11 +45,9 @@
   ],
   "canonChanged": [
     "The historical 24-year-old candidate direction is removed.",
-    "The current preferred age range is 16 to 18, with age 19 only in exceptional cases."
+    "The current player age range is 16 to 18; main-roster and Academy players cannot be older than 18."
   ],
-  "continuityDependencies": [
-    "episode-025"
-  ],
+  "continuityDependencies": ["episode-025"],
   "continuityNotes": [
     "Connor \"North\" Sullivan must not appear in current characters or first appearances.",
     "The historical interview, evaluation, and candidate identity are not active canon."
@@ -76,7 +66,7 @@
     {
       "id": "retcon-counter-strike-age-policy",
       "status": "retconned",
-      "description": "The older-candidate direction is replaced by the current 16-to-18 preference and exceptional age-19 maximum.",
+      "description": "The older-candidate direction is replaced by the current 16-to-18 player range with no age-19 roster exception.",
       "sourcePath": "docs/retcons/RETCON_HISTORY.md"
     }
   ],

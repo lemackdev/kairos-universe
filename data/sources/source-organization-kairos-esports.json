@@ -1,0 +1,13 @@
+{
+  "id": "source-organization-kairos-esports",
+  "slug": "source-organization-kairos-esports",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Kairos Esports organization record",
+  "path": "data/organizations/kairos-esports.json",
+  "locator": null,
+  "publicLabel": "Kairos Esports canonical organization record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": []
+}

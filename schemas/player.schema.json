@@ -90,7 +90,7 @@
       "$ref": "common.schema.json#/$defs/location"
     },
     "dateOfBirth": {
-      "$ref": "common.schema.json#/$defs/stringOrTbd"
+      "$ref": "common.schema.json#/$defs/dateOrTbd"
     },
     "ageAtCurrentStoryDate": {
       "$ref": "common.schema.json#/$defs/nonNegativeIntegerOrTbd"

@@ -92,12 +92,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "role",
-          "candidateId",
-          "priority",
-          "status"
-        ],
+        "required": ["role", "candidateId", "priority", "status"],
         "properties": {
           "role": {
             "$ref": "common.schema.json#/$defs/knownRole"
@@ -106,10 +101,7 @@
             "$ref": "common.schema.json#/$defs/stableId"
           },
           "priority": {
-            "enum": [
-              "active",
-              "primary"
-            ]
+            "enum": ["active", "primary"]
           },
           "status": {
             "$ref": "common.schema.json#/$defs/knownStatus"
@@ -117,6 +109,14 @@
         },
         "additionalProperties": false
       }
+    },
+    "plannedRosterSlots": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/knownRole"
+      },
+      "uniqueItems": true,
+      "description": "Planned positional slots that do not imply assigned players."
     },
     "confirmedFacts": {
       "$ref": "common.schema.json#/$defs/canonTextArray"

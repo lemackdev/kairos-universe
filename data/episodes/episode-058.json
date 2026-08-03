@@ -1,0 +1,95 @@
+{
+  "id": "episode-058",
+  "slug": "episode-058",
+  "episodeNumber": 58,
+  "title": "Cinco Cadeiras",
+  "historicalTitle": "Cinco Cadeiras",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-08",
+  "datePrecision": "exact",
+  "publicationOrder": 58,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus strategy room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "The Counter-Strike group defines five complementary responsibilities and identifies Entry and Support as the two remaining main-roster needs.",
+  "keyEvents": [
+    "The main-roster role structure is defined as IGL, Primary AWPer, Rifler, Entry, and Support.",
+    "Atlas remains captain and defines the IGL as making four people believe in the same idea.",
+    "Kairos prioritizes team completion over selecting the individually strongest available players."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Atlas further develops his leadership philosophy."
+  ],
+  "relationshipDevelopments": [
+    "Atlas, Glacier, and MoteConHuesillo discuss how their roles must complement future teammates."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-057"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 58 — Cinco Cadeiras",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The main-roster role structure is defined as IGL, Primary AWPer, Rifler, Entry, and Support.",
+    "Atlas remains captain and defines the IGL as making four people believe in the same idea.",
+    "Kairos prioritizes team completion over selecting the individually strongest available players."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

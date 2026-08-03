@@ -68,12 +68,26 @@ relationships, and informal alliances are **TBD** unless later confirmed.
 
 ## Episodes 55-56
 
-- All three League rosters participate in the November 7 community vote.
+- All three League rosters participate in the 07/11/2026 community vote.
 - Aphromoo stands beside Thinkcard when the result is presented.
 - 404 speaks with Moss.
 - These scenes do not change captaincy, roles, rosters, or contracts.
 - Moss remains the only confirmed League captain.
 - 404 remains Mid and is never captain.
+
+## Episodes 65 And 75
+
+- In Episode 65, Aphromoo mentors Moss toward concise, executable leadership.
+- The main roster practices against Academy Blue and Academy White.
+- One acceptable unified decision is treated as more useful than five separate
+  perfect decisions.
+- Episode 75 assigns Moss responsibility for helping the main roster discover
+  its competitive identity when an initial plan fails.
+- Academy Blue creates meaningful internal pressure on the main roster during
+  December Phase Two.
+- Future roster mixing must serve a specific developmental or evaluative
+  purpose.
+- No roster, role, mentor, or captaincy relationship changes.
 
 ## Related documents
 

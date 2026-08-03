@@ -1,0 +1,100 @@
+{
+  "id": "episode-069",
+  "slug": "episode-069",
+  "episodeNumber": 69,
+  "title": "Cinco Vozes",
+  "historicalTitle": "Cinco Vozes",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-16",
+  "datePrecision": "exact",
+  "publicationOrder": 69,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Counter-Strike training room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "The completed Counter-Strike roster holds its first full training session and begins aligning five different interpretations into one team decision.",
+  "keyEvents": [
+    "The five-player roster trains together for the first time.",
+    "Luk interrupts the session when four players describe different plans.",
+    "Atlas simplifies his calls and accepts responsibility for ambiguity.",
+    "The session is internal practice, not an official result."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Atlas begins learning to give concise full-roster calls.",
+    "Mold and Glacier begin coordinating aggression and timing."
+  ],
+  "relationshipDevelopments": [
+    "The completed roster begins building collective trust."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-068"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 69 — Cinco Vozes",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The five-player roster trains together for the first time.",
+    "Luk interrupts the session when four players describe different plans.",
+    "Atlas simplifies his calls and accepts responsibility for ambiguity.",
+    "The session is internal practice, not an official result."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "kairospedia",
+  "version": "0.9.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run canon:prepare && next dev",
+    "canon:build": "tsx scripts/build-canon.ts",
+    "canon:validate": "tsx scripts/validate-canon.ts",
+    "canon:prepare": "npm run canon:build && npm run canon:validate && npm run search:build",
+    "search:build": "tsx scripts/build-search.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "npm run canon:prepare && vitest run",
+    "test:unit": "vitest run",
+    "links:validate": "tsx scripts/validate-links.ts",
+    "build": "npm run canon:prepare && next build",
+    "validate": "npm run canon:prepare && npm run typecheck && npm run lint && npm run test:unit && next build && npm run links:validate",
+    "entity:new-organization": "tsx scripts/entity-new.ts organization",
+    "entity:new-team": "tsx scripts/entity-new.ts team",
+    "entity:new-player": "tsx scripts/entity-new.ts player",
+    "entity:new-staff": "tsx scripts/entity-new.ts staff",
+    "entity:new-roster-tenure": "tsx scripts/entity-new.ts roster-tenure",
+    "entity:new-transfer": "tsx scripts/entity-new.ts transfer",
+    "entity:new-competition": "tsx scripts/entity-new.ts competition",
+    "entity:new-match": "tsx scripts/entity-new.ts match"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "@fontsource/newsreader": "5.3.0",
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "ajv": "8.20.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.2.12",
+    "tsx": "4.23.5",
+    "typescript": "6.0.3",
+    "vitest": "4.1.10"
+  },
+  "overrides": {
+    "postcss": "8.5.25",
+    "sharp": "0.35.3"
+  }
+}

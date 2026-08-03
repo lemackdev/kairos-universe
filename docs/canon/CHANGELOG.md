@@ -1,5 +1,95 @@
 # Canon Changelog
 
+## 0.9.0
+
+- Activated Kairospedia as the repository's Next.js presentation and indexing
+  layer without advancing the story beyond Episode 75 or 2026-11-24.
+- Added a build-time canon loader, Draft 2020-12 schema validation, stable-ID
+  reference resolution, publication filtering, local search, and generated
+  route catalogs.
+- Published only Kairos Esports, the Kairos League of Legends main team, its
+  five active players, directly associated League staff, and confirmed
+  mentorship relationships.
+- Added first-class roster tenure, staff tenure, source, and continuity
+  records for the published scope.
+- Added future-ready schemas and empty indexes for transfers, competitions,
+  stages, match games, maps, lineups, standings, statistics, and awards.
+- Added narrative-date age calculation and historical roster, staff, and
+  lineup resolution.
+- Added safe entity-draft tooling, Kairospedia workflow documentation, tests,
+  production-build validation, and internal-link validation.
+- Preserved all hidden canonical divisions and entities without publishing
+  their routes or search records.
+- Added no match, transfer, competition, statistic, contract term, salary,
+  ranking, result, achievement, external organization, or unsupported fact.
+
+## 0.8.0
+
+- Canonized Episodes 57 through 75 from the complete supplied DOCX and created
+  continuous structured episode records through Episode 75.
+- Preserved the supplied Episodes 57-75 DOCX byte-for-byte and created a
+  searchable normalized Markdown source with a separate correction log.
+- Normalized Academy recruitment scenes so decisions remain with Adrian,
+  Emily, Luk, Trace, management, analysts, and scouting personnel rather than
+  Counter-Strike main-roster players.
+- Preserved Arthur Fletcher as Owen's grandfather and removed the source
+  conflict that placed Arthur in campus staff or Academy recruitment roles.
+- Completed the Counter-Strike main roster on 16/11/2026 when Cameron "Mold"
+  Ruiz and Vincente "FLACOGOMEZ" Galán accepted offers and signed.
+- Registered the 18/11/2026 Dust2 campus interview as editorial media coverage,
+  not sponsorship or commercial partnership.
+- Registered the 20/11/2026 fictional-universe Team Liquid series as a private,
+  non-public, non-official, non-ranking, non-tournament practice scrim and kept
+  its partial statistics separate from official career statistics.
+- Created the complete five-player Counter-Strike Academy roster without
+  assigning positions, captaincy, an IGL, substitutes, or starter hierarchy.
+- Established Jake "Stewie2K" Yip as Academy Head Coach and Ethan "Trace"
+  Miller as Development Coach, both effective 23/11/2026.
+- Added the December League Phase Two plan without changing any League roster
+  or Moss's captaincy.
+- Advanced the narrative endpoint to Episode 75 on 24/11/2026.
+- Preserved the 25/11/2026 Kairos Thanksgiving gathering as planned and not
+  completed.
+- Added no official match, achievement, ranking, salary, unsupported contract
+  term, Academy position, or Team Liquid player identity.
+
+## 0.7.0
+
+- Confirmed the exact date of birth and role of every established League of
+  Legends and Counter-Strike player, using 07/11/2026 as the age-reference
+  date.
+- Confirmed complete positional rosters for League Main, Academy Blue, and
+  Academy White while preserving Moss as the only League captain and 404 as a
+  non-captain Mid laner.
+- Confirmed all League Academy players are between 16 and 18 years old.
+- Updated Caleb "Atlas" Mercer to IGL / Rifler, Owen "Glacier" Fletcher to
+  Primary AWPer, Emiliano "MoteConHuesillo" Navarro to Rifler, Cameron "Mold"
+  Ruiz to Entry, and Vincente "FLACOGOMEZ" Galán to Support / Anchor.
+- Confirmed Glacier and MoteConHuesillo as signed Counter-Strike main-roster
+  players while preserving Atlas as the first signing and Founding Captain.
+- Confirmed Mold has received an invitation but remains unsigned until
+  acceptance is established.
+- Promoted FLACOGOMEZ from a future reservation to an active structured
+  prospect after his interview, while preserving that no formal offer,
+  acceptance, contract, or roster place is confirmed.
+- Retconned Owen Fletcher's previous age-16 claim to 18 based on his confirmed
+  02/12/2007 birth date.
+- Retconned Cameron Ruiz's previous age-19 claim to 18 based on his confirmed
+  11/01/2008 birth date.
+- Retconned Vincente Galán's previous reserved age of 18 to 17 based on his
+  confirmed 29/07/2009 birth date.
+- Retconned the Counter-Strike Academy age range from 15-17 to 16-18 and
+  removed age-19 main-roster eligibility.
+- Confirmed that main-team players do not participate in Academy recruitment
+  and that Stewie2K is not a canonical Academy coach.
+- Added the five empty planned Counter-Strike Academy role slots without
+  creating Academy players.
+- Added compound Counter-Strike role values, the teammate relationship value,
+  and ISO date validation for player birth dates.
+- Preserved Episode 56 and 07/11/2026 as the current narrative endpoint.
+- Added no official match, result, ranking, statistic, salary, unsupported
+  contract term, or Academy player.
+
 ## 0.6.0
 
 - Added authoritative normalized prose for Episodes 30 through 56.
@@ -21,7 +111,7 @@
   rendered PDF.
 - Normalized Episode 54 chronology and established Project Casa Arthur as
   conditional and unbuilt.
-- Confirmed November 7, 2026 as Saturday and the exact date of Episodes 55 and
+- Confirmed 07/11/2026 as Saturday and the exact date of Episodes 55 and
   56.
 - Preserved Aphromoo and Thinkcard's roles in Episode 56 and explicitly
   identified 404 and Moss without changing League roles or captaincy.

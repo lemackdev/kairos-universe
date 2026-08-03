@@ -15,9 +15,29 @@
     "value": "Halifax"
   },
   {
+    "id": "city-irvine",
+    "name": "Irvine",
+    "value": "Irvine"
+  },
+  {
+    "id": "city-long-beach",
+    "name": "Long Beach",
+    "value": "Long Beach"
+  },
+  {
     "id": "city-los-angeles",
     "name": "Los Angeles",
     "value": "Los Angeles"
+  },
+  {
+    "id": "city-sacramento",
+    "name": "Sacramento",
+    "value": "Sacramento"
+  },
+  {
+    "id": "city-san-jose",
+    "name": "San Jose",
+    "value": "San Jose"
   },
   {
     "id": "city-seattle",

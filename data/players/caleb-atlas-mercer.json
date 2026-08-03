@@ -11,10 +11,10 @@
     "region": "New Mexico",
     "country": "United States"
   },
-  "dateOfBirth": "TBD",
+  "dateOfBirth": "2008-03-18",
   "ageAtCurrentStoryDate": 18,
   "game": "Counter-Strike",
-  "role": "IGL",
+  "role": "IGL / Rifler",
   "currentTeam": "kairos-cs-main",
   "rosterLevel": "main",
   "status": "signed",
@@ -29,7 +29,7 @@
     "salary": "TBD"
   },
   "personality": "Calm under pressure, team-first, a natural leader, extremely coachable, and committed to studying demos.",
-  "playstyle": "In-Game Leader, former rifler, and left-handed player.",
+  "playstyle": "In-Game Leader and Rifler; former dedicated rifler and left-handed player.",
   "strengths": [
     "Exceptional communicator.",
     "Prioritizes teammates over personal statistics.",
@@ -89,11 +89,6 @@
     },
     {
       "subjectId": "owen-glacier-fletcher",
-      "type": "prospective-teammates",
-      "status": "confirmed"
-    },
-    {
-      "subjectId": "owen-glacier-fletcher",
       "type": "first-meeting-completed",
       "status": "confirmed"
     },
@@ -136,6 +131,26 @@
       "subjectId": "emiliano-moteconhuesillo-navarro",
       "type": "mutual-respect",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "vincente-flacogomez-galan",
+      "type": "teammates",
+      "status": "confirmed"
     }
   ],
   "careerHistory": [
@@ -157,7 +172,10 @@
     "Episode 49: Caleb participates in the first internal Kairos Counter-Strike scrim.",
     "Episodes 50-53: Caleb's leadership, communication, trust, and decision-making are evaluated beyond mechanical skill.",
     "Episode 54: Caleb is present when Project Casa Arthur is discussed as a conditional plan.",
-    "Episodes 55-56: Caleb participates in the Kairos community food-service policy vote and its result."
+    "Episodes 55-56: Caleb participates in the Kairos community food-service policy vote and its result.",
+    "Episode 68: The five-player Kairos Counter-Strike main roster is completed on 2026-11-16.",
+    "Episode 69: The completed roster holds its first full-team training session.",
+    "Episodes 71-72: The completed roster plays a private, non-official practice series against Team Liquid; the event is excluded from official statistics and achievements."
   ],
   "statistics": {},
   "achievements": [],
@@ -173,8 +191,6 @@
   "nicknameFirstAppearance": "episode-035",
   "confirmedFacts": [
     "Caleb Mercer is the canonical identity of the Counter-Strike player known as Atlas.",
-    "He is the Kairos Counter-Strike In-Game Leader.",
-    "He is 18 years old at the current story date.",
     "He is American and from Silver City, New Mexico.",
     "He is a former rifler and left-handed player.",
     "He is the first signed Kairos Counter-Strike player.",
@@ -188,10 +204,11 @@
     "He continues working directly with Adrian Vale, Luk, and Trace.",
     "His first appearance remains Episode 30.",
     "The nickname Atlas is first established in Episode 35.",
-    "Caleb remains the only signed Counter-Strike player through Episode 56."
+    "His canonical role is IGL / Rifler.",
+    "He is 18 years old on 2026-11-24.",
+    "His date of birth is 2008-03-18."
   ],
   "unconfirmedDetails": [
-    "Date of birth is TBD.",
     "Previous teams and tournament history are TBD.",
     "Exact calendar date, contract duration, and salary are TBD.",
     "Objectives, insecurities, statistics, and achievements are TBD."

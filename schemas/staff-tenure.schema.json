@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/staff-tenure.schema.json",
+  "title": "Staff Tenure Record",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "personId",
+    "organizationId",
+    "teamId",
+    "divisionId",
+    "title",
+    "responsibilityIds",
+    "startedDate",
+    "endedDate",
+    "datePrecision",
+    "status",
+    "sourceIds",
+    "canonStatus"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "continuityId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "personId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "organizationId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "teamId": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "divisionId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "responsibilityIds": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "startedDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "endedDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "datePrecision": {
+      "$ref": "common.schema.json#/$defs/datePrecision"
+    },
+    "status": {
+      "enum": ["active", "inactive", "planned", "TBD"]
+    },
+    "sourceIds": {
+      "$ref": "common.schema.json#/$defs/sourceIdArray"
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
+    }
+  },
+  "additionalProperties": false
+}

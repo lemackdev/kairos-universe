@@ -1,0 +1,104 @@
+{
+  "id": "episode-062",
+  "slug": "episode-062",
+  "episodeNumber": 62,
+  "title": "As Primeiras Decisões",
+  "historicalTitle": "As Primeiras Decisões",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-10",
+  "datePrecision": "exact",
+  "publicationOrder": 62,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus meeting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos formally confirms Glacier as Primary AWPer and MoteConHuesillo as Rifler while preserving their preexisting signed status and unknown original signing dates.",
+  "keyEvents": [
+    "Glacier’s completed integration and Primary AWPer role are confirmed.",
+    "MoteConHuesillo’s completed integration and Rifler role are confirmed.",
+    "Atlas, Glacier, and MoteConHuesillo remain the three signed main-roster players."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Glacier and MoteConHuesillo receive positive integration reviews."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [
+    "The apparent duplicate contract-signing scene is normalized as role and integration confirmation."
+  ],
+  "continuityDependencies": [
+    "episode-061"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "episode-062-duplicate-signing-normalization",
+      "status": "retconned",
+      "description": "The supplied second-signing scene is normalized to avoid replacing the players’ established signed status or inventing a second contract date.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 62 — As Primeiras Decisões",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Glacier’s completed integration and Primary AWPer role are confirmed.",
+    "MoteConHuesillo’s completed integration and Rifler role are confirmed.",
+    "Atlas, Glacier, and MoteConHuesillo remain the three signed main-roster players."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

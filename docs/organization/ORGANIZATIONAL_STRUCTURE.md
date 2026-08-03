@@ -18,7 +18,8 @@ subsidiary and operates the esports project.
 | --- | --- | --- |
 | `adrian-elias-vale` | Adrian Elias Vale (Adrian Vale) | Founder and CEO of Asterion Intelligence; founder and owner of Kairos Esports |
 | `lukas-luk-novak` | Lukas "Luk" Novak | Head Coach of Kairos Counter-Strike |
-| `ethan-trace-miller` | Ethan "Trace" Miller | Head Coach of Kairos Counter-Strike Academy |
+| `jake-stewie2k-yip` | Jake "Stewie2K" Yip | Head Coach of Kairos Counter-Strike Academy from 23/11/2026 |
+| `ethan-trace-miller` | Ethan "Trace" Miller | Counter-Strike Development Coach from 23/11/2026 |
 
 Adrian Vale is the confirmed main protagonist and first-person narrator.
 Detailed reporting lines and titles within Kairos are **TBD**.
@@ -67,8 +68,8 @@ captain. Detailed role-mentor assignments are recorded in the
 
 | Stable ID | Team | Current state |
 | --- | --- | --- |
-| `kairos-cs-main` | Kairos Counter-Strike | Training, pre-debut, with Caleb "Atlas" Mercer signed as Founding Captain |
-| `kairos-cs-academy` | Kairos Counter-Strike Academy | Training, pre-debut, and no players signed |
+| `kairos-cs-main` | Kairos Counter-Strike | Complete five-player signed roster, training, and pre-debut |
+| `kairos-cs-academy` | Kairos Counter-Strike Academy | Complete five-player selected roster, training, and pre-debut |
 
 There is no third Counter-Strike team. Caleb "Atlas" Mercer fulfilled the
 requirement that the first signed player be the IGL. He is the Founding Captain
@@ -76,10 +77,12 @@ and only confirmed Counter-Strike captain. Luk defines the overall
 Counter-Strike philosophy and mentors Trace. The Academy is a developmental
 pathway into the main team.
 
-The current unsigned pipeline consists of Owen "Glacier" Fletcher and Emiliano
-"MoteConHuesillo" Navarro under evaluation, plus Cameron "Mold" Ruiz under
-scouting observation after an interview. Cameron has no trial, invitation,
-travel arrangement, or contract.
+The signed main roster consists of Caleb "Atlas" Mercer, Owen "Glacier"
+Fletcher, Emiliano "MoteConHuesillo" Navarro, Cameron "Mold" Ruiz, and Vincente
+"FLACOGOMEZ" Galán. The Academy roster consists of soupcrime, velcrodog,
+parkinglot, dentalplan, and wrongnumber. Academy permanent positions,
+captaincy, IGL designation, substitute status, and starter hierarchy remain
+unassigned.
 
 Detailed Counter-Strike records:
 

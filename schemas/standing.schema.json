@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/standing.schema.json",
+  "title": "Standing Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "competitionId", "seasonId", "stageId", "teamId", "position", "record", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "competitionId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "seasonId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "stageId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "teamId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "position": { "type": ["integer", "null"], "minimum": 1 },
+    "record": { "type": ["object", "null"] },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

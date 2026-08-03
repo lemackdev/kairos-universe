@@ -119,7 +119,14 @@
       ]
     },
     "approximateStoryPeriod": {
-      "enum": ["early-2026", "late-october-2026", "early-november-2026", "TBD"]
+      "enum": [
+        "early-2026",
+        "late-october-2026",
+        "early-november-2026",
+        "mid-november-2026",
+        "late-november-2026",
+        "TBD"
+      ]
     },
     "storyYear": {
       "type": "integer",
@@ -135,6 +142,9 @@
           "type": "null"
         }
       ]
+    },
+    "datePrecision": {
+      "enum": ["exact", "partial", "unknown"]
     },
     "publicationOrder": {
       "type": "integer",
@@ -184,6 +194,173 @@
     },
     "consequences": {
       "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "characterDevelopments": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "relationshipDevelopments": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "rosterChanges": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "staffChanges": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "mediaEvents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "date",
+          "status",
+          "participants",
+          "summary",
+          "canonNotes"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "$ref": "common.schema.json#/$defs/dateOrTbd"
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/knownStatus"
+          },
+          "outlet": {
+            "type": "string",
+            "minLength": 1
+          },
+          "participants": {
+            "$ref": "common.schema.json#/$defs/idArray"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sponsorship": {
+            "type": "boolean"
+          },
+          "fictionalInvolvement": {
+            "type": "boolean"
+          },
+          "canonNotes": {
+            "$ref": "common.schema.json#/$defs/canonTextArray"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "privatePracticeEvents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "date",
+          "status",
+          "visibility",
+          "official",
+          "ranking",
+          "tournament",
+          "opponent",
+          "format",
+          "result",
+          "maps",
+          "playerStatistics",
+          "opponentLineup",
+          "canonNotes"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "type": {
+            "const": "private-practice-scrim"
+          },
+          "date": {
+            "$ref": "common.schema.json#/$defs/dateOrTbd"
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/knownStatus"
+          },
+          "visibility": {
+            "enum": ["non-public"]
+          },
+          "official": {
+            "const": false
+          },
+          "ranking": {
+            "const": false
+          },
+          "tournament": {
+            "const": false
+          },
+          "opponent": {
+            "type": "string",
+            "minLength": 1
+          },
+          "format": {
+            "type": "string",
+            "minLength": 1
+          },
+          "result": {
+            "type": "object"
+          },
+          "maps": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "minItems": 1
+          },
+          "playerStatistics": {
+            "type": "object"
+          },
+          "opponentLineup": {
+            "$ref": "common.schema.json#/$defs/stringArray"
+          },
+          "plannedFollowUp": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canonNotes": {
+            "$ref": "common.schema.json#/$defs/canonTextArray"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "plannedFutureEvents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "date", "status", "summary"],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "date": {
+            "$ref": "common.schema.json#/$defs/dateOrTbd"
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/knownStatus"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
     },
     "canonIntroduced": {
       "$ref": "common.schema.json#/$defs/stringArray"

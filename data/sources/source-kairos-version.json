@@ -1,0 +1,15 @@
+{
+  "id": "source-kairos-version",
+  "slug": "source-kairos-version",
+  "continuityId": "kairos-universe",
+  "sourceType": "version-record",
+  "title": "Kairos version metadata",
+  "path": "kairos-version.json",
+  "locator": null,
+  "publicLabel": "Current canon version and narrative date",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Provides the current narrative endpoint used by Kairospedia."
+  ]
+}

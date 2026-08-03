@@ -77,7 +77,7 @@ The current canonical order is:
 7. February 2027 is the next planned competitive milestone.
 
 The PDF's early 2026 reference now aligns with current canon. The story begins
-in early 2026 and reaches November 7, 2026 at the current Episode 56 endpoint.
+in early 2026 and reaches 24/11/2026 at the current Episode 75 endpoint.
 
 **Status:** Requires chronological normalization.
 
@@ -151,6 +151,33 @@ In particular:
   not override current entity fields.
 - Historical social metrics, audience numbers, performance measurements, and
   scrim statistics are not current official statistics.
+
+## Episodes 57-75 Source Conflicts
+
+The supplied Episodes 57-75 DOCX is complete, preserved byte-for-byte, and
+normalized separately for current-canon use.
+
+Recorded conflicts:
+
+- Episode 57 labels 08/11/2026 as Saturday. The calendar-correct weekday is
+  Sunday.
+- Episode 57 identifies Arthur as a campus cook. Arthur Fletcher remains
+  Glacier's grandfather and is not Kairos staff; the cook remains unnamed.
+- Episodes 57, 59, and 62 regress Glacier and MoteConHuesillo toward evaluation
+  or a second signing. The protected 0.7.0 state already establishes them as
+  signed by 07/11/2026.
+- Episodes 63 and 64 place main-roster players in Academy recruitment. Current
+  canon keeps recruitment with authorized staff and scouting personnel.
+- Episode 66 places Arthur in a recruitment meeting. Current canon excludes
+  him from management and recruiting.
+- Stewie2K discussion before Episode 74 remains exploratory. His active
+  appointment begins on 23/11/2026.
+
+**Status:** Resolved through documented source normalization.
+
+The exact transformations are recorded in
+[Episodes 057-075 Source Normalization](../episodes/EPISODES_057_075_NORMALIZATION.md).
+The preserved DOCX remains unchanged.
 
 ## Preservation Rules
 

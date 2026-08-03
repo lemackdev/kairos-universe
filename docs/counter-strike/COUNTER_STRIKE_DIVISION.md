@@ -12,8 +12,8 @@
 | Academy team | Kairos Counter-Strike Academy |
 | Third roster | None |
 | Story start | Early 2026 |
-| Current story date | November 7, 2026 |
-| Current phase | Staffed, first player signed, scouting, and pre-debut |
+| Current story date | 24/11/2026 |
+| Current phase | Main and Academy rosters complete, training, and pre-debut |
 | Planned official debut | February 2027 |
 | Exact debut date | TBD |
 
@@ -25,20 +25,18 @@ only confirmed teams.
 
 - Caleb "Atlas" Mercer is the first signed Counter-Strike player.
 - Caleb is the IGL, Founding Captain, and only confirmed Counter-Strike captain.
-- The main team has one signed player. The Academy roster remains empty.
+- Owen "Glacier" Fletcher is signed as the Primary AWPer.
+- Emiliano "MoteConHuesillo" Navarro is signed as a Rifler.
+- Cameron "Mold" Ruiz is signed as the Entry.
+- Vincente "FLACOGOMEZ" Galán is signed as the Support / Anchor.
+- The main roster has five signed players and is complete as of 16/11/2026.
+- The Academy has five selected players and is complete as of 23/11/2026.
 - No official Counter-Strike match has been played.
 - The intended competitions for both teams are **TBD**.
-- Scouting remains active for the four open main-team positions.
+- No main-team playing position remains vacant.
 - The first-signing requirement was fulfilled by signing Caleb as the IGL.
-- Owen "Glacier" Fletcher accepted his invitation, arrived at Kairos, and is
-  participating in a three-week evaluation. He remains unsigned.
-- Emiliano "MoteConHuesillo" Navarro accepted his invitation, traveled from
-  Puerto Varas to Los Angeles, and began his evaluation. He remains unsigned.
-- Cameron "Mold" Ruiz remains under active scouting without an invitation or
-  contract.
-- Cameron is an Entry prospect and part-time mechanic. His nationality is TBD.
-- Cameron first appears in Episode 38 and completes an interview only in
-  Episode 41.
+- Owen and Emiliano's earlier evaluation periods remain part of their
+  chronology, but their current status is signed.
 - Caleb participates in roster construction, leads tactical sessions, and
   evaluates prospective teammates as captain.
 - Caleb, Owen, and Emiliano participated in the first internal Counter-Strike
@@ -46,6 +44,8 @@ only confirmed teams.
 - Episode 51 contains a strategic pressure exercise, not a scrim.
 - The anonymous Episodes 48-53 candidate and the two Episode 49 stand-ins have
   no entity or pipeline records.
+- The completed roster's 20/11/2026 Team Liquid series is a private,
+  fictional-universe practice scrim and not an official result.
 
 The February 2027 debut is a plan, not a completed event or a confirmed competition
 entry.
@@ -55,10 +55,13 @@ entry.
 | Stable ID | Subject | Confirmed role |
 | --- | --- | --- |
 | `lukas-luk-novak` | Lukas "Luk" Novak | Head Coach, Kairos Counter-Strike |
-| `ethan-trace-miller` | Ethan "Trace" Miller | Head Coach, Kairos Counter-Strike Academy |
+| `jake-stewie2k-yip` | Jake "Stewie2K" Yip | Head Coach, Kairos Counter-Strike Academy, effective 23/11/2026 |
+| `ethan-trace-miller` | Ethan "Trace" Miller | Development Coach, effective 23/11/2026 |
 
-Luk defines the overall divisional philosophy and mentors Trace. Trace applies
-that philosophy to the Academy while developing his own coaching identity.
+Luk defines the overall divisional philosophy and mentors Trace. Stewie2K
+leads the Academy. Trace remains active and supports development methodology,
+individual development, Academy-main integration, the coaching structure, and
+development of players and coaches.
 Shared analytical, sports psychology, and performance resources support both
 teams at a high level. Their names and exact structures are **TBD**.
 
@@ -77,6 +80,10 @@ The confirmed roster-building order is:
 4. Entry
 5. Anchor / Support
 
+The order has been fulfilled by the completed main roster. Academy players do
+not inherit these positions. Their permanent responsibilities remain **TBD**
+until Stewie2K observes their development.
+
 ## Recruitment Philosophy
 
 - Teams are built before lineups.
@@ -91,15 +98,17 @@ The confirmed roster-building order is:
 
 ## Canon Boundaries
 
-- Caleb "Atlas" Mercer is the only signed player.
-- Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo" Navarro are canonical
-  unsigned evaluation players.
-- Cameron "Mold" Ruiz is a canonical unsigned scouted prospect.
-- Prospect status does not establish a contract or roster position.
-- No tournament invitation, qualifier, league, ranking, result, contract,
-  salary, statistic, or achievement beyond Caleb's signed status is currently
-  canonical.
-- Future planning reservations are not the anonymous candidate.
+- Atlas, Glacier, MoteConHuesillo, Mold, and FLACOGOMEZ are the five signed
+  main-roster players.
+- The Academy roster consists of soupcrime, velcrodog, parkinglot, dentalplan,
+  and wrongnumber.
+- No Academy player has a permanent position, captaincy, IGL designation,
+  substitute status, or starter hierarchy.
+- Main-roster players do not participate in Academy recruitment.
+- No tournament invitation, qualifier, league, ranking, result, salary,
+  statistic, or achievement is currently canonical.
+- The Team Liquid practice series is excluded from official match history,
+  achievements, trophies, standings, rankings, and career statistics.
 - Connor "North" Sullivan is a removed concept and cannot appear in the current
   candidate pool or roster.
 - Episodes 23 through 29 are reconstructed from the historical source without

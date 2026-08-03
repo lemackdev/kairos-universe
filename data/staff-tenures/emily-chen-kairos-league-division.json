@@ -1,0 +1,22 @@
+{
+  "id": "emily-chen-kairos-league-division",
+  "slug": "emily-chen-kairos-league-division",
+  "continuityId": "kairos-universe",
+  "personId": "emily-chen",
+  "organizationId": "kairos-esports",
+  "teamId": "TBD",
+  "divisionId": "division-league-of-legends",
+  "title": "Analytics and Performance",
+  "responsibilityIds": [
+    "role-analytics-and-performance"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-emily-chen",
+    "source-document-league-staff"
+  ],
+  "canonStatus": "confirmed"
+}

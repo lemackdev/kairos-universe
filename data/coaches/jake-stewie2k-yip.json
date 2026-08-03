@@ -1,0 +1,89 @@
+{
+  "id": "jake-stewie2k-yip",
+  "slug": "jake-stewie2k-yip",
+  "realName": "Jake Yip",
+  "nickname": "Stewie2K",
+  "nationality": "TBD",
+  "role": "Head Coach",
+  "division": "Counter-Strike",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-cs-academy",
+  "status": "active",
+  "firstAppearance": "episode-063",
+  "joinedKairos": "2026-11-23",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "Real-world Counter-Strike figure and former professional player; the supplied source references his Major-champion background.",
+  "coachingPhilosophy": "Observe development before assigning permanent positions, and participate in the repeated daily work required to develop young players.",
+  "responsibilities": [
+    "Serve as Head Coach of Kairos Counter-Strike Academy.",
+    "Lead the Academy's daily coaching structure.",
+    "Observe players before assigning responsibilities or permanent positions.",
+    "Develop the five Academy players over the long term.",
+    "Coordinate with Trace's development methodology and integration work."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-cs-academy",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "evan-soupcrime-nakamura",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "milo-velcrodog-radovic",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "zayn-parkinglot-haddad",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "nolan-dentalplan-hart",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "reid-wrongnumber-hart",
+      "type": "coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [
+    "Develop the Kairos Counter-Strike Academy players and discover their appropriate responsibilities over time."
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 63: Jake is first mentioned as an exploratory Academy coaching candidate; no offer or appointment exists.",
+    "Episode 64: Kairos continues exploratory interest without making a proposal.",
+    "Episode 74: Jake accepts and becomes active Head Coach of Kairos Counter-Strike Academy on 2026-11-23."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Jake Yip is a real-world Counter-Strike figure appearing in the fictional Kairos Universe role of Stewie2K.",
+    "His Kairos involvement is exploratory and nonbinding before Episode 74.",
+    "He becomes active Head Coach of Kairos Counter-Strike Academy on 2026-11-23.",
+    "He does not assign permanent positions, a captain, or an IGL upon appointment.",
+    "His real-world playing background is distinct from his fictional Kairos employment."
+  ],
+  "unconfirmedDetails": [
+    "Nationality, exact contract terms, contract length, salary, incentives, and reporting line are TBD.",
+    "Detailed future Academy responsibilities and results are TBD."
+  ],
+  "canonNotes": [
+    "Stewie2K is a real-world esports figure used in a fictional Kairos role.",
+    "Do not represent exploratory discussion before 2026-11-23 as employment.",
+    "Do not invent contract terms, ownership, equity, salary, or announcement metrics.",
+    "Real-world achievements are not Kairos achievements."
+  ]
+}

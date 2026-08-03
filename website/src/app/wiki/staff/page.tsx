@@ -1,0 +1,45 @@
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { EntityCard } from "@/components/EntityCard";
+import { PageHeader } from "@/components/PageHeader";
+import { getCatalog } from "@/lib/canon/server";
+
+export const metadata = { title: "Staff" };
+
+export default function StaffPage() {
+  const catalog = getCatalog();
+
+  return (
+    <>
+      <Breadcrumbs
+        items={[
+          { label: "Kairospedia", href: "/wiki" },
+          { label: "Staff" },
+        ]}
+      />
+      <PageHeader
+        eyebrow="Global catalog"
+        title="Staff"
+        description="This release publishes only staff directly associated with the Kairos League competitive project. Mentorship alone does not imply full-time staff status."
+        compact
+      />
+      <section className="contentSection">
+        <div className="entityGrid">
+          {catalog.staff.map((person) => (
+            <EntityCard
+              key={person.id}
+              href={`/wiki/staff/${person.slug}`}
+              kicker={person.role}
+              title={person.nickname ?? person.realName}
+              description={person.realName}
+              meta={
+                person.realWorldFigure
+                  ? "Real-world figure in a fictional role"
+                  : "Fictional character"
+              }
+            />
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}

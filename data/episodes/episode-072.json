@@ -1,0 +1,222 @@
+{
+  "id": "episode-072",
+  "slug": "episode-072",
+  "episodeNumber": 72,
+  "title": "O Nome no Servidor",
+  "historicalTitle": "O Nome no Servidor",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-20",
+  "datePrecision": "exact",
+  "publicationOrder": 72,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos review room, Los Angeles, California",
+    "Private online practice server"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos reviews the private best-of-three, learns the concealed opponent was Team Liquid, and records one practice-map win without treating it as an official achievement.",
+  "keyEvents": [
+    "Team Liquid is revealed as the private scrim opponent.",
+    "Team Liquid wins the private series 2–1.",
+    "Kairos wins Nuke 13–11 after losing Dust II 13–5 and Mirage 13–9.",
+    "Private partial statistics remain separated from official career statistics.",
+    "Team Liquid expresses willingness to schedule another private series in December."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "The roster gains a concrete measure of the gap between its current level and professional opposition."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [
+    {
+      "id": "kairos-team-liquid-private-scrim-2026-11-20",
+      "type": "private-practice-scrim",
+      "date": "2026-11-20",
+      "status": "confirmed",
+      "visibility": "non-public",
+      "official": false,
+      "ranking": false,
+      "tournament": false,
+      "opponent": "Team Liquid",
+      "format": "Best-of-three",
+      "result": {
+        "winner": "Team Liquid",
+        "teamLiquidMaps": 2,
+        "kairosMaps": 1
+      },
+      "maps": [
+        {
+          "map": "Dust II",
+          "teamLiquid": 13,
+          "kairos": 5,
+          "winner": "Team Liquid"
+        },
+        {
+          "map": "Mirage",
+          "teamLiquid": 13,
+          "kairos": 9,
+          "winner": "Team Liquid"
+        },
+        {
+          "map": "Nuke",
+          "teamLiquid": 11,
+          "kairos": 13,
+          "winner": "Kairos"
+        }
+      ],
+      "playerStatistics": {
+        "Dust II": {
+          "cameron-mold-ruiz": {
+            "kills": 11,
+            "deaths": 16
+          },
+          "owen-glacier-fletcher": {
+            "kills": 13
+          },
+          "caleb-atlas-mercer": {
+            "kills": 10,
+            "deaths": 15
+          },
+          "emiliano-moteconhuesillo-navarro": {
+            "kills": 12,
+            "deaths": 15
+          },
+          "vincente-flacogomez-galan": {
+            "kills": 8,
+            "deaths": 14
+          }
+        },
+        "Mirage": {
+          "emiliano-moteconhuesillo-navarro": {
+            "kills": 18,
+            "deaths": 15
+          },
+          "owen-glacier-fletcher": {
+            "kills": 16,
+            "deaths": 14
+          },
+          "cameron-mold-ruiz": {
+            "openingKills": 5,
+            "openingDeaths": 6
+          },
+          "vincente-flacogomez-galan": {
+            "clutchesWon": 1
+          },
+          "caleb-atlas-mercer": {
+            "assists": 15
+          }
+        },
+        "Nuke": {
+          "owen-glacier-fletcher": {
+            "kills": 21,
+            "deaths": 13
+          },
+          "cameron-mold-ruiz": {
+            "kills": 19,
+            "deaths": 17,
+            "openingKills": 7
+          },
+          "emiliano-moteconhuesillo-navarro": {
+            "kills": 18,
+            "deaths": 16
+          },
+          "caleb-atlas-mercer": {
+            "kills": 15,
+            "deaths": 15
+          },
+          "vincente-flacogomez-galan": {
+            "kills": 12,
+            "teamAssistLeader": true,
+            "survivedInKairosWonRounds": 9
+          }
+        }
+      },
+      "opponentLineup": [],
+      "plannedFollowUp": "Team Liquid is willing to schedule another private practice series in December; no official fixture is confirmed.",
+      "canonNotes": [
+        "This event exists only inside the fictional Kairos Universe narrative.",
+        "It is excluded from official matches, achievements, trophies, standings, rankings, and career statistics.",
+        "Missing player statistics and the Team Liquid lineup remain unknown."
+      ]
+    }
+  ],
+  "plannedFutureEvents": [
+    {
+      "id": "possible-team-liquid-december-private-scrim",
+      "date": "TBD",
+      "status": "unconfirmed",
+      "summary": "Team Liquid is willing to schedule another private practice series in December; the session is not a confirmed official fixture."
+    }
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-071"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [
+    "Team Liquid"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 72 — O Nome no Servidor",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Team Liquid is revealed as the private scrim opponent.",
+    "Team Liquid wins the private series 2–1.",
+    "Kairos wins Nuke 13–11 after losing Dust II 13–5 and Mirage 13–9.",
+    "Private partial statistics remain separated from official career statistics.",
+    "Team Liquid expresses willingness to schedule another private series in December."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

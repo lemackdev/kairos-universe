@@ -1,0 +1,106 @@
+{
+  "id": "episode-059",
+  "slug": "episode-059",
+  "episodeNumber": 59,
+  "title": "O Convite",
+  "historicalTitle": "O Convite",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-09",
+  "datePrecision": "exact",
+  "publicationOrder": 59,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus scouting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos approves and issues an invitation package to Cameron “Mold” Ruiz after reviewing his technical, behavioral, and team-first fit as an Entry.",
+  "keyEvents": [
+    "Kairos confirms Mold as the preferred Entry candidate.",
+    "Adrian signs the invitation package.",
+    "Mold remains unsigned because acceptance has not yet occurred."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Atlas confirms he would play with Mold."
+  ],
+  "relationshipDevelopments": [
+    "Atlas, Glacier, and MoteConHuesillo support inviting Mold."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [
+    "References to Glacier and MoteConHuesillo are normalized as integration precedents rather than current evaluations."
+  ],
+  "continuityDependencies": [
+    "episode-058"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "episode-059-integration-wording",
+      "status": "retconned",
+      "description": "Evaluation-precedent wording for already signed players is normalized to integration wording.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 59 — O Convite",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Kairos confirms Mold as the preferred Entry candidate.",
+    "Adrian signs the invitation package.",
+    "Mold remains unsigned because acceptance has not yet occurred."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

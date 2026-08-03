@@ -21,7 +21,10 @@
       "status": "active"
     }
   ],
-  "narrativeRoles": ["first-person-narrator", "main-protagonist"],
+  "narrativeRoles": [
+    "first-person-narrator",
+    "main-protagonist"
+  ],
   "firstAppearance": {
     "episodeId": "episode-001",
     "episodeNumber": 1,
@@ -107,17 +110,17 @@
       "status": "confirmed"
     },
     {
-      "subjectId": "owen-glacier-fletcher",
-      "type": "recruitment-in-progress",
-      "status": "confirmed"
-    },
-    {
       "subjectId": "cameron-mold-ruiz",
       "type": "evaluator",
       "status": "confirmed"
     },
     {
       "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "evaluator",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "vincente-flacogomez-galan",
       "type": "evaluator",
       "status": "confirmed"
     }
@@ -137,7 +140,14 @@
     "Episode 53: Adrian delays further recruitment until cultural fit is confirmed.",
     "Episode 54: Adrian develops Project Casa Arthur as a conditional future support plan without beginning construction or relocation.",
     "Episodes 55-56: Adrian puts a restricted food-service proposal to a full Kairos community vote and authorizes invitations and negotiations after approval.",
-    "February 2027: Kairos is scheduled to begin official League, NACL, and Counter-Strike competition."
+    "February 2027: Kairos is scheduled to begin official League, NACL, and Counter-Strike competition.",
+    "Episodes 57-64: Adrian oversees continued main-roster development and staff-led Academy scouting while preserving the boundary between the two processes.",
+    "Episode 67: Adrian cancels training for an organization-wide rest day at an unnamed Malibu-area resort.",
+    "Episode 68: Adrian completes the Counter-Strike main roster by signing Mold and FLACOGOMEZ.",
+    "Episode 70: Adrian participates in the Dust2 editorial interview and publicly confirms that main players do not recruit Academy candidates.",
+    "Episodes 71-72: Adrian oversees the private, non-official Team Liquid practice series.",
+    "Episodes 73-74: Adrian completes the five-player Counter-Strike Academy roster and appoints Stewie2K as Head Coach while retaining Trace as Development Coach.",
+    "Episode 75: Adrian oversees the late-November endpoint; Thanksgiving remains planned for 2026-11-25."
   ],
   "confirmedFacts": [
     "Adrian Elias Vale is commonly known as Adrian Vale.",
@@ -167,7 +177,10 @@
     "He delays future recruitment until cultural fit is confirmed.",
     "He develops Project Casa Arthur as a conditional plan tied to safe travel and independent medical approval.",
     "He submits the food-service policy to all 143 eligible Kairos community members.",
-    "After the 126-17 approval, he authorizes invitations and negotiations with the three selected restaurant chains without confirming any partnership."
+    "After the 126-17 approval, he authorizes invitations and negotiations with the three selected restaurant chains without confirming any partnership.",
+    "He completes the five-player Counter-Strike main roster on 2026-11-16.",
+    "He preserves a staff-only Academy recruitment process separate from main-team players.",
+    "He appoints Stewie2K as Academy Head Coach and retains Trace as Development Coach on 2026-11-23."
   ],
   "unconfirmedDetails": [
     "Age and date of birth are TBD.",

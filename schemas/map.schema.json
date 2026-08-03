@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/map.schema.json",
+  "title": "Counter-Strike Map Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "matchId", "mapName", "mapOrder", "scores", "halftimeScores", "overtime", "startingSides", "playerStatistics", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "matchId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "mapName": { "type": "string", "minLength": 1 },
+    "mapOrder": { "type": "integer", "minimum": 1 },
+    "scores": { "type": ["object", "null"] },
+    "halftimeScores": { "type": ["object", "null"] },
+    "overtime": { "type": ["object", "null"] },
+    "startingSides": { "type": ["object", "null"] },
+    "playerStatistics": { "type": "array" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

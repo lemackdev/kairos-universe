@@ -1,0 +1,22 @@
+{
+  "id": "thinkcard-kairos-league-division",
+  "slug": "thinkcard-kairos-league-division",
+  "continuityId": "kairos-universe",
+  "personId": "thinkcard-kairos-strategic-coach",
+  "organizationId": "kairos-esports",
+  "teamId": "TBD",
+  "divisionId": "division-league-of-legends",
+  "title": "Strategic Coach",
+  "responsibilityIds": [
+    "role-strategic-coach"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-thinkcard-kairos-strategic-coach",
+    "source-document-league-staff"
+  ],
+  "canonStatus": "confirmed"
+}

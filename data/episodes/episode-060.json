@@ -1,0 +1,100 @@
+{
+  "id": "episode-060",
+  "slug": "episode-060",
+  "episodeNumber": 60,
+  "title": "O Último Nome",
+  "historicalTitle": "O Último Nome",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-09",
+  "datePrecision": "exact",
+  "publicationOrder": 60,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus scouting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [
+    "vincente-flacogomez-galan"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos identifies Vincente “FLACOGOMEZ” Galán as the final Support / Anchor prospect needed to complete the main roster.",
+  "keyEvents": [
+    "FLACOGOMEZ is identified by name as a 17-year-old Support prospect living in California.",
+    "Kairos recognizes his collaborative profile and utility-centered play.",
+    "An interview remains required before any decision."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Atlas states that he wants a fifth player who makes the other four better."
+  ],
+  "relationshipDevelopments": [
+    "The staff identifies potential compatibility between FLACOGOMEZ and the four planned main-roster roles."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-059"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 60 — O Último Nome",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "FLACOGOMEZ is identified by name as a 17-year-old Support prospect living in California.",
+    "Kairos recognizes his collaborative profile and utility-centered play.",
+    "An interview remains required before any decision."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mason-404-brooks-kairos-lol-main",
+  "slug": "mason-404-brooks-kairos-lol-main",
+  "continuityId": "kairos-universe",
+  "playerId": "mason-404-brooks",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-main",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-mid",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-mason-404-brooks",
+    "source-team-kairos-lol-main"
+  ],
+  "canonStatus": "confirmed"
+}

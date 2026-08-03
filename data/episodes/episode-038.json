@@ -35,7 +35,7 @@
     "Kairos reviews Owen's candidacy after extending the evaluation invitation in Episode 37.",
     "Cameron Ruiz and the nickname Mold make their first canonical appearance.",
     "No invitation is issued to Cameron.",
-    "Cameron is 19, lives in Truth or Consequences, New Mexico, works part-time as a mechanic, and plays Entry."
+    "Cameron is 18, lives in Truth or Consequences, New Mexico, works part-time as a mechanic, and plays Entry."
   ],
   "consequences": [
     "Owen remains invited to a non-binding three-week evaluation.",
@@ -52,10 +52,18 @@
   ],
   "historicalNotes": [
     "This episode is outside the immutable Episodes 1-29 historical PDF.",
-    "The searchable normalized source records approved identity and continuity corrections."
+    "The searchable normalized source records approved identity and continuity corrections.",
+    "The source's age-19 claim for Cameron is superseded by his confirmed 2008-01-11 birth date; current canon makes him 18 during Episode 38."
   ],
   "realWorldReferences": [],
-  "retcons": [],
+  "retcons": [
+    {
+      "id": "retcon-cameron-ruiz-age",
+      "status": "retconned",
+      "description": "The source age of 19 is superseded by Cameron Ruiz's confirmed 2008-01-11 birth date and age 18.",
+      "sourcePath": "docs/retcons/RETCON_HISTORY.md"
+    }
+  ],
   "sourceReferences": [
     {
       "sourceType": "original-episode",
@@ -75,8 +83,8 @@
     "Owen's non-binding three-week evaluation invitation was extended in Episode 37.",
     "Cameron Ruiz and the nickname Mold make their first canonical appearance.",
     "No invitation is issued to Cameron.",
-    "Cameron is 19, lives in Truth or Consequences, New Mexico, works part-time as a mechanic, and plays Entry.",
-    "Cameron is a confirmed individual 19-year-old exception; this does not generalize the exceptional-case rule."
+    "Cameron is 18, lives in Truth or Consequences, New Mexico, works part-time as a mechanic, and plays Entry.",
+    "Cameron's previous age-19 claim is retconned; he is 18 at this point in the story."
   ],
   "unconfirmedDetails": ["The exact calendar date is TBD."],
   "notes": [

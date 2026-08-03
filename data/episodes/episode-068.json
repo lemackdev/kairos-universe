@@ -1,0 +1,106 @@
+{
+  "id": "episode-068",
+  "slug": "episode-068",
+  "episodeNumber": 68,
+  "title": "Os Cinco",
+  "historicalTitle": "Os Cinco",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-16",
+  "datePrecision": "exact",
+  "publicationOrder": 68,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Counter-Strike building, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Mold and FLACOGOMEZ accept Kairos offers, sign with the organization, and complete the five-player Counter-Strike main roster.",
+  "keyEvents": [
+    "Mold accepts the Kairos offer and becomes the signed Entry.",
+    "FLACOGOMEZ accepts the Kairos offer and becomes the signed Support / Anchor.",
+    "The main Counter-Strike roster becomes complete.",
+    "Atlas remains captain and the only confirmed Counter-Strike captain."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "The five players begin treating success and failure as collective responsibility."
+  ],
+  "relationshipDevelopments": [
+    "Mold and FLACOGOMEZ become teammates of Atlas, Glacier, and MoteConHuesillo."
+  ],
+  "rosterChanges": [
+    "Cameron “Mold” Ruiz joins the signed main roster as Entry.",
+    "Vincente “FLACOGOMEZ” Galán joins the signed main roster as Support / Anchor.",
+    "The main roster reaches five signed players with no vacant playing slot."
+  ],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Kairos Counter-Strike completes its founding five-player lineup."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-067"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 68 — Os Cinco",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Mold accepts the Kairos offer and becomes the signed Entry.",
+    "FLACOGOMEZ accepts the Kairos offer and becomes the signed Support / Anchor.",
+    "The main Counter-Strike roster becomes complete.",
+    "Atlas remains captain and the only confirmed Counter-Strike captain."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

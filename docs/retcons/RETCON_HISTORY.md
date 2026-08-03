@@ -92,22 +92,104 @@ incorrect identity.
 
 **Retcon ID:** `retcon-counter-strike-age-policy`
 **Classification:** Direction replaced
-**Effective date:** TBD
+**Effective date:** 07/11/2026
 
-### Old direction
+### Historical direction
 
 - Older candidates could be considered.
+- A later rule preferred ages 16 through 18 and allowed age 19 only in
+  exceptional cases.
+- The Counter-Strike Academy planning rule allowed ages 15 through 17.
 
 ### Current canon
 
-- Preferred age: 16 to 18.
-- Maximum age: 19 only in exceptional cases.
+- No main-roster player may be older than 18.
+- Every Counter-Strike Academy player must be between 16 and 18 years old.
+- Age 15 is no longer Academy-eligible.
+- Age 19 is no longer main-roster-eligible.
+- The Academy roster remains empty.
 
-The criteria for an exceptional case are **TBD**.
+### Reason
+
+- The current development model establishes a consistent 16-18 eligibility
+  range and removes the earlier lower Academy threshold and age-19 exception.
 
 Episode 26 records the earlier direction only as retcon context. It does not
 establish that any removed candidate was evaluated, contacted, trialed, or
 signed.
+
+## Owen Fletcher age correction
+
+**Retcon ID:** `retcon-owen-fletcher-age`
+**Classification:** Age and birth-date correction
+**Effective date:** 07/11/2026
+
+### Previous canon
+
+- Owen "Glacier" Fletcher was listed as age 16.
+
+### Current canon
+
+- Date of birth: 02/12/2007.
+- Age on 07/11/2026: 18.
+
+The historical episode prose remains unchanged. Current structured records and
+documentation must use age 18.
+
+## Cameron Ruiz age correction
+
+**Retcon ID:** `retcon-cameron-ruiz-age`
+**Classification:** Age and birth-date correction
+**Effective date:** 07/11/2026
+
+### Previous canon
+
+- Cameron "Mold" Ruiz was listed as age 19 and treated as an individual
+  age-policy exception.
+
+### Current canon
+
+- Date of birth: 11/01/2008.
+- Age on 07/11/2026: 18.
+- The individual age-19 exception no longer exists.
+
+The historical episode prose remains unchanged. Current structured records and
+documentation must use age 18.
+
+## Vincente Galán age correction and status activation
+
+**Retcon ID:** `retcon-vincente-galan-age`
+**Classification:** Age correction and canon-status progression
+**Effective date:** 07/11/2026
+
+### Previous planning state
+
+- Vincente "FLACOGOMEZ" Galán was reserved for future use at age 18.
+- He had no active player record or recruitment status.
+
+### Current canon
+
+- Date of birth: 29/07/2009.
+- Age on 07/11/2026: 17.
+- He has an active prospect record and has completed an interview.
+- He remains unsigned because no formal offer or acceptance is confirmed.
+- He is not on the active roster and is not the anonymous candidate in
+  Episodes 48-53.
+
+## Counter-Strike recruitment-status progression
+
+**Entry ID:** `clarification-counter-strike-recruitment-status-2026-11-07`
+**Classification:** Current-state progression
+**Effective date:** 07/11/2026
+
+- Caleb "Atlas" Mercer remains the first signing and Founding Captain.
+- Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo" Navarro are signed.
+- Cameron "Mold" Ruiz has received an invitation but remains unsigned until
+  acceptance is confirmed.
+- Vincente "FLACOGOMEZ" Galán has completed an interview but remains unsigned
+  until a formal offer and acceptance are confirmed.
+- Exact signing, invitation, interview, offer, and acceptance dates remain
+  **TBD** unless stated elsewhere.
 
 ## Counter-Strike team structure
 
@@ -196,6 +278,72 @@ appointments of Luk and Trace.
 Pages 179 through 184 duplicate pages 173 through 178. One structured Episode
 28 record is retained. The immutable source PDF keeps both copies.
 
+## Counter-Strike Academy age policy progression
+
+**Retcon ID:** `retcon-counter-strike-academy-age-policy-2026-11-11`
+**Classification:** Source-backed policy correction
+**Effective date:** 11/11/2026
+
+### Previous canon
+
+- The protected 0.7.0 state limited Counter-Strike Academy recruitment to ages
+  16 through 18.
+
+### Current canon
+
+- Episodes 63 through 74 establish a selected Academy group aged 15 or 16.
+- The five selected players are American minors living in California.
+- This rule does not alter the confirmed ages of existing main-roster players.
+- Exact Academy player dates of birth remain **TBD** and are not inferred.
+
+### Reason
+
+The complete Episodes 57-75 source explicitly establishes the newer Academy
+profile and five selected players. The prior rule remains documented as the
+earlier 0.7.0 state but no longer governs the active Academy roster.
+
+## Episodes 57-75 signed-status normalization
+
+**Entry ID:** `clarification-episodes-057-062-signed-status`
+**Classification:** Protected-baseline preservation
+**Effective date:** 08/11/2026 through 10/11/2026
+
+- The protected 0.7.0 baseline establishes Owen "Glacier" Fletcher and Emiliano
+  "MoteConHuesillo" Navarro as signed by 07/11/2026.
+- Episode 57 evaluation badges are normalized to professional-player status.
+- Episode 59 evaluation precedents are normalized to integration precedents.
+- Episode 62 confirms roles and completed integration; it does not create a
+  second contract or invent either player's original signing date.
+
+## Episodes 57-66 role-boundary normalization
+
+**Entry ID:** `clarification-episodes-057-066-role-boundaries`
+**Classification:** Controlled source normalization
+**Effective date:** 08/11/2026 through 12/11/2026
+
+- The campus head cook in Episode 57 remains unnamed because Arthur Fletcher is
+  Owen's grandfather and not Kairos staff.
+- Academy recruiting actions in Episodes 63 and 64 remain with Adrian, Emily,
+  Luk, Trace, management, analysts, and scouting personnel.
+- Owen's family update is preserved as a separate main-team training-break
+  scene.
+- Arthur is removed from the Episode 66 recruitment meeting, and his functional
+  dialogue is reassigned to established staff.
+- Main Counter-Strike players do not scout, interview, approve, reject, or
+  select Academy candidates.
+
+## Stewie2K and Trace staff transition
+
+**Entry ID:** `clarification-counter-strike-academy-staff-2026-11-23`
+**Classification:** Chronology clarification
+**Effective date:** 23/11/2026
+
+- Stewie2K discussion in Episodes 63 and 64 is exploratory and nonbinding.
+- Jake "Stewie2K" Yip becomes active Academy Head Coach only in Episode 74.
+- Trace transitions to Development Coach on the same date and remains active
+  within Kairos.
+- The transition is not a firing, removal, or punitive demotion.
+
 ## Related documents
 
 - [Canon inconsistency audit](CANON_INCONSISTENCY_AUDIT.md)
@@ -205,3 +353,4 @@ Pages 179 through 184 duplicate pages 173 through 178. One structured Episode
 - [Kairos Esports](../organization/KAIROS_ESPORTS.md)
 - [Episode 26 structured record](../../data/episodes/episode-026.json)
 - [Episode continuity rules](../episodes/EPISODE_CONTINUITY_RULES.md)
+- [Episodes 57-75 source normalization](../episodes/EPISODES_057_075_NORMALIZATION.md)

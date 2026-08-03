@@ -1,83 +1,51 @@
-# Kairos Counter-Strike
+# Kairos Counter-Strike Main Team
 
-**Canon status:** CONFIRMED
+## Current State
 
-## Team Record
-
-| Field | Canonical value |
+| Field | Canon value |
 | --- | --- |
-| Stable ID | `kairos-cs-main` |
-| Name | Kairos Counter-Strike |
-| Short name | Kairos CS |
+| Team ID | kairos-cs-main |
 | Organization | Kairos Esports |
-| Game | Counter-Strike |
-| Level | Main |
-| Status | Pre-competitive and training |
-| Intended competition | TBD |
-| Story start | Early 2026 |
-| Current story date | November 7, 2026 |
-| Planned official debut | February 2027 |
-| Head Coach | Lukas "Luk" Novak |
+| Current story date | 24/11/2026 |
+| Status | Training, pre-debut |
 | Captain | Caleb "Atlas" Mercer |
+| Signed players | Five |
+| Official matches | None |
+| Planned competitive debut | February 2027 |
 
-## Roster
+## Complete Founding Roster
 
-| Stable ID | Player | Role | Status |
-| --- | --- | --- | --- |
-| `caleb-atlas-mercer` | Caleb "Atlas" Mercer | IGL | Signed, Founding Captain |
+| ID | Player | Role | Date of birth | Age | Status |
+| --- | --- | --- | --- | ---: | --- |
+| caleb-atlas-mercer | Caleb "Atlas" Mercer | IGL / Rifler | 18/03/2008 | 18 | Signed, Founding Captain |
+| owen-glacier-fletcher | Owen "Glacier" Fletcher | Primary AWPer | 02/12/2007 | 18 | Signed |
+| emiliano-moteconhuesillo-navarro | Emiliano "MoteConHuesillo" Navarro | Rifler | 25/05/2008 | 18 | Signed |
+| cameron-mold-ruiz | Cameron "Mold" Ruiz | Entry | 11/01/2008 | 18 | Signed |
+| vincente-flacogomez-galan | Vincente "FLACOGOMEZ" Galán | Support / Anchor | 29/07/2009 | 17 | Signed |
 
-Caleb is the first signed Kairos Counter-Strike player and the only confirmed
-Counter-Strike captain. He has authority to participate in future roster
-construction. The remaining confirmed recruitment order is Primary AWPer, Star
-Rifler, Entry, then Anchor / Support.
+Mold and FLACOGOMEZ accept Kairos offers and join the roster on 16/11/2026 in
+Episode 68. No salary, contract duration, buyout, bonus, agent, or other
+financial term is confirmed.
 
-Unsigned prospects are tracked separately in the
-[Prospect Pipeline](PROSPECT_PIPELINE.md). Prospect status does not place a
-player on this roster.
+## Leadership
 
-Current unsigned pipeline:
+Atlas remains the first signed Kairos Counter-Strike player, Founding Captain,
+and only confirmed Counter-Strike captain. His role is IGL / Rifler.
 
-- Owen "Glacier" Fletcher is participating in a three-week evaluation.
-- Emiliano "MoteConHuesillo" Navarro accepted an invitation, arrived in Los
-  Angeles, and began evaluation.
-- Cameron "Mold" Ruiz remains under active scouting without an invitation.
-- Cameron is an Entry prospect. His Episode 41 interaction is an interview
-  only, not a trial.
+## Development
 
-All three remain unsigned. Caleb, Owen, and Emiliano participated in the first
-internal Counter-Strike scrim, which was not an official match.
+- Episode 69 contains the first full-roster training session.
+- Episode 70 contains the Dust2 editorial interview.
+- Episodes 71-72 contain the first external private practice series of the
+  completed roster.
+- Team Liquid wins that private series 2–1, but the event is not official,
+  public, ranking, or tournament competition.
+- Official competitive history, achievements, and official statistics remain
+  empty.
 
-## Competitive Record
+## Records
 
-- Official matches: none
-- Competitive history: none
-- Achievements: none
-- Statistics: none
-- Rankings: none
-- Confirmed competition: **TBD**
-
-The planned February 2027 debut does not establish a tournament, league, invitation,
-qualifier, opponent, or result.
-
-## Academy Relationship
-
-[Kairos Counter-Strike Academy](ACADEMY_TEAM.md) is the developmental pathway
-into the main team. The Academy roster remains empty. No promotion or transfer
-is confirmed.
-
-## TBD Details
-
-- The intended competition is **TBD**.
-- The exact February 2027 debut date is **TBD**.
-- The four remaining roster positions are **TBD**.
-- Future competitions, rankings, results, achievements, and statistics are
-  **TBD**.
-
-## Related Records
-
-- [Division overview](COUNTER_STRIKE_DIVISION.md)
-- [Head Coach Lukas "Luk" Novak](../../data/coaches/lukas-luk-novak.json)
-- [Caleb "Atlas" Mercer](../../data/players/caleb-atlas-mercer.json)
 - [Structured team record](../../data/teams/kairos-counter-strike.json)
-- [IGL scouting process](IGL_SCOUTING.md)
-- [Prospect pipeline](PROSPECT_PIPELINE.md)
+- [Episode 68](../../data/episodes/episode-068.json)
+- [Private practice record in Episode 72](../../data/episodes/episode-072.json)
+- [Current world state](../world-state/CURRENT_WORLD_STATE.md)

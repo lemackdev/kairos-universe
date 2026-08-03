@@ -1,0 +1,13 @@
+{
+  "id": "source-team-kairos-lol-main",
+  "slug": "source-team-kairos-lol-main",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Kairos League main team record",
+  "path": "data/teams/kairos-league-of-legends.json",
+  "locator": null,
+  "publicLabel": "Kairos League main team canonical record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": []
+}

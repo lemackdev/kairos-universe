@@ -1,67 +1,65 @@
 # Kairos Counter-Strike Academy
 
-**Canon status:** CONFIRMED
+## Current State
 
-## Team Record
-
-| Field | Canonical value |
+| Field | Canon value |
 | --- | --- |
-| Stable ID | `kairos-cs-academy` |
-| Name | Kairos Counter-Strike Academy |
-| Short name | Kairos CS Academy |
+| Team ID | kairos-cs-academy |
 | Organization | Kairos Esports |
-| Game | Counter-Strike |
-| Level | Academy |
-| Status | Pre-competitive and training |
-| Intended competition | TBD |
-| Story start | Early 2026 |
-| Current story date | November 7, 2026 |
-| Planned official debut | February 2027 |
-| Head Coach | Ethan "Trace" Miller |
-| Captain | None assigned |
-
-## Development Purpose
-
-The Academy is the developmental pathway into
-[Kairos Counter-Strike](MAIN_TEAM.md). Trace translates Luk's divisional
-philosophy into academy training and prepares future academy players for
-progression to the main team.
-
-Kairos has no third Counter-Strike roster.
+| Current story date | 24/11/2026 |
+| Status | Training, pre-debut |
+| Head Coach | Jake "Stewie2K" Yip |
+| Development Coach | Ethan "Trace" Miller |
+| Players | Five selected players |
+| Captain | None |
+| IGL | None |
+| Permanent positions | None assigned |
+| Official matches | None |
 
 ## Roster
 
-The roster is empty. No academy player, candidate, captain, trial participant,
-or promotion is canonical in this phase.
+| ID | Player | Age at selection | Residence | Role |
+| --- | --- | ---: | --- | --- |
+| evan-soupcrime-nakamura | Evan "soupcrime" Nakamura | 15 | San Jose, California | TBD |
+| milo-velcrodog-radovic | Milo "velcrodog" Radović | 16 | Sacramento, California | TBD |
+| zayn-parkinglot-haddad | Zayn "parkinglot" Haddad | 16 | Irvine, California | TBD |
+| nolan-dentalplan-hart | Nolan "dentalplan" Hart | 16 | Long Beach, California | TBD |
+| reid-wrongnumber-hart | Reid "wrongnumber" Hart | 16 | Long Beach, California | TBD |
 
-Future recruitment is planned for California residents ages 15 through 17 who
-are enrolled in high school, have family approval, and complete a school
-transfer when required. These rules do not apply to the main team. Planned
-twin brothers have no names, IDs, roles, or active records.
+Selection dates:
 
-## Competitive Record
+- soupcrime, velcrodog, and parkinglot: 21/11/2026.
+- dentalplan and wrongnumber: 23/11/2026.
 
-- Official matches: none
-- Competitive history: none
-- Achievements: none
-- Statistics: none
-- Rankings: none
-- Confirmed competition: **TBD**
+## Position Boundary
 
-No academy tournament or partner league is confirmed.
+The roster has no permanent AWPer, Entry, Support, Anchor, Rifler, Lurker, IGL,
+captain, substitute, or starter hierarchy. Earlier playing behavior does not
+establish a permanent Academy position. Stewie2K will determine responsibilities
+only after observing development.
 
-## TBD Details
+Exact dates of birth are TBD. Ages must not be converted into invented birth
+dates.
 
-- The intended competition is **TBD**.
-- The exact February 2027 debut date is **TBD**.
-- The future roster and captain are **TBD**.
-- Future academy tournaments, partner leagues, results, achievements, and
-  statistics are **TBD**.
+## Recruitment Boundary
 
-## Related Records
+Main-team players do not scout, interview, approve, reject, or select Academy
+candidates. Before Stewie2K's appointment, Adrian, Emily, Luk, Trace,
+management, analysts, and scouting personnel handle the process. Arthur
+Fletcher is not Kairos staff or a recruiting decision-maker.
 
-- [Division overview](COUNTER_STRIKE_DIVISION.md)
-- [Head Coach Ethan "Trace" Miller](../../data/coaches/ethan-trace-miller.json)
-- [Structured academy record](../../data/teams/kairos-counter-strike-academy.json)
-- [Counter-Strike relationships](COUNTER_STRIKE_RELATIONSHIPS.md)
-- [Future canon reservations](../planning/FUTURE_CANON_RESERVATIONS.md)
+## Staff Chronology
+
+- Before 23/11/2026, Stewie2K discussion is exploratory and nonbinding.
+- Trace builds and provisionally leads the Academy development structure.
+- On 23/11/2026, Stewie2K becomes active Head Coach.
+- On 23/11/2026, Trace becomes active Development Coach and remains part of
+  Kairos.
+
+## Records
+
+- [Structured team record](../../data/teams/kairos-counter-strike-academy.json)
+- [Stewie2K](../../data/coaches/jake-stewie2k-yip.json)
+- [Trace](../../data/coaches/ethan-trace-miller.json)
+- [Episode 73](../../data/episodes/episode-073.json)
+- [Episode 74](../../data/episodes/episode-074.json)

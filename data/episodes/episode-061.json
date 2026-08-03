@@ -1,0 +1,99 @@
+{
+  "id": "episode-061",
+  "slug": "episode-061",
+  "episodeNumber": 61,
+  "title": "Primeira Impressão",
+  "historicalTitle": "Primeira Impressão",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-10",
+  "datePrecision": "exact",
+  "publicationOrder": 61,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus conference room, Los Angeles, California",
+    "Remote video call"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "FLACOGOMEZ completes his Kairos interview and demonstrates a collaborative, low-ego understanding of Support play.",
+  "keyEvents": [
+    "FLACOGOMEZ completes a remote interview with Kairos.",
+    "He explains that a good Support anticipates problems before the IGL must request help.",
+    "The group concludes that he fits the final Support need, but no signing occurs."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "FLACOGOMEZ establishes his team-first philosophy."
+  ],
+  "relationshipDevelopments": [
+    "Atlas responds positively to FLACOGOMEZ’s anticipatory Support philosophy."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-060"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 61 — Primeira Impressão",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "FLACOGOMEZ completes a remote interview with Kairos.",
+    "He explains that a good Support anticipates problems before the IGL must request help.",
+    "The group concludes that he fits the final Support need, but no signing occurs."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

@@ -1,14 +1,14 @@
 # Episode Index
 
-Historical sources for Episodes 1 through 29 and the normalized source for
-Episodes 30 through 56 are recovered. `TBD` for Episodes 1 through 24 means no
+Historical sources for Episodes 1 through 29 and normalized sources for
+Episodes 30 through 75 are recovered. `TBD` for Episodes 1 through 24 means no
 current-canon English title has been approved; the historical title is still
 preserved.
 
 ## Narrator and Protagonist
 
 Current metadata identifies Adrian Elias Vale as narrator and protagonist of
-Episodes 1 through 56. The Episodes 1-29 historical prose remains unchanged and
+Episodes 1 through 75. The Episodes 1-29 historical prose remains unchanged and
 does not retroactively insert his name.
 
 | Episode | Current title | Historical/source title | Source | Division | Record |
@@ -69,22 +69,46 @@ does not retroactively insert his name.
 | 54 | Casa | Casa | Normalized source | Organization and Counter-Strike | [Record](../../data/episodes/episode-054.json) |
 | 55 | A Escolha | A Escolha | Normalized source | League and Counter-Strike | [Record](../../data/episodes/episode-055.json) |
 | 56 | A Decisão | A Decisão | Normalized source | League and Counter-Strike | [Record](../../data/episodes/episode-056.json) |
+| 57 | O Primeiro Dia de Verdade | O Primeiro Dia de Verdade | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-057.json) |
+| 58 | Cinco Cadeiras | Cinco Cadeiras | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-058.json) |
+| 59 | O Convite | O Convite | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-059.json) |
+| 60 | O Último Nome | O Último Nome | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-060.json) |
+| 61 | Primeira Impressão | Primeira Impressão | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-061.json) |
+| 62 | As Primeiras Decisões | As Primeiras Decisões | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-062.json) |
+| 63 | O Próximo Passo | O Próximo Passo | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-063.json) |
+| 64 | A Caçada Começa | A Caçada Começa | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-064.json) |
+| 65 | Vozes Diferentes | Vozes Diferentes | Normalized source | League and Counter-Strike | [Record](../../data/episodes/episode-065.json) |
+| 66 | O Outro Lado da Mesa | O Outro Lado da Mesa | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-066.json) |
+| 67 | Um Dia Sem Scrims | Um Dia Sem Scrims | Normalized source | League and Counter-Strike | [Record](../../data/episodes/episode-067.json) |
+| 68 | Os Cinco | Os Cinco | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-068.json) |
+| 69 | Cinco Vozes | Cinco Vozes | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-069.json) |
+| 70 | Sem Atalhos | Sem Atalhos | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-070.json) |
+| 71 | O Primeiro Choque | O Primeiro Choque | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-071.json) |
+| 72 | O Nome no Servidor | O Nome no Servidor | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-072.json) |
+| 73 | Três Cadeiras | Três Cadeiras | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-073.json) |
+| 74 | Os Últimos Dois | Os Últimos Dois | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-074.json) |
+| 75 | Depois da Pausa | Depois da Pausa | Normalized source | League and Counter-Strike | [Record](../../data/episodes/episode-075.json) |
 
 Episode 28's duplicate pages 179-184 remain in the immutable PDF and do not
 create another record.
 
 ## Status
 
-- Episodes 1 through 56 are `reconstructed` and `source-recovered`.
+- Episodes 1 through 75 are `reconstructed` and `source-recovered`.
 - Episodes 1 through 29 cite the immutable historical PDF.
 - Episodes 30 through 56 cite the normalized searchable source.
-- Episodes 55 and 56 have the exact date November 7, 2026.
+- Episodes 57 through 75 cite their preserved source package and normalized
+  searchable source.
+- Episodes 55 and 56 have the exact date 07/11/2026.
 - Other exact dates in Episodes 30 through 54 remain TBD.
+- Episodes 57 through 75 have source-confirmed exact dates from 08/11/2026
+  through 24/11/2026.
 - Every episode resolves narrator and protagonist to `adrian-elias-vale`.
 
 ## Related Documents
 
 - [Reconstruction status](EPISODE_RECONSTRUCTION_STATUS.md)
 - [Source normalization](SOURCE_NORMALIZATION_030_056.md)
+- [Episodes 57-75 normalization](EPISODES_057_075_NORMALIZATION.md)
 - [Source manifest](../../archive/SOURCE_MANIFEST.md)
 - [Character index](../characters/CHARACTER_INDEX.md)

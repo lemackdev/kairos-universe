@@ -11,17 +11,23 @@
     "region": "New Mexico",
     "country": "United States"
   },
-  "dateOfBirth": "TBD",
-  "ageAtCurrentStoryDate": 19,
+  "dateOfBirth": "2008-01-11",
+  "ageAtCurrentStoryDate": 18,
   "game": "Counter-Strike",
   "role": "Entry",
-  "currentTeam": null,
-  "rosterLevel": "prospect",
-  "status": "being-scouted",
+  "currentTeam": "kairos-cs-main",
+  "rosterLevel": "main",
+  "status": "signed",
   "isCaptain": false,
   "firstAppearance": "episode-038",
-  "joinedKairos": "Not joined",
-  "contract": null,
+  "joinedKairos": "2026-11-16",
+  "contract": {
+    "status": "signed",
+    "signedDate": "2026-11-16",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
   "occupation": "Part-time mechanic",
   "personality": "Honest, straightforward, and team-first.",
   "playstyle": "Extremely aggressive Entry who accepts sacrificial roles.",
@@ -55,48 +61,78 @@
       "subjectId": "ethan-trace-miller",
       "type": "evaluator",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "vincente-flacogomez-galan",
+      "type": "teammates",
+      "status": "confirmed"
     }
   ],
-  "careerHistory": [],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-cs-main",
+      "status": "signed",
+      "joinedKairos": "2026-11-16",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
   "individualTimeline": [
     "Episode 38: Cameron and the nickname Mold first appear in the Kairos scouting process.",
     "Episode 41: Cameron completes an initial interview; no trial, invitation, travel, or contract occurs.",
-    "Episodes 42-56: Cameron remains under scouting observation without an invitation or contract."
+    "Episode 59: Kairos issues Cameron an invitation package.",
+    "Episode 68: The five-player Kairos Counter-Strike main roster is completed on 2026-11-16.",
+    "Episode 68: Cameron accepts the Kairos offer and joins the main roster as Entry on 2026-11-16.",
+    "Episode 69: The completed roster holds its first full-team training session.",
+    "Episodes 71-72: The completed roster plays a private, non-official practice series against Team Liquid; the event is excluded from official statistics and achievements."
   ],
   "statistics": {},
   "achievements": [],
   "trivia": [],
   "currentState": [
-    "Under active scouting observation.",
-    "Unsigned Counter-Strike prospect.",
-    "No invitation.",
-    "No contract."
+    "Signed to Kairos Counter-Strike on 2026-11-16.",
+    "Active Entry on the complete main roster.",
+    "Contract duration, salary, buyout, bonuses, and other terms are TBD."
   ],
   "nicknameFirstAppearance": "episode-038",
   "confirmedFacts": [
-    "Cameron Ruiz is a canonical unsigned Counter-Strike prospect known as Mold.",
-    "He is 19 years old at the current story date.",
     "His nationality is TBD; it must not be inferred from his home town.",
     "He is from Truth or Consequences, New Mexico.",
-    "He is an Entry prospect and works as a part-time mechanic.",
+    "He is the signed Entry and works as a part-time mechanic.",
     "He is extremely aggressive, team-first, accepts sacrificial roles, and is honest and straightforward.",
     "His first appearance and the first appearance of the nickname Mold are in Episode 38.",
     "An initial evaluation relationship with Caleb Mercer is confirmed.",
     "He completes an initial interview in Episode 41.",
     "The Episode 41 interview is not a trial, invitation, travel event, or contract.",
-    "He remains under scouting observation through Episode 56.",
-    "He is a confirmed individual 19-year-old exception; this does not establish general eligibility for every 19-year-old.",
-    "No invitation has been issued.",
-    "No contract has been signed."
+    "His canonical role is Entry.",
+    "He is 18 years old on 2026-11-24.",
+    "His date of birth is 2008-01-11.",
+    "Cameron accepts the Kairos offer and signs on 2026-11-16.",
+    "He is the signed Entry of the complete Kairos Counter-Strike main roster."
   ],
   "unconfirmedDetails": [
-    "Nationality and date of birth are TBD.",
+    "Nationality is TBD.",
     "Previous teams and tournament history are TBD.",
-    "Recruitment outcome, statistics, and achievements are TBD."
+    "Contract duration, salary, buyout, bonuses, agent, and other financial terms are TBD."
   ],
   "canonNotes": [
     "Do not expand Cameron's biography beyond approved facts.",
-    "Do not generalize Cameron's individual age exception into a broader rule.",
-    "Prospect status does not constitute roster membership."
+    "The previous age-19 claim is retconned; current canon uses the confirmed birth date and age in this record.",
+    "The Episode 68 signing replaces his earlier unsigned-prospect state without changing his identity, role, birth date, or prior chronology."
   ]
 }

@@ -20,14 +20,19 @@
     "value": "AWPer"
   },
   {
-    "id": "role-executive",
-    "name": "Executive",
-    "value": "Executive"
+    "id": "role-development-coach",
+    "name": "Development Coach",
+    "value": "Development Coach"
   },
   {
     "id": "role-entry",
     "name": "Entry",
     "value": "Entry"
+  },
+  {
+    "id": "role-executive",
+    "name": "Executive",
+    "value": "Executive"
   },
   {
     "id": "role-founder-and-ceo",
@@ -55,6 +60,11 @@
     "value": "IGL"
   },
   {
+    "id": "role-igl-rifler",
+    "name": "IGL / Rifler",
+    "value": "IGL / Rifler"
+  },
+  {
     "id": "role-jungle",
     "name": "Jungle",
     "value": "Jungle"
@@ -75,9 +85,19 @@
     "value": "Mid Mentor"
   },
   {
+    "id": "role-primary-awper",
+    "name": "Primary AWPer",
+    "value": "Primary AWPer"
+  },
+  {
     "id": "role-rifler",
     "name": "Rifler",
     "value": "Rifler"
+  },
+  {
+    "id": "role-rifler-lurker",
+    "name": "Rifler / Lurker",
+    "value": "Rifler / Lurker"
   },
   {
     "id": "role-strategic-coach",
@@ -88,6 +108,11 @@
     "id": "role-support",
     "name": "Support",
     "value": "Support"
+  },
+  {
+    "id": "role-support-anchor",
+    "name": "Support / Anchor",
+    "value": "Support / Anchor"
   },
   {
     "id": "role-tbd",

@@ -1,0 +1,26 @@
+{
+  "enabledGames": [
+    "game-league-of-legends"
+  ],
+  "enabledOrganizations": [
+    "kairos-esports"
+  ],
+  "enabledTeams": [
+    "kairos-lol-main"
+  ],
+  "enabledPlayers": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "enabledStaff": [
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "emily-chen"
+  ],
+  "enabledCompetitions": [],
+  "enabledMatches": [],
+  "enabledTransfers": []
+}

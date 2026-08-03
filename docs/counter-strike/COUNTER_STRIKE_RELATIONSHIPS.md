@@ -6,13 +6,16 @@
 
 - Lukas "Luk" Novak is Head Coach of
   [Kairos Counter-Strike](MAIN_TEAM.md).
-- Ethan "Trace" Miller is Head Coach of
-  [Kairos Counter-Strike Academy](ACADEMY_TEAM.md).
+- Jake "Stewie2K" Yip is Head Coach of
+  [Kairos Counter-Strike Academy](ACADEMY_TEAM.md) from 23/11/2026.
+- Ethan "Trace" Miller is Development Coach from 23/11/2026.
 - Trace is Luk's pupil.
 - Luk mentors Trace.
 - Luk is responsible for the global Kairos Counter-Strike philosophy.
-- Trace translates Luk's philosophy into academy training while developing his
-  own coaching identity.
+- Stewie2K observes the Academy before assigning player responsibilities.
+- Trace supports development methodology, individual development,
+  Academy-main integration, the coaching structure, and development of players
+  and coaches.
 
 ## Team Relationships
 
@@ -38,18 +41,27 @@
 - Adrian Vale is Caleb "Atlas" Mercer's founder and mentor.
 - Luk is Caleb's Head Coach and tactical evaluator.
 - Trace is Caleb's tactical mentor.
-- Caleb is Owen "Glacier" Fletcher's captain during evaluation. Their trust is
-  growing, and they have a tactical partnership.
+- Caleb, Owen "Glacier" Fletcher, Emiliano "MoteConHuesillo" Navarro, Cameron
+  "Mold" Ruiz, and Vincente "FLACOGOMEZ" Galán are signed teammates.
+- Caleb is Owen's captain. Their trust is growing, and they have a tactical
+  partnership.
 - Caleb and Emiliano "MoteConHuesillo" Navarro have tactical compatibility and
   mutual respect.
-- Owen and Emiliano are first teammates during evaluation and have a positive
-  first impression.
-- Caleb has an initial-evaluation relationship with Cameron "Mold" Ruiz.
+- Owen and Emiliano retain the positive first impression established during
+  evaluation and are now signed teammates.
+- Caleb's initial-evaluation relationship with Cameron "Mold" Ruiz develops
+  into a captain-teammate relationship when Mold signs on 16/11/2026.
 - Trace evaluates Owen and Emiliano.
 - Emily handles logistics for Owen and Emiliano.
 - Luk leads scouting investigations, tactical evaluations, and reference
   checks.
 - Caleb is the Founding Captain and only confirmed Counter-Strike captain.
+- Mold and FLACOGOMEZ complete the main roster on 16/11/2026.
+- Stewie2K coaches soupcrime, velcrodog, parkinglot, dentalplan, and
+  wrongnumber.
+- Trace supports all five Academy players through his Development Coach role.
+- Nolan "dentalplan" Hart and Reid "wrongnumber" Hart are twin brothers; Nolan
+  is eleven minutes older.
 - Arthur Fletcher is Owen's grandfather and raised him.
 - Richard Collins is a medical provider involved in Arthur's care.
 

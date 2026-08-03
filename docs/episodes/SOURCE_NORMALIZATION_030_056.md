@@ -38,7 +38,7 @@ does not rewrite Episodes 1 through 29 or modify the immutable historical PDF.
 | Episodes 48-53 candidate | Unnamed file | Remains anonymous; no entity or pipeline record |
 | Episodes 49 and 51 | Evaluation sessions | Episode 49 is an internal scrim; Episode 51 is a strategic pressure exercise with no scrim |
 | Episode 54 chronology | Ambiguous interval | Some days after the first internal scrim |
-| November 7, 2026 weekday | Incorrect weekday in earlier material | Saturday |
+| 07/11/2026 weekday | Incorrect weekday in earlier material | Saturday |
 | Episode 56 League staff | Ambiguous placement | Aphromoo stands beside Thinkcard; their established roles do not change |
 | Episode 56 League players | Ambiguous aliases | 404 and Moss are explicitly identified; 404 remains Mid and Moss remains Support and captain |
 
@@ -62,8 +62,9 @@ not originally use it.
 
 - Episodes 30-42 use `late-october-2026`.
 - Episodes 43-54 use `early-november-2026` with exact dates left null.
-- Episodes 55-56 use the exact date `2026-11-07`.
-- November 7, 2026 is Saturday. Episode 55 begins at 08:15, and Episode 56
+- Episodes 55-56 use the exact date 07/11/2026, stored as `2026-11-07` in
+  structured records.
+- 07/11/2026 is Saturday. Episode 55 begins at 08:15, and Episode 56
   presents the result at 19:30.
 
 No other exact date is inferred.

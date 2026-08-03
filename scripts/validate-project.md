@@ -1,8 +1,19 @@
 # Future Project Validation Workflow
 
-This document specifies the validation process that a future script should
-implement. It is documentation only. No validation executable is introduced in
-this phase.
+This document specifies the repository validation process. Kairospedia now
+implements the executable validator under `website/`; the sections below remain
+the validation contract.
+
+Run:
+
+```powershell
+cd website
+npm run validate
+```
+
+The command generates derivative catalogs, validates schemas and references,
+checks publication and indexes, runs TypeScript and ESLint, executes tests,
+builds production output, and validates internal links.
 
 ## Goals
 
@@ -122,5 +133,5 @@ The validator should report:
 - Timeline and episode checks.
 - Errors grouped by severity and file.
 
-Implementation language, dependencies, and automation integration remain
-**TBD** until a future tooling phase is authorized.
+The active implementation uses TypeScript, AJV Draft 2020-12, Vitest, ESLint,
+and the Next.js production build. Automation integration remains **TBD**.

@@ -1,124 +1,118 @@
 # Current World State
 
-- **Canon status:** CONFIRMED
-- **Story start:** Early 2026
-- **Current story date:** November 7, 2026
-- **Current episode:** Episode 56, "A Decisão"
-- **Next competitive milestone:** February 2027
+## Narrative Endpoint
 
-This file is the mandatory current-state snapshot and must be updated after
-every future episode.
-
-## Organization
-
-- Adrian Elias Vale is the first-person narrator and main protagonist.
-- Adrian is Founder and CEO of Asterion Intelligence.
-- Adrian is Founder and owner of Kairos Esports.
-- Kairos has not made its official competitive debut.
-- No official match, title, ranking, or result exists.
+- **Current story date:** 24/11/2026
+- **Current episode:** Episode 75, "Depois da Pausa"
+- **Story period:** Late November 2026
+- **Exact year:** 2026
+- **Next official competitive milestone:** February 2027
+- **Official Kairos matches played:** None
 
 ## League of Legends
 
-- Main, Academy Blue, and Academy White are active and training in Los Angeles.
-- None of the three teams has played an official match.
-- Main is intended for the LCS, Academy Blue for the NACL, and Academy White
-  for U19 development.
-- Daniel "Moss" Reyes remains the only confirmed League captain.
-- Mason "404" Brooks remains the Mid laner and is not captain.
-- Zaqueri "Aphromoo" Black remains Head Coach and Support mentor.
-- The League division participates in Episodes 34, 36, 38, 55, and 56 without
-  any roster, role, captain, or contract change.
-- All three League rosters participate in the November 7 community vote.
-- League and NACL competition is scheduled to begin in February 2027.
+All three League rosters remain active, training, and pre-debut. No player is
+promoted, demoted, benched, or replaced in Episode 75.
 
-## Counter-Strike
+- Daniel "Moss" Reyes remains captain of the main roster.
+- League Main plans regular external scrims in December. No opponent is named.
+- Academy Blue will focus on consistency and meaningful internal pressure on
+  the main roster.
+- Academy White will continue fundamentals, communication, and adaptation.
+- Future roster mixing must answer a specific developmental or evaluative
+  question.
+- The main roster is not protected from internal competition.
 
-### Staff
+| Team | Roster | Status |
+| --- | --- | --- |
+| Main | rkN, Vanta, 404, Aster, Moss | Training, pre-debut |
+| Academy Blue | Mako, xNox, Kite, Murmur, Grit | Training, pre-debut |
+| Academy White | Pebble, Vex, 0bit, June, Luma | Training, pre-debut |
 
-- Lukas "Luk" Novak is Head Coach of the main team.
-- Ethan "Trace" Miller is Head Coach of the Academy.
-- Trace is Luk's pupil.
+## Counter-Strike Main Team
 
-### Signed Roster
+The founding main roster is complete as of 16/11/2026.
 
-- Caleb "Atlas" Mercer is the only signed player.
-- Caleb is IGL, first signing, Founding Captain, and the only confirmed
-  Counter-Strike captain.
-- Four main-roster positions remain vacant.
+| Player | Role | Status |
+| --- | --- | --- |
+| Caleb "Atlas" Mercer | IGL / Rifler | Signed, captain |
+| Owen "Glacier" Fletcher | Primary AWPer | Signed |
+| Emiliano "MoteConHuesillo" Navarro | Rifler | Signed |
+| Cameron "Mold" Ruiz | Entry | Signed |
+| Vincente "FLACOGOMEZ" Galán | Support / Anchor | Signed |
 
-### Evaluation and Scouting
+Atlas remains Founding Captain and the only confirmed Counter-Strike captain.
+The five players begin full-roster training in Episode 69.
 
-- Owen "Glacier" Fletcher is participating in a three-week evaluation and
-  remains unsigned.
-- Emiliano "MoteConHuesillo" Navarro is participating in an evaluation and
-  remains unsigned.
-- Cameron "Mold" Ruiz is an Entry prospect under scouting observation.
-- Cameron's nationality is TBD.
-- Cameron has completed an interview only. He has no trial, invitation, travel
-  arrangement, or contract.
-- No anonymous candidate or stand-in has an entity record.
+### Private Team Liquid Practice Series
 
-### Competitive State
+On 20/11/2026, the completed roster plays a fictional-universe private
+best-of-three practice series against Team Liquid.
 
-- The first internal scrim occurs in Episode 49 with Caleb, Owen, Emiliano, and
-  two anonymous stand-ins.
-- No scrim occurs in Episode 51; Trace conducts a strategic pressure exercise.
-- Internal evaluation activity is not an official match.
-- Counter-Strike competition is scheduled to begin in February 2027.
+- Dust II: Team Liquid 13–5 Kairos.
+- Mirage: Team Liquid 13–9 Kairos.
+- Nuke: Kairos 13–11 Team Liquid.
+- Series: Team Liquid 2–1 Kairos.
 
-## Arthur Fletcher and Project Casa Arthur
+The series is private, non-public, non-official, non-ranking, and
+non-tournament. Its partial score-sheet statistics are stored only in
+[Episode 72](../../data/episodes/episode-072.json). They do not enter official
+career statistics, achievements, rankings, standings, or match history. The
+Team Liquid lineup remains unknown.
 
-- Arthur Fletcher is Owen's grandfather and lives in Mackenzie, British
-  Columbia.
-- Richard Collins is a medical provider involved in Arthur's care.
-- Project Casa Arthur is a conditional future plan.
-- Arthur's chemotherapy is responding well by Episode 54.
-- Owen feels guilty about being far from Arthur.
-- The plan depends on safe travel and independent medical approval.
-- Planned elements are a residence within the Kairos campus property, one
-  bedroom, living room, kitchen, garden, full accessibility, and proximity to
-  campus medical resources.
-- No construction, relocation, acceptance, or medical approval has occurred.
+## Counter-Strike Academy
 
-## Food-Service Policy
+The Academy roster is complete as of 23/11/2026.
 
-- The community vote occurs on November 7, 2026.
-- All 143 eligible members vote.
-- The result is 126 yes and 17 no.
-- The policy permits no more than three restaurant chains.
-- In-N-Out Burger, Chipotle Mexican Grill, and Chick-fil-A receive the highest
-  preferences.
-- Each person may use each restaurant once per week, with a maximum of three
-  fast-food meals per week enforced through the campus badge.
-- The same rules and Kairos nutritional standards apply to players, coaches,
-  staff, and Adrian. Alcoholic beverages are prohibited.
-- The vote authorizes invitations and negotiations only.
-- No restaurant partnership, contract, opening, or construction is confirmed.
-- `confirmedAcceptedSponsors` remains empty.
+| Player | Age at selection | Residence | Permanent role |
+| --- | ---: | --- | --- |
+| Evan "soupcrime" Nakamura | 15 | San Jose, California | TBD |
+| Milo "velcrodog" Radović | 16 | Sacramento, California | TBD |
+| Zayn "parkinglot" Haddad | 16 | Irvine, California | TBD |
+| Nolan "dentalplan" Hart | 16 | Long Beach, California | TBD |
+| Reid "wrongnumber" Hart | 16 | Long Beach, California | TBD |
 
-## Episode Reconstruction
+Confirmed boundaries:
 
-- Episodes 1-29 are reconstructed from the immutable historical PDF.
-- Episodes 30-56 are reconstructed from the normalized source package.
-- All 56 episode records are `reconstructed` and `source-recovered`.
-- Exact dates for Episodes 30-54 remain TBD.
-- Episodes 55-56 are dated November 7, 2026.
+- All five players are American minors and California residents.
+- Exact dates of birth are TBD and must not be inferred from age.
+- No permanent playing position is assigned.
+- No captain or IGL is assigned.
+- No substitute or starter hierarchy exists.
+- Nolan and Reid are twin brothers; Nolan is eleven minutes older.
+- Main-team players did not select Academy candidates.
 
-## Future Reservations
+Current staff:
 
-Future Academy recruitment rules, planned character concepts, and the possible
-Arthur progression are isolated in
-[Future Canon Reservations](../planning/FUTURE_CANON_RESERVATIONS.md). They are
-not active entities, episode events, roster members, contracts, relationships,
-or timeline entries.
+- Jake "Stewie2K" Yip is active Academy Head Coach from 23/11/2026.
+- Ethan "Trace" Miller is active Development Coach from 23/11/2026.
+- Trace remains part of Kairos and supports development methodology,
+  individual development, Academy-main integration, the coaching structure,
+  and development of players and coaches.
 
-## Related Documents
+## Media
 
-- [Master timeline](../timeline/MASTER_TIMELINE.md)
-- [Episode index](../episodes/EPISODE_INDEX.md)
-- [Source normalization](../episodes/SOURCE_NORMALIZATION_030_056.md)
-- [Kairos Esports](../organization/KAIROS_ESPORTS.md)
-- [Campus](../organization/CAMPUS.md)
-- [League division](../league/LEAGUE_DIVISION.md)
-- [Counter-Strike division](../counter-strike/COUNTER_STRIKE_DIVISION.md)
-- [Character index](../characters/CHARACTER_INDEX.md)
+Dust2 visits the Kairos campus on 18/11/2026 for editorial coverage. The event
+is not sponsorship or commercial partnership. No view count, revenue,
+contractual media term, or public-sentiment metric is canonical.
+
+## Planned Events
+
+- **25/11/2026:** Kairos Thanksgiving gathering, planned and not completed.
+- **December 2026:** Regular League main-roster external scrims, opponents not
+  named.
+- **December 2026:** Team Liquid is willing to schedule another private
+  practice series, but no official or confirmed fixture exists.
+- **Early 2027:** Arthur intends to move near the Kairos campus, subject to safe
+  travel and independent medical approval. No move, construction, or approval
+  has occurred.
+- **February 2027:** Planned official League, NACL, and Counter-Strike debut;
+  exact dates and competitions remain TBD.
+
+## Source Status
+
+- Episodes 1-29 use the immutable historical PDF.
+- Episodes 30-56 use the preserved and normalized 30-56 source package.
+- Episodes 57-75 use the preserved DOCX and
+  [normalized searchable source](../episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md).
+- Structured episode records exist continuously from Episode 1 through 75.

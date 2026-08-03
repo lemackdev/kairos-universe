@@ -13,7 +13,7 @@
   ],
   "nationality": "TBD",
   "city": "Seattle",
-  "dateOfBirth": "TBD",
+  "dateOfBirth": "2009-02-14",
   "ageAtCurrentStoryDate": 17,
   "game": "League of Legends",
   "role": "Top",
@@ -63,15 +63,15 @@
     "Noah Bennett \"rkN\" is active on Kairos League of Legends Main Team.",
     "The player is training in Los Angeles.",
     "The player has not made an official competitive debut with Kairos.",
-    "The player's role is Top.",
-    "The player is age 17 at the current story date.",
     "The player's confirmed city is Seattle.",
     "Kairos is the player's first professional team.",
-    "The player's first confirmed appearance is episode-002."
+    "The player's first confirmed appearance is episode-002.",
+    "The player's role is Top.",
+    "The player is age 17 at the current story date of 2026-11-24.",
+    "The player's date of birth is 2009-02-14."
   ],
   "unconfirmedDetails": [
     "Nationality is TBD.",
-    "Date of birth is TBD.",
     "The exact date the player joined Kairos is TBD.",
     "Contract status, dates, and salary are TBD.",
     "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
@@ -80,9 +80,9 @@
   ],
   "canonNotes": [
     "Do not infer nationality from city.",
-    "Do not fabricate a birth date from age.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "Do not invent previous professional teams.",
-    "Historical aliases are archival only; current records and wiki pages must use the current nickname."
+    "Historical aliases are archival only; current records and wiki pages must use the current nickname.",
+    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
   ]
 }

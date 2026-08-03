@@ -3,13 +3,16 @@
 Kairos Universe is the canonical source of truth for a fictional esports
 universe centered on Kairos Esports and its parent company, Asterion
 Intelligence. The repository is designed to scale to thousands of structured
-records and will later support a local wiki inspired by Leaguepedia and HLTV.
+records and now includes Kairospedia, an original local esports encyclopedia.
 
 Adrian Elias Vale, commonly known as Adrian Vale, is the main protagonist and
 first-person narrator. He is the founder and CEO of Asterion Intelligence and
 the founder and owner of Kairos Esports.
 
-The website is intentionally not implemented in the current phase.
+Kairospedia is a presentation and indexing layer over repository canon. Its
+first publication exposes only Kairos Esports, the League of Legends main
+team, its five active players, directly associated League staff, and confirmed
+mentorship relationships.
 
 ## Repository architecture
 
@@ -24,12 +27,13 @@ The website is intentionally not implemented in the current phase.
 | `assets/` | Logos, player images, team images, and tournament media |
 | `archive/` | Preserved source artifacts, rendered derivatives, and checksum manifests |
 | `scripts/` | Documentation and future project tooling |
-| `website/` | Reserved for the future Next.js wiki |
+| `website/` | Self-contained Next.js App Router implementation of Kairospedia |
 | `wiki/` | Reserved for future generated or local wiki material |
 | `kairos-version.json` | Canon and documentation-phase version metadata |
 
-No website code or dependencies belong in the project until the website phase
-is explicitly authorized.
+The website reads canonical JSON, schemas, indexes, and version metadata at
+build time. It never writes changes back into canonical files. Generated
+catalogs under `website/.generated/` are derivative and ignored by Git.
 
 ## Source-of-truth model
 
@@ -54,6 +58,7 @@ Core references:
 - [Canon glossary](docs/canon/CANON_GLOSSARY.md)
 - [Documentation standards](docs/canon/DOCUMENTATION_STANDARDS.md)
 - [Canon changelog](docs/canon/CHANGELOG.md)
+- [Canon Batch 057-075](docs/canon/CANON_BATCH_057_075.md)
 - [Character index](docs/characters/CHARACTER_INDEX.md)
 - [Adrian Vale](docs/characters/ADRIAN_VALE.md)
 - [Current world state](docs/world-state/CURRENT_WORLD_STATE.md)
@@ -65,6 +70,11 @@ Core references:
 - [League main roster](docs/league/MAIN_ROSTER.md)
 - [League staff](docs/league/LEAGUE_STAFF.md)
 - [League mentors](docs/league/LEAGUE_MENTORS.md)
+- [Kairospedia overview](docs/kairospedia/KAIROSPEDIA_OVERVIEW.md)
+- [Kairospedia architecture](docs/kairospedia/ARCHITECTURE.md)
+- [Kairospedia global data model](docs/kairospedia/GLOBAL_DATA_MODEL.md)
+- [Kairospedia publication workflow](docs/kairospedia/PUBLICATION_WORKFLOW.md)
+- [Kairospedia source policy](docs/kairospedia/CONTENT_AND_SOURCE_POLICY.md)
 - [Counter-Strike division](docs/counter-strike/COUNTER_STRIKE_DIVISION.md)
 - [Counter-Strike main team](docs/counter-strike/MAIN_TEAM.md)
 - [Counter-Strike academy](docs/counter-strike/ACADEMY_TEAM.md)
@@ -81,6 +91,8 @@ Core references:
 - [Episode source audit](docs/episodes/EPISODE_SOURCE_AUDIT.md)
 - [Episodes 30-56 source normalization](docs/episodes/SOURCE_NORMALIZATION_030_056.md)
 - [Episodes 30-56 searchable source](docs/episodes/sources/KAIROS_EPISODES_030_056_NORMALIZED.md)
+- [Episodes 57-75 source normalization](docs/episodes/EPISODES_057_075_NORMALIZATION.md)
+- [Episodes 57-75 searchable source](docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md)
 - [Episode continuity rules](docs/episodes/EPISODE_CONTINUITY_RULES.md)
 - [Episode source gaps](docs/episodes/SOURCE_GAPS.md)
 - [Future canon reservations](docs/planning/FUTURE_CANON_RESERVATIONS.md)
@@ -114,7 +126,9 @@ fields, allowed data shapes, current enums, and reusable definitions.
 
 - `common.schema.json` provides shared definitions.
 - Entity schemas validate characters, players, coaches and staff, teams,
-  organizations, episodes, seasons, matches, and tournaments.
+  organizations, episodes, seasons, matches, tournaments, continuities,
+  tenures, transfers, competitions, stages, games, maps, lineups, standings,
+  statistics, awards, and sources.
 - Schemas are validation contracts only.
 - A schema must never be treated as proof that a fictional event occurred.
 - Shared enum values and schemas must be updated together.
@@ -141,7 +155,7 @@ change.
 - Highest episode confirmed as fully reconstructed, when applicable.
 - Validation metadata when an authorized process records it.
 
-The current canon version is `0.6.0`. Release notes are maintained in the
+The current canon version is `0.9.0`. Release notes are maintained in the
 [canon changelog](docs/canon/CHANGELOG.md).
 
 Canon versions follow semantic versioning:
@@ -227,33 +241,73 @@ If established canon is removed or replaced, update the
 - **COMPLETED:** Canon Batch 43-53
 - **COMPLETED:** Canon Batch 54-56
 - **COMPLETED:** Episodes 30-56 source normalization and canonization
-- **NEXT:** Entity chronology and relationship enrichment
-- **PLANNED:** Website
+- **COMPLETED:** Episodes 57-75 source normalization and canonization
+- **COMPLETED:** Kairospedia foundation and Kairos League publication
+- **NEXT:** Kairospedia world ecosystem expansion
 - **PLANNED:** CMS
 - **PLANNED:** Statistics engine
 
 ## Current limitations
 
-The story begins in early 2026. The current narrative date is November 7, 2026,
+The story begins in early 2026. The current narrative date is 24/11/2026,
 and the next competitive milestone is February 2027.
 
-The current story episode is 56. Episodes 1 through 29 are reconstructed from
-the archived historical PDF. Episodes 30 through 56 are reconstructed from the
-authoritative normalized DOCX and Markdown source. Episodes 1 through 24
+The current story episode is 75. Episodes 1 through 29 are reconstructed from
+the archived historical PDF. Episodes 30 through 56 and 57 through 75 are
+reconstructed from their preserved source packages and authoritative normalized
+Markdown. Episodes 1 through 24
 preserve original Portuguese titles but retain **TBD** current-canon English
 titles. Episodes 25 through 29 preserve both current working titles and
 historical titles. Exact dates for Episodes 30 through 54 remain **TBD**.
-Episodes 55 and 56 are dated November 7, 2026.
+Episodes 55 through 75 use source-confirmed exact dates.
 
-Unknown names, dates, academy roles, facility specifications, contracts,
-salaries, rankings, results, and statistics must not be invented.
+Unknown names, event dates, facility specifications, contract terms, salaries,
+rankings, results, and statistics must not be invented. Established player
+roles and birth dates are confirmed in the player records.
 
-The League package establishes three teams, fifteen player records, and its
-coaches, mentors, executives, and supporting staff. The Counter-Strike package
-establishes two teams, two fictional Head Coaches, recruitment rules, five role
-archetypes, Caleb "Atlas" Mercer as the signed IGL and Founding Captain, and
-two unsigned evaluation players plus one unsigned scouted prospect.
-Reserved future concepts remain only in planning and have no active player
-records, narrative appearances, or recruitment references. Source recovery
-now covers all fifty-six episode records with explicit provenance and retcon
-boundaries.
+The League package establishes three unchanged teams, fifteen player records,
+and its coaches, mentors, executives, and supporting staff. December Phase Two
+training is planned, and Moss remains main-roster captain.
+
+Kairospedia currently publishes only the League main team. Academy teams,
+Counter-Strike teams, external organizations, competitions, transfers, and
+matches remain hidden through the publication manifest. This visibility limit
+does not change their canonical status.
+
+The Counter-Strike main roster is complete with five signed players: Atlas,
+Glacier, MoteConHuesillo, Mold, and FLACOGOMEZ. Atlas remains Founding Captain.
+The Academy roster is complete with soupcrime, velcrodog, parkinglot,
+dentalplan, and wrongnumber. No Academy playing position, captain, or IGL has
+been assigned. Stewie2K is Academy Head Coach and Trace is Development Coach,
+both effective 23/11/2026.
+
+The private Team Liquid practice series is fictional-universe, non-public, and
+non-official. It is excluded from match history, rankings, achievements, and
+career statistics. The Kairos Thanksgiving gathering is planned for
+25/11/2026 and has not occurred. Source recovery now covers all seventy-five
+episode records with explicit provenance and retcon boundaries.
+
+## Kairospedia development
+
+The website uses npm and remains self-contained under `website/`.
+
+```powershell
+cd website
+npm install
+npm run dev
+```
+
+Run the complete validator before treating website changes as ready:
+
+```powershell
+npm run validate
+```
+
+The canon loader validates repository data and produces derivative catalogs.
+Publication is controlled by `website/kairospedia-publication.json`; enabling
+or hiding an entity does not alter canon.
+
+Future external organizations must be added through canonical records,
+sources, indexes, and reference validation before they can be enabled in the
+publication manifest. See
+[Adding organizations](docs/kairospedia/ADDING_ORGANIZATIONS.md).

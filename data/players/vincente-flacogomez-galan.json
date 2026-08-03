@@ -1,0 +1,131 @@
+{
+  "id": "vincente-flacogomez-galan",
+  "slug": "vincente-flacogomez-galan",
+  "realName": "Vincente Galán",
+  "nickname": "FLACOGOMEZ",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "TBD",
+  "dateOfBirth": "2009-07-29",
+  "ageAtCurrentStoryDate": 17,
+  "game": "Counter-Strike",
+  "role": "Support / Anchor",
+  "currentTeam": "kairos-cs-main",
+  "rosterLevel": "main",
+  "status": "signed",
+  "isCaptain": false,
+  "firstAppearance": "episode-060",
+  "joinedKairos": "2026-11-16",
+  "contract": {
+    "status": "signed",
+    "signedDate": "2026-11-16",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
+  "background": [
+    "Son of Brazilian parents.",
+    "Born and raised in the United States and has never lived in Brazil.",
+    "Understands Portuguese through his family."
+  ],
+  "personality": "Collaborative, low-ego, and comfortable contributing without recognition.",
+  "playstyle": "Support / Anchor who prioritizes utility, information, coverage, and anticipating problems before the IGL must request help.",
+  "strengths": [
+    "Utility usage.",
+    "Anticipatory support.",
+    "Team-first decision-making.",
+    "Communication stability."
+  ],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "owen-glacier-fletcher",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "emiliano-moteconhuesillo-navarro",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "adrian-elias-vale",
+      "type": "evaluator",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-cs-main",
+      "status": "signed",
+      "joinedKairos": "2026-11-16",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
+  "individualTimeline": [
+    "Episode 60: Vincente is identified by name as Kairos’s final Support / Anchor prospect.",
+    "Episode 61: Vincente completes his Kairos interview.",
+    "Episode 68: Vincente accepts the Kairos offer and joins the main roster on 2026-11-16.",
+    "Episode 68: The five-player Kairos Counter-Strike main roster is completed on 2026-11-16.",
+    "Episode 69: The completed roster holds its first full-team training session.",
+    "Episodes 71-72: The completed roster plays a private, non-official practice series against Team Liquid; the event is excluded from official statistics and achievements."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "He is a lifelong Palmeiras supporter.",
+    "The nickname FLACOGOMEZ combines references to Palmeiras players Flaco López and Gustavo Gómez."
+  ],
+  "currentState": [
+    "Signed to Kairos Counter-Strike on 2026-11-16.",
+    "Active Support / Anchor on the complete main roster.",
+    "Contract duration, salary, buyout, bonuses, and other terms are TBD."
+  ],
+  "confirmedFacts": [
+    "Vincente Galán is a signed Kairos Counter-Strike player known as FLACOGOMEZ.",
+    "His canonical role is Support / Anchor.",
+    "He is 17 years old on 2026-11-24.",
+    "His date of birth is 2009-07-29.",
+    "He is American and is the son of Brazilian parents.",
+    "He was born and raised in the United States and has never lived in Brazil.",
+    "He understands Portuguese through his family.",
+    "He is a lifelong Palmeiras supporter.",
+    "He has completed a Kairos interview.",
+    "His first appearance is Episode 60, “O Último Nome”.",
+    "He lives in California; his exact city is TBD.",
+    "He speaks Portuguese fluently through his Brazilian family.",
+    "He accepts the Kairos offer and signs on 2026-11-16.",
+    "He is the signed Support / Anchor of the complete Kairos Counter-Strike main roster."
+  ],
+  "unconfirmedDetails": [
+    "Weaknesses, objectives, and insecurities beyond the source-confirmed profile are TBD.",
+    "Previous teams, tournament history, statistics, and achievements are TBD.",
+    "Exact California city and home town are TBD.",
+    "Contract duration, salary, buyout, bonuses, agent, and other financial terms are TBD."
+  ],
+  "canonNotes": [
+    "FLACOGOMEZ must be written exactly in uppercase.",
+    "The previous future-reservation age of 18 is retconned by the confirmed birth date and current age.",
+    "This active player is not the anonymous candidate in Episodes 48 through 53.",
+    "The Episode 68 signing replaces his earlier unsigned-prospect state without changing his identity, role, birth date, or prior chronology."
+  ],
+  "currentResidence": {
+    "city": "TBD",
+    "region": "California",
+    "country": "United States"
+  }
+}

@@ -32,7 +32,7 @@
     "Owen Fletcher makes his first canonical appearance in the scouting process.",
     "The staff compares the leadership search with the separate AWPer search.",
     "Caleb is identified as an 18-year-old left-handed IGL from Silver City, New Mexico, and a former Rifler.",
-    "Owen is identified as a 16-year-old AWPer from Mackenzie, British Columbia.",
+    "Owen is identified as a 18-year-old AWPer from Mackenzie, British Columbia.",
     "Adrian decides to travel personally to meet Owen."
   ],
   "consequences": [
@@ -49,10 +49,18 @@
   ],
   "historicalNotes": [
     "This episode is outside the immutable Episodes 1-29 historical PDF.",
-    "The searchable normalized source records approved identity and continuity corrections."
+    "The searchable normalized source records approved identity and continuity corrections.",
+    "The source's age-16 claim for Owen is superseded by his confirmed 2007-12-02 birth date; current canon makes him 18 during Episode 33."
   ],
   "realWorldReferences": ["Astralis", "FaZe Clan and karrigan", "Team Liquid"],
-  "retcons": [],
+  "retcons": [
+    {
+      "id": "retcon-owen-fletcher-age",
+      "status": "retconned",
+      "description": "The source age of 16 is superseded by Owen Fletcher's confirmed 2007-12-02 birth date and age 18.",
+      "sourcePath": "docs/retcons/RETCON_HISTORY.md"
+    }
+  ],
   "sourceReferences": [
     {
       "sourceType": "original-episode",
@@ -71,7 +79,7 @@
     "Owen Fletcher makes his first canonical appearance in the scouting process.",
     "The staff compares the leadership search with the separate AWPer search.",
     "Caleb is identified as an 18-year-old left-handed IGL from Silver City, New Mexico, and a former Rifler.",
-    "Owen is identified as a 16-year-old AWPer from Mackenzie, British Columbia.",
+    "Owen is identified as a 18-year-old AWPer from Mackenzie, British Columbia.",
     "Adrian decides to travel personally to meet Owen.",
     "Caleb Mercer and Owen Fletcher are identified as the prospects later known as Atlas and Glacier."
   ],

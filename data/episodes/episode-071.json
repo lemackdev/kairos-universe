@@ -1,0 +1,101 @@
+{
+  "id": "episode-071",
+  "slug": "episode-071",
+  "episodeNumber": 71,
+  "title": "O Primeiro Choque",
+  "historicalTitle": "O Primeiro Choque",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-20",
+  "datePrecision": "exact",
+  "publicationOrder": 71,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Counter-Strike training room, Los Angeles, California",
+    "Private online practice server"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos plays the first external private scrim of its completed roster against a concealed professional opponent and learns where individual talent stops compensating for weak trust.",
+  "keyEvents": [
+    "The completed roster plays a private, non-public best-of-three practice series.",
+    "The opponent identity is concealed from Kairos players during the series.",
+    "The event is non-official, non-ranking, and non-tournament.",
+    "No result is added to official competitive history."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Atlas learns to define goals without controlling every player movement.",
+    "Mold and Glacier begin connecting space creation with AWP timing."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-070"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [
+    "Team Liquid"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 71 — O Primeiro Choque",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The completed roster plays a private, non-public best-of-three practice series.",
+    "The opponent identity is concealed from Kairos players during the series.",
+    "The event is non-official, non-ranking, and non-tournament.",
+    "No result is added to official competitive history."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ethan-vanta-walker-kairos-lol-main",
+  "slug": "ethan-vanta-walker-kairos-lol-main",
+  "continuityId": "kairos-universe",
+  "playerId": "ethan-vanta-walker",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-main",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-jungle",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-ethan-vanta-walker",
+    "source-team-kairos-lol-main"
+  ],
+  "canonStatus": "confirmed"
+}

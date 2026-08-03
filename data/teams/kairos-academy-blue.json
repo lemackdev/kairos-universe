@@ -12,9 +12,9 @@
   "intendedCompetition": "NACL",
   "status": "active-training-pre-debut",
   "currentStoryPeriod": {
-    "period": "early-november-2026",
-    "displayName": "Early November 2026",
-    "exactDate": "2026-11-07",
+    "period": "late-november-2026",
+    "displayName": "Late November 2026",
+    "exactDate": "2026-11-24",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -31,7 +31,9 @@
     "lucas-grit-foster"
   ],
   "coachingStaff": [],
-  "mentors": ["zaqueri-aphromoo-black"],
+  "mentors": [
+    "zaqueri-aphromoo-black"
+  ],
   "captain": "TBD",
   "trainingLocation": {
     "city": "Los Angeles",
@@ -44,28 +46,34 @@
   "confirmedFacts": [
     "Academy Blue is intended for the NACL.",
     "The five-player roster is active and training.",
-    "Owen \"Kite\" Hughes is explicitly identified as the Mid player in historical Episode 22.",
     "The League division previously completed a Korean bootcamp and returned to Los Angeles.",
     "Academy Blue has not played an official match.",
-    "The current narrative date is November 7, 2026.",
-    "The full Academy Blue roster participated in the November 7 Kairos community vote.",
+    "The full Academy Blue roster participated in the 2026-11-07 Kairos community vote.",
     "The next competitive milestone is February 2027.",
     "Aphromoo expands Academy mentorship with a focus on professional habits and player development.",
     "Communication and team culture are measurable development goals.",
-    "Academy performance continues improving internally."
+    "Academy performance continues improving internally.",
+    "Connor \"Mako\" Sullivan is Top, born 2007-12-16, and age 18 on 2026-11-24.",
+    "Jacob \"xNox\" Price is Jungle, born 2009-04-08, and age 17 on 2026-11-24.",
+    "Owen \"Kite\" Hughes is Mid, born 2008-02-27, and age 18 on 2026-11-24.",
+    "Tyler \"Murmur\" Grant is ADC, born 2009-08-19, and age 17 on 2026-11-24.",
+    "Lucas \"Grit\" Foster is Support, born 2008-11-05, and age 18 on 2026-11-24.",
+    "The current narrative date is 2026-11-24.",
+    "The December Phase Two plan is established in Episode 75.",
+    "Academy Blue will focus on consistency and meaningful internal pressure during Phase Two."
   ],
   "unconfirmedDetails": [
-    "Roles other than Kite's Mid role, plus player ages, cities, birth dates, personalities, and playstyles, are TBD.",
+    "Player cities, nationalities, personalities, and playstyles remain TBD.",
     "The captain is TBD.",
     "Specific coaching staff and mentor assignments beyond Aphromoo are TBD.",
-    "The exact calendar day in late October 2026 is TBD.",
+    "Exact founding and early-2026 roster-formation dates are TBD.",
     "The exact competitive milestone date in February 2027 is TBD.",
     "Contracts, salaries, future results, rankings, and statistics are TBD."
   ],
   "canonNotes": [
-    "Do not infer roles from roster order.",
     "Kite's role is source-backed and does not rely on roster-order inference.",
     "NACL is the intended destination, not a completed competition entry.",
-    "Academy Blue exists for real player development and progression."
+    "Academy Blue exists for real player development and progression.",
+    "All five roles and birth dates are confirmed canon; the captain remains TBD."
   ]
 }

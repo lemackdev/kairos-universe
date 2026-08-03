@@ -13,7 +13,7 @@
   ],
   "nationality": "TBD",
   "city": "Toronto",
-  "dateOfBirth": "TBD",
+  "dateOfBirth": "2008-01-21",
   "ageAtCurrentStoryDate": 18,
   "game": "League of Legends",
   "role": "Mid",
@@ -63,17 +63,17 @@
     "Mason Brooks \"404\" is active on Kairos League of Legends Main Team.",
     "The player is training in Los Angeles.",
     "The player has not made an official competitive debut with Kairos.",
-    "The player's role is Mid.",
-    "The player is age 18 at the current story date.",
     "The player's confirmed city is Toronto.",
     "Kairos is the player's first professional team.",
     "Mason \"404\" Brooks is disciplined.",
     "404 is not the team captain.",
-    "The player's first confirmed appearance is episode-006."
+    "The player's first confirmed appearance is episode-006.",
+    "The player's role is Mid.",
+    "The player is age 18 at the current story date of 2026-11-24.",
+    "The player's date of birth is 2008-01-21."
   ],
   "unconfirmedDetails": [
     "Nationality is TBD.",
-    "Date of birth is TBD.",
     "The exact date the player joined Kairos is TBD.",
     "Contract status, dates, and salary are TBD.",
     "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
@@ -81,11 +81,11 @@
   ],
   "canonNotes": [
     "Do not infer nationality from city.",
-    "Do not fabricate a birth date from age.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "404 must remain a Mid laner.",
     "404 must never be listed as team captain.",
     "404 did not play for another professional team before Kairos.",
-    "Historical aliases are archival only; current records and wiki pages must use the current nickname."
+    "Historical aliases are archival only; current records and wiki pages must use the current nickname.",
+    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
   ]
 }

@@ -1,27 +1,37 @@
 {
-  "canonVersion": "0.6.0",
+  "canonVersion": "0.9.0",
   "project": "Kairos Universe",
-  "storyEpisode": 56,
+  "storyEpisode": 75,
   "storyStartPeriod": "early-2026",
-  "storyPeriod": "early-november-2026",
+  "storyPeriod": "late-november-2026",
   "storyYear": 2026,
+  "currentNarrativeDate": "2026-11-24",
   "nextCompetitiveMilestone": {
     "period": "february-2027",
     "displayName": "February 2027",
     "exactDate": "TBD"
   },
-  "websiteImplemented": false,
-  "currentDocumentationPhase": "episodes-030-056-source-normalized-and-canonized",
-  "nextPhase": "entity-chronology-and-relationship-enrichment",
-  "reconstructedThroughEpisode": 56,
-  "episodeRecordsCreatedThrough": 56,
+  "websiteImplemented": true,
+  "currentDocumentationPhase": "kairospedia-foundation-and-kairos-league-publication",
+  "nextPhase": "kairospedia-world-ecosystem-expansion",
+  "reconstructedThroughEpisode": 75,
+  "episodeRecordsCreatedThrough": 75,
   "lastValidated": null,
   "notes": [
     "Episodes 1-29 are reconstructed from the immutable historical PDF.",
     "Episodes 30-56 are reconstructed from the authoritative normalized DOCX and Markdown source.",
-    "Episode 56 is the current story episode.",
-    "The current narrative date is November 7, 2026.",
+    "Episode 75 is the current story episode.",
+    "The current narrative date is 2026-11-24.",
+    "The Kairos Thanksgiving gathering is planned for 2026-11-25 but has not occurred.",
     "The next planned competitive milestone remains February 2027.",
-    "No official Kairos match has occurred."
+    "No official Kairos match has occurred.",
+    "The Team Liquid series was a fictional-universe private practice scrim and not an official match.",
+    "The Counter-Strike main roster is complete with five signed players.",
+    "The Counter-Strike Academy roster is complete, but playing positions remain undefined.",
+    "Kairospedia architecture is active.",
+    "The website currently publishes only Kairos League of Legends.",
+    "The global data model supports future organizations, teams, players, matches, and transfers.",
+    "Canonical repository data remains the source of truth.",
+    "Publication visibility does not alter canon."
   ]
 }

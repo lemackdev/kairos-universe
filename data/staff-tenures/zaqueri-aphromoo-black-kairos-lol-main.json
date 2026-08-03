@@ -1,0 +1,22 @@
+{
+  "id": "zaqueri-aphromoo-black-kairos-lol-main",
+  "slug": "zaqueri-aphromoo-black-kairos-lol-main",
+  "continuityId": "kairos-universe",
+  "personId": "zaqueri-aphromoo-black",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-main",
+  "divisionId": "division-league-of-legends",
+  "title": "Head Coach and Support Mentor",
+  "responsibilityIds": [
+    "role-head-coach-and-support-mentor"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-zaqueri-aphromoo-black",
+    "source-document-league-staff"
+  ],
+  "canonStatus": "confirmed"
+}

@@ -12,9 +12,9 @@
   "intendedCompetition": "TBD",
   "status": "training-pre-debut",
   "currentStoryPeriod": {
-    "period": "early-november-2026",
-    "displayName": "Early November 2026",
-    "exactDate": "2026-11-07",
+    "period": "late-november-2026",
+    "displayName": "Late November 2026",
+    "exactDate": "2026-11-24",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -23,8 +23,16 @@
     "exactDate": "TBD",
     "exactYear": "2027"
   },
-  "roster": ["caleb-atlas-mercer"],
-  "coachingStaff": ["lukas-luk-novak"],
+  "roster": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "coachingStaff": [
+    "lukas-luk-novak"
+  ],
   "mentors": [],
   "captain": "caleb-atlas-mercer",
   "trainingLocation": {
@@ -35,58 +43,43 @@
   "competitiveHistory": [],
   "achievements": [],
   "statistics": {},
-  "prospectPipeline": [
-    {
-      "role": "AWPer",
-      "candidateId": "owen-glacier-fletcher",
-      "priority": "primary",
-      "status": "under-evaluation"
-    },
-    {
-      "role": "Entry",
-      "candidateId": "cameron-mold-ruiz",
-      "priority": "active",
-      "status": "being-scouted"
-    },
-    {
-      "role": "Rifler",
-      "candidateId": "emiliano-moteconhuesillo-navarro",
-      "priority": "active",
-      "status": "under-evaluation"
-    }
-  ],
+  "prospectPipeline": [],
   "confirmedFacts": [
     "Kairos Counter-Strike is the main Counter-Strike team.",
     "The team is pre-competitive and training.",
     "Lukas \"Luk\" Novak is the Head Coach.",
-    "Caleb \"Atlas\" Mercer is the first signed player.",
-    "Caleb Mercer is the Founding Captain and only confirmed Counter-Strike captain.",
+    "Caleb \"Atlas\" Mercer is the first signed player, IGL / Rifler, Founding Captain, and only confirmed Counter-Strike captain.",
+    "Owen \"Glacier\" Fletcher is signed as the Primary AWPer.",
+    "Emiliano \"MoteConHuesillo\" Navarro is signed as a Rifler.",
     "Caleb has authority to participate in future roster construction.",
     "No official match has been played.",
     "The official competitive debut is planned for February 2027.",
-    "The first signed player is the IGL.",
     "Kairos Counter-Strike Academy is the division's developmental academy.",
-    "The current narrative date is November 7, 2026.",
     "The next competitive milestone is February 2027.",
-    "Owen \"Glacier\" Fletcher is participating in a three-week evaluation and remains unsigned.",
-    "Cameron \"Mold\" Ruiz is under active scouting observation without an invitation or contract.",
-    "Emiliano \"MoteConHuesillo\" Navarro accepted an invitation, arrived in Los Angeles, began evaluation, and remains unsigned.",
     "Caleb, Owen, and Emiliano participated in the first internal Counter-Strike scrim.",
     "Internal scrims, communication, trust, decision-making, adaptability, character references, and cultural fit are part of recruitment evaluation.",
     "The Episode 49 scrim was internal and did not constitute an official match.",
     "No scrim occurred in Episode 51; Trace conducted a strategic pressure exercise.",
-    "All remaining player positions are vacant."
+    "The signed roster contains Atlas, Glacier, MoteConHuesillo, Mold, and FLACOGOMEZ.",
+    "Cameron “Mold” Ruiz is the signed Entry.",
+    "Vincente “FLACOGOMEZ” Galán is the signed Support / Anchor.",
+    "The five-player main roster is complete as of 2026-11-16.",
+    "The current narrative date is 2026-11-24.",
+    "The completed roster plays its first external private practice series against Team Liquid on 2026-11-20.",
+    "The Team Liquid series is non-official, non-public, non-ranking, and non-tournament."
   ],
   "unconfirmedDetails": [
     "The intended competition is TBD.",
     "The exact competitive milestone date in February 2027 is TBD.",
-    "The four remaining roster positions are vacant.",
-    "Future tournament invitations, qualifiers, rankings, leagues, results, achievements, and statistics are TBD."
+    "Future tournament invitations, qualifiers, rankings, leagues, results, achievements, and statistics are TBD.",
+    "All detailed contract terms, salaries, buyouts, bonuses, and agents are TBD.",
+    "Future official competition entries, results, rankings, achievements, and statistics are TBD."
   ],
   "canonNotes": [
-    "Only Caleb Mercer is on the signed roster.",
-    "Prospect records, interviews, evaluations, and non-binding invitations do not place unsigned candidates on the roster.",
     "A planned February 2027 debut is not an official match or confirmed competition entry.",
-    "Caleb Mercer fulfilled the requirement that the first signing be the IGL."
+    "Caleb Mercer fulfilled the requirement that the first signing be the IGL.",
+    "All five current main-roster players are signed.",
+    "Atlas remains Founding Captain and the only confirmed Counter-Strike captain.",
+    "The private Team Liquid practice series must never enter official match history, career statistics, rankings, or achievements."
   ]
 }

@@ -11,17 +11,23 @@
     "region": "Los Lagos Region",
     "country": "Chile"
   },
-  "dateOfBirth": "TBD",
+  "dateOfBirth": "2008-05-25",
   "ageAtCurrentStoryDate": 18,
   "game": "Counter-Strike",
   "role": "Rifler",
-  "currentTeam": null,
-  "rosterLevel": "prospect",
-  "status": "under-evaluation",
+  "currentTeam": "kairos-cs-main",
+  "rosterLevel": "main",
+  "status": "signed",
   "isCaptain": false,
   "firstAppearance": "episode-042",
-  "joinedKairos": "Not joined",
-  "contract": null,
+  "joinedKairos": "Signed by 2026-11-07; exact signing date TBD",
+  "contract": {
+    "status": "signed",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
   "occupation": "Part-time computer assembler at a local computer shop",
   "background": [
     "Mexican citizen whose father moved the family to Chile for work four years before Episode 42.",
@@ -72,7 +78,7 @@
     },
     {
       "subjectId": "owen-glacier-fletcher",
-      "type": "evaluation-teammates",
+      "type": "teammates",
       "status": "confirmed"
     },
     {
@@ -84,55 +90,79 @@
       "subjectId": "emily-chen",
       "type": "logistics",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "caleb-atlas-mercer",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "vincente-flacogomez-galan",
+      "type": "teammates",
+      "status": "confirmed"
     }
   ],
-  "careerHistory": [],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-cs-main",
+      "status": "signed",
+      "joinedKairos": "Signed by 2026-11-07; exact signing date TBD",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
   "individualTimeline": [
     "Episode 42: Emiliano first appears after South American scouting identifies him; Luk presents him to Adrian, and Trace reviews his demos.",
     "Episodes 43-46: Emiliano receives and accepts a three-week, no-obligation evaluation invitation, receives United States visa approval, and travels from Puerto Varas to Los Angeles.",
     "Episode 47: Emiliano meets Caleb Mercer and Owen Fletcher.",
     "Episode 49: Emiliano participates in his first internal Counter-Strike scrim.",
     "Episode 51: Emiliano participates in a strategic pressure exercise; no scrim is played.",
-    "Episodes 55-56: Emiliano participates in the Kairos community food-service policy vote and remains unsigned."
+    "By 2026-11-07: Emiliano is signed to Kairos Counter-Strike; the exact signing date is TBD.",
+    "Episode 68: The five-player Kairos Counter-Strike main roster is completed on 2026-11-16.",
+    "Episode 69: The completed roster holds its first full-team training session.",
+    "Episodes 71-72: The completed roster plays a private, non-official practice series against Team Liquid; the event is excluded from official statistics and achievements."
   ],
   "statistics": {},
   "achievements": [],
   "trivia": [],
   "currentState": [
-    "Under evaluation.",
-    "Three-week, no-obligation evaluation invitation accepted.",
-    "United States visa approved.",
-    "Present at the Kairos campus in Los Angeles.",
-    "No contract.",
-    "Unsigned."
+    "Signed to Kairos Counter-Strike.",
+    "Active on the main roster.",
+    "Rifler.",
+    "Contract dates, duration, and salary are TBD."
   ],
   "nicknameFirstAppearance": "episode-042",
   "confirmedFacts": [
-    "Emiliano Navarro is a canonical unsigned Counter-Strike prospect known as MoteConHuesillo.",
     "MoteConHuesillo is his only canonical nickname.",
-    "He is 18 years old at the current story date.",
     "He is a Mexican citizen currently living in Puerto Varas, Los Lagos Region, Chile.",
     "His father moved the family to Chile for work four years before Episode 42.",
-    "He is a Rifler prospect who competes primarily in Chilean and Argentine amateur events.",
     "He works part-time assembling computers at a local computer shop.",
     "He is quiet and wins rounds through positioning, timing, space control, and intelligent decisions rather than highlight plays.",
     "His first appearance is Episode 42.",
     "A tactical evaluation interest relationship with Caleb Mercer is confirmed.",
     "He accepts a three-week, no-obligation evaluation invitation.",
     "His United States visa is approved before he travels from Puerto Varas to Los Angeles.",
-    "He begins an evaluation period and remains unsigned.",
     "He meets Caleb Mercer and establishes tactical compatibility and mutual respect.",
     "He participates in his first internal Counter-Strike scrim.",
-    "No contract has been signed."
+    "Emiliano Navarro is a signed Kairos Counter-Strike player known as MoteConHuesillo.",
+    "His canonical role is Rifler.",
+    "He is 18 years old on 2026-11-24.",
+    "His date of birth is 2008-05-25.",
+    "He is signed to the Kairos Counter-Strike main roster."
   ],
   "unconfirmedDetails": [
-    "Date of birth and Mexican home town are TBD.",
+    "Mexican home town is TBD.",
     "Previous teams and detailed tournament history are TBD.",
     "Recruitment outcome, statistics, and achievements are TBD."
   ],
   "canonNotes": [
     "MoteConHuesillo is the canonical nickname and replaces all drafting placeholders.",
     "Do not expand Emiliano's biography beyond approved facts.",
-    "Prospect status does not constitute roster membership."
+    "His earlier evaluation status remains historical chronology; his current status is signed."
   ]
 }

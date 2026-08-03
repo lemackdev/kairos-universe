@@ -1,0 +1,24 @@
+{
+  "id": "noah-rkn-bennett-kairos-lol-main",
+  "slug": "noah-rkn-bennett-kairos-lol-main",
+  "continuityId": "kairos-universe",
+  "playerId": "noah-rkn-bennett",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-main",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-top",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-noah-rkn-bennett",
+    "source-team-kairos-lol-main"
+  ],
+  "canonStatus": "confirmed"
+}

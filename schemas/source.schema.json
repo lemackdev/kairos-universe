@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/source.schema.json",
+  "title": "Source Registry Record",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "sourceType",
+    "title",
+    "path",
+    "locator",
+    "publicLabel",
+    "originType",
+    "canonStatus",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "continuityId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "sourceType": {
+      "enum": [
+        "episode",
+        "normalized-episode-source",
+        "canon-document",
+        "structured-canon-record",
+        "real-world-reference",
+        "official-announcement",
+        "interview",
+        "private-internal-record",
+        "version-record"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "locator": {
+      "type": ["string", "null"]
+    },
+    "publicLabel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "originType": {
+      "$ref": "common.schema.json#/$defs/originType"
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-thinkcard-kairos-strategic-coach",
+  "slug": "source-staff-thinkcard-kairos-strategic-coach",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Thomas Slotkin staff record",
+  "path": "data/coaches/thinkcard-kairos-strategic-coach.json",
+  "locator": null,
+  "publicLabel": "Thomas \"Thinkcard\" Slotkin canonical staff record",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "The Kairos role is fictional-universe canon."
+  ]
+}

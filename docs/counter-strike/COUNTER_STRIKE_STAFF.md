@@ -1,104 +1,51 @@
-# Counter-Strike Staff
+# Kairos Counter-Strike Staff
 
-**Canon status:** CONFIRMED at the stated level
+## Current Structure
 
-## Main Team
+| ID | Staff member | Current role | Team | Status | Effective date |
+| --- | --- | --- | --- | --- | --- |
+| lukas-luk-novak | Lukas "Luk" Novak | Head Coach | Main | Active | TBD |
+| jake-stewie2k-yip | Jake "Stewie2K" Yip | Head Coach | Academy | Active | 23/11/2026 |
+| ethan-trace-miller | Ethan "Trace" Miller | Development Coach | Academy and development system | Active | 23/11/2026 |
+| emily-chen | Emily Chen | Analytics, performance, and operational support | Cross-divisional support | Active | TBD |
 
-| Stable ID or description | Role | Status |
-| --- | --- | --- |
-| `lukas-luk-novak` | Head Coach | Active |
-| Shared analysts | Analytical support | Existence confirmed; names and exact structure TBD |
-| Shared sports psychology resources | Sports psychology support | Existence confirmed; names and exact structure TBD |
-| Shared performance staff | Performance support | Existence confirmed; names and exact structure TBD |
-| American Assistant Coach | Possible future role | UNCONFIRMED and not hired |
+## Luk
 
-The main-team structure is strategically leaner than the League of Legends
-division. The possible American Assistant Coach is not a current staff member,
-and no name may be assigned to that role without future confirmation.
+Luk leads the complete five-player main roster and supports the staff-led
+Academy system without delegating candidate selection to main-team players.
 
-## Lukas "Luk" Novak
+## Stewie2K
 
-Lukas Novak (`lukas-luk-novak`) is the active Head Coach of
-[Kairos Counter-Strike](MAIN_TEAM.md). He is a fictional Slovenian character
-and a recently retired European Tier 2 Counter-Strike player.
+Jake "Stewie2K" Yip is a real-world Counter-Strike figure appearing in a
+fictional Kairos role. Episodes 63-64 contain exploratory discussion only. He
+accepts and becomes active Academy Head Coach on 23/11/2026 in Episode 74.
 
-Confirmed characteristics and responsibilities:
+No contract length, salary, incentive, equity, ownership, or announcement metric
+is confirmed.
 
-- He is calm, analytical, and development-focused.
-- He understands the European development system.
-- He is not presented as a former elite superstar.
-- He defines the overall Kairos Counter-Strike philosophy.
-- He mentors Ethan "Trace" Miller.
-- He treats the IGL as the first structural roster piece.
-- He is Caleb "Atlas" Mercer's Head Coach and tactical evaluator.
-- He participates in Caleb's signing.
-- He evaluates Cameron Ruiz.
-- He presents Emiliano Navarro to Adrian Vale.
-- He leads scouting investigations and reference checks.
-- He coordinates tactical evaluations.
-- He researches future prospects without identifying unapproved candidates.
-- He prioritizes long-term player growth over early rankings.
+## Trace
 
-His first confirmed appearance is Episode 25. His exact age, birth date, city,
-former teams, playing role, statistics, retirement date, Kairos join date,
-contract, and salary are **TBD**.
+Trace historically builds and provisionally leads the Academy structure. On
+23/11/2026 he becomes Development Coach. This is not a firing, removal, or
+punitive demotion.
 
-## Academy
+Confirmed responsibilities:
 
-| Stable ID or description | Role | Status |
-| --- | --- | --- |
-| `ethan-trace-miller` | Head Coach | Active |
-| Shared analytical and performance resources | Cross-team support | Existence confirmed; names and exact structure TBD |
-| `lukas-luk-novak` | Mentor to Trace | Confirmed |
+- Development methodology.
+- Individual player development.
+- Integration between Academy and main team.
+- Support for the Academy coaching structure.
+- Development of players and coaches.
 
-## Ethan "Trace" Miller
+## Emily
 
-Ethan Miller (`ethan-trace-miller`) is the active Head Coach of
-[Kairos Counter-Strike Academy](ACADEMY_TEAM.md). He is a fictional American
-character and a former American regional Counter-Strike player.
+Emily supports logistics, family approval, education safeguards, transport,
+scouting administration, media logistics, and private-practice review. Her
+exact title and reporting line remain TBD.
 
-Confirmed development role:
+## Records
 
-- He originally expected to become an assistant coach.
-- He was instead appointed Academy Head Coach.
-- He is Luk's pupil.
-- Kairos is developing him as a future elite coach.
-- He translates Luk's philosophy into academy training.
-- He learns roster construction, player development, and tactical preparation.
-- He develops his own coaching identity over time.
-- He prepares academy players for the main team.
-- He is a tactical mentor to Caleb "Atlas" Mercer.
-- He participates in Cameron Ruiz's evaluation.
-- He reviews Emiliano Navarro's demos.
-- He conducts tactical workshops with Caleb, Owen, and Emiliano.
-- He introduces non-mechanical evaluations focused on communication, teamwork,
-  and adaptability.
-- He evaluates Owen and Emiliano.
-- He oversees the first internal Counter-Strike scrim.
-
-His first confirmed appearance is Episode 25. His exact age, birth date, city,
-former teams, playing role, statistics, retirement date, Kairos join date,
-contract, salary, personality, and detailed coaching philosophy are **TBD**.
-
-## Emily Chen
-
-Emily coordinates international travel, visa processes, and player logistics
-for Owen and Emiliano. She also collects external references for scouting
-investigations. Her League analytics and performance role remains unchanged;
-her exact cross-divisional title and reporting line remain **TBD**.
-
-## Canon Boundaries
-
-- No additional staff names are confirmed.
-- No staff salary, contract value, or exact contract date is confirmed.
-- No former organization, Major appearance, detailed achievement, or coaching
-  history is confirmed for Luk or Trace.
-- Caleb "Atlas" Mercer is the only signed player on the main roster.
-
-## Related Records
-
-- [Lukas "Luk" Novak data](../../data/coaches/lukas-luk-novak.json)
-- [Ethan "Trace" Miller data](../../data/coaches/ethan-trace-miller.json)
-- [Episode 25](../../data/episodes/episode-025.json)
-- [Counter-Strike relationships](COUNTER_STRIKE_RELATIONSHIPS.md)
-- [Scouting philosophy](SCOUTING_PHILOSOPHY.md)
+- [Luk](../../data/coaches/lukas-luk-novak.json)
+- [Stewie2K](../../data/coaches/jake-stewie2k-yip.json)
+- [Trace](../../data/coaches/ethan-trace-miller.json)
+- [Emily](../../data/coaches/emily-chen.json)

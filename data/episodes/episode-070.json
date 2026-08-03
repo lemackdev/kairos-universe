@@ -1,0 +1,125 @@
+{
+  "id": "episode-070",
+  "slug": "episode-070",
+  "episodeNumber": 70,
+  "title": "Sem Atalhos",
+  "historicalTitle": "Sem Atalhos",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-18",
+  "datePrecision": "exact",
+  "publicationOrder": 70,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Counter-Strike building, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Dust2 visits the Kairos campus for editorial coverage of the completed Counter-Strike project, its youth-development philosophy, and its planned February debut.",
+  "keyEvents": [
+    "Dust2 conducts an editorial interview at the Kairos campus.",
+    "Adrian, Luk, and all five main players participate.",
+    "Atlas confirms the planned February competitive debut without naming an opponent or competition.",
+    "Adrian confirms that main-roster players do not recruit Academy candidates.",
+    "The Academy remains empty at the time of the interview."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "The five players explain their roles and developing identity publicly."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [
+    {
+      "id": "dust2-kairos-counter-strike-interview-2026-11-18",
+      "type": "editorial-media-interview",
+      "date": "2026-11-18",
+      "status": "confirmed",
+      "outlet": "Dust2",
+      "participants": [
+        "adrian-elias-vale",
+        "lukas-luk-novak",
+        "caleb-atlas-mercer",
+        "owen-glacier-fletcher",
+        "emiliano-moteconhuesillo-navarro",
+        "cameron-mold-ruiz",
+        "vincente-flacogomez-galan"
+      ],
+      "summary": "Dust2 visits the Kairos campus for editorial coverage of the fictional Kairos Counter-Strike 2 project.",
+      "sponsorship": false,
+      "fictionalInvolvement": true,
+      "canonNotes": [
+        "The event is editorial coverage, not sponsorship or commercial partnership.",
+        "No view count, publication revenue, contractual term, or sentiment metric is canonical."
+      ]
+    }
+  ],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-069"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [
+    "Dust2"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 70 — Sem Atalhos",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Dust2 conducts an editorial interview at the Kairos campus.",
+    "Adrian, Luk, and all five main players participate.",
+    "Atlas confirms the planned February competitive debut without naming an opponent or competition.",
+    "Adrian confirms that main-roster players do not recruit Academy candidates.",
+    "The Academy remains empty at the time of the interview."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

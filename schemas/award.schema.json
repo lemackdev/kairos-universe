@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/award.schema.json",
+  "title": "Award Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "recipientId", "name", "date", "datePrecision", "competitionId", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "recipientId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "name": { "type": "string", "minLength": 1 },
+    "date": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "datePrecision": { "$ref": "common.schema.json#/$defs/datePrecision" },
+    "competitionId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

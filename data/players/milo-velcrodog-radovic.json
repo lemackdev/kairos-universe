@@ -1,0 +1,94 @@
+{
+  "id": "milo-velcrodog-radovic",
+  "slug": "milo-velcrodog-radovic",
+  "realName": "Milo Radović",
+  "nickname": "velcrodog",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "Sacramento",
+  "currentResidence": {
+    "city": "Sacramento",
+    "region": "California",
+    "country": "United States"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 16,
+  "game": "Counter-Strike",
+  "role": "TBD",
+  "currentTeam": "kairos-cs-academy",
+  "rosterLevel": "academy",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-073",
+  "joinedKairos": "Selected on 2026-11-21",
+  "contract": null,
+  "background": [
+    "American player from a Serbian-American family.",
+    "Lives in Sacramento, California."
+  ],
+  "personality": "Energetic, outspoken, generous with teammates, and sometimes disorganized.",
+  "playstyle": "Permanent role TBD; he brings aggressive energy but is still learning structure and timing.",
+  "strengths": [
+    "Competitive energy.",
+    "Willingness to support teammates with equipment.",
+    "Protective team behavior."
+  ],
+  "weaknesses": [
+    "Can become disorganized.",
+    "Can act too aggressively without confirmation."
+  ],
+  "inspirations": [],
+  "objectives": [
+    "Develop within the Kairos Counter-Strike Academy."
+  ],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 73: Milo is selected as one of the first three Kairos Counter-Strike Academy players.",
+    "Episode 74: Milo begins working under Head Coach Stewie2K with no permanent position assigned."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "The nickname velcrodog must remain lowercase.",
+    "The nickname originated after Milo saw a dog with a piece of Velcro stuck in its fur when he was eleven."
+  ],
+  "currentState": [
+    "Active Kairos Counter-Strike Academy player.",
+    "Training and pre-debut.",
+    "Permanent position TBD.",
+    "No captaincy or IGL designation."
+  ],
+  "confirmedFacts": [
+    "Milo Radović is an American Counter-Strike Academy player known as velcrodog.",
+    "He is 16 years old on his 2026-11-21 selection date.",
+    "He lives in Sacramento, California.",
+    "He comes from a Serbian-American family.",
+    "He is selected for Kairos Counter-Strike Academy in Episode 73.",
+    "His permanent playing position is not assigned.",
+    "He is not the captain or IGL."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth is TBD.",
+    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "Contract status and terms are TBD.",
+    "Previous teams, official statistics, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "Preserve the diacritic in Radović where supported.",
+    "Do not capitalize or alter the nickname velcrodog.",
+    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy."
+  ]
+}

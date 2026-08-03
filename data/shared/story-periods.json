@@ -13,5 +13,15 @@
     "id": "story-period-early-november-2026",
     "name": "Early November 2026",
     "value": "early-november-2026"
+  },
+  {
+    "id": "story-period-mid-november-2026",
+    "name": "Mid-November 2026",
+    "value": "mid-november-2026"
+  },
+  {
+    "id": "story-period-late-november-2026",
+    "name": "Late November 2026",
+    "value": "late-november-2026"
   }
 ]

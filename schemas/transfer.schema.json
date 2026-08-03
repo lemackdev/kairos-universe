@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/transfer.schema.json",
+  "title": "Transfer Event Record",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "personId",
+    "fromOrganizationId",
+    "fromTeamId",
+    "toOrganizationId",
+    "toTeamId",
+    "transferType",
+    "announcedDate",
+    "effectiveDate",
+    "datePrecision",
+    "status",
+    "fee",
+    "sourceIds",
+    "canonStatus"
+  ],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "personId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "fromOrganizationId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "fromTeamId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "toOrganizationId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "toTeamId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "transferType": {
+      "enum": [
+        "permanent-transfer",
+        "free-agent-signing",
+        "release",
+        "loan",
+        "loan-return",
+        "promotion",
+        "demotion",
+        "benching",
+        "activation",
+        "retirement",
+        "role-transition",
+        "staff-appointment"
+      ]
+    },
+    "announcedDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "effectiveDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "datePrecision": { "$ref": "common.schema.json#/$defs/datePrecision" },
+    "status": { "enum": ["draft", "rumored", "planned", "confirmed", "completed", "cancelled"] },
+    "fee": { "type": ["string", "number", "null"] },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

@@ -28,8 +28,25 @@
     "slug": {
       "$ref": "common.schema.json#/$defs/stableId"
     },
+    "continuityId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "gameId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
     "game": {
       "$ref": "common.schema.json#/$defs/knownGame"
+    },
+    "matchType": {
+      "enum": [
+        "official-match",
+        "showmatch",
+        "private-scrim",
+        "public-scrim",
+        "evaluation-match",
+        "internal-scrim",
+        "practice-block"
+      ]
     },
     "status": {
       "$ref": "common.schema.json#/$defs/knownStatus"
@@ -54,6 +71,47 @@
     "scheduledDate": {
       "$ref": "common.schema.json#/$defs/stringOrTbd"
     },
+    "date": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "datePrecision": {
+      "$ref": "common.schema.json#/$defs/datePrecision"
+    },
+    "teamAId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "teamBId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "bestOf": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "const": "TBD"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "teamAScore": {
+      "$ref": "common.schema.json#/$defs/nonNegativeIntegerOrTbd"
+    },
+    "teamBScore": {
+      "$ref": "common.schema.json#/$defs/nonNegativeIntegerOrTbd"
+    },
+    "winnerTeamId": {
+      "$ref": "common.schema.json#/$defs/nullableIdOrTbd"
+    },
+    "visibility": {
+      "enum": ["public", "private", "internal"]
+    },
+    "officialStatus": {
+      "enum": ["official", "unofficial", "practice"]
+    },
     "result": {
       "oneOf": [
         {
@@ -72,6 +130,12 @@
     },
     "sources": {
       "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "sourceIds": {
+      "$ref": "common.schema.json#/$defs/sourceIdArray"
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
     },
     "confirmedFacts": {
       "$ref": "common.schema.json#/$defs/canonTextArray"

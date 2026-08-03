@@ -1,0 +1,118 @@
+{
+  "id": "episode-063",
+  "slug": "episode-063",
+  "episodeNumber": 63,
+  "title": "O Próximo Passo",
+  "historicalTitle": "O Próximo Passo",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-11",
+  "datePrecision": "exact",
+  "publicationOrder": 63,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus meeting room, Los Angeles, California",
+    "Kairos main-team training area, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "jake-stewie2k-yip"
+  ],
+  "firstAppearances": [
+    "jake-stewie2k-yip"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos defines a 15–16-year-old Academy development profile, keeps the main roster separate from recruiting, and begins exploratory discussion of Stewie2K as a future coach.",
+  "keyEvents": [
+    "Academy recruitment focuses on 15- and 16-year-old developmental prospects.",
+    "Main-roster players train separately from Academy recruitment decisions.",
+    "Stewie2K is discussed as a possible future coach, with no offer or appointment.",
+    "Owen reports that Arthur intends to move near the campus in early 2027, subject to the existing safety and medical boundaries."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Kairos defines the Academy as a long-term development project."
+  ],
+  "relationshipDevelopments": [
+    "Owen and Arthur remain connected through family support and a planned future move."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [
+    {
+      "id": "arthur-planned-move-near-campus",
+      "date": "TBD",
+      "status": "planned",
+      "summary": "Arthur intends to move near the Kairos campus in early 2027, subject to safe travel and required medical approval."
+    }
+  ],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-062"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [
+    "Jake “Stewie2K” Yip"
+  ],
+  "retcons": [
+    {
+      "id": "episode-063-academy-recruitment-boundary",
+      "status": "retconned",
+      "description": "Main-roster Academy-recruitment participation is reassigned to staff and scouting personnel.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 63 — O Próximo Passo",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Academy recruitment focuses on 15- and 16-year-old developmental prospects.",
+    "Main-roster players train separately from Academy recruitment decisions.",
+    "Stewie2K is discussed as a possible future coach, with no offer or appointment.",
+    "Owen reports that Arthur intends to move near the campus in early 2027, subject to the existing safety and medical boundaries."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

@@ -83,21 +83,24 @@ negotiation details are **TBD**.
 - No additional candidate names may be invented.
 - No individual stage result may be invented.
 - No trial result may be invented.
-- Only Caleb's confirmed signed status may be treated as a signing.
+- Atlas, Glacier, MoteConHuesillo, Mold, and FLACOGOMEZ are confirmed signed
+  players. Caleb remains the first signing and Founding Captain.
 - Connor "North" Sullivan is retconned and cannot enter this workflow.
-- The criteria for an exceptional 19-year-old candidate are **TBD**.
+- No main-roster player may be older than 18.
 - Detailed assessments, stage outcomes, and contract terms remain **TBD**.
 
 ## Current Pipeline
 
 - **Signed:** Caleb "Atlas" Mercer, IGL and Founding Captain.
-- **Evaluation:** Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo"
-  Navarro, no contracts.
-- **Scouted and unsigned:** Cameron "Mold" Ruiz, no invitation or contract.
+- **Signed:** Owen "Glacier" Fletcher, Primary AWPer, and Emiliano
+  "MoteConHuesillo" Navarro, Rifler.
+- **Signed 16/11/2026:** Cameron "Mold" Ruiz, Entry.
+- **Signed 16/11/2026:** Vincente "FLACOGOMEZ" Galán, Support / Anchor.
 
 Caleb now leads tactical sessions, participates in teammate evaluation, and
 acts as captain in practice. The current process weighs communication, trust,
 decision-making, adaptability, and character references alongside gameplay.
+The main-roster pipeline is complete at the Episode 75 endpoint.
 
 ## Related Documents
 

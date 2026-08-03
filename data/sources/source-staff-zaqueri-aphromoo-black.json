@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-zaqueri-aphromoo-black",
+  "slug": "source-staff-zaqueri-aphromoo-black",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Zaqueri Black staff record",
+  "path": "data/coaches/zaqueri-aphromoo-black.json",
+  "locator": null,
+  "publicLabel": "Zaqueri \"Aphromoo\" Black canonical staff record",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "The Kairos role is fictional-universe canon."
+  ]
+}

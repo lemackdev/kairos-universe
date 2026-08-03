@@ -1,0 +1,92 @@
+{
+  "id": "evan-soupcrime-nakamura",
+  "slug": "evan-soupcrime-nakamura",
+  "realName": "Evan Nakamura",
+  "nickname": "soupcrime",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "San Jose",
+  "currentResidence": {
+    "city": "San Jose",
+    "region": "California",
+    "country": "United States"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 15,
+  "game": "Counter-Strike",
+  "role": "TBD",
+  "currentTeam": "kairos-cs-academy",
+  "rosterLevel": "academy",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-073",
+  "joinedKairos": "Selected on 2026-11-21",
+  "contract": null,
+  "background": [
+    "American player from a Japanese-American family.",
+    "Lives in San Jose, California."
+  ],
+  "personality": "Reserved, observant, and concise.",
+  "playstyle": "Permanent role TBD; he notices tactical details and communicates selective corrections.",
+  "strengths": [
+    "Reading tactical details.",
+    "Recognizing utility value.",
+    "Concise communication.",
+    "Above-average mechanics for his age."
+  ],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [
+    "Develop within the Kairos Counter-Strike Academy."
+  ],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 73: Evan is selected as one of the first three Kairos Counter-Strike Academy players.",
+    "Episode 74: Evan begins working under Head Coach Stewie2K with no permanent position assigned."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "The nickname soupcrime must remain lowercase.",
+    "Evan remembers the nickname's origin but intentionally does not disclose it."
+  ],
+  "currentState": [
+    "Active Kairos Counter-Strike Academy player.",
+    "Training and pre-debut.",
+    "Permanent position TBD.",
+    "No captaincy or IGL designation."
+  ],
+  "confirmedFacts": [
+    "Evan Nakamura is an American Counter-Strike Academy player known as soupcrime.",
+    "He is 15 years old on his 2026-11-21 selection date.",
+    "He lives in San Jose, California.",
+    "He comes from a Japanese-American family.",
+    "He is selected for Kairos Counter-Strike Academy in Episode 73.",
+    "His permanent playing position is not assigned.",
+    "He is not the captain or IGL."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth is TBD.",
+    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "Contract status and terms are TBD.",
+    "Previous teams, official statistics, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "Do not capitalize or alter the nickname soupcrime.",
+    "Do not disclose or invent the nickname's origin.",
+    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy."
+  ]
+}

@@ -4,6 +4,8 @@
 
 Episodes 30 through 56 are covered separately by
 [Source Normalization 030-056](SOURCE_NORMALIZATION_030_056.md).
+Episodes 57 through 75 are covered by
+[Episodes 057-075 Source Normalization](EPISODES_057_075_NORMALIZATION.md).
 
 ## Result
 
@@ -88,3 +90,17 @@ role remains **TBD**. Unmentioned Academy player first appearances also remain
 Historical source recovery is complete. The repository now preserves both the
 immutable archive and the normalized living canon without silently modifying
 either.
+
+## Episodes 57-75 Source Package
+
+- Supplied DOCX: preserved byte-for-byte under `archive/episode-sources/`.
+- Episodes found: 57 through 75.
+- Structured records: 19.
+- Missing episode numbers: none.
+- Searchable source:
+  [KAIROS_EPISODES_057_075_NORMALIZED.md](sources/KAIROS_EPISODES_057_075_NORMALIZED.md).
+- Material corrections: documented individually in
+  [EPISODES_057_075_NORMALIZATION.md](EPISODES_057_075_NORMALIZATION.md).
+
+The source package advances current canon to Episode 75 on 24/11/2026 without
+altering the Episodes 1-29 historical PDF or the Episodes 30-56 source package.

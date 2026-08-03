@@ -1,0 +1,15 @@
+{
+  "id": "source-document-league-mentors",
+  "slug": "source-document-league-mentors",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "League mentors canon document",
+  "path": "docs/league/LEAGUE_MENTORS.md",
+  "locator": null,
+  "publicLabel": "League mentorship canon",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Real-world figures appear in fictional Kairos mentorship roles."
+  ]
+}

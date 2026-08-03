@@ -48,7 +48,7 @@ continues living in Mackenzie, British Columbia.
 
 ## Food-Service Policy
 
-On November 7, 2026, the 143-person Kairos community approved a restricted
+On 07/11/2026, the 143-person Kairos community approved a restricted
 food-service proposal by 126 votes to 17. In-N-Out Burger, Chipotle Mexican
 Grill, and
 Chick-fil-A were selected for invitations and negotiations only. No restaurant

@@ -1,0 +1,24 @@
+{
+  "id": "daniel-moss-reyes-kairos-lol-main",
+  "slug": "daniel-moss-reyes-kairos-lol-main",
+  "continuityId": "kairos-universe",
+  "playerId": "daniel-moss-reyes",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-main",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-support",
+  "rosterStatus": "active",
+  "isCaptain": true,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-daniel-moss-reyes",
+    "source-team-kairos-lol-main"
+  ],
+  "canonStatus": "confirmed"
+}

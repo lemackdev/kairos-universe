@@ -5,14 +5,14 @@
     "value": "analytics-and-performance"
   },
   {
-    "id": "relationship-type-chief-executive",
-    "name": "Chief executive",
-    "value": "chief-executive"
-  },
-  {
     "id": "relationship-type-captain-relationship",
     "name": "Captain relationship",
     "value": "captain-relationship"
+  },
+  {
+    "id": "relationship-type-chief-executive",
+    "name": "Chief executive",
+    "value": "chief-executive"
   },
   {
     "id": "relationship-type-coach",
@@ -20,9 +20,9 @@
     "value": "coach"
   },
   {
-    "id": "relationship-type-evaluator",
-    "name": "Evaluator",
-    "value": "evaluator"
+    "id": "relationship-type-development-coach",
+    "name": "Development coach",
+    "value": "development-coach"
   },
   {
     "id": "relationship-type-evaluation-teammates",
@@ -30,14 +30,14 @@
     "value": "evaluation-teammates"
   },
   {
+    "id": "relationship-type-evaluator",
+    "name": "Evaluator",
+    "value": "evaluator"
+  },
+  {
     "id": "relationship-type-executive",
     "name": "Executive",
     "value": "executive"
-  },
-  {
-    "id": "relationship-type-founder",
-    "name": "Founder",
-    "value": "founder"
   },
   {
     "id": "relationship-type-first-meeting-completed",
@@ -45,19 +45,24 @@
     "value": "first-meeting-completed"
   },
   {
+    "id": "relationship-type-founder",
+    "name": "Founder",
+    "value": "founder"
+  },
+  {
     "id": "relationship-type-general-manager",
     "name": "General manager",
     "value": "general-manager"
   },
   {
-    "id": "relationship-type-growing-trust",
-    "name": "Growing trust",
-    "value": "growing-trust"
-  },
-  {
     "id": "relationship-type-grandfather",
     "name": "Grandfather",
     "value": "grandfather"
+  },
+  {
+    "id": "relationship-type-growing-trust",
+    "name": "Growing trust",
+    "value": "growing-trust"
   },
   {
     "id": "relationship-type-head-coach",
@@ -75,14 +80,14 @@
     "value": "logistics"
   },
   {
-    "id": "relationship-type-mentor",
-    "name": "Mentor",
-    "value": "mentor"
-  },
-  {
     "id": "relationship-type-medical-provider",
     "name": "Medical provider",
     "value": "medical-provider"
+  },
+  {
+    "id": "relationship-type-mentor",
+    "name": "Mentor",
+    "value": "mentor"
   },
   {
     "id": "relationship-type-mutual-respect",
@@ -105,14 +110,14 @@
     "value": "prospective-teammates"
   },
   {
-    "id": "relationship-type-recruitment-target",
-    "name": "Recruitment target",
-    "value": "recruitment-target"
-  },
-  {
     "id": "relationship-type-recruitment-in-progress",
     "name": "Recruitment in progress",
     "value": "recruitment-in-progress"
+  },
+  {
+    "id": "relationship-type-recruitment-target",
+    "name": "Recruitment target",
+    "value": "recruitment-target"
   },
   {
     "id": "relationship-type-role-mentor",
@@ -135,14 +140,14 @@
     "value": "subsidiary"
   },
   {
-    "id": "relationship-type-tactical-evaluation-interest",
-    "name": "Tactical evaluation interest",
-    "value": "tactical-evaluation-interest"
-  },
-  {
     "id": "relationship-type-tactical-compatibility",
     "name": "Tactical compatibility",
     "value": "tactical-compatibility"
+  },
+  {
+    "id": "relationship-type-tactical-evaluation-interest",
+    "name": "Tactical evaluation interest",
+    "value": "tactical-evaluation-interest"
   },
   {
     "id": "relationship-type-tactical-evaluator",
@@ -158,5 +163,15 @@
     "id": "relationship-type-tactical-partnership",
     "name": "Tactical partnership",
     "value": "tactical-partnership"
+  },
+  {
+    "id": "relationship-type-teammates",
+    "name": "Teammates",
+    "value": "teammates"
+  },
+  {
+    "id": "relationship-type-twin-brother",
+    "name": "Twin brother",
+    "value": "twin-brother"
   }
 ]

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/statistic.schema.json",
+  "title": "Contextual Statistic Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "subjectId", "contextType", "contextId", "visibility", "officialStatus", "values", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "subjectId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "contextType": { "enum": ["match", "game", "map", "season", "competition", "team-tenure", "career"] },
+    "contextId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "visibility": { "enum": ["public", "private", "internal"] },
+    "officialStatus": { "enum": ["official", "unofficial", "practice", "projected"] },
+    "values": { "type": "object" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

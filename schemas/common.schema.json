@@ -14,6 +14,35 @@
       "minLength": 1,
       "description": "A confirmed string value or the literal TBD."
     },
+    "dateOrTbd": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+        },
+        {
+          "const": "TBD"
+        }
+      ],
+      "description": "An ISO 8601 calendar date or the literal TBD."
+    },
+    "dateOrTbdOrNull": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/dateOrTbd"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "An ISO 8601 calendar date, the literal TBD, or null."
+    },
+    "datePrecision": {
+      "enum": ["exact", "month", "year", "relative", "unknown"]
+    },
+    "originType": {
+      "enum": ["fictional", "real-world-reference"]
+    },
     "stringArray": {
       "type": "array",
       "items": {
@@ -26,6 +55,14 @@
       "items": {
         "$ref": "common.schema.json#/$defs/stableId"
       },
+      "uniqueItems": true
+    },
+    "sourceIdArray": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/stableId"
+      },
+      "minItems": 1,
       "uniqueItems": true
     },
     "canonTextArray": {
@@ -48,6 +85,7 @@
         "ADC Mentor",
         "Analytics and Performance",
         "AWPer",
+        "Development Coach",
         "Executive",
         "Entry",
         "Founder and CEO",
@@ -55,13 +93,17 @@
         "Head Coach",
         "Head Coach and Support Mentor",
         "IGL",
+        "IGL / Rifler",
         "Jungle",
         "Jungle Mentor",
         "Mid",
         "Mid Mentor",
+        "Primary AWPer",
         "Rifler",
+        "Rifler / Lurker",
         "Strategic Coach",
         "Support",
+        "Support / Anchor",
         "TBD",
         "Top",
         "Top Mentor"
@@ -161,6 +203,8 @@
             "early-2026",
             "late-october-2026",
             "early-november-2026",
+            "mid-november-2026",
+            "late-november-2026",
             "TBD"
           ]
         },
@@ -206,6 +250,7 @@
           "enum": [
             "analytics-and-performance",
             "coach",
+            "development-coach",
             "evaluator",
             "executive",
             "founder",
@@ -234,6 +279,8 @@
             "tactical-evaluator",
             "tactical-mentor",
             "tactical-partnership",
+            "teammates",
+            "twin-brother",
             "grandfather",
             "medical-provider"
           ]

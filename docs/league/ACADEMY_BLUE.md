@@ -7,13 +7,15 @@
 
 ## Roster
 
-| Player | Stable ID | Role | Age | City |
-| --- | --- | --- | --- | --- |
-| Connor "Mako" Sullivan | `connor-mako-sullivan` | TBD | TBD | TBD |
-| Jacob "xNox" Price | `jacob-xnox-price` | TBD | TBD | TBD |
-| Owen "Kite" Hughes | `owen-kite-hughes` | Mid | TBD | TBD |
-| Tyler "Murmur" Grant | `tyler-murmur-grant` | TBD | TBD | TBD |
-| Lucas "Grit" Foster | `lucas-grit-foster` | TBD | TBD | TBD |
+| Player | Stable ID | Role | Date of birth | Age | City |
+| --- | --- | --- | --- | ---: | --- |
+| Connor "Mako" Sullivan | `connor-mako-sullivan` | Top | 16/12/2007 | 18 | TBD |
+| Jacob "xNox" Price | `jacob-xnox-price` | Jungle | 08/04/2009 | 17 | TBD |
+| Owen "Kite" Hughes | `owen-kite-hughes` | Mid | 27/02/2008 | 18 | TBD |
+| Tyler "Murmur" Grant | `tyler-murmur-grant` | ADC | 19/08/2009 | 17 | TBD |
+| Lucas "Grit" Foster | `lucas-grit-foster` | Support | 05/11/2008 | 18 | TBD |
+
+Ages are calculated on 24/11/2026.
 
 Player records:
 
@@ -40,25 +42,27 @@ entry, qualification, or participation.
 Academy Blue belongs to the same development system as the main team and
 Academy White. It exists for genuine player progression.
 
-## Unknown roster details
+## Confirmed positional structure
 
-The following details are **TBD** for all five players unless stated below:
+Academy Blue is a complete positional roster: Mako is Top, xNox is Jungle,
+Kite is Mid, Murmur is ADC, and Grit is Support. Kite's Mid role remains the
+role established previously; the other four roles are confirmed by the current
+canon update.
 
-- Age
+The following details remain **TBD** for all five players:
+
 - City
 - Nationality
-- Date of birth
 - Personality and playstyle
 - Contract and salary
 - Statistics and achievements
 - Exact Kairos join date
 - Captain status
 
-Roles must not be inferred from the order in which names appear. Historical
-Episode 22 explicitly identifies Kite as Mid. Mako also first appears in
-Episode 22, but the episode does not explicitly state Mako's role. Jacob
-"xNox" Price, Tyler "Murmur" Grant, and Lucas "Grit" Foster still have
-**TBD** first appearances and roles.
+Historical Episode 22 explicitly identifies Kite as Mid. Mako also first
+appears in Episode 22. Jacob "xNox" Price, Tyler "Murmur" Grant, and Lucas
+"Grit" Foster still have **TBD** first appearances. The captain remains
+**TBD**.
 
 ## Connor "Mako" Sullivan constraint
 
@@ -75,7 +79,9 @@ the exact February 2027 debut date are **TBD**.
 
 Internal Academy performance continues improving. Aphromoo's expanded
 mentorship makes communication and team culture measurable development goals.
-No roster change or official result is created.
+Episode 75 establishes consistency and meaningful internal pressure on the
+main roster as Academy Blue's December Phase Two focus. No roster change,
+promotion, demotion, benching, replacement, or official result is created.
 
 ## Related documents
 

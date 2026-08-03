@@ -1,0 +1,115 @@
+{
+  "id": "episode-073",
+  "slug": "episode-073",
+  "episodeNumber": 73,
+  "title": "Três Cadeiras",
+  "historicalTitle": "Três Cadeiras",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-21",
+  "datePrecision": "exact",
+  "publicationOrder": 73,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Counter-Strike Academy room, Los Angeles, California",
+    "Kairos campus auditorium, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "firstAppearances": [
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos selects soupcrime, velcrodog, and parkinglot as the first three Counter-Strike Academy players without assigning positions, captaincy, or an IGL.",
+  "keyEvents": [
+    "Evan “soupcrime” Nakamura, Milo “velcrodog” Radović, and Zayn “parkinglot” Haddad are selected.",
+    "All three are American minors living in California.",
+    "Family approval and education safeguards are part of selection.",
+    "No permanent position, captain, or IGL is assigned.",
+    "The main roster trains separately and does not participate in selection."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "The three selected players begin learning together without fixed identities."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [
+    "soupcrime joins Kairos Counter-Strike Academy.",
+    "velcrodog joins Kairos Counter-Strike Academy.",
+    "parkinglot joins Kairos Counter-Strike Academy."
+  ],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Kairos Counter-Strike Academy gains its first three players."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-072"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 73 — Três Cadeiras",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Evan “soupcrime” Nakamura, Milo “velcrodog” Radović, and Zayn “parkinglot” Haddad are selected.",
+    "All three are American minors living in California.",
+    "Family approval and education safeguards are part of selection.",
+    "No permanent position, captain, or IGL is assigned.",
+    "The main roster trains separately and does not participate in selection."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

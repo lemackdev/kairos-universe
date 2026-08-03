@@ -98,6 +98,30 @@ derivative and must not override either source.
 See [Source Normalization 030-056](../docs/episodes/SOURCE_NORMALIZATION_030_056.md)
 for the controlled correction log.
 
+## Episodes 57-75 Source
+
+### Preserved DOCX
+
+- **File:** [KAIROS_EPISODES_057_075_SOURCE.docx](episode-sources/KAIROS_EPISODES_057_075_SOURCE.docx)
+- **Source type:** Supplied episode source
+- **Episodes represented:** 57 through 75
+- **SHA-256:** `cbc198e201dd23dd7211679097c94ad94b5c1dd86e72e55beb6da0fd69932c2b`
+- **Preservation status:** Preserved byte-for-byte from the supplied file
+
+### Searchable Markdown
+
+- **File:** [KAIROS_EPISODES_057_075_NORMALIZED.md](../docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md)
+- **Source type:** Searchable current-canon transcription
+- **Repository SHA-256:** `def6c10156bc448090a67dcd25f605832d2f9c52486fd0664a5581230fedd26b`
+- **Episodes represented:** 57 through 75
+- **Normalization status:** Typography, headings, whitespace, dates, and
+  documented current-canon conflicts normalized
+
+The DOCX remains the preserved supplied artifact. The Markdown is the
+authoritative searchable source cited by Episode 57-75 records. Every material
+change is listed in
+[Episodes 057-075 Source Normalization](../docs/episodes/EPISODES_057_075_NORMALIZATION.md).
+
 ## Preservation Rules
 
 - Never rewrite the historical episode prose.

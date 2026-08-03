@@ -22,7 +22,7 @@
 
 ## Episode 55: A Escolha
 
-**Exact date and time:** Saturday, November 7, 2026, 08:15
+**Exact date and time:** Saturday, 07/11/2026, 08:15
 
 - All 143 eligible members of the Kairos community vote by secret ballot.
 - Twelve unnamed restaurant chains are considered.
@@ -33,7 +33,7 @@
 
 ## Episode 56: A Decisão
 
-**Exact date and time:** Saturday, November 7, 2026, 19:30
+**Exact date and time:** Saturday, 07/11/2026, 19:30
 
 - All 143 eligible voters participate.
 - The result is 126 yes votes and 17 no votes.

@@ -59,7 +59,9 @@ version as a compromise.
 3. Confirmed event order and exact calendar dates are separate claims.
 4. A planned event must be labeled as planned and must not be described as
    completed.
-5. Episode numbers must not be invented during timeline reconstruction.
+5. Confirmed exact dates in human-readable documentation use `DD/MM/YYYY`.
+6. Confirmed exact dates in structured JSON use `YYYY-MM-DD`.
+7. Episode numbers must not be invented during timeline reconstruction.
 
 ## 5. Episode reconstruction
 

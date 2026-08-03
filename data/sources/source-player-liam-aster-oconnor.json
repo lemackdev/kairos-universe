@@ -1,0 +1,13 @@
+{
+  "id": "source-player-liam-aster-oconnor",
+  "slug": "source-player-liam-aster-oconnor",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Liam O'Connor player record",
+  "path": "data/players/liam-aster-oconnor.json",
+  "locator": null,
+  "publicLabel": "Liam \"Aster\" O'Connor canonical player record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": []
+}

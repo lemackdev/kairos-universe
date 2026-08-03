@@ -30,20 +30,28 @@ Majors. These are goals, not achieved results.
 ## Current story point
 
 - Story start: early 2026.
-- Current story date: November 7, 2026.
+- Current story date: 24/11/2026.
+- Current story episode: Episode 75.
 - Kairos is training and has not officially debuted.
 - The next League of Legends and Counter-Strike competitive milestone is
   planned for February 2027.
-- Caleb "Atlas" Mercer is the signed Counter-Strike IGL and Founding Captain.
-- Owen Fletcher and Emiliano Navarro are participating in evaluations.
-- Cameron Ruiz remains under active scouting.
+- Caleb "Atlas" Mercer is the signed Counter-Strike IGL / Rifler and Founding
+  Captain.
+- Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo" Navarro are signed.
+- Cameron "Mold" Ruiz and Vincente "FLACOGOMEZ" Galán are signed, completing
+  the Counter-Strike main roster.
+- The five-player Counter-Strike Academy roster is complete without permanent
+  playing positions, captaincy, or an IGL.
+- League Phase Two external practice is planned for December.
+- The Kairos Thanksgiving gathering is planned for 25/11/2026 and has not
+  occurred.
 
 The complete current snapshot is maintained in
 [CURRENT_WORLD_STATE.md](../world-state/CURRENT_WORLD_STATE.md).
 
 ## Episode Record Model
 
-Episodes 1 through 56 now have structured records in `data/episodes/`. The
+Episodes 1 through 75 now have structured records in `data/episodes/`. The
 record model includes:
 
 - Stable ID, slug, episode number, and publication order
@@ -61,9 +69,11 @@ record model includes:
 - Structured source references and confidence
 - Missing information, confirmed facts, and unconfirmed details
 
-The current story episode is 56. Episodes 1 through 29 are reconstructed from
+The current story episode is 75. Episodes 1 through 29 are reconstructed from
 the immutable historical PDF. Episodes 30 through 56 are reconstructed from
-the authoritative normalized source package. Episodes 1 through 24 retain
+their authoritative normalized source package. Episodes 57 through 75 are
+reconstructed from the preserved supplied DOCX and normalized searchable
+source. Episodes 1 through 24 retain
 **TBD** current titles while preserving their historical Portuguese titles.
 Episodes 25 through 29 retain their current English working titles and
 historical titles.
@@ -83,7 +93,9 @@ See the [episode documentation guide](../episodes/EPISODE_DOCUMENTATION.md).
 - Canon Batch 43-53: complete
 - Canon Batch 54-56: complete
 - Episodes 30-56 source normalization and canonization: complete
-- Entity chronology and relationship enrichment: next
+- Player roles, birth dates, and current Counter-Strike status: complete
+- Episodes 57-75 source normalization and canonization: complete
+- Thanksgiving break and December preparation: next
 
 The source-integration phase reconstructs every episode record while keeping
 historical conflicts separate from current canon. It does not promote every

@@ -1,0 +1,91 @@
+{
+  "id": "zayn-parkinglot-haddad",
+  "slug": "zayn-parkinglot-haddad",
+  "realName": "Zayn Haddad",
+  "nickname": "parkinglot",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "Irvine",
+  "currentResidence": {
+    "city": "Irvine",
+    "region": "California",
+    "country": "United States"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 16,
+  "game": "Counter-Strike",
+  "role": "TBD",
+  "currentTeam": "kairos-cs-academy",
+  "rosterLevel": "academy",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-073",
+  "joinedKairos": "Selected on 2026-11-21",
+  "contract": null,
+  "background": [
+    "American player from a Lebanese-American family.",
+    "Lives in Irvine, California."
+  ],
+  "personality": "Observant, adaptable, and attentive to group dynamics.",
+  "playstyle": "Permanent role TBD; he evaluates which team idea remains useful when assumptions fail.",
+  "strengths": [
+    "Group awareness.",
+    "Adaptability.",
+    "Experience covering different temporary responsibilities."
+  ],
+  "weaknesses": [],
+  "inspirations": [],
+  "objectives": [
+    "Develop within the Kairos Counter-Strike Academy."
+  ],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 73: Zayn is selected as one of the first three Kairos Counter-Strike Academy players.",
+    "Episode 74: Zayn begins working under Head Coach Stewie2K with no permanent position assigned."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "The nickname parkinglot must remain lowercase.",
+    "Zayn explains the nickname by saying that all the good names were already parked."
+  ],
+  "currentState": [
+    "Active Kairos Counter-Strike Academy player.",
+    "Training and pre-debut.",
+    "Permanent position TBD.",
+    "No captaincy or IGL designation."
+  ],
+  "confirmedFacts": [
+    "Zayn Haddad is an American Counter-Strike Academy player known as parkinglot.",
+    "He is 16 years old on his 2026-11-21 selection date.",
+    "He lives in Irvine, California.",
+    "He comes from a Lebanese-American family.",
+    "He is selected for Kairos Counter-Strike Academy in Episode 73.",
+    "His permanent playing position is not assigned.",
+    "He is not the captain or IGL."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth is TBD.",
+    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "Contract status and terms are TBD.",
+    "Previous teams, official statistics, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "Do not capitalize or alter the nickname parkinglot.",
+    "Do not infer a permanent role from his earlier flexibility.",
+    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy."
+  ]
+}

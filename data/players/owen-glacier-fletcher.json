@@ -11,20 +11,30 @@
     "region": "British Columbia",
     "country": "Canada"
   },
-  "dateOfBirth": "TBD",
-  "ageAtCurrentStoryDate": 16,
+  "dateOfBirth": "2007-12-02",
+  "ageAtCurrentStoryDate": 18,
   "game": "Counter-Strike",
-  "role": "AWPer",
-  "currentTeam": null,
-  "rosterLevel": "prospect",
-  "status": "under-evaluation",
+  "role": "Primary AWPer",
+  "currentTeam": "kairos-cs-main",
+  "rosterLevel": "main",
+  "status": "signed",
   "isCaptain": false,
   "firstAppearance": "episode-033",
-  "joinedKairos": "Not joined",
-  "contract": null,
+  "joinedKairos": "Signed by 2026-11-07; exact signing date TBD",
+  "contract": {
+    "status": "signed",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "salary": "TBD"
+  },
   "personality": "Extremely patient, humble, quiet, mature beyond his age, and uncomfortable with attention.",
   "playstyle": "Primary AWPer.",
-  "strengths": ["Extreme patience.", "Maturity beyond his age.", "Humility."],
+  "strengths": [
+    "Extreme patience.",
+    "Maturity beyond his age.",
+    "Humility."
+  ],
   "weaknesses": [],
   "inspirations": [],
   "objectives": [],
@@ -41,13 +51,8 @@
       "status": "confirmed"
     },
     {
-      "subjectId": "adrian-elias-vale",
-      "type": "recruitment-in-progress",
-      "status": "confirmed"
-    },
-    {
       "subjectId": "caleb-atlas-mercer",
-      "type": "prospective-teammates",
+      "type": "teammates",
       "status": "confirmed"
     },
     {
@@ -77,7 +82,7 @@
     },
     {
       "subjectId": "emiliano-moteconhuesillo-navarro",
-      "type": "evaluation-teammates",
+      "type": "teammates",
       "status": "confirmed"
     },
     {
@@ -99,9 +104,27 @@
       "subjectId": "arthur-fletcher",
       "type": "grandfather",
       "status": "confirmed"
+    },
+    {
+      "subjectId": "cameron-mold-ruiz",
+      "type": "teammates",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "vincente-flacogomez-galan",
+      "type": "teammates",
+      "status": "confirmed"
     }
   ],
-  "careerHistory": [],
+  "careerHistory": [
+    {
+      "organizationId": "kairos-esports",
+      "teamId": "kairos-cs-main",
+      "status": "signed",
+      "joinedKairos": "Signed by 2026-11-07; exact signing date TBD",
+      "firstProfessionalTeam": "TBD"
+    }
+  ],
   "individualTimeline": [
     "Episode 33: Owen first appears as a Counter-Strike prospect and primary AWPer candidate.",
     "Late October 2026: Kairos identifies Owen, Adrian Vale travels personally to Mackenzie, British Columbia, and Adrian meets Owen for the first time.",
@@ -114,16 +137,22 @@
     "Episode 49: Owen participates in his first internal Counter-Strike scrim.",
     "Episode 51: Owen demonstrates calm communication under pressure during a strategic exercise; no scrim is played.",
     "Episode 54: Owen feels guilty about being far from Arthur; Arthur's chemotherapy is responding well, and Project Casa Arthur is discussed as a conditional future plan.",
-    "Episodes 55-56: Owen participates in the Kairos community food-service policy vote and remains unsigned."
+    "By 2026-11-07: Owen is signed to Kairos Counter-Strike; the exact signing date is TBD.",
+    "Episode 63: Owen reports that Arthur intends to move near the Kairos campus in early 2027, subject to safe travel and independent medical approval.",
+    "Episode 68: The five-player Kairos Counter-Strike main roster is completed on 2026-11-16.",
+    "Episode 69: The completed roster holds its first full-team training session.",
+    "Episodes 71-72: The completed roster plays a private, non-official practice series against Team Liquid; the event is excluded from official statistics and achievements."
   ],
   "statistics": {},
   "achievements": [],
-  "trivia": ["Frequently refuses tournament invitations."],
+  "trivia": [
+    "Frequently refuses tournament invitations."
+  ],
   "currentState": [
-    "Participating in a three-week Kairos evaluation.",
-    "No contract.",
-    "Unsigned.",
-    "Recruitment remains unresolved."
+    "Signed to Kairos Counter-Strike.",
+    "Active on the main roster.",
+    "Primary AWPer.",
+    "Contract dates, duration, and salary are TBD."
   ],
   "nicknameFirstAppearance": "episode-035",
   "familyNotes": [
@@ -133,12 +162,7 @@
     "His grandfather is Owen's only living close relative."
   ],
   "confirmedFacts": [
-    "Owen Fletcher is a canonical Counter-Strike prospect known as Glacier.",
-    "He is the primary AWPer candidate in the Kairos pipeline.",
-    "He is 16 years old at the current story date.",
     "He is Canadian and from Mackenzie, British Columbia.",
-    "He is a Primary AWPer.",
-    "He accepted Kairos's invitation and is participating in a three-week evaluation without a contract.",
     "Adrian Vale travels personally to meet him.",
     "Adrian meets Owen's grandfather.",
     "Owen receives a non-binding invitation for a three-week Kairos evaluation.",
@@ -149,18 +173,21 @@
     "Arthur's chemotherapy is responding well by Episode 54.",
     "Owen feels guilty about being far from Arthur in Episode 54.",
     "Project Casa Arthur remains conditional on safe travel and independent medical approval.",
-    "Arthur continues living in Mackenzie through Episode 56.",
+    "Arthur continues living in Mackenzie through the current 2026-11-24 endpoint.",
     "His first appearance is Episode 33.",
-    "The nickname Glacier is first established in Episode 35."
+    "The nickname Glacier is first established in Episode 35.",
+    "Owen Fletcher is a signed Kairos Counter-Strike player known as Glacier.",
+    "His canonical role is Primary AWPer.",
+    "He is 18 years old on 2026-11-24.",
+    "His date of birth is 2007-12-02.",
+    "He is signed to the Kairos Counter-Strike main roster."
   ],
   "unconfirmedDetails": [
-    "Date of birth is TBD.",
     "Previous teams and tournament history are TBD.",
-    "Objectives, insecurities, statistics, and achievements are TBD.",
-    "The outcome of the evaluation and recruitment process is TBD."
+    "Objectives, insecurities, statistics, and achievements are TBD."
   ],
   "canonNotes": [
     "Do not expand Owen's family backstory beyond the approved facts.",
-    "Scouting, personal recruitment, and the non-binding invitation do not constitute a signing or contract."
+    "The earlier non-binding invitation did not itself constitute a signing; his current signed status is separately confirmed."
   ]
 }

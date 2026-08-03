@@ -24,7 +24,9 @@
     "Support the Counter-Strike recruitment workflow.",
     "Coordinate international travel and visa processes.",
     "Organize player logistics.",
-    "Collect external references for scouting investigations."
+    "Collect external references for scouting investigations.",
+    "Support staff-led Counter-Strike Academy scouting and family approval logistics.",
+    "Support the Dust2 editorial interview and private-practice review process."
   ],
   "personality": "TBD",
   "relationships": [
@@ -52,7 +54,9 @@
     "Episodes 36-42: Emily coordinates travel logistics, organizes player visits, and supports the Counter-Strike recruitment workflow.",
     "Episodes 43-53: Emily coordinates Owen Fletcher's and Emiliano Navarro's travel, visa processes, player logistics, and external reference collection.",
     "Episode 54: Emily supports the internal discussion of Project Casa Arthur as a conditional plan.",
-    "Episodes 55-56: Emily administers the 143-person food-service policy vote and reports its result."
+    "Episodes 55-56: Emily administers the 143-person food-service policy vote and reports its result.",
+    "Episodes 57-72: Emily supports player integration, staff-led Academy recruiting, media logistics, and private-practice review.",
+    "Episodes 73-74: Emily coordinates family, education, and transport safeguards for the five Academy players."
   ],
   "achievements": [],
   "confirmedFacts": [
@@ -64,7 +68,9 @@
     "Emily organizes player visits and supports Counter-Strike recruitment.",
     "Emily coordinates international travel, visa processes, and player logistics.",
     "Emily collects external references for scouting investigations.",
-    "Emily administers the November 7 community vote and records 143 ballots, 126 yes votes, and 17 no votes."
+    "Emily administers the 2026-11-07 community vote and records 143 ballots, 126 yes votes, and 17 no votes.",
+    "Emily participates in Academy recruitment as staff while main-team players train separately.",
+    "Emily helps coordinate family approval and education safeguards for the Academy minors."
   ],
   "unconfirmedDetails": [
     "Nationality is TBD.",
@@ -77,5 +83,7 @@
     "Exact team assignment is TBD.",
     "Former playing career is TBD."
   ],
-  "canonNotes": ["Do not infer nationality from the surname Chen."]
+  "canonNotes": [
+    "Do not infer nationality from the surname Chen."
+  ]
 }

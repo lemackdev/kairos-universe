@@ -1,0 +1,108 @@
+{
+  "id": "episode-066",
+  "slug": "episode-066",
+  "episodeNumber": 66,
+  "title": "O Outro Lado da Mesa",
+  "historicalTitle": "O Outro Lado da Mesa",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-12",
+  "datePrecision": "exact",
+  "publicationOrder": 66,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus meeting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "zaqueri-aphromoo-black",
+    "daniel-moss-reyes"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-main"
+  ],
+  "summary": "Kairos staff reviews the empty Counter-Strike Academy pipeline and formalizes its recruitment stages while the main players train separately.",
+  "keyEvents": [
+    "The Academy recruitment stages are scouting, contact, interview, family approval, evaluation, and signing.",
+    "The Counter-Strike Academy remains empty.",
+    "No candidate name is announced.",
+    "Atlas, Glacier, and MoteConHuesillo spend the day training."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [
+    "Arthur Fletcher is not part of the staff meeting."
+  ],
+  "continuityDependencies": [
+    "episode-065"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "episode-066-arthur-role-boundary",
+      "status": "retconned",
+      "description": "Arthur Fletcher is removed from the management and recruitment meeting; functional dialogue is reassigned to established staff.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 66 — O Outro Lado da Mesa",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The Academy recruitment stages are scouting, contact, interview, family approval, evaluation, and signing.",
+    "The Counter-Strike Academy remains empty.",
+    "No candidate name is announced.",
+    "Atlas, Glacier, and MoteConHuesillo spend the day training."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

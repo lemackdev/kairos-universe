@@ -1,0 +1,105 @@
+{
+  "id": "episode-064",
+  "slug": "episode-064",
+  "episodeNumber": 64,
+  "title": "A Caçada Começa",
+  "historicalTitle": "A Caçada Começa",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-11",
+  "datePrecision": "exact",
+  "publicationOrder": 64,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus scouting room, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos starts structured Academy scouting for raw mechanical potential without fixed positions while keeping Stewie2K discussions exploratory.",
+  "keyEvents": [
+    "Academy candidates are evaluated without permanent role labels.",
+    "Required traits include age 15 or 16, mechanics, reflexes, attitude, and willingness to learn.",
+    "Staff, analysts, and scouting personnel handle candidate review.",
+    "No proposal is made to Stewie2K."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Kairos establishes the Academy principle: find potential and teach the rest."
+  ],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-063"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [
+    "FACEIT",
+    "ESEA",
+    "Jake “Stewie2K” Yip"
+  ],
+  "retcons": [
+    {
+      "id": "episode-064-academy-recruitment-boundary",
+      "status": "retconned",
+      "description": "Scouting actions assigned to main-roster players in the supplied source are reassigned to established staff and scouting personnel.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 64 — A Caçada Começa",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Academy candidates are evaluated without permanent role labels.",
+    "Required traits include age 15 or 16, mechanics, reflexes, attitude, and willingness to learn.",
+    "Staff, analysts, and scouting personnel handle candidate review.",
+    "No proposal is made to Stewie2K."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

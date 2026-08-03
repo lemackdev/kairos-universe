@@ -47,8 +47,8 @@ importance.
 
 The first signed player had to be the IGL. Caleb "Atlas" Mercer fulfilled that
 requirement and is the Founding Captain. Owen "Glacier" Fletcher and Emiliano
-"MoteConHuesillo" Navarro are unsigned evaluation players. Cameron "Mold" Ruiz
-is under active scouting without an invitation or contract.
+"MoteConHuesillo" Navarro are signed main-roster players. Cameron "Mold" Ruiz
+and Vincente "FLACOGOMEZ" Galán sign on 16/11/2026, completing the main roster.
 
 ## Evaluation Focus
 
@@ -78,10 +78,8 @@ achievements, or fictional Kairos involvement.
 
 ## Unknowns
 
-- Active prospect identities beyond Caleb, Owen, Emiliano, and Cameron are
-  **TBD**.
+- Future prospect identities are **TBD**.
 - Unrecorded evaluation details and trial results are **TBD**.
-- The criteria for an exceptional 19-year-old candidate are **TBD**.
 - Final competition destinations, contracts, rankings, and statistics are
   **TBD**.
 

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/roster-tenure.schema.json",
+  "title": "Roster Tenure Record",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "playerId",
+    "organizationId",
+    "teamId",
+    "gameId",
+    "roleId",
+    "rosterStatus",
+    "isCaptain",
+    "isStarter",
+    "joinedDate",
+    "leftDate",
+    "datePrecision",
+    "announcementDate",
+    "effectiveDate",
+    "endReason",
+    "sourceIds",
+    "canonStatus"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "continuityId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "playerId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "organizationId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "teamId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "gameId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "roleId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "rosterStatus": {
+      "enum": ["active", "inactive", "benched", "loaned", "released", "TBD"]
+    },
+    "isCaptain": {
+      "type": "boolean"
+    },
+    "isStarter": {
+      "type": "boolean"
+    },
+    "joinedDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "leftDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "datePrecision": {
+      "$ref": "common.schema.json#/$defs/datePrecision"
+    },
+    "announcementDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "effectiveDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "endReason": {
+      "type": ["string", "null"]
+    },
+    "sourceIds": {
+      "$ref": "common.schema.json#/$defs/sourceIdArray"
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
+    }
+  },
+  "additionalProperties": false
+}

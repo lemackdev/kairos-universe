@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/competition.schema.json",
+  "title": "Competition Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "name", "gameId", "status", "seasonIds", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "name": { "type": "string", "minLength": 1 },
+    "gameId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "status": { "enum": ["draft", "planned", "active", "completed", "cancelled"] },
+    "seasonIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

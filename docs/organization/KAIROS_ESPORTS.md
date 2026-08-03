@@ -13,7 +13,7 @@
 | Headquarters | Los Angeles, California, United States |
 | Current competitive status | Active, training, and pre-debut |
 | Story start | Early 2026 |
-| Current story date | November 7, 2026 |
+| Current story date | 24/11/2026 |
 | Next competitive milestone | February 2027 |
 | Exact milestone dates | TBD |
 
@@ -61,20 +61,28 @@ Long-term sustainability matters more than immediate trophies.
 - There is no third Counter-Strike team.
 - Coaching staff has been hired.
 - Lukas "Luk" Novak is Head Coach of Kairos Counter-Strike.
-- Ethan "Trace" Miller is Head Coach of Kairos Counter-Strike Academy.
+- Jake "Stewie2K" Yip is Head Coach of Kairos Counter-Strike Academy from
+  23/11/2026.
+- Ethan "Trace" Miller is Development Coach from 23/11/2026 and remains active.
 - Caleb "Atlas" Mercer is the first signed Counter-Strike player.
-- Caleb is the IGL, Founding Captain, and only confirmed Counter-Strike captain.
+- Caleb is the IGL / Rifler, Founding Captain, and only confirmed
+  Counter-Strike captain.
 - Caleb participates in future roster construction.
-- Owen "Glacier" Fletcher and Emiliano "MoteConHuesillo" Navarro are
-  participating in evaluations and remain unsigned.
-- Cameron "Mold" Ruiz remains under active scouting without an invitation or
-  contract.
-- Cameron is an Entry prospect and part-time mechanic. His nationality is TBD.
+- Owen "Glacier" Fletcher is signed as the Primary AWPer.
+- Emiliano "MoteConHuesillo" Navarro is signed as a Rifler.
+- Cameron "Mold" Ruiz is signed as Entry from 16/11/2026.
+- Vincente "FLACOGOMEZ" Galán is signed as Support / Anchor from 16/11/2026.
 - Caleb, Owen, and Emiliano participated in the first internal Counter-Strike
   scrim.
 - Kairos evaluates communication, trust, character, and cultural fit alongside
   gameplay.
-- Scouting remains active for the four open main-team positions.
+- The five-player main roster is complete.
+- The Counter-Strike Academy roster is complete with five selected American
+  minors living in California.
+- No Academy permanent position, captain, IGL, substitute, or starter hierarchy
+  has been assigned.
+- The completed main roster plays a fictional-universe private practice series
+  against Team Liquid on 20/11/2026. It is not an official match.
 - Official Counter-Strike competition is scheduled to begin in February 2027.
 
 ## Project Casa Arthur
@@ -85,7 +93,7 @@ No construction, relocation, acceptance, or medical approval has occurred.
 
 ## Food-Service Policy
 
-- Vote date: November 7, 2026.
+- Vote date: 07/11/2026.
 - Eligible voters and votes cast: 143.
 - Result: 126 yes, 17 no.
 - Restaurant-chain limit: three.
@@ -108,8 +116,9 @@ may be added later, but no additional division is currently confirmed.
 ## Competitive position
 
 Kairos has not played an official match at the current story point. No results,
-titles, rankings, statistics, contracts, or salaries are established by this
-document.
+titles, rankings, statistics, contract terms, or salaries are established by
+this document. Private practice scores and partial statistics remain isolated
+in the relevant episode record.
 
 ## TBD details
 

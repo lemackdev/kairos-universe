@@ -17,20 +17,17 @@ No additional country restriction or eligibility rule is confirmed.
 
 ## Age Policy
 
-Preferred ages:
+The completed Academy selection establishes these active ages:
 
+- 15
 - 16
-- 17
-- 18
 
-The maximum age is 19, and a 19-year-old may be considered only in exceptional
-circumstances. The criteria for an exceptional case are **TBD**. A
-19-year-old is not automatically eligible.
+The protected 0.7.0 rule stating 16 through 18 for the Academy is superseded by
+Episodes 63 through 74. The completed Academy roster contains players aged 15
+or 16. All are American minors living in California. Exact dates of birth
+remain **TBD** and cannot be derived from age.
 
-Candidates older than 19 cannot be created under the current policy.
-
-Cameron "Mold" Ruiz is one confirmed individual 19-year-old exception. His
-case does not generalize eligibility to other 19-year-old candidates.
+The main-roster age record is separate. Cameron "Mold" Ruiz is 18, not 19.
 
 ## Recruitment Order
 
@@ -48,17 +45,32 @@ importance.
 ## Candidate Status
 
 - Caleb "Atlas" Mercer is signed and is not part of the unsigned pipeline.
-- Owen "Glacier" Fletcher is participating in a three-week evaluation and
-  remains unsigned.
-- Emiliano "MoteConHuesillo" Navarro accepted a three-week, no-obligation
-  evaluation invitation, received visa approval, arrived in Los Angeles, and
-  began evaluation. He remains unsigned.
-- Cameron "Mold" Ruiz remains under active scouting without an invitation or
-  contract.
+- Owen "Glacier" Fletcher is signed as the Primary AWPer.
+- Emiliano "MoteConHuesillo" Navarro is signed as a Rifler.
+- Cameron "Mold" Ruiz accepted his offer and signed as Entry on 16/11/2026.
+- Vincente "FLACOGOMEZ" Galán accepted his offer and signed as Support / Anchor
+  on 16/11/2026.
+- The main roster is complete and has no active named prospect pipeline.
+- The Academy roster contains soupcrime, velcrodog, parkinglot, dentalplan, and
+  wrongnumber.
 - Evaluation details not explicitly recorded remain **TBD**.
-- No contract is confirmed for any unsigned prospect.
+- Contract values, duration, salary, buyouts, bonuses, agents, and other terms
+  remain **TBD**.
 - A scouting archetype is not a person.
 - A real-world style reference is not a fictional Kairos candidate.
+
+## Academy Scouting Boundary
+
+- Main-team players do not participate in Academy scouting or recruitment.
+- Main-team players remain focused on training and competition preparation.
+- Academy scouting is handled by management, scouting staff, analysts, and
+  canonically confirmed Academy coaching staff.
+- Stewie2K discussion is exploratory before Episode 74.
+- Stewie2K becomes active Academy Head Coach on 23/11/2026.
+- Trace becomes active Development Coach on 23/11/2026 and remains part of
+  Kairos.
+- No permanent Academy position, captain, IGL, substitute, or starter
+  hierarchy is assigned.
 
 ## Evaluation Rules
 
@@ -115,7 +127,6 @@ not establish a current evaluation, candidate, or player.
 
 ## TBD And Unconfirmed Details
 
-- Exceptional-case criteria for 19-year-old candidates are **TBD**.
 - Future candidates and unrecorded applications, evaluations, and trial
   outcomes are **TBD**.
 - The possible American Assistant Coach is **UNCONFIRMED** and not hired.

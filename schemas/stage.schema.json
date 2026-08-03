@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/stage.schema.json",
+  "title": "Competition Stage Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "competitionId", "seasonId", "name", "stageType", "status", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "competitionId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "seasonId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "name": { "type": "string", "minLength": 1 },
+    "stageType": { "enum": ["season", "split", "stage", "group", "round", "series"] },
+    "status": { "enum": ["draft", "planned", "active", "completed", "cancelled"] },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

@@ -13,7 +13,7 @@
   ],
   "nationality": "TBD",
   "city": "Chicago",
-  "dateOfBirth": "TBD",
+  "dateOfBirth": "2008-09-09",
   "ageAtCurrentStoryDate": 18,
   "game": "League of Legends",
   "role": "Support",
@@ -54,7 +54,9 @@
     }
   ],
   "individualTimeline": [
-    "Episode 9: Daniel first appears when the main roster is privately confirmed and he is named captain."
+    "Episode 9: Daniel first appears when the main roster is privately confirmed and he is named captain.",
+    "Episode 65: Aphromoo mentors Moss toward concise, executable leadership during practice against Academy Blue and Academy White.",
+    "Episode 75: Moss remains captain and receives responsibility for helping the main roster find its competitive identity when the initial plan fails."
   ],
   "statistics": {},
   "achievements": [],
@@ -63,16 +65,18 @@
     "Daniel Reyes \"Moss\" is active on Kairos League of Legends Main Team.",
     "The player is training in Los Angeles.",
     "The player has not made an official competitive debut with Kairos.",
-    "The player's role is Support.",
-    "The player is age 18 at the current story date.",
     "The player's confirmed city is Chicago.",
     "Kairos is the player's first professional team.",
     "Moss is captain of the Kairos League of Legends main roster.",
-    "The player's first confirmed appearance is episode-009."
+    "The player's first confirmed appearance is episode-009.",
+    "The player's role is Support.",
+    "The player is age 18 at the current story date of 2026-11-24.",
+    "The player's date of birth is 2008-09-09.",
+    "Moss develops more concise leadership communication in Episode 65.",
+    "Moss remains captain under the December Phase Two plan."
   ],
   "unconfirmedDetails": [
     "Nationality is TBD.",
-    "Date of birth is TBD.",
     "The exact date the player joined Kairos is TBD.",
     "Contract status, dates, and salary are TBD.",
     "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
@@ -81,9 +85,9 @@
   ],
   "canonNotes": [
     "Do not infer nationality from city.",
-    "Do not fabricate a birth date from age.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "Moss is the only confirmed captain in the League division.",
-    "Historical aliases are archival only; current records and wiki pages must use the current nickname."
+    "Historical aliases are archival only; current records and wiki pages must use the current nickname.",
+    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
   ]
 }

@@ -1,0 +1,99 @@
+{
+  "id": "nolan-dentalplan-hart",
+  "slug": "nolan-dentalplan-hart",
+  "realName": "Nolan Hart",
+  "nickname": "dentalplan",
+  "historicalAliases": [],
+  "nationality": "American",
+  "city": "Long Beach",
+  "currentResidence": {
+    "city": "Long Beach",
+    "region": "California",
+    "country": "United States"
+  },
+  "dateOfBirth": "TBD",
+  "ageAtCurrentStoryDate": 16,
+  "game": "Counter-Strike",
+  "role": "TBD",
+  "currentTeam": "kairos-cs-academy",
+  "rosterLevel": "academy",
+  "status": "active-training-pre-debut",
+  "isCaptain": false,
+  "firstAppearance": "episode-074",
+  "joinedKairos": "Selected on 2026-11-23",
+  "contract": null,
+  "background": [
+    "American player living in Long Beach, California.",
+    "Reid Hart's twin brother.",
+    "Nolan is eleven minutes older than Reid."
+  ],
+  "personality": "Structured, disciplined, and careful with details.",
+  "playstyle": "Permanent role TBD; he values structure but can struggle to abandon a plan after execution begins.",
+  "strengths": [
+    "Discipline.",
+    "Preparation.",
+    "Resource and timing awareness."
+  ],
+  "weaknesses": [
+    "Can remain committed to a plan after the situation changes."
+  ],
+  "inspirations": [],
+  "objectives": [
+    "Develop within the Kairos Counter-Strike Academy."
+  ],
+  "insecurities": [],
+  "relationships": [
+    {
+      "subjectId": "reid-wrongnumber-hart",
+      "type": "twin-brother",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    }
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 74: Nolan is evaluated separately from Reid and selected for Kairos Counter-Strike Academy.",
+    "Episode 74: Nolan begins working under Head Coach Stewie2K with no permanent position assigned."
+  ],
+  "statistics": {},
+  "achievements": [],
+  "trivia": [
+    "The nickname dentalplan must remain lowercase.",
+    "The nickname came from an accidentally copied browser-tab title during registration for a school tournament."
+  ],
+  "currentState": [
+    "Active Kairos Counter-Strike Academy player.",
+    "Training and pre-debut.",
+    "Permanent position TBD.",
+    "No captaincy or IGL designation."
+  ],
+  "confirmedFacts": [
+    "Nolan Hart is an American Counter-Strike Academy player known as dentalplan.",
+    "He is 16 years old on his 2026-11-23 selection date.",
+    "He lives in Long Beach, California.",
+    "He is Reid Hart's twin brother and is eleven minutes older.",
+    "He is selected for Kairos Counter-Strike Academy in Episode 74.",
+    "His permanent playing position is not assigned.",
+    "He is not the captain or IGL."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth is TBD.",
+    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "Contract status and terms are TBD.",
+    "Previous teams, official statistics, and achievements are TBD."
+  ],
+  "canonNotes": [
+    "Do not capitalize or alter the nickname dentalplan.",
+    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy.",
+    "Do not treat Nolan and Reid as a single entity or inseparable roster package."
+  ]
+}

@@ -17,6 +17,29 @@ historical prose remains unchanged and does not name its first-person narrator.
 Arthur first appears unnamed in Episode 36 and is identified by name in Episode
 37. Richard first appears in Episode 54.
 
+## Player And Staff First Appearances
+
+Players and coaches use their dedicated path-only indexes rather than duplicate
+entries in the narrative-character index:
+
+- [Player index](../../index/players.json)
+- [Coach and staff index](../../index/coaches.json)
+
+New first appearances in Episodes 57 through 75:
+
+| Episode | Entity | Record |
+| ---: | --- | --- |
+| 60 | Vincente "FLACOGOMEZ" Galán | [Player record](../../data/players/vincente-flacogomez-galan.json) |
+| 63 | Jake "Stewie2K" Yip, exploratory mention only | [Staff record](../../data/coaches/jake-stewie2k-yip.json) |
+| 73 | Evan "soupcrime" Nakamura | [Player record](../../data/players/evan-soupcrime-nakamura.json) |
+| 73 | Milo "velcrodog" Radović | [Player record](../../data/players/milo-velcrodog-radovic.json) |
+| 73 | Zayn "parkinglot" Haddad | [Player record](../../data/players/zayn-parkinglot-haddad.json) |
+| 74 | Nolan "dentalplan" Hart | [Player record](../../data/players/nolan-dentalplan-hart.json) |
+| 74 | Reid "wrongnumber" Hart | [Player record](../../data/players/reid-wrongnumber-hart.json) |
+
+Stewie2K's first mention does not establish employment. His Academy Head Coach
+appointment becomes active in Episode 74 on 23/11/2026.
+
 ## Related Documents
 
 - [Adrian Vale](ADRIAN_VALE.md)

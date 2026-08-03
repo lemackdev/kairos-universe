@@ -1,0 +1,119 @@
+{
+  "id": "episode-057",
+  "slug": "episode-057",
+  "episodeNumber": 57,
+  "title": "O Primeiro Dia de Verdade",
+  "historicalTitle": "O Primeiro Dia de Verdade",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-08",
+  "datePrecision": "exact",
+  "publicationOrder": 57,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main"
+  ],
+  "summary": "Kairos begins a non-mechanical development day for its three signed Counter-Strike players, emphasizing trust, honesty, and responsibility before server work.",
+  "keyEvents": [
+    "Atlas, Glacier, and MoteConHuesillo begin the day as signed professional players.",
+    "Luk and Trace conduct trust and integration exercises without opening Counter-Strike.",
+    "Atlas defines captaincy as accepting blame first and sharing credit with others."
+  ],
+  "consequences": [],
+  "characterDevelopments": [
+    "Atlas articulates a responsibility-first view of captaincy.",
+    "Glacier identifies Arthur Fletcher as his primary personal influence.",
+    "MoteConHuesillo identifies fear of wasting the Kairos opportunity."
+  ],
+  "relationshipDevelopments": [
+    "Trust grows among Atlas, Glacier, and MoteConHuesillo."
+  ],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [],
+  "canonChanged": [
+    "The normalized prose preserves the protected signed status of Glacier and MoteConHuesillo."
+  ],
+  "continuityDependencies": [
+    "episode-056"
+  ],
+  "continuityNotes": [
+    "The episode uses Adrian Vale as canonical narrator metadata without inserting his name into first-person prose.",
+    "No official Kairos match has occurred."
+  ],
+  "historicalNotes": [
+    "This episode is outside the immutable Episodes 1-29 historical PDF.",
+    "The supplied DOCX is preserved byte-for-byte; active prose uses the documented normalized source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [
+    {
+      "id": "episode-057-signed-status-normalization",
+      "status": "retconned",
+      "description": "Evaluation-badge language is normalized because Glacier and MoteConHuesillo are already signed in canon.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    },
+    {
+      "id": "episode-057-arthur-role-boundary",
+      "status": "retconned",
+      "description": "The campus head cook remains unnamed so Arthur Fletcher is not represented as Kairos staff.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    },
+    {
+      "id": "episode-057-weekday-correction",
+      "status": "retconned",
+      "description": "The weekday is corrected from Saturday to Sunday for 2026-11-08.",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md",
+      "locator": "Episódio 57 — O Primeiro Dia de Verdade",
+      "information": "Supplies the normalized episode prose, exact date, participants, and canonical events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Atlas, Glacier, and MoteConHuesillo begin the day as signed professional players.",
+    "Luk and Trace conduct trust and integration exercises without opening Counter-Strike.",
+    "Atlas defines captaincy as accepting blame first and sharing credit with others."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The complete approved prose remains in the normalized source file and is not duplicated here.",
+    "No unsupported salary, contract term, ranking, official result, achievement, or opponent player identity was added."
+  ]
+}

@@ -1,38 +1,25 @@
 # Episode Source Gaps
 
-## Source Status
+There is no remaining prose-recovery gap through Episode 75.
 
-There is no remaining prose-recovery gap through Episode 56.
+## Recovered Sources
 
-- Episodes 1-29 are recovered from the immutable historical PDF.
-- Episodes 30-56 are recovered from the normalized source package.
-- Source provenance and checksums are in the
-  [Source Manifest](../../archive/SOURCE_MANIFEST.md).
+- Episodes 1-29: immutable historical PDF.
+- Episodes 30-56: preserved normalized DOCX and searchable Markdown.
+- Episodes 57-75: preserved supplied DOCX and
+  [searchable normalized Markdown](sources/KAIROS_EPISODES_057_075_NORMALIZED.md).
 
-## Remaining Canon Gaps
+## Remaining Unknowns
 
-- Exact dates for Episodes 30-54.
-- Current-canon English titles for Episodes 1-24.
-- Exact Kairos join dates and most contract dates.
-- Salaries, rankings, official statistics, and future results.
-- Most League Academy player roles and first appearances.
-- Exact campus dimensions, cost, address, room counts, and architecture.
-- Project Casa Arthur's dimensions, cost, address, construction schedule,
-  medical approval, and final acceptance.
-- The selected restaurant chains' responses and any future agreement terms.
-- Detailed Asterion corporate history and valuation.
-- Remaining Counter-Strike support staff and main-roster identities.
+Unknown facts inside otherwise recovered episodes remain explicitly unknown:
 
-## Active Boundaries
+- Exact contract terms and salaries.
+- Exact Academy player dates of birth.
+- Permanent Academy playing positions.
+- The Team Liquid lineup used in the private practice series.
+- Missing private score-sheet fields not stated in Episode 72.
+- Exact February 2027 competition dates and entries.
+- Opponents for planned December League scrims.
+- Whether the planned 25/11/2026 Thanksgiving gathering occurs as scheduled.
 
-- Episodes 55-56 are dated November 7, 2026.
-- Anonymous candidates and stand-ins receive no entity records.
-- Internal scrims are not official match results.
-- Invitations and negotiations are not contracts or partnerships.
-- Future reservations remain outside active indexes and timelines.
-
-## Related Documents
-
-- [Episode reconstruction status](EPISODE_RECONSTRUCTION_STATUS.md)
-- [Source normalization](SOURCE_NORMALIZATION_030_056.md)
-- [Future canon reservations](../planning/FUTURE_CANON_RESERVATIONS.md)
+These are canon unknowns, not missing episode-source files.

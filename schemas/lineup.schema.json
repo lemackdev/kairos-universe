@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/lineup.schema.json",
+  "title": "Match Lineup Record",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "matchId", "teamId", "playerIds", "substitutePlayerIds", "coachIds", "captainPlayerId", "roleAssignments", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "matchId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "teamId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "playerIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "substitutePlayerIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "coachIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "captainPlayerId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "roleAssignments": { "type": "object" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

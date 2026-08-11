@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-lindbergh",
+  "slug": "enno",
+  "nickname": "Enno",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-esug-ultimate-five-feeder",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Lindbergh",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "47a30abdc21a46e75a780b5041926fdbbc5b32c650d43b0ca302db593a95c8b9",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-lindbergh-revision-unknown"
+  ]
+}

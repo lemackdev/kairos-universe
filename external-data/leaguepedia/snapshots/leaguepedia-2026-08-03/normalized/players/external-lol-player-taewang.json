@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-taewang",
+  "slug": "georg-kinzel",
+  "nickname": "Georg Kinzel",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "bot",
+  "currentTeamId": "external-lol-team-kit-sc-white",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Taewang",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "c671f398f9f6d7c768eba3ea84b98b1ca426d4e7c31c5f74810192211d8555ea",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-taewang-revision-unknown"
+  ]
+}

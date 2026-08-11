@@ -1,0 +1,28 @@
+{
+  "snapshotId": "leaguepedia-2026-08-03",
+  "source": "leaguepedia",
+  "capturedDate": "2026-08-03",
+  "cutoffLocal": "2026-08-03T23:59:59-03:00",
+  "cutoffUtc": "2026-08-04T02:59:59Z",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "status": "partial",
+  "automaticUpdatesEnabled": false,
+  "nextReviewPeriod": "2027-midseason",
+  "changesRequireExplicitApproval": true,
+  "importerVersion": "1.0.0",
+  "builtAt": "2026-08-03T15:03:12.954Z",
+  "recordCounts": {
+    "organizations": 0,
+    "teams": 4,
+    "players": 31,
+    "staff": 0,
+    "roster-tenures": 31,
+    "staff-tenures": 0
+  },
+  "modernTenureRows": 0,
+  "approvedThisRun": 4,
+  "needsReview": 62,
+  "notes": [
+    "This snapshot is NOT frozen and is NOT a complete global sweep. The primary current-roster source (the joined Tenures query) never succeeded in this run — 0 modern tenure rows were retrieved, even though the Cargo API was reachable for other queries. 66 record(s) exist, sourced entirely from the ListplayerCurrent fallback table for the small subset of teams that happened to have fallback data cached. Re-run leaguepedia:build-snapshot once the Tenures query succeeds before treating this as complete."
+  ]
+}

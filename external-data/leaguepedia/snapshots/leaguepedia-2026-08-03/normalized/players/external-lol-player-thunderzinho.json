@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-thunderzinho",
+  "slug": "fahbricio-muller-alves-pereira",
+  "nickname": "Fahbricio Muller Alves Pereira",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "br",
+  "nationalities": [],
+  "residency": "Brazil",
+  "dateOfBirth": null,
+  "primaryRole": "support",
+  "currentTeamId": "external-lol-team-missouri-valley-college",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Thunderzinho",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "8a82fa2dff236396f492517f65f8d7c8bde2b71b07bb1a437bf9ce267991015b",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-thunderzinho-revision-unknown"
+  ]
+}

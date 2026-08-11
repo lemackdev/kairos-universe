@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-striker-filip-prentovic",
+  "slug": "filip-prentovic",
+  "nickname": "Filip Prentovic",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "jungle",
+  "currentTeamId": "external-lol-team-kit-sc-white",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Striker (Filip Prentovic)",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "e7d8861e908712071800e449e5af70535efd47a2e536cdfbf83e935c5281927d",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-striker-filip-prentovic-revision-unknown"
+  ]
+}

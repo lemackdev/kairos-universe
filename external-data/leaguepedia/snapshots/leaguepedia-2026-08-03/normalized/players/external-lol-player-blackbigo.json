@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-blackbigo",
+  "slug": "hamet-ndiaye",
+  "nickname": "Hamet Ndiaye",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "fr",
+  "nationalities": [],
+  "residency": null,
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-one-trick-production",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Blackbigo",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "1f654ad9aa3c3f6026e02b1f67137a5b4d3396862152cba844f0cbfe0dd8ee30",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-blackbigo-revision-unknown"
+  ]
+}

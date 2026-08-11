@@ -1,5 +1,5 @@
 {
-  "canonVersion": "0.9.0",
+  "canonVersion": "0.10.0",
   "project": "Kairos Universe",
   "storyEpisode": 75,
   "storyStartPeriod": "early-2026",
@@ -12,8 +12,9 @@
     "exactDate": "TBD"
   },
   "websiteImplemented": true,
-  "currentDocumentationPhase": "kairospedia-foundation-and-kairos-league-publication",
-  "nextPhase": "kairospedia-world-ecosystem-expansion",
+  "competitiveDatabaseImplemented": true,
+  "currentDocumentationPhase": "kairosdb-foundation-and-leaguepedia-2026-world-snapshot",
+  "nextPhase": "kairosdb-snapshot-review-and-competitive-data-expansion",
   "reconstructedThroughEpisode": 75,
   "episodeRecordsCreatedThrough": 75,
   "lastValidated": null,
@@ -32,6 +33,15 @@
     "The website currently publishes only Kairos League of Legends.",
     "The global data model supports future organizations, teams, players, matches, and transfers.",
     "Canonical repository data remains the source of truth.",
-    "Publication visibility does not alter canon."
+    "Publication visibility does not alter canon.",
+    "Kairospedia and KairosDB are separate products.",
+    "Kairospedia remains the narrative canon encyclopedia.",
+    "KairosDB is the competitive career and results database.",
+    "The external League of Legends world baseline uses the Leaguepedia August 3, 2026 snapshot (id leaguepedia-2026-08-03).",
+    "The snapshot represents the end-of-2026-season state in the Kairos Universe.",
+    "The snapshot is frozen until the 2027 midseason review window.",
+    "Real-world updates do not automatically alter the Kairos Universe.",
+    "External data never overrides fictional Kairos canon.",
+    "No official Kairos match has occurred."
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "id": "external-lol-team-esug-ultimate-five-feeder",
+  "slug": "uff",
+  "name": "ESUG Ultimate Five Feeder",
+  "shortName": "UFF",
+  "gameId": "league-of-legends",
+  "organizationId": null,
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaOverviewPage": "ESUG Ultimate Five Feeder",
+  "region": "EMEA",
+  "location": "Germany",
+  "status": "active",
+  "isDisbanded": false,
+  "currentPlayerTenureIds": [
+    "external-tenure-fallback-key-chen-hua-zhang-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+    "external-tenure-fallback-timon-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+    "external-tenure-fallback-lorofatz-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+    "external-tenure-fallback-nadra-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+    "external-tenure-fallback-smebber-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+    "external-tenure-fallback-nicetomeetme-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+    "external-tenure-fallback-lindbergh-esug-ultimate-five-feeder-leaguepedia-2026-08-03"
+  ],
+  "currentStaffTenureIds": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "feba7cab76a5dec4d8d16e94d5f31100e206ef6163933bbf74af3d3285d34954",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "approved",
+  "reviewNotes": [],
+  "sources": [
+    "leaguepedia-page-esug-ultimate-five-feeder-revision-4122230"
+  ]
+}

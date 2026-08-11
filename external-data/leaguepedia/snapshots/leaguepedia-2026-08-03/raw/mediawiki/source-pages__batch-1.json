@@ -1,0 +1,958 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "124259": {
+        "pageid": 124259,
+        "ns": 0,
+        "title": "Chiefs Esports Club",
+        "revisions": [
+          {
+            "revid": 4445712,
+            "parentid": 4442550,
+            "timestamp": "2026-05-10T08:19:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:27Z",
+        "lastrevid": 4445712,
+        "length": 5820
+      },
+      "126308": {
+        "pageid": 126308,
+        "ns": 0,
+        "title": "Cloud9",
+        "revisions": [
+          {
+            "revid": 4487874,
+            "parentid": 4483867,
+            "timestamp": "2026-07-17T09:03:16Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:26Z",
+        "lastrevid": 4487874,
+        "length": 45661
+      },
+      "146585": {
+        "pageid": 146585,
+        "ns": 0,
+        "title": "Dark Passage",
+        "revisions": [
+          {
+            "revid": 4496373,
+            "parentid": 4491489,
+            "timestamp": "2026-07-28T20:32:48Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T14:13:37Z",
+        "lastrevid": 4496373,
+        "length": 4953
+      },
+      "193160": {
+        "pageid": 193160,
+        "ns": 0,
+        "title": "Burning Core Toyama",
+        "revisions": [
+          {
+            "revid": 4485278,
+            "parentid": 4359915,
+            "timestamp": "2026-07-13T11:41:35Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:38Z",
+        "lastrevid": 4485278,
+        "length": 3868
+      },
+      "193705": {
+        "pageid": 193705,
+        "ns": 0,
+        "title": "CPLAY",
+        "revisions": [
+          {
+            "revid": 4121581,
+            "parentid": 3993185,
+            "timestamp": "2025-03-04T09:32:57Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:38Z",
+        "lastrevid": 4121581,
+        "length": 14208
+      },
+      "230291": {
+        "pageid": 230291,
+        "ns": 0,
+        "title": "Coscu Army",
+        "revisions": [
+          {
+            "revid": 4334024,
+            "parentid": 4195274,
+            "timestamp": "2025-11-20T15:08:19Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4334024,
+        "length": 2874
+      },
+      "265999": {
+        "pageid": 265999,
+        "ns": 0,
+        "title": "Columbia College",
+        "revisions": [
+          {
+            "revid": 4334045,
+            "parentid": 4121499,
+            "timestamp": "2025-11-20T15:10:01Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4334045,
+        "length": 1620
+      },
+      "273352": {
+        "pageid": 273352,
+        "ns": 0,
+        "title": "Bulldog Esports",
+        "revisions": [
+          {
+            "revid": 4452365,
+            "parentid": 4415648,
+            "timestamp": "2026-05-19T11:44:53Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4452365,
+        "length": 5779
+      },
+      "287978": {
+        "pageid": 287978,
+        "ns": 0,
+        "title": "Boise State University",
+        "revisions": [
+          {
+            "revid": 4457899,
+            "parentid": 4457897,
+            "timestamp": "2026-05-26T00:59:11Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4457899,
+        "length": 3605
+      },
+      "313341": {
+        "pageid": 313341,
+        "ns": 0,
+        "title": "BRUTE",
+        "revisions": [
+          {
+            "revid": 4425788,
+            "parentid": 4352853,
+            "timestamp": "2026-04-16T15:55:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4425788,
+        "length": 3198
+      },
+      "356943": {
+        "pageid": 356943,
+        "ns": 0,
+        "title": "Colorado State University",
+        "revisions": [
+          {
+            "revid": 4334044,
+            "parentid": 4121497,
+            "timestamp": "2025-11-20T15:09:58Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4334044,
+        "length": 4748
+      },
+      "395159": {
+        "pageid": 395159,
+        "ns": 0,
+        "title": "Conviction",
+        "revisions": [
+          {
+            "revid": 4439561,
+            "parentid": 4390781,
+            "timestamp": "2026-05-02T23:35:47Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4439561,
+        "length": 2298
+      },
+      "489080": {
+        "pageid": 489080,
+        "ns": 0,
+        "title": "BlueWhites",
+        "revisions": [
+          {
+            "revid": 4121225,
+            "parentid": 3966329,
+            "timestamp": "2025-03-04T09:14:40Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4121225,
+        "length": 1594
+      },
+      "489971": {
+        "pageid": 489971,
+        "ns": 0,
+        "title": "Converse University",
+        "revisions": [
+          {
+            "revid": 4334046,
+            "parentid": 4121525,
+            "timestamp": "2025-11-20T15:10:05Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4334046,
+        "length": 1346
+      },
+      "669614": {
+        "pageid": 669614,
+        "ns": 0,
+        "title": "CTBC Flying Oyster",
+        "revisions": [
+          {
+            "revid": 4354298,
+            "parentid": 4353636,
+            "timestamp": "2026-01-13T17:04:50Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:52:58Z",
+        "lastrevid": 4354298,
+        "length": 3671
+      },
+      "670294": {
+        "pageid": 670294,
+        "ns": 0,
+        "title": "Deep Cross Gaming",
+        "revisions": [
+          {
+            "revid": 4411625,
+            "parentid": 4394318,
+            "timestamp": "2026-03-28T20:58:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4411625,
+        "length": 2917
+      },
+      "749708": {
+        "pageid": 749708,
+        "ns": 0,
+        "title": "Cleveland State University",
+        "revisions": [
+          {
+            "revid": 4453679,
+            "parentid": 4334042,
+            "timestamp": "2026-05-21T03:14:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4453679,
+        "length": 1222
+      },
+      "772847": {
+        "pageid": 772847,
+        "ns": 0,
+        "title": "Contingent Esports",
+        "revisions": [
+          {
+            "revid": 4488270,
+            "parentid": 4485163,
+            "timestamp": "2026-07-17T22:34:14Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:16:53Z",
+        "lastrevid": 4488270,
+        "length": 1697
+      },
+      "776868": {
+        "pageid": 776868,
+        "ns": 0,
+        "title": "Carleton University",
+        "revisions": [
+          {
+            "revid": 4334037,
+            "parentid": 4121337,
+            "timestamp": "2025-11-20T15:09:33Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4334037,
+        "length": 1003
+      },
+      "785068": {
+        "pageid": 785068,
+        "ns": 0,
+        "title": "Cleary University",
+        "revisions": [
+          {
+            "revid": 4334041,
+            "parentid": 4121447,
+            "timestamp": "2025-11-20T15:09:46Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4334041,
+        "length": 923
+      },
+      "786210": {
+        "pageid": 786210,
+        "ns": 0,
+        "title": "CCG Esports",
+        "revisions": [
+          {
+            "revid": 4406221,
+            "parentid": 4334039,
+            "timestamp": "2026-03-21T01:46:19Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4406221,
+        "length": 2512
+      },
+      "812828": {
+        "pageid": 812828,
+        "ns": 0,
+        "title": "BOOBA",
+        "revisions": [
+          {
+            "revid": 4121249,
+            "parentid": 3589060,
+            "timestamp": "2025-03-04T09:16:02Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4121249,
+        "length": 947
+      },
+      "819350": {
+        "pageid": 819350,
+        "ns": 0,
+        "title": "Carolina Reapers",
+        "revisions": [
+          {
+            "revid": 4341494,
+            "parentid": 4341493,
+            "timestamp": "2025-12-10T23:04:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T08:30:34Z",
+        "lastrevid": 4341494,
+        "length": 977
+      },
+      "822174": {
+        "pageid": 822174,
+        "ns": 0,
+        "title": "CTBC Flying Oyster Academy",
+        "revisions": [
+          {
+            "revid": 4243809,
+            "parentid": 4166742,
+            "timestamp": "2025-07-22T11:05:31Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:44:34Z",
+        "lastrevid": 4243809,
+        "length": 1580
+      },
+      "847802": {
+        "pageid": 847802,
+        "ns": 0,
+        "title": "BNK FEARX",
+        "revisions": [
+          {
+            "revid": 4413499,
+            "parentid": 4413496,
+            "timestamp": "2026-03-31T07:19:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4413499,
+        "length": 3547
+      },
+      "847807": {
+        "pageid": 847807,
+        "ns": 0,
+        "title": "BNK FEARX Youth",
+        "revisions": [
+          {
+            "revid": 4435325,
+            "parentid": 4353928,
+            "timestamp": "2026-04-28T05:36:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4435325,
+        "length": 1664
+      },
+      "849062": {
+        "pageid": 849062,
+        "ns": 0,
+        "title": "BoostGate Esports",
+        "revisions": [
+          {
+            "revid": 4496075,
+            "parentid": 4490545,
+            "timestamp": "2026-07-28T16:19:23Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T14:13:37Z",
+        "lastrevid": 4496075,
+        "length": 3434
+      },
+      "864200": {
+        "pageid": 864200,
+        "ns": 0,
+        "title": "Briar Cliff University",
+        "revisions": [
+          {
+            "revid": 4497419,
+            "parentid": 4334034,
+            "timestamp": "2026-07-29T22:37:52Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T22:37:53Z",
+        "lastrevid": 4497419,
+        "length": 1174
+      },
+      "880724": {
+        "pageid": 880724,
+        "ns": 0,
+        "title": "Campbellsville University",
+        "revisions": [
+          {
+            "revid": 4334036,
+            "parentid": 4121329,
+            "timestamp": "2025-11-20T15:09:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4334036,
+        "length": 1094
+      },
+      "882008": {
+        "pageid": 882008,
+        "ns": 0,
+        "title": "CORE 128",
+        "revisions": [
+          {
+            "revid": 4401275,
+            "parentid": 4290112,
+            "timestamp": "2026-03-12T19:49:13Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4401275,
+        "length": 1759
+      },
+      "910928": {
+        "pageid": 910928,
+        "ns": 0,
+        "title": "Calamity Esports",
+        "revisions": [
+          {
+            "revid": 4472355,
+            "parentid": 4472354,
+            "timestamp": "2026-06-18T18:40:59Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:16:28Z",
+        "lastrevid": 4472355,
+        "length": 1030
+      },
+      "925520": {
+        "pageid": 925520,
+        "ns": 0,
+        "title": "Ceuta Guardians",
+        "revisions": [
+          {
+            "revid": 4291215,
+            "parentid": 4201862,
+            "timestamp": "2025-09-13T09:24:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4291215,
+        "length": 1147
+      },
+      "932942": {
+        "pageid": 932942,
+        "ns": 0,
+        "title": "Cupid Esports",
+        "revisions": [
+          {
+            "revid": 4487694,
+            "parentid": 4483830,
+            "timestamp": "2026-07-16T21:32:13Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:16:53Z",
+        "lastrevid": 4487694,
+        "length": 1663
+      },
+      "937523": {
+        "pageid": 937523,
+        "ns": 0,
+        "title": "Bushido Wildcats",
+        "revisions": [
+          {
+            "revid": 4495454,
+            "parentid": 4479165,
+            "timestamp": "2026-07-27T16:58:48Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:34:10Z",
+        "lastrevid": 4495454,
+        "length": 2210
+      },
+      "950148": {
+        "pageid": 950148,
+        "ns": 0,
+        "title": "Citadel Gaming",
+        "revisions": [
+          {
+            "revid": 4483793,
+            "parentid": 4446387,
+            "timestamp": "2026-07-10T19:29:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4483793,
+        "length": 2064
+      },
+      "954215": {
+        "pageid": 954215,
+        "ns": 0,
+        "title": "Colossal Gaming",
+        "revisions": [
+          {
+            "revid": 4488087,
+            "parentid": 4409845,
+            "timestamp": "2026-07-17T15:15:32Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4488087,
+        "length": 1579
+      },
+      "962665": {
+        "pageid": 962665,
+        "ns": 0,
+        "title": "CGN Esports",
+        "revisions": [
+          {
+            "revid": 4263422,
+            "parentid": 4263416,
+            "timestamp": "2025-08-11T06:58:08Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T01:54:55Z",
+        "lastrevid": 4263422,
+        "length": 1633
+      },
+      "979741": {
+        "pageid": 979741,
+        "ns": 0,
+        "title": "Caldya Esport",
+        "revisions": [
+          {
+            "revid": 4487615,
+            "parentid": 4487614,
+            "timestamp": "2026-07-16T20:23:09Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4487615,
+        "length": 2184
+      },
+      "982322": {
+        "pageid": 982322,
+        "ns": 0,
+        "title": "CITA Kaizen",
+        "revisions": [
+          {
+            "revid": 4492319,
+            "parentid": 4492220,
+            "timestamp": "2026-07-23T17:19:42Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4492319,
+        "length": 1726
+      },
+      "998518": {
+        "pageid": 998518,
+        "ns": 0,
+        "title": "Brod n Friends",
+        "revisions": [
+          {
+            "revid": 4468286,
+            "parentid": 4461918,
+            "timestamp": "2026-06-11T15:39:31Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4468286,
+        "length": 961
+      },
+      "998794": {
+        "pageid": 998794,
+        "ns": 0,
+        "title": "CNG Royal",
+        "revisions": [
+          {
+            "revid": 4297721,
+            "parentid": 0,
+            "timestamp": "2025-09-21T14:32:43Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4297721,
+        "length": 902,
+        "new": ""
+      },
+      "1018276": {
+        "pageid": 1018276,
+        "ns": 0,
+        "title": "CAG OSAKA",
+        "revisions": [
+          {
+            "revid": 4370448,
+            "parentid": 4370444,
+            "timestamp": "2026-01-31T08:58:20Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4370448,
+        "length": 1099
+      },
+      "1022283": {
+        "pageid": 1022283,
+        "ns": 0,
+        "title": "Bomba Team",
+        "revisions": [
+          {
+            "revid": 4491998,
+            "parentid": 4455920,
+            "timestamp": "2026-07-23T00:48:21Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T16:53:56Z",
+        "lastrevid": 4491998,
+        "length": 1689
+      },
+      "1031645": {
+        "pageid": 1031645,
+        "ns": 0,
+        "title": "Bohemian Guardians",
+        "revisions": [
+          {
+            "revid": 4496157,
+            "parentid": 4449113,
+            "timestamp": "2026-07-28T19:16:15Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4496157,
+        "length": 1296
+      },
+      "1032168": {
+        "pageid": 1032168,
+        "ns": 0,
+        "title": "Crystal Rose (French Team)",
+        "revisions": [
+          {
+            "revid": 4487810,
+            "parentid": 4484611,
+            "timestamp": "2026-07-17T05:48:51Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T05:10:56Z",
+        "lastrevid": 4487810,
+        "length": 1334
+      },
+      "1033545": {
+        "pageid": 1033545,
+        "ns": 0,
+        "title": "Clã NKZ",
+        "revisions": [
+          {
+            "revid": 4477009,
+            "parentid": 4467442,
+            "timestamp": "2026-06-26T03:24:49Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4477009,
+        "length": 1851
+      },
+      "1034114": {
+        "pageid": 1034114,
+        "ns": 0,
+        "title": "CITA Kaizen Academy",
+        "revisions": [
+          {
+            "revid": 4430800,
+            "parentid": 4430224,
+            "timestamp": "2026-04-23T04:58:33Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4430800,
+        "length": 950
+      },
+      "1045971": {
+        "pageid": 1045971,
+        "ns": 0,
+        "title": "DeathMark E-Sports",
+        "revisions": [
+          {
+            "revid": 4471740,
+            "parentid": 4461431,
+            "timestamp": "2026-06-17T20:34:43Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:19:34Z",
+        "lastrevid": 4471740,
+        "length": 1288
+      },
+      "1046537": {
+        "pageid": 1046537,
+        "ns": 0,
+        "title": "Bubliki",
+        "revisions": [
+          {
+            "revid": 4463246,
+            "parentid": 4463202,
+            "timestamp": "2026-06-02T22:28:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T15:40:09Z",
+        "lastrevid": 4463246,
+        "length": 867
+      },
+      "1058271": {
+        "pageid": 1058271,
+        "ns": 0,
+        "title": "Bunny Girls",
+        "revisions": [
+          {
+            "revid": 4500756,
+            "parentid": 4500009,
+            "timestamp": "2026-08-03T05:23:27Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T05:28:29Z",
+        "lastrevid": 4500756,
+        "length": 876
+      }
+    }
+  }
+}

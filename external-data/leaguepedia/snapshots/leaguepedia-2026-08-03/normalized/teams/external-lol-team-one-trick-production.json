@@ -1,0 +1,40 @@
+{
+  "id": "external-lol-team-one-trick-production",
+  "slug": "otp",
+  "name": "One Trick Production",
+  "shortName": "OTP",
+  "gameId": "league-of-legends",
+  "organizationId": null,
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaOverviewPage": "One Trick Production",
+  "region": "EMEA",
+  "location": "France",
+  "status": "active",
+  "isDisbanded": false,
+  "currentPlayerTenureIds": [
+    "external-tenure-fallback-glopo-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-noi-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-finghin-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-chips-fabien-culie-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-zerotick-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-tweekz-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-marex-alexis-girat-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-blackbigo-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-rhobalas-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-peaxy-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-chreak-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-otaah-one-trick-production-leaguepedia-2026-08-03",
+    "external-tenure-fallback-laure-one-trick-production-leaguepedia-2026-08-03"
+  ],
+  "currentStaffTenureIds": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "c64e2c8ef12d9028e2a59b10c673d9dcfd0daff2d7cfbf91cd346765a21ec522",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "approved",
+  "reviewNotes": [],
+  "sources": [
+    "leaguepedia-page-one-trick-production-revision-4302602"
+  ]
+}

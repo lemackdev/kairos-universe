@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-chreak",
+  "slug": "corentin-moreau",
+  "nickname": "Corentin Moreau",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "fr",
+  "nationalities": [],
+  "residency": null,
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-one-trick-production",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Chreak",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "36ff10b9f4e3fbf2610b774584bb67125576b8fb9832116e1bf682f08237f7f9",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-chreak-revision-4085961"
+  ]
+}

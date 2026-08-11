@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-davipazzini-missouri-valley-college-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-davipazzini",
+  "teamId": "external-lol-team-missouri-valley-college",
+  "gameId": "league-of-legends",
+  "roles": [
+    "top"
+  ],
+  "rawRoles": [
+    "Top"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "e8c3e0a461ef419d1d2b11f51d1520c9dedec7e245efc89ea77a5659d5636922",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-davipazzini-revision-unknown"
+  ]
+}

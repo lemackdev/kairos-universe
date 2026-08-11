@@ -1,0 +1,33 @@
+{
+  "id": "external-tenure-fallback-lindbergh-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-lindbergh",
+  "teamId": "external-lol-team-esug-ultimate-five-feeder",
+  "gameId": "league-of-legends",
+  "roles": [
+    "unknown"
+  ],
+  "rawRoles": [],
+  "rosterStatus": "active",
+  "isStarter": false,
+  "isSubstitute": true,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "47a30abdc21a46e75a780b5041926fdbbc5b32c650d43b0ca302db593a95c8b9",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-lindbergh-revision-unknown"
+  ]
+}

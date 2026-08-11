@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-gentlemanhero",
+  "slug": "luka-prentovic",
+  "nickname": "Luka Prentović",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "top",
+  "currentTeamId": "external-lol-team-kit-sc-white",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "GentlemanHero",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "f736abbbdb974b4e462b7993e89e472e8283dfeb3ca780ea25254a5059b044e4",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-gentlemanhero-revision-unknown"
+  ]
+}

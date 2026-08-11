@@ -1,0 +1,66 @@
+# Import Warnings — leaguepedia-2026-08-03
+
+62 record(s) require manual review before they can be approved.
+
+- [players] external-lol-player-1847: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-blackbigo: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-catirl: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-chips-fabien-culie: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-chreak: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-davipazzini: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-finghin: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-gentlemanhero: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-glopo: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-key-chen-hua-zhang: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-laure: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-lindbergh: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-lorofatz: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-magierjo: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-marex-alexis-girat: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-matthew-noah-seim: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-nadra: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-nicetomeetme: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-noi: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-otaah: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-peaxy: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-rauschenberg: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-redeemed: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-rhobalas: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-smebber: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-striker-filip-prentovic: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-taewang: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-thunderzinho: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-timon: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-tweekz: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [players] external-lol-player-zerotick: Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete.
+- [roster-tenures] external-tenure-fallback-1847-missouri-valley-college-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-blackbigo-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-catirl-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-chips-fabien-culie-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-chreak-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-davipazzini-missouri-valley-college-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-finghin-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-gentlemanhero-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-glopo-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-key-chen-hua-zhang-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-laure-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-lindbergh-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-lorofatz-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-magierjo-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-marex-alexis-girat-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-matthew-noah-seim-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-nadra-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-nicetomeetme-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-noi-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-otaah-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-peaxy-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-rauschenberg-missouri-valley-college-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-redeemed-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-rhobalas-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-smebber-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-striker-filip-prentovic-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-taewang-kit-sc-white-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-thunderzinho-missouri-valley-college-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-timon-esug-ultimate-five-feeder-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-tweekz-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).
+- [roster-tenures] external-tenure-fallback-zerotick-one-trick-production-leaguepedia-2026-08-03: Fallback-sourced tenure (ListplayerCurrent).

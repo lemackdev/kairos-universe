@@ -1,0 +1,957 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "170196": {
+        "pageid": 170196,
+        "ns": 0,
+        "title": "KT Rolster",
+        "revisions": [
+          {
+            "revid": 4411034,
+            "parentid": 4406120,
+            "timestamp": "2026-03-28T09:44:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T12:26:00Z",
+        "lastrevid": 4411034,
+        "length": 16706
+      },
+      "173370": {
+        "pageid": 173370,
+        "ns": 0,
+        "title": "LGD Gaming",
+        "revisions": [
+          {
+            "revid": 4385494,
+            "parentid": 4357173,
+            "timestamp": "2026-02-18T09:49:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:34Z",
+        "lastrevid": 4385494,
+        "length": 11615
+      },
+      "261114": {
+        "pageid": 261114,
+        "ns": 0,
+        "title": "Maryville University",
+        "revisions": [
+          {
+            "revid": 4399569,
+            "parentid": 4399567,
+            "timestamp": "2026-03-09T05:10:02Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4399569,
+        "length": 3030
+      },
+      "279003": {
+        "pageid": 279003,
+        "ns": 0,
+        "title": "MCon esports",
+        "revisions": [
+          {
+            "revid": 4489845,
+            "parentid": 4489844,
+            "timestamp": "2026-07-19T20:42:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4489845,
+        "length": 4392
+      },
+      "289302": {
+        "pageid": 289302,
+        "ns": 0,
+        "title": "Michigan State University",
+        "revisions": [
+          {
+            "revid": 4453699,
+            "parentid": 4334071,
+            "timestamp": "2026-05-21T04:28:28Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4453699,
+        "length": 3326
+      },
+      "293296": {
+        "pageid": 293296,
+        "ns": 0,
+        "title": "LNG Esports",
+        "revisions": [
+          {
+            "revid": 4490661,
+            "parentid": 4489136,
+            "timestamp": "2026-07-21T10:10:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4490661,
+        "length": 5122
+      },
+      "332353": {
+        "pageid": 332353,
+        "ns": 0,
+        "title": "Kiwoom DRX",
+        "revisions": [
+          {
+            "revid": 4499786,
+            "parentid": 4499756,
+            "timestamp": "2026-08-01T14:21:26Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T14:21:27Z",
+        "lastrevid": 4499786,
+        "length": 9124
+      },
+      "341207": {
+        "pageid": 341207,
+        "ns": 0,
+        "title": "KIT SC White",
+        "revisions": [
+          {
+            "revid": 4123433,
+            "parentid": 3414836,
+            "timestamp": "2025-03-04T11:14:19Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4123433,
+        "length": 2873
+      },
+      "343477": {
+        "pageid": 343477,
+        "ns": 0,
+        "title": "Malvinas Gaming",
+        "revisions": [
+          {
+            "revid": 4479248,
+            "parentid": 4479228,
+            "timestamp": "2026-07-01T18:00:05Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4479248,
+        "length": 3805
+      },
+      "346638": {
+        "pageid": 346638,
+        "ns": 0,
+        "title": "Missouri Valley College",
+        "revisions": [
+          {
+            "revid": 4334073,
+            "parentid": 4124005,
+            "timestamp": "2025-11-20T15:11:47Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4334073,
+        "length": 2253
+      },
+      "356485": {
+        "pageid": 356485,
+        "ns": 0,
+        "title": "LGD Gaming Young Team",
+        "revisions": [
+          {
+            "revid": 4123609,
+            "parentid": 4033770,
+            "timestamp": "2025-03-04T11:24:06Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T11:15:51Z",
+        "lastrevid": 4123609,
+        "length": 1937
+      },
+      "400161": {
+        "pageid": 400161,
+        "ns": 0,
+        "title": "Lundqvist Lightside",
+        "revisions": [
+          {
+            "revid": 4491581,
+            "parentid": 4487429,
+            "timestamp": "2026-07-22T18:04:48Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4491581,
+        "length": 5724
+      },
+      "411206": {
+        "pageid": 411206,
+        "ns": 0,
+        "title": "LOUD",
+        "revisions": [
+          {
+            "revid": 4429056,
+            "parentid": 4429055,
+            "timestamp": "2026-04-20T01:03:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4429056,
+        "length": 6562
+      },
+      "422492": {
+        "pageid": 422492,
+        "ns": 0,
+        "title": "KT Rolster Academy",
+        "revisions": [
+          {
+            "revid": 4411035,
+            "parentid": 4405905,
+            "timestamp": "2026-03-28T09:44:21Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4411035,
+        "length": 1894
+      },
+      "422990": {
+        "pageid": 422990,
+        "ns": 0,
+        "title": "KnockOut Esports",
+        "revisions": [
+          {
+            "revid": 4123443,
+            "parentid": 3682458,
+            "timestamp": "2025-03-04T11:14:52Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4123443,
+        "length": 2141
+      },
+      "432368": {
+        "pageid": 432368,
+        "ns": 0,
+        "title": "Leviatan",
+        "revisions": [
+          {
+            "revid": 4497420,
+            "parentid": 4492485,
+            "timestamp": "2026-07-29T22:38:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T07:02:51Z",
+        "lastrevid": 4497420,
+        "length": 4900
+      },
+      "438590": {
+        "pageid": 438590,
+        "ns": 0,
+        "title": "Macko Academy",
+        "revisions": [
+          {
+            "revid": 4348669,
+            "parentid": 4348668,
+            "timestamp": "2026-01-03T22:06:13Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4348669,
+        "length": 2141
+      },
+      "442450": {
+        "pageid": 442450,
+        "ns": 0,
+        "title": "KT Rolster Challengers",
+        "revisions": [
+          {
+            "revid": 4180565,
+            "parentid": 4123495,
+            "timestamp": "2025-05-03T05:20:43Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4180565,
+        "length": 2267
+      },
+      "442452": {
+        "pageid": 442452,
+        "ns": 0,
+        "title": "Kiwoom DRX Challengers",
+        "revisions": [
+          {
+            "revid": 4405642,
+            "parentid": 4405639,
+            "timestamp": "2026-03-20T06:27:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T12:56:20Z",
+        "lastrevid": 4405642,
+        "length": 2778
+      },
+      "487189": {
+        "pageid": 487189,
+        "ns": 0,
+        "title": "Miami University",
+        "revisions": [
+          {
+            "revid": 4334070,
+            "parentid": 4123941,
+            "timestamp": "2025-11-20T15:11:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4334070,
+        "length": 953
+      },
+      "487517": {
+        "pageid": 487517,
+        "ns": 0,
+        "title": "LODIS (Polish Team)",
+        "revisions": [
+          {
+            "revid": 4492001,
+            "parentid": 4492000,
+            "timestamp": "2026-07-23T00:50:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:15:07Z",
+        "lastrevid": 4492001,
+        "length": 5086
+      },
+      "623285": {
+        "pageid": 623285,
+        "ns": 0,
+        "title": "Lille Esport",
+        "revisions": [
+          {
+            "revid": 4487567,
+            "parentid": 4421684,
+            "timestamp": "2026-07-16T19:42:41Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T05:54:27Z",
+        "lastrevid": 4487567,
+        "length": 2957
+      },
+      "655116": {
+        "pageid": 655116,
+        "ns": 0,
+        "title": "Maze Gaming",
+        "revisions": [
+          {
+            "revid": 4478869,
+            "parentid": 4409417,
+            "timestamp": "2026-06-30T20:59:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4478869,
+        "length": 3845
+      },
+      "675851": {
+        "pageid": 675851,
+        "ns": 0,
+        "title": "Lourdes University",
+        "revisions": [
+          {
+            "revid": 4334068,
+            "parentid": 4123712,
+            "timestamp": "2025-11-20T15:11:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4334068,
+        "length": 884
+      },
+      "707060": {
+        "pageid": 707060,
+        "ns": 0,
+        "title": "Meavedron",
+        "revisions": [
+          {
+            "revid": 4494667,
+            "parentid": 4480431,
+            "timestamp": "2026-07-26T18:39:02Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4494667,
+        "length": 3688
+      },
+      "707662": {
+        "pageid": 707662,
+        "ns": 0,
+        "title": "LØS",
+        "revisions": [
+          {
+            "revid": 4471150,
+            "parentid": 4471032,
+            "timestamp": "2026-06-15T15:07:19Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4471150,
+        "length": 4351
+      },
+      "712451": {
+        "pageid": 712451,
+        "ns": 0,
+        "title": "LØS Academy",
+        "revisions": [
+          {
+            "revid": 4490372,
+            "parentid": 4418095,
+            "timestamp": "2026-07-20T20:45:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4490372,
+        "length": 2498
+      },
+      "717058": {
+        "pageid": 717058,
+        "ns": 0,
+        "title": "LIT Team",
+        "revisions": [
+          {
+            "revid": 4493822,
+            "parentid": 4123639,
+            "timestamp": "2026-07-25T18:28:59Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4493822,
+        "length": 1568
+      },
+      "761910": {
+        "pageid": 761910,
+        "ns": 0,
+        "title": "Klanik Esport",
+        "revisions": [
+          {
+            "revid": 4499531,
+            "parentid": 4123437,
+            "timestamp": "2026-08-01T09:41:50Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:41:51Z",
+        "lastrevid": 4499531,
+        "length": 2093
+      },
+      "766757": {
+        "pageid": 766757,
+        "ns": 0,
+        "title": "Magaza Esports",
+        "revisions": [
+          {
+            "revid": 4425090,
+            "parentid": 4369900,
+            "timestamp": "2026-04-15T17:06:11Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T14:54:27Z",
+        "lastrevid": 4425090,
+        "length": 2008
+      },
+      "772860": {
+        "pageid": 772860,
+        "ns": 0,
+        "title": "Lotus (North American Team)",
+        "revisions": [
+          {
+            "revid": 4487087,
+            "parentid": 4420170,
+            "timestamp": "2026-07-16T08:11:11Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:25:48Z",
+        "lastrevid": 4487087,
+        "length": 2541
+      },
+      "816564": {
+        "pageid": 816564,
+        "ns": 0,
+        "title": "Kun Shan Lightning Tiger",
+        "revisions": [
+          {
+            "revid": 4123503,
+            "parentid": 4045404,
+            "timestamp": "2025-03-04T11:18:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4123503,
+        "length": 911
+      },
+      "819028": {
+        "pageid": 819028,
+        "ns": 0,
+        "title": "Komodo (North American Team)",
+        "revisions": [
+          {
+            "revid": 4334066,
+            "parentid": 4123459,
+            "timestamp": "2025-11-20T15:11:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4334066,
+        "length": 1103
+      },
+      "837146": {
+        "pageid": 837146,
+        "ns": 0,
+        "title": "Mind Blue eSports",
+        "revisions": [
+          {
+            "revid": 4422205,
+            "parentid": 4415256,
+            "timestamp": "2026-04-11T19:37:45Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T10:17:13Z",
+        "lastrevid": 4422205,
+        "length": 2331
+      },
+      "847718": {
+        "pageid": 847718,
+        "ns": 0,
+        "title": "LUA Gaming",
+        "revisions": [
+          {
+            "revid": 4479207,
+            "parentid": 4409602,
+            "timestamp": "2026-07-01T16:41:05Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4479207,
+        "length": 2145
+      },
+      "847919": {
+        "pageid": 847919,
+        "ns": 0,
+        "title": "Lupus Esports",
+        "revisions": [
+          {
+            "revid": 4496008,
+            "parentid": 4487393,
+            "timestamp": "2026-07-28T15:27:07Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4496008,
+        "length": 1859
+      },
+      "928951": {
+        "pageid": 928951,
+        "ns": 0,
+        "title": "LYON (2024 American Team)",
+        "revisions": [
+          {
+            "revid": 4471044,
+            "parentid": 4470986,
+            "timestamp": "2026-06-15T07:29:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4471044,
+        "length": 9488
+      },
+      "931747": {
+        "pageid": 931747,
+        "ns": 0,
+        "title": "LYON Academy",
+        "revisions": [
+          {
+            "revid": 4479845,
+            "parentid": 4423890,
+            "timestamp": "2026-07-03T03:26:37Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4479845,
+        "length": 2107
+      },
+      "934903": {
+        "pageid": 934903,
+        "ns": 0,
+        "title": "Monta Club",
+        "revisions": [
+          {
+            "revid": 4401915,
+            "parentid": 4401906,
+            "timestamp": "2026-03-13T13:07:08Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4401915,
+        "length": 1218
+      },
+      "945575": {
+        "pageid": 945575,
+        "ns": 0,
+        "title": "Meavedron Anonymo Master Academy",
+        "revisions": [
+          {
+            "revid": 4499988,
+            "parentid": 4494665,
+            "timestamp": "2026-08-02T01:13:03Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T01:13:03Z",
+        "lastrevid": 4499988,
+        "length": 1803
+      },
+      "948439": {
+        "pageid": 948439,
+        "ns": 0,
+        "title": "Lenovo Legion Honvéd",
+        "revisions": [
+          {
+            "revid": 4123591,
+            "parentid": 4070460,
+            "timestamp": "2025-03-04T11:22:57Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4123591,
+        "length": 1203
+      },
+      "968180": {
+        "pageid": 968180,
+        "ns": 0,
+        "title": "Milk Esports",
+        "revisions": [
+          {
+            "revid": 4476799,
+            "parentid": 4402999,
+            "timestamp": "2026-06-25T04:36:18Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4476799,
+        "length": 1157
+      },
+      "979266": {
+        "pageid": 979266,
+        "ns": 0,
+        "title": "Lausanne-Sport Esports",
+        "revisions": [
+          {
+            "revid": 4488285,
+            "parentid": 4360193,
+            "timestamp": "2026-07-17T22:59:55Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4488285,
+        "length": 1474
+      },
+      "983455": {
+        "pageid": 983455,
+        "ns": 0,
+        "title": "Milk Esports Whole Milk",
+        "revisions": [
+          {
+            "revid": 4409256,
+            "parentid": 4403870,
+            "timestamp": "2026-03-25T16:33:54Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T04:49:52Z",
+        "lastrevid": 4409256,
+        "length": 1021
+      },
+      "998799": {
+        "pageid": 998799,
+        "ns": 0,
+        "title": "Lund Esports Organization",
+        "revisions": [
+          {
+            "revid": 4488275,
+            "parentid": 4455391,
+            "timestamp": "2026-07-17T22:42:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4488275,
+        "length": 1812
+      },
+      "1007487": {
+        "pageid": 1007487,
+        "ns": 0,
+        "title": "Mental Rush",
+        "revisions": [
+          {
+            "revid": 4499193,
+            "parentid": 4463421,
+            "timestamp": "2026-08-01T00:22:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T00:22:35Z",
+        "lastrevid": 4499193,
+        "length": 1325
+      },
+      "1011559": {
+        "pageid": 1011559,
+        "ns": 0,
+        "title": "L Guide Gaming",
+        "revisions": [
+          {
+            "revid": 4415165,
+            "parentid": 4385554,
+            "timestamp": "2026-04-02T09:26:58Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4415165,
+        "length": 950
+      },
+      "1026588": {
+        "pageid": 1026588,
+        "ns": 0,
+        "title": "Milk Esports Brazil",
+        "revisions": [
+          {
+            "revid": 4476798,
+            "parentid": 4402994,
+            "timestamp": "2026-06-25T04:36:15Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:21:24Z",
+        "lastrevid": 4476798,
+        "length": 1043
+      },
+      "1040503": {
+        "pageid": 1040503,
+        "ns": 0,
+        "title": "Kuma e-Sports",
+        "revisions": [
+          {
+            "revid": 4477474,
+            "parentid": 4453566,
+            "timestamp": "2026-06-28T01:20:28Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4477474,
+        "length": 1143
+      },
+      "1050859": {
+        "pageid": 1050859,
+        "ns": 0,
+        "title": "Kits Esports",
+        "revisions": [
+          {
+            "revid": 4492692,
+            "parentid": 4492473,
+            "timestamp": "2026-07-24T04:26:19Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T09:56:37Z",
+        "lastrevid": 4492692,
+        "length": 1112
+      }
+    }
+  }
+}

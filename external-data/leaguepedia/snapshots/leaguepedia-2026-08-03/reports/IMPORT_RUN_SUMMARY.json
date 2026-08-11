@@ -1,0 +1,15 @@
+{
+  "snapshotId": "leaguepedia-2026-08-03",
+  "startedAt": "2026-08-03T15:04:57.397Z",
+  "finishedAt": "2026-08-03T15:06:19.807Z",
+  "teamsRowCount": 554,
+  "currentTenuresRowCount": 0,
+  "listplayerCurrentRowCount": 48,
+  "distinctPageTitles": 604,
+  "revisionsResolved": 556,
+  "revisionsMissing": 48,
+  "failedRequests": 2,
+  "errors": [
+    "Tenures query failed: You've exceeded your rate limit. Please wait some time and try again."
+  ]
+}

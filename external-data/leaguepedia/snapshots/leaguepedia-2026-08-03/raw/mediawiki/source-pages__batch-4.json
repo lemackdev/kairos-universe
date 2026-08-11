@@ -1,0 +1,958 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "166599": {
+        "pageid": 166599,
+        "ns": 0,
+        "title": "INTZ",
+        "revisions": [
+          {
+            "revid": 4484189,
+            "parentid": 4476707,
+            "timestamp": "2026-07-11T20:54:31Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:31Z",
+        "lastrevid": 4484189,
+        "length": 13548
+      },
+      "168792": {
+        "pageid": 168792,
+        "ns": 0,
+        "title": "JD Gaming",
+        "revisions": [
+          {
+            "revid": 4488983,
+            "parentid": 4385490,
+            "timestamp": "2026-07-18T12:19:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:31Z",
+        "lastrevid": 4488983,
+        "length": 10480
+      },
+      "171927": {
+        "pageid": 171927,
+        "ns": 0,
+        "title": "Invictus Gaming",
+        "revisions": [
+          {
+            "revid": 4491382,
+            "parentid": 4412172,
+            "timestamp": "2026-07-22T03:25:26Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:34Z",
+        "lastrevid": 4491382,
+        "length": 20109
+      },
+      "232527": {
+        "pageid": 232527,
+        "ns": 0,
+        "title": "Hanwha Life Esports",
+        "revisions": [
+          {
+            "revid": 4416185,
+            "parentid": 4411041,
+            "timestamp": "2026-04-04T09:14:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4416185,
+        "length": 8034
+      },
+      "249913": {
+        "pageid": 249913,
+        "ns": 0,
+        "title": "Ground Zero Gaming",
+        "revisions": [
+          {
+            "revid": 4491903,
+            "parentid": 4441133,
+            "timestamp": "2026-07-22T20:59:18Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T14:25:02Z",
+        "lastrevid": 4491903,
+        "length": 2407
+      },
+      "270415": {
+        "pageid": 270415,
+        "ns": 0,
+        "title": "Harrisburg University",
+        "revisions": [
+          {
+            "revid": 4334062,
+            "parentid": 4139922,
+            "timestamp": "2025-11-20T15:11:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4334062,
+        "length": 2141
+      },
+      "278345": {
+        "pageid": 278345,
+        "ns": 0,
+        "title": "Illinois Wesleyan University",
+        "revisions": [
+          {
+            "revid": 4334065,
+            "parentid": 4123086,
+            "timestamp": "2025-11-20T15:11:20Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4334065,
+        "length": 1880
+      },
+      "279243": {
+        "pageid": 279243,
+        "ns": 0,
+        "title": "Inside Games",
+        "revisions": [
+          {
+            "revid": 4438667,
+            "parentid": 4410318,
+            "timestamp": "2026-05-02T07:09:41Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4438667,
+        "length": 3560
+      },
+      "326538": {
+        "pageid": 326538,
+        "ns": 0,
+        "title": "Kawaii Kiwis",
+        "revisions": [
+          {
+            "revid": 4403886,
+            "parentid": 4403671,
+            "timestamp": "2026-03-15T21:46:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4403886,
+        "length": 3436
+      },
+      "369267": {
+        "pageid": 369267,
+        "ns": 0,
+        "title": "Grand View University",
+        "revisions": [
+          {
+            "revid": 4334060,
+            "parentid": 4270841,
+            "timestamp": "2025-11-20T15:11:03Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4334060,
+        "length": 1580
+      },
+      "397722": {
+        "pageid": 397722,
+        "ns": 0,
+        "title": "GTZ Esports",
+        "revisions": [
+          {
+            "revid": 4492802,
+            "parentid": 4436728,
+            "timestamp": "2026-07-24T06:54:36Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4492802,
+        "length": 4416
+      },
+      "411959": {
+        "pageid": 411959,
+        "ns": 0,
+        "title": "KIA.eSuba Academy",
+        "revisions": [
+          {
+            "revid": 4240846,
+            "parentid": 4123411,
+            "timestamp": "2025-07-19T05:38:13Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4240846,
+        "length": 1687
+      },
+      "432449": {
+        "pageid": 432449,
+        "ns": 0,
+        "title": "Karmine Corp",
+        "revisions": [
+          {
+            "revid": 4480739,
+            "parentid": 4480731,
+            "timestamp": "2026-07-04T19:27:01Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4480739,
+        "length": 27449
+      },
+      "440313": {
+        "pageid": 440313,
+        "ns": 0,
+        "title": "Hanwha Life Esports Challengers",
+        "revisions": [
+          {
+            "revid": 4353936,
+            "parentid": 4335716,
+            "timestamp": "2026-01-13T04:37:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4353936,
+        "length": 2589
+      },
+      "618193": {
+        "pageid": 618193,
+        "ns": 0,
+        "title": "Joblife",
+        "revisions": [
+          {
+            "revid": 4463563,
+            "parentid": 4463561,
+            "timestamp": "2026-06-03T12:11:07Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T06:56:57Z",
+        "lastrevid": 4463563,
+        "length": 2124
+      },
+      "737935": {
+        "pageid": 737935,
+        "ns": 0,
+        "title": "Kaufland Hangry Knights",
+        "revisions": [
+          {
+            "revid": 4479166,
+            "parentid": 4447779,
+            "timestamp": "2026-07-01T15:48:59Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4479166,
+        "length": 2318
+      },
+      "765052": {
+        "pageid": 765052,
+        "ns": 0,
+        "title": "HELL PIGS",
+        "revisions": [
+          {
+            "revid": 4250227,
+            "parentid": 4122961,
+            "timestamp": "2025-07-28T15:46:43Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4250227,
+        "length": 2193
+      },
+      "798534": {
+        "pageid": 798534,
+        "ns": 0,
+        "title": "Karolinerna",
+        "revisions": [
+          {
+            "revid": 4417850,
+            "parentid": 4390945,
+            "timestamp": "2026-04-06T15:54:16Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4417850,
+        "length": 1336
+      },
+      "800723": {
+        "pageid": 800723,
+        "ns": 0,
+        "title": "HANJIN BRION",
+        "revisions": [
+          {
+            "revid": 4399980,
+            "parentid": 4399929,
+            "timestamp": "2026-03-10T02:43:52Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4399980,
+        "length": 5001
+      },
+      "800725": {
+        "pageid": 800725,
+        "ns": 0,
+        "title": "HANJIN BRION Challengers",
+        "revisions": [
+          {
+            "revid": 4476285,
+            "parentid": 4348146,
+            "timestamp": "2026-06-23T08:02:25Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4476285,
+        "length": 2782
+      },
+      "800727": {
+        "pageid": 800727,
+        "ns": 0,
+        "title": "HANJIN BRION Academy",
+        "revisions": [
+          {
+            "revid": 4494907,
+            "parentid": 4406339,
+            "timestamp": "2026-07-27T04:10:20Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4494907,
+        "length": 3113
+      },
+      "846454": {
+        "pageid": 846454,
+        "ns": 0,
+        "title": "Karmine Corp Blue",
+        "revisions": [
+          {
+            "revid": 4354529,
+            "parentid": 4351857,
+            "timestamp": "2026-01-13T20:05:28Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4354529,
+        "length": 5849
+      },
+      "848191": {
+        "pageid": 848191,
+        "ns": 0,
+        "title": "Ici Japon Corp. Esport",
+        "revisions": [
+          {
+            "revid": 4390514,
+            "parentid": 4378797,
+            "timestamp": "2026-02-24T22:41:57Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T15:35:18Z",
+        "lastrevid": 4390514,
+        "length": 2319
+      },
+      "848662": {
+        "pageid": 848662,
+        "ns": 0,
+        "title": "Guinea Pink",
+        "revisions": [
+          {
+            "revid": 4483005,
+            "parentid": 4418881,
+            "timestamp": "2026-07-09T15:11:59Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4483005,
+        "length": 2145
+      },
+      "850540": {
+        "pageid": 850540,
+        "ns": 0,
+        "title": "Ilha das Lendas",
+        "revisions": [
+          {
+            "revid": 4403831,
+            "parentid": 4396708,
+            "timestamp": "2026-03-15T20:40:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4403831,
+        "length": 5734
+      },
+      "862499": {
+        "pageid": 862499,
+        "ns": 0,
+        "title": "GnG Amazigh",
+        "revisions": [
+          {
+            "revid": 4482348,
+            "parentid": 4478283,
+            "timestamp": "2026-07-08T20:56:32Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4482348,
+        "length": 2827
+      },
+      "863750": {
+        "pageid": 863750,
+        "ns": 0,
+        "title": "Gravity (2024 North American Team)",
+        "revisions": [
+          {
+            "revid": 4500081,
+            "parentid": 4334061,
+            "timestamp": "2026-08-02T04:49:50Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T04:49:50Z",
+        "lastrevid": 4500081,
+        "length": 1388
+      },
+      "883756": {
+        "pageid": 883756,
+        "ns": 0,
+        "title": "International Esports Industry Center",
+        "revisions": [
+          {
+            "revid": 4123198,
+            "parentid": 4058997,
+            "timestamp": "2025-03-04T11:01:40Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4123198,
+        "length": 1168
+      },
+      "891998": {
+        "pageid": 891998,
+        "ns": 0,
+        "title": "IMProve Team",
+        "revisions": [
+          {
+            "revid": 4426582,
+            "parentid": 4240829,
+            "timestamp": "2026-04-17T16:46:20Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4426582,
+        "length": 1374
+      },
+      "930439": {
+        "pageid": 930439,
+        "ns": 0,
+        "title": "Karmine Corp Blue Stars",
+        "revisions": [
+          {
+            "revid": 4377615,
+            "parentid": 4360863,
+            "timestamp": "2026-02-07T22:55:47Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4377615,
+        "length": 1939
+      },
+      "931907": {
+        "pageid": 931907,
+        "ns": 0,
+        "title": "Hanwha Life Esports Academy",
+        "revisions": [
+          {
+            "revid": 4411042,
+            "parentid": 4406117,
+            "timestamp": "2026-03-28T09:47:03Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4411042,
+        "length": 2742
+      },
+      "942872": {
+        "pageid": 942872,
+        "ns": 0,
+        "title": "Hannover Esports e.V.",
+        "revisions": [
+          {
+            "revid": 4390981,
+            "parentid": 4390980,
+            "timestamp": "2026-02-25T17:15:26Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4390981,
+        "length": 1349
+      },
+      "946206": {
+        "pageid": 946206,
+        "ns": 0,
+        "title": "KaBuM! Ilha das Lendas",
+        "revisions": [
+          {
+            "revid": 4398766,
+            "parentid": 4369316,
+            "timestamp": "2026-03-07T17:51:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4398766,
+        "length": 2077
+      },
+      "980231": {
+        "pageid": 980231,
+        "ns": 0,
+        "title": "Golden Lions",
+        "revisions": [
+          {
+            "revid": 4485500,
+            "parentid": 4485484,
+            "timestamp": "2026-07-14T01:52:42Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4485500,
+        "length": 4240
+      },
+      "986565": {
+        "pageid": 986565,
+        "ns": 0,
+        "title": "Inferno Esports (Filipino Team)",
+        "revisions": [
+          {
+            "revid": 4346228,
+            "parentid": 4302388,
+            "timestamp": "2025-12-25T21:47:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4346228,
+        "length": 1395
+      },
+      "997881": {
+        "pageid": 997881,
+        "ns": 0,
+        "title": "Kanji Esports",
+        "revisions": [
+          {
+            "revid": 4348974,
+            "parentid": 4348948,
+            "timestamp": "2026-01-04T18:23:58Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4348974,
+        "length": 1461
+      },
+      "999272": {
+        "pageid": 999272,
+        "ns": 0,
+        "title": "JSK Esports",
+        "revisions": [
+          {
+            "revid": 4486884,
+            "parentid": 4486873,
+            "timestamp": "2026-07-15T22:04:07Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T15:09:42Z",
+        "lastrevid": 4486884,
+        "length": 2185
+      },
+      "1007843": {
+        "pageid": 1007843,
+        "ns": 0,
+        "title": "Godalions Blossom",
+        "revisions": [
+          {
+            "revid": 4326797,
+            "parentid": 4326728,
+            "timestamp": "2025-11-10T14:51:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4326797,
+        "length": 868
+      },
+      "1011575": {
+        "pageid": 1011575,
+        "ns": 0,
+        "title": "Inferno Drive Tokyo",
+        "revisions": [
+          {
+            "revid": 4395727,
+            "parentid": 4377911,
+            "timestamp": "2026-03-03T01:54:53Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4395727,
+        "length": 1096
+      },
+      "1012039": {
+        "pageid": 1012039,
+        "ns": 0,
+        "title": "HMBLE",
+        "revisions": [
+          {
+            "revid": 4487394,
+            "parentid": 4349943,
+            "timestamp": "2026-07-16T15:24:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4487394,
+        "length": 1768
+      },
+      "1023408": {
+        "pageid": 1023408,
+        "ns": 0,
+        "title": "KaBuM! Trainee",
+        "revisions": [
+          {
+            "revid": 4413271,
+            "parentid": 4387922,
+            "timestamp": "2026-03-31T00:18:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4413271,
+        "length": 1889
+      },
+      "1023916": {
+        "pageid": 1023916,
+        "ns": 0,
+        "title": "Juventus Gaming White",
+        "revisions": [
+          {
+            "revid": 4457815,
+            "parentid": 4449191,
+            "timestamp": "2026-05-25T22:29:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4457815,
+        "length": 1467
+      },
+      "1039326": {
+        "pageid": 1039326,
+        "ns": 0,
+        "title": "JSK Academy",
+        "revisions": [
+          {
+            "revid": 4447020,
+            "parentid": 4445513,
+            "timestamp": "2026-05-12T02:32:52Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4447020,
+        "length": 1479
+      },
+      "1039386": {
+        "pageid": 1039386,
+        "ns": 0,
+        "title": "Juventus Gaming Red",
+        "revisions": [
+          {
+            "revid": 4449201,
+            "parentid": 4449188,
+            "timestamp": "2026-05-14T23:46:01Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4449201,
+        "length": 1157
+      },
+      "1039391": {
+        "pageid": 1039391,
+        "ns": 0,
+        "title": "Juventus Gaming Gold",
+        "revisions": [
+          {
+            "revid": 4498381,
+            "parentid": 4471168,
+            "timestamp": "2026-07-31T02:09:57Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T02:10:28Z",
+        "lastrevid": 4498381,
+        "length": 1393
+      },
+      "1041507": {
+        "pageid": 1041507,
+        "ns": 0,
+        "title": "International Love",
+        "revisions": [
+          {
+            "revid": 4447715,
+            "parentid": 0,
+            "timestamp": "2026-05-13T02:36:56Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:21:19Z",
+        "lastrevid": 4447715,
+        "length": 750,
+        "new": ""
+      },
+      "1041759": {
+        "pageid": 1041759,
+        "ns": 0,
+        "title": "God Darkness Esports",
+        "revisions": [
+          {
+            "revid": 4449288,
+            "parentid": 4449227,
+            "timestamp": "2026-05-15T04:13:17Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4449288,
+        "length": 883
+      },
+      "1044246": {
+        "pageid": 1044246,
+        "ns": 0,
+        "title": "Invokers",
+        "revisions": [
+          {
+            "revid": 4498387,
+            "parentid": 4457002,
+            "timestamp": "2026-07-31T02:16:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T02:16:23Z",
+        "lastrevid": 4498387,
+        "length": 1896
+      },
+      "1052264": {
+        "pageid": 1052264,
+        "ns": 0,
+        "title": "Ground Zero Academy",
+        "revisions": [
+          {
+            "revid": 4481721,
+            "parentid": 4481279,
+            "timestamp": "2026-07-07T15:10:27Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T14:25:02Z",
+        "lastrevid": 4481721,
+        "length": 1614
+      },
+      "1057068": {
+        "pageid": 1057068,
+        "ns": 0,
+        "title": "Hooligans",
+        "revisions": [
+          {
+            "revid": 4496140,
+            "parentid": 4496139,
+            "timestamp": "2026-07-28T18:34:35Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T17:35:41Z",
+        "lastrevid": 4496140,
+        "length": 799
+      }
+    }
+  }
+}

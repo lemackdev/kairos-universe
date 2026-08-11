@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-lorofatz-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-lorofatz",
+  "teamId": "external-lol-team-esug-ultimate-five-feeder",
+  "gameId": "league-of-legends",
+  "roles": [
+    "mid"
+  ],
+  "rawRoles": [
+    "Mid"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "072d027d79f58182a0f057466bca8542b6caad1925ede663f22fce82345872ec",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-lorofatz-revision-unknown"
+  ]
+}

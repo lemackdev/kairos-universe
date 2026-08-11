@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-redeemed-kit-sc-white-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-redeemed",
+  "teamId": "external-lol-team-kit-sc-white",
+  "gameId": "league-of-legends",
+  "roles": [
+    "mid"
+  ],
+  "rawRoles": [
+    "Mid"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "fd8997fbcb97641439f81bfa1f5e42a0129995acb8310263e26ab586a4fafa95",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-redeemed-revision-unknown"
+  ]
+}

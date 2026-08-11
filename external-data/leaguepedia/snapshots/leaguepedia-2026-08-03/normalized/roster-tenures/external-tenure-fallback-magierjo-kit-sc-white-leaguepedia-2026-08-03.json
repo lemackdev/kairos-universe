@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-magierjo-kit-sc-white-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-magierjo",
+  "teamId": "external-lol-team-kit-sc-white",
+  "gameId": "league-of-legends",
+  "roles": [
+    "mid"
+  ],
+  "rawRoles": [
+    "Mid"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "12634aa13517ebafa24c82bda21568286c7085fb6bd93a124abe98ac53770c83",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-magierjo-revision-unknown"
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "146042": {
+        "pageid": 146042,
+        "ns": 0,
+        "title": "Dplus Kia",
+        "revisions": [
+          {
+            "revid": 4483770,
+            "parentid": 4483769,
+            "timestamp": "2026-07-10T14:03:40Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:26Z",
+        "lastrevid": 4483770,
+        "length": 16975
+      },
+      "151439": {
+        "pageid": 151439,
+        "ns": 0,
+        "title": "DetonatioN FocusMe",
+        "revisions": [
+          {
+            "revid": 4500903,
+            "parentid": 4500788,
+            "timestamp": "2026-08-03T11:31:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T11:36:24Z",
+        "lastrevid": 4500903,
+        "length": 12292
+      },
+      "154400": {
+        "pageid": 154400,
+        "ns": 0,
+        "title": "EDward Gaming",
+        "revisions": [
+          {
+            "revid": 4490662,
+            "parentid": 4486458,
+            "timestamp": "2026-07-21T10:10:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:26Z",
+        "lastrevid": 4490662,
+        "length": 15314
+      },
+      "155360": {
+        "pageid": 155360,
+        "ns": 0,
+        "title": "ESuba",
+        "revisions": [
+          {
+            "revid": 4485454,
+            "parentid": 4363651,
+            "timestamp": "2026-07-13T19:44:48Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:26Z",
+        "lastrevid": 4485454,
+        "length": 5222
+      },
+      "188979": {
+        "pageid": 188979,
+        "ns": 0,
+        "title": "DN SOOPers",
+        "revisions": [
+          {
+            "revid": 4494969,
+            "parentid": 4452248,
+            "timestamp": "2026-07-27T06:32:05Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:26:44Z",
+        "lastrevid": 4494969,
+        "length": 15691
+      },
+      "200119": {
+        "pageid": 200119,
+        "ns": 0,
+        "title": "Dignitas",
+        "revisions": [
+          {
+            "revid": 4372696,
+            "parentid": 4366066,
+            "timestamp": "2026-02-01T20:45:55Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4372696,
+        "length": 34470
+      },
+      "266546": {
+        "pageid": 266546,
+        "ns": 0,
+        "title": "EDward Gaming Youth Team",
+        "revisions": [
+          {
+            "revid": 4223508,
+            "parentid": 4223504,
+            "timestamp": "2025-06-21T20:21:55Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4223508,
+        "length": 2815
+      },
+      "281178": {
+        "pageid": 281178,
+        "ns": 0,
+        "title": "Devils.one inStreamly",
+        "revisions": [
+          {
+            "revid": 4494664,
+            "parentid": 4493074,
+            "timestamp": "2026-07-26T18:32:02Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T01:48:56Z",
+        "lastrevid": 4494664,
+        "length": 6017
+      },
+      "293033": {
+        "pageid": 293033,
+        "ns": 0,
+        "title": "Dusty",
+        "revisions": [
+          {
+            "revid": 4290006,
+            "parentid": 4121990,
+            "timestamp": "2025-09-11T11:04:16Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4290006,
+        "length": 2817
+      },
+      "293089": {
+        "pageid": 293089,
+        "ns": 0,
+        "title": "Estral Esports",
+        "revisions": [
+          {
+            "revid": 4483866,
+            "parentid": 4483846,
+            "timestamp": "2026-07-11T03:38:46Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4483866,
+        "length": 11623
+      },
+      "340948": {
+        "pageid": 340948,
+        "ns": 0,
+        "title": "ESUG Ultimate Five Feeder",
+        "revisions": [
+          {
+            "revid": 4122230,
+            "parentid": 3835927,
+            "timestamp": "2025-03-04T10:07:45Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4122230,
+        "length": 6741
+      },
+      "355429": {
+        "pageid": 355429,
+        "ns": 0,
+        "title": "Dynasty",
+        "revisions": [
+          {
+            "revid": 4482549,
+            "parentid": 4476667,
+            "timestamp": "2026-07-09T06:27:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T15:42:53Z",
+        "lastrevid": 4482549,
+        "length": 3620
+      },
+      "409935": {
+        "pageid": 409935,
+        "ns": 0,
+        "title": "Eesti Rästikud",
+        "revisions": [
+          {
+            "revid": 4122066,
+            "parentid": 3851870,
+            "timestamp": "2025-03-04T09:59:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4122066,
+        "length": 1876
+      },
+      "418145": {
+        "pageid": 418145,
+        "ns": 0,
+        "title": "Eintracht Frankfurt",
+        "revisions": [
+          {
+            "revid": 4464919,
+            "parentid": 4372689,
+            "timestamp": "2026-06-06T01:53:33Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4464919,
+        "length": 3946
+      },
+      "419754": {
+        "pageid": 419754,
+        "ns": 0,
+        "title": "DMG Esports",
+        "revisions": [
+          {
+            "revid": 4496419,
+            "parentid": 4491582,
+            "timestamp": "2026-07-28T22:01:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4496419,
+        "length": 5858
+      },
+      "422513": {
+        "pageid": 422513,
+        "ns": 0,
+        "title": "DN SOOPers Academy",
+        "revisions": [
+          {
+            "revid": 4345447,
+            "parentid": 4345420,
+            "timestamp": "2025-12-22T18:57:50Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4345447,
+        "length": 3501
+      },
+      "422546": {
+        "pageid": 422546,
+        "ns": 0,
+        "title": "Dplus Kia Youth",
+        "revisions": [
+          {
+            "revid": 4458326,
+            "parentid": 4458319,
+            "timestamp": "2026-05-26T14:00:59Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4458326,
+        "length": 2926
+      },
+      "438471": {
+        "pageid": 438471,
+        "ns": 0,
+        "title": "E WIE EINFACH E-SPORTS",
+        "revisions": [
+          {
+            "revid": 4381843,
+            "parentid": 4381839,
+            "timestamp": "2026-02-13T11:08:16Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4381843,
+        "length": 2265
+      },
+      "440278": {
+        "pageid": 440278,
+        "ns": 0,
+        "title": "Dplus Kia Challengers",
+        "revisions": [
+          {
+            "revid": 4373018,
+            "parentid": 4373001,
+            "timestamp": "2026-02-02T07:46:11Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4373018,
+        "length": 3512
+      },
+      "442455": {
+        "pageid": 442455,
+        "ns": 0,
+        "title": "DN SOOPers Challengers",
+        "revisions": [
+          {
+            "revid": 4494970,
+            "parentid": 4353952,
+            "timestamp": "2026-07-27T06:32:28Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T04:48:32Z",
+        "lastrevid": 4494970,
+        "length": 2868
+      },
+      "494798": {
+        "pageid": 494798,
+        "ns": 0,
+        "title": "DetonatioN FocusMe Academy",
+        "revisions": [
+          {
+            "revid": 4388045,
+            "parentid": 4388044,
+            "timestamp": "2026-02-21T09:27:56Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4388045,
+        "length": 2209
+      },
+      "612831": {
+        "pageid": 612831,
+        "ns": 0,
+        "title": "Eintracht Spandau",
+        "revisions": [
+          {
+            "revid": 4442606,
+            "parentid": 4442596,
+            "timestamp": "2026-05-06T16:26:15Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4442606,
+        "length": 5904
+      },
+      "742633": {
+        "pageid": 742633,
+        "ns": 0,
+        "title": "Esport STUBA",
+        "revisions": [
+          {
+            "revid": 4325405,
+            "parentid": 4129757,
+            "timestamp": "2025-11-07T21:12:27Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4325405,
+        "length": 1179
+      },
+      "756072": {
+        "pageid": 756072,
+        "ns": 0,
+        "title": "DKB XPERION NXT",
+        "revisions": [
+          {
+            "revid": 4453326,
+            "parentid": 4452682,
+            "timestamp": "2026-05-20T18:59:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4453326,
+        "length": 2088
+      },
+      "756798": {
+        "pageid": 756798,
+        "ns": 0,
+        "title": "Domino Computer",
+        "revisions": [
+          {
+            "revid": 4447011,
+            "parentid": 4268301,
+            "timestamp": "2026-05-12T01:29:01Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4447011,
+        "length": 2944
+      },
+      "773271": {
+        "pageid": 773271,
+        "ns": 0,
+        "title": "Drury University",
+        "revisions": [
+          {
+            "revid": 4334049,
+            "parentid": 4330978,
+            "timestamp": "2025-11-20T15:10:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4334049,
+        "length": 1666
+      },
+      "801947": {
+        "pageid": 801947,
+        "ns": 0,
+        "title": "Disguised",
+        "revisions": [
+          {
+            "revid": 4494957,
+            "parentid": 4449679,
+            "timestamp": "2026-07-27T05:07:14Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4494957,
+        "length": 2959
+      },
+      "848717": {
+        "pageid": 848717,
+        "ns": 0,
+        "title": "Esprit Shōnen",
+        "revisions": [
+          {
+            "revid": 4491935,
+            "parentid": 4483890,
+            "timestamp": "2026-07-22T21:12:53Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T07:29:07Z",
+        "lastrevid": 4491935,
+        "length": 2072
+      },
+      "848980": {
+        "pageid": 848980,
+        "ns": 0,
+        "title": "EKO Esports",
+        "revisions": [
+          {
+            "revid": 4488135,
+            "parentid": 4413049,
+            "timestamp": "2026-07-17T16:39:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4488135,
+        "length": 2223
+      },
+      "872829": {
+        "pageid": 872829,
+        "ns": 0,
+        "title": "Dorado Gaming",
+        "revisions": [
+          {
+            "revid": 4408912,
+            "parentid": 4401155,
+            "timestamp": "2026-03-25T02:46:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4408912,
+        "length": 1264
+      },
+      "889933": {
+        "pageid": 889933,
+        "ns": 0,
+        "title": "Diversion Gaming",
+        "revisions": [
+          {
+            "revid": 4363719,
+            "parentid": 4362623,
+            "timestamp": "2026-01-23T17:21:16Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4363719,
+        "length": 1182
+      },
+      "897898": {
+        "pageid": 897898,
+        "ns": 0,
+        "title": "DUCKIE GETTERS",
+        "revisions": [
+          {
+            "revid": 4472249,
+            "parentid": 4472248,
+            "timestamp": "2026-06-18T16:46:51Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4472249,
+        "length": 1032
+      },
+      "910465": {
+        "pageid": 910465,
+        "ns": 0,
+        "title": "Ember Foxes",
+        "revisions": [
+          {
+            "revid": 4334051,
+            "parentid": 4140035,
+            "timestamp": "2025-11-20T15:10:28Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4334051,
+        "length": 1132
+      },
+      "921817": {
+        "pageid": 921817,
+        "ns": 0,
+        "title": "Dorado Gaming Black",
+        "revisions": [
+          {
+            "revid": 4497596,
+            "parentid": 4331010,
+            "timestamp": "2026-07-30T05:39:48Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:39:48Z",
+        "lastrevid": 4497596,
+        "length": 1013
+      },
+      "943552": {
+        "pageid": 943552,
+        "ns": 0,
+        "title": "Divernex",
+        "revisions": [
+          {
+            "revid": 4456359,
+            "parentid": 4430826,
+            "timestamp": "2026-05-24T05:43:14Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4456359,
+        "length": 1178
+      },
+      "945603": {
+        "pageid": 945603,
+        "ns": 0,
+        "title": "DOCISK",
+        "revisions": [
+          {
+            "revid": 4499987,
+            "parentid": 4410303,
+            "timestamp": "2026-08-02T01:11:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T01:11:39Z",
+        "lastrevid": 4499987,
+        "length": 2998
+      },
+      "962043": {
+        "pageid": 962043,
+        "ns": 0,
+        "title": "DOCISK Academy",
+        "revisions": [
+          {
+            "revid": 4488414,
+            "parentid": 4488399,
+            "timestamp": "2026-07-18T01:29:51Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4488414,
+        "length": 1719
+      },
+      "992514": {
+        "pageid": 992514,
+        "ns": 0,
+        "title": "E-Champ Gaming Trainee",
+        "revisions": [
+          {
+            "revid": 4440586,
+            "parentid": 4408838,
+            "timestamp": "2026-05-04T03:11:41Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4440586,
+        "length": 1292
+      },
+      "993938": {
+        "pageid": 993938,
+        "ns": 0,
+        "title": "Eterna",
+        "revisions": [
+          {
+            "revid": 4495477,
+            "parentid": 4491527,
+            "timestamp": "2026-07-27T17:40:57Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4495477,
+        "length": 1514
+      },
+      "998126": {
+        "pageid": 998126,
+        "ns": 0,
+        "title": "Epic Avalanche",
+        "revisions": [
+          {
+            "revid": 4295514,
+            "parentid": 0,
+            "timestamp": "2025-09-18T10:18:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4295514,
+        "length": 915,
+        "new": ""
+      },
+      "1011519": {
+        "pageid": 1011519,
+        "ns": 0,
+        "title": "Eintracht Spandau Zwei",
+        "revisions": [
+          {
+            "revid": 4345898,
+            "parentid": 0,
+            "timestamp": "2025-12-24T15:32:17Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4345898,
+        "length": 1162,
+        "new": ""
+      },
+      "1012266": {
+        "pageid": 1012266,
+        "ns": 0,
+        "title": "Deer Gaming",
+        "revisions": [
+          {
+            "revid": 4472218,
+            "parentid": 4472217,
+            "timestamp": "2026-06-18T15:59:54Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4472218,
+        "length": 1275
+      },
+      "1023576": {
+        "pageid": 1023576,
+        "ns": 0,
+        "title": "Ei Nerd Esports",
+        "revisions": [
+          {
+            "revid": 4417530,
+            "parentid": 4404722,
+            "timestamp": "2026-04-05T22:44:44Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4417530,
+        "length": 1520
+      },
+      "1037807": {
+        "pageid": 1037807,
+        "ns": 0,
+        "title": "Dream Esports",
+        "revisions": [
+          {
+            "revid": 4491243,
+            "parentid": 4488114,
+            "timestamp": "2026-07-21T20:46:40Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T15:40:09Z",
+        "lastrevid": 4491243,
+        "length": 1171
+      },
+      "1040175": {
+        "pageid": 1040175,
+        "ns": 0,
+        "title": "EmBRAZA! Esports",
+        "revisions": [
+          {
+            "revid": 4478036,
+            "parentid": 4477473,
+            "timestamp": "2026-06-28T22:37:06Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4478036,
+        "length": 1186
+      },
+      "1050916": {
+        "pageid": 1050916,
+        "ns": 0,
+        "title": "Docta Esports",
+        "revisions": [
+          {
+            "revid": 4481183,
+            "parentid": 4479024,
+            "timestamp": "2026-07-05T23:51:16Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4481183,
+        "length": 1385
+      },
+      "1053646": {
+        "pageid": 1053646,
+        "ns": 0,
+        "title": "Disruptors",
+        "revisions": [
+          {
+            "revid": 4485631,
+            "parentid": 4485604,
+            "timestamp": "2026-07-14T16:35:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T05:41:46Z",
+        "lastrevid": 4485631,
+        "length": 1036
+      },
+      "1054560": {
+        "pageid": 1054560,
+        "ns": 0,
+        "title": "Embrace Whatever Happens",
+        "revisions": [
+          {
+            "revid": 4491422,
+            "parentid": 4488208,
+            "timestamp": "2026-07-22T07:18:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T11:16:59Z",
+        "lastrevid": 4491422,
+        "length": 1084
+      },
+      "1056911": {
+        "pageid": 1056911,
+        "ns": 0,
+        "title": "DIA Ozarox Esports",
+        "revisions": [
+          {
+            "revid": 4498788,
+            "parentid": 4497807,
+            "timestamp": "2026-07-31T14:13:36Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-31T14:14:38Z",
+        "lastrevid": 4498788,
+        "length": 936
+      },
+      "1057209": {
+        "pageid": 1057209,
+        "ns": 0,
+        "title": "Ducks Deluxe x Evil Geniuses",
+        "revisions": [
+          {
+            "revid": 4496498,
+            "parentid": 4496494,
+            "timestamp": "2026-07-28T23:45:56Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T04:53:53Z",
+        "lastrevid": 4496498,
+        "length": 896
+      }
+    }
+  }
+}

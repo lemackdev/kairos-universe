@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-1847",
+  "slug": "alex-berger",
+  "nickname": "Alex Berger",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "us",
+  "nationalities": [],
+  "residency": "North America",
+  "dateOfBirth": null,
+  "primaryRole": "jungle",
+  "currentTeamId": "external-lol-team-missouri-valley-college",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "1847",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "c5715191baf508169617bca9fef898341503c50bf45522a66a0974830711b73f",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-1847-revision-unknown"
+  ]
+}

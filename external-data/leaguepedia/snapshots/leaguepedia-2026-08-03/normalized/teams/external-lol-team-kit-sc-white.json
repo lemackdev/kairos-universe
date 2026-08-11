@@ -1,0 +1,34 @@
+{
+  "id": "external-lol-team-kit-sc-white",
+  "slug": "kit-w",
+  "name": "KIT SC White",
+  "shortName": "KIT.W",
+  "gameId": "league-of-legends",
+  "organizationId": null,
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaOverviewPage": "KIT SC White",
+  "region": "EMEA",
+  "location": "Germany",
+  "status": "active",
+  "isDisbanded": false,
+  "currentPlayerTenureIds": [
+    "external-tenure-fallback-gentlemanhero-kit-sc-white-leaguepedia-2026-08-03",
+    "external-tenure-fallback-striker-filip-prentovic-kit-sc-white-leaguepedia-2026-08-03",
+    "external-tenure-fallback-redeemed-kit-sc-white-leaguepedia-2026-08-03",
+    "external-tenure-fallback-matthew-noah-seim-kit-sc-white-leaguepedia-2026-08-03",
+    "external-tenure-fallback-catirl-kit-sc-white-leaguepedia-2026-08-03",
+    "external-tenure-fallback-magierjo-kit-sc-white-leaguepedia-2026-08-03",
+    "external-tenure-fallback-taewang-kit-sc-white-leaguepedia-2026-08-03"
+  ],
+  "currentStaffTenureIds": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "47ce4ce09f52d7972dbbb569560fca7169ea54fe3342a754bd0b2e56f88f545a",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "approved",
+  "reviewNotes": [],
+  "sources": [
+    "leaguepedia-page-kit-sc-white-revision-4123433"
+  ]
+}

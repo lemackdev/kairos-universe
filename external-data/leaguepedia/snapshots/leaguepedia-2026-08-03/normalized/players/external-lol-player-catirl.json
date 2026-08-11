@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-catirl",
+  "slug": "jakob-essig",
+  "nickname": "Jakob Essig",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "support",
+  "currentTeamId": "external-lol-team-kit-sc-white",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "CatIRL",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "35eb8ffddd3dd646e8fa1c1b7aa50a6fc0587d9eb0b2d01c8fe851bddc9c9a84",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-catirl-revision-unknown"
+  ]
+}

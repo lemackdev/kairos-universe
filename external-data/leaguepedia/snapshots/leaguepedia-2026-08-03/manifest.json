@@ -1,0 +1,1238 @@
+{
+  "generatedAt": "2026-08-03T15:06:19.806Z",
+  "totalQueries": 123,
+  "cargoQueries": 59,
+  "mediawikiQueries": 64,
+  "queries": [
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Players",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Players&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:01.185Z",
+      "sequence": 1
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Teams",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Teams&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:01.774Z",
+      "sequence": 2
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Tenures",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Tenures&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:02.559Z",
+      "sequence": 3
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for RosterChanges",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=RosterChanges&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:03.392Z",
+      "sequence": 4
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for PlayerRedirects",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=PlayerRedirects&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:04.223Z",
+      "sequence": 5
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Alphabets",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Alphabets&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:05.030Z",
+      "sequence": 6
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for ListplayerCurrent",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=ListplayerCurrent&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:20:05.861Z",
+      "sequence": 7
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Players",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Players&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:24.373Z",
+      "sequence": 8
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Teams",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Teams&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:25.019Z",
+      "sequence": 9
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Tenures",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Tenures&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:25.800Z",
+      "sequence": 10
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for RosterChanges",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=RosterChanges&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:26.638Z",
+      "sequence": 11
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for PlayerRedirects",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=PlayerRedirects&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:27.428Z",
+      "sequence": 12
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Alphabets",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Alphabets&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:28.234Z",
+      "sequence": 13
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for ListplayerCurrent",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=ListplayerCurrent&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 0,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:21:29.132Z",
+      "sequence": 14
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Players",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Players&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 60,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:10.823Z",
+      "sequence": 15
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Teams",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Teams&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 23,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:11.211Z",
+      "sequence": 16
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Tenures",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Tenures&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 15,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:12.020Z",
+      "sequence": 17
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for RosterChanges",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=RosterChanges&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 23,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:12.855Z",
+      "sequence": 18
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for PlayerRedirects",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=PlayerRedirects&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 3,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:13.653Z",
+      "sequence": 19
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for Alphabets",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=Alphabets&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 2,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:14.448Z",
+      "sequence": 20
+    },
+    {
+      "kind": "cargo",
+      "description": "schema inspection: cargofields for ListplayerCurrent",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargofields&table=ListplayerCurrent&format=json",
+      "rawFile": "(schema report only, not cached per-row)",
+      "rowCount": 11,
+      "checksum": "",
+      "issuedAt": "2026-08-03T14:22:15.283Z",
+      "sequence": 21
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T14:44:15.901Z",
+      "sequence": 22
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T14:44:16.702Z",
+      "sequence": 23
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T14:45:23.005Z",
+      "sequence": 24
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T14:48:59.600Z",
+      "sequence": 25
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T14:48:59.601Z",
+      "sequence": 26
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T14:48:59.608Z",
+      "sequence": 27
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 0 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=2+Massive%7C24+7+Tower+Dive%7C3BL+Esports%7C3v+Team%7C404+Multigaming+e.V.%7C7REX%7C9Gaming%7C9z+Globant%7CAaB+Esport%7CAbsolved%7CAceGaming%7CAeterna+Esports%7CAethra+Esports+Strijders%7CAll+for+One+Gaming%7CALMO+Players%7CAncient+Ones%7CAndromeda+Gaming%7CAnonymo+Esports%7CAnubis+Gaming%7CAnyone%27s+Legend%7CAnyone%27s+Legend.Young%7CApex+Mission+Impossible%7CAquinas+College%7CArctic+Pandas%7CArizona+State+University%7CArmoured+Brothers%7CArneb%7CAtruvia+M%C3%BCnster+Esports%7CAxolotl%7CAZ+Rising+Eterna%7CAzules+Esports%7CAzules+Esports+Academy%7CAzules+Esports+Fem%7CB2U%7CBaam+Esports%7CBabos+Gaming%7CBall+State+University%7CBamboo+Juice%7CBar%C3%A7a+eSports%7CBarcz%C4%85ca+Esports%7CBarcz%C4%85ca+Esports+Babylon%7CBastu+Five%7CBerlin+International+Gaming%7CBethany+Lutheran+College%7CBilibili+Gaming%7CBilibili+Gaming+Junior%7CBitfix+RG%7CBlack+Lion%7CBlue+Otter%7CBlue+Otter+Europe&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-0.json",
+      "rowCount": 50,
+      "checksum": "2a73453c56403a9fbb9522a5627143ee3b4c3d6e88510e1602120022712b6397",
+      "issuedAt": "2026-08-03T14:51:12.210Z",
+      "sequence": 28
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 1 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=BlueWhites%7CBNK+FEARX%7CBNK+FEARX+Youth%7CBohemian+Guardians%7CBoise+State+University%7CBomba+Team%7CBOOBA%7CBoostGate+Esports%7CBriar+Cliff+University%7CBrod+n+Friends%7CBRUTE%7CBubliki%7CBulldog+Esports%7CBunny+Girls%7CBurning+Core+Toyama%7CBushido+Wildcats%7CCAG+OSAKA%7CCalamity+Esports%7CCaldya+Esport%7CCampbellsville+University%7CCarleton+University%7CCarolina+Reapers%7CCCG+Esports%7CCeuta+Guardians%7CCGN+Esports%7CChiefs+Esports+Club%7CCITA+Kaizen%7CCITA+Kaizen+Academy%7CCitadel+Gaming%7CCl%C3%A3+NKZ%7CCleary+University%7CCleveland+State+University%7CCloud9%7CCNG+Royal%7CColorado+State+University%7CColossal+Gaming%7CColumbia+College%7CContingent+Esports%7CConverse+University%7CConviction%7CCORE+128%7CCoscu+Army%7CCPLAY%7CCrystal+Rose+%28French+Team%29%7CCTBC+Flying+Oyster%7CCTBC+Flying+Oyster+Academy%7CCupid+Esports%7CDark+Passage%7CDeathMark+E-Sports%7CDeep+Cross+Gaming&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-1.json",
+      "rowCount": 50,
+      "checksum": "b2b81d0c34ebb61691c532cf6b0172aff30cffe4ded6b493e142194738b897d6",
+      "issuedAt": "2026-08-03T14:51:13.043Z",
+      "sequence": 29
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 2 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Deer+Gaming%7CDetonatioN+FocusMe%7CDetonatioN+FocusMe+Academy%7CDevils.one+inStreamly%7CDIA+Ozarox+Esports%7CDignitas%7CDisguised%7CDisruptors%7CDivernex%7CDiversion+Gaming%7CDKB+XPERION+NXT%7CDMG+Esports%7CDN+SOOPers%7CDN+SOOPers+Academy%7CDN+SOOPers+Challengers%7CDOCISK%7CDOCISK+Academy%7CDocta+Esports%7CDomino+Computer%7CDorado+Gaming%7CDorado+Gaming+Black%7CDplus+Kia%7CDplus+Kia+Challengers%7CDplus+Kia+Youth%7CDream+Esports%7CDrury+University%7CDUCKIE+GETTERS%7CDucks+Deluxe+x+Evil+Geniuses%7CDusty%7CDynasty%7CE+WIE+EINFACH+E-SPORTS%7CE-Champ+Gaming+Trainee%7CEDward+Gaming%7CEDward+Gaming+Youth+Team%7CEesti+R%C3%A4stikud%7CEi+Nerd+Esports%7CEintracht+Frankfurt%7CEintracht+Spandau%7CEintracht+Spandau+Zwei%7CEKO+Esports%7CEmber+Foxes%7CEmbrace+Whatever+Happens%7CEmBRAZA%21+Esports%7CEpic+Avalanche%7CEsport+STUBA%7CEsprit+Sh%C5%8Dnen%7CEstral+Esports%7CESuba%7CESUG+Ultimate+Five+Feeder%7CEterna&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-2.json",
+      "rowCount": 50,
+      "checksum": "842de11df18dfa2e10093cd520b8b3b870b50f504af0c5949ea5909236daf86a",
+      "issuedAt": "2026-08-03T14:51:14.010Z",
+      "sequence": 30
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 3 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Eternals+Gaming%7CEthereal+Enigmas%7CEXILE+esports%7CEXILE+esports+Academy%7CFaerie+Charm+%28Singaporean+Team%29%7CFalke+Esports%7CFarenvehn+Fem%7CFast8%7CFENNEL%7CFervent+Esports%7CFisher+College%7CFive+Leaf+Clover%7CFlameHard%7CFlorida+Southern+College%7CFlorida+State+University%7CFluxo+W7M%7CFlyQuest%7CFlyQuest+RED%7CFnatic%7CForsaken+%28Polish+Team%29%7CFortress+Esports%7CFPT+University+Hochiminh%7CFrank+Esports%7CFrites+Esports+Club%7CFuego%7CFukuoka+SoftBank+HAWKS+gaming%7CFull+Sense%7CFURIA%7CFURIA+Youth%7CG2+Esports%7CG2+Hel%7CG2+NORD%7CGalaxy+Gaming+%28American+Team%29%7CGalions%7CGalions+Pearl%7CGalions+Sharks%7CGAM+Esports%7CGamers404%7CGamespace+Mediterranean+College+Esports%7CGarden+Gaming%7CGen.G%7CGen.G+Global+Academy%7CGen.G+Scholars%7CGenZ+Gaming+%282025+Vietnamese+Team%29%7CGeorge+Mason+University%7CGIANTX%7CGIANTX+iTero%7CGity+Meavedronu%7CGM+Gaming%7CGMBLERS+Esports&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-3.json",
+      "rowCount": 50,
+      "checksum": "59565a79295b8a7664a458bb1760ae4e7560a82f29a5f254746b6c7d4fda5044",
+      "issuedAt": "2026-08-03T14:51:14.646Z",
+      "sequence": 31
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 4 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=GnG+Amazigh%7CGod+Darkness+Esports%7CGodalions+Blossom%7CGolden+Lions%7CGrand+View+University%7CGravity+%282024+North+American+Team%29%7CGround+Zero+Academy%7CGround+Zero+Gaming%7CGTZ+Esports%7CGuinea+Pink%7CHANJIN+BRION%7CHANJIN+BRION+Academy%7CHANJIN+BRION+Challengers%7CHannover+Esports+e.V.%7CHanwha+Life+Esports%7CHanwha+Life+Esports+Academy%7CHanwha+Life+Esports+Challengers%7CHarrisburg+University%7CHELL+PIGS%7CHMBLE%7CHooligans%7CIci+Japon+Corp.+Esport%7CIlha+das+Lendas%7CIllinois+Wesleyan+University%7CIMProve+Team%7CInferno+Drive+Tokyo%7CInferno+Esports+%28Filipino+Team%29%7CInside+Games%7CInternational+Esports+Industry+Center%7CInternational+Love%7CINTZ%7CInvictus+Gaming%7CInvokers%7CJD+Gaming%7CJoblife%7CJSK+Academy%7CJSK+Esports%7CJuventus+Gaming+Gold%7CJuventus+Gaming+Red%7CJuventus+Gaming+White%7CKaBuM%21+Ilha+das+Lendas%7CKaBuM%21+Trainee%7CKanji+Esports%7CKarmine+Corp%7CKarmine+Corp+Blue%7CKarmine+Corp+Blue+Stars%7CKarolinerna%7CKaufland+Hangry+Knights%7CKawaii+Kiwis%7CKIA.eSuba+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-4.json",
+      "rowCount": 50,
+      "checksum": "13f23077b93488ae50e65f1b4db42604c00053b4508ac76c2b6a7db9685326c6",
+      "issuedAt": "2026-08-03T14:51:15.484Z",
+      "sequence": 32
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 5 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=KIT+SC+White%7CKits+Esports%7CKiwoom+DRX%7CKiwoom+DRX+Challengers%7CKlanik+Esport%7CKnockOut+Esports%7CKomodo+%28North+American+Team%29%7CKT+Rolster%7CKT+Rolster+Academy%7CKT+Rolster+Challengers%7CKuma+e-Sports%7CKun+Shan+Lightning+Tiger%7CL+Guide+Gaming%7CLausanne-Sport+Esports%7CLenovo+Legion+Honv%C3%A9d%7CLeviatan%7CLGD+Gaming%7CLGD+Gaming+Young+Team%7CLille+Esport%7CLIT+Team%7CLNG+Esports%7CLODIS+%28Polish+Team%29%7CLotus+%28North+American+Team%29%7CLOUD%7CLourdes+University%7CL%C3%98S%7CL%C3%98S+Academy%7CLUA+Gaming%7CLund+Esports+Organization%7CLundqvist+Lightside%7CLupus+Esports%7CLYON+%282024+American+Team%29%7CLYON+Academy%7CMacko+Academy%7CMagaza+Esports%7CMalvinas+Gaming%7CMaryville+University%7CMaze+Gaming%7CMCon+esports%7CMeavedron%7CMeavedron+Anonymo+Master+Academy%7CMental+Rush%7CMiami+University%7CMichigan+State+University%7CMilk+Esports%7CMilk+Esports+Brazil%7CMilk+Esports+Whole+Milk%7CMind+Blue+eSports%7CMissouri+Valley+College%7CMonta+Club&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-5.json",
+      "rowCount": 50,
+      "checksum": "8b0fe063667c870ee5beba8972dd70e5b8cc7652f8a6ded3dad0235c460fae07",
+      "issuedAt": "2026-08-03T14:51:16.237Z",
+      "sequence": 33
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 6 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Movistar+KOI%7CMovistar+KOI+F%C3%A9nix%7CMT1+Esports%7CMVK+Esports%7CMVK+Esports+Academy%7CMYinsanity%7CMyth+Esports%7CMythus+Esports%7CNALCS+Players+Association%7CNatus+Vincere%7CNCG+Esports%7CNew+Meta%7CNext+Level+Esports%7CNextGeneration+Esports%7CNg%E1%BB%B1a+H%C3%AD+Esports%7CNightbirds%7CNine+Lives+Esports%7CNinjas+in+Pyjamas.CN%7CNo+Need+Orga%7CNocturne+Gale%7CNongshim+Esports+Academy%7CNongshim+RedForce%7CNongshim+RedForce+Academy%7CNorth+Carolina+State+University%7CNortheastern+University%7CNorthwood+University%7CNOVEX%7CNRG%7CO%27Gaming+TV%7COakland+University%7CObservant+Force%7COdivelas+Sports+Club%7COh+My+God%7COhio+Northern+University%7COhio+State+University%7COklahoma+Christian+University%7COmerix+Esport%7COnce+Upon+A+Team%7COne+More+Esports%7COne+Trick+Production%7COnion+Team%7COriginal+Gaming%7COsh-Tekk+Warriors%7COttawa+University%7COtter+Side%7COxygen+Gaming%7CP11+Esports%7CPAGLE48%7CPaiN+Gaming%7CPaiN+Gaming+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-6.json",
+      "rowCount": 50,
+      "checksum": "2418bf7929fd6846b7c6273e02272ab778f9f1df4d49758231850c4e8d092a3a",
+      "issuedAt": "2026-08-03T14:51:17.040Z",
+      "sequence": 34
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 7 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Panathinaikos+Esports%7CPark+University%7CPCIFIC+Esports%7CPegasus+Esports%7CPertinax+Esports%7CPolar+Squad+Esports%7CPratt+Community+College%7CPriority%7CProject+Conquerors%7CProject+Conquerors+Athena%7CProsperity+Esports%7CPulse+Star%7CPurdue+University%7CPurdue+University+Northwest%7CPvB+%28Swiss+Team%29%7CPyramid+IV+Esports%7CQLASH%7CQLASH+MENA%7CQu%E1%BA%A3ng+Ninh+G%E1%BB%91c%7CRAMPAGE+%28Brazilian+Team%29%7CRAYN+Clocks%7CRED+Academy%7CRED+Canids%7CREDPack+Esports%7CRegnum4games%7CReignfall%7CReload+Ragnarok%7CRem%27s+Helpers%7CReset+E-Sports%7CRespawned+Esports%7CReveal+Multigaming%7CRevenGa+Esports%7CREViTAL+BLACKTRAiNS%7CRich+Gang+%28Norwegian+Team%29%7CRise+Gaming%7CRLX+Esports%7CRMD+Gaming%7CRMD+Gaming+Trainee%7CRochester+Institute+of+Technology%7CRogerSaMa%7CRoosevelt+University%7CROSSMANN+Centaurs%7CRuddy+Corporation%7CRugby+Club+Hav%C3%AD%C5%99ov%7CS8UL+Esports%7CSaigon+Dino%7CSaigon+Secret%7CSaigon+Warriors%7CSaint+Louis+University%7CSan+Jose+State+University&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-7.json",
+      "rowCount": 50,
+      "checksum": "c4fdfbcafef080ed20c878ece09b9061e80dc8a66bffaa7a62767f8c0fa286a1",
+      "issuedAt": "2026-08-03T14:51:17.871Z",
+      "sequence": 35
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 8 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Savannah+College+of+Art+and+Design%7CSDM+Tigres%7CSenshi+eSports+%28Benelux+Team%29%7CSentinels%7CSeven+Dark%7CShadow+Bloom%7CShadow+Keepers+Esports%7CShark+Attack%7CSharkBite+Furious+Gaming+Black%7CSharkBite+Furious+Gaming+White%7CShifters%7CShining+Stars%7CShopify+Rebellion%7CSillySilly+Gaming%7CSimon+Fraser+University%7CSimplicity+Gaming%7CSK+Gaming%7CSK+Gaming+Avarosa%7CSkillcamp%7CSmoke+Tram%7CSmoke+Tram+Academy%7CSN+CyberCore+Esports%7CSNOOZE+Esports%7CSolary%7CSolary+Academy%7CSolary+Eclipse%7CSoul%27s+Heart+Esport%7CS%C3%B8rby+eSport%7CSpartans+EU%7CSphere+Esports%7CSPIKE+Syndicate%7CSpirituals%7CSponge+Gaming%7CSpongecord+prime%7CSt.+Clair+College%7CSt.+Cloud+State+University%7CState+University+of+New+York+at+Buffalo%7CStoneHenge+Esports%7CSU+Esports%7CSupernova%7CT1%7CT1+Esports+Academy%7CT1+Esports+Academy+Rookies%7CTan%27i+eSports%7CTeam+Evermeet%7CTeam+Fire%7CTeam+Heretics%7CTeam+Heretics+Academy%7CTeam+High+Ground%7CTeam+Ice&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-8.json",
+      "rowCount": 50,
+      "checksum": "2000fba79315ef16e6b68d6e92d5dd0451e8f30caf65791eabc33500c74ebe6c",
+      "issuedAt": "2026-08-03T14:51:18.659Z",
+      "sequence": 36
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 9 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Team+Liquid%7CTeam+Phantasma%7CTeam+Phoenix+%28Turkish+Team%29%7CTeam+Refuse%7CTeam+Rift%7CTeam+Samsara%7CTeam+Secret+Whales%7CTeam+Solid+%28Brazilian+Team%29%7CTeam+Spawn+Peek%7CTeam+Vitality%7CTeam+WE%7CTeam+WE+Academy%7CTeamOrangeGaming%7CTeamOrangeGaming+Academy%7CTexas+A%26M+University%7CThe+Bandits%7CThe+Final+Tribe%7CThe+Gulls+Esports%7CThe+New+Kings%7CThe+ParadOx+Invaders%7CThe+Secret+Club%7CThunderTalk+Gaming%7CThunderTalk+Gaming+Young%7CTITANS%7CTitans+Gaming+Center%7CTLN+Pirates%7CTop+Esports%7CTop+Esports+Challenger%7CTQ+DURPA+KASHLQ%7CTu+Pap%C3%A1+Esports%7CUB+Alma+Mater%7CUCAM+Esports%7CUCAM+University+Esports%7CUltra+Prime%7CUnicorns+of+Love+Sexy+Edition%7CUniversity+of+British+Columbia%7CUniversity+of+California+Berkeley%7CUniversity+of+California+Irvine%7CUniversity+of+California+Los+Angeles%7CUniversity+of+California+Riverside%7CUniversity+of+California+San+Diego%7CUniversity+of+Colorado+Boulder%7CUniversity+of+Health+Sciences+and+Pharmacy+in+St.+Louis%7CUniversity+of+Illinois+at+Urbana-Champaign%7CUniversity+of+Maryland+College+Park%7CUniversity+of+Michigan%7CUniversity+of+Minnesota+Twin+Cities%7CUniversity+of+Mississippi%7CUniversity+of+Ottawa%7CUniversity+of+South+Florida&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-9.json",
+      "rowCount": 50,
+      "checksum": "c12aa6a45ef4c2636d9bdfea2f51f22ee125f3c103fef90188afd7f1dc57ba45",
+      "issuedAt": "2026-08-03T14:51:19.507Z",
+      "sequence": 37
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 10 (50 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=University+of+Southern+California%7CUniversity+of+Texas+at+Austin%7CUniversity+of+Texas+at+Dallas%7CUniversity+of+Toronto%7CUniversity+of+Washington%7CUniversity+of+Waterloo%7CUP2UMEDIA+Cebulaki%7CUwinks%7CV3+Esports%7CValerion%7CValkiria%27s+Vikings%7CVancouver+Impact%7CVARREL+YOUTH%7CVasco+E-Sports%7CVelbeliKaizokudan%7CVeni+Vidi+Vici+%28Spanish+Team%29%7CVerdant%7CVfB+eSports%7CVictorious+Demons%7CViktus%7CVirginia+Polytechnic+Institute+and+State+University%7CVitality+Rising+Bees%7CVitality.Bee%7CVivo+Keyd+Stars%7CVivo+Keyd+Stars+Academy%7CVolda+E-Sport%7CVolticons%7CWangting%7CWeber+State+University%7CWeibo+Gaming%7CWeibo+Gaming+Youth+Team%7CWeSports%7CWest+Point+Esports+Academy%7CWest+Point+Esports+Cadets%7CWest+Point+Esports+Philippines%7CWhite+Dragons%7CWinthrop+University%7CWLG+Female+Stars%7CWLGaming+Esports%7CXi+Lai+Gaming%7CXO+Esports%7CYang+Dae+Pal+Korean+BBQ+Restaurant%7CYang+Yang+Gaming%7CYork+University%7CYumeea%7CZEN+Esports+%28Argentinian+Team%29%7CZena+Esports%7CZennIT%7CZenshi+Gaming%7CZephyr+Esport&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-10.json",
+      "rowCount": 50,
+      "checksum": "2d4e7e92a66fdc6cf2acd35a8723b57b6f2a7f184b6931ff95476e6dce8dbee2",
+      "issuedAt": "2026-08-03T14:51:20.289Z",
+      "sequence": 38
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 11 (4 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Zerolag+Esports%7CZeroZone+Gaming%7CZeu5+Esports%7CZYB+Esport&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-11.json",
+      "rowCount": 4,
+      "checksum": "29de6977f07488eb8fcdfdd1fbb1c6a4b3eeead9391fa919905baa4e89039984",
+      "issuedAt": "2026-08-03T14:51:21.072Z",
+      "sequence": 39
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T14:52:06.803Z",
+      "sequence": 40
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T14:52:06.804Z",
+      "sequence": 41
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T14:52:06.811Z",
+      "sequence": 42
+    },
+    {
+      "kind": "cargo",
+      "description": "listplayercurrent-global (offset 0, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=ListplayerCurrent&fields=ID%2CLink%2CName%2CN%2CCountry%2CRole%2CIsSubstitute%2CIsTrainee%2CTeam%2CContractDate%2CResidency&order_by=ListplayerCurrent.Team%2CListplayerCurrent.N&limit=500&offset=0&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\listplayercurrent-global__offset-0.json",
+      "rowCount": 48,
+      "checksum": "bc0c71ee79b20d940877a2bad36c743d9e1c75651265bfdbce7df76ea82af912",
+      "issuedAt": "2026-08-03T14:53:46.151Z",
+      "sequence": 43
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 0 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=2+Massive%7C24+7+Tower+Dive%7C3BL+Esports%7C3v+Team%7C404+Multigaming+e.V.%7C7REX%7C9Gaming%7C9z+Globant%7CAaB+Esport%7CAbsolved%7CAceGaming%7CAeterna+Esports%7CAethra+Esports+Strijders%7CAll+for+One+Gaming%7CALMO+Players%7CAncient+Ones%7CAndromeda+Gaming%7CAnonymo+Esports%7CAnubis+Gaming%7CAnyone%27s+Legend%7CAnyone%27s+Legend.Young%7CApex+Mission+Impossible%7CAquinas+College%7CArctic+Pandas%7CArizona+State+University%7CArmoured+Brothers%7CArneb%7CAtruvia+M%C3%BCnster+Esports%7CAxolotl%7CAZ+Rising+Eterna%7CAzules+Esports%7CAzules+Esports+Academy%7CAzules+Esports+Fem%7CB2U%7CBaam+Esports%7CBabos+Gaming%7CBall+State+University%7CBamboo+Juice%7CBar%C3%A7a+eSports%7CBarcz%C4%85ca+Esports%7CBarcz%C4%85ca+Esports+Babylon%7CBastu+Five%7CBerlin+International+Gaming%7CBethany+Lutheran+College%7CBilibili+Gaming%7CBilibili+Gaming+Junior%7CBitfix+RG%7CBlack+Lion%7CBlue+Otter%7CBlue+Otter+Europe&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-0.json",
+      "rowCount": 50,
+      "checksum": "2a73453c56403a9fbb9522a5627143ee3b4c3d6e88510e1602120022712b6397",
+      "issuedAt": "2026-08-03T14:53:46.158Z",
+      "sequence": 44
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 1 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=BlueWhites%7CBNK+FEARX%7CBNK+FEARX+Youth%7CBohemian+Guardians%7CBoise+State+University%7CBomba+Team%7CBOOBA%7CBoostGate+Esports%7CBriar+Cliff+University%7CBrod+n+Friends%7CBRUTE%7CBubliki%7CBulldog+Esports%7CBunny+Girls%7CBurning+Core+Toyama%7CBushido+Wildcats%7CCAG+OSAKA%7CCalamity+Esports%7CCaldya+Esport%7CCampbellsville+University%7CCarleton+University%7CCarolina+Reapers%7CCCG+Esports%7CCeuta+Guardians%7CCGN+Esports%7CChiefs+Esports+Club%7CCITA+Kaizen%7CCITA+Kaizen+Academy%7CCitadel+Gaming%7CCl%C3%A3+NKZ%7CCleary+University%7CCleveland+State+University%7CCloud9%7CCNG+Royal%7CColorado+State+University%7CColossal+Gaming%7CColumbia+College%7CContingent+Esports%7CConverse+University%7CConviction%7CCORE+128%7CCoscu+Army%7CCPLAY%7CCrystal+Rose+%28French+Team%29%7CCTBC+Flying+Oyster%7CCTBC+Flying+Oyster+Academy%7CCupid+Esports%7CDark+Passage%7CDeathMark+E-Sports%7CDeep+Cross+Gaming&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-1.json",
+      "rowCount": 50,
+      "checksum": "b2b81d0c34ebb61691c532cf6b0172aff30cffe4ded6b493e142194738b897d6",
+      "issuedAt": "2026-08-03T14:53:46.160Z",
+      "sequence": 45
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 2 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Deer+Gaming%7CDetonatioN+FocusMe%7CDetonatioN+FocusMe+Academy%7CDevils.one+inStreamly%7CDIA+Ozarox+Esports%7CDignitas%7CDisguised%7CDisruptors%7CDivernex%7CDiversion+Gaming%7CDKB+XPERION+NXT%7CDMG+Esports%7CDN+SOOPers%7CDN+SOOPers+Academy%7CDN+SOOPers+Challengers%7CDOCISK%7CDOCISK+Academy%7CDocta+Esports%7CDomino+Computer%7CDorado+Gaming%7CDorado+Gaming+Black%7CDplus+Kia%7CDplus+Kia+Challengers%7CDplus+Kia+Youth%7CDream+Esports%7CDrury+University%7CDUCKIE+GETTERS%7CDucks+Deluxe+x+Evil+Geniuses%7CDusty%7CDynasty%7CE+WIE+EINFACH+E-SPORTS%7CE-Champ+Gaming+Trainee%7CEDward+Gaming%7CEDward+Gaming+Youth+Team%7CEesti+R%C3%A4stikud%7CEi+Nerd+Esports%7CEintracht+Frankfurt%7CEintracht+Spandau%7CEintracht+Spandau+Zwei%7CEKO+Esports%7CEmber+Foxes%7CEmbrace+Whatever+Happens%7CEmBRAZA%21+Esports%7CEpic+Avalanche%7CEsport+STUBA%7CEsprit+Sh%C5%8Dnen%7CEstral+Esports%7CESuba%7CESUG+Ultimate+Five+Feeder%7CEterna&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-2.json",
+      "rowCount": 50,
+      "checksum": "842de11df18dfa2e10093cd520b8b3b870b50f504af0c5949ea5909236daf86a",
+      "issuedAt": "2026-08-03T14:53:46.163Z",
+      "sequence": 46
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 3 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Eternals+Gaming%7CEthereal+Enigmas%7CEXILE+esports%7CEXILE+esports+Academy%7CFaerie+Charm+%28Singaporean+Team%29%7CFalke+Esports%7CFarenvehn+Fem%7CFast8%7CFENNEL%7CFervent+Esports%7CFisher+College%7CFive+Leaf+Clover%7CFlameHard%7CFlorida+Southern+College%7CFlorida+State+University%7CFluxo+W7M%7CFlyQuest%7CFlyQuest+RED%7CFnatic%7CForsaken+%28Polish+Team%29%7CFortress+Esports%7CFPT+University+Hochiminh%7CFrank+Esports%7CFrites+Esports+Club%7CFuego%7CFukuoka+SoftBank+HAWKS+gaming%7CFull+Sense%7CFURIA%7CFURIA+Youth%7CG2+Esports%7CG2+Hel%7CG2+NORD%7CGalaxy+Gaming+%28American+Team%29%7CGalions%7CGalions+Pearl%7CGalions+Sharks%7CGAM+Esports%7CGamers404%7CGamespace+Mediterranean+College+Esports%7CGarden+Gaming%7CGen.G%7CGen.G+Global+Academy%7CGen.G+Scholars%7CGenZ+Gaming+%282025+Vietnamese+Team%29%7CGeorge+Mason+University%7CGIANTX%7CGIANTX+iTero%7CGity+Meavedronu%7CGM+Gaming%7CGMBLERS+Esports&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-3.json",
+      "rowCount": 50,
+      "checksum": "59565a79295b8a7664a458bb1760ae4e7560a82f29a5f254746b6c7d4fda5044",
+      "issuedAt": "2026-08-03T14:53:46.164Z",
+      "sequence": 47
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 4 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=GnG+Amazigh%7CGod+Darkness+Esports%7CGodalions+Blossom%7CGolden+Lions%7CGrand+View+University%7CGravity+%282024+North+American+Team%29%7CGround+Zero+Academy%7CGround+Zero+Gaming%7CGTZ+Esports%7CGuinea+Pink%7CHANJIN+BRION%7CHANJIN+BRION+Academy%7CHANJIN+BRION+Challengers%7CHannover+Esports+e.V.%7CHanwha+Life+Esports%7CHanwha+Life+Esports+Academy%7CHanwha+Life+Esports+Challengers%7CHarrisburg+University%7CHELL+PIGS%7CHMBLE%7CHooligans%7CIci+Japon+Corp.+Esport%7CIlha+das+Lendas%7CIllinois+Wesleyan+University%7CIMProve+Team%7CInferno+Drive+Tokyo%7CInferno+Esports+%28Filipino+Team%29%7CInside+Games%7CInternational+Esports+Industry+Center%7CInternational+Love%7CINTZ%7CInvictus+Gaming%7CInvokers%7CJD+Gaming%7CJoblife%7CJSK+Academy%7CJSK+Esports%7CJuventus+Gaming+Gold%7CJuventus+Gaming+Red%7CJuventus+Gaming+White%7CKaBuM%21+Ilha+das+Lendas%7CKaBuM%21+Trainee%7CKanji+Esports%7CKarmine+Corp%7CKarmine+Corp+Blue%7CKarmine+Corp+Blue+Stars%7CKarolinerna%7CKaufland+Hangry+Knights%7CKawaii+Kiwis%7CKIA.eSuba+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-4.json",
+      "rowCount": 50,
+      "checksum": "13f23077b93488ae50e65f1b4db42604c00053b4508ac76c2b6a7db9685326c6",
+      "issuedAt": "2026-08-03T14:53:46.166Z",
+      "sequence": 48
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 5 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=KIT+SC+White%7CKits+Esports%7CKiwoom+DRX%7CKiwoom+DRX+Challengers%7CKlanik+Esport%7CKnockOut+Esports%7CKomodo+%28North+American+Team%29%7CKT+Rolster%7CKT+Rolster+Academy%7CKT+Rolster+Challengers%7CKuma+e-Sports%7CKun+Shan+Lightning+Tiger%7CL+Guide+Gaming%7CLausanne-Sport+Esports%7CLenovo+Legion+Honv%C3%A9d%7CLeviatan%7CLGD+Gaming%7CLGD+Gaming+Young+Team%7CLille+Esport%7CLIT+Team%7CLNG+Esports%7CLODIS+%28Polish+Team%29%7CLotus+%28North+American+Team%29%7CLOUD%7CLourdes+University%7CL%C3%98S%7CL%C3%98S+Academy%7CLUA+Gaming%7CLund+Esports+Organization%7CLundqvist+Lightside%7CLupus+Esports%7CLYON+%282024+American+Team%29%7CLYON+Academy%7CMacko+Academy%7CMagaza+Esports%7CMalvinas+Gaming%7CMaryville+University%7CMaze+Gaming%7CMCon+esports%7CMeavedron%7CMeavedron+Anonymo+Master+Academy%7CMental+Rush%7CMiami+University%7CMichigan+State+University%7CMilk+Esports%7CMilk+Esports+Brazil%7CMilk+Esports+Whole+Milk%7CMind+Blue+eSports%7CMissouri+Valley+College%7CMonta+Club&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-5.json",
+      "rowCount": 50,
+      "checksum": "8b0fe063667c870ee5beba8972dd70e5b8cc7652f8a6ded3dad0235c460fae07",
+      "issuedAt": "2026-08-03T14:53:46.167Z",
+      "sequence": 49
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 6 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Movistar+KOI%7CMovistar+KOI+F%C3%A9nix%7CMT1+Esports%7CMVK+Esports%7CMVK+Esports+Academy%7CMYinsanity%7CMyth+Esports%7CMythus+Esports%7CNALCS+Players+Association%7CNatus+Vincere%7CNCG+Esports%7CNew+Meta%7CNext+Level+Esports%7CNextGeneration+Esports%7CNg%E1%BB%B1a+H%C3%AD+Esports%7CNightbirds%7CNine+Lives+Esports%7CNinjas+in+Pyjamas.CN%7CNo+Need+Orga%7CNocturne+Gale%7CNongshim+Esports+Academy%7CNongshim+RedForce%7CNongshim+RedForce+Academy%7CNorth+Carolina+State+University%7CNortheastern+University%7CNorthwood+University%7CNOVEX%7CNRG%7CO%27Gaming+TV%7COakland+University%7CObservant+Force%7COdivelas+Sports+Club%7COh+My+God%7COhio+Northern+University%7COhio+State+University%7COklahoma+Christian+University%7COmerix+Esport%7COnce+Upon+A+Team%7COne+More+Esports%7COne+Trick+Production%7COnion+Team%7COriginal+Gaming%7COsh-Tekk+Warriors%7COttawa+University%7COtter+Side%7COxygen+Gaming%7CP11+Esports%7CPAGLE48%7CPaiN+Gaming%7CPaiN+Gaming+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-6.json",
+      "rowCount": 50,
+      "checksum": "2418bf7929fd6846b7c6273e02272ab778f9f1df4d49758231850c4e8d092a3a",
+      "issuedAt": "2026-08-03T14:53:46.171Z",
+      "sequence": 50
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 7 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Panathinaikos+Esports%7CPark+University%7CPCIFIC+Esports%7CPegasus+Esports%7CPertinax+Esports%7CPolar+Squad+Esports%7CPratt+Community+College%7CPriority%7CProject+Conquerors%7CProject+Conquerors+Athena%7CProsperity+Esports%7CPulse+Star%7CPurdue+University%7CPurdue+University+Northwest%7CPvB+%28Swiss+Team%29%7CPyramid+IV+Esports%7CQLASH%7CQLASH+MENA%7CQu%E1%BA%A3ng+Ninh+G%E1%BB%91c%7CRAMPAGE+%28Brazilian+Team%29%7CRAYN+Clocks%7CRED+Academy%7CRED+Canids%7CREDPack+Esports%7CRegnum4games%7CReignfall%7CReload+Ragnarok%7CRem%27s+Helpers%7CReset+E-Sports%7CRespawned+Esports%7CReveal+Multigaming%7CRevenGa+Esports%7CREViTAL+BLACKTRAiNS%7CRich+Gang+%28Norwegian+Team%29%7CRise+Gaming%7CRLX+Esports%7CRMD+Gaming%7CRMD+Gaming+Trainee%7CRochester+Institute+of+Technology%7CRogerSaMa%7CRoosevelt+University%7CROSSMANN+Centaurs%7CRuddy+Corporation%7CRugby+Club+Hav%C3%AD%C5%99ov%7CS8UL+Esports%7CSaigon+Dino%7CSaigon+Secret%7CSaigon+Warriors%7CSaint+Louis+University%7CSan+Jose+State+University&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-7.json",
+      "rowCount": 50,
+      "checksum": "c4fdfbcafef080ed20c878ece09b9061e80dc8a66bffaa7a62767f8c0fa286a1",
+      "issuedAt": "2026-08-03T14:53:46.173Z",
+      "sequence": 51
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 8 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Savannah+College+of+Art+and+Design%7CSDM+Tigres%7CSenshi+eSports+%28Benelux+Team%29%7CSentinels%7CSeven+Dark%7CShadow+Bloom%7CShadow+Keepers+Esports%7CShark+Attack%7CSharkBite+Furious+Gaming+Black%7CSharkBite+Furious+Gaming+White%7CShifters%7CShining+Stars%7CShopify+Rebellion%7CSillySilly+Gaming%7CSimon+Fraser+University%7CSimplicity+Gaming%7CSK+Gaming%7CSK+Gaming+Avarosa%7CSkillcamp%7CSmoke+Tram%7CSmoke+Tram+Academy%7CSN+CyberCore+Esports%7CSNOOZE+Esports%7CSolary%7CSolary+Academy%7CSolary+Eclipse%7CSoul%27s+Heart+Esport%7CS%C3%B8rby+eSport%7CSpartans+EU%7CSphere+Esports%7CSPIKE+Syndicate%7CSpirituals%7CSponge+Gaming%7CSpongecord+prime%7CSt.+Clair+College%7CSt.+Cloud+State+University%7CState+University+of+New+York+at+Buffalo%7CStoneHenge+Esports%7CSU+Esports%7CSupernova%7CT1%7CT1+Esports+Academy%7CT1+Esports+Academy+Rookies%7CTan%27i+eSports%7CTeam+Evermeet%7CTeam+Fire%7CTeam+Heretics%7CTeam+Heretics+Academy%7CTeam+High+Ground%7CTeam+Ice&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-8.json",
+      "rowCount": 50,
+      "checksum": "2000fba79315ef16e6b68d6e92d5dd0451e8f30caf65791eabc33500c74ebe6c",
+      "issuedAt": "2026-08-03T14:53:46.175Z",
+      "sequence": 52
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 9 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Team+Liquid%7CTeam+Phantasma%7CTeam+Phoenix+%28Turkish+Team%29%7CTeam+Refuse%7CTeam+Rift%7CTeam+Samsara%7CTeam+Secret+Whales%7CTeam+Solid+%28Brazilian+Team%29%7CTeam+Spawn+Peek%7CTeam+Vitality%7CTeam+WE%7CTeam+WE+Academy%7CTeamOrangeGaming%7CTeamOrangeGaming+Academy%7CTexas+A%26M+University%7CThe+Bandits%7CThe+Final+Tribe%7CThe+Gulls+Esports%7CThe+New+Kings%7CThe+ParadOx+Invaders%7CThe+Secret+Club%7CThunderTalk+Gaming%7CThunderTalk+Gaming+Young%7CTITANS%7CTitans+Gaming+Center%7CTLN+Pirates%7CTop+Esports%7CTop+Esports+Challenger%7CTQ+DURPA+KASHLQ%7CTu+Pap%C3%A1+Esports%7CUB+Alma+Mater%7CUCAM+Esports%7CUCAM+University+Esports%7CUltra+Prime%7CUnicorns+of+Love+Sexy+Edition%7CUniversity+of+British+Columbia%7CUniversity+of+California+Berkeley%7CUniversity+of+California+Irvine%7CUniversity+of+California+Los+Angeles%7CUniversity+of+California+Riverside%7CUniversity+of+California+San+Diego%7CUniversity+of+Colorado+Boulder%7CUniversity+of+Health+Sciences+and+Pharmacy+in+St.+Louis%7CUniversity+of+Illinois+at+Urbana-Champaign%7CUniversity+of+Maryland+College+Park%7CUniversity+of+Michigan%7CUniversity+of+Minnesota+Twin+Cities%7CUniversity+of+Mississippi%7CUniversity+of+Ottawa%7CUniversity+of+South+Florida&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-9.json",
+      "rowCount": 50,
+      "checksum": "c12aa6a45ef4c2636d9bdfea2f51f22ee125f3c103fef90188afd7f1dc57ba45",
+      "issuedAt": "2026-08-03T14:53:46.177Z",
+      "sequence": 53
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 10 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=University+of+Southern+California%7CUniversity+of+Texas+at+Austin%7CUniversity+of+Texas+at+Dallas%7CUniversity+of+Toronto%7CUniversity+of+Washington%7CUniversity+of+Waterloo%7CUP2UMEDIA+Cebulaki%7CUwinks%7CV3+Esports%7CValerion%7CValkiria%27s+Vikings%7CVancouver+Impact%7CVARREL+YOUTH%7CVasco+E-Sports%7CVelbeliKaizokudan%7CVeni+Vidi+Vici+%28Spanish+Team%29%7CVerdant%7CVfB+eSports%7CVictorious+Demons%7CViktus%7CVirginia+Polytechnic+Institute+and+State+University%7CVitality+Rising+Bees%7CVitality.Bee%7CVivo+Keyd+Stars%7CVivo+Keyd+Stars+Academy%7CVolda+E-Sport%7CVolticons%7CWangting%7CWeber+State+University%7CWeibo+Gaming%7CWeibo+Gaming+Youth+Team%7CWeSports%7CWest+Point+Esports+Academy%7CWest+Point+Esports+Cadets%7CWest+Point+Esports+Philippines%7CWhite+Dragons%7CWinthrop+University%7CWLG+Female+Stars%7CWLGaming+Esports%7CXi+Lai+Gaming%7CXO+Esports%7CYang+Dae+Pal+Korean+BBQ+Restaurant%7CYang+Yang+Gaming%7CYork+University%7CYumeea%7CZEN+Esports+%28Argentinian+Team%29%7CZena+Esports%7CZennIT%7CZenshi+Gaming%7CZephyr+Esport&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-10.json",
+      "rowCount": 50,
+      "checksum": "2d4e7e92a66fdc6cf2acd35a8723b57b6f2a7f184b6931ff95476e6dce8dbee2",
+      "issuedAt": "2026-08-03T14:53:46.178Z",
+      "sequence": 54
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 11 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Zerolag+Esports%7CZeroZone+Gaming%7CZeu5+Esports%7CZYB+Esport%7CKey+%28Chen+Hua+Zhang%29%7CTimon%7Clorofatz%7CNadra%7CSmebber%7CNiceToMeetMe%7CLindbergh%7CTamNguy%C3%AAn%7CFPT+Ho+Chi+Minh%7CFaculty%7CHyakkiMaru%7CScott+%28L%C6%B0%C6%A1ng+Ch%C3%AD+T%C3%A0i%29%7CAnh+Th%C6%B0+%28Tr%E1%BB%8Bnh+B%C3%ACnh%29%7CH%E1%BA%AFc+K%C3%AC+T%E1%BB%AD%7CGentlemanHero%7CStriker+%28Filip+Prentovic%29%7CRedeemed%7CMatthew+%28Noah+Seim%29%7CCatIRL%7CMagierJo%7CTaewang%7CDavipazzini%7C1847%7CRauschenberg%7CThunderzinho%7CNono%7CO%26%2339%3BGaming+TV%7CTektek%7CKrok%7CGardoum%7CLecrivain%7CHor%C3%A9%C3%BCs%7CFrost+%28French+Personality%29%7CLelariva%7CLaure+Val%C3%A9e%7CZaboutine%7CDuke_%28Hadrien_Forestier%29%7CGlopo%7CNoi%7CFinghin%7CChips+%28Fabien+Culi%C3%A9%29%7CZerotick%7CTweekz%7CMarex+%28Alexis+Girat%29%7CBlackbigo%7CRhobalas&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-11.json",
+      "rowCount": 50,
+      "checksum": "29de6977f07488eb8fcdfdd1fbb1c6a4b3eeead9391fa919905baa4e89039984",
+      "issuedAt": "2026-08-03T14:53:46.179Z",
+      "sequence": 55
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 12 (4 titles)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Peaxy%7CChreak%7COtaah%7CLaure&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-12.json",
+      "rowCount": 4,
+      "checksum": "b158b97b87f25a0ae6aa57ff5694544d52c291b51c39bcf266292c88f0302bb3",
+      "issuedAt": "2026-08-03T14:53:46.968Z",
+      "sequence": 56
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T14:54:12.772Z",
+      "sequence": 57
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T14:54:12.773Z",
+      "sequence": 58
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T14:54:12.781Z",
+      "sequence": 59
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 500, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-500.json",
+      "rowCount": 500,
+      "checksum": "009626ad384218249ac137a638948e2777c1f6a55cd2ffd6b32e8c2496642b86",
+      "issuedAt": "2026-08-03T14:54:29.092Z",
+      "sequence": 60
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1000, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1000&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1000.json",
+      "rowCount": 500,
+      "checksum": "64c6f0548067ad664253707f7cbbd03efa5bf375a9e448efdb1a743402406803",
+      "issuedAt": "2026-08-03T14:54:37.083Z",
+      "sequence": 61
+    },
+    {
+      "kind": "cargo",
+      "description": "listplayercurrent-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=ListplayerCurrent&fields=ID%2CLink%2CName%2CN%2CCountry%2CRole%2CIsSubstitute%2CIsTrainee%2CTeam%2CContractDate%2CResidency&order_by=ListplayerCurrent.Team%2CListplayerCurrent.N&limit=500&offset=0&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\listplayercurrent-global__offset-0.json",
+      "rowCount": 48,
+      "checksum": "bc0c71ee79b20d940877a2bad36c743d9e1c75651265bfdbce7df76ea82af912",
+      "issuedAt": "2026-08-03T14:55:42.650Z",
+      "sequence": 62
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 0 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=2+Massive%7C24+7+Tower+Dive%7C3BL+Esports%7C3v+Team%7C404+Multigaming+e.V.%7C7REX%7C9Gaming%7C9z+Globant%7CAaB+Esport%7CAbsolved%7CAceGaming%7CAeterna+Esports%7CAethra+Esports+Strijders%7CAll+for+One+Gaming%7CALMO+Players%7CAncient+Ones%7CAndromeda+Gaming%7CAnonymo+Esports%7CAnubis+Gaming%7CAnyone%27s+Legend%7CAnyone%27s+Legend.Young%7CApex+Mission+Impossible%7CAquinas+College%7CArctic+Pandas%7CArizona+State+University%7CArmoured+Brothers%7CArneb%7CAtruvia+M%C3%BCnster+Esports%7CAxolotl%7CAZ+Rising+Eterna%7CAzules+Esports%7CAzules+Esports+Academy%7CAzules+Esports+Fem%7CB2U%7CBaam+Esports%7CBabos+Gaming%7CBall+State+University%7CBamboo+Juice%7CBar%C3%A7a+eSports%7CBarcz%C4%85ca+Esports%7CBarcz%C4%85ca+Esports+Babylon%7CBastu+Five%7CBerlin+International+Gaming%7CBethany+Lutheran+College%7CBilibili+Gaming%7CBilibili+Gaming+Junior%7CBitfix+RG%7CBlack+Lion%7CBlue+Otter%7CBlue+Otter+Europe&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-0.json",
+      "rowCount": 50,
+      "checksum": "2a73453c56403a9fbb9522a5627143ee3b4c3d6e88510e1602120022712b6397",
+      "issuedAt": "2026-08-03T14:55:42.656Z",
+      "sequence": 63
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 1 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=BlueWhites%7CBNK+FEARX%7CBNK+FEARX+Youth%7CBohemian+Guardians%7CBoise+State+University%7CBomba+Team%7CBOOBA%7CBoostGate+Esports%7CBriar+Cliff+University%7CBrod+n+Friends%7CBRUTE%7CBubliki%7CBulldog+Esports%7CBunny+Girls%7CBurning+Core+Toyama%7CBushido+Wildcats%7CCAG+OSAKA%7CCalamity+Esports%7CCaldya+Esport%7CCampbellsville+University%7CCarleton+University%7CCarolina+Reapers%7CCCG+Esports%7CCeuta+Guardians%7CCGN+Esports%7CChiefs+Esports+Club%7CCITA+Kaizen%7CCITA+Kaizen+Academy%7CCitadel+Gaming%7CCl%C3%A3+NKZ%7CCleary+University%7CCleveland+State+University%7CCloud9%7CCNG+Royal%7CColorado+State+University%7CColossal+Gaming%7CColumbia+College%7CContingent+Esports%7CConverse+University%7CConviction%7CCORE+128%7CCoscu+Army%7CCPLAY%7CCrystal+Rose+%28French+Team%29%7CCTBC+Flying+Oyster%7CCTBC+Flying+Oyster+Academy%7CCupid+Esports%7CDark+Passage%7CDeathMark+E-Sports%7CDeep+Cross+Gaming&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-1.json",
+      "rowCount": 50,
+      "checksum": "b2b81d0c34ebb61691c532cf6b0172aff30cffe4ded6b493e142194738b897d6",
+      "issuedAt": "2026-08-03T14:55:42.659Z",
+      "sequence": 64
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 2 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Deer+Gaming%7CDetonatioN+FocusMe%7CDetonatioN+FocusMe+Academy%7CDevils.one+inStreamly%7CDIA+Ozarox+Esports%7CDignitas%7CDisguised%7CDisruptors%7CDivernex%7CDiversion+Gaming%7CDKB+XPERION+NXT%7CDMG+Esports%7CDN+SOOPers%7CDN+SOOPers+Academy%7CDN+SOOPers+Challengers%7CDOCISK%7CDOCISK+Academy%7CDocta+Esports%7CDomino+Computer%7CDorado+Gaming%7CDorado+Gaming+Black%7CDplus+Kia%7CDplus+Kia+Challengers%7CDplus+Kia+Youth%7CDream+Esports%7CDrury+University%7CDUCKIE+GETTERS%7CDucks+Deluxe+x+Evil+Geniuses%7CDusty%7CDynasty%7CE+WIE+EINFACH+E-SPORTS%7CE-Champ+Gaming+Trainee%7CEDward+Gaming%7CEDward+Gaming+Youth+Team%7CEesti+R%C3%A4stikud%7CEi+Nerd+Esports%7CEintracht+Frankfurt%7CEintracht+Spandau%7CEintracht+Spandau+Zwei%7CEKO+Esports%7CEmber+Foxes%7CEmbrace+Whatever+Happens%7CEmBRAZA%21+Esports%7CEpic+Avalanche%7CEsport+STUBA%7CEsprit+Sh%C5%8Dnen%7CEstral+Esports%7CESuba%7CESUG+Ultimate+Five+Feeder%7CEterna&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-2.json",
+      "rowCount": 50,
+      "checksum": "842de11df18dfa2e10093cd520b8b3b870b50f504af0c5949ea5909236daf86a",
+      "issuedAt": "2026-08-03T14:55:42.662Z",
+      "sequence": 65
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 3 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Eternals+Gaming%7CEthereal+Enigmas%7CEXILE+esports%7CEXILE+esports+Academy%7CFaerie+Charm+%28Singaporean+Team%29%7CFalke+Esports%7CFarenvehn+Fem%7CFast8%7CFENNEL%7CFervent+Esports%7CFisher+College%7CFive+Leaf+Clover%7CFlameHard%7CFlorida+Southern+College%7CFlorida+State+University%7CFluxo+W7M%7CFlyQuest%7CFlyQuest+RED%7CFnatic%7CForsaken+%28Polish+Team%29%7CFortress+Esports%7CFPT+University+Hochiminh%7CFrank+Esports%7CFrites+Esports+Club%7CFuego%7CFukuoka+SoftBank+HAWKS+gaming%7CFull+Sense%7CFURIA%7CFURIA+Youth%7CG2+Esports%7CG2+Hel%7CG2+NORD%7CGalaxy+Gaming+%28American+Team%29%7CGalions%7CGalions+Pearl%7CGalions+Sharks%7CGAM+Esports%7CGamers404%7CGamespace+Mediterranean+College+Esports%7CGarden+Gaming%7CGen.G%7CGen.G+Global+Academy%7CGen.G+Scholars%7CGenZ+Gaming+%282025+Vietnamese+Team%29%7CGeorge+Mason+University%7CGIANTX%7CGIANTX+iTero%7CGity+Meavedronu%7CGM+Gaming%7CGMBLERS+Esports&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-3.json",
+      "rowCount": 50,
+      "checksum": "59565a79295b8a7664a458bb1760ae4e7560a82f29a5f254746b6c7d4fda5044",
+      "issuedAt": "2026-08-03T14:55:42.664Z",
+      "sequence": 66
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 4 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=GnG+Amazigh%7CGod+Darkness+Esports%7CGodalions+Blossom%7CGolden+Lions%7CGrand+View+University%7CGravity+%282024+North+American+Team%29%7CGround+Zero+Academy%7CGround+Zero+Gaming%7CGTZ+Esports%7CGuinea+Pink%7CHANJIN+BRION%7CHANJIN+BRION+Academy%7CHANJIN+BRION+Challengers%7CHannover+Esports+e.V.%7CHanwha+Life+Esports%7CHanwha+Life+Esports+Academy%7CHanwha+Life+Esports+Challengers%7CHarrisburg+University%7CHELL+PIGS%7CHMBLE%7CHooligans%7CIci+Japon+Corp.+Esport%7CIlha+das+Lendas%7CIllinois+Wesleyan+University%7CIMProve+Team%7CInferno+Drive+Tokyo%7CInferno+Esports+%28Filipino+Team%29%7CInside+Games%7CInternational+Esports+Industry+Center%7CInternational+Love%7CINTZ%7CInvictus+Gaming%7CInvokers%7CJD+Gaming%7CJoblife%7CJSK+Academy%7CJSK+Esports%7CJuventus+Gaming+Gold%7CJuventus+Gaming+Red%7CJuventus+Gaming+White%7CKaBuM%21+Ilha+das+Lendas%7CKaBuM%21+Trainee%7CKanji+Esports%7CKarmine+Corp%7CKarmine+Corp+Blue%7CKarmine+Corp+Blue+Stars%7CKarolinerna%7CKaufland+Hangry+Knights%7CKawaii+Kiwis%7CKIA.eSuba+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-4.json",
+      "rowCount": 50,
+      "checksum": "13f23077b93488ae50e65f1b4db42604c00053b4508ac76c2b6a7db9685326c6",
+      "issuedAt": "2026-08-03T14:55:42.665Z",
+      "sequence": 67
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 5 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=KIT+SC+White%7CKits+Esports%7CKiwoom+DRX%7CKiwoom+DRX+Challengers%7CKlanik+Esport%7CKnockOut+Esports%7CKomodo+%28North+American+Team%29%7CKT+Rolster%7CKT+Rolster+Academy%7CKT+Rolster+Challengers%7CKuma+e-Sports%7CKun+Shan+Lightning+Tiger%7CL+Guide+Gaming%7CLausanne-Sport+Esports%7CLenovo+Legion+Honv%C3%A9d%7CLeviatan%7CLGD+Gaming%7CLGD+Gaming+Young+Team%7CLille+Esport%7CLIT+Team%7CLNG+Esports%7CLODIS+%28Polish+Team%29%7CLotus+%28North+American+Team%29%7CLOUD%7CLourdes+University%7CL%C3%98S%7CL%C3%98S+Academy%7CLUA+Gaming%7CLund+Esports+Organization%7CLundqvist+Lightside%7CLupus+Esports%7CLYON+%282024+American+Team%29%7CLYON+Academy%7CMacko+Academy%7CMagaza+Esports%7CMalvinas+Gaming%7CMaryville+University%7CMaze+Gaming%7CMCon+esports%7CMeavedron%7CMeavedron+Anonymo+Master+Academy%7CMental+Rush%7CMiami+University%7CMichigan+State+University%7CMilk+Esports%7CMilk+Esports+Brazil%7CMilk+Esports+Whole+Milk%7CMind+Blue+eSports%7CMissouri+Valley+College%7CMonta+Club&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-5.json",
+      "rowCount": 50,
+      "checksum": "8b0fe063667c870ee5beba8972dd70e5b8cc7652f8a6ded3dad0235c460fae07",
+      "issuedAt": "2026-08-03T14:55:42.666Z",
+      "sequence": 68
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 6 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Movistar+KOI%7CMovistar+KOI+F%C3%A9nix%7CMT1+Esports%7CMVK+Esports%7CMVK+Esports+Academy%7CMYinsanity%7CMyth+Esports%7CMythus+Esports%7CNALCS+Players+Association%7CNatus+Vincere%7CNCG+Esports%7CNew+Meta%7CNext+Level+Esports%7CNextGeneration+Esports%7CNg%E1%BB%B1a+H%C3%AD+Esports%7CNightbirds%7CNine+Lives+Esports%7CNinjas+in+Pyjamas.CN%7CNo+Need+Orga%7CNocturne+Gale%7CNongshim+Esports+Academy%7CNongshim+RedForce%7CNongshim+RedForce+Academy%7CNorth+Carolina+State+University%7CNortheastern+University%7CNorthwood+University%7CNOVEX%7CNRG%7CO%27Gaming+TV%7COakland+University%7CObservant+Force%7COdivelas+Sports+Club%7COh+My+God%7COhio+Northern+University%7COhio+State+University%7COklahoma+Christian+University%7COmerix+Esport%7COnce+Upon+A+Team%7COne+More+Esports%7COne+Trick+Production%7COnion+Team%7COriginal+Gaming%7COsh-Tekk+Warriors%7COttawa+University%7COtter+Side%7COxygen+Gaming%7CP11+Esports%7CPAGLE48%7CPaiN+Gaming%7CPaiN+Gaming+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-6.json",
+      "rowCount": 50,
+      "checksum": "2418bf7929fd6846b7c6273e02272ab778f9f1df4d49758231850c4e8d092a3a",
+      "issuedAt": "2026-08-03T14:55:42.668Z",
+      "sequence": 69
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 7 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Panathinaikos+Esports%7CPark+University%7CPCIFIC+Esports%7CPegasus+Esports%7CPertinax+Esports%7CPolar+Squad+Esports%7CPratt+Community+College%7CPriority%7CProject+Conquerors%7CProject+Conquerors+Athena%7CProsperity+Esports%7CPulse+Star%7CPurdue+University%7CPurdue+University+Northwest%7CPvB+%28Swiss+Team%29%7CPyramid+IV+Esports%7CQLASH%7CQLASH+MENA%7CQu%E1%BA%A3ng+Ninh+G%E1%BB%91c%7CRAMPAGE+%28Brazilian+Team%29%7CRAYN+Clocks%7CRED+Academy%7CRED+Canids%7CREDPack+Esports%7CRegnum4games%7CReignfall%7CReload+Ragnarok%7CRem%27s+Helpers%7CReset+E-Sports%7CRespawned+Esports%7CReveal+Multigaming%7CRevenGa+Esports%7CREViTAL+BLACKTRAiNS%7CRich+Gang+%28Norwegian+Team%29%7CRise+Gaming%7CRLX+Esports%7CRMD+Gaming%7CRMD+Gaming+Trainee%7CRochester+Institute+of+Technology%7CRogerSaMa%7CRoosevelt+University%7CROSSMANN+Centaurs%7CRuddy+Corporation%7CRugby+Club+Hav%C3%AD%C5%99ov%7CS8UL+Esports%7CSaigon+Dino%7CSaigon+Secret%7CSaigon+Warriors%7CSaint+Louis+University%7CSan+Jose+State+University&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-7.json",
+      "rowCount": 50,
+      "checksum": "c4fdfbcafef080ed20c878ece09b9061e80dc8a66bffaa7a62767f8c0fa286a1",
+      "issuedAt": "2026-08-03T14:55:42.670Z",
+      "sequence": 70
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 8 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Savannah+College+of+Art+and+Design%7CSDM+Tigres%7CSenshi+eSports+%28Benelux+Team%29%7CSentinels%7CSeven+Dark%7CShadow+Bloom%7CShadow+Keepers+Esports%7CShark+Attack%7CSharkBite+Furious+Gaming+Black%7CSharkBite+Furious+Gaming+White%7CShifters%7CShining+Stars%7CShopify+Rebellion%7CSillySilly+Gaming%7CSimon+Fraser+University%7CSimplicity+Gaming%7CSK+Gaming%7CSK+Gaming+Avarosa%7CSkillcamp%7CSmoke+Tram%7CSmoke+Tram+Academy%7CSN+CyberCore+Esports%7CSNOOZE+Esports%7CSolary%7CSolary+Academy%7CSolary+Eclipse%7CSoul%27s+Heart+Esport%7CS%C3%B8rby+eSport%7CSpartans+EU%7CSphere+Esports%7CSPIKE+Syndicate%7CSpirituals%7CSponge+Gaming%7CSpongecord+prime%7CSt.+Clair+College%7CSt.+Cloud+State+University%7CState+University+of+New+York+at+Buffalo%7CStoneHenge+Esports%7CSU+Esports%7CSupernova%7CT1%7CT1+Esports+Academy%7CT1+Esports+Academy+Rookies%7CTan%27i+eSports%7CTeam+Evermeet%7CTeam+Fire%7CTeam+Heretics%7CTeam+Heretics+Academy%7CTeam+High+Ground%7CTeam+Ice&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-8.json",
+      "rowCount": 50,
+      "checksum": "2000fba79315ef16e6b68d6e92d5dd0451e8f30caf65791eabc33500c74ebe6c",
+      "issuedAt": "2026-08-03T14:55:42.671Z",
+      "sequence": 71
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 9 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Team+Liquid%7CTeam+Phantasma%7CTeam+Phoenix+%28Turkish+Team%29%7CTeam+Refuse%7CTeam+Rift%7CTeam+Samsara%7CTeam+Secret+Whales%7CTeam+Solid+%28Brazilian+Team%29%7CTeam+Spawn+Peek%7CTeam+Vitality%7CTeam+WE%7CTeam+WE+Academy%7CTeamOrangeGaming%7CTeamOrangeGaming+Academy%7CTexas+A%26M+University%7CThe+Bandits%7CThe+Final+Tribe%7CThe+Gulls+Esports%7CThe+New+Kings%7CThe+ParadOx+Invaders%7CThe+Secret+Club%7CThunderTalk+Gaming%7CThunderTalk+Gaming+Young%7CTITANS%7CTitans+Gaming+Center%7CTLN+Pirates%7CTop+Esports%7CTop+Esports+Challenger%7CTQ+DURPA+KASHLQ%7CTu+Pap%C3%A1+Esports%7CUB+Alma+Mater%7CUCAM+Esports%7CUCAM+University+Esports%7CUltra+Prime%7CUnicorns+of+Love+Sexy+Edition%7CUniversity+of+British+Columbia%7CUniversity+of+California+Berkeley%7CUniversity+of+California+Irvine%7CUniversity+of+California+Los+Angeles%7CUniversity+of+California+Riverside%7CUniversity+of+California+San+Diego%7CUniversity+of+Colorado+Boulder%7CUniversity+of+Health+Sciences+and+Pharmacy+in+St.+Louis%7CUniversity+of+Illinois+at+Urbana-Champaign%7CUniversity+of+Maryland+College+Park%7CUniversity+of+Michigan%7CUniversity+of+Minnesota+Twin+Cities%7CUniversity+of+Mississippi%7CUniversity+of+Ottawa%7CUniversity+of+South+Florida&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-9.json",
+      "rowCount": 50,
+      "checksum": "c12aa6a45ef4c2636d9bdfea2f51f22ee125f3c103fef90188afd7f1dc57ba45",
+      "issuedAt": "2026-08-03T14:55:42.672Z",
+      "sequence": 72
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 10 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=University+of+Southern+California%7CUniversity+of+Texas+at+Austin%7CUniversity+of+Texas+at+Dallas%7CUniversity+of+Toronto%7CUniversity+of+Washington%7CUniversity+of+Waterloo%7CUP2UMEDIA+Cebulaki%7CUwinks%7CV3+Esports%7CValerion%7CValkiria%27s+Vikings%7CVancouver+Impact%7CVARREL+YOUTH%7CVasco+E-Sports%7CVelbeliKaizokudan%7CVeni+Vidi+Vici+%28Spanish+Team%29%7CVerdant%7CVfB+eSports%7CVictorious+Demons%7CViktus%7CVirginia+Polytechnic+Institute+and+State+University%7CVitality+Rising+Bees%7CVitality.Bee%7CVivo+Keyd+Stars%7CVivo+Keyd+Stars+Academy%7CVolda+E-Sport%7CVolticons%7CWangting%7CWeber+State+University%7CWeibo+Gaming%7CWeibo+Gaming+Youth+Team%7CWeSports%7CWest+Point+Esports+Academy%7CWest+Point+Esports+Cadets%7CWest+Point+Esports+Philippines%7CWhite+Dragons%7CWinthrop+University%7CWLG+Female+Stars%7CWLGaming+Esports%7CXi+Lai+Gaming%7CXO+Esports%7CYang+Dae+Pal+Korean+BBQ+Restaurant%7CYang+Yang+Gaming%7CYork+University%7CYumeea%7CZEN+Esports+%28Argentinian+Team%29%7CZena+Esports%7CZennIT%7CZenshi+Gaming%7CZephyr+Esport&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-10.json",
+      "rowCount": 50,
+      "checksum": "2d4e7e92a66fdc6cf2acd35a8723b57b6f2a7f184b6931ff95476e6dce8dbee2",
+      "issuedAt": "2026-08-03T14:55:42.673Z",
+      "sequence": 73
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 11 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Zerolag+Esports%7CZeroZone+Gaming%7CZeu5+Esports%7CZYB+Esport%7CKey+%28Chen+Hua+Zhang%29%7CTimon%7Clorofatz%7CNadra%7CSmebber%7CNiceToMeetMe%7CLindbergh%7CTamNguy%C3%AAn%7CFPT+Ho+Chi+Minh%7CFaculty%7CHyakkiMaru%7CScott+%28L%C6%B0%C6%A1ng+Ch%C3%AD+T%C3%A0i%29%7CAnh+Th%C6%B0+%28Tr%E1%BB%8Bnh+B%C3%ACnh%29%7CH%E1%BA%AFc+K%C3%AC+T%E1%BB%AD%7CGentlemanHero%7CStriker+%28Filip+Prentovic%29%7CRedeemed%7CMatthew+%28Noah+Seim%29%7CCatIRL%7CMagierJo%7CTaewang%7CDavipazzini%7C1847%7CRauschenberg%7CThunderzinho%7CNono%7CO%26%2339%3BGaming+TV%7CTektek%7CKrok%7CGardoum%7CLecrivain%7CHor%C3%A9%C3%BCs%7CFrost+%28French+Personality%29%7CLelariva%7CLaure+Val%C3%A9e%7CZaboutine%7CDuke_%28Hadrien_Forestier%29%7CGlopo%7CNoi%7CFinghin%7CChips+%28Fabien+Culi%C3%A9%29%7CZerotick%7CTweekz%7CMarex+%28Alexis+Girat%29%7CBlackbigo%7CRhobalas&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-11.json",
+      "rowCount": 50,
+      "checksum": "29de6977f07488eb8fcdfdd1fbb1c6a4b3eeead9391fa919905baa4e89039984",
+      "issuedAt": "2026-08-03T14:55:42.674Z",
+      "sequence": 74
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 12 (4 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Peaxy%7CChreak%7COtaah%7CLaure&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-12.json",
+      "rowCount": 4,
+      "checksum": "b158b97b87f25a0ae6aa57ff5694544d52c291b51c39bcf266292c88f0302bb3",
+      "issuedAt": "2026-08-03T14:55:42.676Z",
+      "sequence": 75
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T14:56:06.973Z",
+      "sequence": 76
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T14:56:06.974Z",
+      "sequence": 77
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T14:56:06.983Z",
+      "sequence": 78
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-500.json",
+      "rowCount": 500,
+      "checksum": "009626ad384218249ac137a638948e2777c1f6a55cd2ffd6b32e8c2496642b86",
+      "issuedAt": "2026-08-03T14:56:06.989Z",
+      "sequence": 79
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1000, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1000&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1000.json",
+      "rowCount": 500,
+      "checksum": "64c6f0548067ad664253707f7cbbd03efa5bf375a9e448efdb1a743402406803",
+      "issuedAt": "2026-08-03T14:56:06.995Z",
+      "sequence": 80
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1500, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1500.json",
+      "rowCount": 500,
+      "checksum": "0f0760d4eff168db4f4150151cf4bdb4fd12365137534efb64a8b776239f0a04",
+      "issuedAt": "2026-08-03T14:56:10.338Z",
+      "sequence": 81
+    },
+    {
+      "kind": "cargo",
+      "description": "listplayercurrent-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=ListplayerCurrent&fields=ID%2CLink%2CName%2CN%2CCountry%2CRole%2CIsSubstitute%2CIsTrainee%2CTeam%2CContractDate%2CResidency&order_by=ListplayerCurrent.Team%2CListplayerCurrent.N&limit=500&offset=0&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\listplayercurrent-global__offset-0.json",
+      "rowCount": 48,
+      "checksum": "bc0c71ee79b20d940877a2bad36c743d9e1c75651265bfdbce7df76ea82af912",
+      "issuedAt": "2026-08-03T14:57:16.179Z",
+      "sequence": 82
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 0 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=2+Massive%7C24+7+Tower+Dive%7C3BL+Esports%7C3v+Team%7C404+Multigaming+e.V.%7C7REX%7C9Gaming%7C9z+Globant%7CAaB+Esport%7CAbsolved%7CAceGaming%7CAeterna+Esports%7CAethra+Esports+Strijders%7CAll+for+One+Gaming%7CALMO+Players%7CAncient+Ones%7CAndromeda+Gaming%7CAnonymo+Esports%7CAnubis+Gaming%7CAnyone%27s+Legend%7CAnyone%27s+Legend.Young%7CApex+Mission+Impossible%7CAquinas+College%7CArctic+Pandas%7CArizona+State+University%7CArmoured+Brothers%7CArneb%7CAtruvia+M%C3%BCnster+Esports%7CAxolotl%7CAZ+Rising+Eterna%7CAzules+Esports%7CAzules+Esports+Academy%7CAzules+Esports+Fem%7CB2U%7CBaam+Esports%7CBabos+Gaming%7CBall+State+University%7CBamboo+Juice%7CBar%C3%A7a+eSports%7CBarcz%C4%85ca+Esports%7CBarcz%C4%85ca+Esports+Babylon%7CBastu+Five%7CBerlin+International+Gaming%7CBethany+Lutheran+College%7CBilibili+Gaming%7CBilibili+Gaming+Junior%7CBitfix+RG%7CBlack+Lion%7CBlue+Otter%7CBlue+Otter+Europe&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-0.json",
+      "rowCount": 50,
+      "checksum": "2a73453c56403a9fbb9522a5627143ee3b4c3d6e88510e1602120022712b6397",
+      "issuedAt": "2026-08-03T14:57:16.183Z",
+      "sequence": 83
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 1 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=BlueWhites%7CBNK+FEARX%7CBNK+FEARX+Youth%7CBohemian+Guardians%7CBoise+State+University%7CBomba+Team%7CBOOBA%7CBoostGate+Esports%7CBriar+Cliff+University%7CBrod+n+Friends%7CBRUTE%7CBubliki%7CBulldog+Esports%7CBunny+Girls%7CBurning+Core+Toyama%7CBushido+Wildcats%7CCAG+OSAKA%7CCalamity+Esports%7CCaldya+Esport%7CCampbellsville+University%7CCarleton+University%7CCarolina+Reapers%7CCCG+Esports%7CCeuta+Guardians%7CCGN+Esports%7CChiefs+Esports+Club%7CCITA+Kaizen%7CCITA+Kaizen+Academy%7CCitadel+Gaming%7CCl%C3%A3+NKZ%7CCleary+University%7CCleveland+State+University%7CCloud9%7CCNG+Royal%7CColorado+State+University%7CColossal+Gaming%7CColumbia+College%7CContingent+Esports%7CConverse+University%7CConviction%7CCORE+128%7CCoscu+Army%7CCPLAY%7CCrystal+Rose+%28French+Team%29%7CCTBC+Flying+Oyster%7CCTBC+Flying+Oyster+Academy%7CCupid+Esports%7CDark+Passage%7CDeathMark+E-Sports%7CDeep+Cross+Gaming&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-1.json",
+      "rowCount": 50,
+      "checksum": "b2b81d0c34ebb61691c532cf6b0172aff30cffe4ded6b493e142194738b897d6",
+      "issuedAt": "2026-08-03T14:57:16.184Z",
+      "sequence": 84
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 2 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Deer+Gaming%7CDetonatioN+FocusMe%7CDetonatioN+FocusMe+Academy%7CDevils.one+inStreamly%7CDIA+Ozarox+Esports%7CDignitas%7CDisguised%7CDisruptors%7CDivernex%7CDiversion+Gaming%7CDKB+XPERION+NXT%7CDMG+Esports%7CDN+SOOPers%7CDN+SOOPers+Academy%7CDN+SOOPers+Challengers%7CDOCISK%7CDOCISK+Academy%7CDocta+Esports%7CDomino+Computer%7CDorado+Gaming%7CDorado+Gaming+Black%7CDplus+Kia%7CDplus+Kia+Challengers%7CDplus+Kia+Youth%7CDream+Esports%7CDrury+University%7CDUCKIE+GETTERS%7CDucks+Deluxe+x+Evil+Geniuses%7CDusty%7CDynasty%7CE+WIE+EINFACH+E-SPORTS%7CE-Champ+Gaming+Trainee%7CEDward+Gaming%7CEDward+Gaming+Youth+Team%7CEesti+R%C3%A4stikud%7CEi+Nerd+Esports%7CEintracht+Frankfurt%7CEintracht+Spandau%7CEintracht+Spandau+Zwei%7CEKO+Esports%7CEmber+Foxes%7CEmbrace+Whatever+Happens%7CEmBRAZA%21+Esports%7CEpic+Avalanche%7CEsport+STUBA%7CEsprit+Sh%C5%8Dnen%7CEstral+Esports%7CESuba%7CESUG+Ultimate+Five+Feeder%7CEterna&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-2.json",
+      "rowCount": 50,
+      "checksum": "842de11df18dfa2e10093cd520b8b3b870b50f504af0c5949ea5909236daf86a",
+      "issuedAt": "2026-08-03T14:57:16.185Z",
+      "sequence": 85
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 3 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Eternals+Gaming%7CEthereal+Enigmas%7CEXILE+esports%7CEXILE+esports+Academy%7CFaerie+Charm+%28Singaporean+Team%29%7CFalke+Esports%7CFarenvehn+Fem%7CFast8%7CFENNEL%7CFervent+Esports%7CFisher+College%7CFive+Leaf+Clover%7CFlameHard%7CFlorida+Southern+College%7CFlorida+State+University%7CFluxo+W7M%7CFlyQuest%7CFlyQuest+RED%7CFnatic%7CForsaken+%28Polish+Team%29%7CFortress+Esports%7CFPT+University+Hochiminh%7CFrank+Esports%7CFrites+Esports+Club%7CFuego%7CFukuoka+SoftBank+HAWKS+gaming%7CFull+Sense%7CFURIA%7CFURIA+Youth%7CG2+Esports%7CG2+Hel%7CG2+NORD%7CGalaxy+Gaming+%28American+Team%29%7CGalions%7CGalions+Pearl%7CGalions+Sharks%7CGAM+Esports%7CGamers404%7CGamespace+Mediterranean+College+Esports%7CGarden+Gaming%7CGen.G%7CGen.G+Global+Academy%7CGen.G+Scholars%7CGenZ+Gaming+%282025+Vietnamese+Team%29%7CGeorge+Mason+University%7CGIANTX%7CGIANTX+iTero%7CGity+Meavedronu%7CGM+Gaming%7CGMBLERS+Esports&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-3.json",
+      "rowCount": 50,
+      "checksum": "59565a79295b8a7664a458bb1760ae4e7560a82f29a5f254746b6c7d4fda5044",
+      "issuedAt": "2026-08-03T14:57:16.186Z",
+      "sequence": 86
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 4 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=GnG+Amazigh%7CGod+Darkness+Esports%7CGodalions+Blossom%7CGolden+Lions%7CGrand+View+University%7CGravity+%282024+North+American+Team%29%7CGround+Zero+Academy%7CGround+Zero+Gaming%7CGTZ+Esports%7CGuinea+Pink%7CHANJIN+BRION%7CHANJIN+BRION+Academy%7CHANJIN+BRION+Challengers%7CHannover+Esports+e.V.%7CHanwha+Life+Esports%7CHanwha+Life+Esports+Academy%7CHanwha+Life+Esports+Challengers%7CHarrisburg+University%7CHELL+PIGS%7CHMBLE%7CHooligans%7CIci+Japon+Corp.+Esport%7CIlha+das+Lendas%7CIllinois+Wesleyan+University%7CIMProve+Team%7CInferno+Drive+Tokyo%7CInferno+Esports+%28Filipino+Team%29%7CInside+Games%7CInternational+Esports+Industry+Center%7CInternational+Love%7CINTZ%7CInvictus+Gaming%7CInvokers%7CJD+Gaming%7CJoblife%7CJSK+Academy%7CJSK+Esports%7CJuventus+Gaming+Gold%7CJuventus+Gaming+Red%7CJuventus+Gaming+White%7CKaBuM%21+Ilha+das+Lendas%7CKaBuM%21+Trainee%7CKanji+Esports%7CKarmine+Corp%7CKarmine+Corp+Blue%7CKarmine+Corp+Blue+Stars%7CKarolinerna%7CKaufland+Hangry+Knights%7CKawaii+Kiwis%7CKIA.eSuba+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-4.json",
+      "rowCount": 50,
+      "checksum": "13f23077b93488ae50e65f1b4db42604c00053b4508ac76c2b6a7db9685326c6",
+      "issuedAt": "2026-08-03T14:57:16.186Z",
+      "sequence": 87
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 5 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=KIT+SC+White%7CKits+Esports%7CKiwoom+DRX%7CKiwoom+DRX+Challengers%7CKlanik+Esport%7CKnockOut+Esports%7CKomodo+%28North+American+Team%29%7CKT+Rolster%7CKT+Rolster+Academy%7CKT+Rolster+Challengers%7CKuma+e-Sports%7CKun+Shan+Lightning+Tiger%7CL+Guide+Gaming%7CLausanne-Sport+Esports%7CLenovo+Legion+Honv%C3%A9d%7CLeviatan%7CLGD+Gaming%7CLGD+Gaming+Young+Team%7CLille+Esport%7CLIT+Team%7CLNG+Esports%7CLODIS+%28Polish+Team%29%7CLotus+%28North+American+Team%29%7CLOUD%7CLourdes+University%7CL%C3%98S%7CL%C3%98S+Academy%7CLUA+Gaming%7CLund+Esports+Organization%7CLundqvist+Lightside%7CLupus+Esports%7CLYON+%282024+American+Team%29%7CLYON+Academy%7CMacko+Academy%7CMagaza+Esports%7CMalvinas+Gaming%7CMaryville+University%7CMaze+Gaming%7CMCon+esports%7CMeavedron%7CMeavedron+Anonymo+Master+Academy%7CMental+Rush%7CMiami+University%7CMichigan+State+University%7CMilk+Esports%7CMilk+Esports+Brazil%7CMilk+Esports+Whole+Milk%7CMind+Blue+eSports%7CMissouri+Valley+College%7CMonta+Club&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-5.json",
+      "rowCount": 50,
+      "checksum": "8b0fe063667c870ee5beba8972dd70e5b8cc7652f8a6ded3dad0235c460fae07",
+      "issuedAt": "2026-08-03T14:57:16.187Z",
+      "sequence": 88
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 6 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Movistar+KOI%7CMovistar+KOI+F%C3%A9nix%7CMT1+Esports%7CMVK+Esports%7CMVK+Esports+Academy%7CMYinsanity%7CMyth+Esports%7CMythus+Esports%7CNALCS+Players+Association%7CNatus+Vincere%7CNCG+Esports%7CNew+Meta%7CNext+Level+Esports%7CNextGeneration+Esports%7CNg%E1%BB%B1a+H%C3%AD+Esports%7CNightbirds%7CNine+Lives+Esports%7CNinjas+in+Pyjamas.CN%7CNo+Need+Orga%7CNocturne+Gale%7CNongshim+Esports+Academy%7CNongshim+RedForce%7CNongshim+RedForce+Academy%7CNorth+Carolina+State+University%7CNortheastern+University%7CNorthwood+University%7CNOVEX%7CNRG%7CO%27Gaming+TV%7COakland+University%7CObservant+Force%7COdivelas+Sports+Club%7COh+My+God%7COhio+Northern+University%7COhio+State+University%7COklahoma+Christian+University%7COmerix+Esport%7COnce+Upon+A+Team%7COne+More+Esports%7COne+Trick+Production%7COnion+Team%7COriginal+Gaming%7COsh-Tekk+Warriors%7COttawa+University%7COtter+Side%7COxygen+Gaming%7CP11+Esports%7CPAGLE48%7CPaiN+Gaming%7CPaiN+Gaming+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-6.json",
+      "rowCount": 50,
+      "checksum": "2418bf7929fd6846b7c6273e02272ab778f9f1df4d49758231850c4e8d092a3a",
+      "issuedAt": "2026-08-03T14:57:16.188Z",
+      "sequence": 89
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 7 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Panathinaikos+Esports%7CPark+University%7CPCIFIC+Esports%7CPegasus+Esports%7CPertinax+Esports%7CPolar+Squad+Esports%7CPratt+Community+College%7CPriority%7CProject+Conquerors%7CProject+Conquerors+Athena%7CProsperity+Esports%7CPulse+Star%7CPurdue+University%7CPurdue+University+Northwest%7CPvB+%28Swiss+Team%29%7CPyramid+IV+Esports%7CQLASH%7CQLASH+MENA%7CQu%E1%BA%A3ng+Ninh+G%E1%BB%91c%7CRAMPAGE+%28Brazilian+Team%29%7CRAYN+Clocks%7CRED+Academy%7CRED+Canids%7CREDPack+Esports%7CRegnum4games%7CReignfall%7CReload+Ragnarok%7CRem%27s+Helpers%7CReset+E-Sports%7CRespawned+Esports%7CReveal+Multigaming%7CRevenGa+Esports%7CREViTAL+BLACKTRAiNS%7CRich+Gang+%28Norwegian+Team%29%7CRise+Gaming%7CRLX+Esports%7CRMD+Gaming%7CRMD+Gaming+Trainee%7CRochester+Institute+of+Technology%7CRogerSaMa%7CRoosevelt+University%7CROSSMANN+Centaurs%7CRuddy+Corporation%7CRugby+Club+Hav%C3%AD%C5%99ov%7CS8UL+Esports%7CSaigon+Dino%7CSaigon+Secret%7CSaigon+Warriors%7CSaint+Louis+University%7CSan+Jose+State+University&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-7.json",
+      "rowCount": 50,
+      "checksum": "c4fdfbcafef080ed20c878ece09b9061e80dc8a66bffaa7a62767f8c0fa286a1",
+      "issuedAt": "2026-08-03T14:57:16.189Z",
+      "sequence": 90
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 8 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Savannah+College+of+Art+and+Design%7CSDM+Tigres%7CSenshi+eSports+%28Benelux+Team%29%7CSentinels%7CSeven+Dark%7CShadow+Bloom%7CShadow+Keepers+Esports%7CShark+Attack%7CSharkBite+Furious+Gaming+Black%7CSharkBite+Furious+Gaming+White%7CShifters%7CShining+Stars%7CShopify+Rebellion%7CSillySilly+Gaming%7CSimon+Fraser+University%7CSimplicity+Gaming%7CSK+Gaming%7CSK+Gaming+Avarosa%7CSkillcamp%7CSmoke+Tram%7CSmoke+Tram+Academy%7CSN+CyberCore+Esports%7CSNOOZE+Esports%7CSolary%7CSolary+Academy%7CSolary+Eclipse%7CSoul%27s+Heart+Esport%7CS%C3%B8rby+eSport%7CSpartans+EU%7CSphere+Esports%7CSPIKE+Syndicate%7CSpirituals%7CSponge+Gaming%7CSpongecord+prime%7CSt.+Clair+College%7CSt.+Cloud+State+University%7CState+University+of+New+York+at+Buffalo%7CStoneHenge+Esports%7CSU+Esports%7CSupernova%7CT1%7CT1+Esports+Academy%7CT1+Esports+Academy+Rookies%7CTan%27i+eSports%7CTeam+Evermeet%7CTeam+Fire%7CTeam+Heretics%7CTeam+Heretics+Academy%7CTeam+High+Ground%7CTeam+Ice&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-8.json",
+      "rowCount": 50,
+      "checksum": "2000fba79315ef16e6b68d6e92d5dd0451e8f30caf65791eabc33500c74ebe6c",
+      "issuedAt": "2026-08-03T14:57:16.190Z",
+      "sequence": 91
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 9 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Team+Liquid%7CTeam+Phantasma%7CTeam+Phoenix+%28Turkish+Team%29%7CTeam+Refuse%7CTeam+Rift%7CTeam+Samsara%7CTeam+Secret+Whales%7CTeam+Solid+%28Brazilian+Team%29%7CTeam+Spawn+Peek%7CTeam+Vitality%7CTeam+WE%7CTeam+WE+Academy%7CTeamOrangeGaming%7CTeamOrangeGaming+Academy%7CTexas+A%26M+University%7CThe+Bandits%7CThe+Final+Tribe%7CThe+Gulls+Esports%7CThe+New+Kings%7CThe+ParadOx+Invaders%7CThe+Secret+Club%7CThunderTalk+Gaming%7CThunderTalk+Gaming+Young%7CTITANS%7CTitans+Gaming+Center%7CTLN+Pirates%7CTop+Esports%7CTop+Esports+Challenger%7CTQ+DURPA+KASHLQ%7CTu+Pap%C3%A1+Esports%7CUB+Alma+Mater%7CUCAM+Esports%7CUCAM+University+Esports%7CUltra+Prime%7CUnicorns+of+Love+Sexy+Edition%7CUniversity+of+British+Columbia%7CUniversity+of+California+Berkeley%7CUniversity+of+California+Irvine%7CUniversity+of+California+Los+Angeles%7CUniversity+of+California+Riverside%7CUniversity+of+California+San+Diego%7CUniversity+of+Colorado+Boulder%7CUniversity+of+Health+Sciences+and+Pharmacy+in+St.+Louis%7CUniversity+of+Illinois+at+Urbana-Champaign%7CUniversity+of+Maryland+College+Park%7CUniversity+of+Michigan%7CUniversity+of+Minnesota+Twin+Cities%7CUniversity+of+Mississippi%7CUniversity+of+Ottawa%7CUniversity+of+South+Florida&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-9.json",
+      "rowCount": 50,
+      "checksum": "c12aa6a45ef4c2636d9bdfea2f51f22ee125f3c103fef90188afd7f1dc57ba45",
+      "issuedAt": "2026-08-03T14:57:16.191Z",
+      "sequence": 92
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 10 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=University+of+Southern+California%7CUniversity+of+Texas+at+Austin%7CUniversity+of+Texas+at+Dallas%7CUniversity+of+Toronto%7CUniversity+of+Washington%7CUniversity+of+Waterloo%7CUP2UMEDIA+Cebulaki%7CUwinks%7CV3+Esports%7CValerion%7CValkiria%27s+Vikings%7CVancouver+Impact%7CVARREL+YOUTH%7CVasco+E-Sports%7CVelbeliKaizokudan%7CVeni+Vidi+Vici+%28Spanish+Team%29%7CVerdant%7CVfB+eSports%7CVictorious+Demons%7CViktus%7CVirginia+Polytechnic+Institute+and+State+University%7CVitality+Rising+Bees%7CVitality.Bee%7CVivo+Keyd+Stars%7CVivo+Keyd+Stars+Academy%7CVolda+E-Sport%7CVolticons%7CWangting%7CWeber+State+University%7CWeibo+Gaming%7CWeibo+Gaming+Youth+Team%7CWeSports%7CWest+Point+Esports+Academy%7CWest+Point+Esports+Cadets%7CWest+Point+Esports+Philippines%7CWhite+Dragons%7CWinthrop+University%7CWLG+Female+Stars%7CWLGaming+Esports%7CXi+Lai+Gaming%7CXO+Esports%7CYang+Dae+Pal+Korean+BBQ+Restaurant%7CYang+Yang+Gaming%7CYork+University%7CYumeea%7CZEN+Esports+%28Argentinian+Team%29%7CZena+Esports%7CZennIT%7CZenshi+Gaming%7CZephyr+Esport&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-10.json",
+      "rowCount": 50,
+      "checksum": "2d4e7e92a66fdc6cf2acd35a8723b57b6f2a7f184b6931ff95476e6dce8dbee2",
+      "issuedAt": "2026-08-03T14:57:16.191Z",
+      "sequence": 93
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 11 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Zerolag+Esports%7CZeroZone+Gaming%7CZeu5+Esports%7CZYB+Esport%7CKey+%28Chen+Hua+Zhang%29%7CTimon%7Clorofatz%7CNadra%7CSmebber%7CNiceToMeetMe%7CLindbergh%7CTamNguy%C3%AAn%7CFPT+Ho+Chi+Minh%7CFaculty%7CHyakkiMaru%7CScott+%28L%C6%B0%C6%A1ng+Ch%C3%AD+T%C3%A0i%29%7CAnh+Th%C6%B0+%28Tr%E1%BB%8Bnh+B%C3%ACnh%29%7CH%E1%BA%AFc+K%C3%AC+T%E1%BB%AD%7CGentlemanHero%7CStriker+%28Filip+Prentovic%29%7CRedeemed%7CMatthew+%28Noah+Seim%29%7CCatIRL%7CMagierJo%7CTaewang%7CDavipazzini%7C1847%7CRauschenberg%7CThunderzinho%7CNono%7CO%26%2339%3BGaming+TV%7CTektek%7CKrok%7CGardoum%7CLecrivain%7CHor%C3%A9%C3%BCs%7CFrost+%28French+Personality%29%7CLelariva%7CLaure+Val%C3%A9e%7CZaboutine%7CDuke_%28Hadrien_Forestier%29%7CGlopo%7CNoi%7CFinghin%7CChips+%28Fabien+Culi%C3%A9%29%7CZerotick%7CTweekz%7CMarex+%28Alexis+Girat%29%7CBlackbigo%7CRhobalas&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-11.json",
+      "rowCount": 50,
+      "checksum": "29de6977f07488eb8fcdfdd1fbb1c6a4b3eeead9391fa919905baa4e89039984",
+      "issuedAt": "2026-08-03T14:57:16.193Z",
+      "sequence": 94
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 12 (4 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Peaxy%7CChreak%7COtaah%7CLaure&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-12.json",
+      "rowCount": 4,
+      "checksum": "b158b97b87f25a0ae6aa57ff5694544d52c291b51c39bcf266292c88f0302bb3",
+      "issuedAt": "2026-08-03T14:57:16.193Z",
+      "sequence": 95
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T15:02:04.349Z",
+      "sequence": 96
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T15:02:04.351Z",
+      "sequence": 97
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T15:02:04.358Z",
+      "sequence": 98
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-500.json",
+      "rowCount": 500,
+      "checksum": "009626ad384218249ac137a638948e2777c1f6a55cd2ffd6b32e8c2496642b86",
+      "issuedAt": "2026-08-03T15:02:04.365Z",
+      "sequence": 99
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1000, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1000&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1000.json",
+      "rowCount": 500,
+      "checksum": "64c6f0548067ad664253707f7cbbd03efa5bf375a9e448efdb1a743402406803",
+      "issuedAt": "2026-08-03T15:02:04.371Z",
+      "sequence": 100
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1500.json",
+      "rowCount": 500,
+      "checksum": "0f0760d4eff168db4f4150151cf4bdb4fd12365137534efb64a8b776239f0a04",
+      "issuedAt": "2026-08-03T15:02:04.377Z",
+      "sequence": 101
+    },
+    {
+      "kind": "cargo",
+      "description": "listplayercurrent-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=ListplayerCurrent&fields=ID%2CLink%2CName%2CN%2CCountry%2CRole%2CIsSubstitute%2CIsTrainee%2CTeam%2CContractDate%2CResidency&order_by=ListplayerCurrent.Team%2CListplayerCurrent.N&limit=500&offset=0&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\listplayercurrent-global__offset-0.json",
+      "rowCount": 48,
+      "checksum": "bc0c71ee79b20d940877a2bad36c743d9e1c75651265bfdbce7df76ea82af912",
+      "issuedAt": "2026-08-03T15:03:10.262Z",
+      "sequence": 102
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=0&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-0.json",
+      "rowCount": 500,
+      "checksum": "3f61f88ea08c136aaa022eed53938b33b5bd7da41093eaf0fcd8a291d310b680",
+      "issuedAt": "2026-08-03T15:04:57.401Z",
+      "sequence": 103
+    },
+    {
+      "kind": "cargo",
+      "description": "teams-active (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Teams&fields=Name%2COverviewPage%2CShort%2CLocation%2CTeamLocation%2CRegion%2COrganizationPage%2CIsDisbanded%2CRenamedTo&order_by=Teams.OverviewPage&limit=500&offset=500&where=Teams.IsDisbanded%3D%220%22+OR+Teams.IsDisbanded+IS+NULL&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\teams-active__offset-500.json",
+      "rowCount": 54,
+      "checksum": "64d39cff8f289d84d3ae8062700331b167857fbaef2bbb8032360aa5a6a11a7b",
+      "issuedAt": "2026-08-03T15:04:57.402Z",
+      "sequence": 104
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=0&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-0.json",
+      "rowCount": 500,
+      "checksum": "337cc0747bc9ef900a772b127f548d553e50172a1548172a2e66db4b9c42b462",
+      "issuedAt": "2026-08-03T15:04:57.409Z",
+      "sequence": 105
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-500.json",
+      "rowCount": 500,
+      "checksum": "009626ad384218249ac137a638948e2777c1f6a55cd2ffd6b32e8c2496642b86",
+      "issuedAt": "2026-08-03T15:04:57.416Z",
+      "sequence": 106
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1000, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1000&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1000.json",
+      "rowCount": 500,
+      "checksum": "64c6f0548067ad664253707f7cbbd03efa5bf375a9e448efdb1a743402406803",
+      "issuedAt": "2026-08-03T15:04:57.423Z",
+      "sequence": 107
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 1500, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=1500&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-1500.json",
+      "rowCount": 500,
+      "checksum": "0f0760d4eff168db4f4150151cf4bdb4fd12365137534efb64a8b776239f0a04",
+      "issuedAt": "2026-08-03T15:04:57.429Z",
+      "sequence": 108
+    },
+    {
+      "kind": "cargo",
+      "description": "current-tenures-global (offset 2000, limit 500)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=Tenures%3DTen%2CPlayerRedirects%3DPR%2CPlayers%3DP%2CRosterChanges%3DRCJ&fields=P._pageName%3DPlayerPageName%2CP.OverviewPage%3DPlayerOverviewPage%2CP.Player%3DPlayerDisplayName%2CP.ID%3DPlayerId%2CP.Name%3DPlayerLegalName%2CP.NameFull%3DPlayerFullName%2CP.Country%3DPlayerCountry%2CP.NationalityPrimary%3DPlayerNationalityPrimary%2CP.Residency%3DPlayerResidency%2CP.Birthdate%3DPlayerBirthdate%2CP.IsSubstitute%3DPlayerIsSubstitute%2CP.IsTrainee%3DPlayerIsTrainee%2CRCJ.Roles%3DRoles%2CRCJ.RolesIngame%3DRolesIngame%2CRCJ.RolesStaff%3DRolesStaff%2CRCJ.RoleModifier%3DRoleModifier%2CRCJ.Status%3DStatus%2CTen.Team%3DTeam%2CTen.DateJoin%3DDateJoin%2CTen.DateLeave%3DDateLeave%2CTen.ContractEnd%3DContractEnd%2CTen.IsCurrent%3DIsCurrent%2CTen.RosterChangeIdJoin%3DRosterChangeIdJoin&order_by=P._pageName%2CTen.Team&limit=500&offset=2000&where=Ten.IsCurrent%3D%221%22&join_on=Ten.Player%3DPR.AllName%2CPR.OverviewPage%3DP._pageName%2CTen.RosterChangeIdJoin%3DRCJ.RosterChangeId&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\current-tenures-global__offset-2000.json",
+      "rowCount": 500,
+      "checksum": "4d772e13acd7da3a60f9449a718eef9621248c1ced229a25dc44083a91d1b854",
+      "issuedAt": "2026-08-03T15:05:14.149Z",
+      "sequence": 109
+    },
+    {
+      "kind": "cargo",
+      "description": "listplayercurrent-global (offset 0, limit 500, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=cargoquery&tables=ListplayerCurrent&fields=ID%2CLink%2CName%2CN%2CCountry%2CRole%2CIsSubstitute%2CIsTrainee%2CTeam%2CContractDate%2CResidency&order_by=ListplayerCurrent.Team%2CListplayerCurrent.N&limit=500&offset=0&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\cargo\\listplayercurrent-global__offset-0.json",
+      "rowCount": 48,
+      "checksum": "bc0c71ee79b20d940877a2bad36c743d9e1c75651265bfdbce7df76ea82af912",
+      "issuedAt": "2026-08-03T15:06:19.780Z",
+      "sequence": 110
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 0 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=2+Massive%7C24+7+Tower+Dive%7C3BL+Esports%7C3v+Team%7C404+Multigaming+e.V.%7C7REX%7C9Gaming%7C9z+Globant%7CAaB+Esport%7CAbsolved%7CAceGaming%7CAeterna+Esports%7CAethra+Esports+Strijders%7CAll+for+One+Gaming%7CALMO+Players%7CAncient+Ones%7CAndromeda+Gaming%7CAnonymo+Esports%7CAnubis+Gaming%7CAnyone%27s+Legend%7CAnyone%27s+Legend.Young%7CApex+Mission+Impossible%7CAquinas+College%7CArctic+Pandas%7CArizona+State+University%7CArmoured+Brothers%7CArneb%7CAtruvia+M%C3%BCnster+Esports%7CAxolotl%7CAZ+Rising+Eterna%7CAzules+Esports%7CAzules+Esports+Academy%7CAzules+Esports+Fem%7CB2U%7CBaam+Esports%7CBabos+Gaming%7CBall+State+University%7CBamboo+Juice%7CBar%C3%A7a+eSports%7CBarcz%C4%85ca+Esports%7CBarcz%C4%85ca+Esports+Babylon%7CBastu+Five%7CBerlin+International+Gaming%7CBethany+Lutheran+College%7CBilibili+Gaming%7CBilibili+Gaming+Junior%7CBitfix+RG%7CBlack+Lion%7CBlue+Otter%7CBlue+Otter+Europe&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-0.json",
+      "rowCount": 50,
+      "checksum": "2a73453c56403a9fbb9522a5627143ee3b4c3d6e88510e1602120022712b6397",
+      "issuedAt": "2026-08-03T15:06:19.786Z",
+      "sequence": 111
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 1 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=BlueWhites%7CBNK+FEARX%7CBNK+FEARX+Youth%7CBohemian+Guardians%7CBoise+State+University%7CBomba+Team%7CBOOBA%7CBoostGate+Esports%7CBriar+Cliff+University%7CBrod+n+Friends%7CBRUTE%7CBubliki%7CBulldog+Esports%7CBunny+Girls%7CBurning+Core+Toyama%7CBushido+Wildcats%7CCAG+OSAKA%7CCalamity+Esports%7CCaldya+Esport%7CCampbellsville+University%7CCarleton+University%7CCarolina+Reapers%7CCCG+Esports%7CCeuta+Guardians%7CCGN+Esports%7CChiefs+Esports+Club%7CCITA+Kaizen%7CCITA+Kaizen+Academy%7CCitadel+Gaming%7CCl%C3%A3+NKZ%7CCleary+University%7CCleveland+State+University%7CCloud9%7CCNG+Royal%7CColorado+State+University%7CColossal+Gaming%7CColumbia+College%7CContingent+Esports%7CConverse+University%7CConviction%7CCORE+128%7CCoscu+Army%7CCPLAY%7CCrystal+Rose+%28French+Team%29%7CCTBC+Flying+Oyster%7CCTBC+Flying+Oyster+Academy%7CCupid+Esports%7CDark+Passage%7CDeathMark+E-Sports%7CDeep+Cross+Gaming&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-1.json",
+      "rowCount": 50,
+      "checksum": "b2b81d0c34ebb61691c532cf6b0172aff30cffe4ded6b493e142194738b897d6",
+      "issuedAt": "2026-08-03T15:06:19.788Z",
+      "sequence": 112
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 2 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Deer+Gaming%7CDetonatioN+FocusMe%7CDetonatioN+FocusMe+Academy%7CDevils.one+inStreamly%7CDIA+Ozarox+Esports%7CDignitas%7CDisguised%7CDisruptors%7CDivernex%7CDiversion+Gaming%7CDKB+XPERION+NXT%7CDMG+Esports%7CDN+SOOPers%7CDN+SOOPers+Academy%7CDN+SOOPers+Challengers%7CDOCISK%7CDOCISK+Academy%7CDocta+Esports%7CDomino+Computer%7CDorado+Gaming%7CDorado+Gaming+Black%7CDplus+Kia%7CDplus+Kia+Challengers%7CDplus+Kia+Youth%7CDream+Esports%7CDrury+University%7CDUCKIE+GETTERS%7CDucks+Deluxe+x+Evil+Geniuses%7CDusty%7CDynasty%7CE+WIE+EINFACH+E-SPORTS%7CE-Champ+Gaming+Trainee%7CEDward+Gaming%7CEDward+Gaming+Youth+Team%7CEesti+R%C3%A4stikud%7CEi+Nerd+Esports%7CEintracht+Frankfurt%7CEintracht+Spandau%7CEintracht+Spandau+Zwei%7CEKO+Esports%7CEmber+Foxes%7CEmbrace+Whatever+Happens%7CEmBRAZA%21+Esports%7CEpic+Avalanche%7CEsport+STUBA%7CEsprit+Sh%C5%8Dnen%7CEstral+Esports%7CESuba%7CESUG+Ultimate+Five+Feeder%7CEterna&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-2.json",
+      "rowCount": 50,
+      "checksum": "842de11df18dfa2e10093cd520b8b3b870b50f504af0c5949ea5909236daf86a",
+      "issuedAt": "2026-08-03T15:06:19.790Z",
+      "sequence": 113
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 3 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Eternals+Gaming%7CEthereal+Enigmas%7CEXILE+esports%7CEXILE+esports+Academy%7CFaerie+Charm+%28Singaporean+Team%29%7CFalke+Esports%7CFarenvehn+Fem%7CFast8%7CFENNEL%7CFervent+Esports%7CFisher+College%7CFive+Leaf+Clover%7CFlameHard%7CFlorida+Southern+College%7CFlorida+State+University%7CFluxo+W7M%7CFlyQuest%7CFlyQuest+RED%7CFnatic%7CForsaken+%28Polish+Team%29%7CFortress+Esports%7CFPT+University+Hochiminh%7CFrank+Esports%7CFrites+Esports+Club%7CFuego%7CFukuoka+SoftBank+HAWKS+gaming%7CFull+Sense%7CFURIA%7CFURIA+Youth%7CG2+Esports%7CG2+Hel%7CG2+NORD%7CGalaxy+Gaming+%28American+Team%29%7CGalions%7CGalions+Pearl%7CGalions+Sharks%7CGAM+Esports%7CGamers404%7CGamespace+Mediterranean+College+Esports%7CGarden+Gaming%7CGen.G%7CGen.G+Global+Academy%7CGen.G+Scholars%7CGenZ+Gaming+%282025+Vietnamese+Team%29%7CGeorge+Mason+University%7CGIANTX%7CGIANTX+iTero%7CGity+Meavedronu%7CGM+Gaming%7CGMBLERS+Esports&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-3.json",
+      "rowCount": 50,
+      "checksum": "59565a79295b8a7664a458bb1760ae4e7560a82f29a5f254746b6c7d4fda5044",
+      "issuedAt": "2026-08-03T15:06:19.791Z",
+      "sequence": 114
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 4 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=GnG+Amazigh%7CGod+Darkness+Esports%7CGodalions+Blossom%7CGolden+Lions%7CGrand+View+University%7CGravity+%282024+North+American+Team%29%7CGround+Zero+Academy%7CGround+Zero+Gaming%7CGTZ+Esports%7CGuinea+Pink%7CHANJIN+BRION%7CHANJIN+BRION+Academy%7CHANJIN+BRION+Challengers%7CHannover+Esports+e.V.%7CHanwha+Life+Esports%7CHanwha+Life+Esports+Academy%7CHanwha+Life+Esports+Challengers%7CHarrisburg+University%7CHELL+PIGS%7CHMBLE%7CHooligans%7CIci+Japon+Corp.+Esport%7CIlha+das+Lendas%7CIllinois+Wesleyan+University%7CIMProve+Team%7CInferno+Drive+Tokyo%7CInferno+Esports+%28Filipino+Team%29%7CInside+Games%7CInternational+Esports+Industry+Center%7CInternational+Love%7CINTZ%7CInvictus+Gaming%7CInvokers%7CJD+Gaming%7CJoblife%7CJSK+Academy%7CJSK+Esports%7CJuventus+Gaming+Gold%7CJuventus+Gaming+Red%7CJuventus+Gaming+White%7CKaBuM%21+Ilha+das+Lendas%7CKaBuM%21+Trainee%7CKanji+Esports%7CKarmine+Corp%7CKarmine+Corp+Blue%7CKarmine+Corp+Blue+Stars%7CKarolinerna%7CKaufland+Hangry+Knights%7CKawaii+Kiwis%7CKIA.eSuba+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-4.json",
+      "rowCount": 50,
+      "checksum": "13f23077b93488ae50e65f1b4db42604c00053b4508ac76c2b6a7db9685326c6",
+      "issuedAt": "2026-08-03T15:06:19.793Z",
+      "sequence": 115
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 5 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=KIT+SC+White%7CKits+Esports%7CKiwoom+DRX%7CKiwoom+DRX+Challengers%7CKlanik+Esport%7CKnockOut+Esports%7CKomodo+%28North+American+Team%29%7CKT+Rolster%7CKT+Rolster+Academy%7CKT+Rolster+Challengers%7CKuma+e-Sports%7CKun+Shan+Lightning+Tiger%7CL+Guide+Gaming%7CLausanne-Sport+Esports%7CLenovo+Legion+Honv%C3%A9d%7CLeviatan%7CLGD+Gaming%7CLGD+Gaming+Young+Team%7CLille+Esport%7CLIT+Team%7CLNG+Esports%7CLODIS+%28Polish+Team%29%7CLotus+%28North+American+Team%29%7CLOUD%7CLourdes+University%7CL%C3%98S%7CL%C3%98S+Academy%7CLUA+Gaming%7CLund+Esports+Organization%7CLundqvist+Lightside%7CLupus+Esports%7CLYON+%282024+American+Team%29%7CLYON+Academy%7CMacko+Academy%7CMagaza+Esports%7CMalvinas+Gaming%7CMaryville+University%7CMaze+Gaming%7CMCon+esports%7CMeavedron%7CMeavedron+Anonymo+Master+Academy%7CMental+Rush%7CMiami+University%7CMichigan+State+University%7CMilk+Esports%7CMilk+Esports+Brazil%7CMilk+Esports+Whole+Milk%7CMind+Blue+eSports%7CMissouri+Valley+College%7CMonta+Club&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-5.json",
+      "rowCount": 50,
+      "checksum": "8b0fe063667c870ee5beba8972dd70e5b8cc7652f8a6ded3dad0235c460fae07",
+      "issuedAt": "2026-08-03T15:06:19.795Z",
+      "sequence": 116
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 6 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Movistar+KOI%7CMovistar+KOI+F%C3%A9nix%7CMT1+Esports%7CMVK+Esports%7CMVK+Esports+Academy%7CMYinsanity%7CMyth+Esports%7CMythus+Esports%7CNALCS+Players+Association%7CNatus+Vincere%7CNCG+Esports%7CNew+Meta%7CNext+Level+Esports%7CNextGeneration+Esports%7CNg%E1%BB%B1a+H%C3%AD+Esports%7CNightbirds%7CNine+Lives+Esports%7CNinjas+in+Pyjamas.CN%7CNo+Need+Orga%7CNocturne+Gale%7CNongshim+Esports+Academy%7CNongshim+RedForce%7CNongshim+RedForce+Academy%7CNorth+Carolina+State+University%7CNortheastern+University%7CNorthwood+University%7CNOVEX%7CNRG%7CO%27Gaming+TV%7COakland+University%7CObservant+Force%7COdivelas+Sports+Club%7COh+My+God%7COhio+Northern+University%7COhio+State+University%7COklahoma+Christian+University%7COmerix+Esport%7COnce+Upon+A+Team%7COne+More+Esports%7COne+Trick+Production%7COnion+Team%7COriginal+Gaming%7COsh-Tekk+Warriors%7COttawa+University%7COtter+Side%7COxygen+Gaming%7CP11+Esports%7CPAGLE48%7CPaiN+Gaming%7CPaiN+Gaming+Academy&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-6.json",
+      "rowCount": 50,
+      "checksum": "2418bf7929fd6846b7c6273e02272ab778f9f1df4d49758231850c4e8d092a3a",
+      "issuedAt": "2026-08-03T15:06:19.796Z",
+      "sequence": 117
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 7 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Panathinaikos+Esports%7CPark+University%7CPCIFIC+Esports%7CPegasus+Esports%7CPertinax+Esports%7CPolar+Squad+Esports%7CPratt+Community+College%7CPriority%7CProject+Conquerors%7CProject+Conquerors+Athena%7CProsperity+Esports%7CPulse+Star%7CPurdue+University%7CPurdue+University+Northwest%7CPvB+%28Swiss+Team%29%7CPyramid+IV+Esports%7CQLASH%7CQLASH+MENA%7CQu%E1%BA%A3ng+Ninh+G%E1%BB%91c%7CRAMPAGE+%28Brazilian+Team%29%7CRAYN+Clocks%7CRED+Academy%7CRED+Canids%7CREDPack+Esports%7CRegnum4games%7CReignfall%7CReload+Ragnarok%7CRem%27s+Helpers%7CReset+E-Sports%7CRespawned+Esports%7CReveal+Multigaming%7CRevenGa+Esports%7CREViTAL+BLACKTRAiNS%7CRich+Gang+%28Norwegian+Team%29%7CRise+Gaming%7CRLX+Esports%7CRMD+Gaming%7CRMD+Gaming+Trainee%7CRochester+Institute+of+Technology%7CRogerSaMa%7CRoosevelt+University%7CROSSMANN+Centaurs%7CRuddy+Corporation%7CRugby+Club+Hav%C3%AD%C5%99ov%7CS8UL+Esports%7CSaigon+Dino%7CSaigon+Secret%7CSaigon+Warriors%7CSaint+Louis+University%7CSan+Jose+State+University&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-7.json",
+      "rowCount": 50,
+      "checksum": "c4fdfbcafef080ed20c878ece09b9061e80dc8a66bffaa7a62767f8c0fa286a1",
+      "issuedAt": "2026-08-03T15:06:19.797Z",
+      "sequence": 118
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 8 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Savannah+College+of+Art+and+Design%7CSDM+Tigres%7CSenshi+eSports+%28Benelux+Team%29%7CSentinels%7CSeven+Dark%7CShadow+Bloom%7CShadow+Keepers+Esports%7CShark+Attack%7CSharkBite+Furious+Gaming+Black%7CSharkBite+Furious+Gaming+White%7CShifters%7CShining+Stars%7CShopify+Rebellion%7CSillySilly+Gaming%7CSimon+Fraser+University%7CSimplicity+Gaming%7CSK+Gaming%7CSK+Gaming+Avarosa%7CSkillcamp%7CSmoke+Tram%7CSmoke+Tram+Academy%7CSN+CyberCore+Esports%7CSNOOZE+Esports%7CSolary%7CSolary+Academy%7CSolary+Eclipse%7CSoul%27s+Heart+Esport%7CS%C3%B8rby+eSport%7CSpartans+EU%7CSphere+Esports%7CSPIKE+Syndicate%7CSpirituals%7CSponge+Gaming%7CSpongecord+prime%7CSt.+Clair+College%7CSt.+Cloud+State+University%7CState+University+of+New+York+at+Buffalo%7CStoneHenge+Esports%7CSU+Esports%7CSupernova%7CT1%7CT1+Esports+Academy%7CT1+Esports+Academy+Rookies%7CTan%27i+eSports%7CTeam+Evermeet%7CTeam+Fire%7CTeam+Heretics%7CTeam+Heretics+Academy%7CTeam+High+Ground%7CTeam+Ice&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-8.json",
+      "rowCount": 50,
+      "checksum": "2000fba79315ef16e6b68d6e92d5dd0451e8f30caf65791eabc33500c74ebe6c",
+      "issuedAt": "2026-08-03T15:06:19.798Z",
+      "sequence": 119
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 9 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Team+Liquid%7CTeam+Phantasma%7CTeam+Phoenix+%28Turkish+Team%29%7CTeam+Refuse%7CTeam+Rift%7CTeam+Samsara%7CTeam+Secret+Whales%7CTeam+Solid+%28Brazilian+Team%29%7CTeam+Spawn+Peek%7CTeam+Vitality%7CTeam+WE%7CTeam+WE+Academy%7CTeamOrangeGaming%7CTeamOrangeGaming+Academy%7CTexas+A%26M+University%7CThe+Bandits%7CThe+Final+Tribe%7CThe+Gulls+Esports%7CThe+New+Kings%7CThe+ParadOx+Invaders%7CThe+Secret+Club%7CThunderTalk+Gaming%7CThunderTalk+Gaming+Young%7CTITANS%7CTitans+Gaming+Center%7CTLN+Pirates%7CTop+Esports%7CTop+Esports+Challenger%7CTQ+DURPA+KASHLQ%7CTu+Pap%C3%A1+Esports%7CUB+Alma+Mater%7CUCAM+Esports%7CUCAM+University+Esports%7CUltra+Prime%7CUnicorns+of+Love+Sexy+Edition%7CUniversity+of+British+Columbia%7CUniversity+of+California+Berkeley%7CUniversity+of+California+Irvine%7CUniversity+of+California+Los+Angeles%7CUniversity+of+California+Riverside%7CUniversity+of+California+San+Diego%7CUniversity+of+Colorado+Boulder%7CUniversity+of+Health+Sciences+and+Pharmacy+in+St.+Louis%7CUniversity+of+Illinois+at+Urbana-Champaign%7CUniversity+of+Maryland+College+Park%7CUniversity+of+Michigan%7CUniversity+of+Minnesota+Twin+Cities%7CUniversity+of+Mississippi%7CUniversity+of+Ottawa%7CUniversity+of+South+Florida&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-9.json",
+      "rowCount": 50,
+      "checksum": "c12aa6a45ef4c2636d9bdfea2f51f22ee125f3c103fef90188afd7f1dc57ba45",
+      "issuedAt": "2026-08-03T15:06:19.799Z",
+      "sequence": 120
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 10 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=University+of+Southern+California%7CUniversity+of+Texas+at+Austin%7CUniversity+of+Texas+at+Dallas%7CUniversity+of+Toronto%7CUniversity+of+Washington%7CUniversity+of+Waterloo%7CUP2UMEDIA+Cebulaki%7CUwinks%7CV3+Esports%7CValerion%7CValkiria%27s+Vikings%7CVancouver+Impact%7CVARREL+YOUTH%7CVasco+E-Sports%7CVelbeliKaizokudan%7CVeni+Vidi+Vici+%28Spanish+Team%29%7CVerdant%7CVfB+eSports%7CVictorious+Demons%7CViktus%7CVirginia+Polytechnic+Institute+and+State+University%7CVitality+Rising+Bees%7CVitality.Bee%7CVivo+Keyd+Stars%7CVivo+Keyd+Stars+Academy%7CVolda+E-Sport%7CVolticons%7CWangting%7CWeber+State+University%7CWeibo+Gaming%7CWeibo+Gaming+Youth+Team%7CWeSports%7CWest+Point+Esports+Academy%7CWest+Point+Esports+Cadets%7CWest+Point+Esports+Philippines%7CWhite+Dragons%7CWinthrop+University%7CWLG+Female+Stars%7CWLGaming+Esports%7CXi+Lai+Gaming%7CXO+Esports%7CYang+Dae+Pal+Korean+BBQ+Restaurant%7CYang+Yang+Gaming%7CYork+University%7CYumeea%7CZEN+Esports+%28Argentinian+Team%29%7CZena+Esports%7CZennIT%7CZenshi+Gaming%7CZephyr+Esport&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-10.json",
+      "rowCount": 50,
+      "checksum": "2d4e7e92a66fdc6cf2acd35a8723b57b6f2a7f184b6931ff95476e6dce8dbee2",
+      "issuedAt": "2026-08-03T15:06:19.802Z",
+      "sequence": 121
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 11 (50 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Zerolag+Esports%7CZeroZone+Gaming%7CZeu5+Esports%7CZYB+Esport%7CKey+%28Chen+Hua+Zhang%29%7CTimon%7Clorofatz%7CNadra%7CSmebber%7CNiceToMeetMe%7CLindbergh%7CTamNguy%C3%AAn%7CFPT+Ho+Chi+Minh%7CFaculty%7CHyakkiMaru%7CScott+%28L%C6%B0%C6%A1ng+Ch%C3%AD+T%C3%A0i%29%7CAnh+Th%C6%B0+%28Tr%E1%BB%8Bnh+B%C3%ACnh%29%7CH%E1%BA%AFc+K%C3%AC+T%E1%BB%AD%7CGentlemanHero%7CStriker+%28Filip+Prentovic%29%7CRedeemed%7CMatthew+%28Noah+Seim%29%7CCatIRL%7CMagierJo%7CTaewang%7CDavipazzini%7C1847%7CRauschenberg%7CThunderzinho%7CNono%7CO%26%2339%3BGaming+TV%7CTektek%7CKrok%7CGardoum%7CLecrivain%7CHor%C3%A9%C3%BCs%7CFrost+%28French+Personality%29%7CLelariva%7CLaure+Val%C3%A9e%7CZaboutine%7CDuke_%28Hadrien_Forestier%29%7CGlopo%7CNoi%7CFinghin%7CChips+%28Fabien+Culi%C3%A9%29%7CZerotick%7CTweekz%7CMarex+%28Alexis+Girat%29%7CBlackbigo%7CRhobalas&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-11.json",
+      "rowCount": 50,
+      "checksum": "29de6977f07488eb8fcdfdd1fbb1c6a4b3eeead9391fa919905baa4e89039984",
+      "issuedAt": "2026-08-03T15:06:19.803Z",
+      "sequence": 122
+    },
+    {
+      "kind": "mediawiki",
+      "description": "source-pages revisions batch 12 (4 titles, cached)",
+      "requestUrl": "https://lol.fandom.com/api.php?action=query&titles=Peaxy%7CChreak%7COtaah%7CLaure&prop=revisions%7Cinfo&rvprop=ids%7Ctimestamp&redirects=1&format=json",
+      "rawFile": "C:\\Users\\Lemack Development\\Documents\\Coding Projects\\kairos-universe\\external-data\\leaguepedia\\snapshots\\leaguepedia-2026-08-03\\raw\\mediawiki\\source-pages__batch-12.json",
+      "rowCount": 4,
+      "checksum": "b158b97b87f25a0ae6aa57ff5694544d52c291b51c39bcf266292c88f0302bb3",
+      "issuedAt": "2026-08-03T15:06:19.804Z",
+      "sequence": 123
+    }
+  ]
+}

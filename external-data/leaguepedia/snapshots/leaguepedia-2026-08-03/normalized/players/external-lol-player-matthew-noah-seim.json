@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-matthew-noah-seim",
+  "slug": "noah-seim",
+  "nickname": "Noah Seim",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "bot",
+  "currentTeamId": "external-lol-team-kit-sc-white",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Matthew (Noah Seim)",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "53a27922b1ea56eb0b5f245e0246052edaa2791c95c00ab63cc431fce7afbce1",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-matthew-noah-seim-revision-unknown"
+  ]
+}

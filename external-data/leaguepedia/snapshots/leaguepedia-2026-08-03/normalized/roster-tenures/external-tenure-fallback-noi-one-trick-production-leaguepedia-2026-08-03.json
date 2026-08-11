@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-noi-one-trick-production-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-noi",
+  "teamId": "external-lol-team-one-trick-production",
+  "gameId": "league-of-legends",
+  "roles": [
+    "unknown"
+  ],
+  "rawRoles": [
+    "Caster"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "61d34d8b61317694e52e9ef25c83e7af55f12a8e60e67aa04ec6fe4794ff7b66",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-noi-revision-unknown"
+  ]
+}

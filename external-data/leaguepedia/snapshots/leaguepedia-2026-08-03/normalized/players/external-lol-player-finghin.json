@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-finghin",
+  "slug": "dariusz-walczak",
+  "nickname": "Dariusz Walczak",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "fr",
+  "nationalities": [],
+  "residency": null,
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-one-trick-production",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Finghin",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "6822b6dc9dc801584d3317f0c6764a5289c05d122c23485e3d65f3202ef92ef4",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-finghin-revision-unknown"
+  ]
+}

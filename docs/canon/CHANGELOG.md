@@ -1,5 +1,48 @@
 # Canon Changelog
 
+## 0.10.0
+
+This is an architecture and competitive-world data release, not a new
+narrative episode. It does not advance `storyEpisode`, `currentNarrativeDate`,
+`storyPeriod`, `storyYear`, `reconstructedThroughEpisode`, or
+`episodeRecordsCreatedThrough`.
+
+- Introduced **KairosDB** (`kairosdb/`) as a separate product from
+  Kairospedia: an independent Next.js App Router application, its own
+  `package.json`, routes, generated catalogs, validation scripts, visual
+  identity, and README. Kairospedia remains the narrative canon encyclopedia
+  and is unchanged in scope or behavior by this release.
+- Added a reusable Leaguepedia API client
+  (`kairosdb/scripts/leaguepedia/`) with Cargo and MediaWiki query support,
+  pagination, rate limiting, exponential-backoff retry, raw-response caching,
+  and resumable imports.
+- Established the frozen **`leaguepedia-2026-08-03`** external snapshot
+  policy: source `leaguepedia`, effective Kairos Universe period
+  end-of-2026-season, frozen with automatic updates disabled, next review
+  window 2027 midseason. See
+  [SNAPSHOT_POLICY.md](../kairosdb/SNAPSHOT_POLICY.md).
+- Added the normalized external data model (organizations, teams, players,
+  staff, roster tenures, staff tenures, sources) with namespaced stable IDs
+  (`external-lol-*`) that can never collide with fictional Kairos IDs, plus a
+  review/approval pipeline (`imported` → `validated` → `approved` /
+  `needs-review` / `rejected`).
+- Added a two-layer frozen-world resolver
+  (`kairosdb/src/lib/resolver/`) supporting future Kairos Universe overrides
+  layered on top of the frozen snapshot. No override was created in this
+  release — `data/competitive-world-overrides/` remains empty.
+- Added cross-links between Kairospedia and KairosDB for the five published
+  Kairos League players and the Kairos League team only. No external player
+  or team gained a Kairospedia page.
+- Added `external-data/leaguepedia/` (raw responses, normalized records,
+  indexes, and import reports) and `data/competitive-world-overrides/`, kept
+  entirely separate from `data/players/*.json` and `data/teams/*.json`.
+- Added no Counter-Strike content to KairosDB, no imported images, no
+  long-form biography text, no match history, no fictional transfer, and no
+  tournament result not explicitly imported.
+- Updated `kairos-version.json`: `canonVersion` 0.9.0 → 0.10.0,
+  `competitiveDatabaseImplemented: true`, and documentation-phase notes
+  describing the KairosDB/Kairospedia product split.
+
 ## 0.9.0
 
 - Activated Kairospedia as the repository's Next.js presentation and indexing

@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-otaah",
+  "slug": "otaah",
+  "nickname": "Otaah",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "fr",
+  "nationalities": [],
+  "residency": null,
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-one-trick-production",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Otaah",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "c2276d67ffa90db3724b6f5054f06338b5f55ecf9ea140e791dac058b9c8abe8",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-otaah-revision-unknown"
+  ]
+}

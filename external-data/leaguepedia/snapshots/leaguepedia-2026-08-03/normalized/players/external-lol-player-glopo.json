@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-glopo",
+  "slug": "frederic-sialelli",
+  "nickname": "Frédéric Sialelli",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "fr",
+  "nationalities": [],
+  "residency": null,
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-one-trick-production",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Glopo",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "fe2b43abe00370cd60473c503f38e074875adc1dcc76d65ef4b54e3c1d3eeaed",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-glopo-revision-unknown"
+  ]
+}

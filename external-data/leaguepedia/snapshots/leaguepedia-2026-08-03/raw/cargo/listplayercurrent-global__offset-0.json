@@ -1,0 +1,772 @@
+{
+  "cargoquery": [
+    {
+      "title": {
+        "ID": "Key (Chen Hua Zhang)",
+        "Link": "Key (Chen Hua Zhang)",
+        "Name": "Chen Hua Zhang",
+        "N": "2",
+        "Country": "de",
+        "Role": "Top",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Timon",
+        "Link": "Timon",
+        "Name": "Timon",
+        "N": "3",
+        "Country": "de",
+        "Role": "Jungle",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "lorofatz",
+        "Link": "lorofatz",
+        "Name": "Alexander",
+        "N": "4",
+        "Country": "de",
+        "Role": "Mid",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Nadra",
+        "Link": "Nadra",
+        "Name": "Georg Julius Florey",
+        "N": "5",
+        "Country": "de",
+        "Role": "Bot",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Smebber",
+        "Link": "Smebber",
+        "Name": "Tim Alexander Finger",
+        "N": "6",
+        "Country": "de",
+        "Role": "Support",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "NiceToMeetMe",
+        "Link": "NiceToMeetMe",
+        "Name": "Jonathan",
+        "N": "7",
+        "Country": "de",
+        "Role": "Top",
+        "IsSubstitute": "Yes",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Lindbergh",
+        "Link": "Lindbergh",
+        "Name": "Enno",
+        "N": "8",
+        "Country": "de",
+        "Role": "",
+        "IsSubstitute": "Yes",
+        "IsTrainee": "No",
+        "Team": "ESUG Ultimate Five Feeder",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Tam Nguyên",
+        "Link": "TamNguyên",
+        "Name": "Nguyễn Phạm Tam Nguyên",
+        "N": "1",
+        "Country": "vn",
+        "Role": "",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "FPT Ho Chi Minh",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Đăng Khoa",
+        "Link": "Faculty",
+        "Name": "Ngô Nguyễn Đăng Khoa",
+        "N": "2",
+        "Country": "vn",
+        "Role": "",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "FPT Ho Chi Minh",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Văn Duy",
+        "Link": "HyakkiMaru",
+        "Name": "Nguyễn Văn Duy",
+        "N": "3",
+        "Country": "vn",
+        "Role": "",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "FPT Ho Chi Minh",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Chí Tài",
+        "Link": "Scott (Lương Chí Tài)",
+        "Name": "Lương Chí Tài",
+        "N": "4",
+        "Country": "vn",
+        "Role": "",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "FPT Ho Chi Minh",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Trịnh Bình",
+        "Link": "Anh Thư (Trịnh Bình)",
+        "Name": "Trịnh Bình",
+        "N": "5",
+        "Country": "vn",
+        "Role": "",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "FPT Ho Chi Minh",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Duy Khang",
+        "Link": "Hắc Kì Tử",
+        "Name": "Ngô Duy Khang",
+        "N": "6",
+        "Country": "vn",
+        "Role": "",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "FPT Ho Chi Minh",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "GentlemanHero",
+        "Link": "GentlemanHero",
+        "Name": "Luka Prentović",
+        "N": "2",
+        "Country": "de",
+        "Role": "Top",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Striker (Filip Prentovic)",
+        "Link": "Striker (Filip Prentovic)",
+        "Name": "Filip Prentovic",
+        "N": "3",
+        "Country": "de",
+        "Role": "Jungle",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Redeemed",
+        "Link": "Redeemed",
+        "Name": "Simon Danner",
+        "N": "4",
+        "Country": "de",
+        "Role": "Mid",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Matthew (Noah Seim)",
+        "Link": "Matthew (Noah Seim)",
+        "Name": "Noah Seim",
+        "N": "5",
+        "Country": "de",
+        "Role": "Bot",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "CatIRL",
+        "Link": "CatIRL",
+        "Name": "Jakob Essig",
+        "N": "6",
+        "Country": "de",
+        "Role": "Support",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "MagierJo",
+        "Link": "MagierJo",
+        "Name": "Joscha Reich",
+        "N": "7",
+        "Country": "de",
+        "Role": "Mid",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Taewang",
+        "Link": "Taewang",
+        "Name": "Georg Kinzel",
+        "N": "8",
+        "Country": "de",
+        "Role": "Bot",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "KIT SC White",
+        "ContractDate": "",
+        "Residency": "Europe",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Davipazzini",
+        "Link": "Davipazzini",
+        "Name": "Davi Pazzini",
+        "N": "2",
+        "Country": "br",
+        "Role": "Top",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "Missouri Valley College",
+        "ContractDate": "",
+        "Residency": "Brazil",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "1847",
+        "Link": "1847",
+        "Name": "Alex Berger",
+        "N": "3",
+        "Country": "us",
+        "Role": "Jungle",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "Missouri Valley College",
+        "ContractDate": "",
+        "Residency": "North America",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Rauschenberg",
+        "Link": "Rauschenberg",
+        "Name": "Carson Rauschenberg",
+        "N": "4",
+        "Country": "us",
+        "Role": "Mid",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "Missouri Valley College",
+        "ContractDate": "",
+        "Residency": "North America",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Thunderzinho",
+        "Link": "Thunderzinho",
+        "Name": "Fahbricio Muller Alves Pereira",
+        "N": "5",
+        "Country": "br",
+        "Role": "Support",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "Missouri Valley College",
+        "ContractDate": "",
+        "Residency": "Brazil",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Nono",
+        "Link": "Nono",
+        "Name": "Rim-Raimon Amanieu",
+        "N": "2",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Tektek",
+        "Link": "Tektek",
+        "Name": "Matéo Rogé",
+        "N": "3",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Krok",
+        "Link": "Krok",
+        "Name": "Martin Berthelot",
+        "N": "4",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Gardoum",
+        "Link": "Gardoum",
+        "Name": "Christian Defortescu",
+        "N": "5",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Lecrivain",
+        "Link": "Lecrivain",
+        "Name": "",
+        "N": "6",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Horéüs",
+        "Link": "Horéüs",
+        "Name": "",
+        "N": "7",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Frost",
+        "Link": "Frost (French Personality)",
+        "Name": "",
+        "N": "8",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Lelariva",
+        "Link": "Lelariva",
+        "Name": "",
+        "N": "9",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Laure Valée",
+        "Link": "Laure Valée",
+        "Name": "Laure Valée",
+        "N": "10",
+        "Country": "fr",
+        "Role": "Broadcast Talent",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Zaboutine",
+        "Link": "Zaboutine",
+        "Name": "Thomas Si-Hassen",
+        "N": "11",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Duke",
+        "Link": "Duke_(Hadrien_Forestier)",
+        "Name": "Hadrien Forestier",
+        "N": "12",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "O&#39;Gaming TV",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Glopo",
+        "Link": "Glopo",
+        "Name": "Frédéric Sialelli",
+        "N": "2",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Noi",
+        "Link": "Noi",
+        "Name": "Charles Lapassat",
+        "N": "2",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Finghin",
+        "Link": "Finghin",
+        "Name": "Dariusz Walczak",
+        "N": "3",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Chips (Fabien Culié)",
+        "Link": "Chips (Fabien Culié)",
+        "Name": "Fabien Culié",
+        "N": "3",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Zerotick",
+        "Link": "Zerotick",
+        "Name": "Guillaume Moya",
+        "N": "4",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Tweekz",
+        "Link": "Tweekz",
+        "Name": "Kevin Remy",
+        "N": "4",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Marex (Alexis Girat)",
+        "Link": "Marex (Alexis Girat)",
+        "Name": "Alexis Girat",
+        "N": "5",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Blackbigo",
+        "Link": "Blackbigo",
+        "Name": "Hamet Ndiaye",
+        "N": "5",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Rhobalas",
+        "Link": "Rhobalas",
+        "Name": "Valentin Ancelin",
+        "N": "6",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Peaxy",
+        "Link": "Peaxy",
+        "Name": "",
+        "N": "6",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Chreak",
+        "Link": "Chreak",
+        "Name": "Corentin Moreau",
+        "N": "7",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Otaah",
+        "Link": "Otaah",
+        "Name": "",
+        "N": "7",
+        "Country": "fr",
+        "Role": "Caster",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    },
+    {
+      "title": {
+        "ID": "Laure",
+        "Link": "Laure",
+        "Name": "Laure Valée",
+        "N": "8",
+        "Country": "fr",
+        "Role": "Host",
+        "IsSubstitute": "No",
+        "IsTrainee": "No",
+        "Team": "One Trick Production",
+        "ContractDate": "",
+        "Residency": "",
+        "ContractDate__precision": ""
+      }
+    }
+  ]
+}

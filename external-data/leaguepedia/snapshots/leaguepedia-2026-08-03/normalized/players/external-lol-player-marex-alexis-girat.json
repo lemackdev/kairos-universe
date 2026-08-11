@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-marex-alexis-girat",
+  "slug": "alexis-girat",
+  "nickname": "Alexis Girat",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "fr",
+  "nationalities": [],
+  "residency": null,
+  "dateOfBirth": null,
+  "primaryRole": "unknown",
+  "currentTeamId": "external-lol-team-one-trick-production",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Marex (Alexis Girat)",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "d10f94b539cbad9b124bdf22f63690ded9287f991e6c7d7dde8b1999aae542b8",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-marex-alexis-girat-revision-unknown"
+  ]
+}

@@ -14,26 +14,40 @@ first publication exposes only Kairos Esports, the League of Legends main
 team, its five active players, directly associated League staff, and confirmed
 mentorship relationships.
 
+**KairosDB** (`kairosdb/`) is a separate product: the competitive career and
+results database. It combines the same five Kairos League players and their
+team (read directly from canon, never duplicated) with a frozen, structured
+snapshot of the real-world League of Legends competitive ecosystem imported
+from Leaguepedia. Kairospedia remains the narrative canon encyclopedia;
+KairosDB never replaces it. See
+[KairosDB overview](docs/kairosdb/KAIROSDB_OVERVIEW.md) and
+[product separation](docs/kairosdb/PRODUCT_SEPARATION.md).
+
 ## Repository architecture
 
 | Path | Purpose |
 | --- | --- |
 | `docs/` | Human-readable canon, organization, timeline, world-state, planning, lore, and retcon documentation |
+| `docs/kairosdb/` | KairosDB architecture, importer, snapshot policy, and attribution documentation |
 | `data/` | Structured canonical entity records |
 | `data/characters/` | First-class narrative character records |
 | `data/shared/` | Reusable controlled vocabulary used across divisions |
+| `data/competitive-world-overrides/` | Kairos Universe-approved deviations from the frozen external snapshot (empty until an override is approved) |
 | `schemas/` | JSON Schema Draft 2020-12 validation contracts |
 | `index/` | Alphabetical path-only indexes for entity discovery |
 | `assets/` | Logos, player images, team images, and tournament media |
 | `archive/` | Preserved source artifacts, rendered derivatives, and checksum manifests |
 | `scripts/` | Documentation and future project tooling |
 | `website/` | Self-contained Next.js App Router implementation of Kairospedia |
+| `kairosdb/` | Self-contained Next.js App Router implementation of KairosDB, plus the Leaguepedia importer (`kairosdb/scripts/leaguepedia/`) |
+| `external-data/leaguepedia/` | Frozen external snapshots imported from Leaguepedia, raw and normalized, never merged into `data/` |
 | `wiki/` | Reserved for future generated or local wiki material |
 | `kairos-version.json` | Canon and documentation-phase version metadata |
 
-The website reads canonical JSON, schemas, indexes, and version metadata at
-build time. It never writes changes back into canonical files. Generated
-catalogs under `website/.generated/` are derivative and ignored by Git.
+The website and KairosDB each read canonical JSON, schemas, indexes, and
+version metadata at build time. Neither writes changes back into canonical
+files. Generated catalogs under `website/.generated/` and `kairosdb/.generated/`
+are derivative and ignored by Git.
 
 ## Source-of-truth model
 
@@ -75,6 +89,17 @@ Core references:
 - [Kairospedia global data model](docs/kairospedia/GLOBAL_DATA_MODEL.md)
 - [Kairospedia publication workflow](docs/kairospedia/PUBLICATION_WORKFLOW.md)
 - [Kairospedia source policy](docs/kairospedia/CONTENT_AND_SOURCE_POLICY.md)
+- [KairosDB overview](docs/kairosdb/KAIROSDB_OVERVIEW.md)
+- [KairosDB / Kairospedia product separation](docs/kairosdb/PRODUCT_SEPARATION.md)
+- [Leaguepedia importer](docs/kairosdb/LEAGUEPEDIA_IMPORTER.md)
+- [Snapshot policy](docs/kairosdb/SNAPSHOT_POLICY.md)
+- [External data model](docs/kairosdb/EXTERNAL_DATA_MODEL.md)
+- [Frozen world resolution](docs/kairosdb/FROZEN_WORLD_RESOLUTION.md)
+- [Override workflow](docs/kairosdb/OVERRIDE_WORKFLOW.md)
+- [2027 midseason update workflow](docs/kairosdb/2027_MIDSEASON_UPDATE_WORKFLOW.md)
+- [Data sources and attribution](docs/kairosdb/DATA_SOURCES_AND_ATTRIBUTION.md)
+- [Review and approval](docs/kairosdb/REVIEW_AND_APPROVAL.md)
+- [KairosDB deployment](docs/kairosdb/DEPLOYMENT.md)
 - [Counter-Strike division](docs/counter-strike/COUNTER_STRIKE_DIVISION.md)
 - [Counter-Strike main team](docs/counter-strike/MAIN_TEAM.md)
 - [Counter-Strike academy](docs/counter-strike/ACADEMY_TEAM.md)
@@ -155,7 +180,7 @@ change.
 - Highest episode confirmed as fully reconstructed, when applicable.
 - Validation metadata when an authorized process records it.
 
-The current canon version is `0.9.0`. Release notes are maintained in the
+The current canon version is `0.10.0`. Release notes are maintained in the
 [canon changelog](docs/canon/CHANGELOG.md).
 
 Canon versions follow semantic versioning:
@@ -243,7 +268,9 @@ If established canon is removed or replaced, update the
 - **COMPLETED:** Episodes 30-56 source normalization and canonization
 - **COMPLETED:** Episodes 57-75 source normalization and canonization
 - **COMPLETED:** Kairospedia foundation and Kairos League publication
-- **NEXT:** Kairospedia world ecosystem expansion
+- **COMPLETED:** KairosDB foundation and Leaguepedia 2026 world snapshot
+- **NEXT:** KairosDB snapshot review and competitive data expansion
+- **PLANNED:** Kairospedia world ecosystem expansion
 - **PLANNED:** CMS
 - **PLANNED:** Statistics engine
 
@@ -273,6 +300,15 @@ Kairospedia currently publishes only the League main team. Academy teams,
 Counter-Strike teams, external organizations, competitions, transfers, and
 matches remain hidden through the publication manifest. This visibility limit
 does not change their canonical status.
+
+KairosDB is a separate product from Kairospedia and does not alter the story.
+Its external League of Legends baseline is the Leaguepedia
+`leaguepedia-2026-08-03` snapshot, representing the end-of-2026-season
+real-world competitive state, frozen until the 2027 midseason review window.
+Real-world roster changes after 2026-08-03 do not automatically alter the
+Kairos Universe. External data never overrides fictional Kairos canon, and no
+official Kairos match has occurred. See
+[snapshot policy](docs/kairosdb/SNAPSHOT_POLICY.md).
 
 The Counter-Strike main roster is complete with five signed players: Atlas,
 Glacier, MoteConHuesillo, Mold, and FLACOGOMEZ. Atlas remains Founding Captain.
@@ -311,3 +347,30 @@ Future external organizations must be added through canonical records,
 sources, indexes, and reference validation before they can be enabled in the
 publication manifest. See
 [Adding organizations](docs/kairospedia/ADDING_ORGANIZATIONS.md).
+
+## KairosDB development
+
+KairosDB is self-contained under `kairosdb/`, with its own `package.json`,
+routes, generated catalogs, and validation scripts — entirely independent of
+`website/`.
+
+```powershell
+cd kairosdb
+npm install
+npm run dev
+```
+
+Run the complete validator before treating KairosDB changes as ready:
+
+```powershell
+npm run validate
+```
+
+The Leaguepedia importer lives at `kairosdb/scripts/leaguepedia/`. It is not
+run automatically — there is no recurring sync job. See
+[Leaguepedia importer](docs/kairosdb/LEAGUEPEDIA_IMPORTER.md) for the full
+pipeline (`leaguepedia:schema`, `leaguepedia:import`, `leaguepedia:normalize`,
+`leaguepedia:validate`, `leaguepedia:review-report`,
+`leaguepedia:build-snapshot`), and
+[review and approval](docs/kairosdb/REVIEW_AND_APPROVAL.md) for how imported
+records earn trust before publication.

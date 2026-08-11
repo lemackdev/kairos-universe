@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-catirl-kit-sc-white-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-catirl",
+  "teamId": "external-lol-team-kit-sc-white",
+  "gameId": "league-of-legends",
+  "roles": [
+    "support"
+  ],
+  "rawRoles": [
+    "Support"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "35eb8ffddd3dd646e8fa1c1b7aa50a6fc0587d9eb0b2d01c8fe851bddc9c9a84",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-catirl-revision-unknown"
+  ]
+}

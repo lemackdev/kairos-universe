@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-1847-missouri-valley-college-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-1847",
+  "teamId": "external-lol-team-missouri-valley-college",
+  "gameId": "league-of-legends",
+  "roles": [
+    "jungle"
+  ],
+  "rawRoles": [
+    "Jungle"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "c5715191baf508169617bca9fef898341503c50bf45522a66a0974830711b73f",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-1847-revision-unknown"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-smebber",
+  "slug": "tim-alexander-finger",
+  "nickname": "Tim Alexander Finger",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "support",
+  "currentTeamId": "external-lol-team-esug-ultimate-five-feeder",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Smebber",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "9e025c0afb15cfa1332602f92544bd09cf10b5db96b0a0d3a633a62a317fa1c1",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-smebber-revision-unknown"
+  ]
+}

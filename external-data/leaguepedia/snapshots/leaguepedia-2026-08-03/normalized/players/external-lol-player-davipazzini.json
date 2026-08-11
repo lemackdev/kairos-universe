@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-davipazzini",
+  "slug": "davi-pazzini",
+  "nickname": "Davi Pazzini",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "br",
+  "nationalities": [],
+  "residency": "Brazil",
+  "dateOfBirth": null,
+  "primaryRole": "top",
+  "currentTeamId": "external-lol-team-missouri-valley-college",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Davipazzini",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "e8c3e0a461ef419d1d2b11f51d1520c9dedec7e245efc89ea77a5659d5636922",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-davipazzini-revision-unknown"
+  ]
+}

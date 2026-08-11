@@ -1,0 +1,959 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "214173": {
+        "pageid": 214173,
+        "ns": 0,
+        "title": "Bilibili Gaming",
+        "revisions": [
+          {
+            "revid": 4488981,
+            "parentid": 4430787,
+            "timestamp": "2026-07-18T12:19:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T21:24:12Z",
+        "lastrevid": 4488981,
+        "length": 4477
+      },
+      "231391": {
+        "pageid": 231391,
+        "ns": 0,
+        "title": "Berlin International Gaming",
+        "revisions": [
+          {
+            "revid": 4400197,
+            "parentid": 4366175,
+            "timestamp": "2026-03-10T11:47:50Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4400197,
+        "length": 3970
+      },
+      "258542": {
+        "pageid": 258542,
+        "ns": 0,
+        "title": "Black Lion",
+        "revisions": [
+          {
+            "revid": 4493165,
+            "parentid": 4447922,
+            "timestamp": "2026-07-24T18:20:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4493165,
+        "length": 5008
+      },
+      "275111": {
+        "pageid": 275111,
+        "ns": 0,
+        "title": "Arizona State University",
+        "revisions": [
+          {
+            "revid": 4334029,
+            "parentid": 4139991,
+            "timestamp": "2025-11-20T15:09:08Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4334029,
+        "length": 6500
+      },
+      "281434": {
+        "pageid": 281434,
+        "ns": 0,
+        "title": "Bilibili Gaming Junior",
+        "revisions": [
+          {
+            "revid": 4354278,
+            "parentid": 4121180,
+            "timestamp": "2026-01-13T16:47:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4354278,
+        "length": 2464
+      },
+      "291324": {
+        "pageid": 291324,
+        "ns": 0,
+        "title": "Anubis Gaming",
+        "revisions": [
+          {
+            "revid": 4489895,
+            "parentid": 4481135,
+            "timestamp": "2026-07-19T21:59:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4489895,
+        "length": 4545
+      },
+      "292979": {
+        "pageid": 292979,
+        "ns": 0,
+        "title": "Azules Esports",
+        "revisions": [
+          {
+            "revid": 4442778,
+            "parentid": 4350008,
+            "timestamp": "2026-05-06T18:56:28Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4442778,
+        "length": 4387
+      },
+      "343462": {
+        "pageid": 343462,
+        "ns": 0,
+        "title": "Azules Esports Academy",
+        "revisions": [
+          {
+            "revid": 4334025,
+            "parentid": 4284390,
+            "timestamp": "2025-11-20T15:08:23Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4334025,
+        "length": 2595
+      },
+      "382560": {
+        "pageid": 382560,
+        "ns": 0,
+        "title": "Absolved",
+        "revisions": [
+          {
+            "revid": 4468273,
+            "parentid": 4467022,
+            "timestamp": "2026-06-11T15:36:31Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T21:35:55Z",
+        "lastrevid": 4468273,
+        "length": 3819
+      },
+      "420256": {
+        "pageid": 420256,
+        "ns": 0,
+        "title": "Aethra Esports Strijders",
+        "revisions": [
+          {
+            "revid": 4292502,
+            "parentid": 4292501,
+            "timestamp": "2025-09-14T19:16:35Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4292502,
+        "length": 1087
+      },
+      "429552": {
+        "pageid": 429552,
+        "ns": 0,
+        "title": "404 Multigaming e.V.",
+        "revisions": [
+          {
+            "revid": 4456357,
+            "parentid": 4456352,
+            "timestamp": "2026-05-24T05:31:45Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4456357,
+        "length": 3935
+      },
+      "431027": {
+        "pageid": 431027,
+        "ns": 0,
+        "title": "Bethany Lutheran College",
+        "revisions": [
+          {
+            "revid": 4453684,
+            "parentid": 4453683,
+            "timestamp": "2026-05-21T03:34:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4453684,
+        "length": 1833
+      },
+      "440057": {
+        "pageid": 440057,
+        "ns": 0,
+        "title": "Axolotl",
+        "revisions": [
+          {
+            "revid": 4476797,
+            "parentid": 4367703,
+            "timestamp": "2026-06-25T04:34:06Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4476797,
+        "length": 5003
+      },
+      "469403": {
+        "pageid": 469403,
+        "ns": 0,
+        "title": "Armoured Brothers",
+        "revisions": [
+          {
+            "revid": 4120907,
+            "parentid": 3651301,
+            "timestamp": "2025-03-04T08:58:58Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4120907,
+        "length": 1207
+      },
+      "480704": {
+        "pageid": 480704,
+        "ns": 0,
+        "title": "3BL Esports",
+        "revisions": [
+          {
+            "revid": 4420724,
+            "parentid": 4419708,
+            "timestamp": "2026-04-10T18:11:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4420724,
+        "length": 3896
+      },
+      "494561": {
+        "pageid": 494561,
+        "ns": 0,
+        "title": "Aquinas College",
+        "revisions": [
+          {
+            "revid": 4334028,
+            "parentid": 4120855,
+            "timestamp": "2025-11-20T15:09:05Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4334028,
+        "length": 1506
+      },
+      "612409": {
+        "pageid": 612409,
+        "ns": 0,
+        "title": "Barça eSports",
+        "revisions": [
+          {
+            "revid": 4375107,
+            "parentid": 4374050,
+            "timestamp": "2026-02-05T07:58:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4375107,
+        "length": 1814
+      },
+      "612797": {
+        "pageid": 612797,
+        "ns": 0,
+        "title": "AaB Esport",
+        "revisions": [
+          {
+            "revid": 4360200,
+            "parentid": 4172770,
+            "timestamp": "2026-01-19T21:08:59Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4360200,
+        "length": 2101
+      },
+      "618460": {
+        "pageid": 618460,
+        "ns": 0,
+        "title": "Anyone's Legend",
+        "revisions": [
+          {
+            "revid": 4485627,
+            "parentid": 4416184,
+            "timestamp": "2026-07-14T16:24:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4485627,
+        "length": 3254
+      },
+      "650586": {
+        "pageid": 650586,
+        "ns": 0,
+        "title": "Anyone's Legend.Young",
+        "revisions": [
+          {
+            "revid": 4341919,
+            "parentid": 4278133,
+            "timestamp": "2025-12-12T13:13:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4341919,
+        "length": 1602
+      },
+      "701662": {
+        "pageid": 701662,
+        "ns": 0,
+        "title": "All for One Gaming",
+        "revisions": [
+          {
+            "revid": 4415822,
+            "parentid": 4363989,
+            "timestamp": "2026-04-03T17:51:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4415822,
+        "length": 3082
+      },
+      "749901": {
+        "pageid": 749901,
+        "ns": 0,
+        "title": "Bastu Five",
+        "revisions": [
+          {
+            "revid": 4121093,
+            "parentid": 3493028,
+            "timestamp": "2025-03-04T09:08:11Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4121093,
+        "length": 792
+      },
+      "787644": {
+        "pageid": 787644,
+        "ns": 0,
+        "title": "Anonymo Esports",
+        "revisions": [
+          {
+            "revid": 4446655,
+            "parentid": 4446653,
+            "timestamp": "2026-05-11T15:12:52Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T01:15:44Z",
+        "lastrevid": 4446655,
+        "length": 3843
+      },
+      "819183": {
+        "pageid": 819183,
+        "ns": 0,
+        "title": "Apex Mission Impossible",
+        "revisions": [
+          {
+            "revid": 4334027,
+            "parentid": 4281941,
+            "timestamp": "2025-11-20T15:09:02Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:16:59Z",
+        "lastrevid": 4334027,
+        "length": 1819
+      },
+      "819204": {
+        "pageid": 819204,
+        "ns": 0,
+        "title": "Blue Otter",
+        "revisions": [
+          {
+            "revid": 4425367,
+            "parentid": 4414467,
+            "timestamp": "2026-04-15T23:30:45Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4425367,
+        "length": 2268
+      },
+      "876843": {
+        "pageid": 876843,
+        "ns": 0,
+        "title": "Baam Esports",
+        "revisions": [
+          {
+            "revid": 4423910,
+            "parentid": 4419709,
+            "timestamp": "2026-04-13T22:52:55Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4423910,
+        "length": 1817
+      },
+      "883371": {
+        "pageid": 883371,
+        "ns": 0,
+        "title": "Ball State University",
+        "revisions": [
+          {
+            "revid": 4334030,
+            "parentid": 4121068,
+            "timestamp": "2025-11-20T15:09:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4334030,
+        "length": 1197
+      },
+      "894689": {
+        "pageid": 894689,
+        "ns": 0,
+        "title": "24 7 Tower Dive",
+        "revisions": [
+          {
+            "revid": 4120520,
+            "parentid": 3913656,
+            "timestamp": "2025-03-04T08:36:53Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4120520,
+        "length": 980
+      },
+      "928965": {
+        "pageid": 928965,
+        "ns": 0,
+        "title": "3v Team",
+        "revisions": [
+          {
+            "revid": 4492690,
+            "parentid": 4488006,
+            "timestamp": "2026-07-24T04:25:54Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T16:17:40Z",
+        "lastrevid": 4492690,
+        "length": 2135
+      },
+      "950982": {
+        "pageid": 950982,
+        "ns": 0,
+        "title": "Atruvia Münster Esports",
+        "revisions": [
+          {
+            "revid": 4447893,
+            "parentid": 4387262,
+            "timestamp": "2026-05-13T14:34:10Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4447893,
+        "length": 1996
+      },
+      "978809": {
+        "pageid": 978809,
+        "ns": 0,
+        "title": "7REX",
+        "revisions": [
+          {
+            "revid": 4477914,
+            "parentid": 4475151,
+            "timestamp": "2026-06-28T15:31:21Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4477914,
+        "length": 3871
+      },
+      "980037": {
+        "pageid": 980037,
+        "ns": 0,
+        "title": "Barcząca Esports",
+        "revisions": [
+          {
+            "revid": 4493315,
+            "parentid": 4493314,
+            "timestamp": "2026-07-24T21:14:06Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:15:07Z",
+        "lastrevid": 4493315,
+        "length": 2027
+      },
+      "981951": {
+        "pageid": 981951,
+        "ns": 0,
+        "title": "Andromeda Gaming",
+        "revisions": [
+          {
+            "revid": 4430208,
+            "parentid": 4362656,
+            "timestamp": "2026-04-22T15:55:06Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4430208,
+        "length": 1235
+      },
+      "996724": {
+        "pageid": 996724,
+        "ns": 0,
+        "title": "Blue Otter Europe",
+        "revisions": [
+          {
+            "revid": 4481194,
+            "parentid": 4481192,
+            "timestamp": "2026-07-06T00:40:07Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4481194,
+        "length": 1541
+      },
+      "998712": {
+        "pageid": 998712,
+        "ns": 0,
+        "title": "Bitfix RG",
+        "revisions": [
+          {
+            "revid": 4490302,
+            "parentid": 4490297,
+            "timestamp": "2026-07-20T19:55:32Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4490302,
+        "length": 1474
+      },
+      "998717": {
+        "pageid": 998717,
+        "ns": 0,
+        "title": "B2U",
+        "revisions": [
+          {
+            "revid": 4489347,
+            "parentid": 4297445,
+            "timestamp": "2026-07-19T06:43:31Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4489347,
+        "length": 870
+      },
+      "999880": {
+        "pageid": 999880,
+        "ns": 0,
+        "title": "Azules Esports Fem",
+        "revisions": [
+          {
+            "revid": 4371208,
+            "parentid": 4370045,
+            "timestamp": "2026-01-31T19:07:17Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4371208,
+        "length": 1210
+      },
+      "1000970": {
+        "pageid": 1000970,
+        "ns": 0,
+        "title": "Bamboo Juice",
+        "revisions": [
+          {
+            "revid": 4421720,
+            "parentid": 4385053,
+            "timestamp": "2026-04-11T13:45:19Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4421720,
+        "length": 800
+      },
+      "1009516": {
+        "pageid": 1009516,
+        "ns": 0,
+        "title": "9Gaming",
+        "revisions": [
+          {
+            "revid": 4500080,
+            "parentid": 4495184,
+            "timestamp": "2026-08-02T04:48:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T04:48:30Z",
+        "lastrevid": 4500080,
+        "length": 1563
+      },
+      "1010339": {
+        "pageid": 1010339,
+        "ns": 0,
+        "title": "Arneb",
+        "revisions": [
+          {
+            "revid": 4428142,
+            "parentid": 4347030,
+            "timestamp": "2026-04-19T05:38:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4428142,
+        "length": 960
+      },
+      "1011630": {
+        "pageid": 1011630,
+        "ns": 0,
+        "title": "ALMO Players",
+        "revisions": [
+          {
+            "revid": 4361869,
+            "parentid": 4346490,
+            "timestamp": "2026-01-22T04:46:47Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T14:16:22Z",
+        "lastrevid": 4361869,
+        "length": 1040
+      },
+      "1013232": {
+        "pageid": 1013232,
+        "ns": 0,
+        "title": "Babos Gaming",
+        "revisions": [
+          {
+            "revid": 4434165,
+            "parentid": 4416643,
+            "timestamp": "2026-04-26T12:59:37Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4434165,
+        "length": 1290
+      },
+      "1013661": {
+        "pageid": 1013661,
+        "ns": 0,
+        "title": "Arctic Pandas",
+        "revisions": [
+          {
+            "revid": 4397532,
+            "parentid": 4356510,
+            "timestamp": "2026-03-05T21:31:13Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4397532,
+        "length": 973
+      },
+      "1023949": {
+        "pageid": 1023949,
+        "ns": 0,
+        "title": "9z Globant",
+        "revisions": [
+          {
+            "revid": 4490803,
+            "parentid": 4479242,
+            "timestamp": "2026-07-21T15:58:43Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4490803,
+        "length": 1484
+      },
+      "1028993": {
+        "pageid": 1028993,
+        "ns": 0,
+        "title": "Aeterna Esports",
+        "revisions": [
+          {
+            "revid": 4488017,
+            "parentid": 4413035,
+            "timestamp": "2026-07-17T12:54:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4488017,
+        "length": 1028
+      },
+      "1033823": {
+        "pageid": 1033823,
+        "ns": 0,
+        "title": "AceGaming",
+        "revisions": [
+          {
+            "revid": 4446986,
+            "parentid": 4446127,
+            "timestamp": "2026-05-12T00:18:01Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4446986,
+        "length": 2014
+      },
+      "1047392": {
+        "pageid": 1047392,
+        "ns": 0,
+        "title": "Barcząca Esports Babylon",
+        "revisions": [
+          {
+            "revid": 4495478,
+            "parentid": 4466854,
+            "timestamp": "2026-07-27T17:55:51Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T02:30:59Z",
+        "lastrevid": 4495478,
+        "length": 1552
+      },
+      "1051995": {
+        "pageid": 1051995,
+        "ns": 0,
+        "title": "Ancient Ones",
+        "revisions": [
+          {
+            "revid": 4480476,
+            "parentid": 0,
+            "timestamp": "2026-07-04T06:32:44Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4480476,
+        "length": 1003,
+        "new": ""
+      },
+      "1053394": {
+        "pageid": 1053394,
+        "ns": 0,
+        "title": "2 Massive",
+        "revisions": [
+          {
+            "revid": 4484577,
+            "parentid": 0,
+            "timestamp": "2026-07-12T06:58:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T15:37:10Z",
+        "lastrevid": 4484577,
+        "length": 902,
+        "new": ""
+      },
+      "1056837": {
+        "pageid": 1056837,
+        "ns": 0,
+        "title": "AZ Rising Eterna",
+        "revisions": [
+          {
+            "revid": 4496666,
+            "parentid": 4495480,
+            "timestamp": "2026-07-29T05:09:36Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T02:30:58Z",
+        "lastrevid": 4496666,
+        "length": 1453
+      }
+    }
+  }
+}

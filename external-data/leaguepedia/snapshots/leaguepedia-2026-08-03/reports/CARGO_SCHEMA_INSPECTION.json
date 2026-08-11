@@ -1,0 +1,564 @@
+{
+  "Players": [
+    {
+      "field": "ID",
+      "type": "String"
+    },
+    {
+      "field": "OverviewPage",
+      "type": "String"
+    },
+    {
+      "field": "Player",
+      "type": "String"
+    },
+    {
+      "field": "Image",
+      "type": "String"
+    },
+    {
+      "field": "Name",
+      "type": "String"
+    },
+    {
+      "field": "NativeName",
+      "type": "String"
+    },
+    {
+      "field": "NameAlphabet",
+      "type": "String"
+    },
+    {
+      "field": "NameFull",
+      "type": "String"
+    },
+    {
+      "field": "Country",
+      "type": "String"
+    },
+    {
+      "field": "Nationality",
+      "type": "String"
+    },
+    {
+      "field": "NationalityPrimary",
+      "type": "String"
+    },
+    {
+      "field": "Age",
+      "type": "Integer"
+    },
+    {
+      "field": "Birthdate",
+      "type": "Date"
+    },
+    {
+      "field": "Deathdate",
+      "type": "Date"
+    },
+    {
+      "field": "ResidencyFormer",
+      "type": "String"
+    },
+    {
+      "field": "Team",
+      "type": "String"
+    },
+    {
+      "field": "Team2",
+      "type": "String"
+    },
+    {
+      "field": "CurrentTeams",
+      "type": "String"
+    },
+    {
+      "field": "TeamSystem",
+      "type": "String"
+    },
+    {
+      "field": "Team2System",
+      "type": "String"
+    },
+    {
+      "field": "Residency",
+      "type": "String"
+    },
+    {
+      "field": "Role",
+      "type": "String"
+    },
+    {
+      "field": "Contract",
+      "type": "Date"
+    },
+    {
+      "field": "ContractText",
+      "type": "String"
+    },
+    {
+      "field": "FavChamps",
+      "type": "String"
+    },
+    {
+      "field": "SoloqueueIds",
+      "type": "Text"
+    },
+    {
+      "field": "Askfm",
+      "type": "String"
+    },
+    {
+      "field": "Bluesky",
+      "type": "String"
+    },
+    {
+      "field": "Discord",
+      "type": "Text"
+    },
+    {
+      "field": "Facebook",
+      "type": "Text"
+    },
+    {
+      "field": "Instagram",
+      "type": "String"
+    },
+    {
+      "field": "Lolpros",
+      "type": "String"
+    },
+    {
+      "field": "DEEPLOL",
+      "type": "String"
+    },
+    {
+      "field": "DPMLOL",
+      "type": "String"
+    },
+    {
+      "field": "Reddit",
+      "type": "String"
+    },
+    {
+      "field": "Snapchat",
+      "type": "String"
+    },
+    {
+      "field": "Stream",
+      "type": "Text"
+    },
+    {
+      "field": "KICK",
+      "type": "String"
+    },
+    {
+      "field": "Tiktok",
+      "type": "String"
+    },
+    {
+      "field": "Twitter",
+      "type": "String"
+    },
+    {
+      "field": "Threads",
+      "type": "String"
+    },
+    {
+      "field": "LinkedIn",
+      "type": "Text"
+    },
+    {
+      "field": "Vk",
+      "type": "Text"
+    },
+    {
+      "field": "Website",
+      "type": "Text"
+    },
+    {
+      "field": "Weibo",
+      "type": "Text"
+    },
+    {
+      "field": "Youtube",
+      "type": "Text"
+    },
+    {
+      "field": "TeamLast",
+      "type": "String"
+    },
+    {
+      "field": "RoleLast",
+      "type": "String"
+    },
+    {
+      "field": "IsRetired",
+      "type": "Boolean"
+    },
+    {
+      "field": "ToWildrift",
+      "type": "Boolean"
+    },
+    {
+      "field": "ToValorant",
+      "type": "Boolean"
+    },
+    {
+      "field": "ToTFT",
+      "type": "Boolean"
+    },
+    {
+      "field": "ToLegendsOfRuneterra",
+      "type": "Boolean"
+    },
+    {
+      "field": "To2XKO",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsPersonality",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsSubstitute",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsTrainee",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsLowercase",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsAutoTeam",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsLowContent",
+      "type": "Boolean"
+    }
+  ],
+  "Teams": [
+    {
+      "field": "Name",
+      "type": "String"
+    },
+    {
+      "field": "OverviewPage",
+      "type": "String"
+    },
+    {
+      "field": "Short",
+      "type": "String"
+    },
+    {
+      "field": "Location",
+      "type": "String"
+    },
+    {
+      "field": "TeamLocation",
+      "type": "String"
+    },
+    {
+      "field": "Region",
+      "type": "String"
+    },
+    {
+      "field": "OrganizationPage",
+      "type": "String"
+    },
+    {
+      "field": "Image",
+      "type": "String"
+    },
+    {
+      "field": "Twitter",
+      "type": "String"
+    },
+    {
+      "field": "Youtube",
+      "type": "String"
+    },
+    {
+      "field": "KICK",
+      "type": "String"
+    },
+    {
+      "field": "Facebook",
+      "type": "String"
+    },
+    {
+      "field": "Instagram",
+      "type": "String"
+    },
+    {
+      "field": "Bluesky",
+      "type": "String"
+    },
+    {
+      "field": "Discord",
+      "type": "String"
+    },
+    {
+      "field": "Snapchat",
+      "type": "String"
+    },
+    {
+      "field": "Vk",
+      "type": "String"
+    },
+    {
+      "field": "Subreddit",
+      "type": "String"
+    },
+    {
+      "field": "Website",
+      "type": "Text"
+    },
+    {
+      "field": "RosterPhoto",
+      "type": "String"
+    },
+    {
+      "field": "IsDisbanded",
+      "type": "Boolean"
+    },
+    {
+      "field": "RenamedTo",
+      "type": "String"
+    },
+    {
+      "field": "IsLowercase",
+      "type": "Boolean"
+    }
+  ],
+  "Tenures": [
+    {
+      "field": "Player",
+      "type": "String"
+    },
+    {
+      "field": "Team",
+      "type": "String"
+    },
+    {
+      "field": "DateJoin",
+      "type": "Date"
+    },
+    {
+      "field": "DateLeave",
+      "type": "Date"
+    },
+    {
+      "field": "Duration",
+      "type": "Integer"
+    },
+    {
+      "field": "ContractEnd",
+      "type": "String"
+    },
+    {
+      "field": "RosterChangeIdJoin",
+      "type": "String"
+    },
+    {
+      "field": "RosterChangeIdLeave",
+      "type": "String"
+    },
+    {
+      "field": "ResidencyLeave",
+      "type": "String"
+    },
+    {
+      "field": "NameLeave",
+      "type": "String"
+    },
+    {
+      "field": "NextTeam",
+      "type": "String"
+    },
+    {
+      "field": "NextIsRetired",
+      "type": "Boolean"
+    },
+    {
+      "field": "NextIsWildrift",
+      "type": "Boolean"
+    },
+    {
+      "field": "NextIsDeceased",
+      "type": "Boolean"
+    },
+    {
+      "field": "IsCurrent",
+      "type": "Boolean"
+    }
+  ],
+  "RosterChanges": [
+    {
+      "field": "Date_Sort",
+      "type": "Datetime"
+    },
+    {
+      "field": "Player",
+      "type": "String"
+    },
+    {
+      "field": "Direction",
+      "type": "String"
+    },
+    {
+      "field": "Team",
+      "type": "String"
+    },
+    {
+      "field": "RolesIngame",
+      "type": "String"
+    },
+    {
+      "field": "RolesStaff",
+      "type": "String"
+    },
+    {
+      "field": "Roles",
+      "type": "String"
+    },
+    {
+      "field": "RoleDisplay",
+      "type": "String"
+    },
+    {
+      "field": "Role",
+      "type": "String"
+    },
+    {
+      "field": "RoleModifier",
+      "type": "String"
+    },
+    {
+      "field": "Status",
+      "type": "String"
+    },
+    {
+      "field": "CurrentTeamPriority",
+      "type": "Integer"
+    },
+    {
+      "field": "PlayerUnlinked",
+      "type": "Boolean"
+    },
+    {
+      "field": "AlreadyJoined",
+      "type": "String"
+    },
+    {
+      "field": "Tournaments",
+      "type": "String"
+    },
+    {
+      "field": "Source",
+      "type": "Wikitext"
+    },
+    {
+      "field": "IsGCD",
+      "type": "Boolean"
+    },
+    {
+      "field": "Preload",
+      "type": "String"
+    },
+    {
+      "field": "PreloadSortNumber",
+      "type": "Integer"
+    },
+    {
+      "field": "Tags",
+      "type": "String"
+    },
+    {
+      "field": "NewsId",
+      "type": "String"
+    },
+    {
+      "field": "RosterChangeId",
+      "type": "String"
+    },
+    {
+      "field": "N_LineInNews",
+      "type": "Integer"
+    }
+  ],
+  "PlayerRedirects": [
+    {
+      "field": "AllName",
+      "type": "String"
+    },
+    {
+      "field": "OverviewPage",
+      "type": "String"
+    },
+    {
+      "field": "ID",
+      "type": "String"
+    }
+  ],
+  "Alphabets": [
+    {
+      "field": "Alphabet",
+      "type": "String"
+    },
+    {
+      "field": "IsTransliterated",
+      "type": "Boolean"
+    }
+  ],
+  "ListplayerCurrent": [
+    {
+      "field": "ID",
+      "type": "String"
+    },
+    {
+      "field": "Link",
+      "type": "String"
+    },
+    {
+      "field": "Name",
+      "type": "String"
+    },
+    {
+      "field": "N",
+      "type": "Integer"
+    },
+    {
+      "field": "Country",
+      "type": "String"
+    },
+    {
+      "field": "Role",
+      "type": "String"
+    },
+    {
+      "field": "IsSubstitute",
+      "type": "String"
+    },
+    {
+      "field": "IsTrainee",
+      "type": "String"
+    },
+    {
+      "field": "Team",
+      "type": "String"
+    },
+    {
+      "field": "ContractDate",
+      "type": "Date"
+    },
+    {
+      "field": "Residency",
+      "type": "String"
+    }
+  ]
+}

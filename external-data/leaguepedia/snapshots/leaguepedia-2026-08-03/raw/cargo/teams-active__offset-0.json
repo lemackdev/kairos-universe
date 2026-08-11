@@ -1,0 +1,6504 @@
+{
+  "cargoquery": [
+    {
+      "title": {
+        "Name": "2 Massive",
+        "OverviewPage": "2 Massive",
+        "Short": "2M",
+        "Location": "Sweden",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "24/7 Tower Dive",
+        "OverviewPage": "24 7 Tower Dive",
+        "Short": "TD",
+        "Location": "Netherlands",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "3BL Esports",
+        "OverviewPage": "3BL Esports",
+        "Short": "3BL",
+        "Location": "Egypt",
+        "TeamLocation": "Egypt",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "3v Team",
+        "OverviewPage": "3v Team",
+        "Short": "3V",
+        "Location": "Spain",
+        "TeamLocation": "Colombia",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "404 Multigaming e.V.",
+        "OverviewPage": "404 Multigaming e.V.",
+        "Short": "404",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "7REX",
+        "OverviewPage": "7REX",
+        "Short": "7REX",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "9Gaming Esports",
+        "OverviewPage": "9Gaming",
+        "Short": "9G",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "9z Globant",
+        "OverviewPage": "9z Globant",
+        "Short": "9ZG",
+        "Location": "Argentina",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "AaB Esport",
+        "OverviewPage": "AaB Esport",
+        "Short": "AaB",
+        "Location": "Denmark",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Absolved",
+        "OverviewPage": "Absolved",
+        "Short": "ABV",
+        "Location": "United Kingdom",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "AceGaming",
+        "OverviewPage": "AceGaming",
+        "Short": "ACE",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Aeterna Esports",
+        "OverviewPage": "Aeterna Esports",
+        "Short": "ATA",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Aethra Esports Strijders",
+        "OverviewPage": "Aethra Esports Strijders",
+        "Short": "ATR.S",
+        "Location": "Netherlands",
+        "TeamLocation": "Netherlands",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "All for One Gaming",
+        "OverviewPage": "All for One Gaming",
+        "Short": "A41G",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "ALMO Players",
+        "OverviewPage": "ALMO Players",
+        "Short": "ALMO",
+        "Location": "Greece",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ancient Ones",
+        "OverviewPage": "Ancient Ones",
+        "Short": "AO",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Andromeda Gaming",
+        "OverviewPage": "Andromeda Gaming",
+        "Short": "AGG",
+        "Location": "Slovakia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Anonymo Esports",
+        "OverviewPage": "Anonymo Esports",
+        "Short": "ANO",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Anubis Gaming",
+        "OverviewPage": "Anubis Gaming",
+        "Short": "ANB",
+        "Location": "Egypt",
+        "TeamLocation": "Egypt",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Anyone's Legend",
+        "OverviewPage": "Anyone's Legend",
+        "Short": "AL",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Anyone's Legend.Young",
+        "OverviewPage": "Anyone's Legend.Young",
+        "Short": "AL.Y",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Apex Mission Impossible",
+        "OverviewPage": "Apex Mission Impossible",
+        "Short": "AMI",
+        "Location": "Canada",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Aquinas College",
+        "OverviewPage": "Aquinas College",
+        "Short": "AQ",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Arctic Pandas",
+        "OverviewPage": "Arctic Pandas",
+        "Short": "AP",
+        "Location": "Finland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Arizona State University",
+        "OverviewPage": "Arizona State University",
+        "Short": "ASU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Armoured Brothers",
+        "OverviewPage": "Armoured Brothers",
+        "Short": "ARMB",
+        "Location": "",
+        "TeamLocation": "Tunisia",
+        "Region": "MENA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Arneb",
+        "OverviewPage": "Arneb",
+        "Short": "ARB",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Atruvia Münster Esports",
+        "OverviewPage": "Atruvia Münster Esports",
+        "Short": "ME",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Axolotl",
+        "OverviewPage": "Axolotl",
+        "Short": "AXL",
+        "Location": "Italy",
+        "TeamLocation": "Italy",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "AZ Rising Eterna",
+        "OverviewPage": "AZ Rising Eterna",
+        "Short": "AZR",
+        "Location": "France",
+        "TeamLocation": "Europe",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Azules Esports",
+        "OverviewPage": "Azules Esports",
+        "Short": "UCH",
+        "Location": "Chile",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Azules Esports Academy",
+        "OverviewPage": "Azules Esports Academy",
+        "Short": "UCH.A",
+        "Location": "Chile",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Azules Esports Fem",
+        "OverviewPage": "Azules Esports Fem",
+        "Short": "UCH.F",
+        "Location": "Chile",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "B2U",
+        "OverviewPage": "B2U",
+        "Short": "B2U",
+        "Location": "Sweden",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BAAM Esports",
+        "OverviewPage": "Baam Esports",
+        "Short": "BAM",
+        "Location": "Saudi Arabia",
+        "TeamLocation": "Saudi Arabia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Babos Gaming",
+        "OverviewPage": "Babos Gaming",
+        "Short": "BABO",
+        "Location": "Switzerland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ball State University",
+        "OverviewPage": "Ball State University",
+        "Short": "BSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bamboo Juice",
+        "OverviewPage": "Bamboo Juice",
+        "Short": "BOO",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Barça eSports",
+        "OverviewPage": "Barça eSports",
+        "Short": "BAR",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Barcząca Esports",
+        "OverviewPage": "Barcząca Esports",
+        "Short": "BCE",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Barcząca Esports Babylon",
+        "OverviewPage": "Barcząca Esports Babylon",
+        "Short": "BCEB",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bastu Five",
+        "OverviewPage": "Bastu Five",
+        "Short": "B5",
+        "Location": "Finland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Berlin International Gaming",
+        "OverviewPage": "Berlin International Gaming",
+        "Short": "BIG",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bethany Lutheran College",
+        "OverviewPage": "Bethany Lutheran College",
+        "Short": "BLC",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bilibili Gaming",
+        "OverviewPage": "Bilibili Gaming",
+        "Short": "BLG",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bilibili Gaming Junior",
+        "OverviewPage": "Bilibili Gaming Junior",
+        "Short": "BLG.J",
+        "Location": "",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bitfix RG",
+        "OverviewPage": "Bitfix RG",
+        "Short": "BRG",
+        "Location": "Norway",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Black Lion",
+        "OverviewPage": "Black Lion",
+        "Short": "BL",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Blue Otter",
+        "OverviewPage": "Blue Otter",
+        "Short": "BLUE",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Blue Otter Europe",
+        "OverviewPage": "Blue Otter Europe",
+        "Short": "BLUE",
+        "Location": "United States",
+        "TeamLocation": "Europe",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BlueWhites",
+        "OverviewPage": "BlueWhites",
+        "Short": "BW",
+        "Location": "Finland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BNK FEARX",
+        "OverviewPage": "BNK FEARX",
+        "Short": "BFX",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BNK FEARX Youth",
+        "OverviewPage": "BNK FEARX Youth",
+        "Short": "BFX.Y",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bohemian Guardians",
+        "OverviewPage": "Bohemian Guardians",
+        "Short": "BG",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Boise State University",
+        "OverviewPage": "Boise State University",
+        "Short": "BSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bomba Team",
+        "OverviewPage": "Bomba Team",
+        "Short": "BOOM",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BOOBA",
+        "OverviewPage": "BOOBA",
+        "Short": "BBA",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BoostGate Esports",
+        "OverviewPage": "BoostGate Esports",
+        "Short": "BGT",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Briar Cliff University",
+        "OverviewPage": "Briar Cliff University",
+        "Short": "BCU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Brod n Friends",
+        "OverviewPage": "Brod n Friends",
+        "Short": "BROD",
+        "Location": "United Kingdom",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "BRUTE",
+        "OverviewPage": "BRUTE",
+        "Short": "BRT",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bubliki",
+        "OverviewPage": "Bubliki",
+        "Short": "BBK",
+        "Location": "Russia",
+        "TeamLocation": "Portugal",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bulldog Esports",
+        "OverviewPage": "Bulldog Esports",
+        "Short": "BDG",
+        "Location": "United Kingdom",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bunny Girls",
+        "OverviewPage": "Bunny Girls",
+        "Short": "BUN",
+        "Location": "United States",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Burning Core Toyama",
+        "OverviewPage": "Burning Core Toyama",
+        "Short": "BCT",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Bushido Wildcats",
+        "OverviewPage": "Bushido Wildcats",
+        "Short": "BW",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CAG OSAKA",
+        "OverviewPage": "CAG OSAKA",
+        "Short": "CAG",
+        "Location": "Japan",
+        "TeamLocation": "Japan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Calamity Esports",
+        "OverviewPage": "Calamity Esports",
+        "Short": "CE",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Caldya Esport",
+        "OverviewPage": "Caldya Esport",
+        "Short": "CLA",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Campbellsville University",
+        "OverviewPage": "Campbellsville University",
+        "Short": "CU",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Carleton University",
+        "OverviewPage": "Carleton University",
+        "Short": "CU",
+        "Location": "",
+        "TeamLocation": "Canada",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Carolina Reapers",
+        "OverviewPage": "Carolina Reapers",
+        "Short": "REAP",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CCG Esports",
+        "OverviewPage": "CCG Esports",
+        "Short": "CCG",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ceuta Guardians",
+        "OverviewPage": "Ceuta Guardians",
+        "Short": "CG",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CGN Esports",
+        "OverviewPage": "CGN Esports",
+        "Short": "CGN",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Chiefs Esports Club",
+        "OverviewPage": "Chiefs Esports Club",
+        "Short": "CHF",
+        "Location": "Australia",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CITA Kaizen",
+        "OverviewPage": "CITA Kaizen",
+        "Short": "CKZ",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CITA Kaizen Academy",
+        "OverviewPage": "CITA Kaizen Academy",
+        "Short": "CKA",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Citadel Gaming",
+        "OverviewPage": "Citadel Gaming",
+        "Short": "CTG",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Clã NKZ",
+        "OverviewPage": "Clã NKZ",
+        "Short": "NKZ",
+        "Location": "",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Cleary University",
+        "OverviewPage": "Cleary University",
+        "Short": "CU",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Cleveland State University",
+        "OverviewPage": "Cleveland State University",
+        "Short": "CSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Cloud9",
+        "OverviewPage": "Cloud9",
+        "Short": "C9",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CNG Royal",
+        "OverviewPage": "CNG Royal",
+        "Short": "CNG",
+        "Location": "Norway",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Colorado State University",
+        "OverviewPage": "Colorado State University",
+        "Short": "CSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Colossal Gaming",
+        "OverviewPage": "Colossal Gaming",
+        "Short": "CG",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Columbia College",
+        "OverviewPage": "Columbia College",
+        "Short": "CC",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Contingent Esports",
+        "OverviewPage": "Contingent Esports",
+        "Short": "CONT",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "Americas",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Converse University",
+        "OverviewPage": "Converse University",
+        "Short": "CU",
+        "Location": "United States",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Conviction",
+        "OverviewPage": "Conviction",
+        "Short": "CNV",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CORE 128",
+        "OverviewPage": "CORE 128",
+        "Short": "CORE",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Coscu Army",
+        "OverviewPage": "Coscu Army",
+        "Short": "CA",
+        "Location": "Argentina",
+        "TeamLocation": "Argentina",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CPLAY",
+        "OverviewPage": "CPLAY",
+        "Short": "CPL",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Crystal Rose",
+        "OverviewPage": "Crystal Rose (French Team)",
+        "Short": "CR",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CTBC Flying Oyster",
+        "OverviewPage": "CTBC Flying Oyster",
+        "Short": "CFO",
+        "Location": "Taiwan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "CTBC Flying Oyster Academy",
+        "OverviewPage": "CTBC Flying Oyster Academy",
+        "Short": "CFOA",
+        "Location": "Taiwan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Cupid Esports",
+        "OverviewPage": "Cupid Esports",
+        "Short": "CPD",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dark Passage",
+        "OverviewPage": "Dark Passage",
+        "Short": "DP",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DeathMark E-Sports",
+        "OverviewPage": "DeathMark E-Sports",
+        "Short": "DME",
+        "Location": "Canada",
+        "TeamLocation": "Canada",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Deep Cross Gaming",
+        "OverviewPage": "Deep Cross Gaming",
+        "Short": "DCG",
+        "Location": "Taiwan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Deer Gaming",
+        "OverviewPage": "Deer Gaming",
+        "Short": "DEER",
+        "Location": "Finland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DetonatioN FocusMe",
+        "OverviewPage": "DetonatioN FocusMe",
+        "Short": "DFM",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DetonatioN FocusMe Academy",
+        "OverviewPage": "DetonatioN FocusMe Academy",
+        "Short": "DFMA",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "devils.one inStreamly",
+        "OverviewPage": "Devils.one inStreamly",
+        "Short": "DV1",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DIA Ozarox Esports",
+        "OverviewPage": "DIA Ozarox Esports",
+        "Short": "DIA",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dignitas",
+        "OverviewPage": "Dignitas",
+        "Short": "DIG",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Disguised",
+        "OverviewPage": "Disguised",
+        "Short": "DSG",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Disruptors",
+        "OverviewPage": "Disruptors",
+        "Short": "DS",
+        "Location": "Saudi Arabia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Divernex",
+        "OverviewPage": "Divernex",
+        "Short": "DVX",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Diversion Gaming",
+        "OverviewPage": "Diversion Gaming",
+        "Short": "DVG",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DKB XPERION NXT",
+        "OverviewPage": "DKB XPERION NXT",
+        "Short": "DKB",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DMG Esports",
+        "OverviewPage": "DMG Esports",
+        "Short": "DMG",
+        "Location": "Norway",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DN SOOPers",
+        "OverviewPage": "DN SOOPers",
+        "Short": "DNS",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DN SOOPers Academy",
+        "OverviewPage": "DN SOOPers Academy",
+        "Short": "DNS.A",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DN SOOPers Challengers",
+        "OverviewPage": "DN SOOPers Challengers",
+        "Short": "DNS.C",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DOCISK",
+        "OverviewPage": "DOCISK",
+        "Short": "DOC",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DOCISK Academy",
+        "OverviewPage": "DOCISK Academy",
+        "Short": "DOCA",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Docta Esports",
+        "OverviewPage": "Docta Esports",
+        "Short": "DOH",
+        "Location": "Argentina",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Domino Computer",
+        "OverviewPage": "Domino Computer",
+        "Short": "DCT",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dorado Gaming",
+        "OverviewPage": "Dorado Gaming",
+        "Short": "DOG",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dorado Gaming Black",
+        "OverviewPage": "Dorado Gaming Black",
+        "Short": "DOGB",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "Americas",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dplus Kia",
+        "OverviewPage": "Dplus Kia",
+        "Short": "DK",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dplus Kia Challengers",
+        "OverviewPage": "Dplus Kia Challengers",
+        "Short": "DK.C",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dplus Kia Academy",
+        "OverviewPage": "Dplus Kia Youth",
+        "Short": "DK.Y",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dream Esports",
+        "OverviewPage": "Dream Esports",
+        "Short": "DRM",
+        "Location": "United States",
+        "TeamLocation": "Portugal",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Drury University",
+        "OverviewPage": "Drury University",
+        "Short": "DU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "DUCKIE GETTERS",
+        "OverviewPage": "DUCKIE GETTERS",
+        "Short": "DUCK",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ducks Deluxe x Evil Geniuses",
+        "OverviewPage": "Ducks Deluxe x Evil Geniuses",
+        "Short": "DUCK",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dusty",
+        "OverviewPage": "Dusty",
+        "Short": "DY",
+        "Location": "Iceland",
+        "TeamLocation": "Iceland",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Dynasty",
+        "OverviewPage": "Dynasty",
+        "Short": "DYN",
+        "Location": "Netherlands",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "E WIE EINFACH E-SPORTS",
+        "OverviewPage": "E WIE EINFACH E-SPORTS",
+        "Short": "EWI",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "e-Champ Gaming Trainee",
+        "OverviewPage": "E-Champ Gaming Trainee",
+        "Short": "ECG.T",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "EDward Gaming",
+        "OverviewPage": "EDward Gaming",
+        "Short": "EDG",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "EDG Youth Team",
+        "OverviewPage": "EDward Gaming Youth Team",
+        "Short": "EDG.Y",
+        "Location": "",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Eesti Rästikud",
+        "OverviewPage": "Eesti Rästikud",
+        "Short": "VIP",
+        "Location": "Estonia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ei Nerd Esports",
+        "OverviewPage": "Ei Nerd Esports",
+        "Short": "NERD",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Eintracht Frankfurt",
+        "OverviewPage": "Eintracht Frankfurt",
+        "Short": "SGE",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Eintracht Spandau",
+        "OverviewPage": "Eintracht Spandau",
+        "Short": "EINS",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Eintracht Spandau Zwei",
+        "OverviewPage": "Eintracht Spandau Zwei",
+        "Short": "ZWEI",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "EKO Esports",
+        "OverviewPage": "EKO Esports",
+        "Short": "EKO",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ember Foxes",
+        "OverviewPage": "Ember Foxes",
+        "Short": "EF",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Embrace Whatever Happens",
+        "OverviewPage": "Embrace Whatever Happens",
+        "Short": "EWH",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "emBRAZA! Esports",
+        "OverviewPage": "EmBRAZA! Esports",
+        "Short": "BRA",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Epic Avalanche",
+        "OverviewPage": "Epic Avalanche",
+        "Short": "EA",
+        "Location": "Finland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Esport STUBA",
+        "OverviewPage": "Esport STUBA",
+        "Short": "STU",
+        "Location": "",
+        "TeamLocation": "Slovakia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Esprit Shōnen",
+        "OverviewPage": "Esprit Shōnen",
+        "Short": "ES",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Estral Esports",
+        "OverviewPage": "Estral Esports",
+        "Short": "EST",
+        "Location": "Mexico",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "eSuba",
+        "OverviewPage": "ESuba",
+        "Short": "ESB",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "ESUG Ultimate Five Feeder",
+        "OverviewPage": "ESUG Ultimate Five Feeder",
+        "Short": "UFF",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Eterna",
+        "OverviewPage": "Eterna",
+        "Short": "ETR",
+        "Location": "",
+        "TeamLocation": "Europe",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Eternals Gaming",
+        "OverviewPage": "Eternals Gaming",
+        "Short": "ESG",
+        "Location": "",
+        "TeamLocation": "Chile",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ethereal Enigmas",
+        "OverviewPage": "Ethereal Enigmas",
+        "Short": "EE",
+        "Location": "Slovakia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "EXILE esports",
+        "OverviewPage": "EXILE esports",
+        "Short": "EXE",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "EXILE esports Academy",
+        "OverviewPage": "EXILE esports Academy",
+        "Short": "EXEA",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Faerie Charm",
+        "OverviewPage": "Faerie Charm (Singaporean Team)",
+        "Short": "FRC",
+        "Location": "Singapore",
+        "TeamLocation": "Singapore",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Falke Esports",
+        "OverviewPage": "Falke Esports",
+        "Short": "FLK",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Farenvehn Fem",
+        "OverviewPage": "Farenvehn Fem",
+        "Short": "FVN.F",
+        "Location": "Argentina",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fast8",
+        "OverviewPage": "Fast8",
+        "Short": "F8",
+        "Location": "Japan",
+        "TeamLocation": "Japan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FENNEL",
+        "OverviewPage": "FENNEL",
+        "Short": "FL",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fervent Esports",
+        "OverviewPage": "Fervent Esports",
+        "Short": "FVE",
+        "Location": "Philippines",
+        "TeamLocation": "Philippines",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fisher College",
+        "OverviewPage": "Fisher College",
+        "Short": "FC",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Five Leaf Clover",
+        "OverviewPage": "Five Leaf Clover",
+        "Short": "FLC",
+        "Location": "United States",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FlameHard",
+        "OverviewPage": "FlameHard",
+        "Short": "FLH",
+        "Location": "Portugal",
+        "TeamLocation": "Sweden",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Florida Southern College",
+        "OverviewPage": "Florida Southern College",
+        "Short": "FSC",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Florida State Esports Garnet",
+        "OverviewPage": "Florida State University",
+        "Short": "FSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fluxo W7M",
+        "OverviewPage": "Fluxo W7M",
+        "Short": "FX",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FlyQuest",
+        "OverviewPage": "FlyQuest",
+        "Short": "FLY",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FlyQuest RED",
+        "OverviewPage": "FlyQuest RED",
+        "Short": "FLYR",
+        "Location": "United States",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fnatic",
+        "OverviewPage": "Fnatic",
+        "Short": "FNC",
+        "Location": "United Kingdom",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Forsaken",
+        "OverviewPage": "Forsaken (Polish Team)",
+        "Short": "FSK",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fortress Esports",
+        "OverviewPage": "Fortress Esports",
+        "Short": "FTS",
+        "Location": "Denmark",
+        "TeamLocation": "Denmark",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FPT University Ho Chi Minh",
+        "OverviewPage": "FPT University Hochiminh",
+        "Short": "FPTU",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Frank Esports",
+        "OverviewPage": "Frank Esports",
+        "Short": "FAK",
+        "Location": "Hong Kong",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Frites Esports Club",
+        "OverviewPage": "Frites Esports Club",
+        "Short": "FEC",
+        "Location": "Belgium",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fuego",
+        "OverviewPage": "Fuego",
+        "Short": "FUE",
+        "Location": "Colombia",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Fukuoka SoftBank HAWKS gaming",
+        "OverviewPage": "Fukuoka SoftBank HAWKS gaming",
+        "Short": "SHG",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Full Sense",
+        "OverviewPage": "Full Sense",
+        "Short": "FS",
+        "Location": "Thailand",
+        "TeamLocation": "Thailand",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FURIA",
+        "OverviewPage": "FURIA",
+        "Short": "FUR",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "FURIA Youth",
+        "OverviewPage": "FURIA Youth",
+        "Short": "FUR.Y",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "G2 Esports",
+        "OverviewPage": "G2 Esports",
+        "Short": "G2",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "G2 Hel",
+        "OverviewPage": "G2 Hel",
+        "Short": "G2H",
+        "Location": "Germany",
+        "TeamLocation": "Europe",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "G2 NORD",
+        "OverviewPage": "G2 NORD",
+        "Short": "G2N",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Galaxy Gaming",
+        "OverviewPage": "Galaxy Gaming (American Team)",
+        "Short": "GG",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Galions",
+        "OverviewPage": "Galions",
+        "Short": "GL",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Galions Pearl",
+        "OverviewPage": "Galions Pearl",
+        "Short": "GLP",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Galions Sharks",
+        "OverviewPage": "Galions Sharks",
+        "Short": "GLSH",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GAM Esports",
+        "OverviewPage": "GAM Esports",
+        "Short": "GAM",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gamers404",
+        "OverviewPage": "Gamers404",
+        "Short": "G4",
+        "Location": "Greece",
+        "TeamLocation": "Greece",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gamespace Mediterranean College Esports",
+        "OverviewPage": "Gamespace Mediterranean College Esports",
+        "Short": "GSMC",
+        "Location": "Greece",
+        "TeamLocation": "Greece",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Garden Gaming",
+        "OverviewPage": "Garden Gaming",
+        "Short": "GG",
+        "Location": "Norway",
+        "TeamLocation": "Denmark",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gen.G",
+        "OverviewPage": "Gen.G",
+        "Short": "GEN",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gen.G Global Academy",
+        "OverviewPage": "Gen.G Global Academy",
+        "Short": "GEN.GA",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gen.G Scholars",
+        "OverviewPage": "Gen.G Scholars",
+        "Short": "GEN.SC",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GenZ Gaming",
+        "OverviewPage": "GenZ Gaming (2025 Vietnamese Team)",
+        "Short": "GENZ",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "George Mason University",
+        "OverviewPage": "George Mason University",
+        "Short": "GMU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GIANTX",
+        "OverviewPage": "GIANTX",
+        "Short": "GX",
+        "Location": "United Kingdom",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GIANTX iTero",
+        "OverviewPage": "GIANTX iTero",
+        "Short": "GXI",
+        "Location": "",
+        "TeamLocation": "Spain",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gity Meavedronu",
+        "OverviewPage": "Gity Meavedronu",
+        "Short": "GIT",
+        "Location": "Poland",
+        "TeamLocation": "Czech Republic",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GM Gaming",
+        "OverviewPage": "GM Gaming",
+        "Short": "GM",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GMBLERS Esports",
+        "OverviewPage": "GMBLERS Esports",
+        "Short": "GMB",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GnG Amazigh",
+        "OverviewPage": "GnG Amazigh",
+        "Short": "GNG",
+        "Location": "Tunisia",
+        "TeamLocation": "Tunisia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "God Darkness Esports",
+        "OverviewPage": "God Darkness Esports",
+        "Short": "GD",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Godalions Blossom",
+        "OverviewPage": "Godalions Blossom",
+        "Short": "GDL",
+        "Location": "",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Golden Lions",
+        "OverviewPage": "Golden Lions",
+        "Short": "GLE",
+        "Location": "Peru",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Grand View University",
+        "OverviewPage": "Grand View University",
+        "Short": "GVU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Gravity",
+        "OverviewPage": "Gravity (2024 North American Team)",
+        "Short": "GV",
+        "Location": "North America",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ground Zero Academy",
+        "OverviewPage": "Ground Zero Academy",
+        "Short": "GZA",
+        "Location": "Australia",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ground Zero Gaming",
+        "OverviewPage": "Ground Zero Gaming",
+        "Short": "GZ",
+        "Location": "Australia",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "GTZ Esports",
+        "OverviewPage": "GTZ Esports",
+        "Short": "GTZ",
+        "Location": "",
+        "TeamLocation": "Portugal",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Guinea Pink",
+        "OverviewPage": "Guinea Pink",
+        "Short": "GP",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "HANJIN BRION",
+        "OverviewPage": "HANJIN BRION",
+        "Short": "BRO",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "HANJIN BRION Academy",
+        "OverviewPage": "HANJIN BRION Academy",
+        "Short": "BRO.A",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "HANJIN BRION Challengers",
+        "OverviewPage": "HANJIN BRION Challengers",
+        "Short": "BRO.C",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Hannover Esports e.V.",
+        "OverviewPage": "Hannover Esports e.V.",
+        "Short": "HNVR",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Hanwha Life Esports",
+        "OverviewPage": "Hanwha Life Esports",
+        "Short": "HLE",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Hanwha Life Esports Academy",
+        "OverviewPage": "Hanwha Life Esports Academy",
+        "Short": "HLE.A",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Hanwha Life Esports Challengers",
+        "OverviewPage": "Hanwha Life Esports Challengers",
+        "Short": "HLE.C",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Harrisburg University",
+        "OverviewPage": "Harrisburg University",
+        "Short": "HU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "HELL PIGS",
+        "OverviewPage": "HELL PIGS",
+        "Short": "HPS",
+        "Location": "Taiwan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "HMBLE",
+        "OverviewPage": "HMBLE",
+        "Short": "HMB",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Hooligans",
+        "OverviewPage": "Hooligans",
+        "Short": "HLG",
+        "Location": "Albania",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ici Japon Corp. Esport",
+        "OverviewPage": "Ici Japon Corp. Esport",
+        "Short": "IJC",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ilha das Lendas",
+        "OverviewPage": "Ilha das Lendas",
+        "Short": "IDL",
+        "Location": "",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Illinois Wesleyan University",
+        "OverviewPage": "Illinois Wesleyan University",
+        "Short": "IWU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "IMProve Team",
+        "OverviewPage": "IMProve Team",
+        "Short": "IMPT",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Inferno Drive Tokyo",
+        "OverviewPage": "Inferno Drive Tokyo",
+        "Short": "IDT",
+        "Location": "Japan",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Inferno Esports",
+        "OverviewPage": "Inferno Esports (Filipino Team)",
+        "Short": "IE",
+        "Location": "Philippines",
+        "TeamLocation": "Philippines",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Inside Games",
+        "OverviewPage": "Inside Games",
+        "Short": "ING",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "International Esports Industry Center",
+        "OverviewPage": "International Esports Industry Center",
+        "Short": "IEIC",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "International Love",
+        "OverviewPage": "International Love",
+        "Short": "IL",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "INTZ",
+        "OverviewPage": "INTZ",
+        "Short": "INTZ",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Invictus Gaming",
+        "OverviewPage": "Invictus Gaming",
+        "Short": "iG",
+        "Location": "China",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Invokers",
+        "OverviewPage": "Invokers",
+        "Short": "IVK",
+        "Location": "",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "JD Gaming",
+        "OverviewPage": "JD Gaming",
+        "Short": "JDG",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Joblife",
+        "OverviewPage": "Joblife",
+        "Short": "JL",
+        "Location": "France",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "JSK Academy",
+        "OverviewPage": "JSK Academy",
+        "Short": "JSK A",
+        "Location": "Tunisia",
+        "TeamLocation": "Tunisia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "JSK Esports",
+        "OverviewPage": "JSK Esports",
+        "Short": "JSK",
+        "Location": "Tunisia",
+        "TeamLocation": "Tunisia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Juventus Gaming Gold",
+        "OverviewPage": "Juventus Gaming Gold",
+        "Short": "JUV.G",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Juventus Gaming Red",
+        "OverviewPage": "Juventus Gaming Red",
+        "Short": "JUV.R",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Juventus Gaming White",
+        "OverviewPage": "Juventus Gaming White",
+        "Short": "JUV.W",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KaBuM! Ilha das Lendas",
+        "OverviewPage": "KaBuM! Ilha das Lendas",
+        "Short": "KBM",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KaBuM! Trainee",
+        "OverviewPage": "KaBuM! Trainee",
+        "Short": "KBM.T",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kanji Esports",
+        "OverviewPage": "Kanji Esports",
+        "Short": "KJ",
+        "Location": "Switzerland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Karmine Corp",
+        "OverviewPage": "Karmine Corp",
+        "Short": "KC",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Karmine Corp Blue",
+        "OverviewPage": "Karmine Corp Blue",
+        "Short": "KCB",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Karmine Corp Blue Stars",
+        "OverviewPage": "Karmine Corp Blue Stars",
+        "Short": "KCBS",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Karolinerna",
+        "OverviewPage": "Karolinerna",
+        "Short": "K5",
+        "Location": "Sweden",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kaufland Hangry Knights",
+        "OverviewPage": "Kaufland Hangry Knights",
+        "Short": "KHK",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kawaii Kiwis",
+        "OverviewPage": "Kawaii Kiwis",
+        "Short": "KwK",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KIA.eSuba Academy",
+        "OverviewPage": "KIA.eSuba Academy",
+        "Short": "ESBA",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KIT SC White",
+        "OverviewPage": "KIT SC White",
+        "Short": "KIT.W",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kits Esports",
+        "OverviewPage": "Kits Esports",
+        "Short": "KITS",
+        "Location": "Canada",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kiwoom DRX",
+        "OverviewPage": "Kiwoom DRX",
+        "Short": "KRX",
+        "Location": "",
+        "TeamLocation": "South Korea",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kiwoom DRX Challengers",
+        "OverviewPage": "Kiwoom DRX Challengers",
+        "Short": "KIWO",
+        "Location": "",
+        "TeamLocation": "South Korea",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Klanik Esport",
+        "OverviewPage": "Klanik Esport",
+        "Short": "KE",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KnockOut Esports",
+        "OverviewPage": "KnockOut Esports",
+        "Short": "KO",
+        "Location": "Saudi Arabia",
+        "TeamLocation": "Saudi Arabia",
+        "Region": "MENA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Komodo",
+        "OverviewPage": "Komodo (North American Team)",
+        "Short": "KMD",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KT Rolster",
+        "OverviewPage": "KT Rolster",
+        "Short": "KT",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KT Rolster Academy",
+        "OverviewPage": "KT Rolster Academy",
+        "Short": "KT.A",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "KT Rolster Challengers",
+        "OverviewPage": "KT Rolster Challengers",
+        "Short": "KT.C",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kuma e-Sports",
+        "OverviewPage": "Kuma e-Sports",
+        "Short": "KUMA",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Kun Shan Lightning Tiger (崑大閃電虎)",
+        "OverviewPage": "Kun Shan Lightning Tiger",
+        "Short": "KSLT",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "L Guide Gaming",
+        "OverviewPage": "L Guide Gaming",
+        "Short": "LGG",
+        "Location": "Japan",
+        "TeamLocation": "Japan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lausanne-Sport Esports",
+        "OverviewPage": "Lausanne-Sport Esports",
+        "Short": "ELS",
+        "Location": "Switzerland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lenovo Legion Honvéd",
+        "OverviewPage": "Lenovo Legion Honvéd",
+        "Short": "LLH",
+        "Location": "Hungary",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Leviatan",
+        "OverviewPage": "Leviatan",
+        "Short": "LEV",
+        "Location": "Argentina",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LGD Gaming",
+        "OverviewPage": "LGD Gaming",
+        "Short": "LGD",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LGD Gaming Young Team",
+        "OverviewPage": "LGD Gaming Young Team",
+        "Short": "LGD.Y",
+        "Location": "China",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lille Esport",
+        "OverviewPage": "Lille Esport",
+        "Short": "LIL",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LIT Team (黎明企鵝)",
+        "OverviewPage": "LIT Team",
+        "Short": "LIT",
+        "Location": "",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LNG Esports",
+        "OverviewPage": "LNG Esports",
+        "Short": "LNG",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LODIS",
+        "OverviewPage": "LODIS (Polish Team)",
+        "Short": "LDS",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lotus",
+        "OverviewPage": "Lotus (North American Team)",
+        "Short": "LTS",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LOUD",
+        "OverviewPage": "LOUD",
+        "Short": "LOUD",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lourdes University",
+        "OverviewPage": "Lourdes University",
+        "Short": "LU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LØS",
+        "OverviewPage": "LØS",
+        "Short": "LOS",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LØS Academy",
+        "OverviewPage": "LØS Academy",
+        "Short": "LOS.A",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LUA Gaming",
+        "OverviewPage": "LUA Gaming",
+        "Short": "LUA",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lund Esports Organization",
+        "OverviewPage": "Lund Esports Organization",
+        "Short": "LEO",
+        "Location": "Sweden",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lundqvist Lightside",
+        "OverviewPage": "Lundqvist Lightside",
+        "Short": "LLS",
+        "Location": "Sweden",
+        "TeamLocation": "Sweden",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Lupus Esports",
+        "OverviewPage": "Lupus Esports",
+        "Short": "LUP",
+        "Location": "Serbia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LYON",
+        "OverviewPage": "LYON (2024 American Team)",
+        "Short": "LYON",
+        "Location": "Mexico",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "LYON Academy",
+        "OverviewPage": "LYON Academy",
+        "Short": "LYN.A",
+        "Location": "Mexico",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Macko Academy",
+        "OverviewPage": "Macko Academy",
+        "Short": "MCK.A",
+        "Location": "Italy",
+        "TeamLocation": "Italy",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Magaza Esports",
+        "OverviewPage": "Magaza Esports",
+        "Short": "MGZ",
+        "Location": "Bulgaria",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Malvinas Gaming",
+        "OverviewPage": "Malvinas Gaming",
+        "Short": "MVG",
+        "Location": "Argentina",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Maryville University",
+        "OverviewPage": "Maryville University",
+        "Short": "MU",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Maze Gaming",
+        "OverviewPage": "Maze Gaming",
+        "Short": "MAZ",
+        "Location": "Chile",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "mCon esports",
+        "OverviewPage": "MCon esports",
+        "Short": "MCON",
+        "Location": "Netherlands",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Meavedron",
+        "OverviewPage": "Meavedron",
+        "Short": "MVE",
+        "Location": "Poland",
+        "TeamLocation": "Czech Republic",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Meavedron Anonymo Master Academy",
+        "OverviewPage": "Meavedron Anonymo Master Academy",
+        "Short": "MAMA",
+        "Location": "Poland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Mental Rush",
+        "OverviewPage": "Mental Rush",
+        "Short": "MRS",
+        "Location": "Europe",
+        "TeamLocation": "Europe",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Miami University",
+        "OverviewPage": "Miami University",
+        "Short": "MU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Michigan State University",
+        "OverviewPage": "Michigan State University",
+        "Short": "MSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Milk Esports",
+        "OverviewPage": "Milk Esports",
+        "Short": "MILK",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Milk Esports Brazil",
+        "OverviewPage": "Milk Esports Brazil",
+        "Short": "MEBR",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Milk Esports Whole Milk",
+        "OverviewPage": "Milk Esports Whole Milk",
+        "Short": "WMLK",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Mind Blue eSports",
+        "OverviewPage": "Mind Blue eSports",
+        "Short": "MB",
+        "Location": "",
+        "TeamLocation": "Belgium",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Missouri Valley College",
+        "OverviewPage": "Missouri Valley College",
+        "Short": "MVC",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Monta Club",
+        "OverviewPage": "Monta Club",
+        "Short": "MNT",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Movistar KOI",
+        "OverviewPage": "Movistar KOI",
+        "Short": "MKOI",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Movistar KOI Fénix",
+        "OverviewPage": "Movistar KOI Fénix",
+        "Short": "MKF",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "MT1 Esports",
+        "OverviewPage": "MT1 Esports",
+        "Short": "MT1",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "MVK Esports",
+        "OverviewPage": "MVK Esports",
+        "Short": "MVK",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "Vikings Gaming (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "MVK Esports Academy",
+        "OverviewPage": "MVK Esports Academy",
+        "Short": "MVKA",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "Vikings Gaming (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "mYinsanity",
+        "OverviewPage": "MYinsanity",
+        "Short": "MYI",
+        "Location": "Switzerland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Myth Esports",
+        "OverviewPage": "Myth Esports",
+        "Short": "MYTH",
+        "Location": "",
+        "TeamLocation": "Netherlands",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Mythus Esports",
+        "OverviewPage": "Mythus Esports",
+        "Short": "MYT",
+        "Location": "",
+        "TeamLocation": "Thailand",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "NALCS Players Association",
+        "OverviewPage": "NALCS Players Association",
+        "Short": "NALCSPA",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Natus Vincere",
+        "OverviewPage": "Natus Vincere",
+        "Short": "NAVI",
+        "Location": "Ukraine",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "NCG Esports",
+        "OverviewPage": "NCG Esports",
+        "Short": "NCG",
+        "Location": "Mexico",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "New Meta",
+        "OverviewPage": "New Meta",
+        "Short": "NM",
+        "Location": "Japan",
+        "TeamLocation": "Japan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Next Level Esports",
+        "OverviewPage": "Next Level Esports",
+        "Short": "NLE",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "NextGeneration Esports",
+        "OverviewPage": "NextGeneration Esports",
+        "Short": "NG",
+        "Location": "Egypt",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ngựa Hí Esports",
+        "OverviewPage": "Ngựa Hí Esports",
+        "Short": "NHE",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Nightbirds",
+        "OverviewPage": "Nightbirds",
+        "Short": "NBS",
+        "Location": "Slovakia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Nine Lives Esports",
+        "OverviewPage": "Nine Lives Esports",
+        "Short": "9LE",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ninjas in Pyjamas",
+        "OverviewPage": "Ninjas in Pyjamas.CN",
+        "Short": "NIP",
+        "Location": "United Arab Emirates",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "No Need Orga",
+        "OverviewPage": "No Need Orga",
+        "Short": "NNO",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Nocturne Gale",
+        "OverviewPage": "Nocturne Gale",
+        "Short": "NG",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Nongshim Esports Academy",
+        "OverviewPage": "Nongshim Esports Academy",
+        "Short": "NS.EA",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "Team Dynamics (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Nongshim RedForce",
+        "OverviewPage": "Nongshim RedForce",
+        "Short": "NS",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "Team Dynamics (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Nongshim RedForce Academy",
+        "OverviewPage": "Nongshim RedForce Academy",
+        "Short": "NS.A",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "Team Dynamics (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "North Carolina State University",
+        "OverviewPage": "North Carolina State University",
+        "Short": "NCSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Northeastern University",
+        "OverviewPage": "Northeastern University",
+        "Short": "NU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Northwood University",
+        "OverviewPage": "Northwood University",
+        "Short": "NU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "NOVEX",
+        "OverviewPage": "NOVEX",
+        "Short": "NX",
+        "Location": "Japan",
+        "TeamLocation": "Japan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "NRG",
+        "OverviewPage": "NRG",
+        "Short": "NRG",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "O'Gaming TV",
+        "OverviewPage": "O'Gaming TV",
+        "Short": "OGTV",
+        "Location": "France",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Oakland University",
+        "OverviewPage": "Oakland University",
+        "Short": "OU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Observant Force",
+        "OverviewPage": "Observant Force",
+        "Short": "OBFE",
+        "Location": "Slovakia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Odivelas Sports Club",
+        "OverviewPage": "Odivelas Sports Club",
+        "Short": "OSC",
+        "Location": "Portugal",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Oh My God",
+        "OverviewPage": "Oh My God",
+        "Short": "OMG",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ohio Northern University",
+        "OverviewPage": "Ohio Northern University",
+        "Short": "ONU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ohio State University",
+        "OverviewPage": "Ohio State University",
+        "Short": "OSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Oklahoma Christian University",
+        "OverviewPage": "Oklahoma Christian University",
+        "Short": "OCU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Omerix",
+        "OverviewPage": "Omerix Esport",
+        "Short": "OX",
+        "Location": "France",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Once Upon A Team",
+        "OverviewPage": "Once Upon A Team",
+        "Short": "OUAT",
+        "Location": "",
+        "TeamLocation": "Belgium",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "One More Esports",
+        "OverviewPage": "One More Esports",
+        "Short": "1M",
+        "Location": "Morocco",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "One Trick Production",
+        "OverviewPage": "One Trick Production",
+        "Short": "OTP",
+        "Location": "France",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Onion Team",
+        "OverviewPage": "Onion Team",
+        "Short": "ONT",
+        "Location": "Poland",
+        "TeamLocation": "Czech Republic",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Original Gaming",
+        "OverviewPage": "Original Gaming",
+        "Short": "OG",
+        "Location": "",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Osh-Tekk Warriors",
+        "OverviewPage": "Osh-Tekk Warriors",
+        "Short": "OTW",
+        "Location": "",
+        "TeamLocation": "Saudi Arabia",
+        "Region": "MENA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ottawa University",
+        "OverviewPage": "Ottawa University",
+        "Short": "OU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Otter Side",
+        "OverviewPage": "Otter Side",
+        "Short": "OTS",
+        "Location": "Portugal",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Oxygen Gaming",
+        "OverviewPage": "Oxygen Gaming",
+        "Short": "O2G",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "P11 Esports",
+        "OverviewPage": "P11 Esports",
+        "Short": "P11",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "PAGLE48",
+        "OverviewPage": "PAGLE48",
+        "Short": "PG",
+        "Location": "Thailand",
+        "TeamLocation": "Thailand",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "paiN Gaming",
+        "OverviewPage": "PaiN Gaming",
+        "Short": "PAIN",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "paiN Gaming Academy",
+        "OverviewPage": "PaiN Gaming Academy",
+        "Short": "PNG.A",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Panathinaikos Esports",
+        "OverviewPage": "Panathinaikos Esports",
+        "Short": "PAO",
+        "Location": "Greece",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Park University",
+        "OverviewPage": "Park University",
+        "Short": "PU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "PCIFIC Esports",
+        "OverviewPage": "PCIFIC Esports",
+        "Short": "PCF",
+        "Location": "",
+        "TeamLocation": "Turkey",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Pegasus Esports",
+        "OverviewPage": "Pegasus Esports",
+        "Short": "PGS",
+        "Location": "Egypt",
+        "TeamLocation": "Egypt",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Pertinax Esports",
+        "OverviewPage": "Pertinax Esports",
+        "Short": "PTX",
+        "Location": "",
+        "TeamLocation": "Belgium",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Polar Squad Esports",
+        "OverviewPage": "Polar Squad Esports",
+        "Short": "PLS",
+        "Location": "Mexico",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Pratt Community College",
+        "OverviewPage": "Pratt Community College",
+        "Short": "PRATT",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Priority",
+        "OverviewPage": "Priority",
+        "Short": "PRT",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Project Conquerors",
+        "OverviewPage": "Project Conquerors",
+        "Short": "PCS",
+        "Location": "France",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Project Conquerors Athena",
+        "OverviewPage": "Project Conquerors Athena",
+        "Short": "PCSA",
+        "Location": "",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Prosperity Esports",
+        "OverviewPage": "Prosperity Esports",
+        "Short": "PE",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Pulse Star",
+        "OverviewPage": "Pulse Star",
+        "Short": "PLS",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Purdue University",
+        "OverviewPage": "Purdue University",
+        "Short": "PU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Purdue University Northwest",
+        "OverviewPage": "Purdue University Northwest",
+        "Short": "PNW",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "PvB",
+        "OverviewPage": "PvB (Swiss Team)",
+        "Short": "PvB",
+        "Location": "Switzerland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Pyramid IV Esports",
+        "OverviewPage": "Pyramid IV Esports",
+        "Short": "P4",
+        "Location": "Egypt",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "QLASH",
+        "OverviewPage": "QLASH",
+        "Short": "QLS",
+        "Location": "Italy",
+        "TeamLocation": "Italy",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "QLASH MENA",
+        "OverviewPage": "QLASH MENA",
+        "Short": "QLM",
+        "Location": "Egypt",
+        "TeamLocation": "",
+        "Region": "MENA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Quảng Ninh Gốc",
+        "OverviewPage": "Quảng Ninh Gốc",
+        "Short": "QNG",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RAMPAGE",
+        "OverviewPage": "RAMPAGE (Brazilian Team)",
+        "Short": "RPG",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RAYN Clocks",
+        "OverviewPage": "RAYN Clocks",
+        "Short": "RCK",
+        "Location": "Japan",
+        "TeamLocation": "Japan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RED Academy",
+        "OverviewPage": "RED Academy",
+        "Short": "RED.A",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RED Canids",
+        "OverviewPage": "RED Canids",
+        "Short": "RED",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "REDPack Esports",
+        "OverviewPage": "REDPack Esports",
+        "Short": "RP",
+        "Location": "Romania",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "regnum4games",
+        "OverviewPage": "Regnum4games",
+        "Short": "R4G",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Reignfall",
+        "OverviewPage": "Reignfall",
+        "Short": "RNF",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Reload Ragnarok",
+        "OverviewPage": "Reload Ragnarok",
+        "Short": "RRK",
+        "Location": "",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Rem's Helpers",
+        "OverviewPage": "Rem's Helpers",
+        "Short": "REM",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Reset E-Sports",
+        "OverviewPage": "Reset E-Sports",
+        "Short": "RST",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Respawned Esports",
+        "OverviewPage": "Respawned Esports",
+        "Short": "RSP",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Reveal Multigaming",
+        "OverviewPage": "Reveal Multigaming",
+        "Short": "RVL",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RevenGa Esports",
+        "OverviewPage": "RevenGa Esports",
+        "Short": "RVG",
+        "Location": "Tunisia",
+        "TeamLocation": "Tunisia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "REViTAL BLACKTRAiNS",
+        "OverviewPage": "REViTAL BLACKTRAiNS",
+        "Short": "RBT",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Rich Gang",
+        "OverviewPage": "Rich Gang (Norwegian Team)",
+        "Short": "RG",
+        "Location": "Norway",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Rise Gaming",
+        "OverviewPage": "Rise Gaming",
+        "Short": "RISE",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RLX Esports",
+        "OverviewPage": "RLX Esports",
+        "Short": "RLX",
+        "Location": "Croatia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RMD Gaming",
+        "OverviewPage": "RMD Gaming",
+        "Short": "RMD",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RMD Gaming Trainee",
+        "OverviewPage": "RMD Gaming Trainee",
+        "Short": "RMD.T",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Rochester Institute of Technology",
+        "OverviewPage": "Rochester Institute of Technology",
+        "Short": "RIT",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "RogerSaMa",
+        "OverviewPage": "RogerSaMa",
+        "Short": "RSM",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Roosevelt University",
+        "OverviewPage": "Roosevelt University",
+        "Short": "RU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "ROSSMANN Centaurs",
+        "OverviewPage": "ROSSMANN Centaurs",
+        "Short": "ROSS",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ruddy Corporation",
+        "OverviewPage": "Ruddy Corporation",
+        "Short": "RUD",
+        "Location": "United Kingdom",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Rugby Club Havířov",
+        "OverviewPage": "Rugby Club Havířov",
+        "Short": "RCH",
+        "Location": "Czech Republic",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "S8UL Esports",
+        "OverviewPage": "S8UL Esports",
+        "Short": "S8UL",
+        "Location": "India",
+        "TeamLocation": "India",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Saigon Dino",
+        "OverviewPage": "Saigon Dino",
+        "Short": "DINO",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Saigon Secret",
+        "OverviewPage": "Saigon Secret",
+        "Short": "TS",
+        "Location": "Europe",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Saigon Warriors",
+        "OverviewPage": "Saigon Warriors",
+        "Short": "SGW",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Saint Louis University",
+        "OverviewPage": "Saint Louis University",
+        "Short": "SLU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "San Jose State University",
+        "OverviewPage": "San Jose State University",
+        "Short": "SJSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Savannah College of Art and Design",
+        "OverviewPage": "Savannah College of Art and Design",
+        "Short": "SCAD",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SDM Tigres",
+        "OverviewPage": "SDM Tigres",
+        "Short": "SDM",
+        "Location": "Mexico",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Senshi eSports",
+        "OverviewPage": "Senshi eSports (Benelux Team)",
+        "Short": "SNSH",
+        "Location": "Netherlands",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Sentinels",
+        "OverviewPage": "Sentinels",
+        "Short": "SEN",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Seven Dark",
+        "OverviewPage": "Seven Dark",
+        "Short": "7D",
+        "Location": "Chile",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shadow Bloom",
+        "OverviewPage": "Shadow Bloom",
+        "Short": "SDB",
+        "Location": "Colombia",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shadow Keepers Esports",
+        "OverviewPage": "Shadow Keepers Esports",
+        "Short": "SHKP",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shark Attack",
+        "OverviewPage": "Shark Attack",
+        "Short": "SA",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shark Bite Furious Gaming Black",
+        "OverviewPage": "SharkBite Furious Gaming Black",
+        "Short": "SBK",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shark Bite Furious Gaming White",
+        "OverviewPage": "SharkBite Furious Gaming White",
+        "Short": "SBW",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shifters",
+        "OverviewPage": "Shifters",
+        "Short": "SHFT",
+        "Location": "Switzerland",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shining Stars",
+        "OverviewPage": "Shining Stars",
+        "Short": "SST",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Shopify Rebellion",
+        "OverviewPage": "Shopify Rebellion",
+        "Short": "SR",
+        "Location": "Canada",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SillySilly Gaming",
+        "OverviewPage": "SillySilly Gaming",
+        "Short": "SSG",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Simon Fraser Univeristy",
+        "OverviewPage": "Simon Fraser University",
+        "Short": "SFU",
+        "Location": "Canada",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Simplicity Gaming",
+        "OverviewPage": "Simplicity Gaming",
+        "Short": "SPL",
+        "Location": "Tunisia",
+        "TeamLocation": "Tunisia",
+        "Region": "MENA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SK Gaming",
+        "OverviewPage": "SK Gaming",
+        "Short": "SK",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "SK Gaming (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SK Gaming Avarosa",
+        "OverviewPage": "SK Gaming Avarosa",
+        "Short": "SKA",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Skillcamp",
+        "OverviewPage": "Skillcamp",
+        "Short": "SC",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Smoke Tram",
+        "OverviewPage": "Smoke Tram",
+        "Short": "ST",
+        "Location": "Brazil",
+        "TeamLocation": "Brazil",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Smoke Tram Academy",
+        "OverviewPage": "Smoke Tram Academy",
+        "Short": "ST.A",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SN CyberCore Esports",
+        "OverviewPage": "SN CyberCore Esports",
+        "Short": "SCBC",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SNOOZE Esports",
+        "OverviewPage": "SNOOZE Esports",
+        "Short": "SNZ",
+        "Location": "Luxembourg",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Solary",
+        "OverviewPage": "Solary",
+        "Short": "SLY",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "Solary (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Solary Academy",
+        "OverviewPage": "Solary Academy",
+        "Short": "SLYA",
+        "Location": "France",
+        "TeamLocation": "France",
+        "Region": "EMEA",
+        "OrganizationPage": "Solary (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Solary Eclipse",
+        "OverviewPage": "Solary Eclipse",
+        "Short": "SLYE",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Soul's Heart Esport",
+        "OverviewPage": "Soul's Heart Esport",
+        "Short": "SHE",
+        "Location": "Netherlands",
+        "TeamLocation": "Belgium",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Sørby eSport",
+        "OverviewPage": "Sørby eSport",
+        "Short": "SE",
+        "Location": "Denmark",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Spartans EU",
+        "OverviewPage": "Spartans EU",
+        "Short": "SPAR",
+        "Location": "",
+        "TeamLocation": "Greece",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Sphere Esports",
+        "OverviewPage": "Sphere Esports",
+        "Short": "SPH",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SPIKE Syndicate",
+        "OverviewPage": "SPIKE Syndicate",
+        "Short": "SPK",
+        "Location": "Slovenia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Spirituals",
+        "OverviewPage": "Spirituals",
+        "Short": "STS",
+        "Location": "Colombia",
+        "TeamLocation": "Colombia",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Sponge Gaming",
+        "OverviewPage": "Sponge Gaming",
+        "Short": "SPG",
+        "Location": "Taiwan",
+        "TeamLocation": "Taiwan",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "spongecord prime",
+        "OverviewPage": "Spongecord prime",
+        "Short": "SPNG",
+        "Location": "Austria",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "St. Clair College",
+        "OverviewPage": "St. Clair College",
+        "Short": "SCC",
+        "Location": "",
+        "TeamLocation": "Canada",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "St. Cloud State University",
+        "OverviewPage": "St. Cloud State University",
+        "Short": "SCSU",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "State University of New York at Buffalo",
+        "OverviewPage": "State University of New York at Buffalo",
+        "Short": "UB",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "StoneHenge Esports",
+        "OverviewPage": "StoneHenge Esports",
+        "Short": "SHE",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "SU Esports",
+        "OverviewPage": "SU Esports",
+        "Short": "SU",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Supernova",
+        "OverviewPage": "Supernova",
+        "Short": "SN",
+        "Location": "North America",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "SUPERNOVA (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "T1",
+        "OverviewPage": "T1",
+        "Short": "T1",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "T1 (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "T1 Esports Academy",
+        "OverviewPage": "T1 Esports Academy",
+        "Short": "T1.EA",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "T1 (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "T1 Esports Academy Rookies",
+        "OverviewPage": "T1 Esports Academy Rookies",
+        "Short": "T1.R",
+        "Location": "South Korea",
+        "TeamLocation": "",
+        "Region": "Korea",
+        "OrganizationPage": "T1 (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Tan'i eSports",
+        "OverviewPage": "Tan'i eSports",
+        "Short": "TNI",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Evermeet",
+        "OverviewPage": "Team Evermeet",
+        "Short": "ET",
+        "Location": "Uruguay",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Fire",
+        "OverviewPage": "Team Fire",
+        "Short": "Fire",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "International",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Heretics",
+        "OverviewPage": "Team Heretics",
+        "Short": "TH",
+        "Location": "Spain",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Heretics Academy",
+        "OverviewPage": "Team Heretics Academy",
+        "Short": "HRTS",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team High Ground",
+        "OverviewPage": "Team High Ground",
+        "Short": "THG",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Ice",
+        "OverviewPage": "Team Ice",
+        "Short": "Ice",
+        "Location": "",
+        "TeamLocation": "",
+        "Region": "International",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Liquid",
+        "OverviewPage": "Team Liquid",
+        "Short": "TL",
+        "Location": "Netherlands",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "Team Liquid (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Phantasma",
+        "OverviewPage": "Team Phantasma",
+        "Short": "TP",
+        "Location": "Greece",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Phoenix",
+        "OverviewPage": "Team Phoenix (Turkish Team)",
+        "Short": "PHX",
+        "Location": "Turkey",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Refuse",
+        "OverviewPage": "Team Refuse",
+        "Short": "RFS",
+        "Location": "Greece",
+        "TeamLocation": "Greece",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Rift",
+        "OverviewPage": "Team Rift",
+        "Short": "RFT",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Samsara",
+        "OverviewPage": "Team Samsara",
+        "Short": "TS",
+        "Location": "United States",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Secret Whales",
+        "OverviewPage": "Team Secret Whales",
+        "Short": "TSW",
+        "Location": "Vietnam",
+        "TeamLocation": "Vietnam",
+        "Region": "Asia Pacific",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Solid",
+        "OverviewPage": "Team Solid (Brazilian Team)",
+        "Short": "TSS",
+        "Location": "Brazil",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Spawn Peek",
+        "OverviewPage": "Team Spawn Peek",
+        "Short": "TSP",
+        "Location": "Germany",
+        "TeamLocation": "Serbia",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team Vitality",
+        "OverviewPage": "Team Vitality",
+        "Short": "VIT",
+        "Location": "France",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "Team Vitality (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team WE",
+        "OverviewPage": "Team WE",
+        "Short": "WE",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "Team WE (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Team WE Academy",
+        "OverviewPage": "Team WE Academy",
+        "Short": "WE.A",
+        "Location": "",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "Team WE (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "TeamOrangeGaming",
+        "OverviewPage": "TeamOrangeGaming",
+        "Short": "TOG",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "TeamOrangeGaming Academy",
+        "OverviewPage": "TeamOrangeGaming Academy",
+        "Short": "TOGA",
+        "Location": "Germany",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Texas A&M University",
+        "OverviewPage": "Texas A&M University",
+        "Short": "TAM",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "The Bandits",
+        "OverviewPage": "The Bandits",
+        "Short": "BAN",
+        "Location": "Netherlands",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "The Final Tribe",
+        "OverviewPage": "The Final Tribe",
+        "Short": "TFT",
+        "Location": "Sweden",
+        "TeamLocation": "Sweden",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "The Gulls Esports",
+        "OverviewPage": "The Gulls Esports",
+        "Short": "TGL",
+        "Location": "Italy",
+        "TeamLocation": "Italy",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "The New Kings",
+        "OverviewPage": "The New Kings",
+        "Short": "TNK",
+        "Location": "Argentina",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "The ParadOx Invaders",
+        "OverviewPage": "The ParadOx Invaders",
+        "Short": "TPX",
+        "Location": "Greece",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "The Secret Club",
+        "OverviewPage": "The Secret Club",
+        "Short": "TSC",
+        "Location": "Croatia",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "ThunderTalk Gaming",
+        "OverviewPage": "ThunderTalk Gaming",
+        "Short": "TT",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "ThunderTalk Gaming Young",
+        "OverviewPage": "ThunderTalk Gaming Young",
+        "Short": "TT.Y",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "TITANS",
+        "OverviewPage": "TITANS",
+        "Short": "TTS",
+        "Location": "Italy",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Titans Gaming Center",
+        "OverviewPage": "Titans Gaming Center",
+        "Short": "TGC",
+        "Location": "Kuwait",
+        "TeamLocation": "Kuwait",
+        "Region": "MENA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "TLN Pirates",
+        "OverviewPage": "TLN Pirates",
+        "Short": "TLNP",
+        "Location": "France",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Top Esports",
+        "OverviewPage": "Top Esports",
+        "Short": "TES",
+        "Location": "China",
+        "TeamLocation": "",
+        "Region": "China",
+        "OrganizationPage": "Topsports Gaming (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Top Esports Challenger",
+        "OverviewPage": "Top Esports Challenger",
+        "Short": "TES.C",
+        "Location": "",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "Topsports Gaming (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "TQ DURPA KASHLQ",
+        "OverviewPage": "TQ DURPA KASHLQ",
+        "Short": "TQD",
+        "Location": "Bulgaria",
+        "TeamLocation": "Bulgaria",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Tu Papá Esports",
+        "OverviewPage": "Tu Papá Esports",
+        "Short": "TPA",
+        "Location": "Peru",
+        "TeamLocation": "",
+        "Region": "Brazil",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "UB Alma Mater",
+        "OverviewPage": "UB Alma Mater",
+        "Short": "UB",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "UCAM Esports",
+        "OverviewPage": "UCAM Esports",
+        "Short": "UCAM",
+        "Location": "Spain",
+        "TeamLocation": "Spain",
+        "Region": "EMEA",
+        "OrganizationPage": "UCAM Esports (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "UCAM University Esports",
+        "OverviewPage": "UCAM University Esports",
+        "Short": "UCAM",
+        "Location": "Spain",
+        "TeamLocation": "",
+        "Region": "EMEA",
+        "OrganizationPage": "UCAM Esports (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Ultra Prime",
+        "OverviewPage": "Ultra Prime",
+        "Short": "UP",
+        "Location": "China",
+        "TeamLocation": "China",
+        "Region": "China",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Unicorns of Love Sexy Edition",
+        "OverviewPage": "Unicorns of Love Sexy Edition",
+        "Short": "USE",
+        "Location": "Germany",
+        "TeamLocation": "Germany",
+        "Region": "EMEA",
+        "OrganizationPage": "Unicorns of Love (Organization)",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of British Columbia",
+        "OverviewPage": "University of British Columbia",
+        "Short": "UBC",
+        "Location": "Canada",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "Cal Esports",
+        "OverviewPage": "University of California Berkeley",
+        "Short": "CAL",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of California, Irvine",
+        "OverviewPage": "University of California Irvine",
+        "Short": "UCI",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of California, Los Angeles",
+        "OverviewPage": "University of California Los Angeles",
+        "Short": "UCLA",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of California, Riverside",
+        "OverviewPage": "University of California Riverside",
+        "Short": "UCR",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of California, San Diego",
+        "OverviewPage": "University of California San Diego",
+        "Short": "UCSD",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Colorado Boulder",
+        "OverviewPage": "University of Colorado Boulder",
+        "Short": "CUB",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Health Sciences and Pharmacy in St. Louis",
+        "OverviewPage": "University of Health Sciences and Pharmacy in St. Louis",
+        "Short": "UHSP",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Illinois at Urbana-Champaign",
+        "OverviewPage": "University of Illinois at Urbana-Champaign",
+        "Short": "UIUC",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Maryland, College Park",
+        "OverviewPage": "University of Maryland College Park",
+        "Short": "UMD",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Michigan",
+        "OverviewPage": "University of Michigan",
+        "Short": "UM",
+        "Location": "United States",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Minnesota, Twin Cities",
+        "OverviewPage": "University of Minnesota Twin Cities",
+        "Short": "UMN",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Mississippi",
+        "OverviewPage": "University of Mississippi",
+        "Short": "MISS",
+        "Location": "United States",
+        "TeamLocation": "",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of Ottawa",
+        "OverviewPage": "University of Ottawa",
+        "Short": "UO",
+        "Location": "",
+        "TeamLocation": "Canada",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    },
+    {
+      "title": {
+        "Name": "University of South Florida",
+        "OverviewPage": "University of South Florida",
+        "Short": "USF",
+        "Location": "",
+        "TeamLocation": "United States",
+        "Region": "North America",
+        "OrganizationPage": "",
+        "IsDisbanded": "0",
+        "RenamedTo": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-key-chen-hua-zhang-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-key-chen-hua-zhang",
+  "teamId": "external-lol-team-esug-ultimate-five-feeder",
+  "gameId": "league-of-legends",
+  "roles": [
+    "top"
+  ],
+  "rawRoles": [
+    "Top"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "914d28267c7c423ce75c03c4e93b15fffd997373d331861f12b9ab0080fee4d1",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-key-chen-hua-zhang-revision-unknown"
+  ]
+}

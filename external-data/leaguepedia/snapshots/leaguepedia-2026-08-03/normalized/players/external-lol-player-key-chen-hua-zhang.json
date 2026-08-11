@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-key-chen-hua-zhang",
+  "slug": "chen-hua-zhang",
+  "nickname": "Chen Hua Zhang",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "top",
+  "currentTeamId": "external-lol-team-esug-ultimate-five-feeder",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Key (Chen Hua Zhang)",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "914d28267c7c423ce75c03c4e93b15fffd997373d331861f12b9ab0080fee4d1",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-key-chen-hua-zhang-revision-unknown"
+  ]
+}

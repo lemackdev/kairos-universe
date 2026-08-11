@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-nicetomeetme-esug-ultimate-five-feeder-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-nicetomeetme",
+  "teamId": "external-lol-team-esug-ultimate-five-feeder",
+  "gameId": "league-of-legends",
+  "roles": [
+    "top"
+  ],
+  "rawRoles": [
+    "Top"
+  ],
+  "rosterStatus": "active",
+  "isStarter": false,
+  "isSubstitute": true,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "9bb041448393126ff07a5d9ce9f92002ecc28f95ac7728ea563fb3b1f01fbc07",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-nicetomeetme-revision-unknown"
+  ]
+}

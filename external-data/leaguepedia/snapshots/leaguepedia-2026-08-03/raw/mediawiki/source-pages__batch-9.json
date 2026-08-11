@@ -1,0 +1,957 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "200411": {
+        "pageid": 200411,
+        "ns": 0,
+        "title": "Team Liquid",
+        "revisions": [
+          {
+            "revid": 4487873,
+            "parentid": 4455135,
+            "timestamp": "2026-07-17T09:03:08Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-03T05:23:29Z",
+        "lastrevid": 4487873,
+        "length": 31429
+      },
+      "200553": {
+        "pageid": 200553,
+        "ns": 0,
+        "title": "Team Refuse",
+        "revisions": [
+          {
+            "revid": 4410670,
+            "parentid": 4407797,
+            "timestamp": "2026-03-27T19:36:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T16:30:54Z",
+        "lastrevid": 4410670,
+        "length": 6651
+      },
+      "200663": {
+        "pageid": 200663,
+        "ns": 0,
+        "title": "Team Vitality",
+        "revisions": [
+          {
+            "revid": 4478622,
+            "parentid": 4476306,
+            "timestamp": "2026-06-30T10:46:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4478622,
+        "length": 20437
+      },
+      "200685": {
+        "pageid": 200685,
+        "ns": 0,
+        "title": "Team WE",
+        "revisions": [
+          {
+            "revid": 4356094,
+            "parentid": 4342593,
+            "timestamp": "2026-01-15T17:09:27Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4356094,
+        "length": 15664
+      },
+      "200707": {
+        "pageid": 200707,
+        "ns": 0,
+        "title": "Team WE Academy",
+        "revisions": [
+          {
+            "revid": 4356093,
+            "parentid": 4126166,
+            "timestamp": "2026-01-15T17:09:17Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:40Z",
+        "lastrevid": 4356093,
+        "length": 2423
+      },
+      "202199": {
+        "pageid": 202199,
+        "ns": 0,
+        "title": "University of British Columbia",
+        "revisions": [
+          {
+            "revid": 4481189,
+            "parentid": 4334105,
+            "timestamp": "2026-07-06T00:22:21Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:42Z",
+        "lastrevid": 4481189,
+        "length": 9496
+      },
+      "202201": {
+        "pageid": 202201,
+        "ns": 0,
+        "title": "University of California Irvine",
+        "revisions": [
+          {
+            "revid": 4387758,
+            "parentid": 4334107,
+            "timestamp": "2026-02-20T22:16:18Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:42Z",
+        "lastrevid": 4387758,
+        "length": 2416
+      },
+      "202203": {
+        "pageid": 202203,
+        "ns": 0,
+        "title": "University of California San Diego",
+        "revisions": [
+          {
+            "revid": 4334109,
+            "parentid": 4126504,
+            "timestamp": "2025-11-20T15:13:43Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:42Z",
+        "lastrevid": 4334109,
+        "length": 4173
+      },
+      "237352": {
+        "pageid": 237352,
+        "ns": 0,
+        "title": "Unicorns of Love Sexy Edition",
+        "revisions": [
+          {
+            "revid": 4498206,
+            "parentid": 4496650,
+            "timestamp": "2026-07-30T20:28:23Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T20:28:40Z",
+        "lastrevid": 4498206,
+        "length": 2860
+      },
+      "266156": {
+        "pageid": 266156,
+        "ns": 0,
+        "title": "University of Maryland College Park",
+        "revisions": [
+          {
+            "revid": 4334112,
+            "parentid": 4126513,
+            "timestamp": "2025-11-20T15:13:52Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4334112,
+        "length": 1705
+      },
+      "273306": {
+        "pageid": 273306,
+        "ns": 0,
+        "title": "The Final Tribe",
+        "revisions": [
+          {
+            "revid": 4376777,
+            "parentid": 4366979,
+            "timestamp": "2026-02-07T06:51:22Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4376777,
+        "length": 1429
+      },
+      "276655": {
+        "pageid": 276655,
+        "ns": 0,
+        "title": "University of Illinois at Urbana-Champaign",
+        "revisions": [
+          {
+            "revid": 4334111,
+            "parentid": 4126509,
+            "timestamp": "2025-11-20T15:13:49Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4334111,
+        "length": 2392
+      },
+      "280579": {
+        "pageid": 280579,
+        "ns": 0,
+        "title": "University of Ottawa",
+        "revisions": [
+          {
+            "revid": 4334116,
+            "parentid": 4126523,
+            "timestamp": "2025-11-20T15:14:04Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:46Z",
+        "lastrevid": 4334116,
+        "length": 2195
+      },
+      "291339": {
+        "pageid": 291339,
+        "ns": 0,
+        "title": "University of California Los Angeles",
+        "revisions": [
+          {
+            "revid": 4334108,
+            "parentid": 4126500,
+            "timestamp": "2025-11-20T15:13:40Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4334108,
+        "length": 5249
+      },
+      "293768": {
+        "pageid": 293768,
+        "ns": 0,
+        "title": "Top Esports",
+        "revisions": [
+          {
+            "revid": 4398479,
+            "parentid": 4354286,
+            "timestamp": "2026-03-07T11:41:14Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4398479,
+        "length": 4898
+      },
+      "304542": {
+        "pageid": 304542,
+        "ns": 0,
+        "title": "Top Esports Challenger",
+        "revisions": [
+          {
+            "revid": 4336881,
+            "parentid": 4126373,
+            "timestamp": "2025-11-27T12:28:18Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4336881,
+        "length": 1892
+      },
+      "355657": {
+        "pageid": 355657,
+        "ns": 0,
+        "title": "University of Colorado Boulder",
+        "revisions": [
+          {
+            "revid": 4334110,
+            "parentid": 4126506,
+            "timestamp": "2025-11-20T15:13:46Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4334110,
+        "length": 2075
+      },
+      "355729": {
+        "pageid": 355729,
+        "ns": 0,
+        "title": "UCAM Esports",
+        "revisions": [
+          {
+            "revid": 4427504,
+            "parentid": 4374661,
+            "timestamp": "2026-04-18T12:42:27Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:47Z",
+        "lastrevid": 4427504,
+        "length": 3846
+      },
+      "422889": {
+        "pageid": 422889,
+        "ns": 0,
+        "title": "Team Phantasma",
+        "revisions": [
+          {
+            "revid": 4477092,
+            "parentid": 4477088,
+            "timestamp": "2026-06-26T10:15:42Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4477092,
+        "length": 3116
+      },
+      "429188": {
+        "pageid": 429188,
+        "ns": 0,
+        "title": "Titans Gaming Center",
+        "revisions": [
+          {
+            "revid": 4126344,
+            "parentid": 2238674,
+            "timestamp": "2025-03-04T15:09:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4126344,
+        "length": 967
+      },
+      "432681": {
+        "pageid": 432681,
+        "ns": 0,
+        "title": "ThunderTalk Gaming",
+        "revisions": [
+          {
+            "revid": 4415705,
+            "parentid": 4412847,
+            "timestamp": "2026-04-03T13:03:33Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4415705,
+        "length": 4056
+      },
+      "438756": {
+        "pageid": 438756,
+        "ns": 0,
+        "title": "ThunderTalk Gaming Young",
+        "revisions": [
+          {
+            "revid": 4351283,
+            "parentid": 4177803,
+            "timestamp": "2026-01-09T12:46:39Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:50Z",
+        "lastrevid": 4351283,
+        "length": 2742
+      },
+      "470274": {
+        "pageid": 470274,
+        "ns": 0,
+        "title": "Ultra Prime",
+        "revisions": [
+          {
+            "revid": 4437952,
+            "parentid": 4413349,
+            "timestamp": "2026-05-01T09:02:38Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T13:01:31Z",
+        "lastrevid": 4437952,
+        "length": 3354
+      },
+      "470927": {
+        "pageid": 470927,
+        "ns": 0,
+        "title": "University of California Riverside",
+        "revisions": [
+          {
+            "revid": 4493850,
+            "parentid": 4334133,
+            "timestamp": "2026-07-25T20:04:09Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4493850,
+        "length": 1613
+      },
+      "475147": {
+        "pageid": 475147,
+        "ns": 0,
+        "title": "TeamOrangeGaming",
+        "revisions": [
+          {
+            "revid": 4478636,
+            "parentid": 4465175,
+            "timestamp": "2026-06-30T13:39:12Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4478636,
+        "length": 3437
+      },
+      "475332": {
+        "pageid": 475332,
+        "ns": 0,
+        "title": "University of California Berkeley",
+        "revisions": [
+          {
+            "revid": 4334106,
+            "parentid": 4140041,
+            "timestamp": "2025-11-20T15:13:34Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T22:38:15Z",
+        "lastrevid": 4334106,
+        "length": 3213
+      },
+      "607364": {
+        "pageid": 607364,
+        "ns": 0,
+        "title": "University of Michigan",
+        "revisions": [
+          {
+            "revid": 4334113,
+            "parentid": 4126515,
+            "timestamp": "2025-11-20T15:13:55Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4334113,
+        "length": 1275
+      },
+      "672299": {
+        "pageid": 672299,
+        "ns": 0,
+        "title": "University of South Florida",
+        "revisions": [
+          {
+            "revid": 4334117,
+            "parentid": 4126525,
+            "timestamp": "2025-11-20T15:14:07Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:51Z",
+        "lastrevid": 4334117,
+        "length": 1086
+      },
+      "741789": {
+        "pageid": 741789,
+        "ns": 0,
+        "title": "Texas A&M University",
+        "revisions": [
+          {
+            "revid": 4466855,
+            "parentid": 4334104,
+            "timestamp": "2026-06-08T18:35:05Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4466855,
+        "length": 3118
+      },
+      "745652": {
+        "pageid": 745652,
+        "ns": 0,
+        "title": "University of Minnesota Twin Cities",
+        "revisions": [
+          {
+            "revid": 4334114,
+            "parentid": 4126517,
+            "timestamp": "2025-11-20T15:13:58Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4334114,
+        "length": 1201
+      },
+      "773435": {
+        "pageid": 773435,
+        "ns": 0,
+        "title": "The ParadOx Invaders",
+        "revisions": [
+          {
+            "revid": 4484878,
+            "parentid": 4478286,
+            "timestamp": "2026-07-12T11:50:35Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:52Z",
+        "lastrevid": 4484878,
+        "length": 4099
+      },
+      "775271": {
+        "pageid": 775271,
+        "ns": 0,
+        "title": "University of Mississippi",
+        "revisions": [
+          {
+            "revid": 4486651,
+            "parentid": 4483829,
+            "timestamp": "2026-07-15T18:11:51Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:16:53Z",
+        "lastrevid": 4486651,
+        "length": 1401
+      },
+      "895362": {
+        "pageid": 895362,
+        "ns": 0,
+        "title": "The Gulls Esports",
+        "revisions": [
+          {
+            "revid": 4490088,
+            "parentid": 4488885,
+            "timestamp": "2026-07-20T12:03:03Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4490088,
+        "length": 2096
+      },
+      "933239": {
+        "pageid": 933239,
+        "ns": 0,
+        "title": "Team Secret Whales",
+        "revisions": [
+          {
+            "revid": 4453054,
+            "parentid": 4453041,
+            "timestamp": "2026-05-20T09:30:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4453054,
+        "length": 2442
+      },
+      "947770": {
+        "pageid": 947770,
+        "ns": 0,
+        "title": "The Secret Club",
+        "revisions": [
+          {
+            "revid": 4425480,
+            "parentid": 4368573,
+            "timestamp": "2026-04-16T05:48:44Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T14:56:57Z",
+        "lastrevid": 4425480,
+        "length": 1241
+      },
+      "949715": {
+        "pageid": 949715,
+        "ns": 0,
+        "title": "TeamOrangeGaming Academy",
+        "revisions": [
+          {
+            "revid": 4490986,
+            "parentid": 4438668,
+            "timestamp": "2026-07-21T17:33:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T00:16:23Z",
+        "lastrevid": 4490986,
+        "length": 1499
+      },
+      "969542": {
+        "pageid": 969542,
+        "ns": 0,
+        "title": "University of Health Sciences and Pharmacy in St. Louis",
+        "revisions": [
+          {
+            "revid": 4334148,
+            "parentid": 4193918,
+            "timestamp": "2025-11-20T15:19:30Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4334148,
+        "length": 877
+      },
+      "1012189": {
+        "pageid": 1012189,
+        "ns": 0,
+        "title": "The Bandits",
+        "revisions": [
+          {
+            "revid": 4493471,
+            "parentid": 4493465,
+            "timestamp": "2026-07-25T07:45:49Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4493471,
+        "length": 1418
+      },
+      "1012340": {
+        "pageid": 1012340,
+        "ns": 0,
+        "title": "Team Phoenix (Turkish Team)",
+        "revisions": [
+          {
+            "revid": 4498066,
+            "parentid": 4497806,
+            "timestamp": "2026-07-30T18:56:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T19:01:50Z",
+        "lastrevid": 4498066,
+        "length": 1518
+      },
+      "1015993": {
+        "pageid": 1015993,
+        "ns": 0,
+        "title": "TLN Pirates",
+        "revisions": [
+          {
+            "revid": 4471101,
+            "parentid": 4471097,
+            "timestamp": "2026-06-15T12:15:36Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4471101,
+        "length": 923
+      },
+      "1019401": {
+        "pageid": 1019401,
+        "ns": 0,
+        "title": "UB Alma Mater",
+        "revisions": [
+          {
+            "revid": 4435217,
+            "parentid": 4387374,
+            "timestamp": "2026-04-27T20:06:24Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4435217,
+        "length": 1063
+      },
+      "1020985": {
+        "pageid": 1020985,
+        "ns": 0,
+        "title": "Team Solid (Brazilian Team)",
+        "revisions": [
+          {
+            "revid": 4426524,
+            "parentid": 4426347,
+            "timestamp": "2026-04-17T13:35:07Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4426524,
+        "length": 1861
+      },
+      "1024189": {
+        "pageid": 1024189,
+        "ns": 0,
+        "title": "The New Kings",
+        "revisions": [
+          {
+            "revid": 4478278,
+            "parentid": 4477069,
+            "timestamp": "2026-06-29T11:54:02Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4478278,
+        "length": 1290
+      },
+      "1024681": {
+        "pageid": 1024681,
+        "ns": 0,
+        "title": "Tu Papá Esports",
+        "revisions": [
+          {
+            "revid": 4478277,
+            "parentid": 4418370,
+            "timestamp": "2026-06-29T11:53:51Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4478277,
+        "length": 1126
+      },
+      "1028728": {
+        "pageid": 1028728,
+        "ns": 0,
+        "title": "UCAM University Esports",
+        "revisions": [
+          {
+            "revid": 4427503,
+            "parentid": 4407166,
+            "timestamp": "2026-04-18T12:42:15Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4427503,
+        "length": 1378
+      },
+      "1029824": {
+        "pageid": 1029824,
+        "ns": 0,
+        "title": "TITANS",
+        "revisions": [
+          {
+            "revid": 4489594,
+            "parentid": 4488858,
+            "timestamp": "2026-07-19T14:16:00Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-02T21:31:01Z",
+        "lastrevid": 4489594,
+        "length": 1291
+      },
+      "1035477": {
+        "pageid": 1035477,
+        "ns": 0,
+        "title": "TQ DURPA KASHLQ",
+        "revisions": [
+          {
+            "revid": 4480605,
+            "parentid": 4441986,
+            "timestamp": "2026-07-04T11:21:54Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T15:01:31Z",
+        "lastrevid": 4480605,
+        "length": 1037
+      },
+      "1039536": {
+        "pageid": 1039536,
+        "ns": 0,
+        "title": "Team Spawn Peek",
+        "revisions": [
+          {
+            "revid": 4444356,
+            "parentid": 4444009,
+            "timestamp": "2026-05-08T15:39:25Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4444356,
+        "length": 1945
+      },
+      "1041504": {
+        "pageid": 1041504,
+        "ns": 0,
+        "title": "Team Samsara",
+        "revisions": [
+          {
+            "revid": 4462788,
+            "parentid": 4459411,
+            "timestamp": "2026-06-02T04:22:25Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-30T05:33:32Z",
+        "lastrevid": 4462788,
+        "length": 1233
+      },
+      "1054180": {
+        "pageid": 1054180,
+        "ns": 0,
+        "title": "Team Rift",
+        "revisions": [
+          {
+            "revid": 4487023,
+            "parentid": 4487022,
+            "timestamp": "2026-07-16T05:35:21Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:54Z",
+        "lastrevid": 4487023,
+        "length": 832
+      }
+    }
+  }
+}

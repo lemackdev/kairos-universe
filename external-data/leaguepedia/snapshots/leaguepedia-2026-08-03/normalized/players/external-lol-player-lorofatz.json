@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-lorofatz",
+  "slug": "alexander",
+  "nickname": "Alexander",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "mid",
+  "currentTeamId": "external-lol-team-esug-ultimate-five-feeder",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "lorofatz",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "072d027d79f58182a0f057466bca8542b6caad1925ede663f22fce82345872ec",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-lorofatz-revision-unknown"
+  ]
+}

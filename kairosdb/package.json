@@ -1,0 +1,49 @@
+{
+  "name": "kairosdb",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run catalog:prepare && next dev -p 3100",
+    "leaguepedia:schema": "tsx scripts/leaguepedia/inspect-schema.ts",
+    "leaguepedia:import": "tsx scripts/leaguepedia/import.ts",
+    "leaguepedia:resume": "tsx scripts/leaguepedia/import.ts --resume",
+    "leaguepedia:normalize": "tsx scripts/leaguepedia/normalize.ts",
+    "leaguepedia:validate": "tsx scripts/leaguepedia/validate-snapshot.ts",
+    "leaguepedia:review-report": "tsx scripts/leaguepedia/review-report.ts",
+    "leaguepedia:build-snapshot": "tsx scripts/leaguepedia/build-snapshot.ts",
+    "catalog:build": "tsx scripts/build-catalog.ts",
+    "catalog:validate": "tsx scripts/validate-catalog.ts",
+    "catalog:prepare": "npm run catalog:build && npm run catalog:validate && npm run search:build",
+    "search:build": "tsx scripts/build-search.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "npm run catalog:prepare && vitest run",
+    "test:unit": "vitest run",
+    "links:validate": "tsx scripts/validate-links.ts",
+    "build": "npm run catalog:prepare && next build",
+    "validate": "npm run catalog:prepare && npm run typecheck && npm run lint && npm run test:unit && next build && npm run links:validate"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "ajv": "8.20.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.2.12",
+    "tsx": "4.23.5",
+    "typescript": "6.0.3",
+    "vitest": "4.1.10"
+  },
+  "overrides": {
+    "postcss": "8.5.25",
+    "sharp": "0.35.3"
+  }
+}

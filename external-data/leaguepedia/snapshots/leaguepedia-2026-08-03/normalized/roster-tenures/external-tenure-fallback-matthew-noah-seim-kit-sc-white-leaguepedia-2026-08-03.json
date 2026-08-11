@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-matthew-noah-seim-kit-sc-white-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-matthew-noah-seim",
+  "teamId": "external-lol-team-kit-sc-white",
+  "gameId": "league-of-legends",
+  "roles": [
+    "bot"
+  ],
+  "rawRoles": [
+    "Bot"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "53a27922b1ea56eb0b5f245e0246052edaa2791c95c00ab63cc431fce7afbce1",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-matthew-noah-seim-revision-unknown"
+  ]
+}

@@ -15,6 +15,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SourceList } from "@/components/SourceList";
 import { TenureTimeline } from "@/components/TenureTimeline";
 import { getCatalog } from "@/lib/canon/server";
+import { hasKairosDbProfile, kairosDbPlayerUrl } from "@/lib/links";
 
 export function generateStaticParams() {
   return getCatalog().players.map((player) => ({ slug: player.slug }));
@@ -57,6 +58,14 @@ export default async function PlayerPage({
       />
       <div className="entityLayout">
         <div className="entityBody">
+          {hasKairosDbProfile("player", player.slug) ? (
+            <p className="muted">
+              <a href={kairosDbPlayerUrl(player.slug)}>
+                Competitive profile on KairosDB
+              </a>
+            </p>
+          ) : null}
+
           <section className="contentSection">
             <h2>Current team</h2>
             {team ? (

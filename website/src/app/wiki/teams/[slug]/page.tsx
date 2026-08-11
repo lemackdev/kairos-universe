@@ -11,6 +11,7 @@ import { StaffTable } from "@/components/StaffTable";
 import { TeamRosterTable } from "@/components/TeamRosterTable";
 import { TenureTimeline } from "@/components/TenureTimeline";
 import { getCatalog } from "@/lib/canon/server";
+import { hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
 
 export function generateStaticParams() {
   return getCatalog().teams.map((team) => ({ slug: team.slug }));
@@ -58,6 +59,14 @@ export default async function TeamPage({
       />
       <div className="entityLayout">
         <div className="entityBody">
+          {hasKairosDbProfile("team", team.id) ? (
+            <p className="muted">
+              <a href={kairosDbTeamUrl(team.slug)}>
+                Competitive profile on KairosDB
+              </a>
+            </p>
+          ) : null}
+
           <section className="contentSection" id="overview">
             <div className="sectionHeader">
               <div>

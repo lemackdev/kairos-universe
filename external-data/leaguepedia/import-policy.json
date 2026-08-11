@@ -1,0 +1,56 @@
+{
+  "$schema": "./import-policy.schema.json",
+  "policyVersion": "1.0.0",
+  "source": "leaguepedia",
+  "game": "league-of-legends",
+  "includeActiveTeamsWithCurrentTenures": true,
+  "includePlayers": true,
+  "includeSubstitutes": true,
+  "includeTrainees": true,
+  "includeInactiveRosterMembers": true,
+  "includeCoachingStaff": true,
+  "includeManagementStaff": false,
+  "includeDisbandedTeams": false,
+  "includeHistoricalTenures": false,
+  "includeImages": false,
+  "includeLongFormBiographyText": false,
+  "includeWildRift": false,
+  "includeCollegiate": false,
+  "coachingStaffRoles": [
+    "Head Coach",
+    "Coach",
+    "Assistant Coach",
+    "Strategic Coach",
+    "Positional Coach",
+    "Analyst"
+  ],
+  "managementStaffRoles": [
+    "Owner",
+    "General Manager",
+    "Manager",
+    "Content Creator",
+    "Streamer",
+    "CEO",
+    "President",
+    "Executive"
+  ],
+  "exclusionRules": {
+    "excludeDisbandedTeamsWithNoCurrentRoster": true,
+    "excludeHistoricalOnlyTeamRecords": true,
+    "excludeEmptyTeamPages": true,
+    "excludeDuplicateRedirectPages": true,
+    "excludeWildRiftOnlyTeams": true,
+    "excludeCollegiateOrSchoolTeamsUnlessOfficialCircuit": true,
+    "excludeJokeTeams": true,
+    "excludeTemporaryExhibitionTeamsWithoutCurrentTenure": true,
+    "excludeTeamsWithNoVerifiableLoLRoster": true
+  },
+  "regionScope": {
+    "mode": "unrestricted",
+    "note": "No hardcoded region allowlist. Inclusion is driven by includeActiveTeamsWithCurrentTenures plus the exclusion rules above, not by a fixed list of leagues or regions. Tier 1, Tier 2, official regional leagues, developmental leagues, Academy teams, and Challengers teams are all in scope as long as they have a current tenure and pass the exclusion rules."
+  },
+  "ambiguousRecordHandling": {
+    "mode": "review-do-not-guess",
+    "note": "Any team or record that cannot be confidently classified against the rules above must be written to reports/AMBIGUOUS_RECORDS.md instead of being silently included or excluded."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-timon",
+  "slug": "timon",
+  "nickname": "Timon",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "de",
+  "nationalities": [],
+  "residency": "Europe",
+  "dateOfBirth": null,
+  "primaryRole": "jungle",
+  "currentTeamId": "external-lol-team-esug-ultimate-five-feeder",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Timon",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "dfa8a6949a8d403c4ab432f16f40df4419c2be92a417a1e0a91f97dbe4b988a9",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-timon-revision-unknown"
+  ]
+}

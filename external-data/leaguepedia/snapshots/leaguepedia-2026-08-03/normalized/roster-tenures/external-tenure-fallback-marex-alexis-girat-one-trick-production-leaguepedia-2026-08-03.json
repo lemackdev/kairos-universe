@@ -1,0 +1,35 @@
+{
+  "id": "external-tenure-fallback-marex-alexis-girat-one-trick-production-leaguepedia-2026-08-03",
+  "playerId": "external-lol-player-marex-alexis-girat",
+  "teamId": "external-lol-team-one-trick-production",
+  "gameId": "league-of-legends",
+  "roles": [
+    "unknown"
+  ],
+  "rawRoles": [
+    "Caster"
+  ],
+  "rosterStatus": "active",
+  "isStarter": true,
+  "isSubstitute": false,
+  "isTrainee": false,
+  "isInactive": false,
+  "joinedDate": null,
+  "joinedDatePrecision": "unknown",
+  "leftDate": null,
+  "isCurrentAtSnapshot": true,
+  "snapshotId": "leaguepedia-2026-08-03",
+  "effectiveUniversePeriod": "end-of-2026-season",
+  "frozenUntilPeriod": "2027-midseason",
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "d10f94b539cbad9b124bdf22f63690ded9287f991e6c7d7dde8b1999aae542b8",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Fallback-sourced tenure (ListplayerCurrent)."
+  ],
+  "sources": [
+    "leaguepedia-page-marex-alexis-girat-revision-unknown"
+  ]
+}

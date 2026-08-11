@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-player-rauschenberg",
+  "slug": "carson-rauschenberg",
+  "nickname": "Carson Rauschenberg",
+  "legalName": null,
+  "fullName": null,
+  "countryOfBirth": "us",
+  "nationalities": [],
+  "residency": "North America",
+  "dateOfBirth": null,
+  "primaryRole": "mid",
+  "currentTeamId": "external-lol-team-missouri-valley-college",
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaPage": "Rauschenberg",
+  "aliases": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "5e15b87ce7d5991f0bc3a56142782bb8c08aa672f340e33b3fd97a4ddaf75282",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "needs-review",
+  "reviewNotes": [
+    "Sourced from the ListplayerCurrent fallback table, not the modern Tenures system; fields are less complete."
+  ],
+  "sources": [
+    "leaguepedia-page-rauschenberg-revision-unknown"
+  ]
+}

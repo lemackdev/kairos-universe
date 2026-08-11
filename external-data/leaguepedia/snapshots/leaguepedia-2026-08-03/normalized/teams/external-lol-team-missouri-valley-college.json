@@ -1,0 +1,31 @@
+{
+  "id": "external-lol-team-missouri-valley-college",
+  "slug": "mvc",
+  "name": "Missouri Valley College",
+  "shortName": "MVC",
+  "gameId": "league-of-legends",
+  "organizationId": null,
+  "originType": "real-world-reference",
+  "continuityId": "kairos-universe",
+  "leaguepediaOverviewPage": "Missouri Valley College",
+  "region": "North America",
+  "location": "United States",
+  "status": "active",
+  "isDisbanded": false,
+  "currentPlayerTenureIds": [
+    "external-tenure-fallback-davipazzini-missouri-valley-college-leaguepedia-2026-08-03",
+    "external-tenure-fallback-1847-missouri-valley-college-leaguepedia-2026-08-03",
+    "external-tenure-fallback-rauschenberg-missouri-valley-college-leaguepedia-2026-08-03",
+    "external-tenure-fallback-thunderzinho-missouri-valley-college-leaguepedia-2026-08-03"
+  ],
+  "currentStaffTenureIds": [],
+  "sourceSnapshotId": "leaguepedia-2026-08-03",
+  "importerVersion": "1.0.0",
+  "rawRecordChecksum": "a5b5a84bd38f31bc7e4e1dcc545002e2ffc163ba4cb0cb9323a2e98419e0cbf1",
+  "retrievedAt": "2026-08-03T15:03:10.281Z",
+  "reviewStatus": "approved",
+  "reviewNotes": [],
+  "sources": [
+    "leaguepedia-page-missouri-valley-college-revision-4334073"
+  ]
+}

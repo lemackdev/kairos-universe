@@ -1,0 +1,83 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "427400": {
+        "pageid": 427400,
+        "ns": 0,
+        "title": "Zerolag Esports",
+        "revisions": [
+          {
+            "revid": 4477891,
+            "parentid": 4442070,
+            "timestamp": "2026-06-28T11:48:29Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T09:12:26Z",
+        "lastrevid": 4477891,
+        "length": 4017
+      },
+      "749868": {
+        "pageid": 749868,
+        "ns": 0,
+        "title": "ZeroZone Gaming",
+        "revisions": [
+          {
+            "revid": 4488982,
+            "parentid": 4483936,
+            "timestamp": "2026-07-18T12:19:01Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-08-01T15:40:09Z",
+        "lastrevid": 4488982,
+        "length": 3926
+      },
+      "950119": {
+        "pageid": 950119,
+        "ns": 0,
+        "title": "Zeu5 Esports",
+        "revisions": [
+          {
+            "revid": 4492702,
+            "parentid": 4478925,
+            "timestamp": "2026-07-24T04:26:41Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4492702,
+        "length": 1925
+      },
+      "1010467": {
+        "pageid": 1010467,
+        "ns": 0,
+        "title": "ZYB Esport",
+        "revisions": [
+          {
+            "revid": 4467335,
+            "parentid": 4467302,
+            "timestamp": "2026-06-09T17:04:41Z"
+          }
+        ],
+        "contentmodel": "wikitext",
+        "pagelanguage": "en",
+        "pagelanguagehtmlcode": "en",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-07-29T13:38:53Z",
+        "lastrevid": 4467335,
+        "length": 950
+      }
+    }
+  }
+}

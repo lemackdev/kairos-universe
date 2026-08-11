@@ -1,0 +1,19 @@
+{
+  "snapshotId": "leaguepedia-2026-08-03",
+  "generatedAt": "2026-08-03T15:03:10.344Z",
+  "organizations": 0,
+  "teams": 4,
+  "players": 31,
+  "staff": 0,
+  "rosterTenures": 31,
+  "staffTenures": 0,
+  "modernTenureRows": 0,
+  "fallbackRows": 48,
+  "queryErrors": [
+    "Tenures: You've exceeded your rate limit. Please wait some time and try again."
+  ],
+  "ambiguousCount": 2,
+  "duplicateCount": 0,
+  "missingFieldsCount": 29,
+  "warnings": []
+}

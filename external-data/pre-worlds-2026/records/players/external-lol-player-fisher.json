@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-fisher",
+  "slug": "external-fisher",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Fisher",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-detonation-focusme-fisher-pre-worlds-2026-domestic"
+  ]
+}

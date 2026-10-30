@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-369",
+  "slug": "external-369",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "369",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-top-esports-369-pre-worlds-2026-domestic"
+  ]
+}

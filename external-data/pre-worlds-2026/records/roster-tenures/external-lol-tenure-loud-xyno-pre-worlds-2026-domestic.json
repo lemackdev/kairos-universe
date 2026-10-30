@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-loud-xyno-pre-worlds-2026-domestic",
+  "slug": "external-loud-xyno-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "playerId": "external-lol-player-xyno",
+  "teamId": "external-lol-team-loud",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-10-10",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

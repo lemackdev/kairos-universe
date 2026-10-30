@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jopa",
+  "slug": "external-jopa",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Jopa",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-sk-gaming-jopa-pre-worlds-2026-domestic"
+  ]
+}

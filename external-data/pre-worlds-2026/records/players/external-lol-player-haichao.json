@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-haichao",
+  "slug": "external-haichao",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Haichao",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-oh-my-god-haichao-pre-worlds-2026-domestic"
+  ]
+}

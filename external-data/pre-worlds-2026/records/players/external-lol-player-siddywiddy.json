@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-siddywiddy",
+  "slug": "external-siddywiddy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "SiddyWiddy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-contingent-esports-siddywiddy-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-xiaoxia",
+  "slug": "external-xiaoxia",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Xiaoxia",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ultra-prime-xiaoxia-pre-worlds-2026-domestic"
+  ]
+}

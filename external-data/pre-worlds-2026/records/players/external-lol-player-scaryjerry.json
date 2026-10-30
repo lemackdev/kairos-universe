@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-scaryjerry",
+  "slug": "external-scaryjerry",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "ScaryJerry",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-maryville-university-scaryjerry-pre-worlds-2026-domestic"
+  ]
+}

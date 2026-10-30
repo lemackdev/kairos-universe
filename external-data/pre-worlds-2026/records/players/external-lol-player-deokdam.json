@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-deokdam",
+  "slug": "external-deokdam",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "deokdam",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-soopers-deokdam-pre-worlds-2026-domestic"
+  ]
+}

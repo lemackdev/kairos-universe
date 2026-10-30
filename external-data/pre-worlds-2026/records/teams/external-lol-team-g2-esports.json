@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-g2-esports",
+  "slug": "external-g2-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "G2 Esports",
+  "organizationId": "external-lol-org-g2-esports",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-g2-esports-brokenblade-pre-worlds-2026-domestic",
+    "external-lol-tenure-g2-esports-skewmond-pre-worlds-2026-domestic",
+    "external-lol-tenure-g2-esports-caps-pre-worlds-2026-domestic",
+    "external-lol-tenure-g2-esports-hans-sama-pre-worlds-2026-domestic",
+    "external-lol-tenure-g2-esports-labrov-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

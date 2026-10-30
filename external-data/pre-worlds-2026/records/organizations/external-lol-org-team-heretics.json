@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-team-heretics",
+  "slug": "external-team-heretics",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Team Heretics",
+  "teamIds": [
+    "external-lol-team-team-heretics"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

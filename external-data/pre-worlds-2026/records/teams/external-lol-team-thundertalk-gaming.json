@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-thundertalk-gaming",
+  "slug": "external-thundertalk-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "ThunderTalk Gaming",
+  "organizationId": "external-lol-org-thundertalk-gaming",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-thundertalk-gaming-keshi-pre-worlds-2026-domestic",
+    "external-lol-tenure-thundertalk-gaming-junhao-pre-worlds-2026-domestic",
+    "external-lol-tenure-thundertalk-gaming-heru-pre-worlds-2026-domestic",
+    "external-lol-tenure-thundertalk-gaming-ahn-pre-worlds-2026-domestic",
+    "external-lol-tenure-thundertalk-gaming-feather-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

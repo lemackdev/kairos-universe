@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-softbank-hawks-gaming",
+  "slug": "external-softbank-hawks-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "SoftBank HAWKS gaming",
+  "teamIds": [
+    "external-lol-team-softbank-hawks-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

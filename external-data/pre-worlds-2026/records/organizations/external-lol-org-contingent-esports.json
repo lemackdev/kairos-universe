@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-contingent-esports",
+  "slug": "external-contingent-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Contingent Esports",
+  "teamIds": [
+    "external-lol-team-contingent-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-flyquest",
+  "slug": "external-flyquest",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "FlyQuest",
+  "organizationId": "external-lol-org-flyquest",
+  "gameId": "league-of-legends",
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-flyquest-gakgos-pre-worlds-2026-domestic",
+    "external-lol-tenure-flyquest-gryffinn-pre-worlds-2026-domestic",
+    "external-lol-tenure-flyquest-quad-pre-worlds-2026-domestic",
+    "external-lol-tenure-flyquest-massu-pre-worlds-2026-domestic",
+    "external-lol-tenure-flyquest-cryogen-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

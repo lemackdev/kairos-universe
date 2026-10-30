@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-keyd-stars",
+  "slug": "external-keyd-stars",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "Keyd Stars",
+  "teamIds": [
+    "external-lol-team-keyd-stars"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

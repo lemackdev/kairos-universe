@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-furia",
+  "slug": "external-furia",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "FURIA",
+  "teamIds": [
+    "external-lol-team-furia"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

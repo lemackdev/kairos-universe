@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-uzent",
+  "slug": "external-uzent",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "uZent",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-loud-uzent-pre-worlds-2026-domestic"
+  ]
+}

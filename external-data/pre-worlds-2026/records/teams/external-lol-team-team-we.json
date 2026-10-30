@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-team-we",
+  "slug": "external-team-we",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "Team WE",
+  "organizationId": "external-lol-org-team-we",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-we-cube-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-we-monki-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-we-karis-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-we-about-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-we-erha-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-we-tyrion-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

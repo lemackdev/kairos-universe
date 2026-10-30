@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-keine",
+  "slug": "external-keine",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Keine",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-pain-gaming-keine-pre-worlds-2026-domestic"
+  ]
+}

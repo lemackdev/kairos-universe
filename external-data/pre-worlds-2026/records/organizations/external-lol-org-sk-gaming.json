@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-sk-gaming",
+  "slug": "external-sk-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "SK Gaming",
+  "teamIds": [
+    "external-lol-team-sk-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

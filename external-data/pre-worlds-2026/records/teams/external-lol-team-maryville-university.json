@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-team-maryville-university",
+  "slug": "external-maryville-university",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Maryville University",
+  "organizationId": "external-lol-org-maryville-university",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-maryville-university-crimson-pre-worlds-2026-domestic",
+    "external-lol-tenure-maryville-university-yuuji-pre-worlds-2026-domestic",
+    "external-lol-tenure-maryville-university-aojune-pre-worlds-2026-domestic",
+    "external-lol-tenure-maryville-university-scaryjerry-pre-worlds-2026-domestic",
+    "external-lol-tenure-maryville-university-obstinatus-pre-worlds-2026-domestic",
+    "external-lol-tenure-maryville-university-niles-pre-worlds-2026-domestic",
+    "external-lol-tenure-maryville-university-spirax-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "The event roster names Maryville University. A secondary statistics feed uses DarkZero Dragonsteel; no second entity or inferred rebrand was created."
+  ]
+}

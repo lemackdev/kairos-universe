@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-jd-gaming",
+  "slug": "external-jd-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "JD Gaming",
+  "teamIds": [
+    "external-lol-team-jd-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

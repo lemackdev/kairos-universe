@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-phymini",
+  "slug": "external-phymini",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "PhyMini",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nrg-phymini-pre-worlds-2026-domestic"
+  ]
+}

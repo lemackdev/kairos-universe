@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-tactical",
+  "slug": "external-tactical",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Tactical",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-tactical-pre-worlds-2026-domestic"
+  ]
+}

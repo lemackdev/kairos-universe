@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-loud",
+  "slug": "external-loud",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "LOUD",
+  "teamIds": [
+    "external-lol-team-loud"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

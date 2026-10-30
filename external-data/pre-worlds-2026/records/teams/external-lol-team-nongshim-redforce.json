@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-nongshim-redforce",
+  "slug": "external-nongshim-redforce",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "Nongshim RedForce",
+  "organizationId": "external-lol-org-nongshim-redforce",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-nongshim-redforce-kingen-pre-worlds-2026-domestic",
+    "external-lol-tenure-nongshim-redforce-sponge-pre-worlds-2026-domestic",
+    "external-lol-tenure-nongshim-redforce-scout-pre-worlds-2026-domestic",
+    "external-lol-tenure-nongshim-redforce-diable-pre-worlds-2026-domestic",
+    "external-lol-tenure-nongshim-redforce-lehends-pre-worlds-2026-domestic",
+    "external-lol-tenure-nongshim-redforce-calix-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

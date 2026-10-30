@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-junhao",
+  "slug": "external-junhao",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Junhao",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-thundertalk-gaming-junhao-pre-worlds-2026-domestic"
+  ]
+}

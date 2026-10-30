@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-tyrion",
+  "slug": "external-tyrion",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Tyrion",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-we-tyrion-pre-worlds-2026-domestic"
+  ]
+}

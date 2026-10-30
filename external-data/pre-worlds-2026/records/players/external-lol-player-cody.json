@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-cody",
+  "slug": "external-cody",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "cody",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fluxo-w7m-cody-pre-worlds-2026-domestic"
+  ]
+}

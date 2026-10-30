@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-lucid",
+  "slug": "external-lucid",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Lucid",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dplus-lucid-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-dignitas-denathor-pre-worlds-2026-domestic",
+  "slug": "external-dignitas-denathor-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "playerId": "external-lol-player-denathor",
+  "teamId": "external-lol-team-dignitas",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-10-04",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

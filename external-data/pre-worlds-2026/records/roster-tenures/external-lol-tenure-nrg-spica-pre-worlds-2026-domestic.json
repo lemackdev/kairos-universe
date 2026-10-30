@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-nrg-spica-pre-worlds-2026-domestic",
+  "slug": "external-nrg-spica-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "playerId": "external-lol-player-spica",
+  "teamId": "external-lol-team-nrg",
+  "role": "support",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-11",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

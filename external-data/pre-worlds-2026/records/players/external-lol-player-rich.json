@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-rich",
+  "slug": "external-rich",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Rich",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-drx-rich-pre-worlds-2026-domestic"
+  ]
+}

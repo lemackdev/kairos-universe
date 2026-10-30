@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-winthrop-university",
+  "slug": "external-winthrop-university",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Winthrop University",
+  "organizationId": "external-lol-org-winthrop-university",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-winthrop-university-berik-pre-worlds-2026-domestic",
+    "external-lol-tenure-winthrop-university-wilson-pre-worlds-2026-domestic",
+    "external-lol-tenure-winthrop-university-samikin-pre-worlds-2026-domestic",
+    "external-lol-tenure-winthrop-university-tomo-pre-worlds-2026-domestic",
+    "external-lol-tenure-winthrop-university-kim-down-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-lyonz",
+  "slug": "external-lyonz",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Lyonz",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-disguised-lyonz-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-siuloong",
+  "slug": "external-siuloong",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "SiuLoong",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-mvk-esports-siuloong-pre-worlds-2026-domestic"
+  ]
+}

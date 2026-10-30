@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-daption",
+  "slug": "external-daption",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Daption",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-contingent-esports-daption-pre-worlds-2026-domestic"
+  ]
+}

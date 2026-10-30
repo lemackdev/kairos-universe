@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jackies",
+  "slug": "external-jackies",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Jackies",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-giantx-jackies-pre-worlds-2026-domestic"
+  ]
+}

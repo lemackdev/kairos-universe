@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-razork",
+  "slug": "external-razork",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Razork",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fnatic-razork-pre-worlds-2026-domestic"
+  ]
+}

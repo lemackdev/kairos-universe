@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-sponge",
+  "slug": "external-sponge",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Sponge",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nongshim-redforce-sponge-pre-worlds-2026-domestic"
+  ]
+}

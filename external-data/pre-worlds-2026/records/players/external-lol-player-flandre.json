@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-flandre",
+  "slug": "external-flandre",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Flandre",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-bilibili-gaming-flandre-pre-worlds-2026-domestic"
+  ]
+}

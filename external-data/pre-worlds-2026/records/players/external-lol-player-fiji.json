@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-fiji",
+  "slug": "external-fiji",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Fiji",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ccg-esports-fiji-pre-worlds-2026-domestic"
+  ]
+}

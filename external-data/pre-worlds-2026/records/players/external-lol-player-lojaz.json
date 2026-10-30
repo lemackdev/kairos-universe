@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-lojaz",
+  "slug": "external-lojaz",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Lojaz",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dorado-gaming-lojaz-pre-worlds-2026-domestic"
+  ]
+}

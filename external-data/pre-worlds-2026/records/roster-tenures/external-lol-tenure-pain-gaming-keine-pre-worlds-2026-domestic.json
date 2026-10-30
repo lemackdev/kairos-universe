@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-pain-gaming-keine-pre-worlds-2026-domestic",
+  "slug": "external-pain-gaming-keine-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "playerId": "external-lol-player-keine",
+  "teamId": "external-lol-team-pain-gaming",
+  "role": "mid",
+  "designation": "main",
+  "observedAtEventEnd": "2026-10-10",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

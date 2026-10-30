@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-srtty",
+  "slug": "external-srtty",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Srtty",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-disguised-srtty-pre-worlds-2026-domestic"
+  ]
+}

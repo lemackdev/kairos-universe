@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-weiwei",
+  "slug": "external-weiwei",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Weiwei",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lng-esports-weiwei-pre-worlds-2026-domestic"
+  ]
+}

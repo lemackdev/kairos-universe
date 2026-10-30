@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-leza",
+  "slug": "external-leza",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Leza",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ccg-esports-leza-pre-worlds-2026-domestic"
+  ]
+}

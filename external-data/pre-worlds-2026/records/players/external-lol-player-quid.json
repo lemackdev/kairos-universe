@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-quid",
+  "slug": "external-quid",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Quid",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-liquid-quid-pre-worlds-2026-domestic"
+  ]
+}

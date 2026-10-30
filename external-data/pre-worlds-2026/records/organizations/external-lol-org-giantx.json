@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-giantx",
+  "slug": "external-giantx",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "GIANTX",
+  "teamIds": [
+    "external-lol-team-giantx"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

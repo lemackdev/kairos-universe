@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-canyon",
+  "slug": "external-canyon",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Canyon",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gen-g-esports-canyon-pre-worlds-2026-domestic"
+  ]
+}

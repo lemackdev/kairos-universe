@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-alvaro",
+  "slug": "external-alvaro",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Alvaro",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-movistar-koi-alvaro-pre-worlds-2026-domestic"
+  ]
+}

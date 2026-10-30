@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-assum",
+  "slug": "external-assum",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Assum",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-invictus-gaming-assum-pre-worlds-2026-domestic"
+  ]
+}

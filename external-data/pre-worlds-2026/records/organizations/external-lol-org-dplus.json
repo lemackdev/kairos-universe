@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-dplus",
+  "slug": "external-dplus",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "Dplus",
+  "teamIds": [
+    "external-lol-team-dplus"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

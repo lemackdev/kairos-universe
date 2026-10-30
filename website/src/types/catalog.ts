@@ -52,6 +52,10 @@ export interface RosterEntryView {
   isCaptain: boolean;
   isStarter: boolean;
   joinedDate: string | null;
+  leftDate: string | null;
+  teamId: string;
+  teamName: string;
+  teamSlug: string | null;
 }
 
 export interface StaffEntryView {
@@ -98,6 +102,10 @@ export interface TeamView {
   captainPlayerId: string;
   trainingLocation: LocationRecord;
   roster: RosterEntryView[];
+  formerRoster: RosterEntryView[];
+  officialMatchCount: number;
+  history: string[];
+  timeline: EpisodeView[];
   staff: StaffEntryView[];
   mentors: MentorView[];
   relatedEpisodes: EpisodeView[];
@@ -127,10 +135,55 @@ export interface PlayerView {
   episodeAppearances: EpisodeView[];
   historicalAliases: HistoricalAlias[];
   teamHistory: RosterEntryView[];
+  trivia: string[];
+  awards: AwardView[];
+  tournamentResults: TournamentResultView[];
+  officialMatchCount: number;
   mentor: MentorView | null;
   statistics: Record<string, unknown>;
   sources: SourceView[];
   canonNotes: string[];
+}
+
+export interface AwardView {
+  id: string;
+  name: string;
+  date: string | null;
+  recipientName: string;
+  recipientHref: string | null;
+  competitionName: string | null;
+  sources: SourceView[];
+}
+
+export interface TournamentResultView {
+  id: string;
+  competitionName: string;
+  competitionSlug: string;
+  teamName: string;
+  teamSlug: string | null;
+  place: number | null;
+  date: string | null;
+}
+
+export interface CompetitionView {
+  id: string;
+  slug: string;
+  name: string;
+  gameId: string;
+  gameName: string;
+  status: string;
+  overview: string | null;
+  format: string[];
+  organizer: string | null;
+  location: string | null;
+  startDate: string | null;
+  endDate: string | null;
+  prizePool: string | null;
+  prizes: Array<{ place: string; prize: string | null; teamName: string | null }>;
+  participants: Array<{ id: string; name: string; slug: string }>;
+  results: TournamentResultView[];
+  awards: AwardView[];
+  sources: SourceView[];
 }
 
 export interface StaffView {
@@ -169,7 +222,8 @@ export type SearchEntityType =
   | "organization"
   | "team"
   | "player"
-  | "staff";
+  | "staff"
+  | "competition";
 
 export interface SearchRecord {
   id: string;
@@ -193,13 +247,14 @@ export interface CatalogMetadata {
 }
 
 export interface KairospediaCatalog {
+  externalScene?: import("./external-scene").ExternalScene;
   metadata: CatalogMetadata;
   games: GameView[];
   organizations: OrganizationView[];
   teams: TeamView[];
   players: PlayerView[];
   staff: StaffView[];
-  competitions: [];
+  competitions: CompetitionView[];
   matches: [];
   transfers: [];
   routes: string[];

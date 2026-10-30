@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hongsuo",
+  "slug": "external-hongsuo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "HongSuo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-deep-cross-gaming-hongsuo-pre-worlds-2026-domestic"
+  ]
+}

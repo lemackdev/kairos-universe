@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-cariok",
+  "slug": "external-cariok",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Cariok",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-pain-gaming-cariok-pre-worlds-2026-domestic"
+  ]
+}

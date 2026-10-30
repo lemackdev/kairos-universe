@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-lng-esports-1xn-pre-worlds-2026-domestic",
+  "slug": "external-lng-esports-1xn-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "playerId": "external-lol-player-1xn",
+  "teamId": "external-lol-team-lng-esports",
+  "role": "bot",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-13",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

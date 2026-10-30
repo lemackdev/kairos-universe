@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-hanwha-life-esports",
+  "slug": "external-hanwha-life-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "Hanwha Life Esports",
+  "teamIds": [
+    "external-lol-team-hanwha-life-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

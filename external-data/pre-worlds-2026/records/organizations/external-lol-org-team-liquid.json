@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-team-liquid",
+  "slug": "external-team-liquid",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Team Liquid",
+  "teamIds": [
+    "external-lol-team-team-liquid"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

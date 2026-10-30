@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-rahel",
+  "slug": "external-rahel",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Rahel",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-sentinels-rahel-pre-worlds-2026-domestic"
+  ]
+}

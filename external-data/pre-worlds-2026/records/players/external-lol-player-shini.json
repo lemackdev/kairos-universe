@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-shini",
+  "slug": "external-shini",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Shini",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-furia-shini-pre-worlds-2026-domestic"
+  ]
+}

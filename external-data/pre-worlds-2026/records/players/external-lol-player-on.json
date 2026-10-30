@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-on",
+  "slug": "external-on",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "ON",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-bilibili-gaming-on-pre-worlds-2026-domestic"
+  ]
+}

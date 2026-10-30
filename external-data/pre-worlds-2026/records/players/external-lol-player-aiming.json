@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-aiming",
+  "slug": "external-aiming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Aiming",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-drx-aiming-pre-worlds-2026-domestic"
+  ]
+}

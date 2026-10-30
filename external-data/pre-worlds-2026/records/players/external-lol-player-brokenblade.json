@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-brokenblade",
+  "slug": "external-brokenblade",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "BrokenBlade",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-g2-esports-brokenblade-pre-worlds-2026-domestic"
+  ]
+}

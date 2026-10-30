@@ -1,14 +1,21 @@
-import { EmptyCatalogPage } from "@/components/EmptyCatalogPage";
-
-export const metadata = { title: "Competitions" };
-
+import Link from "next/link";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { PageHeader } from "@/components/PageHeader";
+import { EmptyState } from "@/components/EmptyState";
+import { getCatalog } from "@/lib/canon/server";
+export const metadata = { title: "Tournaments" };
 export default function CompetitionsPage() {
-  return (
-    <EmptyCatalogPage
-      title="Competitions"
-      description="The architecture supports competitions, seasons, splits, stages, groups, rounds, series, standings, and qualification paths."
-      emptyTitle="No competition records published"
-      emptyDescription="Kairos has an intended competitive destination, but Kairospedia does not convert that intention into a fictional season, schedule, participant list, or standing."
-    />
-  );
+  const { competitions } = getCatalog();
+  return <>
+    <Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Tournaments" }]} />
+    <PageHeader title="Tournaments" eyebrow="Competition directory" compact
+      description="Tournament formats, participants, prize pools, results, and MVPs across the Kairos Universe." />
+    <section className="contentSection">
+      {competitions.length ? <ul className="entityList">{competitions.map((competition) => <li key={competition.id}>
+        <Link href={`/wiki/competitions/${competition.slug}`}>{competition.name}</Link>
+        <p>{competition.gameName} / {competition.status}</p>
+      </li>)}</ul> : <EmptyState title="No tournaments published yet"
+        description="Confirmed tournaments will appear here with Overview, Tournament Information, Prize Pool, Participants, Results, and MVPs. Planned team participation alone does not establish a tournament record." />}
+    </section>
+  </>;
 }

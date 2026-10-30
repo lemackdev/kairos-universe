@@ -13,8 +13,8 @@ export default function WikiHomePage() {
       <Breadcrumbs items={[{ label: "Kairospedia" }]} />
       <PageHeader
         eyebrow="Release 01 / Canon indexed"
-        title="A living record of a world before its first official match."
-        description="The esports encyclopedia of the Kairos Universe. This first publication opens one carefully bounded window: the Kairos League of Legends main team."
+        title="The people, teams, and history of a competitive world."
+        description="The esports encyclopedia of the Kairos Universe. Explore Kairos League canon and a separately sourced pre-Worlds 2026 reference scene."
         badges={
           <>
             <CanonBadge />
@@ -27,26 +27,26 @@ export default function WikiHomePage() {
         <div className="sectionHeader">
           <div>
             <span className="sectionKicker">Current release</span>
-            <h2 id="release-scope">One team, fully sourced</h2>
+            <h2 id="release-scope">Kairos canon publication</h2>
           </div>
           <p>
-            Canon remains broader than this website. The publication manifest
-            prevents unfinished divisions and external entities from leaking
-            into pages, routes, or search.
+            Canon remains broader than this website. Unfinished Kairos divisions
+            remain hidden. External reference research is published separately
+            and does not change the narrative.
           </p>
         </div>
         <div className="metricGrid">
           <div className="metricCard">
             <div className="metricValue">{catalog.organizations.length}</div>
-            <div className="metricLabel">Published organization</div>
+            <div className="metricLabel">Canon organization</div>
           </div>
           <div className="metricCard">
             <div className="metricValue">{catalog.teams.length}</div>
-            <div className="metricLabel">Published team</div>
+            <div className="metricLabel">Canon team</div>
           </div>
           <div className="metricCard">
             <div className="metricValue">{catalog.players.length}</div>
-            <div className="metricLabel">Active players</div>
+            <div className="metricLabel">Active Kairos players</div>
           </div>
         </div>
       </section>
@@ -59,6 +59,9 @@ export default function WikiHomePage() {
           </div>
         </div>
         <div className="entityGrid">
+          {catalog.externalScene && <EntityCard href="/wiki/world" kicker="Real-world references"
+            title="Before Worlds 2026" description="LCK, LPL, LEC, CBLOL, LCS, LCP and NACL. Source-linked tournament rosters, review pending."
+            meta={`${catalog.externalScene.teams.length} teams / ${catalog.externalScene.players.length} players`} />}
           <EntityCard
             href="/wiki/games/league-of-legends"
             kicker="Game"

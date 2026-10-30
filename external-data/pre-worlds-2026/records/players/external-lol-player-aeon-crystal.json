@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-aeon-crystal",
+  "slug": "external-aeon-crystal",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Aeon Crystal",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ccg-esports-aeon-crystal-pre-worlds-2026-domestic"
+  ]
+}

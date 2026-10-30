@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-ctbc-flying-oyster",
+  "slug": "external-ctbc-flying-oyster",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "CTBC Flying Oyster",
+  "teamIds": [
+    "external-lol-team-ctbc-flying-oyster"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

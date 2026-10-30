@@ -13,7 +13,28 @@
     "status": { "enum": ["draft", "planned", "active", "completed", "cancelled"] },
     "seasonIds": { "$ref": "common.schema.json#/$defs/idArray" },
     "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
-    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
+    "overview": { "type": "string" },
+    "format": { "type": "array", "items": { "type": "string" } },
+    "organizer": { "type": ["string", "null"] },
+    "location": { "type": ["string", "null"] },
+    "startDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "endDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "prizePool": { "type": ["string", "null"] },
+    "participantTeamIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "prizeDistribution": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["place", "prize", "teamId"],
+        "properties": {
+          "place": { "type": "string" },
+          "prize": { "type": ["string", "null"] },
+          "teamId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" }
+        },
+        "additionalProperties": false
+      }
+    }
   },
   "additionalProperties": false
 }

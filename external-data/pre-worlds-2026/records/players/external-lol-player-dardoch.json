@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-dardoch",
+  "slug": "external-dardoch",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Dardoch",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dignitas-dardoch-pre-worlds-2026-domestic"
+  ]
+}

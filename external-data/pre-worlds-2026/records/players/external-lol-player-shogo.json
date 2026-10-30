@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-shogo",
+  "slug": "external-shogo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Shogo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nrg-shogo-pre-worlds-2026-domestic"
+  ]
+}

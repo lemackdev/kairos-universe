@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-ccg-esports",
+  "slug": "external-ccg-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "CCG Esports",
+  "organizationId": "external-lol-org-ccg-esports",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-ccg-esports-fiji-pre-worlds-2026-domestic",
+    "external-lol-tenure-ccg-esports-aeon-crystal-pre-worlds-2026-domestic",
+    "external-lol-tenure-ccg-esports-leza-pre-worlds-2026-domestic",
+    "external-lol-tenure-ccg-esports-spawn-pre-worlds-2026-domestic",
+    "external-lol-tenure-ccg-esports-only35-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

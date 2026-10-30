@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-blaber",
+  "slug": "external-blaber",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Blaber",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-blaber-pre-worlds-2026-domestic"
+  ]
+}

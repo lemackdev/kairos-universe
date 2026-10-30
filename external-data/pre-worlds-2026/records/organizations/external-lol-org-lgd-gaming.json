@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-lgd-gaming",
+  "slug": "external-lgd-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "LGD Gaming",
+  "teamIds": [
+    "external-lol-team-lgd-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

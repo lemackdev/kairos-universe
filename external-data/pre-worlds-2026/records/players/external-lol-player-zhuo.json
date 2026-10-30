@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zhuo",
+  "slug": "external-zhuo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Zhuo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-top-esports-zhuo-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
 
@@ -58,11 +59,12 @@ export default function AboutPage() {
       <section className="contentSection">
         <h2>Current boundary</h2>
         <p>
-          This release publishes only Kairos Esports, its League of Legends
+          The canonical collection publishes only Kairos Esports, its League of Legends
           main team, five active players, directly associated League staff, and
           confirmed mentorship relationships. Other canonical divisions remain
           hidden until a controlled publication update.
         </p>
+        <p>A separate <Link href="/wiki/world">pre-Worlds 2026 reference collection</Link> covers LCK, LPL, LEC, CBLOL, LCS, LCP and NACL. These event-roster observations are researched but still need final source review. They do not establish fictional appearances, current contracts or match results.</p>
       </section>
     </>
   );

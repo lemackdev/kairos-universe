@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-stend",
+  "slug": "external-stend",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Stend",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-shifters-stend-pre-worlds-2026-domestic"
+  ]
+}

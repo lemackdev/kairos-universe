@@ -4,6 +4,7 @@ import type {
   RawPlayer,
   RawStaff,
   RawTeam,
+  RawAward,
   RosterTenure,
   SourceRecord,
   StaffTenure,
@@ -30,6 +31,7 @@ import {
   getTeamStaffAtDate,
 } from "@/lib/canon/tenures";
 import { validateCanonUniverse } from "@/lib/validation/canon";
+import { buildCompetitionViews } from "./competitions";
 
 import type { CanonUniverse } from "@/types/canon";
 
@@ -38,7 +40,9 @@ const gameIdByName: Record<string, string> = {
   "Counter-Strike": "game-counter-strike",
 };
 
-const roleOrder = ["Top", "Jungle", "Mid", "ADC", "Support"];
+const roleOrderByGame: Record<string, string[]> = {
+  "League of Legends": ["Top", "Jungle", "Mid", "ADC", "Support"],
+};
 
 export function buildCatalog(
   universe: CanonUniverse,
@@ -60,6 +64,9 @@ export function buildCatalog(
   const staffTenures = getCollection<StaffTenure>(universe, "staff-tenures");
   const sources = byId(getCollection<SourceRecord>(universe, "sources"));
   const narrativeDate = universe.version.currentNarrativeDate;
+  const officialMatches = (universe.collections.matches ?? []).filter((match) =>
+    match.officialStatus === "official" && publication.enabledMatches.includes(String(match.id)));
+  const lineups = universe.collections.lineups ?? [];
 
   const episodeView = (episode: RawEpisode): EpisodeView => ({
     id: episode.id,
@@ -72,7 +79,7 @@ export function buildCatalog(
     summary: episode.teams.some(
       (teamId) => !publication.enabledTeams.includes(teamId),
     )
-      ? "This episode contains a canonical update relevant to the published League record. Other teams in the episode remain outside this release."
+      ? "This episode includes a team update. Its full summary also covers teams outside the current publication."
       : episode.summary,
   });
 
@@ -103,11 +110,17 @@ export function buildCatalog(
     slug: player.slug,
     realName: player.realName,
     nickname: player.nickname,
-    role: player.role,
+    role: String((universe.shared.roles ?? []).find((role) => role.id === tenure.roleId)?.name ?? "Unknown"),
     rosterStatus: tenure.rosterStatus,
     isCaptain: tenure.isCaptain,
     isStarter: tenure.isStarter,
     joinedDate: exactOrNull(tenure.effectiveDate ?? tenure.joinedDate),
+    leftDate: exactOrNull(tenure.leftDate),
+    teamId: tenure.teamId,
+    teamName: publication.enabledTeams.includes(tenure.teamId)
+      ? teams.get(tenure.teamId)?.name ?? "Unknown" : "Unpublished team",
+    teamSlug: publication.enabledTeams.includes(tenure.teamId)
+      ? teams.get(tenure.teamId)?.slug ?? null : null,
   });
 
   const staffEntry = (
@@ -151,10 +164,15 @@ export function buildCatalog(
         return rosterEntry(tenure, player);
       })
       .sort(
-        (a, b) => roleOrder.indexOf(a.role) - roleOrder.indexOf(b.role),
+        (a, b) => {
+          const order = roleOrderByGame[team.game];
+          return order ? order.indexOf(a.role) - order.indexOf(b.role) : 0;
+        },
       );
 
-    const divisionId = "division-league-of-legends";
+    const divisionId = String((universe.shared.divisions ?? []).find(
+      (division) => division.name === team.game,
+    )?.id ?? "TBD");
     const teamStaff = getTeamStaffAtDate(
       staffTenures,
       team.id,
@@ -191,21 +209,29 @@ export function buildCatalog(
       divisionId,
       rosterLevel: team.level,
       status: team.status,
-      competitiveState: "Training and pre-debut",
+      competitiveState: team.status.replaceAll("-", " "),
       intendedCompetition: team.intendedCompetition,
       currentStoryPeriod: team.currentStoryPeriod.displayName,
       officialDebutPeriod: `${team.officialDebutPeriod.month} ${team.officialDebutPeriod.exactYear}`,
       captainPlayerId: team.captain as string,
       trainingLocation: team.trainingLocation,
       roster: teamRoster,
+      officialMatchCount: officialMatches.filter((match) => match.teamAId === team.id || match.teamBId === team.id).length,
+      formerRoster: rosterTenures.filter((tenure) =>
+        tenure.teamId === team.id && tenure.canonStatus === "confirmed" &&
+        tenure.leftDate && tenure.leftDate !== "TBD" && tenure.leftDate < narrativeDate &&
+        publication.enabledPlayers.includes(tenure.playerId),
+      ).map((tenure) => rosterEntry(tenure, players.get(tenure.playerId)!)),
+      history: team.confirmedFacts.filter((fact) =>
+        !/born |age \d|current narrative date/i.test(fact)),
+      timeline: episodes.filter((episode) => episode.canonStatus === "confirmed" && episode.teams.includes(team.id))
+        .sort((a, b) => a.episodeNumber - b.episodeNumber).map(episodeView),
       staff: teamStaff,
       mentors,
       relatedEpisodes,
       sources: sourceViews([
-        "source-team-kairos-lol-main",
-        "source-document-league-staff",
-        "source-document-league-mentors",
-        "source-document-league-relationships",
+        ...rosterTenures.filter((tenure) => tenure.teamId === team.id).flatMap((tenure) => tenure.sourceIds),
+        ...staffTenures.filter((tenure) => tenure.teamId === team.id || tenure.divisionId === divisionId).flatMap((tenure) => tenure.sourceIds),
         "source-kairos-version",
       ]),
       achievements: team.achievements,
@@ -227,7 +253,9 @@ export function buildCatalog(
       .sort((a, b) => a.episodeNumber - b.episodeNumber)
       .map(episodeView);
     const first = episodes.find((episode) => episode.id === player.firstAppearance);
-    const history = getPlayerTeamHistory(rosterTenures, player.id).map(
+    const history = getPlayerTeamHistory(rosterTenures, player.id).filter(
+      (tenure) => publication.enabledTeams.includes(tenure.teamId),
+    ).map(
       (tenure) => rosterEntry(tenure, player),
     );
     const sourceIds = history.flatMap((tenure) => {
@@ -256,6 +284,18 @@ export function buildCatalog(
       episodeAppearances: appearances,
       historicalAliases: player.historicalAliases,
       teamHistory: history,
+      trivia: (player.trivia ?? []).filter((fact) => fact !== "TBD"),
+      awards: getCollection<RawAward>(universe, "awards")
+        .filter((award) => award.recipientId === player.id && award.canonStatus === "confirmed" &&
+          (!award.competitionId || award.competitionId === "TBD" || publication.enabledCompetitions.includes(award.competitionId)))
+        .map((award) => ({
+          id: award.id, name: award.name, date: exactOrNull(award.date),
+          recipientName: player.nickname, recipientHref: `/wiki/players/${player.slug}`,
+          competitionName: null, sources: sourceViews(award.sourceIds),
+        })),
+      tournamentResults: [],
+      officialMatchCount: officialMatches.filter((match) => lineups.some((lineup) =>
+        lineup.matchId === match.id && Array.isArray(lineup.playerIds) && lineup.playerIds.includes(player.id))).length,
       mentor: mentorForPlayer(player),
       statistics: player.statistics,
       sources: sourceViews([...sourceIds, "source-kairos-version"]),
@@ -374,6 +414,22 @@ export function buildCatalog(
     };
   });
 
+  const competitionViews = buildCompetitionViews(universe, publication, teamViews, playerViews, sourceViews);
+  for (const player of playerViews) {
+    // Only match-specific lineups establish participation, never the current roster.
+    for (const competition of competitionViews) {
+      const playedTeamIds = new Set(lineups.filter((lineup) =>
+        Array.isArray(lineup.playerIds) && lineup.playerIds.includes(player.id) &&
+        officialMatches.some((match) => match.id === lineup.matchId && match.competitionId === competition.id),
+      ).map((lineup) => lineup.teamId));
+      player.tournamentResults.push(...competition.results.filter((result) =>
+        teamViews.some((team) => team.slug === result.teamSlug && playedTeamIds.has(team.id))));
+      for (const award of player.awards) {
+        if (competition.awards.some((entry) => entry.id === award.id)) award.competitionName = competition.name;
+      }
+    }
+  }
+
   const routes = [
     "/wiki",
     "/wiki/about",
@@ -393,6 +449,7 @@ export function buildCatalog(
     ...teamViews.map((team) => `/wiki/teams/${team.slug}`),
     ...playerViews.map((player) => `/wiki/players/${player.slug}`),
     ...staffViews.map((person) => `/wiki/staff/${person.slug}`),
+    ...competitionViews.map((competition) => `/wiki/competitions/${competition.slug}`),
   ];
 
   return {
@@ -412,7 +469,7 @@ export function buildCatalog(
     teams: teamViews,
     players: playerViews,
     staff: staffViews,
-    competitions: [],
+    competitions: competitionViews,
     matches: [],
     transfers: [],
     routes: [...new Set(routes)].sort((a, b) => a.localeCompare(b)),

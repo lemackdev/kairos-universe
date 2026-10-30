@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-draktharr",
+  "slug": "external-draktharr",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Draktharr",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gam-esports-draktharr-pre-worlds-2026-domestic"
+  ]
+}

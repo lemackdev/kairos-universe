@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-team-liquid",
+  "slug": "external-team-liquid",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Team Liquid",
+  "organizationId": "external-lol-org-team-liquid",
+  "gameId": "league-of-legends",
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-liquid-morgan-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-liquid-josedeodo-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-liquid-quid-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-liquid-yeon-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-liquid-corejj-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

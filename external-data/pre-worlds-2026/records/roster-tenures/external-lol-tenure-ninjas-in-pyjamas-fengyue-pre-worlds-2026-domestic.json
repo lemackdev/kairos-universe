@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-ninjas-in-pyjamas-fengyue-pre-worlds-2026-domestic",
+  "slug": "external-ninjas-in-pyjamas-fengyue-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "playerId": "external-lol-player-fengyue",
+  "teamId": "external-lol-team-ninjas-in-pyjamas",
+  "role": "support",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-13",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-erha",
+  "slug": "external-erha",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Erha",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-we-erha-pre-worlds-2026-domestic"
+  ]
+}

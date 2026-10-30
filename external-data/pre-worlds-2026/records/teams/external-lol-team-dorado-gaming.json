@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-dorado-gaming",
+  "slug": "external-dorado-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Dorado Gaming",
+  "organizationId": "external-lol-org-dorado-gaming",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-dorado-gaming-decoy-pre-worlds-2026-domestic",
+    "external-lol-tenure-dorado-gaming-lojaz-pre-worlds-2026-domestic",
+    "external-lol-tenure-dorado-gaming-aadam-pre-worlds-2026-domestic",
+    "external-lol-tenure-dorado-gaming-hub-pre-worlds-2026-domestic",
+    "external-lol-tenure-dorado-gaming-inflame-pre-worlds-2026-domestic",
+    "external-lol-tenure-dorado-gaming-redemption-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

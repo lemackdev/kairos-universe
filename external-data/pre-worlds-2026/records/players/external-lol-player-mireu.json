@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-mireu",
+  "slug": "external-mireu",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Mireu",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-keyd-stars-mireu-pre-worlds-2026-domestic"
+  ]
+}

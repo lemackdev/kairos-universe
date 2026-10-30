@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-heng",
+  "slug": "external-heng",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Heng",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lgd-gaming-heng-pre-worlds-2026-domestic"
+  ]
+}

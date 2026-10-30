@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-carzzy",
+  "slug": "external-carzzy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Carzzy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-vitality-carzzy-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zekas",
+  "slug": "external-zekas",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Zekas",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-keyd-stars-zekas-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-bie",
+  "slug": "external-bie",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Bie",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-secret-whales-bie-pre-worlds-2026-domestic"
+  ]
+}

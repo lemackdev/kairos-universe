@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-cupid-esports",
+  "slug": "external-cupid-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Cupid eSports",
+  "teamIds": [
+    "external-lol-team-cupid-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

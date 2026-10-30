@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-tracyn",
+  "slug": "external-tracyn",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Tracyn",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-heretics-tracyn-pre-worlds-2026-domestic"
+  ]
+}

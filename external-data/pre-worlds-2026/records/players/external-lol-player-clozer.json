@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-clozer",
+  "slug": "external-clozer",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Clozer",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-soopers-clozer-pre-worlds-2026-domestic"
+  ]
+}

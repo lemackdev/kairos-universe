@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-cryogen",
+  "slug": "external-cryogen",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Cryogen",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-flyquest-cryogen-pre-worlds-2026-domestic"
+  ]
+}

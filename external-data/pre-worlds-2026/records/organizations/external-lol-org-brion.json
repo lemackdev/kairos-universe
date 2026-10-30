@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-brion",
+  "slug": "external-brion",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "BRION",
+  "teamIds": [
+    "external-lol-team-brion"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

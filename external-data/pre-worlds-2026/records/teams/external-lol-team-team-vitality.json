@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-team-vitality",
+  "slug": "external-team-vitality",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Team Vitality",
+  "organizationId": "external-lol-org-team-vitality",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-vitality-naak-nako-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-vitality-lyncas-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-vitality-fiesta-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-vitality-carzzy-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-vitality-fleshy-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

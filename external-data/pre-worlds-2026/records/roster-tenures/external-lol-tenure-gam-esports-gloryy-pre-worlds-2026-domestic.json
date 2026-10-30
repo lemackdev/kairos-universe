@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-gam-esports-gloryy-pre-worlds-2026-domestic",
+  "slug": "external-gam-esports-gloryy-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-gloryy",
+  "teamId": "external-lol-team-gam-esports",
+  "role": "mid",
+  "designation": "main",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

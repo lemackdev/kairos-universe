@@ -6,7 +6,7 @@ export function StaffTable({ staff }: { staff: StaffEntryView[] }) {
   return (
     <div className="tableWrap">
       <table className="dataTable">
-        <caption className="srOnly">Directly published League staff</caption>
+        <caption className="srOnly">Coaching and support staff</caption>
         <thead>
           <tr>
             <th scope="col">Person</th>
@@ -27,7 +27,7 @@ export function StaffTable({ staff }: { staff: StaffEntryView[] }) {
               </td>
               <td data-label="Title">{entry.title}</td>
               <td data-label="Scope">
-                {entry.teamScope ? "Main team" : "League division"}
+                {entry.teamScope ? "Team" : "Division"}
               </td>
               <td data-label="Status">{entry.status}</td>
             </tr>

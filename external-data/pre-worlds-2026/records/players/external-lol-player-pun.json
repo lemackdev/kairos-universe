@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-pun",
+  "slug": "external-pun",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Pun",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-secret-whales-pun-pre-worlds-2026-domestic"
+  ]
+}

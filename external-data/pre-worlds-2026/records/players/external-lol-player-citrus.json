@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-citrus",
+  "slug": "external-citrus",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Citrus",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-detonation-focusme-citrus-pre-worlds-2026-domestic"
+  ]
+}

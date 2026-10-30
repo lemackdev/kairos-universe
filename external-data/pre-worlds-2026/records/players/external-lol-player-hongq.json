@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hongq",
+  "slug": "external-hongq",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "HongQ",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-jd-gaming-hongq-pre-worlds-2026-domestic"
+  ]
+}

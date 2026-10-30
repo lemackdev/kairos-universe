@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-gen-g-esports",
+  "slug": "external-gen-g-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "Gen.G Esports",
+  "teamIds": [
+    "external-lol-team-gen-g-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

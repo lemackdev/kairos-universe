@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-eddie",
+  "slug": "external-eddie",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Eddie",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-secret-whales-eddie-pre-worlds-2026-domestic"
+  ]
+}

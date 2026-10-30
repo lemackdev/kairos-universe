@@ -1,0 +1,299 @@
+{
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "expectedTeamCount": 8,
+  "sourceId": "source-pre-worlds-2026-lcs",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/LCS/2026/Summer",
+  "eventName": "LCS 2026 Summer",
+  "eventEndDate": "2026-10-04",
+  "teams": [
+    {
+      "key": "cloud9",
+      "name": "Cloud9",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Thanatos",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Blaber",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Loki",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tactical",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Vulcan",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "APA",
+          "role": "mid",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Zven",
+          "role": "bot",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "dignitas",
+      "name": "Dignitas",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Denathor",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Dardoch",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Palafox",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "FBI",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "IgNar",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "flyquest",
+      "name": "FlyQuest",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "GaKGoS",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Gryffinn",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Quad",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Massu",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Cryogen",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "lyon",
+      "name": "LYON",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Dhokla",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Inspired",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Saint",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Berserker",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Isles",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Armao",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "sentinels",
+      "name": "Sentinels",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Impact",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "HamBak",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "DARKWINGS",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Rahel",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "huhi",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "shopify-rebellion",
+      "name": "Shopify Rebellion",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Fudge",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Contractz",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Zinie",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Bvoy",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Zeyzal",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "team-liquid",
+      "name": "Team Liquid",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Morgan",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Josedeodo",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Quid",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Yeon",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "CoreJJ",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "disguised",
+      "name": "Disguised",
+      "sourceId": "source-pre-worlds-2026-lcs",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Srtty",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "KryRa",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Callme",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sajed",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Lyonz",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    }
+  ]
+}

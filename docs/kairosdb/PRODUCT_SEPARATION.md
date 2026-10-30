@@ -8,7 +8,7 @@ repository root).
 |---|---|---|
 | Purpose | Narrative canon encyclopedia | Competitive career and results database |
 | Covers | Episodes, characters, relationships, organizations, locations, landmarks, world state, historical context | Players, teams, organizations, rosters, staff, roster histories, transfers, competitions, matches, results, statistics, career histories |
-| Data origin | Kairos Universe canon only | Kairos Universe canon (5 League players + team) **and** a frozen external Leaguepedia snapshot |
+| Data origin | Kairos Universe canon plus separately labeled pre-Worlds 2026 reference articles | Kairos Universe canon (5 League players + team) and its separately selected external Leaguepedia snapshot |
 | App | Independent Next.js app, own `package.json`, routes, catalogs, validation, README | Independent Next.js app, own `package.json`, routes, catalogs, validation, README |
 | Visual identity | Warm, serif, encyclopedia styling | Dark, dense, mono-accented, database styling |
 
@@ -37,10 +37,11 @@ purpose:
 - KairosDB player/team pages for those same Kairos entities show a
   **"Read canonical narrative profile on Kairospedia"** link
   (`kairosdb/src/lib/links.ts`).
-- External (Leaguepedia-sourced) players and teams do not get Kairospedia
-  pages — Kairospedia is not flooded with empty external-player stubs. They
-  only gain a Kairospedia page if they later become narratively relevant,
-  which is a separate, explicit authoring decision.
+- The explicitly authorized pre-Worlds 2026 research collection now has
+  Kairospedia reference pages with event roster tables and source links.
+  These are not fictional biographies or narrative appearances. KairosDB's
+  older selected snapshot remains unchanged; cross-product external identity
+  migration is not implied by publishing these references.
 
 Both link helpers default to same-origin relative paths and are
 env-overridable (`NEXT_PUBLIC_KAIROSDB_BASE_URL`,

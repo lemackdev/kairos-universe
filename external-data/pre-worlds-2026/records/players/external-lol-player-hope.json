@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hope",
+  "slug": "external-hope",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Hope",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-anyone-s-legend-hope-pre-worlds-2026-domestic"
+  ]
+}

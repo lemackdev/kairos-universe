@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kiin",
+  "slug": "external-kiin",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Kiin",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gen-g-esports-kiin-pre-worlds-2026-domestic"
+  ]
+}

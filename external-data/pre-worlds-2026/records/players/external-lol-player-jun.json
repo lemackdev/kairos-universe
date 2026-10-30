@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jun",
+  "slug": "external-jun",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Jun",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-giantx-jun-pre-worlds-2026-domestic"
+  ]
+}

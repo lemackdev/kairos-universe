@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-dhokla",
+  "slug": "external-dhokla",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Dhokla",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lyon-dhokla-pre-worlds-2026-domestic"
+  ]
+}

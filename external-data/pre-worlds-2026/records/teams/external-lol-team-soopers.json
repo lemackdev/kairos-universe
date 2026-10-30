@@ -1,0 +1,26 @@
+{
+  "id": "external-lol-team-soopers",
+  "slug": "external-soopers",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "SOOPers",
+  "organizationId": "external-lol-org-soopers",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-soopers-dudu-pre-worlds-2026-domestic",
+    "external-lol-tenure-soopers-pyosik-pre-worlds-2026-domestic",
+    "external-lol-tenure-soopers-clozer-pre-worlds-2026-domestic",
+    "external-lol-tenure-soopers-deokdam-pre-worlds-2026-domestic",
+    "external-lol-tenure-soopers-peter-pre-worlds-2026-domestic",
+    "external-lol-tenure-soopers-sharvel-pre-worlds-2026-domestic",
+    "external-lol-tenure-soopers-life-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

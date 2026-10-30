@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-tangyuan",
+  "slug": "external-tangyuan",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Tangyuan",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lgd-gaming-tangyuan-pre-worlds-2026-domestic"
+  ]
+}

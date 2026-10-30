@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-will",
+  "slug": "external-will",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Will",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-university-of-mississippi-will-pre-worlds-2026-domestic"
+  ]
+}

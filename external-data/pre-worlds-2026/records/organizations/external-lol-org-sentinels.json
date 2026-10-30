@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-sentinels",
+  "slug": "external-sentinels",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Sentinels",
+  "teamIds": [
+    "external-lol-team-sentinels"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

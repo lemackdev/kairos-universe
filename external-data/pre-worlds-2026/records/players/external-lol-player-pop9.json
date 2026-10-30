@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-pop9",
+  "slug": "external-pop9",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "POP9",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-deep-cross-gaming-pop9-pre-worlds-2026-domestic"
+  ]
+}

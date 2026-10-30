@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-busio",
+  "slug": "external-busio",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Busio",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-karmine-corp-busio-pre-worlds-2026-domestic"
+  ]
+}

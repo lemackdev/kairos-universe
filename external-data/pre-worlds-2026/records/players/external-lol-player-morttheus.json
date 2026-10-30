@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-morttheus",
+  "slug": "external-morttheus",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Morttheus",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-red-canids-morttheus-pre-worlds-2026-domestic"
+  ]
+}

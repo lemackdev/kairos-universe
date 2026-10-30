@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jrockets",
+  "slug": "external-jrockets",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "JRockets",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-contingent-esports-jrockets-pre-worlds-2026-domestic"
+  ]
+}

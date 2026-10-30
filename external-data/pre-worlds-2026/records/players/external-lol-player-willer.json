@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-willer",
+  "slug": "external-willer",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Willer",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-drx-willer-pre-worlds-2026-domestic"
+  ]
+}

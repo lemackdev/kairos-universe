@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hoya",
+  "slug": "external-hoya",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Hoya",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ninjas-in-pyjamas-hoya-pre-worlds-2026-domestic"
+  ]
+}

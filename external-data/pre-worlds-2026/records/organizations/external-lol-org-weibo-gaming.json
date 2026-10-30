@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-weibo-gaming",
+  "slug": "external-weibo-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "Weibo Gaming",
+  "teamIds": [
+    "external-lol-team-weibo-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

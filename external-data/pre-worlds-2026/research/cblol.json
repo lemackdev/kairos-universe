@@ -1,0 +1,298 @@
+{
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "expectedTeamCount": 8,
+  "sourceId": "source-pre-worlds-2026-cblol",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Split_2",
+  "eventName": "CBLOL 2026 Split 2",
+  "eventEndDate": "2026-10-10",
+  "teams": [
+    {
+      "key": "fluxo-w7m",
+      "name": "Fluxo W7M",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Zothve",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Peach",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "cody",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "BAO",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Momochi",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "furia",
+      "name": "FURIA",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "The event roster lists Tatu as main and Shini as substitute. This does not assert who started each playoff match."
+      ],
+      "members": [
+        {
+          "nickname": "Guigo",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tatu",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tutsz",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ayu",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jojo",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Shini",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "keyd-stars",
+      "name": "Keyd Stars",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Zekas",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Disamis",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Mireu",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jeskla",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "scamber",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "loud",
+      "name": "LOUD",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Xyno",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sinatra",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kaze",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Rabelo",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "uZent",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "pain-gaming",
+      "name": "paiN Gaming",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "Keine and Namiru are both listed in the event main roster. No unique starting Mid is inferred."
+      ],
+      "members": [
+        {
+          "nickname": "Boal",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Cariok",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Keine",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hena",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ceos",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Namiru",
+          "role": "mid",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "red-canids",
+      "name": "RED Canids",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "zynts",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "STEPZ",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Fuuu",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Morttheus",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Manel",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "leviatan",
+      "name": "Leviatán",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Devost",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Booki",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Enga",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Strensh",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Shiku",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "los",
+      "name": "LOS",
+      "sourceId": "source-pre-worlds-2026-cblol",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Zest",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Curse",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Feisty",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Duduhh",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ackerman",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    }
+  ]
+}

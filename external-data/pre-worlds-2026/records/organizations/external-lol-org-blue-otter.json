@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-blue-otter",
+  "slug": "external-blue-otter",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Blue Otter",
+  "teamIds": [
+    "external-lol-team-blue-otter"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

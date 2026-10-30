@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-sk-gaming",
+  "slug": "external-sk-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "SK Gaming",
+  "organizationId": "external-lol-org-sk-gaming",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-sk-gaming-wunder-pre-worlds-2026-domestic",
+    "external-lol-tenure-sk-gaming-skeanz-pre-worlds-2026-domestic",
+    "external-lol-tenure-sk-gaming-slowq-pre-worlds-2026-domestic",
+    "external-lol-tenure-sk-gaming-jopa-pre-worlds-2026-domestic",
+    "external-lol-tenure-sk-gaming-mikyx-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

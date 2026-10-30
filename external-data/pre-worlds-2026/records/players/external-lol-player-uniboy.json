@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-uniboy",
+  "slug": "external-uniboy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Uniboy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ground-zero-gaming-uniboy-pre-worlds-2026-domestic"
+  ]
+}

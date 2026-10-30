@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-shiauc",
+  "slug": "external-shiauc",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "ShiauC",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-deep-cross-gaming-shiauc-pre-worlds-2026-domestic"
+  ]
+}

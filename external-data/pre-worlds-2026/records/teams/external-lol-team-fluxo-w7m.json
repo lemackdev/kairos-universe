@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-fluxo-w7m",
+  "slug": "external-fluxo-w7m",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "Fluxo W7M",
+  "organizationId": "external-lol-org-fluxo-w7m",
+  "gameId": "league-of-legends",
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-fluxo-w7m-zothve-pre-worlds-2026-domestic",
+    "external-lol-tenure-fluxo-w7m-peach-pre-worlds-2026-domestic",
+    "external-lol-tenure-fluxo-w7m-cody-pre-worlds-2026-domestic",
+    "external-lol-tenure-fluxo-w7m-bao-pre-worlds-2026-domestic",
+    "external-lol-tenure-fluxo-w7m-momochi-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

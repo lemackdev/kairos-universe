@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-vampire",
+  "slug": "external-vampire",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Vampire",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-jd-gaming-vampire-pre-worlds-2026-domestic"
+  ]
+}

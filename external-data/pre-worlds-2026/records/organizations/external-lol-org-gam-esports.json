@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-gam-esports",
+  "slug": "external-gam-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "GAM Esports",
+  "teamIds": [
+    "external-lol-team-gam-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

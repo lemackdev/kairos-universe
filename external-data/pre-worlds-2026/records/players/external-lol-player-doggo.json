@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-doggo",
+  "slug": "external-doggo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Doggo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ctbc-flying-oyster-doggo-pre-worlds-2026-domestic"
+  ]
+}

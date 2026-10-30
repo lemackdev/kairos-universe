@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-devost",
+  "slug": "external-devost",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Devost",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-leviatan-devost-pre-worlds-2026-domestic"
+  ]
+}

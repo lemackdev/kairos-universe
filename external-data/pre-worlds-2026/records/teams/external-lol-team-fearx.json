@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-fearx",
+  "slug": "external-fearx",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "FEARX",
+  "organizationId": "external-lol-org-fearx",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-fearx-clear-pre-worlds-2026-domestic",
+    "external-lol-tenure-fearx-raptor-pre-worlds-2026-domestic",
+    "external-lol-tenure-fearx-vicla-pre-worlds-2026-domestic",
+    "external-lol-tenure-fearx-taeyoon-pre-worlds-2026-domestic",
+    "external-lol-tenure-fearx-kellin-pre-worlds-2026-domestic",
+    "external-lol-tenure-fearx-daystar-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

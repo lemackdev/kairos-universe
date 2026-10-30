@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-mvk-esports",
+  "slug": "external-mvk-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "MVK Esports",
+  "organizationId": "external-lol-org-mvk-esports",
+  "gameId": "league-of-legends",
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-mvk-esports-kratos-pre-worlds-2026-domestic",
+    "external-lol-tenure-mvk-esports-gury-pre-worlds-2026-domestic",
+    "external-lol-tenure-mvk-esports-chika-pre-worlds-2026-domestic",
+    "external-lol-tenure-mvk-esports-harky-pre-worlds-2026-domestic",
+    "external-lol-tenure-mvk-esports-siuloong-pre-worlds-2026-domestic",
+    "external-lol-tenure-mvk-esports-sansan-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

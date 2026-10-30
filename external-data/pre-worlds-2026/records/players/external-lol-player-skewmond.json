@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-skewmond",
+  "slug": "external-skewmond",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "SkewMond",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-g2-esports-skewmond-pre-worlds-2026-domestic"
+  ]
+}

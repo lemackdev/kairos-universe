@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-xiaohu",
+  "slug": "external-xiaohu",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Xiaohu",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-weibo-gaming-xiaohu-pre-worlds-2026-domestic"
+  ]
+}

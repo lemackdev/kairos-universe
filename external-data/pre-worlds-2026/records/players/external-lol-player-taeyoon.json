@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-taeyoon",
+  "slug": "external-taeyoon",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Taeyoon",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fearx-taeyoon-pre-worlds-2026-domestic"
+  ]
+}

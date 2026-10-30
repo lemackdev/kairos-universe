@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-chovy",
+  "slug": "external-chovy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Chovy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gen-g-esports-chovy-pre-worlds-2026-domestic"
+  ]
+}

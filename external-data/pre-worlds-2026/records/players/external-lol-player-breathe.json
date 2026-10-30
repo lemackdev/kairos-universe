@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-breathe",
+  "slug": "external-breathe",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Breathe",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-anyone-s-legend-breathe-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jiejie",
+  "slug": "external-jiejie",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Jiejie",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-edward-gaming-jiejie-pre-worlds-2026-domestic"
+  ]
+}

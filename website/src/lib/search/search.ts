@@ -105,6 +105,14 @@ export function buildSearchRecords(
     });
   }
 
+  for (const competition of catalog.competitions) {
+    records.push({
+      id: competition.id, slug: competition.slug, type: "competition",
+      name: competition.name, subtitle: `${competition.gameName} tournament`,
+      href: `/wiki/competitions/${competition.slug}`,
+      terms: [competition.id, competition.slug, competition.name, competition.gameName],
+    });
+  }
   return records.sort((a, b) => a.name.localeCompare(b.name));
 }
 

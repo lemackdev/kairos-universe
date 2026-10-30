@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-xyno",
+  "slug": "external-xyno",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Xyno",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-loud-xyno-pre-worlds-2026-domestic"
+  ]
+}

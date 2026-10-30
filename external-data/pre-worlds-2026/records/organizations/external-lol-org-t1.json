@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-t1",
+  "slug": "external-t1",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "T1",
+  "teamIds": [
+    "external-lol-team-t1"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

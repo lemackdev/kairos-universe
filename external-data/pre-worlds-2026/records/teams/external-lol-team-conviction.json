@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-conviction",
+  "slug": "external-conviction",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Conviction",
+  "organizationId": "external-lol-org-conviction",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-conviction-sniper-pre-worlds-2026-domestic",
+    "external-lol-tenure-conviction-tomio-pre-worlds-2026-domestic",
+    "external-lol-tenure-conviction-insanity-pre-worlds-2026-domestic",
+    "external-lol-tenure-conviction-cody-sun-pre-worlds-2026-domestic",
+    "external-lol-tenure-conviction-zyko-pre-worlds-2026-domestic",
+    "external-lol-tenure-conviction-perry-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

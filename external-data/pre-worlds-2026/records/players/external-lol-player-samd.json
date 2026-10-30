@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-samd",
+  "slug": "external-samd",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "SamD",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-natus-vincere-samd-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-arbrio",
+  "slug": "external-arbrio",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Arbrio",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-contingent-esports-arbrio-pre-worlds-2026-domestic"
+  ]
+}

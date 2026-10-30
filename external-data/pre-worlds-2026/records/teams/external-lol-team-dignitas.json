@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-dignitas",
+  "slug": "external-dignitas",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Dignitas",
+  "organizationId": "external-lol-org-dignitas",
+  "gameId": "league-of-legends",
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-dignitas-denathor-pre-worlds-2026-domestic",
+    "external-lol-tenure-dignitas-dardoch-pre-worlds-2026-domestic",
+    "external-lol-tenure-dignitas-palafox-pre-worlds-2026-domestic",
+    "external-lol-tenure-dignitas-fbi-pre-worlds-2026-domestic",
+    "external-lol-tenure-dignitas-ignar-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

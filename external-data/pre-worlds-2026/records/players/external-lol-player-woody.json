@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-woody",
+  "slug": "external-woody",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Woody",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-detonation-focusme-woody-pre-worlds-2026-domestic"
+  ]
+}

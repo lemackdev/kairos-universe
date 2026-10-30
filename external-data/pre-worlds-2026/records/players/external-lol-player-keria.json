@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-keria",
+  "slug": "external-keria",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Keria",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-t1-keria-pre-worlds-2026-domestic"
+  ]
+}

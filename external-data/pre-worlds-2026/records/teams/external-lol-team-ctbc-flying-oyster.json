@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-ctbc-flying-oyster",
+  "slug": "external-ctbc-flying-oyster",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "CTBC Flying Oyster",
+  "organizationId": "external-lol-org-ctbc-flying-oyster",
+  "gameId": "league-of-legends",
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-ctbc-flying-oyster-rest-pre-worlds-2026-domestic",
+    "external-lol-tenure-ctbc-flying-oyster-shad0w-pre-worlds-2026-domestic",
+    "external-lol-tenure-ctbc-flying-oyster-pout-pre-worlds-2026-domestic",
+    "external-lol-tenure-ctbc-flying-oyster-doggo-pre-worlds-2026-domestic",
+    "external-lol-tenure-ctbc-flying-oyster-kino-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

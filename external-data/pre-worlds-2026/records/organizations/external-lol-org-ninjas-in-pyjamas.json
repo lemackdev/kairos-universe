@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-ninjas-in-pyjamas",
+  "slug": "external-ninjas-in-pyjamas",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "Ninjas in Pyjamas",
+  "teamIds": [
+    "external-lol-team-ninjas-in-pyjamas"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

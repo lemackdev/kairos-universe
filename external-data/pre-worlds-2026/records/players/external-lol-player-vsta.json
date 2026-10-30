@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-vsta",
+  "slug": "external-vsta",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Vsta",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-softbank-hawks-gaming-vsta-pre-worlds-2026-domestic"
+  ]
+}

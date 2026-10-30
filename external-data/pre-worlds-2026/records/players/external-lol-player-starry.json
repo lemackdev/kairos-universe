@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-starry",
+  "slug": "external-starry",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Starry",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-oh-my-god-starry-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-cube",
+  "slug": "external-cube",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Cube",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-we-cube-pre-worlds-2026-domestic"
+  ]
+}

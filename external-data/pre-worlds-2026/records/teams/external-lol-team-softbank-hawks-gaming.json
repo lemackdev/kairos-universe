@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-softbank-hawks-gaming",
+  "slug": "external-softbank-hawks-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "SoftBank HAWKS gaming",
+  "organizationId": "external-lol-org-softbank-hawks-gaming",
+  "gameId": "league-of-legends",
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-softbank-hawks-gaming-evi-pre-worlds-2026-domestic",
+    "external-lol-tenure-softbank-hawks-gaming-van1-pre-worlds-2026-domestic",
+    "external-lol-tenure-softbank-hawks-gaming-aria-pre-worlds-2026-domestic",
+    "external-lol-tenure-softbank-hawks-gaming-marble-pre-worlds-2026-domestic",
+    "external-lol-tenure-softbank-hawks-gaming-vsta-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kanavi",
+  "slug": "external-kanavi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Kanavi",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-hanwha-life-esports-kanavi-pre-worlds-2026-domestic"
+  ]
+}

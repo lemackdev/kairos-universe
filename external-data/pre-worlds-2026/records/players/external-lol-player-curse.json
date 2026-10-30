@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-curse",
+  "slug": "external-curse",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Curse",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-los-curse-pre-worlds-2026-domestic"
+  ]
+}

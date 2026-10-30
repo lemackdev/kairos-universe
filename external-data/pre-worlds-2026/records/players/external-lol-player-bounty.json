@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-bounty",
+  "slug": "external-bounty",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Bounty",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-university-of-mississippi-bounty-pre-worlds-2026-domestic"
+  ]
+}

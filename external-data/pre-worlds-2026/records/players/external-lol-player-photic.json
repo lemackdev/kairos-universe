@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-player-photic",
+  "slug": "external-photic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl",
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Photic",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ninjas-in-pyjamas-photic-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-photic-pre-worlds-2026-domestic"
+  ]
+}

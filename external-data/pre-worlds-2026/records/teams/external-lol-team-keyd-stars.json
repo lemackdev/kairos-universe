@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-keyd-stars",
+  "slug": "external-keyd-stars",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "Keyd Stars",
+  "organizationId": "external-lol-org-keyd-stars",
+  "gameId": "league-of-legends",
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-keyd-stars-zekas-pre-worlds-2026-domestic",
+    "external-lol-tenure-keyd-stars-disamis-pre-worlds-2026-domestic",
+    "external-lol-tenure-keyd-stars-mireu-pre-worlds-2026-domestic",
+    "external-lol-tenure-keyd-stars-jeskla-pre-worlds-2026-domestic",
+    "external-lol-tenure-keyd-stars-scamber-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

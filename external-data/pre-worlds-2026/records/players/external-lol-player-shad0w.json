@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-shad0w",
+  "slug": "external-shad0w",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Shad0w",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ctbc-flying-oyster-shad0w-pre-worlds-2026-domestic"
+  ]
+}

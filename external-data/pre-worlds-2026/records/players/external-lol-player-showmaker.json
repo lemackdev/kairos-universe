@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-showmaker",
+  "slug": "external-showmaker",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "ShowMaker",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dplus-showmaker-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-sushee",
+  "slug": "external-sushee",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Sushee",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nrg-sushee-pre-worlds-2026-domestic"
+  ]
+}

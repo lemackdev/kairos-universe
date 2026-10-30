@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-university-of-mississippi-retrozing-pre-worlds-2026-domestic",
+  "slug": "external-university-of-mississippi-retrozing-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "playerId": "external-lol-player-retrozing",
+  "teamId": "external-lol-team-university-of-mississippi",
+  "role": "mid",
+  "designation": "substitute",
+  "observedAtEventEnd": "2026-09-11",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "scene:materialize": "tsx scripts/materialize-scene.ts",
+    "scene:validate": "tsx scripts/validate-scene.ts",
     "dev": "npm run canon:prepare && next dev",
     "canon:build": "tsx scripts/build-canon.ts",
     "canon:validate": "tsx scripts/validate-canon.ts",

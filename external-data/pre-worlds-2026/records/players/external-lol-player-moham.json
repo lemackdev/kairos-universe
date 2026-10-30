@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-player-moham",
+  "slug": "external-moham",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl",
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Moham",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-weibo-gaming-moham-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-moham-pre-worlds-2026-domestic"
+  ]
+}

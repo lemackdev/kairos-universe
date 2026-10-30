@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-about",
+  "slug": "external-about",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "About",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-we-about-pre-worlds-2026-domestic"
+  ]
+}

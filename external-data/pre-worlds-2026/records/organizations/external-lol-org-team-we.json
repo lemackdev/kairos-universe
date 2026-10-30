@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-team-we",
+  "slug": "external-team-we",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "Team WE",
+  "teamIds": [
+    "external-lol-team-team-we"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

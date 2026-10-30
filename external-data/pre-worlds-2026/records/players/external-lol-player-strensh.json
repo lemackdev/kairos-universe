@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-strensh",
+  "slug": "external-strensh",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Strensh",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-leviatan-strensh-pre-worlds-2026-domestic"
+  ]
+}

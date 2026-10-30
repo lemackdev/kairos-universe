@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-keshi",
+  "slug": "external-keshi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Keshi",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-thundertalk-gaming-keshi-pre-worlds-2026-domestic"
+  ]
+}

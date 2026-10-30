@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-heru",
+  "slug": "external-heru",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Heru",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-thundertalk-gaming-heru-pre-worlds-2026-domestic"
+  ]
+}

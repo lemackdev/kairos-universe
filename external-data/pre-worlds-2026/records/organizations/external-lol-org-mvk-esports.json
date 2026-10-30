@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-mvk-esports",
+  "slug": "external-mvk-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "MVK Esports",
+  "teamIds": [
+    "external-lol-team-mvk-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

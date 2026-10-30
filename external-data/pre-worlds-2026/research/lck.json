@@ -1,0 +1,402 @@
+{
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "expectedTeamCount": 10,
+  "sourceId": "source-pre-worlds-2026-lck",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/LCK/2026",
+  "eventName": "LCK 2026 Season",
+  "eventEndDate": "2026-09-13",
+  "teams": [
+    {
+      "key": "brion",
+      "name": "BRION",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Casting",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "GIDEON",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Roamer",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Teddy",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Namgung",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "dplus",
+      "name": "Dplus",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Siwoo",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Lucid",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "ShowMaker",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Smash",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Career",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "drx",
+      "name": "DRX",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Rich",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Willer",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ucal",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Aiming",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Andil",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Frog",
+          "role": "top",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Vincenzo",
+          "role": "jungle",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "LazyFeel",
+          "role": "bot",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "fearx",
+      "name": "FEARX",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Clear",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Raptor",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "VicLa",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Taeyoon",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kellin",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Daystar",
+          "role": "mid",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "soopers",
+      "name": "SOOPers",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "DuDu",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Pyosik",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Clozer",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "deokdam",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Peter",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sharvel",
+          "role": "jungle",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Life",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "gen-g-esports",
+      "name": "Gen.G Esports",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Kiin",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Canyon",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Chovy",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ruler",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Duro",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "hanwha-life-esports",
+      "name": "Hanwha Life Esports",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Zeus",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kanavi",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Zeka",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Gumayusi",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Delight",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "kt-rolster",
+      "name": "KT Rolster",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "PerfecT",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Cuzz",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Bdd",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "FenRir",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Effort",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jiwoo",
+          "role": "bot",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Ghost",
+          "role": "support",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Pollu",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "nongshim-redforce",
+      "name": "Nongshim RedForce",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Kingen",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sponge",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Scout",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Diable",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Lehends",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Calix",
+          "role": "mid",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "t1",
+      "name": "T1",
+      "sourceId": "source-pre-worlds-2026-lck",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Doran",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Oner",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Faker",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Peyz",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Keria",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    }
+  ]
+}

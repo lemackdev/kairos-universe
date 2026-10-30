@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-fluxo-w7m",
+  "slug": "external-fluxo-w7m",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "Fluxo W7M",
+  "teamIds": [
+    "external-lol-team-fluxo-w7m"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

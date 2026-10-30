@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-canna",
+  "slug": "external-canna",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Canna",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-karmine-corp-canna-pre-worlds-2026-domestic"
+  ]
+}

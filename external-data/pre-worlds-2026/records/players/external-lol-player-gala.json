@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-gala",
+  "slug": "external-gala",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "GALA",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-jd-gaming-gala-pre-worlds-2026-domestic"
+  ]
+}

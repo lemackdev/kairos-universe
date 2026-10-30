@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-fbi",
+  "slug": "external-fbi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "FBI",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dignitas-fbi-pre-worlds-2026-domestic"
+  ]
+}

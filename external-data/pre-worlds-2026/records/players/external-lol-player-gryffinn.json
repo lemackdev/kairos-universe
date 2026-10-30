@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-gryffinn",
+  "slug": "external-gryffinn",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Gryffinn",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-flyquest-gryffinn-pre-worlds-2026-domestic"
+  ]
+}

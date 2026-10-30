@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-ycx",
+  "slug": "external-ycx",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Ycx",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lng-esports-ycx-pre-worlds-2026-domestic"
+  ]
+}

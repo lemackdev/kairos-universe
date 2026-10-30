@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zven",
+  "slug": "external-zven",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Zven",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-zven-pre-worlds-2026-domestic"
+  ]
+}

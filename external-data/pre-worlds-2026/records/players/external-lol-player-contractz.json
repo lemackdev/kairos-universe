@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-contractz",
+  "slug": "external-contractz",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Contractz",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-shopify-rebellion-contractz-pre-worlds-2026-domestic"
+  ]
+}

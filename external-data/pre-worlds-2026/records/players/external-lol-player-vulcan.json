@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-vulcan",
+  "slug": "external-vulcan",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Vulcan",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-vulcan-pre-worlds-2026-domestic"
+  ]
+}

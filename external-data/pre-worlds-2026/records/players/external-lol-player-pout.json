@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-pout",
+  "slug": "external-pout",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Pout",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ctbc-flying-oyster-pout-pre-worlds-2026-domestic"
+  ]
+}

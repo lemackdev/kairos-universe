@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-aojune",
+  "slug": "external-aojune",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "AoJune",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-maryville-university-aojune-pre-worlds-2026-domestic"
+  ]
+}

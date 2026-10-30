@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-invictus-gaming",
+  "slug": "external-invictus-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "Invictus Gaming",
+  "teamIds": [
+    "external-lol-team-invictus-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

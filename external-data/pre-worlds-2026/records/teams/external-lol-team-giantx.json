@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-giantx",
+  "slug": "external-giantx",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "GIANTX",
+  "organizationId": "external-lol-org-giantx",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-giantx-oscarinin-pre-worlds-2026-domestic",
+    "external-lol-tenure-giantx-isma-pre-worlds-2026-domestic",
+    "external-lol-tenure-giantx-jackies-pre-worlds-2026-domestic",
+    "external-lol-tenure-giantx-flakked-pre-worlds-2026-domestic",
+    "external-lol-tenure-giantx-jun-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

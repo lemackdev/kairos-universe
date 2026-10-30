@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-darkwings",
+  "slug": "external-darkwings",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "DARKWINGS",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-sentinels-darkwings-pre-worlds-2026-domestic"
+  ]
+}

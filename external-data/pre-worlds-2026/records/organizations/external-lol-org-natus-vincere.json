@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-natus-vincere",
+  "slug": "external-natus-vincere",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Natus Vincere",
+  "teamIds": [
+    "external-lol-team-natus-vincere"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

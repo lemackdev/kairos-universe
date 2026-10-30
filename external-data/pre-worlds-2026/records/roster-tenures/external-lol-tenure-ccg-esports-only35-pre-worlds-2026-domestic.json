@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-ccg-esports-only35-pre-worlds-2026-domestic",
+  "slug": "external-ccg-esports-only35-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "playerId": "external-lol-player-only35",
+  "teamId": "external-lol-team-ccg-esports",
+  "role": "support",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-11",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

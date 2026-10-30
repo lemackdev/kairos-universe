@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-palafox",
+  "slug": "external-palafox",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Palafox",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dignitas-palafox-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-team-nrg",
+  "slug": "external-nrg",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "NRG",
+  "organizationId": "external-lol-org-nrg",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-nrg-zamudo-pre-worlds-2026-domestic",
+    "external-lol-tenure-nrg-kisno-pre-worlds-2026-domestic",
+    "external-lol-tenure-nrg-phymini-pre-worlds-2026-domestic",
+    "external-lol-tenure-nrg-sushee-pre-worlds-2026-domestic",
+    "external-lol-tenure-nrg-spica-pre-worlds-2026-domestic",
+    "external-lol-tenure-nrg-shogo-pre-worlds-2026-domestic",
+    "external-lol-tenure-nrg-mixtsure-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "The tournament source lists Kisno as Jungle and Spica as Support. This uncommon role assignment is retained as sourced, not changed from memory."
+  ]
+}

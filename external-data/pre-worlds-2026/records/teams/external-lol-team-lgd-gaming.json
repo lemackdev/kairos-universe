@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-lgd-gaming",
+  "slug": "external-lgd-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "LGD Gaming",
+  "organizationId": "external-lol-org-lgd-gaming",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-lgd-gaming-burdol-pre-worlds-2026-domestic",
+    "external-lol-tenure-lgd-gaming-heng-pre-worlds-2026-domestic",
+    "external-lol-tenure-lgd-gaming-tangyuan-pre-worlds-2026-domestic",
+    "external-lol-tenure-lgd-gaming-shaoye-pre-worlds-2026-domestic",
+    "external-lol-tenure-lgd-gaming-crisp-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

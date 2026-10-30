@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-ctbc-flying-oyster-pout-pre-worlds-2026-domestic",
+  "slug": "external-ctbc-flying-oyster-pout-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-pout",
+  "teamId": "external-lol-team-ctbc-flying-oyster",
+  "role": "mid",
+  "designation": "main",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

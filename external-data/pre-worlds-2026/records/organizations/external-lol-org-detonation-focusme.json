@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-detonation-focusme",
+  "slug": "external-detonation-focusme",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "DetonatioN FocusMe",
+  "teamIds": [
+    "external-lol-team-detonation-focusme"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

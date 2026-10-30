@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-lospa",
+  "slug": "external-lospa",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Lospa",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fnatic-lospa-pre-worlds-2026-domestic"
+  ]
+}

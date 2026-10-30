@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-flyquest",
+  "slug": "external-flyquest",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "FlyQuest",
+  "teamIds": [
+    "external-lol-team-flyquest"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

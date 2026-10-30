@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-perry",
+  "slug": "external-perry",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Perry",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-conviction-perry-pre-worlds-2026-domestic"
+  ]
+}

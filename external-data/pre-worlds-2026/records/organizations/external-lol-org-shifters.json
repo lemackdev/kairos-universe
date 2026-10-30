@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-shifters",
+  "slug": "external-shifters",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Shifters",
+  "teamIds": [
+    "external-lol-team-shifters"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

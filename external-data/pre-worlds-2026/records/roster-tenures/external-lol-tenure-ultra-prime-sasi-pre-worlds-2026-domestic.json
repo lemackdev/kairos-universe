@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-ultra-prime-sasi-pre-worlds-2026-domestic",
+  "slug": "external-ultra-prime-sasi-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "playerId": "external-lol-player-sasi",
+  "teamId": "external-lol-team-ultra-prime",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-06-14",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

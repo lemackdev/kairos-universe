@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kakkun",
+  "slug": "external-kakkun",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Kakkun",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-detonation-focusme-kakkun-pre-worlds-2026-domestic"
+  ]
+}

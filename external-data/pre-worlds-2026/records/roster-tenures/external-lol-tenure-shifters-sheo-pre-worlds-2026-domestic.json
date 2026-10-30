@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-shifters-sheo-pre-worlds-2026-domestic",
+  "slug": "external-shifters-sheo-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "playerId": "external-lol-player-sheo",
+  "teamId": "external-lol-team-shifters",
+  "role": "jungle",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-20",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

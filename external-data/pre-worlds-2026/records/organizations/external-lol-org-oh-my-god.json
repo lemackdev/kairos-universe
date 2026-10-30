@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-oh-my-god",
+  "slug": "external-oh-my-god",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "name": "Oh My God",
+  "teamIds": [
+    "external-lol-team-oh-my-god"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

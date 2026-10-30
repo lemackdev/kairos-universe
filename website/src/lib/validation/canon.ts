@@ -317,6 +317,20 @@ function validateReferences(universe: CanonUniverse): {
     );
   }
 
+  for (const collection of ["competitions", "standings", "awards"]) {
+    for (const record of universe.collections[collection] ?? []) {
+      for (const field of ["continuityId", "gameId", "competitionId", "seasonId", "stageId", "teamId", "recipientId"]) {
+        if (field in record) expectRef(record[field], `${record.id}.${field}`);
+      }
+      for (const field of ["sourceIds", "seasonIds", "participantTeamIds"]) {
+        if (Array.isArray(record[field])) record[field].forEach((id) => expectRef(id, `${record.id}.${field}`));
+      }
+      if (Array.isArray(record.prizeDistribution)) {
+        record.prizeDistribution.forEach((prize: { teamId: string | null }) => expectRef(prize.teamId, `${record.id}.prizeDistribution`));
+      }
+    }
+  }
+
   return { idCount: ids.size, referenceCount: references };
 }
 
@@ -331,6 +345,9 @@ function validateRelationships(
 }
 
 function validateDates(universe: CanonUniverse): void {
+  for (const competition of universe.collections.competitions ?? []) {
+    validateDateRange(competition.startDate as string | null, competition.endDate as string | null, String(competition.id));
+  }
   for (const tenure of getCollection<RosterTenure>(
     universe,
     "roster-tenures",
@@ -455,9 +472,8 @@ export function validatePublication(
   );
   assert(
     manifest.enabledMatches.length === 0 &&
-      manifest.enabledCompetitions.length === 0 &&
       manifest.enabledTransfers.length === 0,
-    "Initial publication cannot expose matches, competitions, or transfers.",
+    "Initial publication cannot expose matches or transfers.",
   );
 }
 

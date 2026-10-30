@@ -1,0 +1,26 @@
+{
+  "id": "external-lol-team-ultra-prime",
+  "slug": "external-ultra-prime",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "name": "Ultra Prime",
+  "organizationId": "external-lol-org-ultra-prime",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-ultra-prime-sasi-pre-worlds-2026-domestic",
+    "external-lol-tenure-ultra-prime-climber-pre-worlds-2026-domestic",
+    "external-lol-tenure-ultra-prime-saber-pre-worlds-2026-domestic",
+    "external-lol-tenure-ultra-prime-hena-pre-worlds-2026-domestic",
+    "external-lol-tenure-ultra-prime-xiaoxia-pre-worlds-2026-domestic"
+  ],
+  "basis": "last-available-domestic-tournament",
+  "notes": [
+    "Did not participate in LPL Split 3. This is the last available domestic tournament roster, not a claim that every member remained contracted before Worlds."
+  ]
+}

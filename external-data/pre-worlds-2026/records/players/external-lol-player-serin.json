@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-serin",
+  "slug": "external-serin",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Serin",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-heretics-serin-pre-worlds-2026-domestic"
+  ]
+}

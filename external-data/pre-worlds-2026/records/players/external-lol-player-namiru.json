@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-namiru",
+  "slug": "external-namiru",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Namiru",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-pain-gaming-namiru-pre-worlds-2026-domestic"
+  ]
+}

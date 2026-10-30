@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-perfect",
+  "slug": "external-perfect",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "PerfecT",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-kt-rolster-perfect-pre-worlds-2026-domestic"
+  ]
+}

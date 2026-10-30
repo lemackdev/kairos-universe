@@ -1,0 +1,357 @@
+{
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "expectedTeamCount": 10,
+  "sourceId": "source-pre-worlds-2026-lec",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/LEC/2026/Summer",
+  "eventName": "LEC 2026 Summer",
+  "eventEndDate": "2026-09-20",
+  "teams": [
+    {
+      "key": "fnatic",
+      "name": "Fnatic",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Soboro",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Razork",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Vladi",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Upset",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Lospa",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "g2-esports",
+      "name": "G2 Esports",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "BrokenBlade",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "SkewMond",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Caps",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hans Sama",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Labrov",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "giantx",
+      "name": "GIANTX",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Oscarinin",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Isma",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jackies",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Flakked",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jun",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "karmine-corp",
+      "name": "Karmine Corp",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Canna",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Yike",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "kyeahoo",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Caliste",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Busio",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "movistar-koi",
+      "name": "Movistar KOI",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Myrwn",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Elyoya",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jojopyun",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Supa",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Alvaro",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "NightSlayer",
+          "role": "top",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "natus-vincere",
+      "name": "Natus Vincere",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Maynter",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Rhilech",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Poby",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "SamD",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Parus",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "shifters",
+      "name": "Shifters",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Rooster",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sheo",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "nuc",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Paduck",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Stend",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "sk-gaming",
+      "name": "SK Gaming",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Wunder",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Skeanz",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "SlowQ",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jopa",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Mikyx",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "team-heretics",
+      "name": "Team Heretics",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Tracyn",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Daglas",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Serin",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hype",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Way",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "team-vitality",
+      "name": "Team Vitality",
+      "sourceId": "source-pre-worlds-2026-lec",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Naak Nako",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Lyncas",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "FIESTA",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Carzzy",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Fleshy",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    }
+  ]
+}

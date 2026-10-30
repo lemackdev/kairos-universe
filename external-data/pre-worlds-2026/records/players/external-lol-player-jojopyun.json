@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jojopyun",
+  "slug": "external-jojopyun",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Jojopyun",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-movistar-koi-jojopyun-pre-worlds-2026-domestic"
+  ]
+}

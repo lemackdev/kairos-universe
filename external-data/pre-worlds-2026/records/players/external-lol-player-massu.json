@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-massu",
+  "slug": "external-massu",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Massu",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-flyquest-massu-pre-worlds-2026-domestic"
+  ]
+}

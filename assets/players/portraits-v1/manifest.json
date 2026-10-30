@@ -1,0 +1,103 @@
+{
+  "collection": "kairos-league-main-portrait-concepts-v1",
+  "status": "draft-pending-user-approval",
+  "tool": "image_gen.imagegen",
+  "generatedContent": true,
+  "purpose": "Reviewable visual concepts for the five currently published Kairos League players.",
+  "canonVersionAtGeneration": "0.10.0",
+  "narrativeDateUsed": "2026-11-24",
+  "publicationStatus": "not-connected-to-website",
+  "policy": [
+    "These are AI-generated fictional portraits, not photographs of actual people.",
+    "Ages and hometown cues were taken from current structured canon. All five nationalities remain TBD.",
+    "Appearance, skin tone, facial features, hair, glasses and body type are visual proposals, not newly confirmed biographical canon.",
+    "Do not infer nationality, ethnicity, ancestry, citizenship or residence from a portrait.",
+    "The backdrop is a hometown-inspired visual treatment, not an archived narrative event or actual photo location.",
+    "Black and gold reference a documented Kairos Counter-Strike uniform color scheme; the League shirt design here is a draft interpretation.",
+    "The plain KAIROS chest text is a placeholder, not approved logo artwork.",
+    "No accepted sponsors are listed in the organization record, so no sponsor marks are shown.",
+    "Do not auto-publish these drafts or modify canonical player records to match their appearance."
+  ],
+  "sourceRecords": [
+    "kairos-version.json",
+    "data/organizations/kairos-esports.json",
+    "docs/episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md"
+  ],
+  "portraits": [
+    {
+      "playerId": "noah-rkn-bennett",
+      "canonicalRecord": "data/players/noah-rkn-bennett.json",
+      "file": "noah-rkn-bennett-portrait-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2083096,
+      "sha256": "8dea2634f6024a01a17a350468fd1c4282e796c931a9a05f9d6464d952d9a6f6",
+      "originalGeneratedFilename": "exec-f4755ebc-d0a7-4343-b30a-d5c40372b9d3.png",
+      "status": "draft-pending-user-approval",
+      "narrativeAgeUsed": 17,
+      "hometownCue": "Seattle",
+      "altText": "AI-generated draft portrait of Noah Bennett, known as rkN, in a black and gold Kairos jersey with a blurred Seattle-inspired backdrop.",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single fictional esports player's photographic portrait for Kairospedia. Create ONE person, a vertical 2:3 portrait, framed from mid torso to comfortably above the entire head, centered with adequate crop margin for a narrow wiki infobox. Believable documentary sports media-day photography, natural human anatomy and asymmetry, actual visible pores and tiny skin blemishes, fine stray hairs, ordinary teenage build and proportions. Eye-level 85mm lens look, f/5.6, broad softbox/window light, gentle natural shadows, realistic neutral color, modest dynamic range, unretouched editorial photograph, focused face and slightly blurred background. No beauty retouching, waxy skin, generic handsome model face, older-looking jawline, bodybuilder build, beard, neon gaming lights, cinematic smoke, lens flare, halo, HDR, illustration, CGI, 3D render, plastic skin, national flags or costume stereotypes. Wardrobe: consistent modest matte black short-sleeved esports crew-neck jersey, narrow muted-gold collar piping, one thin muted-gold line along each shoulder seam, natural polyester weave and ordinary clothing folds, no sponsors, no badges, no emblem, no invented logo. Only small plain muted-gold text 'KAIROS' on wearer's left chest; no other shirt text. Arms relaxed below frame; do not cross arms. No caption or graphic text outside jersey. This is fictional visual development, not an existing person's likeness or a claim about ethnicity or citizenship. Preserve stated narrative age. Background is a soft-focus printed hometown-themed studio backdrop, not a claim that a canonical event occurred there. Same restrained photography treatment across the roster, but never reuse faces.\nSubject: Noah Bennett, nickname rkN, fictional Kairos League of Legends player. Age 17 at narrative date 2026-11-24. Canonical city: Seattle. Nationality and ethnicity are unconfirmed; appearance choices are non-canonical art proposals.\nIndividual visual direction: A visibly seventeen-year-old boy with light-medium skin, a compact softly rounded face, gentle small rounded chin, slightly prominent ears, dark-brown eyes, medium straight dark-brown hair in a genuinely untidy side-swept fringe with uneven strands. Small sparse blemishes on forehead, youthful cheeks; clean shaven. Slender shoulders, slightly self-conscious but relaxed posture, lips closed with a small asymmetrical smile. No glasses. Backdrop: very muted cool slate and evergreen tones with a barely visible out-of-focus Seattle waterfront/urban silhouette on a studio background. Keep the backdrop subdued and non-touristic. This is the first portrait in a set; make him an ordinary individual rather than a celebrity or fashion model."
+    },
+    {
+      "playerId": "ethan-vanta-walker",
+      "canonicalRecord": "data/players/ethan-vanta-walker.json",
+      "file": "ethan-vanta-walker-portrait-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2208584,
+      "sha256": "3b5b61501a0d5cac163166d7a98fe0ad057d4784a81df289873fde3916b666f4",
+      "originalGeneratedFilename": "exec-09471a47-fa0a-4320-8b35-85a35cc0c73e.png",
+      "status": "draft-pending-user-approval",
+      "narrativeAgeUsed": 18,
+      "hometownCue": "Billings",
+      "altText": "AI-generated draft portrait of Ethan Walker, known as Vanta, in a black and gold Kairos jersey with a blurred Billings-inspired backdrop.",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single fictional esports player's photographic portrait for Kairospedia. Create ONE person, a vertical 2:3 portrait, framed from mid torso to comfortably above the entire head, centered with adequate crop margin for a narrow wiki infobox. Believable documentary sports media-day photography, natural human anatomy and asymmetry, actual visible pores and tiny skin blemishes, fine stray hairs, ordinary teenage build and proportions. Eye-level 85mm lens look, f/5.6, broad softbox/window light, gentle natural shadows, realistic neutral color, modest dynamic range, unretouched editorial photograph, focused face and slightly blurred background. No beauty retouching, waxy skin, generic handsome model face, older-looking jawline, bodybuilder build, beard, neon gaming lights, cinematic smoke, lens flare, halo, HDR, illustration, CGI, 3D render, plastic skin, national flags or costume stereotypes. Wardrobe: consistent modest matte black short-sleeved esports crew-neck jersey, narrow muted-gold collar piping, one thin muted-gold line along each shoulder seam, natural polyester weave and ordinary clothing folds, no sponsors, no badges, no emblem, no invented logo. Only small plain muted-gold text 'KAIROS' on wearer's left chest; no other shirt text. Arms relaxed below frame; do not cross arms. No caption or graphic text outside jersey. This is fictional visual development, not an existing person's likeness or a claim about ethnicity or citizenship. Preserve stated narrative age. Background is a soft-focus printed hometown-themed studio backdrop, not a claim that a canonical event occurred there. Same restrained photography treatment across the roster, but never reuse faces.\nSubject: Ethan Walker, nickname Vanta, fictional Kairos League of Legends player. Age 18 at narrative date 2026-11-24. Canonical city: Billings. Nationality and ethnicity are unconfirmed; appearance choices are non-canonical art proposals.\nIndividual visual direction: A visibly eighteen-year-old boy with fair freckled skin, a noticeably long and narrow face, longer nose with a subtly uneven bridge, light hazel eyes, sandy dark-blond hair in a short rough crop with a slight cowlick, light eyebrows. Mild cheek redness, clean shaven, no glasses. Ordinary sturdy shoulders without muscular bulk. Body rotated just a few degrees, face toward camera, relaxed neutral expression with an almost-smile. Distinctly not the round-faced dark-haired Seattle player. Backdrop: muted ochre-gray sandstone Rimrocks shapes and broad pale sky suggested on a softly defocused Billings-themed studio print, extremely subtle and secondary to face. No cowboy styling."
+    },
+    {
+      "playerId": "mason-404-brooks",
+      "canonicalRecord": "data/players/mason-404-brooks.json",
+      "file": "mason-404-brooks-portrait-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2149321,
+      "sha256": "5ac11ac4a4119d24a34186c346a60eeb3ad7828eb36b642e98972a312cd74448",
+      "originalGeneratedFilename": "exec-6f426933-f660-4afb-95e0-9e4fa4963ae1.png",
+      "status": "draft-pending-user-approval",
+      "narrativeAgeUsed": 18,
+      "hometownCue": "Toronto",
+      "altText": "AI-generated draft portrait of Mason Brooks, known as 404, in a black and gold Kairos jersey with a blurred Toronto-inspired backdrop.",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single fictional esports player's photographic portrait for Kairospedia. Create ONE person, a vertical 2:3 portrait, framed from mid torso to comfortably above the entire head, centered with adequate crop margin for a narrow wiki infobox. Believable documentary sports media-day photography, natural human anatomy and asymmetry, actual visible pores and tiny skin blemishes, fine stray hairs, ordinary teenage build and proportions. Eye-level 85mm lens look, f/5.6, broad softbox/window light, gentle natural shadows, realistic neutral color, modest dynamic range, unretouched editorial photograph, focused face and slightly blurred background. No beauty retouching, waxy skin, generic handsome model face, older-looking jawline, bodybuilder build, beard, neon gaming lights, cinematic smoke, lens flare, halo, HDR, illustration, CGI, 3D render, plastic skin, national flags or costume stereotypes. Wardrobe: consistent modest matte black short-sleeved esports crew-neck jersey, narrow muted-gold collar piping, one thin muted-gold line along each shoulder seam, natural polyester weave and ordinary clothing folds, no sponsors, no badges, no emblem, no invented logo. Only small plain muted-gold text 'KAIROS' on wearer's left chest; no other shirt text. Arms relaxed below frame; do not cross arms. No caption or graphic text outside jersey. This is fictional visual development, not an existing person's likeness or a claim about ethnicity or citizenship. Preserve stated narrative age. Background is a soft-focus printed hometown-themed studio backdrop, not a claim that a canonical event occurred there. Same restrained photography treatment across the roster, but never reuse faces.\nSubject: Mason Brooks, nickname 404, fictional Kairos League of Legends player. Age 18 at narrative date 2026-11-24. Canonical city: Toronto. Nationality and ethnicity are unconfirmed; appearance choices are non-canonical art proposals.\nIndividual visual direction: A visibly eighteen-year-old boy with medium-deep brown skin, an oval face, broad nose, full lips, dark-brown eyes behind slim rectangular black prescription glasses. Short tightly coiled dark hair, with the top naturally uneven and close-cut sides, not a polished barber advertisement. A tiny temple blemish, natural skin tonal variation, clean shaven. Average lean teenage build. Straight but comfortable posture, composed attentive expression and neutral mouth, not aggressive. Canon personality is disciplined; convey only through a composed pose. Strongly distinct from the other portraits: neither pale freckled blond nor round-faced straight-haired boy. Backdrop: quiet cool gray Toronto brick-and-glass urban forms on a defocused studio print; no flags, no invented ethnicity or citizenship labels."
+    },
+    {
+      "playerId": "liam-aster-oconnor",
+      "canonicalRecord": "data/players/liam-aster-oconnor.json",
+      "file": "liam-aster-oconnor-portrait-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2201994,
+      "sha256": "f3748c464937d3e272304ead851ff453b538473da67d62738315076ed873da4e",
+      "originalGeneratedFilename": "exec-54f84bd3-3c52-4905-9ff7-02046a05095b.png",
+      "status": "draft-pending-user-approval",
+      "narrativeAgeUsed": 17,
+      "hometownCue": "Halifax",
+      "altText": "AI-generated draft portrait of Liam O'Connor, known as Aster, in a black and gold Kairos jersey with a blurred Halifax-inspired backdrop.",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single fictional esports player's photographic portrait for Kairospedia. Create ONE person, a vertical 2:3 portrait, framed from mid torso to comfortably above the entire head, centered with adequate crop margin for a narrow wiki infobox. Believable documentary sports media-day photography, natural human anatomy and asymmetry, actual visible pores and tiny skin blemishes, fine stray hairs, ordinary teenage build and proportions. Eye-level 85mm lens look, f/5.6, broad softbox/window light, gentle natural shadows, realistic neutral color, modest dynamic range, unretouched editorial photograph, focused face and slightly blurred background. No beauty retouching, waxy skin, generic handsome model face, older-looking jawline, bodybuilder build, beard, neon gaming lights, cinematic smoke, lens flare, halo, HDR, illustration, CGI, 3D render, plastic skin, national flags or costume stereotypes. Wardrobe: consistent modest matte black short-sleeved esports crew-neck jersey, narrow muted-gold collar piping, one thin muted-gold line along each shoulder seam, natural polyester weave and ordinary clothing folds, no sponsors, no badges, no emblem, no invented logo. Only small plain muted-gold text 'KAIROS' on wearer's left chest; no other shirt text. Arms relaxed below frame; do not cross arms. No caption or graphic text outside jersey. This is fictional visual development, not an existing person's likeness or a claim about ethnicity or citizenship. Preserve stated narrative age. Background is a soft-focus printed hometown-themed studio backdrop, not a claim that a canonical event occurred there. Same restrained photography treatment across the roster, but never reuse faces.\nSubject: Liam O'Connor, nickname Aster, fictional Kairos League of Legends player. Age 17 at narrative date 2026-11-24. Canonical city: Halifax. Nationality and ethnicity are unconfirmed; appearance choices are non-canonical art proposals.\nIndividual visual direction: A visibly seventeen-year-old boy, fair skin with a few small natural freckles across the nose, reddish-brown loose curls with uneven volume, pale green-gray eyes, a short upturned nose, broad youthful forehead, slightly prominent ears, soft cheeks and small chin. Clearly youthful, clean shaven, no adult angular model jaw. No glasses. Slender teenage build with slightly sloping shoulders, a tentative natural smile with closed lips. Visually distinct from Ethan's long narrow sandy-blond face and Noah's straight dark fringe; no identical face or facial structure. Backdrop: muted blue-gray Halifax harbor shapes and weathered waterfront wood suggested in a defocused studio print. No maple leaf, national flags, ancestry claims, fisherman costume or tourism postcard."
+    },
+    {
+      "playerId": "daniel-moss-reyes",
+      "canonicalRecord": "data/players/daniel-moss-reyes.json",
+      "file": "daniel-moss-reyes-portrait-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2252371,
+      "sha256": "33ee8dd3723631e6db44bd757a38b0077ddd192dc989ad65c7dc19b818525d48",
+      "originalGeneratedFilename": "exec-21e916bb-8f67-4a5c-9298-103eb0997c5b.png",
+      "status": "draft-pending-user-approval",
+      "narrativeAgeUsed": 18,
+      "hometownCue": "Chicago",
+      "altText": "AI-generated draft portrait of Daniel Reyes, known as Moss, in a black and gold Kairos jersey with a blurred Chicago-inspired backdrop.",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single fictional esports player's photographic portrait for Kairospedia. Create ONE person, a vertical 2:3 portrait, framed from mid torso to comfortably above the entire head, centered with adequate crop margin for a narrow wiki infobox. Believable documentary sports media-day photography, natural human anatomy and asymmetry, actual visible pores and tiny skin blemishes, fine stray hairs, ordinary teenage build and proportions. Eye-level 85mm lens look, f/5.6, broad softbox/window light, gentle natural shadows, realistic neutral color, modest dynamic range, unretouched editorial photograph, focused face and slightly blurred background. No beauty retouching, waxy skin, generic handsome model face, older-looking jawline, bodybuilder build, beard, neon gaming lights, cinematic smoke, lens flare, halo, HDR, illustration, CGI, 3D render, plastic skin, national flags or costume stereotypes. Wardrobe: consistent modest matte black short-sleeved esports crew-neck jersey, narrow muted-gold collar piping, one thin muted-gold line along each shoulder seam, natural polyester weave and ordinary clothing folds, no sponsors, no badges, no emblem, no invented logo. Only small plain muted-gold text 'KAIROS' on wearer's left chest; no other shirt text. Arms relaxed below frame; do not cross arms. No caption or graphic text outside jersey. This is fictional visual development, not an existing person's likeness or a claim about ethnicity or citizenship. Preserve stated narrative age. Background is a soft-focus printed hometown-themed studio backdrop, not a claim that a canonical event occurred there. Same restrained photography treatment across the roster, but never reuse faces.\nSubject: Daniel Reyes, nickname Moss, fictional Kairos League of Legends player. Age 18 at narrative date 2026-11-24. Canonical city: Chicago. Nationality and ethnicity are unconfirmed; appearance choices are non-canonical art proposals.\nIndividual visual direction: A visibly eighteen-year-old boy with medium olive-brown skin, a broad softly rectangular face, fuller cheeks, short broad chin, thick gently arched eyebrows, brown eyes, and short black wavy hair casually brushed off his forehead with a few displaced strands. A small natural cheek blemish, mild under-eye texture, slight asymmetry in his smile; clean shaven, no glasses. Average teenage build, relaxed square shoulders, approachable quietly confident expression without a superhero stare. He is team captain, shown only through an assured natural posture. Not the same face as Mason, Noah, Ethan or Liam: different forehead, nose, jaw and hairline. Backdrop: quiet charcoal and warm gray Chicago brick and steel architecture shapes suggested on an out-of-focus studio print. No national flags, no inference of ancestry from surname."
+    }
+  ]
+}

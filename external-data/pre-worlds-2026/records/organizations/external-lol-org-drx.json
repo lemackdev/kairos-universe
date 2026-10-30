@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-drx",
+  "slug": "external-drx",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "DRX",
+  "teamIds": [
+    "external-lol-team-drx"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

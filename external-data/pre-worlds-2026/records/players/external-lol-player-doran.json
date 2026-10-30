@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-doran",
+  "slug": "external-doran",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Doran",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-t1-doran-pre-worlds-2026-domestic"
+  ]
+}

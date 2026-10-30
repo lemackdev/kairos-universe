@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-ultra-prime",
+  "slug": "external-ultra-prime",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "name": "Ultra Prime",
+  "teamIds": [
+    "external-lol-team-ultra-prime"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

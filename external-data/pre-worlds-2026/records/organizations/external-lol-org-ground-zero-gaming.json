@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-ground-zero-gaming",
+  "slug": "external-ground-zero-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "Ground Zero Gaming",
+  "teamIds": [
+    "external-lol-team-ground-zero-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

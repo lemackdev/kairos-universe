@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-soopers-pyosik-pre-worlds-2026-domestic",
+  "slug": "external-soopers-pyosik-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "playerId": "external-lol-player-pyosik",
+  "teamId": "external-lol-team-soopers",
+  "role": "jungle",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-13",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

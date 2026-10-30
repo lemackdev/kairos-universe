@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-scamber",
+  "slug": "external-scamber",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "scamber",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-keyd-stars-scamber-pre-worlds-2026-domestic"
+  ]
+}

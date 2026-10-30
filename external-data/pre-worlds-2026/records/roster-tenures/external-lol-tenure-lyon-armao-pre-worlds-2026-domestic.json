@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-lyon-armao-pre-worlds-2026-domestic",
+  "slug": "external-lyon-armao-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "playerId": "external-lol-player-armao",
+  "teamId": "external-lol-team-lyon",
+  "role": "jungle",
+  "designation": "substitute",
+  "observedAtEventEnd": "2026-10-04",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

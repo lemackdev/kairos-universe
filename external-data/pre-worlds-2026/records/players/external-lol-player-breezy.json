@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-breezy",
+  "slug": "external-breezy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Breezy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cupid-esports-breezy-pre-worlds-2026-domestic"
+  ]
+}

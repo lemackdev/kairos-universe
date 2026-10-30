@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-aadam",
+  "slug": "external-aadam",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Aadam",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dorado-gaming-aadam-pre-worlds-2026-domestic"
+  ]
+}

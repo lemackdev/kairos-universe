@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-red-canids",
+  "slug": "external-red-canids",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "RED Canids",
+  "organizationId": "external-lol-org-red-canids",
+  "gameId": "league-of-legends",
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-red-canids-zynts-pre-worlds-2026-domestic",
+    "external-lol-tenure-red-canids-stepz-pre-worlds-2026-domestic",
+    "external-lol-tenure-red-canids-fuuu-pre-worlds-2026-domestic",
+    "external-lol-tenure-red-canids-morttheus-pre-worlds-2026-domestic",
+    "external-lol-tenure-red-canids-manel-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

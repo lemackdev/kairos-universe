@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-dorado-gaming",
+  "slug": "external-dorado-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Dorado Gaming",
+  "teamIds": [
+    "external-lol-team-dorado-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

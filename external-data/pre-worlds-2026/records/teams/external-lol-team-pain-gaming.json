@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-pain-gaming",
+  "slug": "external-pain-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "paiN Gaming",
+  "organizationId": "external-lol-org-pain-gaming",
+  "gameId": "league-of-legends",
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-pain-gaming-boal-pre-worlds-2026-domestic",
+    "external-lol-tenure-pain-gaming-cariok-pre-worlds-2026-domestic",
+    "external-lol-tenure-pain-gaming-keine-pre-worlds-2026-domestic",
+    "external-lol-tenure-pain-gaming-hena-pre-worlds-2026-domestic",
+    "external-lol-tenure-pain-gaming-ceos-pre-worlds-2026-domestic",
+    "external-lol-tenure-pain-gaming-namiru-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "Keine and Namiru are both listed in the event main roster. No unique starting Mid is inferred."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "external-lol-team-cloud9",
+  "slug": "external-cloud9",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Cloud9",
+  "organizationId": "external-lol-org-cloud9",
+  "gameId": "league-of-legends",
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-thanatos-pre-worlds-2026-domestic",
+    "external-lol-tenure-cloud9-blaber-pre-worlds-2026-domestic",
+    "external-lol-tenure-cloud9-loki-pre-worlds-2026-domestic",
+    "external-lol-tenure-cloud9-tactical-pre-worlds-2026-domestic",
+    "external-lol-tenure-cloud9-vulcan-pre-worlds-2026-domestic",
+    "external-lol-tenure-cloud9-apa-pre-worlds-2026-domestic",
+    "external-lol-tenure-cloud9-zven-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

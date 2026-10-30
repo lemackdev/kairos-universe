@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-saint",
+  "slug": "external-saint",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Saint",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lyon-saint-pre-worlds-2026-domestic"
+  ]
+}

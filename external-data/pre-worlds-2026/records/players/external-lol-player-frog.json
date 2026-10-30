@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-frog",
+  "slug": "external-frog",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Frog",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-drx-frog-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-g2-esports",
+  "slug": "external-g2-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "G2 Esports",
+  "teamIds": [
+    "external-lol-team-g2-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

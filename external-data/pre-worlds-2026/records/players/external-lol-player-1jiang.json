@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-1jiang",
+  "slug": "external-1jiang",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "1Jiang",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ground-zero-gaming-1jiang-pre-worlds-2026-domestic"
+  ]
+}

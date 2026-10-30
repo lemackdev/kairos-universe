@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-enga",
+  "slug": "external-enga",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Enga",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-leviatan-enga-pre-worlds-2026-domestic"
+  ]
+}

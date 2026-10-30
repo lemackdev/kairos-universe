@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-shifters-paduck-pre-worlds-2026-domestic",
+  "slug": "external-shifters-paduck-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "playerId": "external-lol-player-paduck",
+  "teamId": "external-lol-team-shifters",
+  "role": "bot",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-20",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

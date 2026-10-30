@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-kt-rolster",
+  "slug": "external-kt-rolster",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "KT Rolster",
+  "teamIds": [
+    "external-lol-team-kt-rolster"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

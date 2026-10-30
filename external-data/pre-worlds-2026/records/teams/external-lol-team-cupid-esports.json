@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-cupid-esports",
+  "slug": "external-cupid-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Cupid eSports",
+  "organizationId": "external-lol-org-cupid-esports",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-cupid-esports-horder-pre-worlds-2026-domestic",
+    "external-lol-tenure-cupid-esports-music-pre-worlds-2026-domestic",
+    "external-lol-tenure-cupid-esports-ablazeolive-pre-worlds-2026-domestic",
+    "external-lol-tenure-cupid-esports-mobility-pre-worlds-2026-domestic",
+    "external-lol-tenure-cupid-esports-breezy-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

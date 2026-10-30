@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-nrg",
+  "slug": "external-nrg",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "NRG",
+  "teamIds": [
+    "external-lol-team-nrg"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

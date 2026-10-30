@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-natus-vincere-maynter-pre-worlds-2026-domestic",
+  "slug": "external-natus-vincere-maynter-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "playerId": "external-lol-player-maynter",
+  "teamId": "external-lol-team-natus-vincere",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-20",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

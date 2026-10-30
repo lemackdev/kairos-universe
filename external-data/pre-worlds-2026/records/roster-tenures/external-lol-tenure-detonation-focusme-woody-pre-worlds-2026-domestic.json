@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-detonation-focusme-woody-pre-worlds-2026-domestic",
+  "slug": "external-detonation-focusme-woody-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-woody",
+  "teamId": "external-lol-team-detonation-focusme",
+  "role": "support",
+  "designation": "main",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

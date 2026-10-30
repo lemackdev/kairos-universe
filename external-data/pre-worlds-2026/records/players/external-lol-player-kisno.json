@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kisno",
+  "slug": "external-kisno",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Kisno",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nrg-kisno-pre-worlds-2026-domestic"
+  ]
+}

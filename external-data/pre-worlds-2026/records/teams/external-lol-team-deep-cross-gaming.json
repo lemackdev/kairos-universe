@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-deep-cross-gaming",
+  "slug": "external-deep-cross-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "Deep Cross Gaming",
+  "organizationId": "external-lol-org-deep-cross-gaming",
+  "gameId": "league-of-legends",
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-deep-cross-gaming-flauren-pre-worlds-2026-domestic",
+    "external-lol-tenure-deep-cross-gaming-pop9-pre-worlds-2026-domestic",
+    "external-lol-tenure-deep-cross-gaming-hongsuo-pre-worlds-2026-domestic",
+    "external-lol-tenure-deep-cross-gaming-feng-pre-worlds-2026-domestic",
+    "external-lol-tenure-deep-cross-gaming-shiauc-pre-worlds-2026-domestic",
+    "external-lol-tenure-deep-cross-gaming-xiaoxiang-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-deep-cross-gaming-xiaoxiang-pre-worlds-2026-domestic",
+  "slug": "external-deep-cross-gaming-xiaoxiang-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-xiaoxiang",
+  "teamId": "external-lol-team-deep-cross-gaming",
+  "role": "mid",
+  "designation": "substitute",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

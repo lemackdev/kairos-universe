@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-jeskla",
+  "slug": "external-jeskla",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Jeskla",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-keyd-stars-jeskla-pre-worlds-2026-domestic"
+  ]
+}

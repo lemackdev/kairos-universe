@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-tomo",
+  "slug": "external-tomo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Tomo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-winthrop-university-tomo-pre-worlds-2026-domestic"
+  ]
+}

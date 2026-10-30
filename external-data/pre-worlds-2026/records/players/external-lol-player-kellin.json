@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kellin",
+  "slug": "external-kellin",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Kellin",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fearx-kellin-pre-worlds-2026-domestic"
+  ]
+}

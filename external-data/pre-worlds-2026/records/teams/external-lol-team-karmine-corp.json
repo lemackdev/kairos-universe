@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-karmine-corp",
+  "slug": "external-karmine-corp",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Karmine Corp",
+  "organizationId": "external-lol-org-karmine-corp",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-karmine-corp-canna-pre-worlds-2026-domestic",
+    "external-lol-tenure-karmine-corp-yike-pre-worlds-2026-domestic",
+    "external-lol-tenure-karmine-corp-kyeahoo-pre-worlds-2026-domestic",
+    "external-lol-tenure-karmine-corp-caliste-pre-worlds-2026-domestic",
+    "external-lol-tenure-karmine-corp-busio-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

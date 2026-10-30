@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-gam-esports",
+  "slug": "external-gam-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "GAM Esports",
+  "organizationId": "external-lol-org-gam-esports",
+  "gameId": "league-of-legends",
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-gam-esports-kiaya-pre-worlds-2026-domestic",
+    "external-lol-tenure-gam-esports-draktharr-pre-worlds-2026-domestic",
+    "external-lol-tenure-gam-esports-gloryy-pre-worlds-2026-domestic",
+    "external-lol-tenure-gam-esports-artemis-pre-worlds-2026-domestic",
+    "external-lol-tenure-gam-esports-taki-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

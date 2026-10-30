@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-minui",
+  "slug": "external-minui",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Minui",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-blue-otter-minui-pre-worlds-2026-domestic"
+  ]
+}

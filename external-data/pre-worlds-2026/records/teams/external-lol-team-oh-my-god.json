@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-team-oh-my-god",
+  "slug": "external-oh-my-god",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "name": "Oh My God",
+  "organizationId": "external-lol-org-oh-my-god",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-oh-my-god-hery-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-re0-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-haichao-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-starry-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-moham-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-photic-pre-worlds-2026-domestic",
+    "external-lol-tenure-oh-my-god-juhan-pre-worlds-2026-domestic"
+  ],
+  "basis": "last-available-domestic-tournament",
+  "notes": [
+    "Did not participate in LPL Split 3. This is the last available domestic tournament roster, not a claim that every member remained contracted before Worlds."
+  ]
+}

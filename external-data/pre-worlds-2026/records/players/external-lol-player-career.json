@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-career",
+  "slug": "external-career",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Career",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dplus-career-pre-worlds-2026-domestic"
+  ]
+}

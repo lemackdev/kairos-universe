@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kratos",
+  "slug": "external-kratos",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Kratos",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-mvk-esports-kratos-pre-worlds-2026-domestic"
+  ]
+}

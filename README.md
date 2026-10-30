@@ -14,9 +14,16 @@ first publication exposes only Kairos Esports, the League of Legends main
 team, its five active players, directly associated League staff, and confirmed
 mentorship relationships.
 
+Kairospedia additionally exposes a separate, source-linked **pre-Worlds 2026
+reference collection** at `/wiki/world`: 68 teams in LCK, LPL, LEC, CBLOL, LCS,
+LCP and NACL, with 376 unique players. It remains researched-needs-review,
+not adopted fictional canon. No other lower leagues are included. See the
+[snapshot scope and limitations](external-data/pre-worlds-2026/README.md) and
+[publication workflow](docs/kairospedia/EXTERNAL_SCENE_REFERENCES.md).
+
 **KairosDB** (`kairosdb/`) is a separate product: the competitive career and
 results database. It combines the same five Kairos League players and their
-team (read directly from canon, never duplicated) with a frozen, structured
+team (read directly from canon, never duplicated) with a structured
 snapshot of the real-world League of Legends competitive ecosystem imported
 from Leaguepedia. Kairospedia remains the narrative canon encyclopedia;
 KairosDB never replaces it. See
@@ -41,6 +48,7 @@ KairosDB never replaces it. See
 | `website/` | Self-contained Next.js App Router implementation of Kairospedia |
 | `kairosdb/` | Self-contained Next.js App Router implementation of KairosDB, plus the Leaguepedia importer (`kairosdb/scripts/leaguepedia/`) |
 | `external-data/leaguepedia/` | Frozen external snapshots imported from Leaguepedia, raw and normalized, never merged into `data/` |
+| `external-data/pre-worlds-2026/` | Source-linked domestic roster reference research, separate from fictional canon and the older KairosDB snapshot |
 | `wiki/` | Reserved for future generated or local wiki material |
 | `kairos-version.json` | Canon and documentation-phase version metadata |
 

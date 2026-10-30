@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-juhan",
+  "slug": "external-juhan",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Juhan",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-oh-my-god-juhan-pre-worlds-2026-domestic"
+  ]
+}

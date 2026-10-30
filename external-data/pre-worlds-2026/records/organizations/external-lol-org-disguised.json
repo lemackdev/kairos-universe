@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-disguised",
+  "slug": "external-disguised",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Disguised",
+  "teamIds": [
+    "external-lol-team-disguised"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

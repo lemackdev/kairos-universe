@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-marble",
+  "slug": "external-marble",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Marble",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-softbank-hawks-gaming-marble-pre-worlds-2026-domestic"
+  ]
+}

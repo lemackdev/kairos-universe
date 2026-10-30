@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CanonBadge, GameBadge, StatusBadge } from "@/components/Badges";
@@ -41,7 +42,7 @@ export default async function GamePage({
       <PageHeader
         eyebrow="Game record"
         title={game.name}
-        description="The current Kairospedia release indexes one active team, its player roles, and source-backed narrative updates for this game."
+        description="Kairos narrative canon and the separately labeled pre-Worlds 2026 real-world reference scene."
         badges={
           <>
             <CanonBadge />
@@ -52,6 +53,7 @@ export default async function GamePage({
         compact
       />
       <section className="contentSection" id="overview">
+        <p><Link href="/wiki/world">Explore LCK, LPL, LEC, CBLOL, LCS, LCP and NACL tournament-roster references</Link>. These historical real-world records do not change fictional canon.</p>
         <div className="sectionHeader">
           <div>
             <span className="sectionKicker">Overview</span>
@@ -71,7 +73,7 @@ export default async function GamePage({
         </div>
       </section>
       <section className="contentSection" id="teams">
-        <h2>Active teams</h2>
+        <h2>Active Kairos canon teams</h2>
         <div className="entityGrid">
           {teams.map((team) => (
             <EntityCard
@@ -86,7 +88,7 @@ export default async function GamePage({
         </div>
       </section>
       <section className="contentSection" id="players">
-        <h2>Active players</h2>
+        <h2>Active Kairos canon players</h2>
         <div className="entityGrid">
           {players.map((player) => (
             <EntityCard

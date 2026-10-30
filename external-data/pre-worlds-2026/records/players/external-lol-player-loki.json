@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-loki",
+  "slug": "external-loki",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Loki",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-loki-pre-worlds-2026-domestic"
+  ]
+}

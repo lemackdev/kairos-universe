@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-edward-gaming",
+  "slug": "external-edward-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "EDward Gaming",
+  "teamIds": [
+    "external-lol-team-edward-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

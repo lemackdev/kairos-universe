@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-ccg-esports",
+  "slug": "external-ccg-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "CCG Esports",
+  "teamIds": [
+    "external-lol-team-ccg-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

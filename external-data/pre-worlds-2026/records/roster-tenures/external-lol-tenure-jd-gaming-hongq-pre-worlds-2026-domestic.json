@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-jd-gaming-hongq-pre-worlds-2026-domestic",
+  "slug": "external-jd-gaming-hongq-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "playerId": "external-lol-player-hongq",
+  "teamId": "external-lol-team-jd-gaming",
+  "role": "mid",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-19",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

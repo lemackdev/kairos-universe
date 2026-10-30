@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-pain-gaming-ceos-pre-worlds-2026-domestic",
+  "slug": "external-pain-gaming-ceos-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "playerId": "external-lol-player-ceos",
+  "teamId": "external-lol-team-pain-gaming",
+  "role": "support",
+  "designation": "main",
+  "observedAtEventEnd": "2026-10-10",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

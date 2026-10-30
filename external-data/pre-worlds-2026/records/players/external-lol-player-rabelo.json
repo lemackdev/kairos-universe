@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-rabelo",
+  "slug": "external-rabelo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Rabelo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-loud-rabelo-pre-worlds-2026-domestic"
+  ]
+}

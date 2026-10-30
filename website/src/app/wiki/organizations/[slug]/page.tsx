@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { ExternalOrganizationArticle } from "@/components/articles/ExternalArticles";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CanonBadge, StatusBadge } from "@/components/Badges";
@@ -9,7 +10,8 @@ import { SourceList } from "@/components/SourceList";
 import { getCatalog } from "@/lib/canon/server";
 
 export function generateStaticParams() {
-  return getCatalog().organizations.map((organization) => ({
+  const catalog = getCatalog();
+  return [...catalog.organizations, ...(catalog.externalScene?.organizations ?? [])].map((organization) => ({
     slug: organization.slug,
   }));
 }
@@ -24,6 +26,8 @@ export default async function OrganizationPage({
   const organization = catalog.organizations.find(
     (entry) => entry.slug === slug,
   );
+  const reference = catalog.externalScene?.organizations.find((entry) => entry.slug === slug);
+  if (!organization && reference && catalog.externalScene) return <ExternalOrganizationArticle organization={reference} scene={catalog.externalScene} />;
   if (!organization) notFound();
 
   const teams = catalog.teams.filter((team) =>

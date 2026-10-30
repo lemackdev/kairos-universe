@@ -111,6 +111,7 @@ export interface RawPlayer {
   contract: Record<string, unknown> | null;
   relationships: CanonRelationship[];
   careerHistory: Array<Record<string, unknown>>;
+  trivia?: string[];
   statistics: Record<string, unknown>;
   achievements: string[];
   confirmedFacts: string[];
@@ -137,6 +138,44 @@ export interface RawStaff {
   confirmedFacts: string[];
   unconfirmedDetails: string[];
   canonNotes: string[];
+}
+
+export interface RawCompetition {
+  id: string;
+  slug: string;
+  name: string;
+  gameId: string;
+  status: string;
+  canonStatus: CanonStatus;
+  sourceIds: string[];
+  overview?: string;
+  format?: string[];
+  organizer?: string | null;
+  location?: string | null;
+  startDate?: string | null;
+  endDate?: string | null;
+  prizePool?: string | null;
+  participantTeamIds?: string[];
+  prizeDistribution?: Array<{ place: string; prize: string | null; teamId: string | null }>;
+}
+
+export interface RawAward {
+  id: string;
+  recipientId: string;
+  name: string;
+  date: string | null;
+  competitionId: string | null;
+  sourceIds: string[];
+  canonStatus: CanonStatus;
+}
+
+export interface RawStanding {
+  id: string;
+  competitionId: string;
+  teamId: string;
+  position: number | null;
+  sourceIds: string[];
+  canonStatus: CanonStatus;
 }
 
 export interface RawEpisode {

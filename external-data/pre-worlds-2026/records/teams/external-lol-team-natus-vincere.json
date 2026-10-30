@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-natus-vincere",
+  "slug": "external-natus-vincere",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Natus Vincere",
+  "organizationId": "external-lol-org-natus-vincere",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-natus-vincere-maynter-pre-worlds-2026-domestic",
+    "external-lol-tenure-natus-vincere-rhilech-pre-worlds-2026-domestic",
+    "external-lol-tenure-natus-vincere-poby-pre-worlds-2026-domestic",
+    "external-lol-tenure-natus-vincere-samd-pre-worlds-2026-domestic",
+    "external-lol-tenure-natus-vincere-parus-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

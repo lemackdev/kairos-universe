@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-maryville-university-crimson-pre-worlds-2026-domestic",
+  "slug": "external-maryville-university-crimson-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "playerId": "external-lol-player-crimson",
+  "teamId": "external-lol-team-maryville-university",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-11",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

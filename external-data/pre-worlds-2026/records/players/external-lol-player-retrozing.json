@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-retrozing",
+  "slug": "external-retrozing",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Retrozing",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-university-of-mississippi-retrozing-pre-worlds-2026-domestic"
+  ]
+}

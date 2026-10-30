@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-xun",
+  "slug": "external-xun",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Xun",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-bilibili-gaming-xun-pre-worlds-2026-domestic"
+  ]
+}

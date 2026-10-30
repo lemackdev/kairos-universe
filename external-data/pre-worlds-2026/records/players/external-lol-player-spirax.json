@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-spirax",
+  "slug": "external-spirax",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Spirax",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-maryville-university-spirax-pre-worlds-2026-domestic"
+  ]
+}

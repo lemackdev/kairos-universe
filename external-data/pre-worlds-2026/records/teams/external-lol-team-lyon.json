@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-lyon",
+  "slug": "external-lyon",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "LYON",
+  "organizationId": "external-lol-org-lyon",
+  "gameId": "league-of-legends",
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-lyon-dhokla-pre-worlds-2026-domestic",
+    "external-lol-tenure-lyon-inspired-pre-worlds-2026-domestic",
+    "external-lol-tenure-lyon-saint-pre-worlds-2026-domestic",
+    "external-lol-tenure-lyon-berserker-pre-worlds-2026-domestic",
+    "external-lol-tenure-lyon-isles-pre-worlds-2026-domestic",
+    "external-lol-tenure-lyon-armao-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

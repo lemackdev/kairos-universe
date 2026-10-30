@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hub",
+  "slug": "external-hub",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Hub",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-dorado-gaming-hub-pre-worlds-2026-domestic"
+  ]
+}

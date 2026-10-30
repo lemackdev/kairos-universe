@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-young",
+  "slug": "external-young",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Young",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-blue-otter-young-pre-worlds-2026-domestic"
+  ]
+}

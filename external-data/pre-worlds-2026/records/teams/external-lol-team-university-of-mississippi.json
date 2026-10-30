@@ -1,0 +1,26 @@
+{
+  "id": "external-lol-team-university-of-mississippi",
+  "slug": "external-university-of-mississippi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "University of Mississippi",
+  "organizationId": "external-lol-org-university-of-mississippi",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-university-of-mississippi-ariana-pre-worlds-2026-domestic",
+    "external-lol-tenure-university-of-mississippi-griffin-pre-worlds-2026-domestic",
+    "external-lol-tenure-university-of-mississippi-bradley-pre-worlds-2026-domestic",
+    "external-lol-tenure-university-of-mississippi-array-pre-worlds-2026-domestic",
+    "external-lol-tenure-university-of-mississippi-bounty-pre-worlds-2026-domestic",
+    "external-lol-tenure-university-of-mississippi-will-pre-worlds-2026-domestic",
+    "external-lol-tenure-university-of-mississippi-retrozing-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-sheo",
+  "slug": "external-sheo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Sheo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-shifters-sheo-pre-worlds-2026-domestic"
+  ]
+}

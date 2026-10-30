@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-vladi",
+  "slug": "external-vladi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Vladi",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fnatic-vladi-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-momo",
+  "slug": "external-momo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Momo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-detonation-focusme-momo-pre-worlds-2026-domestic"
+  ]
+}

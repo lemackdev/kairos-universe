@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-edward-gaming",
+  "slug": "external-edward-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "EDward Gaming",
+  "organizationId": "external-lol-org-edward-gaming",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-edward-gaming-zdz-pre-worlds-2026-domestic",
+    "external-lol-tenure-edward-gaming-jiejie-pre-worlds-2026-domestic",
+    "external-lol-tenure-edward-gaming-bulldog-pre-worlds-2026-domestic",
+    "external-lol-tenure-edward-gaming-leave-pre-worlds-2026-domestic",
+    "external-lol-tenure-edward-gaming-parukia-pre-worlds-2026-domestic",
+    "external-lol-tenure-edward-gaming-sinian-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "BuLLDoG and Sinian are listed in the event main roster. No unique starting Mid is inferred."
+  ]
+}

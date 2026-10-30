@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-only35",
+  "slug": "external-only35",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Only35",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ccg-esports-only35-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-gumayusi",
+  "slug": "external-gumayusi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Gumayusi",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-hanwha-life-esports-gumayusi-pre-worlds-2026-domestic"
+  ]
+}

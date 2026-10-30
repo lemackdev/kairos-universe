@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-team-vitality",
+  "slug": "external-team-vitality",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Team Vitality",
+  "teamIds": [
+    "external-lol-team-team-vitality"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

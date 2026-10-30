@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-artemis",
+  "slug": "external-artemis",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Artemis",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gam-esports-artemis-pre-worlds-2026-domestic"
+  ]
+}

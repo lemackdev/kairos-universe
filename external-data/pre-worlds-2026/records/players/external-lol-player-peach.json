@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-peach",
+  "slug": "external-peach",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Peach",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fluxo-w7m-peach-pre-worlds-2026-domestic"
+  ]
+}

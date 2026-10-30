@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-fearx",
+  "slug": "external-fearx",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "FEARX",
+  "teamIds": [
+    "external-lol-team-fearx"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-yeon",
+  "slug": "external-yeon",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Yeon",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-liquid-yeon-pre-worlds-2026-domestic"
+  ]
+}

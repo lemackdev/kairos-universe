@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-fuuu",
+  "slug": "external-fuuu",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Fuuu",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-red-canids-fuuu-pre-worlds-2026-domestic"
+  ]
+}

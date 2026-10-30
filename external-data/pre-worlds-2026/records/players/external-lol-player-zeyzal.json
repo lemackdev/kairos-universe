@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zeyzal",
+  "slug": "external-zeyzal",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Zeyzal",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-shopify-rebellion-zeyzal-pre-worlds-2026-domestic"
+  ]
+}

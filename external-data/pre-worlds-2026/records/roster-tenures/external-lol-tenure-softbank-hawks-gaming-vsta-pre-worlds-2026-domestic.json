@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-softbank-hawks-gaming-vsta-pre-worlds-2026-domestic",
+  "slug": "external-softbank-hawks-gaming-vsta-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-vsta",
+  "teamId": "external-lol-team-softbank-hawks-gaming",
+  "role": "support",
+  "designation": "main",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-impact",
+  "slug": "external-impact",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Impact",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-sentinels-impact-pre-worlds-2026-domestic"
+  ]
+}

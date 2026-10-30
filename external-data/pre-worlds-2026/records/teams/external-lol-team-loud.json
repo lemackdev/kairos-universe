@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-loud",
+  "slug": "external-loud",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "LOUD",
+  "organizationId": "external-lol-org-loud",
+  "gameId": "league-of-legends",
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-loud-xyno-pre-worlds-2026-domestic",
+    "external-lol-tenure-loud-sinatra-pre-worlds-2026-domestic",
+    "external-lol-tenure-loud-kaze-pre-worlds-2026-domestic",
+    "external-lol-tenure-loud-rabelo-pre-worlds-2026-domestic",
+    "external-lol-tenure-loud-uzent-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

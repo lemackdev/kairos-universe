@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-hanwha-life-esports",
+  "slug": "external-hanwha-life-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "Hanwha Life Esports",
+  "organizationId": "external-lol-org-hanwha-life-esports",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-hanwha-life-esports-zeus-pre-worlds-2026-domestic",
+    "external-lol-tenure-hanwha-life-esports-kanavi-pre-worlds-2026-domestic",
+    "external-lol-tenure-hanwha-life-esports-zeka-pre-worlds-2026-domestic",
+    "external-lol-tenure-hanwha-life-esports-gumayusi-pre-worlds-2026-domestic",
+    "external-lol-tenure-hanwha-life-esports-delight-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

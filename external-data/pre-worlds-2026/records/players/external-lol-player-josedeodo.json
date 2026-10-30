@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-josedeodo",
+  "slug": "external-josedeodo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Josedeodo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-liquid-josedeodo-pre-worlds-2026-domestic"
+  ]
+}

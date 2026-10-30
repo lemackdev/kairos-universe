@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-wilson",
+  "slug": "external-wilson",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Wilson",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-winthrop-university-wilson-pre-worlds-2026-domestic"
+  ]
+}

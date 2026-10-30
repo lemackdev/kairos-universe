@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-creme",
+  "slug": "external-creme",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Creme",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-top-esports-creme-pre-worlds-2026-domestic"
+  ]
+}

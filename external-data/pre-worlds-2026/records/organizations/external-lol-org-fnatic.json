@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-fnatic",
+  "slug": "external-fnatic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Fnatic",
+  "teamIds": [
+    "external-lol-team-fnatic"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

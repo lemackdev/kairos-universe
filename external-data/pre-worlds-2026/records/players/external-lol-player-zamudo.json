@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zamudo",
+  "slug": "external-zamudo",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Zamudo",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nrg-zamudo-pre-worlds-2026-domestic"
+  ]
+}

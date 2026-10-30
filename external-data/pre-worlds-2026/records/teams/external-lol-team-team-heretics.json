@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-team-heretics",
+  "slug": "external-team-heretics",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Team Heretics",
+  "organizationId": "external-lol-org-team-heretics",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-heretics-tracyn-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-heretics-daglas-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-heretics-serin-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-heretics-hype-pre-worlds-2026-domestic",
+    "external-lol-tenure-team-heretics-way-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

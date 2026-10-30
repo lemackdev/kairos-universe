@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-xiaoxiang",
+  "slug": "external-xiaoxiang",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "XiaoXiang",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-deep-cross-gaming-xiaoxiang-pre-worlds-2026-domestic"
+  ]
+}

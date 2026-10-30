@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-peter",
+  "slug": "external-peter",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Peter",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-soopers-peter-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-movistar-koi",
+  "slug": "external-movistar-koi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Movistar KOI",
+  "organizationId": "external-lol-org-movistar-koi",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-movistar-koi-myrwn-pre-worlds-2026-domestic",
+    "external-lol-tenure-movistar-koi-elyoya-pre-worlds-2026-domestic",
+    "external-lol-tenure-movistar-koi-jojopyun-pre-worlds-2026-domestic",
+    "external-lol-tenure-movistar-koi-supa-pre-worlds-2026-domestic",
+    "external-lol-tenure-movistar-koi-alvaro-pre-worlds-2026-domestic",
+    "external-lol-tenure-movistar-koi-nightslayer-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

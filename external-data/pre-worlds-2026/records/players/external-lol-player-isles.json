@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-isles",
+  "slug": "external-isles",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Isles",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-lyon-isles-pre-worlds-2026-domestic"
+  ]
+}

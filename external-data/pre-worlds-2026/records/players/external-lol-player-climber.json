@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-climber",
+  "slug": "external-climber",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "climber",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ultra-prime-climber-pre-worlds-2026-domestic"
+  ]
+}

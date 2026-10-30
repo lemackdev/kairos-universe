@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-team-liquid-quid-pre-worlds-2026-domestic",
+  "slug": "external-team-liquid-quid-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "playerId": "external-lol-player-quid",
+  "teamId": "external-lol-team-team-liquid",
+  "role": "mid",
+  "designation": "main",
+  "observedAtEventEnd": "2026-10-04",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

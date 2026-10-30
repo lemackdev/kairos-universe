@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-t1-doran-pre-worlds-2026-domestic",
+  "slug": "external-t1-doran-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "playerId": "external-lol-player-doran",
+  "teamId": "external-lol-team-t1",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-13",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

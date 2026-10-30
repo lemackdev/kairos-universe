@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-thanatos",
+  "slug": "external-thanatos",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Thanatos",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cloud9-thanatos-pre-worlds-2026-domestic"
+  ]
+}

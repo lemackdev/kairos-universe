@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-top-esports",
+  "slug": "external-top-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "Top Esports",
+  "teamIds": [
+    "external-lol-team-top-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

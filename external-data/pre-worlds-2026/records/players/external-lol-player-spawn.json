@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-spawn",
+  "slug": "external-spawn",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Spawn",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ccg-esports-spawn-pre-worlds-2026-domestic"
+  ]
+}

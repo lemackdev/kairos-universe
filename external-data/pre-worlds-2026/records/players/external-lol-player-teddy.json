@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-teddy",
+  "slug": "external-teddy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Teddy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-brion-teddy-pre-worlds-2026-domestic"
+  ]
+}

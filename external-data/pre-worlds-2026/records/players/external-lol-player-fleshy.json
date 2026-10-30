@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-fleshy",
+  "slug": "external-fleshy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Fleshy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-team-vitality-fleshy-pre-worlds-2026-domestic"
+  ]
+}

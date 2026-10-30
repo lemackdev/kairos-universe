@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hery",
+  "slug": "external-hery",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-split-2"
+  ],
+  "nickname": "Hery",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-oh-my-god-hery-pre-worlds-2026-domestic"
+  ]
+}

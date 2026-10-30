@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-van1",
+  "slug": "external-van1",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "van1",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-softbank-hawks-gaming-van1-pre-worlds-2026-domestic"
+  ]
+}

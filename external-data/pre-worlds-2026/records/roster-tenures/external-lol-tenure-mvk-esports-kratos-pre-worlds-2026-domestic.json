@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-mvk-esports-kratos-pre-worlds-2026-domestic",
+  "slug": "external-mvk-esports-kratos-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-kratos",
+  "teamId": "external-lol-team-mvk-esports",
+  "role": "top",
+  "designation": "main",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

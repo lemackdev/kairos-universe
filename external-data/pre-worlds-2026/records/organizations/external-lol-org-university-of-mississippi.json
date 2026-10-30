@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-university-of-mississippi",
+  "slug": "external-university-of-mississippi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "University of Mississippi",
+  "teamIds": [
+    "external-lol-team-university-of-mississippi"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

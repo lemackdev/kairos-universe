@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-yike",
+  "slug": "external-yike",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Yike",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-karmine-corp-yike-pre-worlds-2026-domestic"
+  ]
+}

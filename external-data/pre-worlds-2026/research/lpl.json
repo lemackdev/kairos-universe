@@ -1,0 +1,557 @@
+{
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "expectedTeamCount": 14,
+  "sourceId": "source-pre-worlds-2026-lpl",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_3",
+  "eventName": "LPL 2026 Split 3",
+  "eventEndDate": "2026-09-13",
+  "teams": [
+    {
+      "key": "bilibili-gaming",
+      "name": "Bilibili Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "Bin, Wenbo and Flandre are listed in the event main roster. No unique starting Top is inferred."
+      ],
+      "members": [
+        {
+          "nickname": "Bin",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Xun",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "knight",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Viper",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "ON",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Wenbo",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Flandre",
+          "role": "top",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "top-esports",
+      "name": "Top Esports",
+      "sourceId": "source-pre-worlds-2026-lpl-regional-finals",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "Uses the Regional Finals roster. The later Worlds visa-related 369/ZUIAN starting-lineup change is outside this domestic-event snapshot."
+      ],
+      "members": [
+        {
+          "nickname": "ZUIAN",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tian",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Creme",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "JackeyLove",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Zhuo",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "369",
+          "role": "top",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "team-we",
+      "name": "Team WE",
+      "sourceId": "source-pre-worlds-2026-lpl-regional-finals",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Cube",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Monki",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Karis",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "About",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Erha",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tyrion",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "anyone-s-legend",
+      "name": "Anyone's Legend",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Breathe",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tarzan",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Shanks",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hope",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kael",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "jd-gaming",
+      "name": "JD Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl-regional-finals",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "Regional Finals lists JunJia as main and xiaofang as substitute; no later invitational stand-ins were adopted."
+      ],
+      "members": [
+        {
+          "nickname": "Xiaoxu",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "JunJia",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "HongQ",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "GALA",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Vampire",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "xiaofang",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "lgd-gaming",
+      "name": "LGD Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Burdol",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Heng",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tangyuan",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Shaoye",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Crisp",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "edward-gaming",
+      "name": "EDward Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "BuLLDoG and Sinian are listed in the event main roster. No unique starting Mid is inferred."
+      ],
+      "members": [
+        {
+          "nickname": "Zdz",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jiejie",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "BuLLDoG",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Leave",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Parukia",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sinian",
+          "role": "mid",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "thundertalk-gaming",
+      "name": "ThunderTalk Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Keshi",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Junhao",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Heru",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ahn",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Feather",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "invictus-gaming",
+      "name": "Invictus Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl-regional-finals",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "Regional Finals lists JiaQi as main and Assum as substitute; this later event takes precedence over Split 3 designation."
+      ],
+      "members": [
+        {
+          "nickname": "TheShy",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Wei",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Rookie",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "JiaQi",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Meiko",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Assum",
+          "role": "bot",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "lng-esports",
+      "name": "LNG Esports",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "sheer",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Weiwei",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Nia",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "1xn",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Missing",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ycx",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "ninjas-in-pyjamas",
+      "name": "Ninjas in Pyjamas",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Hoya",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Guwon",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Care",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Photic",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "fengyue",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "weibo-gaming",
+      "name": "Weibo Gaming",
+      "sourceId": "source-pre-worlds-2026-lpl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Zika",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Xiaohao",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Xiaohu",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Elk",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Jwei",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Moham",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "oh-my-god",
+      "name": "Oh My God",
+      "sourceId": "source-pre-worlds-2026-lpl-split-2",
+      "basis": "last-available-domestic-tournament",
+      "notes": [
+        "Did not participate in LPL Split 3. This is the last available domestic tournament roster, not a claim that every member remained contracted before Worlds."
+      ],
+      "members": [
+        {
+          "nickname": "Hery",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "re0",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Haichao",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Starry",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Moham",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Photic",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Juhan",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "ultra-prime",
+      "name": "Ultra Prime",
+      "sourceId": "source-pre-worlds-2026-lpl-split-2",
+      "basis": "last-available-domestic-tournament",
+      "notes": [
+        "Did not participate in LPL Split 3. This is the last available domestic tournament roster, not a claim that every member remained contracted before Worlds."
+      ],
+      "members": [
+        {
+          "nickname": "Sasi",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "climber",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Saber",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hena",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Xiaoxia",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    }
+  ]
+}

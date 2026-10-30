@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-top-esports",
+  "slug": "external-top-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "Top Esports",
+  "organizationId": "external-lol-org-top-esports",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-top-esports-zuian-pre-worlds-2026-domestic",
+    "external-lol-tenure-top-esports-tian-pre-worlds-2026-domestic",
+    "external-lol-tenure-top-esports-creme-pre-worlds-2026-domestic",
+    "external-lol-tenure-top-esports-jackeylove-pre-worlds-2026-domestic",
+    "external-lol-tenure-top-esports-zhuo-pre-worlds-2026-domestic",
+    "external-lol-tenure-top-esports-369-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "Uses the Regional Finals roster. The later Worlds visa-related 369/ZUIAN starting-lineup change is outside this domestic-event snapshot."
+  ]
+}

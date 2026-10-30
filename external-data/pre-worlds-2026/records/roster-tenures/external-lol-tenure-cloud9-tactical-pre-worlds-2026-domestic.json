@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-cloud9-tactical-pre-worlds-2026-domestic",
+  "slug": "external-cloud9-tactical-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "playerId": "external-lol-player-tactical",
+  "teamId": "external-lol-team-cloud9",
+  "role": "bot",
+  "designation": "main",
+  "observedAtEventEnd": "2026-10-04",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

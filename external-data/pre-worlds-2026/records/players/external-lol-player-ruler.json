@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-ruler",
+  "slug": "external-ruler",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Ruler",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gen-g-esports-ruler-pre-worlds-2026-domestic"
+  ]
+}

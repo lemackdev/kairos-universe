@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-invictus-gaming",
+  "slug": "external-invictus-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "Invictus Gaming",
+  "organizationId": "external-lol-org-invictus-gaming",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-invictus-gaming-theshy-pre-worlds-2026-domestic",
+    "external-lol-tenure-invictus-gaming-wei-pre-worlds-2026-domestic",
+    "external-lol-tenure-invictus-gaming-rookie-pre-worlds-2026-domestic",
+    "external-lol-tenure-invictus-gaming-jiaqi-pre-worlds-2026-domestic",
+    "external-lol-tenure-invictus-gaming-meiko-pre-worlds-2026-domestic",
+    "external-lol-tenure-invictus-gaming-assum-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "Regional Finals lists JiaQi as main and Assum as substitute; this later event takes precedence over Split 3 designation."
+  ]
+}

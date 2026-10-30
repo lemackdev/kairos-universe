@@ -1,0 +1,406 @@
+{
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "expectedTeamCount": 10,
+  "sourceId": "source-pre-worlds-2026-nacl",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2026/Summer",
+  "eventName": "NACL 2026 Summer",
+  "eventEndDate": "2026-09-11",
+  "teams": [
+    {
+      "key": "ccg-esports",
+      "name": "CCG Esports",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Fiji",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Aeon Crystal",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Leza",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Spawn",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Only35",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "cupid-esports",
+      "name": "Cupid eSports",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Horder",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Music",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Ablazeolive",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Mobility",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Breezy",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "conviction",
+      "name": "Conviction",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Sniper",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tomio",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Insanity",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Cody Sun",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Zyko",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Perry",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "dorado-gaming",
+      "name": "Dorado Gaming",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Decoy",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Lojaz",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Aadam",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hub",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "InFlame",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Redemption",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "maryville-university",
+      "name": "Maryville University",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "The event roster names Maryville University. A secondary statistics feed uses DarkZero Dragonsteel; no second entity or inferred rebrand was created."
+      ],
+      "members": [
+        {
+          "nickname": "Crimson",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Yuuji",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "AoJune",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "ScaryJerry",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Obstinatus",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Niles",
+          "role": "jungle",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Spirax",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "nrg",
+      "name": "NRG",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [
+        "The tournament source lists Kisno as Jungle and Spica as Support. This uncommon role assignment is retained as sourced, not changed from memory."
+      ],
+      "members": [
+        {
+          "nickname": "Zamudo",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kisno",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "PhyMini",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Sushee",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Spica",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Shogo",
+          "role": "bot",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Mixtsure",
+          "role": "support",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "university-of-mississippi",
+      "name": "University of Mississippi",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Ariana",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Griffin",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Bradley",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Array",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Bounty",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Will",
+          "role": "jungle",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "Retrozing",
+          "role": "mid",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "winthrop-university",
+      "name": "Winthrop University",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Berik",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Wilson",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Samikin",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tomo",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kim Down",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "contingent-esports",
+      "name": "Contingent Esports",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "JRockets",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "SiddyWiddy",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Asilah",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Daption",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Tubs",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "Arbrio",
+          "role": "mid",
+          "designation": "substitute"
+        },
+        {
+          "nickname": "shochi",
+          "role": "mid",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "blue-otter",
+      "name": "Blue Otter",
+      "sourceId": "source-pre-worlds-2026-nacl",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Philip",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Munchy",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Young",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Levitate",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Minui",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    }
+  ]
+}

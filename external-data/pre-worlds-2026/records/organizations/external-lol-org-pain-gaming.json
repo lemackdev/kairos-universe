@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-pain-gaming",
+  "slug": "external-pain-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "paiN Gaming",
+  "teamIds": [
+    "external-lol-team-pain-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

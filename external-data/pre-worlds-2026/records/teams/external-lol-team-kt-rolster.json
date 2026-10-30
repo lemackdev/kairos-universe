@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-kt-rolster",
+  "slug": "external-kt-rolster",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "KT Rolster",
+  "organizationId": "external-lol-org-kt-rolster",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-kt-rolster-perfect-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-cuzz-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-bdd-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-fenrir-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-effort-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-jiwoo-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-ghost-pre-worlds-2026-domestic",
+    "external-lol-tenure-kt-rolster-pollu-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

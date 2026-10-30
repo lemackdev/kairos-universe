@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-aria",
+  "slug": "external-aria",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Aria",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-softbank-hawks-gaming-aria-pre-worlds-2026-domestic"
+  ]
+}

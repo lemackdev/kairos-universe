@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-movistar-koi",
+  "slug": "external-movistar-koi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Movistar KOI",
+  "teamIds": [
+    "external-lol-team-movistar-koi"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

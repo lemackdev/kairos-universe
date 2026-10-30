@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-taki",
+  "slug": "external-taki",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Taki",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gam-esports-taki-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kaze",
+  "slug": "external-kaze",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Kaze",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-loud-kaze-pre-worlds-2026-domestic"
+  ]
+}

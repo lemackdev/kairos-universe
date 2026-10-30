@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-invictus-gaming-rookie-pre-worlds-2026-domestic",
+  "slug": "external-invictus-gaming-rookie-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "playerId": "external-lol-player-rookie",
+  "teamId": "external-lol-team-invictus-gaming",
+  "role": "mid",
+  "designation": "main",
+  "observedAtEventEnd": "2026-09-19",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

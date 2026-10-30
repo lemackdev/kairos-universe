@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-sniper",
+  "slug": "external-sniper",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Sniper",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-conviction-sniper-pre-worlds-2026-domestic"
+  ]
+}

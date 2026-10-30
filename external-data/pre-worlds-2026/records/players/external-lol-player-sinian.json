@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-sinian",
+  "slug": "external-sinian",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Sinian",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-edward-gaming-sinian-pre-worlds-2026-domestic"
+  ]
+}

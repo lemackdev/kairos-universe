@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-munchy",
+  "slug": "external-munchy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Munchy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-blue-otter-munchy-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-griffin",
+  "slug": "external-griffin",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Griffin",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-university-of-mississippi-griffin-pre-worlds-2026-domestic"
+  ]
+}

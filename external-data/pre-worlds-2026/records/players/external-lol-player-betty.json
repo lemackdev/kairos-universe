@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-betty",
+  "slug": "external-betty",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Betty",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ground-zero-gaming-betty-pre-worlds-2026-domestic"
+  ]
+}

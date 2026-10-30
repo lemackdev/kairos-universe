@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-supa",
+  "slug": "external-supa",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Supa",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-movistar-koi-supa-pre-worlds-2026-domestic"
+  ]
+}

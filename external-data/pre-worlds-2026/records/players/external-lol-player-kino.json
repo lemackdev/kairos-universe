@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kino",
+  "slug": "external-kino",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Kino",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ctbc-flying-oyster-kino-pre-worlds-2026-domestic"
+  ]
+}

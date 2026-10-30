@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-detonation-focusme",
+  "slug": "external-detonation-focusme",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "name": "DetonatioN FocusMe",
+  "organizationId": "external-lol-org-detonation-focusme",
+  "gameId": "league-of-legends",
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-detonation-focusme-momo-pre-worlds-2026-domestic",
+    "external-lol-tenure-detonation-focusme-citrus-pre-worlds-2026-domestic",
+    "external-lol-tenure-detonation-focusme-fisher-pre-worlds-2026-domestic",
+    "external-lol-tenure-detonation-focusme-kakkun-pre-worlds-2026-domestic",
+    "external-lol-tenure-detonation-focusme-woody-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

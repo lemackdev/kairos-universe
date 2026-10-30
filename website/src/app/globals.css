@@ -893,3 +893,17 @@ code {
     scroll-behavior: auto;
   }
 }
+
+/* Article pages reserve the right column for entity facts. */
+body:has(.wikiArticle) { background: var(--paper-muted); }
+.wikiGrid:has(.wikiArticle) { grid-template-columns: 170px minmax(0, 1fr); gap: 24px; }
+.wikiGrid:has(.wikiArticle) .canonRail { position: static; grid-column: 1; grid-row: 2; display: block; margin: 0 0 24px; font-size: 12px; }
+.wikiGrid:has(.wikiArticle) .canonRail dl { display: block; }
+.wikiGrid:has(.wikiArticle) .mainContent { grid-column: 2; grid-row: 1 / 3; padding-top: 24px; }
+.wikiGrid:has(.wikiArticle) .sideNav { grid-column: 1; grid-row: 1; }
+@media (max-width: 1000px) {
+  .wikiGrid:has(.wikiArticle) { display: block; }
+  .wikiGrid:has(.wikiArticle) .sideNav { display: none; }
+  .wikiGrid:has(.wikiArticle) .canonRail { display: none; }
+  .wikiGrid:has(.wikiArticle) .mainContent { padding-top: 16px; }
+}

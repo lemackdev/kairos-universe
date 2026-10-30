@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-brion",
+  "slug": "external-brion",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "BRION",
+  "organizationId": "external-lol-org-brion",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-brion-casting-pre-worlds-2026-domestic",
+    "external-lol-tenure-brion-gideon-pre-worlds-2026-domestic",
+    "external-lol-tenure-brion-roamer-pre-worlds-2026-domestic",
+    "external-lol-tenure-brion-teddy-pre-worlds-2026-domestic",
+    "external-lol-tenure-brion-namgung-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

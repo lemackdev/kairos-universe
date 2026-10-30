@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-wunder",
+  "slug": "external-wunder",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Wunder",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-sk-gaming-wunder-pre-worlds-2026-domestic"
+  ]
+}

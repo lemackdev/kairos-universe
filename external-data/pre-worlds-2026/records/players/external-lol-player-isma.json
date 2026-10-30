@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-isma",
+  "slug": "external-isma",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Isma",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-giantx-isma-pre-worlds-2026-domestic"
+  ]
+}

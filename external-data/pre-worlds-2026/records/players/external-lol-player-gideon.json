@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-gideon",
+  "slug": "external-gideon",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "GIDEON",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-brion-gideon-pre-worlds-2026-domestic"
+  ]
+}

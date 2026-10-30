@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-t1",
+  "slug": "external-t1",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "T1",
+  "organizationId": "external-lol-org-t1",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-t1-doran-pre-worlds-2026-domestic",
+    "external-lol-tenure-t1-oner-pre-worlds-2026-domestic",
+    "external-lol-tenure-t1-faker-pre-worlds-2026-domestic",
+    "external-lol-tenure-t1-peyz-pre-worlds-2026-domestic",
+    "external-lol-tenure-t1-keria-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

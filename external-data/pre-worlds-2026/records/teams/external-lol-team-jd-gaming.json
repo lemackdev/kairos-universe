@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-jd-gaming",
+  "slug": "external-jd-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "name": "JD Gaming",
+  "organizationId": "external-lol-org-jd-gaming",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-jd-gaming-xiaoxu-pre-worlds-2026-domestic",
+    "external-lol-tenure-jd-gaming-junjia-pre-worlds-2026-domestic",
+    "external-lol-tenure-jd-gaming-hongq-pre-worlds-2026-domestic",
+    "external-lol-tenure-jd-gaming-gala-pre-worlds-2026-domestic",
+    "external-lol-tenure-jd-gaming-vampire-pre-worlds-2026-domestic",
+    "external-lol-tenure-jd-gaming-xiaofang-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "Regional Finals lists JunJia as main and xiaofang as substitute; no later invitational stand-ins were adopted."
+  ]
+}

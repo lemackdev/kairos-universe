@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-bilibili-gaming",
+  "slug": "external-bilibili-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "Bilibili Gaming",
+  "teamIds": [
+    "external-lol-team-bilibili-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

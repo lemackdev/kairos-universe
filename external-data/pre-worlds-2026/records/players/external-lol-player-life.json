@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-life",
+  "slug": "external-life",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Life",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-soopers-life-pre-worlds-2026-domestic"
+  ]
+}

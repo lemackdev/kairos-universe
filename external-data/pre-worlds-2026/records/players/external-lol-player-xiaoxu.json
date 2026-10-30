@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-xiaoxu",
+  "slug": "external-xiaoxu",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "Xiaoxu",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-jd-gaming-xiaoxu-pre-worlds-2026-domestic"
+  ]
+}

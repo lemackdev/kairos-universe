@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-samikin",
+  "slug": "external-samikin",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Samikin",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-winthrop-university-samikin-pre-worlds-2026-domestic"
+  ]
+}

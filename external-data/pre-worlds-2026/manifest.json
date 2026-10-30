@@ -1,0 +1,77 @@
+{
+  "snapshotId": "pre-worlds-2026-domestic",
+  "gameId": "league-of-legends",
+  "originType": "real-world-reference",
+  "researchDate": "2026-10-30",
+  "scope": "Final domestic championship rosters before Worlds 2026; not live rosters or Worlds-specific registrations.",
+  "status": "researched-needs-review",
+  "automaticUpdatesEnabled": false,
+  "adoptedIntoFictionalCanon": false,
+  "expectedTeams": 68,
+  "includedLeagues": [
+    {
+      "id": "LCK",
+      "region": "Korea",
+      "tier": 1,
+      "expectedTeams": 10
+    },
+    {
+      "id": "LPL",
+      "region": "China",
+      "tier": 1,
+      "expectedTeams": 14
+    },
+    {
+      "id": "LEC",
+      "region": "Europe",
+      "tier": 1,
+      "expectedTeams": 10
+    },
+    {
+      "id": "CBLOL",
+      "region": "Brazil",
+      "tier": 1,
+      "expectedTeams": 8
+    },
+    {
+      "id": "LCS",
+      "region": "North America",
+      "tier": 1,
+      "expectedTeams": 8
+    },
+    {
+      "id": "LCP",
+      "region": "Pacific",
+      "tier": 1,
+      "expectedTeams": 8
+    },
+    {
+      "id": "NACL",
+      "region": "North America",
+      "tier": 2,
+      "expectedTeams": 10
+    }
+  ],
+  "excluded": [
+    "Other tier-two leagues",
+    "Other academy leagues",
+    "Collegiate-only competitions outside NACL",
+    "Open qualifiers",
+    "Showmatches",
+    "Worlds-specific roster changes",
+    "Post-season moves",
+    "Match results",
+    "Statistics",
+    "Staff biographies"
+  ],
+  "notes": [
+    "User explicitly requested all six top-tier regional leagues plus NACL.",
+    "Includes every domestic league participant, not only playoff or Worlds qualifiers.",
+    "LPL coverage includes its two Split 2 eliminated teams with explicit historical-only fallback labeling.",
+    "Evidence was read from indexed tournament-page excerpts. Direct Liquipedia opens returned HTTP 403; no access controls were bypassed.",
+    "Source revision IDs and full official registration audits are not available. Records remain researched-needs-review rather than approved canon.",
+    "Membership observations are not contracts, join dates, or evidence of a permanent starting five.",
+    "No player legal name, nationality, birthday, salary, contract, match result, or statistic is inferred.",
+    "The existing August 3 Leaguepedia snapshot and KairosDB's selected baseline are preserved."
+  ]
+}

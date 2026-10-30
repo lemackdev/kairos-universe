@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-blue-otter",
+  "slug": "external-blue-otter",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Blue Otter",
+  "organizationId": "external-lol-org-blue-otter",
+  "gameId": "league-of-legends",
+  "league": "NACL",
+  "region": "North America",
+  "tier": 2,
+  "rosterTenureIds": [
+    "external-lol-tenure-blue-otter-philip-pre-worlds-2026-domestic",
+    "external-lol-tenure-blue-otter-munchy-pre-worlds-2026-domestic",
+    "external-lol-tenure-blue-otter-young-pre-worlds-2026-domestic",
+    "external-lol-tenure-blue-otter-levitate-pre-worlds-2026-domestic",
+    "external-lol-tenure-blue-otter-minui-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

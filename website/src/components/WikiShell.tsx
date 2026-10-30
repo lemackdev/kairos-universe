@@ -43,7 +43,7 @@ export function WikiShell({
               <dd>{metadata.canonVersion}</dd>
             </div>
             <div>
-              <dt>Publication</dt>
+              <dt>Canon publication</dt>
               <dd>{metadata.publicationScope}</dd>
             </div>
           </dl>

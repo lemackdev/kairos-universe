@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-boal",
+  "slug": "external-boal",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Boal",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-pain-gaming-boal-pre-worlds-2026-domestic"
+  ]
+}

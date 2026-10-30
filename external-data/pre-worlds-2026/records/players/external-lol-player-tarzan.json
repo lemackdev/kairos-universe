@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-tarzan",
+  "slug": "external-tarzan",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Tarzan",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-anyone-s-legend-tarzan-pre-worlds-2026-domestic"
+  ]
+}

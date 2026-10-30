@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-gen-g-esports",
+  "slug": "external-gen-g-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "Gen.G Esports",
+  "organizationId": "external-lol-org-gen-g-esports",
+  "gameId": "league-of-legends",
+  "league": "LCK",
+  "region": "Korea",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-gen-g-esports-kiin-pre-worlds-2026-domestic",
+    "external-lol-tenure-gen-g-esports-canyon-pre-worlds-2026-domestic",
+    "external-lol-tenure-gen-g-esports-chovy-pre-worlds-2026-domestic",
+    "external-lol-tenure-gen-g-esports-ruler-pre-worlds-2026-domestic",
+    "external-lol-tenure-gen-g-esports-duro-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

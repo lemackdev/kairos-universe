@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-gloryy",
+  "slug": "external-gloryy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Gloryy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-gam-esports-gloryy-pre-worlds-2026-domestic"
+  ]
+}

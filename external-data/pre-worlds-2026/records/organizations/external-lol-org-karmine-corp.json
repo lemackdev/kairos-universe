@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-karmine-corp",
+  "slug": "external-karmine-corp",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Karmine Corp",
+  "teamIds": [
+    "external-lol-team-karmine-corp"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

@@ -2,6 +2,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
+import { ExternalIndex } from "@/components/articles/ExternalArticles";
 
 export const metadata = { title: "Organizations" };
 
@@ -36,6 +37,7 @@ export default function OrganizationsPage() {
           ))}
         </div>
       </section>
+      <ExternalIndex scene={catalog.externalScene} kind="organizations" />
     </>
   );
 }

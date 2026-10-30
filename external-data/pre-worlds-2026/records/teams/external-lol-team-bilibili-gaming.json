@@ -1,0 +1,28 @@
+{
+  "id": "external-lol-team-bilibili-gaming",
+  "slug": "external-bilibili-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "Bilibili Gaming",
+  "organizationId": "external-lol-org-bilibili-gaming",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-bilibili-gaming-bin-pre-worlds-2026-domestic",
+    "external-lol-tenure-bilibili-gaming-xun-pre-worlds-2026-domestic",
+    "external-lol-tenure-bilibili-gaming-knight-pre-worlds-2026-domestic",
+    "external-lol-tenure-bilibili-gaming-viper-pre-worlds-2026-domestic",
+    "external-lol-tenure-bilibili-gaming-on-pre-worlds-2026-domestic",
+    "external-lol-tenure-bilibili-gaming-wenbo-pre-worlds-2026-domestic",
+    "external-lol-tenure-bilibili-gaming-flandre-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "Bin, Wenbo and Flandre are listed in the event main roster. No unique starting Top is inferred."
+  ]
+}

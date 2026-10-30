@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-skeanz",
+  "slug": "external-skeanz",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Skeanz",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-sk-gaming-skeanz-pre-worlds-2026-domestic"
+  ]
+}

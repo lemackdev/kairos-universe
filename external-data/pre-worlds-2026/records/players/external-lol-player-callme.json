@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-callme",
+  "slug": "external-callme",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "Callme",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-disguised-callme-pre-worlds-2026-domestic"
+  ]
+}

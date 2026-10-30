@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-husha",
+  "slug": "external-husha",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "nickname": "Husha",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-ground-zero-gaming-husha-pre-worlds-2026-domestic"
+  ]
+}

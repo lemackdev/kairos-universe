@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-ariana",
+  "slug": "external-ariana",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Ariana",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-university-of-mississippi-ariana-pre-worlds-2026-domestic"
+  ]
+}

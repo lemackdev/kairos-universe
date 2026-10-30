@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-sentinels",
+  "slug": "external-sentinels",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "name": "Sentinels",
+  "organizationId": "external-lol-org-sentinels",
+  "gameId": "league-of-legends",
+  "league": "LCS",
+  "region": "North America",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-sentinels-impact-pre-worlds-2026-domestic",
+    "external-lol-tenure-sentinels-hambak-pre-worlds-2026-domestic",
+    "external-lol-tenure-sentinels-darkwings-pre-worlds-2026-domestic",
+    "external-lol-tenure-sentinels-rahel-pre-worlds-2026-domestic",
+    "external-lol-tenure-sentinels-huhi-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

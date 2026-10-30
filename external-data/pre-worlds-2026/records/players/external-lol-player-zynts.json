@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zynts",
+  "slug": "external-zynts",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "zynts",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-red-canids-zynts-pre-worlds-2026-domestic"
+  ]
+}

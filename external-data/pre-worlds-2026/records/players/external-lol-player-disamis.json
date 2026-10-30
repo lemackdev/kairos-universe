@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-disamis",
+  "slug": "external-disamis",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Disamis",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-keyd-stars-disamis-pre-worlds-2026-domestic"
+  ]
+}

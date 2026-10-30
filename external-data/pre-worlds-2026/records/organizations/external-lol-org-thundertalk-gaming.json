@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-thundertalk-gaming",
+  "slug": "external-thundertalk-gaming",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "ThunderTalk Gaming",
+  "teamIds": [
+    "external-lol-team-thundertalk-gaming"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

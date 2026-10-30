@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-nuc",
+  "slug": "external-nuc",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "nuc",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-shifters-nuc-pre-worlds-2026-domestic"
+  ]
+}

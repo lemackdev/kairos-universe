@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kingen",
+  "slug": "external-kingen",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "nickname": "Kingen",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-nongshim-redforce-kingen-pre-worlds-2026-domestic"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "external-lol-team-furia",
+  "slug": "external-furia",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "name": "FURIA",
+  "organizationId": "external-lol-org-furia",
+  "gameId": "league-of-legends",
+  "league": "CBLOL",
+  "region": "Brazil",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-furia-guigo-pre-worlds-2026-domestic",
+    "external-lol-tenure-furia-tatu-pre-worlds-2026-domestic",
+    "external-lol-tenure-furia-tutsz-pre-worlds-2026-domestic",
+    "external-lol-tenure-furia-ayu-pre-worlds-2026-domestic",
+    "external-lol-tenure-furia-jojo-pre-worlds-2026-domestic",
+    "external-lol-tenure-furia-shini-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": [
+    "The event roster lists Tatu as main and Shini as substitute. This does not assert who started each playoff match."
+  ]
+}

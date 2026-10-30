@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-hans-sama",
+  "slug": "external-hans-sama",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "nickname": "Hans Sama",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-g2-esports-hans-sama-pre-worlds-2026-domestic"
+  ]
+}

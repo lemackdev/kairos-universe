@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-kryra",
+  "slug": "external-kryra",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcs"
+  ],
+  "nickname": "KryRa",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-disguised-kryra-pre-worlds-2026-domestic"
+  ]
+}

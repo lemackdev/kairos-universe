@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-ablazeolive",
+  "slug": "external-ablazeolive",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Ablazeolive",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-cupid-esports-ablazeolive-pre-worlds-2026-domestic"
+  ]
+}

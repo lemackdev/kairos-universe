@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zika",
+  "slug": "external-zika",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "nickname": "Zika",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-weibo-gaming-zika-pre-worlds-2026-domestic"
+  ]
+}

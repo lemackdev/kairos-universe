@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-momochi",
+  "slug": "external-momochi",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-cblol"
+  ],
+  "nickname": "Momochi",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-fluxo-w7m-momochi-pre-worlds-2026-domestic"
+  ]
+}

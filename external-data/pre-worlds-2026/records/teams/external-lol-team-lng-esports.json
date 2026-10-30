@@ -1,0 +1,25 @@
+{
+  "id": "external-lol-team-lng-esports",
+  "slug": "external-lng-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "LNG Esports",
+  "organizationId": "external-lol-org-lng-esports",
+  "gameId": "league-of-legends",
+  "league": "LPL",
+  "region": "China",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-lng-esports-sheer-pre-worlds-2026-domestic",
+    "external-lol-tenure-lng-esports-weiwei-pre-worlds-2026-domestic",
+    "external-lol-tenure-lng-esports-nia-pre-worlds-2026-domestic",
+    "external-lol-tenure-lng-esports-1xn-pre-worlds-2026-domestic",
+    "external-lol-tenure-lng-esports-missing-pre-worlds-2026-domestic",
+    "external-lol-tenure-lng-esports-ycx-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

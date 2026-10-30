@@ -1,0 +1,294 @@
+{
+  "league": "LCP",
+  "region": "Pacific",
+  "tier": 1,
+  "expectedTeamCount": 8,
+  "sourceId": "source-pre-worlds-2026-lcp",
+  "sourceUrl": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_3",
+  "eventName": "LCP 2026 Split 3",
+  "eventEndDate": "2026-08-30",
+  "teams": [
+    {
+      "key": "ctbc-flying-oyster",
+      "name": "CTBC Flying Oyster",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Rest",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Shad0w",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Pout",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Doggo",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kino",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "softbank-hawks-gaming",
+      "name": "SoftBank HAWKS gaming",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Evi",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "van1",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Aria",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Marble",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Vsta",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "gam-esports",
+      "name": "GAM Esports",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Kiaya",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Draktharr",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Gloryy",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Artemis",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Taki",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "ground-zero-gaming",
+      "name": "Ground Zero Gaming",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "1Jiang",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Husha",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Uniboy",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Betty",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kaiwing",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "secret-whales",
+      "name": "Secret Whales",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Pun",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Hizto",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Dire",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Eddie",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Bie",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "detonation-focusme",
+      "name": "DetonatioN FocusMe",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Momo",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Citrus",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Fisher",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Kakkun",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "Woody",
+          "role": "support",
+          "designation": "main"
+        }
+      ]
+    },
+    {
+      "key": "mvk-esports",
+      "name": "MVK Esports",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Kratos",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "Gury",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "Chika",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Harky",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "SiuLoong",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "SanSan",
+          "role": "jungle",
+          "designation": "substitute"
+        }
+      ]
+    },
+    {
+      "key": "deep-cross-gaming",
+      "name": "Deep Cross Gaming",
+      "sourceId": "source-pre-worlds-2026-lcp",
+      "basis": "final-domestic-cycle",
+      "notes": [],
+      "members": [
+        {
+          "nickname": "Flauren",
+          "role": "top",
+          "designation": "main"
+        },
+        {
+          "nickname": "POP9",
+          "role": "jungle",
+          "designation": "main"
+        },
+        {
+          "nickname": "HongSuo",
+          "role": "mid",
+          "designation": "main"
+        },
+        {
+          "nickname": "Feng",
+          "role": "bot",
+          "designation": "main"
+        },
+        {
+          "nickname": "ShiauC",
+          "role": "support",
+          "designation": "main"
+        },
+        {
+          "nickname": "XiaoXiang",
+          "role": "mid",
+          "designation": "substitute"
+        }
+      ]
+    }
+  ]
+}

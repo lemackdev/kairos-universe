@@ -1,0 +1,24 @@
+{
+  "id": "external-lol-team-shifters",
+  "slug": "external-shifters",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lec"
+  ],
+  "name": "Shifters",
+  "organizationId": "external-lol-org-shifters",
+  "gameId": "league-of-legends",
+  "league": "LEC",
+  "region": "Europe",
+  "tier": 1,
+  "rosterTenureIds": [
+    "external-lol-tenure-shifters-rooster-pre-worlds-2026-domestic",
+    "external-lol-tenure-shifters-sheo-pre-worlds-2026-domestic",
+    "external-lol-tenure-shifters-nuc-pre-worlds-2026-domestic",
+    "external-lol-tenure-shifters-paduck-pre-worlds-2026-domestic",
+    "external-lol-tenure-shifters-stend-pre-worlds-2026-domestic"
+  ],
+  "basis": "final-domestic-cycle",
+  "notes": []
+}

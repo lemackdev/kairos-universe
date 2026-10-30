@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-zyko",
+  "slug": "external-zyko",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "nickname": "Zyko",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-conviction-zyko-pre-worlds-2026-domestic"
+  ]
+}

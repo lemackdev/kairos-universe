@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-lng-esports",
+  "slug": "external-lng-esports",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl"
+  ],
+  "name": "LNG Esports",
+  "teamIds": [
+    "external-lol-team-lng-esports"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

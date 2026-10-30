@@ -1,0 +1,18 @@
+{
+  "id": "external-lol-tenure-deep-cross-gaming-pop9-pre-worlds-2026-domestic",
+  "slug": "external-deep-cross-gaming-pop9-pre-worlds-2026-domestic",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lcp"
+  ],
+  "playerId": "external-lol-player-pop9",
+  "teamId": "external-lol-team-deep-cross-gaming",
+  "role": "jungle",
+  "designation": "main",
+  "observedAtEventEnd": "2026-08-30",
+  "joinedDate": null,
+  "leftDate": null,
+  "isCurrent": null,
+  "isCaptain": null
+}

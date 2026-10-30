@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-winthrop-university",
+  "slug": "external-winthrop-university",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Winthrop University",
+  "teamIds": [
+    "external-lol-team-winthrop-university"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

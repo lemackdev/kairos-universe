@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-soopers",
+  "slug": "external-soopers",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lck"
+  ],
+  "name": "SOOPers",
+  "teamIds": [
+    "external-lol-team-soopers"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

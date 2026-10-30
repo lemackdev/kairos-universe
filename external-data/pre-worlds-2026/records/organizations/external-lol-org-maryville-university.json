@@ -1,0 +1,15 @@
+{
+  "id": "external-lol-org-maryville-university",
+  "slug": "external-maryville-university",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-nacl"
+  ],
+  "name": "Maryville University",
+  "teamIds": [
+    "external-lol-team-maryville-university"
+  ],
+  "legalCompanyName": null,
+  "headquarters": null
+}

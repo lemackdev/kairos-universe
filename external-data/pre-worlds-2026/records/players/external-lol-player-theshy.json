@@ -1,0 +1,16 @@
+{
+  "id": "external-lol-player-theshy",
+  "slug": "external-theshy",
+  "originType": "real-world-reference",
+  "reviewStatus": "researched-needs-review",
+  "sourceIds": [
+    "source-pre-worlds-2026-lpl-regional-finals"
+  ],
+  "nickname": "TheShy",
+  "legalName": null,
+  "nationality": null,
+  "dateOfBirth": null,
+  "rosterTenureIds": [
+    "external-lol-tenure-invictus-gaming-theshy-pre-worlds-2026-domestic"
+  ]
+}

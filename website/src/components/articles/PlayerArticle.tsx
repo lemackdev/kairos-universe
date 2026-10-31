@@ -3,9 +3,10 @@ import { PlayerPortrait } from "@/components/PlayerPortrait";
 import { NationalityFlags } from "@/components/NationalityFlags";
 import type { PlayerView, TeamView } from "@/types/catalog";
 import { EpisodeReferenceList } from "@/components/EpisodeReferenceList";
+import { PlayerTeamHistoryTable } from "@/components/PlayerTeamHistoryTable";
 import { SourceList } from "@/components/SourceList";
 import { hasKairosDbProfile, kairosDbPlayerUrl } from "@/lib/links";
-import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTable } from "./WikiArticle";
+import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 
 const sections = [
   { id: "overview", title: "Overview" }, { id: "background-information", title: "Background Information" },
@@ -36,23 +37,11 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     ]} />}>
     <ArticleSection {...sections[0]!}>
       <p><strong>{player.realName}</strong>, known as <strong>{player.nickname}</strong>, plays {player.role} for <ArticleLink href={team ? `/wiki/teams/${team.slug}` : null}>{player.currentTeamName}</ArticleLink> in {player.gameName}.{player.isCaptain ? " The player is the team captain." : ""}</p>
-      <Facts rows={competitive} />
       {hasKairosDbProfile("player", player.slug) && <p><a href={kairosDbPlayerUrl(player.slug)}>Competitive profile on KairosDB</a></p>}
     </ArticleSection>
-    <ArticleSection {...sections[1]!}>
-      <Facts rows={background} />
-      <h3>First appearance</h3>
-      {player.firstAppearance ? <EpisodeReferenceList episodes={[player.firstAppearance]} /> : <p>TBD</p>}
-      <h3>Mentorship</h3>
-      <p>{player.mentor ? <><strong>{player.mentor.nickname ?? player.mentor.name}</strong> is the confirmed {player.mentor.role}.
-        {player.mentor.realWorldFigure && " This real-world figure appears in a fictional Kairos role."}</> : "No confirmed mentorship recorded."}</p>
-    </ArticleSection>
+    <ArticleSection {...sections[1]!}>{null}</ArticleSection>
     <ArticleSection {...sections[2]!}>
-      <WikiTable caption={`${player.nickname} team history`} columns={["Team", "Role", "Start", "End", "Status"]} empty="No team history recorded."
-        rows={player.teamHistory.map((tenure) => ({ key: tenure.tenureId, cells: [
-          <ArticleLink key="team" href={tenure.teamSlug ? `/wiki/teams/${tenure.teamSlug}` : null}>{tenure.teamName}</ArticleLink>,
-          tenure.role, tenure.joinedDate ?? "TBD", tenure.leftDate ?? (tenure.rosterStatus === "active" ? "Present" : "TBD"), tenure.rosterStatus,
-        ] }))} />
+      <PlayerTeamHistoryTable history={player.teamHistory} caption={`${player.nickname} team history`} />
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       {player.trivia.length ? <ul>{player.trivia.map((fact) => <li key={fact}>{fact}</li>)}</ul> : <p>No confirmed trivia recorded.</p>}
@@ -71,7 +60,9 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
         ] }))} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}>
-      <SourceList sources={[...player.sources, ...player.awards.flatMap((award) => award.sources)].filter((source, index, all) => all.findIndex((entry) => entry.id === source.id) === index)} />
+      <details><summary>Sources ({[...player.sources, ...player.awards.flatMap((award) => award.sources)].filter((source, index, all) => all.findIndex((entry) => entry.id === source.id) === index).length})</summary>
+        <SourceList sources={[...player.sources, ...player.awards.flatMap((award) => award.sources)].filter((source, index, all) => all.findIndex((entry) => entry.id === source.id) === index)} />
+      </details>
       <details><summary>Episode appearances ({player.episodeAppearances.length})</summary><EpisodeReferenceList episodes={player.episodeAppearances} /></details>
     </ArticleSection>
   </WikiArticle>;

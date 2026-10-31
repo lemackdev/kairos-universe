@@ -38,6 +38,11 @@ export interface RawOrganization {
     id: string;
     name: string;
   };
+  owner?: {
+    id: string;
+    realName?: string;
+    commonName?: string;
+  };
   currentStoryPeriod?: StoryPeriod;
   divisions?: Array<Record<string, unknown>>;
   philosophy?: string[];

@@ -3,7 +3,7 @@ import { BrandLogo, UniformPanel } from "@/components/UniformPanel";
 import { TeamRosterTable } from "@/components/TeamRosterTable";
 import type { OrganizationView, TeamView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
-import { StaffTable } from "@/components/StaffTable";
+import { ManagementTable } from "@/components/ManagementTable";
 import { hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
 import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 
@@ -30,7 +30,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
       { title: "Team Information", rows: facts },
     ]} />}>
-    <p><strong>{team.name}</strong> is the {team.gameName} {team.rosterLevel} team of {organization?.name ?? "an organization yet to be published"}.</p>
+    <p><strong>{team.name}</strong> is the {team.gameName} {team.rosterLevel} roster of {organization?.name ?? "an organization yet to be published"}, a Los Angeles-based esports organization founded by Adrian Vale under parent company Asterion Intelligence. Rather than assembling the roster through a club acquisition, Kairos built it through its own player-development recruitment process, beginning in early 2026. The {team.gameName} division is intended to debut in the {team.intendedCompetition}, and as of {team.currentStoryPeriod} has not yet played an official match.</p>
     <ArticleSection {...sections[0]!}>
       {team.history.length ? team.history.map((fact) => <p key={fact}>{fact}</p>) : <p>No team history is recorded.</p>}
     </ArticleSection>
@@ -61,9 +61,12 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
-      <h3>Coaching and support staff</h3><StaffTable staff={team.staff} />
+      <h3>Management and staff</h3>
+      <ManagementTable staff={organization?.management ?? []} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>
-    <ArticleSection {...sections[7]!}><SourceList sources={team.sources} /></ArticleSection>
+    <ArticleSection {...sections[7]!}>
+      <details><summary>Sources ({team.sources.length})</summary><SourceList sources={team.sources} /></details>
+    </ArticleSection>
   </WikiArticle>;
 }

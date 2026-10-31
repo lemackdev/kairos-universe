@@ -10,12 +10,19 @@ type SortColumn = "nationality" | "player" | "role" | "contractEndDate" | "joine
 type SortDirection = "asc" | "desc";
 
 const columns: Array<{ key: SortColumn; label: string }> = [
-  { key: "nationality", label: "Nat." },
+  { key: "nationality", label: "Region" },
   { key: "player", label: "Player" },
   { key: "role", label: "Role" },
   { key: "contractEndDate", label: "Contract Ends" },
   { key: "joinedDate", label: "Joined" },
 ];
+
+const roleOrder = ["top", "jungle", "mid", "adc", "bot", "support"];
+
+function roleRank(role: string): number {
+  const index = roleOrder.indexOf(role.trim().toLowerCase());
+  return index === -1 ? roleOrder.length : index;
+}
 
 function sortValue(entry: RosterEntryView, column: SortColumn): string {
   switch (column) {
@@ -33,6 +40,7 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
 
   const sorted = useMemo(() => {
     const factor = sortDirection === "asc" ? 1 : -1;
+    if (sortColumn === "role") return [...roster].sort((a, b) => (roleRank(a.role) - roleRank(b.role)) * factor);
     return [...roster].sort((a, b) => sortValue(a, sortColumn).localeCompare(sortValue(b, sortColumn)) * factor);
   }, [roster, sortColumn, sortDirection]);
 
@@ -53,7 +61,6 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
         <caption className="srOnly">{caption}</caption>
         <thead>
           <tr>
-            <th scope="col">#</th>
             {columns.map((column) => <th scope="col" key={column.key}>
               <button type="button" onClick={() => toggleSort(column.key)}
                 aria-sort={sortColumn === column.key ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
@@ -64,10 +71,9 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
           </tr>
         </thead>
         <tbody>
-          {sorted.map((entry, index) => (
+          {sorted.map((entry) => (
             <tr key={entry.tenureId}>
-              <td data-label="#">{index + 1}</td>
-              <td data-label="Nat."><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
+              <td data-label="Region"><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
               <td data-label="Player">
                 <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>
                 <span className="muted"> {entry.realName}</span>

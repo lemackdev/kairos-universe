@@ -43,7 +43,7 @@ describe("branding and Counter-Strike publication", () => {
     for (const player of players) {
       expect(catalog.routes).toContain(`/wiki/players/${player.slug}`);
       const page = renderToStaticMarkup(createElement(PlayerArticle, { player, team, narrativeDate: catalog.metadata.currentNarrativeDate }));
-      expect(page).toContain("AI-generated fictional portrait");
+      expect(page).toContain("AI-generated illustrative portrait");
       expect(page).toContain(player.id + ".png");
     }
   });

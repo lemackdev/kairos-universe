@@ -82,7 +82,9 @@ export interface OrganizationView {
   continuityId: "kairos-universe";
   status: string;
   headquarters: LocationRecord | null;
+  ownerName: string | null;
   teamIds: string[];
+  management: StaffView[];
   philosophy: string[];
   longTermGoals: string[];
   sources: SourceView[];
@@ -104,6 +106,7 @@ export interface TeamView {
   currentStoryPeriod: string;
   officialDebutPeriod: string;
   captainPlayerId: string;
+  headCoachName: string | null;
   trainingLocation: LocationRecord;
   roster: RosterEntryView[];
   formerRoster: RosterEntryView[];

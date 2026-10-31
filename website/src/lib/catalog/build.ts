@@ -222,6 +222,8 @@ export function buildCatalog(
       currentStoryPeriod: team.currentStoryPeriod.displayName,
       officialDebutPeriod: `${team.officialDebutPeriod.month} ${team.officialDebutPeriod.exactYear}`,
       captainPlayerId: team.captain as string,
+      headCoachName: teamStaff.find((entry) => /head coach/i.test(entry.title))?.nickname ??
+        teamStaff.find((entry) => /head coach/i.test(entry.title))?.realName ?? null,
       trainingLocation: team.trainingLocation,
       roster: teamRoster,
       officialMatchCount: officialMatches.filter((match) => match.teamAId === team.id || match.teamBId === team.id).length,
@@ -371,9 +373,11 @@ export function buildCatalog(
         continuityId: "kairos-universe",
         status: organization.status,
         headquarters: organization.headquarters ?? null,
+        ownerName: organization.owner?.commonName ?? organization.owner?.realName ?? null,
         teamIds: teamViews
           .filter((team) => team.organizationId === organization.id)
           .map((team) => team.id),
+        management: staffViews.filter((person) => person.currentOrganizationId === organization.id),
         philosophy: organization.philosophy ?? [],
         longTermGoals: organization.longTermGoals ?? [],
         sources: sourceViews([

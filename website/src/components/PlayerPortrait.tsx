@@ -8,8 +8,5 @@ export function PlayerPortrait({ playerId }: { playerId: string }) {
     <Image src={`/portraits/${portrait.playerId}.png`} alt={portrait.altText}
       width={portrait.width} height={portrait.height} sizes="(max-width: 640px) 80vw, 300px"
       style={{ display: "block", width: "100%", height: "auto" }} />
-    <figcaption style={{ fontSize: ".65rem", lineHeight: 1.4, padding: ".5rem", fontFamily: "sans-serif" }}>
-      AI-generated fictional portrait. 2027 kit visualization; appearance details are illustrative.
-    </figcaption>
   </figure>;
 }

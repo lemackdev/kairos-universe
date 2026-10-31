@@ -28,8 +28,6 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     { label: "Game", value: player.gameName },
     { label: "Team", value: team ? <Link href={`/wiki/teams/${team.slug}`}>{team.shortName}</Link> : "TBD" },
     { label: "Role", value: player.role },
-    { label: "Status", value: player.status.replaceAll("-", " ") },
-    { label: "Captain", value: player.isCaptain ? "Yes" : "No" },
     ...(player.historicalAliases.length ? [{ label: "Competitive IDs", value: [player.nickname, ...player.historicalAliases.map((alias) => alias.nickname)].join(", ") }] : []),
   ];
   return <WikiArticle title={player.nickname} game={player.gameName} kind="Players" sections={sections}

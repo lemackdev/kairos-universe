@@ -1,6 +1,7 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
+import { StaffPortrait } from "@/components/StaffPortrait";
 import { getCatalog } from "@/lib/canon/server";
 
 export const metadata = { title: "Staff" };
@@ -28,6 +29,7 @@ export default function StaffPage() {
             <EntityCard
               key={person.id}
               href={`/wiki/staff/${person.slug}`}
+              image={<StaffPortrait id={person.id} compact />}
               kicker={person.role}
               title={person.nickname ?? person.realName}
               description={person.realName}

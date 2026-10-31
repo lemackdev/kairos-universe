@@ -502,6 +502,41 @@ code {
   font-size: 1.25rem;
 }
 
+.staffPortrait {
+  width: 100%;
+  margin: 0;
+  background: var(--paper-muted);
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.staffPortrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.staffPortrait figcaption {
+  padding: 0.5rem;
+  background: var(--paper-raised);
+}
+
+.staffPortraitCompact {
+  max-height: 185px;
+  overflow: hidden;
+  background: var(--paper-muted);
+}
+
+.staffPortraitCompact img {
+  height: 185px;
+  object-fit: contain;
+  object-position: center top;
+}
+
 .infobox dl {
   margin: 0;
 }

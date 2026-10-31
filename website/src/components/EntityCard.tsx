@@ -7,15 +7,18 @@ export function EntityCard({
   title,
   description,
   meta,
+  image,
 }: {
   href: string;
   kicker: string;
   title: string;
   description: string;
   meta?: ReactNode;
+  image?: ReactNode;
 }) {
   return (
     <Link className="entityCard" href={href}>
+      {image}
       <span className="sectionKicker">{kicker}</span>
       <h3>{title}</h3>
       <p className="muted">{description}</p>

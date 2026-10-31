@@ -83,6 +83,7 @@ export interface OrganizationView {
   status: string;
   headquarters: LocationRecord | null;
   ownerName: string | null;
+  ownerSlug: string | null;
   founded: string | null;
   teamIds: string[];
   management: StaffView[];

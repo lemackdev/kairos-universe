@@ -446,6 +446,11 @@ export function validatePublication(
         (record) => record.id,
       ),
     );
+    if (manifestKey === "enabledStaff") {
+      for (const record of getCollection<{ id: string }>(universe, "characters")) {
+        available.add(record.id);
+      }
+    }
     const enabled = manifest[manifestKey];
     assert(
       new Set(enabled).size === enabled.length,

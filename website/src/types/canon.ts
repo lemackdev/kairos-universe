@@ -147,6 +147,21 @@ export interface RawStaff {
   canonNotes: string[];
 }
 
+export interface RawCharacter {
+  id: string;
+  slug: string;
+  fullName: string;
+  commonName: string;
+  nationality: string;
+  baseLocation?: LocationRecord;
+  occupations?: Array<{ title: string; organizationId: string; status: string }>;
+  firstAppearance?: { episodeId: string };
+  status: string;
+  publicProfile?: string;
+  confirmedFacts: string[];
+  canonNotes: string[];
+}
+
 export interface RawCompetition {
   id: string;
   slug: string;

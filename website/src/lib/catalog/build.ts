@@ -1,4 +1,5 @@
 import type {
+  RawCharacter,
   RawEpisode,
   RawOrganization,
   RawPlayer,
@@ -56,9 +57,7 @@ export function buildCatalog(
   const teams = byId(getCollection<RawTeam>(universe, "teams"));
   const players = byId(getCollection<RawPlayer>(universe, "players"));
   const staff = byId(getCollection<RawStaff>(universe, "coaches"));
-  const characters = byId(
-    getCollection<{ id: string; nationality?: string }>(universe, "characters"),
-  );
+  const characters = byId(getCollection<RawCharacter>(universe, "characters"));
   const episodes = getCollection<RawEpisode>(universe, "episodes");
   const rosterTenures = getCollection<RosterTenure>(
     universe,
@@ -320,7 +319,38 @@ export function buildCatalog(
 
   const staffViews: StaffView[] = publication.enabledStaff.map((id) => {
     const person = staff.get(id);
-    if (!person) throw new Error(`Published staff member missing: ${id}`);
+    if (!person) {
+      const character = characters.get(id);
+      if (!character) throw new Error(`Published staff member missing: ${id}`);
+      const appearances = episodes
+        .filter((episode) => episode.characters.includes(character.id))
+        .sort((a, b) => a.episodeNumber - b.episodeNumber)
+        .map(episodeView);
+      const first = character.firstAppearance
+        ? episodes.find((episode) => episode.id === character.firstAppearance!.episodeId)
+        : undefined;
+      const occupation = character.occupations?.find((entry) => entry.organizationId === "kairos-esports");
+      return {
+        id: character.id,
+        slug: character.slug,
+        realName: character.fullName,
+        nickname: character.commonName !== character.fullName ? character.commonName : null,
+        displayName: character.commonName,
+        nationality: unknownToNull(character.nationality),
+        role: occupation?.title ?? "Owner and Founder",
+        division: "Executive",
+        currentOrganizationId: "kairos-esports",
+        currentTeamId: null,
+        status: character.status,
+        firstAppearance: first ? episodeView(first) : null,
+        episodeAppearances: appearances,
+        realWorldFigure: false,
+        responsibilities: character.confirmedFacts,
+        tenures: [],
+        sources: [],
+        canonNotes: character.canonNotes,
+      };
+    }
     const appearances = episodes
       .filter((episode) => episode.characters.includes(person.id))
       .sort((a, b) => a.episodeNumber - b.episodeNumber)
@@ -377,35 +407,12 @@ export function buildCatalog(
         status: organization.status,
         headquarters: organization.headquarters ?? null,
         ownerName: organization.owner?.commonName ?? organization.owner?.realName ?? null,
+        ownerSlug: organization.owner ? characters.get(organization.owner.id)?.slug ?? null : null,
         founded: organization.storyStartPeriod?.displayName ?? null,
         teamIds: teamViews
           .filter((team) => team.organizationId === organization.id)
           .map((team) => team.id),
-        management: [
-          ...(organization.owner
-            ? [{
-                id: organization.owner.id,
-                slug: "",
-                realName: organization.owner.realName ?? organization.owner.commonName ?? "Unknown",
-                nickname: null,
-                displayName: organization.owner.commonName ?? organization.owner.realName ?? "Unknown",
-                nationality: characters.get(organization.owner.id)?.nationality ?? "American",
-                role: "Owner and Founder",
-                division: "TBD",
-                currentOrganizationId: organization.id,
-                currentTeamId: null,
-                status: "active",
-                firstAppearance: null,
-                episodeAppearances: [],
-                realWorldFigure: false,
-                responsibilities: [],
-                tenures: [],
-                sources: [],
-                canonNotes: [],
-              } satisfies StaffView]
-            : []),
-          ...staffViews.filter((person) => person.currentOrganizationId === organization.id),
-        ],
+        management: staffViews.filter((person) => person.currentOrganizationId === organization.id),
         philosophy: organization.philosophy ?? [],
         longTermGoals: organization.longTermGoals ?? [],
         sources: sourceViews([

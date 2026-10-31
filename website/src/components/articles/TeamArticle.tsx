@@ -37,7 +37,9 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     { label: "Org Location", value: organization ? locationWithFlag(organization.headquarters ?? team.trainingLocation) : "TBD" },
     { label: "Team Location", value: locationWithFlag(team.trainingLocation) },
     { label: "Region", value: region },
-    { label: "Owner", value: organization?.ownerName ?? "TBD" },
+    { label: "Owner", value: organization?.ownerName
+      ? (organization.ownerSlug ? <Link href={`/wiki/staff/${organization.ownerSlug}`}>{organization.ownerName}</Link> : organization.ownerName)
+      : "TBD" },
     { label: "Head Coach", value: team.headCoachName ?? "TBD" },
     { label: "Partner", value: "Asterion Intelligence" },
   ];
@@ -81,7 +83,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
       <h3>Management and staff</h3>
       <ManagementTable staff={(organization?.management ?? []).filter(
-        (person) => person.division === team.gameName || person.division === "TBD",
+        (person) => person.division === team.gameName || person.division === "TBD" || person.division === "Executive",
       )} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>

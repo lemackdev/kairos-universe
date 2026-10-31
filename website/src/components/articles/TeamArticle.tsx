@@ -61,12 +61,11 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
       {hasKairosDbProfile("team", team.id) && <p><a href={kairosDbTeamUrl(team.slug)}>Competitive profile on KairosDB</a></p>}
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
-      <details open><summary>Recorded events ({team.timeline.length})</summary>
-        <ol className="articleTimeline">{team.timeline.map((episode) => <li key={episode.id}>
-          <strong>{episode.date ? formatDate(episode.date) : "Date TBD"}</strong> <span>Episode {episode.number}: {episode.title}</span>
-          <p>{episode.summary}</p>
-        </li>)}</ol>
-      </details>
+      {team.transactions.length
+        ? <ul className="articleTimeline">{team.transactions.map((entry) => <li key={entry.id}>
+            <strong>{entry.date ? formatDate(entry.date) : "Date TBD"}</strong> <span>{entry.text}</span>
+          </li>)}</ul>
+        : <p>No roster or staff transactions recorded.</p>}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       <h3>Active</h3>

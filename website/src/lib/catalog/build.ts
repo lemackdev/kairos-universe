@@ -32,6 +32,7 @@ import {
   getTeamStaffAtDate,
 } from "@/lib/canon/tenures";
 import { validateCanonUniverse } from "@/lib/validation/canon";
+import { formatDate } from "@/lib/formatting/date";
 import { buildCompetitionViews } from "./competitions";
 
 import type { CanonUniverse } from "@/types/canon";
@@ -145,6 +146,8 @@ export function buildCatalog(
     title: tenure.title,
     status: tenure.status,
     teamScope: tenure.teamId === "TBD" ? null : tenure.teamId,
+    joinedDate: exactOrNull(tenure.startedDate),
+    leftDate: exactOrNull(tenure.endedDate),
   });
 
   const mentorForPlayer = (player: RawPlayer): MentorView | null => {
@@ -208,6 +211,29 @@ export function buildCatalog(
       .slice(0, 12)
       .map(episodeView);
 
+    const formerRoster = rosterTenures.filter((tenure) =>
+      tenure.teamId === team.id && tenure.canonStatus === "confirmed" &&
+      tenure.leftDate && tenure.leftDate !== "TBD" && tenure.leftDate < narrativeDate &&
+      publication.enabledPlayers.includes(tenure.playerId),
+    ).map((tenure) => rosterEntry(tenure, players.get(tenure.playerId)!));
+
+    const transactions: TeamView["transactions"] = [
+      ...[...teamRoster, ...formerRoster].flatMap((entry) => [
+        ...(entry.joinedDate ? [{ id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname} joins as ${entry.role}.` }] : []),
+        ...(entry.leftDate ? [{ id: `${entry.tenureId}-leave`, date: entry.leftDate, text: `${entry.nickname} leaves.` }] : []),
+        ...(entry.contractEndDate ? [{ id: `${entry.tenureId}-contract`, date: null, text: `${entry.nickname}'s contract runs through ${formatDate(entry.contractEndDate)}.` }] : []),
+      ]),
+      ...teamStaff.flatMap((entry) => [
+        ...(entry.joinedDate ? [{ id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname ?? entry.realName} joins as ${entry.title}.` }] : []),
+        ...(entry.leftDate ? [{ id: `${entry.tenureId}-leave`, date: entry.leftDate, text: `${entry.nickname ?? entry.realName} leaves as ${entry.title}.` }] : []),
+      ]),
+    ].sort((a, b) => {
+      if (a.date && b.date) return a.date.localeCompare(b.date);
+      if (a.date) return -1;
+      if (b.date) return 1;
+      return 0;
+    });
+
     return {
       id: team.id,
       slug: team.slug,
@@ -229,17 +255,14 @@ export function buildCatalog(
       trainingLocation: team.trainingLocation,
       roster: teamRoster,
       officialMatchCount: officialMatches.filter((match) => match.teamAId === team.id || match.teamBId === team.id).length,
-      formerRoster: rosterTenures.filter((tenure) =>
-        tenure.teamId === team.id && tenure.canonStatus === "confirmed" &&
-        tenure.leftDate && tenure.leftDate !== "TBD" && tenure.leftDate < narrativeDate &&
-        publication.enabledPlayers.includes(tenure.playerId),
-      ).map((tenure) => rosterEntry(tenure, players.get(tenure.playerId)!)),
+      formerRoster,
       history: team.confirmedFacts.filter((fact) =>
         !/born |age \d|current narrative date/i.test(fact)),
       timeline: episodes.filter((episode) => episode.canonStatus === "confirmed" && episode.teams.includes(team.id))
         .sort((a, b) => a.episodeNumber - b.episodeNumber).map(episodeView),
       staff: teamStaff,
       mentors,
+      transactions,
       relatedEpisodes,
       sources: sourceViews([
         ...rosterTenures.filter((tenure) => tenure.teamId === team.id).flatMap((tenure) => tenure.sourceIds),

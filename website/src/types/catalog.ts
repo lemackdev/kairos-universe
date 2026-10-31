@@ -71,6 +71,8 @@ export interface StaffEntryView {
   title: string;
   status: string;
   teamScope: string | null;
+  joinedDate: string | null;
+  leftDate: string | null;
 }
 
 export interface OrganizationView {
@@ -117,6 +119,7 @@ export interface TeamView {
   timeline: EpisodeView[];
   staff: StaffEntryView[];
   mentors: MentorView[];
+  transactions: Array<{ id: string; date: string | null; text: string }>;
   relatedEpisodes: EpisodeView[];
   sources: SourceView[];
   achievements: string[];

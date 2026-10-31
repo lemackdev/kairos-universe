@@ -6,12 +6,13 @@ import type { RosterEntryView } from "@/types/catalog";
 import { NationalityFlags } from "./NationalityFlags";
 import { RoleIcon } from "./RoleIcon";
 
-type SortColumn = "nationality" | "player" | "role" | "contractEndDate" | "joinedDate";
+type SortColumn = "nationality" | "player" | "name" | "role" | "contractEndDate" | "joinedDate";
 type SortDirection = "asc" | "desc";
 
 const columns: Array<{ key: SortColumn; label: string }> = [
   { key: "nationality", label: "Region" },
   { key: "player", label: "Player" },
+  { key: "name", label: "Name" },
   { key: "role", label: "Role" },
   { key: "contractEndDate", label: "Contract Ends" },
   { key: "joinedDate", label: "Joined" },
@@ -28,6 +29,7 @@ function sortValue(entry: RosterEntryView, column: SortColumn): string {
   switch (column) {
     case "nationality": return entry.nationality ?? "";
     case "player": return entry.nickname;
+    case "name": return entry.realName;
     case "role": return entry.role;
     case "contractEndDate": return entry.contractEndDate ?? "";
     case "joinedDate": return entry.joinedDate ?? "";
@@ -81,9 +83,9 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
               </td>
               <td data-label="Player">
                 <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>
-                <span className="muted"> {entry.realName}</span>
                 {entry.isCaptain && <span className="badge badgeCanon" style={{ marginLeft: "0.4rem" }}>Captain</span>}
               </td>
+              <td data-label="Name">{entry.realName}</td>
               <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><RoleIcon role={entry.role} />{entry.role}</span></td>
               <td data-label="Contract Ends">{entry.contractEndDate ?? "TBD"}</td>
               <td data-label="Joined">{entry.joinedDate ?? "TBD"}</td>

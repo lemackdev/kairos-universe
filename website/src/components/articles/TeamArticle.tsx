@@ -64,14 +64,13 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
           <p>{episode.summary}</p>
         </li>)}</ol>
       </details>
-      <p><strong>{team.officialDebutPeriod}:</strong> planned competitive debut. Exact date TBD.</p>
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       <h3>Active</h3>
       <TeamRosterTable roster={team.roster} caption={`${team.shortName} active roster`} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
-      <WikiTable caption="Former players" columns={["ID", "Name", "Role", "Joined", "Left"]}
+      <WikiTable caption="Former players" columns={["Player", "Name", "Role", "Joined", "Left"]}
         empty="No former players recorded." rows={team.formerRoster.map((player) => ({
           key: player.tenureId, cells: [<ArticleLink key="link" href={`/wiki/players/${player.slug}`}>{player.nickname}</ArticleLink>,
             player.realName, player.role, player.joinedDate ?? "TBD", player.leftDate ?? "TBD"],

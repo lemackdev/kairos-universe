@@ -6,6 +6,7 @@ const countries: Record<string, { code: string; country: string }> = {
   Mexican: { code: "mx", country: "Mexico" },
   Chilean: { code: "cl", country: "Chile" },
   Brazilian: { code: "br", country: "Brazil" },
+  Slovenian: { code: "si", country: "Slovenia" },
 };
 
 export function NationalityFlags({ nationality, nationalities, compact = false }: {

@@ -31,12 +31,6 @@ export function UniformPanel({ teamId }: { teamId: string }) {
           </figure>;
         })}
       </div>
-      <dl className={styles.partners}>
-        <div><dt>Technical supplier</dt><dd>{uniform.technicalSupplier.name}</dd></div>
-        <div><dt>Supplier status</dt><dd>Approved future design; pending formal narrative canonization.</dd></div>
-        <div><dt>Institutional partner</dt><dd>{uniform.institutionalPartner.name}, {uniform.institutionalPartner.role} (parent company)</dd></div>
-      </dl>
-      <p className={styles.note}>User-approved design reference, reconstructed for clean presentation. Fictional-universe branding, not a real-world sponsorship announcement. Contract terms and announcement date remain unconfirmed.</p>
     </div>)}
   </div>;
 }

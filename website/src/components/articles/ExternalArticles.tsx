@@ -3,6 +3,7 @@ import { ArticleInfobox, ArticleSection, WikiArticle, WikiTable } from "./WikiAr
 import { RealWorldTeamsTable } from "./RealWorldTeamsTable";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { externalLogoPath } from "@/lib/externalLogos";
+import { ExternalRosterTable } from "@/components/ExternalRosterTable";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
@@ -21,7 +22,9 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
   const members = team.rosterTenureIds.map((id) => scene.rosterTenures.find((t) => t.id === id)!);
   const event = scene.sources.find((s) => team.sourceIds.includes(s.id))!;
   const sections = ["History", "Team Information", "Timeline", "Player Roster", "Former", "Organization", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
-  return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)} groups={[
+  const logo = externalLogoPath(organization.slug);
+  return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)}
+    image={logo && <img src={logo} alt={`${team.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />} groups={[
     { title: "Team Information", rows: [{ label: "League", value: team.league }, { label: "Region", value: team.region },
       { label: "Roster basis", value: event.title }, { label: "Event ended", value: event.eventEndDate },
       { label: "Review status", value: "Needs review" }, { label: "Current contracts", value: "Unknown" }] },
@@ -32,10 +35,10 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
       {team.notes.length > 0 && <ul>{team.notes.map((note) => <li key={note}>{note}</li>)}</ul>}
     </ArticleSection>
     <ArticleSection id="timeline" title="Timeline"><p>{event.eventEndDate}: referenced tournament ended. This is not a signing date, departure date, or Kairos story event.</p></ArticleSection>
-    <ArticleSection id="player-roster" title="Player Roster"><WikiTable caption={`${event.title}: listed players`} columns={["Role", "Player", "Source listing"]} rows={members.map((tenure) => {
+    <ArticleSection id="player-roster" title="Player Roster"><ExternalRosterTable caption={`${event.title}: listed players`} rows={members.map((tenure) => {
       const player = scene.players.find((p) => p.id === tenure.playerId)!;
-      return { key: tenure.id, cells: [roleLabels[tenure.role], <Link key="player" href={`/wiki/players/${player.slug}`}>{player.nickname}</Link>, tenure.designation] };
-    })} empty="No roster imported." /><p className="muted">Multiple main entries in one role are retained as listed. No preferred starter is inferred.</p></ArticleSection>
+      return { id: tenure.id, role: tenure.role, roleLabel: roleLabels[tenure.role], nickname: player.nickname, slug: player.slug, designation: tenure.designation };
+    })} /><p className="muted">Multiple main entries in one role are retained as listed. No preferred starter is inferred.</p></ArticleSection>
     <ArticleSection id="former" title="Former"><p>Departure history is not imported. Absence from a later tournament list is not evidence of a release.</p></ArticleSection>
     <ArticleSection id="organization" title="Organization"><p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link>, esports brand reference. Legal ownership, leadership, staff appointments and corporate structure remain unknown.</p></ArticleSection>
     <ArticleSection id="sources" title="Sources"><ExternalSources scene={scene} ids={team.sourceIds} /></ArticleSection>

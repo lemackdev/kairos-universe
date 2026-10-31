@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 import { WikiShell } from "@/components/WikiShell";
-import { getCatalog } from "@/lib/canon/server";
 
 import "./globals.css";
 
@@ -12,15 +11,16 @@ export const metadata: Metadata = {
     template: "%s | Kairospedia",
   },
   description: "The esports encyclopedia of the Kairos Universe",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  const catalog = getCatalog();
-
   return (
     <html lang="en">
       <body>
-        <WikiShell metadata={catalog.metadata}>{children}</WikiShell>
+        <WikiShell>{children}</WikiShell>
       </body>
     </html>
   );

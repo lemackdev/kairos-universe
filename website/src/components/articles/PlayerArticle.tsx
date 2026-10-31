@@ -20,7 +20,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     { label: "Nationality", value: <NationalityFlags nationality={player.nationality} nationalities={player.nationalities} /> },
     { label: "Date of birth", value: player.dateOfBirth ?? "TBD" },
     { label: "Age", value: player.age == null ? "TBD" : `${player.age} (as of ${narrativeDate})` },
-    { label: "City", value: player.city ?? "TBD" },
+    { label: "City", value: player.city ? player.cityRegion ? `${player.city}, ${player.cityRegion}` : player.city : "TBD" },
   ];
   const competitive = [
     { label: "Game", value: player.gameName },
@@ -28,6 +28,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     { label: "Role", value: player.role },
     { label: "Status", value: player.status.replaceAll("-", " ") },
     { label: "Captain", value: player.isCaptain ? "Yes" : "No" },
+    ...(player.historicalAliases.length ? [{ label: "Competitive IDs", value: [player.nickname, ...player.historicalAliases.map((alias) => alias.nickname)].join(", ") }] : []),
   ];
   return <WikiArticle title={player.nickname} game={player.gameName} kind="Players" sections={sections}
     infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.length <= 3 ? player.nickname : player.nickname.slice(0, 2)} image={<PlayerPortrait playerId={player.id} />} groups={[
@@ -55,10 +56,6 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       {player.trivia.length ? <ul>{player.trivia.map((fact) => <li key={fact}>{fact}</li>)}</ul> : <p>No confirmed trivia recorded.</p>}
-      <h3>Historical aliases</h3>
-      <WikiTable caption="Aliases and canon corrections" columns={["Alias", "Status", "Notes"]} empty="No historical aliases recorded."
-        rows={player.historicalAliases.map((alias) => ({ key: `${alias.nickname}-${alias.sourceEpisode}`,
-          cells: [alias.nickname, alias.status, alias.notes] }))} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
       <WikiTable caption="Individual awards" columns={["Date", "Award", "Tournament"]} empty="No confirmed individual awards recorded."

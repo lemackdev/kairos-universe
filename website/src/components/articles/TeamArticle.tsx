@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { BrandLogo, UniformPanel } from "@/components/UniformPanel";
-import { NationalityFlags } from "@/components/NationalityFlags";
+import { TeamRosterTable } from "@/components/TeamRosterTable";
 import type { OrganizationView, TeamView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { StaffTable } from "@/components/StaffTable";
 import { hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
-import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTable } from "./WikiArticle";
+import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 
 const sections = [
   { id: "history", title: "History" }, { id: "team-information", title: "Team Information" },
@@ -28,15 +28,13 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
   ];
   return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections}
     infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
-      { title: "Team Information", rows: facts.slice(0, 6) },
-      { title: "Competitive", rows: facts.slice(6) },
+      { title: "Team Information", rows: facts },
     ]} />}>
     <p><strong>{team.name}</strong> is the {team.gameName} {team.rosterLevel} team of {organization?.name ?? "an organization yet to be published"}.</p>
     <ArticleSection {...sections[0]!}>
       {team.history.length ? team.history.map((fact) => <p key={fact}>{fact}</p>) : <p>No team history is recorded.</p>}
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
-      <Facts rows={facts} />
       {team.officialMatchCount === 0 && <p>No official matches recorded.</p>}
       <p>Information current to {team.currentStoryPeriod}. Planned participation is subject to confirmation.</p>
       {hasKairosDbProfile("team", team.id) && <p><a href={kairosDbTeamUrl(team.slug)}>Competitive profile on KairosDB</a></p>}
@@ -52,11 +50,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       <h3>Active</h3>
-      <WikiTable caption={`${team.shortName} active roster`} columns={["ID", "Name", "Role", "Joined", "Status"]}
-        empty="No active players recorded." rows={team.roster.map((player) => ({
-          key: player.tenureId, cells: [<span key="link"><NationalityFlags nationality={player.nationality} nationalities={player.nationalities} compact /> <Link href={`/wiki/players/${player.slug}`}>{player.nickname}</Link></span>,
-            player.realName, player.role, player.joinedDate ?? "TBD", player.isCaptain ? "Active / Captain" : player.rosterStatus],
-        }))} />
+      <TeamRosterTable roster={team.roster} caption={`${team.shortName} active roster`} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
       <WikiTable caption="Former players" columns={["ID", "Name", "Role", "Joined", "Left"]}
@@ -68,13 +62,6 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     <ArticleSection {...sections[5]!}>
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
       <h3>Coaching and support staff</h3><StaffTable staff={team.staff} />
-      <h3>Mentorship</h3>
-      <WikiTable caption="Confirmed mentorships" columns={["Player", "Mentor", "Assignment"]} empty="No confirmed mentors recorded."
-        rows={team.mentors.map((mentor) => ({ key: mentor.playerId, cells: [
-          team.roster.find((player) => player.playerId === mentor.playerId)?.nickname ?? mentor.playerName,
-          mentor.nickname ?? mentor.name, mentor.role,
-        ] }))} />
-      <p>Mentorship is shown separately from team employment. Real-world figures appear in fictional Kairos roles.</p>
     </ArticleSection>
     <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>
     <ArticleSection {...sections[7]!}><SourceList sources={team.sources} /></ArticleSection>

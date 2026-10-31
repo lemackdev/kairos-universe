@@ -55,6 +55,7 @@ export interface RosterEntryView {
   isStarter: boolean;
   joinedDate: string | null;
   leftDate: string | null;
+  contractEndDate: string | null;
   teamId: string;
   teamName: string;
   teamSlug: string | null;
@@ -66,6 +67,7 @@ export interface StaffEntryView {
   slug: string;
   realName: string;
   nickname: string | null;
+  nationality: string | null;
   title: string;
   status: string;
   teamScope: string | null;
@@ -125,6 +127,7 @@ export interface PlayerView {
   displayName: string;
   nationality: string | null;
   city: string | null;
+  cityRegion: string | null;
   dateOfBirth: string | null;
   age: number | null;
   gameId: string;

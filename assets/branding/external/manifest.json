@@ -1,0 +1,306 @@
+{
+  "source": "Wikipedia / Wikimedia Commons, fetched via MediaWiki API for non-commercial identification use on Kairospedia real-world reference pages.",
+  "fetchedDate": "2026-10-31",
+  "logos": [
+    {
+      "slug": "external-anyone-s-legend",
+      "name": "Anyone's Legend",
+      "file": "external-anyone-s-legend.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Anyone's_Legend"
+    },
+    {
+      "slug": "external-bilibili-gaming",
+      "name": "Bilibili Gaming",
+      "file": "external-bilibili-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Bilibili_Gaming"
+    },
+    {
+      "slug": "external-cloud9",
+      "name": "Cloud9",
+      "file": "external-cloud9.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Cloud9"
+    },
+    {
+      "slug": "external-ctbc-flying-oyster",
+      "name": "CTBC Flying Oyster",
+      "file": "external-ctbc-flying-oyster.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/CTBC_Flying_Oyster"
+    },
+    {
+      "slug": "external-deep-cross-gaming",
+      "name": "Deep Cross Gaming",
+      "file": "external-deep-cross-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Deep_Cross_Gaming"
+    },
+    {
+      "slug": "external-detonation-focusme",
+      "name": "DetonatioN FocusMe",
+      "file": "external-detonation-focusme.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/DetonatioN_FocusMe"
+    },
+    {
+      "slug": "external-dignitas",
+      "name": "Dignitas",
+      "file": "external-dignitas.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Dignitas_(esports)"
+    },
+    {
+      "slug": "external-disguised",
+      "name": "Disguised",
+      "file": "external-disguised.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Disguised_(esports)"
+    },
+    {
+      "slug": "external-dplus",
+      "name": "Dplus",
+      "file": "external-dplus.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Dplus_KIA"
+    },
+    {
+      "slug": "external-drx",
+      "name": "DRX",
+      "wikiPage": "https://en.wikipedia.org/wiki/DRX_(esports)",
+      "file": "external-drx.png"
+    },
+    {
+      "slug": "external-edward-gaming",
+      "name": "EDward Gaming",
+      "file": "external-edward-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Edward_Gaming"
+    },
+    {
+      "slug": "external-fearx",
+      "name": "FEARX",
+      "wikiPage": "https://en.wikipedia.org/wiki/FearX",
+      "file": "external-fearx.png"
+    },
+    {
+      "slug": "external-flyquest",
+      "name": "FlyQuest",
+      "file": "external-flyquest.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/FlyQuest"
+    },
+    {
+      "slug": "external-fnatic",
+      "name": "Fnatic",
+      "file": "external-fnatic.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Fnatic"
+    },
+    {
+      "slug": "external-furia",
+      "name": "FURIA",
+      "file": "external-furia.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Furia_Esports"
+    },
+    {
+      "slug": "external-g2-esports",
+      "name": "G2 Esports",
+      "file": "external-g2-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/G2_Esports"
+    },
+    {
+      "slug": "external-gam-esports",
+      "name": "GAM Esports",
+      "file": "external-gam-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/GAM_Esports"
+    },
+    {
+      "slug": "external-gen-g-esports",
+      "name": "Gen.G Esports",
+      "file": "external-gen-g-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Gen.G"
+    },
+    {
+      "slug": "external-giantx",
+      "name": "GIANTX",
+      "file": "external-giantx.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/GiantX"
+    },
+    {
+      "slug": "external-ground-zero-gaming",
+      "name": "Ground Zero Gaming",
+      "file": "external-ground-zero-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Ground_Zero_Gaming"
+    },
+    {
+      "slug": "external-hanwha-life-esports",
+      "name": "Hanwha Life Esports",
+      "file": "external-hanwha-life-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Hanwha_Life_Esports"
+    },
+    {
+      "slug": "external-invictus-gaming",
+      "name": "Invictus Gaming",
+      "file": "external-invictus-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Invictus_Gaming"
+    },
+    {
+      "slug": "external-jd-gaming",
+      "name": "JD Gaming",
+      "file": "external-jd-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/JD_Gaming"
+    },
+    {
+      "slug": "external-karmine-corp",
+      "name": "Karmine Corp",
+      "file": "external-karmine-corp.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Karmine_Corp"
+    },
+    {
+      "slug": "external-kt-rolster",
+      "name": "KT Rolster",
+      "wikiPage": "https://en.wikipedia.org/wiki/KT_Rolster",
+      "file": "external-kt-rolster.svg"
+    },
+    {
+      "slug": "external-lgd-gaming",
+      "name": "LGD Gaming",
+      "file": "external-lgd-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/LGD_Gaming"
+    },
+    {
+      "slug": "external-lng-esports",
+      "name": "LNG Esports",
+      "file": "external-lng-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/LNG_Esports"
+    },
+    {
+      "slug": "external-loud",
+      "name": "LOUD",
+      "file": "external-loud.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Loud_(esports)"
+    },
+    {
+      "slug": "external-maryville-university",
+      "name": "Maryville University",
+      "file": "external-maryville-university.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Maryville_University"
+    },
+    {
+      "slug": "external-movistar-koi",
+      "name": "Movistar KOI",
+      "wikiPage": "https://en.wikipedia.org/wiki/Movistar_KOI",
+      "file": "external-movistar-koi.png"
+    },
+    {
+      "slug": "external-mvk-esports",
+      "name": "MVK Esports",
+      "file": "external-mvk-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/MVK_Esports"
+    },
+    {
+      "slug": "external-natus-vincere",
+      "name": "Natus Vincere",
+      "file": "external-natus-vincere.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Natus_Vincere"
+    },
+    {
+      "slug": "external-ninjas-in-pyjamas",
+      "name": "Ninjas in Pyjamas",
+      "file": "external-ninjas-in-pyjamas.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Ninjas_in_Pyjamas"
+    },
+    {
+      "slug": "external-nongshim-redforce",
+      "name": "Nongshim RedForce",
+      "file": "external-nongshim-redforce.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Nongshim_RedForce"
+    },
+    {
+      "slug": "external-oh-my-god",
+      "name": "Oh My God",
+      "wikiPage": "https://en.wikipedia.org/wiki/OMG_(esports)",
+      "file": "external-oh-my-god.png"
+    },
+    {
+      "slug": "external-pain-gaming",
+      "name": "paiN Gaming",
+      "file": "external-pain-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/PaiN_Gaming"
+    },
+    {
+      "slug": "external-sentinels",
+      "name": "Sentinels",
+      "file": "external-sentinels.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Sentinels_(esports)"
+    },
+    {
+      "slug": "external-shopify-rebellion",
+      "name": "Shopify Rebellion",
+      "file": "external-shopify-rebellion.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Shopify_Rebellion"
+    },
+    {
+      "slug": "external-sk-gaming",
+      "name": "SK Gaming",
+      "file": "external-sk-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/SK_Gaming"
+    },
+    {
+      "slug": "external-t1",
+      "name": "T1",
+      "wikiPage": "https://en.wikipedia.org/wiki/T1_(esports)",
+      "file": "external-t1.svg"
+    },
+    {
+      "slug": "external-team-heretics",
+      "name": "Team Heretics",
+      "file": "external-team-heretics.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Team_Heretics"
+    },
+    {
+      "slug": "external-team-liquid",
+      "name": "Team Liquid",
+      "file": "external-team-liquid.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Team_Liquid"
+    },
+    {
+      "slug": "external-team-vitality",
+      "name": "Team Vitality",
+      "file": "external-team-vitality.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Team_Vitality"
+    },
+    {
+      "slug": "external-team-we",
+      "name": "Team WE",
+      "file": "external-team-we.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Team_WE"
+    },
+    {
+      "slug": "external-thundertalk-gaming",
+      "name": "ThunderTalk Gaming",
+      "file": "external-thundertalk-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/TT_Esports"
+    },
+    {
+      "slug": "external-top-esports",
+      "name": "Top Esports",
+      "file": "external-top-esports.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Top_Esports"
+    },
+    {
+      "slug": "external-ultra-prime",
+      "name": "Ultra Prime",
+      "file": "external-ultra-prime.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Ultra_Prime_Esports"
+    },
+    {
+      "slug": "external-university-of-mississippi",
+      "name": "University of Mississippi",
+      "file": "external-university-of-mississippi.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/University_of_Mississippi"
+    },
+    {
+      "slug": "external-weibo-gaming",
+      "name": "Weibo Gaming",
+      "file": "external-weibo-gaming.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Weibo_Gaming"
+    },
+    {
+      "slug": "external-winthrop-university",
+      "name": "Winthrop University",
+      "file": "external-winthrop-university.png",
+      "wikiPage": "https://en.wikipedia.org/wiki/Winthrop_University"
+    }
+  ]
+}

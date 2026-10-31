@@ -1,40 +1,81 @@
+"use client";
+
+import { useMemo, useState } from "react";
+import Link from "next/link";
 import type { RosterEntryView } from "@/types/catalog";
-
-import { EntityLink } from "./EntityLink";
-import { RoleBadge } from "./Badges";
 import { NationalityFlags } from "./NationalityFlags";
+import { RoleIcon } from "./RoleIcon";
 
-export function TeamRosterTable({ roster }: { roster: RosterEntryView[] }) {
+type SortColumn = "nationality" | "player" | "role" | "contractEndDate" | "joinedDate";
+type SortDirection = "asc" | "desc";
+
+const columns: Array<{ key: SortColumn; label: string }> = [
+  { key: "nationality", label: "Nat." },
+  { key: "player", label: "Player" },
+  { key: "role", label: "Role" },
+  { key: "contractEndDate", label: "Contract Ends" },
+  { key: "joinedDate", label: "Joined" },
+];
+
+function sortValue(entry: RosterEntryView, column: SortColumn): string {
+  switch (column) {
+    case "nationality": return entry.nationality ?? "";
+    case "player": return entry.nickname;
+    case "role": return entry.role;
+    case "contractEndDate": return entry.contractEndDate ?? "";
+    case "joinedDate": return entry.joinedDate ?? "";
+  }
+}
+
+export function TeamRosterTable({ roster, caption = "Current active roster" }: { roster: RosterEntryView[]; caption?: string }) {
+  const [sortColumn, setSortColumn] = useState<SortColumn>("role");
+  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
+
+  const sorted = useMemo(() => {
+    const factor = sortDirection === "asc" ? 1 : -1;
+    return [...roster].sort((a, b) => sortValue(a, sortColumn).localeCompare(sortValue(b, sortColumn)) * factor);
+  }, [roster, sortColumn, sortDirection]);
+
+  function toggleSort(column: SortColumn) {
+    if (column === sortColumn) {
+      setSortDirection((direction) => (direction === "asc" ? "desc" : "asc"));
+    } else {
+      setSortColumn(column);
+      setSortDirection("asc");
+    }
+  }
+
+  if (!roster.length) return <p>No active players recorded.</p>;
+
   return (
     <div className="tableWrap">
       <table className="dataTable">
-        <caption className="srOnly">Current active roster</caption>
+        <caption className="srOnly">{caption}</caption>
         <thead>
           <tr>
-            <th scope="col">Role</th>
-            <th scope="col">Player</th>
-            <th scope="col">Status</th>
-            <th scope="col">Leadership</th>
+            <th scope="col">#</th>
+            {columns.map((column) => <th scope="col" key={column.key}>
+              <button type="button" onClick={() => toggleSort(column.key)}
+                aria-sort={sortColumn === column.key ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
+                style={{ all: "unset", cursor: "pointer", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+                {column.label}{sortColumn === column.key && <span aria-hidden="true">{sortDirection === "asc" ? "▲" : "▼"}</span>}
+              </button>
+            </th>)}
           </tr>
         </thead>
         <tbody>
-          {roster.map((entry) => (
+          {sorted.map((entry, index) => (
             <tr key={entry.tenureId}>
-              <td data-label="Role">
-                <RoleBadge role={entry.role} />
-              </td>
+              <td data-label="#">{index + 1}</td>
+              <td data-label="Nat."><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
               <td data-label="Player">
-                <NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact />
-                <EntityLink
-                  href={`/wiki/players/${entry.slug}`}
-                  name={entry.nickname}
-                  detail={entry.realName}
-                />
+                <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>
+                <span className="muted"> {entry.realName}</span>
+                {entry.isCaptain && <span className="badge badgeCanon" style={{ marginLeft: "0.4rem" }}>Captain</span>}
               </td>
-              <td data-label="Status">{entry.rosterStatus}</td>
-              <td data-label="Leadership">
-                {entry.isCaptain ? "Captain" : "Player"}
-              </td>
+              <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><RoleIcon role={entry.role} />{entry.role}</span></td>
+              <td data-label="Contract Ends">{entry.contractEndDate ?? "TBD"}</td>
+              <td data-label="Joined">{entry.joinedDate ?? "TBD"}</td>
             </tr>
           ))}
         </tbody>

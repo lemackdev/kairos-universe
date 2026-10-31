@@ -33,7 +33,7 @@ describe("local publication search", () => {
   });
 
   it("finds the published team and excludes hidden canon", () => {
-    expect(searchRecords(records, "Kairos League")[0]?.id).toBe(
+    expect(searchRecords(records, "Kairos eSports")[0]?.id).toBe(
       "kairos-lol-main",
     );
     expect(searchRecords(records, "Academy")).toEqual([]);

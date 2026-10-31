@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ArticleInfobox, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
+import { RealWorldTeamsTable } from "./RealWorldTeamsTable";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { externalLogoPath } from "@/lib/externalLogos";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
@@ -62,7 +64,9 @@ export function ExternalPlayerArticle({ player, scene }: { player: ScenePlayer; 
 }
 
 export function ExternalOrganizationArticle({ organization, scene }: { organization: SceneOrganization; scene: ExternalScene }) {
+  const logo = externalLogoPath(organization.slug);
   return <article><Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Organizations", href: "/wiki/organizations" }, { label: organization.name }]} />
+    {logo && <img src={logo} alt={`${organization.name} logo`} style={{ maxWidth: "160px", maxHeight: "120px", height: "auto", objectFit: "contain", marginBottom: "0.75rem" }} />}
     <h1>{organization.name}</h1><ReferenceNotice />
     <section className="contentSection"><h2>Organization Information</h2><p>This is an esports brand record, separate from its game-specific team. Legal company identity, ownership, headquarters and staff history have not been imported.</p></section>
     <section className="contentSection"><h2>Published Teams</h2><ul>{scene.teams.filter((t) => organization.teamIds.includes(t.id)).map((t) => <li key={t.id}><Link href={`/wiki/teams/${t.slug}`}>{t.name}</Link>, {t.league}</li>)}</ul></section>
@@ -73,6 +77,6 @@ export function ExternalOrganizationArticle({ organization, scene }: { organizat
 export function ExternalIndex({ scene, kind }: { scene: ExternalScene | undefined; kind: "teams" | "players" | "organizations" }) {
   if (!scene) return null;
   return <section className="contentSection"><h2>Pre-Worlds 2026 References</h2><ReferenceNotice />
-    <WikiTable caption={`Real-world ${kind}`} columns={kind === "teams" ? ["Team", "League", "Region"] : ["Name", "Record type"]} rows={kind === "teams" ? scene.teams.map((t) => ({ key: t.id, cells: [<Link key="name" href={`/wiki/teams/${t.slug}`}>{t.name}</Link>, t.league, t.region] })) : kind === "players" ? scene.players.map((p) => ({ key: p.id, cells: [<Link key="name" href={`/wiki/players/${p.slug}`}>{p.nickname}</Link>, "Tournament-roster reference"] })) : scene.organizations.map((o) => ({ key: o.id, cells: [<Link key="name" href={`/wiki/organizations/${o.slug}`}>{o.name}</Link>, "Esports brand"] }))} empty="No external references enabled." />
+    {kind === "teams" ? <RealWorldTeamsTable teams={scene.teams} /> : <WikiTable caption={`Real-world ${kind}`} columns={kind === "players" ? ["Name", "Record type"] : ["Name", "Record type"]} rows={kind === "players" ? scene.players.map((p) => ({ key: p.id, cells: [<Link key="name" href={`/wiki/players/${p.slug}`}>{p.nickname}</Link>, "Tournament-roster reference"] })) : scene.organizations.map((o) => ({ key: o.id, cells: [<Link key="name" href={`/wiki/organizations/${o.slug}`}>{o.name}</Link>, "Esports brand"] }))} empty="No external references enabled." />}
   </section>;
 }

@@ -29,7 +29,7 @@ describe("encyclopedia article templates", () => {
     expect(team.formerRoster).toEqual([]);
     expect(html).toContain("No former players recorded.");
     expect(html).toContain("No official matches recorded.");
-    expect(html).toContain("Active / Captain");
+    expect(html).toContain("Captain");
     expect(team.timeline.map((episode) => episode.number)).toEqual(team.timeline.map((episode) => episode.number).sort((a, b) => a - b));
   });
 

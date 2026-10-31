@@ -118,6 +118,11 @@ export function buildCatalog(
     isStarter: tenure.isStarter,
     joinedDate: exactOrNull(tenure.effectiveDate ?? tenure.joinedDate),
     leftDate: exactOrNull(tenure.leftDate),
+    contractEndDate: exactOrNull(
+      typeof player.contract === "object" && player.contract && "endDate" in player.contract
+        ? String((player.contract as Record<string, unknown>).endDate ?? "")
+        : null,
+    ),
     teamId: tenure.teamId,
     teamName: publication.enabledTeams.includes(tenure.teamId)
       ? teams.get(tenure.teamId)?.name ?? "Unknown" : "Unpublished team",
@@ -134,6 +139,7 @@ export function buildCatalog(
     slug: person.slug,
     realName: person.realName,
     nickname: person.nickname === "TBD" ? null : person.nickname,
+    nationality: unknownToNull(person.nationality),
     title: tenure.title,
     status: tenure.status,
     teamScope: tenure.teamId === "TBD" ? null : tenure.teamId,
@@ -274,6 +280,7 @@ export function buildCatalog(
       nationality: unknownToNull(player.nationality),
       nationalities: player.nationalities,
       city: unknownToNull(player.city),
+      cityRegion: unknownToNull(player.homeTown?.region ?? player.currentResidence?.region ?? null),
       dateOfBirth: exactOrNull(player.dateOfBirth),
       age: calculateAge(player.dateOfBirth, narrativeDate),
       gameId: gameIdByName[player.game] ?? "TBD",
@@ -465,7 +472,7 @@ export function buildCatalog(
       nextCompetitiveMilestone:
         universe.version.nextCompetitiveMilestone.displayName,
       generatedAt: new Date().toISOString(),
-      publicationScope: "Kairos League of Legends main team",
+      publicationScope: "Kairos eSports",
     },
     games: gameViews,
     organizations: organizationViews,

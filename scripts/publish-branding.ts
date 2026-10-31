@@ -45,3 +45,18 @@ for (const portrait of portraits) {
 }
 fs.writeFileSync(path.join(appRoot, ".generated/portraits.json"), JSON.stringify(portraits, null, 2) + "\n");
 console.log(`Portraits validated and published: ${portraits.length}.`);
+
+const externalLogoSource = path.join(root, "assets/branding/external");
+const externalLogoDestination = path.join(appRoot, "public/branding/external");
+if (fs.existsSync(externalLogoSource)) {
+  const externalMarker = path.join(externalLogoDestination, ".generated-assets");
+  if (fs.existsSync(externalLogoDestination) && !fs.existsSync(externalMarker)) throw new Error("Refusing to overwrite an unowned external branding directory.");
+  fs.mkdirSync(externalLogoDestination, { recursive: true });
+  fs.writeFileSync(externalMarker, "Derived from assets/branding/external; rebuilt by branding:build.\n");
+  const sourceFiles = fs.readdirSync(externalLogoSource).filter(f => f !== ".generated-assets");
+  for (const filename of fs.readdirSync(externalLogoDestination)) {
+    if (filename !== ".generated-assets" && !sourceFiles.includes(filename)) fs.unlinkSync(path.join(externalLogoDestination, filename));
+  }
+  for (const filename of sourceFiles) fs.copyFileSync(path.join(externalLogoSource, filename), path.join(externalLogoDestination, filename));
+  console.log(`External org logos published: ${sourceFiles.filter(f => f !== "manifest.json").length}.`);
+}

@@ -79,7 +79,7 @@ export default function WikiHomePage() {
           <EntityCard
             href={`/wiki/teams/${team?.slug ?? "kairos-lol-main"}`}
             kicker="Team"
-            title={team?.name ?? "Kairos League of Legends"}
+            title={team?.name ?? "Kairos eSports"}
             description="Current roster, staff, leadership, mentorship, milestones, episodes, and sources."
             meta="Training and pre-debut"
           />

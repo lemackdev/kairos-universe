@@ -73,7 +73,12 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
         <tbody>
           {sorted.map((entry) => (
             <tr key={entry.tenureId}>
-              <td data-label="Region"><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
+              <td data-label="Region">
+                <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}>
+                  <NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact />
+                  NA
+                </span>
+              </td>
               <td data-label="Player">
                 <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>
                 <span className="muted"> {entry.realName}</span>

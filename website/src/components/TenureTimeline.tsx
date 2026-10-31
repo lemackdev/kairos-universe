@@ -1,4 +1,5 @@
 import type { RosterEntryView, StaffEntryView } from "@/types/catalog";
+import { formatDate } from "@/lib/formatting/date";
 
 export function TenureTimeline({
   entries,
@@ -12,7 +13,7 @@ export function TenureTimeline({
           return (
             <div className="timelineItem" key={entry.tenureId}>
               <span className="timelineDate">
-                {entry.joinedDate ?? "Join date TBD"}
+                {entry.joinedDate ? formatDate(entry.joinedDate) : "Join date TBD"}
               </span>
               <div>
                 <strong>{entry.realName}</strong>

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { ArticleLink } from "./articles/WikiArticle";
 import type { RosterEntryView } from "@/types/catalog";
+import { formatDate } from "@/lib/formatting/date";
 
 type SortColumn = "team" | "start" | "end" | "duration";
 type SortDirection = "asc" | "desc";
@@ -91,8 +92,8 @@ export function PlayerTeamHistoryTable({ history, caption = "Team history" }: { 
               <td data-label="Team">
                 <ArticleLink href={entry.teamSlug ? `/wiki/teams/${entry.teamSlug}` : null}>{entry.teamName}</ArticleLink>
               </td>
-              <td data-label="Start">{entry.joinedDate ?? "TBD"}</td>
-              <td data-label="End">{entry.leftDate ?? (entry.rosterStatus === "active" ? "Present" : "TBD")}</td>
+              <td data-label="Start">{formatDate(entry.joinedDate)}</td>
+              <td data-label="End">{entry.leftDate ? formatDate(entry.leftDate) : (entry.rosterStatus === "active" ? "Present" : "TBD")}</td>
               <td data-label="Duration">{formatDuration(entry.joinedDate, entry.leftDate)}</td>
             </tr>
           ))}

@@ -1,4 +1,5 @@
 import type { EpisodeView } from "@/types/catalog";
+import { formatDate } from "@/lib/formatting/date";
 
 export function EpisodeReferenceList({
   episodes,
@@ -17,7 +18,7 @@ export function EpisodeReferenceList({
             Episode {episode.number}: {episode.title}
           </strong>
           <div className="episodeMeta">
-            {episode.date ?? "Exact date TBD"}
+            {episode.date ? formatDate(episode.date) : "Exact date TBD"}
           </div>
           <p className="muted">{episode.summary}</p>
         </li>

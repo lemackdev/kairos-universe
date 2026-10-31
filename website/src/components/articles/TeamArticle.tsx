@@ -6,6 +6,7 @@ import type { OrganizationView, TeamView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { ManagementTable } from "@/components/ManagementTable";
 import { hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
+import { formatDate } from "@/lib/formatting/date";
 import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 
 const sections = [
@@ -60,7 +61,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     <ArticleSection {...sections[2]!}>
       <details open><summary>Recorded events ({team.timeline.length})</summary>
         <ol className="articleTimeline">{team.timeline.map((episode) => <li key={episode.id}>
-          <strong>{episode.date ?? "Date TBD"}</strong> <span>Episode {episode.number}: {episode.title}</span>
+          <strong>{episode.date ? formatDate(episode.date) : "Date TBD"}</strong> <span>Episode {episode.number}: {episode.title}</span>
           <p>{episode.summary}</p>
         </li>)}</ol>
       </details>
@@ -73,7 +74,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
       <WikiTable caption="Former players" columns={["Player", "Name", "Role", "Joined", "Left"]}
         empty="No former players recorded." rows={team.formerRoster.map((player) => ({
           key: player.tenureId, cells: [<ArticleLink key="link" href={`/wiki/players/${player.slug}`}>{player.nickname}</ArticleLink>,
-            player.realName, player.role, player.joinedDate ?? "TBD", player.leftDate ?? "TBD"],
+            player.realName, player.role, formatDate(player.joinedDate), formatDate(player.leftDate)],
         }))} />
     </ArticleSection>
     <ArticleSection {...sections[5]!}>

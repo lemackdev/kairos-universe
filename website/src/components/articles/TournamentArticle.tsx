@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTable } from "./WikiArticle";
+import { formatDate } from "@/lib/formatting/date";
 
 const sections = [
   { id: "overview", title: "Overview" }, { id: "tournament-information", title: "Tournament Information" },
@@ -12,8 +13,8 @@ const sections = [
 export function TournamentArticle({ tournament }: { tournament: CompetitionView }) {
   const information = [
     { label: "Game", value: tournament.gameName }, { label: "Organizer", value: tournament.organizer },
-    { label: "Location", value: tournament.location }, { label: "Start date", value: tournament.startDate },
-    { label: "End date", value: tournament.endDate }, { label: "Status", value: tournament.status },
+    { label: "Location", value: tournament.location }, { label: "Start date", value: formatDate(tournament.startDate) },
+    { label: "End date", value: formatDate(tournament.endDate) }, { label: "Status", value: tournament.status },
   ];
   return <WikiArticle title={tournament.name} kind="Tournaments" game={tournament.gameName} sections={sections}
     infobox={<ArticleInfobox title={tournament.name} monogram={tournament.name.slice(0, 1)} groups={[
@@ -38,12 +39,12 @@ export function TournamentArticle({ tournament }: { tournament: CompetitionView 
     <ArticleSection {...sections[4]!}>
       <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."
         rows={tournament.results.map((result) => ({ key: result.id, cells: [result.place,
-          <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>, result.date] }))} />
+          <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>, formatDate(result.date)] }))} />
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       <WikiTable caption="MVPs and individual awards" columns={["Award", "Recipient", "Date"]} empty="No MVPs or individual awards recorded."
         rows={tournament.awards.map((award) => ({ key: award.id, cells: [award.name,
-          <ArticleLink key="recipient" href={award.recipientHref}>{award.recipientName}</ArticleLink>, award.date] }))} />
+          <ArticleLink key="recipient" href={award.recipientHref}>{award.recipientName}</ArticleLink>, formatDate(award.date)] }))} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}><SourceList sources={tournament.sources} /></ArticleSection>
   </WikiArticle>;

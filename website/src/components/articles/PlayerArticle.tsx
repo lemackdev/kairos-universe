@@ -6,6 +6,7 @@ import { EpisodeReferenceList } from "@/components/EpisodeReferenceList";
 import { PlayerTeamHistoryTable } from "@/components/PlayerTeamHistoryTable";
 import { SourceList } from "@/components/SourceList";
 import { hasKairosDbProfile, kairosDbPlayerUrl } from "@/lib/links";
+import { formatDate } from "@/lib/formatting/date";
 import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 
 const sections = [
@@ -19,7 +20,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
   const background = [
     { label: "Name", value: player.realName },
     { label: "Nationality", value: <NationalityFlags nationality={player.nationality} nationalities={player.nationalities} /> },
-    { label: "Date of birth", value: player.dateOfBirth ?? "TBD" },
+    { label: "Date of birth", value: formatDate(player.dateOfBirth) },
     { label: "Age", value: player.age == null ? "TBD" : `${player.age} (as of ${narrativeDate})` },
     { label: "City", value: player.city ? player.cityRegion ? `${player.city}, ${player.cityRegion}` : player.city : "TBD" },
   ];
@@ -48,13 +49,13 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
       <WikiTable caption="Individual awards" columns={["Date", "Award", "Tournament"]} empty="No confirmed individual awards recorded."
-        rows={player.awards.map((award) => ({ key: award.id, cells: [award.date ?? "TBD", award.name, award.competitionName ?? "TBD"] }))} />
+        rows={player.awards.map((award) => ({ key: award.id, cells: [formatDate(award.date), award.name, award.competitionName ?? "TBD"] }))} />
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {player.officialMatchCount === 0 && <p>No official matches recorded.</p>}
       <WikiTable caption={`${player.nickname} tournament results`} columns={["Date", "Place", "Tournament", "Team"]} empty="No confirmed tournament results recorded."
         rows={player.tournamentResults.map((result) => ({ key: result.id, cells: [
-          result.date ?? "TBD", result.place ?? "TBD",
+          formatDate(result.date), result.place ?? "TBD",
           <Link key="event" href={`/wiki/competitions/${result.competitionSlug}`}>{result.competitionName}</Link>,
           <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>,
         ] }))} />

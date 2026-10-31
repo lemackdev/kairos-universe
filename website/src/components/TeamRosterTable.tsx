@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { RosterEntryView } from "@/types/catalog";
 import { NationalityFlags } from "./NationalityFlags";
 import { RoleIcon } from "./RoleIcon";
+import { formatDate } from "@/lib/formatting/date";
 
 type SortColumn = "nationality" | "player" | "name" | "role" | "contractEndDate" | "joinedDate";
 type SortDirection = "asc" | "desc";
@@ -87,8 +88,8 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
               </td>
               <td data-label="Name">{entry.realName}</td>
               <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><RoleIcon role={entry.role} />{entry.role}</span></td>
-              <td data-label="Contract Ends">{entry.contractEndDate ?? "TBD"}</td>
-              <td data-label="Joined">{entry.joinedDate ?? "TBD"}</td>
+              <td data-label="Contract Ends">{formatDate(entry.contractEndDate)}</td>
+              <td data-label="Joined">{formatDate(entry.joinedDate)}</td>
             </tr>
           ))}
         </tbody>

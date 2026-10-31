@@ -63,7 +63,7 @@ describe("encyclopedia article templates", () => {
     const team = { ...catalog.teams[0]!, formerRoster: [{ ...catalog.teams[0]!.roster[0]!,
       tenureId: "test-former-tenure", rosterStatus: "departed", leftDate: "2026-11-01" }] };
     const html = renderToStaticMarkup(createElement(TeamArticle, { team }));
-    expect(html).toContain("2026-11-01");
+    expect(html).toContain("01/11/2026");
     expect(html).not.toContain("No former players recorded.");
   });
 

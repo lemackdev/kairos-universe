@@ -4,6 +4,7 @@ import { RealWorldTeamsTable } from "./RealWorldTeamsTable";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { ExternalRosterTable } from "@/components/ExternalRosterTable";
+import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
@@ -13,7 +14,7 @@ export function ReferenceNotice() {
 
 export function ExternalSources({ scene, ids }: { scene: ExternalScene; ids: string[] }) {
   return <ul>{scene.sources.filter((s) => ids.includes(s.id)).map((s) => <li key={s.id}>
-    <a href={s.url} rel="noreferrer">{s.title}</a>. Event ended {s.eventEndDate}. Researched {s.retrievedDate} from indexed tournament-page excerpts. Exact revision unavailable.
+    <a href={s.url} rel="noreferrer">{s.title}</a>. Event ended {formatDate(s.eventEndDate)}. Researched {formatDate(s.retrievedDate)} from indexed tournament-page excerpts. Exact revision unavailable.
   </li>)}</ul>;
 }
 
@@ -26,7 +27,7 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
   return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)}
     image={logo && <img src={logo} alt={`${team.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />} groups={[
     { title: "Team Information", rows: [{ label: "League", value: team.league }, { label: "Region", value: team.region },
-      { label: "Roster basis", value: event.title }, { label: "Event ended", value: event.eventEndDate },
+      { label: "Roster basis", value: event.title }, { label: "Event ended", value: formatDate(event.eventEndDate) },
       { label: "Review status", value: "Needs review" }, { label: "Current contracts", value: "Unknown" }] },
   ]} />}>
     <ReferenceNotice />
@@ -34,7 +35,7 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
     <ArticleSection id="team-information" title="Team Information"><p>{team.name} is included in the {team.league} reference collection. {team.basis === "last-available-domestic-tournament" ? "This is an older fallback: the team did not participate in LPL Split 3. It must not be presented as a current roster." : "The roster is based on the last applicable domestic championship in this research cycle."}</p>
       {team.notes.length > 0 && <ul>{team.notes.map((note) => <li key={note}>{note}</li>)}</ul>}
     </ArticleSection>
-    <ArticleSection id="timeline" title="Timeline"><p>{event.eventEndDate}: referenced tournament ended. This is not a signing date, departure date, or Kairos story event.</p></ArticleSection>
+    <ArticleSection id="timeline" title="Timeline"><p>{formatDate(event.eventEndDate)}: referenced tournament ended. This is not a signing date, departure date, or Kairos story event.</p></ArticleSection>
     <ArticleSection id="player-roster" title="Player Roster"><ExternalRosterTable caption={`${event.title}: listed players`} rows={members.map((tenure) => {
       const player = scene.players.find((p) => p.id === tenure.playerId)!;
       return { id: tenure.id, role: tenure.role, roleLabel: roleLabels[tenure.role], nickname: player.nickname, slug: player.slug, designation: tenure.designation };
@@ -57,7 +58,7 @@ export function ExternalPlayerArticle({ player, scene }: { player: ScenePlayer; 
     <ArticleSection id="background-information" title="Background Information"><p>Personal biography, nationality, residence, date of birth, contract details and captaincy have not been researched in this import.</p></ArticleSection>
     <ArticleSection id="team-history" title="Team History"><WikiTable caption="Observed tournament memberships, not dated contracts" columns={["Team", "League", "Role", "Listing", "Tournament ended"]} rows={tenures.map((tenure) => {
       const team = scene.teams.find((t) => t.id === tenure.teamId)!;
-      return { key: tenure.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.league, roleLabels[tenure.role], tenure.designation, tenure.observedAtEventEnd] };
+      return { key: tenure.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.league, roleLabels[tenure.role], tenure.designation, formatDate(tenure.observedAtEventEnd)] };
     })} empty="No source-backed history imported." /></ArticleSection>
     <ArticleSection id="trivia" title="Trivia"><p>No trivia imported.</p></ArticleSection>
     <ArticleSection id="individual-awards" title="Individual Awards"><p>Awards have not been imported. This does not mean the player has none.</p></ArticleSection>

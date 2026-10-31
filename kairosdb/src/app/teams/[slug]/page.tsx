@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { BrandLogo, UniformPanel } from "@/components/UniformPanel";
 
 import { OriginBadge, ReviewBadge } from "@/components/Badge";
 import { PageHeader } from "@/components/PageHeader";
@@ -25,7 +26,7 @@ export default async function TeamPage({
         <PageHeader
           title={kairos.team.name}
           subtitle={kairos.team.shortName}
-          meta={<OriginBadge origin="kairos-original" />}
+          meta={<><BrandLogo organizationId="kairos-esports" width={100} /><OriginBadge origin="kairos-original" /></>}
         />
         <div className="container" style={{ padding: "1.5rem" }}>
           <div className="table-scroll">
@@ -52,6 +53,10 @@ export default async function TeamPage({
               </tbody>
             </table>
           </div>
+          <section aria-labelledby="uniform-heading">
+            <h2 id="uniform-heading">2027 Uniform</h2>
+            <UniformPanel teamId={kairos.team.id} />
+          </section>
           <p style={{ marginTop: "1.5rem" }}>
             <a href={kairospediaTeamUrl(kairos.team.slug)} style={{ color: "var(--accent)" }}>
               Read canonical narrative profile on Kairospedia

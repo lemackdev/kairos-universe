@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { PlayerPortrait } from "@/components/PlayerPortrait";
+import { NationalityFlags } from "@/components/NationalityFlags";
 import type { PlayerView, TeamView } from "@/types/catalog";
 import { EpisodeReferenceList } from "@/components/EpisodeReferenceList";
 import { SourceList } from "@/components/SourceList";
@@ -15,7 +17,7 @@ const sections = [
 export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerView; team?: TeamView; narrativeDate: string }) {
   const background = [
     { label: "Name", value: player.realName },
-    { label: "Nationality", value: player.nationality ?? "TBD" },
+    { label: "Nationality", value: <NationalityFlags nationality={player.nationality} nationalities={player.nationalities} /> },
     { label: "Date of birth", value: player.dateOfBirth ?? "TBD" },
     { label: "Age", value: player.age == null ? "TBD" : `${player.age} (as of ${narrativeDate})` },
     { label: "City", value: player.city ?? "TBD" },
@@ -28,7 +30,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     { label: "Captain", value: player.isCaptain ? "Yes" : "No" },
   ];
   return <WikiArticle title={player.nickname} game={player.gameName} kind="Players" sections={sections}
-    infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.length <= 3 ? player.nickname : player.nickname.slice(0, 2)} groups={[
+    infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.length <= 3 ? player.nickname : player.nickname.slice(0, 2)} image={<PlayerPortrait playerId={player.id} />} groups={[
       { title: "Background Information", rows: background }, { title: "Competitive", rows: competitive },
     ]} />}>
     <ArticleSection {...sections[0]!}>

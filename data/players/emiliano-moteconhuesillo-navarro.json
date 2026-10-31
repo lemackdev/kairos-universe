@@ -153,7 +153,8 @@
     "His canonical role is Rifler.",
     "He is 18 years old on 2026-11-24.",
     "His date of birth is 2008-05-25.",
-    "He is signed to the Kairos Counter-Strike main roster."
+    "He is signed to the Kairos Counter-Strike main roster.",
+    "Confirmed nationalities: Mexican and Chilean."
   ],
   "unconfirmedDetails": [
     "Mexican home town is TBD.",
@@ -163,6 +164,11 @@
   "canonNotes": [
     "MoteConHuesillo is the canonical nickname and replaces all drafting placeholders.",
     "Do not expand Emiliano's biography beyond approved facts.",
-    "His earlier evaluation status remains historical chronology; his current status is signed."
+    "His earlier evaluation status remains historical chronology; his current status is signed.",
+    "Author confirmation, 2026-10-30: nationality follows the established home-country background, retaining explicitly confirmed dual nationality. Training in Los Angeles does not overwrite nationality."
+  ],
+  "nationalities": [
+    "Mexican",
+    "Chilean"
   ]
 }

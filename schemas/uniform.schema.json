@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/uniform.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "season",
+    "organizationId",
+    "name",
+    "type",
+    "primaryColor",
+    "accentColor",
+    "teamIds",
+    "frontAsset",
+    "backAsset",
+    "canonStatus",
+    "meaning",
+    "technicalSupplier",
+    "institutionalPartner",
+    "canonNotes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 2027
+    },
+    "organizationId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "main",
+        "academy"
+      ]
+    },
+    "primaryColor": {
+      "enum": [
+        "black",
+        "blue",
+        "white",
+        "green"
+      ]
+    },
+    "accentColor": {
+      "type": "string"
+    },
+    "teamIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "frontAsset": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "backAsset": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "canonStatus": {
+      "const": "approved-future-canon"
+    },
+    "meaning": {
+      "type": "string"
+    },
+    "technicalSupplier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "status",
+        "roles",
+        "expectedScope",
+        "contractValue",
+        "contractDuration",
+        "announcementDate",
+        "legalTerms",
+        "exclusivity"
+      ],
+      "properties": {
+        "name": {
+          "const": "New Balance"
+        },
+        "status": {
+          "const": "pending-formal-narrative-canonization"
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "expectedScope": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "contractValue": {
+          "type": "null"
+        },
+        "contractDuration": {
+          "type": "null"
+        },
+        "announcementDate": {
+          "type": "null"
+        },
+        "legalTerms": {
+          "type": "null"
+        },
+        "exclusivity": {
+          "type": "null"
+        }
+      }
+    },
+    "institutionalPartner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "organizationId",
+        "name",
+        "relationship",
+        "role"
+      ],
+      "properties": {
+        "organizationId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "relationship": {
+          "const": "parent-company"
+        },
+        "role": {
+          "type": "string"
+        }
+      }
+    },
+    "canonNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

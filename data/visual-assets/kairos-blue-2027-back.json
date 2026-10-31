@@ -1,0 +1,29 @@
+{
+  "id": "kairos-blue-2027-back",
+  "slug": "kairos-blue-2027-back",
+  "path": "assets/uniforms/2027/kairos/blue/back.png",
+  "mimeType": "image/png",
+  "organizationId": "kairos-esports",
+  "season": 2027,
+  "category": "uniform",
+  "orientation": "back",
+  "color": "blue",
+  "canonStatus": "approved-future-canon",
+  "teamIds": [
+    "kairos-lol-academy-blue"
+  ],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-10-30",
+  "width": 1400,
+  "height": 1400,
+  "sha256": "9bb6bc513be251f17efd0b3030b22ddc0084f16266509390cd7fbbe54363fb5f",
+  "referencePath": "assets/uniforms/2027/references/blue-back.png",
+  "referenceSha256": "540edf4c160ee3bd1a5c6e14e032e7136d6d983ff45098947a724491480f1e61",
+  "processing": "image-generator-reference-reconstruction-and-transparent-padding",
+  "garmentHeight": 1058,
+  "notes": [
+    "Reconstructed from the approved reference to remove adjacent garments and restore clipped edges.",
+    "Transparent margins normalized to a 1400px square without enlarging the generated artwork.",
+    "Generated reconstruction, not a pixel-identical original or a new uniform design."
+  ]
+}

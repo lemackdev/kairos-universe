@@ -109,7 +109,8 @@
     "He lives in California; his exact city is TBD.",
     "He speaks Portuguese fluently through his Brazilian family.",
     "He accepts the Kairos offer and signs on 2026-11-16.",
-    "He is the signed Support / Anchor of the complete Kairos Counter-Strike main roster."
+    "He is the signed Support / Anchor of the complete Kairos Counter-Strike main roster.",
+    "Confirmed nationalities: American and Brazilian."
   ],
   "unconfirmedDetails": [
     "Weaknesses, objectives, and insecurities beyond the source-confirmed profile are TBD.",
@@ -121,11 +122,16 @@
     "FLACOGOMEZ must be written exactly in uppercase.",
     "The previous future-reservation age of 18 is retconned by the confirmed birth date and current age.",
     "This active player is not the anonymous candidate in Episodes 48 through 53.",
-    "The Episode 68 signing replaces his earlier unsigned-prospect state without changing his identity, role, birth date, or prior chronology."
+    "The Episode 68 signing replaces his earlier unsigned-prospect state without changing his identity, role, birth date, or prior chronology.",
+    "Author confirmation, 2026-10-30: nationality follows the established home-country background, retaining explicitly confirmed dual nationality. Training in Los Angeles does not overwrite nationality."
   ],
   "currentResidence": {
     "city": "TBD",
     "region": "California",
     "country": "United States"
-  }
+  },
+  "nationalities": [
+    "American",
+    "Brazilian"
+  ]
 }

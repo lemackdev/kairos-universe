@@ -1,5 +1,43 @@
 # Canon Changelog
 
+## Unreleased - Main-Roster Portraits and Counter-Strike Publication
+
+- Added ten illustrative portraits in the new black kit: five revised League
+  portraits and five CS portraits, preserving original image versions.
+- Enabled Kairospedia pages for the existing Counter-Strike main team, its five
+  signed players and Head Coach Luk. Added source-linked current roster and
+  coaching tenures without inventing unknown start dates.
+- Atlas remains captain; FLACOGOMEZ remains 17. No signing, official result,
+  story episode or narrative date changed. All academies remain unpublished.
+- Appearance details are art proposals, not new biography. Portrait provenance:
+  [version 2 notes](../../assets/players/portraits-v2/PORTRAIT_NOTES.md).
+
+## Unreleased - Approved 2027 Visual Identity
+
+- Preserved the original Kairos and Asterion logos and reconstructed eight
+  complete jersey assets from author-approved references, retaining originals.
+- Added four indexed uniform records, ten indexed visual-asset records, schemas,
+  hash/reference validation, and publication-filtered branding for both apps.
+- Black is shared by both main teams; Blue and White are League academies;
+  Green is Counter-Strike Academy. No roster or promotion rule was changed.
+- New Balance remains pending formal narrative canonization. Asterion is the
+  parent company and Principal Institutional Partner, not an external sponsor.
+- No episode, story date, contract, announcement or match result was added.
+- Details: [uniform system](../branding/2027_UNIFORM_SYSTEM.md) and
+  [asset cleanup notes](../branding/ASSET_CLEANUP_NOTES.md).
+
+## Unreleased - Nationality Clarification
+
+- Author confirmation on 2026-10-30 establishes American nationality for rkN,
+  Vanta, Moss and Mold, and Canadian nationality for 404 and Aster, using their
+  established home-country backgrounds.
+- MoteConHuesillo is Mexican and Chilean; FLACOGOMEZ is American and Brazilian.
+- Added optional nationalities arrays while retaining the existing primary
+  nationality scalar for backward compatibility.
+- Temporary training locations do not change nationality. Unknown academy
+  hometowns and unverified external-player nationalities remain unknown.
+- No historical episode text, story date, roster or contract was changed.
+
 ## 0.10.0
 
 This is an architecture and competitive-world data release, not a new

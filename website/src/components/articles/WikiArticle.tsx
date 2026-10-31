@@ -41,12 +41,12 @@ export function ArticleSection({ id, title, children }: ArticleSection & { child
   </section>;
 }
 
-export function ArticleInfobox({ title, monogram, groups }: {
-  title: string; monogram: string; groups: Array<{ title: string; rows: InfoboxRow[] }>;
+export function ArticleInfobox({ title, monogram, groups, image }: {
+  title: string; monogram: string; image?: ReactNode; groups: Array<{ title: string; rows: InfoboxRow[] }>;
 }) {
   return <div className={styles.infobox}>
     <h2>{title}</h2>
-    <div className={styles.monogram} aria-label="No approved image available"><span>{monogram}</span></div>
+    {image ? <div className={styles.monogram}>{image}</div> : <div className={styles.monogram} aria-label="No approved image available"><span>{monogram}</span></div>}
     {groups.map((group) => <div key={group.title}>
       <h3>{group.title}</h3>
       <dl>{group.rows.map((row) => <div key={row.label}><dt>{row.label}</dt><dd>{row.value ?? "TBD"}</dd></div>)}</dl>

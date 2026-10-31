@@ -1,0 +1,24 @@
+{
+  "id": "cameron-mold-ruiz-kairos-cs-main",
+  "slug": "cameron-mold-ruiz-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "playerId": "cameron-mold-ruiz",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-main",
+  "gameId": "game-counter-strike",
+  "roleId": "role-entry",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "2026-11-16",
+  "leftDate": null,
+  "datePrecision": "exact",
+  "announcementDate": "TBD",
+  "effectiveDate": "2026-11-16",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-cameron-mold-ruiz",
+    "source-team-kairos-cs-main"
+  ],
+  "canonStatus": "confirmed"
+}

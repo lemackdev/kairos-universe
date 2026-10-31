@@ -1,0 +1,24 @@
+{
+  "id": "caleb-atlas-mercer-kairos-cs-main",
+  "slug": "caleb-atlas-mercer-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "playerId": "caleb-atlas-mercer",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-main",
+  "gameId": "game-counter-strike",
+  "roleId": "role-igl-rifler",
+  "rosterStatus": "active",
+  "isCaptain": true,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-caleb-atlas-mercer",
+    "source-team-kairos-cs-main"
+  ],
+  "canonStatus": "confirmed"
+}

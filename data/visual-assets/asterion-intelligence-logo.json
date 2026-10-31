@@ -1,0 +1,25 @@
+{
+  "id": "asterion-intelligence-logo",
+  "slug": "asterion-intelligence-logo",
+  "path": "assets/branding/asterion/asterion-intelligence-logo.png",
+  "mimeType": "image/png",
+  "organizationId": "asterion-intelligence",
+  "season": null,
+  "category": "logo",
+  "orientation": "logo",
+  "color": "silver",
+  "canonStatus": "confirmed",
+  "teamIds": [],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-10-30",
+  "width": 877,
+  "height": 887,
+  "sha256": "31363ed5c31d757c6cff7d6b2e828100291411fa82a0b61337c4151b6c3322c2",
+  "referencePath": "assets/branding/asterion/asterion-intelligence-logo.png",
+  "referenceSha256": "31363ed5c31d757c6cff7d6b2e828100291411fa82a0b61337c4151b6c3322c2",
+  "processing": "unchanged-original",
+  "garmentHeight": null,
+  "notes": [
+    "Original supplied logo preserved byte-for-byte."
+  ]
+}

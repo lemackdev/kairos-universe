@@ -14,7 +14,7 @@ export default function WikiHomePage() {
       <PageHeader
         eyebrow="Release 01 / Canon indexed"
         title="The people, teams, and history of a competitive world."
-        description="The esports encyclopedia of the Kairos Universe. Explore Kairos League canon and a separately sourced pre-Worlds 2026 reference scene."
+        description="The esports encyclopedia of the Kairos Universe. Explore Kairos League and Counter-Strike canon alongside a separately sourced pre-Worlds 2026 reference scene."
         badges={
           <>
             <CanonBadge />

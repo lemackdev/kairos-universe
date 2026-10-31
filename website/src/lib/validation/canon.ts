@@ -25,6 +25,8 @@ import { repositoryRoot } from "@/lib/canon/paths";
 import type { CanonUniverse } from "@/types/canon";
 
 const schemaByCollection: Record<string, string> = {
+  uniforms: "uniform.schema.json",
+  "visual-assets": "visual-asset.schema.json",
   awards: "award.schema.json",
   characters: "character.schema.json",
   coaches: "coach.schema.json",
@@ -461,15 +463,11 @@ export function validatePublication(
     assert(games.has(id), `enabledGames references missing ID: ${id}`),
   );
 
-  assert(
-    manifest.enabledTeams.length === 1 &&
-      manifest.enabledTeams[0] === "kairos-lol-main",
-    "Initial publication may expose only Kairos League main.",
-  );
-  assert(
-    manifest.enabledPlayers.length === 5,
-    "Initial publication must expose exactly five players.",
-  );
+  assert(manifest.enabledTeams.length === 2 && manifest.enabledTeams.every(id =>
+    ["kairos-lol-main", "kairos-cs-main"].includes(id)), "Publication exposes the League and Counter-Strike main teams only.");
+  const publishedTeams = getCollection<RawTeam>(universe, "teams").filter(team => manifest.enabledTeams.includes(team.id));
+  const expectedPlayers = new Set(publishedTeams.flatMap(team => team.roster));
+  assert(manifest.enabledPlayers.length === 10 && manifest.enabledPlayers.every(id => expectedPlayers.has(id)), "Publication must contain the two confirmed five-player main rosters.");
   assert(
     manifest.enabledMatches.length === 0 &&
       manifest.enabledTransfers.length === 0,

@@ -1,0 +1,24 @@
+{
+  "id": "owen-glacier-fletcher-kairos-cs-main",
+  "slug": "owen-glacier-fletcher-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "playerId": "owen-glacier-fletcher",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-main",
+  "gameId": "game-counter-strike",
+  "roleId": "role-primary-awper",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-owen-glacier-fletcher",
+    "source-team-kairos-cs-main"
+  ],
+  "canonStatus": "confirmed"
+}

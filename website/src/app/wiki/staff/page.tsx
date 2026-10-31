@@ -19,7 +19,7 @@ export default function StaffPage() {
       <PageHeader
         eyebrow="Global catalog"
         title="Staff"
-        description="This release publishes only staff directly associated with the Kairos League competitive project. Mentorship alone does not imply full-time staff status."
+        description="Published staff from the Kairos League and Counter-Strike projects. Mentorship alone does not imply full-time staff status."
         compact
       />
       <section className="contentSection">

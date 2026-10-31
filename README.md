@@ -10,9 +10,10 @@ first-person narrator. He is the founder and CEO of Asterion Intelligence and
 the founder and owner of Kairos Esports.
 
 Kairospedia is a presentation and indexing layer over repository canon. Its
-first publication exposes only Kairos Esports, the League of Legends main
-team, its five active players, directly associated League staff, and confirmed
-mentorship relationships.
+current publication exposes Kairos Esports, the League of Legends and
+Counter-Strike main teams, their ten players, associated published staff and
+confirmed mentorship relationships. Academy pages remain hidden. The player
+portraits are explicitly labeled AI-generated illustrations, not biography.
 
 Kairospedia additionally exposes a separate, source-linked **pre-Worlds 2026
 reference collection** at `/wiki/world`: 68 teams in LCK, LPL, LEC, CBLOL, LCS,
@@ -30,7 +31,21 @@ KairosDB never replaces it. See
 [KairosDB overview](docs/kairosdb/KAIROSDB_OVERVIEW.md) and
 [product separation](docs/kairosdb/PRODUCT_SEPARATION.md).
 
-## Repository architecture
+## Approved Visual Identity
+
+The [2027 uniform system](docs/branding/2027_UNIFORM_SYSTEM.md) stores four
+uniform records and ten reusable visual assets in canonical data. Both apps
+derive their published branding from those records. The main-team black kit
+is visible on published main-team pages; academy divisions remain hidden.
+New Balance is approved future branding, pending formal narrative canonization,
+not an announced contract. Asterion remains the parent company and Principal
+Institutional Partner. See [cleanup provenance](docs/branding/ASSET_CLEANUP_NOTES.md).
+
+Each app runs `npm run branding:build` during development and production
+preparation. `npm run validate` includes these checks. Generated public image
+copies are ignored; canonical binaries remain under `assets/`.
+
+## Repository Paths
 
 | Path | Purpose |
 | --- | --- |

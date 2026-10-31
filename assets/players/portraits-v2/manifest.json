@@ -1,0 +1,138 @@
+{
+  "collection": "kairos-main-roster-portraits-v2",
+  "status": "illustrative-generated-artwork",
+  "narrativeDate": "2026-11-24",
+  "uniformId": "kairos-black-2027",
+  "uniformReference": "assets/uniforms/2027/kairos/black/front.png",
+  "source": "image_gen.imagegen",
+  "canonNotes": [
+    "User requested realistic age-appropriate portraits and publication of CS main-player pages.",
+    "Physical traits, acne, braces and facial hair are visual proposals, not new biographical canon or medical facts.",
+    "These are AI-generated fictional people, not photographs of real athletes.",
+    "Hometown-inspired backdrops are illustrative, not proof of a canonical visit.",
+    "The 2027 kit is approved future branding; its appearance does not confirm a current sponsorship contract.",
+    "Original League v1 portraits remain unchanged."
+  ],
+  "portraits": [
+    {
+      "playerId": "caleb-atlas-mercer",
+      "file": "assets/players/portraits-v2/caleb-atlas-mercer-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4ac924db8be90183bd9735db9c673f0a971b659933ab466e52d0debbb2ce686f",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Caleb Mercer (Atlas) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/caleb-atlas-mercer.json",
+      "artDirection": "Uneven chin stubble and faint moustache; mild acne and relaxed smile.",
+      "previousReference": null
+    },
+    {
+      "playerId": "cameron-mold-ruiz",
+      "file": "assets/players/portraits-v2/cameron-mold-ruiz-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "8bb023ccb5d67689e90cf0e8bdf212ffbeb3e58e97710f5e956fcb0dd0c9dcac",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Cameron Ruiz (Mold) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/cameron-mold-ruiz.json",
+      "artDirection": "Glasses, silver braces, open smile and visible acne texture.",
+      "previousReference": null
+    },
+    {
+      "playerId": "daniel-moss-reyes",
+      "file": "assets/players/portraits-v2/daniel-moss-reyes-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e3b3eb8c426e75842f1e29393f3c4cc6aa0624778f47badcc22d68a565be4923",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Daniel Reyes (Moss) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/daniel-moss-reyes.json",
+      "artDirection": "Soft smile, natural skin and relaxed posture.",
+      "previousReference": "assets/players/portraits-v1/daniel-moss-reyes-portrait-v1.png"
+    },
+    {
+      "playerId": "emiliano-moteconhuesillo-navarro",
+      "file": "assets/players/portraits-v2/emiliano-moteconhuesillo-navarro-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "59ee26b057b7cf5a4b9a74d4010ffdd3d51c6a9a99acd2b60c99d9e899c154c9",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Emiliano Navarro (MoteConHuesillo) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/emiliano-moteconhuesillo-navarro.json",
+      "artDirection": "Thin moustache and small chin patch; open smile and blemishes.",
+      "previousReference": null
+    },
+    {
+      "playerId": "ethan-vanta-walker",
+      "file": "assets/players/portraits-v2/ethan-vanta-walker-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "595ff8f053e0639e15d03b06a6b6ce272a881cd6aae1708549f8cf74d4457240",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Ethan Walker (Vanta) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/ethan-vanta-walker.json",
+      "artDirection": "Reserved smile, freckles, mild blemishes and natural skin texture.",
+      "previousReference": "assets/players/portraits-v1/ethan-vanta-walker-portrait-v1.png"
+    },
+    {
+      "playerId": "liam-aster-oconnor",
+      "file": "assets/players/portraits-v2/liam-aster-oconnor-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "872679f0e72cea6edb9c7d9d3906f1e8928e04ab227fba84b97a0044621da905",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Liam O'Connor (Aster) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/liam-aster-oconnor.json",
+      "artDirection": "Freckles, curls, relaxed smile and mild blemishes.",
+      "previousReference": "assets/players/portraits-v1/liam-aster-oconnor-portrait-v1.png"
+    },
+    {
+      "playerId": "mason-404-brooks",
+      "file": "assets/players/portraits-v2/mason-404-brooks-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "2c30b3b999cdc7811fe7ec0d14c5b93f386962d8eac67593a4b17ec00c474f55",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Mason Brooks (404) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/mason-404-brooks.json",
+      "artDirection": "Glasses, modest open smile, natural teeth and skin texture.",
+      "previousReference": "assets/players/portraits-v1/mason-404-brooks-portrait-v1.png"
+    },
+    {
+      "playerId": "noah-rkn-bennett",
+      "file": "assets/players/portraits-v2/noah-rkn-bennett-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "54c03b2c7019d7c974d06c1a5a94d0d73de91311f11f96a7dda69c9d38b5371a",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Noah Bennett (rkN) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/noah-rkn-bennett.json",
+      "artDirection": "Shy smile with silver braces; mild acne and untidy fringe.",
+      "previousReference": "assets/players/portraits-v1/noah-rkn-bennett-portrait-v1.png"
+    },
+    {
+      "playerId": "owen-glacier-fletcher",
+      "file": "assets/players/portraits-v2/owen-glacier-fletcher-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "dc71805dd0dc651418af1d15af054d4910e099ed351e06599f229f61a33210b1",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Owen Fletcher (Glacier) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/owen-glacier-fletcher.json",
+      "artDirection": "Shy smile, mild acne and sparse chin hair.",
+      "previousReference": null
+    },
+    {
+      "playerId": "vincente-flacogomez-galan",
+      "file": "assets/players/portraits-v2/vincente-flacogomez-galan-portrait-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1af244c4a52108b2ba60375bdb280eefb43537b633a5cd3c7b8e674ec6e46396",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Vincente Galán (FLACOGOMEZ) in the approved 2027 Kairos black jersey",
+      "sourceRecord": "data/players/vincente-flacogomez-galan.json",
+      "artDirection": "Youthful soft cheeks, curls, mild acne, smile and only faint upper-lip fuzz.",
+      "previousReference": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kairos-black-2027-back",
+  "slug": "kairos-black-2027-back",
+  "path": "assets/uniforms/2027/kairos/black/back.png",
+  "mimeType": "image/png",
+  "organizationId": "kairos-esports",
+  "season": 2027,
+  "category": "uniform",
+  "orientation": "back",
+  "color": "black",
+  "canonStatus": "approved-future-canon",
+  "teamIds": [
+    "kairos-lol-main",
+    "kairos-cs-main"
+  ],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-10-30",
+  "width": 1400,
+  "height": 1400,
+  "sha256": "9d31dc508cd6abf64bbe3ec8a247e963955820c187fa9796538922791656cbb2",
+  "referencePath": "assets/uniforms/2027/references/black-back.png",
+  "referenceSha256": "8e049cdde358f1053894d946c8ee33b8ef8a4acb8c38f37bbe232a9f7075da38",
+  "processing": "image-generator-reference-reconstruction-and-transparent-padding",
+  "garmentHeight": 1156,
+  "notes": [
+    "Reconstructed from the approved reference to remove adjacent garments and restore clipped edges.",
+    "Transparent margins normalized to a 1400px square without enlarging the generated artwork.",
+    "Generated reconstruction, not a pixel-identical original or a new uniform design."
+  ]
+}

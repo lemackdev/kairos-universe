@@ -99,7 +99,11 @@ nicknames together.
 
 ## Unconfirmed details
 
-For every main-roster player, nationality, exact Kairos join date, contract
+Confirmed nationalities (author clarification, 2026-10-30): rkN, Vanta and Moss
+are American; 404 and Aster are Canadian. These follow their established
+home-country backgrounds, not their shared Los Angeles training location.
+
+For every main-roster player, exact Kairos join date, contract
 details, salary, and statistics are **TBD**. Except for 404 being disciplined,
 personalities are **TBD**. Playstyles, strengths, weaknesses, inspirations,
 objectives, insecurities, achievements, and trivia are **TBD** unless later

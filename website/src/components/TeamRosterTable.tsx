@@ -2,6 +2,7 @@ import type { RosterEntryView } from "@/types/catalog";
 
 import { EntityLink } from "./EntityLink";
 import { RoleBadge } from "./Badges";
+import { NationalityFlags } from "./NationalityFlags";
 
 export function TeamRosterTable({ roster }: { roster: RosterEntryView[] }) {
   return (
@@ -23,6 +24,7 @@ export function TeamRosterTable({ roster }: { roster: RosterEntryView[] }) {
                 <RoleBadge role={entry.role} />
               </td>
               <td data-label="Player">
+                <NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact />
                 <EntityLink
                   href={`/wiki/players/${entry.slug}`}
                   name={entry.nickname}

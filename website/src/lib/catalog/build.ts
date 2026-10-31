@@ -110,6 +110,8 @@ export function buildCatalog(
     slug: player.slug,
     realName: player.realName,
     nickname: player.nickname,
+    nationality: unknownToNull(player.nationality),
+    nationalities: player.nationalities,
     role: String((universe.shared.roles ?? []).find((role) => role.id === tenure.roleId)?.name ?? "Unknown"),
     rosterStatus: tenure.rosterStatus,
     isCaptain: tenure.isCaptain,
@@ -270,6 +272,7 @@ export function buildCatalog(
       nickname: player.nickname,
       displayName: `${player.realName} “${player.nickname}”`,
       nationality: unknownToNull(player.nationality),
+      nationalities: player.nationalities,
       city: unknownToNull(player.city),
       dateOfBirth: exactOrNull(player.dateOfBirth),
       age: calculateAge(player.dateOfBirth, narrativeDate),
@@ -338,7 +341,7 @@ export function buildCatalog(
       realWorldFigure: person.realWorldFigure,
       responsibilities: person.responsibilities.filter(
         (responsibility) =>
-          !/(counter-strike|academy|dust2|visa|scouting|player visits)/i.test(
+          !/academy/i.test(
             responsibility,
           ),
       ),

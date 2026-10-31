@@ -1,0 +1,2043 @@
+{
+  "status": "incomplete-not-published",
+  "retrievedDate": "2026-10-30",
+  "notes": [
+    "Research interrupted by the branding task. These are evidence observations, not canonical player updates.",
+    "Roster country flags are not proof of citizenship. Explicit nationality observations take precedence. Remaining players still require research."
+  ],
+  "rosterObservations": [
+    {
+      "nickname": "Clear",
+      "profilePage": "Clear_(Song_Hyeon-min)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Raptor",
+      "profilePage": "Raptor_(Jeon_Eo-jin)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "VicLa",
+      "profilePage": "VicLa",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Taeyoon",
+      "profilePage": "Taeyoon_(Kim_Tae-yoon)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Kellin",
+      "profilePage": "Kellin",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "DuDu",
+      "profilePage": "DuDu_(Lee_Dong-ju)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Sharvel",
+      "profilePage": "Sharvel",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Clozer",
+      "profilePage": "Clozer",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "deokdam",
+      "profilePage": "Deokdam",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Peter",
+      "profilePage": "Peter_(Jeong_Yoon-su)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Siwoo",
+      "profilePage": "Siwoo",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Lucid",
+      "profilePage": "Lucid_(Choi_Yong-hyeok)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "ShowMaker",
+      "profilePage": "ShowMaker",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Smash",
+      "profilePage": "Smash_(Shin_Geum-jae)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Career",
+      "profilePage": "Career",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Kiin",
+      "profilePage": "Kiin",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Canyon",
+      "profilePage": "Canyon",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Chovy",
+      "profilePage": "Chovy",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Ruler",
+      "profilePage": "Ruler",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Duro",
+      "profilePage": "Duro",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Casting",
+      "profilePage": "Casting",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "GIDEON",
+      "profilePage": "GIDEON",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Roamer",
+      "profilePage": "Roamer",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Teddy",
+      "profilePage": "Teddy",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Namgung",
+      "profilePage": "Namgung",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Zeus",
+      "profilePage": "Zeus",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Kanavi",
+      "profilePage": "Kanavi",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Zeka",
+      "profilePage": "Zeka_(Kim_Geon-woo)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Gumayusi",
+      "profilePage": "Gumayusi",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Delight",
+      "profilePage": "Delight",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Frog",
+      "profilePage": "Frog_(Lee_Min-hoi)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Willer",
+      "profilePage": "Willer",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Ucal",
+      "profilePage": "Ucal",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "LazyFeel",
+      "profilePage": "LazyFeel",
+      "countries": [
+        "Vietnam"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Aiming",
+      "profilePage": "Aiming",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Andil",
+      "profilePage": "Andil",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "PerfecT",
+      "profilePage": "PerfecT_(Lee_Seung-min)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Cuzz",
+      "profilePage": "Cuzz",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Bdd",
+      "profilePage": "Bdd",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "FenRir",
+      "profilePage": "FenRir_(Park_Kang-jun)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Jiwoo",
+      "profilePage": "Jiwoo",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Effort",
+      "profilePage": "Effort",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Kingen",
+      "profilePage": "Kingen",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Sponge",
+      "profilePage": "Sponge",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Scout",
+      "profilePage": "Scout",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Diable",
+      "profilePage": "Diable",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Lehends",
+      "profilePage": "Lehends",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Doran",
+      "profilePage": "Doran_(Choi_Hyeon-jun)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Oner",
+      "profilePage": "Oner",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Faker",
+      "profilePage": "Faker",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Peyz",
+      "profilePage": "Peyz",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Keria",
+      "profilePage": "Keria",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LCK/2026_Season/Rounds_3-4/Team_Rosters"
+    },
+    {
+      "nickname": "Breathe",
+      "profilePage": "Breathe",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Tarzan",
+      "profilePage": "Tarzan_(Lee_Seung-yong)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Shanks",
+      "profilePage": "Shanks",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Hope",
+      "profilePage": "Hope_(Wang_Jie)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Kael",
+      "profilePage": "Kael_(Kim_Jin-hong)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Wenbo",
+      "profilePage": "Wenbo_(Yang_Wen-Bo)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Flandre",
+      "profilePage": "Flandre",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Bin",
+      "profilePage": "Bin_(Chen_Ze-Bin)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Xun",
+      "profilePage": "Xun",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Knight",
+      "profilePage": "Knight_(Zhuo_Ding)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Viper",
+      "profilePage": "Viper_(Park_Do-hyeon)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "ON",
+      "profilePage": "ON",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Zdz",
+      "profilePage": "Zdz",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Xiaohao",
+      "profilePage": "Xiaohao",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Jiejie",
+      "profilePage": "Jiejie",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "BuLLDoG",
+      "profilePage": "BuLLDoG_(Lee_Tae-young)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "sinian",
+      "profilePage": "Sinian",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Leave",
+      "profilePage": "Leave",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Parukia",
+      "profilePage": "Parukia",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "TheShy",
+      "profilePage": "TheShy",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Wei",
+      "profilePage": "Wei_(Yan_Yang-Wei)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Rookie",
+      "profilePage": "Rookie",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Assum",
+      "profilePage": "Assum",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "JiaQi",
+      "profilePage": "JiaQi",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Meiko",
+      "profilePage": "Meiko",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Xiaoxu",
+      "profilePage": "Xiaoxu",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "JunJia",
+      "profilePage": "JunJia",
+      "countries": [
+        "Taiwan"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "xiaofang",
+      "profilePage": "Xiaofang",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "HongQ",
+      "profilePage": "HongQ",
+      "countries": [
+        "Taiwan"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "GALA",
+      "profilePage": "GALA",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Vampire",
+      "profilePage": "Vampire",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Burdol",
+      "profilePage": "Burdol",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Heng",
+      "profilePage": "Heng",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Tangyuan",
+      "profilePage": "Tangyuan",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Shaoye",
+      "profilePage": "Shaoye",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Crisp",
+      "profilePage": "Crisp",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "sheer",
+      "profilePage": "Sheer",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Weiwei",
+      "profilePage": "Weiwei",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Nia",
+      "profilePage": "Nia_(Zou_Guang-Lu)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "1xn",
+      "profilePage": "1xn",
+      "countries": [
+        "Hong Kong"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Ycx",
+      "profilePage": "Ycx",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "MISSING",
+      "profilePage": "MISSING",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "HOYA",
+      "profilePage": "HOYA",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Guwon",
+      "profilePage": "Guwon",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Care",
+      "profilePage": "Care",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Photic",
+      "profilePage": "Photic",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "fengyue",
+      "profilePage": "Fengyue",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Cube",
+      "profilePage": "Cube_(Dai_Yi)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Monki",
+      "profilePage": "Monki",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Karis",
+      "profilePage": "Karis",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "About",
+      "profilePage": "About",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Erha",
+      "profilePage": "Erha",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Keshi",
+      "profilePage": "Keshi_(Li_Qing-Hua)",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Junhao",
+      "profilePage": "Junhao",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Heru",
+      "profilePage": "Heru",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Ahn",
+      "profilePage": "Ahn",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Feather",
+      "profilePage": "Feather",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "ZUIAN",
+      "profilePage": "ZUIAN",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Tian",
+      "profilePage": "Tian",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Creme",
+      "profilePage": "Creme",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "JackeyLove",
+      "profilePage": "JackeyLove",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Zhuo",
+      "profilePage": "Zhuo",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Zika",
+      "profilePage": "Zika",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Xiaohu",
+      "profilePage": "Xiaohu",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Elk",
+      "profilePage": "Elk",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Jwei",
+      "profilePage": "Jwei",
+      "countries": [
+        "China"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Moham",
+      "profilePage": "Moham",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LPL/2026_Season/Split_3/Team_Rosters"
+    },
+    {
+      "nickname": "Soboro",
+      "profilePage": "Soboro",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Razork",
+      "profilePage": "Razork",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Vladi",
+      "profilePage": "Vladi",
+      "countries": [
+        "Greece"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Upset",
+      "profilePage": "Upset",
+      "countries": [
+        "Germany"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Lospa",
+      "profilePage": "Lospa",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "BrokenBlade",
+      "profilePage": "BrokenBlade",
+      "countries": [
+        "Germany"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "SkewMond",
+      "profilePage": "SkewMond",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Caps",
+      "profilePage": "Caps",
+      "countries": [
+        "Denmark"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Hans Sama",
+      "profilePage": "Hans_Sama",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Labrov",
+      "profilePage": "Labrov",
+      "countries": [
+        "Greece"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Oscarinin",
+      "profilePage": "Oscarinin",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "ISMA",
+      "profilePage": "ISMA",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Jackies",
+      "profilePage": "Jackies",
+      "countries": [
+        "Czech Republic"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Flakked",
+      "profilePage": "Flakked",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Jun",
+      "profilePage": "Jun_(Yoon_Se-jun)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Canna",
+      "profilePage": "Canna",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Yike",
+      "profilePage": "Yike",
+      "countries": [
+        "Sweden"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "kyeahoo",
+      "profilePage": "Kyeahoo",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Caliste",
+      "profilePage": "Caliste",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Busio",
+      "profilePage": "Busio",
+      "countries": [
+        "United States"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Myrwn",
+      "profilePage": "Myrwn",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Elyoya",
+      "profilePage": "Elyoya",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Jojopyun",
+      "profilePage": "Jojopyun",
+      "countries": [
+        "Canada"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Supa",
+      "profilePage": "Supa",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Alvaro",
+      "profilePage": "Alvaro_(Álvaro_Fernández)",
+      "countries": [
+        "Spain"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Maynter",
+      "profilePage": "Maynter",
+      "countries": [
+        "Ukraine"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Rhilech",
+      "profilePage": "Rhilech",
+      "countries": [
+        "Turkey"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Poby",
+      "profilePage": "Poby",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "SamD",
+      "profilePage": "SamD",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Parus",
+      "profilePage": "Parus",
+      "countries": [
+        "Turkey"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Rooster",
+      "profilePage": "Rooster",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Sheo",
+      "profilePage": "Sheo",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "nuc",
+      "profilePage": "Nuc",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Paduck",
+      "profilePage": "Paduck",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Stend",
+      "profilePage": "Stend",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Wunder",
+      "profilePage": "Wunder",
+      "countries": [
+        "Denmark"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Skeanz",
+      "profilePage": "Skeanz",
+      "countries": [
+        "France"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "SlowQ",
+      "profilePage": "SlowQ",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Jopa",
+      "profilePage": "Jopa",
+      "countries": [
+        "Croatia"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Mikyx",
+      "profilePage": "Mikyx",
+      "countries": [
+        "Slovenia"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Tracyn",
+      "profilePage": "Tracyn",
+      "countries": [
+        "Poland"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Daglas",
+      "profilePage": "Daglas",
+      "countries": [
+        "Poland"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Serin",
+      "profilePage": "Serin",
+      "countries": [
+        "Turkey"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Hype",
+      "profilePage": "Hype_(Byeon_Jeong-hyeon)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Way",
+      "profilePage": "Way_(Han_Gil)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Naak Nako",
+      "profilePage": "Naak_Nako",
+      "countries": [
+        "Turkey"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Lyncas",
+      "profilePage": "Lyncas",
+      "countries": [
+        "Lithuania"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "FIESTA",
+      "profilePage": "FIESTA_(An_Hyeon-seo)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Carzzy",
+      "profilePage": "Carzzy",
+      "countries": [
+        "Czech Republic"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Fleshy",
+      "profilePage": "Fleshy",
+      "countries": [
+        "Turkey"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "LEC/2026_Season/Summer_Season/Team_Rosters"
+    },
+    {
+      "nickname": "Zothve",
+      "profilePage": "Zothve",
+      "countries": [
+        "Chile"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Peach",
+      "profilePage": "Peach",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "cody",
+      "profilePage": "Cody",
+      "countries": [
+        "Chile"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "BAO",
+      "profilePage": "BAO_(Jeong_Hyeon-woo)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Momochi",
+      "profilePage": "Momochi",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Guigo",
+      "profilePage": "Guigo",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Tatu",
+      "profilePage": "Tatu_(Pedro_Seixas)",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Tutsz",
+      "profilePage": "Tutsz",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Ayu",
+      "profilePage": "Ayu_(Andrey_Saraiva)",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "JoJo",
+      "profilePage": "JoJo_(Gabriel_Dzelme)",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Devost",
+      "profilePage": "Devost",
+      "countries": [
+        "Colombia"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Booki",
+      "profilePage": "Booki",
+      "countries": [
+        "Peru"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Enga",
+      "profilePage": "Enga",
+      "countries": [
+        "Argentina"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Strensh",
+      "profilePage": "Strensh",
+      "countries": [
+        "Chile"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Shiku",
+      "profilePage": "Shiku",
+      "countries": [
+        "Peru"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "xyno",
+      "profilePage": "Xyno",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Sinatra",
+      "profilePage": "Sinatra",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Kaze",
+      "profilePage": "Kaze_(Lucas_Fe)",
+      "countries": [
+        "Argentina"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Rabelo",
+      "profilePage": "Rabelo",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "uZent",
+      "profilePage": "UZent",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Zest",
+      "profilePage": "Zest_(Kim_Dong-min)",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Curse",
+      "profilePage": "Curse_(Raí_Yamada)",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Feisty",
+      "profilePage": "Feisty",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Duduhh",
+      "profilePage": "Duduhh",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Ackerman",
+      "profilePage": "Ackerman_(Gabriel_Aparicio)",
+      "countries": [
+        "Argentina"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Boal",
+      "profilePage": "Boal",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "CarioK",
+      "profilePage": "CarioK",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Keine",
+      "profilePage": "Keine",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Namiru",
+      "profilePage": "Namiru",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Hena",
+      "profilePage": "Hena",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Ceos",
+      "profilePage": "Ceos",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "zynts",
+      "profilePage": "Zynts",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "STEPZ",
+      "profilePage": "STEPZ_(Eloy_Rodríguez)",
+      "countries": [
+        "Venezuela"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Fuuu",
+      "profilePage": "Fuuu",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Morttheus",
+      "profilePage": "Morttheus",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Manel",
+      "profilePage": "Manel",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "zekas",
+      "profilePage": "Zekas",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Disamis",
+      "profilePage": "Disamis",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Mireu",
+      "profilePage": "Mireu",
+      "countries": [
+        "South Korea"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "Jeskla",
+      "profilePage": "Jeskla",
+      "countries": [
+        "Sweden"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    },
+    {
+      "nickname": "scamber",
+      "profilePage": "Scamber",
+      "countries": [
+        "Brazil"
+      ],
+      "basis": "roster-country-flag",
+      "sourcePage": "CBLOL/2026_Season/Split_2/Team_Rosters"
+    }
+  ],
+  "explicitNationalityObservations": [
+    {
+      "nickname": "BrokenBlade",
+      "countries": [
+        "Germany",
+        "Turkey"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "VicLa",
+      "countries": [
+        "South Korea",
+        "Japan"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "DARKWINGS",
+      "countries": [
+        "United States"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Dhokla",
+      "countries": [
+        "United States"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "FBI",
+      "countries": [
+        "Australia",
+        "China"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Gryffinn",
+      "countries": [
+        "United States",
+        "Vietnam"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "huhi",
+      "countries": [
+        "United States",
+        "South Korea"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "KryRa",
+      "countries": [
+        "Canada",
+        "Romania"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Massu",
+      "countries": [
+        "Canada"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Sajed",
+      "countries": [
+        "United States",
+        "Lebanon"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Srtty",
+      "countries": [
+        "Australia",
+        "United States"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Busio",
+      "countries": [
+        "United States",
+        "Poland"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Isma",
+      "countries": [
+        "France",
+        "Belgium"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Jojopyun",
+      "countries": [
+        "Canada",
+        "South Korea"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "nuc",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "SkewMond",
+      "countries": [
+        "France",
+        "Lebanon"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "SlowQ",
+      "countries": [
+        "South Korea",
+        "Sweden"
+      ],
+      "basis": "profile-nationality-field"
+    },
+    {
+      "nickname": "Yike",
+      "countries": [
+        "Sweden",
+        "Peru"
+      ],
+      "basis": "profile-nationality-field"
+    }
+  ]
+}

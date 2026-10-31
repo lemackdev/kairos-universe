@@ -1,0 +1,24 @@
+{
+  "id": "emiliano-moteconhuesillo-navarro-kairos-cs-main",
+  "slug": "emiliano-moteconhuesillo-navarro-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "playerId": "emiliano-moteconhuesillo-navarro",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-main",
+  "gameId": "game-counter-strike",
+  "roleId": "role-rifler",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-emiliano-moteconhuesillo-navarro",
+    "source-team-kairos-cs-main"
+  ],
+  "canonStatus": "confirmed"
+}

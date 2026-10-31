@@ -59,10 +59,10 @@ export default function AboutPage() {
       <section className="contentSection">
         <h2>Current boundary</h2>
         <p>
-          The canonical collection publishes only Kairos Esports, its League of Legends
-          main team, five active players, directly associated League staff, and
-          confirmed mentorship relationships. Other canonical divisions remain
-          hidden until a controlled publication update.
+          The canonical collection publishes Kairos Esports, its League of Legends
+          and Counter-Strike main teams, their ten players, associated published staff,
+          and confirmed mentorship relationships. Academy teams remain hidden.
+          Player portraits are AI-generated visualizations, not documentary photographs.
         </p>
         <p>A separate <Link href="/wiki/world">pre-Worlds 2026 reference collection</Link> covers LCK, LPL, LEC, CBLOL, LCS, LCP and NACL. These event-roster observations are researched but still need final source review. They do not establish fictional appearances, current contracts or match results.</p>
       </section>

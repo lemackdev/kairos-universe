@@ -1,0 +1,22 @@
+{
+  "id": "lukas-luk-novak-kairos-cs-main",
+  "slug": "lukas-luk-novak-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "personId": "lukas-luk-novak",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-main",
+  "divisionId": "division-counter-strike",
+  "title": "Head Coach",
+  "responsibilityIds": [
+    "role-head-coach"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-lukas-luk-novak",
+    "source-team-kairos-cs-main"
+  ],
+  "canonStatus": "confirmed"
+}

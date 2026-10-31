@@ -4,7 +4,7 @@
   "realName": "Cameron Ruiz",
   "nickname": "Mold",
   "historicalAliases": [],
-  "nationality": "TBD",
+  "nationality": "American",
   "city": "Truth or Consequences",
   "homeTown": {
     "city": "Truth or Consequences",
@@ -111,7 +111,6 @@
   ],
   "nicknameFirstAppearance": "episode-038",
   "confirmedFacts": [
-    "His nationality is TBD; it must not be inferred from his home town.",
     "He is from Truth or Consequences, New Mexico.",
     "He is the signed Entry and works as a part-time mechanic.",
     "He is extremely aggressive, team-first, accepts sacrificial roles, and is honest and straightforward.",
@@ -123,16 +122,20 @@
     "He is 18 years old on 2026-11-24.",
     "His date of birth is 2008-01-11.",
     "Cameron accepts the Kairos offer and signs on 2026-11-16.",
-    "He is the signed Entry of the complete Kairos Counter-Strike main roster."
+    "He is the signed Entry of the complete Kairos Counter-Strike main roster.",
+    "Confirmed nationalities: American."
   ],
   "unconfirmedDetails": [
-    "Nationality is TBD.",
     "Previous teams and tournament history are TBD.",
     "Contract duration, salary, buyout, bonuses, agent, and other financial terms are TBD."
   ],
   "canonNotes": [
     "Do not expand Cameron's biography beyond approved facts.",
     "The previous age-19 claim is retconned; current canon uses the confirmed birth date and age in this record.",
-    "The Episode 68 signing replaces his earlier unsigned-prospect state without changing his identity, role, birth date, or prior chronology."
+    "The Episode 68 signing replaces his earlier unsigned-prospect state without changing his identity, role, birth date, or prior chronology.",
+    "Author confirmation, 2026-10-30: nationality follows the established home-country background, retaining explicitly confirmed dual nationality. Training in Los Angeles does not overwrite nationality."
+  ],
+  "nationalities": [
+    "American"
   ]
 }

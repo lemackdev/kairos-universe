@@ -4,3 +4,5 @@ coverage/
 *.tsbuildinfo
 .generated/*
 !.generated/.gitkeep
+public/branding/
+public/portraits/

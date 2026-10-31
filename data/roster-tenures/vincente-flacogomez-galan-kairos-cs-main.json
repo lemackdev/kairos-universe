@@ -1,0 +1,24 @@
+{
+  "id": "vincente-flacogomez-galan-kairos-cs-main",
+  "slug": "vincente-flacogomez-galan-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "playerId": "vincente-flacogomez-galan",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-main",
+  "gameId": "game-counter-strike",
+  "roleId": "role-support-anchor",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "2026-11-16",
+  "leftDate": null,
+  "datePrecision": "exact",
+  "announcementDate": "TBD",
+  "effectiveDate": "2026-11-16",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-vincente-flacogomez-galan",
+    "source-team-kairos-cs-main"
+  ],
+  "canonStatus": "confirmed"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kairos-black-2027",
+  "slug": "kairos-black-2027",
+  "season": 2027,
+  "organizationId": "kairos-esports",
+  "name": "Kairos Black",
+  "type": "main",
+  "primaryColor": "black",
+  "accentColor": "gold",
+  "teamIds": [
+    "kairos-lol-main",
+    "kairos-cs-main"
+  ],
+  "frontAsset": "kairos-black-2027-front",
+  "backAsset": "kairos-black-2027-back",
+  "canonStatus": "approved-future-canon",
+  "meaning": "Primary competitive identity: discipline, control, seriousness and professionalism; gold represents prestige, ambition, excellence and the Kairos standard.",
+  "technicalSupplier": {
+    "name": "New Balance",
+    "status": "pending-formal-narrative-canonization",
+    "roles": [
+      "Official Technical Apparel Partner",
+      "Official Performance Apparel Supplier"
+    ],
+    "expectedScope": [
+      "match jerseys",
+      "training apparel",
+      "staff apparel",
+      "travel apparel",
+      "footwear",
+      "merchandise production"
+    ],
+    "contractValue": null,
+    "contractDuration": null,
+    "announcementDate": null,
+    "legalTerms": null,
+    "exclusivity": null
+  },
+  "institutionalPartner": {
+    "organizationId": "asterion-intelligence",
+    "name": "Asterion Intelligence",
+    "relationship": "parent-company",
+    "role": "Principal Institutional Partner"
+  },
+  "canonNotes": [
+    "Approved 2027 design, not proof of an announced or signed apparel agreement.",
+    "Fictional Kairos Universe branding; no real-world partnership is asserted.",
+    "Same professional equipment standard across main and Academy teams; promotion is not automatic.",
+    "Player nickname and number systems remain unspecified."
+  ]
+}

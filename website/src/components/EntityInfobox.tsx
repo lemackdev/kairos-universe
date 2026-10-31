@@ -9,15 +9,17 @@ export function EntityInfobox({
   title,
   monogram,
   rows,
+  image,
 }: {
   title: string;
   monogram: string;
   rows: InfoboxRow[];
+  image?: ReactNode;
 }) {
   return (
     <aside className="infobox" aria-label={`${title} facts`}>
-      <div className="infoboxMark" aria-hidden="true">
-        {monogram}
+      <div className="infoboxMark">
+        {image ?? <span aria-hidden="true">{monogram}</span>}
       </div>
       <div className="infoboxTitle">{title}</div>
       <dl>

@@ -1,0 +1,14 @@
+.panel { margin-block: 1rem; max-width: 760px; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-block: 1rem; }
+.pair figure { margin: 0; min-width: 0; background: #171a1d; border: 1px solid #42484d; color: #e5e9ec; }
+.pair img { display: block; width: 100%; height: auto; }
+.pair a { display: block; }
+.pair a:focus-visible { outline: 3px solid #dcb972; outline-offset: 3px; }
+.pair figcaption { padding: .6rem 1rem; border-top: 1px solid #42484d; font-size: .8rem; }
+.partners { font-size: .9rem; }
+.partners div { display: grid; grid-template-columns: 10rem 1fr; gap: .6rem; padding-block: .4rem; }
+.partners dt { font-weight: 600; }
+.partners dd { margin: 0; }
+.note { font-size: .8rem; line-height: 1.6; }
+@media (max-width: 540px) { .pair { grid-template-columns: 1fr; } .partners div { grid-template-columns: 1fr; gap: .2rem; } }
+

@@ -35,7 +35,7 @@ export default async function StaffProfilePage({
       <PageHeader
         eyebrow="Staff record"
         title={person.nickname ?? person.realName}
-        description={`${person.realName} is published in the role of ${person.role} for the Kairos League project.`}
+        description={`${person.realName} is published in the role of ${person.role} for the Kairos ${person.division} project.`}
         badges={
           <>
             <CanonBadge />

@@ -1,0 +1,25 @@
+{
+  "id": "kairos-esports-logo",
+  "slug": "kairos-esports-logo",
+  "path": "assets/branding/kairos/kairos-esports-logo.png",
+  "mimeType": "image/png",
+  "organizationId": "kairos-esports",
+  "season": null,
+  "category": "logo",
+  "orientation": "logo",
+  "color": "gold",
+  "canonStatus": "confirmed",
+  "teamIds": [],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-10-30",
+  "width": 877,
+  "height": 887,
+  "sha256": "2d2a3af213c5ded199b16d3710c0658e2ec22c4aa806e8c900685a9eb7733ca3",
+  "referencePath": "assets/branding/kairos/kairos-esports-logo.png",
+  "referenceSha256": "2d2a3af213c5ded199b16d3710c0658e2ec22c4aa806e8c900685a9eb7733ca3",
+  "processing": "unchanged-original",
+  "garmentHeight": null,
+  "notes": [
+    "Original supplied logo preserved byte-for-byte."
+  ]
+}

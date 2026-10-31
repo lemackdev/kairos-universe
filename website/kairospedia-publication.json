@@ -1,24 +1,32 @@
 {
   "enabledGames": [
-    "game-league-of-legends"
+    "game-league-of-legends",
+    "game-counter-strike"
   ],
   "enabledOrganizations": [
     "kairos-esports"
   ],
   "enabledTeams": [
-    "kairos-lol-main"
+    "kairos-lol-main",
+    "kairos-cs-main"
   ],
   "enabledPlayers": [
     "noah-rkn-bennett",
     "ethan-vanta-walker",
     "mason-404-brooks",
     "liam-aster-oconnor",
-    "daniel-moss-reyes"
+    "daniel-moss-reyes",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
   ],
   "enabledStaff": [
     "zaqueri-aphromoo-black",
     "thinkcard-kairos-strategic-coach",
-    "emily-chen"
+    "emily-chen",
+    "lukas-luk-novak"
   ],
   "enabledCompetitions": [],
   "enabledMatches": [],

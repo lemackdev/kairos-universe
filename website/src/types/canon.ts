@@ -95,6 +95,7 @@ export interface RawPlayer {
   nickname: string;
   historicalAliases: HistoricalAlias[];
   nationality: string;
+  nationalities?: string[];
   city: string;
   currentResidence?: LocationRecord;
   homeTown?: LocationRecord;

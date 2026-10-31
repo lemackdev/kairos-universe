@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { BrandLogo, UniformPanel } from "@/components/UniformPanel";
+import { NationalityFlags } from "@/components/NationalityFlags";
 import type { OrganizationView, TeamView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { StaffTable } from "@/components/StaffTable";
@@ -9,7 +11,7 @@ const sections = [
   { id: "history", title: "History" }, { id: "team-information", title: "Team Information" },
   { id: "timeline", title: "Timeline" }, { id: "player-roster", title: "Player Roster" },
   { id: "former", title: "Former" }, { id: "organization", title: "Organization" },
-  { id: "sources", title: "Sources" },
+  { id: "uniform", title: "Uniform" }, { id: "sources", title: "Sources" },
 ];
 
 export function TeamArticle({ team, organization }: { team: TeamView; organization?: OrganizationView }) {
@@ -25,7 +27,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     { label: "Planned debut", value: team.officialDebutPeriod },
   ];
   return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections}
-    infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} groups={[
+    infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
       { title: "Team Information", rows: facts.slice(0, 6) },
       { title: "Competitive", rows: facts.slice(6) },
     ]} />}>
@@ -52,7 +54,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
       <h3>Active</h3>
       <WikiTable caption={`${team.shortName} active roster`} columns={["ID", "Name", "Role", "Joined", "Status"]}
         empty="No active players recorded." rows={team.roster.map((player) => ({
-          key: player.tenureId, cells: [<Link key="link" href={`/wiki/players/${player.slug}`}>{player.nickname}</Link>,
+          key: player.tenureId, cells: [<span key="link"><NationalityFlags nationality={player.nationality} nationalities={player.nationalities} compact /> <Link href={`/wiki/players/${player.slug}`}>{player.nickname}</Link></span>,
             player.realName, player.role, player.joinedDate ?? "TBD", player.isCaptain ? "Active / Captain" : player.rosterStatus],
         }))} />
     </ArticleSection>
@@ -74,6 +76,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
         ] }))} />
       <p>Mentorship is shown separately from team employment. Real-world figures appear in fictional Kairos roles.</p>
     </ArticleSection>
-    <ArticleSection {...sections[6]!}><SourceList sources={team.sources} /></ArticleSection>
+    <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>
+    <ArticleSection {...sections[7]!}><SourceList sources={team.sources} /></ArticleSection>
   </WikiArticle>;
 }

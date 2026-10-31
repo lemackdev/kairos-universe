@@ -11,7 +11,7 @@
       "notes": "Historical source nickname replaced by rkN in current canon."
     }
   ],
-  "nationality": "TBD",
+  "nationality": "American",
   "city": "Seattle",
   "dateOfBirth": "2009-02-14",
   "ageAtCurrentStoryDate": 17,
@@ -68,10 +68,10 @@
     "The player's first confirmed appearance is episode-002.",
     "The player's role is Top.",
     "The player is age 17 at the current story date of 2026-11-24.",
-    "The player's date of birth is 2009-02-14."
+    "The player's date of birth is 2009-02-14.",
+    "Confirmed nationalities: American."
   ],
   "unconfirmedDetails": [
-    "Nationality is TBD.",
     "The exact date the player joined Kairos is TBD.",
     "Contract status, dates, and salary are TBD.",
     "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
@@ -79,10 +79,13 @@
     "Personality is TBD."
   ],
   "canonNotes": [
-    "Do not infer nationality from city.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "Do not invent previous professional teams.",
     "Historical aliases are archival only; current records and wiki pages must use the current nickname.",
-    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
+    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date.",
+    "Author confirmation, 2026-10-30: nationality follows the established home-country background, retaining explicitly confirmed dual nationality. Training in Los Angeles does not overwrite nationality."
+  ],
+  "nationalities": [
+    "American"
   ]
 }

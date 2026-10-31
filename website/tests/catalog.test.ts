@@ -14,15 +14,17 @@ beforeAll(() => {
 });
 
 describe("initial Kairospedia publication", () => {
-  it("publishes only Kairos League and exactly five active players", () => {
+  it("publishes both main teams with five players each", () => {
     expect(catalog.organizations.map((record) => record.id)).toEqual([
       "kairos-esports",
     ]);
     expect(catalog.teams.map((record) => record.id)).toEqual([
       "kairos-lol-main",
+      "kairos-cs-main",
     ]);
-    expect(catalog.players).toHaveLength(5);
-    expect(catalog.players.every((player) => player.status.includes("active"))).toBe(true);
+    expect(catalog.players).toHaveLength(10);
+    expect(catalog.teams.every(team => team.roster.length === 5)).toBe(true);
+    expect(catalog.players.every(player => player.status.includes("active") || player.status === "signed")).toBe(true);
   });
 
   it("preserves role and captain invariants", () => {
@@ -44,7 +46,7 @@ describe("initial Kairospedia publication", () => {
     expect(serialized).not.toContain("kairos-lol-academy-blue");
     expect(serialized).not.toContain("kairos-lol-academy-white");
     expect(serialized).not.toContain("kairos-counter-strike-main");
-    expect(serialized).not.toContain("team-liquid");
+    expect(catalog.matches).toHaveLength(0);
   });
 
   it("generates only routes for enabled entities", () => {
@@ -52,7 +54,7 @@ describe("initial Kairospedia publication", () => {
     expect(catalog.routes).toContain("/wiki/players/mason-404-brooks");
     expect(
       catalog.routes.some((route) => route.includes("counter-strike")),
-    ).toBe(false);
+    ).toBe(true);
     expect(
       catalog.routes.some((route) => route.includes("academy")),
     ).toBe(false);

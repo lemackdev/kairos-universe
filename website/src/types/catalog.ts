@@ -42,6 +42,8 @@ export interface MentorView {
 }
 
 export interface RosterEntryView {
+  nationality?: string | null;
+  nationalities?: string[];
   tenureId: string;
   playerId: string;
   slug: string;
@@ -115,6 +117,7 @@ export interface TeamView {
 }
 
 export interface PlayerView {
+  nationalities?: string[];
   id: string;
   slug: string;
   realName: string;

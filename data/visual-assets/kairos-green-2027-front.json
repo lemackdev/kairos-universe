@@ -1,0 +1,29 @@
+{
+  "id": "kairos-green-2027-front",
+  "slug": "kairos-green-2027-front",
+  "path": "assets/uniforms/2027/kairos/green/front.png",
+  "mimeType": "image/png",
+  "organizationId": "kairos-esports",
+  "season": 2027,
+  "category": "uniform",
+  "orientation": "front",
+  "color": "green",
+  "canonStatus": "approved-future-canon",
+  "teamIds": [
+    "kairos-cs-academy"
+  ],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-10-30",
+  "width": 1400,
+  "height": 1400,
+  "sha256": "a49c1e36606536d77103e9faae5529b52068d0569b21cafd4c06f6021043d36d",
+  "referencePath": "assets/uniforms/2027/references/green-front.png",
+  "referenceSha256": "b26eb60b42553b681337901385918ae7c6702f444691a873e717d8d34e7c1c20",
+  "processing": "image-generator-reference-reconstruction-and-transparent-padding",
+  "garmentHeight": 1123,
+  "notes": [
+    "Reconstructed from the approved reference to remove adjacent garments and restore clipped edges.",
+    "Transparent margins normalized to a 1400px square without enlarging the generated artwork.",
+    "Generated reconstruction, not a pixel-identical original or a new uniform design."
+  ]
+}

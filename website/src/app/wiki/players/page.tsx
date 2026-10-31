@@ -3,6 +3,7 @@ import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
 import { ExternalIndex } from "@/components/articles/ExternalArticles";
+import { NationalityFlags } from "@/components/NationalityFlags";
 
 export const metadata = { title: "Players" };
 
@@ -32,7 +33,7 @@ export default function PlayersPage() {
               kicker={player.role}
               title={player.nickname}
               description={player.realName}
-              meta={player.isCaptain ? "Captain" : player.currentTeamName}
+              meta={<><NationalityFlags nationality={player.nationality} nationalities={player.nationalities} compact /> {player.isCaptain ? "Captain" : player.currentTeamName}</>}
             />
           ))}
         </div>

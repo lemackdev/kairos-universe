@@ -42,7 +42,7 @@ describe("encyclopedia article templates", () => {
     expect(html).toContain("No confirmed tournament results recorded.");
     expect(html).toContain("No official matches recorded.");
     expect(html).toContain("Cipher");
-    expect(player.nationality).toBeNull();
+    expect(player.nationality).toBe("Canadian");
     expect(player.teamHistory[0]?.teamName).toBe(catalog.teams[0]?.name);
     expect(player.teamHistory[0]?.role).toBe("Mid");
     expect(player.isCaptain).toBe(false);

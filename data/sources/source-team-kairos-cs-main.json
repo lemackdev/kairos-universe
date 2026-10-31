@@ -1,0 +1,13 @@
+{
+  "id": "source-team-kairos-cs-main",
+  "slug": "source-team-kairos-cs-main",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Kairos Counter-Strike canonical record",
+  "path": "data/teams/kairos-counter-strike.json",
+  "locator": null,
+  "publicLabel": "Kairos Counter-Strike canonical record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": []
+}

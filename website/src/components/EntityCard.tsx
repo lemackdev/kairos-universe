@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 
 export function EntityCard({
   href,
@@ -11,7 +12,7 @@ export function EntityCard({
   kicker: string;
   title: string;
   description: string;
-  meta?: string;
+  meta?: ReactNode;
 }) {
   return (
     <Link className="entityCard" href={href}>

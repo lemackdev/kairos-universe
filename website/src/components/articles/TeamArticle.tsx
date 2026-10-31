@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { BrandLogo, UniformPanel } from "@/components/UniformPanel";
 import { TeamRosterTable } from "@/components/TeamRosterTable";
 import type { OrganizationView, TeamView } from "@/types/catalog";
@@ -14,21 +15,38 @@ const sections = [
   { id: "uniform", title: "Uniform" }, { id: "sources", title: "Sources" },
 ];
 
+const countryFlags: Record<string, string> = {
+  "United States": "us", Canada: "ca", Mexico: "mx", Chile: "cl", Brazil: "br",
+  "South Korea": "kr", Korea: "kr", China: "cn",
+};
+const northAmerica = new Set(["United States", "Canada"]);
+
+function locationWithFlag(location: { city: string; region: string; country: string }) {
+  const code = countryFlags[location.country];
+  const label = [location.city, location.region, location.country].filter((part) => part && part !== "TBD").join(", ") || "TBD";
+  return <span style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem" }}>
+    {code && <Image src={`/flags/${code}.png`} width={24} height={18} unoptimized alt="" />}
+    {label}
+  </span>;
+}
+
 export function TeamArticle({ team, organization }: { team: TeamView; organization?: OrganizationView }) {
-  const captain = team.roster.find((player) => player.playerId === team.captainPlayerId);
+  const region = northAmerica.has(team.trainingLocation.country) ? "North America" : team.trainingLocation.country;
   const facts = [
-    { label: "Organization", value: organization ? <Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link> : "TBD" },
-    { label: "Game", value: team.gameName },
-    { label: "Roster level", value: team.rosterLevel },
-    { label: "Competitive state", value: team.competitiveState },
-    { label: "Intended competition", value: team.intendedCompetition },
-    { label: "Training location", value: [team.trainingLocation.city, team.trainingLocation.region, team.trainingLocation.country].filter((part) => part && part !== "TBD").join(", ") || "TBD" },
-    { label: "Captain", value: captain ? <Link href={`/wiki/players/${captain.slug}`}>{captain.nickname}</Link> : "TBD" },
-    { label: "Planned debut", value: team.officialDebutPeriod },
+    { label: "Org Location", value: organization ? locationWithFlag(organization.headquarters ?? team.trainingLocation) : "TBD" },
+    { label: "Team Location", value: locationWithFlag(team.trainingLocation) },
+    { label: "Region", value: region },
+    { label: "Owner", value: organization?.ownerName ?? "TBD" },
+    { label: "Head Coach", value: team.headCoachName ?? "TBD" },
+    { label: "Partner", value: "Asterion Intelligence" },
+  ];
+  const historyFacts = [
+    { label: "Founded", value: organization?.founded ?? "TBD" },
   ];
   return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections}
     infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
       { title: "Team Information", rows: facts },
+      { title: "History", rows: historyFacts },
     ]} />}>
     <p><strong>{team.name}</strong> is the {team.gameName} {team.rosterLevel} roster of {organization?.name ?? "an organization yet to be published"}, a Los Angeles-based esports organization founded by Adrian Vale under parent company Asterion Intelligence. Rather than assembling the roster through a club acquisition, Kairos built it through its own player-development recruitment process, beginning in early 2026. The {team.gameName} division is intended to debut in the {team.intendedCompetition}, and as of {team.currentStoryPeriod} has not yet played an official match.</p>
     <ArticleSection {...sections[0]!}>
@@ -61,7 +79,6 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
-      {organization?.ownerName && <p><strong>Owner and Founder:</strong> {organization.ownerName}</p>}
       <h3>Management and staff</h3>
       <ManagementTable staff={(organization?.management ?? []).filter(
         (person) => person.division === team.gameName || person.division === "TBD",

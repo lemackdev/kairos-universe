@@ -56,6 +56,9 @@ export function buildCatalog(
   const teams = byId(getCollection<RawTeam>(universe, "teams"));
   const players = byId(getCollection<RawPlayer>(universe, "players"));
   const staff = byId(getCollection<RawStaff>(universe, "coaches"));
+  const characters = byId(
+    getCollection<{ id: string; nationality?: string }>(universe, "characters"),
+  );
   const episodes = getCollection<RawEpisode>(universe, "episodes");
   const rosterTenures = getCollection<RosterTenure>(
     universe,
@@ -374,10 +377,35 @@ export function buildCatalog(
         status: organization.status,
         headquarters: organization.headquarters ?? null,
         ownerName: organization.owner?.commonName ?? organization.owner?.realName ?? null,
+        founded: organization.storyStartPeriod?.displayName ?? null,
         teamIds: teamViews
           .filter((team) => team.organizationId === organization.id)
           .map((team) => team.id),
-        management: staffViews.filter((person) => person.currentOrganizationId === organization.id),
+        management: [
+          ...(organization.owner
+            ? [{
+                id: organization.owner.id,
+                slug: "",
+                realName: organization.owner.realName ?? organization.owner.commonName ?? "Unknown",
+                nickname: null,
+                displayName: organization.owner.commonName ?? organization.owner.realName ?? "Unknown",
+                nationality: characters.get(organization.owner.id)?.nationality ?? "American",
+                role: "Owner and Founder",
+                division: "TBD",
+                currentOrganizationId: organization.id,
+                currentTeamId: null,
+                status: "active",
+                firstAppearance: null,
+                episodeAppearances: [],
+                realWorldFigure: false,
+                responsibilities: [],
+                tenures: [],
+                sources: [],
+                canonNotes: [],
+              } satisfies StaffView]
+            : []),
+          ...staffViews.filter((person) => person.currentOrganizationId === organization.id),
+        ],
         philosophy: organization.philosophy ?? [],
         longTermGoals: organization.longTermGoals ?? [],
         sources: sourceViews([
@@ -476,7 +504,7 @@ export function buildCatalog(
       nextCompetitiveMilestone:
         universe.version.nextCompetitiveMilestone.displayName,
       generatedAt: new Date().toISOString(),
-      publicationScope: "Kairos eSports",
+      publicationScope: "Kairos Esports",
     },
     games: gameViews,
     organizations: organizationViews,

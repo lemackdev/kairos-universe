@@ -43,6 +43,7 @@ export interface RawOrganization {
     realName?: string;
     commonName?: string;
   };
+  storyStartPeriod?: StoryPeriod;
   currentStoryPeriod?: StoryPeriod;
   divisions?: Array<Record<string, unknown>>;
   philosophy?: string[];

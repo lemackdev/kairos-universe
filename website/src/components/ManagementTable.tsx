@@ -66,7 +66,9 @@ export function ManagementTable({ staff, caption = "Kairos management" }: { staf
             <tr key={entry.id}>
               <td data-label="Nat."><NationalityFlags nationality={entry.nationality} compact /></td>
               <td data-label="ID">
-                <EntityLink href={`/wiki/staff/${entry.slug}`} name={entry.nickname ?? entry.realName} />
+                {entry.slug
+                  ? <EntityLink href={`/wiki/staff/${entry.slug}`} name={entry.nickname ?? entry.realName} />
+                  : <strong>{entry.nickname ?? entry.realName}</strong>}
               </td>
               <td data-label="Name">{entry.realName}</td>
               <td data-label="Role">{entry.role}</td>

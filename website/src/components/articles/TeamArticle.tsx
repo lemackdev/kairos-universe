@@ -61,8 +61,11 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
+      {organization?.ownerName && <p><strong>Owner and Founder:</strong> {organization.ownerName}</p>}
       <h3>Management and staff</h3>
-      <ManagementTable staff={organization?.management ?? []} />
+      <ManagementTable staff={(organization?.management ?? []).filter(
+        (person) => person.division === team.gameName || person.division === "TBD",
+      )} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>
     <ArticleSection {...sections[7]!}>

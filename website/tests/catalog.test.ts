@@ -14,15 +14,13 @@ beforeAll(() => {
 });
 
 describe("initial Kairospedia publication", () => {
-  it("publishes both main teams with five players each", () => {
+  it("publishes the enabled teams and players with five-player rosters", () => {
+    const manifest = loadPublicationManifest();
     expect(catalog.organizations.map((record) => record.id)).toEqual([
       "kairos-esports",
     ]);
-    expect(catalog.teams.map((record) => record.id)).toEqual([
-      "kairos-lol-main",
-      "kairos-cs-main",
-    ]);
-    expect(catalog.players).toHaveLength(10);
+    expect(catalog.teams.map((record) => record.id)).toEqual(manifest.enabledTeams);
+    expect(catalog.players).toHaveLength(manifest.enabledPlayers.length);
     expect(catalog.teams.every(team => team.roster.length === 5)).toBe(true);
     expect(catalog.players.every(player => player.status.includes("active") || player.status === "signed")).toBe(true);
   });
@@ -55,8 +53,9 @@ describe("initial Kairospedia publication", () => {
     expect(
       catalog.routes.some((route) => route.includes("counter-strike")),
     ).toBe(true);
+    expect(catalog.routes).toContain("/wiki/teams/kairos-cs-academy");
     expect(
-      catalog.routes.some((route) => route.includes("academy")),
+      catalog.routes.some((route) => route.includes("lol-academy")),
     ).toBe(false);
   });
 

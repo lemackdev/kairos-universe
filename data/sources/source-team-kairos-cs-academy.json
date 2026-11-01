@@ -1,0 +1,13 @@
+{
+  "id": "source-team-kairos-cs-academy",
+  "slug": "source-team-kairos-cs-academy",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Kairos Counter-Strike Academy canonical record",
+  "path": "data/teams/kairos-counter-strike-academy.json",
+  "locator": null,
+  "publicLabel": "Kairos Counter-Strike Academy canonical record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": []
+}

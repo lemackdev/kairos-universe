@@ -1,0 +1,24 @@
+{
+  "id": "zayn-parkinglot-haddad-kairos-cs-academy",
+  "slug": "zayn-parkinglot-haddad-kairos-cs-academy",
+  "continuityId": "kairos-universe",
+  "playerId": "zayn-parkinglot-haddad",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-academy",
+  "gameId": "game-counter-strike",
+  "roleId": "role-tbd",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "2026-11-21",
+  "leftDate": null,
+  "datePrecision": "exact",
+  "announcementDate": "TBD",
+  "effectiveDate": "2026-11-21",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-zayn-parkinglot-haddad",
+    "source-team-kairos-cs-academy"
+  ],
+  "canonStatus": "confirmed"
+}

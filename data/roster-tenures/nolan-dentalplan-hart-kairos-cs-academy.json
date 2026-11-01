@@ -1,0 +1,24 @@
+{
+  "id": "nolan-dentalplan-hart-kairos-cs-academy",
+  "slug": "nolan-dentalplan-hart-kairos-cs-academy",
+  "continuityId": "kairos-universe",
+  "playerId": "nolan-dentalplan-hart",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-academy",
+  "gameId": "game-counter-strike",
+  "roleId": "role-tbd",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "2026-11-23",
+  "leftDate": null,
+  "datePrecision": "exact",
+  "announcementDate": "TBD",
+  "effectiveDate": "2026-11-23",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-nolan-dentalplan-hart",
+    "source-team-kairos-cs-academy"
+  ],
+  "canonStatus": "confirmed"
+}

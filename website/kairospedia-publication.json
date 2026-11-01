@@ -8,7 +8,8 @@
   ],
   "enabledTeams": [
     "kairos-lol-main",
-    "kairos-cs-main"
+    "kairos-cs-main",
+    "kairos-cs-academy"
   ],
   "enabledPlayers": [
     "noah-rkn-bennett",
@@ -20,7 +21,12 @@
     "owen-glacier-fletcher",
     "emiliano-moteconhuesillo-navarro",
     "cameron-mold-ruiz",
-    "vincente-flacogomez-galan"
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "zayn-parkinglot-haddad"
   ],
   "enabledStaff": [
     "adrian-elias-vale",

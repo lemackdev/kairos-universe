@@ -1,0 +1,24 @@
+{
+  "id": "milo-velcrodog-radovic-kairos-cs-academy",
+  "slug": "milo-velcrodog-radovic-kairos-cs-academy",
+  "continuityId": "kairos-universe",
+  "playerId": "milo-velcrodog-radovic",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-academy",
+  "gameId": "game-counter-strike",
+  "roleId": "role-tbd",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "2026-11-21",
+  "leftDate": null,
+  "datePrecision": "exact",
+  "announcementDate": "TBD",
+  "effectiveDate": "2026-11-21",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-milo-velcrodog-radovic",
+    "source-team-kairos-cs-academy"
+  ],
+  "canonStatus": "confirmed"
+}

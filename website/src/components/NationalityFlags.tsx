@@ -7,6 +7,10 @@ const countries: Record<string, { code: string; country: string }> = {
   Chilean: { code: "cl", country: "Chile" },
   Brazilian: { code: "br", country: "Brazil" },
   Slovenian: { code: "si", country: "Slovenia" },
+  Japanese: { code: "jp", country: "Japan" },
+  Kosovan: { code: "xk", country: "Kosovo" },
+  Lebanese: { code: "lb", country: "Lebanon" },
+  Serbian: { code: "rs", country: "Serbia" },
 };
 
 export function NationalityFlags({ nationality, nationalities, compact = false }: {

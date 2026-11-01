@@ -468,11 +468,18 @@ export function validatePublication(
     assert(games.has(id), `enabledGames references missing ID: ${id}`),
   );
 
-  assert(manifest.enabledTeams.length === 2 && manifest.enabledTeams.every(id =>
-    ["kairos-lol-main", "kairos-cs-main"].includes(id)), "Publication exposes the League and Counter-Strike main teams only.");
+  const publishableTeamIds = new Set([
+    "kairos-lol-main",
+    "kairos-cs-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-academy",
+  ]);
+  assert(manifest.enabledTeams.every(id =>
+    publishableTeamIds.has(id)), "Publication exposes only the Kairos main and academy teams.");
   const publishedTeams = getCollection<RawTeam>(universe, "teams").filter(team => manifest.enabledTeams.includes(team.id));
   const expectedPlayers = new Set(publishedTeams.flatMap(team => team.roster));
-  assert(manifest.enabledPlayers.length === 10 && manifest.enabledPlayers.every(id => expectedPlayers.has(id)), "Publication must contain the two confirmed five-player main rosters.");
+  assert(manifest.enabledPlayers.every(id => expectedPlayers.has(id)), "Publication can only contain players from its published teams' rosters.");
   assert(
     manifest.enabledMatches.length === 0 &&
       manifest.enabledTransfers.length === 0,

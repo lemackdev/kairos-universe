@@ -9,6 +9,7 @@ import { searchRecords } from "@/lib/search/search";
 import { ExternalPlayerArticle, ExternalTeamArticle } from "@/components/articles/ExternalArticles";
 import { generatedRoot } from "@/lib/canon/paths";
 import type { KairospediaCatalog } from "@/types/catalog";
+import { loadPublicationManifest } from "@/lib/canon/loader";
 
 const scene = loadExternalScene();
 describe("pre-Worlds 2026 external references", () => {
@@ -58,8 +59,8 @@ describe("pre-Worlds 2026 external references", () => {
     expect(catalog.routes).toContain("/wiki/world");
     expect(new Set(catalog.routes).size).toBe(catalog.routes.length);
     expect(catalog.externalScene?.teams).toHaveLength(68);
-    expect(catalog.teams.map((t) => t.id)).toEqual(["kairos-lol-main"]);
-    expect(catalog.players).toHaveLength(5);
+    expect(catalog.teams.map((t) => t.id)).toEqual(loadPublicationManifest().enabledTeams);
+    expect(catalog.players.map((player) => player.id)).toEqual(loadPublicationManifest().enabledPlayers);
     expect(catalog.players.find((p) => p.nickname === "404")?.role).toBe("Mid");
     expect(catalog.teams[0]?.captainPlayerId).toBe("daniel-moss-reyes");
     for (const hidden of ["kairos-counter-strike-main", "kairos-lol-academy-blue", "kairos-lol-academy-white"]) expect(JSON.stringify(catalog)).not.toContain(hidden);

@@ -83,7 +83,7 @@ describe("encyclopedia article templates", () => {
   it("does not publish tournament fixtures or change the publication scope", () => {
     expect(catalog.competitions).toEqual([]);
     expect(catalog.routes).not.toContain("/wiki/competitions/test-cup");
-    expect(catalog.teams.map((team) => team.id)).toEqual(["kairos-lol-main"]);
+    expect(catalog.teams.map((team) => team.id)).toEqual(loadPublicationManifest().enabledTeams);
     expect(catalog.players.every((player) => player.tournamentResults.length === 0 && player.awards.length === 0)).toBe(true);
   });
 

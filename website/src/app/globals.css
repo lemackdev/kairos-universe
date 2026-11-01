@@ -520,11 +520,6 @@ code {
   object-fit: contain;
 }
 
-.staffPortrait figcaption {
-  padding: 0.5rem;
-  background: var(--paper-raised);
-}
-
 .staffPortraitCompact {
   max-height: 185px;
   overflow: hidden;

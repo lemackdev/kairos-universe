@@ -23,7 +23,6 @@ export function StaffPortrait({ id, compact = false }: { id: string; compact?: b
         height={portrait.height}
         sizes={compact ? "(max-width: 640px) 40vw, 160px" : "(max-width: 640px) 80vw, 340px"}
       />
-      {!compact && <figcaption>Illustrative AI-generated image, not a documentary photograph.</figcaption>}
     </figure>
   );
 }

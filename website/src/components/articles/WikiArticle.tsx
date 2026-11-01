@@ -6,9 +6,9 @@ import styles from "./WikiArticle.module.css";
 
 export type ArticleSection = { id: string; title: string };
 
-export function WikiArticle({ title, kind, game, sections, infobox, children }: {
+export function WikiArticle({ title, kind, game, sections, infobox, banner, children }: {
   title: string; kind: "Teams" | "Players" | "Tournaments" | "Staff" | "Organizations" | "Games"; game: string;
-  sections: ArticleSection[]; infobox: ReactNode; children: ReactNode;
+  sections: ArticleSection[]; infobox: ReactNode; banner?: ReactNode; children: ReactNode;
 }) {
   return <article className={`wikiArticle ${styles.article}`}>
     <Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" },
@@ -21,6 +21,7 @@ export function WikiArticle({ title, kind, game, sections, infobox, children }: 
     <nav className={styles.tabs} aria-label="Article sections">
       {sections.map((section) => <a key={section.id} href={`#${section.id}`}>{section.title}</a>)}
     </nav>
+    {banner}
     <div className={styles.layout}>
       <aside className={styles.aside}>
         {infobox}

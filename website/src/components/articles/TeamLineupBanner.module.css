@@ -1,0 +1,14 @@
+.banner { margin: 0 0 22px; border: 1px solid #35424a; background: #141b20; color: #f1f3f3; }
+.heading { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; padding: 8px 12px; border-bottom: 1px solid #35424a; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.heading span:first-child { font-weight: 700; color: #d7bc77; }
+.heading span:last-child { color: #b4c0c6; text-align: right; }
+.scroll { overflow-x: auto; }
+.content { min-width: 780px; }
+.image { display: block; width: 100%; height: auto; }
+.players { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-top: 1px solid #35424a; }
+.player { display: grid; align-content: center; gap: 1px; min-height: 54px; padding: 7px 6px; text-align: center; border-right: 1px solid #35424a; }
+.player:last-child { border-right: 0; }
+.player a { color: #f1f3f3; font-size: 13px; font-weight: 800; letter-spacing: .025em; overflow-wrap: anywhere; }
+.player a:hover { color: #d7bc77; }
+.player span { color: #b4c0c6; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+@media (max-width: 760px) { .content { min-width: 780px; } }

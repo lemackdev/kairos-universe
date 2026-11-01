@@ -1,0 +1,54 @@
+{
+  "collection": "kairos-team-lineup-artwork",
+  "status": "illustrative-generated-artwork",
+  "narrativeDate": "2026-11-24",
+  "source": "image_gen.imagegen",
+  "canonNotes": [
+    "These are visual compositions based on approved fictional player portraits, not documentary team photographs.",
+    "Poses and studio settings are visual direction, not new character or event canon.",
+    "The approved 2027 kits shown in the compositions do not establish a current sponsorship contract.",
+    "Names, roles, roster membership, and captaincy must always be rendered from canonical team records."
+  ],
+  "lineups": [
+    {
+      "teamId": "kairos-lol-main",
+      "file": "assets/teams/lineups/kairos-lol-main.png",
+      "width": 1983,
+      "height": 793,
+      "sha256": "bd35c8529d220ab3a7a34161819d76cf69e215ff8d9c9945d08f61453942e0c1",
+      "playerIds": ["noah-rkn-bennett", "ethan-vanta-walker", "mason-404-brooks", "liam-aster-oconnor", "daniel-moss-reyes"]
+    },
+    {
+      "teamId": "kairos-lol-academy-blue",
+      "file": "assets/teams/lineups/kairos-lol-academy-blue.png",
+      "width": 1889,
+      "height": 832,
+      "sha256": "5b8ae06f7c1462ef200cb725a410ffe34cedaf206aa3ea1e36942b5b8d561855",
+      "playerIds": ["connor-mako-sullivan", "jacob-xnox-price", "owen-kite-hughes", "tyler-murmur-grant", "lucas-grit-foster"]
+    },
+    {
+      "teamId": "kairos-lol-academy-white",
+      "file": "assets/teams/lineups/kairos-lol-academy-white.png",
+      "width": 2055,
+      "height": 765,
+      "sha256": "085fc0546fd697614f13bdb65aa9364ad1f08c8b0ae110c92558eb5c4c2bbe82",
+      "playerIds": ["isaac-pebble-young", "benjamin-vex-carter", "nathan-0bit-hall", "cole-june-mercer", "ryan-luma-chen"]
+    },
+    {
+      "teamId": "kairos-cs-main",
+      "file": "assets/teams/lineups/kairos-cs-main.png",
+      "width": 2048,
+      "height": 768,
+      "sha256": "507d8dca068774c38972381e5cb2dd9248dd298740985a2b97a5ea96f276f3d9",
+      "playerIds": ["caleb-atlas-mercer", "owen-glacier-fletcher", "emiliano-moteconhuesillo-navarro", "cameron-mold-ruiz", "vincente-flacogomez-galan"]
+    },
+    {
+      "teamId": "kairos-cs-academy",
+      "file": "assets/teams/lineups/kairos-cs-academy.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "1b1e1d99f6b0076893bf836519a0f72bd59439f290e3da908aefb8f3c2ff4bdd",
+      "playerIds": ["evan-soupcrime-nakamura", "milo-velcrodog-radovic", "zayn-parkinglot-haddad", "nolan-dentalplan-hart", "reid-wrongnumber-hart"]
+    }
+  ]
+}

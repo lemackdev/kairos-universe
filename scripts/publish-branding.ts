@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
-import type { PlayerPortraitAsset } from "../shared/branding";
+import type { PlayerPortraitAsset, TeamLineupAsset } from "../shared/branding";
 import { filterBranding, loadBranding, safeAssetPath } from "../shared/branding";
 
 const appRoot = process.cwd();
@@ -54,6 +54,33 @@ for (const portrait of portraits) {
 }
 fs.writeFileSync(path.join(appRoot, ".generated/portraits.json"), JSON.stringify(portraits, null, 2) + "\n");
 console.log(`Portraits validated and published: ${portraits.length}.`);
+
+const lineupManifest = JSON.parse(fs.readFileSync(path.join(root, "assets/teams/lineups/manifest.json"), "utf8")) as { lineups: TeamLineupAsset[] };
+const lineupIds = new Set<string>();
+const teamFiles = JSON.parse(fs.readFileSync(path.join(root, "index/teams.json"), "utf8")) as string[];
+const teams = teamFiles.map(file => JSON.parse(fs.readFileSync(path.join(root, file), "utf8")) as { id: string; roster: string[] });
+const publishedLineups = lineupManifest.lineups.filter(lineup => manifest.enabledTeams.includes(lineup.teamId));
+const lineupDirectory = path.join(appRoot, "public/team-lineups");
+if (fs.existsSync(lineupDirectory) && !fs.existsSync(path.join(lineupDirectory, ".generated-assets"))) throw new Error("Unowned team-lineups directory");
+fs.mkdirSync(lineupDirectory, { recursive: true });
+fs.writeFileSync(path.join(lineupDirectory, ".generated-assets"), "Generated publication copies only.\n");
+for (const lineup of lineupManifest.lineups) {
+  if (lineupIds.has(lineup.teamId)) throw new Error(`Duplicate team lineup: ${lineup.teamId}`);
+  lineupIds.add(lineup.teamId);
+  const team = teams.find(item => item.id === lineup.teamId);
+  if (!team || JSON.stringify(team.roster) !== JSON.stringify(lineup.playerIds)) throw new Error(`Lineup roster mismatch: ${lineup.teamId}`);
+  if (lineup.playerIds.length !== 5 || lineup.playerIds.some(id => !allPortraits.some(p => p.playerId === id))) throw new Error(`Missing approved portrait: ${lineup.teamId}`);
+  const bytes = fs.readFileSync(safeAssetPath(root, lineup.file));
+  if (!bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) ||
+    bytes.readUInt32BE(16) !== lineup.width || bytes.readUInt32BE(20) !== lineup.height ||
+    createHash("sha256").update(bytes).digest("hex") !== lineup.sha256) throw new Error(`Invalid team lineup: ${lineup.teamId}`);
+  if (manifest.enabledTeams.includes(lineup.teamId)) fs.copyFileSync(safeAssetPath(root, lineup.file), path.join(lineupDirectory, `${lineup.teamId}.png`));
+}
+for (const filename of fs.readdirSync(lineupDirectory)) {
+  if (/^[a-z0-9-]+\.png$/.test(filename) && !publishedLineups.some(lineup => `${lineup.teamId}.png` === filename)) fs.unlinkSync(path.join(lineupDirectory, filename));
+}
+fs.writeFileSync(path.join(appRoot, ".generated/team-lineups.json"), JSON.stringify(publishedLineups, null, 2) + "\n");
+console.log(`Team lineups validated and published: ${publishedLineups.length}.`);
 
 const externalLogoSource = path.join(root, "assets/branding/external");
 const externalLogoDestination = path.join(appRoot, "public/branding/external");

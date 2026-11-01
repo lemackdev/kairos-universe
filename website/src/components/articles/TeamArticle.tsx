@@ -8,6 +8,7 @@ import { ManagementTable } from "@/components/ManagementTable";
 import { hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
 import { formatDate } from "@/lib/formatting/date";
 import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
+import { TeamLineupBanner } from "./TeamLineupBanner";
 
 const sections = [
   { id: "history", title: "History" }, { id: "team-information", title: "Team Information" },
@@ -47,6 +48,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     { label: "Founded", value: organization?.founded ?? "TBD" },
   ];
   return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections}
+    banner={<TeamLineupBanner team={team} />}
     infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
       { title: "Team Information", rows: facts },
       { title: "History", rows: historyFacts },

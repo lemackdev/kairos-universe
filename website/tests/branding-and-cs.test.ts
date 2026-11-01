@@ -2,7 +2,7 @@ import path from "node:path";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-import { filterBranding, loadBranding, readPublishedPortraits, safeAssetPath } from "../../shared/branding";
+import { filterBranding, loadBranding, readPublishedPortraits, readPublishedTeamLineups, safeAssetPath } from "../../shared/branding";
 import { loadCanonUniverse, loadPublicationManifest } from "@/lib/canon/loader";
 import { buildCatalog } from "@/lib/catalog/build";
 import { TeamArticle } from "@/components/articles/TeamArticle";
@@ -71,6 +71,24 @@ describe("branding and Counter-Strike publication", () => {
         const page = renderToStaticMarkup(createElement(PlayerArticle, { player, team, narrativeDate: catalog.metadata.currentNarrativeDate }));
         expect(page).toContain(`${player.id}.png`);
         expect(page).toContain(jersey);
+      }
+    }
+  });
+  it("publishes one canon-ordered lineup image on every Kairos team article", () => {
+    const catalog = buildCatalog(loadCanonUniverse(), loadPublicationManifest());
+    const lineups = readPublishedTeamLineups();
+    expect(lineups).toHaveLength(5);
+    expect(new Set(lineups.map(lineup => lineup.sha256)).size).toBe(5);
+    for (const team of catalog.teams) {
+      const lineup = lineups.find(item => item.teamId === team.id);
+      expect(lineup).toBeDefined();
+      expect(lineup?.playerIds).toHaveLength(5);
+      expect(lineup?.playerIds.every(id => team.roster.some(player => player.playerId === id))).toBe(true);
+      const html = renderToStaticMarkup(createElement(TeamArticle, { team, organization: catalog.organizations[0] }));
+      expect(html).toContain(`/team-lineups/${team.id}.png`);
+      for (const id of lineup!.playerIds) {
+        const player = team.roster.find(item => item.playerId === id)!;
+        expect(html).toContain(`href="/wiki/players/${player.slug}"`);
       }
     }
   });

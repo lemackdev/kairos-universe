@@ -6,3 +6,4 @@ coverage/
 !.generated/.gitkeep
 public/branding/
 public/portraits/
+public/team-lineups/

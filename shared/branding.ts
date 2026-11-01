@@ -97,3 +97,11 @@ export interface PlayerPortraitAsset {
 export function readPublishedPortraits(appRoot = process.cwd()): PlayerPortraitAsset[] {
   return JSON.parse(fs.readFileSync(path.join(appRoot, ".generated/portraits.json"), "utf8"));
 }
+
+export interface TeamLineupAsset {
+  teamId: string; file: string; width: number; height: number; sha256: string; playerIds: string[];
+}
+
+export function readPublishedTeamLineups(appRoot = process.cwd()): TeamLineupAsset[] {
+  return JSON.parse(fs.readFileSync(path.join(appRoot, ".generated/team-lineups.json"), "utf8"));
+}

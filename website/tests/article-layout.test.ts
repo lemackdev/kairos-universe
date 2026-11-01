@@ -24,12 +24,11 @@ describe("shared encyclopedia article layout", () => {
     expect(html).toContain("adrian-elias-vale.png");
   });
 
-  it("keeps real-world coaching history separate from Kairos canon", () => {
+  it("does not surface a separate real-world background section on staff pages", () => {
     const stewie = catalog.staff.find((person) => person.id === "jake-stewie2k-yip")!;
     const html = renderToStaticMarkup(createElement(StaffArticle, { person: stewie }));
-    expect(html).toContain('id="real-world-background"');
-    expect(html).toContain("fictional Kairos appointment");
-    expect(html).toContain("liquipedia.net/counterstrike/Stewie2K");
+    expect(html).not.toContain('id="real-world-background"');
+    expect(html).not.toContain("Real-world figure in fictional Kairos role");
   });
 
   it("uses the article shell for canon and external organizations", () => {

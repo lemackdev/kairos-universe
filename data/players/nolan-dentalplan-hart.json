@@ -21,7 +21,13 @@
   "isCaptain": false,
   "firstAppearance": "episode-074",
   "joinedKairos": "Selected on 2026-11-23",
-  "contract": null,
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "2027-12-31",
+    "salary": "TBD"
+  },
   "background": [
     "American player living in Long Beach, California, from a Canadian-American family.",
     "Reid Hart's twin brother.",
@@ -67,7 +73,6 @@
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "The nickname dentalplan must remain lowercase.",
     "The nickname came from an accidentally copied browser-tab title during registration for a school tournament."
   ],
   "currentState": [

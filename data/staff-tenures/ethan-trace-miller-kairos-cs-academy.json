@@ -1,0 +1,22 @@
+{
+  "id": "ethan-trace-miller-kairos-cs-academy",
+  "slug": "ethan-trace-miller-kairos-cs-academy",
+  "continuityId": "kairos-universe",
+  "personId": "ethan-trace-miller",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-academy",
+  "divisionId": "division-counter-strike",
+  "title": "Development Coach",
+  "responsibilityIds": [
+    "role-development-coach"
+  ],
+  "startedDate": "2026-11-23",
+  "endedDate": null,
+  "datePrecision": "exact",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-ethan-trace-miller",
+    "source-team-kairos-cs-academy"
+  ],
+  "canonStatus": "confirmed"
+}

@@ -2,7 +2,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
-import { ExternalIndex } from "@/components/articles/ExternalArticles";
+import { BrandLogo } from "@/components/UniformPanel";
 
 export const metadata = { title: "Organizations" };
 
@@ -33,11 +33,11 @@ export default function OrganizationsPage() {
               title={organization.name}
               description={`${organization.teamIds.length} team is enabled for this publication.`}
               meta={organization.id}
+              image={<BrandLogo organizationId={organization.id} width={36} />}
             />
           ))}
         </div>
       </section>
-      <ExternalIndex scene={catalog.externalScene} kind="organizations" />
     </>
   );
 }

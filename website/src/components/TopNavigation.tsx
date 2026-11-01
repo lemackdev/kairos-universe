@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   ["Games", "/wiki/games"],
@@ -14,11 +15,8 @@ const links = [
 export function TopNavigation() {
   return (
     <nav className="topNav" aria-label="Primary navigation">
-      <Link className="wordmark" href="/wiki">
-        <span className="wordmarkMark" aria-hidden="true">
-          K
-        </span>
-        <span className="wordmarkText">Kairospedia</span>
+      <Link className="wordmark" href="/wiki" aria-label="Kairospedia home">
+        <Image src="/kairospedia-logo.svg" alt="Kairospedia" width={80} height={64} priority />
       </Link>
       <div className="topNavLinks">
         {links.map(([label, href]) => (

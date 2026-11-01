@@ -21,7 +21,13 @@
   "isCaptain": false,
   "firstAppearance": "episode-073",
   "joinedKairos": "Selected on 2026-11-21",
-  "contract": null,
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "2027-12-31",
+    "salary": "TBD"
+  },
   "background": [
     "American player from a Serbian-American family.",
     "Lives in Sacramento, California."
@@ -62,7 +68,6 @@
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "The nickname velcrodog must remain lowercase.",
     "The nickname originated after Milo saw a dog with a piece of Velcro stuck in its fur when he was eleven."
   ],
   "currentState": [

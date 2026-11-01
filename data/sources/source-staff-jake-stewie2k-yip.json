@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-jake-stewie2k-yip",
+  "slug": "source-staff-jake-stewie2k-yip",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Jake Yip staff record",
+  "path": "data/coaches/jake-stewie2k-yip.json",
+  "locator": null,
+  "publicLabel": "Jake \"Stewie2K\" Yip canonical staff record",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "The Kairos role is fictional-universe canon."
+  ]
+}

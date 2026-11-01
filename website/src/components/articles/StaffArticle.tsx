@@ -7,30 +7,13 @@ import { TenureTimeline } from "@/components/TenureTimeline";
 import type { StaffView } from "@/types/catalog";
 import { ArticleInfobox, ArticleSection, Facts, WikiArticle } from "./WikiArticle";
 
-const realWorldBackground: Record<string, { summary: string; source: string }> = {
-  "jake-stewie2k-yip": {
-    summary: "Real-world Counter-Strike player Stewie2K won the 2018 Major with Cloud9. Real-world sources list his name as Jacky Yip; the fictional Kairos record currently uses Jake Yip.",
-    source: "https://liquipedia.net/counterstrike/Stewie2K",
-  },
-  "zaqueri-aphromoo-black": {
-    summary: "Zaqueri Black is a retired professional League of Legends Support player. His Kairos coaching and mentorship roles belong to this fictional universe.",
-    source: "https://liquipedia.net/leagueoflegends/Aphromoo",
-  },
-  "thinkcard-kairos-strategic-coach": {
-    summary: "Thomas Slotkin has competed as a League of Legends player and worked as a coach. His Kairos strategic-coaching role belongs to this fictional universe.",
-    source: "https://liquipedia.net/leagueoflegends/Thinkcard",
-  },
-};
-
 export function StaffArticle({ person }: { person: StaffView }) {
   const isAdrian = person.id === "adrian-elias-vale";
-  const background = realWorldBackground[person.id];
   const sections = [
     { id: "overview", title: "Overview" },
     { id: "background-information", title: "Background Information" },
     { id: "role", title: isAdrian ? "Leadership" : "Role and Responsibilities" },
     { id: "staff-history", title: "Staff History" },
-    ...(background ? [{ id: "real-world-background", title: "Real-World Background" }] : []),
     { id: "episode-history", title: "Episode History" },
     { id: "sources", title: "Sources" },
   ];
@@ -38,7 +21,6 @@ export function StaffArticle({ person }: { person: StaffView }) {
     { label: "Name", value: person.realName },
     { label: "Nationality", value: person.nationality ?? "TBD" },
     { label: "Status", value: person.status },
-    { label: "Origin", value: person.realWorldFigure ? "Real-world figure in fictional Kairos role" : "Fictional character" },
     { label: "First appearance", value: person.firstAppearance ? `Episode ${person.firstAppearance.number}` : "TBD" },
   ];
   const roleFacts = [
@@ -69,11 +51,6 @@ export function StaffArticle({ person }: { person: StaffView }) {
     <ArticleSection {...sections[3]!}>
       {person.tenures.length ? <TenureTimeline entries={person.tenures} /> : <p>No structured staff-tenure dates are published.</p>}
     </ArticleSection>
-    {background && <ArticleSection id="real-world-background" title="Real-World Background">
-      <p>{background.summary}</p>
-      <p>These real-world facts are separate from the fictional Kairos appointment.</p>
-      <a href={background.source} target="_blank" rel="noopener noreferrer">Real-world profile and career source</a>
-    </ArticleSection>}
     <ArticleSection id="episode-history" title="Episode History">
       <h3>First appearance</h3>
       {person.firstAppearance ? <EpisodeReferenceList episodes={[person.firstAppearance]} /> : <p>TBD.</p>}

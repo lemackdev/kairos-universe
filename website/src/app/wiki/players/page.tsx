@@ -2,7 +2,6 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
-import { ExternalIndex } from "@/components/articles/ExternalArticles";
 import { NationalityFlags } from "@/components/NationalityFlags";
 
 export const metadata = { title: "Players" };
@@ -38,7 +37,6 @@ export default function PlayersPage() {
           ))}
         </div>
       </section>
-      <ExternalIndex scene={catalog.externalScene} kind="players" />
     </>
   );
 }

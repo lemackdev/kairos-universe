@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 64" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Kairospedia</title>
+  <path d="M40 14C30 7 20 7 8 12v38c12-5 22-5 32 2 10-7 20-7 32-2V12c-12-5-22-5-32 2Z" fill="#1D4444" stroke="#C69B45" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M40 18C31 12 22 12 13 15v30c11-3 19-2 27 4 8-6 16-7 27-4V15c-9-3-18-3-27 3Z" fill="#F2ECDD"/>
+  <path d="M40 18v31M13 15c9-3 18-3 27 3 9-6 18-6 27-3" stroke="#91703A" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M17 23c7-1.6 13-.7 19 2.7M17 29c7-1.4 13-.6 19 2.6M17 35c7-1.2 13-.3 19 2.8M63 23c-7-1.6-13-.7-19 2.7M63 29c-7-1.4-13-.6-19 2.6M63 35c-7-1.2-13-.3-19 2.8" stroke="#74A5A0" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M40 2 43 9l7 3-7 3-3 7-3-7-7-3 7-3 3-7Z" fill="#C69B45" stroke="#1D4444" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M40 9v6M37 12h6" stroke="#F2ECDD" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M8 54c11-5 22-4 32 3 10-7 21-8 32-3" stroke="#C69B45" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

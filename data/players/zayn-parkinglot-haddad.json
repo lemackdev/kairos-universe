@@ -21,7 +21,13 @@
   "isCaptain": false,
   "firstAppearance": "episode-073",
   "joinedKairos": "Selected on 2026-11-21",
-  "contract": null,
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "2027-12-31",
+    "salary": "TBD"
+  },
   "background": [
     "American player from a Lebanese-American family.",
     "Lives in Irvine, California."
@@ -59,7 +65,6 @@
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "The nickname parkinglot must remain lowercase.",
     "Zayn explains the nickname by saying that all the good names were already parked."
   ],
   "currentState": [

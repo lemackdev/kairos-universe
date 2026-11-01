@@ -21,7 +21,13 @@
   "isCaptain": false,
   "firstAppearance": "episode-074",
   "joinedKairos": "Selected on 2026-11-23",
-  "contract": null,
+  "contract": {
+    "status": "TBD",
+    "signedDate": "TBD",
+    "startDate": "TBD",
+    "endDate": "2027-12-31",
+    "salary": "TBD"
+  },
   "background": [
     "American player living in Long Beach, California, from a Canadian-American family.",
     "Nolan Hart's twin brother.",
@@ -68,7 +74,6 @@
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "The nickname wrongnumber must remain lowercase.",
     "The nickname began after Reid received an amateur-team server invitation intended for another person."
   ],
   "currentState": [

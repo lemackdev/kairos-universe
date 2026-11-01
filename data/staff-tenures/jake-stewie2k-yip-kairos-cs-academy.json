@@ -1,0 +1,22 @@
+{
+  "id": "jake-stewie2k-yip-kairos-cs-academy",
+  "slug": "jake-stewie2k-yip-kairos-cs-academy",
+  "continuityId": "kairos-universe",
+  "personId": "jake-stewie2k-yip",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-cs-academy",
+  "divisionId": "division-counter-strike",
+  "title": "Head Coach",
+  "responsibilityIds": [
+    "role-head-coach"
+  ],
+  "startedDate": "2026-11-23",
+  "endedDate": null,
+  "datePrecision": "exact",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-jake-stewie2k-yip",
+    "source-team-kairos-cs-academy"
+  ],
+  "canonStatus": "confirmed"
+}

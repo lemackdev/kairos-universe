@@ -2,7 +2,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
-import { ExternalIndex } from "@/components/articles/ExternalArticles";
+import { BrandLogo } from "@/components/UniformPanel";
 
 export const metadata = { title: "Teams" };
 
@@ -33,11 +33,11 @@ export default function TeamsPage() {
               title={team.name}
               description={team.competitiveState}
               meta={`${team.roster.length} active players`}
+              image={<BrandLogo organizationId={team.organizationId} width={36} />}
             />
           ))}
         </div>
       </section>
-      <ExternalIndex scene={catalog.externalScene} kind="teams" />
     </>
   );
 }

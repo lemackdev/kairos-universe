@@ -11,6 +11,7 @@ const countries: Record<string, { code: string; country: string }> = {
   Kosovan: { code: "xk", country: "Kosovo" },
   Lebanese: { code: "lb", country: "Lebanon" },
   Serbian: { code: "rs", country: "Serbia" },
+  Chinese: { code: "cn", country: "China" },
 };
 
 export function NationalityFlags({ nationality, nationalities, compact = false }: {

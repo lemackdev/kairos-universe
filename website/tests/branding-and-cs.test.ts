@@ -19,13 +19,14 @@ describe("branding and Counter-Strike publication", () => {
     expect(branding.uniforms.every(u => u.technicalSupplier.status === "pending-formal-narrative-canonization" && u.technicalSupplier.contractValue === null)).toBe(true);
     expect(() => safeAssetPath(root, "assets/../../outside.png")).toThrow();
   });
-  it("publishes CS academy branding but no LoL academy references", () => {
-    const filtered = filterBranding(loadBranding(root), loadPublicationManifest().enabledTeams);
-    expect(filtered.uniforms).toHaveLength(2);
-    expect(filtered.assets).toHaveLength(6);
-    expect(JSON.stringify(filtered)).not.toContain("kairos-lol-academy-blue");
-    expect(JSON.stringify(filtered)).not.toContain("kairos-lol-academy-white");
-    expect(JSON.stringify(filtered)).toContain("kairos-cs-academy");
+  it("publishes branding for every enabled team", () => {
+    const manifest = loadPublicationManifest();
+    const filtered = filterBranding(loadBranding(root), manifest.enabledTeams);
+    expect(filtered.uniforms).toHaveLength(4);
+    expect(filtered.assets).toHaveLength(10);
+    for (const teamId of manifest.enabledTeams) {
+      expect(JSON.stringify(filtered)).toContain(teamId);
+    }
   });
   it("publishes five signed CS players, exactly one captain, and no official results", () => {
     const catalog = buildCatalog(loadCanonUniverse(), loadPublicationManifest());

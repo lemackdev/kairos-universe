@@ -63,7 +63,7 @@ describe("pre-Worlds 2026 external references", () => {
     expect(catalog.players.map((player) => player.id)).toEqual(loadPublicationManifest().enabledPlayers);
     expect(catalog.players.find((p) => p.nickname === "404")?.role).toBe("Mid");
     expect(catalog.teams[0]?.captainPlayerId).toBe("daniel-moss-reyes");
-    for (const hidden of ["kairos-counter-strike-main", "kairos-lol-academy-blue", "kairos-lol-academy-white"]) expect(JSON.stringify(catalog)).not.toContain(hidden);
+    expect(JSON.stringify(catalog)).not.toContain("kairos-counter-strike-main");
   });
   it("renders source-backed pages without claiming real players have no official career", () => {
     const team = scene.teams.find((t) => t.name === "T1")!;

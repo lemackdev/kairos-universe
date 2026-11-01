@@ -9,7 +9,9 @@
   "enabledTeams": [
     "kairos-lol-main",
     "kairos-cs-main",
-    "kairos-cs-academy"
+    "kairos-cs-academy",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
   ],
   "enabledPlayers": [
     "noah-rkn-bennett",
@@ -26,7 +28,17 @@
     "milo-velcrodog-radovic",
     "nolan-dentalplan-hart",
     "reid-wrongnumber-hart",
-    "zayn-parkinglot-haddad"
+    "zayn-parkinglot-haddad",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "benjamin-vex-carter",
+    "cole-june-mercer",
+    "isaac-pebble-young",
+    "nathan-0bit-hall",
+    "ryan-luma-chen"
   ],
   "enabledStaff": [
     "adrian-elias-vale",

@@ -1,0 +1,24 @@
+{
+  "id": "isaac-pebble-young-kairos-lol-academy-white",
+  "slug": "isaac-pebble-young-kairos-lol-academy-white",
+  "continuityId": "kairos-universe",
+  "playerId": "isaac-pebble-young",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-white",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-top",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-isaac-pebble-young",
+    "source-team-kairos-lol-academy-white"
+  ],
+  "canonStatus": "confirmed"
+}

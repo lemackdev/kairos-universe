@@ -41,8 +41,6 @@ describe("initial Kairospedia publication", () => {
     expect(catalog.matches).toEqual([]);
     expect(catalog.teams[0]?.statistics).toEqual({});
     const serialized = JSON.stringify(catalog);
-    expect(serialized).not.toContain("kairos-lol-academy-blue");
-    expect(serialized).not.toContain("kairos-lol-academy-white");
     expect(serialized).not.toContain("kairos-counter-strike-main");
     expect(catalog.matches).toHaveLength(0);
   });
@@ -54,9 +52,8 @@ describe("initial Kairospedia publication", () => {
       catalog.routes.some((route) => route.includes("counter-strike")),
     ).toBe(true);
     expect(catalog.routes).toContain("/wiki/teams/kairos-cs-academy");
-    expect(
-      catalog.routes.some((route) => route.includes("lol-academy")),
-    ).toBe(false);
+    expect(catalog.routes).toContain("/wiki/teams/kairos-lol-academy-blue");
+    expect(catalog.routes).toContain("/wiki/teams/kairos-lol-academy-white");
   });
 
   it("renders readable source labels without filesystem paths", () => {

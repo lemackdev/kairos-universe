@@ -37,7 +37,7 @@ describe("local publication search", () => {
       "kairos-lol-main",
     );
     expect(searchRecords(records, "Academy").some((record) => record.id === "kairos-cs-academy")).toBe(true);
-    expect(searchRecords(records, "Academy").every((record) => !record.id.includes("lol-academy"))).toBe(true);
+    expect(searchRecords(records, "Academy").some((record) => record.id === "kairos-lol-academy-blue")).toBe(true);
     expect(searchRecords(records, "Counter-Strike").some((record) => record.id === "game-counter-strike")).toBe(true);
   });
 });

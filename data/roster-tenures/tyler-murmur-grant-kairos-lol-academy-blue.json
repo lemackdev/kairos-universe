@@ -1,0 +1,24 @@
+{
+  "id": "tyler-murmur-grant-kairos-lol-academy-blue",
+  "slug": "tyler-murmur-grant-kairos-lol-academy-blue",
+  "continuityId": "kairos-universe",
+  "playerId": "tyler-murmur-grant",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-blue",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-adc",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-tyler-murmur-grant",
+    "source-team-kairos-lol-academy-blue"
+  ],
+  "canonStatus": "confirmed"
+}

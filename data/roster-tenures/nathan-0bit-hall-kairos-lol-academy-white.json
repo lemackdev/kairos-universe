@@ -1,0 +1,24 @@
+{
+  "id": "nathan-0bit-hall-kairos-lol-academy-white",
+  "slug": "nathan-0bit-hall-kairos-lol-academy-white",
+  "continuityId": "kairos-universe",
+  "playerId": "nathan-0bit-hall",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-white",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-mid",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-nathan-0bit-hall",
+    "source-team-kairos-lol-academy-white"
+  ],
+  "canonStatus": "confirmed"
+}

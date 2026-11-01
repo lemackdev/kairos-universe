@@ -1,0 +1,24 @@
+{
+  "id": "owen-kite-hughes-kairos-lol-academy-blue",
+  "slug": "owen-kite-hughes-kairos-lol-academy-blue",
+  "continuityId": "kairos-universe",
+  "playerId": "owen-kite-hughes",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-blue",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-mid",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-owen-kite-hughes",
+    "source-team-kairos-lol-academy-blue"
+  ],
+  "canonStatus": "confirmed"
+}

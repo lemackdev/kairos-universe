@@ -4,8 +4,13 @@
   "realName": "Tyler Grant",
   "nickname": "Murmur",
   "historicalAliases": [],
-  "nationality": "TBD",
-  "city": "TBD",
+  "nationality": "American",
+  "city": "Boise",
+  "homeTown": {
+    "city": "Boise",
+    "region": "Idaho",
+    "country": "United States"
+  },
   "dateOfBirth": "2009-08-19",
   "ageAtCurrentStoryDate": 17,
   "game": "League of Legends",
@@ -50,17 +55,17 @@
     "The player has not made an official competitive debut with Kairos.",
     "The player's role is ADC.",
     "The player is age 17 at the current story date of 2026-11-24.",
-    "The player's date of birth is 2009-08-19."
+    "The player's date of birth is 2009-08-19.",
+    "The player's confirmed city is Boise, Idaho.",
+    "Confirmed nationalities: American."
   ],
   "unconfirmedDetails": [
-    "Nationality is TBD.",
     "First appearance is TBD.",
     "The exact date the player joined Kairos is TBD.",
     "Contract status, dates, and salary are TBD.",
     "Playstyle, strengths, weaknesses, inspirations, objectives, and insecurities are TBD.",
     "Statistics, achievements, and trivia are TBD.",
     "Personality is TBD.",
-    "City is TBD.",
     "Captain status is TBD.",
     "Whether Kairos is the player's first professional team is TBD."
   ],

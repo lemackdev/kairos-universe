@@ -1,0 +1,13 @@
+{
+  "id": "source-team-kairos-lol-academy-white",
+  "slug": "source-team-kairos-lol-academy-white",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Kairos Academy White canonical record",
+  "path": "data/teams/kairos-academy-white.json",
+  "locator": null,
+  "publicLabel": "Kairos Academy White canonical record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": []
+}

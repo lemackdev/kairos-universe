@@ -1,0 +1,24 @@
+{
+  "id": "cole-june-mercer-kairos-lol-academy-white",
+  "slug": "cole-june-mercer-kairos-lol-academy-white",
+  "continuityId": "kairos-universe",
+  "playerId": "cole-june-mercer",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-white",
+  "gameId": "game-league-of-legends",
+  "roleId": "role-adc",
+  "rosterStatus": "active",
+  "isCaptain": false,
+  "isStarter": true,
+  "joinedDate": "TBD",
+  "leftDate": null,
+  "datePrecision": "unknown",
+  "announcementDate": "TBD",
+  "effectiveDate": "TBD",
+  "endReason": null,
+  "sourceIds": [
+    "source-player-cole-june-mercer",
+    "source-team-kairos-lol-academy-white"
+  ],
+  "canonStatus": "confirmed"
+}

@@ -7,14 +7,14 @@ import styles from "./WikiArticle.module.css";
 export type ArticleSection = { id: string; title: string };
 
 export function WikiArticle({ title, kind, game, sections, infobox, children }: {
-  title: string; kind: "Teams" | "Players" | "Tournaments"; game: string;
+  title: string; kind: "Teams" | "Players" | "Tournaments" | "Staff" | "Organizations" | "Games"; game: string;
   sections: ArticleSection[]; infobox: ReactNode; children: ReactNode;
 }) {
   return <article className={`wikiArticle ${styles.article}`}>
     <Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" },
       { label: kind, href: `/wiki/${kind === "Tournaments" ? "competitions" : kind.toLowerCase()}` }, { label: title }]} />
     <header className={styles.header}>
-      <span className={styles.kicker}>{game} / {kind === "Teams" ? "Team" : kind === "Players" ? "Player" : "Tournament"}</span>
+      <span className={styles.kicker}>{game} / {kind === "Teams" ? "Team" : kind === "Players" ? "Player" : kind === "Tournaments" ? "Tournament" : kind === "Staff" ? "Staff" : kind.slice(0, -1)}</span>
       <h1>{title}</h1>
       <span className={styles.edition}>Kairos Universe encyclopedia</span>
     </header>

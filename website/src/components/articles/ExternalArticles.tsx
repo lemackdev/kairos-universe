@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArticleInfobox, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 import { RealWorldTeamsTable } from "./RealWorldTeamsTable";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { ExternalRosterTable } from "@/components/ExternalRosterTable";
 import { formatDate } from "@/lib/formatting/date";
@@ -69,13 +68,36 @@ export function ExternalPlayerArticle({ player, scene }: { player: ScenePlayer; 
 
 export function ExternalOrganizationArticle({ organization, scene }: { organization: SceneOrganization; scene: ExternalScene }) {
   const logo = externalLogoPath(organization.slug);
-  return <article><Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Organizations", href: "/wiki/organizations" }, { label: organization.name }]} />
-    {logo && <img src={logo} alt={`${organization.name} logo`} style={{ maxWidth: "160px", maxHeight: "120px", height: "auto", objectFit: "contain", marginBottom: "0.75rem" }} />}
-    <h1>{organization.name}</h1><ReferenceNotice />
-    <section className="contentSection"><h2>Organization Information</h2><p>This is an esports brand record, separate from its game-specific team. Legal company identity, ownership, headquarters and staff history have not been imported.</p></section>
-    <section className="contentSection"><h2>Published Teams</h2><ul>{scene.teams.filter((t) => organization.teamIds.includes(t.id)).map((t) => <li key={t.id}><Link href={`/wiki/teams/${t.slug}`}>{t.name}</Link>, {t.league}</li>)}</ul></section>
-    <section className="contentSection"><h2>Sources</h2><ExternalSources scene={scene} ids={organization.sourceIds} /></section>
-  </article>;
+  const sections = [
+    { id: "overview", title: "Overview" },
+    { id: "organization-information", title: "Organization Information" },
+    { id: "teams", title: "Teams" },
+    { id: "sources", title: "Sources" },
+  ];
+  const teams = scene.teams.filter((team) => organization.teamIds.includes(team.id));
+  return <WikiArticle title={organization.name} kind="Organizations" game="Real-world reference" sections={sections}
+    infobox={<ArticleInfobox title={organization.name} monogram={organization.name.slice(0, 2)}
+      image={logo && <img src={logo} alt={`${organization.name} logo`} style={{ maxWidth: "100%", maxHeight: "150px", objectFit: "contain" }} />}
+      groups={[{ title: "Organization Information", rows: [
+        { label: "Origin", value: "Real-world reference" },
+        { label: "Published teams", value: teams.length },
+        { label: "Ownership", value: "Unknown" },
+      ] }]} />}>
+    <ReferenceNotice />
+    <ArticleSection {...sections[0]!}>
+      <p>{organization.name} is a real-world esports brand reference, not a fictional Kairos organization.</p>
+    </ArticleSection>
+    <ArticleSection {...sections[1]!}>
+      <p>Legal company identity, ownership, headquarters and staff history have not been imported.</p>
+    </ArticleSection>
+    <ArticleSection {...sections[2]!}>
+      <WikiTable caption="Referenced teams" columns={["Team", "League"]} empty="No teams listed."
+        rows={teams.map((team) => ({ key: team.id, cells: [
+          <Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.league,
+        ] }))} />
+    </ArticleSection>
+    <ArticleSection {...sections[3]!}><ExternalSources scene={scene} ids={organization.sourceIds} /></ArticleSection>
+  </WikiArticle>;
 }
 
 export function ExternalIndex({ scene, kind }: { scene: ExternalScene | undefined; kind: "teams" | "players" | "organizations" }) {

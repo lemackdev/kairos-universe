@@ -21,7 +21,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     { label: "Name", value: player.realName },
     { label: "Nationality", value: <NationalityFlags nationality={player.nationality} nationalities={player.nationalities} /> },
     { label: "Date of birth", value: formatDate(player.dateOfBirth) },
-    { label: "Age", value: player.age == null ? "TBD" : `${player.age} (as of ${narrativeDate})` },
+    { label: "Age", value: player.age == null ? "TBD" : `${player.age} (as of ${formatDate(narrativeDate)})` },
     { label: "City", value: player.city ? player.cityRegion ? `${player.city}, ${player.cityRegion}` : player.city : "TBD" },
   ];
   const competitive = [

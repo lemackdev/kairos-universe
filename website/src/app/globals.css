@@ -942,3 +942,77 @@ body:has(.wikiArticle) { background: var(--paper-muted); }
   .wikiGrid:has(.wikiArticle) .canonRail { display: none; }
   .wikiGrid:has(.wikiArticle) .mainContent { padding-top: 16px; }
 }
+
+/* Browse and policy pages use the same encyclopedia frame as entity articles. */
+body:has(.wikiGrid) { background: var(--paper-muted); }
+.wikiGrid:not(:has(.wikiArticle)) { grid-template-columns: 170px minmax(0, 1fr); gap: 24px; }
+.wikiGrid:not(:has(.wikiArticle)) .mainContent {
+  grid-column: 2;
+  min-width: 0;
+  margin: 24px 0 72px;
+  padding: 18px 22px 42px;
+  border: 1px solid #c7cfd5;
+  border-top: 3px solid var(--gold);
+  color: #202c36;
+  background: #fafbfc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.wikiGrid:not(:has(.wikiArticle)) .sideNav { grid-column: 1; grid-row: 1; }
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader {
+  gap: 0.4rem;
+  padding: 0 0 16px;
+  border-bottom: 2px solid var(--gold);
+}
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader h1 {
+  font-family: var(--font-body);
+  font-size: clamp(25px, 2.5vw, 34px);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader .lede {
+  max-width: 800px;
+  color: #52616c;
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+.wikiGrid:not(:has(.wikiArticle)) .contentSection {
+  gap: 0.75rem;
+  padding: 20px 0;
+  border-bottom: 1px solid #c7cfd5;
+}
+.wikiGrid:not(:has(.wikiArticle)) .contentSection h2 {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 600;
+}
+.wikiGrid:not(:has(.wikiArticle)) .entityCard,
+.wikiGrid:not(:has(.wikiArticle)) .featureCard,
+.wikiGrid:not(:has(.wikiArticle)) .metricCard {
+  min-height: 0;
+  box-shadow: none;
+  background: #edf1f4;
+  border-color: #c7cfd5;
+}
+.wikiGrid:not(:has(.wikiArticle)) .mainContent a { color: #12618e; }
+@media (prefers-color-scheme: dark) {
+  .wikiGrid:not(:has(.wikiArticle)) .mainContent {
+    border-color: #434b52;
+    color: #e4e8eb;
+    background: #282c30;
+  }
+  .wikiGrid:not(:has(.wikiArticle)) .pageHeader .lede { color: #adb7bf; }
+  .wikiGrid:not(:has(.wikiArticle)) .contentSection { border-color: #434b52; }
+  .wikiGrid:not(:has(.wikiArticle)) .entityCard,
+  .wikiGrid:not(:has(.wikiArticle)) .featureCard,
+  .wikiGrid:not(:has(.wikiArticle)) .metricCard { border-color: #434b52; background: #20262b; }
+  .wikiGrid:not(:has(.wikiArticle)) .mainContent a { color: #71bce7; }
+}
+@media (max-width: 1000px) {
+  .wikiGrid:not(:has(.wikiArticle)) { display: block; }
+  .wikiGrid:not(:has(.wikiArticle)) .sideNav { display: none; }
+  .wikiGrid:not(:has(.wikiArticle)) .mainContent { margin-top: 16px; }
+}
+@media (max-width: 620px) {
+  .wikiGrid:not(:has(.wikiArticle)) .mainContent { padding: 14px; }
+}

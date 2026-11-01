@@ -162,16 +162,41 @@ code {
 
 .wordmark {
   display: inline-flex;
+  gap: 0.6rem;
   align-items: center;
   min-width: max-content;
+  color: var(--ink);
   text-decoration: none;
 }
 
 .wordmark img {
   display: block;
-  width: 3.5rem;
+  width: 2.8rem;
   height: 2.8rem;
   object-fit: contain;
+}
+
+.wordmarkType {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
+}
+
+.wordmarkName {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 600;
+  letter-spacing: -0.045em;
+}
+
+.wordmarkDescriptor {
+  margin-top: 0.2rem;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.53rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .topNavLinks {
@@ -179,6 +204,7 @@ code {
   gap: 1.25rem;
   align-items: center;
   margin-left: auto;
+  min-width: 0;
   overflow-x: auto;
   scrollbar-width: none;
 }

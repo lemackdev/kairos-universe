@@ -5,7 +5,12 @@
   "nickname": "MoteConHuesillo",
   "historicalAliases": [],
   "nationality": "Mexican",
-  "city": "TBD",
+  "city": "Colima",
+  "homeTown": {
+    "city": "Colima",
+    "region": "Colima",
+    "country": "Mexico"
+  },
   "currentResidence": {
     "city": "Puerto Varas",
     "region": "Los Lagos Region",
@@ -30,7 +35,7 @@
   },
   "occupation": "Part-time computer assembler at a local computer shop",
   "background": [
-    "Mexican citizen whose father moved the family to Chile for work four years before Episode 42.",
+    "Born and raised in Colima, Mexico, before his father moved the family to Chile for work four years before Episode 42, settling first in Valparaíso before relocating to Puerto Varas.",
     "Competes primarily in Chilean and Argentine amateur events."
   ],
   "personality": "Quiet and intelligent.",
@@ -129,7 +134,9 @@
   ],
   "statistics": {},
   "achievements": [],
-  "trivia": [],
+  "trivia": [
+    "His nickname references mote con huesillo, a traditional Chilean wheat-and-dried-peach drink, reflecting his life in Chile."
+  ],
   "currentState": [
     "Signed to Kairos Counter-Strike.",
     "Active on the main roster.",
@@ -140,7 +147,8 @@
   "confirmedFacts": [
     "MoteConHuesillo is his only canonical nickname.",
     "He is a Mexican citizen currently living in Puerto Varas, Los Lagos Region, Chile.",
-    "His father moved the family to Chile for work four years before Episode 42.",
+    "He was born and raised in Colima, Mexico.",
+    "His father moved the family to Chile for work four years before Episode 42, settling first in Valparaíso before Puerto Varas.",
     "He works part-time assembling computers at a local computer shop.",
     "He is quiet and wins rounds through positioning, timing, space control, and intelligent decisions rather than highlight plays.",
     "His first appearance is Episode 42.",
@@ -157,7 +165,6 @@
     "Confirmed nationalities: Mexican and Chilean."
   ],
   "unconfirmedDetails": [
-    "Mexican home town is TBD.",
     "Previous teams and detailed tournament history are TBD.",
     "Recruitment outcome, statistics, and achievements are TBD."
   ],

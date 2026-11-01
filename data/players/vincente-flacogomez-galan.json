@@ -5,7 +5,12 @@
   "nickname": "FLACOGOMEZ",
   "historicalAliases": [],
   "nationality": "American",
-  "city": "TBD",
+  "city": "Tulsa",
+  "homeTown": {
+    "city": "Tulsa",
+    "region": "Oklahoma",
+    "country": "United States"
+  },
   "dateOfBirth": "2009-07-29",
   "ageAtCurrentStoryDate": 17,
   "game": "Counter-Strike",
@@ -24,8 +29,8 @@
     "salary": "TBD"
   },
   "background": [
-    "Son of Brazilian parents.",
-    "Born and raised in the United States and has never lived in Brazil.",
+    "Son of Brazilian parents who emigrated from Curitiba, Brazil before he was born.",
+    "Born and raised in Tulsa, Oklahoma, before his family relocated to California; has never lived in Brazil.",
     "Understands Portuguese through his family."
   ],
   "personality": "Collaborative, low-ego, and comfortable contributing without recognition.",
@@ -100,8 +105,8 @@
     "His canonical role is Support / Anchor.",
     "He is 17 years old on 2026-11-24.",
     "His date of birth is 2009-07-29.",
-    "He is American and is the son of Brazilian parents.",
-    "He was born and raised in the United States and has never lived in Brazil.",
+    "He is American and is the son of Brazilian parents who emigrated from Curitiba, Brazil.",
+    "He was born and raised in Tulsa, Oklahoma, and has never lived in Brazil.",
     "He understands Portuguese through his family.",
     "He is a lifelong Palmeiras supporter.",
     "He has completed a Kairos interview.",
@@ -115,7 +120,7 @@
   "unconfirmedDetails": [
     "Weaknesses, objectives, and insecurities beyond the source-confirmed profile are TBD.",
     "Previous teams, tournament history, statistics, and achievements are TBD.",
-    "Exact California city and home town are TBD.",
+    "Exact California city is TBD.",
     "Contract duration, salary, buyout, bonuses, agent, and other financial terms are TBD."
   ],
   "canonNotes": [

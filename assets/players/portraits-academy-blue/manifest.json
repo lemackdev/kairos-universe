@@ -1,0 +1,71 @@
+{
+  "collection": "kairos-academy-blue-portraits",
+  "status": "illustrative-generated-artwork",
+  "narrativeDate": "2026-11-24",
+  "uniformId": "kairos-academy-blue-2027",
+  "uniformReference": "assets/uniforms/2027/kairos/blue/front.png",
+  "source": "image_gen.imagegen",
+  "canonNotes": [
+    "These fictional portraits are visual interpretations, not documentary photographs or new biographical canon.",
+    "Faces, body types, skin texture, hair, and expressions are not established character facts.",
+    "Hometown-inspired backgrounds do not establish a documented visit or portrait date.",
+    "The approved 2027 uniform design does not establish a current sponsorship contract."
+  ],
+  "portraits": [
+    {
+      "playerId": "connor-mako-sullivan",
+      "file": "assets/players/portraits-academy-blue/connor-mako-sullivan.png",
+      "width": 1145,
+      "height": 1374,
+      "sha256": "cb24289d93303e224078cd5f9e28d24764be41fef5895fc3ff989f7f075423b8",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Connor Sullivan (Mako) in the Kairos Academy Blue jersey",
+      "sourceRecord": "data/players/connor-mako-sullivan.json",
+      "artDirection": "Broad face, short crop, natural skin texture; Spokane riverfront-inspired background."
+    },
+    {
+      "playerId": "jacob-xnox-price",
+      "file": "assets/players/portraits-academy-blue/jacob-xnox-price.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1ef04d3421aa7d4f49cd3a376724b3a96af91c496ff234db6408774119397b46",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Jacob Price (xNox) in the Kairos Academy Blue jersey",
+      "sourceRecord": "data/players/jacob-xnox-price.json",
+      "artDirection": "Close-cropped hair, rounded features, no glasses; Baton Rouge riverfront-inspired background."
+    },
+    {
+      "playerId": "owen-kite-hughes",
+      "file": "assets/players/portraits-academy-blue/owen-kite-hughes.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "012b7bc9614b92a260c235909fa95ce5f63b5ff1e58e932560556dacda55e0e1",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Owen Hughes (Kite) in the Kairos Academy Blue jersey",
+      "sourceRecord": "data/players/owen-kite-hughes.json",
+      "artDirection": "Narrow face, uneven dark fringe; Kelowna lake-inspired background."
+    },
+    {
+      "playerId": "tyler-murmur-grant",
+      "file": "assets/players/portraits-academy-blue/tyler-murmur-grant.png",
+      "width": 1310,
+      "height": 1200,
+      "sha256": "a25c9c00e7cca28fa537d126c1c9da3d903678e30aae47b03483c05686dafd61",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Tyler Grant (Murmur) in the Kairos Academy Blue jersey",
+      "sourceRecord": "data/players/tyler-murmur-grant.json",
+      "artDirection": "Straight short red hair, prominent ears and acne; Boise foothills-inspired background."
+    },
+    {
+      "playerId": "lucas-grit-foster",
+      "file": "assets/players/portraits-academy-blue/lucas-grit-foster.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ef885bb2817b140550823b3db07dfa1dd84c179fe5777cbc8a624e6cafa11fed",
+      "age": 18,
+      "altText": "AI-generated illustrative portrait of Lucas Foster (Grit) in the Kairos Academy Blue jersey",
+      "sourceRecord": "data/players/lucas-grit-foster.json",
+      "artDirection": "Short dark hair and reserved expression; Tucson desert-inspired background."
+    }
+  ]
+}

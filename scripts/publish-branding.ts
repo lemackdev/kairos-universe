@@ -25,9 +25,18 @@ fs.mkdirSync(path.join(appRoot, ".generated"), { recursive: true });
 fs.writeFileSync(path.join(appRoot, ".generated/branding.json"), JSON.stringify(catalog, null, 2) + "\n");
 console.log(`Branding validated: ${full.uniforms.length} uniforms, ${full.assets.length} PNG assets. Published: ${catalog.uniforms.length} uniform, ${catalog.assets.length} assets.`);
 
-const portraitManifest = JSON.parse(fs.readFileSync(path.join(root, "assets/players/portraits-v2/manifest.json"), "utf8")) as { portraits: PlayerPortraitAsset[] };
-const portraits = portraitManifest.portraits.filter(p => manifest.enabledPlayers.includes(p.playerId));
-if (new Set(portraits.map(p => p.playerId)).size !== portraits.length) throw new Error("Duplicate portrait identity");
+const portraitManifestPaths = [
+  "assets/players/portraits-v2/manifest.json",
+  "assets/players/portraits-academy-blue/manifest.json",
+  "assets/players/portraits-academy-white/manifest.json",
+  "assets/players/portraits-cs-academy/manifest.json",
+];
+const allPortraits = portraitManifestPaths.flatMap(file => {
+  const collection = JSON.parse(fs.readFileSync(path.join(root, file), "utf8")) as { portraits: PlayerPortraitAsset[] };
+  return collection.portraits;
+});
+if (new Set(allPortraits.map(p => p.playerId)).size !== allPortraits.length) throw new Error("Duplicate portrait identity");
+const portraits = allPortraits.filter(p => manifest.enabledPlayers.includes(p.playerId));
 const portraitDirectory = path.join(appRoot, "public/portraits");
 if (fs.existsSync(portraitDirectory) && !fs.existsSync(path.join(portraitDirectory, ".generated-assets"))) throw new Error("Unowned portraits directory");
 fs.mkdirSync(portraitDirectory, { recursive: true });

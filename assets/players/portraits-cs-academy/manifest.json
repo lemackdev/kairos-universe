@@ -1,0 +1,72 @@
+{
+  "collection": "kairos-cs-academy-portraits",
+  "status": "illustrative-generated-artwork",
+  "narrativeDate": "2026-11-24",
+  "uniformId": "kairos-cs-academy-green-2027",
+  "uniformReference": "assets/uniforms/2027/kairos/green/front.png",
+  "source": "image_gen.imagegen",
+  "canonNotes": [
+    "These fictional portraits are visual interpretations, not documentary photographs or new biographical canon.",
+    "Faces, body types, skin texture, hair, and expressions are not established character facts.",
+    "Current-city-inspired backgrounds do not establish a documented visit or portrait date.",
+    "The Hart brothers are confirmed twins; the artwork does not establish whether they are identical twins.",
+    "The approved 2027 uniform design does not establish a current sponsorship contract."
+  ],
+  "portraits": [
+    {
+      "playerId": "evan-soupcrime-nakamura",
+      "file": "assets/players/portraits-cs-academy/evan-soupcrime-nakamura.png",
+      "width": 1161,
+      "height": 1355,
+      "sha256": "4ab7e414dd6e31df3936d6f6b37f11062e532fa33f20a9152781726c76a03ba3",
+      "age": 15,
+      "altText": "AI-generated illustrative portrait of Evan Nakamura (soupcrime) in the Kairos CS Academy green jersey",
+      "sourceRecord": "data/players/evan-soupcrime-nakamura.json",
+      "artDirection": "Smaller frame, uneven dark fringe and observant expression; San Jose neighborhood-inspired background."
+    },
+    {
+      "playerId": "milo-velcrodog-radovic",
+      "file": "assets/players/portraits-cs-academy/milo-velcrodog-radovic.png",
+      "width": 1200,
+      "height": 1311,
+      "sha256": "f77288da44716ceeee846754da71b3b81ce0a405f4adb6ca21cc2b4838b4b72d",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Milo Radovic (velcrodog) in the Kairos CS Academy green jersey",
+      "sourceRecord": "data/players/milo-velcrodog-radovic.json",
+      "artDirection": "Broader build, crooked nose, braces and open smile; Sacramento riverfront-inspired background."
+    },
+    {
+      "playerId": "zayn-parkinglot-haddad",
+      "file": "assets/players/portraits-cs-academy/zayn-parkinglot-haddad.png",
+      "width": 1145,
+      "height": 1374,
+      "sha256": "7bfac4d56ef6054beb4408358f3864745aecc535368de1c66cb4220e6b444f6b",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Zayn Haddad (parkinglot) in the Kairos CS Academy green jersey",
+      "sourceRecord": "data/players/zayn-parkinglot-haddad.json",
+      "artDirection": "Angular face, short curls and thoughtful expression; Irvine palms-inspired background."
+    },
+    {
+      "playerId": "nolan-dentalplan-hart",
+      "file": "assets/players/portraits-cs-academy/nolan-dentalplan-hart.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "664260d9333419beb3cd5ea9e984ce382f4be57e68703bc77749690b71c82ed9",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Nolan Hart (dentalplan) in the Kairos CS Academy green jersey",
+      "sourceRecord": "data/players/nolan-dentalplan-hart.json",
+      "artDirection": "Freckles, tidy sandy hair and composed expression; Long Beach harbor-inspired background."
+    },
+    {
+      "playerId": "reid-wrongnumber-hart",
+      "file": "assets/players/portraits-cs-academy/reid-wrongnumber-hart.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "74ac6f5643462c3d0781e4df3acc2e1c9bc42a418b3d5ca0d3a89ac2408c462d",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Reid Hart (wrongnumber) in the Kairos CS Academy green jersey",
+      "sourceRecord": "data/players/reid-wrongnumber-hart.json",
+      "artDirection": "Family resemblance to Nolan, messier sandy hair and playful smile; Long Beach promenade-inspired background."
+    }
+  ]
+}

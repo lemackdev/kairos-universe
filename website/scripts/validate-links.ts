@@ -51,14 +51,12 @@ for (const file of walk(sourceRoot)) {
 }
 
 const serialized = JSON.stringify(catalog);
-for (const hiddenId of [
-  "kairos-lol-academy-blue",
-  "kairos-lol-academy-white",
-  "kairos-counter-strike-main",
-  "kairos-counter-strike-academy",
-]) {
-  if (serialized.includes(hiddenId)) {
-    throw new Error(`Hidden canonical entity leaked into catalog: ${hiddenId}`);
+const publication = readJson<{ enabledTeams: string[] }>(path.join(websiteRoot, "kairospedia-publication.json"));
+const teamFiles = readJson<string[]>(path.join(repositoryRoot, "index/teams.json"));
+for (const file of teamFiles) {
+  const team = readJson<{ id: string }>(path.join(repositoryRoot, file));
+  if (!publication.enabledTeams.includes(team.id) && serialized.includes(team.id)) {
+    throw new Error(`Hidden canonical entity leaked into catalog: ${team.id}`);
   }
 }
 

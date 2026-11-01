@@ -49,10 +49,29 @@ describe("branding and Counter-Strike publication", () => {
       expect(page).toContain(player.id + ".png");
     }
   });
-  it("maps ten distinct portrait files to current narrative ages", () => {
+  it("maps twenty-five distinct portraits across the published Kairos rosters", () => {
     const portraits = readPublishedPortraits();
-    expect(portraits).toHaveLength(10);
-    expect(new Set(portraits.map(p => p.sha256)).size).toBe(10);
-    expect(portraits.every(p => p.width === 1024 && p.height === 1536)).toBe(true);
+    expect(portraits).toHaveLength(25);
+    expect(new Set(portraits.map(p => p.sha256)).size).toBe(25);
+    for (const teamId of ["kairos-lol-academy-blue", "kairos-lol-academy-white", "kairos-cs-academy"]) {
+      const catalog = buildCatalog(loadCanonUniverse(), loadPublicationManifest());
+      const players = catalog.players.filter(p => p.currentTeamId === teamId);
+      expect(players).toHaveLength(5);
+      expect(portraits.filter(p => players.some(player => player.id === p.playerId))).toHaveLength(5);
+    }
+    expect(portraits.every(p => p.width >= 1000 && p.height >= 1000)).toBe(true);
+  });
+  it("renders all academy portraits on their player articles", () => {
+    const catalog = buildCatalog(loadCanonUniverse(), loadPublicationManifest());
+    for (const [teamId, jersey] of [["kairos-lol-academy-blue", "Kairos Academy Blue jersey"], ["kairos-lol-academy-white", "Kairos Academy White jersey"], ["kairos-cs-academy", "Kairos CS Academy green jersey"]]) {
+      const team = catalog.teams.find(t => t.id === teamId)!;
+      const players = catalog.players.filter(p => p.currentTeamId === team.id);
+      expect(players).toHaveLength(5);
+      for (const player of players) {
+        const page = renderToStaticMarkup(createElement(PlayerArticle, { player, team, narrativeDate: catalog.metadata.currentNarrativeDate }));
+        expect(page).toContain(`${player.id}.png`);
+        expect(page).toContain(jersey);
+      }
+    }
   });
 });

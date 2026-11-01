@@ -1,0 +1,71 @@
+{
+  "collection": "kairos-academy-white-portraits",
+  "status": "illustrative-generated-artwork",
+  "narrativeDate": "2026-11-24",
+  "uniformId": "kairos-academy-white-2027",
+  "uniformReference": "assets/uniforms/2027/kairos/white/front.png",
+  "source": "image_gen.imagegen",
+  "canonNotes": [
+    "These fictional portraits are visual interpretations, not documentary photographs or new biographical canon.",
+    "Faces, body types, skin texture, hair, and expressions are not established character facts.",
+    "Hometown-inspired backgrounds do not establish a documented visit or portrait date.",
+    "The approved 2027 uniform design does not establish a current sponsorship contract."
+  ],
+  "portraits": [
+    {
+      "playerId": "isaac-pebble-young",
+      "file": "assets/players/portraits-academy-white/isaac-pebble-young.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d001d3aad9005e98ce0e98f9290ff70481e08e7533f273e3126479907d8fc484",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Isaac Young (Pebble) in the Kairos Academy White jersey",
+      "sourceRecord": "data/players/isaac-pebble-young.json",
+      "artDirection": "Short twists, compact face, visible acne; Akron riverfront-inspired background."
+    },
+    {
+      "playerId": "benjamin-vex-carter",
+      "file": "assets/players/portraits-academy-white/benjamin-vex-carter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ddcc481a5cecea9e600118ca9d85f868b74cd8d2db0d44c50abd505f9f3fbf27",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Benjamin Carter (Vex) in the Kairos Academy White jersey",
+      "sourceRecord": "data/players/benjamin-vex-carter.json",
+      "artDirection": "Heavier build, round face, straight short hair and shy smile; Madison lake-inspired background."
+    },
+    {
+      "playerId": "nathan-0bit-hall",
+      "file": "assets/players/portraits-academy-white/nathan-0bit-hall.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "5032c297248c9253b7741a77228a79208f5278204015e28d1541e5552b5c3361",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Nathan Hall (0bit) in the Kairos Academy White jersey",
+      "sourceRecord": "data/players/nathan-0bit-hall.json",
+      "artDirection": "Longer dark hair, lean face and composed expression; Albuquerque and Sandia Mountains-inspired background."
+    },
+    {
+      "playerId": "cole-june-mercer",
+      "file": "assets/players/portraits-academy-white/cole-june-mercer.png",
+      "width": 1145,
+      "height": 1374,
+      "sha256": "0c4840a76902c109d16aa1f5b41c969d74d22000d8567cba066906466c2e93c0",
+      "age": 17,
+      "altText": "AI-generated illustrative portrait of Cole Mercer (June) in the Kairos Academy White jersey",
+      "sourceRecord": "data/players/cole-june-mercer.json",
+      "artDirection": "Lanky build, short ash-blond hair, freckles and prominent ears; Regina lake-inspired background."
+    },
+    {
+      "playerId": "ryan-luma-chen",
+      "file": "assets/players/portraits-academy-white/ryan-luma-chen.png",
+      "width": 1132,
+      "height": 1390,
+      "sha256": "392a8d1e6e61afeda7d276f8253f076b486797744fef29c14374bff73a30142b",
+      "age": 16,
+      "altText": "AI-generated illustrative portrait of Ryan Chen (Luma) in the Kairos Academy White jersey",
+      "sourceRecord": "data/players/ryan-luma-chen.json",
+      "artDirection": "Round face, chin-length dark hair and soft expression; Richmond waterfront-inspired background."
+    }
+  ]
+}

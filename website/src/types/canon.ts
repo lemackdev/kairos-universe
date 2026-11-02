@@ -132,6 +132,7 @@ export interface RawStaff {
   realName: string;
   nickname: string;
   nationality: string;
+  nationalities?: string[];
   role: string;
   division: string;
   currentOrganization: string;

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { EpisodeReferenceList } from "@/components/EpisodeReferenceList";
 import { SourceList } from "@/components/SourceList";
 import { StaffPortrait } from "@/components/StaffPortrait";
+import { NationalityFlags } from "@/components/NationalityFlags";
 import { TenureTimeline } from "@/components/TenureTimeline";
 import type { StaffView } from "@/types/catalog";
 import { ArticleInfobox, ArticleSection, WikiArticle } from "./WikiArticle";
@@ -18,7 +19,7 @@ export function StaffArticle({ person }: { person: StaffView }) {
   ];
   const facts = [
     { label: "Name", value: person.realName },
-    { label: "Nationality", value: person.nationality ?? "TBD" },
+    { label: "Nationality", value: <NationalityFlags nationality={person.nationality} nationalities={person.nationalities} /> },
     { label: "Status", value: person.status },
     { label: "First appearance", value: person.firstAppearance ? `Episode ${person.firstAppearance.number}` : "TBD" },
   ];
@@ -29,7 +30,7 @@ export function StaffArticle({ person }: { person: StaffView }) {
   ];
 
   return <WikiArticle title={person.nickname ?? person.realName} kind="Staff"
-    game={person.division === "Executive" ? "Kairos Universe" : person.division} sections={sections}
+    game={person.division === "Executive" || person.division === "TBD" ? "Kairos Universe" : person.division} sections={sections}
     infobox={<ArticleInfobox title={person.displayName} monogram={person.realName.slice(0, 1)}
       image={<StaffPortrait id={person.id} />} groups={[
         { title: "Background Information", rows: facts },
@@ -38,7 +39,7 @@ export function StaffArticle({ person }: { person: StaffView }) {
     <ArticleSection {...sections[0]!}>
       {isAdrian
         ? <p><strong>Adrian Vale</strong> is the founder and CEO of Asterion Intelligence, the founder and owner of Kairos Esports, and the first-person narrator of the original episodes.</p>
-        : <p><strong>{person.realName}</strong>{person.nickname ? `, known as ${person.nickname},` : ""} serves as {person.role} in the fictional Kairos {person.division} project.</p>}
+        : <p><strong>{person.realName}</strong>{person.nickname ? `, known as ${person.nickname},` : ""} serves as {person.role} {person.division === "TBD" ? "at Kairos Esports." : `in the fictional Kairos ${person.division} project.`}</p>}
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       {person.responsibilities.length

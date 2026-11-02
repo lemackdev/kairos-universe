@@ -68,6 +68,7 @@ export interface StaffEntryView {
   realName: string;
   nickname: string | null;
   nationality: string | null;
+  nationalities?: string[];
   title: string;
   status: string;
   teamScope: string | null;
@@ -207,6 +208,7 @@ export interface StaffView {
   nickname: string | null;
   displayName: string;
   nationality: string | null;
+  nationalities?: string[];
   role: string;
   division: string;
   currentOrganizationId: string;

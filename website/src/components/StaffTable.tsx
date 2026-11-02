@@ -62,7 +62,7 @@ export function StaffTable({ staff, caption = "Coaching and support staff" }: { 
         <tbody>
           {sorted.map((entry) => (
             <tr key={entry.tenureId}>
-              <td data-label="Nat."><NationalityFlags nationality={entry.nationality} compact /></td>
+              <td data-label="Nat."><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
               <td data-label="ID">
                 <EntityLink href={`/wiki/staff/${entry.slug}`} name={entry.nickname ?? entry.realName} />
               </td>

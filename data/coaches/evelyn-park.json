@@ -4,7 +4,11 @@
   "realName": "Evelyn Park",
   "ageAtFirstAppearance": 38,
   "nickname": "TBD",
-  "nationality": "TBD",
+  "nationality": "American",
+  "nationalities": [
+    "American",
+    "South Korean"
+  ],
   "role": "Clinical Psychologist",
   "division": "TBD",
   "currentOrganization": "kairos-esports",
@@ -35,14 +39,15 @@
   ],
   "achievements": [],
   "confirmedFacts": [
-    "Evelyn Park is a fictional clinical psychologist, age 38 at first appearance.",
+    "Evelyn Park is a fictional American and South Korean clinical psychologist, age 38 at first appearance.",
     "She is licensed in California and joins Kairos on 2026-12-16.",
     "Clinical session content is not reported to coaches or management except documented operational or safety exceptions."
   ],
   "unconfirmedDetails": [
-    "Nationality, exact date of birth, contract terms, salary, and reporting line are TBD."
+    "Exact date of birth, contract terms, salary, and reporting line are TBD."
   ],
   "canonNotes": [
-    "Do not expose private therapy content through public Kairospedia profiles."
+    "Do not expose private therapy content through public Kairospedia profiles.",
+    "American and South Korean identity is confirmed by the author; the illustrative portrait does not establish additional biographical facts."
   ]
 }

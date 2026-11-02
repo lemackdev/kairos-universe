@@ -143,6 +143,7 @@ export function buildCatalog(
     realName: person.realName,
     nickname: person.nickname === "TBD" ? null : person.nickname,
     nationality: unknownToNull(person.nationality),
+    nationalities: person.nationalities,
     title: tenure.title,
     status: tenure.status,
     teamScope: tenure.teamId === "TBD" ? null : tenure.teamId,
@@ -396,6 +397,7 @@ export function buildCatalog(
           ? person.realName
           : `${person.realName} “${person.nickname}”`,
       nationality: unknownToNull(person.nationality),
+      nationalities: person.nationalities,
       role: person.role,
       division: person.division,
       currentOrganizationId: person.currentOrganization,

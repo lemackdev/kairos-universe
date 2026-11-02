@@ -5,6 +5,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 
 import { StaffPortrait } from "@/components/StaffPortrait";
+import { NationalityFlags } from "@/components/NationalityFlags";
 import { loadCanonUniverse, loadPublicationManifest } from "@/lib/canon/loader";
 import { buildCatalog } from "@/lib/catalog/build";
 
@@ -22,6 +23,8 @@ const ids = [
   "marcus-kairos-general-manager",
   "hai-du-lam",
   "miles-sable-warren",
+  "maya-torres",
+  "evelyn-park",
 ];
 
 describe("published management and coach profiles", () => {
@@ -58,5 +61,19 @@ describe("published management and coach profiles", () => {
     expect(catalog.teams.find((entry) => entry.id === "kairos-cs-academy")?.headCoachName).toBe("Stewie2K");
     expect(catalog.routes).toContain("/wiki/staff/maya-torres");
     expect(catalog.routes).toContain("/wiki/staff/evelyn-park");
+  });
+
+  it.each([
+    ["hai-du-lam", ["American"], ["us.png"]],
+    ["maya-torres", ["American", "Puerto Rican"], ["us.png", "pr.svg"]],
+    ["evelyn-park", ["American", "South Korean"], ["us.png", "kr.png"]],
+  ])("publishes confirmed flags for %s", (id, nationalities, flags) => {
+    const person = catalog.staff.find((entry) => entry.id === id);
+    expect(person?.nationalities).toEqual(nationalities);
+    const html = renderToStaticMarkup(createElement(NationalityFlags, {
+      nationality: person?.nationality,
+      nationalities: person?.nationalities,
+    }));
+    for (const flag of flags) expect(html).toContain(flag);
   });
 });

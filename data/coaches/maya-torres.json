@@ -5,6 +5,10 @@
   "ageAtFirstAppearance": 35,
   "nickname": "TBD",
   "nationality": "American",
+  "nationalities": [
+    "American",
+    "Puerto Rican"
+  ],
   "role": "Sports Psychologist",
   "division": "TBD",
   "currentOrganization": "kairos-esports",
@@ -36,7 +40,7 @@
   ],
   "achievements": [],
   "confirmedFacts": [
-    "Maya Torres is a fictional American sports psychologist, age 35 at first appearance.",
+    "Maya Torres is a fictional American and Puerto Rican sports psychologist, age 35 at first appearance.",
     "She joins Kairos on 2026-12-16.",
     "Her workshops do not make private participant disclosures public canon."
   ],
@@ -45,6 +49,7 @@
   ],
   "canonNotes": [
     "Do not publish anonymous workshop answers as individual player trivia.",
-    "Clinical session content is private."
+    "Clinical session content is private.",
+    "American and Puerto Rican identity is confirmed by the author; the illustrative portrait does not establish additional biographical facts."
   ]
 }

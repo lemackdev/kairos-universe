@@ -12,6 +12,8 @@ const countries: Record<string, { code: string; country: string }> = {
   Lebanese: { code: "lb", country: "Lebanon" },
   Serbian: { code: "rs", country: "Serbia" },
   Chinese: { code: "cn", country: "China" },
+  "Puerto Rican": { code: "pr", country: "Puerto Rico" },
+  "South Korean": { code: "kr", country: "South Korea" },
 };
 
 export function NationalityFlags({ nationality, nationalities, compact = false }: {
@@ -24,7 +26,7 @@ export function NationalityFlags({ nationality, nationalities, compact = false }
     {values.map((value) => {
       const country = countries[value];
       return <span key={value} style={{ display: "inline-flex", gap: "0.3rem", alignItems: "center" }}>
-        {country && <Image src={`/flags/${country.code}.png`} width={24} height={18} unoptimized alt={country.country} title={value} />}
+        {country && <Image src={`/flags/${country.code}.${country.code === "pr" ? "svg" : "png"}`} width={24} height={18} unoptimized alt={country.country} title={value} />}
         {(!compact || !country) && <span>{value}</span>}
       </span>;
     })}

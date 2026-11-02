@@ -3,7 +3,10 @@
   "slug": "hai-du-lam",
   "realName": "Hai Du Lam",
   "nickname": "Hai",
-  "nationality": "TBD",
+  "nationality": "American",
+  "nationalities": [
+    "American"
+  ],
   "role": "Head Coach",
   "division": "League of Legends",
   "currentOrganization": "kairos-esports",
@@ -37,12 +40,13 @@
   "achievements": [],
   "confirmedFacts": [
     "Hai Du Lam is Academy Blue Head Coach in the fictional Kairos Universe.",
+    "Hai's American nationality is confirmed by the author.",
     "He is a real-world esports figure; fictional Kairos employment is not real-world history.",
     "He accepts the role in Episode 85."
   ],
   "unconfirmedDetails": [
     "Exact employment start date, contract value, duration, and salary are TBD.",
-    "Nationality and date of birth are TBD."
+    "Date of birth is TBD."
   ],
   "canonNotes": [
     "Do not present his fictional Kairos role as a real-world employment claim."

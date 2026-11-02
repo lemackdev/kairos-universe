@@ -148,10 +148,11 @@ be labeled and cannot override confirmed evidence.
   normalized searchable Markdown source.
 - Episodes 1 through 24 retain **TBD** current titles and preserve their
   historical Portuguese titles separately.
-- Episode 75 is the current story episode.
+- Episode 90 is the current story episode.
 - The story year is 2026. Episodes 55 and 56 are dated 07/11/2026;
   exact dates for Episodes 30 through 54 remain **TBD**. Episodes 57 through 75
-  have source-confirmed dates from 08/11/2026 through 24/11/2026.
+  have source-confirmed dates from 08/11/2026 through 24/11/2026. Episodes 76
+  through 90 have source-confirmed dates from 25/11/2026 through 18/12/2026.
 
 See [Episode Reconstruction Status](EPISODE_RECONSTRUCTION_STATUS.md) and
 [Source Gaps](SOURCE_GAPS.md). Material source normalizations for the current

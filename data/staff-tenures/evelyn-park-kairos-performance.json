@@ -1,0 +1,20 @@
+{
+  "id": "evelyn-park-kairos-performance",
+  "slug": "evelyn-park-kairos-performance",
+  "continuityId": "kairos-universe",
+  "personId": "evelyn-park",
+  "organizationId": "kairos-esports",
+  "teamId": "TBD",
+  "divisionId": "TBD",
+  "title": "Clinical Psychologist",
+  "responsibilityIds": [],
+  "startedDate": "2026-12-16",
+  "endedDate": null,
+  "datePrecision": "exact",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-evelyn-park",
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed"
+}

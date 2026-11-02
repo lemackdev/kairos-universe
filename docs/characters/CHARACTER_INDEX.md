@@ -42,6 +42,19 @@ appointment becomes active in Episode 74 on 23/11/2026.
 
 ## Related Documents
 
+### First appearances in Episodes 76-90
+
+| Episode | Person | Canonical record |
+| ---: | --- | --- |
+| 83 | Hai Du Lam ("Hai"), Academy Blue Head Coach | [Staff](../../data/coaches/hai-du-lam.json) |
+| 83 | Miles "Sable" Warren, Academy White Head Coach | [Staff](../../data/coaches/miles-sable-warren.json) |
+| 88 | Dr. Maya Torres, Sports Psychologist | [Staff](../../data/coaches/maya-torres.json) |
+| 88 | Dr. Evelyn Park, Clinical Psychologist | [Staff](../../data/coaches/evelyn-park.json) |
+
+Hai is a real-world esports figure in a fictional Kairos role. Sable, Maya,
+and Evelyn are fictional characters. Their first appearance is not an exact
+employment-start date unless the source confirms one.
+
 - [Adrian Vale](ADRIAN_VALE.md)
 - [Episode index](../episodes/EPISODE_INDEX.md)
 - [Master timeline](../timeline/MASTER_TIMELINE.md)

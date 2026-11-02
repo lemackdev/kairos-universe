@@ -4,7 +4,7 @@
 
 | Position | Mark | Classification |
 | --- | --- | --- |
-| Viewer left, wearer right | New Balance | Approved future technical apparel/performance supplier |
+| Viewer left, wearer right | New Balance | Official technical apparel partner (fictional Kairos Universe) |
 | Viewer right, wearer left | Kairos crest | Primary sporting identity |
 | Center chest | Asterion Intelligence | Parent company; Principal Institutional Partner |
 
@@ -12,9 +12,9 @@ No giant Kairos wordmark across the front, unrelated sponsors or sponsor wall. T
 
 ## New Balance
 
-New Balance is intentional, not unknown or accidental branding. Its relationship is **pending-formal-narrative-canonization**. Intended roles: Official Technical Apparel Partner and Official Performance Apparel Supplier. Expected scope: match jerseys, training apparel, staff apparel, travel apparel, footwear and merchandise production.
+New Balance is the signed **Official Technical Apparel Partner** in the fictional Kairos Universe. Adrian signed on 2026-12-04; Kairos publicly announced the partnership on 2026-12-07. The approved scope includes match jerseys, training apparel, staff apparel, travel apparel, footwear and merchandise production.
 
-These are approved future visual plans inside a fictional universe, not a real-world agreement or a completed narrative signing. Contract value, duration, announcement date, legal terms, financial figures and exclusivity remain unknown (null). No event or contract record is created. Existing sponsorship-proposal history remains unchanged.
+This is not a real-world agreement. Contract value, duration, legal terms, financial figures and exclusivity remain unknown (null). The signing and announcement dates are confirmed. Earlier proposal history remains historical.
 
 ## Asterion
 

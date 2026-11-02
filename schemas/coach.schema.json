@@ -41,6 +41,10 @@
     "realName": {
       "$ref": "common.schema.json#/$defs/stringOrTbd"
     },
+    "ageAtFirstAppearance": {
+      "type": "integer",
+      "minimum": 0
+    },
     "nickname": {
       "$ref": "common.schema.json#/$defs/stringOrTbd"
     },

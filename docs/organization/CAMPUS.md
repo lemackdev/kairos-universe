@@ -32,7 +32,10 @@ shared resources where appropriate.
 
 ## Project Casa Arthur
 
-Project Casa Arthur is a conditional future plan introduced in Episode 54.
+Project Casa Arthur was introduced as a conditional plan in Episode 54. By
+Episode 86, Arthur Fletcher has relocated to the campus residential area.
+The exact move date, medical details, and whether a separate Project Casa
+Arthur facility was built remain TBD.
 
 - Intended resident: Arthur Fletcher.
 - Required condition: safe travel.
@@ -43,8 +46,14 @@ Project Casa Arthur is a conditional future plan introduced in Episode 54.
   resources.
 - Intended purpose: allow Owen to balance career and family.
 
-The project has not been built. Arthur has not accepted or moved, and he
-continues living in Mackenzie, British Columbia.
+The planned layout below describes the original proposal, not a verified
+room-by-room description of Arthur's present residence.
+
+## Recreation Center
+
+The Recreation Center is operating by Episode 86 as a space for player rest
+and wellbeing, not as a public competition arena. Its dimensions, cost, and
+exact opening date remain TBD.
 
 ## Food-Service Policy
 

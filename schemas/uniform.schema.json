@@ -75,7 +75,7 @@
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
     },
     "canonStatus": {
-      "const": "approved-future-canon"
+      "enum": ["approved-future-canon", "confirmed"]
     },
     "meaning": {
       "type": "string"
@@ -91,6 +91,7 @@
         "contractValue",
         "contractDuration",
         "announcementDate",
+        "signedDate",
         "legalTerms",
         "exclusivity"
       ],
@@ -99,7 +100,7 @@
           "const": "New Balance"
         },
         "status": {
-          "const": "pending-formal-narrative-canonization"
+          "enum": ["pending-formal-narrative-canonization", "official"]
         },
         "roles": {
           "type": "array",
@@ -120,7 +121,12 @@
           "type": "null"
         },
         "announcementDate": {
-          "type": "null"
+          "type": ["string", "null"],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "signedDate": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
         "legalTerms": {
           "type": "null"

@@ -81,6 +81,12 @@ benching, replacement, or official result is created.
 
 ## Related documents
 
+### Head Coach as of Episode 90
+
+[Miles "Sable" Warren](../../data/coaches/miles-sable-warren.json) leads Academy
+White. He accepted the role in Episode 85 and is active by Episode 89. His
+precise employment start date and contract terms are TBD.
+
 - [League division](LEAGUE_DIVISION.md)
 - [Main roster](MAIN_ROSTER.md)
 - [Academy Blue](ACADEMY_BLUE.md)

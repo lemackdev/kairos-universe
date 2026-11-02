@@ -577,6 +577,36 @@ code {
   object-position: center top;
 }
 
+.managementAvatarCell {
+  width: 1%;
+  padding-right: 0;
+}
+
+.managementAvatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--paper-muted);
+  flex-shrink: 0;
+}
+
+.managementAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.managementAvatarFallback {
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  border: 1px solid var(--line);
+}
+
 .infobox dl {
   margin: 0;
 }

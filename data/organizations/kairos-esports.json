@@ -30,9 +30,9 @@
     "exactYear": "2026"
   },
   "currentStoryPeriod": {
-    "period": "late-november-2026",
-    "displayName": "Late November 2026",
-    "exactDate": "2026-11-24",
+    "period": "mid-december-2026",
+    "displayName": "Mid December 2026",
+    "exactDate": "2026-12-18",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -156,7 +156,7 @@
     "constructionCompletionAndOpeningDates": "TBD",
     "projectCasaArthur": {
       "name": "Project Casa Arthur",
-      "status": "planned-conditional",
+      "status": "resident-relocated-distinct-project-status-tbd",
       "intendedResident": "arthur-fletcher",
       "conditions": [
         "Arthur Fletcher must be medically cleared for safe travel.",
@@ -173,16 +173,14 @@
         "A way for Owen Fletcher to balance career and family."
       ],
       "currentState": [
-        "The project is a plan only.",
-        "No construction has begun.",
-        "Arthur has not accepted or moved.",
-        "Arthur continues living in Mackenzie, British Columbia.",
-        "Arthur intends to move near the Kairos campus in early 2027, subject to safe travel and independent medical approval."
+        "Arthur lived in Mackenzie when the conditional plan was introduced.",
+        "Arthur has relocated to the campus residential area by Episode 86.",
+        "The exact move date and whether the distinct Project Casa Arthur facility was built are TBD."
       ]
     }
   },
   "sponsorship": {
-    "status": "proposals-received",
+    "status": "technical-partner-signed",
     "proposalCategories": [
       "Gaming chairs",
       "Peripherals",
@@ -194,7 +192,9 @@
       "Betting company",
       "Branding-first proposals that conflict with player development"
     ],
-    "confirmedAcceptedSponsors": [],
+    "confirmedAcceptedSponsors": [
+      "New Balance, official technical apparel partner, signed 2026-12-04 and publicly announced 2026-12-07"
+    ],
     "principles": [
       "Reject betting-company partnerships without negotiation.",
       "Reject sponsorships that prioritize branding over player development.",
@@ -253,19 +253,21 @@
     "Caleb participates in future Counter-Strike roster construction.",
     "Caleb, Owen, and Emiliano participated in the first internal Counter-Strike scrim.",
     "Kairos recruits people before players and requires cultural fit before recruitment advances.",
-    "Project Casa Arthur is a conditional future plan and has not been built.",
+    "Arthur Fletcher has relocated to the campus residential area by Episode 86; the status of Project Casa Arthur as a distinct facility is TBD.",
     "On 2026-11-07, all 143 eligible community members voted on the food-service policy; 126 voted yes and 17 voted no.",
     "In-N-Out Burger, Chipotle Mexican Grill, and Chick-fil-A were selected for invitations and negotiations only.",
-    "The current narrative date is 2026-11-24.",
+    "The current narrative date is 2026-12-18.",
     "The Counter-Strike main roster is complete with five signed players.",
     "The Counter-Strike Academy roster is complete with five selected players and no permanent positions.",
     "Stewie2K is Academy Head Coach and Trace is Development Coach beginning 2026-11-23.",
     "The 2026-11-20 Team Liquid series is fictional-universe private practice and not an official match.",
-    "A Kairos Thanksgiving gathering is planned for 2026-11-25 but has not occurred."
+    "The Kairos Thanksgiving gathering occurred on 2026-11-25.",
+    "New Balance signed as official technical apparel partner on 2026-12-04 and was publicly announced on 2026-12-07.",
+    "The primary 2027 competitive debut window begins 2027-02-08; no first match or opponent is confirmed."
   ],
   "unconfirmedDetails": [
     "The exact founding date is TBD.",
-    "The exact competitive milestone dates in February 2027 are TBD.",
+    "The first official match date and opponent within or after the 2027-02-08 debut window are TBD.",
     "Unsupported League biographical, contract, salary, and statistical details are TBD.",
     "Counter-Strike shared analyst, sports psychology, and performance staff names and exact structures are TBD.",
     "Contracts, salaries, rankings, statistics, and official results are TBD until narratively confirmed.",
@@ -282,6 +284,6 @@
     "Real-world references must be distinguished from fictional involvement.",
     "No food-service partnership is confirmed; the Episode 56 result authorizes invitations and negotiations only.",
     "All five Counter-Strike main-roster players are signed.",
-    "No official match has occurred through Episode 75."
+    "No official match has occurred through Episode 90."
   ]
 }

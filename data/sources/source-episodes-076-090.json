@@ -1,0 +1,16 @@
+{
+  "id": "source-episodes-076-090",
+  "slug": "source-episodes-076-090",
+  "continuityId": "kairos-universe",
+  "sourceType": "normalized-episode-source",
+  "title": "Episodes 76-90 normalized source",
+  "path": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+  "locator": "Episodes 76-90",
+  "publicLabel": "Kairos Universe, Episodes 76-90",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Derived from archive/episode-sources/76-90.pdf with the corrections documented in EPISODES_076_090_NORMALIZATION.md.",
+    "The PDF remains the immutable historical source."
+  ]
+}

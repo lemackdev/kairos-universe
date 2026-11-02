@@ -1,0 +1,137 @@
+{
+  "id": "episode-086",
+  "slug": "episode-086",
+  "episodeNumber": 86,
+  "title": "Fora do Servidor",
+  "historicalTitle": "Fora do Servidor",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 102,
+    "pageEnd": 125,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-13",
+  "datePrecision": "exact",
+  "publicationOrder": 86,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Recreation Center, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "arthur-fletcher",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos opens its Recreation Center and Arthur Fletcher is confirmed to be living in an accessible campus residence during cancer treatment in Los Angeles.",
+  "keyEvents": [
+    "The Kairos Recreation Center opens with an indoor multi-sport court, basketball, futsal, volleyball, two table-tennis tables, and a mobility area connected to the existing gym.",
+    "Players use the facility on a free day, not in a public competition.",
+    "Arthur Fletcher is living in an accessible campus-area residence while treatment continues in Los Angeles.",
+    "Arthur remains Owen Fletcher's grandfather, not a Kairos employee or decision-maker."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "The Kairos Recreation Center opens with an indoor multi-sport court, basketball, futsal, volleyball, two table-tennis tables, and a mobility area connected to the existing gym.",
+    "Players use the facility on a free day, not in a public competition.",
+    "Arthur Fletcher is living in an accessible campus-area residence while treatment continues in Los Angeles.",
+    "Arthur remains Owen Fletcher's grandfather, not a Kairos employee or decision-maker."
+  ],
+  "canonChanged": [
+    "Arthur's current residence supersedes the earlier Mackenzie state."
+  ],
+  "continuityDependencies": [
+    "episode-085"
+  ],
+  "continuityNotes": [
+    "The exact relocation date is TBD; the PDF's 'some weeks' wording conflicts with the Episode 75 state and is not used to infer a date.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 86 — Fora do Servidor",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The Kairos Recreation Center opens with an indoor multi-sport court, basketball, futsal, volleyball, two table-tennis tables, and a mobility area connected to the existing gym.",
+    "Players use the facility on a free day, not in a public competition.",
+    "Arthur Fletcher is living in an accessible campus-area residence while treatment continues in Los Angeles.",
+    "Arthur remains Owen Fletcher's grandfather, not a Kairos employee or decision-maker."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 09:05.",
+    "Complete prose remains in the normalized source."
+  ]
+}

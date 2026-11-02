@@ -1,0 +1,22 @@
+{
+  "id": "hai-du-lam-kairos-lol-academy-blue",
+  "slug": "hai-du-lam-kairos-lol-academy-blue",
+  "continuityId": "kairos-universe",
+  "personId": "hai-du-lam",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-blue",
+  "divisionId": "division-league-of-legends",
+  "title": "Head Coach",
+  "responsibilityIds": [
+    "role-head-coach"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-hai-du-lam",
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed"
+}

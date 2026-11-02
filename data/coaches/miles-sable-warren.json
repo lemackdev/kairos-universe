@@ -1,0 +1,51 @@
+{
+  "id": "miles-sable-warren",
+  "slug": "miles-sable-warren",
+  "realName": "Miles Warren",
+  "ageAtFirstAppearance": 29,
+  "nickname": "Sable",
+  "nationality": "American",
+  "role": "Head Coach",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-academy-white",
+  "status": "active",
+  "firstAppearance": "episode-083",
+  "joinedKairos": "TBD",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "Former Tier 2 Support player. Never played LCS or Worlds. Later moved into youth and development coaching.",
+  "coachingPhilosophy": "Build professional players by teaching individual decision-making without making a young player feel defined by an error.",
+  "responsibilities": [
+    "Lead Academy White as Head Coach.",
+    "Build professional habits, communication, preparation, and confidence in younger players."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-lol-academy-white",
+      "type": "head-coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 83: introduced as an Academy White coaching candidate, age 29.",
+    "Episode 84: conducts an individualized Academy White review.",
+    "Episode 85: selected and accepts the Head Coach offer; final legal details remain pending.",
+    "Episode 89: participates as Academy White Head Coach in the psychology workshop."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Miles Sable Warren is the fictional Academy White Head Coach.",
+    "He is American and age 29 at first appearance.",
+    "He formerly played Tier 2 Support and did not play in LCS or Worlds."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth, employment start date, contract value, duration, and salary are TBD."
+  ],
+  "canonNotes": [
+    "Do not infer an exact birth date from age.",
+    "His fictional playing history has no named prior organizations or results."
+  ]
+}

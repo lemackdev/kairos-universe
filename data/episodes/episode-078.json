@@ -1,0 +1,122 @@
+{
+  "id": "episode-078",
+  "slug": "episode-078",
+  "episodeNumber": 78,
+  "title": "Duas Bandeiras",
+  "historicalTitle": "Duas Bandeiras",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 33,
+    "pageEnd": 38,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-30",
+  "datePrecision": "exact",
+  "publicationOrder": 78,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Players return from the Thanksgiving break and Adrian announces the two-game competitive focus to all divisions.",
+  "keyEvents": [
+    "The five Kairos rosters resume training after the holiday break.",
+    "Adrian announces that League of Legends and Counter-Strike 2 are Kairos's active competitive projects.",
+    "VALORANT is cancelled; Dota 2 remains monitoring only.",
+    "Moss and Atlas reaffirm the February target; neither team has played an official match."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "The five Kairos rosters resume training after the holiday break.",
+    "Adrian announces that League of Legends and Counter-Strike 2 are Kairos's active competitive projects.",
+    "VALORANT is cancelled; Dota 2 remains monitoring only.",
+    "Moss and Atlas reaffirm the February target; neither team has played an official match."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-077"
+  ],
+  "continuityNotes": [
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification.",
+    "Only documented source normalizations appear in the searchable Markdown source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 78 — Duas Bandeiras",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The five Kairos rosters resume training after the holiday break.",
+    "Adrian announces that League of Legends and Counter-Strike 2 are Kairos's active competitive projects.",
+    "VALORANT is cancelled; Dota 2 remains monitoring only.",
+    "Moss and Atlas reaffirm the February target; neither team has played an official match."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 09:10.",
+    "Complete prose remains in the normalized source."
+  ]
+}

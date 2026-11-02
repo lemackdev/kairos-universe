@@ -1,0 +1,50 @@
+{
+  "id": "hai-du-lam",
+  "slug": "hai-du-lam",
+  "realName": "Hai Du Lam",
+  "nickname": "Hai",
+  "nationality": "TBD",
+  "role": "Head Coach",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-academy-blue",
+  "status": "active",
+  "firstAppearance": "episode-083",
+  "joinedKairos": "TBD",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "Former professional League of Legends player; the source identifies Cloud9 and Mid, Jungle, and Support roles.",
+  "coachingPhilosophy": "Prepare Academy Blue players for first-team competition through communication, reasoning, autonomy, and team decisions.",
+  "responsibilities": [
+    "Lead Academy Blue as Head Coach.",
+    "Prepare players for first-team competition without making Blue a copy of Main."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-lol-academy-blue",
+      "type": "head-coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 83: introduced as an Academy Blue coaching candidate.",
+    "Episode 84: visits Kairos and conducts review scenarios with Academy Blue.",
+    "Episode 85: selected and accepts the Head Coach offer; legal details remain pending.",
+    "Episode 89: participates as Academy Blue Head Coach in the psychology workshop."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Hai Du Lam is Academy Blue Head Coach in the fictional Kairos Universe.",
+    "He is a real-world esports figure; fictional Kairos employment is not real-world history.",
+    "He accepts the role in Episode 85."
+  ],
+  "unconfirmedDetails": [
+    "Exact employment start date, contract value, duration, and salary are TBD.",
+    "Nationality and date of birth are TBD."
+  ],
+  "canonNotes": [
+    "Do not present his fictional Kairos role as a real-world employment claim."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "episode-084",
+  "slug": "episode-084",
+  "episodeNumber": 84,
+  "title": "Sem Nome Grande",
+  "historicalTitle": "Sem Nome Grande",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 80,
+    "pageEnd": 90,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-10",
+  "datePrecision": "exact",
+  "publicationOrder": 84,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Hai and Miles work through Academy evaluation sessions; each remains one of two finalists for his respective team.",
+  "keyEvents": [
+    "Hai visits Kairos and reviews Academy Blue communication and decision-making.",
+    "Miles leads an individualized Academy White review focused on learning rather than blame.",
+    "The final candidate pool is two for Blue and two for White; no hire is finalized."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Hai visits Kairos and reviews Academy Blue communication and decision-making.",
+    "Miles leads an individualized Academy White review focused on learning rather than blame.",
+    "The final candidate pool is two for Blue and two for White; no hire is finalized."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-083"
+  ],
+  "continuityNotes": [
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [
+    "Hai Du Lam"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 84 — Sem Nome Grande",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Hai visits Kairos and reviews Academy Blue communication and decision-making.",
+    "Miles leads an individualized Academy White review focused on learning rather than blame.",
+    "The final candidate pool is two for Blue and two for White; no hire is finalized."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 10:00.",
+    "Complete prose remains in the normalized source."
+  ]
+}

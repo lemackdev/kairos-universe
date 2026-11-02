@@ -13,11 +13,11 @@
   ],
   "frontAsset": "kairos-black-2027-front",
   "backAsset": "kairos-black-2027-back",
-  "canonStatus": "approved-future-canon",
+  "canonStatus": "confirmed",
   "meaning": "Primary competitive identity: discipline, control, seriousness and professionalism; gold represents prestige, ambition, excellence and the Kairos standard.",
   "technicalSupplier": {
     "name": "New Balance",
-    "status": "pending-formal-narrative-canonization",
+    "status": "official",
     "roles": [
       "Official Technical Apparel Partner",
       "Official Performance Apparel Supplier"
@@ -32,7 +32,8 @@
     ],
     "contractValue": null,
     "contractDuration": null,
-    "announcementDate": null,
+    "announcementDate": "2026-12-07",
+    "signedDate": "2026-12-04",
     "legalTerms": null,
     "exclusivity": null
   },
@@ -43,7 +44,7 @@
     "role": "Principal Institutional Partner"
   },
   "canonNotes": [
-    "Approved 2027 design, not proof of an announced or signed apparel agreement.",
+    "2027 uniform design publicly presented with New Balance as signed official technical apparel partner on 2026-12-07.",
     "Fictional Kairos Universe branding; no real-world partnership is asserted.",
     "Same professional equipment standard across main and Academy teams; promotion is not automatic.",
     "Player nickname and number systems remain unspecified."

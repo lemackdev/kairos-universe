@@ -42,13 +42,13 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
       ? (organization.ownerSlug ? <Link href={`/wiki/staff/${organization.ownerSlug}`}>{organization.ownerName}</Link> : organization.ownerName)
       : "TBD" },
     { label: "Head Coach", value: team.headCoachName ?? "TBD" },
-    { label: "Partner", value: "Asterion Intelligence" },
+      { label: "Parent Company / Institutional Partner", value: "Asterion Intelligence" },
+      { label: "Technical Supplier", value: "New Balance" },
   ];
   const historyFacts = [
     { label: "Founded", value: organization?.founded ?? "TBD" },
   ];
   return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections}
-    banner={<TeamLineupBanner team={team} />}
     infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
       { title: "Team Information", rows: facts },
       { title: "History", rows: historyFacts },
@@ -72,6 +72,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     <ArticleSection {...sections[3]!}>
       <h3>Active</h3>
       <TeamRosterTable roster={team.roster} caption={`${team.shortName} active roster`} />
+      <TeamLineupBanner team={team} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
       <WikiTable caption="Former players" columns={["Player", "Name", "Role", "Joined", "Left"]}

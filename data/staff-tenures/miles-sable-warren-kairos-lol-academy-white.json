@@ -1,0 +1,22 @@
+{
+  "id": "miles-sable-warren-kairos-lol-academy-white",
+  "slug": "miles-sable-warren-kairos-lol-academy-white",
+  "continuityId": "kairos-universe",
+  "personId": "miles-sable-warren",
+  "organizationId": "kairos-esports",
+  "teamId": "kairos-lol-academy-white",
+  "divisionId": "division-league-of-legends",
+  "title": "Head Coach",
+  "responsibilityIds": [
+    "role-head-coach"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-miles-sable-warren",
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed"
+}

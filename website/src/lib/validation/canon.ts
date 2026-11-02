@@ -114,7 +114,8 @@ function validateVersion(universe: CanonUniverse): void {
     "Kairospedia requires canon reconstructed through Episode 75.",
   );
   assert(
-    version.currentNarrativeDate === "2026-11-24",
+    /^\d{4}-\d{2}-\d{2}$/.test(version.currentNarrativeDate) &&
+      !Number.isNaN(Date.parse(version.currentNarrativeDate)),
     `Unexpected narrative date: ${version.currentNarrativeDate}`,
   );
 }

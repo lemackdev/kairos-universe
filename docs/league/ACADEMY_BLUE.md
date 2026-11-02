@@ -85,6 +85,13 @@ promotion, demotion, benching, replacement, or official result is created.
 
 ## Related documents
 
+### Head Coach as of Episode 90
+
+[Hai Du Lam](../../data/coaches/hai-du-lam.json) leads Academy Blue. He
+accepted the role in Episode 85 and is active by Episode 89. His precise
+employment start date and contract terms are TBD. His Kairos role is fictional
+canon and not a real-world employment assertion.
+
 - [League division](LEAGUE_DIVISION.md)
 - [Main roster](MAIN_ROSTER.md)
 - [Academy White](ACADEMY_WHITE.md)

@@ -20,10 +20,10 @@ Records:
 
 | Person | Stable ID | Confirmed role | Confirmed scope |
 | --- | --- | --- | --- |
-| Marcus | `marcus-kairos-general-manager` | General Manager | League-specific or broader Kairos scope is TBD |
-| Claire | `claire-kairos-executive` | Executive | Kairos Esports; exact title and scope TBD |
-| Ethan | `ethan-kairos-executive` | Executive | Kairos Esports; exact title and scope TBD |
-| Sofia | `sofia-kairos-executive` | Executive | Kairos Esports; exact title and scope TBD |
+| Marcus Bell | `marcus-kairos-general-manager` | General Manager | League-specific or broader Kairos scope is TBD |
+| Claire Whitcomb | `claire-kairos-executive` | Executive | Kairos Esports; exact title and scope TBD |
+| Ethan Calder | `ethan-kairos-executive` | Executive | Kairos Esports; exact title and scope TBD |
+| Sofia Alvarez | `sofia-kairos-executive` | Executive | Kairos Esports; exact title and scope TBD |
 
 Records:
 
@@ -84,7 +84,7 @@ error. Current canon uses Zaqueri "Aphromoo" Black.
 - Ethan the executive uses `ethan-kairos-executive`.
 - Ethan "Vanta" Walker uses `ethan-vanta-walker`.
 - These are distinct characters and must not be merged.
-- Do not invent surnames for Marcus, Claire, Ethan, or Sofia.
+- Marcus Bell, Claire Whitcomb, Ethan Calder, and Sofia Alvarez are their current canonical full names, established by author direction. Historical episode prose remains unchanged.
 - Do not infer Emily Chen's nationality from her surname.
 
 ## Real-world figure policy
@@ -101,6 +101,12 @@ contract details, salary, personality, objectives, and achievements are
 **TBD**.
 
 ## Related documents
+
+### Academy leadership, current through Episode 90
+
+- [Hai Du Lam](../../data/coaches/hai-du-lam.json) heads Academy Blue. He accepted the role in Episode 85; the precise employment start date and contract terms are TBD. His Kairos role is fictional-universe canon, not a real-world employment assertion.
+- [Miles "Sable" Warren](../../data/coaches/miles-sable-warren.json) heads Academy White. He accepted in Episode 85; the precise employment start date and terms are TBD.
+- [Dr. Maya Torres](../../data/coaches/maya-torres.json) and [Dr. Evelyn Park](../../data/coaches/evelyn-park.json) joined Kairos on 2026-12-16 as cross-organization wellbeing staff. Neither is assigned exclusively to a League roster.
 
 - [League division](LEAGUE_DIVISION.md)
 - [League mentors](LEAGUE_MENTORS.md)

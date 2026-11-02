@@ -1,1 +1,11 @@
-[]
+[
+  "data/competitions/crossroads-challengers-2027.json",
+  "data/competitions/crossroads-cup-2027.json",
+  "data/competitions/demacia-cup-global-2027.json",
+  "data/competitions/first-stand-2027.json",
+  "data/competitions/mid-season-invitational-2027.json",
+  "data/competitions/rift-masters-2027.json",
+  "data/competitions/rift-masters-challengers-2027.json",
+  "data/competitions/world-championship-2027.json",
+  "data/competitions/wsci-2027.json"
+]

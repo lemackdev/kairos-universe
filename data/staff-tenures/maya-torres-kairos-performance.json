@@ -1,0 +1,20 @@
+{
+  "id": "maya-torres-kairos-performance",
+  "slug": "maya-torres-kairos-performance",
+  "continuityId": "kairos-universe",
+  "personId": "maya-torres",
+  "organizationId": "kairos-esports",
+  "teamId": "TBD",
+  "divisionId": "TBD",
+  "title": "Sports Psychologist",
+  "responsibilityIds": [],
+  "startedDate": "2026-12-16",
+  "endedDate": null,
+  "datePrecision": "exact",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-maya-torres",
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed"
+}

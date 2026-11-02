@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-miles-sable-warren",
+  "slug": "source-staff-miles-sable-warren",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Miles Warren staff record",
+  "path": "data/coaches/miles-sable-warren.json",
+  "locator": null,
+  "publicLabel": "Miles Warren canonical staff record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Based on Episodes 83-90 normalized source."
+  ]
+}

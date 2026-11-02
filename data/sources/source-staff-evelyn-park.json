@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-evelyn-park",
+  "slug": "source-staff-evelyn-park",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Evelyn Park staff record",
+  "path": "data/coaches/evelyn-park.json",
+  "locator": null,
+  "publicLabel": "Evelyn Park canonical staff record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Based on Episodes 83-90 normalized source."
+  ]
+}

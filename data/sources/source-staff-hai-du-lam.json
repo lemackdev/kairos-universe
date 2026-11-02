@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-hai-du-lam",
+  "slug": "source-staff-hai-du-lam",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Hai Du Lam staff record",
+  "path": "data/coaches/hai-du-lam.json",
+  "locator": null,
+  "publicLabel": "Hai Du Lam canonical staff record",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "The Kairos role is fictional-universe canon."
+  ]
+}

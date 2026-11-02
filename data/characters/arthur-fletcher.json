@@ -5,9 +5,9 @@
   "commonName": "Arthur",
   "nationality": "TBD",
   "baseLocation": {
-    "city": "Mackenzie",
-    "region": "British Columbia",
-    "country": "Canada"
+    "city": "Los Angeles",
+    "region": "California",
+    "country": "United States"
   },
   "occupations": [],
   "narrativeRoles": [],
@@ -37,26 +37,27 @@
     "Episode 45: Arthur accepts the three-week evaluation plan after Kairos guarantees Owen's return travel if no contract follows.",
     "Episode 54: Arthur's chemotherapy is responding well, and Adrian presents Project Casa Arthur as a conditional future plan.",
     "Episode 56: Arthur still lives in Mackenzie; no relocation, construction, acceptance, or medical approval has occurred.",
-    "Episode 63: Owen reports that Arthur intends to move near the Kairos campus in early 2027, subject to safe travel and independent medical approval."
+    "Episode 63: Owen reports that Arthur intends to move near the Kairos campus in early 2027, subject to safe travel and independent medical approval.",
+    "Episode 86: Arthur has relocated from Mackenzie to the Kairos campus residential area; the exact travel date is not established."
   ],
   "confirmedFacts": [
     "Arthur Fletcher is Owen Fletcher's grandfather.",
     "Arthur raised Owen and remains Owen's only living close relative.",
     "Arthur is undergoing cancer treatment.",
     "Arthur's chemotherapy is responding well by Episode 54.",
-    "Arthur lives in Mackenzie, British Columbia, Canada.",
+    "Arthur lived in Mackenzie, British Columbia, Canada, until his relocation to Los Angeles by Episode 86.",
     "Arthur first appears unnamed in Episode 36 and is named in Episode 37.",
     "Project Casa Arthur is conditional on safe travel and independent medical approval.",
-    "Arthur intends to move near the Kairos campus in early 2027, but the move has not occurred by 2026-11-24.",
+    "Arthur lives in the campus residential area by Episode 86.",
     "Arthur is not Kairos management, staff, scouting personnel, or a recruiting decision-maker."
   ],
   "unconfirmedDetails": [
     "Arthur's nationality, age, date of birth, occupation, and detailed medical information are TBD.",
-    "Whether the planned early-2027 move will receive medical approval and occur remains TBD."
+    "The exact relocation date and private medical details are TBD."
   ],
   "canonNotes": [
-    "Arthur has not moved to Los Angeles.",
-    "Project Casa Arthur has not been built.",
+    "Arthur relocated to Los Angeles by Episode 86; previous not-yet-moved statements are historical snapshots.",
+    "Whether Project Casa Arthur was built as a distinct facility is TBD; current residence is the campus residential area.",
     "Do not infer an Owen contract or Arthur relocation from the planning discussion.",
     "Arthur must not be represented as the campus head cook or as Academy recruitment staff."
   ]

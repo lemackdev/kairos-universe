@@ -1,0 +1,24 @@
+{
+  "id": "rift-masters-challengers-2027",
+  "slug": "rift-masters-challengers-2027",
+  "continuityId": "kairos-universe",
+  "name": "Rift Masters Challengers 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Tier 2 event with 12 qualified teams. Academy Blue and White have no automatic qualification.",
+  "format": [
+    "Two teams per region across LCK, LPL, LEC, LCS, LCP and CBLOL."
+  ],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

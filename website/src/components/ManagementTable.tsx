@@ -1,9 +1,20 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import type { StaffView } from "@/types/catalog";
 import { EntityLink } from "./EntityLink";
 import { NationalityFlags } from "./NationalityFlags";
+import { hasStaffPortrait } from "./StaffPortrait";
+
+function ManagementAvatar({ id, name }: { id: string; name: string }) {
+  if (!hasStaffPortrait(id)) {
+    return <span className="managementAvatar managementAvatarFallback" aria-hidden="true">{name.slice(0, 1)}</span>;
+  }
+  return <span className="managementAvatar">
+    <Image src={`/staff-portraits/${id}.png`} alt="" width={32} height={32} />
+  </span>;
+}
 
 type SortColumn = "nationality" | "id" | "name" | "role" | "division";
 type SortDirection = "asc" | "desc";
@@ -52,6 +63,7 @@ export function ManagementTable({ staff, caption = "Kairos management" }: { staf
         <caption className="srOnly">{caption}</caption>
         <thead>
           <tr>
+            <th scope="col" aria-hidden="true"></th>
             {columns.map((column) => <th scope="col" key={column.key}>
               <button type="button" onClick={() => toggleSort(column.key)}
                 aria-sort={sortColumn === column.key ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
@@ -64,6 +76,9 @@ export function ManagementTable({ staff, caption = "Kairos management" }: { staf
         <tbody>
           {sorted.map((entry) => (
             <tr key={entry.id}>
+              <td data-label="" className="managementAvatarCell">
+                <ManagementAvatar id={entry.id} name={entry.nickname ?? entry.realName} />
+              </td>
               <td data-label="Nat."><NationalityFlags nationality={entry.nationality} compact /></td>
               <td data-label="ID">
                 {entry.slug

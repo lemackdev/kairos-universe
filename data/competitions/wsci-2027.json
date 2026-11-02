@@ -1,0 +1,22 @@
+{
+  "id": "wsci-2027",
+  "slug": "wsci-2027",
+  "continuityId": "kairos-universe",
+  "name": "WSCI 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Most important global Tier 2 event in this fictional universe; detailed format TBD.",
+  "format": [],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

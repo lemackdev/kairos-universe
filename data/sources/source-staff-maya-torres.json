@@ -1,0 +1,15 @@
+{
+  "id": "source-staff-maya-torres",
+  "slug": "source-staff-maya-torres",
+  "continuityId": "kairos-universe",
+  "sourceType": "structured-canon-record",
+  "title": "Maya Torres staff record",
+  "path": "data/coaches/maya-torres.json",
+  "locator": null,
+  "publicLabel": "Maya Torres canonical staff record",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Based on Episodes 83-90 normalized source."
+  ]
+}

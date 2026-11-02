@@ -145,8 +145,9 @@ In particular:
   details remain **TBD** in current canon.
 - Asterion's detailed corporate history, valuation, and technical portfolio
   remain **TBD** unless separately confirmed by current repository canon.
-- VALORANT and Dota references remain historical plans, not confirmed current
-  divisions.
+- VALORANT and Dota references in early episodes remain historical plans, not
+  confirmed divisions. Episode 77 cancels the preliminary VALORANT project;
+  Dota 2 remains monitoring only, with no active recruitment or launch plan.
 - Historical exact ages and nationalities for staff or real-world figures do
   not override current entity fields.
 - Historical social metrics, audience numbers, performance measurements, and

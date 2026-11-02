@@ -1,7 +1,7 @@
 {
   "id": "sofia-kairos-executive",
   "slug": "sofia-kairos-executive",
-  "realName": "Sofia",
+  "realName": "Sofia Alvarez",
   "nickname": "TBD",
   "nationality": "American",
   "role": "Executive",
@@ -34,6 +34,7 @@
   "confirmedFacts": [
     "Sofia is an active executive at Kairos Esports.",
     "Sofia is a fictional character.",
+    "Her canonical full name is Sofia Alvarez.",
     "The first confirmed appearance is episode-003."
   ],
   "unconfirmedDetails": [
@@ -41,7 +42,6 @@
     "The exact date this person joined Kairos is TBD.",
     "Contract value, exact contract dates, and salary are TBD.",
     "Personality, objectives, and achievements are TBD.",
-    "Full name is TBD.",
     "Age is TBD.",
     "Exact title is TBD.",
     "Division assignment is TBD.",
@@ -49,6 +49,7 @@
     "Former playing career is TBD."
   ],
   "canonNotes": [
-    "Do not invent a surname or exact executive title."
+    "The surname Alvarez was established by direct author instruction; historical episode prose remains unchanged.",
+    "The exact executive title remains TBD."
   ]
 }

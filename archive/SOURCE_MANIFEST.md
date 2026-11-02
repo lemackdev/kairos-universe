@@ -1,5 +1,18 @@
 # Historical Source Manifest
 
+## Episodes 76-90 Source
+
+- **File:** [76-90.pdf](episode-sources/76-90.pdf)
+- **Source type:** Preserved supplied PDF, Episodes 76-90
+- **Pages:** 186
+- **SHA-256:** `d84b49d885c9b6de73da3c10bd3588e3fc0f237ad2a1c1b6222f993997c4ff5e`
+- **Archive status:** Byte-for-byte copy of the supplied PDF
+- **Searchable derivative:** [KAIROS_EPISODES_076_090_NORMALIZED.md](../docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md)
+- **Normalization notes:** [Episodes 76-90 normalization](../docs/episodes/EPISODES_076_090_NORMALIZATION.md)
+
+The PDF remains immutable. Searchable-source corrections do not change the
+preserved pages.
+
 ## Archived Source
 
 - **File:** [kairos-original-episodes.pdf](sources/kairos-original-episodes.pdf)

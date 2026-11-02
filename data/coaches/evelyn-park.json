@@ -1,0 +1,48 @@
+{
+  "id": "evelyn-park",
+  "slug": "evelyn-park",
+  "realName": "Evelyn Park",
+  "ageAtFirstAppearance": 38,
+  "nickname": "TBD",
+  "nationality": "TBD",
+  "role": "Clinical Psychologist",
+  "division": "TBD",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "TBD",
+  "status": "active",
+  "firstAppearance": "episode-088",
+  "joinedKairos": "2026-12-16",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "Clinical psychologist licensed in California, with experience working with adolescents and young adults.",
+  "coachingPhilosophy": "Confidential clinical care must not become a tool for roster or performance decisions.",
+  "responsibilities": [
+    "Provide confidential mental-health services for Kairos players.",
+    "Support anxiety, adjustment, sleep, stress, career transitions, and personal or family issues.",
+    "Share only consent-based operational information or necessary safety exceptions, not session content."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-esports",
+      "type": "coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 88: joins Kairos and introduces confidential clinical services on 2026-12-16."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Evelyn Park is a fictional clinical psychologist, age 38 at first appearance.",
+    "She is licensed in California and joins Kairos on 2026-12-16.",
+    "Clinical session content is not reported to coaches or management except documented operational or safety exceptions."
+  ],
+  "unconfirmedDetails": [
+    "Nationality, exact date of birth, contract terms, salary, and reporting line are TBD."
+  ],
+  "canonNotes": [
+    "Do not expose private therapy content through public Kairospedia profiles."
+  ]
+}

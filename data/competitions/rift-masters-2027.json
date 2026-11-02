@@ -1,0 +1,25 @@
+{
+  "id": "rift-masters-2027",
+  "slug": "rift-masters-2027",
+  "continuityId": "kairos-universe",
+  "name": "Rift Masters 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Tier 1 international event after MSI and before the final Worlds run; 12 qualified teams. Kairos has not qualified.",
+  "format": [
+    "Two teams each from LCK, LPL, LEC, LCS, LCP and CBLOL.",
+    "Emphasizes year-long performance and Global Circuit Points."
+  ],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

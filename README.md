@@ -10,9 +10,9 @@ first-person narrator. He is the founder and CEO of Asterion Intelligence and
 the founder and owner of Kairos Esports.
 
 Kairospedia is a presentation and indexing layer over repository canon. Its
-current publication exposes Kairos Esports, the League of Legends and
-Counter-Strike main teams, their ten players, associated published staff and
-confirmed mentorship relationships. Academy pages remain hidden. The player
+current publication exposes Kairos Esports, all five League and Counter-Strike
+teams, their twenty-five players, associated published staff and
+confirmed mentorship relationships. The player
 portraits are explicitly labeled AI-generated illustrations, not biography.
 
 Kairospedia additionally exposes a separate, source-linked **pre-Worlds 2026
@@ -36,9 +36,10 @@ KairosDB never replaces it. See
 The [2027 uniform system](docs/branding/2027_UNIFORM_SYSTEM.md) stores four
 uniform records and ten reusable visual assets in canonical data. Both apps
 derive their published branding from those records. The main-team black kit
-is visible on published main-team pages; academy divisions remain hidden.
-New Balance is approved future branding, pending formal narrative canonization,
-not an announced contract. Asterion remains the parent company and Principal
+is visible on published main-team pages; Academy Blue, White, and Counter-Strike
+Academy use their own approved colors. New Balance signed as official technical
+apparel partner on 2026-12-04 and was announced on 2026-12-07 in fictional
+Kairos Universe canon. Asterion remains the parent company and Principal
 Institutional Partner. See [cleanup provenance](docs/branding/ASSET_CLEANUP_NOTES.md).
 
 Each app runs `npm run branding:build` during development and production
@@ -290,6 +291,7 @@ If established canon is removed or replaced, update the
 - **COMPLETED:** Canon Batch 54-56
 - **COMPLETED:** Episodes 30-56 source normalization and canonization
 - **COMPLETED:** Episodes 57-75 source normalization and canonization
+- **COMPLETED:** Episodes 76-90 PDF preservation, source normalization, and canonization
 - **COMPLETED:** Kairospedia foundation and Kairos League publication
 - **COMPLETED:** KairosDB foundation and Leaguepedia 2026 world snapshot
 - **NEXT:** KairosDB snapshot review and competitive data expansion
@@ -299,17 +301,19 @@ If established canon is removed or replaced, update the
 
 ## Current limitations
 
-The story begins in early 2026. The current narrative date is 24/11/2026,
-and the next competitive milestone is February 2027.
+The story begins in early 2026. The current narrative date is 18/12/2026.
+The primary competitive debut window begins 08/02/2027, but no first official
+match date or opponent is confirmed.
 
-The current story episode is 75. Episodes 1 through 29 are reconstructed from
+The current story episode is 90. Episodes 1 through 29 are reconstructed from
 the archived historical PDF. Episodes 30 through 56 and 57 through 75 are
 reconstructed from their preserved source packages and authoritative normalized
 Markdown. Episodes 1 through 24
 preserve original Portuguese titles but retain **TBD** current-canon English
 titles. Episodes 25 through 29 preserve both current working titles and
 historical titles. Exact dates for Episodes 30 through 54 remain **TBD**.
-Episodes 55 through 75 use source-confirmed exact dates.
+Episodes 55 through 90 use source-confirmed exact dates. Episodes 76-90 cite a
+preserved PDF and a documented normalized searchable source.
 
 Unknown names, event dates, facility specifications, contract terms, salaries,
 rankings, results, and statistics must not be invented. Established player

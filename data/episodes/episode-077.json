@@ -1,0 +1,104 @@
+{
+  "id": "episode-077",
+  "slug": "episode-077",
+  "episodeNumber": 77,
+  "title": "Escolher Onde Não Estar",
+  "historicalTitle": "Escolher Onde Não Estar",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 21,
+    "pageEnd": 32,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-27",
+  "datePrecision": "exact",
+  "publicationOrder": 77,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "marcus-kairos-general-manager"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Adrian cancels the preliminary VALORANT project, concentrates Kairos on League and Counter-Strike, and places Dota 2 under long-term monitoring only.",
+  "keyEvents": [
+    "The preliminary VALORANT project is cancelled, not paused; no roster, staff, contracts, or competitive participation ever existed.",
+    "League has 15 players across three rosters, Counter-Strike has 10 across two, for 25 competitive players total.",
+    "Dota 2 is long-term monitoring only, without active recruitment, staff search, or launch timeline."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "The preliminary VALORANT project is cancelled, not paused; no roster, staff, contracts, or competitive participation ever existed.",
+    "League has 15 players across three rosters, Counter-Strike has 10 across two, for 25 competitive players total.",
+    "Dota 2 is long-term monitoring only, without active recruitment, staff search, or launch timeline."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-076"
+  ],
+  "continuityNotes": [
+    "The PDF's 25 League-player count was an arithmetic typo; the normalized source corrects it.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification.",
+    "Only documented source normalizations appear in the searchable Markdown source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 77 — Escolher Onde Não Estar",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The preliminary VALORANT project is cancelled, not paused; no roster, staff, contracts, or competitive participation ever existed.",
+    "League has 15 players across three rosters, Counter-Strike has 10 across two, for 25 competitive players total.",
+    "Dota 2 is long-term monitoring only, without active recruitment, staff search, or launch timeline."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 10:20.",
+    "Complete prose remains in the normalized source."
+  ]
+}

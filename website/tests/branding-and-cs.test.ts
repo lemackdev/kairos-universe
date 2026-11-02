@@ -16,7 +16,7 @@ describe("branding and Counter-Strike publication", () => {
     expect(branding.uniforms).toHaveLength(4);
     const assignments = Object.fromEntries(branding.uniforms.flatMap(u => u.teamIds.map(id => [id, u.primaryColor])));
     expect(assignments).toEqual({ "kairos-lol-main": "black", "kairos-cs-main": "black", "kairos-lol-academy-blue": "blue", "kairos-lol-academy-white": "white", "kairos-cs-academy": "green" });
-    expect(branding.uniforms.every(u => u.technicalSupplier.status === "pending-formal-narrative-canonization" && u.technicalSupplier.contractValue === null)).toBe(true);
+    expect(branding.uniforms.every(u => u.technicalSupplier.status === "official" && u.technicalSupplier.contractValue === null)).toBe(true);
     expect(() => safeAssetPath(root, "assets/../../outside.png")).toThrow();
   });
   it("publishes branding for every enabled team", () => {

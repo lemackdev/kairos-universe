@@ -1,0 +1,123 @@
+{
+  "id": "episode-085",
+  "slug": "episode-085",
+  "episodeNumber": 85,
+  "title": "Blue e White",
+  "historicalTitle": "Blue e White",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 91,
+    "pageEnd": 101,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-11",
+  "datePrecision": "exact",
+  "publicationOrder": 85,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Hai accepts the Academy Blue Head Coach role and Miles Sable Warren accepts Academy White; final legal details remain pending.",
+  "keyEvents": [
+    "Hai is selected for Academy Blue and accepts the Head Coach offer.",
+    "Miles Sable Warren is selected for Academy White and accepts the Head Coach offer.",
+    "Aphromoo remains League Main Head Coach, Thinkcard Strategic Coach, and Emily Chen Analytics and Performance.",
+    "The Academy coaching structure is announced internally; exact employment start dates and contract terms remain TBD."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [
+    "Hai Du Lam accepts Academy Blue Head Coach.",
+    "Miles Sable Warren accepts Academy White Head Coach."
+  ],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Hai is selected for Academy Blue and accepts the Head Coach offer.",
+    "Miles Sable Warren is selected for Academy White and accepts the Head Coach offer.",
+    "Aphromoo remains League Main Head Coach, Thinkcard Strategic Coach, and Emily Chen Analytics and Performance.",
+    "The Academy coaching structure is announced internally; exact employment start dates and contract terms remain TBD."
+  ],
+  "canonChanged": [
+    "Both League Academy Head Coach roles are filled by accepted offers."
+  ],
+  "continuityDependencies": [
+    "episode-084"
+  ],
+  "continuityNotes": [
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [
+    "Hai Du Lam"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 85 — Blue e White",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Hai is selected for Academy Blue and accepts the Head Coach offer.",
+    "Miles Sable Warren is selected for Academy White and accepts the Head Coach offer.",
+    "Aphromoo remains League Main Head Coach, Thinkcard Strategic Coach, and Emily Chen Analytics and Performance.",
+    "The Academy coaching structure is announced internally; exact employment start dates and contract terms remain TBD."
+  ],
+  "unconfirmedDetails": [
+    "Exact employment start dates and financial terms for Hai and Miles are TBD."
+  ],
+  "notes": [
+    "Source time: 08:15.",
+    "Complete prose remains in the normalized source."
+  ]
+}

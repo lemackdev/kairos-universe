@@ -1,0 +1,22 @@
+{
+  "id": "demacia-cup-global-2027",
+  "slug": "demacia-cup-global-2027",
+  "continuityId": "kairos-universe",
+  "name": "Demacia Cup Global 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Lower-prestige international postseason event intended for strong teams that miss Worlds. Not equal in prestige to Worlds.",
+  "format": [],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

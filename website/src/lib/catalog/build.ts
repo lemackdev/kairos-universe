@@ -219,7 +219,7 @@ export function buildCatalog(
 
     const transactions: TeamView["transactions"] = [
       ...[...teamRoster, ...formerRoster].flatMap((entry) => [
-        ...(entry.joinedDate ? [{ id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname} joins as ${entry.role}.` }] : []),
+        { id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname} joins as ${entry.role}.` },
         ...(entry.leftDate ? [{ id: `${entry.tenureId}-leave`, date: entry.leftDate, text: `${entry.nickname} leaves.` }] : []),
         ...(entry.contractEndDate ? [{ id: `${entry.tenureId}-contract`, date: null, text: `${entry.nickname}'s contract runs through ${formatDate(entry.contractEndDate)}.` }] : []),
       ]),

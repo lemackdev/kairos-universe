@@ -1,5 +1,21 @@
 # Canon Changelog
 
+## 0.11.0 - Episodes 76-90 and December 2026
+
+- Reconstructed Episodes 76-90 from the preserved 186-page PDF, with documented searchable-source normalizations and no alteration to the PDF or Episodes 1-75.
+- Established New Balance as Kairos' signed fictional-universe official technical apparel partner (2026-12-04), publicly announced with the 2027 uniforms (2026-12-07). Contract terms remain unknown.
+- Canonized Hai Du Lam as Academy Blue Head Coach and Miles "Sable" Warren as Academy White Head Coach. Added staff records, tenures, portraits, and Kairospedia profile publication.
+- Added Dr. Maya Torres and Dr. Evelyn Park to Kairos' confidential wellbeing program from 2026-12-16. Private disclosures are not public profile facts.
+- Updated Arthur Fletcher's current residence to the campus residential area while preserving the earlier Mackenzie state as history.
+- Recorded the fictional Riot policy and 2027 competitive direction; no official result, standings, or first-match date was fabricated.
+- Set the current episode to 90 (2026-12-18) and the primary competitive debut window start to 2027-02-08, explicitly not a first-match date.
+
+## Unreleased - Kairos Leadership Identities and Portraits
+
+- Established the full names Claire Whitcomb, Ethan Calder, Sofia Alvarez, and Marcus Bell by direct author instruction.
+- Kept all four stable IDs, roles, and first-appearance records unchanged; archived episode prose remains unchanged.
+- Added distinct illustrative staff portraits to their existing Kairospedia profiles. Appearance does not establish age, ancestry, or other biographical canon.
+
 ## Unreleased - Main-Roster Portraits and Counter-Strike Publication
 
 - Added ten illustrative portraits in the new black kit: five revised League

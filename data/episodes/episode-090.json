@@ -1,0 +1,174 @@
+{
+  "id": "episode-090",
+  "slug": "episode-090",
+  "episodeNumber": 90,
+  "title": "Fevereiro Tem Data",
+  "historicalTitle": "Fevereiro Tem Data",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 171,
+    "pageEnd": 186,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-18",
+  "datePrecision": "exact",
+  "publicationOrder": 90,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "maya-torres",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "arthur-fletcher",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos receives its 2027 preparation calendar: January 4 resumes competitive preparation and February 8 begins the primary debut window, but no first match is confirmed.",
+  "keyEvents": [
+    "The primary 2027 competitive debut window begins on 2027-02-08; this is not a confirmed match date.",
+    "January 2027 is structured around competitive simulation; League full series simulation starts in the second week.",
+    "Counter-Strike uses external practice and match-format simulation.",
+    "League Academies prepare for Tier 2 qualification pathways; no slot is guaranteed.",
+    "Counter-Strike Academy may enter suitable open leagues or qualifiers, subject to age and eligibility; permanent positions remain undefined.",
+    "2026-12-19 is the final full mandatory day; institutional break runs from 2026-12-20 through 2027-01-03.",
+    "Competitive preparation resumes on 2027-01-04; first opponent and exact match date remain TBD.",
+    "No official Kairos match has occurred."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [
+    {
+      "id": "institutional-break-2026-12-20",
+      "date": "2026-12-20",
+      "status": "planned",
+      "summary": "Kairos institutional break runs through 2027-01-03."
+    },
+    {
+      "id": "competitive-preparation-resumes-2027-01-04",
+      "date": "2027-01-04",
+      "status": "planned",
+      "summary": "Competitive preparation resumes across the five teams."
+    },
+    {
+      "id": "primary-competitive-debut-window-2027-02-08",
+      "date": "2027-02-08",
+      "status": "planned",
+      "summary": "Primary competitive debut window opens; exact first match and opponent are TBD."
+    }
+  ],
+  "canonIntroduced": [
+    "The primary 2027 competitive debut window begins on 2027-02-08; this is not a confirmed match date.",
+    "January 2027 is structured around competitive simulation; League full series simulation starts in the second week.",
+    "Counter-Strike uses external practice and match-format simulation.",
+    "League Academies prepare for Tier 2 qualification pathways; no slot is guaranteed.",
+    "Counter-Strike Academy may enter suitable open leagues or qualifiers, subject to age and eligibility; permanent positions remain undefined.",
+    "2026-12-19 is the final full mandatory day; institutional break runs from 2026-12-20 through 2027-01-03.",
+    "Competitive preparation resumes on 2027-01-04; first opponent and exact match date remain TBD.",
+    "No official Kairos match has occurred."
+  ],
+  "canonChanged": [
+    "The February milestone becomes an exact window opening, not an exact first-match date."
+  ],
+  "continuityDependencies": [
+    "episode-089"
+  ],
+  "continuityNotes": [
+    "Arthur may stay on campus during the break because treatment is independent of the competitive calendar.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 90 — Fevereiro Tem Data",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The primary 2027 competitive debut window begins on 2027-02-08; this is not a confirmed match date.",
+    "January 2027 is structured around competitive simulation; League full series simulation starts in the second week.",
+    "Counter-Strike uses external practice and match-format simulation.",
+    "League Academies prepare for Tier 2 qualification pathways; no slot is guaranteed.",
+    "Counter-Strike Academy may enter suitable open leagues or qualifiers, subject to age and eligibility; permanent positions remain undefined.",
+    "2026-12-19 is the final full mandatory day; institutional break runs from 2026-12-20 through 2027-01-03.",
+    "Competitive preparation resumes on 2027-01-04; first opponent and exact match date remain TBD.",
+    "No official Kairos match has occurred."
+  ],
+  "unconfirmedDetails": [
+    "Exact first official match date and opponent remain TBD."
+  ],
+  "notes": [
+    "Source time: 16:20.",
+    "Complete prose remains in the normalized source."
+  ]
+}

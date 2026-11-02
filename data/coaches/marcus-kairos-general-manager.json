@@ -1,7 +1,7 @@
 {
   "id": "marcus-kairos-general-manager",
   "slug": "marcus-kairos-general-manager",
-  "realName": "Marcus",
+  "realName": "Marcus Bell",
   "nickname": "TBD",
   "nationality": "American",
   "role": "General Manager",
@@ -34,6 +34,7 @@
   "confirmedFacts": [
     "Marcus is an active General Manager at Kairos Esports.",
     "Marcus is a fictional character.",
+    "His canonical full name is Marcus Bell.",
     "The first confirmed appearance is episode-003."
   ],
   "unconfirmedDetails": [
@@ -41,13 +42,13 @@
     "The exact date this person joined Kairos is TBD.",
     "Contract value, exact contract dates, and salary are TBD.",
     "Personality, objectives, and achievements are TBD.",
-    "Full name is TBD.",
     "Age is TBD.",
     "Whether the role is League-specific or broader Kairos operations is TBD.",
     "Exact reporting line is TBD.",
     "Former playing career is TBD."
   ],
   "canonNotes": [
+    "The surname Bell was established by direct author instruction; historical episode prose remains unchanged.",
     "Do not narrow the General Manager role to the League division without confirmation."
   ]
 }

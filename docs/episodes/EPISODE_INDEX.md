@@ -1,14 +1,14 @@
 # Episode Index
 
 Historical sources for Episodes 1 through 29 and normalized sources for
-Episodes 30 through 75 are recovered. `TBD` for Episodes 1 through 24 means no
+Episodes 30 through 90 are recovered. `TBD` for Episodes 1 through 24 means no
 current-canon English title has been approved; the historical title is still
 preserved.
 
 ## Narrator and Protagonist
 
 Current metadata identifies Adrian Elias Vale as narrator and protagonist of
-Episodes 1 through 75. The Episodes 1-29 historical prose remains unchanged and
+Episodes 1 through 90. The Episodes 1-29 historical prose remains unchanged and
 does not retroactively insert his name.
 
 | Episode | Current title | Historical/source title | Source | Division | Record |
@@ -88,13 +88,28 @@ does not retroactively insert his name.
 | 73 | Três Cadeiras | Três Cadeiras | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-073.json) |
 | 74 | Os Últimos Dois | Os Últimos Dois | Normalized source | Counter-Strike | [Record](../../data/episodes/episode-074.json) |
 | 75 | Depois da Pausa | Depois da Pausa | Normalized source | League and Counter-Strike | [Record](../../data/episodes/episode-075.json) |
+| 76 | Antes de Ir para Casa | Antes de Ir para Casa | [PDF](../../archive/episode-sources/76-90.pdf), 2026-11-25 | League / organization | [Record](../../data/episodes/episode-076.json) |
+| 77 | Escolher Onde Não Estar | Escolher Onde Não Estar | [PDF](../../archive/episode-sources/76-90.pdf), 2026-11-27 | League / organization | [Record](../../data/episodes/episode-077.json) |
+| 78 | Duas Bandeiras | Duas Bandeiras | [PDF](../../archive/episode-sources/76-90.pdf), 2026-11-30 | League / organization | [Record](../../data/episodes/episode-078.json) |
+| 79 | A Primeira Marca | A Primeira Marca | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-01 | League / organization | [Record](../../data/episodes/episode-079.json) |
+| 80 | O Primeiro Uniforme | O Primeiro Uniforme | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-02 | League / organization | [Record](../../data/episodes/episode-080.json) |
+| 81 | Assinado | Assinado | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-04 | League / organization | [Record](../../data/episodes/episode-081.json) |
+| 82 | As Quatro Cores | As Quatro Cores | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-07 | League / organization | [Record](../../data/episodes/episode-082.json) |
+| 83 | Dois Tipos de Professor | Dois Tipos de Professor | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-08 | League / organization | [Record](../../data/episodes/episode-083.json) |
+| 84 | Sem Nome Grande | Sem Nome Grande | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-10 | League / organization | [Record](../../data/episodes/episode-084.json) |
+| 85 | Blue e White | Blue e White | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-11 | League / organization | [Record](../../data/episodes/episode-085.json) |
+| 86 | Fora do Servidor | Fora do Servidor | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-13 | League / organization | [Record](../../data/episodes/episode-086.json) |
+| 87 | O Jogo Que Para de Crescer | O Jogo Que Para de Crescer | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-14 | League / organization | [Record](../../data/episodes/episode-087.json) |
+| 88 | Uma Porta Que Fecha | Uma Porta Que Fecha | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-16 | League / organization | [Record](../../data/episodes/episode-088.json) |
+| 89 | O Que Cada Um Carrega | O Que Cada Um Carrega | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-17 | League / organization | [Record](../../data/episodes/episode-089.json) |
+| 90 | Fevereiro Tem Data | Fevereiro Tem Data | [PDF](../../archive/episode-sources/76-90.pdf), 2026-12-18 | League / organization | [Record](../../data/episodes/episode-090.json) |
 
 Episode 28's duplicate pages 179-184 remain in the immutable PDF and do not
 create another record.
 
 ## Status
 
-- Episodes 1 through 75 are `reconstructed` and `source-recovered`.
+- Episodes 1 through 90 are `reconstructed` and `source-recovered`.
 - Episodes 1 through 29 cite the immutable historical PDF.
 - Episodes 30 through 56 cite the normalized searchable source.
 - Episodes 57 through 75 cite their preserved source package and normalized
@@ -103,6 +118,7 @@ create another record.
 - Other exact dates in Episodes 30 through 54 remain TBD.
 - Episodes 57 through 75 have source-confirmed exact dates from 08/11/2026
   through 24/11/2026.
+- Episodes 76 through 90 cite the preserved PDF and normalized searchable source, with exact dates from 2026-11-25 through 2026-12-18.
 - Every episode resolves narrator and protagonist to `adrian-elias-vale`.
 
 ## Related Documents

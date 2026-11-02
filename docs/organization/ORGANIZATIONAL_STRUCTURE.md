@@ -20,6 +20,10 @@ subsidiary and operates the esports project.
 | `lukas-luk-novak` | Lukas "Luk" Novak | Head Coach of Kairos Counter-Strike |
 | `jake-stewie2k-yip` | Jake "Stewie2K" Yip | Head Coach of Kairos Counter-Strike Academy from 23/11/2026 |
 | `ethan-trace-miller` | Ethan "Trace" Miller | Counter-Strike Development Coach from 23/11/2026 |
+| `hai-du-lam` | Hai Du Lam | League Academy Blue Head Coach, active by Episode 89 |
+| `miles-sable-warren` | Miles "Sable" Warren | League Academy White Head Coach, active by Episode 89 |
+| `maya-torres` | Dr. Maya Torres | Cross-organization Sports Psychologist from 16/12/2026 |
+| `evelyn-park` | Dr. Evelyn Park | Cross-organization Clinical Psychologist from 16/12/2026 |
 
 Adrian Vale is the confirmed main protagonist and first-person narrator.
 Detailed reporting lines and titles within Kairos are **TBD**.
@@ -55,10 +59,10 @@ Detailed League records:
 | `zaqueri-aphromoo-black` | Zaqueri "Aphromoo" Black | Head Coach and Support mentor |
 | `thinkcard-kairos-strategic-coach` | Thinkcard | Strategic Coach |
 | `emily-chen` | Emily Chen | Analytics and Performance |
-| `marcus-kairos-general-manager` | Marcus | General Manager; exact organizational scope TBD |
-| `claire-kairos-executive` | Claire | Kairos Esports executive; exact title TBD |
-| `ethan-kairos-executive` | Ethan | Kairos Esports executive; exact title TBD |
-| `sofia-kairos-executive` | Sofia | Kairos Esports executive; exact title TBD |
+| `marcus-kairos-general-manager` | Marcus Bell | General Manager; exact organizational scope TBD |
+| `claire-kairos-executive` | Claire Whitcomb | Kairos Esports executive; exact title TBD |
+| `ethan-kairos-executive` | Ethan Calder | Kairos Esports executive; exact title TBD |
+| `sofia-kairos-executive` | Sofia Alvarez | Kairos Esports executive; exact title TBD |
 
 Daniel "Moss" Reyes (`daniel-moss-reyes`) is the only confirmed League
 captain. Detailed role-mentor assignments are recorded in the

@@ -1,0 +1,143 @@
+{
+  "id": "episode-088",
+  "slug": "episode-088",
+  "episodeNumber": 88,
+  "title": "Uma Porta Que Fecha",
+  "historicalTitle": "Uma Porta Que Fecha",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 145,
+    "pageEnd": 158,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-16",
+  "datePrecision": "exact",
+  "publicationOrder": 88,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "maya-torres",
+    "evelyn-park",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [
+    "maya-torres",
+    "evelyn-park"
+  ],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos launches sports psychology and confidential clinical mental-health support through Dr. Maya Torres and Dr. Evelyn Park.",
+  "keyEvents": [
+    "Dr. Maya Torres joins as a sports psychologist focused on performance, pressure, communication, and recovery after mistakes.",
+    "Dr. Evelyn Park joins as a California-licensed clinical psychologist supporting adolescents and young adults.",
+    "The program adopts the rule 'Confidentiality is not a performance tool.'",
+    "Clinical session content is not reported to coaches or management except consent-based operational or safety exceptions.",
+    "Initial individual introductions and team workshops begin."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [
+    "Maya Torres and Evelyn Park join Kairos staff on 2026-12-16."
+  ],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Dr. Maya Torres joins as a sports psychologist focused on performance, pressure, communication, and recovery after mistakes.",
+    "Dr. Evelyn Park joins as a California-licensed clinical psychologist supporting adolescents and young adults.",
+    "The program adopts the rule 'Confidentiality is not a performance tool.'",
+    "Clinical session content is not reported to coaches or management except consent-based operational or safety exceptions.",
+    "Initial individual introductions and team workshops begin."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-087"
+  ],
+  "continuityNotes": [
+    "Private clinical discussions are retained only in the source prose, not public player-profile facts.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 88 — Uma Porta Que Fecha",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Dr. Maya Torres joins as a sports psychologist focused on performance, pressure, communication, and recovery after mistakes.",
+    "Dr. Evelyn Park joins as a California-licensed clinical psychologist supporting adolescents and young adults.",
+    "The program adopts the rule 'Confidentiality is not a performance tool.'",
+    "Clinical session content is not reported to coaches or management except consent-based operational or safety exceptions.",
+    "Initial individual introductions and team workshops begin."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 09:30.",
+    "Complete prose remains in the normalized source."
+  ]
+}

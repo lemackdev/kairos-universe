@@ -16,6 +16,12 @@ const ids = [
   "jake-stewie2k-yip",
   "zaqueri-aphromoo-black",
   "thinkcard-kairos-strategic-coach",
+  "claire-kairos-executive",
+  "ethan-kairos-executive",
+  "sofia-kairos-executive",
+  "marcus-kairos-general-manager",
+  "hai-du-lam",
+  "miles-sable-warren",
 ];
 
 describe("published management and coach profiles", () => {
@@ -35,5 +41,22 @@ describe("published management and coach profiles", () => {
     const html = renderToStaticMarkup(createElement(StaffPortrait, { id }));
     expect(html).toContain(encodeURIComponent(`/staff-portraits/${id}.png`));
     expect(html).toContain("AI-generated illustrative portrait");
+  });
+
+  it.each([
+    ["claire-kairos-executive", "Claire Whitcomb"],
+    ["ethan-kairos-executive", "Ethan Calder"],
+    ["sofia-kairos-executive", "Sofia Alvarez"],
+    ["marcus-kairos-general-manager", "Marcus Bell"],
+  ])("publishes the author-directed full name for %s", (id, name) => {
+    expect(catalog.staff.find((entry) => entry.id === id)?.realName).toBe(name);
+  });
+
+  it("shows both Academy head coaches without changing Counter-Strike Academy leadership", () => {
+    expect(catalog.teams.find((entry) => entry.id === "kairos-lol-academy-blue")?.headCoachName).toBe("Hai");
+    expect(catalog.teams.find((entry) => entry.id === "kairos-lol-academy-white")?.headCoachName).toBe("Sable");
+    expect(catalog.teams.find((entry) => entry.id === "kairos-cs-academy")?.headCoachName).toBe("Stewie2K");
+    expect(catalog.routes).toContain("/wiki/staff/maya-torres");
+    expect(catalog.routes).toContain("/wiki/staff/evelyn-park");
   });
 });

@@ -1,0 +1,105 @@
+{
+  "id": "episode-079",
+  "slug": "episode-079",
+  "episodeNumber": 79,
+  "title": "A Primeira Marca",
+  "historicalTitle": "A Primeira Marca",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 39,
+    "pageEnd": 45,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-01",
+  "datePrecision": "exact",
+  "publicationOrder": 79,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "New Balance proposes an organization-wide technical apparel partnership; Kairos authorizes negotiations without signing or announcing an agreement.",
+  "keyEvents": [
+    "New Balance proposes match, training, staff, travel, footwear, and merchandise apparel for main and Academy teams.",
+    "Adrian requires equal quality for Academies and final Kairos uniform approval.",
+    "Kairos begins legal review and negotiations; no agreement is signed or announced."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "New Balance proposes match, training, staff, travel, footwear, and merchandise apparel for main and Academy teams.",
+    "Adrian requires equal quality for Academies and final Kairos uniform approval.",
+    "Kairos begins legal review and negotiations; no agreement is signed or announced."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-078"
+  ],
+  "continuityNotes": [
+    "Proposal terms, including exclusivity, are not confirmed final contract terms.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification.",
+    "Only documented source normalizations appear in the searchable Markdown source."
+  ],
+  "realWorldReferences": [
+    "New Balance"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 79 — A Primeira Marca",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "New Balance proposes match, training, staff, travel, footwear, and merchandise apparel for main and Academy teams.",
+    "Adrian requires equal quality for Academies and final Kairos uniform approval.",
+    "Kairos begins legal review and negotiations; no agreement is signed or announced."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 11:40.",
+    "Complete prose remains in the normalized source."
+  ]
+}

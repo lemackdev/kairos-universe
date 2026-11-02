@@ -1,0 +1,124 @@
+{
+  "id": "episode-080",
+  "slug": "episode-080",
+  "episodeNumber": 80,
+  "title": "O Primeiro Uniforme",
+  "historicalTitle": "O Primeiro Uniforme",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 46,
+    "pageEnd": 49,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-02",
+  "datePrecision": "exact",
+  "publicationOrder": 80,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "New Balance presents prototype Black, Blue, White, and Green uniforms while the partnership remains unsigned.",
+  "keyEvents": [
+    "Black prototypes are intended for both main teams, Blue for League Academy Blue, White for League Academy White, and Green for Counter-Strike Academy.",
+    "All four prototypes use the same professional material standard.",
+    "New Balance requests a response by Friday, but Adrian has not signed."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Black prototypes are intended for both main teams, Blue for League Academy Blue, White for League Academy White, and Green for Counter-Strike Academy.",
+    "All four prototypes use the same professional material standard.",
+    "New Balance requests a response by Friday, but Adrian has not signed."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-079"
+  ],
+  "continuityNotes": [
+    "Prototype display does not make the agreement official.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification.",
+    "Only documented source normalizations appear in the searchable Markdown source."
+  ],
+  "realWorldReferences": [
+    "New Balance"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 80 — O Primeiro Uniforme",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Black prototypes are intended for both main teams, Blue for League Academy Blue, White for League Academy White, and Green for Counter-Strike Academy.",
+    "All four prototypes use the same professional material standard.",
+    "New Balance requests a response by Friday, but Adrian has not signed."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 14:15.",
+    "Complete prose remains in the normalized source."
+  ]
+}

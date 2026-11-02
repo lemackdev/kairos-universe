@@ -1,0 +1,138 @@
+{
+  "id": "episode-082",
+  "slug": "episode-082",
+  "episodeNumber": 82,
+  "title": "As Quatro Cores",
+  "historicalTitle": "As Quatro Cores",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 53,
+    "pageEnd": 71,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-07",
+  "datePrecision": "exact",
+  "publicationOrder": 82,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos presents the final four 2027 uniforms and publicly announces New Balance as its technical apparel partner.",
+  "keyEvents": [
+    "The final Black, Blue, White, and Green 2027 uniforms are delivered and presented.",
+    "At 14:00 Kairos publicly announces the New Balance partnership with the campaign BUILT FOR WHAT COMES NEXT.",
+    "All main and Academy uniforms share the same quality standard.",
+    "Academy Green is a player joke, not the official name of Counter-Strike Academy."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "The final Black, Blue, White, and Green 2027 uniforms are delivered and presented.",
+    "At 14:00 Kairos publicly announces the New Balance partnership with the campaign BUILT FOR WHAT COMES NEXT.",
+    "All main and Academy uniforms share the same quality standard.",
+    "Academy Green is a player joke, not the official name of Counter-Strike Academy."
+  ],
+  "canonChanged": [
+    "New Balance partnership and four uniforms become publicly announced canon."
+  ],
+  "continuityDependencies": [
+    "episode-081"
+  ],
+  "continuityNotes": [
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [
+    "New Balance"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 82 — As Quatro Cores",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The final Black, Blue, White, and Green 2027 uniforms are delivered and presented.",
+    "At 14:00 Kairos publicly announces the New Balance partnership with the campaign BUILT FOR WHAT COMES NEXT.",
+    "All main and Academy uniforms share the same quality standard.",
+    "Academy Green is a player joke, not the official name of Counter-Strike Academy."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 08:40.",
+    "Complete prose remains in the normalized source."
+  ]
+}

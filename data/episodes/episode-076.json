@@ -1,0 +1,136 @@
+{
+  "id": "episode-076",
+  "slug": "episode-076",
+  "episodeNumber": 76,
+  "title": "Antes de Ir para Casa",
+  "historicalTitle": "Antes de Ir para Casa",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 1,
+    "pageEnd": 20,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-november-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-11-25",
+  "datePrecision": "exact",
+  "publicationOrder": 76,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos holds its early Thanksgiving gathering, releases players for a four-day family break, and collects anonymous appreciation cards.",
+  "keyEvents": [
+    "Training is reduced; no afternoon scrims or reviews occur.",
+    "All five competitive teams, staff, and visiting families share an early Thanksgiving dinner.",
+    "Players are released to visit family and expected back Monday after a four-day break.",
+    "Anonymous appreciation cards are collected and later delivered privately."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Training is reduced; no afternoon scrims or reviews occur.",
+    "All five competitive teams, staff, and visiting families share an early Thanksgiving dinner.",
+    "Players are released to visit family and expected back Monday after a four-day break.",
+    "Anonymous appreciation cards are collected and later delivered privately."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-075"
+  ],
+  "continuityNotes": [
+    "The unnamed campus head chef is distinct from Arthur Fletcher.",
+    "No official Kairos match occurs.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification.",
+    "Only documented source normalizations appear in the searchable Markdown source."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 76 — Antes de Ir para Casa",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Training is reduced; no afternoon scrims or reviews occur.",
+    "All five competitive teams, staff, and visiting families share an early Thanksgiving dinner.",
+    "Players are released to visit family and expected back Monday after a four-day break.",
+    "Anonymous appreciation cards are collected and later delivered privately."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 16:30.",
+    "Complete prose remains in the normalized source."
+  ]
+}

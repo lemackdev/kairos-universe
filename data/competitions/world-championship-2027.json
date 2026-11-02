@@ -1,0 +1,22 @@
+{
+  "id": "world-championship-2027",
+  "slug": "world-championship-2027",
+  "continuityId": "kairos-universe",
+  "name": "World Championship 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Highest-prestige League of Legends championship; detailed 2027 format TBD.",
+  "format": [],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

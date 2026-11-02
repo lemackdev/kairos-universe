@@ -1,0 +1,119 @@
+{
+  "id": "episode-083",
+  "slug": "episode-083",
+  "episodeNumber": 83,
+  "title": "Dois Tipos de Professor",
+  "historicalTitle": "Dois Tipos de Professor",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 72,
+    "pageEnd": 79,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-08",
+  "datePrecision": "exact",
+  "publicationOrder": 83,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [
+    "hai-du-lam",
+    "miles-sable-warren"
+  ],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Kairos opens separate Head Coach searches for Academy Blue and White, introducing Hai Du Lam and Miles Sable Warren as candidates.",
+  "keyEvents": [
+    "Academy Blue's objective is to prepare players for first-team competition.",
+    "Academy White's objective is to build professional players.",
+    "Hai Du Lam appears as a Blue coaching candidate, not yet hired.",
+    "Miles Sable Warren appears as a White coaching candidate, not yet hired."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "Academy Blue's objective is to prepare players for first-team competition.",
+    "Academy White's objective is to build professional players.",
+    "Hai Du Lam appears as a Blue coaching candidate, not yet hired.",
+    "Miles Sable Warren appears as a White coaching candidate, not yet hired."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-082"
+  ],
+  "continuityNotes": [
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [
+    "Hai Du Lam"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 83 — Dois Tipos de Professor",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Academy Blue's objective is to prepare players for first-team competition.",
+    "Academy White's objective is to build professional players.",
+    "Hai Du Lam appears as a Blue coaching candidate, not yet hired.",
+    "Miles Sable Warren appears as a White coaching candidate, not yet hired."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 09:20.",
+    "Complete prose remains in the normalized source."
+  ]
+}

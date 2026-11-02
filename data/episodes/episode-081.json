@@ -1,0 +1,111 @@
+{
+  "id": "episode-081",
+  "slug": "episode-081",
+  "episodeNumber": 81,
+  "title": "Assinado",
+  "historicalTitle": "Assinado",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 50,
+    "pageEnd": 52,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-04",
+  "datePrecision": "exact",
+  "publicationOrder": 81,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Adrian signs the New Balance technical apparel partnership; New Balance confirms at 10:17, but there is no public announcement yet.",
+  "keyEvents": [
+    "New Balance becomes Kairos's first external commercial partner and Official Technical Apparel Partner for the 2027 competitive program.",
+    "The agreement covers all five rosters and competitive coaches and staff at the same material and production standard.",
+    "Adrian signs; New Balance confirms the agreement at 10:17.",
+    "Asterion Intelligence remains the parent company and Principal Institutional Partner.",
+    "No public announcement has occurred by the episode's end."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "New Balance becomes Kairos's first external commercial partner and Official Technical Apparel Partner for the 2027 competitive program.",
+    "The agreement covers all five rosters and competitive coaches and staff at the same material and production standard.",
+    "Adrian signs; New Balance confirms the agreement at 10:17.",
+    "Asterion Intelligence remains the parent company and Principal Institutional Partner.",
+    "No public announcement has occurred by the episode's end."
+  ],
+  "canonChanged": [
+    "The previously pending apparel partnership becomes signed canon."
+  ],
+  "continuityDependencies": [
+    "episode-080"
+  ],
+  "continuityNotes": [
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [
+    "New Balance"
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 81 — Assinado",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "New Balance becomes Kairos's first external commercial partner and Official Technical Apparel Partner for the 2027 competitive program.",
+    "The agreement covers all five rosters and competitive coaches and staff at the same material and production standard.",
+    "Adrian signs; New Balance confirms the agreement at 10:17.",
+    "Asterion Intelligence remains the parent company and Principal Institutional Partner.",
+    "No public announcement has occurred by the episode's end."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 10:05.",
+    "Complete prose remains in the normalized source."
+  ]
+}

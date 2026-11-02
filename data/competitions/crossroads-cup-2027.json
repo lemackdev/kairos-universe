@@ -1,0 +1,26 @@
+{
+  "id": "crossroads-cup-2027",
+  "slug": "crossroads-cup-2027",
+  "continuityId": "kairos-universe",
+  "name": "Crossroads Cup 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Tier 1 international competition; 16 qualified teams. Kairos has no automatic invitation and has not qualified.",
+  "format": [
+    "LCK 3; LPL 3; LEC 3; LCS 3; LCP 2; CBLOL 2.",
+    "Swiss stage; eight advance to knockout.",
+    "Early Swiss rounds should avoid same-region matchups."
+  ],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

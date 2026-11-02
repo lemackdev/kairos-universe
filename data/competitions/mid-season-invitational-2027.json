@@ -1,0 +1,22 @@
+{
+  "id": "mid-season-invitational-2027",
+  "slug": "mid-season-invitational-2027",
+  "continuityId": "kairos-universe",
+  "name": "Mid-Season Invitational 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Tier 1 international event; detailed format TBD.",
+  "format": [],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

@@ -11,7 +11,6 @@ export function StaffArticle({ person }: { person: StaffView }) {
   const isAdrian = person.id === "adrian-elias-vale";
   const sections = [
     { id: "overview", title: "Overview" },
-    { id: "background-information", title: "Background Information" },
     { id: "role", title: isAdrian ? "Leadership" : "Role and Responsibilities" },
     { id: "staff-history", title: "Staff History" },
     { id: "episode-history", title: "Episode History" },
@@ -41,13 +40,12 @@ export function StaffArticle({ person }: { person: StaffView }) {
         ? <p><strong>Adrian Vale</strong> is the founder and CEO of Asterion Intelligence, the founder and owner of Kairos Esports, and the first-person narrator of the original episodes.</p>
         : <p><strong>{person.realName}</strong>{person.nickname ? `, known as ${person.nickname},` : ""} serves as {person.role} in the fictional Kairos {person.division} project.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[1]!}>{null}</ArticleSection>
-    <ArticleSection {...sections[2]!}>
+    <ArticleSection {...sections[1]!}>
       {person.responsibilities.length
         ? <ul>{person.responsibilities.map((fact) => <li key={fact}>{fact}</li>)}</ul>
         : <p>Detailed responsibilities remain TBD.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[3]!}>
+    <ArticleSection {...sections[2]!}>
       {person.tenures.length ? <TenureTimeline entries={person.tenures} /> : <p>No structured staff-tenure dates are published.</p>}
     </ArticleSection>
     <ArticleSection id="episode-history" title="Episode History">

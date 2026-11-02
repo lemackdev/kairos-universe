@@ -1,0 +1,135 @@
+{
+  "id": "episode-089",
+  "slug": "episode-089",
+  "episodeNumber": 89,
+  "title": "O Que Cada Um Carrega",
+  "historicalTitle": "O Que Cada Um Carrega",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 159,
+    "pageEnd": 170,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-17",
+  "datePrecision": "exact",
+  "publicationOrder": 89,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Recreation Center, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "maya-torres",
+    "arthur-fletcher",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Maya leads a mixed-team psychology workshop at the Recreation Center; staff identify different pressures across Main, Blue, and White.",
+  "keyEvents": [
+    "All five rosters take part in a mixed-team psychology workshop.",
+    "The program addresses separating performance mistakes from personal worth.",
+    "Coaches observe that Main, Academy Blue, and Academy White face distinct expectations.",
+    "The workshop's anonymous responses and private counseling content remain confidential."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "All five rosters take part in a mixed-team psychology workshop.",
+    "The program addresses separating performance mistakes from personal worth.",
+    "Coaches observe that Main, Academy Blue, and Academy White face distinct expectations.",
+    "The workshop's anonymous responses and private counseling content remain confidential."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-088"
+  ],
+  "continuityNotes": [
+    "Do not convert anonymous answers or private disclosures into player trivia.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 89 — O Que Cada Um Carrega",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "All five rosters take part in a mixed-team psychology workshop.",
+    "The program addresses separating performance mistakes from personal worth.",
+    "Coaches observe that Main, Academy Blue, and Academy White face distinct expectations.",
+    "The workshop's anonymous responses and private counseling content remain confidential."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Source time: 10:10.",
+    "Complete prose remains in the normalized source."
+  ]
+}

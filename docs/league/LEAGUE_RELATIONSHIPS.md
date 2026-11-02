@@ -1,5 +1,14 @@
 # League Relationships
 
+## Academy Head Coaches Through Episode 90
+
+- [Hai Du Lam](../../data/coaches/hai-du-lam.json) is Academy Blue Head Coach.
+- [Miles "Sable" Warren](../../data/coaches/miles-sable-warren.json) is Academy White Head Coach.
+- Both accepted their offers in Episode 85 and are active by Episode 89.
+- Their exact employment start dates, contract terms, and personal relationships
+  with individual players remain TBD. Their roles do not replace Aphromoo's
+  confirmed main-team leadership and wider mentorship.
+
 **Canon status:** CONFIRMED relationships only
 
 This document records structural and role-based relationships. It does not

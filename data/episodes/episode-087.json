@@ -1,0 +1,133 @@
+{
+  "id": "episode-087",
+  "slug": "episode-087",
+  "episodeNumber": 87,
+  "title": "O Jogo Que Para de Crescer",
+  "historicalTitle": "O Jogo Que Para de Crescer",
+  "archiveSource": {
+    "path": "archive/episode-sources/76-90.pdf",
+    "pageStart": 126,
+    "pageEnd": 144,
+    "duplicatePageRanges": []
+  },
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-14",
+  "datePrecision": "exact",
+  "publicationOrder": 87,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "In the fictional Kairos continuity, Riot announces a post-2027 shift away from new League champions and a larger 2027 Tier 1 and Tier 2 international ecosystem.",
+  "keyEvents": [
+    "After 2027 League will stop releasing new champions; already-in-production final champions may release during 2027.",
+    "League development shifts to reworks, visual and gameplay updates, map evolution, items, objectives, runes, systems, seasonal mechanics, modes, and balance; this is not maintenance mode.",
+    "The 2027 Tier 1 calendar includes First Stand, Crossroads Cup, MSI, Rift Masters, Worlds, and Demacia Cup Global.",
+    "Tier 2 adds Crossroads Challengers and Rift Masters Challengers; WSCI remains the leading global Tier 2 event.",
+    "Crossroads uses 16 teams, with LCK/LPL/LEC/LCS three each and LCP/CBLOL two each; Rift Masters uses 12 teams, two from each region.",
+    "Global Circuit Points connect regional and international performance; exact point tables remain TBD.",
+    "No Kairos team has qualified for any new event."
+  ],
+  "consequences": [],
+  "characterDevelopments": [],
+  "relationshipDevelopments": [],
+  "rosterChanges": [],
+  "staffChanges": [],
+  "mediaEvents": [],
+  "privatePracticeEvents": [],
+  "plannedFutureEvents": [],
+  "canonIntroduced": [
+    "After 2027 League will stop releasing new champions; already-in-production final champions may release during 2027.",
+    "League development shifts to reworks, visual and gameplay updates, map evolution, items, objectives, runes, systems, seasonal mechanics, modes, and balance; this is not maintenance mode.",
+    "The 2027 Tier 1 calendar includes First Stand, Crossroads Cup, MSI, Rift Masters, Worlds, and Demacia Cup Global.",
+    "Tier 2 adds Crossroads Challengers and Rift Masters Challengers; WSCI remains the leading global Tier 2 event.",
+    "Crossroads uses 16 teams, with LCK/LPL/LEC/LCS three each and LCP/CBLOL two each; Rift Masters uses 12 teams, two from each region.",
+    "Global Circuit Points connect regional and international performance; exact point tables remain TBD.",
+    "No Kairos team has qualified for any new event."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-086"
+  ],
+  "continuityNotes": [
+    "This is fictional-universe Riot policy, not a claim about real-world Riot.",
+    "Tier 1 and Tier 2 brackets are separate.",
+    "No official Kairos match occurs."
+  ],
+  "historicalNotes": [
+    "The 186-page original PDF is archived without modification."
+  ],
+  "realWorldReferences": [
+    "Riot Games appears in a fictional-universe announcement; do not present this as real-world Riot policy."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md",
+      "locator": "Episódio 87 — O Jogo Que Para de Crescer",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "After 2027 League will stop releasing new champions; already-in-production final champions may release during 2027.",
+    "League development shifts to reworks, visual and gameplay updates, map evolution, items, objectives, runes, systems, seasonal mechanics, modes, and balance; this is not maintenance mode.",
+    "The 2027 Tier 1 calendar includes First Stand, Crossroads Cup, MSI, Rift Masters, Worlds, and Demacia Cup Global.",
+    "Tier 2 adds Crossroads Challengers and Rift Masters Challengers; WSCI remains the leading global Tier 2 event.",
+    "Crossroads uses 16 teams, with LCK/LPL/LEC/LCS three each and LCP/CBLOL two each; Rift Masters uses 12 teams, two from each region.",
+    "Global Circuit Points connect regional and international performance; exact point tables remain TBD.",
+    "No Kairos team has qualified for any new event."
+  ],
+  "unconfirmedDetails": [
+    "Exact Global Circuit Points tables, event dates, and Kairos qualifications remain TBD."
+  ],
+  "notes": [
+    "Source time: 10:00.",
+    "Complete prose remains in the normalized source."
+  ]
+}

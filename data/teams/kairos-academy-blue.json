@@ -12,9 +12,9 @@
   "intendedCompetition": "NACL",
   "status": "active-training-pre-debut",
   "currentStoryPeriod": {
-    "period": "late-november-2026",
-    "displayName": "Late November 2026",
-    "exactDate": "2026-11-24",
+    "period": "mid-december-2026",
+    "displayName": "Mid December 2026",
+    "exactDate": "2026-12-18",
     "exactYear": "2026"
   },
   "officialDebutPeriod": {
@@ -30,7 +30,9 @@
     "tyler-murmur-grant",
     "lucas-grit-foster"
   ],
-  "coachingStaff": [],
+  "coachingStaff": [
+    "hai-du-lam"
+  ],
   "mentors": [
     "zaqueri-aphromoo-black"
   ],
@@ -58,14 +60,15 @@
     "Owen \"Kite\" Hughes is Mid, born 2008-02-27, and age 18 on 2026-11-24.",
     "Tyler \"Murmur\" Grant is ADC, born 2009-08-19, and age 17 on 2026-11-24.",
     "Lucas \"Grit\" Foster is Support, born 2008-11-05, and age 18 on 2026-11-24.",
-    "The current narrative date is 2026-11-24.",
+    "The current narrative date is 2026-12-18.",
+    "Hai Du Lam accepted the Academy Blue Head Coach position in Episode 85 and is active by Episode 89.",
     "The December Phase Two plan is established in Episode 75.",
     "Academy Blue will focus on consistency and meaningful internal pressure during Phase Two."
   ],
   "unconfirmedDetails": [
     "Player cities, nationalities, personalities, and playstyles remain TBD.",
     "The captain is TBD.",
-    "Specific coaching staff and mentor assignments beyond Aphromoo are TBD.",
+    "Exact employment start date and contract terms for Hai are TBD.",
     "Exact founding and early-2026 roster-formation dates are TBD.",
     "The exact competitive milestone date in February 2027 is TBD.",
     "Contracts, salaries, future results, rankings, and statistics are TBD."

@@ -1,5 +1,23 @@
 # Current World State
 
+## Canonical Endpoint: 18 December 2026
+
+- **Current episode:** 90, "Fevereiro Tem Data".
+- **Current narrative date:** 2026-12-18, mid-December 2026.
+- **Official Kairos matches:** none. The primary competitive debut **window** opens on 2027-02-08; this is not a first-match date.
+- **League:** Main, Academy Blue, and Academy White are training. Hai Du Lam heads Blue; Miles "Sable" Warren heads White. Exact coach employment start dates and terms are TBD. The Academy captaincies remain TBD.
+- **Counter-Strike:** main and Academy rosters remain intact. The Academy's permanent roles and captain remain TBD.
+- **Apparel:** New Balance signed as official technical apparel partner on 2026-12-04. The partnership and four 2027 uniforms were announced on 2026-12-07. Financial and contract details remain TBD.
+- **Campus:** the Recreation Center is operating as a player-wellbeing facility. Arthur Fletcher has relocated from Mackenzie to the campus residential area by Episode 86. The exact move date and independent medical details remain TBD. He is not Kairos staff.
+- **Wellbeing:** Dr. Maya Torres and Dr. Evelyn Park joined on 2026-12-16. Individual clinical disclosures and workshop answers remain private.
+- **Preparation:** last full mandatory day is 2026-12-19; institutional break runs 2026-12-20 to 2027-01-03; preparation resumes 2027-01-04. These are future plans at the current story date.
+- **Fictional Riot policy:** after 2027 no new champions are planned; last already-in-production champions may release in 2027. See [Episode 87](../../data/episodes/episode-087.json).
+
+The material below is retained as the **historical Episode 75 snapshot**, not the
+current state. Its prospective claims were superseded by Episodes 76-90.
+
+## Archived November 24 Snapshot
+
 ## Narrative Endpoint
 
 - **Current story date:** 24/11/2026

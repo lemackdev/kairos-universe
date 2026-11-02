@@ -13,14 +13,21 @@
 | Headquarters | Los Angeles, California, United States |
 | Current competitive status | Active, training, and pre-debut |
 | Story start | Early 2026 |
-| Current story date | 24/11/2026 |
-| Next competitive milestone | February 2027 |
-| Exact milestone dates | TBD |
+| Current story date | 18/12/2026 |
+| Next competitive milestone | Primary debut window begins 08/02/2027 |
+| First official match date and opponent | TBD |
 
 Kairos Esports was created as a long-term talent development project. It is
 designed to develop players rather than immediately purchase established
 superstars. The organization accepts that developed players may eventually
 leave for larger opportunities.
+
+New Balance became Kairos' first external commercial partner when Adrian
+signed its official technical apparel agreement on 04/12/2026. The partnership
+and four 2027 uniforms were publicly announced on 07/12/2026. This is fictional
+Kairos Universe canon, not a real-world partnership. Contract value, duration,
+and legal details are TBD. Asterion Intelligence remains the parent company
+and Principal Institutional Partner, not an external sponsor.
 
 Adrian Vale founded and owns Kairos Esports. He personally participates in the
 recruitment and development of the original League of Legends program and
@@ -87,8 +94,10 @@ Long-term sustainability matters more than immediate trophies.
 
 ## Project Casa Arthur
 
-Project Casa Arthur is a conditional future support plan. It depends on safe
-travel and Arthur Fletcher receiving independent medical approval.
+Project Casa Arthur was introduced as a conditional support plan. Arthur
+Fletcher has relocated to the campus residential area by Episode 86. The
+exact move date and status of a distinct Project Casa Arthur facility remain
+TBD.
 No construction, relocation, acceptance, or medical approval has occurred.
 
 ## Food-Service Policy
@@ -127,8 +136,9 @@ in the relevant episode record.
 - League player, coach, mentor, and staff records are documented in the
   [League division package](../league/LEAGUE_DIVISION.md); unsupported
   biographical and commercial details remain **TBD**.
-- Counter-Strike shared analyst, sports psychology, and performance staff names
-  and exact structures are **TBD**.
+- Dr. Maya Torres and Dr. Evelyn Park joined the cross-organization wellbeing
+  program on 16/12/2026. Additional analyst and performance structures remain
+  **TBD**.
 - Contracts, salaries, rankings, statistics, and official results are **TBD**
   until narratively confirmed.
 - Project Casa Arthur's cost, dimensions, address, schedule, medical approval,

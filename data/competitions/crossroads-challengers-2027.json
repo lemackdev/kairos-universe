@@ -1,0 +1,24 @@
+{
+  "id": "crossroads-challengers-2027",
+  "slug": "crossroads-challengers-2027",
+  "continuityId": "kairos-universe",
+  "name": "Crossroads Challengers 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-episodes-076-090"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Tier 2 event with 16 qualified teams. Academy Blue and White have no automatic qualification.",
+  "format": [
+    "LCK 3; LPL 3; LEC 3; LCS 3; LCP 2; CBLOL 2."
+  ],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": null,
+  "participantTeamIds": [],
+  "prizeDistribution": []
+}

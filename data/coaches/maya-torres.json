@@ -1,0 +1,50 @@
+{
+  "id": "maya-torres",
+  "slug": "maya-torres",
+  "realName": "Maya Torres",
+  "ageAtFirstAppearance": 35,
+  "nickname": "TBD",
+  "nationality": "American",
+  "role": "Sports Psychologist",
+  "division": "TBD",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "TBD",
+  "status": "active",
+  "firstAppearance": "episode-088",
+  "joinedKairos": "2026-12-16",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "Sports psychologist with experience supporting university athletes, professional sports, and high-performance programs.",
+  "coachingPhilosophy": "Competitive pressure is not a weakness; players can learn to function with it. Confidentiality is not a performance tool.",
+  "responsibilities": [
+    "Provide performance psychology support for Kairos players.",
+    "Support pressure, confidence, pre-competition routines, communication under stress, recovery after mistakes, stage adaptation, tilt, and competitive identity.",
+    "Lead non-clinical team workshops while preserving individual privacy."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-esports",
+      "type": "coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 88: joins Kairos and introduces the performance psychology program on 2026-12-16.",
+    "Episode 89: leads a mixed-team workshop at the Recreation Center."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Maya Torres is a fictional American sports psychologist, age 35 at first appearance.",
+    "She joins Kairos on 2026-12-16.",
+    "Her workshops do not make private participant disclosures public canon."
+  ],
+  "unconfirmedDetails": [
+    "Exact date of birth, contract terms, salary, and reporting line are TBD."
+  ],
+  "canonNotes": [
+    "Do not publish anonymous workshop answers as individual player trivia.",
+    "Clinical session content is private."
+  ]
+}

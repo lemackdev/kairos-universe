@@ -1,5 +1,31 @@
 # Master Timeline
 
+## Canonized December 2026 Continuation
+
+The earlier numbered table is the chronology reconstructed through Episode 75.
+The following entries extend it, without changing the historical source:
+
+| Date | Episode | Confirmed event |
+| --- | --- | --- |
+| 2026-11-25 | 76 | Kairos holds its Thanksgiving gathering. |
+| 2026-11-27 | 77 | Kairos chooses not to launch a VALORANT division. |
+| 2026-11-30 | 78 | Kairos formalizes its approach to two flags and cultural identity. |
+| 2026-12-01 to 2026-12-02 | 79-80 | New Balance proposes an apparel partnership and presents prototype uniforms; no signing yet. |
+| 2026-12-04 | 81 | Adrian signs the New Balance technical apparel agreement. |
+| 2026-12-07 | 82 | Kairos publicly presents the signed partnership and four 2027 uniforms. |
+| 2026-12-08 to 2026-12-11 | 83-85 | Hai Du Lam and Miles "Sable" Warren are evaluated, selected, and accept the Academy Blue and White Head Coach roles; exact employment start dates are TBD. |
+| 2026-12-13 | 86 | The Recreation Center operates; Arthur Fletcher has relocated to the campus residential area by this episode. Exact move date is TBD. |
+| 2026-12-14 | 87 | Fictional Kairos Universe Riot policy and 2027 competitive structure are announced. |
+| 2026-12-16 | 88 | Dr. Maya Torres and Dr. Evelyn Park join the wellbeing program. |
+| 2026-12-17 | 89 | A mixed-team psychology workshop occurs; private disclosures are not public canon facts. |
+| 2026-12-18 | 90 | Kairos sets its preparation calendar. The primary 2027 competitive debut window begins 2027-02-08, not a confirmed first-match date. |
+
+Planned after the current narrative date: last mandatory day 2026-12-19,
+institutional break 2026-12-20 through 2027-01-03, preparation resumes
+2027-01-04. Exact official match dates, opponents, results, and standings remain TBD.
+
+## Historical Timeline Through Episode 75
+
 **Canon status:** CONFIRMED event order with incomplete calendar dates
 
 The story begins in early 2026. The current date is 24/11/2026. Exact

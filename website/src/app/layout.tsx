@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 import { WikiShell } from "@/components/WikiShell";
+import { getSearchIndex } from "@/lib/canon/server";
 
 import "./globals.css";
 
@@ -20,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <WikiShell>{children}</WikiShell>
+        <WikiShell searchRecords={getSearchIndex()}>{children}</WikiShell>
       </body>
     </html>
   );

@@ -65,7 +65,7 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
     <ArticleSection {...sections[2]!}>
       {team.transactions.length
         ? <ul className="articleTimeline">{team.transactions.map((entry) => <li key={entry.id}>
-            <strong>{entry.date ? formatDate(entry.date) : "Date TBD"}</strong> <span>{entry.text}</span>
+            <strong>{entry.date ? formatDate(entry.date) : "—"}</strong> <span>{entry.text}</span>
           </li>)}</ul>
         : <p>No roster or staff transactions recorded.</p>}
     </ArticleSection>
@@ -80,12 +80,18 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
           key: player.tenureId, cells: [<ArticleLink key="link" href={`/wiki/players/${player.slug}`}>{player.nickname}</ArticleLink>,
             player.realName, player.role, formatDate(player.joinedDate), formatDate(player.leftDate)],
         }))} />
+      <WikiTable caption="Former staff" columns={["Staff", "Name", "Former role", "Mentored"]}
+        empty="No former staff recorded." rows={team.formerStaff.map((person) => ({
+          key: person.id, cells: [<ArticleLink key="link" href={`/wiki/staff/${person.slug}`}>{person.name}</ArticleLink>,
+            person.realName, person.role, person.playerNickname],
+        }))} />
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
       <h3>Management and staff</h3>
       <ManagementTable staff={(organization?.management ?? []).filter(
-        (person) => person.division === team.gameName || person.division === "TBD" || person.division === "Executive",
+        (person) => (person.division === team.gameName || person.division === "TBD" || person.division === "Executive")
+          && !team.formerStaffIds.includes(person.id),
       )} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>

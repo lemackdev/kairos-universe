@@ -76,7 +76,7 @@ describe("encyclopedia article templates", () => {
       inviteDate: null, rankingDate: null, mapPool: [], kairosParticipating: false, relatedEvents: [],
     };
     const html = renderToStaticMarkup(createElement(TournamentArticle, { tournament }));
-    checkSections(html, ["overview", "tournament-information", "prize-pool", "participants", "results", "mvps"]);
+    checkSections(html, ["overview", "prize-pool", "participants", "results", "mvps"]);
     expect(html).toContain("No confirmed participants recorded.");
     expect(html).toContain("No MVPs or individual awards recorded.");
     expect(html).not.toContain("$");

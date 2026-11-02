@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import type { SearchRecord } from "@/types/catalog";
+import { NavSearch } from "./NavSearch";
+
 const links = [
   ["Games", "/wiki/games"],
   ["Organizations", "/wiki/organizations"],
@@ -10,10 +13,9 @@ const links = [
   ["Competitions", "/wiki/competitions"],
   ["Matches", "/wiki/matches"],
   ["Transfers", "/wiki/transfers"],
-  ["Search", "/wiki/search"],
 ] as const;
 
-export function TopNavigation() {
+export function TopNavigation({ searchRecords }: { searchRecords: SearchRecord[] }) {
   return (
     <nav className="topNav" aria-label="Primary navigation">
       <Link className="wordmark" href="/wiki" aria-label="Kairospedia home">
@@ -30,6 +32,7 @@ export function TopNavigation() {
           </Link>
         ))}
       </div>
+      <NavSearch records={searchRecords} />
     </nav>
   );
 }

@@ -3,12 +3,13 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
-import { formatDate } from "@/lib/formatting/date";
 
 const MONTHS = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
 ];
+
+const MONTHS_SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const TEAM_OPTIONS: Array<{ label: string; teamId: string | null }> = [
   { label: "All Kairos", teamId: null },
@@ -19,22 +20,31 @@ const TEAM_OPTIONS: Array<{ label: string; teamId: string | null }> = [
   { label: "CS Academy", teamId: "kairos-cs-academy" },
 ];
 
-const tierLabels: Record<string, string> = {
-  premier: "Premier", major: "Major", "tier-2": "Tier 2",
-  "tier-1-international": "Tier 1", "tier-2-international": "Tier 2",
-  "world-championship": "World Championship", "tier-2-world-championship": "Tier 2 World Championship",
-  "regional-tier-1": "Regional Tier 1", "regional-tier-2": "Regional Tier 2",
-  "postseason-international": "Postseason International",
+function ordinal(day: number): string {
+  if (day >= 11 && day <= 13) return `${day}th`;
+  switch (day % 10) {
+    case 1: return `${day}st`;
+    case 2: return `${day}nd`;
+    case 3: return `${day}rd`;
+    default: return `${day}th`;
+  }
+}
+
+function dateRange(start: string, end: string | null): string {
+  const [, startMonth, startDay] = start.split("-").map(Number);
+  if (!end) return ordinal(startDay!);
+  const [, endMonth, endDay] = end.split("-").map(Number);
+  if (startMonth === endMonth && startDay === endDay) return ordinal(startDay!);
+  if (startMonth === endMonth) return `${ordinal(startDay!)}-${ordinal(endDay!)}`;
+  return `${MONTHS_SHORT[startMonth! - 1]} ${ordinal(startDay!)} - ${MONTHS_SHORT[endMonth! - 1]} ${ordinal(endDay!)}`;
+}
+
+const gameAccent: Record<string, string> = {
+  "Counter-Strike": "calendarDotCs",
+  "League of Legends": "calendarDotLol",
 };
 
-function tierBadges(competition: CompetitionView): string[] {
-  const badges: string[] = [];
-  if (competition.tier === "major") badges.push("MAJOR");
-  if (competition.tier === "world-championship") badges.push("WORLD CHAMPIONSHIP");
-  if (competition.tier === "tier-2" || competition.tier === "tier-2-international" || competition.tier === "regional-tier-2") badges.push("TIER 2");
-  if (competition.kairosParticipating) badges.push("KAIROS PARTICIPATING");
-  return badges;
-}
+const COLLAPSED_COUNT = 5;
 
 export function CalendarView({ competitions }: { competitions: CompetitionView[] }) {
   const [game, setGame] = useState("all");
@@ -43,6 +53,7 @@ export function CalendarView({ competitions }: { competitions: CompetitionView[]
   const [participation, setParticipation] = useState("all");
   const [team, setTeam] = useState<string | null>(null);
   const [month, setMonth] = useState("all");
+  const [expanded, setExpanded] = useState<Set<number>>(new Set());
 
   const filtered = useMemo(() => competitions.filter((competition) => {
     if (game !== "all" && competition.gameName !== game) return false;
@@ -73,6 +84,14 @@ export function CalendarView({ competitions }: { competitions: CompetitionView[]
     byMonth.get(monthIndex)!.push(competition);
   }
   for (const list of byMonth.values()) list.sort((a, b) => (a.startDate ?? "").localeCompare(b.startDate ?? ""));
+
+  function toggleExpanded(index: number) {
+    setExpanded((current) => {
+      const next = new Set(current);
+      if (next.has(index)) next.delete(index); else next.add(index);
+      return next;
+    });
+  }
 
   return <div className="calendarView">
     <div className="calendarFilters">
@@ -118,42 +137,51 @@ export function CalendarView({ competitions }: { competitions: CompetitionView[]
       </label>
     </div>
 
-    <div className="calendarMonths">
+    <div className="calendarGrid">
       {MONTHS.map((name, index) => {
         if (month !== "all" && String(index) !== month) return null;
         const events = byMonth.get(index) ?? [];
-        return <section className="calendarMonth" key={name}>
-          <h3>{name}</h3>
-          {index === 6
-            ? <p className="calendarBreak">COMPETITIVE BREAK — no events scheduled.</p>
-            : (events.length
-              ? <ul className="calendarEventList">{events.map((competition) => <CalendarCard key={competition.id} competition={competition} />)}</ul>
-              : <p className="calendarEmptyMonth">No competitive tournaments.</p>)}
+        const isExpanded = expanded.has(index);
+        const visible = isExpanded ? events : events.slice(0, COLLAPSED_COUNT);
+        const hiddenCount = events.length - visible.length;
+        return <section className="calendarMonthCard" key={name}>
+          <h3 className="calendarMonthTitle">{name}</h3>
+          <div className="calendarMonthBody">
+            {index === 6
+              ? <p className="calendarBreak">COMPETITIVE BREAK</p>
+              : (events.length
+                ? <>
+                    <ul className="calendarEventList">{visible.map((competition) => <CalendarRow key={competition.id} competition={competition} />)}</ul>
+                    {hiddenCount > 0 && <button type="button" className="calendarExpandButton" onClick={() => toggleExpanded(index)}>
+                      Expand all ({hiddenCount} more)
+                    </button>}
+                    {isExpanded && events.length > COLLAPSED_COUNT && <button type="button" className="calendarExpandButton" onClick={() => toggleExpanded(index)}>
+                      Show less
+                    </button>}
+                  </>
+                : <p className="calendarEmptyMonth">No events yet</p>)}
+          </div>
         </section>;
       })}
     </div>
 
-    {month === "all" && unscheduled.length > 0 && <section className="calendarMonth">
-      <h3>Date TBD</h3>
-      <ul className="calendarEventList">{unscheduled.map((competition) => <CalendarCard key={competition.id} competition={competition} />)}</ul>
+    {month === "all" && unscheduled.length > 0 && <section className="calendarMonthCard calendarMonthCardWide">
+      <h3 className="calendarMonthTitle">Date TBD</h3>
+      <div className="calendarMonthBody">
+        <ul className="calendarEventList">{unscheduled.map((competition) => <CalendarRow key={competition.id} competition={competition} />)}</ul>
+      </div>
     </section>}
   </div>;
 }
 
-function CalendarCard({ competition }: { competition: CompetitionView }) {
-  const badges = tierBadges(competition);
-  return <li className="calendarCard">
-    <Link href={`/wiki/competitions/${competition.slug}`}>{competition.name}</Link>
-    <p className="calendarCardMeta">
-      {competition.gameName}
-      {competition.startDate && ` • ${formatDate(competition.startDate)} – ${formatDate(competition.endDate)}`}
-      {competition.location && ` • ${competition.location}`}
-    </p>
-    <p className="calendarCardMeta">
-      {competition.tier && (tierLabels[competition.tier] ?? competition.tier)}
-      {competition.prizePool && ` • ${competition.prizePool}`}
-      {competition.teamsCount != null && ` • ${competition.teamsCount} teams`}
-    </p>
-    {badges.length > 0 && <div className="statusRow">{badges.map((badge) => <span className="badge badgeStatus" key={badge}>{badge}</span>)}</div>}
+function CalendarRow({ competition }: { competition: CompetitionView }) {
+  return <li className="calendarRow">
+    <Link href={`/wiki/competitions/${competition.slug}`} className="calendarRowLink">
+      <span className={`calendarDot ${gameAccent[competition.gameName] ?? ""}`} aria-hidden="true" />
+      <span className="srOnly">{competition.gameName} —{" "}</span>
+      <span className="calendarRowName">{competition.name}</span>
+      {competition.kairosParticipating && <span className="calendarRowKairos" title="Kairos participating">K</span>}
+      {competition.startDate && <span className="calendarRowDate">{dateRange(competition.startDate, competition.endDate)}</span>}
+    </Link>
   </li>;
 }

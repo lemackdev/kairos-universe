@@ -6,8 +6,8 @@ import Link from "next/link";
 import type { SearchRecord } from "@/types/catalog";
 import { searchRecords } from "@/lib/search/search";
 
-export function SearchBox({ records }: { records: SearchRecord[] }) {
-  const [query, setQuery] = useState("");
+export function SearchBox({ records, initialQuery = "" }: { records: SearchRecord[]; initialQuery?: string }) {
+  const [query, setQuery] = useState(initialQuery);
   const deferredQuery = useDeferredValue(query);
   const results = searchRecords(records, deferredQuery);
 

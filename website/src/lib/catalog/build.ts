@@ -200,11 +200,34 @@ export function buildCatalog(
         return staffEntry(tenure, person);
       });
 
-    const mentors = teamRoster
-      .map((entry) => players.get(entry.playerId))
-      .filter((player): player is RawPlayer => Boolean(player))
+    const currentRosterPlayers = activeTenures
+      .map((tenure) => players.get(tenure.playerId))
+      .filter((player): player is RawPlayer => Boolean(player));
+
+    const mentors = currentRosterPlayers
       .map(mentorForPlayer)
       .filter((mentor): mentor is MentorView => Boolean(mentor));
+
+    const currentMentorStaffIds = new Set(mentors.map((mentor) => mentor.id));
+    const formerStaff = currentRosterPlayers.flatMap((player) =>
+      player.relationships
+        .filter((entry) => entry.type === "mentor" && entry.status === "confirmed")
+        .map((entry) => {
+          const person = staff.get(entry.subjectId);
+          if (!person || currentMentorStaffIds.has(person.id)) return null;
+          return {
+            id: person.id,
+            slug: person.slug,
+            name: person.nickname && person.nickname !== "TBD" ? person.nickname : person.realName,
+            realName: person.realName,
+            role: person.role,
+            playerName: player.realName,
+            playerNickname: player.nickname,
+          };
+        })
+        .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry)),
+    );
+    const formerStaffIds = new Set(formerStaff.map((entry) => entry.id));
 
     const relatedEpisodes = episodes
       .filter((episode) => episode.teams.includes(team.id))
@@ -220,9 +243,11 @@ export function buildCatalog(
 
     const transactions: TeamView["transactions"] = [
       ...[...teamRoster, ...formerRoster].flatMap((entry) => [
-        { id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname} joins as ${entry.role}.` },
+        {
+          id: `${entry.tenureId}-join`, date: entry.joinedDate,
+          text: `${entry.nickname} joins as ${entry.role}.${entry.contractEndDate ? ` Contract runs through ${formatDate(entry.contractEndDate)}.` : ""}`,
+        },
         ...(entry.leftDate ? [{ id: `${entry.tenureId}-leave`, date: entry.leftDate, text: `${entry.nickname} leaves.` }] : []),
-        ...(entry.contractEndDate ? [{ id: `${entry.tenureId}-contract`, date: null, text: `${entry.nickname}'s contract runs through ${formatDate(entry.contractEndDate)}.` }] : []),
       ]),
       ...teamStaff.flatMap((entry) => [
         ...(entry.joinedDate ? [{ id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname ?? entry.realName} joins as ${entry.title}.` }] : []),
@@ -263,6 +288,8 @@ export function buildCatalog(
         .sort((a, b) => a.episodeNumber - b.episodeNumber).map(episodeView),
       staff: teamStaff,
       mentors,
+      formerStaff,
+      formerStaffIds: [...formerStaffIds],
       transactions,
       relatedEpisodes,
       sources: sourceViews([

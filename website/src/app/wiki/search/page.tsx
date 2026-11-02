@@ -5,8 +5,13 @@ import { getSearchIndex } from "@/lib/canon/server";
 
 export const metadata = { title: "Search" };
 
-export default function SearchPage() {
+export default async function SearchPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
   const records = getSearchIndex();
+  const { q } = await searchParams;
 
   return (
     <>
@@ -23,7 +28,7 @@ export default function SearchPage() {
         compact
       />
       <section className="contentSection">
-        <SearchBox records={records} />
+        <SearchBox records={records} initialQuery={q ?? ""} />
       </section>
     </>
   );

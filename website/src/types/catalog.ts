@@ -120,6 +120,8 @@ export interface TeamView {
   timeline: EpisodeView[];
   staff: StaffEntryView[];
   mentors: MentorView[];
+  formerStaff: Array<{ id: string; slug: string; name: string; realName: string; role: string; playerName: string; playerNickname: string }>;
+  formerStaffIds: string[];
   transactions: Array<{ id: string; date: string | null; text: string }>;
   relatedEpisodes: EpisodeView[];
   sources: SourceView[];

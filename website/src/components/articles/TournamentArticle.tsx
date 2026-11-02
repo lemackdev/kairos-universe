@@ -5,7 +5,7 @@ import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTa
 import { formatDate } from "@/lib/formatting/date";
 
 const sections = [
-  { id: "overview", title: "Overview" }, { id: "tournament-information", title: "Tournament Information" },
+  { id: "overview", title: "Overview" },
   { id: "prize-pool", title: "Prize Pool" }, { id: "participants", title: "Participants" },
   { id: "results", title: "Results" }, { id: "mvps", title: "MVPs" },
   { id: "game-rules", title: "Game-Specific Rules" }, { id: "related-events", title: "Related Events" },
@@ -45,46 +45,44 @@ export function TournamentArticle({ tournament }: { tournament: CompetitionView 
       <h3>Format</h3>
       {tournament.format.length ? <ul>{tournament.format.map((rule) => <li key={rule}>{rule}</li>)}</ul> : <p>Format TBD.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[1]!}><Facts rows={information} /></ArticleSection>
-    <ArticleSection {...sections[2]!}>
+    <ArticleSection {...sections[1]!}>
       <p>Total prize pool: <strong>{tournament.prizePool ?? "TBD"}</strong></p>
       <WikiTable caption="Prize distribution" columns={["Place", "Prize", "Team"]} empty="No confirmed prize distribution recorded."
         rows={tournament.prizes.map((prize, index) => ({ key: String(index), cells: [prize.place, prize.prize, prize.teamName] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[3]!}>
+    <ArticleSection {...sections[2]!}>
       <WikiTable caption="Participants" columns={["Team"]} empty="No confirmed participants recorded."
         rows={tournament.participants.map((team) => ({ key: team.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[4]!}>
+    <ArticleSection {...sections[3]!}>
       <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."
         rows={tournament.results.map((result) => ({ key: result.id, cells: [result.place,
           <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>, formatDate(result.date)] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[5]!}>
+    <ArticleSection {...sections[4]!}>
       <WikiTable caption="MVPs and individual awards" columns={["Award", "Recipient", "Date"]} empty="No MVPs or individual awards recorded."
         rows={tournament.awards.map((award) => ({ key: award.id, cells: [award.name,
           <ArticleLink key="recipient" href={award.recipientHref}>{award.recipientName}</ArticleLink>, formatDate(award.date)] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[6]!}>
+    <ArticleSection {...sections[5]!}>
       {tournament.gameName === "Counter-Strike"
         ? (tournament.mapPool.length
           ? <><p>Map pool (global, permanent, non-rotating):</p><ul>{tournament.mapPool.map((map) => <li key={map}>{map}</li>)}</ul></>
           : <p>Map pool not yet recorded.</p>)
         : <p>Patch: TBD. Fearless draft, side selection, and ruleset details are not yet recorded.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[7]!}>
+    <ArticleSection {...sections[6]!}>
       {tournament.relatedEvents.length
         ? <ul>{tournament.relatedEvents.map((event) => <li key={event.slug}>
             <Link href={`/wiki/competitions/${event.slug}`}>{event.name}</Link></li>)}</ul>
         : <p>No related events recorded.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[8]!}>
+    <ArticleSection {...sections[7]!}>
       <Facts rows={[
         { label: "Invite date", value: formatDate(tournament.inviteDate) },
         { label: "Ranking date", value: formatDate(tournament.rankingDate) },
-        { label: "Teams", value: tournament.teamsCount != null ? String(tournament.teamsCount) : null },
       ]} />
     </ArticleSection>
-    <ArticleSection {...sections[9]!}><SourceList sources={tournament.sources} /></ArticleSection>
+    <ArticleSection {...sections[8]!}><SourceList sources={tournament.sources} /></ArticleSection>
   </WikiArticle>;
 }

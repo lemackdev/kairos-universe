@@ -1,14 +1,17 @@
 import type { ReactNode } from "react";
 
+import type { SearchRecord } from "@/types/catalog";
 import { SidebarNavigation, type SidebarLink } from "./SidebarNavigation";
 import { TopNavigation } from "./TopNavigation";
 
 export function WikiShell({
   children,
   contextLinks,
+  searchRecords,
 }: {
   children: ReactNode;
   contextLinks?: SidebarLink[];
+  searchRecords: SearchRecord[];
 }) {
   return (
     <>
@@ -20,7 +23,7 @@ export function WikiShell({
         and events involving real-world organizations are not real-world
         results.
       </div>
-      <TopNavigation />
+      <TopNavigation searchRecords={searchRecords} />
       <div className="wikiGrid">
         <SidebarNavigation links={contextLinks} />
         <main className="mainContent" id="main-content">

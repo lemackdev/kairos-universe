@@ -1,6 +1,26 @@
 # Current World State
 
-## Canonical Endpoint: 18 December 2026
+## Canonical Endpoint: 4 January 2027
+
+- **Current episode:** 94, "Duas Cadeiras".
+- **Current narrative date:** 2027-01-04, early January 2027.
+- **Official Kairos matches:** none. The primary competitive debut **window** opens on 2027-02-08 (35 days from the current narrative date); this is not a first-match date.
+- **League:** Main, Academy Blue, and Academy White are training. Hai Du Lam heads Blue; Miles "Sable" Warren heads White. Exact coach employment start dates and terms are TBD. The Academy captaincies remain TBD.
+- **League mentorship (effective 2027-01-04):** Darshan mentors rkN (Top); Xmithie mentors Vanta (Jungle); Goldenglue mentors 404 (Mid, succeeding Pobelter); WildTurtle mentors Aster (ADC, succeeding Doublelift); Aphromoo mentors Moss (Support) and separately remains Head Coach. Pobelter and Doublelift concluded their formal mentor roles amicably and remain part of the historical record; neither is deleted.
+- **Counter-Strike:** main and Academy rosters remain intact. The Academy's current (not permanent) roles were assigned episode-091 and reconfirmed episode-093: RAMENSOUP (formerly soupcrime) IGL / Rifler, velcroDAWG (formerly velcrodog) Entry Rifler, p4rkingl0t (formerly parkinglot) Lurker / Rifler, dentalplan Primary AWPer, wrongnumber Anchor / Support Rifler. The Academy captaincy remains TBD.
+- **Nicknames (effective 2027-01-04):** soupcrime -> RAMENSOUP, velcrodog -> velcroDAWG, parkinglot -> p4rkingl0t (CS Academy); Mako -> SullCon, Grit -> japalenogrits, Vex -> vexemite (League Academies). All six are personal/stylistic changes, not sponsor-related, and are not retroactive; former nicknames remain searchable and historically traceable.
+- **Counter-Strike canon rule:** a permanent, global, non-rotating 7-map Counter-Strike map pool (Cobblestone, Inferno, Nuke, Overpass, Dust II, Train, Cache) applies across all tiers, teams, and organizers in this continuity; Mirage, Ancient, Anubis, and Vertigo are excluded from official competitions going forward. See [data/rulesets/counter-strike-global-map-pool.json](../../data/rulesets/counter-strike-global-map-pool.json).
+- **Apparel:** New Balance signed as official technical apparel partner on 2026-12-04. The partnership and four 2027 uniforms were announced on 2026-12-07. Financial and contract details remain TBD.
+- **Campus:** the Recreation Center is operating as a player-wellbeing facility. Arthur Fletcher has relocated from Mackenzie to the campus residential area by Episode 86 and attended the 2026-12-19 holiday gathering in person. The exact move date and independent medical details remain TBD. He is not Kairos staff.
+- **Wellbeing:** Dr. Maya Torres and Dr. Evelyn Park joined on 2026-12-16. Individual clinical disclosures and workshop answers remain private.
+- **Preparation:** the last full mandatory day of 2026 was 2026-12-19; the institutional break ran 2026-12-20 to 2027-01-03; preparation resumed 2027-01-04, and the campus planning board now reads "COMPETE" instead of "BUILD KAIROS."
+- **Fictional Riot policy:** after 2027 no new champions are planned; last already-in-production champions may release in 2027. See [Episode 87](../../data/episodes/episode-087.json).
+
+The material below is retained as the **historical Episode 90 snapshot (18 December 2026)**
+and the **historical Episode 75 snapshot**, not the current state. Their prospective
+claims were superseded by Episodes 91-94 and Episodes 76-90 respectively.
+
+## Archived 18 December 2026 Snapshot (Episode 90)
 
 - **Current episode:** 90, "Fevereiro Tem Data".
 - **Current narrative date:** 2026-12-18, mid-December 2026.
@@ -12,9 +32,6 @@
 - **Wellbeing:** Dr. Maya Torres and Dr. Evelyn Park joined on 2026-12-16. Individual clinical disclosures and workshop answers remain private.
 - **Preparation:** last full mandatory day is 2026-12-19; institutional break runs 2026-12-20 to 2027-01-03; preparation resumes 2027-01-04. These are future plans at the current story date.
 - **Fictional Riot policy:** after 2027 no new champions are planned; last already-in-production champions may release in 2027. See [Episode 87](../../data/episodes/episode-087.json).
-
-The material below is retained as the **historical Episode 75 snapshot**, not the
-current state. Its prospective claims were superseded by Episodes 76-90.
 
 ## Archived November 24 Snapshot
 
@@ -133,4 +150,8 @@ contractual media term, or public-sentiment metric is canonical.
 - Episodes 30-56 use the preserved and normalized 30-56 source package.
 - Episodes 57-75 use the preserved DOCX and
   [normalized searchable source](../episodes/sources/KAIROS_EPISODES_057_075_NORMALIZED.md).
-- Structured episode records exist continuously from Episode 1 through 75.
+- Episodes 76-90 use the preserved PDF and
+  [normalized searchable source](../episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md).
+- Episodes 91-94 use the preserved DOCX (no PDF archive exists for this batch) and
+  [normalized searchable source](../episodes/sources/KAIROS_EPISODES_091_094_NORMALIZED.md).
+- Structured episode records exist continuously from Episode 1 through 94.

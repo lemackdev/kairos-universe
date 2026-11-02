@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/schedule-event.schema.json",
+  "title": "Schedule Event Record",
+  "description": "A date-bounded, location-bounded event-level schedule entry for a team, kept separate from match records so a competition window, qualifier, travel block, bootcamp, break, media day, or roster lock can exist on a timeline before opponents, matches, or qualification are known. Future narrative-continuity validation (e.g. 'where was Kairos CS Main between these dates') is intended to be built on this collection; it is empty today. No fictional schedule-event records have been populated by this change.",
+  "type": "object",
+  "required": ["id", "teamId", "eventType", "visibility", "startDate", "endDate", "location", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "teamId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "competitionId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "eventType": {
+      "enum": [
+        "competition-window",
+        "qualifier",
+        "match",
+        "travel",
+        "bootcamp",
+        "break",
+        "media-day",
+        "roster-lock"
+      ]
+    },
+    "visibility": { "enum": ["public", "internal", "narrative-only"] },
+    "startDate": { "$ref": "common.schema.json#/$defs/dateOrTbd" },
+    "endDate": { "$ref": "common.schema.json#/$defs/dateOrTbd" },
+    "location": { "$ref": "common.schema.json#/$defs/stringOrTbd" },
+    "summary": { "type": "string" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

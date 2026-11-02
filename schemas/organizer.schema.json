@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/organizer.schema.json",
+  "title": "Competition Organizer Record",
+  "description": "A tournament organizer (e.g. ESL, PGL, BLAST, Riot Games) that runs competition series and events. Reusable across games and tiers.",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "name", "gameIds", "originType", "sourceIds", "canonStatus", "notes"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "name": { "type": "string", "minLength": 1 },
+    "gameIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "originType": { "$ref": "common.schema.json#/$defs/originType" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
+    "notes": { "$ref": "common.schema.json#/$defs/stringArray" }
+  },
+  "additionalProperties": false
+}

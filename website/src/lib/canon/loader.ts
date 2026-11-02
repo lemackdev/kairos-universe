@@ -32,6 +32,11 @@ export const indexedCollections = [
   "awards",
   "uniforms",
   "visual-assets",
+  "rulesets",
+  "organizers",
+  "competition-series",
+  "competition-participants",
+  "schedule-events",
 ] as const;
 
 export function loadCanonUniverse(): CanonUniverse {

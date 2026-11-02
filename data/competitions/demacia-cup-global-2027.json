@@ -7,16 +7,28 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-episodes-076-090"
+    "source-episodes-076-090",
+    "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
   "overview": "Lower-prestige international postseason event intended for strong teams that miss Worlds. Not equal in prestige to Worlds.",
   "format": [],
   "organizer": null,
-  "location": null,
-  "startDate": "TBD",
-  "endDate": "TBD",
-  "prizePool": null,
+  "location": "Berlin, Germany",
+  "startDate": "2027-11-24",
+  "endDate": "2027-12-02",
+  "prizePool": "USD 500,000",
   "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "postseason-international",
+  "region": "international",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
   "prizeDistribution": []
 }

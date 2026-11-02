@@ -1,0 +1,15 @@
+{
+  "id": "series-counter-strike-major",
+  "slug": "series-counter-strike-major",
+  "continuityId": "kairos-universe",
+  "name": "Counter-Strike Major",
+  "gameId": "game-counter-strike",
+  "organizerId": null,
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": [
+    "The Counter-Strike Major series is co-run by different organizers across editions (e.g. PGL, StarLadder); it has no single fixed organizer."
+  ]
+}

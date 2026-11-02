@@ -7,16 +7,28 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-episodes-076-090"
+    "source-episodes-076-090",
+    "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
   "overview": "Tier 1 international event; detailed format TBD.",
   "format": [],
   "organizer": null,
-  "location": null,
-  "startDate": "TBD",
-  "endDate": "TBD",
-  "prizePool": null,
+  "location": "Berlin, Germany",
+  "startDate": "2027-03-20",
+  "endDate": "2027-03-28",
+  "prizePool": "USD 500,000",
   "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "tier-1-international",
+  "region": "international",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
   "prizeDistribution": []
 }

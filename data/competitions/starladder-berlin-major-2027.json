@@ -1,0 +1,35 @@
+{
+  "id": "starladder-berlin-major-2027",
+  "slug": "starladder-berlin-major-2027",
+  "continuityId": "kairos-universe",
+  "name": "StarLadder Berlin Major 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Major event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Berlin, Germany",
+  "startDate": "2027-10-08",
+  "endDate": "2027-10-24",
+  "prizePool": "USD 1,250,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "starladder",
+  "seriesId": "series-counter-strike-major",
+  "tier": "major",
+  "region": "europe",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

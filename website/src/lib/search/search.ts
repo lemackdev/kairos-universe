@@ -12,7 +12,7 @@ export function searchRecords(
       const terms = record.terms.map(normalizeSearch);
       const score = Math.max(
         ...terms.map((term, index) => {
-          const primary = index <= 2;
+          const primary = index <= 3;
           if (term === normalizedQuery) return primary ? 6 : 3;
           if (term.startsWith(normalizedQuery)) return primary ? 5 : 2;
           if (term.includes(normalizedQuery)) return primary ? 4 : 1;

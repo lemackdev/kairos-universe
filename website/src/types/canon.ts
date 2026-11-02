@@ -179,6 +179,15 @@ export interface RawCompetition {
   endDate?: string | null;
   prizePool?: string | null;
   participantTeamIds?: string[];
+  rulesetIds?: string[];
+  organizerId?: string | null;
+  seriesId?: string | null;
+  tier?: string | null;
+  region?: string | null;
+  teamsCount?: number | "TBD" | null;
+  eventType?: string | null;
+  inviteDate?: string | null;
+  rankingDate?: string | null;
   prizeDistribution?: Array<{ place: string; prize: string | null; teamId: string | null }>;
 }
 

@@ -7,16 +7,28 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-episodes-076-090"
+    "source-episodes-076-090",
+    "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
   "overview": "Highest-prestige League of Legends championship; detailed 2027 format TBD.",
   "format": [],
   "organizer": null,
-  "location": null,
-  "startDate": "TBD",
-  "endDate": "TBD",
-  "prizePool": null,
+  "location": "London, United Kingdom",
+  "startDate": "2027-10-16",
+  "endDate": "2027-11-07",
+  "prizePool": "USD 2,500,000",
   "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "world-championship",
+  "region": "international",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
   "prizeDistribution": []
 }

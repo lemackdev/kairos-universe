@@ -1,0 +1,35 @@
+{
+  "id": "thunderpick-masters-2027",
+  "slug": "thunderpick-masters-2027",
+  "continuityId": "kairos-universe",
+  "name": "Thunderpick Masters 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Tier 2 event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "New York City, New York, USA",
+  "startDate": "2027-11-08",
+  "endDate": "2027-11-16",
+  "prizePool": "USD 150,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "thunderpick",
+  "seriesId": null,
+  "tier": "tier-2",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

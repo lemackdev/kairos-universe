@@ -1,0 +1,13 @@
+{
+  "id": "series-intel-extreme-masters",
+  "slug": "series-intel-extreme-masters",
+  "continuityId": "kairos-universe",
+  "name": "Intel Extreme Masters",
+  "gameId": "game-counter-strike",
+  "organizerId": "esl",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

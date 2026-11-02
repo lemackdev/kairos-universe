@@ -10,7 +10,7 @@
 | Player | Stable ID | Role | Date of birth | Age | City |
 | --- | --- | --- | --- | ---: | --- |
 | Isaac "Pebble" Young | `isaac-pebble-young` | Top | 12/01/2010 | 16 | TBD |
-| Benjamin "Vex" Carter | `benjamin-vex-carter` | Jungle | 24/10/2009 | 17 | TBD |
+| Benjamin "vexemite" Carter (formerly "Vex" through 2027-01-03) | `benjamin-vex-carter` | Jungle | 24/10/2009 | 17 | TBD |
 | Nathan "0bit" Hall | `nathan-0bit-hall` | Mid | 18/03/2010 | 16 | TBD |
 | Cole "June" Mercer | `cole-june-mercer` | ADC | 02/06/2009 | 17 | TBD |
 | Ryan "Luma" Chen | `ryan-luma-chen` | Support | 29/09/2010 | 16 | TBD |
@@ -20,7 +20,7 @@ Ages are calculated on 24/11/2026.
 Player records:
 
 - [Isaac "Pebble" Young](../../data/players/isaac-pebble-young.json)
-- [Benjamin "Vex" Carter](../../data/players/benjamin-vex-carter.json)
+- [Benjamin "vexemite" Carter](../../data/players/benjamin-vex-carter.json)
 - [Nathan "0bit" Hall](../../data/players/nathan-0bit-hall.json)
 - [Cole "June" Mercer](../../data/players/cole-june-mercer.json)
 - [Ryan "Luma" Chen](../../data/players/ryan-luma-chen.json)
@@ -46,10 +46,15 @@ player progression.
 
 ## Confirmed positional structure
 
-Academy White is a complete positional roster: Pebble is Top, Vex is Jungle,
-0bit is Mid, June is ADC, and Luma is Support. Vex's Jungle role and June's ADC
-role remain the roles established previously; the other three roles are
-confirmed by the current canon update.
+Academy White is a complete positional roster: Pebble is Top, vexemite
+(formerly Vex) is Jungle, 0bit is Mid, June is ADC, and Luma is Support.
+vexemite's Jungle role and June's ADC role remain the roles established
+previously; the other three roles are confirmed by the current canon update.
+
+Effective 2027-01-04 (episode-093), Vex's nickname changed to vexemite
+(references trying and disliking Vegemite); this is personal/stylistic, not
+sponsor-related, and not retroactive — historical material before this date
+keeps the former nickname Vex.
 
 The following details remain **TBD** for all five players:
 

@@ -1,0 +1,17 @@
+{
+  "id": "source-canon-directive-cs-map-pool",
+  "slug": "source-canon-directive-cs-map-pool",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: permanent Counter-Strike global map pool",
+  "path": "docs/canon/COUNTER_STRIKE_GLOBAL_MAP_POOL.md",
+  "locator": "Author-confirmed canon directive, 2026-12-20 to 2027-01-03 institutional break update batch",
+  "publicLabel": "Kairos Universe canon directive: Counter-Strike global map pool",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "This is a direct author-confirmed canon rule, not sourced from episode prose: no episode depicts a map-pool announcement.",
+    "Recorded as a clearly labeled author-directive source record per the author's own instruction, rather than inventing an in-universe announcement scene that does not exist.",
+    "Establishes the permanent, global, non-rotating 7-map Counter-Strike pool (see data/rulesets/counter-strike-global-map-pool.json) effective across this continuity."
+  ]
+}

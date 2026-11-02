@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/competition-participant.schema.json",
+  "title": "Competition Participant Record",
+  "description": "A structured record of one team's participation status in one competition, tracked separately from the competition's own existence. A competition existing on the calendar does not imply any team has qualified for or entered it. No records of this type exist yet; this schema is architecture for future qualification data.",
+  "type": "object",
+  "required": ["id", "competitionId", "teamId", "status", "sourceIds", "canonStatus"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "competitionId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "teamId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "status": {
+      "enum": [
+        "not-entered",
+        "invited",
+        "qualifier-entered",
+        "qualified",
+        "attending",
+        "eliminated",
+        "completed"
+      ]
+    },
+    "qualificationMethod": { "$ref": "common.schema.json#/$defs/stringOrTbd" },
+    "qualificationRegion": { "$ref": "common.schema.json#/$defs/stringOrTbd" },
+    "seed": { "$ref": "common.schema.json#/$defs/nonNegativeIntegerOrTbd" },
+    "placement": {
+      "oneOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }]
+    },
+    "prize": {
+      "oneOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }]
+    },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,102 @@
+{
+  "id": "episode-091",
+  "slug": "episode-091",
+  "episodeNumber": 91,
+  "title": "Cinco Funções",
+  "historicalTitle": "Cinco Funções",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-19",
+  "datePrecision": "exact",
+  "publicationOrder": 91,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "maya-torres",
+    "evelyn-park"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-academy"
+  ],
+  "summary": "In a full day of situational drills, self-assessment, and a peer vote, the five Kairos Counter-Strike Academy players are assigned current roles for the first time: soupcrime as IGL / Rifler, velcrodog as Entry Rifler, parkinglot as Lurker / Rifler, dentalplan as Primary AWPer, and wrongnumber as Anchor / Support Rifler. The captaincy is explicitly left TBD. This is the last full training day before the 2026-12-20 to 2027-01-03 institutional break.",
+  "keyEvents": [
+    "Stewie2K, Trace, Maya Torres, and Evelyn Park run the five CS Academy players through pressure-judgment exercises and four hours of role-rotation Counter-Strike drills.",
+    "Each player is tested across multiple responsibilities during the drills (e.g. velcrodog on entry timing, dentalplan with and without the AWP, parkinglot on map-presence timing, wrongnumber on anchor discipline, soupcrime on round-opening calls).",
+    "In the afternoon, all five players privately vote on which role they would choose for themselves and for each of the other four.",
+    "The vote results are almost unanimous: dentalplan (Primary AWPer, 5 votes), velcrodog (Entry Rifler, 4 votes), parkinglot (Lurker / Rifler, 5 votes), wrongnumber (Anchor / Support Rifler, 4 votes), and soupcrime (IGL / Rifler, 5 votes).",
+    "Evelyn Park cautions the group not to let a role become part of their identity, and that an IGL does not have to make every decision alone.",
+    "Stewie2K writes the five current roles on the board under the heading CURRENT ROLES (changed from an initial POSITIONS heading), then writes 'Captain: TBD' beneath it.",
+    "Stewie2K explicitly states that being IGL and being captain are not the same decision, and the captaincy is not assigned in this episode.",
+    "The institutional break begins the next day, 2026-12-20, running through 2027-01-03."
+  ],
+  "consequences": [
+    "The CS Academy roster has current (not necessarily permanent) roles for the first time, used going into the institutional break and reconfirmed on return in episode-093."
+  ],
+  "canonIntroduced": [
+    "soupcrime is assigned the current IGL / Rifler role.",
+    "velcrodog is assigned the current Entry Rifler role.",
+    "parkinglot is assigned the current Lurker / Rifler role.",
+    "dentalplan is assigned the current Primary AWPer role.",
+    "wrongnumber is assigned the current Anchor / Support Rifler role.",
+    "The CS Academy captaincy is explicitly left TBD; IGL and captain are confirmed to be distinct decisions."
+  ],
+  "canonChanged": [
+    "The CS Academy players move from no permanent position (as established since episode-073/074) to current (but not fixed) roles."
+  ],
+  "continuityDependencies": [
+    "episode-074",
+    "episode-090"
+  ],
+  "continuityNotes": [
+    "Roles are described explicitly as current, not permanent; the board heading is changed from POSITIONS to CURRENT ROLES to reinforce this.",
+    "No captain is assigned in this episode, and none should be inferred from the IGL assignment."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_091_094_NORMALIZED.md",
+      "locator": "Episódio 91 — Cinco Funções",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "soupcrime, velcrodog, parkinglot, dentalplan, and wrongnumber receive current roles via training drills and a peer vote.",
+    "The CS Academy captaincy is explicitly TBD at the end of this episode.",
+    "This is the final full mandatory training day before the 2026-12-20 to 2027-01-03 institutional break."
+  ],
+  "unconfirmedDetails": [
+    "Whether the current roles will remain unchanged after the institutional break is TBD at the time of this episode (confirmed as unchanged in episode-093)."
+  ],
+  "notes": [
+    "Complete prose remains in the normalized source."
+  ]
+}

@@ -7,16 +7,28 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-episodes-076-090"
+    "source-episodes-076-090",
+    "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
   "overview": "Most important global Tier 2 event in this fictional universe; detailed format TBD.",
   "format": [],
   "organizer": null,
-  "location": null,
-  "startDate": "TBD",
-  "endDate": "TBD",
-  "prizePool": null,
+  "location": "Toronto, Ontario, Canada",
+  "startDate": "2027-11-10",
+  "endDate": "2027-11-21",
+  "prizePool": "USD 750,000",
   "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "tier-2-world-championship",
+  "region": "international",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
   "prizeDistribution": []
 }

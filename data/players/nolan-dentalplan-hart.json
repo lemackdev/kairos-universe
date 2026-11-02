@@ -14,7 +14,7 @@
   "dateOfBirth": "TBD",
   "ageAtCurrentStoryDate": 16,
   "game": "Counter-Strike",
-  "role": "TBD",
+  "role": "Primary AWPer",
   "currentTeam": "kairos-cs-academy",
   "rosterLevel": "academy",
   "status": "active-training-pre-debut",
@@ -68,7 +68,9 @@
   "careerHistory": [],
   "individualTimeline": [
     "Episode 74: Nolan is evaluated separately from Reid and selected for Kairos Counter-Strike Academy.",
-    "Episode 74: Nolan begins working under Head Coach Stewie2K with no permanent position assigned."
+    "Episode 74: Nolan begins working under Head Coach Stewie2K with no permanent position assigned.",
+    "Episode 91: During final role-selection training before the institutional break, Nolan is unanimously voted into the Primary AWPer role; Captain remains explicitly unassigned.",
+    "Episode 93: Returning from the 2026-12-20 to 2027-01-03 institutional break, Nolan's Primary AWPer role is reconfirmed as current. His nickname is unchanged."
   ],
   "statistics": {},
   "achievements": [],
@@ -78,8 +80,8 @@
   "currentState": [
     "Active Kairos Counter-Strike Academy player.",
     "Training and pre-debut.",
-    "Permanent position TBD.",
-    "No captaincy or IGL designation."
+    "Current role: Primary AWPer, assigned episode-091 and reconfirmed as current episode-093.",
+    "Not the team's captain; CS Academy captain remains TBD."
   ],
   "nationalities": [
     "American",
@@ -92,18 +94,18 @@
     "He lives in Long Beach, California.",
     "He is Reid Hart's twin brother and is eleven minutes older.",
     "He is selected for Kairos Counter-Strike Academy in Episode 74.",
-    "His permanent playing position is not assigned.",
-    "He is not the captain or IGL."
+    "His current role is Primary AWPer, assigned episode-091 and reconfirmed as current episode-093.",
+    "He is not the team's captain; the CS Academy captaincy remains TBD."
   ],
   "unconfirmedDetails": [
     "Exact date of birth is TBD.",
-    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "CS Academy captaincy is TBD.",
     "Contract status and terms are TBD.",
     "Previous teams, official statistics, and achievements are TBD."
   ],
   "canonNotes": [
     "Do not capitalize or alter the nickname dentalplan.",
-    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy.",
+    "His Primary AWPer role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD.",
     "Do not treat Nolan and Reid as a single entity or inseparable roster package."
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/competition-series.schema.json",
+  "title": "Competition Series Record",
+  "description": "A recurring branded series of events run by one or more organizers (e.g. Intel Extreme Masters, ESL Pro League, Counter-Strike Major). Sits between an organizer and individual competition/event records.",
+  "type": "object",
+  "required": ["id", "slug", "continuityId", "name", "gameId", "organizerId", "sourceIds", "canonStatus", "notes"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "name": { "type": "string", "minLength": 1 },
+    "gameId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "organizerId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
+    "notes": { "$ref": "common.schema.json#/$defs/stringArray" }
+  },
+  "additionalProperties": false
+}

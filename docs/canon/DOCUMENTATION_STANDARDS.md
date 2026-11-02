@@ -214,6 +214,13 @@ See [EPISODE_DOCUMENTATION.md](../episodes/EPISODE_DOCUMENTATION.md).
 - Clearly distinguish real-world background from fictional Kairos involvement.
 - Avoid promotional language in source-of-truth records.
 - Use consistent game, team, role, and organization names.
+- In new narrative prose (going forward only; do not rewrite historical
+  episode prose), write a nicknamed fictional player on first/primary mention
+  per scene as `Nickname (FirstName)`, for example `RAMENSOUP (Evan)` or
+  `Mold (Cameron)`, to help readers connect the two. This does not apply to
+  real-world figures used in fictional Kairos roles (for example Aphromoo,
+  Hai, Stewie2K, Doublelift, WildTurtle, Goldenglue) unless the prose
+  naturally calls for it.
 
 ## 17. Version updates
 

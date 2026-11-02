@@ -1,0 +1,35 @@
+{
+  "id": "pgl-boston-2027",
+  "slug": "pgl-boston-2027",
+  "continuityId": "kairos-universe",
+  "name": "PGL Boston 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Boston, Massachusetts, USA",
+  "startDate": "2027-11-03",
+  "endDate": "2027-11-12",
+  "prizePool": "USD 1,000,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "pgl",
+  "seriesId": null,
+  "tier": "premier",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

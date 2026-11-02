@@ -15,24 +15,27 @@
   "formerPlayingCareer": "TBD",
   "coachingPhilosophy": "TBD",
   "responsibilities": [
-    "Mentor the main roster ADC role."
+    "Formally mentored the main roster ADC role from episode-010/015 through 2027-01-03.",
+    "Concluded as regular ADC mentor effective 2027-01-04; remains informally close to the project."
   ],
   "personality": "TBD",
   "relationships": [
     {
       "subjectId": "liam-aster-oconnor",
-      "type": "role-mentor",
+      "type": "mentor",
       "status": "confirmed"
     }
   ],
   "objectives": [],
   "careerHistory": [],
   "individualTimeline": [
-    "Episode 10: Doublelift first appears through a public response to Kairos; Episode 15 confirms the ADC mentor assignment."
+    "Episode 10: Doublelift first appears through a public response to Kairos; Episode 15 confirms the ADC mentor assignment.",
+    "Episode 94: Doublelift concludes his formal ADC mentor role for Liam \"Aster\" O'Connor, citing increased content-creation and organization commitments; WildTurtle becomes the new current ADC mentor. The change is amicable, with no conflict or disciplinary issue, and Doublelift remains informally close to the project."
   ],
   "achievements": [],
   "confirmedFacts": [
-    "Doublelift is the confirmed ADC mentor for the Kairos League main roster.",
+    "Doublelift was the confirmed ADC mentor for the Kairos League main roster from episode-010/015 through 2027-01-03.",
+    "Doublelift concluded his formal ADC mentor role effective 2027-01-04 (episode-094), due to his own increased content-creation commitments; the change was amicable.",
     "Doublelift is a real-world esports figure used in a fictional Kairos role.",
     "Doublelift's public real name is Yiliang Peng.",
     "The first confirmed appearance is episode-010."
@@ -47,6 +50,7 @@
   ],
   "canonNotes": [
     "The Kairos role is fictional canon and must be distinguished from real-world background.",
-    "Do not invent contract values or exact start dates."
+    "Do not invent contract values or exact start dates.",
+    "Doublelift is a former (not current) ADC mentor as of 2027-01-04; preserve this historical record rather than deleting it. Do not invent salary, contract value, contract length, or employment details beyond the confirmed mentorship role."
   ]
 }

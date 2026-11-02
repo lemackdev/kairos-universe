@@ -15,24 +15,27 @@
   "formerPlayingCareer": "TBD",
   "coachingPhilosophy": "TBD",
   "responsibilities": [
-    "Mentor the main roster Mid role."
+    "Formally mentored the main roster Mid role from episode-015 through 2027-01-03.",
+    "Concluded as regular Mid mentor effective 2027-01-04; remains informally close to the project."
   ],
   "personality": "TBD",
   "relationships": [
     {
       "subjectId": "mason-404-brooks",
-      "type": "role-mentor",
+      "type": "mentor",
       "status": "confirmed"
     }
   ],
   "objectives": [],
   "careerHistory": [],
   "individualTimeline": [
-    "Episode 15: Pobelter first appears as the confirmed Mid mentor."
+    "Episode 15: Pobelter first appears as the confirmed Mid mentor.",
+    "Episode 94: Pobelter concludes his formal Mid mentor role for Mason \"404\" Brooks, citing increased content-creation and travel commitments; Goldenglue becomes the new current Mid mentor. The change is amicable, with no conflict or disciplinary issue, and Pobelter remains informally close to the project."
   ],
   "achievements": [],
   "confirmedFacts": [
-    "Pobelter is the confirmed Mid mentor for the Kairos League main roster.",
+    "Pobelter was the confirmed Mid mentor for the Kairos League main roster from episode-015 through 2027-01-03.",
+    "Pobelter concluded his formal Mid mentor role effective 2027-01-04 (episode-094), due to his own increased content-creation commitments; the change was amicable.",
     "Pobelter is a real-world esports figure used in a fictional Kairos role.",
     "Pobelter's public real name is Eugene Park.",
     "The first confirmed appearance is episode-015."
@@ -47,6 +50,7 @@
   ],
   "canonNotes": [
     "The Kairos role is fictional canon and must be distinguished from real-world background.",
-    "Do not invent contract values or exact start dates."
+    "Do not invent contract values or exact start dates.",
+    "Pobelter is a former (not current) Mid mentor as of 2027-01-04; preserve this historical record rather than deleting it. Do not invent salary, contract value, contract length, or employment details beyond the confirmed mentorship role."
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "id": "blast",
+  "slug": "blast",
+  "continuityId": "kairos-universe",
+  "name": "BLAST",
+  "gameIds": [
+    "game-counter-strike"
+  ],
+  "originType": "real-world-reference",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": [
+    "BLAST is a real-world esports organizer name reused inside the fictional Kairos Universe alternate continuity to run 2027 competitive events. No real-world event history, results, or identity is implied."
+  ]
+}

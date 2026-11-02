@@ -2,8 +2,15 @@
   "id": "evan-soupcrime-nakamura",
   "slug": "evan-soupcrime-nakamura",
   "realName": "Evan Nakamura",
-  "nickname": "soupcrime",
-  "historicalAliases": [],
+  "nickname": "RAMENSOUP",
+  "historicalAliases": [
+    {
+      "nickname": "soupcrime",
+      "status": "historical",
+      "sourceEpisode": "episode-093",
+      "notes": "Used from Evan's selection through the 2026-12-20 to 2027-01-03 institutional break. Replaced by RAMENSOUP effective 2027-01-04, per episode-093; the change was a personal stylistic choice (ramen was a childhood food) and is not sponsor-related."
+    }
+  ],
   "nationality": "American",
   "city": "San Jose",
   "currentResidence": {
@@ -14,7 +21,7 @@
   "dateOfBirth": "TBD",
   "ageAtCurrentStoryDate": 15,
   "game": "Counter-Strike",
-  "role": "TBD",
+  "role": "IGL / Rifler",
   "currentTeam": "kairos-cs-academy",
   "rosterLevel": "academy",
   "status": "active-training-pre-debut",
@@ -61,42 +68,46 @@
   "careerHistory": [],
   "individualTimeline": [
     "Episode 73: Evan is selected as one of the first three Kairos Counter-Strike Academy players.",
-    "Episode 74: Evan begins working under Head Coach Stewie2K with no permanent position assigned."
+    "Episode 74: Evan begins working under Head Coach Stewie2K with no permanent position assigned.",
+    "Episode 91: During final role-selection training before the institutional break, all five CS Academy players vote Evan into the IGL / Rifler role; Captain remains explicitly unassigned.",
+    "Episode 93: Returning from the 2026-12-20 to 2027-01-03 institutional break, Evan's updated nickname (RAMENSOUP, replacing soupcrime) becomes current; his IGL / Rifler role is reconfirmed as a current (not fixed) assignment."
   ],
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "Evan remembers the nickname's origin but intentionally does not disclose it."
+    "Evan remembers the nickname's origin but intentionally does not disclose it.",
+    "His current nickname, RAMENSOUP, references ramen, one of the foods he ate most often as a child; it is a personal origin, not sponsor-related."
   ],
   "currentState": [
     "Active Kairos Counter-Strike Academy player.",
     "Training and pre-debut.",
-    "Permanent position TBD.",
-    "No captaincy or IGL designation."
+    "Current role: IGL / Rifler, assigned episode-091 and reconfirmed as current episode-093.",
+    "Not the team's captain; CS Academy captain remains TBD."
   ],
   "nationalities": [
     "American",
     "Japanese"
   ],
   "confirmedFacts": [
-    "Evan Nakamura is an American Counter-Strike Academy player known as soupcrime.",
+    "Evan Nakamura is an American Counter-Strike Academy player currently known as RAMENSOUP (formerly soupcrime through 2027-01-03).",
     "He holds dual American and Japanese nationality through his father.",
     "He is 15 years old on his 2026-11-21 selection date.",
     "He lives in San Jose, California.",
     "He comes from a Japanese-American family.",
     "He is selected for Kairos Counter-Strike Academy in Episode 73.",
-    "His permanent playing position is not assigned.",
-    "He is not the captain or IGL."
+    "His current role is IGL / Rifler, assigned episode-091 and reconfirmed as current episode-093.",
+    "He is not the team's captain; the CS Academy captaincy remains TBD."
   ],
   "unconfirmedDetails": [
     "Exact date of birth is TBD.",
-    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "CS Academy captaincy is TBD.",
     "Contract status and terms are TBD.",
     "Previous teams, official statistics, and achievements are TBD."
   ],
   "canonNotes": [
-    "Do not capitalize or alter the nickname soupcrime.",
-    "Do not disclose or invent the nickname's origin.",
-    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy."
+    "Do not capitalize or alter the historical nickname soupcrime when referring to pre-2027-01-04 episodes or sources.",
+    "Current nickname is RAMENSOUP (exact capitalization), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use the new nickname.",
+    "Do not disclose or invent the former nickname's origin.",
+    "His IGL / Rifler role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD."
   ]
 }

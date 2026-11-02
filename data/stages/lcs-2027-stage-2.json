@@ -1,0 +1,14 @@
+{
+  "id": "lcs-2027-stage-2",
+  "slug": "lcs-2027-stage-2",
+  "continuityId": "kairos-universe",
+  "competitionId": "lcs-2027",
+  "seasonId": null,
+  "name": "LCS 2027 Stage 2",
+  "stageType": "stage",
+  "status": "planned",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed"
+}

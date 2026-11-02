@@ -1,0 +1,14 @@
+{
+  "id": "lpl-2027-stage-2",
+  "slug": "lpl-2027-stage-2",
+  "continuityId": "kairos-universe",
+  "competitionId": "lpl-2027",
+  "seasonId": null,
+  "name": "LPL 2027 Stage 2",
+  "stageType": "stage",
+  "status": "planned",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed"
+}

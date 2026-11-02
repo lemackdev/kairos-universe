@@ -1,0 +1,14 @@
+{
+  "id": "cblol-2027-stage-2",
+  "slug": "cblol-2027-stage-2",
+  "continuityId": "kairos-universe",
+  "competitionId": "cblol-2027",
+  "seasonId": null,
+  "name": "CBLOL 2027 Stage 2",
+  "stageType": "stage",
+  "status": "planned",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed"
+}

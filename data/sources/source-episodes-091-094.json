@@ -1,0 +1,17 @@
+{
+  "id": "source-episodes-091-094",
+  "slug": "source-episodes-091-094",
+  "continuityId": "kairos-universe",
+  "sourceType": "normalized-episode-source",
+  "title": "Episodes 91-94 normalized source",
+  "path": "docs/episodes/sources/KAIROS_EPISODES_091_094_NORMALIZED.md",
+  "locator": "Episodes 91-94",
+  "publicLabel": "Kairos Universe, Episodes 91-94",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Derived from archive/episode-sources/KAIROS_EPISODES_091_094_SOURCE.docx with no corrections applied.",
+    "The original docx remains the immutable historical source.",
+    "Unlike episodes 1-90, no PDF with stable page numbers exists for this batch; archiveSource on episode-091 through episode-094 is null, and sourceReferences point to this normalized markdown transcript instead."
+  ]
+}

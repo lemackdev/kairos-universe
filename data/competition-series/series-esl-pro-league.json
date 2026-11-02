@@ -1,0 +1,13 @@
+{
+  "id": "series-esl-pro-league",
+  "slug": "series-esl-pro-league",
+  "continuityId": "kairos-universe",
+  "name": "ESL Pro League",
+  "gameId": "game-counter-strike",
+  "organizerId": "esl",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

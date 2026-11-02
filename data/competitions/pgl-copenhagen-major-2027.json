@@ -1,0 +1,35 @@
+{
+  "id": "pgl-copenhagen-major-2027",
+  "slug": "pgl-copenhagen-major-2027",
+  "continuityId": "kairos-universe",
+  "name": "PGL Copenhagen Major 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Major event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Copenhagen, Denmark",
+  "startDate": "2027-05-07",
+  "endDate": "2027-05-23",
+  "prizePool": "USD 1,250,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "pgl",
+  "seriesId": "series-counter-strike-major",
+  "tier": "major",
+  "region": "europe",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

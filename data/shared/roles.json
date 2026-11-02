@@ -15,6 +15,11 @@
     "value": "Analytics and Performance"
   },
   {
+    "id": "role-anchor-support-rifler",
+    "name": "Anchor / Support Rifler",
+    "value": "Anchor / Support Rifler"
+  },
+  {
     "id": "role-awper",
     "name": "AWPer",
     "value": "AWPer"
@@ -28,6 +33,11 @@
     "id": "role-entry",
     "name": "Entry",
     "value": "Entry"
+  },
+  {
+    "id": "role-entry-rifler",
+    "name": "Entry Rifler",
+    "value": "Entry Rifler"
   },
   {
     "id": "role-executive",
@@ -73,6 +83,11 @@
     "id": "role-jungle-mentor",
     "name": "Jungle Mentor",
     "value": "Jungle Mentor"
+  },
+  {
+    "id": "role-lurker-rifler",
+    "name": "Lurker / Rifler",
+    "value": "Lurker / Rifler"
   },
   {
     "id": "role-mid",

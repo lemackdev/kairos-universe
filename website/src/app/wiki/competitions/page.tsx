@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHeader } from "@/components/PageHeader";
 import { EmptyState } from "@/components/EmptyState";
+import { CompetitionsIndexView } from "@/components/CompetitionsIndexView";
 import { getCatalog } from "@/lib/canon/server";
 export const metadata = { title: "Tournaments" };
 export default function CompetitionsPage() {
@@ -9,12 +9,9 @@ export default function CompetitionsPage() {
   return <>
     <Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Tournaments" }]} />
     <PageHeader title="Tournaments" eyebrow="Competition directory" compact
-      description="Tournament formats, participants, prize pools, results, and MVPs across the Kairos Universe." />
+      description="Tournament formats, participants, prize pools, results, and MVPs across the Kairos Universe. See the Calendar for a chronological view." />
     <section className="contentSection">
-      {competitions.length ? <ul className="entityList">{competitions.map((competition) => <li key={competition.id}>
-        <Link href={`/wiki/competitions/${competition.slug}`}>{competition.name}</Link>
-        <p>{competition.gameName} / {competition.status}</p>
-      </li>)}</ul> : <EmptyState title="No tournaments published yet"
+      {competitions.length ? <CompetitionsIndexView competitions={competitions} /> : <EmptyState title="No tournaments published yet"
         description="Confirmed tournaments will appear here with Overview, Tournament Information, Prize Pool, Participants, Results, and MVPs. Planned team participation alone does not establish a tournament record." />}
     </section>
   </>;

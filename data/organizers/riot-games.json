@@ -1,0 +1,17 @@
+{
+  "id": "riot-games",
+  "slug": "riot-games",
+  "continuityId": "kairos-universe",
+  "name": "Riot Games",
+  "gameIds": [
+    "game-league-of-legends"
+  ],
+  "originType": "real-world-reference",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": [
+    "Riot Games is a real-world esports organizer name reused inside the fictional Kairos Universe alternate continuity to run 2027 competitive events. No real-world event history, results, or identity is implied."
+  ]
+}

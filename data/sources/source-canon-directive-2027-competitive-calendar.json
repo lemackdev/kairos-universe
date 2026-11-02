@@ -1,0 +1,18 @@
+{
+  "id": "source-canon-directive-2027-competitive-calendar",
+  "slug": "source-canon-directive-2027-competitive-calendar",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: 2027 competitive calendar and event architecture",
+  "path": "docs/canon/COMPETITIVE_CALENDAR_2027.md",
+  "locator": "Author-confirmed canon directive, 2027 competitive calendar batch",
+  "publicLabel": "Kairos Universe canon directive: 2027 competitive calendar",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "This is a direct author-confirmed canon directive, not sourced from episode prose: no episode depicts a calendar announcement.",
+    "Recorded as a clearly labeled author-directive source record per the author's own instruction.",
+    "Backs the Counter-Strike Premier/Tier 2 calendar, the League of Legends international calendar, and the League regional Tier 1/Tier 2 structures for 2027.",
+    "Does not establish any Kairos qualification, participant, result, placement, or MVP data; those remain tracked separately and are not populated by this directive."
+  ]
+}

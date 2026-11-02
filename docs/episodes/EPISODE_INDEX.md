@@ -119,6 +119,7 @@ create another record.
 - Episodes 57 through 75 have source-confirmed exact dates from 08/11/2026
   through 24/11/2026.
 - Episodes 76 through 90 cite the preserved PDF and normalized searchable source, with exact dates from 2026-11-25 through 2026-12-18.
+- Episodes 91 through 94 cite the preserved DOCX (no PDF archive exists for this batch) and normalized searchable source, with exact dates from 2026-12-19 through 2027-01-04. See [source-episodes-091-094](../../data/sources/source-episodes-091-094.json).
 - Every episode resolves narrator and protagonist to `adrian-elias-vale`.
 
 ## Related Documents

@@ -1,0 +1,116 @@
+{
+  "id": "episode-092",
+  "slug": "episode-092",
+  "episodeNumber": 92,
+  "title": "Antes de Apagar as Luzes",
+  "historicalTitle": "Antes de Apagar as Luzes",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "mid-december-2026",
+  "storyYear": 2026,
+  "exactStoryDate": "2026-12-19",
+  "datePrecision": "exact",
+  "publicationOrder": 92,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "maya-torres",
+    "jake-stewie2k-yip",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "arthur-fletcher",
+    "owen-glacier-fletcher",
+    "mason-404-brooks",
+    "daniel-moss-reyes",
+    "liam-aster-oconnor",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "emiliano-moteconhuesillo-navarro",
+    "tyler-murmur-grant",
+    "connor-mako-sullivan",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "milo-velcrodog-radovic",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "On the last mandatory day of 2026, all five Kairos teams, coaches, staff, and some family gather for an unassigned-seating holiday dinner and gift exchange. Arthur Fletcher attends in person, out of his wheelchair. Adrian gives an unplanned speech: the 2026 build phase is over, 2027 brings real competitive results (first debut window 2027-02-08), and the organization will stay the same whether Kairos wins or loses. The institutional break begins the next day.",
+  "keyEvents": [
+    "Arthur Fletcher attends the party in person, standing and walking slowly without a wheelchair, having relocated to Los Angeles in December to live on campus near his grandson Owen \"Glacier\" Fletcher.",
+    "Adrian enforces unassigned, mixed seating across all five teams and staff, deliberately avoiding Main/Academy or League/CS seating splits.",
+    "At dinner, Mason \"404\" Brooks starts a round of 'best moment of the year' answers; players and staff across all five teams share moments (e.g. Atlas on the original five Counter-Strike signees becoming complete, Moss on a scrim loss with no blame-shifting, Mako on being told Hai would be Blue's coach, Pebble on Academy White's first review, Arthur on moving to Los Angeles to stop worrying about his grandson by phone).",
+    "Emily Chen runs a 'One Good Gift, One Bad Gift' exchange; notable gifts include a whistle for Moss (implicating Aphromoo), a framed 'FEBRUARY' sign for Atlas, an 'I CAN FIX IT / PLEASE DON'T LET ME' shirt for 404, a Palmeiras jersey for FLACOGOMEZ, mote con huesillo snack mix for MoteConHuesillo, 'THE OLDER TWIN' / 'BY 11 MINUTES. NOBODY CARES.' shirts for Nolan and Reid Hart, and a miniature basketball marked '1-0' for Arthur from Moss.",
+    "New Balance quietly delivers 2027 travel gear to every player's dormitory with no announcement or press.",
+    "Pressured into an impromptu speech, Adrian recaps 2026 (idea to campus to contracts to Academies to New Balance) and states that in 2027 Kairos will be judged by real results: rankings, eliminations, wins, and losses.",
+    "Adrian states explicitly that Kairos's support for its people does not depend on winning or losing, and will not change based on results.",
+    "Adrian confirms the institutional break begins the next day (2026-12-20) with players returning 2027-01-04, ahead of the February 8, 2027 competitive debut window.",
+    "2026 ends with no official Kairos match played, no win, no loss, no championship, and no ranking."
+  ],
+  "consequences": [
+    "The institutional break (2026-12-20 to 2027-01-03) begins the day after this episode."
+  ],
+  "canonIntroduced": [
+    "Arthur Fletcher has relocated permanently to the Kairos campus residential area in Los Angeles as family, not as staff or a competitive-program member.",
+    "New Balance's 2027 travel collection is delivered to players without any public announcement."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-090",
+    "episode-091"
+  ],
+  "continuityNotes": [
+    "No nickname changes occur in this episode; soupcrime, velcrodog, parkinglot, Mako, Grit, and Vex are still current throughout.",
+    "Adrian's speech establishes that 2027 is the year Kairos is judged on competitive results, contrasted with 2026's pure build-out year."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_091_094_NORMALIZED.md",
+      "locator": "Episódio 92 — Antes de Apagar as Luzes",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "This is the last mandatory day of 2026 for all five Kairos teams.",
+    "Arthur Fletcher attends in person and has relocated to the Kairos campus residential area.",
+    "The institutional break runs 2026-12-20 through 2027-01-03, with return on 2027-01-04.",
+    "2026 ends without any official Kairos match, win, loss, championship, or ranking."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Complete prose remains in the normalized source."
+  ]
+}

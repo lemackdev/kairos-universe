@@ -14,6 +14,7 @@ const defaultLinks: SidebarLink[] = [
   { label: "Players", href: "/wiki/players" },
   { label: "Matches", href: "/wiki/matches" },
   { label: "Competitions", href: "/wiki/competitions" },
+  { label: "Calendar", href: "/wiki/calendar" },
   { label: "About the archive", href: "/wiki/about" },
 ];
 

@@ -1,0 +1,14 @@
+{
+  "id": "lck-2027-championship-stage",
+  "slug": "lck-2027-championship-stage",
+  "continuityId": "kairos-universe",
+  "competitionId": "lck-2027",
+  "seasonId": null,
+  "name": "LCK 2027 Championship Stage",
+  "stageType": "stage",
+  "status": "planned",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed"
+}

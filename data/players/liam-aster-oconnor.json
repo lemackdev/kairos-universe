@@ -40,6 +40,11 @@
   "relationships": [
     {
       "subjectId": "doublelift-kairos-adc-mentor",
+      "type": "mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "wildturtle-kairos-adc-mentor",
       "type": "role-mentor",
       "status": "confirmed"
     }

@@ -6,6 +6,7 @@ const links = [
   ["Organizations", "/wiki/organizations"],
   ["Teams", "/wiki/teams"],
   ["Players", "/wiki/players"],
+  ["Calendar", "/wiki/calendar"],
   ["Competitions", "/wiki/competitions"],
   ["Matches", "/wiki/matches"],
   ["Transfers", "/wiki/transfers"],

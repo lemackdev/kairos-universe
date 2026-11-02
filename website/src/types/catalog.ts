@@ -199,6 +199,17 @@ export interface CompetitionView {
   results: TournamentResultView[];
   awards: AwardView[];
   sources: SourceView[];
+  organizerName: string | null;
+  seriesName: string | null;
+  tier: string | null;
+  region: string | null;
+  teamsCount: number | null;
+  eventType: string | null;
+  inviteDate: string | null;
+  rankingDate: string | null;
+  mapPool: string[];
+  kairosParticipating: boolean;
+  relatedEvents: Array<{ name: string; slug: string }>;
 }
 
 export interface StaffView {

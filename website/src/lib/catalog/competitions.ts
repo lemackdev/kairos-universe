@@ -4,6 +4,10 @@ import type { CompetitionView, PlayerView, PublicationManifest, SourceView, Team
 
 const known = (value?: string | null) => value && value !== "TBD" ? value : null;
 
+interface RawOrganizer { id: string; name: string }
+interface RawSeries { id: string; name: string }
+interface RawRuleset { id: string; maps?: string[] }
+
 export function buildCompetitionViews(
   universe: CanonUniverse,
   publication: PublicationManifest,
@@ -14,6 +18,9 @@ export function buildCompetitionViews(
   const records = getCollection<RawCompetition>(universe, "competitions");
   const standings = getCollection<RawStanding>(universe, "standings");
   const awards = getCollection<RawAward>(universe, "awards");
+  const organizers = getCollection<RawOrganizer>(universe, "organizers");
+  const seriesRecords = getCollection<RawSeries>(universe, "competition-series");
+  const rulesets = getCollection<RawRuleset>(universe, "rulesets");
   const byTeam = new Map(teams.map((team) => [team.id, team]));
 
   return publication.enabledCompetitions.map((id) => {
@@ -38,12 +45,34 @@ export function buildCompetitionViews(
         return { id: entry.id, competitionName: record.name, competitionSlug: record.slug,
           teamName: team.name, teamSlug: team.slug, place: entry.position, date: known(record.endDate) };
       });
+    const organizerRecord = record.organizerId ? organizers.find((entry) => entry.id === record.organizerId) : null;
+    const seriesRecord = record.seriesId ? seriesRecords.find((entry) => entry.id === record.seriesId) : null;
+    const mapPool = (record.rulesetIds ?? []).flatMap((id) => {
+      const ruleset = rulesets.find((entry) => entry.id === id);
+      return ruleset?.maps ?? [];
+    });
+
     return {
       id, slug: record.slug, name: record.name, gameId: record.gameId, gameName: String(game.name),
       status: record.status, overview: known(record.overview), format: record.format ?? [],
       organizer: known(record.organizer), location: known(record.location),
       startDate: known(record.startDate), endDate: known(record.endDate), prizePool: known(record.prizePool),
       participants, results,
+      organizerName: organizerRecord?.name ?? null,
+      seriesName: seriesRecord?.name ?? null,
+      tier: known(record.tier ?? null),
+      region: known(record.region ?? null),
+      teamsCount: typeof record.teamsCount === "number" ? record.teamsCount : null,
+      eventType: known(record.eventType ?? null),
+      inviteDate: known(record.inviteDate ?? null),
+      rankingDate: known(record.rankingDate ?? null),
+      mapPool,
+      kairosParticipating: participants.length > 0,
+      relatedEvents: record.seriesId
+        ? records.filter((other) => other.seriesId === record.seriesId && other.id !== record.id
+            && publication.enabledCompetitions.includes(other.id))
+          .map((other) => ({ name: other.name, slug: other.slug }))
+        : [],
       prizes: (record.prizeDistribution ?? []).map((prize) => {
         const team = prize.teamId && prize.teamId !== "TBD" ? byTeam.get(prize.teamId) : null;
         if (prize.teamId && prize.teamId !== "TBD" && (!team || !participants.some((p) => p.id === team.id))) {

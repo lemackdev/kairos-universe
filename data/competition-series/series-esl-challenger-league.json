@@ -1,0 +1,13 @@
+{
+  "id": "series-esl-challenger-league",
+  "slug": "series-esl-challenger-league",
+  "continuityId": "kairos-universe",
+  "name": "ESL Challenger League",
+  "gameId": "game-counter-strike",
+  "organizerId": "esl",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

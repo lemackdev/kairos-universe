@@ -7,14 +7,32 @@ import { formatDate } from "@/lib/formatting/date";
 const sections = [
   { id: "overview", title: "Overview" }, { id: "tournament-information", title: "Tournament Information" },
   { id: "prize-pool", title: "Prize Pool" }, { id: "participants", title: "Participants" },
-  { id: "results", title: "Results" }, { id: "mvps", title: "MVPs" }, { id: "sources", title: "Sources" },
+  { id: "results", title: "Results" }, { id: "mvps", title: "MVPs" },
+  { id: "game-rules", title: "Game-Specific Rules" }, { id: "related-events", title: "Related Events" },
+  { id: "event-data", title: "Event Data" }, { id: "sources", title: "Sources" },
 ];
 
+const tierLabels: Record<string, string> = {
+  premier: "Premier", major: "Major", "tier-2": "Tier 2",
+  "tier-1-international": "Tier 1 International", "tier-2-international": "Tier 2 International",
+  "world-championship": "World Championship", "tier-2-world-championship": "Tier 2 World Championship",
+  "regional-tier-1": "Regional Tier 1", "regional-tier-2": "Regional Tier 2",
+  "postseason-international": "Postseason International",
+};
+
 export function TournamentArticle({ tournament }: { tournament: CompetitionView }) {
+  const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
-    { label: "Game", value: tournament.gameName }, { label: "Organizer", value: tournament.organizer },
-    { label: "Location", value: tournament.location }, { label: "Start date", value: formatDate(tournament.startDate) },
-    { label: "End date", value: formatDate(tournament.endDate) }, { label: "Status", value: tournament.status },
+    { label: "Game", value: tournament.gameName },
+    { label: "Organizer", value: tournament.organizerName ?? tournament.organizer },
+    { label: "Series", value: tournament.seriesName },
+    { label: "Tier", value: tierLabel },
+    { label: "Region", value: tournament.region },
+    { label: "Location", value: tournament.location }, { label: "LAN / Online", value: tournament.eventType },
+    { label: "Start date", value: formatDate(tournament.startDate) },
+    { label: "End date", value: formatDate(tournament.endDate) },
+    { label: "Teams", value: tournament.teamsCount != null ? String(tournament.teamsCount) : null },
+    { label: "Status", value: tournament.status },
   ];
   return <WikiArticle title={tournament.name} kind="Tournaments" game={tournament.gameName} sections={sections}
     infobox={<ArticleInfobox title={tournament.name} monogram={tournament.name.slice(0, 1)} groups={[
@@ -22,6 +40,7 @@ export function TournamentArticle({ tournament }: { tournament: CompetitionView 
       { title: "Prize Pool", rows: [{ label: "Total", value: tournament.prizePool }] },
     ]} />}>
     <ArticleSection {...sections[0]!}>
+      {tournament.kairosParticipating && <p><strong>KAIROS PARTICIPATING</strong></p>}
       <p>{tournament.overview ?? "The tournament overview is not yet recorded."}</p>
       <h3>Format</h3>
       {tournament.format.length ? <ul>{tournament.format.map((rule) => <li key={rule}>{rule}</li>)}</ul> : <p>Format TBD.</p>}
@@ -46,6 +65,26 @@ export function TournamentArticle({ tournament }: { tournament: CompetitionView 
         rows={tournament.awards.map((award) => ({ key: award.id, cells: [award.name,
           <ArticleLink key="recipient" href={award.recipientHref}>{award.recipientName}</ArticleLink>, formatDate(award.date)] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[6]!}><SourceList sources={tournament.sources} /></ArticleSection>
+    <ArticleSection {...sections[6]!}>
+      {tournament.gameName === "Counter-Strike"
+        ? (tournament.mapPool.length
+          ? <><p>Map pool (global, permanent, non-rotating):</p><ul>{tournament.mapPool.map((map) => <li key={map}>{map}</li>)}</ul></>
+          : <p>Map pool not yet recorded.</p>)
+        : <p>Patch: TBD. Fearless draft, side selection, and ruleset details are not yet recorded.</p>}
+    </ArticleSection>
+    <ArticleSection {...sections[7]!}>
+      {tournament.relatedEvents.length
+        ? <ul>{tournament.relatedEvents.map((event) => <li key={event.slug}>
+            <Link href={`/wiki/competitions/${event.slug}`}>{event.name}</Link></li>)}</ul>
+        : <p>No related events recorded.</p>}
+    </ArticleSection>
+    <ArticleSection {...sections[8]!}>
+      <Facts rows={[
+        { label: "Invite date", value: formatDate(tournament.inviteDate) },
+        { label: "Ranking date", value: formatDate(tournament.rankingDate) },
+        { label: "Teams", value: tournament.teamsCount != null ? String(tournament.teamsCount) : null },
+      ]} />
+    </ArticleSection>
+    <ArticleSection {...sections[9]!}><SourceList sources={tournament.sources} /></ArticleSection>
   </WikiArticle>;
 }

@@ -1,0 +1,35 @@
+{
+  "id": "blast-world-final-2027",
+  "slug": "blast-world-final-2027",
+  "continuityId": "kairos-universe",
+  "name": "BLAST World Final 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "New York City, New York, USA",
+  "startDate": "2027-12-04",
+  "endDate": "2027-12-10",
+  "prizePool": "USD 1,000,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "blast",
+  "seriesId": "series-blast-world-final",
+  "tier": "premier",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

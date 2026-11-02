@@ -2,8 +2,15 @@
   "id": "zayn-parkinglot-haddad",
   "slug": "zayn-parkinglot-haddad",
   "realName": "Zayn Haddad",
-  "nickname": "parkinglot",
-  "historicalAliases": [],
+  "nickname": "p4rkingl0t",
+  "historicalAliases": [
+    {
+      "nickname": "parkinglot",
+      "status": "historical",
+      "sourceEpisode": "episode-093",
+      "notes": "Used from Zayn's selection through the 2026-12-20 to 2027-01-03 institutional break. Restyled with leet-speak spacing as p4rkingl0t effective 2027-01-04, per episode-093; Zayn simply stylized the nickname he already used."
+    }
+  ],
   "nationality": "American",
   "city": "Irvine",
   "currentResidence": {
@@ -14,7 +21,7 @@
   "dateOfBirth": "TBD",
   "ageAtCurrentStoryDate": 16,
   "game": "Counter-Strike",
-  "role": "TBD",
+  "role": "Lurker / Rifler",
   "currentTeam": "kairos-cs-academy",
   "rosterLevel": "academy",
   "status": "active-training-pre-debut",
@@ -60,42 +67,45 @@
   "careerHistory": [],
   "individualTimeline": [
     "Episode 73: Zayn is selected as one of the first three Kairos Counter-Strike Academy players.",
-    "Episode 74: Zayn begins working under Head Coach Stewie2K with no permanent position assigned."
+    "Episode 74: Zayn begins working under Head Coach Stewie2K with no permanent position assigned.",
+    "Episode 91: During final role-selection training before the institutional break, Zayn is voted into the Lurker / Rifler role; Captain remains explicitly unassigned.",
+    "Episode 93: Returning from the 2026-12-20 to 2027-01-03 institutional break, Zayn's updated nickname (p4rkingl0t, replacing parkinglot) becomes current; his Lurker / Rifler role is reconfirmed as current."
   ],
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "Zayn explains the nickname by saying that all the good names were already parked."
+    "Zayn explains the nickname by saying that all the good names were already parked.",
+    "His current nickname, p4rkingl0t, is the same nickname restyled with leet-speak spelling."
   ],
   "currentState": [
     "Active Kairos Counter-Strike Academy player.",
     "Training and pre-debut.",
-    "Permanent position TBD.",
-    "No captaincy or IGL designation."
+    "Current role: Lurker / Rifler, assigned episode-091 and reconfirmed as current episode-093.",
+    "Not the team's captain; CS Academy captain remains TBD."
   ],
   "nationalities": [
     "American",
     "Lebanese"
   ],
   "confirmedFacts": [
-    "Zayn Haddad is an American Counter-Strike Academy player known as parkinglot.",
+    "Zayn Haddad is an American Counter-Strike Academy player currently known as p4rkingl0t (formerly parkinglot through 2027-01-03).",
     "He holds dual American and Lebanese nationality through his father.",
     "He is 16 years old on his 2026-11-21 selection date.",
     "He lives in Irvine, California.",
     "He comes from a Lebanese-American family.",
     "He is selected for Kairos Counter-Strike Academy in Episode 73.",
-    "His permanent playing position is not assigned.",
-    "He is not the captain or IGL."
+    "His current role is Lurker / Rifler, assigned episode-091 and reconfirmed as current episode-093.",
+    "He is not the team's captain; the CS Academy captaincy remains TBD."
   ],
   "unconfirmedDetails": [
     "Exact date of birth is TBD.",
-    "Permanent position, future responsibilities, and roster hierarchy are TBD.",
+    "CS Academy captaincy is TBD.",
     "Contract status and terms are TBD.",
     "Previous teams, official statistics, and achievements are TBD."
   ],
   "canonNotes": [
-    "Do not capitalize or alter the nickname parkinglot.",
-    "Do not infer a permanent role from his earlier flexibility.",
-    "Do not assign a permanent role, captaincy, IGL status, or starter hierarchy."
+    "Do not alter the historical nickname parkinglot when referring to pre-2027-01-04 episodes or sources.",
+    "Current nickname is p4rkingl0t (exact spelling, with digits), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use the new nickname.",
+    "His Lurker / Rifler role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD."
   ]
 }

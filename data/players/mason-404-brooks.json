@@ -40,6 +40,11 @@
   "relationships": [
     {
       "subjectId": "pobelter-kairos-mid-mentor",
+      "type": "mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "goldenglue-kairos-mid-mentor",
       "type": "role-mentor",
       "status": "confirmed"
     }

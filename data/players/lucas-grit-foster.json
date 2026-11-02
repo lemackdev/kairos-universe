@@ -2,8 +2,15 @@
   "id": "lucas-grit-foster",
   "slug": "lucas-grit-foster",
   "realName": "Lucas Foster",
-  "nickname": "Grit",
-  "historicalAliases": [],
+  "nickname": "japalenogrits",
+  "historicalAliases": [
+    {
+      "nickname": "Grit",
+      "status": "historical",
+      "sourceEpisode": "episode-093",
+      "notes": "Used prior to the 2026-12-20 to 2027-01-03 institutional break. Replaced by japalenogrits effective 2027-01-04, per episode-093."
+    }
+  ],
   "nationality": "American",
   "city": "Tucson",
   "homeTown": {
@@ -45,12 +52,16 @@
       "firstProfessionalTeam": "TBD"
     }
   ],
-  "individualTimeline": [],
+  "individualTimeline": [
+    "Episode 93: Returning from the 2026-12-20 to 2027-01-03 institutional break, Lucas's updated nickname (japalenogrits, replacing Grit) becomes current."
+  ],
   "statistics": {},
   "achievements": [],
-  "trivia": [],
+  "trivia": [
+    "The current nickname japalenogrits comes from a particularly bad personal memory involving jalapeño, grits, and several days of regret."
+  ],
   "confirmedFacts": [
-    "Lucas Foster \"Grit\" is active on Kairos Academy Blue.",
+    "Lucas Foster \"japalenogrits\" (formerly \"Grit\" through 2027-01-03) is active on Kairos Academy Blue.",
     "The player is training in Los Angeles.",
     "The player has not made an official competitive debut with Kairos.",
     "The player's role is Support.",
@@ -72,6 +83,7 @@
   "canonNotes": [
     "Do not infer nationality from city.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
-    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
+    "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date.",
+    "The current nickname is japalenogrits (exact spelling), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use it. Do not embellish the medical/sickness details beyond what is confirmed."
   ]
 }

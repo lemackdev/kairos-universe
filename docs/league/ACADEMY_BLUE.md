@@ -9,21 +9,29 @@
 
 | Player | Stable ID | Role | Date of birth | Age | City |
 | --- | --- | --- | --- | ---: | --- |
-| Connor "Mako" Sullivan | `connor-mako-sullivan` | Top | 16/12/2007 | 18 | TBD |
+| Connor "SullCon" Sullivan (formerly "Mako" through 2027-01-03) | `connor-mako-sullivan` | Top | 16/12/2007 | 18 | TBD |
 | Jacob "xNox" Price | `jacob-xnox-price` | Jungle | 08/04/2009 | 17 | TBD |
 | Owen "Kite" Hughes | `owen-kite-hughes` | Mid | 27/02/2008 | 18 | TBD |
 | Tyler "Murmur" Grant | `tyler-murmur-grant` | ADC | 19/08/2009 | 17 | TBD |
-| Lucas "Grit" Foster | `lucas-grit-foster` | Support | 05/11/2008 | 18 | TBD |
+| Lucas "japalenogrits" Foster (formerly "Grit" through 2027-01-03) | `lucas-grit-foster` | Support | 05/11/2008 | 18 | TBD |
 
 Ages are calculated on 24/11/2026.
 
+Effective 2027-01-04 (episode-093), two nickname changes became current;
+both are personal/stylistic and not retroactive — historical material before
+this date keeps the former nicknames:
+
+- Mako -> SullCon (Connor Sullivan's name condensed into one nickname).
+- Grit -> japalenogrits (references a bad personal memory involving jalapeño
+  and grits; do not embellish the medical/sickness details).
+
 Player records:
 
-- [Connor "Mako" Sullivan](../../data/players/connor-mako-sullivan.json)
+- [Connor "SullCon" Sullivan](../../data/players/connor-mako-sullivan.json)
 - [Jacob "xNox" Price](../../data/players/jacob-xnox-price.json)
 - [Owen "Kite" Hughes](../../data/players/owen-kite-hughes.json)
 - [Tyler "Murmur" Grant](../../data/players/tyler-murmur-grant.json)
-- [Lucas "Grit" Foster](../../data/players/lucas-grit-foster.json)
+- [Lucas "japalenogrits" Foster](../../data/players/lucas-grit-foster.json)
 
 ## Current state
 
@@ -44,10 +52,10 @@ Academy White. It exists for genuine player progression.
 
 ## Confirmed positional structure
 
-Academy Blue is a complete positional roster: Mako is Top, xNox is Jungle,
-Kite is Mid, Murmur is ADC, and Grit is Support. Kite's Mid role remains the
-role established previously; the other four roles are confirmed by the current
-canon update.
+Academy Blue is a complete positional roster: SullCon (formerly Mako) is Top,
+xNox is Jungle, Kite is Mid, Murmur is ADC, and japalenogrits (formerly Grit)
+is Support. Kite's Mid role remains the role established previously; the
+other four roles are confirmed by the current canon update.
 
 The following details remain **TBD** for all five players:
 
@@ -64,11 +72,13 @@ appears in Episode 22. Jacob "xNox" Price, Tyler "Murmur" Grant, and Lucas
 "Grit" Foster still have **TBD** first appearances. The captain remains
 **TBD**.
 
-## Connor "Mako" Sullivan constraint
+## Connor "SullCon" Sullivan constraint
 
-The active Academy Blue record is Connor "Mako" Sullivan
-(`connor-mako-sullivan`). The nickname North remains retconned and must not be
-associated with this active record.
+The active Academy Blue record is Connor Sullivan (`connor-mako-sullivan`),
+currently nicknamed SullCon (effective 2027-01-04, episode-093). Mako is now
+a former (historical) nickname, not the active one; do not retroactively
+rewrite episodes before 2027-01-04 to use SullCon. The nickname North remains
+retconned and must not be associated with this active record.
 
 ## Team-level TBD details
 

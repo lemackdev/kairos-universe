@@ -49,6 +49,11 @@ const schemaByCollection: Record<string, string> = {
   teams: "team.schema.json",
   tournaments: "tournament.schema.json",
   transfers: "transfer.schema.json",
+  rulesets: "ruleset.schema.json",
+  organizers: "organizer.schema.json",
+  "competition-series": "competition-series.schema.json",
+  "competition-participants": "competition-participant.schema.json",
+  "schedule-events": "schedule-event.schema.json",
 };
 
 export interface ValidationReport {
@@ -322,16 +327,29 @@ function validateReferences(universe: CanonUniverse): {
 
   for (const collection of ["competitions", "standings", "awards"]) {
     for (const record of universe.collections[collection] ?? []) {
-      for (const field of ["continuityId", "gameId", "competitionId", "seasonId", "stageId", "teamId", "recipientId"]) {
+      for (const field of ["continuityId", "gameId", "competitionId", "seasonId", "stageId", "teamId", "recipientId", "organizerId", "seriesId", "parentCompetitionId"]) {
         if (field in record) expectRef(record[field], `${record.id}.${field}`);
       }
-      for (const field of ["sourceIds", "seasonIds", "participantTeamIds"]) {
+      for (const field of ["sourceIds", "seasonIds", "participantTeamIds", "rulesetIds", "relatedCompetitionIds"]) {
         if (Array.isArray(record[field])) record[field].forEach((id) => expectRef(id, `${record.id}.${field}`));
       }
       if (Array.isArray(record.prizeDistribution)) {
         record.prizeDistribution.forEach((prize: { teamId: string | null }) => expectRef(prize.teamId, `${record.id}.prizeDistribution`));
       }
     }
+  }
+
+  for (const series of getCollection<Record<string, unknown>>(universe, "competition-series")) {
+    expectRef(series.continuityId, `${series.id}.continuityId`);
+    expectRef(series.gameId, `${series.id}.gameId`);
+    expectRef(series.organizerId, `${series.id}.organizerId`);
+    (series.sourceIds as string[]).forEach((id) => expectRef(id, `${series.id}.sourceIds`));
+  }
+
+  for (const organizer of getCollection<Record<string, unknown>>(universe, "organizers")) {
+    expectRef(organizer.continuityId, `${organizer.id}.continuityId`);
+    (organizer.gameIds as string[]).forEach((id) => expectRef(id, `${organizer.id}.gameIds`));
+    (organizer.sourceIds as string[]).forEach((id) => expectRef(id, `${organizer.id}.sourceIds`));
   }
 
   return { idCount: ids.size, referenceCount: references };

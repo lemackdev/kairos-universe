@@ -1,0 +1,110 @@
+{
+  "id": "episode-094",
+  "slug": "episode-094",
+  "episodeNumber": 94,
+  "title": "Duas Cadeiras",
+  "historicalTitle": "Duas Cadeiras",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-04",
+  "datePrecision": "exact",
+  "publicationOrder": 94,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "emily-chen",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "pobelter-kairos-mid-mentor",
+    "doublelift-kairos-adc-mentor",
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor"
+  ],
+  "firstAppearances": [
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "Later the same day, Aphromoo and Thinkcard hold a video call with Mason \"404\" Brooks and Liam \"Aster\" O'Connor to announce a mentorship change. Pobelter and Doublelift each explain that increased content-creation and organizational commitments make them unable to keep the regular mentorship schedule, and both formally conclude their mentor roles amicably, with no conflict. Goldenglue is introduced as 404's new Mid mentor and WildTurtle as Aster's new ADC mentor; Darshan (Top, with rkN), Xmithie (Jungle, with Vanta), and Aphromoo (Support, with Moss, and separately as Head Coach) are unchanged.",
+  "keyEvents": [
+    "Aphromoo opens the call by announcing a change to the League mentorship program.",
+    "Pobelter explains his availability has changed significantly for 2027 due to increased content-creation work, travel, and recording commitments for his own organization that now conflict with Kairos's competitive calendar; he formally concludes his regular Mid mentor role for 404 while remaining informally available.",
+    "Doublelift gives the same underlying reason (increased commitments to his own organization and content creation) and formally concludes his regular ADC mentor role for Aster, noting that staying on as a mentor he could not reliably show up for would make the title meaningless.",
+    "Thinkcard states the governing principle: a mentor role is not honorary, and the structure changes when availability changes.",
+    "It is confirmed there is no conflict, dispute, or disciplinary issue behind either change.",
+    "Goldenglue is introduced and confirmed, with Pobelter's endorsement, as 404's new current Mid mentor.",
+    "WildTurtle is introduced and confirmed, with Doublelift's endorsement, as Aster's new current ADC mentor; Doublelift explicitly asks that WildTurtle not try to turn Aster into a copy of his own playstyle, and WildTurtle's role is defined the same way Doublelift's was: reviewing decisions, lane, teamfights, positioning, confidence, and risk reading.",
+    "Emily Chen updates the internal mentorship structure: Mid Mentor Pobelter status changes to 'concluded as regular mentor,' Goldenglue status 'active'; ADC Mentor Doublelift status changes to 'concluded as regular mentor,' WildTurtle status 'active.'",
+    "Darshan (Top, with rkN), Xmithie (Jungle, with Vanta), and Aphromoo (Support, with Moss) are confirmed unchanged; Aphromoo's Head Coach role is also confirmed unchanged and separate from his mentorship of Moss.",
+    "Pobelter and Doublelift both say warm, informal goodbyes to 404 and Aster respectively and are described as remaining close to the project despite no longer holding the formal mentor title."
+  ],
+  "consequences": [
+    "Goldenglue becomes the current Mid mentor for 404 (Mason Brooks), succeeding Pobelter.",
+    "WildTurtle becomes the current ADC mentor for Aster (Liam O'Connor), succeeding Doublelift.",
+    "Pobelter and Doublelift remain part of the historical record as former Kairos League mentors; neither relationship record is deleted."
+  ],
+  "canonIntroduced": [
+    "Goldenglue is introduced as a real-world esports figure in the fictional Kairos Mid mentor role, effective 2027-01-04.",
+    "WildTurtle is introduced as a real-world esports figure in the fictional Kairos ADC mentor role, effective 2027-01-04."
+  ],
+  "canonChanged": [
+    "The League main roster's Mid mentor changes from Pobelter to Goldenglue, effective 2027-01-04.",
+    "The League main roster's ADC mentor changes from Doublelift to WildTurtle, effective 2027-01-04."
+  ],
+  "continuityDependencies": [
+    "episode-093"
+  ],
+  "continuityNotes": [
+    "This is an amicable, no-conflict mentorship transition driven entirely by Pobelter's and Doublelift's own scheduling commitments, not by performance, discipline, or any dispute.",
+    "Aphromoo's Head Coach role is unaffected by this episode and remains distinct from his separate mentorship of Moss.",
+    "Do not invent salary, contract value, contract length, ownership stake, exact schedule, or any compensation/employment detail for Pobelter, Doublelift, Goldenglue, or WildTurtle beyond the confirmed mentorship role changes."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Pobelter, Doublelift, Goldenglue, and WildTurtle are real-world esports figures used in fictional Kairos roles; this episode uses only their confirmed Kairos mentorship roles and does not expand on real-world biography."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "docs/episodes/sources/KAIROS_EPISODES_091_094_NORMALIZED.md",
+      "locator": "Episódio 94 — Duas Cadeiras",
+      "information": "Supplies approved prose, date, participants, and events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Pobelter concludes his formal Mid mentor role for 404 effective 2027-01-04; Goldenglue becomes the new current Mid mentor.",
+    "Doublelift concludes his formal ADC mentor role for Aster effective 2027-01-04; WildTurtle becomes the new current ADC mentor.",
+    "The change is amicable and not the result of any conflict or disciplinary issue.",
+    "Darshan/rkN (Top), Xmithie/Vanta (Jungle), and Aphromoo/Moss (Support) are unchanged, and Aphromoo's separate Head Coach role is unchanged."
+  ],
+  "unconfirmedDetails": [
+    "Goldenglue's and WildTurtle's public real names, nationality, exact compensation, and contract terms are TBD."
+  ],
+  "notes": [
+    "Complete prose remains in the normalized source."
+  ]
+}

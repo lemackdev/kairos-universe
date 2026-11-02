@@ -1,8 +1,11 @@
 [
+  "data/sources/source-canon-directive-2027-competitive-calendar.json",
+  "data/sources/source-canon-directive-cs-map-pool.json",
   "data/sources/source-document-league-mentors.json",
   "data/sources/source-document-league-relationships.json",
   "data/sources/source-document-league-staff.json",
   "data/sources/source-episodes-076-090.json",
+  "data/sources/source-episodes-091-094.json",
   "data/sources/source-kairos-version.json",
   "data/sources/source-organization-kairos-esports.json",
   "data/sources/source-player-benjamin-vex-carter.json",

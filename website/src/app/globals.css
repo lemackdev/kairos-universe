@@ -1148,3 +1148,88 @@ body:has(.wikiGrid) { background: var(--paper-muted); }
 @media (max-width: 620px) {
   .wikiGrid:not(:has(.wikiArticle)) .mainContent { padding: 14px; }
 }
+
+.calendarFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.calendarFilters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+
+.calendarFilters select {
+  font: inherit;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--paper-raised);
+  color: var(--ink);
+}
+
+.calendarMonths {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.calendarMonth h3 {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.4rem;
+}
+
+.calendarEventList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.calendarCard {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  background: var(--paper-raised);
+  display: grid;
+  gap: 0.25rem;
+}
+
+.calendarCard a {
+  font-weight: 600;
+}
+
+.calendarCardMeta {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.calendarEmptyMonth {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.calendarBreak {
+  color: var(--red);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

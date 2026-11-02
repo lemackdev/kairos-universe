@@ -1,0 +1,52 @@
+{
+  "id": "wildturtle-kairos-adc-mentor",
+  "slug": "wildturtle-kairos-adc-mentor",
+  "realName": "TBD",
+  "nickname": "WildTurtle",
+  "nationality": "TBD",
+  "role": "ADC Mentor",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-main",
+  "status": "active",
+  "firstAppearance": "episode-094",
+  "joinedKairos": "2027-01-04",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Mentor the main roster ADC role, succeeding Doublelift effective 2027-01-04.",
+    "Review decisions, lane, teamfights, positioning, confidence, and risk reading; help Liam \"Aster\" O'Connor build his own identity as an ADC rather than copy WildTurtle's style."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "liam-aster-oconnor",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 94: WildTurtle is introduced and confirmed as the new ADC mentor for Liam \"Aster\" O'Connor, succeeding Doublelift. Doublelift is present on the call and endorses the change, explicitly asking that O'Connor not be shaped into a copy of WildTurtle's playstyle; there is no conflict."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "WildTurtle is the confirmed current ADC mentor for the Kairos League main roster, effective 2027-01-04.",
+    "WildTurtle is a real-world esports figure used in a fictional Kairos role.",
+    "The first confirmed appearance is episode-094."
+  ],
+  "unconfirmedDetails": [
+    "Public real name, nationality, and formerPlayingCareer details are TBD; not invented to avoid unsupported real-world biography claims.",
+    "The exact date this person joined Kairos beyond 2027-01-04 is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Detailed mentor duties beyond what is confirmed in episode-094 are TBD."
+  ],
+  "canonNotes": [
+    "The Kairos role is fictional canon and must be distinguished from real-world background.",
+    "Do not invent contract values, exact start dates, or employment details beyond the confirmed mentorship role.",
+    "Do not imply this is a continuation of Doublelift's exact duties beyond the shared ADC mentor function; do not invent salary, contract value, or compensation."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "series-blast-world-final",
+  "slug": "series-blast-world-final",
+  "continuityId": "kairos-universe",
+  "name": "BLAST World Final",
+  "gameId": "game-counter-strike",
+  "organizerId": "blast",
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

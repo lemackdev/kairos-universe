@@ -1,1 +1,26 @@
-[]
+[
+  "data/stages/cblol-2027-championship-stage.json",
+  "data/stages/cblol-2027-stage-1.json",
+  "data/stages/cblol-2027-stage-2.json",
+  "data/stages/cblol-2027-stage-3.json",
+  "data/stages/lck-2027-championship-stage.json",
+  "data/stages/lck-2027-stage-1.json",
+  "data/stages/lck-2027-stage-2.json",
+  "data/stages/lck-2027-stage-3.json",
+  "data/stages/lcp-2027-championship-stage.json",
+  "data/stages/lcp-2027-stage-1.json",
+  "data/stages/lcp-2027-stage-2.json",
+  "data/stages/lcp-2027-stage-3.json",
+  "data/stages/lcs-2027-championship-stage.json",
+  "data/stages/lcs-2027-stage-1.json",
+  "data/stages/lcs-2027-stage-2.json",
+  "data/stages/lcs-2027-stage-3.json",
+  "data/stages/lec-2027-championship-stage.json",
+  "data/stages/lec-2027-stage-1.json",
+  "data/stages/lec-2027-stage-2.json",
+  "data/stages/lec-2027-stage-3.json",
+  "data/stages/lpl-2027-championship-stage.json",
+  "data/stages/lpl-2027-stage-1.json",
+  "data/stages/lpl-2027-stage-2.json",
+  "data/stages/lpl-2027-stage-3.json"
+]

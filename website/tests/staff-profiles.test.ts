@@ -25,6 +25,12 @@ const ids = [
   "miles-sable-warren",
   "maya-torres",
   "evelyn-park",
+  "darshan-kairos-top-mentor",
+  "xmithie-kairos-jungle-mentor",
+  "pobelter-kairos-mid-mentor",
+  "doublelift-kairos-adc-mentor",
+  "goldenglue-kairos-mid-mentor",
+  "wildturtle-kairos-adc-mentor",
 ];
 
 describe("published management and coach profiles", () => {

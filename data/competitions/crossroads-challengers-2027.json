@@ -7,7 +7,8 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-episodes-076-090"
+    "source-episodes-076-090",
+    "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
   "overview": "Tier 2 event with 16 qualified teams. Academy Blue and White have no automatic qualification.",
@@ -15,10 +16,21 @@
     "LCK 3; LPL 3; LEC 3; LCS 3; LCP 2; CBLOL 2."
   ],
   "organizer": null,
-  "location": null,
-  "startDate": "TBD",
-  "endDate": "TBD",
-  "prizePool": null,
+  "location": "Amsterdam, Netherlands",
+  "startDate": "2027-04-20",
+  "endDate": "2027-05-02",
+  "prizePool": "USD 300,000",
   "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "tier-2-international",
+  "region": "international",
+  "teamsCount": 16,
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
   "prizeDistribution": []
 }

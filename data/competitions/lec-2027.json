@@ -1,0 +1,39 @@
+{
+  "id": "lec-2027",
+  "slug": "lec-2027",
+  "continuityId": "kairos-universe",
+  "name": "LEC 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "LEC's confirmed 2027 annual regional competition, run across Stage 1, Stage 2, Stage 3 (separated by the global July competitive break), and a Championship Stage. No team placements or champions are confirmed.",
+  "format": [
+    "Stage 1: 2027-02-01 to 2027-03-14.",
+    "Stage 2: 2027-04-05 to 2027-05-16.",
+    "Stage 3: 2027-06-07 to 2027-06-27.",
+    "Global competitive break: July 2027 (no matches).",
+    "Championship Stage: 2027-08-21 to 2027-09-19."
+  ],
+  "organizer": null,
+  "location": null,
+  "startDate": "2027-02-01",
+  "endDate": "2027-09-19",
+  "prizePool": "USD 1,000,000",
+  "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "regional-tier-1",
+  "region": "europe",
+  "teamsCount": "TBD",
+  "eventType": "hybrid",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

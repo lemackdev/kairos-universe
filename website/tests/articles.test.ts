@@ -37,7 +37,7 @@ describe("encyclopedia article templates", () => {
     const player = catalog.players.find((entry) => entry.nickname === "404")!;
     const html = renderToStaticMarkup(createElement(PlayerArticle, { player, team: catalog.teams[0], narrativeDate: catalog.metadata.currentNarrativeDate }));
     checkSections(html, ["overview", "background-information", "team-history", "trivia", "individual-awards", "tournament-results"]);
-    expect(html).toContain("18 (as of 18/12/2026)");
+    expect(html).toContain("18 (as of 04/01/2027)");
     expect(html).toContain("No confirmed individual awards recorded.");
     expect(html).toContain("No confirmed tournament results recorded.");
     expect(html).toContain("No official matches recorded.");
@@ -72,6 +72,8 @@ describe("encyclopedia article templates", () => {
       id: "test-cup", slug: "test-cup", name: "Test Cup", gameId: "test-game", gameName,
       status: "planned", overview: null, format: [], organizer: null, location: null,
       startDate: null, endDate: null, prizePool: null, prizes: [], participants: [], results: [], awards: [], sources: [],
+      organizerName: null, seriesName: null, tier: null, region: null, teamsCount: null, eventType: null,
+      inviteDate: null, rankingDate: null, mapPool: [], kairosParticipating: false, relatedEvents: [],
     };
     const html = renderToStaticMarkup(createElement(TournamentArticle, { tournament }));
     checkSections(html, ["overview", "tournament-information", "prize-pool", "participants", "results", "mvps"]);
@@ -80,11 +82,13 @@ describe("encyclopedia article templates", () => {
     expect(html).not.toContain("$");
   });
 
-  it("does not publish tournament fixtures or change the publication scope", () => {
-    expect(catalog.competitions).toEqual([]);
+  it("does not publish the test-cup fixture or change the publication scope, and does not auto-register Kairos", () => {
+    expect(catalog.competitions.length).toBe(loadPublicationManifest().enabledCompetitions.length);
+    expect(catalog.competitions.some((competition) => competition.slug === "test-cup")).toBe(false);
     expect(catalog.routes).not.toContain("/wiki/competitions/test-cup");
     expect(catalog.teams.map((team) => team.id)).toEqual(loadPublicationManifest().enabledTeams);
     expect(catalog.players.every((player) => player.tournamentResults.length === 0 && player.awards.length === 0)).toBe(true);
+    expect(catalog.competitions.every((competition) => !competition.kairosParticipating)).toBe(true);
   });
 
   it("rejects tournaments with unpublished participants, unconfirmed status or reversed dates", () => {

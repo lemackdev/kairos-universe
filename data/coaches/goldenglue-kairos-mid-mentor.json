@@ -1,0 +1,51 @@
+{
+  "id": "goldenglue-kairos-mid-mentor",
+  "slug": "goldenglue-kairos-mid-mentor",
+  "realName": "TBD",
+  "nickname": "Goldenglue",
+  "nationality": "TBD",
+  "role": "Mid Mentor",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-main",
+  "status": "active",
+  "firstAppearance": "episode-094",
+  "joinedKairos": "2027-01-04",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "TBD",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Mentor the main roster Mid role, succeeding Pobelter effective 2027-01-04."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "mason-404-brooks",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 94: Goldenglue is introduced and confirmed as the new Mid mentor for Mason \"404\" Brooks, succeeding Pobelter. Pobelter is present on the call and endorses the change; there is no conflict."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Goldenglue is the confirmed current Mid mentor for the Kairos League main roster, effective 2027-01-04.",
+    "Goldenglue is a real-world esports figure used in a fictional Kairos role.",
+    "The first confirmed appearance is episode-094."
+  ],
+  "unconfirmedDetails": [
+    "Public real name, nationality, and formerPlayingCareer details are TBD; not invented to avoid unsupported real-world biography claims.",
+    "The exact date this person joined Kairos beyond 2027-01-04 is TBD.",
+    "Contract value, exact contract dates, and salary are TBD.",
+    "Personality, objectives, and achievements are TBD.",
+    "Detailed mentor duties are TBD."
+  ],
+  "canonNotes": [
+    "The Kairos role is fictional canon and must be distinguished from real-world background.",
+    "Do not invent contract values, exact start dates, or employment details beyond the confirmed mentorship role.",
+    "Do not imply this is a continuation of Pobelter's exact duties beyond the shared Mid mentor function; do not invent salary, contract value, or compensation."
+  ]
+}

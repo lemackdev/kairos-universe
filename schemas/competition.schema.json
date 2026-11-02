@@ -22,6 +22,17 @@
     "endDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
     "prizePool": { "type": ["string", "null"] },
     "participantTeamIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "rulesetIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "organizerId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "seriesId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "tier": { "enum": ["premier", "major", "tier-2", "tier-1-international", "tier-2-international", "world-championship", "tier-2-world-championship", "regional-tier-1", "regional-tier-2", "postseason-international", "TBD"] },
+    "region": { "enum": ["north-america", "europe", "international", "TBD"] },
+    "teamsCount": { "$ref": "common.schema.json#/$defs/nonNegativeIntegerOrTbd" },
+    "eventType": { "enum": ["lan", "online", "hybrid", "TBD"] },
+    "inviteDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "rankingDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
+    "parentCompetitionId": { "$ref": "common.schema.json#/$defs/nullableIdOrTbd" },
+    "relatedCompetitionIds": { "$ref": "common.schema.json#/$defs/idArray" },
     "prizeDistribution": {
       "type": "array",
       "items": {

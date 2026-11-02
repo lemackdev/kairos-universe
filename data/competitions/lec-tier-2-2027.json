@@ -1,0 +1,33 @@
+{
+  "id": "lec-tier-2-2027",
+  "slug": "lec-tier-2-2027",
+  "continuityId": "kairos-universe",
+  "name": "LEC Tier 2 2027",
+  "gameId": "game-league-of-legends",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "LEC's confirmed 2027 Tier 2 regional ecosystem. Participating teams are not yet confirmed; Kairos Academy teams may qualify internationally without automatic promotion to the LEC Main roster.",
+  "format": [],
+  "organizer": null,
+  "location": null,
+  "startDate": "TBD",
+  "endDate": "TBD",
+  "prizePool": "USD 350,000",
+  "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "regional-tier-2",
+  "region": "europe",
+  "teamsCount": "TBD",
+  "eventType": "hybrid",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": "lec-2027",
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

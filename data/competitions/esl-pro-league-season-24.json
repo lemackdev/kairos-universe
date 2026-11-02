@@ -1,0 +1,35 @@
+{
+  "id": "esl-pro-league-season-24",
+  "slug": "esl-pro-league-season-24",
+  "continuityId": "kairos-universe",
+  "name": "ESL Pro League Season 24",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Dallas, Texas, USA",
+  "startDate": "2027-08-27",
+  "endDate": "2027-09-12",
+  "prizePool": "USD 750,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "esl",
+  "seriesId": "series-esl-pro-league",
+  "tier": "premier",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

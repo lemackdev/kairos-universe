@@ -1,0 +1,35 @@
+{
+  "id": "starladder-toronto-2027",
+  "slug": "starladder-toronto-2027",
+  "continuityId": "kairos-universe",
+  "name": "StarLadder Toronto 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Toronto, Ontario, Canada",
+  "startDate": "2027-09-16",
+  "endDate": "2027-09-22",
+  "prizePool": "USD 500,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "starladder",
+  "seriesId": null,
+  "tier": "premier",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

@@ -7,7 +7,8 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-episodes-076-090"
+    "source-episodes-076-090",
+    "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
   "overview": "Tier 1 international event after MSI and before the final Worlds run; 12 qualified teams. Kairos has not qualified.",
@@ -16,10 +17,21 @@
     "Emphasizes year-long performance and Global Circuit Points."
   ],
   "organizer": null,
-  "location": null,
-  "startDate": "TBD",
-  "endDate": "TBD",
-  "prizePool": null,
+  "location": "Chicago, Illinois, USA",
+  "startDate": "2027-09-25",
+  "endDate": "2027-10-03",
+  "prizePool": "USD 750,000",
   "participantTeamIds": [],
+  "rulesetIds": [],
+  "organizerId": "riot-games",
+  "seriesId": null,
+  "tier": "tier-1-international",
+  "region": "international",
+  "teamsCount": 12,
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
   "prizeDistribution": []
 }

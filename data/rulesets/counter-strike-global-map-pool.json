@@ -1,0 +1,24 @@
+{
+  "id": "counter-strike-global-map-pool",
+  "slug": "counter-strike-global-map-pool",
+  "continuityId": "kairos-universe",
+  "gameId": "game-counter-strike",
+  "rulesetType": "map-pool",
+  "name": "Counter-Strike Global Map Pool",
+  "scope": "global",
+  "status": "active",
+  "effectiveDate": "TBD",
+  "endDate": null,
+  "rotation": "none",
+  "maps": ["Cobblestone", "Inferno", "Nuke", "Overpass", "Dust II", "Train", "Cache"],
+  "excludedMaps": ["Mirage", "Ancient", "Anubis", "Vertigo"],
+  "appliesTo": "All tier 1 and tier 2 Counter-Strike competitions, for all teams (Kairos and non-Kairos) and all organizers in this continuity, with no rotation and no fixed end date.",
+  "sourceIds": ["source-canon-directive-cs-map-pool"],
+  "canonStatus": "confirmed",
+  "notes": [
+    "This is a permanent, continuity-wide fictional map pool, not tied to any single competition or organizer.",
+    "Mirage, Ancient, Anubis, and Vertigo are excluded from all official competitions under this ruleset.",
+    "Historical match records from before this ruleset was documented (for example the Kairos vs. Team Liquid private scrim referenced in episode-093, which included Mirage) are untouched; this ruleset governs official competitions going forward and is not retroactive.",
+    "Future competition records may reference this ruleset by id (see competition.schema.json's optional rulesetIds field) instead of duplicating the map list."
+  ]
+}

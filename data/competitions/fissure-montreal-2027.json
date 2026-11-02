@@ -1,0 +1,35 @@
+{
+  "id": "fissure-montreal-2027",
+  "slug": "fissure-montreal-2027",
+  "continuityId": "kairos-universe",
+  "name": "FISSURE Montreal 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Montreal, Quebec, Canada",
+  "startDate": "2027-06-04",
+  "endDate": "2027-06-10",
+  "prizePool": "USD 500,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "fissure",
+  "seriesId": null,
+  "tier": "premier",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

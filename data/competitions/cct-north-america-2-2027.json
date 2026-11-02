@@ -1,0 +1,35 @@
+{
+  "id": "cct-north-america-2-2027",
+  "slug": "cct-north-america-2-2027",
+  "continuityId": "kairos-universe",
+  "name": "CCT North America #2",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Tier 2 event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Toronto, Ontario, Canada",
+  "startDate": "2027-05-05",
+  "endDate": "2027-05-12",
+  "prizePool": "USD 100,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "cct",
+  "seriesId": null,
+  "tier": "tier-2",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

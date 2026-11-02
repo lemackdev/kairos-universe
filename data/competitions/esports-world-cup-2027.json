@@ -1,0 +1,35 @@
+{
+  "id": "esports-world-cup-2027",
+  "slug": "esports-world-cup-2027",
+  "continuityId": "kairos-universe",
+  "name": "Esports World Cup 2027",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-competitive-calendar"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "Author-confirmed fictional 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Las Vegas, Nevada, USA",
+  "startDate": "2027-11-20",
+  "endDate": "2027-11-28",
+  "prizePool": "USD 2,000,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "esports-world-cup",
+  "seriesId": null,
+  "tier": "premier",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

@@ -6,7 +6,8 @@ import {
   loadCanonUniverse,
   loadPublicationManifest,
 } from "@/lib/canon/loader";
-import { buildSearchRecords, searchRecords } from "@/lib/search/search";
+import { buildSearchRecords } from "@/lib/search/build";
+import { searchRecords } from "@/lib/search/search";
 
 let records: SearchRecord[];
 

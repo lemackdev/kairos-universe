@@ -43,17 +43,36 @@ export function SearchResults({ records }: { records: SearchRecord[] }) {
 
   return (
     <div className="searchResults">
-      {records.map((record) => (
-        <Link className="searchResult" href={record.href} key={record.id}>
-          <span className="searchResultType">{record.type}</span>
-          <span>
-            <strong>{record.name}</strong>
-            <span className="entityName">
-              <small>{record.subtitle}</small>
-            </span>
-          </span>
-        </Link>
-      ))}
+      {records.map((record) =>
+        record.type === "player"
+          ? <Link className="searchResultPlayer" href={record.href} key={record.id}>
+              <span className="searchResultPortrait">
+                {record.portraitUrl
+                  ? <img src={record.portraitUrl} alt="" />
+                  : <span className="searchResultPortraitFallback" aria-hidden="true">{record.name.slice(0, 1)}</span>}
+              </span>
+              <span>
+                <span className="searchResultName">
+                  {record.flagCode && <img className="searchResultFlag" src={`/flags/${record.flagCode}.${record.flagCode === "pr" ? "svg" : "png"}`} alt={record.flagLabel ?? ""} />}
+                  <strong>{record.name}</strong>
+                </span>
+                {record.playingFor && <span className="searchResultPlayingFor">
+                  Playing for
+                  {record.teamLogoUrl && <img className="searchResultTeamLogo" src={record.teamLogoUrl} alt="" />}
+                  {record.playingFor}
+                </span>}
+              </span>
+            </Link>
+          : <Link className="searchResult" href={record.href} key={record.id}>
+              <span className="searchResultType">{record.type}</span>
+              <span>
+                <strong>{record.name}</strong>
+                <span className="entityName">
+                  <small>{record.subtitle}</small>
+                </span>
+              </span>
+            </Link>,
+      )}
     </div>
   );
 }

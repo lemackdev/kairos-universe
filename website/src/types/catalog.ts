@@ -249,6 +249,11 @@ export interface SearchRecord {
   subtitle: string;
   href: string;
   terms: string[];
+  portraitUrl?: string | null;
+  flagCode?: string | null;
+  flagLabel?: string | null;
+  playingFor?: string | null;
+  teamLogoUrl?: string | null;
 }
 
 export interface CatalogMetadata {

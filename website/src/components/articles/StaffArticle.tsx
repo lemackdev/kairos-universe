@@ -5,7 +5,7 @@ import { SourceList } from "@/components/SourceList";
 import { StaffPortrait } from "@/components/StaffPortrait";
 import { TenureTimeline } from "@/components/TenureTimeline";
 import type { StaffView } from "@/types/catalog";
-import { ArticleInfobox, ArticleSection, Facts, WikiArticle } from "./WikiArticle";
+import { ArticleInfobox, ArticleSection, WikiArticle } from "./WikiArticle";
 
 export function StaffArticle({ person }: { person: StaffView }) {
   const isAdrian = person.id === "adrian-elias-vale";
@@ -41,9 +41,8 @@ export function StaffArticle({ person }: { person: StaffView }) {
         ? <p><strong>Adrian Vale</strong> is the founder and CEO of Asterion Intelligence, the founder and owner of Kairos Esports, and the first-person narrator of the original episodes.</p>
         : <p><strong>{person.realName}</strong>{person.nickname ? `, known as ${person.nickname},` : ""} serves as {person.role} in the fictional Kairos {person.division} project.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[1]!}><Facts rows={facts} /></ArticleSection>
+    <ArticleSection {...sections[1]!}>{null}</ArticleSection>
     <ArticleSection {...sections[2]!}>
-      <Facts rows={roleFacts} />
       {person.responsibilities.length
         ? <ul>{person.responsibilities.map((fact) => <li key={fact}>{fact}</li>)}</ul>
         : <p>Detailed responsibilities remain TBD.</p>}

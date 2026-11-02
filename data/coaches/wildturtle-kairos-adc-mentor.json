@@ -1,9 +1,12 @@
 {
   "id": "wildturtle-kairos-adc-mentor",
   "slug": "wildturtle-kairos-adc-mentor",
-  "realName": "TBD",
+  "realName": "Jason Tran",
   "nickname": "WildTurtle",
-  "nationality": "TBD",
+  "nationality": "Canadian",
+  "nationalities": [
+    "Canadian"
+  ],
   "role": "ADC Mentor",
   "division": "League of Legends",
   "currentOrganization": "kairos-esports",
@@ -35,10 +38,11 @@
   "confirmedFacts": [
     "WildTurtle is the confirmed current ADC mentor for the Kairos League main roster, effective 2027-01-04.",
     "WildTurtle is a real-world esports figure used in a fictional Kairos role.",
+    "WildTurtle's public real name is Jason Tran and his nationality is Canadian.",
     "The first confirmed appearance is episode-094."
   ],
   "unconfirmedDetails": [
-    "Public real name, nationality, and formerPlayingCareer details are TBD; not invented to avoid unsupported real-world biography claims.",
+    "FormerPlayingCareer details are TBD in the Kairos record.",
     "The exact date this person joined Kairos beyond 2027-01-04 is TBD.",
     "Contract value, exact contract dates, and salary are TBD.",
     "Personality, objectives, and achievements are TBD.",
@@ -47,6 +51,7 @@
   "canonNotes": [
     "The Kairos role is fictional canon and must be distinguished from real-world background.",
     "Do not invent contract values, exact start dates, or employment details beyond the confirmed mentorship role.",
-    "Do not imply this is a continuation of Doublelift's exact duties beyond the shared ADC mentor function; do not invent salary, contract value, or compensation."
+    "Do not imply this is a continuation of Doublelift's exact duties beyond the shared ADC mentor function; do not invent salary, contract value, or compensation.",
+    "Real-world name and nationality verified against Leaguepedia (https://lol.fandom.com/wiki/WildTurtle); his Kairos mentorship is fictional."
   ]
 }

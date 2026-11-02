@@ -73,6 +73,8 @@ describe("published management and coach profiles", () => {
     ["hai-du-lam", ["American"], ["us.png"]],
     ["maya-torres", ["American", "Puerto Rican"], ["us.png", "pr.svg"]],
     ["evelyn-park", ["American", "South Korean"], ["us.png", "kr.png"]],
+    ["goldenglue-kairos-mid-mentor", ["American"], ["us.png"]],
+    ["wildturtle-kairos-adc-mentor", ["Canadian"], ["ca.png"]],
   ])("publishes confirmed flags for %s", (id, nationalities, flags) => {
     const person = catalog.staff.find((entry) => entry.id === id);
     expect(person?.nationalities).toEqual(nationalities);
@@ -81,5 +83,10 @@ describe("published management and coach profiles", () => {
       nationalities: person?.nationalities,
     }));
     for (const flag of flags) expect(html).toContain(flag);
+  });
+
+  it("publishes the verified real names of the new mentors", () => {
+    expect(catalog.staff.find((entry) => entry.id === "goldenglue-kairos-mid-mentor")?.realName).toBe("Greyson Gregory Gilmer");
+    expect(catalog.staff.find((entry) => entry.id === "wildturtle-kairos-adc-mentor")?.realName).toBe("Jason Tran");
   });
 });

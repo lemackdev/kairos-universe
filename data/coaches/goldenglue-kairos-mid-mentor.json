@@ -1,9 +1,12 @@
 {
   "id": "goldenglue-kairos-mid-mentor",
   "slug": "goldenglue-kairos-mid-mentor",
-  "realName": "TBD",
+  "realName": "Greyson Gregory Gilmer",
   "nickname": "Goldenglue",
-  "nationality": "TBD",
+  "nationality": "American",
+  "nationalities": [
+    "American"
+  ],
   "role": "Mid Mentor",
   "division": "League of Legends",
   "currentOrganization": "kairos-esports",
@@ -34,10 +37,11 @@
   "confirmedFacts": [
     "Goldenglue is the confirmed current Mid mentor for the Kairos League main roster, effective 2027-01-04.",
     "Goldenglue is a real-world esports figure used in a fictional Kairos role.",
+    "Goldenglue's public real name is Greyson Gregory Gilmer and his nationality is American.",
     "The first confirmed appearance is episode-094."
   ],
   "unconfirmedDetails": [
-    "Public real name, nationality, and formerPlayingCareer details are TBD; not invented to avoid unsupported real-world biography claims.",
+    "FormerPlayingCareer details are TBD in the Kairos record.",
     "The exact date this person joined Kairos beyond 2027-01-04 is TBD.",
     "Contract value, exact contract dates, and salary are TBD.",
     "Personality, objectives, and achievements are TBD.",
@@ -46,6 +50,7 @@
   "canonNotes": [
     "The Kairos role is fictional canon and must be distinguished from real-world background.",
     "Do not invent contract values, exact start dates, or employment details beyond the confirmed mentorship role.",
-    "Do not imply this is a continuation of Pobelter's exact duties beyond the shared Mid mentor function; do not invent salary, contract value, or compensation."
+    "Do not imply this is a continuation of Pobelter's exact duties beyond the shared Mid mentor function; do not invent salary, contract value, or compensation.",
+    "Real-world name and nationality verified against Leaguepedia (https://lol.fandom.com/wiki/Goldenglue); his Kairos mentorship is fictional."
   ]
 }

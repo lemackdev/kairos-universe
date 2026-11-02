@@ -1,0 +1,1391 @@
+{
+  "version": "16.21.1",
+  "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json",
+  "count": 173,
+  "icons": [
+    {
+      "id": "Aatrox",
+      "name": "Aatrox",
+      "file": "Aatrox.png",
+      "sha256": "852d739fb696684549064266851df91ecd03729e06b1a192dc14af01549b7f3f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ahri",
+      "name": "Ahri",
+      "file": "Ahri.png",
+      "sha256": "8e93368d97e3d302463c4e83ac5980d1f0a3a0aaf92ac44435730fecbd55b565",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Akali",
+      "name": "Akali",
+      "file": "Akali.png",
+      "sha256": "a62acc32c454b5cc39cebd0769f940b34f3d39ddaf157b95acb176027f81e17a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Akshan",
+      "name": "Akshan",
+      "file": "Akshan.png",
+      "sha256": "da9a6cec8d8085b85e35b7ef0f4fb0ef368992b86760ea72a6539095482e5043",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Alistar",
+      "name": "Alistar",
+      "file": "Alistar.png",
+      "sha256": "a1b9e0dc85d186fea8b7eccb91b7dc770ea6d3c5d5b53d9698cdf33524879259",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ambessa",
+      "name": "Ambessa",
+      "file": "Ambessa.png",
+      "sha256": "ce2bf0adfc1cb9e46430f318e73ec1c0bf257e5afe84b584acb88f15bfdb3646",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Amumu",
+      "name": "Amumu",
+      "file": "Amumu.png",
+      "sha256": "bb20e52d6f4808d3c3cb5038397fdbff174544ee7c9cf9271deee9240a4b1204",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Anivia",
+      "name": "Anivia",
+      "file": "Anivia.png",
+      "sha256": "f10e316692a616d9f27ff5548a52aa128e794ce736b8daa3e1a2b86217a406d5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Annie",
+      "name": "Annie",
+      "file": "Annie.png",
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Aphelios",
+      "name": "Aphelios",
+      "file": "Aphelios.png",
+      "sha256": "1db20831bdc7a01918adac84c3afffe3ce4ea8e2f2bee54d70dec220bd1ea6fc",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ashe",
+      "name": "Ashe",
+      "file": "Ashe.png",
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "AurelionSol",
+      "name": "Aurelion Sol",
+      "file": "AurelionSol.png",
+      "sha256": "a8888510b555c75b35f291a1474e28f46875a543eafcbf4d3595a71654856d7c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Aurora",
+      "name": "Aurora",
+      "file": "Aurora.png",
+      "sha256": "cb291047d565205ffe91bbbd3fc34592452b2f55b7706430a31c8ac188d99a33",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Azir",
+      "name": "Azir",
+      "file": "Azir.png",
+      "sha256": "fa90e249ef38adeabd757f24fc4069db8caccdf64353868d9683a5a9c4c81a35",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Bard",
+      "name": "Bard",
+      "file": "Bard.png",
+      "sha256": "18ee517f6453831c0730d73cbf1628001e53a5acced928d4d78e34a28051094d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Belveth",
+      "name": "Bel'Veth",
+      "file": "Belveth.png",
+      "sha256": "9959345f8316af4ff29d9bf68ab6c8450c85a3742ba4f3e6952ab19d4d0057f1",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Blitzcrank",
+      "name": "Blitzcrank",
+      "file": "Blitzcrank.png",
+      "sha256": "753db19576c52ab7af43bd5ec2631023654567ecb2e0d83389d016927610d74c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Brand",
+      "name": "Brand",
+      "file": "Brand.png",
+      "sha256": "c50bbafb3ed2beea470479b28cd9b2e233a9f88760e61a76cd413d68bafbac52",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Braum",
+      "name": "Braum",
+      "file": "Braum.png",
+      "sha256": "1ada9222fe928d32cca4b91fc374fb41cacb6157f0122a390ca611c3e2c29daa",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Briar",
+      "name": "Briar",
+      "file": "Briar.png",
+      "sha256": "dbecebf6559e79383b208ea340c1cffeea0867b757dff0b8525dd0e0a751ff1c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Caitlyn",
+      "name": "Caitlyn",
+      "file": "Caitlyn.png",
+      "sha256": "f7a515360f30f33dfe5ab4e8886ce59a70c2d333f924252f48f5f9a2fbc6edf4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Camille",
+      "name": "Camille",
+      "file": "Camille.png",
+      "sha256": "54bfa2dc66fc3885279d4546a4d9651f3a16bd4e4474ceaf2e319bf7f673138a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Cassiopeia",
+      "name": "Cassiopeia",
+      "file": "Cassiopeia.png",
+      "sha256": "da2ad096fc5237e31a1e9d9ebb9b6db6de65e2cab126c9a607c3fa7a36bc8e54",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Chogath",
+      "name": "Cho'Gath",
+      "file": "Chogath.png",
+      "sha256": "f5381fea0255a8a903381728fec79862dc5c426e25774c5e18def583fb3b1dfb",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Corki",
+      "name": "Corki",
+      "file": "Corki.png",
+      "sha256": "db997e48b9a4cda57b6e934c131d4718aca559f2b5bdaacc8e81a19d3c2953bb",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Darius",
+      "name": "Darius",
+      "file": "Darius.png",
+      "sha256": "4c73167413335e00b3ece58fadaa495a0c3fe05184b246b0f8b9af923a0d3d81",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Diana",
+      "name": "Diana",
+      "file": "Diana.png",
+      "sha256": "d967ef71d043a49c60dce6f19725fd17d8e8362ea3c059f9ba38906688905d93",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Draven",
+      "name": "Draven",
+      "file": "Draven.png",
+      "sha256": "9b62ecd81173ff55d83a7a9e42d7f9553288856e8365cc3bcbbf4ce3bf4091a6",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "DrMundo",
+      "name": "Dr. Mundo",
+      "file": "DrMundo.png",
+      "sha256": "496b97ef027d5f90b583329269714623701ad12d013c610ee4c7465916ecb8e0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ekko",
+      "name": "Ekko",
+      "file": "Ekko.png",
+      "sha256": "6b2219dd6a3888d5572a2b2f2f522c3eeac490578f82f58171adfdf8e647b093",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Elise",
+      "name": "Elise",
+      "file": "Elise.png",
+      "sha256": "cb7e3ec0658c4e8cf86f2829b12203af68cfc9ab95b98579957427134d00c6e0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Evelynn",
+      "name": "Evelynn",
+      "file": "Evelynn.png",
+      "sha256": "7b09f45c7350fe57217f6833fb97427ea6cc8312b902f7fb8bbbf2a6d5c2f506",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ezreal",
+      "name": "Ezreal",
+      "file": "Ezreal.png",
+      "sha256": "676467c4362b8745a27db93a44619179820add83be95583d7b2adcfcb4eb7e35",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Fiddlesticks",
+      "name": "Fiddlesticks",
+      "file": "Fiddlesticks.png",
+      "sha256": "681544df2412f89a96052e835abe3327cfdd73801868aad20d07576a8157cc32",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Fiora",
+      "name": "Fiora",
+      "file": "Fiora.png",
+      "sha256": "b76387ea62f007ece3e06e589ac15bc9bf5452472b70a0d847d096b06f6785b7",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Fizz",
+      "name": "Fizz",
+      "file": "Fizz.png",
+      "sha256": "447fa01c18cc5bdcd0e014825f7825a93f05d32bde8226bb69fdf58fd6412999",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Galio",
+      "name": "Galio",
+      "file": "Galio.png",
+      "sha256": "25b4acea5a0d8d2b4de819e62fbf7e7bb4afdb94e0d18e8896cb28112a13dc3f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Gangplank",
+      "name": "Gangplank",
+      "file": "Gangplank.png",
+      "sha256": "f2bed51abb3d68897a161e152f03e9c9e0bc13039e6b709f551397a52e5aeb39",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Garen",
+      "name": "Garen",
+      "file": "Garen.png",
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Gnar",
+      "name": "Gnar",
+      "file": "Gnar.png",
+      "sha256": "d566858ab7ae4a6887f3490cedcd9a7097f5b5214d78c0b7f1b631567f8d739e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Gragas",
+      "name": "Gragas",
+      "file": "Gragas.png",
+      "sha256": "06599cb8a6b083a3250c3bcd701b1bab1c8f9dab6ea52c7709ac2c895431f4f6",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Graves",
+      "name": "Graves",
+      "file": "Graves.png",
+      "sha256": "6f171c830d729e9b8b23c6a4d772f2bd44f90304101f1e6a299920b4ecda67d9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Gwen",
+      "name": "Gwen",
+      "file": "Gwen.png",
+      "sha256": "a7bba2bc0970bc5098396a4578a2cb72908630125011502bd2c0ee183ceb29d9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Hecarim",
+      "name": "Hecarim",
+      "file": "Hecarim.png",
+      "sha256": "ba5b2d3fd406fdd81e52e359231024ef4877009bdcf61c9d7ca389916fe61509",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Heimerdinger",
+      "name": "Heimerdinger",
+      "file": "Heimerdinger.png",
+      "sha256": "3e54bea65546474fa1154f9ac25c73bd51aff36db5c808377553b1e9f252c56d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Hwei",
+      "name": "Hwei",
+      "file": "Hwei.png",
+      "sha256": "c8aeb272d4f4990ee87b7b7f857840d214e99f1707c9aebb6529ac6e0bc5f5ff",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Illaoi",
+      "name": "Illaoi",
+      "file": "Illaoi.png",
+      "sha256": "1334b302ec0fb4895e15033351122427786cfc25c6c30b4f9b43e2a8212314c1",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Irelia",
+      "name": "Irelia",
+      "file": "Irelia.png",
+      "sha256": "a8cd7e83c7b327516869d67eb9cd96499bcf720d799b814830373cb200a98c9c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ivern",
+      "name": "Ivern",
+      "file": "Ivern.png",
+      "sha256": "a79756ca23f8f93a882f47e4ce5d4228b70bf002a1ea320d5a69fa16491c5df4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Janna",
+      "name": "Janna",
+      "file": "Janna.png",
+      "sha256": "d0a7b79a9d7673b429fc94bb2718a27bff8cdbbbafe9fac294f1cf0cc1982d83",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "JarvanIV",
+      "name": "Jarvan IV",
+      "file": "JarvanIV.png",
+      "sha256": "9da74ae808585eff7f130f47ce4c6c3ddab0b302b1d39902e273ae0253592764",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Jax",
+      "name": "Jax",
+      "file": "Jax.png",
+      "sha256": "441e8d865d461bc338a2d2d5a2a09f6151bbfdb4795ec8b59e66ee8654eebcca",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Jayce",
+      "name": "Jayce",
+      "file": "Jayce.png",
+      "sha256": "81301e79adf1c92dd700defb5e1ee11cb8b7ef04b7034554aacb067c66256a38",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Jhin",
+      "name": "Jhin",
+      "file": "Jhin.png",
+      "sha256": "dd24ce955ba61995956f1a48cb9b90b9b52936bb23bf05e0cb74cfc9c74a4b0c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Jinx",
+      "name": "Jinx",
+      "file": "Jinx.png",
+      "sha256": "2777d44345974b93f8af378430811670566d0451b6410b2caff2984e93797357",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kaisa",
+      "name": "Kai'Sa",
+      "file": "Kaisa.png",
+      "sha256": "e0e86ccb7143d20bcbd83f192530f9712bf4b1d6306ec07a06992d4b72676443",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kalista",
+      "name": "Kalista",
+      "file": "Kalista.png",
+      "sha256": "3809361a78dfb97d3660fd47345145287d48af10909426d353b451cf52dc093b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Karma",
+      "name": "Karma",
+      "file": "Karma.png",
+      "sha256": "e1df55d95c9a90445b59615db2984c3a8a9d8df3578faf968872bbe2e0075bc0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Karthus",
+      "name": "Karthus",
+      "file": "Karthus.png",
+      "sha256": "2b7015e102317b52900f9c69adfe462426301ac0f62c54502fdeae518d30392e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kassadin",
+      "name": "Kassadin",
+      "file": "Kassadin.png",
+      "sha256": "a7616e721346eef6a2af65470f98757e4ad184a53685d412edec583dd5989a15",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Katarina",
+      "name": "Katarina",
+      "file": "Katarina.png",
+      "sha256": "998f3a479b5441f86f4031aace49bbd70bb83a76c05d39b0697288fe50ba029e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kayle",
+      "name": "Kayle",
+      "file": "Kayle.png",
+      "sha256": "63dd90ebddcf8fcda57aa20f6f6b490ceea0958a45f9411946d4b9bd0d1293c6",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kayn",
+      "name": "Kayn",
+      "file": "Kayn.png",
+      "sha256": "7a7e6e8f8df01879296ed9de5710329a2f3c541418ae277c65175e1ba2212982",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kennen",
+      "name": "Kennen",
+      "file": "Kennen.png",
+      "sha256": "71239ebd9236d5d0fdbccfb8741727e6f13dd007a4d6905e5aa82f6b36aceebd",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Khazix",
+      "name": "Kha'Zix",
+      "file": "Khazix.png",
+      "sha256": "30007408b2c91e58a8036116f222f70b1d148699b994a109a30eacb4eff6bb63",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kindred",
+      "name": "Kindred",
+      "file": "Kindred.png",
+      "sha256": "a789f7340a9e390c8627be587cb4f236736f55907c8e36b792ca1f6221ade4ed",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Kled",
+      "name": "Kled",
+      "file": "Kled.png",
+      "sha256": "4d71421e5e0a4fd8092fc9b6d91cc10fb36a067fc8a74b5e2fce2e718d3f2566",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "KogMaw",
+      "name": "Kog'Maw",
+      "file": "KogMaw.png",
+      "sha256": "a5836dd40801e9f6275c1b74de8ba6de2de09ab2d24ec2e9695f958917348f1a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "KSante",
+      "name": "K'Sante",
+      "file": "KSante.png",
+      "sha256": "d7d62b07df5b66497195c68e3e2bbdc8c3d6078066aa2ed170cfbcb0fc2f5ddf",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Leblanc",
+      "name": "LeBlanc",
+      "file": "Leblanc.png",
+      "sha256": "e48b97ce2451c37d4e4a747b37663bd1095730b4182b2805f397f60fd12c7c5d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "LeeSin",
+      "name": "Lee Sin",
+      "file": "LeeSin.png",
+      "sha256": "890f439dd16bfa686b3c6f06f9749eb5477e5b706a8ff85cb8161f91adcff9a8",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Leona",
+      "name": "Leona",
+      "file": "Leona.png",
+      "sha256": "d7e170e1d5c37b243663e03d480a4befe727d86d0733e3e411b90297cb192461",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Lillia",
+      "name": "Lillia",
+      "file": "Lillia.png",
+      "sha256": "b270de6af7ec29bb2fb91d6effec79f3c0b6d93811315dc54d101ee55f61fb31",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Lissandra",
+      "name": "Lissandra",
+      "file": "Lissandra.png",
+      "sha256": "ece7fc0269138d30380dbb0420ccf822e7ca95819d7d911a0e29f7d10cf7445d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Locke",
+      "name": "Locke",
+      "file": "Locke.png",
+      "sha256": "f05b0779ef6873f798d42f0bff433d54a7ba761d487ef36dd3de0c32bdf98d28",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Lucian",
+      "name": "Lucian",
+      "file": "Lucian.png",
+      "sha256": "75e3de3e43f732f815293472167e0022118a0be55a627f10794bc8043e2602cb",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Lulu",
+      "name": "Lulu",
+      "file": "Lulu.png",
+      "sha256": "ca22c4a042d66085ef7794c8b351b57880739be454aa4128fbdd7506c02d1a50",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Lux",
+      "name": "Lux",
+      "file": "Lux.png",
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Malphite",
+      "name": "Malphite",
+      "file": "Malphite.png",
+      "sha256": "233005b989ae25fc6e5e22d1325291bce2d64e49767ebb83413c0f91e1b157c6",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Malzahar",
+      "name": "Malzahar",
+      "file": "Malzahar.png",
+      "sha256": "c0f9eb031b22805d1bbed0cd0ee2a7f148541076c1655271665325e2dbf06911",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Maokai",
+      "name": "Maokai",
+      "file": "Maokai.png",
+      "sha256": "7e68c320efa332ba9126c6d2d6ccd3a51939d7d1f2b31785fbec8594a0e6f6b3",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "MasterYi",
+      "name": "Master Yi",
+      "file": "MasterYi.png",
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Mel",
+      "name": "Mel",
+      "file": "Mel.png",
+      "sha256": "e464fe1e53f45f3c603cdf1bab1cd182ce6a429840e008d30ed41411d4a68ea0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Milio",
+      "name": "Milio",
+      "file": "Milio.png",
+      "sha256": "86517cc10c6c5670dcd6821a2e5c7bbb9e16aac597cda5d04578933bd5861343",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "MissFortune",
+      "name": "Miss Fortune",
+      "file": "MissFortune.png",
+      "sha256": "a8c3048bfb76b4e8b34e00193ed2febe69669918055ffda835ddb24905588733",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "MonkeyKing",
+      "name": "Wukong",
+      "file": "MonkeyKing.png",
+      "sha256": "2264db1ffde08659aee3380c8ac5643771d872d95a9c9090951d7f2849e61353",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Mordekaiser",
+      "name": "Mordekaiser",
+      "file": "Mordekaiser.png",
+      "sha256": "3d3521dedf02d446ae2a506b8b5395a9fba690567dbf6be3cf4523e8c439d9b8",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Morgana",
+      "name": "Morgana",
+      "file": "Morgana.png",
+      "sha256": "bd170027904c2e5a354e53dca0f5d50516a4f3d60a4fbb0c286c9eb32d8d8954",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Naafiri",
+      "name": "Naafiri",
+      "file": "Naafiri.png",
+      "sha256": "75a82287766d7bc333305390675eb5bd3a0b7522d0a69a46543e7bdc301a4ed7",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nami",
+      "name": "Nami",
+      "file": "Nami.png",
+      "sha256": "f43e652c61cd4998274e966a1e91e00fb3d51cc6202f7e53a5f2c7da160ddd23",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nasus",
+      "name": "Nasus",
+      "file": "Nasus.png",
+      "sha256": "80b838812e5f14b1e37900d1c14c54835b535d5bd36af6ace19fd23344989be3",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nautilus",
+      "name": "Nautilus",
+      "file": "Nautilus.png",
+      "sha256": "6e8dfa2e6ba3d4564745fe69ace7c796898aa023a2af2727b0be127316712c2c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Neeko",
+      "name": "Neeko",
+      "file": "Neeko.png",
+      "sha256": "0fd600e0aeeca36f9245bcbc02ca666a2493b2b68a60ecd298a2ad26c33c8a92",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nidalee",
+      "name": "Nidalee",
+      "file": "Nidalee.png",
+      "sha256": "f6291b72f4ea9ea1fa272f61443bc3580e3f61b870be31c0743824a1c25abf33",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nilah",
+      "name": "Nilah",
+      "file": "Nilah.png",
+      "sha256": "564103bc6f32863242ea0d39fc40eb39c70cf4a1f28297c756f83d44195048b2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nocturne",
+      "name": "Nocturne",
+      "file": "Nocturne.png",
+      "sha256": "b9968b3e2bd60257ed23cede9e69b184ef78096bc196d157c1f6eff9b3d900d5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Nunu",
+      "name": "Nunu & Willump",
+      "file": "Nunu.png",
+      "sha256": "dab4f686598e93d0d430db32d824a98f34b5a0055331a654c84ea3759fe6ed6a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Olaf",
+      "name": "Olaf",
+      "file": "Olaf.png",
+      "sha256": "17d439590f461a2d4d5bdacd33d4d2c31009ea8f57b46a6a427b0db96f6bd0ab",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Orianna",
+      "name": "Orianna",
+      "file": "Orianna.png",
+      "sha256": "7d70d8bcb2991de3f3512efb565c453a9d470dca78088c05aec3691d22dd7511",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ornn",
+      "name": "Ornn",
+      "file": "Ornn.png",
+      "sha256": "91374f0919871a6490ac7b8ff9b073efb8b6a797f28302cc3751294c47c58d6e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Pantheon",
+      "name": "Pantheon",
+      "file": "Pantheon.png",
+      "sha256": "0ab8b436d5d7dd0a4163ec105a4977fc77abfd16757d46a9e958242f2d6858c1",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Poppy",
+      "name": "Poppy",
+      "file": "Poppy.png",
+      "sha256": "c2cdd3a868b4b9ac5f1f3fef5ca77e930f32b0c98a5c3b83bcb099f75a4b6b7c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Pyke",
+      "name": "Pyke",
+      "file": "Pyke.png",
+      "sha256": "384a69fbcbfed183b2ef591923e51cb56d5f55835a4dae2da716f858cd8a7a6f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Qiyana",
+      "name": "Qiyana",
+      "file": "Qiyana.png",
+      "sha256": "b7bc7f2b7b4acd45b994005e87710c779c1c9bb89343e02f1fd1e98533a1f93f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Quinn",
+      "name": "Quinn",
+      "file": "Quinn.png",
+      "sha256": "69ac72c21c771fe80492a7a6316dbe7053c0f20f0bb35ecb59d43f6d916d90e4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Rakan",
+      "name": "Rakan",
+      "file": "Rakan.png",
+      "sha256": "b0252249ed33b226421595e5cf4f7a6b4e4fbe9441140e65cee05f82463f87fd",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Rammus",
+      "name": "Rammus",
+      "file": "Rammus.png",
+      "sha256": "911faa8b6e8a2b5e018fa1c5f36617488036782e163faa8029d1475885cef6ab",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "RekSai",
+      "name": "Rek'Sai",
+      "file": "RekSai.png",
+      "sha256": "881fcd45ab0566be11312e358b9fe33f61656bbafe5b0ae4c95e5b3ca9cacfc3",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Rell",
+      "name": "Rell",
+      "file": "Rell.png",
+      "sha256": "47c0724d3b71c8b4d2ae4eed8d3b793550e1f4ef0e2bf3807696c6bf2ebaa91c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Renata",
+      "name": "Renata Glasc",
+      "file": "Renata.png",
+      "sha256": "59f70a9f29de3a7740594e7f0a635e2d75f7e32b44c04f1d5b2576e91494baf0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Renekton",
+      "name": "Renekton",
+      "file": "Renekton.png",
+      "sha256": "a3b94121970f7649896ef8c695be265d31c617e33ff9c7c86cff56d1e19724fd",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Rengar",
+      "name": "Rengar",
+      "file": "Rengar.png",
+      "sha256": "afc37ac7e29cbc58e31e3d127e26a9c1e09f05fcc489adbb512ad6710b63ff5e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Riven",
+      "name": "Riven",
+      "file": "Riven.png",
+      "sha256": "4527ba3804c0b78e0127608708b2a425d1c6eef5f95925c5dcfd707f5fa32139",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Rumble",
+      "name": "Rumble",
+      "file": "Rumble.png",
+      "sha256": "e14a39464abbdb4aba3ac5827e8f717ff7ce5b13d9c6a932da3fc13caa783f36",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ryze",
+      "name": "Ryze",
+      "file": "Ryze.png",
+      "sha256": "abb747c8b8402625d4cc6b5b3c48950b192823216532c74f26d4b5ccf8851290",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Samira",
+      "name": "Samira",
+      "file": "Samira.png",
+      "sha256": "0a30028f649d72534fddf5c66e713792511dc79cb4ce882b7b7828eeabe35aa7",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Sejuani",
+      "name": "Sejuani",
+      "file": "Sejuani.png",
+      "sha256": "a84f6106746dd2cc0c173e6a995d7310a2ee676c7a22630f041fa1869bc6ef86",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Senna",
+      "name": "Senna",
+      "file": "Senna.png",
+      "sha256": "9ea2bd78c36f3c9b466a0f6df52154007663bb77cab7c07d87496885f0f86683",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Seraphine",
+      "name": "Seraphine",
+      "file": "Seraphine.png",
+      "sha256": "87bfe49f6595aa4b3b002f9768487d5d410badf25dfbb0f7bb54de11b0d50254",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Sett",
+      "name": "Sett",
+      "file": "Sett.png",
+      "sha256": "95823a0688664a52d1d46ebb0392c3cc45e26ab7e7a2510292a4f36239d9eea0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Shaco",
+      "name": "Shaco",
+      "file": "Shaco.png",
+      "sha256": "83ad990c0196b9b33c06b6cdf672db2d1ab3025cde131961ba767ddfff9c7a8a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Shen",
+      "name": "Shen",
+      "file": "Shen.png",
+      "sha256": "6570a91fb958ef079805dadd8c7a628da569d9601883b6b24610f0858bda8239",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Shyvana",
+      "name": "Shyvana",
+      "file": "Shyvana.png",
+      "sha256": "f65317e9ded51d97ea2e53293984b7a5c640242a7099df7fb3de0aad356594b0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Singed",
+      "name": "Singed",
+      "file": "Singed.png",
+      "sha256": "0429cad926e909454d99f3286b091a143780b87f67f867b54ab4ee152bdbec99",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Sion",
+      "name": "Sion",
+      "file": "Sion.png",
+      "sha256": "4908e30a48ec3cbdb080de1667833e2d018ea03fb296e9760066a46793adb528",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Sivir",
+      "name": "Sivir",
+      "file": "Sivir.png",
+      "sha256": "dd8642cd3fb6df0d85d1837dc94c7128e4292554a93451081a5537d0b888172b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Skarner",
+      "name": "Skarner",
+      "file": "Skarner.png",
+      "sha256": "cefd97204e9634f6d46216b736279b988f5e0f3ce1ca49ed43a519effd6f05c9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Smolder",
+      "name": "Smolder",
+      "file": "Smolder.png",
+      "sha256": "8a7ffc62f2fe7904aee014201fe75e138b2bf82710d2bc3a6cf34d50d171e076",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Sona",
+      "name": "Sona",
+      "file": "Sona.png",
+      "sha256": "e77557069fdc32b412190e8218d2df235d89265100758f0fd8a3399e7b585548",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Soraka",
+      "name": "Soraka",
+      "file": "Soraka.png",
+      "sha256": "ca2774023350198da7025b950c85be65e3506e2f40947ca4151f0e8df4a8be15",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Swain",
+      "name": "Swain",
+      "file": "Swain.png",
+      "sha256": "9f4550dd903cf19ee587bd0870f630ce90d6f62fac2a2d07fe46bda153db8f9b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Sylas",
+      "name": "Sylas",
+      "file": "Sylas.png",
+      "sha256": "3e724fcd4fffd0b36ea3dd2a60d7d3ed9aeb20ebc5e2dec2e8019b31c3097647",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Syndra",
+      "name": "Syndra",
+      "file": "Syndra.png",
+      "sha256": "51424965682912746a4ac1a66c9c7d4e3d08333aaf8a59b9865725166580f7b3",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "TahmKench",
+      "name": "Tahm Kench",
+      "file": "TahmKench.png",
+      "sha256": "138eaa3abe89c804e7ef287f8d3bf69172be797965df958b259663c3d4389e42",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Taliyah",
+      "name": "Taliyah",
+      "file": "Taliyah.png",
+      "sha256": "436958c1d99411e473c7065bd969cec65ebdf61702d5b266db7e0720a3937c85",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Talon",
+      "name": "Talon",
+      "file": "Talon.png",
+      "sha256": "fc05e5ae6e6d4705a9db3a842fdbce11f429bf333b278f8183caef1d669919d9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Taric",
+      "name": "Taric",
+      "file": "Taric.png",
+      "sha256": "3a91b21a88d562717fb78ada18c95a0b7a077e0c3b941d34829ba5e4d7eceaed",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Teemo",
+      "name": "Teemo",
+      "file": "Teemo.png",
+      "sha256": "bbf4b7238b1f62dc02b39208db764588d18a712a7ea96205f5932730c08a62ee",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Thresh",
+      "name": "Thresh",
+      "file": "Thresh.png",
+      "sha256": "27f9bfc32eb28d9e17e42e29f8d555c91110e040991d56577f433ddc9eca6c7e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Tristana",
+      "name": "Tristana",
+      "file": "Tristana.png",
+      "sha256": "9f46e6dd9d49bf8fd2c6dc7397fa4badb35bf0f355334301782c7f9e13f00aa5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Trundle",
+      "name": "Trundle",
+      "file": "Trundle.png",
+      "sha256": "e77d99af3ac328a80a247fafec728df7be4eda7200300a597b38f093fffe234e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Tryndamere",
+      "name": "Tryndamere",
+      "file": "Tryndamere.png",
+      "sha256": "e715ed3a7eb5f3a0dcfb6da2a9c8ae05d9c197ef514f959d5a94bff38d4dff48",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "TwistedFate",
+      "name": "Twisted Fate",
+      "file": "TwistedFate.png",
+      "sha256": "5f5944763b0d7c8fc68edad413a908799e2cfcae8a850a6ff746a16afc553670",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Twitch",
+      "name": "Twitch",
+      "file": "Twitch.png",
+      "sha256": "823c7394b6cdc9fcc0b70f0e71578d8fbe1f06533e1010aa7785ebae4d1209ad",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Udyr",
+      "name": "Udyr",
+      "file": "Udyr.png",
+      "sha256": "5fa439ae56b9b7a7bdc2ee35661caf8080c19bf2ef5fc0b87ad0315271ac9b93",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Urgot",
+      "name": "Urgot",
+      "file": "Urgot.png",
+      "sha256": "35d3f774ca9b1430aa32fcacb9add8daa7cecb51411985a178e0d72d5571ec3d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Varus",
+      "name": "Varus",
+      "file": "Varus.png",
+      "sha256": "1a300d007f9a3bc76342534a16cdf025ac111e733f69667bb4f065869a5ae9f4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Vayne",
+      "name": "Vayne",
+      "file": "Vayne.png",
+      "sha256": "d9ea091b8d2eddbf7d08001866d7a0798f2649a7067c61dce15ac92fbc3cb723",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Veigar",
+      "name": "Veigar",
+      "file": "Veigar.png",
+      "sha256": "ace2c32c06d8a96b4de943228b01812f220adf3a4dfaa396e922f7c696221024",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Velkoz",
+      "name": "Vel'Koz",
+      "file": "Velkoz.png",
+      "sha256": "263e174bec40da4a00656390621f4bb7e81677c39527ed98ad63ed12c52308ee",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Vex",
+      "name": "Vex",
+      "file": "Vex.png",
+      "sha256": "aaa93d7fab2d5d469778128ccdbe59bde00e601da065d17e3ae7bce4fe53c758",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Vi",
+      "name": "Vi",
+      "file": "Vi.png",
+      "sha256": "282bd7a3e6a3bdd309f90eebf03b1fb7009a5357e6f53e158dd8c7df8103b4ab",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Viego",
+      "name": "Viego",
+      "file": "Viego.png",
+      "sha256": "582fda91453e711bf45146e75ae7b0db0a2aa148499cffd4919050a1b96e9316",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Viktor",
+      "name": "Viktor",
+      "file": "Viktor.png",
+      "sha256": "caf7df593c7713892aac575d1031e9693066c57b86c25ff19542f4ca98c2159a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Vladimir",
+      "name": "Vladimir",
+      "file": "Vladimir.png",
+      "sha256": "eebcd73ab4ba404c4c5b45b7665e5f31399515402b36d9ff8953bb02d4d4c0b3",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Volibear",
+      "name": "Volibear",
+      "file": "Volibear.png",
+      "sha256": "36ab730707d6835a6a6fefe216ae3d8bf9d416970fc3223c857f109f404ee5ab",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Warwick",
+      "name": "Warwick",
+      "file": "Warwick.png",
+      "sha256": "f5df0cb82ea9fba63308254d04d68307c09d1b17b1a28426d1550da39d9c79b8",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Xayah",
+      "name": "Xayah",
+      "file": "Xayah.png",
+      "sha256": "4ecd1e37697ebc5ee54ca05f1914101ee49be334798287bb8a432f8dd42a5b3d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Xerath",
+      "name": "Xerath",
+      "file": "Xerath.png",
+      "sha256": "b204c7007dfe3dd7203c36a65ac6798f39fd96ba10ab981fa82e488aa170ed38",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "XinZhao",
+      "name": "Xin Zhao",
+      "file": "XinZhao.png",
+      "sha256": "f70e9570c60a33328b4e0c0437bcb33cc2320056ba0724e0279e553436da5667",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Yasuo",
+      "name": "Yasuo",
+      "file": "Yasuo.png",
+      "sha256": "25a7597bfbd3198740b56d369734542f9e7b2100645d9f1199d969c7e1538ffb",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Yone",
+      "name": "Yone",
+      "file": "Yone.png",
+      "sha256": "cc02f91c39f7336562fb8fa5792eeaeeb1540517a54e7713f7c70732add51c6d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Yorick",
+      "name": "Yorick",
+      "file": "Yorick.png",
+      "sha256": "151b64e886222db394d6397734f5297862ddc4216fcc1db4a6ad5d33d5dc241a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Yunara",
+      "name": "Yunara",
+      "file": "Yunara.png",
+      "sha256": "1502b9641f838af84749a8b10db447942fa8f1661c1fc9c3d43330489427a9d5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Yuumi",
+      "name": "Yuumi",
+      "file": "Yuumi.png",
+      "sha256": "63283c06c2b3a4873a83cb9d00b2ee5892f7bcd7cd009fd8b6ff893f92138b9e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zaahen",
+      "name": "Zaahen",
+      "file": "Zaahen.png",
+      "sha256": "2028854176d35cf2f1f926044f071bcd0b7cc8eed839590296e64852bedd35d4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zac",
+      "name": "Zac",
+      "file": "Zac.png",
+      "sha256": "be2426155e937aa048cd22cab2342dd7ecbc591a90c5417d0bd3759ab5876aa6",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zed",
+      "name": "Zed",
+      "file": "Zed.png",
+      "sha256": "3ad3e956e9ad5ca3127d8f685faf69d4251fb726e9b4f0be989764f0027e9c5f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zeri",
+      "name": "Zeri",
+      "file": "Zeri.png",
+      "sha256": "5fc4e7ed3b8184495375ea0b8e35a625521cddc7d17d1d6e30e13b683b36100c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Ziggs",
+      "name": "Ziggs",
+      "file": "Ziggs.png",
+      "sha256": "cc3ea57671db30642002b5c36c0a6c851aacb7b2d6a5af10069f9f00b00775a9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zilean",
+      "name": "Zilean",
+      "file": "Zilean.png",
+      "sha256": "07c45f7285e5d741f17ebdc07889971c46c67f09846fdb9a3f0f0123aedd8850",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zoe",
+      "name": "Zoe",
+      "file": "Zoe.png",
+      "sha256": "2413cb98c5f863b8570a012e1927e4908ee78be0f7619ab3ce471e8c7da56bb2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "id": "Zyra",
+      "name": "Zyra",
+      "file": "Zyra.png",
+      "sha256": "9993a6caf52f955ad41077e56b56f2472c07c1a589fb4d1c66097ddf775feda4",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

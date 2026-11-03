@@ -3,6 +3,7 @@ import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
 import { BrandLogo } from "@/components/UniformPanel";
+import { listAllTier2Teams } from "@/lib/external/worldState2027";
 
 export const metadata = { title: "Teams" };
 
@@ -18,6 +19,13 @@ export default function TeamsPage() {
   const games = [...teamsByGame.keys()].sort(
     (a, b) => gameOrder.indexOf(a) - gameOrder.indexOf(b),
   );
+  const tier2Teams = listAllTier2Teams(catalog.worldState2027);
+  const tier2ByEcosystem = new Map<string, typeof tier2Teams>();
+  for (const team of tier2Teams) {
+    const list = tier2ByEcosystem.get(team.ecosystem) ?? [];
+    list.push(team);
+    tier2ByEcosystem.set(team.ecosystem, list);
+  }
 
   return (
     <>
@@ -51,6 +59,20 @@ export default function TeamsPage() {
           </div>
         </section>
       ))}
+      {tier2Teams.length > 0 && <section className="contentSection">
+        <h2 className="sectionKicker">League of Legends &mdash; Tier 2 (2027, fictional)</h2>
+        <p>Fictional Kairos Universe 2027 Tier 2 regional ecosystems. See <a href="/wiki/world">the competitive world</a> for sourcing and scope. These are not real-world reports.</p>
+        {[...tier2ByEcosystem.entries()].map(([ecosystem, teams]) => <div className="entityGrid" key={ecosystem}>
+          {teams.map((team) => <EntityCard
+            key={team.teamId}
+            href={`/wiki/teams/${team.teamId}`}
+            kicker={`League of Legends / ${ecosystem}`}
+            title={team.name}
+            description={team.region}
+            meta="Tier 2"
+          />)}
+        </div>)}
+      </section>}
     </>
   );
 }

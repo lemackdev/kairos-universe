@@ -3,6 +3,33 @@ import path from "node:path";
 import { repositoryRoot } from "@/lib/canon/paths";
 import type { FreeAgents2027, LeagueRegionalMembership2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
 
+export const regionalCompetitionSlugs: Record<string, { league: string } | { tier2: string }> = {
+  "lck-2027": { league: "LCK" },
+  "lpl-2027": { league: "LPL" },
+  "lec-2027": { league: "LEC" },
+  "lcs-2027": { league: "LCS" },
+  "lcp-2027": { league: "LCP" },
+  "cblol-2027": { league: "CBLOL" },
+  "lcs-tier-2-2027": { league: "NACL" },
+  "lec-tier-2-2027": { tier2: "EMEA Masters" },
+  "lck-tier-2-2027": { tier2: "LCK Challengers" },
+  "lcp-tier-2-2027": { tier2: "LCP Challengers" },
+  "cblol-tier-2-2027": { tier2: "Circuito Desafiante" },
+  "lpl-tier-2-2027": { tier2: "LDL" },
+};
+
+export function regionalFieldFor(worldState: WorldState2027 | undefined, competitionSlug: string): { name: string; teamId: string }[] | null {
+  if (!worldState) return null;
+  const entry = regionalCompetitionSlugs[competitionSlug];
+  if (!entry) return null;
+  if ("league" in entry) {
+    const region = worldState.membership.regions[entry.league];
+    return region ? region.active.map((team) => ({ name: team.name, teamId: team.teamId })) : null;
+  }
+  const league = worldState.tier2Leagues[entry.tier2];
+  return league ? league.teams.map((team) => ({ name: team.name, teamId: team.teamId })) : null;
+}
+
 const overridesRoot = path.join(repositoryRoot, "data", "competitive-world-overrides");
 const read = <T,>(file: string): T => JSON.parse(fs.readFileSync(path.join(overridesRoot, file), "utf8")) as T;
 
@@ -43,6 +70,43 @@ export function loadWorldState2027(): WorldState2027 {
 
 export function findFreeAgent(worldState: WorldState2027 | undefined, playerId: string) {
   return worldState?.freeAgents.players.find((player) => player.playerId === playerId) ?? null;
+}
+
+export interface Tier2TeamLookup {
+  teamId: string;
+  name: string;
+  ecosystem: string;
+  region: string;
+  parentTeamId: string | null;
+}
+
+export function findTier2Team(worldState: WorldState2027 | undefined, teamId: string): Tier2TeamLookup | null {
+  if (!worldState) return null;
+  for (const league of Object.values(worldState.tier2Leagues)) {
+    const team = league.teams.find((entry) => entry.teamId === teamId);
+    if (team) return { teamId: team.teamId, name: team.name, ecosystem: league.name, region: league.region, parentTeamId: team.parentTeamId };
+  }
+  const nacl = worldState.membership.regions.NACL;
+  if (nacl) {
+    const team = [...nacl.active, ...nacl.inactive].find((entry) => entry.teamId === teamId && entry.teamId.startsWith("tier2-"));
+    if (team) return { teamId: team.teamId, name: team.name, ecosystem: "NACL", region: "North America", parentTeamId: team.parentTeamId ?? null };
+  }
+  return null;
+}
+
+export function listAllTier2Teams(worldState: WorldState2027 | undefined): Tier2TeamLookup[] {
+  if (!worldState) return [];
+  const teams: Tier2TeamLookup[] = [];
+  for (const league of Object.values(worldState.tier2Leagues)) {
+    for (const team of league.teams) teams.push({ teamId: team.teamId, name: team.name, ecosystem: league.name, region: league.region, parentTeamId: team.parentTeamId });
+  }
+  const nacl = worldState.membership.regions.NACL;
+  if (nacl) {
+    for (const team of [...nacl.active, ...nacl.inactive]) {
+      if (team.teamId.startsWith("tier2-")) teams.push({ teamId: team.teamId, name: team.name, ecosystem: "NACL", region: "North America", parentTeamId: team.parentTeamId ?? null });
+    }
+  }
+  return teams;
 }
 
 export function findRegionalStatus(worldState: WorldState2027 | undefined, teamId: string): { league: string; active: boolean; note?: string; effectiveExitDate?: string } | null {

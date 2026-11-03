@@ -6,7 +6,7 @@ import { ExternalRosterTable } from "@/components/ExternalRosterTable";
 import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 import type { WorldState2027 } from "@/types/world-state-2027";
-import { findFreeAgent } from "@/lib/external/worldState2027";
+import { findFreeAgent, type Tier2TeamLookup } from "@/lib/external/worldState2027";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 export function ReferenceNotice() {
@@ -111,6 +111,31 @@ export function ExternalOrganizationArticle({ organization, scene }: { organizat
         ] }))} />
     </ArticleSection>
     <ArticleSection {...sections[3]!}><ExternalSources scene={scene} ids={organization.sourceIds} /></ArticleSection>
+  </WikiArticle>;
+}
+
+export function Tier2TeamArticle({ team, parent }: { team: Tier2TeamLookup; parent?: { name: string; slug: string } }) {
+  const sections = ["Overview", "Ecosystem", "Parent organization", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
+  return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)} groups={[
+    { title: "Team Information", rows: [
+      { label: "Ecosystem", value: team.ecosystem }, { label: "Tier", value: "Tier 2" }, { label: "Region", value: team.region },
+      { label: "Parent organization", value: parent ? <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> : "None confirmed" },
+    ] },
+  ]} />}>
+    <FictionalWorldNotice />
+    <ArticleSection {...sections[0]!}>
+      <p><strong>{team.name}</strong> is a Kairos Universe fictional 2027 {team.ecosystem} participant. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately and are never merged with this entity&rsquo;s.</> : "No parent-organization relationship is established for this team."}</p>
+    </ArticleSection>
+    <ArticleSection {...sections[1]!}>
+      <p>{team.name} is one of 8 confirmed 2027 {team.ecosystem} participants, a Tier 2 regional ecosystem ({team.region}). See <Link href="/wiki/world">the competitive world</Link> for the full {team.ecosystem} field and the rest of the Tier 1 / Tier 2 structure.</p>
+    </ArticleSection>
+    <ArticleSection {...sections[2]!}>
+      {parent ? <p><Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> is this team&rsquo;s confirmed parent organization. The two remain separate competitive team entities; no roster, result, or membership is shared between them.</p>
+        : <p>No parent-organization relationship is confirmed for this team in Kairos Universe canon.</p>}
+    </ArticleSection>
+    <ArticleSection {...sections[3]!}>
+      <p>Kairos Universe canon directive establishing the {team.ecosystem} 2027 ecosystem (author-confirmed, fictional). See <Link href="/wiki/world">the competitive world</Link> for sourcing. No roster, result, or standings data is tracked for this team.</p>
+    </ArticleSection>
   </WikiArticle>;
 }
 

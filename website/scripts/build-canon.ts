@@ -4,7 +4,7 @@ import path from "node:path";
 import { buildCatalog } from "@/lib/catalog/build";
 import { readJson, writeJson } from "@/lib/canon/json";
 import { filterScene, loadExternalScene, sceneRoutes } from "@/lib/external/scene";
-import { loadWorldState2027 } from "@/lib/external/worldState2027";
+import { listAllTier2Teams, loadWorldState2027 } from "@/lib/external/worldState2027";
 import {
   loadCanonUniverse,
   loadPublicationManifest,
@@ -47,6 +47,9 @@ for (const league of Object.values(worldState2027.tier2Leagues)) {
   }
 }
 catalog.worldState2027 = worldState2027;
+const tier2Routes = listAllTier2Teams(worldState2027).map((team) => `/wiki/teams/${team.teamId}`);
+if (tier2Routes.some((route) => catalog.routes.includes(route))) throw new Error("Tier 2 team route collides with existing route");
+catalog.routes.push(...tier2Routes);
 writeJson(path.join(generatedRoot, "catalog.json"), catalog);
 writeJson(path.join(generatedRoot, "route-manifest.json"), catalog.routes);
 

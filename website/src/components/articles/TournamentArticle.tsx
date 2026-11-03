@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTable } from "./WikiArticle";
+import { FictionalWorldNotice } from "./ExternalArticles";
 import { formatDate } from "@/lib/formatting/date";
 
 const sections = [
@@ -20,7 +21,7 @@ const tierLabels: Record<string, string> = {
   "postseason-international": "Postseason International",
 };
 
-export function TournamentArticle({ tournament }: { tournament: CompetitionView }) {
+export function TournamentArticle({ tournament, regionalField2027 }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null }> }) {
   const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
     { label: "Game", value: tournament.gameName },
@@ -53,6 +54,12 @@ export function TournamentArticle({ tournament }: { tournament: CompetitionView 
     <ArticleSection {...sections[2]!}>
       <WikiTable caption="Participants" columns={["Team"]} empty="No confirmed participants recorded."
         rows={tournament.participants.map((team) => ({ key: team.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>] }))} />
+      {regionalField2027 && <>
+        <h3>2027 regional field (fictional)</h3>
+        <FictionalWorldNotice />
+        <WikiTable caption="2027 regional field" columns={["Team"]} empty="No active teams recorded."
+          rows={regionalField2027.map((team, index) => ({ key: String(index), cells: [<ArticleLink key="team" href={team.href}>{team.name}</ArticleLink>] }))} />
+      </>}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."

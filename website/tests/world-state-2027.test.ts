@@ -3,7 +3,7 @@ import type { KairospediaCatalog } from "@/types/catalog";
 import { buildCatalog } from "@/lib/catalog/build";
 import { loadCanonUniverse, loadPublicationManifest } from "@/lib/canon/loader";
 import { filterScene, loadExternalScene } from "@/lib/external/scene";
-import { loadWorldState2027 } from "@/lib/external/worldState2027";
+import { findTier2Team, listAllTier2Teams, loadWorldState2027, regionalFieldFor } from "@/lib/external/worldState2027";
 
 let catalog: KairospediaCatalog;
 
@@ -226,6 +226,28 @@ describe("2027 League Tier 2 regional ecosystems", () => {
       expect(competition?.tier).toBe("regional-tier-2");
     }
     expect(catalog.competitions.filter((c) => c.slug.includes("nacl") || c.slug.includes("ldl"))).toHaveLength(0);
+  });
+
+  it("every tracked regional competition slug resolves its full 2027 field via regionalFieldFor", () => {
+    const slugs: Record<string, number> = {
+      "lck-2027": 8, "lpl-2027": 8, "lec-2027": 8, "lcs-2027": 8, "lcp-2027": 8, "cblol-2027": 8,
+      "lcs-tier-2-2027": 8, "lec-tier-2-2027": 8, "lck-tier-2-2027": 8, "lcp-tier-2-2027": 8, "cblol-tier-2-2027": 8, "lpl-tier-2-2027": 8,
+    };
+    for (const [slug, count] of Object.entries(slugs)) {
+      const field = regionalFieldFor(catalog.worldState2027, slug);
+      expect(field).toHaveLength(count);
+    }
+    expect(regionalFieldFor(catalog.worldState2027, "not-a-real-competition")).toBeNull();
+  });
+
+  it("every Tier 2 team is reachable by findTier2Team and listAllTier2Teams agree on the total", () => {
+    const all = listAllTier2Teams(catalog.worldState2027);
+    expect(all).toHaveLength(41);
+    for (const team of all) {
+      const found = findTier2Team(catalog.worldState2027, team.teamId);
+      expect(found?.name).toBe(team.name);
+    }
+    expect(findTier2Team(catalog.worldState2027, "not-a-real-team")).toBeNull();
   });
 
   it("all six Tier 2 ecosystems total 48 teams, matching the 48 Tier 1 active teams for 96 combined", () => {

@@ -9,7 +9,7 @@ const defaultLinks: SidebarLink[] = [
   { label: "Start here", href: "/wiki" },
   { label: "League overview", href: "/wiki/games/league-of-legends" },
   { label: "Counter-Strike overview", href: "/wiki/games/counter-strike" },
-  { label: "Pre-Worlds 2026", href: "/wiki/world" },
+  { label: "The competitive world", href: "/wiki/world" },
   { label: "Teams", href: "/wiki/teams" },
   { label: "Players", href: "/wiki/players" },
   { label: "Matches", href: "/wiki/matches" },

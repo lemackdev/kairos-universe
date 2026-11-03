@@ -892,7 +892,7 @@ code {
     grid-template-columns: 190px minmax(0, 1fr);
   }
 
-  .canonRail {
+  .wikiGrid:has(.wikiArticle) .canonRail {
     position: static;
     grid-column: 1 / -1;
     grid-row: 1;
@@ -904,17 +904,17 @@ code {
     padding: 0.8rem 0 0.8rem 1rem;
   }
 
-  .canonRail dl {
+  .wikiGrid:has(.wikiArticle) .canonRail dl {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     margin: 0;
   }
 
-  .mainContent {
+  .wikiGrid:has(.wikiArticle) .mainContent {
     grid-column: 2;
     grid-row: 2;
   }
 
-  .sideNav {
+  .wikiGrid:has(.wikiArticle) .sideNav {
     grid-column: 1;
     grid-row: 2;
   }

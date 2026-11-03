@@ -251,6 +251,7 @@ complete rules.
 - `TBD` for required unknown scalar values.
 - Stable IDs for relationships.
 - No duplicated entity data inside indexes or parent records.
+- Structured date fields (`startDate`, `endDate`, `effectiveDate`, and similar) stay ISO 8601 (`YYYY-MM-DD`); the website formats these to `dd/mm/yyyy` at render time via `formatDate()`. Any date written directly into free text (an `overview`, a `format` array entry, episode prose, etc.) is not passed through `formatDate()` and must be written as `dd/mm/yyyy` in the source record itself, not `YYYY-MM-DD`.
 
 ## Documentation workflow
 

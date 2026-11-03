@@ -52,7 +52,7 @@ export function GameArticle({ game, teams, players, nextMilestone }: {
       <p>{officialMatchCount === 0 ? "No official matches recorded for the published Kairos teams." : `${officialMatchCount} official team-match records are published.`}</p>
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
-      <EpisodeReferenceList episodes={game.latestEpisodes} />
+      <details><summary>Relevant episodes ({game.latestEpisodes.length})</summary><EpisodeReferenceList episodes={game.latestEpisodes} /></details>
     </ArticleSection>
   </WikiArticle>;
 }

@@ -69,6 +69,23 @@ export function WikiTable({ caption, columns, rows, empty }: {
   </div>;
 }
 
+export function ParticipantsGrid({ caption, teams, empty }: {
+  caption: string; teams: Array<{ key: string; name: string; href: string | null; logo?: ReactNode }>; empty: string;
+}) {
+  return <div className={styles.participantsWrap}>
+    <div className={styles.participantsCaption}>{caption}</div>
+    {teams.length ? <div className={styles.participantsGrid}>
+      {teams.map((team) => {
+        const tile = <div className={styles.participantTile} key={team.key}>
+          <span className={styles.participantLogo}>{team.logo ?? <span className={styles.participantMonogram}>{team.name.slice(0, 2)}</span>}</span>
+          <strong>{team.name}</strong>
+        </div>;
+        return team.href ? <Link href={team.href} key={team.key} style={{ color: "inherit", textDecoration: "none" }}>{tile}</Link> : tile;
+      })}
+    </div> : <div className={styles.participantsEmpty}>{empty}</div>}
+  </div>;
+}
+
 export function ArticleLink({ href, children }: { href: string | null; children: ReactNode }) {
   return href ? <Link href={href}>{children}</Link> : <>{children}</>;
 }

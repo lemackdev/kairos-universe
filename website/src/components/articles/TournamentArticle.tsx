@@ -1,7 +1,8 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
-import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTable } from "./WikiArticle";
+import { ArticleInfobox, ArticleLink, ArticleSection, Facts, ParticipantsGrid, WikiArticle, WikiTable } from "./WikiArticle";
 import { FictionalWorldNotice } from "./ExternalArticles";
 import { formatDate } from "@/lib/formatting/date";
 
@@ -21,7 +22,7 @@ const tierLabels: Record<string, string> = {
   "postseason-international": "Postseason International",
 };
 
-export function TournamentArticle({ tournament, regionalField2027 }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null }> }) {
+export function TournamentArticle({ tournament, regionalField2027 }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null; logo?: ReactNode }> }) {
   const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
     { label: "Game", value: tournament.gameName },
@@ -52,14 +53,12 @@ export function TournamentArticle({ tournament, regionalField2027 }: { tournamen
         rows={tournament.prizes.map((prize, index) => ({ key: String(index), cells: [prize.place, prize.prize, prize.teamName] }))} />
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
-      <WikiTable caption="Participants" columns={["Team"]} empty="No confirmed participants recorded."
-        rows={tournament.participants.map((team) => ({ key: team.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>] }))} />
-      {regionalField2027 && <>
-        <h3>2027 regional field (fictional)</h3>
+      {regionalField2027 ? <>
         <FictionalWorldNotice />
-        <WikiTable caption="2027 regional field" columns={["Team"]} empty="No active teams recorded."
-          rows={regionalField2027.map((team, index) => ({ key: String(index), cells: [<ArticleLink key="team" href={team.href}>{team.name}</ArticleLink>] }))} />
-      </>}
+        <ParticipantsGrid caption="Participants (fictional, 2027)" empty="No active teams recorded."
+          teams={regionalField2027.map((team, index) => ({ key: String(index), name: team.name, href: team.href, logo: team.logo }))} />
+      </> : <ParticipantsGrid caption="Participants" empty="No confirmed participants recorded."
+        teams={tournament.participants.map((team) => ({ key: team.id, name: team.name, href: `/wiki/teams/${team.slug}` }))} />}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."

@@ -1,0 +1,262 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/publication.schema.json",
+  "title": "Publication Record",
+  "description": "A structured in-universe article, interview, announcement, or reference. Body text lives here as typed content blocks, never in React components.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "title",
+    "subtitle",
+    "publisherId",
+    "authorIds",
+    "byline",
+    "publicationDate",
+    "fictionalWorldDate",
+    "articleType",
+    "classification",
+    "canonStatus",
+    "publicationStatus",
+    "featured",
+    "summary",
+    "content",
+    "cover",
+    "imageCredits",
+    "relatedOrganizationIds",
+    "relatedTeamIds",
+    "relatedPlayerIds",
+    "relatedStaffIds",
+    "relatedCompetitionIds",
+    "relatedGameIds",
+    "relatedEpisodeIds",
+    "relatedPublicationIds",
+    "sourceIds",
+    "realWorldCitation",
+    "rumorAuthorization",
+    "corrections",
+    "tags",
+    "notes",
+    "lastUpdated"
+  ],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "title": { "type": "string", "minLength": 1 },
+    "subtitle": { "type": ["string", "null"] },
+    "publisherId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "authorIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "byline": {
+      "type": ["string", "null"],
+      "description": "Free-text byline such as 'Staff report'. Required when authorIds is empty."
+    },
+    "publicationDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbd",
+      "description": "In-universe publication date. TBD is allowed only while the record is a draft."
+    },
+    "fictionalWorldDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbd",
+      "description": "The story date the piece is anchored to. May differ from publicationDate for retrospectives."
+    },
+    "articleType": {
+      "enum": [
+        "news",
+        "interview",
+        "editorial",
+        "feature",
+        "investigation",
+        "press-release",
+        "announcement",
+        "competition-coverage",
+        "analysis",
+        "historical"
+      ]
+    },
+    "classification": {
+      "enum": [
+        "in-universe-publication",
+        "official-announcement",
+        "real-world-reference",
+        "rumor"
+      ]
+    },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
+    "publicationStatus": { "enum": ["draft", "published", "archived"] },
+    "featured": { "type": "boolean" },
+    "summary": { "type": "string", "maxLength": 360 },
+    "content": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/block" }
+    },
+    "cover": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["path", "alt", "width", "height", "credit"],
+          "properties": {
+            "path": { "type": "string", "pattern": "^/publications/.+\\.(png|jpg|webp|svg)$" },
+            "alt": { "type": "string", "minLength": 1 },
+            "width": { "type": "integer", "minimum": 1 },
+            "height": { "type": "integer", "minimum": 1 },
+            "credit": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "imageCredits": { "$ref": "common.schema.json#/$defs/stringArray" },
+    "relatedOrganizationIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedTeamIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedPlayerIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedStaffIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedCompetitionIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedGameIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedEpisodeIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "relatedPublicationIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "realWorldCitation": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["title", "publisherName", "url", "date"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "publisherName": { "type": "string", "minLength": 1 },
+            "url": { "type": ["string", "null"] },
+            "date": { "type": ["string", "null"] }
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "Required for classification real-world-reference. A citation, not a reproduction."
+    },
+    "rumorAuthorization": {
+      "type": ["string", "null"],
+      "description": "Required for classification rumor. Records who authorized publishing unconfirmed speculation."
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "kind", "text"],
+        "properties": {
+          "date": { "$ref": "common.schema.json#/$defs/dateOrTbd" },
+          "kind": { "enum": ["correction", "update", "editors-note"] },
+          "text": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tags": { "$ref": "common.schema.json#/$defs/stringArray" },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/stringArray",
+      "description": "Continuity and editorial notes for authors. Never rendered publicly."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$",
+      "description": "Real-world date the record was last edited. Not a canon date."
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "block": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "text"],
+          "properties": {
+            "type": { "const": "paragraph" },
+            "text": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "level", "text"],
+          "properties": {
+            "type": { "const": "heading" },
+            "level": { "enum": [2, 3] },
+            "text": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "text", "attribution"],
+          "properties": {
+            "type": { "const": "pullQuote" },
+            "text": { "type": "string", "minLength": 1 },
+            "attribution": { "type": ["string", "null"] }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "style", "items"],
+          "properties": {
+            "type": { "const": "list" },
+            "style": { "enum": ["bullet", "numbered"] },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "path", "alt", "caption", "credit"],
+          "properties": {
+            "type": { "const": "image" },
+            "path": { "type": "string", "pattern": "^/publications/.+\\.(png|jpg|webp|svg)$" },
+            "alt": { "type": "string", "minLength": 1 },
+            "caption": { "type": ["string", "null"] },
+            "credit": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "kind", "title", "url", "availability", "note"],
+          "properties": {
+            "type": { "const": "embed" },
+            "kind": { "enum": ["video", "audio", "external"] },
+            "title": { "type": "string", "minLength": 1 },
+            "url": { "type": ["string", "null"] },
+            "availability": { "enum": ["available", "unavailable", "not-yet-published"] },
+            "note": { "type": ["string", "null"] }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "title", "rows"],
+          "properties": {
+            "type": { "const": "factBox" },
+            "title": { "type": "string", "minLength": 1 },
+            "rows": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["label", "value"],
+                "properties": {
+                  "label": { "type": "string", "minLength": 1 },
+                  "value": { "type": "string", "minLength": 1 }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

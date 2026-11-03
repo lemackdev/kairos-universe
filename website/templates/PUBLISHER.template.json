@@ -1,0 +1,18 @@
+{
+  "id": "REPLACE-publisher-id",
+  "slug": "REPLACE-publisher-id",
+  "continuityId": "kairos-universe",
+  "name": "REPLACE",
+  "shortName": "REPLACE",
+  "category": "independent-esports-journalism",
+  "description": "REPLACE: one or two sentences on what this outlet is.",
+  "originType": "fictional",
+  "realWorldEntity": null,
+  "coverageDisclosure": null,
+  "organizationId": null,
+  "homepage": null,
+  "logoPath": null,
+  "canonStatus": "confirmed",
+  "sourceIds": [],
+  "notes": []
+}

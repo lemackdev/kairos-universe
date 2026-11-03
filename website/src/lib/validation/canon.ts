@@ -54,6 +54,9 @@ const schemaByCollection: Record<string, string> = {
   "competition-series": "competition-series.schema.json",
   "competition-participants": "competition-participant.schema.json",
   "schedule-events": "schedule-event.schema.json",
+  publishers: "publisher.schema.json",
+  authors: "author.schema.json",
+  publications: "publication.schema.json",
 };
 
 export interface ValidationReport {
@@ -508,7 +511,13 @@ export function validatePublication(
 
 function formatAjvErrors(errors: ErrorObject[] | null | undefined): string {
   return (errors ?? [])
-    .map((error) => `${error.instancePath || "/"} ${error.message ?? "invalid"}`)
+    .map((error) => {
+      const extra =
+        typeof error.params?.additionalProperty === "string"
+          ? ` (${error.params.additionalProperty})`
+          : "";
+      return `${error.instancePath || "/"} ${error.message ?? "invalid"}${extra}`;
+    })
     .join("; ");
 }
 

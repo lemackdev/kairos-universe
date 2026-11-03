@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/author.schema.json",
+  "title": "Publication Author Record",
+  "description": "A byline. An original fictional author, or a real-world person referenced only by a real-world-reference publication.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "name",
+    "role",
+    "publisherIds",
+    "bio",
+    "originType",
+    "characterId",
+    "canonStatus",
+    "sourceIds",
+    "notes"
+  ],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "name": { "type": "string", "minLength": 1 },
+    "role": { "type": "string", "minLength": 1 },
+    "publisherIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "bio": { "type": ["string", "null"] },
+    "originType": { "$ref": "common.schema.json#/$defs/originType" },
+    "characterId": {
+      "oneOf": [{ "$ref": "common.schema.json#/$defs/stableId" }, { "type": "null" }],
+      "description": "Set when the author is an existing canon character."
+    },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "notes": { "$ref": "common.schema.json#/$defs/stringArray" }
+  },
+  "additionalProperties": false
+}

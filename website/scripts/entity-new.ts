@@ -18,6 +18,9 @@ const supportedTypes = new Set([
   "transfer",
   "competition",
   "match",
+  "publication",
+  "publisher",
+  "author",
 ]);
 
 const [entityType, ...args] = process.argv.slice(2);

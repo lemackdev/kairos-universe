@@ -11,6 +11,8 @@ const links = [
   ["Players", "/wiki/players"],
   ["Calendar", "/wiki/calendar"],
   ["Competitions", "/wiki/competitions"],
+  ["Publications", "/wiki/publications"],
+  ["Campus", "/wiki/campus"],
   ["Matches", "/wiki/matches"],
   ["Transfers", "/wiki/transfers"],
 ] as const;

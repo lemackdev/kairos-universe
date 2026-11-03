@@ -5,6 +5,7 @@ import { buildCatalog } from "@/lib/catalog/build";
 import { readJson, writeJson } from "@/lib/canon/json";
 import { filterScene, loadExternalScene, sceneRoutes } from "@/lib/external/scene";
 import { listAllTier2Teams, loadWorldState2027 } from "@/lib/external/worldState2027";
+import { buildPublicationCatalog, publicationRoutes } from "@/lib/publications/build";
 import {
   loadCanonUniverse,
   loadPublicationManifest,
@@ -50,6 +51,13 @@ catalog.worldState2027 = worldState2027;
 const tier2Routes = listAllTier2Teams(worldState2027).map((team) => `/wiki/teams/${team.teamId}`);
 if (tier2Routes.some((route) => catalog.routes.includes(route))) throw new Error("Tier 2 team route collides with existing route");
 catalog.routes.push(...tier2Routes);
+
+const includeDrafts = process.env.KAIROSPEDIA_PREVIEW_DRAFTS === "1";
+if (includeDrafts) console.warn("KAIROSPEDIA_PREVIEW_DRAFTS=1: draft publications are included. Never deploy this build.");
+catalog.publications = buildPublicationCatalog(universe, catalog, { includeDrafts });
+const publicationRouteList = publicationRoutes(catalog.publications);
+if (publicationRouteList.some((route) => catalog.routes.includes(route))) throw new Error("Publication route collides with existing route");
+catalog.routes.push(...publicationRouteList);
 writeJson(path.join(generatedRoot, "catalog.json"), catalog);
 writeJson(path.join(generatedRoot, "route-manifest.json"), catalog.routes);
 

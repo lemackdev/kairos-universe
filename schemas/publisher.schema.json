@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kairos-universe.local/schemas/publisher.schema.json",
+  "title": "Publisher Record",
+  "description": "An in-universe media outlet, press office, or communications channel. A publisher that portrays a real-world entity must carry a coverage disclosure.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "name",
+    "shortName",
+    "category",
+    "description",
+    "originType",
+    "realWorldEntity",
+    "coverageDisclosure",
+    "organizationId",
+    "homepage",
+    "logoPath",
+    "canonStatus",
+    "sourceIds",
+    "notes"
+  ],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/stableId" },
+    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
+    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
+    "name": { "type": "string", "minLength": 1 },
+    "shortName": { "type": "string", "minLength": 1 },
+    "category": {
+      "enum": [
+        "independent-esports-journalism",
+        "regional-esports",
+        "technology-magazine",
+        "corporate-press-office",
+        "league-communications",
+        "community",
+        "historical-archive"
+      ]
+    },
+    "description": { "type": "string", "minLength": 1 },
+    "originType": { "$ref": "common.schema.json#/$defs/originType" },
+    "realWorldEntity": {
+      "type": ["string", "null"],
+      "description": "Name of the real-world organization this publisher portrays, or null for an original fictional publisher."
+    },
+    "coverageDisclosure": {
+      "type": ["string", "null"],
+      "description": "Shown on every article from this publisher. Required when originType is real-world-reference."
+    },
+    "organizationId": {
+      "oneOf": [{ "$ref": "common.schema.json#/$defs/stableId" }, { "type": "null" }],
+      "description": "A canon organization that operates this publisher, for example a corporate press office."
+    },
+    "homepage": { "type": ["string", "null"] },
+    "logoPath": {
+      "oneOf": [{ "type": "string", "pattern": "^/publications/.+\\.(png|svg|webp|jpg)$" }, { "type": "null" }]
+    },
+    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
+    "sourceIds": { "$ref": "common.schema.json#/$defs/idArray" },
+    "notes": { "$ref": "common.schema.json#/$defs/stringArray" }
+  },
+  "additionalProperties": false
+}

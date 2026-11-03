@@ -14,9 +14,10 @@ const GROUP_LABELS: Record<SearchEntityType, string> = {
   competition: "Tournaments",
   organization: "Organizations",
   game: "Games",
+  publication: "Publications",
 };
 
-const GROUP_ORDER: SearchEntityType[] = ["player", "team", "staff", "competition", "organization", "game"];
+const GROUP_ORDER: SearchEntityType[] = ["player", "team", "staff", "competition", "organization", "game", "publication"];
 const MAX_PER_GROUP = 4;
 
 export function NavSearch({ records }: { records: SearchRecord[] }) {

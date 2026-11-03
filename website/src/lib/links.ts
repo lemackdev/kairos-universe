@@ -27,3 +27,13 @@ export function kairosDbPlayerUrl(slug: string): string {
 export function kairosDbTeamUrl(slug: string): string {
   return `${KAIROSDB_BASE_URL}/teams/${slug}`;
 }
+
+/**
+ * Asterion Intelligence's corporate site is a separate deployable app. Its URL is
+ * not canon, so links appear only when NEXT_PUBLIC_ASTERION_URL is configured.
+ */
+const ASTERION_BASE_URL = (process.env.NEXT_PUBLIC_ASTERION_URL ?? "").trim().replace(/\/+$/, "");
+
+export function asterionUrl(pathname = "/"): string | null {
+  return ASTERION_BASE_URL ? `${ASTERION_BASE_URL}${pathname}` : null;
+}

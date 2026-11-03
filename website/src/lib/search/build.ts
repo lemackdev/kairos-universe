@@ -3,6 +3,7 @@ import type {
   SearchRecord,
 } from "@/types/catalog";
 import { nationalityCountries } from "@/lib/nationalities";
+import { articleTypeLabels, formatLongDate } from "@/lib/publications/labels";
 import { assetUrl, readPublishedBranding, readPublishedPortraits } from "../../../../shared/branding";
 
 export function buildSearchRecords(
@@ -128,6 +129,26 @@ export function buildSearchRecords(
       name: competition.name, subtitle: `${competition.gameName} tournament`,
       href: `/wiki/competitions/${competition.slug}`,
       terms: [competition.id, competition.slug, competition.name, competition.gameName],
+    });
+  }
+  for (const article of catalog.publications?.articles ?? []) {
+    records.push({
+      id: article.id,
+      slug: article.slug,
+      type: "publication",
+      name: article.title,
+      subtitle: `${article.publisherName} · ${articleTypeLabels[article.articleType]} · ${formatLongDate(article.publicationDate)}`,
+      href: `/wiki/publications/${article.slug}`,
+      terms: [
+        article.title,
+        article.id,
+        article.slug,
+        article.publisherName,
+        article.bylineText,
+        article.summary,
+        ...article.tags,
+        ...article.entities.map((entity) => entity.label),
+      ],
     });
   }
   return records.sort((a, b) => a.name.localeCompare(b.name));

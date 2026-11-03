@@ -26,7 +26,10 @@
     "entity:new-roster-tenure": "tsx scripts/entity-new.ts roster-tenure",
     "entity:new-transfer": "tsx scripts/entity-new.ts transfer",
     "entity:new-competition": "tsx scripts/entity-new.ts competition",
-    "entity:new-match": "tsx scripts/entity-new.ts match"
+    "entity:new-match": "tsx scripts/entity-new.ts match",
+    "entity:new-publication": "tsx scripts/entity-new.ts publication",
+    "entity:new-publisher": "tsx scripts/entity-new.ts publisher",
+    "entity:new-author": "tsx scripts/entity-new.ts author"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "5.3.0",

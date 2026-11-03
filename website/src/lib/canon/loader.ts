@@ -37,6 +37,9 @@ export const indexedCollections = [
   "competition-series",
   "competition-participants",
   "schedule-events",
+  "publishers",
+  "authors",
+  "publications",
 ] as const;
 
 export function loadCanonUniverse(): CanonUniverse {

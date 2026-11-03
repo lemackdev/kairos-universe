@@ -1,0 +1,14 @@
+{
+  "id": "REPLACE-author-id",
+  "slug": "REPLACE-author-id",
+  "continuityId": "kairos-universe",
+  "name": "REPLACE",
+  "role": "REPLACE",
+  "publisherIds": ["REPLACE-publisher-id"],
+  "bio": null,
+  "originType": "fictional",
+  "characterId": null,
+  "canonStatus": "confirmed",
+  "sourceIds": [],
+  "notes": []
+}

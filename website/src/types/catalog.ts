@@ -252,7 +252,8 @@ export type SearchEntityType =
   | "team"
   | "player"
   | "staff"
-  | "competition";
+  | "competition"
+  | "publication";
 
 export interface SearchRecord {
   id: string;
@@ -283,6 +284,7 @@ export interface CatalogMetadata {
 export interface KairospediaCatalog {
   externalScene?: import("./external-scene").ExternalScene;
   worldState2027?: import("./world-state-2027").WorldState2027;
+  publications?: import("./publications").PublicationCatalog;
   metadata: CatalogMetadata;
   games: GameView[];
   organizations: OrganizationView[];

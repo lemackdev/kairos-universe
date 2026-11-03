@@ -15,6 +15,8 @@ const defaultLinks: SidebarLink[] = [
   { label: "Matches", href: "/wiki/matches" },
   { label: "Competitions", href: "/wiki/competitions" },
   { label: "Calendar", href: "/wiki/calendar" },
+  { label: "Publications", href: "/wiki/publications" },
+  { label: "Kairos Campus", href: "/wiki/campus" },
   { label: "About the archive", href: "/wiki/about" },
 ];
 

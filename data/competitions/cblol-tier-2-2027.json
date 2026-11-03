@@ -2,15 +2,16 @@
   "id": "cblol-tier-2-2027",
   "slug": "cblol-tier-2-2027",
   "continuityId": "kairos-universe",
-  "name": "CBLOL Tier 2 2027",
+  "name": "Circuito Desafiante 2027",
   "gameId": "game-league-of-legends",
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-canon-directive-2027-competitive-calendar"
+    "source-canon-directive-2027-competitive-calendar",
+    "source-canon-directive-2027-league-tier-2-ecosystems"
   ],
   "canonStatus": "confirmed",
-  "overview": "CBLOL's confirmed 2027 Tier 2 regional ecosystem. Participating teams are not yet confirmed; Kairos Academy teams may qualify internationally without automatic promotion to the CBLOL Main roster.",
+  "overview": "Circuito Desafiante is the confirmed 2027 Brazil Tier 2 League of Legends ecosystem, separate from its Tier 1 league. 8 active teams for 2027 (see /wiki/world). No standings, results, or promotion/relegation outcomes are confirmed; no team receives automatic international qualification.",
   "format": [],
   "organizer": null,
   "location": null,
@@ -23,7 +24,7 @@
   "seriesId": null,
   "tier": "regional-tier-2",
   "region": "international",
-  "teamsCount": "TBD",
+  "teamsCount": 8,
   "eventType": "hybrid",
   "inviteDate": null,
   "rankingDate": null,

@@ -1,0 +1,20 @@
+{
+  "id": "source-canon-directive-2027-league-regional-restructuring",
+  "slug": "source-canon-directive-2027-league-regional-restructuring",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: 2027 League of Legends regional restructuring",
+  "path": "docs/canon/LEAGUE_REGIONAL_RESTRUCTURING_2027.md",
+  "locator": "Author-confirmed canon directive, 2027 League regional restructuring batch",
+  "publicLabel": "Kairos Universe canon directive: 2027 League regional restructuring",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "This is a direct author-confirmed canon directive, not sourced from episode prose: no episode depicts a regional-membership announcement.",
+    "Recorded as a clearly labeled author-directive source record per the author's own instruction.",
+    "Backs the Kairos Universe fictional 2027 competitive-membership status layered over the frozen pre-Worlds 2026 real-world reference scene (external-data/pre-worlds-2026), which this directive does not modify.",
+    "Every regional-membership and free-agent status produced by this directive is explicitly fictional speculation for the Kairos Universe continuity. It is not a report of any real organization's or real player's actual current competitive or contractual status.",
+    "Backs the Disguised-to-Kairos LCS 2027 slot change, represented as Kairos entering the slot vacated by Disguised's regional exit, not as any acquisition, purchase, or ownership relationship between Kairos and Disguised.",
+    "Previously backed an individual NRG 2027 roster departure that has since been fully withdrawn from the repository at author request, including the underlying 2026 reference record; this directive no longer records any status for that entry."
+  ]
+}

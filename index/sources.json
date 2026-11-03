@@ -1,5 +1,8 @@
 [
   "data/sources/source-canon-directive-2027-competitive-calendar.json",
+  "data/sources/source-canon-directive-2027-league-regional-restructuring.json",
+  "data/sources/source-canon-directive-2027-league-tier-2-ecosystems.json",
+  "data/sources/source-canon-directive-2027-nacl-ldl-tier-2-formalization.json",
   "data/sources/source-canon-directive-cs-map-pool.json",
   "data/sources/source-document-league-mentors.json",
   "data/sources/source-document-league-relationships.json",

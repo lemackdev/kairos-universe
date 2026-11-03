@@ -1,0 +1,55 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-nacl-ldl-tier-2-formalization"
+  ],
+  "name": "LDL",
+  "tier": "regional-tier-2",
+  "region": "China",
+  "effectiveDate": "2027-01-01",
+  "disclaimer": "Kairos Universe fictional speculation for 2027. These team names are confirmed by the author to name the eight participating organizations only, not standings, results, or promotion/relegation. This is not a report of any real organization's actual current competitive status. Where a parent-organization relationship is recorded, the Tier 2 team remains a separate competitive entity from its Tier 1 parent, even where the Tier 1 parent has exited active LPL competition for 2027.",
+  "teams": [
+    {
+      "teamId": "tier2-ldl-blg-junior",
+      "name": "BLG Junior",
+      "parentTeamId": "external-lol-team-bilibili-gaming"
+    },
+    {
+      "teamId": "tier2-ldl-tes-challenger",
+      "name": "TES Challenger",
+      "parentTeamId": "external-lol-team-top-esports"
+    },
+    {
+      "teamId": "tier2-ldl-oh-my-god",
+      "name": "Oh My God",
+      "parentTeamId": "external-lol-team-oh-my-god"
+    },
+    {
+      "teamId": "tier2-ldl-edg-youth-team",
+      "name": "EDG Youth Team",
+      "parentTeamId": "external-lol-team-edward-gaming"
+    },
+    {
+      "teamId": "tier2-ldl-wbg-youth-team",
+      "name": "WBG Youth Team",
+      "parentTeamId": "external-lol-team-weibo-gaming"
+    },
+    {
+      "teamId": "tier2-ldl-lgd-young-team",
+      "name": "LGD Young Team",
+      "parentTeamId": "external-lol-team-lgd-gaming"
+    },
+    {
+      "teamId": "tier2-ldl-we-academy",
+      "name": "WE Academy",
+      "parentTeamId": "external-lol-team-team-we"
+    },
+    {
+      "teamId": "tier2-ldl-al-young",
+      "name": "AL Young",
+      "parentTeamId": "external-lol-team-anyone-s-legend"
+    }
+  ]
+}

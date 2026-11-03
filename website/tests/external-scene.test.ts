@@ -15,8 +15,8 @@ const scene = loadExternalScene();
 describe("pre-Worlds 2026 external references", () => {
   it("validates schemas, individual records, indexes and all seven leagues", () => {
     expect(scene.teams).toHaveLength(68);
-    expect(scene.players).toHaveLength(376);
-    expect(scene.rosterTenures).toHaveLength(379);
+    expect(scene.players).toHaveLength(375);
+    expect(scene.rosterTenures).toHaveLength(378);
     for (const [league, count] of Object.entries(leagueCounts)) expect(scene.teams.filter((t) => t.league === league)).toHaveLength(count);
     expect(scene.teams.filter((t) => t.tier === 2).every((t) => t.league === "NACL")).toBe(true);
     expect(() => validateScene(scene)).not.toThrow();

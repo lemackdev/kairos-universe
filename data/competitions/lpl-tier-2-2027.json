@@ -2,15 +2,16 @@
   "id": "lpl-tier-2-2027",
   "slug": "lpl-tier-2-2027",
   "continuityId": "kairos-universe",
-  "name": "LPL Tier 2 2027",
+  "name": "LDL 2027",
   "gameId": "game-league-of-legends",
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-canon-directive-2027-competitive-calendar"
+    "source-canon-directive-2027-competitive-calendar",
+    "source-canon-directive-2027-nacl-ldl-tier-2-formalization"
   ],
   "canonStatus": "confirmed",
-  "overview": "LPL's confirmed 2027 Tier 2 regional ecosystem. Participating teams are not yet confirmed; Kairos Academy teams may qualify internationally without automatic promotion to the LPL Main roster.",
+  "overview": "League of Legends Development League 2027, LPL's confirmed Tier 2 regional ecosystem. Its 8 confirmed teams are each distinct competitive entities from their LPL Tier 1 parent organizations, even where a parent/affiliate relationship is recorded; three (EDG Youth Team, LGD Young Team, WE Academy) remain active despite their parent organizations' exit from active 2027 LPL Tier 1 competition. No automatic Tier 1 promotion or automatic international qualification exists for any LDL team.",
   "format": [],
   "organizer": null,
   "location": null,
@@ -23,7 +24,7 @@
   "seriesId": null,
   "tier": "regional-tier-2",
   "region": "international",
-  "teamsCount": "TBD",
+  "teamsCount": 8,
   "eventType": "hybrid",
   "inviteDate": null,
   "rankingDate": null,

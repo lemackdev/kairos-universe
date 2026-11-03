@@ -1195,6 +1195,8 @@ body:has(.wikiGrid) { background: var(--paper-muted); }
   display: flex;
   flex-direction: column;
   min-width: 0;
+  min-height: 0;
+  overflow-wrap: anywhere;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--paper-raised);
@@ -1228,9 +1230,11 @@ body:has(.wikiGrid) { background: var(--paper-muted); }
   margin: 0;
   padding: 0;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .calendarRow {
+  min-width: 0;
   border-bottom: 1px solid var(--line);
 }
 

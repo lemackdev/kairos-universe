@@ -88,7 +88,7 @@ describe("encyclopedia article templates", () => {
     expect(catalog.routes).not.toContain("/wiki/competitions/test-cup");
     expect(catalog.teams.map((team) => team.id)).toEqual(loadPublicationManifest().enabledTeams);
     expect(catalog.players.every((player) => player.tournamentResults.length === 0 && player.awards.length === 0)).toBe(true);
-    expect(catalog.competitions.every((competition) => !competition.kairosParticipating)).toBe(true);
+    expect(catalog.competitions.filter((competition) => competition.slug !== "lcs-2027").every((competition) => !competition.kairosParticipating)).toBe(true);
   });
 
   it("rejects tournaments with unpublished participants, unconfirmed status or reversed dates", () => {

@@ -1,0 +1,372 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-league-regional-restructuring"
+  ],
+  "effectiveDate": "2027-01-01",
+  "disclaimer": "Kairos Universe fictional speculation layered on top of the frozen pre-Worlds 2026 real-world-sourced reference scene (external-data/pre-worlds-2026). This records which real-named franchises are represented as active or inactive Kairos Universe 2027 regional participants in this fictional continuity. It is not a report of any real organization's actual current competitive status, and the frozen 2026 reference scene is unmodified by it.",
+  "rule": "8 active teams per Tier 1 region (LCK, LPL, LEC, LCS, LCP, CBLOL) and the tracked Tier 2 NACL region, effective 2027-01-01.",
+  "regions": {
+    "LCK": {
+      "active": [
+        {
+          "teamId": "external-lol-team-brion",
+          "name": "BRION"
+        },
+        {
+          "teamId": "external-lol-team-dplus",
+          "name": "Dplus"
+        },
+        {
+          "teamId": "external-lol-team-soopers",
+          "name": "SOOPers"
+        },
+        {
+          "teamId": "external-lol-team-gen-g-esports",
+          "name": "Gen.G Esports"
+        },
+        {
+          "teamId": "external-lol-team-hanwha-life-esports",
+          "name": "Hanwha Life Esports"
+        },
+        {
+          "teamId": "external-lol-team-kt-rolster",
+          "name": "KT Rolster"
+        },
+        {
+          "teamId": "external-lol-team-nongshim-redforce",
+          "name": "Nongshim RedForce"
+        },
+        {
+          "teamId": "external-lol-team-t1",
+          "name": "T1"
+        }
+      ],
+      "inactive": [
+        {
+          "teamId": "external-lol-team-drx",
+          "name": "DRX",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-fearx",
+          "name": "FEARX",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        }
+      ]
+    },
+    "LPL": {
+      "active": [
+        {
+          "teamId": "external-lol-team-bilibili-gaming",
+          "name": "Bilibili Gaming"
+        },
+        {
+          "teamId": "external-lol-team-top-esports",
+          "name": "Top Esports"
+        },
+        {
+          "teamId": "external-lol-team-anyone-s-legend",
+          "name": "Anyone's Legend"
+        },
+        {
+          "teamId": "external-lol-team-jd-gaming",
+          "name": "JD Gaming"
+        },
+        {
+          "teamId": "external-lol-team-invictus-gaming",
+          "name": "Invictus Gaming"
+        },
+        {
+          "teamId": "external-lol-team-lng-esports",
+          "name": "LNG Esports"
+        },
+        {
+          "teamId": "external-lol-team-weibo-gaming",
+          "name": "Weibo Gaming"
+        },
+        {
+          "teamId": "external-lol-team-oh-my-god",
+          "name": "Oh My God"
+        }
+      ],
+      "inactive": [
+        {
+          "teamId": "external-lol-team-team-we",
+          "name": "Team WE",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-lgd-gaming",
+          "name": "LGD Gaming",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-edward-gaming",
+          "name": "EDward Gaming",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-thundertalk-gaming",
+          "name": "ThunderTalk Gaming",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-ninjas-in-pyjamas",
+          "name": "Ninjas in Pyjamas",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-ultra-prime",
+          "name": "Ultra Prime",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        }
+      ]
+    },
+    "LEC": {
+      "active": [
+        {
+          "teamId": "external-lol-team-fnatic",
+          "name": "Fnatic"
+        },
+        {
+          "teamId": "external-lol-team-g2-esports",
+          "name": "G2 Esports"
+        },
+        {
+          "teamId": "external-lol-team-giantx",
+          "name": "GIANTX"
+        },
+        {
+          "teamId": "external-lol-team-karmine-corp",
+          "name": "Karmine Corp"
+        },
+        {
+          "teamId": "external-lol-team-movistar-koi",
+          "name": "Movistar KOI"
+        },
+        {
+          "teamId": "external-lol-team-natus-vincere",
+          "name": "Natus Vincere"
+        },
+        {
+          "teamId": "external-lol-team-sk-gaming",
+          "name": "SK Gaming"
+        },
+        {
+          "teamId": "external-lol-team-team-vitality",
+          "name": "Team Vitality"
+        }
+      ],
+      "inactive": [
+        {
+          "teamId": "external-lol-team-shifters",
+          "name": "Shifters",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-team-heretics",
+          "name": "Team Heretics",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        }
+      ]
+    },
+    "CBLOL": {
+      "active": [
+        {
+          "teamId": "external-lol-team-fluxo-w7m",
+          "name": "Fluxo W7M"
+        },
+        {
+          "teamId": "external-lol-team-furia",
+          "name": "FURIA"
+        },
+        {
+          "teamId": "external-lol-team-keyd-stars",
+          "name": "Keyd Stars"
+        },
+        {
+          "teamId": "external-lol-team-loud",
+          "name": "LOUD"
+        },
+        {
+          "teamId": "external-lol-team-pain-gaming",
+          "name": "paiN Gaming"
+        },
+        {
+          "teamId": "external-lol-team-red-canids",
+          "name": "RED Canids"
+        },
+        {
+          "teamId": "external-lol-team-leviatan",
+          "name": "Leviatán"
+        },
+        {
+          "teamId": "external-lol-team-los",
+          "name": "LOS"
+        }
+      ],
+      "inactive": []
+    },
+    "LCS": {
+      "active": [
+        {
+          "teamId": "external-lol-team-cloud9",
+          "name": "Cloud9"
+        },
+        {
+          "teamId": "external-lol-team-dignitas",
+          "name": "Dignitas"
+        },
+        {
+          "teamId": "external-lol-team-flyquest",
+          "name": "FlyQuest"
+        },
+        {
+          "teamId": "external-lol-team-lyon",
+          "name": "LYON"
+        },
+        {
+          "teamId": "external-lol-team-sentinels",
+          "name": "Sentinels"
+        },
+        {
+          "teamId": "external-lol-team-shopify-rebellion",
+          "name": "Shopify Rebellion"
+        },
+        {
+          "teamId": "external-lol-team-team-liquid",
+          "name": "Team Liquid"
+        },
+        {
+          "teamId": "kairos-lol-main",
+          "name": "Kairos",
+          "note": "Internal Kairos Universe canon team (not an external reference record). Enters the LCS 2027 regional slot vacated by Disguised."
+        }
+      ],
+      "inactive": [
+        {
+          "teamId": "external-lol-team-disguised",
+          "name": "Disguised",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        }
+      ]
+    },
+    "LCP": {
+      "active": [
+        {
+          "teamId": "external-lol-team-ctbc-flying-oyster",
+          "name": "CTBC Flying Oyster"
+        },
+        {
+          "teamId": "external-lol-team-softbank-hawks-gaming",
+          "name": "SoftBank HAWKS gaming"
+        },
+        {
+          "teamId": "external-lol-team-gam-esports",
+          "name": "GAM Esports"
+        },
+        {
+          "teamId": "external-lol-team-ground-zero-gaming",
+          "name": "Ground Zero Gaming"
+        },
+        {
+          "teamId": "external-lol-team-secret-whales",
+          "name": "Secret Whales"
+        },
+        {
+          "teamId": "external-lol-team-detonation-focusme",
+          "name": "DetonatioN FocusMe"
+        },
+        {
+          "teamId": "external-lol-team-mvk-esports",
+          "name": "MVK Esports"
+        },
+        {
+          "teamId": "external-lol-team-deep-cross-gaming",
+          "name": "Deep Cross Gaming"
+        }
+      ],
+      "inactive": []
+    },
+    "NACL": {
+      "active": [
+        {
+          "teamId": "kairos-lol-academy-blue",
+          "name": "Kairos Academy Blue",
+          "note": "Internal Kairos Universe canon team (not an external reference record). Becomes the organization's official active NACL Tier 2 representative effective 2027-01-01, using its existing training roster. Not the same entity as Kairos Gaming (LCS) or Kairos Academy White (developmental, non-NACL); no automatic promotion exists between them."
+        },
+        {
+          "teamId": "external-lol-team-blue-otter",
+          "name": "Blue Otter"
+        },
+        {
+          "teamId": "external-lol-team-dorado-gaming",
+          "name": "Dorado Gaming"
+        },
+        {
+          "teamId": "external-lol-team-maryville-university",
+          "name": "Maryville University"
+        },
+        {
+          "teamId": "external-lol-team-nrg",
+          "name": "NRG"
+        },
+        {
+          "teamId": "tier2-nacl-sentinels",
+          "name": "Sentinels",
+          "parentTeamId": "external-lol-team-sentinels",
+          "note": "Sentinels' NACL Tier 2 developmental roster, distinct from the organization's LCS Tier 1 team (external-lol-team-sentinels), which remains separately active in the LCS region above. No historical competitive membership is merged between the two."
+        },
+        {
+          "teamId": "external-lol-team-university-of-mississippi",
+          "name": "University of Mississippi"
+        },
+        {
+          "teamId": "external-lol-team-winthrop-university",
+          "name": "Winthrop University"
+        }
+      ],
+      "inactive": [
+        {
+          "teamId": "external-lol-team-ccg-esports",
+          "name": "CCG Esports",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-contingent-esports",
+          "name": "Contingent Esports",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-conviction",
+          "name": "Conviction",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026"
+        },
+        {
+          "teamId": "external-lol-team-cupid-esports",
+          "name": "Cupid eSports",
+          "effectiveExitDate": "2026-12-31",
+          "lastActiveTier1Season": "2026",
+          "note": "Not named in the author's confirmed 2027 NACL active roster or explicit departures list; excluded from the active list to keep the region at the confirmed 8 active teams. Flagged for author review."
+        }
+      ]
+    }
+  }
+}

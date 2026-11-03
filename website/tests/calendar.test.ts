@@ -80,9 +80,21 @@ describe("2027 competitive calendar", () => {
     expect(demacia?.tier).toBe("postseason-international");
   });
 
-  it("does not automatically register Kairos in any 2027 event", () => {
-    expect(year2027.every((competition) => competition.participants.length === 0)).toBe(true);
-    expect(year2027.every((competition) => !competition.kairosParticipating)).toBe(true);
+  it("does not automatically register Kairos in any 2027 event except its directed LCS 2027 regional entry", () => {
+    const withoutLcs = year2027.filter((competition) => competition.slug !== "lcs-2027");
+    expect(withoutLcs.every((competition) => competition.participants.length === 0)).toBe(true);
+    expect(withoutLcs.every((competition) => !competition.kairosParticipating)).toBe(true);
+    const lcs = year2027.find((competition) => competition.slug === "lcs-2027");
+    expect(lcs?.participants).toEqual([{ id: "kairos-lol-main", name: "Kairos Gaming", slug: "kairos-lol-main" }]);
+    expect(lcs?.kairosParticipating).toBe(true);
+  });
+
+  it("Kairos gets no automatic international qualification from its LCS 2027 regional membership", () => {
+    const internationalSlugs = ["first-stand-2027", "crossroads-cup-2027", "rift-masters-2027", "world-championship-2027", "demacia-cup-global-2027"];
+    for (const slug of internationalSlugs) {
+      const event = catalog.competitions.find((c) => c.slug === slug);
+      expect(event?.kairosParticipating ?? false).toBe(false);
+    }
   });
 
   it("renders event pages cleanly with empty participant and results data", () => {

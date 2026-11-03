@@ -1,0 +1,24 @@
+{
+  "id": "source-canon-directive-2027-nacl-ldl-tier-2-formalization",
+  "slug": "source-canon-directive-2027-nacl-ldl-tier-2-formalization",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: formalizing NACL 2027 and LDL 2027",
+  "path": "docs/canon/LEAGUE_TIER_2_ECOSYSTEMS_2027.md",
+  "locator": "Author-confirmed canon directive, NACL/LDL Tier 2 formalization batch",
+  "publicLabel": "Kairos Universe canon directive: NACL 2027 and LDL 2027 formalization",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "This is a direct author-confirmed canon directive, not sourced from episode prose.",
+    "Formalizes the two remaining Tier 2 regional ecosystems referenced but not yet detailed by the earlier regional-restructuring directive: NACL (North America) and LDL (China), each confirmed by the author at 8 active teams.",
+    "NACL 2027 confirmed active teams: Kairos Academy Blue, Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels (NACL developmental roster, distinct from the organization's LCS Tier 1 team), University of Mississippi, Winthrop University. CCG Esports, Contingent Esports, and Conviction are confirmed inactive for 2027.",
+    "Cupid eSports is not named in the author's confirmed NACL active roster or explicit departures list; it is recorded inactive and its players recorded as free agents, for consistency with the confirmed exact-8 active count, and flagged for author review rather than silently omitted.",
+    "Kairos Academy Blue becomes Kairos Esports' official active NACL Tier 2 representative effective 2027-01-01 using its existing training roster; this is not a new roster, and Academy Blue remains a distinct entity from Kairos Gaming (LCS Tier 1) and Kairos Academy White (developmental, non-NACL), with no automatic promotion between any of the three.",
+    "LDL 2027 confirmed active teams: BLG Junior, TES Challenger, Oh My God, EDG Youth Team, WBG Youth Team, LGD Young Team, WE Academy, AL Young, each a distinct competitive entity from its LPL Tier 1 parent organization even where a parent/affiliate relationship is recorded (Bilibili Gaming, Top Esports, Oh My God, EDward Gaming, Weibo Gaming, LGD Gaming, Team WE, Anyone's Legend respectively).",
+    "The LDL participant named 'Oh My God' is recorded as a distinct team entity (parentTeamId-linked) from the existing Tier 1 LPL 'Oh My God' active-membership record; the author explicitly required the identical display name be preserved without inventing an alternate name, while not merging historical Tier 1 membership.",
+    "EDG Youth Team, LGD Young Team, and WE Academy remain active in LDL 2027 despite EDward Gaming, LGD Gaming, and Team WE exiting active LPL Tier 1 competition; the directive is explicit that a parent organization's Tier 1 departure does not remove its Tier 2 development team.",
+    "Establishes no standings, placements, results, or prize distributions for NACL or LDL 2027, and no automatic Tier 1 promotion or automatic international qualification (Crossroads Challengers, Rift Masters Challengers, WSCI) for any team in either ecosystem.",
+    "The pre-existing generic 'LCS Tier 2 2027' and 'LPL Tier 2 2027' competition records are renamed in place to 'NACL 2027' and 'LDL 2027' respectively; their stable IDs and parentCompetitionId links are preserved, and no duplicate competition record is created."
+  ]
+}

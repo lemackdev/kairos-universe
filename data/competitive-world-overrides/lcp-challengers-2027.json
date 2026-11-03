@@ -1,0 +1,55 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-league-tier-2-ecosystems"
+  ],
+  "name": "LCP Challengers",
+  "tier": "regional-tier-2",
+  "region": "Pacific",
+  "effectiveDate": "2027-01-01",
+  "disclaimer": "Kairos Universe fictional speculation for 2027. These team names are confirmed by the author to name the eight participating organizations only, not standings, results, or promotion/relegation. This is not a report of any real organization's actual current competitive status.",
+  "teams": [
+    {
+      "teamId": "tier2-lcp-challengers-cfo-academy",
+      "name": "CFO Academy",
+      "parentTeamId": "external-lol-team-ctbc-flying-oyster"
+    },
+    {
+      "teamId": "tier2-lcp-challengers-frank-esports",
+      "name": "Frank Esports",
+      "parentTeamId": null
+    },
+    {
+      "teamId": "tier2-lcp-challengers-sillysilly-gaming",
+      "name": "SillySilly Gaming",
+      "parentTeamId": null
+    },
+    {
+      "teamId": "tier2-lcp-challengers-reignfall",
+      "name": "Reignfall",
+      "parentTeamId": null
+    },
+    {
+      "teamId": "tier2-lcp-challengers-sponge-gaming",
+      "name": "Sponge Gaming",
+      "parentTeamId": null
+    },
+    {
+      "teamId": "tier2-lcp-challengers-ewh",
+      "name": "EWH",
+      "parentTeamId": null
+    },
+    {
+      "teamId": "tier2-lcp-challengers-ground-zero-academy",
+      "name": "Ground Zero Academy",
+      "parentTeamId": "external-lol-team-ground-zero-gaming"
+    },
+    {
+      "teamId": "tier2-lcp-challengers-rogersama",
+      "name": "RogerSaMa",
+      "parentTeamId": null
+    }
+  ]
+}

@@ -11,7 +11,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
   const catalog = getCatalog();
   const player = catalog.players.find((entry) => entry.slug === slug);
   const reference = catalog.externalScene?.players.find((entry) => entry.slug === slug);
-  if (!player && reference && catalog.externalScene) return <ExternalPlayerArticle player={reference} scene={catalog.externalScene} />;
+  if (!player && reference && catalog.externalScene) return <ExternalPlayerArticle player={reference} scene={catalog.externalScene} worldState={catalog.worldState2027} />;
   if (!player) notFound();
   return <PlayerArticle player={player} team={catalog.teams.find((entry) => entry.id === player.currentTeamId)}
     narrativeDate={catalog.metadata.currentNarrativeDate} />;

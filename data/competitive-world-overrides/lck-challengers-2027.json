@@ -1,0 +1,55 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-league-tier-2-ecosystems"
+  ],
+  "name": "LCK Challengers",
+  "tier": "regional-tier-2",
+  "region": "Korea",
+  "effectiveDate": "2027-01-01",
+  "disclaimer": "Kairos Universe fictional speculation for 2027. These team names are confirmed by the author to name the eight participating organizations only, not standings, results, or promotion/relegation. This is not a report of any real organization's actual current competitive status.",
+  "teams": [
+    {
+      "teamId": "tier2-lck-challengers-t1-esports-academy",
+      "name": "T1 Esports Academy",
+      "parentTeamId": "external-lol-team-t1"
+    },
+    {
+      "teamId": "tier2-lck-challengers-dplus-kia-challengers",
+      "name": "Dplus Kia Challengers",
+      "parentTeamId": "external-lol-team-dplus"
+    },
+    {
+      "teamId": "tier2-lck-challengers-kt-rolster-challengers",
+      "name": "KT Rolster Challengers",
+      "parentTeamId": "external-lol-team-kt-rolster"
+    },
+    {
+      "teamId": "tier2-lck-challengers-nongshim-esports-academy",
+      "name": "Nongshim Esports Academy",
+      "parentTeamId": "external-lol-team-nongshim-redforce"
+    },
+    {
+      "teamId": "tier2-lck-challengers-dn-soopers-challengers",
+      "name": "DN SOOPers Challengers",
+      "parentTeamId": "external-lol-team-soopers"
+    },
+    {
+      "teamId": "tier2-lck-challengers-kiwoom-drx-challengers",
+      "name": "Kiwoom DRX Challengers",
+      "parentTeamId": "external-lol-team-drx"
+    },
+    {
+      "teamId": "tier2-lck-challengers-bnk-fearx-youth",
+      "name": "BNK FEARX Youth",
+      "parentTeamId": "external-lol-team-fearx"
+    },
+    {
+      "teamId": "tier2-lck-challengers-hanwha-life-esports-challengers",
+      "name": "Hanwha Life Esports Challengers",
+      "parentTeamId": "external-lol-team-hanwha-life-esports"
+    }
+  ]
+}

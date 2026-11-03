@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { BrandLogo, UniformPanel } from "@/components/UniformPanel";
@@ -32,7 +33,12 @@ function locationWithFlag(location: { city: string; region: string; country: str
   </span>;
 }
 
-export function TeamArticle({ team, organization }: { team: TeamView; organization?: OrganizationView }) {
+type TeamOrganization = Pick<OrganizationView, "id" | "slug" | "name" | "headquarters" | "ownerName" | "ownerSlug" | "founded" | "management">;
+
+export function TeamArticle({ team, organization, banner, logo, overview, external, extraFacts }: {
+  team: TeamView; organization?: TeamOrganization; banner?: ReactNode; logo?: ReactNode; overview?: ReactNode; external?: boolean;
+  extraFacts?: Array<{ label: string; value: ReactNode }>;
+}) {
   const region = northAmerica.has(team.trainingLocation.country) ? "North America" : team.trainingLocation.country;
   const facts = [
     { label: "Org Location", value: organization ? locationWithFlag(organization.headquarters ?? team.trainingLocation) : "TBD" },
@@ -42,18 +48,21 @@ export function TeamArticle({ team, organization }: { team: TeamView; organizati
       ? (organization.ownerSlug ? <Link href={`/wiki/staff/${organization.ownerSlug}`}>{organization.ownerName}</Link> : organization.ownerName)
       : "TBD" },
     { label: "Head Coach", value: team.headCoachName ?? "TBD" },
-      { label: "Parent Company / Institutional Partner", value: "Asterion Intelligence" },
-      { label: "Technical Supplier", value: "New Balance" },
+    ...(external ? [] : [
+      { label: "Parent Company / Institutional Partner", value: "Asterion Intelligence" as ReactNode },
+      { label: "Technical Supplier", value: "New Balance" as ReactNode },
+    ]),
+    ...(extraFacts ?? []),
   ];
   const historyFacts = [
     { label: "Founded", value: organization?.founded ?? "TBD" },
   ];
-  return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections}
-    infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={organization && <BrandLogo organizationId={organization.id} />} groups={[
+  return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections} banner={banner}
+    infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={logo ?? (organization && <BrandLogo organizationId={organization.id} />)} groups={[
       { title: "Team Information", rows: facts },
       { title: "History", rows: historyFacts },
     ]} />}>
-    <p><strong>{team.name}</strong> is the {team.gameName} {team.rosterLevel} roster of {organization?.name ?? "an organization yet to be published"}, a Los Angeles-based esports organization founded by Adrian Vale under parent company Asterion Intelligence. Rather than assembling the roster through a club acquisition, Kairos built it through its own player-development recruitment process, beginning in early 2026. The {team.gameName} division is intended to debut in the {team.intendedCompetition}, and as of {team.currentStoryPeriod} has not yet played an official match.</p>
+    {overview ?? <p><strong>{team.name}</strong> is the {team.gameName} {team.rosterLevel} roster of {organization?.name ?? "an organization yet to be published"}, a Los Angeles-based esports organization founded by Adrian Vale under parent company Asterion Intelligence. Rather than assembling the roster through a club acquisition, Kairos built it through its own player-development recruitment process, beginning in early 2026. The {team.gameName} division is intended to debut in the {team.intendedCompetition}, and as of {team.currentStoryPeriod} has not yet played an official match.</p>}
     <ArticleSection {...sections[0]!}>
       {team.history.length ? team.history.map((fact) => <p key={fact}>{fact}</p>) : <p>No team history is recorded.</p>}
     </ArticleSection>

@@ -5,10 +5,16 @@ import { externalLogoPath } from "@/lib/externalLogos";
 import { ExternalRosterTable } from "@/components/ExternalRosterTable";
 import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
+import type { WorldState2027 } from "@/types/world-state-2027";
+import { findFreeAgent } from "@/lib/external/worldState2027";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 export function ReferenceNotice() {
   return <p className="fictionNotice"><strong>Real-world reference, review pending.</strong> This is a pre-Worlds 2026 domestic tournament snapshot, not a live roster or fictional Kairos event. Tournament membership does not establish a contract, captaincy, or permanent starting position. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
+}
+
+export function FictionalWorldNotice() {
+  return <p className="fictionNotice"><strong>Kairos Universe fictional speculation, 2027.</strong> This status is part of the fictional Kairos Universe continuity only. It is not a report of this organization&rsquo;s or player&rsquo;s actual real-world competitive, contractual, or employment status. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
 }
 
 export function ExternalSources({ scene, ids }: { scene: ExternalScene; ids: string[] }) {
@@ -45,14 +51,22 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
   </WikiArticle>;
 }
 
-export function ExternalPlayerArticle({ player, scene }: { player: ScenePlayer; scene: ExternalScene }) {
+export function ExternalPlayerArticle({ player, scene, worldState }: { player: ScenePlayer; scene: ExternalScene; worldState?: WorldState2027 }) {
   const tenures = scene.rosterTenures.filter((t) => player.rosterTenureIds.includes(t.id)).sort((a, b) => a.observedAtEventEnd.localeCompare(b.observedAtEventEnd));
   const sections = ["Overview", "Background Information", "Team History", "Trivia", "Individual Awards", "Tournament Results", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
+  const freeAgent = findFreeAgent(worldState, player.id);
+  const previousTeam = freeAgent ? scene.teams.find((t) => t.id === freeAgent.previousTeamId) : null;
   return <WikiArticle title={player.nickname} kind="Players" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.slice(0, 2)} groups={[
     { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Legal name", value: "Unknown" },
       { label: "Nationality", value: "Unknown" }, { label: "Date of birth", value: "Unknown" }, { label: "Current contract", value: "Unknown" }] },
+    ...(freeAgent ? [{ title: "Kairos Universe 2027 (fictional)", rows: [
+      { label: "2027 status", value: "Free Agent" },
+      { label: "Previous team", value: previousTeam ? <Link href={`/wiki/teams/${previousTeam.slug}`}>{freeAgent.previousTeamName}</Link> : freeAgent.previousTeamName },
+      { label: "Effective", value: formatDate(freeAgent.effectiveDate) },
+    ] }] : []),
   ]} />}>
     <ReferenceNotice />
+    {freeAgent && <FictionalWorldNotice />}
     <ArticleSection id="overview" title="Overview"><p>{player.nickname} appears in the source tournament roster lists below. This page does not assert a current club, age, or full career history.</p></ArticleSection>
     <ArticleSection id="background-information" title="Background Information"><p>Personal biography, nationality, residence, date of birth, contract details and captaincy have not been researched in this import.</p></ArticleSection>
     <ArticleSection id="team-history" title="Team History"><WikiTable caption="Observed tournament memberships, not dated contracts" columns={["Team", "League", "Role", "Listing", "Tournament ended"]} rows={tenures.map((tenure) => {

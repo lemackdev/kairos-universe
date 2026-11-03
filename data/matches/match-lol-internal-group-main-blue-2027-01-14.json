@@ -1,0 +1,926 @@
+{
+  "id": "match-lol-internal-group-main-blue-2027-01-14",
+  "slug": "match-lol-internal-group-main-blue-2027-01-14",
+  "game": "League of Legends",
+  "matchType": "internal-scrim",
+  "status": "confirmed",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue"
+  ],
+  "scheduledDate": "2027-01-14",
+  "date": "2027-01-14",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "kairos-lol-academy-blue",
+  "bestOf": 3,
+  "teamAScore": 1,
+  "teamBScore": 2,
+  "winnerTeamId": "kairos-lol-academy-blue",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "authored-reconstruction",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-101"
+  ],
+  "relatedPlayerIds": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster"
+  ],
+  "result": {
+    "name": "Fase de grupos · Série 1",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "durationMinutes": 38,
+        "narrative": "Virada da Blue após roubo e Baron",
+        "mvpNickname": "xNox",
+        "provenance": "authored-reconstruction",
+        "provenanceNote": "Game winner/duration/narrative beat are story canon (Episode 101). Champion picks follow Episode 96 preferences and late-2026 competitive reference where not explicitly narrated; full box score is an author-approved retrospective simulation.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-main",
+            "teamName": "Main",
+            "kills": 15,
+            "deaths": 23,
+            "assists": 37,
+            "gold": 67595,
+            "towers": 2,
+            "dragons": 0,
+            "barons": 0,
+            "heralds": 0,
+            "inhibitors": 0,
+            "bans": [
+              "Vi",
+              "Jinx",
+              "Nocturne",
+              "Cassiopeia",
+              "Qiyana"
+            ],
+            "players": [
+              {
+                "playerId": "noah-rkn-bennett",
+                "displayName": "Noah \"rkN\" Bennett",
+                "role": "TOP",
+                "champion": "Camille",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 2,
+                "deaths": 4,
+                "assists": 5,
+                "cs": 299,
+                "gold": 13168,
+                "items": [
+                  3071,
+                  6333,
+                  3078,
+                  3047
+                ],
+                "kdaRatio": 1.75,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "ethan-vanta-walker",
+                "displayName": "Ethan \"Vanta\" Walker",
+                "role": "JNG",
+                "champion": "Lee Sin",
+                "summoners": [
+                  "Smite",
+                  "Flash"
+                ],
+                "kills": 3,
+                "deaths": 6,
+                "assists": 9,
+                "cs": 220,
+                "gold": 12967,
+                "items": [
+                  6333,
+                  3071,
+                  3047,
+                  3364
+                ],
+                "kdaRatio": 2,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "mason-404-brooks",
+                "displayName": "Mason \"404\" Brooks",
+                "role": "MID",
+                "champion": "Orianna",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 4,
+                "deaths": 3,
+                "assists": 9,
+                "cs": 318,
+                "gold": 16083,
+                "items": [
+                  3135,
+                  3089,
+                  4645,
+                  3157
+                ],
+                "kdaRatio": 4.33,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "liam-aster-oconnor",
+                "displayName": "Liam \"Aster\" O'Connor",
+                "role": "ADC",
+                "champion": "Xayah",
+                "summoners": [
+                  "Heal",
+                  "Flash"
+                ],
+                "kills": 5,
+                "deaths": 4,
+                "assists": 7,
+                "cs": 305,
+                "gold": 15416,
+                "items": [
+                  3026,
+                  3031,
+                  3036,
+                  3006
+                ],
+                "kdaRatio": 3,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "daniel-moss-reyes",
+                "displayName": "Daniel \"Moss\" Reyes",
+                "role": "SUP",
+                "champion": "Rakan",
+                "summoners": [
+                  "Ignite",
+                  "Flash"
+                ],
+                "kills": 1,
+                "deaths": 6,
+                "assists": 7,
+                "cs": 60,
+                "gold": 9961,
+                "items": [
+                  3869,
+                  3050,
+                  3075,
+                  3107
+                ],
+                "kdaRatio": 1.33,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              }
+            ]
+          },
+          {
+            "teamId": "kairos-lol-academy-blue",
+            "teamName": "Blue",
+            "kills": 23,
+            "deaths": 15,
+            "assists": 52,
+            "gold": 75381,
+            "towers": 7,
+            "dragons": 3,
+            "barons": 2,
+            "heralds": 1,
+            "inhibitors": 3,
+            "bans": [
+              "Syndra",
+              "Kaisa",
+              "Rumble",
+              "JarvanIV",
+              "Thresh"
+            ],
+            "players": [
+              {
+                "playerId": "connor-mako-sullivan",
+                "displayName": "Connor \"SullCon\" Sullivan",
+                "role": "TOP",
+                "champion": "Renekton",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 5,
+                "deaths": 2,
+                "assists": 10,
+                "cs": 283,
+                "gold": 15580,
+                "items": [
+                  3047,
+                  3078,
+                  3071,
+                  6333
+                ],
+                "kdaRatio": 7.5,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "jacob-xnox-price",
+                "displayName": "Jacob \"xNox\" Price",
+                "role": "JNG",
+                "champion": "Nidalee",
+                "summoners": [
+                  "Smite",
+                  "Flash"
+                ],
+                "kills": 5,
+                "deaths": 1,
+                "assists": 14,
+                "cs": 210,
+                "gold": 13526,
+                "items": [
+                  6333,
+                  3026,
+                  3071,
+                  3364
+                ],
+                "kdaRatio": 19,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "owen-kite-hughes",
+                "displayName": "Owen \"Kite\" Hughes",
+                "role": "MID",
+                "champion": "Azir",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 5,
+                "deaths": 4,
+                "assists": 9,
+                "cs": 334,
+                "gold": 16794,
+                "items": [
+                  3157,
+                  3089,
+                  4645,
+                  3020
+                ],
+                "kdaRatio": 3.5,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "tyler-murmur-grant",
+                "displayName": "Tyler \"Murmur\" Grant",
+                "role": "ADC",
+                "champion": "Ezreal",
+                "summoners": [
+                  "Heal",
+                  "Flash"
+                ],
+                "kills": 7,
+                "deaths": 5,
+                "assists": 9,
+                "cs": 318,
+                "gold": 17956,
+                "items": [
+                  3006,
+                  3094,
+                  3026,
+                  6672
+                ],
+                "kdaRatio": 3.2,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "lucas-grit-foster",
+                "displayName": "Lucas \"japalenogrits\" Foster",
+                "role": "SUP",
+                "champion": "Bard",
+                "summoners": [
+                  "Ignite",
+                  "Flash"
+                ],
+                "kills": 1,
+                "deaths": 3,
+                "assists": 10,
+                "cs": 47,
+                "gold": 11525,
+                "items": [
+                  3190,
+                  3075,
+                  3050,
+                  3111
+                ],
+                "kdaRatio": 3.67,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-main",
+        "durationMinutes": 27,
+        "narrative": "Main responde com domínio de mapa",
+        "mvpNickname": "Aster",
+        "provenance": "authored-reconstruction",
+        "provenanceNote": "Game winner/duration/narrative beat are story canon (Episode 101). Champion picks follow Episode 96 preferences and late-2026 competitive reference where not explicitly narrated; full box score is an author-approved retrospective simulation.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-main",
+            "teamName": "Main",
+            "kills": 21,
+            "deaths": 7,
+            "assists": 54,
+            "gold": 56904,
+            "towers": 10,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 0,
+            "inhibitors": 2,
+            "bans": [
+              "Nidalee",
+              "Azir",
+              "Renekton",
+              "Vi",
+              "Rakan"
+            ],
+            "players": [
+              {
+                "playerId": "noah-rkn-bennett",
+                "displayName": "Noah \"rkN\" Bennett",
+                "role": "TOP",
+                "champion": "Jax",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 4,
+                "deaths": 2,
+                "assists": 8,
+                "cs": 196,
+                "gold": 11779,
+                "items": [
+                  3026,
+                  3156,
+                  3047,
+                  3078
+                ],
+                "kdaRatio": 6,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "ethan-vanta-walker",
+                "displayName": "Ethan \"Vanta\" Walker",
+                "role": "JNG",
+                "champion": "Jarvan IV",
+                "summoners": [
+                  "Smite",
+                  "Flash"
+                ],
+                "kills": 4,
+                "deaths": 1,
+                "assists": 10,
+                "cs": 168,
+                "gold": 10504,
+                "items": [
+                  3156,
+                  3071,
+                  3078,
+                  3364
+                ],
+                "kdaRatio": 14,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "mason-404-brooks",
+                "displayName": "Mason \"404\" Brooks",
+                "role": "MID",
+                "champion": "Syndra",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 4,
+                "deaths": 1,
+                "assists": 10,
+                "cs": 249,
+                "gold": 11759,
+                "items": [
+                  3020,
+                  6655,
+                  3089,
+                  4645
+                ],
+                "kdaRatio": 14,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "liam-aster-oconnor",
+                "displayName": "Liam \"Aster\" O'Connor",
+                "role": "ADC",
+                "champion": "Kai’Sa",
+                "summoners": [
+                  "Heal",
+                  "Flash"
+                ],
+                "kills": 8,
+                "deaths": 1,
+                "assists": 12,
+                "cs": 250,
+                "gold": 13979,
+                "items": [
+                  6672,
+                  3031,
+                  3006,
+                  3036
+                ],
+                "kdaRatio": 20,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "daniel-moss-reyes",
+                "displayName": "Daniel \"Moss\" Reyes",
+                "role": "SUP",
+                "champion": "Nautilus",
+                "summoners": [
+                  "Ignite",
+                  "Flash"
+                ],
+                "kills": 1,
+                "deaths": 2,
+                "assists": 14,
+                "cs": 58,
+                "gold": 8883,
+                "items": [
+                  3190,
+                  3075,
+                  3869,
+                  3107
+                ],
+                "kdaRatio": 7.5,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              }
+            ]
+          },
+          {
+            "teamId": "kairos-lol-academy-blue",
+            "teamName": "Blue",
+            "kills": 7,
+            "deaths": 21,
+            "assists": 15,
+            "gold": 47284,
+            "towers": 2,
+            "dragons": 0,
+            "barons": 1,
+            "heralds": 1,
+            "inhibitors": 0,
+            "bans": [
+              "Orianna",
+              "Xayah",
+              "Rumble",
+              "Thresh",
+              "Nocturne"
+            ],
+            "players": [
+              {
+                "playerId": "connor-mako-sullivan",
+                "displayName": "Connor \"SullCon\" Sullivan",
+                "role": "TOP",
+                "champion": "Camille",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 2,
+                "deaths": 4,
+                "assists": 1,
+                "cs": 209,
+                "gold": 10108,
+                "items": [
+                  3078,
+                  3071,
+                  3047,
+                  3026
+                ],
+                "kdaRatio": 0.75,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "jacob-xnox-price",
+                "displayName": "Jacob \"xNox\" Price",
+                "role": "JNG",
+                "champion": "Lee Sin",
+                "summoners": [
+                  "Smite",
+                  "Flash"
+                ],
+                "kills": 2,
+                "deaths": 4,
+                "assists": 4,
+                "cs": 159,
+                "gold": 8193,
+                "items": [
+                  3156,
+                  6333,
+                  3047,
+                  3364
+                ],
+                "kdaRatio": 1.5,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "owen-kite-hughes",
+                "displayName": "Owen \"Kite\" Hughes",
+                "role": "MID",
+                "champion": "Viktor",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 1,
+                "deaths": 4,
+                "assists": 3,
+                "cs": 211,
+                "gold": 11174,
+                "items": [
+                  3089,
+                  3157,
+                  3020,
+                  6655
+                ],
+                "kdaRatio": 1,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "tyler-murmur-grant",
+                "displayName": "Tyler \"Murmur\" Grant",
+                "role": "ADC",
+                "champion": "Jinx",
+                "summoners": [
+                  "Heal",
+                  "Flash"
+                ],
+                "kills": 2,
+                "deaths": 4,
+                "assists": 3,
+                "cs": 228,
+                "gold": 11207,
+                "items": [
+                  3026,
+                  3036,
+                  3094,
+                  6672
+                ],
+                "kdaRatio": 1.25,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "lucas-grit-foster",
+                "displayName": "Lucas \"japalenogrits\" Foster",
+                "role": "SUP",
+                "champion": "Lulu",
+                "summoners": [
+                  "Ignite",
+                  "Flash"
+                ],
+                "kills": 0,
+                "deaths": 5,
+                "assists": 4,
+                "cs": 14,
+                "gold": 6602,
+                "items": [
+                  3075,
+                  3190,
+                  3050,
+                  3107
+                ],
+                "kdaRatio": 0.8,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "durationMinutes": 43,
+        "narrative": "Blue vence a luta decisiva do fim de jogo",
+        "mvpNickname": "Murmur",
+        "provenance": "authored-reconstruction",
+        "provenanceNote": "Game winner/duration/narrative beat are story canon (Episode 101). Champion picks follow Episode 96 preferences and late-2026 competitive reference where not explicitly narrated; full box score is an author-approved retrospective simulation.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-main",
+            "teamName": "Main",
+            "kills": 23,
+            "deaths": 27,
+            "assists": 60,
+            "gold": 79359,
+            "towers": 3,
+            "dragons": 2,
+            "barons": 1,
+            "heralds": 0,
+            "inhibitors": 0,
+            "bans": [
+              "Nidalee",
+              "Renekton",
+              "Ezreal",
+              "Bard",
+              "Camille"
+            ],
+            "players": [
+              {
+                "playerId": "noah-rkn-bennett",
+                "displayName": "Noah \"rkN\" Bennett",
+                "role": "TOP",
+                "champion": "Fiora",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 3,
+                "deaths": 6,
+                "assists": 12,
+                "cs": 355,
+                "gold": 16242,
+                "items": [
+                  3071,
+                  3047,
+                  3026,
+                  3156,
+                  6333
+                ],
+                "kdaRatio": 2.5,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "ethan-vanta-walker",
+                "displayName": "Ethan \"Vanta\" Walker",
+                "role": "JNG",
+                "champion": "Kindred",
+                "summoners": [
+                  "Smite",
+                  "Flash"
+                ],
+                "kills": 6,
+                "deaths": 5,
+                "assists": 10,
+                "cs": 231,
+                "gold": 15380,
+                "items": [
+                  6333,
+                  3156,
+                  3047,
+                  3026,
+                  3364
+                ],
+                "kdaRatio": 3.2,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "mason-404-brooks",
+                "displayName": "Mason \"404\" Brooks",
+                "role": "MID",
+                "champion": "Orianna",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 6,
+                "deaths": 6,
+                "assists": 13,
+                "cs": 356,
+                "gold": 17505,
+                "items": [
+                  3020,
+                  3157,
+                  3135,
+                  4645,
+                  3089
+                ],
+                "kdaRatio": 3.17,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "liam-aster-oconnor",
+                "displayName": "Liam \"Aster\" O'Connor",
+                "role": "ADC",
+                "champion": "Kai’Sa",
+                "summoners": [
+                  "Heal",
+                  "Flash"
+                ],
+                "kills": 7,
+                "deaths": 6,
+                "assists": 9,
+                "cs": 348,
+                "gold": 19150,
+                "items": [
+                  3006,
+                  3026,
+                  3031,
+                  3036,
+                  3094
+                ],
+                "kdaRatio": 2.67,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "daniel-moss-reyes",
+                "displayName": "Daniel \"Moss\" Reyes",
+                "role": "SUP",
+                "champion": "Thresh",
+                "summoners": [
+                  "Ignite",
+                  "Flash"
+                ],
+                "kills": 1,
+                "deaths": 4,
+                "assists": 16,
+                "cs": 67,
+                "gold": 11082,
+                "items": [
+                  3075,
+                  3111,
+                  3190,
+                  3050,
+                  3869
+                ],
+                "kdaRatio": 4.25,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              }
+            ]
+          },
+          {
+            "teamId": "kairos-lol-academy-blue",
+            "teamName": "Blue",
+            "kills": 27,
+            "deaths": 23,
+            "assists": 64,
+            "gold": 84908,
+            "towers": 9,
+            "dragons": 4,
+            "barons": 1,
+            "heralds": 1,
+            "inhibitors": 3,
+            "bans": [
+              "Syndra",
+              "Xayah",
+              "Rumble",
+              "JarvanIV",
+              "Nocturne"
+            ],
+            "players": [
+              {
+                "playerId": "connor-mako-sullivan",
+                "displayName": "Connor \"SullCon\" Sullivan",
+                "role": "TOP",
+                "champion": "Gnar",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 3,
+                "deaths": 5,
+                "assists": 8,
+                "cs": 336,
+                "gold": 16821,
+                "items": [
+                  3078,
+                  3026,
+                  3156,
+                  3047,
+                  3071
+                ],
+                "kdaRatio": 2.2,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "jacob-xnox-price",
+                "displayName": "Jacob \"xNox\" Price",
+                "role": "JNG",
+                "champion": "Vi",
+                "summoners": [
+                  "Smite",
+                  "Flash"
+                ],
+                "kills": 4,
+                "deaths": 5,
+                "assists": 16,
+                "cs": 260,
+                "gold": 15984,
+                "items": [
+                  6333,
+                  3026,
+                  3047,
+                  3071,
+                  3364
+                ],
+                "kdaRatio": 4,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "owen-kite-hughes",
+                "displayName": "Owen \"Kite\" Hughes",
+                "role": "MID",
+                "champion": "Azir",
+                "summoners": [
+                  "Teleport",
+                  "Flash"
+                ],
+                "kills": 6,
+                "deaths": 5,
+                "assists": 10,
+                "cs": 369,
+                "gold": 18959,
+                "items": [
+                  3157,
+                  3135,
+                  3020,
+                  3089,
+                  4645
+                ],
+                "kdaRatio": 3.2,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "tyler-murmur-grant",
+                "displayName": "Tyler \"Murmur\" Grant",
+                "role": "ADC",
+                "champion": "Jinx",
+                "summoners": [
+                  "Heal",
+                  "Flash"
+                ],
+                "kills": 12,
+                "deaths": 4,
+                "assists": 19,
+                "cs": 409,
+                "gold": 20174,
+                "items": [
+                  3006,
+                  3094,
+                  3026,
+                  3031,
+                  6672
+                ],
+                "kdaRatio": 7.75,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              },
+              {
+                "playerId": "lucas-grit-foster",
+                "displayName": "Lucas \"japalenogrits\" Foster",
+                "role": "SUP",
+                "champion": "Rakan",
+                "summoners": [
+                  "Ignite",
+                  "Flash"
+                ],
+                "kills": 2,
+                "deaths": 4,
+                "assists": 11,
+                "cs": 74,
+                "gold": 12970,
+                "items": [
+                  3107,
+                  3111,
+                  3869,
+                  3050,
+                  3190
+                ],
+                "kdaRatio": 3.25,
+                "pickOrigin": "reconstruction-2026-meta-player-pool"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "kairos_lol_scrims_ep101_drafts.json (author-provided retrospective dataset)"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Fase de grupos · Série 1: Kairos Main vs Kairos Blue, Episode 101 (2027-01-14); Blue wins 2-1."
+  ],
+  "unconfirmedDetails": [
+    "Champion picks not explicitly stated in Episode 101 dialogue are reconstruction proposals based on Episode 96 preferences and 2026 competitive reference, not confirmed 2027 patch/meta facts."
+  ],
+  "canonNotes": [
+    "Private internal three-team round robin plus Bo3 final among Kairos League rosters; not an official Riot/league match, does not affect any standings."
+  ]
+}

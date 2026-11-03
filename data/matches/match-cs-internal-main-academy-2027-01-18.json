@@ -1,0 +1,785 @@
+{
+  "id": "match-cs-internal-main-academy-2027-01-18",
+  "slug": "match-cs-internal-main-academy-2027-01-18",
+  "game": "Counter-Strike",
+  "matchType": "internal-scrim",
+  "status": "confirmed",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "scheduledDate": "2027-01-18",
+  "date": "2027-01-18",
+  "datePrecision": "exact",
+  "teamAId": "kairos-cs-main",
+  "teamBId": "kairos-cs-academy",
+  "bestOf": 5,
+  "teamAScore": 2,
+  "teamBScore": 3,
+  "winnerTeamId": "kairos-cs-academy",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "authored-reconstruction",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-104"
+  ],
+  "relatedPlayerIds": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "result": {
+    "title": "Série 2, revanche",
+    "roundsPlayed": 120,
+    "games": [
+      {
+        "number": 1,
+        "map": "Cache",
+        "mainRounds": 13,
+        "academyRounds": 11,
+        "roundsPlayed": 24,
+        "winnerTeamId": "kairos-cs-main",
+        "provenance": "narrated-canon-score-synthetic-stats",
+        "provenanceNote": "Map score is narrated story canon (Episode 104). Per-player K/D/A/ADR/rating are author-approved synthetic retrospective simulation, not an official HLTV match.",
+        "players": [
+          {
+            "playerId": "caleb-atlas-mercer",
+            "displayName": "Caleb \"Atlas\" Mercer",
+            "team": "kairos-cs-main",
+            "kills": 19,
+            "deaths": 15,
+            "assists": 5,
+            "adr": 78.5,
+            "rating": 1.19,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "owen-glacier-fletcher",
+            "displayName": "Owen \"Glacier\" Fletcher",
+            "team": "kairos-cs-main",
+            "kills": 17,
+            "deaths": 14,
+            "assists": 3,
+            "adr": 74.5,
+            "rating": 1.12,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "emiliano-moteconhuesillo-navarro",
+            "displayName": "Emiliano \"MoteConHuesillo\" Navarro",
+            "team": "kairos-cs-main",
+            "kills": 18,
+            "deaths": 17,
+            "assists": 4,
+            "adr": 74.8,
+            "rating": 1.05,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "cameron-mold-ruiz",
+            "displayName": "Cameron \"Mold\" Ruiz",
+            "team": "kairos-cs-main",
+            "kills": 20,
+            "deaths": 19,
+            "assists": 3,
+            "adr": 79.8,
+            "rating": 1.12,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "vincente-flacogomez-galan",
+            "displayName": "Vincente \"FLACOGOMEZ\" Galán",
+            "team": "kairos-cs-main",
+            "kills": 12,
+            "deaths": 18,
+            "assists": 6,
+            "adr": 58,
+            "rating": 0.79,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "evan-soupcrime-nakamura",
+            "displayName": "Evan \"RAMENSOUP\" Nakamura",
+            "team": "kairos-cs-academy",
+            "kills": 14,
+            "deaths": 18,
+            "assists": 5,
+            "adr": 69,
+            "rating": 0.77,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "milo-velcrodog-radovic",
+            "displayName": "Milo \"velcroDAWG\" Radović",
+            "team": "kairos-cs-academy",
+            "kills": 15,
+            "deaths": 18,
+            "assists": 3,
+            "adr": 66.7,
+            "rating": 0.78,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "zayn-parkinglot-haddad",
+            "displayName": "Zayn \"p4rkingl0t\" Haddad",
+            "team": "kairos-cs-academy",
+            "kills": 19,
+            "deaths": 15,
+            "assists": 3,
+            "adr": 81.7,
+            "rating": 1.1,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "nolan-dentalplan-hart",
+            "displayName": "Nolan \"dentalplan\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 18,
+            "deaths": 17,
+            "assists": 3,
+            "adr": 77,
+            "rating": 1.03,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "reid-wrongnumber-hart",
+            "displayName": "Reid \"wrongnumber\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 17,
+            "deaths": 18,
+            "assists": 6,
+            "adr": 80.2,
+            "rating": 0.92,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "map": "Train",
+        "mainRounds": 8,
+        "academyRounds": 13,
+        "roundsPlayed": 21,
+        "winnerTeamId": "kairos-cs-academy",
+        "provenance": "narrated-canon-score-synthetic-stats",
+        "provenanceNote": "Map score is narrated story canon (Episode 104). Per-player K/D/A/ADR/rating are author-approved synthetic retrospective simulation, not an official HLTV match.",
+        "players": [
+          {
+            "playerId": "caleb-atlas-mercer",
+            "displayName": "Caleb \"Atlas\" Mercer",
+            "team": "kairos-cs-main",
+            "kills": 14,
+            "deaths": 14,
+            "assists": 4,
+            "adr": 68.4,
+            "rating": 0.85,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "owen-glacier-fletcher",
+            "displayName": "Owen \"Glacier\" Fletcher",
+            "team": "kairos-cs-main",
+            "kills": 16,
+            "deaths": 12,
+            "assists": 2,
+            "adr": 83.1,
+            "rating": 1.14,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "emiliano-moteconhuesillo-navarro",
+            "displayName": "Emiliano \"MoteConHuesillo\" Navarro",
+            "team": "kairos-cs-main",
+            "kills": 14,
+            "deaths": 17,
+            "assists": 3,
+            "adr": 66.5,
+            "rating": 0.77,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "cameron-mold-ruiz",
+            "displayName": "Cameron \"Mold\" Ruiz",
+            "team": "kairos-cs-main",
+            "kills": 13,
+            "deaths": 19,
+            "assists": 3,
+            "adr": 64.2,
+            "rating": 0.74,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "vincente-flacogomez-galan",
+            "displayName": "Vincente \"FLACOGOMEZ\" Galán",
+            "team": "kairos-cs-main",
+            "kills": 11,
+            "deaths": 16,
+            "assists": 4,
+            "adr": 60.2,
+            "rating": 0.72,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "evan-soupcrime-nakamura",
+            "displayName": "Evan \"RAMENSOUP\" Nakamura",
+            "team": "kairos-cs-academy",
+            "kills": 14,
+            "deaths": 12,
+            "assists": 4,
+            "adr": 73.6,
+            "rating": 1.04,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "milo-velcrodog-radovic",
+            "displayName": "Milo \"velcroDAWG\" Radović",
+            "team": "kairos-cs-academy",
+            "kills": 16,
+            "deaths": 16,
+            "assists": 3,
+            "adr": 76.6,
+            "rating": 1.08,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "zayn-parkinglot-haddad",
+            "displayName": "Zayn \"p4rkingl0t\" Haddad",
+            "team": "kairos-cs-academy",
+            "kills": 21,
+            "deaths": 12,
+            "assists": 3,
+            "adr": 104.2,
+            "rating": 1.56,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "nolan-dentalplan-hart",
+            "displayName": "Nolan \"dentalplan\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 15,
+            "deaths": 12,
+            "assists": 3,
+            "adr": 76.4,
+            "rating": 1.19,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "reid-wrongnumber-hart",
+            "displayName": "Reid \"wrongnumber\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 12,
+            "deaths": 16,
+            "assists": 6,
+            "adr": 66.6,
+            "rating": 0.83,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "map": "Nuke",
+        "mainRounds": 13,
+        "academyRounds": 9,
+        "roundsPlayed": 22,
+        "winnerTeamId": "kairos-cs-main",
+        "provenance": "narrated-canon-score-synthetic-stats",
+        "provenanceNote": "Map score is narrated story canon (Episode 104). Per-player K/D/A/ADR/rating are author-approved synthetic retrospective simulation, not an official HLTV match.",
+        "players": [
+          {
+            "playerId": "caleb-atlas-mercer",
+            "displayName": "Caleb \"Atlas\" Mercer",
+            "team": "kairos-cs-main",
+            "kills": 14,
+            "deaths": 13,
+            "assists": 5,
+            "adr": 67.7,
+            "rating": 0.97,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "owen-glacier-fletcher",
+            "displayName": "Owen \"Glacier\" Fletcher",
+            "team": "kairos-cs-main",
+            "kills": 22,
+            "deaths": 14,
+            "assists": 2,
+            "adr": 95.3,
+            "rating": 1.39,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "emiliano-moteconhuesillo-navarro",
+            "displayName": "Emiliano \"MoteConHuesillo\" Navarro",
+            "team": "kairos-cs-main",
+            "kills": 18,
+            "deaths": 14,
+            "assists": 4,
+            "adr": 89.5,
+            "rating": 1.26,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "cameron-mold-ruiz",
+            "displayName": "Cameron \"Mold\" Ruiz",
+            "team": "kairos-cs-main",
+            "kills": 15,
+            "deaths": 17,
+            "assists": 3,
+            "adr": 74.4,
+            "rating": 1.03,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "vincente-flacogomez-galan",
+            "displayName": "Vincente \"FLACOGOMEZ\" Galán",
+            "team": "kairos-cs-main",
+            "kills": 13,
+            "deaths": 14,
+            "assists": 6,
+            "adr": 71.5,
+            "rating": 0.98,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "evan-soupcrime-nakamura",
+            "displayName": "Evan \"RAMENSOUP\" Nakamura",
+            "team": "kairos-cs-academy",
+            "kills": 13,
+            "deaths": 16,
+            "assists": 4,
+            "adr": 58.7,
+            "rating": 0.74,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "milo-velcrodog-radovic",
+            "displayName": "Milo \"velcroDAWG\" Radović",
+            "team": "kairos-cs-academy",
+            "kills": 18,
+            "deaths": 18,
+            "assists": 3,
+            "adr": 84.7,
+            "rating": 1.08,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "zayn-parkinglot-haddad",
+            "displayName": "Zayn \"p4rkingl0t\" Haddad",
+            "team": "kairos-cs-academy",
+            "kills": 14,
+            "deaths": 15,
+            "assists": 3,
+            "adr": 65.3,
+            "rating": 0.86,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "nolan-dentalplan-hart",
+            "displayName": "Nolan \"dentalplan\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 16,
+            "deaths": 16,
+            "assists": 2,
+            "adr": 69,
+            "rating": 0.93,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "reid-wrongnumber-hart",
+            "displayName": "Reid \"wrongnumber\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 11,
+            "deaths": 17,
+            "assists": 5,
+            "adr": 52.8,
+            "rating": 0.64,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "map": "Inferno",
+        "mainRounds": 14,
+        "academyRounds": 16,
+        "roundsPlayed": 30,
+        "winnerTeamId": "kairos-cs-academy",
+        "provenance": "narrated-canon-score-synthetic-stats",
+        "provenanceNote": "Map score is narrated story canon (Episode 104). Per-player K/D/A/ADR/rating are author-approved synthetic retrospective simulation, not an official HLTV match.",
+        "players": [
+          {
+            "playerId": "caleb-atlas-mercer",
+            "displayName": "Caleb \"Atlas\" Mercer",
+            "team": "kairos-cs-main",
+            "kills": 18,
+            "deaths": 19,
+            "assists": 6,
+            "adr": 63.7,
+            "rating": 0.86,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "owen-glacier-fletcher",
+            "displayName": "Owen \"Glacier\" Fletcher",
+            "team": "kairos-cs-main",
+            "kills": 21,
+            "deaths": 20,
+            "assists": 3,
+            "adr": 66,
+            "rating": 0.95,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "emiliano-moteconhuesillo-navarro",
+            "displayName": "Emiliano \"MoteConHuesillo\" Navarro",
+            "team": "kairos-cs-main",
+            "kills": 23,
+            "deaths": 24,
+            "assists": 5,
+            "adr": 83.2,
+            "rating": 1.02,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "cameron-mold-ruiz",
+            "displayName": "Cameron \"Mold\" Ruiz",
+            "team": "kairos-cs-main",
+            "kills": 20,
+            "deaths": 26,
+            "assists": 4,
+            "adr": 67.8,
+            "rating": 0.78,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "vincente-flacogomez-galan",
+            "displayName": "Vincente \"FLACOGOMEZ\" Galán",
+            "team": "kairos-cs-main",
+            "kills": 21,
+            "deaths": 20,
+            "assists": 7,
+            "adr": 69.4,
+            "rating": 0.91,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "evan-soupcrime-nakamura",
+            "displayName": "Evan \"RAMENSOUP\" Nakamura",
+            "team": "kairos-cs-academy",
+            "kills": 25,
+            "deaths": 20,
+            "assists": 7,
+            "adr": 90.9,
+            "rating": 1.21,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "milo-velcrodog-radovic",
+            "displayName": "Milo \"velcroDAWG\" Radović",
+            "team": "kairos-cs-academy",
+            "kills": 23,
+            "deaths": 24,
+            "assists": 3,
+            "adr": 84.6,
+            "rating": 1.06,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "zayn-parkinglot-haddad",
+            "displayName": "Zayn \"p4rkingl0t\" Haddad",
+            "team": "kairos-cs-academy",
+            "kills": 20,
+            "deaths": 19,
+            "assists": 5,
+            "adr": 64.4,
+            "rating": 1.04,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "nolan-dentalplan-hart",
+            "displayName": "Nolan \"dentalplan\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 20,
+            "deaths": 21,
+            "assists": 3,
+            "adr": 71.9,
+            "rating": 0.95,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "reid-wrongnumber-hart",
+            "displayName": "Reid \"wrongnumber\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 21,
+            "deaths": 19,
+            "assists": 8,
+            "adr": 71.5,
+            "rating": 1.02,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "map": "Cobblestone",
+        "mainRounds": 10,
+        "academyRounds": 13,
+        "roundsPlayed": 23,
+        "winnerTeamId": "kairos-cs-academy",
+        "provenance": "narrated-canon-score-synthetic-stats",
+        "provenanceNote": "Map score is narrated story canon (Episode 104). Per-player K/D/A/ADR/rating are author-approved synthetic retrospective simulation, not an official HLTV match.",
+        "players": [
+          {
+            "playerId": "caleb-atlas-mercer",
+            "displayName": "Caleb \"Atlas\" Mercer",
+            "team": "kairos-cs-main",
+            "kills": 13,
+            "deaths": 16,
+            "assists": 4,
+            "adr": 59,
+            "rating": 0.76,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "owen-glacier-fletcher",
+            "displayName": "Owen \"Glacier\" Fletcher",
+            "team": "kairos-cs-main",
+            "kills": 18,
+            "deaths": 14,
+            "assists": 2,
+            "adr": 74.5,
+            "rating": 1.05,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "emiliano-moteconhuesillo-navarro",
+            "displayName": "Emiliano \"MoteConHuesillo\" Navarro",
+            "team": "kairos-cs-main",
+            "kills": 18,
+            "deaths": 16,
+            "assists": 4,
+            "adr": 78.3,
+            "rating": 1.04,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "cameron-mold-ruiz",
+            "displayName": "Cameron \"Mold\" Ruiz",
+            "team": "kairos-cs-main",
+            "kills": 16,
+            "deaths": 19,
+            "assists": 3,
+            "adr": 70.6,
+            "rating": 0.79,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "vincente-flacogomez-galan",
+            "displayName": "Vincente \"FLACOGOMEZ\" Galán",
+            "team": "kairos-cs-main",
+            "kills": 12,
+            "deaths": 20,
+            "assists": 5,
+            "adr": 52.8,
+            "rating": 0.6,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "evan-soupcrime-nakamura",
+            "displayName": "Evan \"RAMENSOUP\" Nakamura",
+            "team": "kairos-cs-academy",
+            "kills": 16,
+            "deaths": 15,
+            "assists": 6,
+            "adr": 78.4,
+            "rating": 1.1,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "milo-velcrodog-radovic",
+            "displayName": "Milo \"velcroDAWG\" Radović",
+            "team": "kairos-cs-academy",
+            "kills": 17,
+            "deaths": 19,
+            "assists": 3,
+            "adr": 81.3,
+            "rating": 1.04,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "zayn-parkinglot-haddad",
+            "displayName": "Zayn \"p4rkingl0t\" Haddad",
+            "team": "kairos-cs-academy",
+            "kills": 22,
+            "deaths": 12,
+            "assists": 3,
+            "adr": 96.9,
+            "rating": 1.47,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "nolan-dentalplan-hart",
+            "displayName": "Nolan \"dentalplan\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 15,
+            "deaths": 16,
+            "assists": 3,
+            "adr": 68,
+            "rating": 0.92,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          },
+          {
+            "playerId": "reid-wrongnumber-hart",
+            "displayName": "Reid \"wrongnumber\" Hart",
+            "team": "kairos-cs-academy",
+            "kills": 15,
+            "deaths": 15,
+            "assists": 5,
+            "adr": 64.4,
+            "rating": 0.96,
+            "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+          }
+        ]
+      }
+    ],
+    "seriesAggregate": [
+      {
+        "playerId": "caleb-atlas-mercer",
+        "displayName": "Caleb \"Atlas\" Mercer",
+        "team": "kairos-cs-main",
+        "kills": 78,
+        "deaths": 77,
+        "assists": 24,
+        "adr": 67.3,
+        "rating": 0.93,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "owen-glacier-fletcher",
+        "displayName": "Owen \"Glacier\" Fletcher",
+        "team": "kairos-cs-main",
+        "kills": 94,
+        "deaths": 74,
+        "assists": 12,
+        "adr": 77.7,
+        "rating": 1.12,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "emiliano-moteconhuesillo-navarro",
+        "displayName": "Emiliano \"MoteConHuesillo\" Navarro",
+        "team": "kairos-cs-main",
+        "kills": 91,
+        "deaths": 88,
+        "assists": 20,
+        "adr": 78.8,
+        "rating": 1.03,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "cameron-mold-ruiz",
+        "displayName": "Cameron \"Mold\" Ruiz",
+        "team": "kairos-cs-main",
+        "kills": 84,
+        "deaths": 100,
+        "assists": 16,
+        "adr": 71.3,
+        "rating": 0.89,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "vincente-flacogomez-galan",
+        "displayName": "Vincente \"FLACOGOMEZ\" Galán",
+        "team": "kairos-cs-main",
+        "kills": 69,
+        "deaths": 88,
+        "assists": 28,
+        "adr": 62.7,
+        "rating": 0.81,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "evan-soupcrime-nakamura",
+        "displayName": "Evan \"RAMENSOUP\" Nakamura",
+        "team": "kairos-cs-academy",
+        "kills": 82,
+        "deaths": 81,
+        "assists": 26,
+        "adr": 75.2,
+        "rating": 0.98,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "milo-velcrodog-radovic",
+        "displayName": "Milo \"velcroDAWG\" Radović",
+        "team": "kairos-cs-academy",
+        "kills": 89,
+        "deaths": 95,
+        "assists": 15,
+        "adr": 79,
+        "rating": 1.01,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "zayn-parkinglot-haddad",
+        "displayName": "Zayn \"p4rkingl0t\" Haddad",
+        "team": "kairos-cs-academy",
+        "kills": 96,
+        "deaths": 73,
+        "assists": 17,
+        "adr": 81.2,
+        "rating": 1.19,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "nolan-dentalplan-hart",
+        "displayName": "Nolan \"dentalplan\" Hart",
+        "team": "kairos-cs-academy",
+        "kills": 84,
+        "deaths": 82,
+        "assists": 14,
+        "adr": 72.4,
+        "rating": 1,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      },
+      {
+        "playerId": "reid-wrongnumber-hart",
+        "displayName": "Reid \"wrongnumber\" Hart",
+        "team": "kairos-cs-academy",
+        "kills": 76,
+        "deaths": 85,
+        "assists": 30,
+        "adr": 67.6,
+        "rating": 0.89,
+        "ratingLabel": "Synthetic simulated rating (HLTV-style scale). Not official HLTV Rating 2.0/3.0."
+      }
+    ],
+    "aggregateNote": "Series aggregate uses the provided round-weighted totals, not an unweighted average of per-map ratios."
+  },
+  "statistics": {},
+  "sources": [
+    "kairos_cs_scrims_stats.json (author-provided retrospective dataset)"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos CS Main 2-3 Kairos CS Academy, Episode 104 (2027-01-18), map scores and winner are story canon."
+  ],
+  "unconfirmedDetails": [
+    "Per-player kills/deaths/assists/ADR/rating are an author-approved synthetic retrospective simulation, not confirmed in-episode dialogue stats and not real HLTV data."
+  ],
+  "canonNotes": [
+    "Private internal scrim between Kairos CS Main and Kairos CS Academy; not an official match, does not affect any standings."
+  ]
+}

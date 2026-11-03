@@ -145,6 +145,20 @@
     },
     "canonNotes": {
       "$ref": "common.schema.json#/$defs/canonTextArray"
+    },
+    "provenance": {
+      "enum": ["narrated-canon", "authored-reconstruction", "proposed-opponent-draft", "unknown"],
+      "description": "Where the match's statistical content comes from, surfaced in the match-center UI as a provenance label."
+    },
+    "affectsStandings": {
+      "oneOf": [{ "type": "boolean" }, { "const": "TBD" }],
+      "description": "Whether this match affects any official standing. Always false for private scrims and internal training."
+    },
+    "relatedEpisodeIds": {
+      "$ref": "common.schema.json#/$defs/idArray"
+    },
+    "relatedPlayerIds": {
+      "$ref": "common.schema.json#/$defs/idArray"
     }
   },
   "additionalProperties": false

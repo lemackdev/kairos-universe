@@ -1,0 +1,107 @@
+{
+  "id": "episode-105",
+  "slug": "episode-105",
+  "episodeNumber": 105,
+  "title": "Portas Abertas",
+  "historicalTitle": "Portas Abertas",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-19",
+  "datePrecision": "exact",
+  "publicationOrder": 105,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Emily secures external scrim blocks for January 19-29 with six organizations confirmed and two more responding overnight, deliberately targeting opponents going through similar roster-building processes rather than title contenders: Kairos Main against Dignitas and Shopify Rebellion (LCS) and SK Gaming and GIANTX (LEC); Kairos Academy Blue against the same LCS/LEC pool; Kairos Academy White against Dorado Gaming and Winthrop University (NACL) and INTZ and RMD Gaming (Circuito Desafiante, Brazil). At 13:23, Main plays its first block against an experimental Dignitas lineup with some still-unknown player identities; the known canon draft is 404 on Orianna, rkN on Camille, Vanta on Lee Sin, Aster on Kai'Sa, and Moss on Rakan. Main falls behind early, recovers by minute 12, and is broken apart by a Dignitas teamfight around minute 19; Thinkcard notes Dignitas may not be fielding the same five players as prior scouting references, prompting Moss to call for reading the live game instead of the VOD. The full result and series outcome are never narrated and remain unconfirmed. Elsewhere, Adrian and Emily confirm Kairos will train against whichever players an opponent organization actually fields, under confidentiality, without presuming any roster is finalized; Shopify Rebellion, SK Gaming, and GIANTX are all shown adjusting their own lineups or schedules, while Dorado Gaming confirms its block and INTZ requests flexible session scheduling.",
+  "keyEvents": [
+    "Emily reports six scrim partners confirmed and two more responding overnight for the January 19-29 window, deliberately chosen as organizations going through comparable roster-building processes rather than title contenders.",
+    "Confirmed scrim pool: Kairos Main vs. Dignitas and Shopify Rebellion (LCS), SK Gaming and GIANTX (LEC); Kairos Academy Blue vs. the same LCS/LEC pool; Kairos Academy White vs. Dorado Gaming and Winthrop University (NACL), INTZ and RMD Gaming (Circuito Desafiante, Brazil).",
+    "At 13:23, Main's first block begins against an experimental Dignitas lineup with some player identities still unconfirmed on Kairos's side; Aphromoo tells the team to play without expectations.",
+    "Confirmed draft for this game: 404 (Mason) on Orianna, rkN (Noah) on Camille, Vanta (Ethan) on Lee Sin, Aster (Liam) on Kai'Sa, Moss (Daniel) on Rakan.",
+    "Main falls behind at minute 7, recovers the gap by minute 12, then is broken apart by a Dignitas teamfight around minute 19; 404 notes Dignitas is playing more aggressively than available scouting references suggested, and Thinkcard notes this may be because Dignitas is not fielding the same five players as before, prompting Moss to call for reading the live game rather than relying on VOD prep.",
+    "The game's final result, any further games, and the series outcome against Dignitas are never narrated in this episode and remain unconfirmed.",
+    "At 15:42, Emily and Adrian confirm a standing policy: Kairos will scrim against whichever players an opponent organization actually fields on a given day, under confidentiality, logging only who actually participates and never presuming a finalized contract or roster spot for any opponent player; this applies as other organizations (Shopify Rebellion, SK Gaming, GIANTX) report their own lineup or scheduling uncertainty, while Dorado Gaming confirms its block outright and INTZ requests flexible session scheduling given potential connection issues.",
+    "At 18:11, 404 (Mason) wishes SullCon (Connor) luck ahead of Blue's scheduled match against GIANTX the next day, deflecting SullCon's question about whether Main beat Dignitas as 'confidential.'",
+    "That evening, Adrian receives a preliminary report: Main has faced Dignitas's first experimental lineup (result unconfirmed); Blue is finishing preparation to face GIANTX; White has confirmed blocks with Dorado Gaming and INTZ, with Winthrop University and RMD Gaming to follow."
+  ],
+  "consequences": [
+    "Kairos begins its first external scrim block against Dignitas on 2027-01-19, with the result left unconfirmed/incomplete in the narrative.",
+    "A confidentiality policy is established for all future external scrims: Kairos logs only players an opponent actually fields and does not presume any opponent roster is finalized."
+  ],
+  "canonIntroduced": [
+    "Kairos's confirmed external scrim schedule for 2027-01-19 through 2027-01-29 is established, covering all three League rosters against named LCS/LEC/NACL/Circuito Desafiante opponents.",
+    "A standing confidentiality policy for external scrim opponent rosters is established."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-104"
+  ],
+  "continuityNotes": [
+    "The Main vs. Dignitas game's full result, game count, and series outcome are explicitly never narrated and must remain null/unknown in any derived content; do not invent a winner, score, or completed series for this match.",
+    "This episode's scheduled-but-not-yet-played blocks (SK Gaming, GIANTX vs. Main; Shopify Rebellion, Dignitas vs. Blue; SK Gaming vs. Blue; Winthrop University vs. White; INTZ, RMD Gaming vs. White) must be tracked as scheduled, not completed, until a later episode confirms otherwise."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Dignitas, Shopify Rebellion, SK Gaming, GIANTX, Dorado Gaming, Winthrop University, INTZ, and RMD Gaming are referenced as real-world esports organizations serving as fictional in-universe scrim opponents; no real-world roster, contract, or transfer information is implied beyond what is explicitly narrated."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_105.txt",
+      "locator": "Episódio 105 — Portas Abertas",
+      "information": "Supplies full prose, the confirmed scrim schedule, and the Main vs Dignitas partial game narrative.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The full result, game count, and series outcome of Main vs. Dignitas are not narrated and remain unknown."
+  ],
+  "confirmedFacts": [
+    "Kairos confirms an external scrim schedule spanning 2027-01-19 to 2027-01-29 across Main, Academy Blue, and Academy White.",
+    "Main plays at least one game against an experimental Dignitas lineup on 2027-01-19 with the draft listed in keyEvents; the result is unconfirmed.",
+    "Kairos adopts a policy of scrimming against whichever players an opponent organization actually fields, without presuming finalized rosters."
+  ],
+  "unconfirmedDetails": [
+    "The outcome of the Main vs. Dignitas game and any further games in that series.",
+    "Exact opponent lineups for several scheduled blocks, which remain subject to each organization's own roster decisions."
+  ],
+  "notes": [
+    "This episode is the authoritative source for the match-center 'played, result unknown' record for Main vs. Dignitas, and for the scheduled (not yet played) blocks referenced across episodes 105-106."
+  ]
+}

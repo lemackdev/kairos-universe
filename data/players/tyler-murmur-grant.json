@@ -73,5 +73,36 @@
     "Do not infer nationality from city.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Ezreal is favorite; also Jinx and Aphelios",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Talks to himself constantly in solo queue",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Grew up skateboarding and claims to still know tricks",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Edited videos, clips, and montages for friends",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Ezreal",
+    "Jinx",
+    "Aphelios"
   ]
 }

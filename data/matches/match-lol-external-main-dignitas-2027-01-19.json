@@ -1,0 +1,71 @@
+{
+  "id": "match-lol-external-main-dignitas-2027-01-19",
+  "slug": "match-lol-external-main-dignitas-2027-01-19",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "unconfirmed",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-dignitas"
+  ],
+  "scheduledDate": "2027-01-19",
+  "date": null,
+  "datePrecision": "unknown",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-dignitas",
+  "bestOf": null,
+  "teamAScore": "TBD",
+  "teamBScore": "TBD",
+  "winnerTeamId": null,
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-105"
+  ],
+  "relatedPlayerIds": [
+    "mason-404-brooks",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "result": {
+    "gameCountKnown": null,
+    "knownPartialGame": {
+      "number": 1,
+      "canonPicks": {
+        "404": "Orianna",
+        "rkN": "Camille",
+        "Vanta": "Lee Sin",
+        "Aster": "Kai’Sa",
+        "Moss": "Rakan"
+      },
+      "knownEvents": [
+        "At ~19m Dignitas wins a teamfight",
+        "Main was behind around 7m, recovered around 12m"
+      ],
+      "outcome": null,
+      "provenance": "narrated-canon"
+    },
+    "note": "Episode 106 recalls previous day versus Dignitas; winner/full series outcome never narrated."
+  },
+  "statistics": {},
+  "sources": [
+    "scrim_canonical_inventory_episodes_90_106.json"
+  ],
+  "canonStatus": "unconfirmed",
+  "confirmedFacts": [
+    "Kairos Main played at least one game against Dignitas (LCS experimental roster) on 2027-01-19; Game 1 picks and mid-game events are narrated."
+  ],
+  "unconfirmedDetails": [
+    "Full series result, final game count, and final K/D/A were never narrated. Do not treat this as a completed or lost/won series."
+  ],
+  "canonNotes": [
+    "Episode 106 recalls previous day versus Dignitas; winner/full series outcome never narrated."
+  ]
+}

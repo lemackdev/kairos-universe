@@ -1,0 +1,107 @@
+{
+  "id": "episode-103",
+  "slug": "episode-103",
+  "episodeNumber": 103,
+  "title": "O Que o Dinheiro Não Compra",
+  "historicalTitle": "O Que o Dinheiro Não Compra",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-15",
+  "datePrecision": "exact",
+  "publicationOrder": 103,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "thinkcard-kairos-strategic-coach",
+    "ethan-trace-miller",
+    "mason-404-brooks",
+    "daniel-moss-reyes",
+    "liam-aster-oconnor",
+    "tyler-murmur-grant",
+    "owen-glacier-fletcher",
+    "cameron-mold-ruiz",
+    "arthur-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "The Competitive Ledger publishes Nathaniel Price's article before breakfast under the confirmed title 'Adrian Vale Doesn't Think Money Can Buy a Championship. He's Spending Millions to Find Out.' It still questions billionaire influence, investment concentration risk, and sustainability, but for the first time argues from evidence rather than suspicion dressed as conclusion; it circulates widely within 40 minutes, drawing both support and criticism. At 10:12, Adrian gathers all five head coaches plus Thinkcard, Trace, and Emily to review the previous day's internal results (episode-101) without hierarchy-based excuses: Aphromoo identifies Main's problem as trying to force back lost control immediately rather than playing the deficit; Hai notes Blue beat Main but then played the Blue-vs-White decider to protect game differential instead of to win, and lost; Sable credits White's win to having nothing to protect, explicitly warning it reflects freedom, not consistency, and that White could finish last if the exercise were repeated; Luk credits Academy's near-upset of Main in CS to Academy's own quality, not Main's failure, and confirms with Stewie2K that a rematch will happen, date undecided, to be decided jointly by the two coaches. At 11:03, Emily shows Adrian that the article's comment sections are full of a recurring question -- 'why does Kairos need five teams?' -- which Adrian declines to answer with a statement, planning instead to let Blue's NACL results, White's continued development, and the CS academies' output answer it over time. At 16:27, Glacier (Owen Fletcher) exchanges text messages with his grandfather Arthur, who confirms he watched the Adrian interview and liked him; the two briefly joke about Arthur's health being fine before Mold pulls Glacier back into film review. At 19:14, Nathaniel sends Adrian a short closing message maintaining he still disagrees with him on several points; Adrian's reply -- 'Good. That's what makes it worth having.' -- closes the episode, which ends on the explicit statement that neither the interview nor the previous day's internal scrims settled who was right; that answer would only come once Kairos faced an opponent without the same institutional shield, with February closing in.",
+  "keyEvents": [
+    "The Competitive Ledger publishes the article before breakfast on 2027-01-15, under the confirmed title 'Adrian Vale Doesn't Think Money Can Buy a Championship. He's Spending Millions to Find Out.'; it still raises billionaire-influence, concentration-risk, and sustainability concerns but argues from evidence rather than innuendo, and circulates widely within 40 minutes.",
+    "404 (Mason) and Moss (Daniel) discuss the article's reception over breakfast; Murmur (Tyler) jokes that White beating Main the day before (episode-101) only reinforces the article's thesis, to 404's visible annoyance.",
+    "At 10:12, Adrian convenes all five head coaches (Aphromoo, Hai, Sable, Luk, Stewie2K) plus Thinkcard, Trace, and Emily to review episode-101's results plainly, 'no excuses about hierarchy': League result -- White champion; Counter-Strike result -- Main wins 3-2.",
+    "Aphromoo: Main's core issue is trying to immediately recover full control after losing it, which cost them games against both Blue and White.",
+    "Hai: Blue beat Main but then played its decider against White to protect game differential rather than to win the series outright, and lost as a result.",
+    "Sable: White won specifically because it had nothing to protect, and explicitly warns against mistaking that freedom for consistency -- 'if we repeat this tournament tomorrow, we could finish last.'",
+    "Luk: Academy pushed Main to a fifth map because Academy is good, not because Main played poorly across all five maps; Stewie2K notes they 'almost won' and requests a rematch, which Luk confirms will happen on a date the two coaches will decide together.",
+    "At 11:03, Emily shows Adrian that the article's public comments repeatedly ask 'Why does Kairos need five teams?'; Adrian chooses not to answer it with a statement, instead planning to let Blue's NACL performance, White's continued development, and the CS academies' output answer it over time, while acknowledging to Aphromoo that if it doesn't play out that way, 'we'll find out what we did wrong.'",
+    "At 16:27, Glacier (Owen Fletcher) exchanges messages with his grandfather Arthur Fletcher, who confirms watching the Adrian interview and liking him, and lightly needles Owen to 'try talking more' himself sometimes; Owen confirms Arthur is doing fine before Mold (Cameron) pulls him back into an Overpass round review.",
+    "At 19:14, Nathaniel Price sends Adrian a final message: 'Thank you for the interview. I still disagree with you on several things.' Adrian replies: 'Good. That's what makes it worth having.'",
+    "The episode closes noting that neither the published interview nor the previous day's internal scrim results actually settled who was right; that answer would only come once Kairos faced an opponent without the same institutional backing, with the February competitive debut window approaching."
+  ],
+  "consequences": [
+    "The Competitive Ledger article is confirmed published 2027-01-15 under its final title, with a measurably more evidence-based tone than Nathaniel's prior work.",
+    "A Counter-Strike rematch between Kairos Main and Academy is confirmed as planned, with its exact date left to Luk and Stewie2K to decide jointly (see episode-104 for the rematch itself)."
+  ],
+  "canonIntroduced": [
+    "The Competitive Ledger article's publication date (2027-01-15) and final confirmed title are established.",
+    "Arthur Fletcher is confirmed alive and well as of 2027-01-15, continuing to communicate with his grandson Owen 'Glacier' Fletcher by text."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-102"
+  ],
+  "continuityNotes": [
+    "This episode confirms the publication date and exact title for the Kairospedia publication 'interview-ledger-adrian-vale-2027-01-14'; the article's own content should still read as critical journalism, not an endorsement of Kairos or of Adrian's unverified corporate claims.",
+    "The coaches' post-mortem commentary in this episode (Aphromoo, Hai, Sable, Luk) is itself narrated canon and may be cited directly in match-center commentary for the episode-101 internal results."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_103.txt",
+      "locator": "Episódio 103 — O Que o Dinheiro Não Compra",
+      "information": "Supplies full prose, the article's publication and final title, and the coaches' post-mortem review of episode-101.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The Competitive Ledger publishes 'Adrian Vale Doesn't Think Money Can Buy a Championship. He's Spending Millions to Find Out.' on 2027-01-15.",
+    "A CS Main vs. Academy rematch is confirmed planned, exact date to be set by Luk and Stewie2K.",
+    "Arthur Fletcher is confirmed alive and in regular contact with Owen 'Glacier' Fletcher as of this date."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "This episode is the authoritative source for the Kairospedia publication's confirmed title and 2027-01-15 publication date."
+  ]
+}

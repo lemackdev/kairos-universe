@@ -1,1 +1,18 @@
-[]
+[
+  "data/matches/match-cs-external-main-team-liquid-historical-recap.json",
+  "data/matches/match-cs-internal-main-academy-2027-01-14.json",
+  "data/matches/match-cs-internal-main-academy-2027-01-18.json",
+  "data/matches/match-lol-external-academy-blue-giantx-2027-01-20.json",
+  "data/matches/match-lol-external-academy-white-dorado-gaming-2027-01-20.json",
+  "data/matches/match-lol-external-main-dignitas-2027-01-19.json",
+  "data/matches/match-lol-external-main-shopify-rebellion-2027-01-20.json",
+  "data/matches/match-lol-internal-final-main-white-2027-01-14.json",
+  "data/matches/match-lol-internal-group-blue-white-2027-01-14.json",
+  "data/matches/match-lol-internal-group-main-blue-2027-01-14.json",
+  "data/matches/match-lol-internal-group-main-white-2027-01-14.json",
+  "data/matches/match-scheduled-academy-blue-shopify-rebellion-dignitas-lcs.json",
+  "data/matches/match-scheduled-academy-blue-sk-gaming-lec.json",
+  "data/matches/match-scheduled-academy-white-intz-rmd-gaming-circuito-desafiante.json",
+  "data/matches/match-scheduled-academy-white-winthrop-university-nacl.json",
+  "data/matches/match-scheduled-main-sk-gaming-giantx-lec.json"
+]

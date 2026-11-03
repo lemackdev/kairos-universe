@@ -1,0 +1,138 @@
+{
+  "id": "episode-100",
+  "slug": "episode-100",
+  "episodeNumber": 100,
+  "title": "Mais do Que Jogadores",
+  "historicalTitle": "Mais do Que Jogadores",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-12",
+  "datePrecision": "exact",
+  "publicationOrder": 100,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "arthur-fletcher",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "The morning after the LCS/NACL confirmation, training resumes as normal (Aphromoo pointedly unimpressed by celebration, Hai refusing to let Blue think about named NACL opponents yet, Sable running White through deliberately uncomfortable scenario drills). At 10:36 all 25 players and coaching staff are summoned, mandatory, to the West Wing at 11:30, where Adrian opens two large doors that were previously closed: the Kairos Commons facility. He frames it directly around what the Riot and Dust2 interviews revealed -- that the organization built everything players needed to play, but nothing for when they weren't playing. The facility includes a Maker Lab (workbenches, tools, disassembled electronics, 3D printing, empty cabinets), a music room (digital piano, guitars, bass, electronic drums, a small recording setup), a photo/video room (cameras, lighting, a neutral backdrop, explicitly not a content studio unless a player opts in), a kitchen, an outdoor multi-use area (basketball half-court, futsal space, a small skate-usable strip), and a small 'Kairos Community' room for future voluntary local community involvement. Adrian presents four guiding principles: Kairos Commons, No Performance Metrics, No Content Requirement, You Are Allowed To Be Bad At Something. The rest of the day shows players using the space (0bit and xNox in the Maker Lab, Kite finally playing the piano alone, dentalplan on drums, Luma photographing the space without publishing anything, a pickup basketball game, June and Aster debating an old thriller film), interspersed with uninterrupted competitive training continuing in parallel. Glacier (Owen Fletcher) takes a short, approved ten-minute break to visit his grandfather Arthur, who is undergoing treatment nearby; the visit and Arthur's condition are handled with explicit narrative restraint (no medical specifics given). The episode ends with Adrian alone in the room where Kairos Commons began, looking at a large deliberately-blank wall reserved months earlier for future 'achievements' -- with zero official matches played and zero titles won so far.",
+  "keyEvents": [
+    "Morning training resumes under all three League coaches and the two CS coaches with no special treatment for the previous day's LCS/NACL news; Aphromoo specifically needles 404 (Mason) about lost bot-lane priority rather than celebrating.",
+    "Hai explicitly tells Blue not to think about named NACL opponents like NRG yet -- 'think about the play, not the name' -- while japalenogrits asks to think about them 'later,' which Hai allows.",
+    "Sable runs Academy White through deliberately uncomfortable scenario training (early-game deficits, uncomfortable drafts, non-standard engage compositions, limited-vision rotations), explicitly more interested in how many ways the team can avoid breaking than in scrim wins; Pebble, vexemite, 0bit, June, and Luma each show visible in-session improvement that Sable notes without praising aloud.",
+    "On CS Main, Luk halts a fourth failed Inferno execute attempt and orders twenty minutes of dry (no-server) practice, over Mold's objection, framing the issue as players trying to fix execution with repetition rather than understanding.",
+    "On CS Academy, Stewie2K runs the opposite approach -- deliberate, repeated drilling of a single execute (eight attempts) until it runs clean, then debriefs why it worked only after it succeeds.",
+    "At 10:36 all 25 players and the full coaching staff receive a mandatory 11:30 West Wing summons from Adrian; speculation among players ranges from alarm to jokes about a second acquired team.",
+    "At 11:30, with all 25 players, Aphromoo, Hai, Sable, Thinkcard, Luk, Stewie2K, Trace, and Emily present, Adrian opens two previously-closed doors, framing the reveal around what the Riot and Dust2 interviews exposed: the organization built every competitive support system (academy, analytics, performance, coaching, nutrition, physiotherapy, content) but 'forgot to build something for when you weren't playing.'",
+    "The Kairos Commons facility is revealed: a Maker Lab (workbenches, tools, disassembled electronics, 3D printing, empty cabinets) that excites xNox and 0bit immediately; a treated music room (digital piano, two guitars, bass, electronic drums, microphones, a small recording desk) where Kite silently touches one piano key and dentalplan/wrongnumber argue about the drum kit; a photo/video room (cameras, lenses, editing computers, lighting, neutral backdrop, explicitly without large Kairos branding) that Adrian and Emily confirm is not a mandatory content studio -- nothing shot there is published without the player's choice; a full kitchen; an outdoor area (basketball half-court, futsal space, a small skateable strip, covered seating); and a small 'Kairos Community' room, currently empty, intended for future voluntary local community/volunteer involvement with no plan, event, or sponsor yet attached.",
+    "Adrian presents four principles on-screen: 'KAIROS COMMONS'; 'NO PERFORMANCE METRICS' (explicitly: no evaluation happens here); 'NO CONTENT REQUIREMENT' (Emily: if a player wants to turn something into content, that's a conversation -- if not, the conversation is over, and Mold confirms his drawings 'stay his'); and 'YOU ARE ALLOWED TO BE BAD AT SOMETHING,' which Adrian delivers directly to several players by name (Kite can play piano badly, xNox can break something, Murmur can fall off a skateboard, rkN can lose at basketball) and caps with 'and nobody loses their spot for it.'",
+    "The official unveiling ends at 12:04; players immediately begin using the space rather than leaving -- 404, xNox, and 0bit take apart an old controller in the Maker Lab; MoteConHuesillo, rkN, and japalenogrits argue over cooking in the kitchen with FLACOGOMEZ as self-appointed 'quality control'; dentalplan plays drums while wrongnumber listens, visibly annoyed that his brother has gotten better; Kite finally plays piano properly once alone; Luma photographs the space itself (the corridor, the Commons sign, Kite's back at the piano, dentalplan drumming, 404/xNox/0bit at the workbench) without sending or posting a single image.",
+    "rkN and velcroDAWG's promised 1-on-1 basketball game draws a crowd (Aster, Moss, Murmur, SullCon, Mold, Atlas, Stewie2K, Hai) and is interrupted unresolved at 6-6 when Aphromoo arrives at 13:07 to pull Main back to a scheduled scrim.",
+    "Competitive training resumes in parallel all afternoon: Main works on reducing hero plays under Aphromoo and Thinkcard; Blue is shown, then explicitly told to forget, the full NACL participant table by Hai, who wants them focused only on the next play; Sable puts White's five on a call with Blue's five as a 'second unit' peer exchange rather than scrims or sparring, which Hai and Sable both observe without interrupting; Atlas finally executes Inferno cleanly for Luk; Academy's CS execution continues improving under Stewie2K, including a moment where wrongnumber is told his two round-saving deaths were 'correct' individually but uncalled and therefore wasted.",
+    "At 16:02, Glacier (Owen Fletcher) takes an approved short break (officially ten minutes, actually closer to thirteen) to visit his grandfather Arthur Fletcher nearby; their conversation is kept deliberately ordinary (how the team is doing, how Owen is doing, watching television together) with no mention of illness, Counter-Strike, or the future beyond Arthur confirming he saw Owen's Nuke answer from the Dust2 interview online and telling him 'I like you,' not Counter-Strike, as his reason for watching. Glacier returns and lands four consecutive shots in the next training block without explanation.",
+    "That evening, Kairos Commons fills again, partially: Aster and June debate an old thriller film; RAMENSOUP attempts real ramen from scratch to general mockery over how long it takes; Kite plays piano uninterrupted for the first time after simply ceasing to care who is listening, with japalenogrits sitting in (not yet singing) and Luma taking exactly one photo with Kite's explicit permission; 0bit and xNox get the old controller working again, imperfectly.",
+    "Adrian walks the finished space that evening, finding Moss and Emily in the still-unplanned Kairos Community room discussing a nearby youth center to visit before promising anything.",
+    "The episode closes on Adrian alone in the room where the Kairos Commons concept began, opening the organization's full dashboard (25 players, 5 teams: LoL Main/LCS, Academy Blue/NACL, Academy White/development, CS Main and CS Academy both still in competitive preparation) and noting plainly: zero official matches played, zero titles, zero international ranking, zero trophies -- then standing in front of a large wall left deliberately blank since the campus was built, reserved for future 'achievements' not yet decided, and closing the day by simply saying 'now we can begin.'"
+  ],
+  "consequences": [
+    "The Kairos Commons facility (Maker Lab, music room, photo/video room, kitchen, outdoor recreation area, Kairos Community room) opens and becomes a standing, non-competitive part of the Kairos campus from 2027-01-12 forward, governed by the 'no performance metrics, no content requirement' principle.",
+    "Any photo, video, or other personal creative material a player produces in the Commons is confirmed as the player's own and is not published or used without that player's explicit choice.",
+    "Glacier (Owen Fletcher)'s grandfather Arthur Fletcher is confirmed living near campus and undergoing ongoing medical care, without further medical specifics disclosed."
+  ],
+  "canonIntroduced": [
+    "The Kairos Commons facility formally opens on 2027-01-12: Maker Lab, music room, photo/video room, kitchen, outdoor recreation area, and the (initially empty) Kairos Community room.",
+    "The 'no performance metrics / no content requirement / you are allowed to be bad at something' principles governing Kairos Commons are established as organizational policy from this date.",
+    "Arthur Fletcher (Owen 'Glacier' Fletcher's grandfather) is confirmed to live near campus; his medical condition is referenced only in general, non-specific terms."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-099"
+  ],
+  "continuityNotes": [
+    "Any public Kairospedia content referencing a player's use of Kairos Commons (e.g. Luma's photography, Kite's piano playing beyond what was already disclosed on camera in episodes 96-97) must preserve the 'no content requirement' principle: do not imply any of these activities were published or made public by Kairos itself unless a later episode explicitly confirms a player's choice to do so.",
+    "Arthur Fletcher's medical details, treatment specifics, and prognosis are deliberately not disclosed in this episode and must not be invented in any derived content."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_100.txt",
+      "locator": "Episódio 100 — Mais do Que Jogadores",
+      "information": "Supplies full prose, dialogue, and the Kairos Commons opening events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The Kairos Commons facility opens on 2027-01-12 with the rooms and principles listed in keyEvents.",
+    "As of this episode, Kairos has played zero official matches and holds zero titles across all five rosters.",
+    "Glacier (Owen Fletcher) visits his grandfather Arthur Fletcher near campus on this date; no medical specifics are given."
+  ],
+  "unconfirmedDetails": [
+    "Arthur Fletcher's specific medical condition, treatment, and prognosis are not disclosed and remain unconfirmed.",
+    "The content and purpose of the Kairos Community room remain unplanned as of this episode."
+  ],
+  "notes": [
+    "This episode is the primary source for any Kairospedia content about Kairos Commons as a facility; it should not be conflated with the player trivia already publicly authorized from episodes 96-98."
+  ]
+}

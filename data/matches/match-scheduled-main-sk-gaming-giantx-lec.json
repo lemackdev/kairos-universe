@@ -1,0 +1,43 @@
+{
+  "id": "match-scheduled-main-sk-gaming-giantx-lec",
+  "slug": "match-scheduled-main-sk-gaming-giantx-lec",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "planned",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-sk-gaming",
+    "opponent-giantx"
+  ],
+  "scheduledDate": "TBD",
+  "date": null,
+  "datePrecision": "unknown",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-sk-gaming",
+  "bestOf": null,
+  "teamAScore": "TBD",
+  "teamBScore": "TBD",
+  "winnerTeamId": null,
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "unknown",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [],
+  "relatedPlayerIds": [],
+  "result": null,
+  "statistics": {},
+  "sources": [
+    "scrim_canonical_inventory_episodes_90_106.json"
+  ],
+  "canonStatus": "unconfirmed",
+  "confirmedFacts": [],
+  "unconfirmedDetails": [
+    "Kairos Main is scheduled to scrim SK Gaming and/or GIANTX (LEC); not yet played as of the current narrative date. No result exists to report."
+  ],
+  "canonNotes": [
+    "Scheduled-only block; never render as a completed match."
+  ]
+}

@@ -1,6 +1,7 @@
 import type {
   RawCharacter,
   RawEpisode,
+  RawMatch,
   RawOrganization,
   RawPlayer,
   RawStaff,
@@ -14,6 +15,7 @@ import type {
   EpisodeView,
   GameView,
   KairospediaCatalog,
+  MatchView,
   MentorView,
   OrganizationView,
   PlayerView,
@@ -350,6 +352,10 @@ export function buildCatalog(
       historicalAliases: player.historicalAliases,
       teamHistory: history,
       trivia: (player.trivia ?? []).filter((fact) => fact !== "TBD"),
+      publicTrivia: player.publicTrivia ?? [],
+      favoriteChampions: player.favoriteChampions ?? [],
+      favoriteMap: player.favoriteMap && player.favoriteMap !== "TBD" ? player.favoriteMap : null,
+      favoriteWeapon: player.favoriteWeapon && player.favoriteWeapon !== "TBD" ? player.favoriteWeapon : null,
       awards: getCollection<RawAward>(universe, "awards")
         .filter((award) => award.recipientId === player.id && award.canonStatus === "confirmed" &&
           (!award.competitionId || award.competitionId === "TBD" || publication.enabledCompetitions.includes(award.competitionId)))
@@ -515,6 +521,44 @@ export function buildCatalog(
     };
   });
 
+  const rawMatches = getCollection<RawMatch>(universe, "matches");
+  const kairosTeamIds = new Set(teamViews.map((team) => team.id));
+  const matchViews: MatchView[] = rawMatches.map((match) => {
+    const teamAId: string = match.teamAId ?? match.teams[0] ?? "unknown";
+    const teamBId: string = match.teamBId ?? match.teams[1] ?? "unknown";
+    const nameFor = (teamId: string) =>
+      teamViewById.get(teamId)?.name ??
+      (String((match.result as Record<string, unknown> | null)?.opponentName ?? "") || teamId);
+    return {
+      id: match.id,
+      slug: match.slug,
+      game: match.game,
+      matchType: match.matchType ?? "private-scrim",
+      status: match.status,
+      officialStatus: match.officialStatus ?? "practice",
+      provenance: match.provenance ?? "unknown",
+      affectsStandings: match.affectsStandings === true,
+      scheduledDate: match.scheduledDate && match.scheduledDate !== "TBD" ? match.scheduledDate : null,
+      date: match.date && match.date !== "TBD" ? match.date : null,
+      teamAId,
+      teamBId,
+      teamAName: nameFor(teamAId),
+      teamBName: nameFor(teamBId),
+      bestOf: typeof match.bestOf === "number" ? match.bestOf : null,
+      teamAScore: match.teamAScore ?? null,
+      teamBScore: match.teamBScore ?? null,
+      winnerTeamId: match.winnerTeamId && match.winnerTeamId !== "TBD" ? match.winnerTeamId : null,
+      isInternal: kairosTeamIds.has(teamAId) && kairosTeamIds.has(teamBId),
+      episodeIds: match.relatedEpisodeIds ?? [],
+      playerIds: match.relatedPlayerIds ?? [],
+      result: match.result && match.result !== "TBD" ? (match.result as Record<string, unknown>) : null,
+      sources: match.sources,
+      confirmedFacts: match.confirmedFacts,
+      unconfirmedDetails: match.unconfirmedDetails,
+      canonNotes: match.canonNotes,
+    };
+  }).sort((a, b) => (b.date ?? b.scheduledDate ?? "").localeCompare(a.date ?? a.scheduledDate ?? ""));
+
   const competitionViews = buildCompetitionViews(universe, publication, teamViews, playerViews, sourceViews);
   for (const player of playerViews) {
     // Only match-specific lineups establish participation, never the current roster.
@@ -551,6 +595,7 @@ export function buildCatalog(
     ...playerViews.map((player) => `/wiki/players/${player.slug}`),
     ...staffViews.map((person) => `/wiki/staff/${person.slug}`),
     ...competitionViews.map((competition) => `/wiki/competitions/${competition.slug}`),
+    ...matchViews.map((match) => `/wiki/matches/${match.slug}`),
   ];
 
   return {
@@ -571,7 +616,7 @@ export function buildCatalog(
     players: playerViews,
     staff: staffViews,
     competitions: competitionViews,
-    matches: [],
+    matches: matchViews,
     transfers: [],
     routes: [...new Set(routes)].sort((a, b) => a.localeCompare(b)),
   };

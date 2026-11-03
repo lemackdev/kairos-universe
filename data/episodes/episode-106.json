@@ -1,0 +1,138 @@
+{
+  "id": "episode-106",
+  "slug": "episode-106",
+  "episodeNumber": 106,
+  "title": "Do Outro Lado da Tela",
+  "historicalTitle": "Do Outro Lado da Tela",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-20",
+  "datePrecision": "exact",
+  "publicationOrder": 106,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "All three League rosters play completed external Bo3 scrims the same day against organizations still fielding experimental, unconfirmed 2027 lineups. Academy Blue beats GIANTX (LEC) 2-1: GIANTX wins game 1 off early mid/jungle pressure (Nexus falls at 26 minutes); Blue wins game 2 after a SullCon top-lane duel swings momentum, closing it out three minutes after taking a 24-minute Baron on the explicit picks Renekton (SullCon), Nidalee (xNox), Taliyah (Kite), Ezreal (Murmur), Rakan (japalenogrits); Blue wins the decisive game 3 at 39 minutes on explicit picks Azir (Kite), Jinx (Murmur), and Rakan (japalenogrits) after losing Baron around 30 minutes, defending its own Nexus by 35 minutes, and then winning an Elder-dragon fight. Academy White loses to Dorado Gaming (NACL) 1-2: White wins game 1 off a clean 28-minute Baron-entrance fight on the explicit lineup Ornn (Pebble), Kindred (vexemite), Viktor (0bit), Jhin (June), Bard (Luma); Dorado adjusts two picks to pressure bot lane and wins game 2 after a reversed Baron fight; Dorado wins game 3 as Pebble moves to Camille and White overcommits topside while Dorado exploits the bot-side gap. Main loses to Shopify Rebellion (LCS) 1-2: Shopify wins game 1 by simply outplaying Main; Main wins game 2 at 32 minutes off a Vanta-found Baron opening; Main loses the decisive game 3 after a split call at the Baron, with Shopify converting the resulting pick advantage to close the series.",
+  "keyEvents": [
+    "8:00 — Academy Blue vs. GIANTX (LEC), Bo3: GIANTX wins game 1 with early aggressive mid/jungle pressure that denies Kite priority and forces SullCon off two waves to stop a dive, ending with Blue's Nexus falling at 26 minutes.",
+    "Game 2: SullCon wins a top-lane duel that flips momentum; Blue takes a 24-minute Baron after a double kill and closes the game three minutes later. Explicit picks: Renekton (SullCon), Nidalee (xNox), Taliyah (Kite), Ezreal (Murmur), Rakan (japalenogrits).",
+    "Game 3 (decisive): GIANTX runs an engage composition that repeatedly threatens Blue's backline; Blue loses Baron at 30 minutes and is defending its own Nexus by 35 minutes before finding the first kill that lets it take the Elder dragon, push mid, and close the game at 39 minutes. Explicit picks: Azir (Kite), Jinx (Murmur), Rakan (japalenogrits).",
+    "Academy Blue wins the series 2-1 over GIANTX, its first win against an LEC-affiliated organization.",
+    "12:41 — Academy White vs. Dorado Gaming (NACL), Bo3: Hai tells Blue beforehand that beating an LEC organization earlier doesn't obligate White to beat Dorado to prove anything.",
+    "Game 1: White finds a clean fight at the Baron entrance at 28 minutes and wins. Explicit picks: Ornn (Pebble), Kindred (vexemite), Viktor (0bit), Jhin (June), Bard (Luma).",
+    "Game 2: Dorado swaps two picks and applies constant bot-lane pressure, eventually punishing the space White leaves there; White arrives at Baron with only a minimal lead, Dorado wins the resulting fight, takes the objective, and reverses the game's momentum to win.",
+    "Game 3 (decisive): Pebble moves to Camille and White overcommits resources topside; Dorado exploits the resulting bot-side gaps and wins the Baron fight to close the series.",
+    "Academy White loses the series 1-2 to Dorado Gaming.",
+    "15:08 — Main vs. Shopify Rebellion (LCS), Bo3: Main's roster is simply outplayed in game 1, which Shopify wins.",
+    "Game 2: Vanta finds a Baron opening; Main wins at 32 minutes.",
+    "Game 3 (decisive): Shopify starts stronger; Shopify tries to force a Baron while rkN is without Teleport, Main contests it, and Shopify ultimately wins the resulting engagement and closes the game, taking the series.",
+    "Main loses the series 1-2 to Shopify Rebellion.",
+    "Day's final results: Main lost to Shopify Rebellion 1-2; Academy Blue beat GIANTX 2-1; Academy White lost to Dorado Gaming 1-2.",
+    "Adrian notes afterward that GIANTX, Shopify Rebellion, and Dorado Gaming were all still fielding experimental, unconfirmed-for-February lineups, making the day's results informative but not predictive of Kairos's eventual official competitive standing."
+  ],
+  "consequences": [
+    "Kairos records its first external scrim series win (Academy Blue 2-1 over GIANTX) and two external scrim series losses (Main 1-2 to Shopify Rebellion, Academy White 1-2 to Dorado Gaming), none of them official matches or affecting any league standing."
+  ],
+  "canonIntroduced": [
+    "Three completed external League Bo3 scrims are established for 2027-01-20, with the series results, explicit champion picks, and key events listed in keyEvents fixed as canon.",
+    "Academy Blue's first scrim win over an LEC-affiliated organization (GIANTX) is established."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-105"
+  ],
+  "continuityNotes": [
+    "These are private scrims against organizations' own experimental, unconfirmed rosters, not official matches; they carry no LCS/LEC/NACL standing implications for Kairos or its opponents.",
+    "Only the explicitly named champion picks and narrated events in this episode are protected canon; full per-player K/D/A, items, bans, and objective statistics for these three series exist only as separately maintained synthetic/proposed statistical reconstruction and must be labeled as such, never asserted as directly narrated.",
+    "GIANTX, Shopify Rebellion, and Dorado Gaming's specific player identities beyond any explicitly named in-universe are not finalized rosters and must not be presented as real-world transfers or contracts."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "GIANTX, Shopify Rebellion, and Dorado Gaming are referenced as real-world esports organizations fielding fictional in-universe experimental rosters as Kairos's scrim opponents; no real-world roster, contract, or transfer information is implied beyond what is explicitly narrated."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_106.txt",
+      "locator": "Episódio 106 — Do Outro Lado da Tela",
+      "information": "Supplies full prose, series results, and explicit named champion picks/events for all three completed external Bo3 scrims.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "structured-data",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/external_lol_scrims_ep106_full_synthetic_proposal.json",
+      "locator": "completedSeries",
+      "information": "Supplies full per-game League box scores (champions, K/D/A, CS, gold, bans, objectives) for all three series, marked as a synthetic draft/stat proposal protecting the explicit canon picks and results.",
+      "evidenceLevel": "indirect",
+      "confidence": "medium",
+      "userConfirmationRequired": true
+    },
+    {
+      "sourceType": "structured-data",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/external_league_scrims_ep105_106_source_only.json",
+      "locator": "completedSeries",
+      "information": "Supplies the strictly narrated canon facts for cross-checking the synthetic reconstruction, without proposed statistics.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Academy Blue defeats GIANTX 2-1 on 2027-01-20, with explicit picks confirmed for games 2 and 3 as listed in keyEvents.",
+    "Academy White loses to Dorado Gaming 1-2 on 2027-01-20, with explicit picks confirmed for game 1 as listed in keyEvents.",
+    "Main loses to Shopify Rebellion 1-2 on 2027-01-20.",
+    "None of these three series are official matches or affect any league standing; all opponent rosters are explicitly experimental and unconfirmed for February."
+  ],
+  "unconfirmedDetails": [
+    "Full per-player statistics beyond the explicitly named picks and events for all three series are reconstructed, not directly narrated.",
+    "GIANTX, Shopify Rebellion, and Dorado Gaming's finalized February rosters remain unconfirmed."
+  ],
+  "notes": [
+    "Full structured box-score data for these three series lives in data/matches and data/statistics, cross-referenced to this episode via relatedEpisodeIds, not duplicated here."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "riot-games-publisher",
+  "slug": "riot-games-publisher",
+  "continuityId": "kairos-universe",
+  "name": "Riot Games",
+  "shortName": "Riot Games",
+  "category": "league-communications",
+  "description": "The publisher of League of Legends, portrayed in the Kairos Universe producing pre-season roster-feature content for competing organizations.",
+  "originType": "real-world-reference",
+  "realWorldEntity": "Riot Games, Inc.",
+  "coverageDisclosure": "Riot Games is a real-world company. Every article credited to Riot Games on Kairospedia is a fictional dramatization written for the Kairos Universe story. None of it represents an actual Riot Games publication, video, product, or statement.",
+  "organizationId": null,
+  "homepage": null,
+  "logoPath": null,
+  "canonStatus": "confirmed",
+  "sourceIds": ["source-episode-096-riot-interview"],
+  "notes": [
+    "Used once in-universe for the Episode 96 pre-season roster feature filmed at the Kairos campus; Riot Games has no other editorial role in the Kairos Universe continuity."
+  ]
+}

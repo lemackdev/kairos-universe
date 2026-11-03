@@ -1,0 +1,110 @@
+{
+  "id": "episode-104",
+  "slug": "episode-104",
+  "episodeNumber": 104,
+  "title": "Ninguém Está Pronto",
+  "historicalTitle": "Ninguém Está Pronto",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-18",
+  "datePrecision": "exact",
+  "publicationOrder": 104,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "owen-glacier-fletcher",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Three weeks before Kairos's main competitive debut window, with no official match played and no opponent confirmed, Adrian sets the next fifteen days as the organization's most intense scrim stretch yet: Main and Blue will seek LCS/LEC opponents, White will seek NACL and Brazilian Circuito Desafiante opponents. The same day, CS Main and Academy play the promised rematch (see episode-103) of their earlier Bo5 (which Academy lost 2-3, deciding on the final Overpass round). This time Academy wins the revenge series 3-2: Main takes Cache 13-11 and Nuke 13-9 (MoteConHuesillo clutching a 1v3 on round 16 of Nuke), Academy takes Train 13-8 to tie the series, then after falling behind 2-7 on Inferno storms back to force and win overtime 16-14 to go up 2-2, and closes the series by winning the pistol round and ultimately the match on Cobblestone 13-10. Glacier (Owen Fletcher) wins his individual opening duel against dentalplan on Cache despite Main losing the series overall.",
+  "keyEvents": [
+    "Emily presents the coaches a single-word scrim-planning slide ('SCRIMS') three weeks ahead of Kairos's competitive debut window, with Main and Blue tasked to find LCS/LEC opponents and White tasked to find NACL/Circuito Desafiante opponents; Aphromoo, Hai, and Sable each react positively to their assigned opponent pools.",
+    "Emily notes that none of this is guaranteed yet -- organizations are still finalizing their own 2027 starting fives, with players in tryouts and contracts still being negotiated.",
+    "CS Main and Academy play the agreed rematch of their earlier Bo5 (lost by Academy 2-3, on the final Overpass round) the same day.",
+    "Map 1, Cache (14:03): Glacier wins the individual opening duel against dentalplan; Main wins the map 13-11, series 1-0.",
+    "Map 2, Train (15:01): Academy wins 13-8, tying the series 1-1.",
+    "Map 3, Nuke (16:02): MoteConHuesillo clutches a 1v3 on round 16 that looked lost; Main wins 13-9, series 2-1 Main.",
+    "Map 4, Inferno (17:09): Academy opens 7-2, Main fights back to force overtime, and Academy wins the overtime 16-14, tying the series 2-2.",
+    "Map 5, Cobblestone (18:28): Academy wins the opening pistol round and closes out the match 13-10, winning the revenge series 3-2."
+  ],
+  "consequences": [
+    "CS Academy evens its head-to-head record against CS Main at 1-1 across the two internal Bo5 series played so far (episode-101 and this episode).",
+    "Kairos enters an intensive external scrim-seeking period across all five rosters with no opponents yet confirmed."
+  ],
+  "canonIntroduced": [
+    "Kairos's 15-day intensive external scrim-seeking period begins 2027-01-18, assigning Main/Blue to pursue LCS/LEC opponents and White to pursue NACL/Circuito Desafiante opponents."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-103"
+  ],
+  "continuityNotes": [
+    "This CS Bo5 is a private internal rematch between Kairos's own two CS rosters, not an official or external match.",
+    "Full per-map Counter-Strike box scores (K/D/A, ADR, synthetic rating) for this series are retained separately as structured match/statistics data, cross-referenced to this episode, not duplicated in prose here."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_104.txt",
+      "locator": "Episódio 104 — Ninguém Está Pronto",
+      "information": "Supplies full prose and per-map results for the CS Main vs Academy revenge Bo5.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "structured-data",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/kairos_cs_scrims_stats.json",
+      "locator": "series id bo5-2",
+      "information": "Supplies full per-map Counter-Strike box scores for this revenge Bo5, marked synthetic-retrospective.",
+      "evidenceLevel": "indirect",
+      "confidence": "medium",
+      "userConfirmationRequired": true
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "CS Academy defeats CS Main 3-2 in the revenge series on 2027-01-18: Main wins Cache (13-11) and Nuke (13-9); Academy wins Train (13-8), Inferno in overtime (16-14), and Cobblestone (13-10).",
+    "Kairos begins a 15-day external scrim-seeking period across all five rosters starting 2027-01-18, with no opponents yet confirmed."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "Full structured box-score data for this series lives in data/matches and data/statistics, cross-referenced to this episode via relatedEpisodeIds."
+  ]
+}

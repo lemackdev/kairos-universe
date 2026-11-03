@@ -1,0 +1,121 @@
+{
+  "id": "episode-099",
+  "slug": "episode-099",
+  "episodeNumber": 99,
+  "title": "Agora É Oficial",
+  "historicalTitle": "Agora É Oficial",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-11",
+  "datePrecision": "exact",
+  "publicationOrder": 99,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "evan-soupcrime-nakamura",
+    "jake-stewie2k-yip"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "The week starts with camera crews gone and training resumed under pressure: Aphromoo puts 'LCS' on the Main whiteboard with nothing else written beneath it, and Main loses an ugly early-morning scrim; Hai pushes back on Blue's undisciplined aggression despite a lopsided scrim win; Sable uses Academy White's lack of a confirmed league as freedom to experiment. At 11:41, Emily receives direct word from competitive administration and gathers all three League teams, the coaching staff, and Adrian: Kairos Gaming is officially confirmed as an LCS organization for 2027, and Kairos Academy Blue is officially confirmed as an NACL participant, appearing for the first time in the league's published 2027 roster alongside Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels, University of Mississippi, and Winthrop University. Adrian is explicit that Academy White's continued existence, without a confirmed league, is not being left behind -- its purpose is development, experimentation, and growth until the right competitive opportunity appears. Training resumes within minutes, with no extended celebration.",
+  "keyEvents": [
+    "Aphromoo writes 'LCS' alone on Main's whiteboard before the first training block, telling 404 (Mason) and the team it isn't meant as motivational, but as a corrective: 'you keep acting like we have six months.'",
+    "Main's first scrim of the day goes badly: rkN dies early twice chasing side pressure, Vanta loses the first objective, 404 overextends trying to save an already-lost fight, Aster arrives late to a rotation, and the team is aced after Moss calls (and is ignored on) a retreat, ending in a fast Nexus loss; Thinkcard reviews the exact 11:43 mark with the team and states plainly that they are 'still playing like five good players,' not yet an LCS team.",
+    "Blue's third scrim of the morning ends 27 kills to 24 minutes with all five players (SullCon, xNox, Kite, Murmur, japalenogrits) wanting to push individually; Hai shuts it down afterward, noting the win came against an opponent given four separate chances to come back, and warns that in the NACL that pattern costs a series, not just a scrim.",
+    "Academy White trains without any league or opponent pressure under Sable, who frames the freedom explicitly: 'you're not the team that got left over. You're the team that still gets to experiment' -- Pebble plays full weakside, vexemite changes his pathing, 0bit gets draft priority, June is forced to play resourceless, and Luma begins calling more of the map.",
+    "At 11:41, Emily receives a message directly from competitive administration (not general or player channels) and immediately pulls Aphromoo, then all fifteen League players and the full coaching staff (Aphromoo, Hai, Sable, Thinkcard) plus Adrian into the main review room within five minutes.",
+    "Adrian confirms: 'Kairos Gaming is officially an LCS organization,' to Main, and then, after a brief pause for effect, 'Kairos Academy Blue has also been accepted as an official NACL participant,' to Blue.",
+    "The official 2027 NACL participant list is shown on screen: Kairos Academy Blue, Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels, University of Mississippi, Winthrop University.",
+    "Adrian confirms to all three teams that this changes the calendar (scrims, media day) and that Academy Blue will debut in blue team uniforms, which gets the single biggest reaction of the meeting.",
+    "Adrian states explicitly, addressing Academy White directly and calling it 'the most delicate part,' that White is not being left behind: its role is to develop, experiment, and grow, and it will be ready when the right competitive opportunity appears; Sable confirms White 'has other work' to do.",
+    "The meeting ends at 12:16; by 12:27 all fifteen players are back in their rooms with no extended celebration -- Aphromoo immediately restarts Main's 11:43 review from the morning's bad scrim. Hai erases Blue's whiteboard line 'GET READY FOR NACL' and replaces it with 'WIN NACL.'",
+    "At day's end (20:03), Adrian privately opens the note he created three days earlier titled 'KAIROS COMMONS' (see episode-098) and adds a single line: 'Tomorrow.'"
+  ],
+  "consequences": [
+    "Kairos Gaming's LCS status and Kairos Academy Blue's NACL status become official, effective 2027-01-11, changing both teams' training calendars (scrims, media obligations) and giving Academy Blue a blue competitive uniform.",
+    "Academy White's status as a development/experimental roster without a confirmed league destination is explicitly reaffirmed as intentional, not a demotion or oversight.",
+    "Adrian's 'Kairos Commons' note, opened in episode-098, is explicitly scheduled to become real 'tomorrow,' directly setting up episode-100."
+  ],
+  "canonIntroduced": [
+    "Kairos Gaming's official LCS organization status is confirmed effective 2027-01-11.",
+    "Kairos Academy Blue's official 2027 NACL participant status is confirmed effective 2027-01-11, alongside the other seven confirmed 2027 NACL participants: Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels, University of Mississippi, Winthrop University.",
+    "Academy Blue's competitive uniform color is confirmed as blue."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-098"
+  ],
+  "continuityNotes": [
+    "This episode's LCS/NACL confirmations are new official competitive status changes as of 2027-01-11; any team or roster record describing Kairos Gaming's or Kairos Academy Blue's league status as unconfirmed/TBD prior to this date is not contradicted, but records describing status as of this date forward should reflect these confirmations.",
+    "Academy White remains explicitly without a confirmed league destination after this episode; do not infer a league assignment for White from this episode."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "The NACL 2027 participant list includes real-world collegiate/amateur esports organization names (Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels, University of Mississippi, Winthrop University) used as real-world league participants alongside the fictional Kairos Academy Blue; no further real-world biography or roster detail for these organizations is implied."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_099.txt",
+      "locator": "Episódio 99 — Agora É Oficial",
+      "information": "Supplies full prose, dialogue, and the LCS/NACL confirmation events.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Kairos Gaming is officially confirmed as an LCS organization effective 2027-01-11.",
+    "Kairos Academy Blue is officially confirmed as a 2027 NACL participant effective 2027-01-11.",
+    "Academy White remains without a confirmed league destination as of this episode, by explicit organizational design, not oversight."
+  ],
+  "unconfirmedDetails": [
+    "Academy White's eventual competitive destination remains TBD."
+  ],
+  "notes": [
+    "This episode directly precedes and motivates the opening of the Kairos Commons facility in episode-100.",
+    "A downstream consistency check against data/teams/*.json league/competition-status fields is recommended if those fields do not yet reflect the 2027-01-11 LCS/NACL confirmations; this episode record does not itself modify team files."
+  ]
+}

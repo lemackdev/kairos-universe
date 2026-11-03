@@ -108,5 +108,33 @@
     "Do not capitalize or alter the nickname wrongnumber.",
     "His Anchor / Support Rifler role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD.",
     "Do not treat Nolan and Reid as a single entity or inseparable roster package."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Overpass",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use M4A1-S as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Participated in three school plays, none as lead",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Twin brother of Nolan Hart; did school theatre and remembers some lines",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Overpass",
+  "favoriteWeapon": "M4A1-S"
 }

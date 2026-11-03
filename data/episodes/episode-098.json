@@ -1,0 +1,140 @@
+{
+  "id": "episode-098",
+  "slug": "episode-098",
+  "episodeNumber": 98,
+  "title": "Dez Cadeiras",
+  "historicalTitle": "Dez Cadeiras",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-08",
+  "datePrecision": "exact",
+  "publicationOrder": 98,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "The Riot League video (filmed in episode-096) is published the night before this episode, confirming its in-universe release date as 2027-01-07, and its reception -- fans reacting as much to Kite's piano and 0bit's consoles as to champion picks -- gives Dust2.us the idea to film a similar feature with Kairos's ten Counter-Strike players (Main and Academy). Adrian agrees to a 40-minute filmed session during training; it runs 1 hour 12 minutes. All ten players answer favorite map, one-weapon-forever, and pre-Kairos personal background, plus informal team-banter rapid-fire questions between Main and Academy. The episode ends with Adrian privately opening a new, unbudgeted, unannounced folder on his computer titled 'KAIROS COMMONS,' with the note 'What were they before they became players?'",
+  "keyEvents": [
+    "The Riot League feature (filmed 2027-01-05 in episode-096) is confirmed published the night before this episode, i.e. 2027-01-07; fan reaction focuses heavily on personal trivia (Kite's piano, 0bit's consoles, 404's keyboards, japalenogrits's choir background) rather than only gameplay content.",
+    "Dust2.us reaches out to Adrian the same morning proposing an equivalent Counter-Strike feature; Adrian agrees to a 40-minute window during training (it ultimately runs 1h12m).",
+    "All ten CS players (Main: Atlas, Glacier, MoteConHuesillo, Mold, FLACOGOMEZ; Academy: RAMENSOUP, velcroDAWG, p4rkingl0t, dentalplan, wrongnumber) are seated for filming -- five black chairs for Main, five green for Academy.",
+    "Favorite map: Atlas - Inferno ('the map makes you communicate, you can't hide behind mechanics forever'); Glacier - Nuke (despite being the team's AWPer, 'especially because I'm an AWPer,' citing info/rotation/sound/vertical pressure); MoteConHuesillo - Cobblestone (admits it isn't even the pool's best map, just his favorite); Mold - Dust II; FLACOGOMEZ - Train. Academy: RAMENSOUP - Nuke; velcroDAWG - Inferno; p4rkingl0t - Train; dentalplan - Dust II; wrongnumber - Overpass.",
+    "One weapon forever: Mold, Atlas, and MoteConHuesillo all choose the AK; FLACOGOMEZ chooses the M4A1-S; Glacier, the team's primary AWPer, chooses the AWP, to teammates' visible relief. Academy: RAMENSOUP and velcroDAWG choose AK; p4rkingl0t chooses AK after almost picking the M4; dentalplan chooses AWP; wrongnumber chooses M4A1-S.",
+    "Pre-Kairos personal background, Main: Atlas played ice hockey (defenseman) and still watches NHL; also enjoys large (1000-2000 piece) jigsaw puzzles. Glacier worked a few hours a week at a convenience store (stock, register, cleaning) and is interested in military history (strategy, logistics, old campaigns specifically, not weapons or collecting). MoteConHuesillo played futsal for years (winger) and cooks Mexican food learned from his family. Mold, after initially deflecting, admits to walking desert trails for hours without music or a podcast, and reveals he draws (mostly cars, buildings, and faces) but refuses to show any of it on camera. FLACOGOMEZ also played futsal and has followed Brazilian football (specifically Palmeiras) since childhood, and collects football jerseys ('about twenty,' likely more).",
+    "Pre-Kairos personal background, Academy: RAMENSOUP did competitive school debate and cooks real ramen from scratch (broth and toppings, not instant). velcroDAWG plays basketball and speaks enough Serbian to talk with part of his family. p4rkingl0t likes cars, models, engines, and sound, and has done nighttime automotive photography for friends (parking lots, gas stations, city lights). dentalplan played drums for four years. wrongnumber did three school theater productions, none as lead; the two are revealed as twins, and they immediately and simultaneously dispute, on camera, who is older (dentalplan says eleven minutes, wrongnumber says nine), which is never resolved.",
+    "An unscripted closing round has both teams rapid-fire guessing things about each other (who stays up latest, worst musical taste, who'd survive alone in a forest, who'd get arrested first on a trip); RAMENSOUP claims forest survival skill from six months as a scout, which p4rkingl0t immediately disputes as insufficient.",
+    "After filming, Adrian privately opens a new folder on his computer, unbudgeted and unannounced, titled 'KAIROS COMMONS,' with the note 'What were they before they became players?' -- the first appearance of the concept that becomes the Kairos Commons facility (see episode-100)."
+  ],
+  "consequences": [
+    "The Dust2.us interview footage becomes the source material for a Kairospedia archive feature; its real-world outlet publication date is never confirmed in-universe and remains unknown/null.",
+    "Adrian's private 'KAIROS COMMONS' folder is the direct origin of the Kairos Commons facility opened in episode-100."
+  ],
+  "canonIntroduced": [
+    "The Riot League video's in-universe publication date is confirmed as 2027-01-07.",
+    "All ten CS players' favorite maps, one-weapon-forever answers, and pre-Kairos personal background are established as recorded on 2027-01-08.",
+    "dentalplan (Nolan Hart) and wrongnumber (Reid Hart) are confirmed as twin brothers; their exact birth-order gap is explicitly left disputed between them (eleven minutes vs. nine minutes) and is not resolved as historical fact.",
+    "The concept that becomes 'Kairos Commons' is first conceived by Adrian Vale on 2027-01-08, with no budget, announcement, or project status yet."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-097"
+  ],
+  "continuityNotes": [
+    "The Dust2.us filming is confirmed recorded on 2027-01-08; no real-world Dust2.us publication date is ever given in-universe and must remain unknown/null in any derived content, distinct from the Kairospedia archive page's own publication date.",
+    "The twins' disputed birth-order gap (nine vs. eleven minutes) is deliberately left unresolved in-universe and should not be presented as settled fact in any derived content."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Dust2.us is referenced as a real-world Counter-Strike media outlet appearing in a fictional in-universe production role; no real Dust2.us production, personnel, or publication is implied.",
+    "Stewie2K and Luk are referenced consistent with their established fictional Kairos CS coaching roles."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_098.txt",
+      "locator": "Episódio 98 — Dez Cadeiras",
+      "information": "Supplies full prose, dialogue, map/weapon picks, and personal trivia for all ten Counter-Strike players, and the origin of the Kairos Commons concept.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "The real-world Dust2.us publication date for this footage is unknown and must remain null."
+  ],
+  "confirmedFacts": [
+    "The Riot League video was published in-universe on 2027-01-07.",
+    "All ten CS players (Main and Academy) are filmed by Dust2.us on 2027-01-08, with the map/weapon/personal-background content listed in keyEvents.",
+    "dentalplan and wrongnumber are twin brothers; their birth-order gap remains an explicitly disputed joke between them, not settled fact.",
+    "Adrian Vale privately originates the 'Kairos Commons' concept on 2027-01-08, with no budget, project, or announcement at this stage."
+  ],
+  "unconfirmedDetails": [
+    "The real-world Dust2.us outlet release date for this footage is not given and remains unknown.",
+    "The twins' exact birth-order gap (nine vs. eleven minutes) is left unresolved."
+  ],
+  "notes": [
+    "This record is the authoritative source for the Dust2.us interview content referenced by the Kairospedia publication 'interview-dust2-kairos-cs-2027-01-08', and is the origin point for the Kairos Commons facility."
+  ],
+  "mediaEvents": [
+    {
+      "id": "episode-098-dust2-interview",
+      "type": "filmed-player-interview",
+      "date": "2027-01-08",
+      "status": "confirmed",
+      "outlet": "Dust2.us (fictional in-universe production)",
+      "participants": [
+        "caleb-atlas-mercer",
+        "owen-glacier-fletcher",
+        "emiliano-moteconhuesillo-navarro",
+        "cameron-mold-ruiz",
+        "vincente-flacogomez-galan",
+        "evan-soupcrime-nakamura",
+        "milo-velcrodog-radovic",
+        "zayn-parkinglot-haddad",
+        "nolan-dentalplan-hart",
+        "reid-wrongnumber-hart"
+      ],
+      "summary": "Dust2.us films all ten Kairos Counter-Strike players (Main and Academy): favorite map, one-weapon-forever answer, pre-Kairos personal background, and informal inter-team banter. Real-world outlet publication date unknown/unconfirmed in-universe.",
+      "sponsorship": false,
+      "fictionalInvolvement": true,
+      "canonNotes": [
+        "This is a fictional in-universe production attributed to Dust2.us, not a real-world Dust2.us publication.",
+        "No real-world Dust2.us release date is confirmed; it must stay null. This is distinct from the Kairospedia archive page's own publication date, which may be set independently as an in-universe wiki archival act."
+      ]
+    }
+  ]
+}

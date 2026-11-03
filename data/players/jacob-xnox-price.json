@@ -73,5 +73,35 @@
     "Do not infer nationality from city.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Nidalee is favorite; Lee Sin also close",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Built first PC mostly from used parts at age thirteen",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Used to dismantle broken electronics and was not always able to reassemble them",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played American football when younger, quit early",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Nidalee",
+    "Lee Sin"
   ]
 }

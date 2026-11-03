@@ -87,5 +87,35 @@
     "The role is stated explicitly in historical Episode 22 and does not rely on roster-order inference.",
     "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date.",
     "The current nickname is vexemite (exact spelling), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use it."
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Kindred is favorite; Vi is another comfort pick",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Hated Vegemite and rates it -2/10",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Was a scout in childhood; knows tent setup, knots, compass",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Very skilled in rhythm games; showed old videos",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Kindred",
+    "Vi"
   ]
 }

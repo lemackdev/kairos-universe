@@ -1,0 +1,638 @@
+{
+  "id": "match-lol-external-academy-white-dorado-gaming-2027-01-20",
+  "slug": "match-lol-external-academy-white-dorado-gaming-2027-01-20",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-white",
+    "opponent-dorado-gaming"
+  ],
+  "scheduledDate": "2027-01-20",
+  "date": "2027-01-20",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-white",
+  "teamBId": "opponent-dorado-gaming",
+  "bestOf": 3,
+  "teamAScore": 1,
+  "teamBScore": 2,
+  "winnerTeamId": "opponent-dorado-gaming",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "proposed-opponent-draft",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-106"
+  ],
+  "relatedPlayerIds": [
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "result": {
+    "opponentName": "Dorado Gaming",
+    "opponentLeague": "NACL",
+    "opponentRosterStatus": "experimental / not finalized",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "kairos-lol-academy-white",
+        "durationMinutes": null,
+        "knownEvents": [
+          "White wins Baron fight after ~28m"
+        ],
+        "provenance": "narrated-canon-partial",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-academy-white",
+            "teamName": "Kairos Academy White",
+            "kills": 22,
+            "deaths": 19,
+            "gold": 72157,
+            "towers": 11,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Yasuo",
+              "Gragas",
+              "Hwei",
+              "Kennen",
+              "Draven"
+            ],
+            "players": [
+              {
+                "playerId": "isaac-pebble-young",
+                "displayName": "Isaac \"Pebble\" Young",
+                "role": "TOP",
+                "champion": "Ornn",
+                "pickProvenance": "narrated-canon",
+                "kills": 3,
+                "deaths": 2,
+                "assists": 7,
+                "cs": 212,
+                "gold": 14643,
+                "kda": "3/2/7",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "benjamin-vex-carter",
+                "displayName": "Benjamin \"vexemite\" Carter",
+                "role": "JUNGLE",
+                "champion": "Kindred",
+                "pickProvenance": "narrated-canon",
+                "kills": 10,
+                "deaths": 5,
+                "assists": 3,
+                "cs": 170,
+                "gold": 14871,
+                "kda": "10/5/3",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "nathan-0bit-hall",
+                "displayName": "Nathan \"0bit\" Hall",
+                "role": "MID",
+                "champion": "Viktor",
+                "pickProvenance": "narrated-canon",
+                "kills": 5,
+                "deaths": 5,
+                "assists": 7,
+                "cs": 257,
+                "gold": 16150,
+                "kda": "5/5/7",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "cole-june-mercer",
+                "displayName": "Cole \"June\" Mercer",
+                "role": "ADC",
+                "champion": "Jhin",
+                "pickProvenance": "narrated-canon",
+                "kills": 4,
+                "deaths": 3,
+                "assists": 6,
+                "cs": 267,
+                "gold": 15962,
+                "kda": "4/3/6",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "ryan-luma-chen",
+                "displayName": "Ryan \"Luma\" Chen",
+                "role": "SUPPORT",
+                "champion": "Bard",
+                "pickProvenance": "narrated-canon",
+                "kills": 0,
+                "deaths": 4,
+                "assists": 5,
+                "cs": 26,
+                "gold": 10531,
+                "kda": "0/4/5",
+                "statProvenance": "narrated-canon"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-dorado-gaming",
+            "teamName": "Dorado Gaming",
+            "kills": 19,
+            "deaths": 22,
+            "gold": 59589,
+            "towers": 5,
+            "dragons": 2,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Karthus",
+              "Zed",
+              "Teemo",
+              "Blitzcrank",
+              "Poppy"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Camille",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 2,
+                "assists": 3,
+                "cs": 209,
+                "gold": 12047,
+                "kda": "3/2/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Maokai",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 10,
+                "assists": 3,
+                "cs": 177,
+                "gold": 11210,
+                "kda": "4/10/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming MID (identity TBD)",
+                "role": "MID",
+                "champion": "LeBlanc",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 3,
+                "assists": 3,
+                "cs": 218,
+                "gold": 13179,
+                "kda": "6/3/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Ezreal",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 5,
+                "deaths": 3,
+                "assists": 9,
+                "cs": 270,
+                "gold": 13566,
+                "kda": "5/3/9",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Braum",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 1,
+                "deaths": 4,
+                "assists": 12,
+                "cs": 24,
+                "gold": 9587,
+                "kda": "1/4/12",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "opponent-dorado-gaming",
+        "durationMinutes": 24,
+        "knownEvents": [
+          "Dorado applies bot-side pressure; June dies three times by ~15m",
+          "Luma roaming exposes ADC further"
+        ],
+        "provenance": "proposed-opponent-draft",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-academy-white",
+            "teamName": "Kairos Academy White",
+            "kills": 14,
+            "deaths": 25,
+            "gold": 43645,
+            "towers": 2,
+            "dragons": 0,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Tristana",
+              "Hwei",
+              "Draven",
+              "Gragas",
+              "Pyke"
+            ],
+            "players": [
+              {
+                "playerId": "isaac-pebble-young",
+                "displayName": "Isaac \"Pebble\" Young",
+                "role": "TOP",
+                "champion": "Camille",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 4,
+                "assists": 4,
+                "cs": 144,
+                "gold": 9227,
+                "kda": "4/4/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "benjamin-vex-carter",
+                "displayName": "Benjamin \"vexemite\" Carter",
+                "role": "JUNGLE",
+                "champion": "Vi",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 1,
+                "deaths": 4,
+                "assists": 3,
+                "cs": 137,
+                "gold": 8370,
+                "kda": "1/4/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "nathan-0bit-hall",
+                "displayName": "Nathan \"0bit\" Hall",
+                "role": "MID",
+                "champion": "Syndra",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 4,
+                "assists": 4,
+                "cs": 183,
+                "gold": 9127,
+                "kda": "2/4/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "cole-june-mercer",
+                "displayName": "Cole \"June\" Mercer",
+                "role": "ADC",
+                "champion": "Varus",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 8,
+                "assists": 4,
+                "cs": 161,
+                "gold": 10167,
+                "kda": "6/8/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "ryan-luma-chen",
+                "displayName": "Ryan \"Luma\" Chen",
+                "role": "SUPPORT",
+                "champion": "Lulu",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 1,
+                "deaths": 5,
+                "assists": 4,
+                "cs": 17,
+                "gold": 6754,
+                "kda": "1/5/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-dorado-gaming",
+            "teamName": "Dorado Gaming",
+            "kills": 25,
+            "deaths": 14,
+            "gold": 62420,
+            "towers": 9,
+            "dragons": 3,
+            "barons": 0,
+            "heralds": 0,
+            "bans": [
+              "Yasuo",
+              "Annie",
+              "Blitzcrank",
+              "Vayne",
+              "Teemo"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Kennen",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 7,
+                "deaths": 3,
+                "assists": 9,
+                "cs": 181,
+                "gold": 14240,
+                "kda": "7/3/9",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Jarvan IV",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 8,
+                "deaths": 4,
+                "assists": 10,
+                "cs": 158,
+                "gold": 13296,
+                "kda": "8/4/10",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming MID (identity TBD)",
+                "role": "MID",
+                "champion": "Azir",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 1,
+                "assists": 9,
+                "cs": 195,
+                "gold": 12081,
+                "kda": "2/1/9",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Aphelios",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 8,
+                "deaths": 1,
+                "assists": 5,
+                "cs": 173,
+                "gold": 13729,
+                "kda": "8/1/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Milio",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 5,
+                "assists": 7,
+                "cs": 21,
+                "gold": 9074,
+                "kda": "0/5/7",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "opponent-dorado-gaming",
+        "durationMinutes": null,
+        "knownEvents": [
+          "White reallocates resources toward Pebble top",
+          "Dorado exploits bot side gaps and wins Baron fight"
+        ],
+        "provenance": "narrated-canon-partial",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-academy-white",
+            "teamName": "Kairos Academy White",
+            "kills": 15,
+            "deaths": 31,
+            "gold": 63866,
+            "towers": 4,
+            "dragons": 2,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Annie",
+              "Poppy",
+              "Gragas",
+              "Karthus",
+              "Kennen"
+            ],
+            "players": [
+              {
+                "playerId": "isaac-pebble-young",
+                "displayName": "Isaac \"Pebble\" Young",
+                "role": "TOP",
+                "champion": "Camille",
+                "pickProvenance": "narrated-canon",
+                "kills": 4,
+                "deaths": 6,
+                "assists": 5,
+                "cs": 210,
+                "gold": 12405,
+                "kda": "4/6/5",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "benjamin-vex-carter",
+                "displayName": "Benjamin \"vexemite\" Carter",
+                "role": "JUNGLE",
+                "champion": "Xin Zhao",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 6,
+                "assists": 8,
+                "cs": 184,
+                "gold": 11748,
+                "kda": "3/6/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "nathan-0bit-hall",
+                "displayName": "Nathan \"0bit\" Hall",
+                "role": "MID",
+                "champion": "Azir",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 5,
+                "deaths": 6,
+                "assists": 5,
+                "cs": 304,
+                "gold": 15344,
+                "kda": "5/6/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "cole-june-mercer",
+                "displayName": "Cole \"June\" Mercer",
+                "role": "ADC",
+                "champion": "Varus",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 3,
+                "assists": 4,
+                "cs": 305,
+                "gold": 14067,
+                "kda": "2/3/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "ryan-luma-chen",
+                "displayName": "Ryan \"Luma\" Chen",
+                "role": "SUPPORT",
+                "champion": "Lulu",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 1,
+                "deaths": 10,
+                "assists": 9,
+                "cs": 23,
+                "gold": 10302,
+                "kda": "1/10/9",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-dorado-gaming",
+            "teamName": "Dorado Gaming",
+            "kills": 31,
+            "deaths": 15,
+            "gold": 77886,
+            "towers": 7,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Illaoi",
+              "Zed",
+              "Shaco",
+              "Yasuo",
+              "Draven"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Rumble",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 8,
+                "deaths": 4,
+                "assists": 5,
+                "cs": 205,
+                "gold": 15260,
+                "kda": "8/4/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Jarvan IV",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 2,
+                "assists": 7,
+                "cs": 200,
+                "gold": 14934,
+                "kda": "4/2/7",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming MID (identity TBD)",
+                "role": "MID",
+                "champion": "Syndra",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 12,
+                "deaths": 3,
+                "assists": 4,
+                "cs": 306,
+                "gold": 18469,
+                "kda": "12/3/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Jinx",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 3,
+                "assists": 17,
+                "cs": 266,
+                "gold": 16277,
+                "kda": "4/3/17",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Dorado Gaming SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Milio",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 3,
+                "assists": 15,
+                "cs": 26,
+                "gold": 12946,
+                "kda": "3/3/15",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "external_lol_scrims_ep106_full_synthetic_proposal.json (author-provided synthetic proposal dataset)",
+    "external_league_scrims_ep105_106_source_only.json (narrated-canon-only cross-check)"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos Academy White 1-2 Dorado Gaming (NACL experimental roster), Episode 106 (2027-01-20) — series result and any picks/events marked narrated-canon are story canon."
+  ],
+  "unconfirmedDetails": [
+    "Dorado Gaming's roster is an experimental/not-finalized placeholder; no real player identities exist for it in canon.",
+    "Champions, K/D/A, gold, bans and objectives not flagged narrated-canon are an author-approved synthetic reconstruction/proposal, not confirmed story dialogue."
+  ],
+  "canonNotes": [
+    "Private external scrim; not an official league match for either side, does not affect any standings."
+  ]
+}

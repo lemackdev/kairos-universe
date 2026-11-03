@@ -138,5 +138,33 @@
   "nationalities": [
     "American",
     "Brazilian"
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Train",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use M4A1-S as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played futsal and follows Palmeiras Brazilian football club",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Collects football shirts, roughly twenty or more; no precise count",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Train",
+  "favoriteWeapon": "M4A1-S"
 }

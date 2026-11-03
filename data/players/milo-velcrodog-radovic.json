@@ -111,5 +111,33 @@
     "Do not alter the historical nickname velcrodog when referring to pre-2027-01-04 episodes or sources.",
     "Current nickname is velcroDAWG (exact capitalization), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use the new nickname.",
     "His Entry Rifler role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Inferno",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use AK as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Plays basketball",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Speaks some Serbian to communicate with family",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Inferno",
+  "favoriteWeapon": "AK-47"
 }

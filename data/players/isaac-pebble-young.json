@@ -73,5 +73,35 @@
     "Do not infer nationality from city.",
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Ornn is favorite; also Sion",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Carries a smooth stone in backpack, perhaps superstition",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played soccer as a fullback",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Participated in local school mathematics contests and likes logic problems",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Ornn",
+    "Sion"
   ]
 }

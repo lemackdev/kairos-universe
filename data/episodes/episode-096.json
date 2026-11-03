@@ -1,0 +1,149 @@
+{
+  "id": "episode-096",
+  "slug": "episode-096",
+  "episodeNumber": 96,
+  "title": "Quinze Respostas",
+  "historicalTitle": "Quinze Respostas",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-05",
+  "datePrecision": "exact",
+  "publicationOrder": 96,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "mason-404-brooks",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "emily-chen",
+    "thinkcard-kairos-strategic-coach",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "A small Riot Games production crew films a short pre-season feature with all fifteen Kairos League players (Main, Academy Blue, Academy White), with ten minutes allotted per player. Each player is asked which single champion they would choose to represent them, one personal trivia fact a close follower probably would not already know, and, as a group, which champion they would ban forever. The interviews are filmed back-to-back and the players return directly to scrim review once the cameras leave; the footage is intended to introduce Kairos to the league ahead of the season.",
+  "keyEvents": [
+    "rkN (Noah Bennett) names Fiora as his representative champion (Camille and Jax also frequent picks) and reveals he rewatches his own lanes with the audio off, to judge whether his decisions still read as logical without anyone's commentary.",
+    "Vanta (Ethan Walker) names Lee Sin (Nidalee and Kindred close behind) and reveals he mentally reconstructs the enemy jungler's pathing from memory before reviewing the replay, to check himself against what actually happened.",
+    "404 (Mason Brooks) names Orianna, explaining he likes controlling a fight without being in it (Syndra and Azir also favorites), and reveals he owns a small collection of seven old mechanical keyboards.",
+    "Aster (Liam O'Connor) names Kai'Sa (Xayah also a favorite) and reveals he dislikes watching his own pentakills because he always notices something ugly in the middle of them.",
+    "Moss (Daniel Reyes) names Thresh, explaining that almost everything the champion does depends on a teammate following up (Braum and Rakan also favorites), and shows a small black notebook where he has logged opposing supports' habits and timings since before Kairos.",
+    "SullCon (Connor Sullivan) names Renekton (Camille close behind) and reveals the trivia that his nickname is simply his own name (Sullivan/Connor) condensed, decided in about thirty seconds.",
+    "xNox (Jacob Price) names Nidalee, saying it makes him feel like he's everywhere on the map when he's playing well (Lee Sin close behind), and reveals he built his first PC largely from used parts at age thirteen, declining to discuss the first motherboard in detail.",
+    "Kite (Owen Hughes) names Azir, saying he likes controlling space (Viktor and Taliyah also favorites), and reveals -- to his own teammates' surprise -- that he has played piano since childhood, never professionally or publicly.",
+    "Murmur (Tyler Grant) names Ezreal, describing it as a champion that lets you do idiotic things that sometimes look genius (Jinx and Aphelios also favorites), and reveals he constantly talks to himself out loud during solo queue because he is 'the only one always in the game.'",
+    "japalenogrits (Lucas Foster) names Rakan (Bard also a favorite) and reveals, without elaborating on severity, that his nickname comes from a particularly bad personal experience involving jalapeño and grits.",
+    "Pebble (Isaac Young) names Ornn, explaining that even a lost lane still leaves him with work to do (Sion also a favorite), and reveals he has carried a smooth stone in his backpack since before joining Kairos, which he admits on camera might be superstition after all.",
+    "vexemite (Benjamin Carter) names Kindred, describing the appeal as deciding how far something is worth going for (Vi also a comfort pick), and reveals the trivia behind his current nickname: he tried Vegemite exactly once and rates it minus two out of ten.",
+    "0bit (Nathan Hall) names Viktor, saying he likes a champion that gets stronger alongside the game (Orianna close behind), and reveals he collects old handheld consoles (Game Boy, DS, PSP).",
+    "June (Cole Mercer) names Jhin ('four shots is enough,' Caitlyn a close second) and reveals the trivia behind his nickname: he was born June 2 and simply kept the username he picked as a kid.",
+    "Luma (Ryan Chen) names Bard (Milio and Lulu also favorites) and reveals he likes photographing city lights at night across the cities he has lived in (Richmond, Vancouver, now Los Angeles), with hundreds of photos on his phone he almost never posts, because he took them to see, not to be seen.",
+    "After the individual segments, Riot films all fifteen players together for one unscripted group question: which champion would you ban forever? Answers come almost simultaneously: rkN - Malphite; Vanta - Shaco; 404 - Fizz; Aster - Draven; Moss - Yuumi (prompting a pointed look from head coach Aphromoo); SullCon - Vayne top; xNox - Shaco; Kite - LeBlanc; Murmur - Yasuo; japalenogrits - Pyke; Pebble - Illaoi; vexemite - Teemo; 0bit - Fizz; June - Samira; Luma - Blitzcrank.",
+    "Filming wraps at 16:20; all fifteen players return immediately to their normal review schedules under Aphromoo (Main), Hai (Academy Blue), and Sable (Academy White)."
+  ],
+  "consequences": [
+    "Footage from this filming becomes the basis of a Riot-produced video feature, published two days later (see episode-098); the champion picks, personal trivia, and ban-forever answers recorded here are the source material for that public release."
+  ],
+  "canonIntroduced": [
+    "Fifteen players' representative champion picks, personal on-camera trivia, and group ban-forever answers are established as recorded on 2027-01-05.",
+    "Kite (Owen Hughes) playing piano since childhood is confirmed as a fact disclosed on camera during this filming, distinct from any later off-camera disclosure."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-095"
+  ],
+  "continuityNotes": [
+    "All facts disclosed in this episode were spoken on camera to the Riot production crew and are therefore attributable to that recording when later published (see episode-098, which confirms publication on 2027-01-07).",
+    "This episode's facts are distinct from, and precede, the further personal background the same fifteen players discuss privately among themselves afterward (see episode-097); do not conflate the two when citing a fact's source."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Riot Games is referenced as the real-world publisher of League of Legends appearing in a fictional in-universe production role; no real Riot Games production, personnel, or publication is implied."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_096.txt",
+      "locator": "Episódio 96 — Quinze Respostas",
+      "information": "Supplies full prose, dialogue, champion picks, trivia, and ban-forever answers for all fifteen League players.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "All fifteen League players (Main, Academy Blue, Academy White) are filmed by a Riot Games production crew on 2027-01-05, with champion picks, on-camera trivia, and group ban-forever answers as listed in keyEvents.",
+    "Head coaches Aphromoo (Main), Hai (Academy Blue), and Sable (Academy White) each released their players for roughly ten minutes apiece and required an immediate return to review afterward."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "This record is the authoritative source for the Riot Games interview content referenced by the Kairospedia publication 'interview-riot-kairos-lol-2027-01-05'."
+  ],
+  "mediaEvents": [
+    {
+      "id": "episode-096-riot-interview",
+      "type": "filmed-player-interview",
+      "date": "2027-01-05",
+      "status": "confirmed",
+      "outlet": "Riot Games (fictional in-universe production)",
+      "participants": [
+        "noah-rkn-bennett",
+        "ethan-vanta-walker",
+        "mason-404-brooks",
+        "liam-aster-oconnor",
+        "daniel-moss-reyes",
+        "connor-mako-sullivan",
+        "jacob-xnox-price",
+        "owen-kite-hughes",
+        "tyler-murmur-grant",
+        "lucas-grit-foster",
+        "isaac-pebble-young",
+        "benjamin-vex-carter",
+        "nathan-0bit-hall",
+        "cole-june-mercer",
+        "ryan-luma-chen"
+      ],
+      "summary": "A Riot Games production crew films all fifteen Kairos League players: representative champion picks, one personal trivia fact each, and a group 'ban forever' round. Published two days later on 2027-01-07 (see episode-098).",
+      "sponsorship": false,
+      "fictionalInvolvement": true,
+      "canonNotes": [
+        "This is a fictional in-universe production attributed to Riot Games, not a real-world Riot Games publication.",
+        "Facts disclosed here are attributable to the Riot recording; facts disclosed in episode-097's private follow-up conversation are not."
+      ]
+    }
+  ]
+}

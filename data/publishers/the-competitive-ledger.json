@@ -1,0 +1,21 @@
+{
+  "id": "the-competitive-ledger",
+  "slug": "the-competitive-ledger",
+  "continuityId": "kairos-universe",
+  "name": "The Competitive Ledger",
+  "shortName": "The Ledger",
+  "category": "independent-esports-journalism",
+  "description": "An original, fictional North American esports-business publication known for its critical coverage of private-capital investment in competitive gaming, edited by Nathaniel Price.",
+  "originType": "fictional",
+  "realWorldEntity": null,
+  "coverageDisclosure": null,
+  "organizationId": null,
+  "homepage": null,
+  "logoPath": null,
+  "canonStatus": "confirmed",
+  "sourceIds": ["source-episodes-102-103-ledger-interview"],
+  "notes": [
+    "Entirely original to the Kairos Universe; no real-world publication of this name is referenced or implied.",
+    "Previously published seven articles critical of Asterion Intelligence's and Kairos's financial scale before interviewing Adrian Vale directly in Episode 102."
+  ]
+}

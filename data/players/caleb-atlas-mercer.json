@@ -221,5 +221,33 @@
     "The correction resolves a duplicate-name conflict with the League Mid laner known as 404.",
     "The nickname Atlas, biography, role, relationships, first appearance, and signed status are preserved.",
     "The Atlas nickname is distinct from the historical Project Atlas internal division name."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Inferno",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use AK as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played ice hockey as defenseman and still watches NHL",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Likes very large jigsaw puzzles, including 1000 and 2000 pieces",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Inferno",
+  "favoriteWeapon": "AK-47"
 }

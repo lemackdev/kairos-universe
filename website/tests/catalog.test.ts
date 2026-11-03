@@ -37,12 +37,13 @@ describe("initial Kairospedia publication", () => {
     expect(fourOhFour?.isCaptain).toBe(false);
   });
 
-  it("publishes no matches, statistics, external organizations, or hidden teams", () => {
-    expect(catalog.matches).toEqual([]);
+  it("publishes private-scrim matches as practice/unofficial only, plus no statistics, external organizations, or hidden teams", () => {
+    expect(catalog.matches.length).toBeGreaterThan(0);
+    expect(catalog.matches.every((match) => match.officialStatus === "practice")).toBe(true);
+    expect(catalog.matches.every((match) => match.affectsStandings === false)).toBe(true);
     expect(catalog.teams[0]?.statistics).toEqual({});
     const serialized = JSON.stringify(catalog);
     expect(serialized).not.toContain("kairos-counter-strike-main");
-    expect(catalog.matches).toHaveLength(0);
   });
 
   it("generates only routes for enabled entities", () => {

@@ -85,5 +85,35 @@
     "The current nickname is SullCon, effective 2027-01-04 per episode-093; Mako is now a former (historical) nickname, not the active one. Do not retroactively rewrite episodes before 2027-01-04 to use SullCon.",
     "The retconned nickname North must not be associated with this record.",
     "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date."
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Renekton is favorite; also Camille",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Nickname combines Sullivan and Connor, decided quickly",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Worked washing cars during one summer",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Watches wrestling, including older eras; does not practice it",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Renekton",
+    "Camille"
   ]
 }

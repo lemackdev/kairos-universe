@@ -109,5 +109,39 @@
     "Current nickname is RAMENSOUP (exact capitalization), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use the new nickname.",
     "Do not disclose or invent the former nickname's origin.",
     "His IGL / Rifler role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Nuke",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use AK as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Was in school debate",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Likes cooking proper ramen with broth and toppings",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Jokingly claimed about six months of scouting experience and the ability to start a fire during the team's rapid-fire banter round; treated by teammates as an unverified boast, not a confirmed skill.",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Nuke",
+  "favoriteWeapon": "AK-47"
 }

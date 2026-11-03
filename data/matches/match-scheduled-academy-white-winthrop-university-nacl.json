@@ -1,0 +1,42 @@
+{
+  "id": "match-scheduled-academy-white-winthrop-university-nacl",
+  "slug": "match-scheduled-academy-white-winthrop-university-nacl",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "planned",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-white",
+    "opponent-winthrop-university"
+  ],
+  "scheduledDate": "TBD",
+  "date": null,
+  "datePrecision": "unknown",
+  "teamAId": "kairos-lol-academy-white",
+  "teamBId": "opponent-winthrop-university",
+  "bestOf": null,
+  "teamAScore": "TBD",
+  "teamBScore": "TBD",
+  "winnerTeamId": null,
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "unknown",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [],
+  "relatedPlayerIds": [],
+  "result": null,
+  "statistics": {},
+  "sources": [
+    "scrim_canonical_inventory_episodes_90_106.json"
+  ],
+  "canonStatus": "unconfirmed",
+  "confirmedFacts": [],
+  "unconfirmedDetails": [
+    "Kairos Academy White is scheduled to scrim Winthrop University (NACL); not yet played as of the current narrative date. No result exists to report."
+  ],
+  "canonNotes": [
+    "Scheduled-only block; never render as a completed match."
+  ]
+}

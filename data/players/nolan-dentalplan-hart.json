@@ -107,5 +107,33 @@
     "Do not capitalize or alter the nickname dentalplan.",
     "His Primary AWPer role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD.",
     "Do not treat Nolan and Reid as a single entity or inseparable roster package."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Dust II",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use AWP as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played drums for four years",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Twin brother of Reid Hart; precise birth-order gap contested humorously by brothers (nine vs eleven minutes)",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Dust II",
+  "favoriteWeapon": "AWP"
 }

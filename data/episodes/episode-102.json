@@ -1,0 +1,116 @@
+{
+  "id": "episode-102",
+  "slug": "episode-102",
+  "episodeNumber": 102,
+  "title": "O Dinheiro Não Joga",
+  "historicalTitle": "O Dinheiro Não Joga",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-14",
+  "datePrecision": "exact",
+  "publicationOrder": 102,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus administrative building, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [],
+  "summary": "While all five Kairos rosters are mid-scrim (the internal competitive day of episode-101), Adrian sits for an interview with Nathaniel Price, editor-in-chief of The Competitive Ledger, a publication known for criticizing private-capital investment in esports. Nathaniel's provisional title is 'Can Esports Compete With Billionaires?' and his recent articles have argued no LCS organization can financially compete with Asterion Intelligence, that the Kairos campus starts an infrastructure arms race that will destroy smaller organizations, and have questioned the ultimate source of Adrian's money. Adrian, who has read Nathaniel's last seven articles, systematically dismantles each unsupported claim: he challenges Nathaniel to name an actual campus cost figure (he can't), distinguishes a resource gap from unfairness (defined narrowly as denying opponents the ability to compete at all, not as having more resources), and produces three sets of prepared documents -- a general description of Asterion's commercial activities (AI systems development/licensing, computational infrastructure, enterprise software engineering contracts), the Kairos financing structure, and an independent financial opinion prepared for authorized-party verification -- with individual contract values and client identities redacted. He offers a path to appropriate third-party verification rather than unrestricted access to confidential data, points out Kairos has signed zero established superstar players (25 largely unknown players built into five full rosters instead), and notes that at that exact moment a Kairos development team is beating the Main roster in an internal scrim, undercutting any claim that money alone decides outcomes. On sustainability, Adrian states Kairos was not built assuming it must win Worlds within two years to stay funded, confirms there is a budget, projections, operating reserves, and investment review (not a blank check), and declines to publish an invented number just because the real one isn't public. On the 'Kairos as an Asterion PR tool' theory, Adrian notes zero Asterion products have been advertised on Kairos jerseys, zero technology contracts have been announced using Kairos players, and zero players have been required to promote Asterion products, while acknowledging the obvious brand-association benefit that comes with any company owning a sports organization. Adrian closes by asking Nathaniel directly what he would do if a rival organization built something better with verifiably legitimate financing (Nathaniel agrees that would be positive), establishing that Nathaniel's objection was never really the campus itself. The interview ends at 15:39; that evening, with CS Academy taking Main to a fifth map and White upsetting Main in League (the results of episode-101), Nathaniel is shown discarding two prior working titles ('Can Esports Compete With Billionaires?', 'The Asterion Problem') and settling on a new, more measured title.",
+  "keyEvents": [
+    "Nathaniel Price of The Competitive Ledger arrives at 14:24 for an interview Emily had recommended declining; Adrian accepted specifically because he had read Nathaniel's last seven articles, all arguing Kairos represents an unbeatable, unfair financial advantage over traditional LCS organizations.",
+    "The interview runs 14:31-15:39. Adrian repeatedly forces Nathaniel to admit he has no confirmed campus cost figure, no knowledge of other organizations' future investment plans, and no basis for claiming no other organization could ever build something comparable.",
+    "Adrian distinguishes a resource gap from unfairness: unfairness would mean denying opponents the ability to compete (buying a destroyed Nexus, starting a CS match five rounds ahead, blocking other orgs from signing players) -- none of which Kairos has done; building better training facilities and hiring better staff is not inherently unfair.",
+    "On Asterion's finances, Adrian produces three prepared document sets (general commercial-activity description, Kairos financing structure, an independent financial opinion for authorized verification) with individual contract values and client identities redacted, and offers a path to appropriate third-party verification rather than unrestricted confidential access, stating some information is protected by confidentiality agreements, not simply hidden.",
+    "Adrian notes Kairos has signed zero established international superstar players and instead built 25 largely-unknown players into five full competitive rosters with coaching and development infrastructure -- directly undercutting the 'buy a superteam' framing.",
+    "Adrian points out that at that exact moment, a Kairos development team is beating the Main roster in an internal scrim (the events of episode-101), as a live rebuttal to the idea that money alone decides outcomes.",
+    "On sustainability, Adrian confirms Kairos was not built assuming it must win Worlds within two years to remain funded, that a budget, projections, operating reserves, and investment review process exist (not a blank check), and declines to invent a public figure simply because the real one is undisclosed.",
+    "On the theory that Kairos exists as an Asterion PR/influence vehicle, Adrian notes zero Asterion products advertised on Kairos jerseys, zero technology contracts announced using Kairos players, and zero instances of players being required to promote Asterion products, while conceding the ordinary brand-association benefit any company gets from owning a sports organization.",
+    "Adrian turns a question back on Nathaniel: if a rival organization built something better tomorrow with legitimate, verifiable financing -- better facilities, better staff, better conditions -- would that be positive? Nathaniel agrees it would, which Adrian uses to establish that the campus itself was never the real problem, only the unverified assumptions layered onto it.",
+    "The interview ends at 15:39; Nathaniel acknowledges Adrian prepared heavily specifically because Adrian had read all seven of his prior articles. Adrian states he isn't expecting a retraction, only 'a better article.'",
+    "At 17:06, Emily confirms to Adrian that Kairos has its own full, previously authorized recording of the interview as insurance against selective editing.",
+    "That evening (21:48), Emily messages Adrian that White beat Main and CS Main beat Academy 3-2 (the results of episode-101); Adrian asks to speak with the coaches the next day about what they learned from the losses, not about the losses themselves.",
+    "The same evening, in his editing room, Nathaniel discards two working titles -- 'CAN ESPORTS COMPETE WITH BILLIONAIRES?' and 'THE ASTERION PROBLEM' -- after reviewing Adrian's closing lines ('Which of these things would you like me to remove?' and 'You don't need to like Kairos to write about it'), and begins writing a new, different title.",
+    "The episode closes on the Asterion Intelligence motto: 'Capital creates opportunity. It does not create victory.'"
+  ],
+  "consequences": [
+    "Nathaniel Price abandons his original hostile working titles and begins drafting a more measured article (published the next day; see episode-103).",
+    "Kairos retains its own full authorized recording of the interview as a safeguard against selective editing in the published piece."
+  ],
+  "canonIntroduced": [
+    "The Competitive Ledger and its editor-in-chief Nathaniel Price are introduced as a fictional in-universe financial/investigative esports publication and journalist.",
+    "Asterion Intelligence's general commercial activities are described only in broad terms (AI systems development/licensing, computational infrastructure, enterprise software engineering contracts); specific headquarters, valuation, revenue, client names, and contract values remain unconfirmed/TBD and are not disclosed in this episode.",
+    "Kairos is confirmed to have signed zero established superstar players; its 25-player roster was built from largely unknown competitive talent.",
+    "The Asterion Intelligence motto, 'Capital creates opportunity. It does not create victory,' is established."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-101"
+  ],
+  "continuityNotes": [
+    "Any public Kairospedia content quoting this interview must attribute statements to Adrian Vale's dated 2027-01-14 interview remarks, not to confirmed Asterion Intelligence corporate canon; Asterion's headquarters, valuation, revenue, clients, and contract structure remain TBD in canon regardless of what Adrian claims or implies in this interview.",
+    "This episode happens the same calendar day as, and partially overlaps, the internal competitive day of episode-101; Adrian references its in-progress results during the interview and its completed results that evening."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_102.txt",
+      "locator": "Episódio 102 — O Dinheiro Não Joga",
+      "information": "Supplies full prose and interview transcript.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [
+    "Asterion Intelligence's exact headquarters, valuation, revenue, client identities, and contract values remain undisclosed and TBD."
+  ],
+  "confirmedFacts": [
+    "Nathaniel Price of The Competitive Ledger interviews Adrian Vale on 2027-01-14, 14:31-15:39.",
+    "Adrian confirms Kairos has signed zero established superstar players.",
+    "Adrian offers documentation and a path to third-party financial verification without disclosing individual contract values or client identities.",
+    "Kairos retains its own full authorized recording of the interview."
+  ],
+  "unconfirmedDetails": [
+    "Whether Asterion's specific headquarters, valuation, revenue, or named clients will ever be publicly disclosed remains open."
+  ],
+  "notes": [
+    "This episode is the primary source for the Kairospedia publication 'interview-ledger-adrian-vale-2027-01-14', which must preserve its critical editorial framing rather than presenting Adrian's claims as settled corporate fact."
+  ],
+  "mediaEvents": [
+    {
+      "id": "episode-102-ledger-interview",
+      "type": "investigative-corporate-interview",
+      "date": "2027-01-14",
+      "status": "confirmed",
+      "outlet": "The Competitive Ledger",
+      "participants": [],
+      "summary": "Nathaniel Price, editor-in-chief of The Competitive Ledger, interviews Adrian Vale about Asterion Intelligence's financing of Kairos, resource disparity in esports, and sustainability. Published the next day as 'Adrian Vale Doesn't Think Money Can Buy a Championship. He's Spending Millions to Find Out.' (see episode-103).",
+      "sponsorship": false,
+      "fictionalInvolvement": true,
+      "canonNotes": [
+        "The Competitive Ledger and Nathaniel Price are fictional in-universe creations; no real-world publication or journalist is implied.",
+        "Adrian's statements in this interview are his own dated claims, not confirmed Asterion Intelligence corporate canon; do not use them to fill in Asterion's TBD fields."
+      ]
+    }
+  ]
+}

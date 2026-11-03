@@ -94,5 +94,36 @@
   ],
   "nationalities": [
     "American"
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Thresh is favorite; also Braum and Rakan",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Keeps a small black notebook of opposing supports and their habits/timings",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Helped family with food distributions and local community events",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Interested in city, metro, road and railway maps; likes understanding cities before travel",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Thresh",
+    "Braum",
+    "Rakan"
   ]
 }

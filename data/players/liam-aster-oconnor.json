@@ -91,5 +91,35 @@
   ],
   "nationalities": [
     "Canadian"
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Kai’Sa is favorite; also Xayah",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Dislikes watching his own pentakills because he notices mistakes",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Worked part-time in a sporting goods store, including stock and customer service",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played baseball as an outfielder for several years",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Kai'Sa",
+    "Xayah"
   ]
 }

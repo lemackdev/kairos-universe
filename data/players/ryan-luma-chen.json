@@ -78,5 +78,36 @@
   "nationalities": [
     "Canadian",
     "Chinese"
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Bard is favorite; also Milio and Lulu",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Likes photographing city lights at night; rarely posts pictures",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Started with an old digital camera given by father",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Photographs rain, buildings, evening lights, and empty campus spaces; personal photos not automatically published",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Bard",
+    "Milio",
+    "Lulu"
   ]
 }

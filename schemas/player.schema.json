@@ -225,6 +225,44 @@
     "trivia": {
       "$ref": "common.schema.json#/$defs/stringArray"
     },
+    "publicTrivia": {
+      "description": "Author-approved public profile facts, grouped by category and cited to their source episode and/or interview publication. Optional; absent or empty means no structured public trivia has been added yet.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category", "text", "sourceEpisodeId", "publicationId"],
+        "properties": {
+          "category": {
+            "enum": [
+              "competitive-favorite",
+              "on-camera-trivia",
+              "before-kairos",
+              "commons-reference"
+            ]
+          },
+          "text": { "type": "string", "minLength": 1 },
+          "sourceEpisodeId": {
+            "oneOf": [{ "$ref": "common.schema.json#/$defs/stableId" }, { "type": "null" }]
+          },
+          "publicationId": {
+            "oneOf": [{ "$ref": "common.schema.json#/$defs/stableId" }, { "type": "null" }]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "favoriteChampions": {
+      "description": "League of Legends only. Ordered champion names from author-approved public trivia, main representative champion first. Empty/absent for non-League players or where not narrated.",
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "favoriteMap": {
+      "description": "Counter-Strike only. Author-approved favorite competitive map from public trivia. Null/absent where not narrated or not applicable.",
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
+    "favoriteWeapon": {
+      "description": "Counter-Strike only. Author-approved 'one weapon forever' answer from public trivia. Null/absent where not narrated or not applicable.",
+      "$ref": "common.schema.json#/$defs/stringOrTbd"
+    },
     "currentState": {
       "$ref": "common.schema.json#/$defs/stringArray"
     },

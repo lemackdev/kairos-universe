@@ -1,0 +1,82 @@
+{
+  "id": "episode-095",
+  "slug": "episode-095",
+  "episodeNumber": 95,
+  "title": null,
+  "historicalTitle": "Untitled",
+  "archiveSource": null,
+  "recordStatus": "placeholder",
+  "canonStatus": "soft-canon",
+  "reconstructionStatus": "source-recovery-required",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-05",
+  "datePrecision": "partial",
+  "publicationOrder": 95,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "A minimal placeholder record covering an unspecified early-January training day between episode-094 and episode-096. No source text for this episode exists in the available material; the only confirmation of its content is indirect, from a later cross-reference (the scrim/training inventory compiled after episode-106) noting that episodes 95, 99 and 100 all contain 'various practice blocks' without complete, structured competitive results. This record exists only to preserve contiguous episode numbering and should be replaced if primary source text for episode 95 is ever recovered.",
+  "keyEvents": [
+    "General team training blocks take place across all five Kairos rosters; no complete, structured competitive scrim result is recorded for this day."
+  ],
+  "consequences": [],
+  "canonIntroduced": [],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-094"
+  ],
+  "continuityNotes": [
+    "This is a minimal placeholder, not a reconstructed narrative. Do not infer specific dialogue, events, or results for episode 95 beyond the generic training framing noted here.",
+    "A later cross-reference (compiled retrospectively from episodes 90-106) is the only documentation this episode's existence rests on; it supplies no scene-level content."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "inference",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/scrim_canonical_inventory_episodes_90_106.json",
+      "locator": "otherTraining",
+      "information": "Confirms episode 95 exists as a general practice block with no complete structured competitive result recorded; supplies no further scene content.",
+      "evidenceLevel": "indirect",
+      "confidence": "low",
+      "userConfirmationRequired": true
+    }
+  ],
+  "confidence": "low",
+  "missingInformation": [
+    "Full source prose for episode 95 has not been recovered.",
+    "Specific scenes, dialogue, and events for this episode are unknown."
+  ],
+  "confirmedFacts": [
+    "Episode 95 falls chronologically between episode-094 (2027-01-04) and episode-096 (2027-01-05), and covers general team training."
+  ],
+  "unconfirmedDetails": [
+    "Exact scenes, dialogue, and events of episode 95 are unconfirmed pending source recovery."
+  ],
+  "notes": [
+    "Placeholder record created during the Episodes 90-106 import; replace with a full reconstruction if source text for episode 95 is later provided."
+  ]
+}

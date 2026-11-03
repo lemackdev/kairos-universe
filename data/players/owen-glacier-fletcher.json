@@ -190,5 +190,39 @@
   "canonNotes": [
     "Do not expand Owen's family backstory beyond the approved facts.",
     "The earlier non-binding invitation did not itself constitute a signing; his current signed status is separately confirmed."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Nuke",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use AWP as only weapon",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Previously worked in a convenience store doing stock, cash register, cleaning",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Interested in military history, especially strategy/logistics/campaigns, not collecting weapons",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Arthur Fletcher is Glacier's grandfather and family member, not a Kairos employee.",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Nuke",
+  "favoriteWeapon": "AWP"
 }

@@ -1,0 +1,643 @@
+{
+  "id": "match-lol-external-academy-blue-giantx-2027-01-20",
+  "slug": "match-lol-external-academy-blue-giantx-2027-01-20",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-blue",
+    "opponent-giantx"
+  ],
+  "scheduledDate": "2027-01-20",
+  "date": "2027-01-20",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-blue",
+  "teamBId": "opponent-giantx",
+  "bestOf": 3,
+  "teamAScore": 2,
+  "teamBScore": 1,
+  "winnerTeamId": "kairos-lol-academy-blue",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "proposed-opponent-draft",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-106"
+  ],
+  "relatedPlayerIds": [
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster"
+  ],
+  "result": {
+    "opponentName": "GIANTX",
+    "opponentLeague": "LEC",
+    "opponentRosterStatus": "experimental / not finalized",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-giantx",
+        "durationMinutes": 26,
+        "knownEvents": [
+          "Blue behind ~5k gold at 15m",
+          "Blue loses four players near third dragon"
+        ],
+        "provenance": "proposed-opponent-draft",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-academy-blue",
+            "teamName": "Kairos Academy Blue",
+            "kills": 18,
+            "deaths": 31,
+            "gold": 49513,
+            "towers": 5,
+            "dragons": 0,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Zyra",
+              "Yasuo",
+              "Vayne",
+              "Teemo",
+              "Tristana"
+            ],
+            "players": [
+              {
+                "playerId": "connor-mako-sullivan",
+                "displayName": "Connor \"SullCon\" Sullivan",
+                "role": "TOP",
+                "champion": "Jax",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 3,
+                "assists": 5,
+                "cs": 148,
+                "gold": 9645,
+                "kda": "2/3/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "jacob-xnox-price",
+                "displayName": "Jacob \"xNox\" Price",
+                "role": "JUNGLE",
+                "champion": "Lee Sin",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 6,
+                "assists": 7,
+                "cs": 137,
+                "gold": 8892,
+                "kda": "2/6/7",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "owen-kite-hughes",
+                "displayName": "Owen \"Kite\" Hughes",
+                "role": "MID",
+                "champion": "Taliyah",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 8,
+                "deaths": 5,
+                "assists": 2,
+                "cs": 190,
+                "gold": 12403,
+                "kda": "8/5/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "tyler-murmur-grant",
+                "displayName": "Tyler \"Murmur\" Grant",
+                "role": "ADC",
+                "champion": "Ezreal",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 8,
+                "assists": 7,
+                "cs": 172,
+                "gold": 11725,
+                "kda": "6/8/7",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "lucas-grit-foster",
+                "displayName": "Lucas \"japalenogrits\" Foster",
+                "role": "SUPPORT",
+                "champion": "Bard",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 9,
+                "assists": 3,
+                "cs": 17,
+                "gold": 6848,
+                "kda": "0/9/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-giantx",
+            "teamName": "GIANTX",
+            "kills": 31,
+            "deaths": 18,
+            "gold": 65840,
+            "towers": 11,
+            "dragons": 4,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Shaco",
+              "Blitzcrank",
+              "Fizz",
+              "Gragas",
+              "Zed"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "GIANTX TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Rumble",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 2,
+                "assists": 8,
+                "cs": 169,
+                "gold": 13025,
+                "kda": "4/2/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Jarvan IV",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 3,
+                "assists": 15,
+                "cs": 150,
+                "gold": 13067,
+                "kda": "6/3/15",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX MID (identity TBD)",
+                "role": "MID",
+                "champion": "Ahri",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 12,
+                "deaths": 4,
+                "assists": 8,
+                "cs": 195,
+                "gold": 15531,
+                "kda": "12/4/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Kai'Sa",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 5,
+                "assists": 8,
+                "cs": 188,
+                "gold": 13669,
+                "kda": "6/5/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Alistar",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 4,
+                "assists": 7,
+                "cs": 18,
+                "gold": 10548,
+                "kda": "3/4/7",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "durationMinutes": 27,
+        "knownEvents": [
+          "xNox helps first kill around 7m, Kite arrives first",
+          "japalenogrits roams mid for another kill",
+          "Blue earns Baron at 24m and ends about 27m"
+        ],
+        "provenance": "narrated-canon-partial",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-academy-blue",
+            "teamName": "Kairos Academy Blue",
+            "kills": 27,
+            "deaths": 10,
+            "gold": 64310,
+            "towers": 10,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Annie",
+              "Vayne",
+              "Poppy",
+              "Shaco",
+              "Zed"
+            ],
+            "players": [
+              {
+                "playerId": "connor-mako-sullivan",
+                "displayName": "Connor \"SullCon\" Sullivan",
+                "role": "TOP",
+                "champion": "Renekton",
+                "pickProvenance": "narrated-canon",
+                "kills": 8,
+                "deaths": 4,
+                "assists": 6,
+                "cs": 150,
+                "gold": 12849,
+                "kda": "8/4/6",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "jacob-xnox-price",
+                "displayName": "Jacob \"xNox\" Price",
+                "role": "JUNGLE",
+                "champion": "Nidalee",
+                "pickProvenance": "narrated-canon",
+                "kills": 4,
+                "deaths": 1,
+                "assists": 15,
+                "cs": 133,
+                "gold": 11844,
+                "kda": "4/1/15",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "owen-kite-hughes",
+                "displayName": "Owen \"Kite\" Hughes",
+                "role": "MID",
+                "champion": "Taliyah",
+                "pickProvenance": "narrated-canon",
+                "kills": 6,
+                "deaths": 2,
+                "assists": 14,
+                "cs": 222,
+                "gold": 15504,
+                "kda": "6/2/14",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "tyler-murmur-grant",
+                "displayName": "Tyler \"Murmur\" Grant",
+                "role": "ADC",
+                "champion": "Ezreal",
+                "pickProvenance": "narrated-canon",
+                "kills": 8,
+                "deaths": 0,
+                "assists": 3,
+                "cs": 224,
+                "gold": 14528,
+                "kda": "8/0/3",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "lucas-grit-foster",
+                "displayName": "Lucas \"japalenogrits\" Foster",
+                "role": "SUPPORT",
+                "champion": "Rakan",
+                "pickProvenance": "narrated-canon",
+                "kills": 1,
+                "deaths": 3,
+                "assists": 8,
+                "cs": 23,
+                "gold": 9585,
+                "kda": "1/3/8",
+                "statProvenance": "narrated-canon"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-giantx",
+            "teamName": "GIANTX",
+            "kills": 10,
+            "deaths": 27,
+            "gold": 47981,
+            "towers": 5,
+            "dragons": 0,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Draven",
+              "Rumble",
+              "Fizz",
+              "Blitzcrank",
+              "Pyke"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "GIANTX TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Sion",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 5,
+                "deaths": 3,
+                "assists": 2,
+                "cs": 187,
+                "gold": 10420,
+                "kda": "5/3/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Maokai",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 1,
+                "deaths": 11,
+                "assists": 1,
+                "cs": 148,
+                "gold": 8762,
+                "kda": "1/11/1",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX MID (identity TBD)",
+                "role": "MID",
+                "champion": "Syndra",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 2,
+                "assists": 4,
+                "cs": 232,
+                "gold": 11343,
+                "kda": "3/2/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Jhin",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 1,
+                "deaths": 7,
+                "assists": 2,
+                "cs": 209,
+                "gold": 10372,
+                "kda": "1/7/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Leona",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 4,
+                "assists": 6,
+                "cs": 19,
+                "gold": 7084,
+                "kda": "0/4/6",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "durationMinutes": 39,
+        "knownEvents": [
+          "GIANTX takes Baron ~30m",
+          "Blue defends own Nexus ~35m",
+          "Kite Azir ultimate displaces three opponents",
+          "Murmur earns triple kill and Blue takes Elder",
+          "Blue ends at 39m"
+        ],
+        "provenance": "narrated-canon-partial",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-academy-blue",
+            "teamName": "Kairos Academy Blue",
+            "kills": 19,
+            "deaths": 17,
+            "gold": 79657,
+            "towers": 9,
+            "dragons": 5,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Poppy",
+              "Blitzcrank",
+              "Draven",
+              "Fizz",
+              "Vayne"
+            ],
+            "players": [
+              {
+                "playerId": "connor-mako-sullivan",
+                "displayName": "Connor \"SullCon\" Sullivan",
+                "role": "TOP",
+                "champion": "Renekton",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 3,
+                "assists": 5,
+                "cs": 293,
+                "gold": 16503,
+                "kda": "4/3/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "jacob-xnox-price",
+                "displayName": "Jacob \"xNox\" Price",
+                "role": "JUNGLE",
+                "champion": "Xin Zhao",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 3,
+                "assists": 4,
+                "cs": 237,
+                "gold": 15491,
+                "kda": "4/3/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "owen-kite-hughes",
+                "displayName": "Owen \"Kite\" Hughes",
+                "role": "MID",
+                "champion": "Azir",
+                "pickProvenance": "narrated-canon",
+                "kills": 5,
+                "deaths": 9,
+                "assists": 4,
+                "cs": 338,
+                "gold": 18522,
+                "kda": "5/9/4",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "tyler-murmur-grant",
+                "displayName": "Tyler \"Murmur\" Grant",
+                "role": "ADC",
+                "champion": "Jinx",
+                "pickProvenance": "narrated-canon",
+                "kills": 3,
+                "deaths": 2,
+                "assists": 7,
+                "cs": 295,
+                "gold": 16418,
+                "kda": "3/2/7",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "lucas-grit-foster",
+                "displayName": "Lucas \"japalenogrits\" Foster",
+                "role": "SUPPORT",
+                "champion": "Rakan",
+                "pickProvenance": "narrated-canon",
+                "kills": 3,
+                "deaths": 0,
+                "assists": 10,
+                "cs": 27,
+                "gold": 12723,
+                "kda": "3/0/10",
+                "statProvenance": "narrated-canon"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-giantx",
+            "teamName": "GIANTX",
+            "kills": 17,
+            "deaths": 19,
+            "gold": 67159,
+            "towers": 5,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Zyra",
+              "LeBlanc",
+              "Hwei",
+              "Shaco",
+              "Rumble"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "GIANTX TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Kennen",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 3,
+                "assists": 4,
+                "cs": 276,
+                "gold": 12636,
+                "kda": "0/3/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Jarvan IV",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 4,
+                "assists": 6,
+                "cs": 252,
+                "gold": 13896,
+                "kda": "4/4/6",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX MID (identity TBD)",
+                "role": "MID",
+                "champion": "Taliyah",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 7,
+                "deaths": 4,
+                "assists": 2,
+                "cs": 317,
+                "gold": 15433,
+                "kda": "7/4/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Varus",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 0,
+                "assists": 3,
+                "cs": 270,
+                "gold": 15385,
+                "kda": "6/0/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "GIANTX SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Nautilus",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 8,
+                "assists": 8,
+                "cs": 31,
+                "gold": 9809,
+                "kda": "0/8/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "external_lol_scrims_ep106_full_synthetic_proposal.json (author-provided synthetic proposal dataset)",
+    "external_league_scrims_ep105_106_source_only.json (narrated-canon-only cross-check)"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos Academy Blue 2-1 GIANTX (LEC experimental roster), Episode 106 (2027-01-20) — series result and any picks/events marked narrated-canon are story canon."
+  ],
+  "unconfirmedDetails": [
+    "GIANTX's roster is an experimental/not-finalized placeholder; no real player identities exist for it in canon.",
+    "Champions, K/D/A, gold, bans and objectives not flagged narrated-canon are an author-approved synthetic reconstruction/proposal, not confirmed story dialogue."
+  ],
+  "canonNotes": [
+    "Private external scrim; not an official league match for either side, does not affect any standings."
+  ]
+}

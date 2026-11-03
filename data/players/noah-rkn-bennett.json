@@ -87,5 +87,36 @@
   ],
   "nationalities": [
     "American"
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Fiora is his representative champion; also likes Camille and Jax",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Watches his own lane recordings without audio",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Played basketball in school leagues as a forward; still follows NBA",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Learned to cook from his mother",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Fiora",
+    "Camille",
+    "Jax"
   ]
 }

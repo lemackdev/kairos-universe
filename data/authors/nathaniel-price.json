@@ -1,0 +1,17 @@
+{
+  "id": "nathaniel-price",
+  "slug": "nathaniel-price",
+  "continuityId": "kairos-universe",
+  "name": "Nathaniel Price",
+  "role": "Editor-in-chief, The Competitive Ledger",
+  "publisherIds": ["the-competitive-ledger"],
+  "bio": "A veteran esports-business journalist in his forties, known for a sustained editorial line arguing that private-technology capital is reshaping competitive gaming to the disadvantage of traditional organizations. Interviewed Adrian Vale directly at the Kairos campus on 2027-01-14 after publishing seven consecutive articles critical of Asterion Intelligence's and Kairos's financial scale.",
+  "originType": "fictional",
+  "characterId": null,
+  "canonStatus": "confirmed",
+  "sourceIds": ["source-episodes-102-103-ledger-interview"],
+  "notes": [
+    "Entirely original to the Kairos Universe; not a real-world journalist.",
+    "Preserve his genuinely skeptical editorial voice in any future publication credited to him: he challenges Adrian Vale throughout the interview and does not retract his scrutiny of Asterion's scale, even after softening his headline."
+  ]
+}

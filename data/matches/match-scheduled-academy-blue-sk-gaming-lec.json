@@ -1,0 +1,42 @@
+{
+  "id": "match-scheduled-academy-blue-sk-gaming-lec",
+  "slug": "match-scheduled-academy-blue-sk-gaming-lec",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "planned",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-blue",
+    "opponent-sk-gaming"
+  ],
+  "scheduledDate": "TBD",
+  "date": null,
+  "datePrecision": "unknown",
+  "teamAId": "kairos-lol-academy-blue",
+  "teamBId": "opponent-sk-gaming",
+  "bestOf": null,
+  "teamAScore": "TBD",
+  "teamBScore": "TBD",
+  "winnerTeamId": null,
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "unknown",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [],
+  "relatedPlayerIds": [],
+  "result": null,
+  "statistics": {},
+  "sources": [
+    "scrim_canonical_inventory_episodes_90_106.json"
+  ],
+  "canonStatus": "unconfirmed",
+  "confirmedFacts": [],
+  "unconfirmedDetails": [
+    "Kairos Academy Blue is scheduled to scrim SK Gaming (LEC); not yet played as of the current narrative date. No result exists to report."
+  ],
+  "canonNotes": [
+    "Scheduled-only block; never render as a completed match."
+  ]
+}

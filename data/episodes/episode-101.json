@@ -1,0 +1,154 @@
+{
+  "id": "episode-101",
+  "slug": "episode-101",
+  "episodeNumber": 101,
+  "title": "Sem Hierarquia",
+  "historicalTitle": "Sem Hierarquia",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-14",
+  "datePrecision": "exact",
+  "publicationOrder": 101,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Kairos holds its first fully internal competitive day: private, unbroadcast, no official standing or content output, under one rule Adrian insists on heading the document: NOBODY PLAYS AS THE FAVORITE. League runs a three-team round robin (Main, Academy Blue, Academy White) each playing a single Bo3, with the top two by series record and game differential advancing to a Bo3 final; simultaneously, Counter-Strike Main and Academy play a full Bo5. In League, Blue beats Main 2-1, Main beats White 2-0, and White beats Blue 2-0, leaving Main and White tied at 1-1 in series but White ahead on game differential (0 vs Blue's -1), so Main and White advance; White then wins the final 2-1 to take the internal title, having needed to beat the team (Main) that eliminated Blue. In Counter-Strike, Main beats Academy 3-2 across five maps (Inferno, Nuke, Train, Dust II, Overpass), with Academy's p4rkingl0t and dentalplan standing out, including a clutch 1v2 from p4rkingl0t. None of this is official, broadcast, or has any bearing on LCS/NACL standing; it exists purely as an internal competitive and development exercise.",
+  "keyEvents": [
+    "The exercise originates as a coaches' discussion and becomes Kairos's first internal competitive day: private, unbroadcast, no official result, governed by Adrian's rule 'NOBODY PLAYS AS THE FAVORITE.'",
+    "League format: Main, Academy Blue, and Academy White each play one Bo3 against the other two; the top two placements by series record and game differential advance to a Bo3 final.",
+    "Main vs. Blue: Blue wins game 1 after finding Baron while Main arrives late to contest; Main answers with superior scaling to even the series 1-1; Blue takes game 3 with a vision advantage, winning the series 2-1 over Main.",
+    "Main vs. White: Main wins game 1 leading throughout; Main builds a steady lead of small correct decisions in game 2 to close the series 2-0 over White.",
+    "Blue vs. White: White, deliberately unfavored on paper, wins game 1 by refusing to try to out-mechanic Main's conqueror earlier in the day and instead playing a precise structural game; White closes it out 2-0, eliminating Blue from final contention. Explicit confirmed champion picks for White's game 1 of this series: Ornn (Pebble), Kindred (vexemite), Viktor (0bit), Jhin (June), Bard (Luma).",
+    "Standings after the round robin: Main 1-1 in series, 3-2 in games, +1 differential; White 1-1 in series, 2-2 in games, 0 differential; Blue 1-1 in series, 2-3 in games, -1 differential -- Main and White advance to the final on tiebreak over Blue.",
+    "Final (Main vs. White), game 1: Main starts as the favorite; White plays as if that doesn't matter and wins 1-0 on structural execution, not mechanical superiority.",
+    "Final, game 2: Main responds with a dominant mid-game and takes the game to tie the final 1-1, including White stealing a Baron that Main answers by taking the Elder dragon in the same sequence before successfully defending.",
+    "Final, game 3: White wins 2-1 overall, taking the internal League title. Confirmed explicit pick for this game: June (Cole Mercer) on Jhin.",
+    "Final series result: White defeats Main 2-1 to win the internal League title, having first been eliminated from favorite status by Main in the round robin and then beaten the same team in the final.",
+    "In parallel, Counter-Strike Main and Academy play a full Bo5: Academy wins Inferno 13-9, Main wins Nuke 13-7, Academy wins Train 13-11, Main wins Dust II 13-10, and Main wins Overpass 13-11, for a 3-2 series win for Main.",
+    "Standout individual CS moments include p4rkingl0t (Zayn Haddad) winning a clutch 1v2 for Academy and dentalplan (Nolan Hart) contributing key rounds; Main ultimately closes the series out 3-2.",
+    "Full per-map Counter-Strike box scores (K/D/A, ADR, synthetic rating) and full per-game League box scores (champions, bans, K/D/A, CS, gold, items, summoners, objectives) for this day are retained separately as structured match/statistics data, not narrative prose; this episode record preserves only the narrated series outcomes and explicit named events/picks.",
+    "The day closes with the explicit framing that Blue lost to Main and was knocked out of the League final before it happened, while White lost to Main earlier in the day and then beat the same team for the title -- underscoring the 'nobody plays as the favorite' rule that opened the exercise."
+  ],
+  "consequences": [
+    "White is confirmed as the winner of Kairos's first internal League competitive day, 2027-01-14.",
+    "Main is confirmed as the winner of the CS Main vs. Academy internal Bo5, 3-2, 2027-01-14.",
+    "None of these results are official matches, carry LCS/NACL standing, or are publicly reported; they remain internal, private scrim/exhibition records."
+  ],
+  "canonIntroduced": [
+    "Kairos's first full internal competitive day across League (three-team round robin + Bo3 final) and Counter-Strike (Main vs. Academy Bo5) takes place 2027-01-14, governed by the explicit non-favoritism rule.",
+    "White's internal League championship-day picks for the explicit confirmed games are fixed as canon: round-robin decider game 1 (Ornn/Pebble, Kindred/vexemite, Viktor/0bit, Jhin/June, Bard/Luma) and final game 3 (June on Jhin)."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-100"
+  ],
+  "continuityNotes": [
+    "This is a private internal scrim/exhibition day, not an official match in any league; it must not be presented as affecting LCS or NACL standings.",
+    "Only the explicitly named champion picks and narrated events in this episode are protected canon; all other per-game champion picks, K/D/A, items, and objective details for this day exist only as separately maintained synthetic/reconstructed statistical data and must be labeled as such wherever displayed, not asserted as directly narrated."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_101.txt",
+      "locator": "Episódio 101 — Sem Hierarquia",
+      "information": "Supplies full prose, series results, and explicit named champion picks/events for the internal League round robin, final, and CS Main vs Academy Bo5.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    },
+    {
+      "sourceType": "structured-data",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/kairos_cs_scrims_stats.json",
+      "locator": "series id bo5-1",
+      "information": "Supplies full per-map Counter-Strike box scores for this day's Main vs Academy Bo5, marked synthetic-retrospective.",
+      "evidenceLevel": "indirect",
+      "confidence": "medium",
+      "userConfirmationRequired": true
+    },
+    {
+      "sourceType": "structured-data",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/kairos_lol_scrims_ep101_drafts.json",
+      "locator": "series s1-s4",
+      "information": "Supplies full per-game League box scores for this day's round robin and final, with explicit episode picks preserved and other picks marked as reconstruction.",
+      "evidenceLevel": "indirect",
+      "confidence": "medium",
+      "userConfirmationRequired": true
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "League round robin results: Blue 2-1 Main; Main 2-0 White; White 2-0 Blue.",
+    "League standings after round robin: Main 1-1 (+1 differential), White 1-1 (0 differential), Blue 1-1 (-1 differential); Main and White advance on tiebreak.",
+    "League final: White defeats Main 2-1 to win the internal title.",
+    "White's final-day explicit champion picks: round-robin decider game 1 Ornn (Pebble)/Kindred (vexemite)/Viktor (0bit)/Jhin (June)/Bard (Luma); final game 3 June on Jhin.",
+    "Counter-Strike Main defeats Academy 3-2 across Inferno, Nuke, Train, Dust II, and Overpass.",
+    "None of this day's results are official matches or affect LCS/NACL standings."
+  ],
+  "unconfirmedDetails": [
+    "Per-game champion picks beyond the explicitly named ones, and all detailed K/D/A/CS/gold/item statistics for this day's games, are retrospective reconstructions, not directly narrated."
+  ],
+  "notes": [
+    "Full structured box-score data for this day's matches lives in data/matches and data/statistics, cross-referenced to this episode via relatedEpisodeIds, not duplicated here."
+  ]
+}

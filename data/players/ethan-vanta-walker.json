@@ -87,5 +87,36 @@
   ],
   "nationalities": [
     "American"
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Lee Sin is favorite; also Nidalee and Kindred",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Reconstructs enemy jungler path mentally before reviewing replay",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Used to fish with his father for hours",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Ran cross-country at school",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Lee Sin",
+    "Nidalee",
+    "Kindred"
   ]
 }

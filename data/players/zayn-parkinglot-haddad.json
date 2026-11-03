@@ -107,5 +107,33 @@
     "Do not alter the historical nickname parkinglot when referring to pre-2027-01-04 episodes or sources.",
     "Current nickname is p4rkingl0t (exact spelling, with digits), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use the new nickname.",
     "His Lurker / Rifler role is current, not necessarily permanent; do not assign him the team captaincy, which remains TBD."
-  ]
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Favorite map Train",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Would use AK after considering M4",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Likes car models, engines and sounds",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Took nighttime automotive photos for friends near car parks, gas stations, and city lights",
+      "sourceEpisodeId": "episode-098",
+      "publicationId": "interview-dust2-dez-cadeiras"
+    }
+  ],
+  "favoriteMap": "Train",
+  "favoriteWeapon": "AK-47"
 }

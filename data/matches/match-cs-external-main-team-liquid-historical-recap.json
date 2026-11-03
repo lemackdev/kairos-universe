@@ -1,0 +1,55 @@
+{
+  "id": "match-cs-external-main-team-liquid-historical-recap",
+  "slug": "match-cs-external-main-team-liquid-historical-recap",
+  "game": "Counter-Strike",
+  "matchType": "private-scrim",
+  "status": "unconfirmed",
+  "storyPeriod": "early-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-main",
+    "opponent-team-liquid"
+  ],
+  "scheduledDate": "2027-01-04 recap of earlier scrim",
+  "date": null,
+  "datePrecision": "unknown",
+  "teamAId": "kairos-cs-main",
+  "teamBId": "opponent-team-liquid",
+  "bestOf": 3,
+  "teamAScore": 1,
+  "teamBScore": 2,
+  "winnerTeamId": "opponent-team-liquid",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-93"
+  ],
+  "relatedPlayerIds": [],
+  "result": {
+    "knownMaps": [
+      "Dust II (Liquid win, margin unknown)",
+      "Mirage (contested, winner not explicitly given)",
+      "Nuke (Kairos win)"
+    ],
+    "mapPoolNote": "Mirage is not in Kairos's permanent official competitive map pool; it appeared here only as private practice.",
+    "roundScores": "unknown",
+    "playerStats": "unknown"
+  },
+  "statistics": {},
+  "sources": [
+    "scrim_canonical_inventory_episodes_90_106.json"
+  ],
+  "canonStatus": "unconfirmed",
+  "confirmedFacts": [
+    "Team Liquid defeated Kairos CS Main 2-1 in a private historical scrim recapped in Episode 93; Kairos won Nuke and lost Dust II, Mirage was contested."
+  ],
+  "unconfirmedDetails": [
+    "Exact round scores and individual player K/D/A for this historical scrim were never narrated and are not invented here."
+  ],
+  "canonNotes": [
+    "private nonofficial historic scrim, stats unknown; Mirage is not in permanent official map pool and was only private practice"
+  ]
+}

@@ -95,5 +95,36 @@
   ],
   "nationalities": [
     "Canadian"
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Orianna is favorite; also Syndra and Azir",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Collects seven old mechanical keyboards",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Made small, non-public videogame mods; once replaced sound effects with phone recordings",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Attended chess club approximately six months; disliked losing slowly",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Orianna",
+    "Syndra",
+    "Azir"
   ]
 }

@@ -85,5 +85,35 @@
     "No result, contract, salary, ranking, or statistic is confirmed unless explicitly recorded.",
     "The date of birth and age are confirmed canon and use 2026-11-24 as the age-reference date.",
     "The current nickname is japalenogrits (exact spelling), effective 2027-01-04 per episode-093; do not retroactively rewrite episodes before that date to use it. Do not embellish the medical/sickness details beyond what is confirmed."
+  ],
+  "publicTrivia": [
+    {
+      "category": "competitive-favorite",
+      "text": "Rakan is favorite; also Bard",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "on-camera-trivia",
+      "text": "Nickname arose from a bad jalapeño-and-grits incident",
+      "sourceEpisodeId": "episode-096",
+      "publicationId": "interview-riot-quinze-respostas"
+    },
+    {
+      "category": "before-kairos",
+      "text": "Sang in school choir",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    },
+    {
+      "category": "before-kairos",
+      "text": "Helped an uncle for months at a small diner; can cook",
+      "sourceEpisodeId": "episode-097",
+      "publicationId": null
+    }
+  ],
+  "favoriteChampions": [
+    "Rakan",
+    "Bard"
   ]
 }

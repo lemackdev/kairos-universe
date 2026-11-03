@@ -1,0 +1,120 @@
+{
+  "id": "episode-097",
+  "slug": "episode-097",
+  "episodeNumber": 97,
+  "title": "Antes Daqui",
+  "historicalTitle": "Antes Daqui",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-05",
+  "datePrecision": "exact",
+  "publicationOrder": 97,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "daniel-moss-reyes",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "emily-chen",
+    "thinkcard-kairos-strategic-coach",
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Immediately after the Riot production crew leaves, the fifteen League players keep talking about what they just learned about each other instead of returning to review. Head coach Aphromoo's attempt to restart Main's session lasts three minutes before the conversation spills into the shared common area between the three team rooms. Over roughly 38 minutes (negotiated down from an initial 15-20 minutes), Daniel 'Moss' Reyes asks the question that drives the rest of the scene -- 'what did you all do before here?' -- and each of the fifteen players shares further personal background with teammates, much of it unknown even to close teammates until this moment. Emily Chen ends the scene by opening a new, explicitly voluntary internal note for the content department: 'PLAYER TRIVIA, VOLUNTARY.'",
+  "keyEvents": [
+    "rkN (Noah Bennett) reveals he played basketball (forward) in school leagues, still follows the NBA almost daily, and learned to cook from his mother, though he rarely cooks given the team cafeteria.",
+    "Vanta (Ethan Walker) reveals he used to fish for hours with his father and ran cross-country at school, not out of passion for the sport but because he discovered he was good at enduring long distances.",
+    "404 (Mason Brooks) reveals, beyond his keyboard collection already known to teammates, that he used to make small, unpublished videogame mods (menus, textures, and once replacing all of a game's sound effects with phone recordings) and attended a chess club for about six months, leaving because he 'hated losing slowly.'",
+    "Aster (Liam O'Connor) reveals he worked part-time at a small sporting goods store (stock, customer service, cleaning) and played baseball (outfielder) for several years as a kid, stopping once League took over his schedule.",
+    "Moss (Daniel Reyes) reveals he regularly helped with family-organized community activities (food distribution, local events) and has a long-standing personal interest in city maps, metro systems, highways, and railway lines, preferring to understand a city before arriving in it.",
+    "SullCon (Connor Sullivan) reveals he worked one summer washing cars and has followed wrestling, including older eras, since childhood, without practicing it himself.",
+    "xNox (Jacob Price) reveals that, beyond building his first PC from used parts (already told to Riot), he spent years taking apart broken electronics (controllers, keyboards, radios, an old laptop) without always being able to reassemble them, and played American football briefly as a kid before quitting early.",
+    "Kite (Owen Hughes) becomes the center of attention: he confirms he has played piano for about six years, can read sheet music, and that his grandmother was the one who insisted on lessons; he also reveals an interest in astronomy and years of using a small telescope in Kelowna.",
+    "Murmur (Tyler Grant) reveals he grew up skateboarding, claims to still know some tricks (no one believes him), and used to edit small videos, montages, and clips for friends before Kairos.",
+    "japalenogrits (Lucas Foster) reveals he sang in his school choir and worked for several months helping an uncle at a small diner, which explains why he can cook better than teammates expected.",
+    "Pebble (Isaac Young) reveals he played soccer (fullback, not by preference but by his coach's assignment) and competed in small local school mathematics contests, and still enjoys logic problems.",
+    "vexemite (Benjamin Carter) reveals he was a scout as a child (tent setup, knots, compass) and is unusually skilled at rhythm games, which he eventually proves with old phone videos.",
+    "0bit (Nathan Hall) reveals that, beyond his handheld console collection already known to teammates, he taught himself basic soldering trying to repair them, and was in a small school robotics club -- creating an immediate bond with xNox (Jacob Price) over shared electronics knowledge.",
+    "June (Cole Mercer) reveals he worked at a movie theater and keeps a personal spreadsheet with scores for hundreds of old films he has watched, mostly thrillers.",
+    "Luma (Ryan Chen) reveals his photography started with an old digital camera his father gave him; he first photographed rain, then buildings, then city lights, and since arriving in Los Angeles has been quietly photographing the empty campus itself (the cafeteria before opening, rooms with monitors off, the sky after practice) -- photos he has never shown anyone.",
+    "Head coaches Aphromoo, Hai, and Sable repeatedly try and fail to end the conversation; Emily Chen confirms it ran 38 minutes.",
+    "Emily Chen closes the scene by opening a new internal content-department note titled 'PLAYER TRIVIA, VOLUNTARY,' listing all fifteen names -- explicitly separate from performance or evaluation tracking."
+  ],
+  "consequences": [
+    "The personal background disclosed in this episode becomes the internal basis for a voluntary player-trivia content effort, distinct from the Riot interview footage filmed earlier the same day in episode-096."
+  ],
+  "canonIntroduced": [
+    "Fifteen players' further personal/background trivia (hobbies, prior jobs, childhood activities) is established as disclosed privately among teammates on 2027-01-05, after the Riot filming wrapped and before any public release.",
+    "An internal, explicitly voluntary 'PLAYER TRIVIA' content note is opened by Emily Chen, separate from performance evaluation."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-096"
+  ],
+  "continuityNotes": [
+    "This conversation happens entirely among players, off camera, after the Riot crew has already left; none of it is filmed or recorded by Riot, and none of it should be attributed to the Riot interview (episode-096) as its source.",
+    "This is the primary source for facts later authorized for public Kairospedia display as 'Before Kairos / Outside the Game' player-profile content; that public display must cite episode-097, not episode-096, for any fact that originates here."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Riot Games is referenced only as having already left the scene (its fictional in-universe production from episode-096); no further real-world reference appears in this episode.",
+    "Goldenglue and WildTurtle are referenced briefly, consistent with their established fictional Kairos mentor roles."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_90_106_import/episode_097.txt",
+      "locator": "Episódio 97 — Antes Daqui",
+      "information": "Supplies full prose and dialogue for the private post-interview conversation among all fifteen League players.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "This conversation takes place on 2027-01-05, immediately after the Riot filming in episode-096, and is not filmed or published by Riot.",
+    "All fifteen players disclose further personal background as listed in keyEvents.",
+    "Emily Chen opens a voluntary internal 'PLAYER TRIVIA' note at the end of the scene, separate from performance tracking."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "This record is the authoritative source-of-truth for any Kairospedia 'Before Kairos / Outside the Game' public trivia content citing episode 97; such content must not be presented as part of the Riot-filmed interview."
+  ]
+}

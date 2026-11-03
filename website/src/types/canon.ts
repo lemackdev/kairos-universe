@@ -119,6 +119,15 @@ export interface RawPlayer {
   relationships: CanonRelationship[];
   careerHistory: Array<Record<string, unknown>>;
   trivia?: string[];
+  publicTrivia?: Array<{
+    category: "competitive-favorite" | "on-camera-trivia" | "before-kairos" | "commons-reference";
+    text: string;
+    sourceEpisodeId: string | null;
+    publicationId: string | null;
+  }>;
+  favoriteChampions?: string[];
+  favoriteMap?: string;
+  favoriteWeapon?: string;
   statistics: Record<string, unknown>;
   achievements: string[];
   confirmedFacts: string[];
@@ -225,6 +234,41 @@ export interface RawEpisode {
   teams: string[];
   summary: string;
   sourceReferences: Array<Record<string, unknown>>;
+}
+
+export interface RawMatch {
+  id: string;
+  slug: string;
+  game: string;
+  matchType?: string;
+  status: string;
+  storyPeriod: string;
+  competition: string | null;
+  season: string | null;
+  teams: string[];
+  scheduledDate: string;
+  date?: string | null;
+  datePrecision?: string;
+  teamAId?: string;
+  teamBId?: string;
+  bestOf?: number | "TBD" | null;
+  teamAScore?: number | "TBD";
+  teamBScore?: number | "TBD";
+  winnerTeamId?: string | "TBD" | null;
+  visibility?: "public" | "private" | "internal";
+  officialStatus?: "official" | "unofficial" | "practice";
+  result: Record<string, unknown> | "TBD" | null;
+  statistics: Record<string, unknown>;
+  sources: string[];
+  sourceIds?: string[];
+  canonStatus: CanonStatus;
+  confirmedFacts: string[];
+  unconfirmedDetails: string[];
+  canonNotes: string[];
+  provenance?: "narrated-canon" | "authored-reconstruction" | "proposed-opponent-draft" | "unknown";
+  affectsStandings?: boolean | "TBD";
+  relatedEpisodeIds?: string[];
+  relatedPlayerIds?: string[];
 }
 
 export interface RosterTenure {

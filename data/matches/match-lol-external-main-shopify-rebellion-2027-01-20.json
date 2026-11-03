@@ -1,0 +1,637 @@
+{
+  "id": "match-lol-external-main-shopify-rebellion-2027-01-20",
+  "slug": "match-lol-external-main-shopify-rebellion-2027-01-20",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "mid-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-shopify-rebellion"
+  ],
+  "scheduledDate": "2027-01-20",
+  "date": "2027-01-20",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-shopify-rebellion",
+  "bestOf": 3,
+  "teamAScore": 1,
+  "teamBScore": 2,
+  "winnerTeamId": "opponent-shopify-rebellion",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "proposed-opponent-draft",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-106"
+  ],
+  "relatedPlayerIds": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "result": {
+    "opponentName": "Shopify Rebellion",
+    "opponentLeague": "LCS",
+    "opponentRosterStatus": "experimental / not finalized",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-shopify-rebellion",
+        "durationMinutes": 28,
+        "knownEvents": [
+          "Main loses fights at 17m, 23m; game ends near 28m"
+        ],
+        "provenance": "narrated-canon-partial",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-main",
+            "teamName": "Kairos Main",
+            "kills": 8,
+            "deaths": 29,
+            "gold": 49096,
+            "towers": 1,
+            "dragons": 0,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Vayne",
+              "Hwei",
+              "Blitzcrank",
+              "Illaoi",
+              "Pyke"
+            ],
+            "players": [
+              {
+                "playerId": "noah-rkn-bennett",
+                "displayName": "Noah \"rkN\" Bennett",
+                "role": "TOP",
+                "champion": "Jax",
+                "pickProvenance": "narrated-canon",
+                "kills": 1,
+                "deaths": 5,
+                "assists": 5,
+                "cs": 172,
+                "gold": 9926,
+                "kda": "1/5/5",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "ethan-vanta-walker",
+                "displayName": "Ethan \"Vanta\" Walker",
+                "role": "JUNGLE",
+                "champion": "Lee Sin",
+                "pickProvenance": "narrated-canon",
+                "kills": 0,
+                "deaths": 9,
+                "assists": 2,
+                "cs": 185,
+                "gold": 8861,
+                "kda": "0/9/2",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "mason-404-brooks",
+                "displayName": "Mason \"404\" Brooks",
+                "role": "MID",
+                "champion": "Orianna",
+                "pickProvenance": "narrated-canon",
+                "kills": 4,
+                "deaths": 1,
+                "assists": 1,
+                "cs": 180,
+                "gold": 11051,
+                "kda": "4/1/1",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "liam-aster-oconnor",
+                "displayName": "Liam \"Aster\" O'Connor",
+                "role": "ADC",
+                "champion": "Xayah",
+                "pickProvenance": "narrated-canon",
+                "kills": 3,
+                "deaths": 5,
+                "assists": 3,
+                "cs": 231,
+                "gold": 11555,
+                "kda": "3/5/3",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "daniel-moss-reyes",
+                "displayName": "Daniel \"Moss\" Reyes",
+                "role": "SUPPORT",
+                "champion": "Rakan",
+                "pickProvenance": "narrated-canon",
+                "kills": 0,
+                "deaths": 9,
+                "assists": 2,
+                "cs": 21,
+                "gold": 7703,
+                "kda": "0/9/2",
+                "statProvenance": "narrated-canon"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-shopify-rebellion",
+            "teamName": "Shopify Rebellion",
+            "kills": 29,
+            "deaths": 8,
+            "gold": 67618,
+            "towers": 9,
+            "dragons": 4,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Draven",
+              "Karthus",
+              "Zed",
+              "Teemo",
+              "Yasuo"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Rumble",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 1,
+                "assists": 12,
+                "cs": 191,
+                "gold": 12770,
+                "kda": "2/1/12",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Sejuani",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 8,
+                "deaths": 2,
+                "assists": 4,
+                "cs": 153,
+                "gold": 13117,
+                "kda": "8/2/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion MID (identity TBD)",
+                "role": "MID",
+                "champion": "Viktor",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 9,
+                "deaths": 3,
+                "assists": 5,
+                "cs": 202,
+                "gold": 15236,
+                "kda": "9/3/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Jhin",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 8,
+                "deaths": 0,
+                "assists": 12,
+                "cs": 244,
+                "gold": 16759,
+                "kda": "8/0/12",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Milio",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 2,
+                "assists": 6,
+                "cs": 21,
+                "gold": 9736,
+                "kda": "2/2/6",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-main",
+        "durationMinutes": 32,
+        "knownEvents": [
+          "Main controls sidelanes; Baron opening; wins at 32m"
+        ],
+        "provenance": "narrated-canon-partial",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-main",
+            "teamName": "Kairos Main",
+            "kills": 18,
+            "deaths": 9,
+            "gold": 67066,
+            "towers": 8,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Kennen",
+              "Karthus",
+              "Zed",
+              "Blitzcrank",
+              "Tristana"
+            ],
+            "players": [
+              {
+                "playerId": "noah-rkn-bennett",
+                "displayName": "Noah \"rkN\" Bennett",
+                "role": "TOP",
+                "champion": "Fiora",
+                "pickProvenance": "narrated-canon",
+                "kills": 2,
+                "deaths": 3,
+                "assists": 3,
+                "cs": 189,
+                "gold": 13223,
+                "kda": "2/3/3",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "ethan-vanta-walker",
+                "displayName": "Ethan \"Vanta\" Walker",
+                "role": "JUNGLE",
+                "champion": "Jarvan IV",
+                "pickProvenance": "narrated-canon",
+                "kills": 5,
+                "deaths": 3,
+                "assists": 6,
+                "cs": 206,
+                "gold": 14183,
+                "kda": "5/3/6",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "mason-404-brooks",
+                "displayName": "Mason \"404\" Brooks",
+                "role": "MID",
+                "champion": "Syndra",
+                "pickProvenance": "narrated-canon",
+                "kills": 4,
+                "deaths": 1,
+                "assists": 9,
+                "cs": 234,
+                "gold": 14563,
+                "kda": "4/1/9",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "liam-aster-oconnor",
+                "displayName": "Liam \"Aster\" O'Connor",
+                "role": "ADC",
+                "champion": "Kai’Sa",
+                "pickProvenance": "narrated-canon",
+                "kills": 5,
+                "deaths": 2,
+                "assists": 4,
+                "cs": 235,
+                "gold": 14445,
+                "kda": "5/2/4",
+                "statProvenance": "narrated-canon"
+              },
+              {
+                "playerId": "daniel-moss-reyes",
+                "displayName": "Daniel \"Moss\" Reyes",
+                "role": "SUPPORT",
+                "champion": "Nautilus",
+                "pickProvenance": "narrated-canon",
+                "kills": 2,
+                "deaths": 0,
+                "assists": 9,
+                "cs": 21,
+                "gold": 10652,
+                "kda": "2/0/9",
+                "statProvenance": "narrated-canon"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-shopify-rebellion",
+            "teamName": "Shopify Rebellion",
+            "kills": 9,
+            "deaths": 18,
+            "gold": 57558,
+            "towers": 2,
+            "dragons": 0,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Fizz",
+              "Rumble",
+              "Draven",
+              "Pyke",
+              "Gragas"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Renekton",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 5,
+                "deaths": 0,
+                "assists": 3,
+                "cs": 212,
+                "gold": 12442,
+                "kda": "5/0/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Maokai",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 4,
+                "assists": 5,
+                "cs": 207,
+                "gold": 10970,
+                "kda": "0/4/5",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion MID (identity TBD)",
+                "role": "MID",
+                "champion": "Hwei",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 2,
+                "assists": 3,
+                "cs": 266,
+                "gold": 12462,
+                "kda": "2/2/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Aphelios",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 6,
+                "assists": 3,
+                "cs": 281,
+                "gold": 13007,
+                "kda": "2/6/3",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Alistar",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 6,
+                "assists": 2,
+                "cs": 28,
+                "gold": 8677,
+                "kda": "0/6/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "opponent-shopify-rebellion",
+        "durationMinutes": 41,
+        "knownEvents": [
+          "Main splits calls when attempting Baron at ~38m",
+          "Shopify takes fight and ends at 41m"
+        ],
+        "provenance": "proposed-opponent-draft",
+        "provenanceNote": "Winner, duration, and any events/picks also present in the narrated-canon-only source file are story canon. All other champions, K/D/A, gold, bans and objectives are an author-approved synthetic reconstruction/proposal; opponent roster identities are not finalized and are not real players.",
+        "sides": [
+          {
+            "teamId": "kairos-lol-main",
+            "teamName": "Kairos Main",
+            "kills": 14,
+            "deaths": 31,
+            "gold": 67638,
+            "towers": 5,
+            "dragons": 1,
+            "barons": 0,
+            "heralds": 1,
+            "bans": [
+              "Vayne",
+              "Gragas",
+              "Rumble",
+              "Illaoi",
+              "Karthus"
+            ],
+            "players": [
+              {
+                "playerId": "noah-rkn-bennett",
+                "displayName": "Noah \"rkN\" Bennett",
+                "role": "TOP",
+                "champion": "Camille",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 2,
+                "deaths": 3,
+                "assists": 2,
+                "cs": 247,
+                "gold": 13235,
+                "kda": "2/3/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "ethan-vanta-walker",
+                "displayName": "Ethan \"Vanta\" Walker",
+                "role": "JUNGLE",
+                "champion": "Jarvan IV",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 4,
+                "deaths": 10,
+                "assists": 2,
+                "cs": 246,
+                "gold": 13316,
+                "kda": "4/10/2",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "mason-404-brooks",
+                "displayName": "Mason \"404\" Brooks",
+                "role": "MID",
+                "champion": "Taliyah",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 2,
+                "assists": 4,
+                "cs": 262,
+                "gold": 13378,
+                "kda": "3/2/4",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "liam-aster-oconnor",
+                "displayName": "Liam \"Aster\" O'Connor",
+                "role": "ADC",
+                "champion": "Kai'Sa",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 5,
+                "deaths": 6,
+                "assists": 6,
+                "cs": 360,
+                "gold": 17166,
+                "kda": "5/6/6",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": "daniel-moss-reyes",
+                "displayName": "Daniel \"Moss\" Reyes",
+                "role": "SUPPORT",
+                "champion": "Braum",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 10,
+                "assists": 8,
+                "cs": 29,
+                "gold": 10543,
+                "kda": "0/10/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          },
+          {
+            "teamId": "opponent-shopify-rebellion",
+            "teamName": "Shopify Rebellion",
+            "kills": 31,
+            "deaths": 14,
+            "gold": 88676,
+            "towers": 7,
+            "dragons": 3,
+            "barons": 1,
+            "heralds": 1,
+            "bans": [
+              "Blitzcrank",
+              "Yasuo",
+              "Annie",
+              "Poppy",
+              "Zyra"
+            ],
+            "players": [
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion TOP (identity TBD)",
+                "role": "TOP",
+                "champion": "Kennen",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 6,
+                "deaths": 1,
+                "assists": 7,
+                "cs": 257,
+                "gold": 16872,
+                "kda": "6/1/7",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion JUNGLE (identity TBD)",
+                "role": "JUNGLE",
+                "champion": "Xin Zhao",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 3,
+                "deaths": 1,
+                "assists": 18,
+                "cs": 241,
+                "gold": 16455,
+                "kda": "3/1/18",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion MID (identity TBD)",
+                "role": "MID",
+                "champion": "LeBlanc",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 12,
+                "deaths": 2,
+                "assists": 8,
+                "cs": 310,
+                "gold": 19678,
+                "kda": "12/2/8",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion ADC (identity TBD)",
+                "role": "ADC",
+                "champion": "Aphelios",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 10,
+                "deaths": 7,
+                "assists": 11,
+                "cs": 352,
+                "gold": 21350,
+                "kda": "10/7/11",
+                "statProvenance": "synthetic-retrospective-proposal"
+              },
+              {
+                "playerId": null,
+                "displayName": "Shopify Rebellion SUPPORT (identity TBD)",
+                "role": "SUPPORT",
+                "champion": "Leona",
+                "pickProvenance": "synthetic-draft-proposal",
+                "kills": 0,
+                "deaths": 3,
+                "assists": 20,
+                "cs": 28,
+                "gold": 14321,
+                "kda": "0/3/20",
+                "statProvenance": "synthetic-retrospective-proposal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "external_lol_scrims_ep106_full_synthetic_proposal.json (author-provided synthetic proposal dataset)",
+    "external_league_scrims_ep105_106_source_only.json (narrated-canon-only cross-check)"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos Main 1-2 Shopify Rebellion (LCS experimental roster), Episode 106 (2027-01-20) — series result and any picks/events marked narrated-canon are story canon."
+  ],
+  "unconfirmedDetails": [
+    "Shopify Rebellion's roster is an experimental/not-finalized placeholder; no real player identities exist for it in canon.",
+    "Champions, K/D/A, gold, bans and objectives not flagged narrated-canon are an author-approved synthetic reconstruction/proposal, not confirmed story dialogue."
+  ],
+  "canonNotes": [
+    "Private external scrim; not an official league match for either side, does not affect any standings."
+  ]
+}

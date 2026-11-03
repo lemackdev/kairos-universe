@@ -1,11 +1,11 @@
 {
-  "canonVersion": "0.12.0",
+  "canonVersion": "0.13.0",
   "project": "Kairos Universe",
-  "storyEpisode": 94,
+  "storyEpisode": 106,
   "storyStartPeriod": "early-2026",
   "storyPeriod": "early-january-2027",
   "storyYear": 2027,
-  "currentNarrativeDate": "2027-01-04",
+  "currentNarrativeDate": "2027-01-20",
   "nextCompetitiveMilestone": {
     "period": "february-2027",
     "displayName": "February 2027",
@@ -14,10 +14,10 @@
   },
   "websiteImplemented": true,
   "competitiveDatabaseImplemented": true,
-  "currentDocumentationPhase": "episodes-091-094-canonized",
+  "currentDocumentationPhase": "episodes-095-106-canonized",
   "nextPhase": "2027-preseason-competition-preparation",
-  "reconstructedThroughEpisode": 94,
-  "episodeRecordsCreatedThrough": 94,
+  "reconstructedThroughEpisode": 106,
+  "episodeRecordsCreatedThrough": 106,
   "lastValidated": null,
   "notes": [
     "Episodes 1-29 are reconstructed from the immutable historical PDF.",
@@ -49,6 +49,17 @@
     "The snapshot is frozen until the 2027 midseason review window.",
     "Real-world updates do not automatically alter the Kairos Universe.",
     "External data never overrides fictional Kairos canon.",
-    "No official Kairos match has occurred."
+    "No official Kairos match has occurred.",
+    "Episode 95 exists only as a minimal placeholder record (no recovered source text); episodes 96-106 are reconstructed from the Episodes 90-106 import package's story text, archived at archive/episode-sources/kairos_90_106_import/.",
+    "Effective 2027-01-05 (episode-096/097), the Riot Games in-universe production films all fifteen League players (favorite champion, on-camera trivia, ban-forever round); its footage is published in-universe 2027-01-07 (episode-098). A separate, unfilmed private conversation among the same fifteen players immediately afterward (episode-097) is the source of further personal background later authorized for public Kairospedia display; it must never be attributed to the Riot recording.",
+    "Effective 2027-01-08 (episode-098), the Dust2.us in-universe production films all ten Counter-Strike players (favorite map, one-weapon-forever, pre-Kairos background); no real-world outlet publication date is ever confirmed for this footage and must remain null.",
+    "Effective 2027-01-11 (episode-099), Kairos Gaming is confirmed as an official LCS organization and Kairos Academy Blue is confirmed as an official 2027 NACL participant; Kairos Academy White remains without a confirmed league destination by explicit organizational design.",
+    "Effective 2027-01-12 (episode-100), the Kairos Commons facility (Maker Lab, music room, photo/video room, kitchen, outdoor recreation area, Kairos Community room) opens under a 'no performance metrics, no content requirement' policy.",
+    "On 2027-01-14 (episode-101), Kairos holds its first internal competitive day: League of Legends Academy White wins a three-team round robin plus Bo3 final over Main and Academy Blue; Counter-Strike Main defeats Counter-Strike Academy 3-2. Neither result is an official match.",
+    "On 2027-01-14 (episode-102), Adrian Vale is interviewed by Nathaniel Price of The Competitive Ledger; the resulting article is published 2027-01-15 (episode-103) as 'Adrian Vale Doesn't Think Money Can Buy a Championship. He's Spending Millions to Find Out.' Adrian's claims in this interview are his own dated statements, not confirmed Asterion Intelligence corporate canon, which remains TBD on headquarters, valuation, revenue, clients, and contracts.",
+    "On 2027-01-18 (episode-104), Counter-Strike Academy wins a revenge Bo5 rematch against Counter-Strike Main, 3-2.",
+    "On 2027-01-19 (episode-105), Kairos begins an external scrim program (2027-01-19 through 2027-01-29); Main's game against Dignitas that day ends with no result ever narrated and must remain unknown.",
+    "On 2027-01-20 (episode-106), three completed external League Bo3 scrims occur: Academy Blue defeats GIANTX (LEC) 2-1; Academy White loses to Dorado Gaming (NACL) 1-2; Main loses to Shopify Rebellion (LCS) 1-2. None of these affect any official league standing; all three opponents fielded explicitly experimental, unconfirmed rosters.",
+    "All scrims referenced in episodes 90-106 (internal and external) are private practice: officialMatch=false, affectsStandings=false, with provenance distinguishing narrated canon from authored statistical reconstruction."
   ]
 }

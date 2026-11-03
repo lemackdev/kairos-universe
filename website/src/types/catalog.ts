@@ -15,6 +15,35 @@ export interface PublicationManifest {
   enabledTransfers: string[];
 }
 
+export interface MatchView {
+  id: string;
+  slug: string;
+  game: string;
+  matchType: string;
+  status: string;
+  officialStatus: string;
+  provenance: string;
+  affectsStandings: boolean;
+  scheduledDate: string | null;
+  date: string | null;
+  teamAId: string;
+  teamBId: string;
+  teamAName: string;
+  teamBName: string;
+  bestOf: number | null;
+  teamAScore: number | string | null;
+  teamBScore: number | string | null;
+  winnerTeamId: string | null;
+  isInternal: boolean;
+  episodeIds: string[];
+  playerIds: string[];
+  result: Record<string, unknown> | null;
+  sources: string[];
+  confirmedFacts: string[];
+  unconfirmedDetails: string[];
+  canonNotes: string[];
+}
+
 export interface SourceView {
   id: string;
   label: string;
@@ -153,6 +182,15 @@ export interface PlayerView {
   historicalAliases: HistoricalAlias[];
   teamHistory: RosterEntryView[];
   trivia: string[];
+  publicTrivia: Array<{
+    category: "competitive-favorite" | "on-camera-trivia" | "before-kairos" | "commons-reference";
+    text: string;
+    sourceEpisodeId: string | null;
+    publicationId: string | null;
+  }>;
+  favoriteChampions: string[];
+  favoriteMap: string | null;
+  favoriteWeapon: string | null;
   awards: AwardView[];
   tournamentResults: TournamentResultView[];
   officialMatchCount: number;
@@ -292,7 +330,7 @@ export interface KairospediaCatalog {
   players: PlayerView[];
   staff: StaffView[];
   competitions: CompetitionView[];
-  matches: [];
+  matches: MatchView[];
   transfers: [];
   routes: string[];
 }

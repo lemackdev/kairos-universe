@@ -57,6 +57,7 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene): Team
     history: [],
     timeline: [],
     staff: [],
+    assignedStaffIds: [],
     mentors: [],
     formerStaff: [],
     formerStaffIds: [],

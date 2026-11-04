@@ -149,6 +149,7 @@ export interface TeamView {
   history: string[];
   timeline: EpisodeView[];
   staff: StaffEntryView[];
+  assignedStaffIds: string[];
   mentors: MentorView[];
   formerStaff: Array<{ id: string; slug: string; name: string; realName: string; role: string; playerName: string; playerNickname: string }>;
   formerStaffIds: string[];

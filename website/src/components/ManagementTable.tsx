@@ -39,10 +39,11 @@ function sortValue(entry: StaffView, column: SortColumn): string {
 
 export function ManagementTable({ staff, caption = "Kairos management", showDivision = true }: { staff: StaffView[]; caption?: string; showDivision?: boolean }) {
   const visibleColumns = showDivision ? columns : columns.filter((column) => column.key !== "division");
-  const [sortColumn, setSortColumn] = useState<SortColumn>(showDivision ? "division" : "role");
+  const [sortColumn, setSortColumn] = useState<SortColumn | null>(showDivision ? "division" : null);
   const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
 
   const sorted = useMemo(() => {
+    if (!sortColumn) return staff;
     const factor = sortDirection === "asc" ? 1 : -1;
     return [...staff].sort((a, b) => sortValue(a, sortColumn).localeCompare(sortValue(b, sortColumn)) * factor);
   }, [staff, sortColumn, sortDirection]);

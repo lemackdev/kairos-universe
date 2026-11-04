@@ -101,8 +101,12 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
       <h3>Management and staff</h3>
       <ManagementTable staff={(organization?.management ?? []).filter(
-        (person) => (person.division === team.gameName || person.division === "TBD" || person.division === "Executive")
-          && !team.formerStaffIds.includes(person.id),
+        (person) => !team.formerStaffIds.includes(person.id) && (
+          person.division === "Executive"
+          || team.assignedStaffIds.includes(person.id)
+          || person.currentTeamId === team.id
+          || (!person.currentTeamId && person.division === team.gameName)
+        ),
       )} />
     </ArticleSection>
     <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>

@@ -297,6 +297,7 @@ export function buildCatalog(
       timeline: episodes.filter((episode) => episode.canonStatus === "confirmed" && episode.teams.includes(team.id))
         .sort((a, b) => a.episodeNumber - b.episodeNumber).map(episodeView),
       staff: teamStaff,
+      assignedStaffIds: [...new Set([...team.coachingStaff, ...team.mentors])],
       mentors,
       formerStaff,
       formerStaffIds: [...formerStaffIds],

@@ -48,7 +48,7 @@ export function OrganizationArticle({ organization, teams }: { organization: Org
       )) : <p>No teams published.</p>}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
-      <ManagementTable staff={organization.management.filter((person) => person.division === "TBD")} showDivision={false} />
+      <ManagementTable staff={organization.management.filter((person) => person.division === "TBD" || person.division === "Executive")} showDivision={false} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
       {organization.philosophy.length

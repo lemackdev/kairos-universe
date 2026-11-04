@@ -14,7 +14,7 @@ export default function WikiHomePage() {
       <PageHeader
         eyebrow="Release 01 / Canon indexed"
         title="The people, teams, and history of a competitive world."
-        description="The esports encyclopedia of the Kairos Universe. Explore Kairos League and Counter-Strike canon alongside the fictional 2027 competitive world and a separately sourced pre-Worlds 2026 reference scene."
+        description="The esports encyclopedia of the Kairos Universe. Explore Kairos League and Counter-Strike canon alongside the 2027 competitive world and a separately sourced pre-Worlds 2026 reference scene."
         badges={
           <>
             <CanonBadge />
@@ -60,7 +60,7 @@ export default function WikiHomePage() {
         </div>
         <div className="entityGrid">
           {catalog.externalScene && <EntityCard href="/wiki/world" kicker="Competitive world"
-            title="2027 Tier 1 & Tier 2, and the pre-Worlds 2026 reference" description="LCK, LPL, LEC, CBLOL, LCS, LCP, and six Tier 2 regional ecosystems for the fictional 2027 season, layered over the frozen pre-Worlds 2026 real-world reference scene."
+            title="2027 Tier 1 & Tier 2, and the pre-Worlds 2026 reference" description="LCK, LPL, LEC, CBLOL, LCS, LCP, and six Tier 2 regional ecosystems for the 2027 season, layered over the frozen pre-Worlds 2026 reference scene."
             meta={`96 2027 teams / ${catalog.externalScene.teams.length} 2026 reference teams`} />}
           <EntityCard
             href="/wiki/games/league-of-legends"

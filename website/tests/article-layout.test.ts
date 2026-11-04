@@ -19,7 +19,7 @@ describe("shared encyclopedia article layout", () => {
     expect(html).toContain("wikiArticle");
     expect(html).toContain('id="overview"');
     expect(html).toContain('id="role"');
-    expect(html).toContain('id="episode-history"');
+    expect(html).toContain('id="staff-history"');
     expect(html).toContain("/wiki/organizations/kairos-esports");
     expect(html).toContain("adrian-elias-vale.png");
   });

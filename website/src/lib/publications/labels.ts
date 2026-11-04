@@ -41,21 +41,18 @@ export const publisherCategoryLabels: Record<PublisherCategory, string> = {
 };
 
 export const classificationLabels: Record<PublicationClassification, string> = {
-  "in-universe-publication": "Fictional in-universe publication",
-  "official-announcement": "Fictional official announcement",
+  "in-universe-publication": "In-universe publication",
+  "official-announcement": "Official announcement",
   "real-world-reference": "Real-world reference",
   rumor: "Unconfirmed rumor",
 };
 
 export const classificationNotes: Record<PublicationClassification, string> = {
-  "in-universe-publication":
-    "This is an original piece of fiction written for the Kairos Universe. It is not real journalism.",
-  "official-announcement":
-    "This is a fictional announcement within the Kairos Universe. It is not a real statement by any real organization.",
+  "in-universe-publication": "An original publication within the Kairos Universe.",
+  "official-announcement": "An official Kairos Universe announcement.",
   "real-world-reference":
     "This entry points to real-world published material. Kairospedia summarizes and cites it; it does not reproduce it.",
-  rumor:
-    "This piece reports unconfirmed speculation inside the fiction. Nothing in it is established canon.",
+  rumor: "This piece reports unconfirmed speculation. Nothing in it is established canon.",
 };
 
 const ISO = /^(\d{4})-(\d{2})-(\d{2})$/;

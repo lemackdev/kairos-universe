@@ -33,11 +33,6 @@ export default function StaffPage() {
               kicker={person.role}
               title={person.nickname ?? person.realName}
               description={person.realName}
-              meta={
-                person.realWorldFigure
-                  ? "Real-world figure in a fictional role"
-                  : "Fictional character"
-              }
             />
           ))}
         </div>

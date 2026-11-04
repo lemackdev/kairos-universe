@@ -10,7 +10,7 @@ import { formatMonthYear } from "@/lib/publications/labels";
 export const metadata = {
   title: "Publications",
   description:
-    "The fictional media archive of the Kairos Universe: news, interviews, features, and announcements, kept apart from real-world journalism.",
+    "The Kairos Universe media archive: news, interviews, features, and announcements.",
 };
 
 export default function PublicationsPage() {
@@ -42,14 +42,6 @@ export default function PublicationsPage() {
         <p className={styles.mastheadLede}>
           The press, interviews, and announcements that surround Kairos Esports, Asterion
           Intelligence, and the competitive world they play in.
-        </p>
-        <p className={styles.notice}>
-          <strong>Read this first</strong>
-          <span>
-            Every publication here is fiction written for the Kairos Universe. Real-world outlets
-            and people are portrayed only where labelled, and fictional coverage is never real
-            reporting.
-          </span>
         </p>
       </header>
 

@@ -34,7 +34,6 @@ export function TournamentArticle({ tournament, regionalField2027 }: { tournamen
     { label: "Start date", value: formatDate(tournament.startDate) },
     { label: "End date", value: formatDate(tournament.endDate) },
     { label: "Teams", value: tournament.teamsCount != null ? String(tournament.teamsCount) : null },
-    { label: "Status", value: tournament.status },
   ];
   return <WikiArticle title={tournament.name} kind="Tournaments" game={tournament.gameName} sections={sections}
     infobox={<ArticleInfobox title={tournament.name} monogram={tournament.name.slice(0, 1)} groups={[
@@ -55,7 +54,7 @@ export function TournamentArticle({ tournament, regionalField2027 }: { tournamen
     <ArticleSection {...sections[2]!}>
       {regionalField2027 ? <>
         <FictionalWorldNotice />
-        <ParticipantsGrid caption="Participants (fictional, 2027)" empty="No active teams recorded."
+        <ParticipantsGrid caption="Participants (2027)" empty="No active teams recorded."
           teams={regionalField2027.map((team, index) => ({ key: String(index), name: team.name, href: team.href, logo: team.logo }))} />
       </> : <ParticipantsGrid caption="Participants" empty="No confirmed participants recorded."
         teams={tournament.participants.map((team) => ({ key: team.id, name: team.name, href: `/wiki/teams/${team.slug}` }))} />}
@@ -89,6 +88,6 @@ export function TournamentArticle({ tournament, regionalField2027 }: { tournamen
         { label: "Ranking date", value: formatDate(tournament.rankingDate) },
       ]} />
     </ArticleSection>
-    <ArticleSection {...sections[8]!}><SourceList sources={tournament.sources} /></ArticleSection>
+    <ArticleSection {...sections[8]!}><details><summary>Sources ({tournament.sources.length})</summary><SourceList sources={tournament.sources} /></details></ArticleSection>
   </WikiArticle>;
 }

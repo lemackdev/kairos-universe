@@ -51,10 +51,7 @@ export default async function PublisherPage({ params }: { params: Promise<{ slug
         <h1>{publisher.name}</h1>
         <p className={styles.leadDeck}>{publisher.description}</p>
         {publisher.coverageDisclosure ? (
-          <p className={`${styles.disclosure} ${styles.disclosureReal}`} role="note">
-            <strong>Fictional portrayal</strong>
-            <span>{publisher.coverageDisclosure}</span>
-          </p>
+          <p className={styles.disclosure} role="note">{publisher.coverageDisclosure}</p>
         ) : null}
         <div className={styles.meta}>
           <span>

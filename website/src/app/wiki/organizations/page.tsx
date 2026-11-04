@@ -29,7 +29,7 @@ export default function OrganizationsPage() {
             <EntityCard
               key={organization.id}
               href={`/wiki/organizations/${organization.slug}`}
-              kicker={organization.originType}
+              kicker="Organization"
               title={organization.name}
               description={`${organization.teamIds.length} team is enabled for this publication.`}
               meta={organization.id}

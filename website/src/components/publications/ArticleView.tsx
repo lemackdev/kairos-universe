@@ -83,11 +83,13 @@ export function ArticleView({
         </div>
       ) : null}
 
-      <div className={`${styles.disclosure} ${disclosureClass[article.classification]}`} role="note">
-        <strong>{classificationLabels[article.classification]}</strong>
-        <span>{classificationNotes[article.classification]}</span>
-        {publisher?.coverageDisclosure ? <span>{publisher.coverageDisclosure}</span> : null}
-      </div>
+      {(article.classification === "real-world-reference" || article.classification === "rumor" || publisher?.coverageDisclosure) ? (
+        <div className={`${styles.disclosure} ${disclosureClass[article.classification]}`} role="note">
+          <strong>{classificationLabels[article.classification]}</strong>
+          <span>{classificationNotes[article.classification]}</span>
+          {publisher?.coverageDisclosure ? <span>{publisher.coverageDisclosure}</span> : null}
+        </div>
+      ) : null}
 
       <header>
         <span className={styles.kicker}>
@@ -274,10 +276,7 @@ export function ArticleView({
                 {article.sources.map((source) => (
                   <div key={source.id} className={styles.sourceItem}>
                     <span>{source.label}</span>
-                    <small>
-                      {source.originType === "real-world-reference" ? "Real-world reference" : "Fictional"} /{" "}
-                      {source.canonStatus.replaceAll("-", " ")}
-                    </small>
+                    <small>{source.canonStatus.replaceAll("-", " ")}</small>
                   </div>
                 ))}
               </div>

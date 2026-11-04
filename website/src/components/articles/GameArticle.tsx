@@ -26,7 +26,7 @@ export function GameArticle({ game, teams, players, nextMilestone }: {
       ] },
     ]} />}>
     <ArticleSection {...sections[0]!}>
-      <p>This game record indexes published Kairos teams and players. The separately labeled <Link href="/wiki/world">pre-Worlds 2026 real-world reference scene</Link> does not alter fictional canon.</p>
+      <p>This game record indexes published Kairos teams and players. The separately labeled <Link href="/wiki/world">pre-Worlds 2026 reference scene</Link> does not alter Kairos canon.</p>
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       {game.roleVocabulary.length

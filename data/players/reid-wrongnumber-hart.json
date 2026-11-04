@@ -11,7 +11,7 @@
     "region": "California",
     "country": "United States"
   },
-  "dateOfBirth": "TBD",
+  "dateOfBirth": "2010-05-20",
   "ageAtCurrentStoryDate": 16,
   "game": "Counter-Strike",
   "role": "Anchor / Support Rifler",
@@ -46,7 +46,7 @@
   ],
   "inspirations": [],
   "objectives": [
-    "Develop within the Kairos Counter-Strike Academy."
+    "Develop within the Kairos Academy Green."
   ],
   "insecurities": [],
   "relationships": [
@@ -68,7 +68,7 @@
   ],
   "careerHistory": [],
   "individualTimeline": [
-    "Episode 74: Reid is evaluated separately from Nolan and selected for Kairos Counter-Strike Academy.",
+    "Episode 74: Reid is evaluated separately from Nolan and selected for Kairos Academy Green.",
     "Episode 74: Reid begins working under Head Coach Stewie2K with no permanent position assigned.",
     "Episode 91: During final role-selection training before the institutional break, Reid is voted into the Anchor / Support Rifler role; Captain remains explicitly unassigned.",
     "Episode 93: Returning from the 2026-12-20 to 2027-01-03 institutional break, Reid's Anchor / Support Rifler role is reconfirmed as current. His nickname is unchanged."
@@ -79,7 +79,7 @@
     "The nickname began after Reid received an amateur-team server invitation intended for another person."
   ],
   "currentState": [
-    "Active Kairos Counter-Strike Academy player.",
+    "Active Kairos Academy Green player.",
     "Training and pre-debut.",
     "Current role: Anchor / Support Rifler, assigned episode-091 and reconfirmed as current episode-093.",
     "Not the team's captain; CS Academy captain remains TBD."
@@ -92,14 +92,14 @@
     "Reid Hart is an American Counter-Strike Academy player known as wrongnumber.",
     "He holds dual American and Canadian nationality through his father.",
     "He is 16 years old on his 2026-11-23 selection date.",
+    "His date of birth is 2010-05-20.",
     "He lives in Long Beach, California.",
     "He is Nolan Hart's twin brother and is eleven minutes younger.",
-    "He is selected for Kairos Counter-Strike Academy in Episode 74.",
+    "He is selected for Kairos Academy Green in Episode 74.",
     "His current role is Anchor / Support Rifler, assigned episode-091 and reconfirmed as current episode-093.",
     "He is not the team's captain; the CS Academy captaincy remains TBD."
   ],
   "unconfirmedDetails": [
-    "Exact date of birth is TBD.",
     "CS Academy captaincy is TBD.",
     "Contract status and terms are TBD.",
     "Previous teams, official statistics, and achievements are TBD."
@@ -124,13 +124,13 @@
     },
     {
       "category": "before-kairos",
-      "text": "Participated in three school plays, none as lead",
+      "text": "Participated in three school plays, none as lead, and remembers some lines.",
       "sourceEpisodeId": "episode-098",
       "publicationId": "interview-dust2-dez-cadeiras"
     },
     {
       "category": "before-kairos",
-      "text": "Twin brother of Nolan Hart; did school theatre and remembers some lines",
+      "text": "Twin brother of Nolan Hart",
       "sourceEpisodeId": "episode-098",
       "publicationId": "interview-dust2-dez-cadeiras"
     }

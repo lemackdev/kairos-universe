@@ -60,8 +60,8 @@ export default function TeamsPage() {
         </section>
       ))}
       {tier2Teams.length > 0 && <section className="contentSection">
-        <h2 className="sectionKicker">League of Legends &mdash; Tier 2 (2027, fictional)</h2>
-        <p>Fictional Kairos Universe 2027 Tier 2 regional ecosystems. See <a href="/wiki/world">the competitive world</a> for sourcing and scope. These are not real-world reports.</p>
+        <h2 className="sectionKicker">League of Legends &mdash; Tier 2 (2027)</h2>
+        <p>Kairos Universe 2027 Tier 2 regional ecosystems. See <a href="/wiki/world">the competitive world</a> for sourcing and scope.</p>
         {[...tier2ByEcosystem.entries()].map(([ecosystem, teams]) => <div className="entityGrid" key={ecosystem}>
           {teams.map((team) => <EntityCard
             key={team.teamId}

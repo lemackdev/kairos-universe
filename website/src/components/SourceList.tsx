@@ -9,7 +9,7 @@ export function SourceList({ sources }: { sources: SourceView[] }) {
         <li key={source.id}>
           <strong>{source.label}</strong>
           <div className="sourceMeta">
-            {source.type} · {source.originType}
+            {source.type}
           </div>
           <CanonBadge status={source.canonStatus} />
         </li>

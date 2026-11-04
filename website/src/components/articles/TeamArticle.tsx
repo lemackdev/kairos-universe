@@ -6,7 +6,7 @@ import { TeamRosterTable } from "@/components/TeamRosterTable";
 import type { OrganizationView, TeamView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { ManagementTable } from "@/components/ManagementTable";
-import { hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
+import { asterionUrl, hasKairosDbProfile, kairosDbTeamUrl } from "@/lib/links";
 import { formatDate } from "@/lib/formatting/date";
 import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } from "./WikiArticle";
 import { TeamLineupBanner } from "./TeamLineupBanner";
@@ -47,9 +47,11 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
     { label: "Owner", value: organization?.ownerName
       ? (organization.ownerSlug ? <Link href={`/wiki/staff/${organization.ownerSlug}`}>{organization.ownerName}</Link> : organization.ownerName)
       : "TBD" },
-    { label: "Head Coach", value: team.headCoachName ?? "TBD" },
+    { label: "Head Coach", value: team.headCoachName
+      ? (team.headCoachSlug ? <Link href={`/wiki/staff/${team.headCoachSlug}`}>{team.headCoachName}</Link> : team.headCoachName)
+      : "TBD" },
     ...(external ? [] : [
-      { label: "Parent Company / Institutional Partner", value: "Asterion Intelligence" as ReactNode },
+      { label: "Parent Company / Institutional Partner", value: (asterionUrl("/") ? <a href={asterionUrl("/")!}>Asterion Intelligence</a> : "Asterion Intelligence") as ReactNode },
       { label: "Technical Supplier", value: "New Balance" as ReactNode },
     ]),
     ...(extraFacts ?? []),

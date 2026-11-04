@@ -37,7 +37,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
       banner={<Fragment><ReferenceNotice />{regionalStatus && <FictionalWorldNotice />}</Fragment>}
       overview={<p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) roster referenced in Kairospedia&rsquo;s pre-Worlds 2026 real-world reference collection. Roster membership reflects the {event.title}, which ended {formatDate(event.eventEndDate)}; it is not a live roster, a current contract list, or a Kairos narrative event. <Link href="/wiki/world">Scope and source limitations</Link>.</p>}
       extraFacts={regionalStatus ? [
-        { label: "2027 competitive status (fictional)", value: regionalStatus.active ? `Active ${regionalStatus.league} 2027 participant` : "Inactive / not participating" },
+        { label: "2027 competitive status", value: regionalStatus.active ? `Active ${regionalStatus.league} 2027 participant` : "Inactive / not participating" },
         ...(regionalStatus.active ? [] : [
           { label: "Last active Tier 1 season", value: "2026" },
           { label: "Effective exit date", value: formatDate(regionalStatus.effectiveExitDate ?? null) },

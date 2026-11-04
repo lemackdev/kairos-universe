@@ -141,6 +141,7 @@ export interface TeamView {
   officialDebutPeriod: string;
   captainPlayerId: string;
   headCoachName: string | null;
+  headCoachSlug: string | null;
   trainingLocation: LocationRecord;
   roster: RosterEntryView[];
   formerRoster: RosterEntryView[];
@@ -182,6 +183,8 @@ export interface PlayerView {
   historicalAliases: HistoricalAlias[];
   teamHistory: RosterEntryView[];
   trivia: string[];
+  twinSiblingSlug: string | null;
+  twinSiblingNickname: string | null;
   publicTrivia: Array<{
     category: "competitive-favorite" | "on-camera-trivia" | "before-kairos" | "commons-reference";
     text: string;

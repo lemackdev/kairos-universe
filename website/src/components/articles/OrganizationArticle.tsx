@@ -20,7 +20,6 @@ export function OrganizationArticle({ organization, teams }: { organization: Org
   const headquarters = location ? [location.city, location.region, location.country].filter(Boolean).join(", ") : "TBD";
   const information = [
     { label: "Name", value: organization.name },
-    { label: "Status", value: organization.status },
     { label: "Headquarters", value: headquarters },
     { label: "Founded", value: organization.founded ?? "TBD" },
     { label: "Owner", value: organization.ownerName && organization.ownerSlug
@@ -32,29 +31,30 @@ export function OrganizationArticle({ organization, teams }: { organization: Org
     infobox={<ArticleInfobox title={organization.name} monogram={organization.shortName.slice(0, 1)}
       image={<BrandLogo organizationId={organization.id} />}
       groups={[{ title: "Organization Information", rows: information },
-        { title: "Publication", rows: [{ label: "Published teams", value: teams.length }, { label: "Origin", value: organization.originType }] }]} />}>
+        { title: "Publication", rows: [{ label: "Published teams", value: teams.length }] }]} />}>
     <ArticleSection {...sections[0]!}>
-      <p><strong>{organization.name}</strong> is a fictional esports organization. Its game-specific teams are separate competitive records.</p>
-      <p>Only divisions enabled for Kairospedia publication are listed here.</p>
+      <p><strong>{organization.name}</strong> fields game-specific teams, each tracked as a separate competitive record.</p>
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       <p>Headquarters: {headquarters}. Ownership and other known details appear in the infobox.</p>
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
-      <WikiTable caption="Published teams" columns={["Team", "Game", "Level", "Competitive state"]}
-        empty="No teams published." rows={teams.map((team) => ({ key: team.id, cells: [
-          <Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>,
-          team.gameName, team.rosterLevel, team.competitiveState,
-        ] }))} />
+      {teams.length ? [...new Map(teams.map((team) => [team.gameName, team.gameName])).keys()].map((gameName) => (
+        <WikiTable key={gameName} caption={gameName} columns={["Team", "Level"]}
+          empty="No teams published." rows={teams.filter((team) => team.gameName === gameName).map((team) => ({ key: team.id, cells: [
+            <Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>,
+            team.rosterLevel,
+          ] }))} />
+      )) : <p>No teams published.</p>}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
-      <ManagementTable staff={organization.management} />
+      <ManagementTable staff={organization.management.filter((person) => person.division === "TBD")} showDivision={false} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
       {organization.philosophy.length
         ? <ul>{organization.philosophy.map((principle) => <li key={principle}>{principle}</li>)}</ul>
         : <p>No philosophy statement recorded.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[5]!}><SourceList sources={organization.sources} /></ArticleSection>
+    <ArticleSection {...sections[5]!}><details><summary>Sources ({organization.sources.length})</summary><SourceList sources={organization.sources} /></details></ArticleSection>
   </WikiArticle>;
 }

@@ -71,7 +71,7 @@ describe("pre-Worlds 2026 external references", () => {
     const teamHtml = renderToStaticMarkup(createElement(ExternalTeamArticle, { team, scene }));
     const playerHtml = renderToStaticMarkup(createElement(ExternalPlayerArticle, { player, scene }));
     for (const html of [teamHtml, playerHtml]) {
-      expect(html).toContain("Real-world reference, review pending.");
+      expect(html).toContain("Pre-Worlds 2026 domestic tournament snapshot.");
       expect(html).toContain("https://liquipedia.net/leagueoflegends/LCK/2026");
       expect(html).not.toContain("No official matches recorded.");
     }

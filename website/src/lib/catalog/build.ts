@@ -264,8 +264,8 @@ export function buildCatalog(
       }),
     ].sort((a, b) => {
       if (a.date && b.date) return a.date.localeCompare(b.date);
-      if (a.date) return -1;
-      if (b.date) return 1;
+      if (a.date) return 1;
+      if (b.date) return -1;
       return 0;
     });
 
@@ -287,6 +287,7 @@ export function buildCatalog(
       captainPlayerId: team.captain as string,
       headCoachName: teamStaff.find((entry) => /head coach/i.test(entry.title))?.nickname ??
         teamStaff.find((entry) => /head coach/i.test(entry.title))?.realName ?? null,
+      headCoachSlug: teamStaff.find((entry) => /head coach/i.test(entry.title))?.slug ?? null,
       trainingLocation: team.trainingLocation,
       roster: teamRoster,
       officialMatchCount: officialMatches.filter((match) => match.teamAId === team.id || match.teamBId === team.id).length,
@@ -360,6 +361,16 @@ export function buildCatalog(
       teamHistory: history,
       trivia: (player.trivia ?? []).filter((fact) => fact !== "TBD"),
       publicTrivia: player.publicTrivia ?? [],
+      twinSiblingSlug: (() => {
+        const twin = (player.relationships ?? []).find((rel) => rel.type === "twin-brother" && rel.status === "confirmed");
+        if (!twin || !publication.enabledPlayers.includes(twin.subjectId)) return null;
+        return players.get(twin.subjectId)?.slug ?? null;
+      })(),
+      twinSiblingNickname: (() => {
+        const twin = (player.relationships ?? []).find((rel) => rel.type === "twin-brother" && rel.status === "confirmed");
+        if (!twin || !publication.enabledPlayers.includes(twin.subjectId)) return null;
+        return players.get(twin.subjectId)?.nickname ?? null;
+      })(),
       favoriteChampions: player.favoriteChampions ?? [],
       favoriteMap: player.favoriteMap && player.favoriteMap !== "TBD" ? player.favoriteMap : null,
       favoriteWeapon: player.favoriteWeapon && player.favoriteWeapon !== "TBD" ? player.favoriteWeapon : null,

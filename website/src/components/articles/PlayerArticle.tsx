@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { PlayerPortrait } from "@/components/PlayerPortrait";
 import { NationalityFlags } from "@/components/NationalityFlags";
@@ -50,7 +51,19 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       {(() => {
-        const facts: string[] = [...player.trivia, ...player.publicTrivia.map((entry: PublicTriviaEntry) => entry.text)];
+        const twinMatch = /^twin brother of [^;]+(?:;\s*(.*))?$/i;
+        const oneWeaponMatch = /^would use .+ as only weapon$|^would use .+ after considering .+$/i;
+        const facts: ReactNode[] = [
+          ...player.trivia,
+          ...player.publicTrivia.filter((entry: PublicTriviaEntry) =>
+            entry.category !== "competitive-favorite" && !oneWeaponMatch.test(entry.text),
+          ).map((entry: PublicTriviaEntry) => {
+            const match = player.twinSiblingSlug && player.twinSiblingNickname ? entry.text.match(twinMatch) : null;
+            if (!match) return entry.text;
+            const rest = match[1];
+            return <>Twin brother of teammate <Link href={`/wiki/players/${player.twinSiblingSlug}`}>{player.twinSiblingNickname}</Link>{rest ? <>; {rest}</> : "."}</>;
+          }),
+        ];
         return facts.length ? <ul>{facts.map((fact, index) => <li key={index}>{fact}</li>)}</ul> : <p>No confirmed trivia recorded.</p>;
       })()}
     </ArticleSection>

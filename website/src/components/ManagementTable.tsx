@@ -37,8 +37,9 @@ function sortValue(entry: StaffView, column: SortColumn): string {
   }
 }
 
-export function ManagementTable({ staff, caption = "Kairos management" }: { staff: StaffView[]; caption?: string }) {
-  const [sortColumn, setSortColumn] = useState<SortColumn>("division");
+export function ManagementTable({ staff, caption = "Kairos management", showDivision = true }: { staff: StaffView[]; caption?: string; showDivision?: boolean }) {
+  const visibleColumns = showDivision ? columns : columns.filter((column) => column.key !== "division");
+  const [sortColumn, setSortColumn] = useState<SortColumn>(showDivision ? "division" : "role");
   const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
 
   const sorted = useMemo(() => {
@@ -64,7 +65,7 @@ export function ManagementTable({ staff, caption = "Kairos management" }: { staf
         <thead>
           <tr>
             <th scope="col" aria-hidden="true"></th>
-            {columns.map((column) => <th scope="col" key={column.key}>
+            {visibleColumns.map((column) => <th scope="col" key={column.key}>
               <button type="button" onClick={() => toggleSort(column.key)}
                 aria-sort={sortColumn === column.key ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
                 style={{ all: "unset", cursor: "pointer", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
@@ -87,7 +88,7 @@ export function ManagementTable({ staff, caption = "Kairos management" }: { staf
               </td>
               <td data-label="Name">{entry.realName}</td>
               <td data-label="Role">{entry.role}</td>
-              <td data-label="Division">{entry.division}</td>
+              {showDivision && <td data-label="Division">{entry.division}</td>}
             </tr>
           ))}
         </tbody>

@@ -1,10 +1,9 @@
 import Link from "next/link";
 
-import { EpisodeReferenceList } from "@/components/EpisodeReferenceList";
 import { SourceList } from "@/components/SourceList";
 import { StaffPortrait } from "@/components/StaffPortrait";
 import { NationalityFlags } from "@/components/NationalityFlags";
-import { TenureTimeline } from "@/components/TenureTimeline";
+import { formatDate } from "@/lib/formatting/date";
 import type { StaffView } from "@/types/catalog";
 import { ArticleInfobox, ArticleSection, WikiArticle } from "./WikiArticle";
 
@@ -14,13 +13,11 @@ export function StaffArticle({ person }: { person: StaffView }) {
     { id: "overview", title: "Overview" },
     { id: "role", title: isAdrian ? "Leadership" : "Role and Responsibilities" },
     { id: "staff-history", title: "Staff History" },
-    { id: "episode-history", title: "Episode History" },
     { id: "sources", title: "Sources" },
   ];
   const facts = [
     { label: "Name", value: person.realName },
     { label: "Nationality", value: <NationalityFlags nationality={person.nationality} nationalities={person.nationalities} /> },
-    { label: "Status", value: person.status },
     { label: "First appearance", value: person.firstAppearance ? `Episode ${person.firstAppearance.number}` : "TBD" },
   ];
   const roleFacts = [
@@ -39,7 +36,7 @@ export function StaffArticle({ person }: { person: StaffView }) {
     <ArticleSection {...sections[0]!}>
       {isAdrian
         ? <p><strong>Adrian Vale</strong> is the founder and CEO of Asterion Intelligence, the founder and owner of Kairos Esports, and the first-person narrator of the original episodes.</p>
-        : <p><strong>{person.realName}</strong>{person.nickname ? `, known as ${person.nickname},` : ""} serves as {person.role} {person.division === "TBD" ? "at Kairos Esports." : `in the fictional Kairos ${person.division} project.`}</p>}
+        : <p><strong>{person.realName}</strong>{person.nickname ? `, known as ${person.nickname},` : ""} serves as {person.role} {person.division === "TBD" ? "at Kairos Esports." : `for the Kairos ${person.division} division.`}</p>}
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       {person.responsibilities.length
@@ -47,15 +44,12 @@ export function StaffArticle({ person }: { person: StaffView }) {
         : <p>Detailed responsibilities remain TBD.</p>}
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
-      {person.tenures.length ? <TenureTimeline entries={person.tenures} /> : <p>No structured staff-tenure dates are published.</p>}
+      {person.tenures.length
+        ? <ul className="articleTimeline">{person.tenures.map((entry) => <li key={entry.tenureId}>
+            <strong>{entry.joinedDate ? formatDate(entry.joinedDate) : "—"}</strong> <span>{entry.realName} joins as {entry.title}.</span>
+          </li>)}</ul>
+        : <p>No structured staff-tenure dates are published.</p>}
     </ArticleSection>
-    <ArticleSection id="episode-history" title="Episode History">
-      <h3>First appearance</h3>
-      {person.firstAppearance ? <EpisodeReferenceList episodes={[person.firstAppearance]} /> : <p>TBD.</p>}
-      <details><summary>Episode appearances ({person.episodeAppearances.length})</summary>
-        <EpisodeReferenceList episodes={person.episodeAppearances} limit={12} />
-      </details>
-    </ArticleSection>
-    <ArticleSection id="sources" title="Sources"><SourceList sources={person.sources} /></ArticleSection>
+    <ArticleSection id="sources" title="Sources"><details><summary>Sources ({person.sources.length})</summary><SourceList sources={person.sources} /></details></ArticleSection>
   </WikiArticle>;
 }

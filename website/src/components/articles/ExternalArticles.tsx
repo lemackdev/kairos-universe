@@ -10,11 +10,11 @@ import { findFreeAgent, type Tier2TeamLookup } from "@/lib/external/worldState20
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 export function ReferenceNotice() {
-  return <p className="fictionNotice"><strong>Real-world reference, review pending.</strong> This is a pre-Worlds 2026 domestic tournament snapshot, not a live roster or fictional Kairos event. Tournament membership does not establish a contract, captaincy, or permanent starting position. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
+  return <p className="fictionNotice">Pre-Worlds 2026 domestic tournament snapshot. Tournament membership does not establish a contract, captaincy, or permanent starting position. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
 }
 
 export function FictionalWorldNotice() {
-  return <p className="fictionNotice"><strong>Kairos Universe fictional speculation, 2027.</strong> This status is part of the fictional Kairos Universe continuity only. It is not a report of this organization&rsquo;s or player&rsquo;s actual real-world competitive, contractual, or employment status. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
+  return <p className="fictionNotice">2027 status reflects the Kairos Universe continuity only, not this person&rsquo;s real-world competitive, contractual, or employment status. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
 }
 
 export function ExternalSources({ scene, ids }: { scene: ExternalScene; ids: string[] }) {
@@ -47,7 +47,7 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
     })} /><p className="muted">Multiple main entries in one role are retained as listed. No preferred starter is inferred.</p></ArticleSection>
     <ArticleSection id="former" title="Former"><p>Departure history is not imported. Absence from a later tournament list is not evidence of a release.</p></ArticleSection>
     <ArticleSection id="organization" title="Organization"><p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link>, esports brand reference. Legal ownership, leadership, staff appointments and corporate structure remain unknown.</p></ArticleSection>
-    <ArticleSection id="sources" title="Sources"><ExternalSources scene={scene} ids={team.sourceIds} /></ArticleSection>
+    <ArticleSection id="sources" title="Sources"><details><summary>Sources</summary><ExternalSources scene={scene} ids={team.sourceIds} /></details></ArticleSection>
   </WikiArticle>;
 }
 
@@ -76,7 +76,7 @@ export function ExternalPlayerArticle({ player, scene, worldState }: { player: S
     <ArticleSection id="trivia" title="Trivia"><p>No trivia imported.</p></ArticleSection>
     <ArticleSection id="individual-awards" title="Individual Awards"><p>Awards have not been imported. This does not mean the player has none.</p></ArticleSection>
     <ArticleSection id="tournament-results" title="Tournament Results"><p>Results and statistics have not been imported. Roster membership alone does not establish games played or placement.</p></ArticleSection>
-    <ArticleSection id="sources" title="Sources"><ExternalSources scene={scene} ids={player.sourceIds} /></ArticleSection>
+    <ArticleSection id="sources" title="Sources"><details><summary>Sources</summary><ExternalSources scene={scene} ids={player.sourceIds} /></details></ArticleSection>
   </WikiArticle>;
 }
 
@@ -99,7 +99,7 @@ export function ExternalOrganizationArticle({ organization, scene }: { organizat
       ] }]} />}>
     <ReferenceNotice />
     <ArticleSection {...sections[0]!}>
-      <p>{organization.name} is a real-world esports brand reference, not a fictional Kairos organization.</p>
+      <p>{organization.name} is a real-world esports organization, referenced here for historical context and not affiliated with Kairos.</p>
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       <p>Legal company identity, ownership, headquarters and staff history have not been imported.</p>
@@ -110,7 +110,7 @@ export function ExternalOrganizationArticle({ organization, scene }: { organizat
           <Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.league,
         ] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[3]!}><ExternalSources scene={scene} ids={organization.sourceIds} /></ArticleSection>
+    <ArticleSection {...sections[3]!}><details><summary>Sources</summary><ExternalSources scene={scene} ids={organization.sourceIds} /></details></ArticleSection>
   </WikiArticle>;
 }
 
@@ -122,19 +122,18 @@ export function Tier2TeamArticle({ team, parent }: { team: Tier2TeamLookup; pare
       { label: "Parent organization", value: parent ? <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> : "None confirmed" },
     ] },
   ]} />}>
-    <FictionalWorldNotice />
     <ArticleSection {...sections[0]!}>
-      <p><strong>{team.name}</strong> is a Kairos Universe fictional 2027 {team.ecosystem} participant. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately and are never merged with this entity&rsquo;s.</> : "No parent-organization relationship is established for this team."}</p>
+      <p><strong>{team.name}</strong> competes in the {team.ecosystem} for the 2027 season. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately and are never merged with this entity&rsquo;s.</> : "No parent-organization relationship is established for this team."}</p>
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       <p>{team.name} is one of 8 confirmed 2027 {team.ecosystem} participants, a Tier 2 regional ecosystem ({team.region}). See <Link href="/wiki/world">the competitive world</Link> for the full {team.ecosystem} field and the rest of the Tier 1 / Tier 2 structure.</p>
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
       {parent ? <p><Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> is this team&rsquo;s confirmed parent organization. The two remain separate competitive team entities; no roster, result, or membership is shared between them.</p>
-        : <p>No parent-organization relationship is confirmed for this team in Kairos Universe canon.</p>}
+        : <p>No parent-organization relationship is confirmed for this team.</p>}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
-      <p>Kairos Universe canon directive establishing the {team.ecosystem} 2027 ecosystem (author-confirmed, fictional). See <Link href="/wiki/world">the competitive world</Link> for sourcing. No roster, result, or standings data is tracked for this team.</p>
+      <p>Canon record establishing the {team.ecosystem} 2027 ecosystem. See <Link href="/wiki/world">the competitive world</Link> for sourcing. No roster, result, or standings data is tracked for this team.</p>
     </ArticleSection>
   </WikiArticle>;
 }

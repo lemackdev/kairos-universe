@@ -146,8 +146,7 @@
   "statistics": {},
   "achievements": [],
   "trivia": [
-    "Frequently refuses tournament invitations.",
-    "Lives with and cares for his grandfather Arthur, who raised him and is undergoing cancer treatment."
+    "Before joining Kairos, he frequently turned down tournament invitations to stay home and care for his grandfather Arthur, who raised him."
   ],
   "currentState": [
     "Signed to Kairos Counter-Strike.",
@@ -213,12 +212,6 @@
     {
       "category": "before-kairos",
       "text": "Interested in military history, especially strategy/logistics/campaigns, not collecting weapons",
-      "sourceEpisodeId": "episode-098",
-      "publicationId": "interview-dust2-dez-cadeiras"
-    },
-    {
-      "category": "before-kairos",
-      "text": "Arthur Fletcher is Glacier's grandfather and family member, not a Kairos employee.",
       "sourceEpisodeId": "episode-098",
       "publicationId": "interview-dust2-dez-cadeiras"
     }

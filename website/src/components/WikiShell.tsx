@@ -18,11 +18,6 @@ export function WikiShell({
       <a className="skipLink" href="#main-content">
         Skip to content
       </a>
-      <div className="fictionNotice">
-        Kairospedia documents a fictional esports universe. Fictional matches
-        and events involving real-world organizations are not real-world
-        results.
-      </div>
       <TopNavigation searchRecords={searchRecords} />
       <div className="wikiGrid">
         <SidebarNavigation links={contextLinks} />

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getCatalog } from "@/lib/canon/server";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { ExternalSources, FictionalWorldNotice, ReferenceNotice } from "@/components/articles/ExternalArticles";
+import { ExternalSources, ReferenceNotice } from "@/components/articles/ExternalArticles";
 import { WikiTable } from "@/components/articles/WikiArticle";
 import { formatDate } from "@/lib/formatting/date";
 
@@ -12,11 +12,10 @@ export default function WorldPage() {
   const worldState = catalog.worldState2027;
   return <article><Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Competitive world" }]} />
     <h1>The competitive world</h1>
-    <p>The Kairos Universe fictional 2027 competitive world, and the frozen pre-Worlds 2026 real-world reference it is layered on top of.</p>
+    <p>The Kairos Universe 2027 competitive world, and the frozen pre-Worlds 2026 reference it is layered on top of.</p>
 
     <section className="contentSection" id="2027-world">
-      <h2>Current fictional world: 2027</h2>
-      <FictionalWorldNotice />
+      <h2>Current competitive world: 2027</h2>
       {worldState && (() => {
         const tier1Leagues = ["LCK", "LPL", "LEC", "LCS", "LCP", "CBLOL"];
         const tier2RegionLeague = "NACL";
@@ -69,21 +68,21 @@ export default function WorldPage() {
           </section>)}
         </section>
         <section className="contentSection" id="2027-free-agents">
-          <h3>Free Agents (2027, fictional)</h3>
+          <h3>Free Agents (2027)</h3>
           <p>{worldState.freeAgents.players.length} players whose Kairos Universe 2027 team status is Free Agent, unless another destination is already confirmed in Kairos canon.</p>
           <WikiTable caption="2027 free agents" columns={["Player", "Previous team", "League", "Effective"]} rows={worldState.freeAgents.players.map((player) => ({
             key: player.playerId, cells: [<Link key="player" href={`/wiki/players/${scene?.players.find((p) => p.id === player.playerId)?.slug ?? ""}`}>{player.nickname}</Link>,
               <Link key="team" href={`/wiki/teams/${scene?.teams.find((t) => t.id === player.previousTeamId)?.slug ?? ""}`}>{player.previousTeamName}</Link>, player.league, formatDate(player.effectiveDate)],
           }))} empty="No free agents recorded." />
         </section>
-        <section className="contentSection"><h3>Sources</h3><p>Kairos Universe canon directive: &ldquo;2027 League of Legends regional restructuring&rdquo; (author-confirmed, fictional). Regional membership and free-agent status reference the frozen pre-Worlds 2026 real-world reference records below by ID; it does not source or modify them.</p></section>
+        <section className="contentSection"><h3>Sources</h3><p>Kairos Universe canon record: &ldquo;2027 League of Legends regional restructuring.&rdquo; Regional membership and free-agent status reference the frozen pre-Worlds 2026 reference records below by ID; it does not source or modify them.</p></section>
         </>;
       })()}
     </section>
 
     <section className="contentSection" id="2026-reference">
       <h2>Historical reference: Pre-Worlds 2026 snapshot</h2>
-      <p>Pre-Worlds 2026 / League of Legends. This is the frozen, real-world-sourced historical reference the 2027 fictional world above is layered on top of. It is not modified by the 2027 restructuring and remains accurate as a historical record of the competitive world before it.</p>
+      <p>Pre-Worlds 2026 / League of Legends. This is the frozen historical reference the 2027 competitive world above is layered on top of. It is not modified by the 2027 restructuring and remains accurate as a historical record of the competitive world before it.</p>
       <ReferenceNotice />
       {scene && <>
         <section className="contentSection"><h3>Coverage</h3><p>{scene.teams.length} teams. {scene.players.length} unique players. {scene.rosterTenures.length} roster observations, including substitutes. All participants are included, not only Worlds qualifiers.</p>

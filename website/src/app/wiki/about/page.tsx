@@ -49,11 +49,12 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="contentSection">
-        <h2>Fiction and real-world references</h2>
+        <h2>Real-world references</h2>
         <p className="lede">
-          Real esports figures and organizations may be referenced in the
-          fictional continuity. Their involvement in Kairos events is
-          fictional and must never be presented as a real-world result.
+          Real esports figures and organizations may be referenced for
+          historical and competitive context. Their involvement in Kairos
+          events belongs to the Kairos Universe continuity only, and must
+          never be presented as a real-world result.
         </p>
       </section>
       <section className="contentSection">

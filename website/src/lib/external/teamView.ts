@@ -49,6 +49,7 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene): Team
     officialDebutPeriod: "Unknown",
     captainPlayerId: "",
     headCoachName: null,
+    headCoachSlug: null,
     trainingLocation: { city: "TBD", region: "TBD", country: "TBD" },
     roster,
     formerRoster: [],

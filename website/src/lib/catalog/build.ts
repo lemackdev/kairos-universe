@@ -255,6 +255,13 @@ export function buildCatalog(
         ...(entry.joinedDate ? [{ id: `${entry.tenureId}-join`, date: entry.joinedDate, text: `${entry.nickname ?? entry.realName} joins as ${entry.title}.` }] : []),
         ...(entry.leftDate ? [{ id: `${entry.tenureId}-leave`, date: entry.leftDate, text: `${entry.nickname ?? entry.realName} leaves as ${entry.title}.` }] : []),
       ]),
+      ...[...new Map(mentors.map((mentor) => [mentor.id, mentor])).values()].flatMap((mentor) => {
+        const person = staff.get(mentor.id);
+        const joinedDate = person?.joinedKairos;
+        return joinedDate && joinedDate !== "TBD"
+          ? [{ id: `${mentor.id}-mentor-join`, date: joinedDate, text: `${mentor.nickname ?? mentor.name} joins as ${mentor.role}.` }]
+          : [];
+      }),
     ].sort((a, b) => {
       if (a.date && b.date) return a.date.localeCompare(b.date);
       if (a.date) return -1;

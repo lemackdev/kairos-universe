@@ -13,56 +13,11 @@ import { ArticleInfobox, ArticleLink, ArticleSection, WikiArticle, WikiTable } f
 const sections = [
   { id: "overview", title: "Overview" }, { id: "background-information", title: "Background Information" },
   { id: "team-history", title: "Team History" }, { id: "trivia", title: "Trivia" },
-  { id: "before-kairos", title: "Before Kairos / Outside the Game" },
   { id: "individual-awards", title: "Individual Awards" }, { id: "tournament-results", title: "Tournament Results" },
   { id: "sources", title: "Sources" },
 ];
 
-const publicTriviaCategoryLabels: Record<string, string> = {
-  "competitive-favorite": "Competitive favorites",
-  "on-camera-trivia": "On-camera trivia",
-  "before-kairos": "Before Kairos / Outside the Game",
-  "commons-reference": "Kairos Commons",
-};
-
-function episodeLabel(sourceEpisodeId: string | null): string | null {
-  if (!sourceEpisodeId) return null;
-  const match = /episode-0*(\d+)/.exec(sourceEpisodeId);
-  return match ? `Episode ${Number(match[1])}` : sourceEpisodeId;
-}
-
 type PublicTriviaEntry = PlayerView["publicTrivia"][number];
-
-function renderPublicTriviaGroups(entries: PublicTriviaEntry[], categories: string[] = Object.keys(publicTriviaCategoryLabels)) {
-  return categories.map((category) => {
-    const items = entries.filter((entry) => entry.category === category);
-    if (!items.length) return null;
-    return (
-      <div key={category}>
-        <h4>{publicTriviaCategoryLabels[category]}</h4>
-        <ul>
-          {items.map((entry, index) => (
-            <li key={`${category}-${index}`}>
-              {entry.text}
-              {entry.sourceEpisodeId || entry.publicationId ? (
-                <span className="muted">
-                  {" "}
-                  (
-                  {entry.sourceEpisodeId && episodeLabel(entry.sourceEpisodeId)}
-                  {entry.sourceEpisodeId && entry.publicationId ? ", " : ""}
-                  {entry.publicationId && (
-                    <ArticleLink href={`/wiki/publications/${entry.publicationId}`}>source interview</ArticleLink>
-                  )}
-                  )
-                </span>
-              ) : null}
-            </li>
-          ))}
-        </ul>
-      </div>
-    );
-  });
-}
 
 export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerView; team?: TeamView; narrativeDate: string }) {
   const background = [
@@ -95,31 +50,15 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       {(() => {
-        const onCamera = player.publicTrivia.filter(
-          (entry) => entry.category === "competitive-favorite" || entry.category === "on-camera-trivia",
-        );
-        if (!player.trivia.length && !onCamera.length) return <p>No confirmed trivia recorded.</p>;
-        return <>
-          {player.trivia.length ? <ul>{player.trivia.map((fact) => <li key={fact}>{fact}</li>)}</ul> : null}
-          {onCamera.length ? renderPublicTriviaGroups(onCamera, ["competitive-favorite", "on-camera-trivia"]) : null}
-        </>;
+        const facts: string[] = [...player.trivia, ...player.publicTrivia.map((entry: PublicTriviaEntry) => entry.text)];
+        return facts.length ? <ul>{facts.map((fact, index) => <li key={index}>{fact}</li>)}</ul> : <p>No confirmed trivia recorded.</p>;
       })()}
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
-      {(() => {
-        const beforeKairos = player.publicTrivia.filter(
-          (entry) => entry.category === "before-kairos" || entry.category === "commons-reference",
-        );
-        return beforeKairos.length
-          ? renderPublicTriviaGroups(beforeKairos, ["before-kairos", "commons-reference"])
-          : <p>No public trivia recorded.</p>;
-      })()}
-    </ArticleSection>
-    <ArticleSection {...sections[5]!}>
       <WikiTable caption="Individual awards" columns={["Date", "Award", "Tournament"]} empty="No confirmed individual awards recorded."
         rows={player.awards.map((award) => ({ key: award.id, cells: [formatDate(award.date), award.name, award.competitionName ?? "TBD"] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[6]!}>
+    <ArticleSection {...sections[5]!}>
       {player.officialMatchCount === 0 && <p>No official matches recorded.</p>}
       <WikiTable caption={`${player.nickname} tournament results`} columns={["Date", "Place", "Tournament", "Team"]} empty="No confirmed tournament results recorded."
         rows={player.tournamentResults.map((result) => ({ key: result.id, cells: [
@@ -128,7 +67,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
           <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>,
         ] }))} />
     </ArticleSection>
-    <ArticleSection {...sections[7]!}>
+    <ArticleSection {...sections[6]!}>
       <details><summary>Sources ({[...player.sources, ...player.awards.flatMap((award) => award.sources)].filter((source, index, all) => all.findIndex((entry) => entry.id === source.id) === index).length})</summary>
         <SourceList sources={[...player.sources, ...player.awards.flatMap((award) => award.sources)].filter((source, index, all) => all.findIndex((entry) => entry.id === source.id) === index)} />
       </details>

@@ -1,0 +1,113 @@
+{
+  "id": "episode-112",
+  "slug": "episode-112",
+  "episodeNumber": 112,
+  "title": "Cinco Desconhecidos",
+  "historicalTitle": "Cinco Desconhecidos",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-26",
+  "datePrecision": "exact",
+  "publicationOrder": 112,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "lukas-luk-novak",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "zaqueri-aphromoo-black",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "On 2027-01-26 Luk replaces the day's usual scrims against professional organizations with private practice against independent groups of high-level FACEIT-style PUG players, to train adaptability against unpredictable opponents. Kairos Main beats a North American group 13-8 on Train and a second group 13-10 on Nuke; Kairos Academy loses 11-13 to a third group on Cache and beats a more aggressive fourth group 13-9 on Inferno. FLACOGOMEZ and Reid keep developing as secondary AWPers without replacing Glacier or Nolan as primary AWPers, and Zayn's anticipation and read of unfamiliar opponents again draws the coaches' attention, though the coaches state they do not want to remove him from Academy.",
+  "keyEvents": [
+    "8:17 — Luk explains that Main and Academy will face independent groups of high-level players, many from FACEIT competitive matches, rather than professional organizations; the goal is to take players out of routine and test reactions to situations nobody prepared.",
+    "9:46 — Main vs. an independent North American FACEIT group on Train: Atlas starts conservatively; the opponent contests everything; Mold falls back instead of forcing duels; Luk authorizes FLACOGOMEZ to buy a second AWP in specific rounds alongside Glacier (the first attempt fails when both stand too close, the second with separated angles succeeds). Main wins 13-8.",
+    "11:03 — Academy vs. a second independent group on Cache: Academy trails 5-2 after seven rounds, adapts by reading each opponent individually and the first half ends 6-6; in the second half Nolan loses two AWP duels, Evan calls a mistaken rotation in the penultimate round and Academy loses 11-13.",
+    "12:28 — The Counter-Strike players learn at lunch of Riot's new League eligibility policy; Mason and Cameron joke about Mason's transfer value.",
+    "14:36 — Main vs. a third group of players from different North American countries on Nuke: Main loses the first three rounds, then stops forcing aim duels and uses utility better; Glacier keeps the primary AWP while FLACOGOMEZ tests the second AWP in two defensive setups, one working and one failing. Luk calls the double AWP a tool, not an obligation. Main wins 13-10.",
+    "15:52 — Academy vs. a fourth, more aggressive group on Inferno: Nolan holds the primary AWP and Reid receives a second AWP in some defensive rounds; at 9-9 with two Academy players down and the bomb planted, Zayn waits before returning and eliminates a player; Milo takes another and Nolan closes the round. Academy wins 13-9.",
+    "17:24 — Luk, Stewie2K and Trace review Zayn's Inferno round. It is the third consecutive week in which Zayn features in important coaching discussions; they do not want to move him out of Academy and want to give him more responsibility, asking him to explain decisions to the other four after rounds while respecting Evan's authority as IGL.",
+    "19:08 — In the Photo & Film Room, Atlas asks Zayn about waiting for opponents to commit and proposes reviewing maps together the next day.",
+    "21:16 — Luk sums up the day as three wins and one loss over four maps against independent groups, useful but not a definitive measure of either roster, and notes that February opponents will be professional organizations."
+  ],
+  "consequences": [
+    "Four private practice map results are established for 2027-01-26: Main 13-8 on Train and 13-10 on Nuke; Academy 11-13 on Cache and 13-9 on Inferno, all against unnamed independent PUG groups.",
+    "FLACOGOMEZ (Main) and Reid (Academy) continue secondary-AWP development; Glacier and Nolan remain primary AWPers.",
+    "Atlas begins arranging strategic review sessions with Zayn; Zayn remains in Academy."
+  ],
+  "canonIntroduced": [
+    "Four private practice map results against unnamed independent PUG groups are established for 2027-01-26.",
+    "Stewie2K and Luk state they will give Zayn more responsibility without removing him from Academy."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-110",
+    "episode-111"
+  ],
+  "continuityNotes": [
+    "The PUG sessions are private practice, not official matches; they do not affect rankings, official statistics, achievements or standings.",
+    "The opponents are unnamed independent groups; no organization names, player identities, K/D/A, ADR, ratings or other statistics are established.",
+    "No transfer, promotion or roster change occurs; Zayn remains an Academy player.",
+    "Secondary-AWP use is situational and does not overwrite any player's primary role."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "FACEIT is referenced as the type of platform from which the independent opponent groups come; no real-world player or team is identified."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_112.txt",
+      "locator": "Episódio 112 — Cinco Desconhecidos",
+      "information": "Supplies full prose, the four private practice map results and the coaching evaluation of Zayn.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Kairos Main beats an independent group 13-8 on Train and another 13-10 on Nuke on 2027-01-26.",
+    "Kairos Academy loses 11-13 to an independent group on Cache and beats another 13-9 on Inferno on 2027-01-26.",
+    "None of these matches is official or affects any standing.",
+    "Zayn remains an Academy player."
+  ],
+  "unconfirmedDetails": [
+    "The opponents' identities, rosters and individual statistics are not established.",
+    "Per-round details beyond those narrated are not canon."
+  ],
+  "notes": [
+    "Private practice match records: match-cs-external-main-faceit-pug-train-2027-01-26, match-cs-external-main-faceit-pug-nuke-2027-01-26, match-cs-external-academy-faceit-pug-cache-2027-01-26, match-cs-external-academy-faceit-pug-inferno-2027-01-26."
+  ]
+}

@@ -102,3 +102,7 @@ regional membership.
   renders this layer with an explicit "fictional speculation, not a real
   report" disclaimer, visually and structurally separate from the frozen
   2026 reference content.
+
+## Regional eligibility and calendar revision (2027-01-26 / 2027-01-27)
+
+A later directive adds the 2027 regional player eligibility ruleset (import ban) and revises the League Tier 1 Stage 1 window. It does not alter the regional-membership layer above. See [`LEAGUE_IMPORT_BAN_AND_CALENDAR_REVISION_2027.md`](LEAGUE_IMPORT_BAN_AND_CALENDAR_REVISION_2027.md).

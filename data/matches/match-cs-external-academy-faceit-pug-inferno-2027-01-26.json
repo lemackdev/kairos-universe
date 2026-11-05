@@ -1,0 +1,68 @@
+{
+  "id": "match-cs-external-academy-faceit-pug-inferno-2027-01-26",
+  "slug": "match-cs-external-academy-faceit-pug-inferno-2027-01-26",
+  "game": "Counter-Strike",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-academy",
+    "opponent-faceit-pug-academy-inferno-2027-01-26"
+  ],
+  "scheduledDate": "2027-01-26",
+  "date": "2027-01-26",
+  "datePrecision": "exact",
+  "teamAId": "kairos-cs-academy",
+  "teamBId": "opponent-faceit-pug-academy-inferno-2027-01-26",
+  "bestOf": 1,
+  "teamAScore": 1,
+  "teamBScore": 0,
+  "winnerTeamId": "kairos-cs-academy",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-112"
+  ],
+  "relatedPlayerIds": [
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "result": {
+    "opponentName": "Independent FACEIT-style PUG group",
+    "opponentLeague": "none (independent players)",
+    "opponentRosterStatus": "unnamed independent group; identities not established",
+    "games": [
+      {
+        "number": 1,
+        "map": "Inferno",
+        "teamRounds": 13,
+        "opponentRounds": 9,
+        "roundsPlayed": 22,
+        "winnerTeamId": "kairos-cs-academy",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon (Episode 112). No player statistics are established."
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_107_114_import/episode_112.txt"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos CS Academy beats a more aggressive independent group 13-9 on Inferno, Episode 112 (2027-01-26)."
+  ],
+  "unconfirmedDetails": [
+    "The opponent group's players and organization are not identified; no player K/D/A, ADR or ratings are established."
+  ],
+  "canonNotes": [
+    "Private practice against independent players; not an official match, does not affect any ranking, official statistic, achievement or standing."
+  ]
+}

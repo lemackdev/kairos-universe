@@ -2,79 +2,80 @@
   "id": "interview-dust2-dez-cadeiras",
   "slug": "interview-dust2-dez-cadeiras",
   "continuityId": "kairos-universe",
-  "title": "Dez Cadeiras: Ten Chairs, Ten Kairos Counter-Strike Players",
-  "subtitle": "A Dust2.us roster feature with all ten Kairos Main and Academy Counter-Strike players, filmed mid-training.",
+  "title": "Ten Chairs, Two Rosters: Inside Kairos's Counter-Strike Bet",
+  "subtitle": "Five Main players, five Academy prospects, and a North American project still waiting for its first official result.",
   "publisherId": "dust2-us",
   "authorIds": [],
   "byline": "Dust2.us Staff",
   "publicationDate": "2027-01-08",
   "fictionalWorldDate": "2027-01-08",
-  "articleType": "interview",
+  "articleType": "feature",
   "classification": "in-universe-publication",
   "canonStatus": "confirmed",
   "publicationStatus": "published",
   "featured": true,
-  "summary": "All ten Kairos Counter-Strike players, Main and Academy, sit for a Dust2.us feature during a training block: favorite map, one weapon forever, pre-Kairos life, and teammate banter.",
+  "summary": "Dust2.us meets the ten players behind Kairos's Main and Academy Counter-Strike rosters, from map preferences and role identities to the lives they led before scrims filled the calendar.",
   "content": [
     {
       "type": "paragraph",
-      "text": "This article is a fictional dramatization written for the Kairos Universe story. It is formatted in the style of a Dust2.us roster feature, but it is not an actual Dust2.us publication, video, or statement."
+      "text": "Ten chairs were set out in the Kairos campus media room on January 8: five black for Main, five green for Academy. The idea was a short introduction to a Counter-Strike program with an unusual shape for North America. Kairos has built two rosters around young players, instead of importing a ready-made set of names. Neither lineup has an official result to point to yet. On this afternoon, the first useful measure is simpler: how these players think about their roles, and how they sound when the conversation leaves the server."
     },
     {
       "type": "paragraph",
-      "text": "Following the response to Riot Games' League roster feature, Dust2.us asked to do the same for [[organization:kairos-esports|Kairos]]'s Counter-Strike side. A crew set up ten chairs, five black for [[team:kairos-cs-main|Kairos Main]] and five green for [[team:kairos-cs-academy|Kairos Academy]], in one of the campus media rooms during a scheduled training block. The session was budgeted at forty minutes; it ran well past an hour."
+      "text": "The session was booked for forty minutes. [[staff:lukas-luk-novak|Luk]] and [[staff:jake-stewie2k-yip|Stewie2K]], watching from the side with [[staff:ethan-trace-miller|Trace]] nearby, seemed unconvinced that ten Counter-Strike players could keep to that schedule. They were right. The format began with maps and weapons, then moved to life before Kairos, where the answers were better than another round of generic prospect talk."
     },
     {
       "type": "paragraph",
-      "text": "Kairospedia's archive entry records when this page was compiled, not a confirmed Dust2.us broadcast date — the episode that depicts the filming never states when, or whether, Dust2.us itself released the footage."
+      "text": "The distinction between the two lineups was immediately apparent in the room. Main is organized around roles that already carry weight in a match: [[player:caleb-atlas-mercer|Caleb \"Atlas\" Mercer]] calling, [[player:owen-glacier-fletcher|Owen \"Glacier\" Fletcher]] on the AWP, and [[player:cameron-mold-ruiz|Cameron \"Mold\" Ruiz]] expected to make first contact. Academy has its own IGL in [[player:evan-soupcrime-nakamura|Evan \"RAMENSOUP\" Nakamura]], with five players still building the habits that can make a lineup function. That is a development plan, not proof of what either team will achieve."
     },
     { "type": "heading", "level": 2, "text": "Kairos Main" },
     {
       "type": "paragraph",
-      "text": "[[player:caleb-atlas-mercer|Caleb \"Atlas\" Mercer]], Main's IGL, named Inferno: \"you can't hide behind mechanics forever — the map demands communication.\" His one weapon forever would be the AK. Before Counter-Strike, he played ice hockey as a defenseman and still watches the NHL every season; he also builds very large jigsaw puzzles, a thousand pieces or more, purely for the irritation of it."
+      "text": "The map question gave Atlas room to answer like an IGL. He chose Inferno because, as he put it, \"the map demands communication.\" Mold immediately called that an IGL answer. \"Because I am the IGL,\" Atlas replied. His forever weapon was the AK. The job title made more sense when he described the years he spent playing hockey as a defenseman, a sport he still follows through the NHL. He also likes thousand-piece puzzles, preferably difficult enough to become irritating. Mold's verdict was that the hobby needed studying."
     },
     {
       "type": "paragraph",
-      "text": "[[player:owen-glacier-fletcher|Owen \"Glacier\" Fletcher]] picked Nuke — \"especially as an AWPer,\" he said, pointing to how much the map rewards information, rotation, and vertical pressure over pure aim — and would keep the AWP as his only weapon. He previously worked a few hours a week at a convenience store, handling stock, the register, and cleaning, and is interested in military history, specifically strategy, logistics, and historical campaigns, not weapons or collecting."
+      "text": "Glacier chose Nuke, and when asked whether that was an AWPer's preference, answered, \"Especially as an AWPer.\" He likes maps where information and rotation matter alongside aim. The AWP was his one-weapon answer, to Mold's relief: if Glacier had said AK, Mold joked, he would have needed another AWPer. Before competing full-time, Glacier worked a few hours a week at a convenience store. He is also interested in military history, particularly campaigns, strategy and logistics, not weapons or collecting. When Atlas asked why he had never mentioned it, Glacier said it had never come up."
     },
     {
       "type": "paragraph",
-      "text": "[[player:emiliano-moteconhuesillo-navarro|Emiliano \"MoteConHuesillo\" Navarro]] answered Cobblestone — a map he missed after it rotated out of competitive play — while admitting with a laugh that it isn't necessarily the best map in the pool, just his favorite. His weapon would be the AK. He played futsal for years as a winger and learned to cook a range of Mexican dishes from his family."
+      "text": "Cobblestone was [[player:emiliano-moteconhuesillo-navarro|Emiliano \"MoteConHuesillo\" Navarro]]'s pick, because he missed it after it left the active pool. Asked if it was the best map, he paused: \"No. Favorite and best don't have to be the same thing.\" He chose the AK. Away from the server, he played futsal for years as a winger and learned to cook Mexican dishes from his family. Mold called him useful; Emiliano asked whether Mold could cook. \"I can order food,\" Mold said."
     },
     {
       "type": "paragraph",
-      "text": "[[player:cameron-mold-ruiz|Cameron \"Mold\" Ruiz]] named Dust II — \"the most honest map that exists,\" in his words — and would keep the AK. Before Kairos, he spent time walking desert trails near home for hours, without music or a podcast, just walking. He also draws, mostly cars, buildings, and faces, though he declined to show any of it on camera."
+      "text": "Mold took Dust II, calling it \"the most honest map that exists.\" Atlas closed his eyes. The two never reached agreement on what that meant. Mold's AK answer was less contentious. His teammates were more surprised by what he did before Kairos: he would walk desert trails near home for hours, without music or a podcast. He also draws cars, buildings and faces, though when asked to show something, he said no."
     },
     {
       "type": "paragraph",
-      "text": "[[player:vincente-flacogomez-galan|Vincente \"FLACOGOMEZ\" Galán]] closed out Main with Train — \"it always feels like there's one more thing happening than you can actually see\" — and the M4A1-S. He played futsal and has followed Palmeiras since childhood, and collects football shirts, by his own admission \"about twenty,\" though teammates suspect the real number is higher."
+      "text": "[[player:vincente-flacogomez-galan|Vincente \"FLACOGOMEZ\" Galán]] chose Train because \"it always feels like there's one more thing happening than you can actually see,\" a description Mold said sounded more like an IGL than Atlas's answer. He would keep the M4A1-S. Galán also played futsal, has followed Palmeiras since childhood and brought roughly twenty football shirts to Los Angeles. Mold suspected that number was conservative."
     },
     { "type": "heading", "level": 2, "text": "Kairos Academy" },
     {
       "type": "paragraph",
-      "text": "[[player:evan-soupcrime-nakamura|Evan \"RAMENSOUP\" Nakamura]] picked Nuke and the AK. He did competitive debate in school and likes cooking real ramen from scratch, broth and toppings included, not instant."
+      "text": "On Academy, [[player:evan-soupcrime-nakamura|Evan \"RAMENSOUP\" Nakamura]] picked Nuke and the AK. He had done school debate, a fact that led [[player:milo-velcrodog-radovic|Milo \"velcroDAWG\" Radović]] to accuse him of arguing for fifteen minutes after everyone else had stopped. Trace called the skill useful for an IGL; Stewie2K called it dangerous. RAMENSOUP also cooks ramen from scratch, broth and toppings included. The nickname, he admitted, came before the cooking expertise."
     },
     {
       "type": "paragraph",
-      "text": "[[player:milo-velcrodog-radovic|Milo \"velcroDAWG\" Radović]] answered Inferno and the AK. He plays basketball when he has time and speaks enough Serbian to talk with part of his family."
+      "text": "[[player:milo-velcrodog-radovic|Milo \"velcroDAWG\" Radović]] went with Inferno and the AK. He still plays basketball when time allows, though he refused to tell Mold how tall he is. He also speaks enough Serbian to talk with part of his family, giving him a second language for the European servers Stewie2K joked he might eventually curse at."
     },
     {
       "type": "paragraph",
-      "text": "[[player:zayn-parkinglot-haddad|Zayn \"p4rkingl0t\" Haddad]] named Train and, after briefly considering the M4, settled on the AK. He likes cars, models, engines, and sounds, and can identify some cars just by how they sound; he has also done nighttime automotive photography for friends near parking lots, gas stations, and city lights."
+      "text": "[[player:zayn-parkinglot-haddad|Zayn \"p4rkingl0t\" Haddad]] chose Train and settled on the AK after briefly considering the M4. His interests explain the nickname only up to a point: cars, models, engines and their sounds. He can identify some cars by sound alone and has photographed friends' cars at night, using parking lots, gas stations and city lights. When Atlas began to connect the dots on camera, Zayn cut him off: \"No.\""
     },
     {
       "type": "paragraph",
-      "text": "[[player:nolan-dentalplan-hart|Nolan \"dentalplan\" Hart]] picked Dust II — an AWPer's pick the crew called predictable — and the AWP itself. He played drums for four years. He is the twin brother of Reid Hart; the two disagree, good-naturedly, on exactly how many minutes separated their births."
+      "text": "[[player:nolan-dentalplan-hart|Nolan \"dentalplan\" Hart]] chose Dust II and the AWP, an answer Glacier called predictable. Nolan also played drums for four years. His twin, [[player:reid-wrongnumber-hart|Reid \"wrongnumber\" Hart]], laughed through the answer and said Nolan had been terrible. Nolan pointed out that Reid shared the room and might not be an unbiased critic. Asked who was older, both answered at once: \"I am.\" Nolan said eleven minutes; Reid said nine. The birth-order gap remains a family matter, apparently."
     },
     {
       "type": "paragraph",
-      "text": "[[player:reid-wrongnumber-hart|Reid \"wrongnumber\" Hart]] closed Academy with Overpass and the M4A1-S. He took part in three school theater productions, never as the lead. He is the twin brother of Nolan Hart."
+      "text": "Reid chose Overpass and the M4A1-S, a choice that drew approval from Main anchor Galán. He had performed in three school theater productions, none as the lead. The Academy teammates were more surprised by theater than by the maps. Asked whether he remembered any lines, Reid said he did and then refused to perform one."
     },
-    { "type": "heading", "level": 2, "text": "Team quick-fire" },
+    { "type": "heading", "level": 2, "text": "The questions the format couldn't contain" },
     {
       "type": "paragraph",
-      "text": "The session ended off-script, with Dust2.us asking both rosters a run of quick-fire questions: who sleeps latest, who takes the longest shower, who forgets the most things, who complains about food the most, who has the worst music taste, who would survive alone in a forest, and who would get arrested first on a trip. Glacier was named by four separate teammates as most likely to survive in a forest; RAMENSOUP insisted he could do it too, citing six months as a scout as a child, which p4rkingl0t immediately argued doesn't count."
+      "text": "The planned questions gave way to a team guessing game: who stayed up latest, took the longest shower, forgot the most, complained about food, had the worst music taste, would survive alone in a forest, or would be arrested first on a trip. The camera caught the debate, not a clean ballot. Glacier was named by four teammates as the likely forest survivor. RAMENSOUP claimed his six months as a scout qualified him too; p4rkingl0t said it did not. Mold accused Atlas of having a divorced-dad playlist, and Atlas demanded a definition. The room had stopped behaving like two lineups being introduced and started sounding like teammates who had finally been asked about something besides Counter-Strike."
     }
+    ,{"type":"paragraph","text":"Ten chairs were supposed to make a short roster feature. Instead, the conversation ran an hour and twelve minutes. By the time cameras were coming down, Galán had his phone out to show football shirts, Zayn was sharing car photographs with Milo, and Atlas was still asking Mold about the drawings he had declined to show. None of that predicts a result. It does offer a better first look at a project than a list of roles: ten players with distinct habits, a Main side expected to lead, an Academy side still finding its shape, and the work ahead of both."}
   ],
   "cover": null,
   "imageCredits": [],
@@ -105,5 +106,5 @@
   "notes": [
     "Dust2.us's own real-world-style release date for this footage is never confirmed in the episode. publicationDate here records when Kairospedia's archive entry was compiled, not an outlet broadcast date. Do not change this to imply a confirmed Dust2.us release date."
   ],
-  "lastUpdated": "2026-11-03"
+  "lastUpdated": "2026-11-04"
 }

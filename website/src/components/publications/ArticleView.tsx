@@ -83,11 +83,17 @@ export function ArticleView({
         </div>
       ) : null}
 
-      {(article.classification === "real-world-reference" || article.classification === "rumor" || publisher?.coverageDisclosure) ? (
+      {((article.classification === "rumor" && article.publisherId !== "the-competitive-ledger") ||
+        (article.classification === "real-world-reference" && !["dust2-us", "riot-games-publisher"].includes(article.publisherId)) ||
+        (publisher?.coverageDisclosure && !["dust2-us", "riot-games-publisher"].includes(publisher.id))) ? (
         <div className={`${styles.disclosure} ${disclosureClass[article.classification]}`} role="note">
-          <strong>{classificationLabels[article.classification]}</strong>
-          <span>{classificationNotes[article.classification]}</span>
-          {publisher?.coverageDisclosure ? <span>{publisher.coverageDisclosure}</span> : null}
+          {article.classification !== "rumor" || article.publisherId !== "the-competitive-ledger" ? (
+            <strong>{classificationLabels[article.classification]}</strong>
+          ) : null}
+          {classificationNotes[article.classification] ? <span>{classificationNotes[article.classification]}</span> : null}
+          {publisher?.coverageDisclosure && !["dust2-us", "riot-games-publisher"].includes(publisher.id) ? (
+            <span>{publisher.coverageDisclosure}</span>
+          ) : null}
         </div>
       ) : null}
 

@@ -4,25 +4,123 @@
   "title": "Competitive Ruleset Record",
   "description": "A reusable, global competitive rule (e.g. a map pool) that applies across tiers, teams, and organizers rather than being duplicated per-competition.",
   "type": "object",
-  "required": ["id", "slug", "continuityId", "gameId", "rulesetType", "name", "scope", "status", "effectiveDate", "sourceIds", "canonStatus", "notes"],
+  "required": [
+    "id",
+    "slug",
+    "continuityId",
+    "gameId",
+    "rulesetType",
+    "name",
+    "scope",
+    "status",
+    "effectiveDate",
+    "sourceIds",
+    "canonStatus",
+    "notes"
+  ],
   "properties": {
-    "id": { "$ref": "common.schema.json#/$defs/stableId" },
-    "slug": { "$ref": "common.schema.json#/$defs/stableId" },
-    "continuityId": { "$ref": "common.schema.json#/$defs/stableId" },
-    "gameId": { "$ref": "common.schema.json#/$defs/stableId" },
-    "rulesetType": { "enum": ["map-pool"] },
-    "name": { "type": "string", "minLength": 1 },
-    "scope": { "enum": ["global"] },
-    "status": { "enum": ["active", "retired", "planned"] },
-    "effectiveDate": { "$ref": "common.schema.json#/$defs/dateOrTbd" },
-    "endDate": { "$ref": "common.schema.json#/$defs/dateOrTbdOrNull" },
-    "rotation": { "enum": ["none", "periodic"] },
-    "maps": { "$ref": "common.schema.json#/$defs/stringArray" },
-    "excludedMaps": { "$ref": "common.schema.json#/$defs/stringArray" },
-    "appliesTo": { "type": "string", "minLength": 1 },
-    "sourceIds": { "$ref": "common.schema.json#/$defs/sourceIdArray" },
-    "canonStatus": { "$ref": "common.schema.json#/$defs/canonStatus" },
-    "notes": { "$ref": "common.schema.json#/$defs/stringArray" }
+    "id": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "continuityId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "gameId": {
+      "$ref": "common.schema.json#/$defs/stableId"
+    },
+    "rulesetType": {
+      "enum": [
+        "map-pool",
+        "player-eligibility"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "enum": [
+        "global"
+      ]
+    },
+    "status": {
+      "enum": [
+        "active",
+        "retired",
+        "planned"
+      ]
+    },
+    "effectiveDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbd"
+    },
+    "endDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbdOrNull"
+    },
+    "rotation": {
+      "enum": [
+        "none",
+        "periodic"
+      ]
+    },
+    "maps": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "excludedMaps": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "appliesTo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceIds": {
+      "$ref": "common.schema.json#/$defs/sourceIdArray"
+    },
+    "canonStatus": {
+      "$ref": "common.schema.json#/$defs/canonStatus"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    },
+    "announcedDate": {
+      "$ref": "common.schema.json#/$defs/dateOrTbd"
+    },
+    "seasonYear": {
+      "type": "integer"
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "eligibleTerritories"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/stableId"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "importAlias": {
+            "type": "string"
+          },
+          "eligibleTerritories": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rules": {
+      "$ref": "common.schema.json#/$defs/stringArray"
+    }
   },
   "additionalProperties": false
 }

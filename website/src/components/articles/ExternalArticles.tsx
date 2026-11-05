@@ -5,16 +5,12 @@ import { externalLogoPath } from "@/lib/externalLogos";
 import { ExternalRosterTable } from "@/components/ExternalRosterTable";
 import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
-import type { WorldState2027 } from "@/types/world-state-2027";
-import { findFreeAgent, type Tier2TeamLookup } from "@/lib/external/worldState2027";
+import type { AddedPlayer2027, WorldState2027 } from "@/types/world-state-2027";
+import { findFreeAgent, findLcsAssignment, findRetirement, type Tier2TeamLookup } from "@/lib/external/worldState2027";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 export function ReferenceNotice() {
   return <p className="fictionNotice">Pre-Worlds 2026 domestic tournament snapshot. Tournament membership does not establish a contract, captaincy, or permanent starting position. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
-}
-
-export function FictionalWorldNotice() {
-  return <p className="fictionNotice">2027 status reflects the Kairos Universe continuity only, not this person&rsquo;s real-world competitive, contractual, or employment status. <Link href="/wiki/world">Scope and source limitations</Link>.</p>;
 }
 
 export function ExternalSources({ scene, ids }: { scene: ExternalScene; ids: string[] }) {
@@ -55,18 +51,30 @@ export function ExternalPlayerArticle({ player, scene, worldState }: { player: S
   const tenures = scene.rosterTenures.filter((t) => player.rosterTenureIds.includes(t.id)).sort((a, b) => a.observedAtEventEnd.localeCompare(b.observedAtEventEnd));
   const sections = ["Overview", "Background Information", "Team History", "Trivia", "Individual Awards", "Tournament Results", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
   const freeAgent = findFreeAgent(worldState, player.id);
+  const assignment = findLcsAssignment(worldState, player.id);
+  const retirement = findRetirement(worldState, player.id);
   const previousTeam = freeAgent ? scene.teams.find((t) => t.id === freeAgent.previousTeamId) : null;
   return <WikiArticle title={player.nickname} kind="Players" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.slice(0, 2)} groups={[
     { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Legal name", value: "Unknown" },
       { label: "Nationality", value: "Unknown" }, { label: "Date of birth", value: "Unknown" }, { label: "Current contract", value: "Unknown" }] },
-    ...(freeAgent ? [{ title: "Kairos Universe 2027 (fictional)", rows: [
+    ...(assignment ? [{ title: "Kairos Universe 2027", rows: [
+      { label: "2027 status", value: "Starter" },
+      { label: "Team", value: <Link href={`/wiki/teams/${assignment.team.teamId.replace(/^external-lol-team-/, "external-")}`}>{assignment.team.name}</Link> },
+      { label: "Role", value: roleLabels[assignment.starter.role] },
+      { label: "Lineup confirmed", value: formatDate(worldState!.lcsRosters.confirmedBy) },
+    ] }] : []),
+    ...(retirement ? [{ title: "Kairos Universe 2027", rows: [
+      { label: "2027 status", value: "Retired" },
+      { label: "Last team", value: retirement.previousTeamName },
+      { label: "Last role", value: roleLabels[retirement.previousRole] },
+    ] }] : []),
+    ...(freeAgent ? [{ title: "Kairos Universe 2027", rows: [
       { label: "2027 status", value: "Free Agent" },
       { label: "Previous team", value: previousTeam ? <Link href={`/wiki/teams/${previousTeam.slug}`}>{freeAgent.previousTeamName}</Link> : freeAgent.previousTeamName },
       { label: "Effective", value: formatDate(freeAgent.effectiveDate) },
     ] }] : []),
   ]} />}>
     <ReferenceNotice />
-    {freeAgent && <FictionalWorldNotice />}
     <ArticleSection id="overview" title="Overview"><p>{player.nickname} appears in the source tournament roster lists below. This page does not assert a current club, age, or full career history.</p></ArticleSection>
     <ArticleSection id="background-information" title="Background Information"><p>Personal biography, nationality, residence, date of birth, contract details and captaincy have not been researched in this import.</p></ArticleSection>
     <ArticleSection id="team-history" title="Team History"><WikiTable caption="Observed tournament memberships, not dated contracts" columns={["Team", "League", "Role", "Listing", "Tournament ended"]} rows={tenures.map((tenure) => {
@@ -143,4 +151,28 @@ export function ExternalIndex({ scene, kind }: { scene: ExternalScene | undefine
   return <section className="contentSection"><h2>Pre-Worlds 2026 References</h2><ReferenceNotice />
     {kind === "teams" ? <RealWorldTeamsTable teams={scene.teams} /> : <WikiTable caption={`Real-world ${kind}`} columns={kind === "players" ? ["Name", "Record type"] : ["Name", "Record type"]} rows={kind === "players" ? scene.players.map((p) => ({ key: p.id, cells: [<Link key="name" href={`/wiki/players/${p.slug}`}>{p.nickname}</Link>, "Tournament-roster reference"] })) : scene.organizations.map((o) => ({ key: o.id, cells: [<Link key="name" href={`/wiki/organizations/${o.slug}`}>{o.name}</Link>, "Esports brand"] }))} empty="No external references enabled." />}
   </section>;
+}
+
+export function AddedPlayerArticle({ player, worldState }: { player: AddedPlayer2027; worldState: WorldState2027 }) {
+  const assignment = findLcsAssignment(worldState, player.playerId);
+  const sections = ["Overview", "Background Information", "Team History", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
+  return <WikiArticle title={player.nickname} kind="Players" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.slice(0, 2)} groups={[
+    { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Legal name", value: player.legalName },
+      { label: "Nationality", value: player.nationality }, { label: "Date of birth", value: formatDate(player.dateOfBirth) }, { label: "Role", value: roleLabels[player.primaryRole] }] },
+    ...(assignment ? [{ title: "Kairos Universe 2027", rows: [
+      { label: "2027 status", value: "Starter" },
+      { label: "Team", value: <Link href={`/wiki/teams/${assignment.team.teamId.replace(/^external-lol-team-/, "external-")}`}>{assignment.team.name}</Link> },
+      { label: "Role", value: roleLabels[assignment.starter.role] },
+      { label: "Lineup confirmed", value: formatDate(worldState.lcsRosters.confirmedBy) },
+    ] }] : []),
+  ]} />}>
+    <p className="fictionNotice">2027 status reflects the Kairos Universe continuity only, not this person&rsquo;s real-world competitive, contractual, or employment status. <Link href="/wiki/world">Scope and source limitations</Link>.</p>
+    <ArticleSection id="overview" title="Overview"><p>{player.nickname} ({player.legalName}) is a {roleLabels[player.primaryRole].toLowerCase()} player from the United States{assignment ? <>, confirmed as the starting {roleLabels[assignment.starter.role].toLowerCase()} of {assignment.team.name} for 2027</> : null}.</p></ArticleSection>
+    <ArticleSection id="background-information" title="Background Information"><p>Legal name, nationality, and date of birth come from the cited external profile. Contract details, signing dates, and full career history have not been imported.</p></ArticleSection>
+    <ArticleSection id="team-history" title="Team History"><WikiTable caption="Referenced team history" columns={["Team", "Role", "Joined", "Basis"]} rows={[
+      ...assignment ? [{ key: "2027", cells: [assignment.team.name, roleLabels[assignment.starter.role], "TBD", `Confirmed for 2027 as of ${formatDate(worldState.lcsRosters.confirmedBy)}`] }] : [],
+      ...player.history.map((entry) => ({ key: entry.teamName, cells: [entry.teamName, roleLabels[entry.role], formatDate(entry.joinedDate), entry.basis] })),
+    ]} empty="No source-backed history imported." /></ArticleSection>
+    <ArticleSection id="sources" title="Sources"><details><summary>Sources</summary><ul>{player.sources.map((source) => <li key={source.url}><a href={source.url} rel="noreferrer">{source.title}</a></li>)}</ul></details></ArticleSection>
+  </WikiArticle>;
 }

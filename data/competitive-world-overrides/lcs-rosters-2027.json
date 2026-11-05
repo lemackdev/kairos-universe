@@ -1,0 +1,452 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-lcs-rosters"
+  ],
+  "confirmedBy": "2027-01-27",
+  "disclaimer": "Kairos Universe fictional speculation layered on top of the frozen pre-Worlds 2026 real-world-sourced reference scene (external-data/pre-worlds-2026). Every player below is the same real-world-referenced person documented there (or, for added identities, in the cited source); only their Kairos Universe 2027 fictional roster or retirement status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. Confirmation date is the date by which each lineup was intended; no signing dates, contract terms, salaries, buyouts, or agents are established.",
+  "addedPlayers": [
+    {
+      "playerId": "external-lol-player-exyu",
+      "slug": "external-exyu",
+      "nickname": "eXyu",
+      "legalName": "Lawrence Lin Xu",
+      "nationality": "United States",
+      "dateOfBirth": "2001-12-14",
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "eXyu - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/EXyu"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "Dignitas",
+          "role": "jungle",
+          "joinedDate": "2025-12-19",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Identity confirmed by the author on 2027-01-27 canon update; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Historical retirement information, if any, is not asserted and does not override the author-confirmed 2027 Cloud9 assignment."
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "kairos-lol-main",
+      "name": "Kairos Gaming",
+      "internal": true,
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "noah-rkn-bennett",
+          "nickname": "rkN"
+        },
+        {
+          "role": "jungle",
+          "playerId": "ethan-vanta-walker",
+          "nickname": "Vanta"
+        },
+        {
+          "role": "mid",
+          "playerId": "mason-404-brooks",
+          "nickname": "404"
+        },
+        {
+          "role": "bot",
+          "playerId": "liam-aster-oconnor",
+          "nickname": "Aster"
+        },
+        {
+          "role": "support",
+          "playerId": "daniel-moss-reyes",
+          "nickname": "Moss"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-cloud9",
+      "name": "Cloud9",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zamudo",
+          "nickname": "Zamudo"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-exyu",
+          "nickname": "eXyu",
+          "note": "Identity added from the Leaguepedia 2026-08-03 snapshot; see addedPlayers."
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-darkwings",
+          "nickname": "DARKWINGS"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-tactical",
+          "nickname": "Tactical"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-busio",
+          "nickname": "Busio"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-dignitas",
+      "name": "Dignitas",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-denathor",
+          "nickname": "Denathor"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-kryra",
+          "nickname": "KryRa",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-disguised",
+            "previousTeamName": "Disguised",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-palafox",
+          "nickname": "Palafox"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-scaryjerry",
+          "nickname": "ScaryJerry"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-breezy",
+          "nickname": "Breezy",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-cupid-esports",
+            "previousTeamName": "Cupid eSports",
+            "effectiveDate": "2026-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-flyquest",
+      "name": "FlyQuest",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-arbrio",
+          "nickname": "arbrio",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-contingent-esports",
+            "previousTeamName": "Contingent Esports",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-gryffinn",
+          "nickname": "Gryffinn"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-insanity",
+          "nickname": "Insanity",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-conviction",
+            "previousTeamName": "Conviction",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-sajed",
+          "nickname": "sajed",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-disguised",
+            "previousTeamName": "Disguised",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-vulcan",
+          "nickname": "Vulcan"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-lyon",
+      "name": "LYON",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-crimson",
+          "nickname": "Crimson"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-armao",
+          "nickname": "Armao"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-apa",
+          "nickname": "APA"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-massu",
+          "nickname": "Massu"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-redemption",
+          "nickname": "Redemption"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-sentinels",
+      "name": "Sentinels",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-dhokla",
+          "nickname": "Dhokla"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-dardoch",
+          "nickname": "Dardoch"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-phymini",
+          "nickname": "PhyMini"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-tomo",
+          "nickname": "Tomo"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-spica",
+          "nickname": "Spica",
+          "note": "Author-confirmed 2027 positional change to Support. The author states his earlier professional career was as a jungler; the frozen 2026 reference lists him as NRG Support. No transition dates or contract details are established."
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-shopify-rebellion",
+      "name": "Shopify Rebellion",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-jrockets",
+          "nickname": "JRockets",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-contingent-esports",
+            "previousTeamName": "Contingent Esports",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-contractz",
+          "nickname": "Contractz"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-ablazeolive",
+          "nickname": "Ablazeolive",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-cupid-esports",
+            "previousTeamName": "Cupid eSports",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-mobility",
+          "nickname": "Mobility",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-cupid-esports",
+            "previousTeamName": "Cupid eSports",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-zyko",
+          "nickname": "Zyko",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-conviction",
+            "previousTeamName": "Conviction",
+            "effectiveDate": "2026-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-team-liquid",
+      "name": "Team Liquid",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-berik",
+          "nickname": "Berik"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-blaber",
+          "nickname": "Blaber"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-jojopyun",
+          "nickname": "jojopyun"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-yeon",
+          "nickname": "Yeon"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-zeyzal",
+          "nickname": "Zeyzal"
+        }
+      ]
+    }
+  ],
+  "retirements": [
+    {
+      "playerId": "external-lol-player-loki",
+      "nickname": "Loki",
+      "previousTeamId": "external-lol-team-cloud9",
+      "previousTeamName": "Cloud9",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-ignar",
+      "nickname": "IgNar",
+      "previousTeamId": "external-lol-team-dignitas",
+      "previousTeamName": "Dignitas",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-callme",
+      "nickname": "Callme",
+      "previousTeamId": "external-lol-team-disguised",
+      "previousTeamName": "Disguised",
+      "previousRole": "mid",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-disguised",
+        "previousTeamName": "Disguised",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-impact",
+      "nickname": "Impact",
+      "previousTeamId": "external-lol-team-sentinels",
+      "previousTeamName": "Sentinels",
+      "previousRole": "top",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hambak",
+      "nickname": "Hambak",
+      "previousTeamId": "external-lol-team-sentinels",
+      "previousTeamName": "Sentinels",
+      "previousRole": "jungle",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-rahel",
+      "nickname": "Rahel",
+      "previousTeamId": "external-lol-team-sentinels",
+      "previousTeamName": "Sentinels",
+      "previousRole": "bot",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-huhi",
+      "nickname": "huhi",
+      "previousTeamId": "external-lol-team-sentinels",
+      "previousTeamName": "Sentinels",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-bvoy",
+      "nickname": "Bvoy",
+      "previousTeamId": "external-lol-team-shopify-rebellion",
+      "previousTeamName": "Shopify Rebellion",
+      "previousRole": "bot",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-morgan",
+      "nickname": "Morgan",
+      "previousTeamId": "external-lol-team-team-liquid",
+      "previousTeamName": "Team Liquid",
+      "previousRole": "top",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-corejj",
+      "nickname": "CoreJJ",
+      "previousTeamId": "external-lol-team-team-liquid",
+      "previousTeamName": "Team Liquid",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-gakgos",
+      "nickname": "Gakgos",
+      "previousTeamId": "external-lol-team-flyquest",
+      "previousTeamName": "FlyQuest",
+      "previousRole": "top",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-quad",
+      "nickname": "Quad",
+      "previousTeamId": "external-lol-team-flyquest",
+      "previousTeamName": "FlyQuest",
+      "previousRole": "mid",
+      "status": "retired"
+    }
+  ]
+}

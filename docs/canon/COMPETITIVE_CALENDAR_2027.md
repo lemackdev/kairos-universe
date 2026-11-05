@@ -14,7 +14,8 @@ in-universe announcement scene that does not exist.
 
 ## Global calendar rules
 
-- The 2027 competitive season begins 2027-02-01.
+- The 2027 competitive season begins 2027-02-01 globally (unchanged by the League Stage 1 revision below).
+- **League Tier 1 Stage 1 revision (announced 2027-01-27, Episode 113):** Stage 1 for LCS, LEC, LCK, LPL, LCP, and CBLOL now runs **2027-02-15 through 2027-03-14**, superseding 2027-02-01 through 2027-03-14. The end date is unchanged and Stage 1 is not extended into First Stand. The emergency roster registration deadline is **2027-02-12**, superseding the initial 2027-02-06 deadline. First Stand 2027 remains 2027-03-20 through 2027-03-28 in Berlin, Germany. Stage 2, Stage 3, Championship Stage, the July break, and the Counter-Strike calendar are unchanged. Tier 2 leagues may adjust schedules, but no new Tier 2 dates are confirmed. See [`LEAGUE_IMPORT_BAN_AND_CALENDAR_REVISION_2027.md`](LEAGUE_IMPORT_BAN_AND_CALENDAR_REVISION_2027.md).
 - A global competitive break runs 2027-07-01 through 2027-07-31 inclusive.
   No tournaments or qualifiers are scheduled during July for either game.
 - December is relatively light and functions as season closure.

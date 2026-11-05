@@ -8,7 +8,8 @@
   "stageType": "stage",
   "status": "planned",
   "sourceIds": [
-    "source-canon-directive-2027-competitive-calendar"
+    "source-canon-directive-2027-competitive-calendar",
+    "source-canon-directive-2027-league-import-ban-and-calendar-revision"
   ],
   "canonStatus": "confirmed"
 }

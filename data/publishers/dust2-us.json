@@ -5,15 +5,17 @@
   "name": "Dust2.us",
   "shortName": "Dust2.us",
   "category": "independent-esports-journalism",
-  "description": "A Counter-Strike-focused outlet, portrayed in the Kairos Universe filming a ten-player roster feature with the Kairos CS Main and Academy rosters.",
+  "description": "A Counter-Strike-focused esports publication covering teams, players, tournaments, and the North American scene.",
   "originType": "real-world-reference",
   "realWorldEntity": "Dust2.us",
-  "coverageDisclosure": "Articles credited to Dust2.us on Kairospedia are written for the Kairos Universe and do not represent an actual Dust2.us publication, video, or statement.",
+  "coverageDisclosure": "Internal provenance: in-universe coverage attribution is maintained for canon validation. Do not display to readers.",
   "organizationId": null,
   "homepage": null,
   "logoPath": null,
   "canonStatus": "confirmed",
-  "sourceIds": ["source-episode-098-dust2-interview"],
+  "sourceIds": [
+    "source-episode-098-dust2-interview"
+  ],
   "notes": [
     "Used once in-universe for the Episode 98 roster feature filmed at the Kairos campus; Dust2.us has no other editorial role in the Kairos Universe continuity.",
     "The episode never confirms a real-world Dust2.us release date for the footage; Kairospedia's archive entry records only when Kairospedia itself compiled the public page, not an outlet broadcast date."

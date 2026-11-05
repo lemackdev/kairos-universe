@@ -1,0 +1,140 @@
+{
+  "id": "episode-109",
+  "slug": "episode-109",
+  "episodeNumber": 109,
+  "title": "Um Sábado em Los Angeles",
+  "historicalTitle": "Um Sábado em Los Angeles",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-23",
+  "datePrecision": "exact",
+  "publicationOrder": 109,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California",
+    "Manhattan Beach, Los Angeles, California"
+  ],
+  "characters": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "adrian-elias-vale",
+    "maya-torres"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white",
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "On a Saturday morning Kairos takes its 25 players to Manhattan Beach on an optional trip suggested by Maya, with no competitive activity, institutional cameras, or content requirement; even Glacier attends. The players play informal beach volleyball and football, walk the pier, and talk: Emiliano and Vincente organize a football match, Luma and Zayn compare photography, and Atlas and Glacier discuss Zayn's potential after his single day with Main. Back on campus, shortened training blocks follow: League Main reviews its Baron communication failure against Shopify Rebellion and gives Moss responsibility for confirming the collective call when two incompatible calls arise; Blue works on jungle/mid coordination; White reviews its bottom-lane weaknesses against Dorado Gaming ahead of a first scrim against a Brazilian organization (INTZ); Counter-Strike runs retakes and communication blocks with no series. That night the Kairos Commons fills without any scheduled event: cooking, keyboard restoration in the Maker Lab, piano, electronic drums and improvised singing, and photo and video editing. The day establishes no competitive result and no roster change.",
+  "keyEvents": [
+    "8:14 — The 25 players are assembled for a Saturday morning excursion to Manhattan Beach, with transport leaving the campus at 9:00; the idea came from Maya after noticing players spent their days between computers, meals, and dormitories, and Adrian agreed on condition that no one be required to join beach activities. The trip has no competitive activity, institutional cameras, or content commitment.",
+    "9:38 — Manhattan Beach: players split into groups for volleyball, a pier walk, and sitting near the bags. A volleyball game between improvised teams reaches 15-12 for Emiliano's side amid disputes, with Stewie2K playing barefoot and falling in the sand to a joke from Mold.",
+    "10:47 — On the pier Luma (Ryan) and p4rkingl0t (Zayn) compare photography interests and lenses, while Atlas (Caleb) and Glacier (Owen) discuss Zayn's reading of rotations and wonder whether he could play professionally against Tier 2 teams; Glacier says he first needs to face other teams but can keep up with them. Neither is discussing replacing Emiliano or changing the roster.",
+    "11:32 — Informal five-a-side football on the sand organized by MoteConHuesillo, with FLACOGOMEZ on the opposing side; the game ends when Emiliano dribbles two opponents and scores, and Vincente asks for a rematch on Monday.",
+    "14:18 — League Main: Aphromoo reviews the third game against Shopify Rebellion, the Baron fight that cost the series, showing five players and three different decisions; Thinkcard builds the timeline, and Moss (Daniel) is given responsibility for confirming the collective decision when two incompatible calls arise during major objectives, without deciding everything alone.",
+    "15:04 — Academy Blue: Hai prepares a draft built around the first game against GIANTX (Renekton for SullCon, Nidalee for xNox, Azir for Kite, Ezreal for Murmur, Rakan for japalenogrits); the problem is tempo, and the review shows that fast play requires Kite preparing the wave first.",
+    "15:41 — Academy White: Sable shows the Dorado Gaming recording with different vision distribution, and the team works on decisions without information advantage; Sable confirms the next major test is INTZ, White's first opportunity to face a Brazilian organization, whose roster is not yet closed.",
+    "16:12 — Counter-Strike: MoteConHuesillo is back in his Main chair and Zayn is back with Academy; Stewie2K asks the ten players what they learned on Thursday, and the session works through retake situations with Main and Academy alternating sides, without a full series. Stewie2K ends the session at 17:51.",
+    "19:34 — Kairos Commons: with no scheduled event, players cook (rkN, MoteConHuesillo, and japalenogrits plan dinner; RAMENSOUP makes ramen), restore a mechanical keyboard in the Maker Lab (404, xNox, 0bit), play piano, electronic drums, and improvised singing in the music room (Kite, dentalplan, japalenogrits, with Murmur listening), and edit beach photographs in the Photo & Film Room (Luma, June), who plan a small private video of the trip using only photos everyone authorizes.",
+    "22:08 — Adrian tells Stewie2K and Luk he planned the space and the rest was the players' choice; Stewie2K says the players have talents that do not win Majors, and Adrian answers that was the idea."
+  ],
+  "consequences": [
+    "No competitive result, score, or roster change comes out of the day.",
+    "League Main assigns Moss (Daniel) the role of confirming the collective call when two incompatible calls arise during important objectives.",
+    "The Kairos Commons operates as a social space across divisions without scheduled programming, consistent with its voluntary, non-performance-metrics principle."
+  ],
+  "canonIntroduced": [
+    "Kairos organizes an optional collective morning trip to Manhattan Beach on 2027-01-23 for all 25 players, with no competitive activity, no institutional cameras, and no content-production requirement; the idea came from Maya.",
+    "Informal beach volleyball, football, photography, and conversations take place; a volleyball game ends 15-12 for Emiliano's side with the winner disputed, and has no competitive meaning.",
+    "League Main assigns Moss (Daniel) responsibility for confirming the collective call when two incompatible calls arise at major objectives.",
+    "Academy White's next major scrim test is INTZ, its first opportunity to face a Brazilian organization."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-108"
+  ],
+  "continuityNotes": [
+    "No competitive result or roster change is established; the excursion and Commons activities are voluntary, and the Commons principle that hobbies and activities are voluntary, not mandatory corporate content, is preserved.",
+    "The Atlas/Glacier conversation about Zayn is speculation about his potential: no one discusses replacing Emiliano, and Zayn has participated in a single day of Main training.",
+    "The beach volleyball and football scores are informal and carry no competitive standing.",
+    "The photographs and the planned trip video are private, shared only with players' authorization; nothing is published."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Shopify Rebellion, GIANTX, Dorado Gaming, and INTZ appear as scrim opponents; no real-world roster, contract, or transfer information is implied."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_109.txt",
+      "locator": "Episódio 109 — Um Sábado em Los Angeles",
+      "information": "Supplies full prose for the Manhattan Beach trip, the shortened afternoon training blocks for all divisions, and the evening in the Kairos Commons.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Kairos organizes a collective morning trip to Manhattan Beach on 2027-01-23 involving the organization's 25 players, with informal sports, photography, conversations, and social activities, and no mandatory content production.",
+    "MoteConHuesillo and FLACOGOMEZ discuss and play football; Luma and Zayn exchange photography interests; Atlas and Glacier discuss Zayn's potential; Stewie2K participates in the beach activities.",
+    "Players return to campus for shorter afternoon training: Main reviews communication failures from the Shopify Rebellion scrim, Blue works on jungle/mid coordination and preparation, White examines its weaknesses against Dorado Gaming, particularly protection of its bottom lane, and Counter-Strike continues structured review and communication exercises.",
+    "At night the Kairos Commons becomes a major social gathering space with cooking, electronic repair and mechanical keyboards, piano, electronic drums, informal singing, photography and video editing, and conversations across divisions.",
+    "The Commons continues operating under its established principle that hobbies and activities are voluntary, not mandatory corporate content.",
+    "No competitive result or roster change is established."
+  ],
+  "unconfirmedDetails": [
+    "The identity of any specific players beyond those named in each scene is not narrated for the beach games.",
+    "INTZ's roster and the date of the White versus INTZ scrim are not established.",
+    "The private trip video has no confirmed release or audience beyond the participants."
+  ],
+  "notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "league-regional-player-eligibility-2027",
+  "slug": "league-regional-player-eligibility-2027",
+  "continuityId": "kairos-universe",
+  "gameId": "game-league-of-legends",
+  "rulesetType": "player-eligibility",
+  "name": "League of Legends 2027 Regional Player Eligibility",
+  "scope": "global",
+  "status": "active",
+  "effectiveDate": "2027-01-26",
+  "announcedDate": "2027-01-26",
+  "endDate": null,
+  "seasonYear": 2027,
+  "appliesTo": "Official League of Legends Tier 1 and official Tier 2 regional competitions in the 2027 season, for all teams (Kairos and non-Kairos). Counter-Strike is not affected.",
+  "regions": [
+    {
+      "id": "lcs",
+      "label": "LCS",
+      "importAlias": "NA",
+      "eligibleTerritories": "United States, Canada, Mexico, Central America, Caribbean"
+    },
+    {
+      "id": "lec",
+      "label": "LEC",
+      "importAlias": "EU",
+      "eligibleTerritories": "Eligible European, Middle Eastern, and African competitive territories"
+    },
+    {
+      "id": "lck",
+      "label": "LCK",
+      "importAlias": "KR",
+      "eligibleTerritories": "South Korea"
+    },
+    {
+      "id": "lpl",
+      "label": "LPL",
+      "importAlias": "CH",
+      "eligibleTerritories": "Mainland China"
+    },
+    {
+      "id": "lcp",
+      "label": "LCP",
+      "importAlias": "PCS",
+      "eligibleTerritories": "Asia-Pacific, including Taiwan, Vietnam, Japan, Southeast Asia, and Oceania, excluding mainland China and South Korea"
+    },
+    {
+      "id": "cblol",
+      "label": "CBLOL",
+      "importAlias": "SA",
+      "eligibleTerritories": "Brazil and the rest of South America"
+    }
+  ],
+  "rules": [
+    "No player may compete as an import outside an eligible region.",
+    "A player with valid dual citizenship may select one eligible competitive region for the season.",
+    "Competitive region selection is locked for the season.",
+    "Residency alone does not grant eligibility.",
+    "Coaches, analysts, and support staff are exempt from player eligibility restrictions.",
+    "Existing player contracts are not automatically voided.",
+    "Ineligible players cannot be registered for official matches in the affected region.",
+    "The rule applies to official regional Tier 1 and Tier 2 leagues.",
+    "Private international scrims remain permitted.",
+    "Counter-Strike is completely unaffected."
+  ],
+  "sourceIds": [
+    "source-canon-directive-2027-league-import-ban-and-calendar-revision",
+    "source-episodes-107-114"
+  ],
+  "canonStatus": "confirmed",
+  "notes": [
+    "Announced by Riot Games on 2027-01-26 (Episode 111) and applies to the Kairos Universe 2027 continuity layer only.",
+    "The region import aliases (NA, EU, KR, CH, PCS, SA) are spreadsheet/import aliases, not official league names.",
+    "This ruleset does not rewrite any external player nationality, region, team, or contract, and the frozen pre-Worlds 2026 reference dataset is unchanged. Player-specific roster, retirement, and contract events are separate entities handled in a later canon update."
+  ]
+}

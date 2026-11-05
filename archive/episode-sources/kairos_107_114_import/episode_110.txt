@@ -1,0 +1,254 @@
+Episódio 110: Fora da Zona de Conforto
+
+25 de janeiro de 2027, segunda-feira, 8h32​
+Kairos Campus, Los Angeles
+Luk estava assistindo a um replay de Nuke quando Atlas (Caleb) entrou na sala.
+Na tela, Glacier (Owen) era obrigado a abandonar um ângulo para ajudar a defender outra
+entrada. A rotação chegava tarde, e os adversários conquistavam espaço sem precisar
+enfrentar a AWP.
+— Já vimos esse round — comentou Caleb.
+— Eu sei.
+— Então por que estamos assistindo novamente?
+Luk pausou.
+— Porque acho que nosso problema não é a rotação.
+Atrás deles, Trace colocou uma estatística no monitor. Nos últimos blocos de treinamento,
+adversários que utilizavam duas AWPs estavam dificultando cada vez mais as entradas da
+Kairos, especialmente em Nuke, Train e Overpass.
+— Estamos entrando numa mudança de meta — explicou Luk. — Não significa comprar
+duas AWPs em todo round. Mas precisamos conseguir jogar com duas quando a economia
+e o mapa exigirem.
+Atlas cruzou os braços.
+— Owen é nossa AWP principal.
+— E continuará sendo. Precisamos de alguém capaz de assumir a segunda.
+
+9h17 — Uma nova função
+
+Luk reuniu os cinco jogadores.
+Glacier (Owen) examinou os nomes no quadro.
+— Quem vai jogar comigo?
+— Vamos testar dois.
+MoteConHuesillo (Emiliano) e FLACOGOMEZ (Vincente).
+Mold (Cameron) levantou a mão.
+— Eu também posso jogar de AWP.
+Atlas respondeu imediatamente:
+— Você não consegue esperar três segundos sem avançar.
+— Isso é preconceito.
+— É observação.
+O primeiro exercício colocou Emiliano com uma segunda AWP em Train. Ele conseguiu
+duas eliminações importantes, mas demonstrou desconforto quando precisava abandonar o
+ângulo e voltar ao rifle.
+Vincente apresentou um problema diferente.
+Sua movimentação era menos agressiva, mas a experiência como anchor ajudava a
+compreender quais posições precisavam ser protegidas.
+No terceiro exercício, Glacier segurou uma entrada enquanto Vincente cobria a rotação.
+Os adversários tentaram atravessar o espaço entre os dois.
+Não conseguiram.
+Luk pausou.
+— É isso.
+FLACOGOMEZ (Vincente) olhou para ele.
+— Eu?
+— Você será nosso primeiro candidato a secondary AWPer.
+Glacier (Owen) assentiu.
+— Podemos trabalhar os posicionamentos depois.
+Mold (Cameron) parecia decepcionado.
+— Então ninguém quer me dar uma AWP?
+Atlas sorriu.
+— Nem de brincadeira.
+
+10h46 — CS Academy
+
+Stewie2K havia chegado à mesma conclusão.
+— Nolan continua sendo nossa AWP principal. Mas se quisermos competir com esse estilo,
+precisamos de uma segunda opção.
+dentalplan (Nolan) olhou para o irmão.
+— Reid.
+wrongnumber (Reid) franziu a testa.
+— O quê?
+— Você fica parado em ângulo por quinze minutos. É praticamente uma AWP humana.
+velcroDAWG (Milo) começou a rir.
+Stewie escreveu dois nomes no quadro.
+wrongnumber (Reid)​
+p4rkingl0t (Zayn)
+RAMENSOUP (Evan) ficou interessado.
+— O Zayn?
+— Quero testar.
+Os exercícios começaram com Reid.
+Ele demonstrou paciência e boa disciplina defensiva. O problema apareceu quando
+precisava reposicionar rapidamente a AWP depois de uma eliminação.
+Com Zayn aconteceu quase o contrário.
+No primeiro round de Overpass, ele encontrou uma eliminação inesperada.
+No segundo, antecipou a movimentação adversária e conseguiu outra.
+No terceiro, abandonou o ângulo antes da chegada dos adversários.
+Stewie interrompeu.
+— Por que saiu?
+— Porque eles iam mudar a entrada.
+— E como sabia?
+— Eles pararam de usar utility daquele lado.
+Trace levantou os olhos.
+Era uma leitura excelente.
+Mas havia um problema.
+Zayn estava jogando tão bem como lurker que transformá-lo num segundo AWPer fixo
+poderia tirar justamente aquilo que o tornava especial.
+Stewie percebeu.
+— Reid, volta para a AWP.
+Zayn pareceu surpreso.
+— Fiz alguma coisa errada?
+— Não. Fez muita coisa certa.
+— Então...
+— Quero você livre para fazer essas leituras de rifle. Não quero te prender num ângulo só
+porque consegue acertar tiros de AWP.
+Ao final do bloco, Reid ficou como principal candidato à segunda AWP do Academy.
+Zayn continuaria como lurker.
+Mas seu nome já estava aparecendo nas conversas dos dois treinadores.
+
+13h24 — League of Legends
+
+Aphromoo escreveu uma expressão no quadro da sala preta.
+FEARLESS DRAFT
+404 (Mason) imediatamente reclamou.
+— Odeio quando você escreve isso antes de explicar o exercício.
+— Ótimo. Hoje vocês vão odiar mais.
+Aphromoo abriu uma simulação de melhor de cinco.
+Na regra Fearless, campeões escolhidos por qualquer equipe em jogos anteriores da série
+não podem ser selecionados novamente por nenhum dos dois lados. Os bans tradicionais
+continuam existindo em cada partida.
+Para o exercício, Main começaria diretamente no quarto jogo de uma série fictícia, com
+trinta campeões já utilizados e mais dez bans no draft atual.
+Aphromoo apontou para a tela.
+— Fiora, Camille e Jax estão indisponíveis.
+rkN (Noah) permaneceu quieto.
+— Lee Sin, Nidalee e Jarvan IV também.
+Vanta (Ethan) suspirou.
+— Orianna, Syndra e Azir.
+404 (Mason) levantou a mão.
+— Podemos perder por W.O.?
+— Não.
+— Estou considerando.
+Aster (Liam) perdeu Kai'Sa, Xayah e Ezreal.
+Moss (Daniel) ficou sem Thresh, Rakan e Braum.
+Thinkcard apresentou as opções restantes.
+— Hoje ninguém vai receber seu campeão favorito. Quero descobrir o que acontece quando
+nossa pool é atacada sistematicamente.
+O resultado foi uma composição desconfortável:
+
+     Jogador Campeão
+
+ rkN (Noah) Gragas
+
+ Vanta (Ethan) Sejuani
+
+ 404 (Mason) Galio
+
+ Aster (Liam) Ziggs
+
+ Moss (Daniel) Alistar
+
+No primeiro exercício, 404 (Mason) tentou jogar Galio como se estivesse controlando o
+mapa com Orianna.
+Morreu tentando responder a uma luta distante.
+Aphromoo pausou a gravação depois.
+— Mason, você não tem uma bola para controlar a luta.
+— Eu percebi.
+— Então pare de jogar como se tivesse.
+
+14h38 — Blue e White
+
+Hai realizou o mesmo exercício com Academy Blue.
+Kite (Owen) ficou sem Azir, Viktor e Taliyah.
+Recebeu Akali.
+Murmur (Tyler), impedido de utilizar seus ADCs preferidos, precisou jogar Seraphine como
+carry.
+— Isso é tortura — reclamou.
+Hai respondeu:
+— É treinamento.
+— As duas coisas podem ser verdade.
+White enfrentou dificuldades diferentes.
+Sable retirou Ornn e Sion de Pebble (Isaac), Kindred e Vi de vexemite (Benjamin), Viktor e
+Orianna de 0bit (Nathan).
+Depois bloqueou Jhin e Caitlyn para June (Cole) e Bard, Milio e Lulu para Luma (Ryan).
+June olhou para o draft.
+— Você está tirando nossa identidade inteira.
+Sable assentiu.
+— Exatamente.
+A composição improvisada perdeu as duas primeiras simulações.
+Na terceira, White encontrou uma maneira de vencer uma luta utilizando campeões que
+raramente apareciam nos treinos.
+Sable não comemorou.
+— Agora imaginem que isso aconteça no quinto jogo de uma final.
+0bit (Nathan) olhou para os companheiros.
+— Precisamos de pools muito maiores.
+— E precisamos começar agora — respondeu Sable.
+
+17h16 — O nome na tela
+
+Na sala de análise de Counter-Strike, Luk, Stewie2K e Trace encerravam a avaliação do
+dia.
+A configuração inicial estava definida.
+CS Main: Glacier (Owen) como AWPer principal, FLACOGOMEZ (Vincente) em
+desenvolvimento como secondary AWPer.
+CS Academy: dentalplan (Nolan) como AWPer principal, wrongnumber (Reid) em
+desenvolvimento como secondary AWPer.
+Nenhuma mudança de titularidade.
+Nenhuma alteração contratual.
+Mas havia outro assunto.
+Trace abriu o relatório de Zayn.
+— Ele foi excelente de AWP hoje — comentou Luk.
+Stewie concordou.
+— E foi exatamente por isso que tirei a arma dele.
+Luk sorriu.
+— Você também percebeu.
+— Ele lê o mapa de um jeito que não quero limitar agora.
+Trace apresentou observações dos últimos treinos.
+Zayn havia sido decisivo na vitória do Academy sobre o Main, adaptara-se rapidamente ao
+sistema de Atlas durante o dia em que Emiliano estivera doente e agora demonstrava
+capacidade de aprender uma função diferente sem perder a leitura de jogo.
+— Não estamos mais falando apenas de potencial — disse Trace.
+Luk examinou o relatório.
+— Ele tem dezesseis anos.
+— Eu sei.
+— Ainda precisa melhorar comunicação e consistência.
+— Também sei.
+Stewie cruzou os braços.
+— Mas você está interessado.
+Luk demorou alguns segundos.
+— Estou.
+19h03 — Escritório de Adrian
+Emily terminou de apresentar os planos de League para a última semana de janeiro.
+As três equipes ampliariam suas pools de campeões. Thinkcard coordenaria exercícios de
+Fearless com Aphromoo, Hai e Sable, enquanto os próximos scrims externos serviriam para
+verificar as adaptações.
+Quando Emily mudou para Counter-Strike, Adrian percebeu o nome que aparecia
+novamente.
+Zayn Haddad.
+— Outra vez?
+— Outra vez — respondeu Emily.
+Luk explicou sua avaliação.
+Adrian ouviu sem interromper.
+— Vocês querem promovê-lo?
+Stewie2K balançou a cabeça.
+— Ainda não.
+Trace continuou:
+— Mas acho que devemos começar a prepará-lo para essa possibilidade.
+Adrian olhou para a tela.
+Um jogador de dezesseis anos.
+Nenhuma partida oficial.
+Duas séries internas impressionantes.
+
+Um dia substituindo um titular.
+
+E agora dois treinadores discutindo se estava pronto para enfrentar adversários mais
+experientes.
+
+— Então façam uma proposta de desenvolvimento — respondeu Adrian. — Sem prometer
+uma cadeira que ainda pertence a outro jogador.
+
+Luk concordou.
+
+Stewie também.
+
+Na manhã seguinte, Zayn continuaria vestindo verde.
+
+Mas, pela primeira vez, seu futuro dentro da Kairos começaria a ser discutido não apenas
+como o de um jogador promissor.
+
+E sim como alguém que poderia, eventualmente, disputar uma das cinco cadeiras pretas.

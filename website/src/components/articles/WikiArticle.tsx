@@ -69,12 +69,12 @@ export function WikiTable({ caption, columns, rows, empty }: {
   </div>;
 }
 
-export function ParticipantsGrid({ caption, teams, empty }: {
-  caption: string; teams: Array<{ key: string; name: string; href: string | null; logo?: ReactNode }>; empty: string;
+export function ParticipantsGrid({ caption, teams, empty, columns }: {
+    caption: string; teams: Array<{ key: string; name: string; href: string | null; logo?: ReactNode }>; empty: string; columns?: number;
 }) {
   return <div className={styles.participantsWrap}>
     <div className={styles.participantsCaption}>{caption}</div>
-    {teams.length ? <div className={styles.participantsGrid}>
+      {teams.length ? <div className={`${styles.participantsGrid}${columns === 4 ? ` ${styles.participantsGridFour}` : ""}`}>
       {teams.map((team) => {
         const tile = <div className={styles.participantTile} key={team.key}>
           <span className={styles.participantLogo}>{team.logo ?? <span className={styles.participantMonogram}>{team.name.slice(0, 2)}</span>}</span>

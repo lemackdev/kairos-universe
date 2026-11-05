@@ -1,0 +1,134 @@
+{
+  "id": "episode-110",
+  "slug": "episode-110",
+  "episodeNumber": 110,
+  "title": "Fora da Zona de Conforto",
+  "historicalTitle": "Fora da Zona de Conforto",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-25",
+  "datePrecision": "exact",
+  "publicationOrder": 110,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "lukas-luk-novak",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "adrian-elias-vale"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Luk, Trace, and Stewie2K conclude from recent training blocks that opponents using two AWPs are making Kairos's entries harder, especially on Nuke, Train, and Overpass, and decide both Counter-Strike rosters should develop a situational secondary-AWP option while keeping their primary AWPers. On Main, Glacier remains primary AWPer and tests with MoteConHuesillo and FLACOGOMEZ show Vincente as the preferred candidate for secondary AWPer; on Academy, dentalplan remains primary AWPer and wrongnumber (Reid) becomes the principal secondary-AWP candidate after tests with Reid and Zayn. Zayn performs very well on the AWP but Stewie2K deliberately takes it away so as not to tie him to one angle, keeping him a lurker/rifler, and his name begins to appear in the coaches' discussions of long-term readiness; Adrian tells the coaches to draft a development proposal without promising a chair that belongs to another player. In League, Aphromoo, Hai, Sable, and Thinkcard introduce intense Fearless Draft practice in which champions picked by either team in earlier games of a series cannot be picked again, forcing players off their comfortable champions: an uncomfortable Main composition of Gragas, Sejuani, Galio, Ziggs, and Alistar, Kite on Akali and Murmur on Seraphine as a carry for Blue, and a White draft stripped of its usual champions. The aim is flexibility, draft resilience, and communication under unfamiliar conditions.",
+  "keyEvents": [
+    "8:32 — Luk and Atlas review a Nuke round in which Glacier must leave an angle to help another entry; Trace shows that opponents using two AWPs are increasingly making Kairos's entries difficult, especially on Nuke, Train, and Overpass. Luk says Kairos does not need to buy two AWPs every round but must be able to play with two when economy and map demand it; Atlas notes Owen is the primary AWPer and Luk agrees he will remain so.",
+    "9:17 — Luk tests MoteConHuesillo and FLACOGOMEZ as second AWP beside Glacier. Emiliano gets two important eliminations on Train but is uncomfortable leaving the angle and returning to the rifle; Vincente is less aggressive but, as an anchor, understands which positions must be protected. In the third exercise Glacier holds an entry while Vincente covers the rotation and the opponents cannot get through; Luk names Vincente the first secondary-AWPer candidate. Mold asks for an AWP and is refused.",
+    "10:46 — CS Academy: Stewie2K decides Nolan stays primary AWPer and tests wrongnumber (Reid) and p4rkingl0t (Zayn) as secondary options. Reid shows patience and defensive discipline but struggles to reposition quickly after a kill; Zayn finds eliminations on Overpass and leaves an angle early because the opponents had stopped using utility on that side. Stewie2K sends Reid back to the AWP and keeps Zayn as a lurker so as not to limit his rifle reads, and Reid ends the block as Academy's principal secondary-AWP candidate.",
+    "13:24 — League of Legends: Aphromoo introduces Fearless Draft practice. Main starts from game four of a simulated series with thirty champions already used and ten bans in the current draft, so no one gets a favorite champion. The resulting Main composition is rkN on Gragas, Vanta on Sejuani, 404 on Galio, Aster on Ziggs, and Moss on Alistar; in the first exercise 404 plays Galio as if he had a mid-lane control champion and dies answering a distant fight.",
+    "14:38 — Academy Blue: Kite, denied Azir, Viktor, and Taliyah, practices Akali, and Murmur, denied his preferred ADCs, practices Seraphine as a carry. Academy White: Sable blocks each player's signature champions (Ornn and Sion, Kindred and Vi, Viktor and Orianna, Jhin and Caitlyn, Bard, Milio, and Lulu); the improvised composition loses the first two simulations and wins a fight in the third with champions rarely seen in training. Sable and 0bit agree the team needs much larger champion pools.",
+    "17:16 — Counter-Strike analysis room: the initial configuration is set as CS Main with Glacier primary AWPer and FLACOGOMEZ in development as secondary AWPer, and CS Academy with dentalplan primary AWPer and wrongnumber in development as secondary AWPer, with no change of starters and no contract change. Trace presents a report on Zayn's recent performances, and Luk says he is interested; Stewie2K says Zayn is not yet ready to be promoted.",
+    "19:03 — Adrian's office: Emily presents League plans for the last week of January, with all three teams broadening champion pools and Thinkcard coordinating Fearless exercises, while upcoming external scrims verify the adaptations. When Zayn's name comes up again for Counter-Strike, Adrian asks for a development proposal without promising a chair that still belongs to another player."
+  ],
+  "consequences": [
+    "Both Counter-Strike rosters begin developing a situational secondary-AWP option (FLACOGOMEZ on Main, wrongnumber on Academy) while keeping Glacier and dentalplan as primary AWPers.",
+    "p4rkingl0t (Zayn) remains an Academy lurker/rifler, but Luk, Stewie2K, and Trace begin discussing his long-term readiness for higher-level competition.",
+    "All three League teams expand their champion pools through Fearless Draft practice."
+  ],
+  "canonIntroduced": [
+    "Secondary-AWP development is established for 2027-01-25: FLACOGOMEZ (Vincente) on Main behind Glacier (Owen), and wrongnumber (Reid) on Academy behind dentalplan (Nolan); MoteConHuesillo (Emiliano) also takes part in initial tests, and Vincente becomes the preferred candidate.",
+    "Zayn proves proficient on the AWP in testing, but Stewie2K decides not to convert him into a dedicated secondary AWPer.",
+    "Fearless Draft practice is introduced for League: champions selected by either team in previous games of a series cannot be selected again later in that series, while traditional bans still apply.",
+    "Confirmed experimental Main Fearless training composition: rkN on Gragas, Vanta on Sejuani, 404 on Galio, Aster on Ziggs, and Moss on Alistar; Academy Blue: Kite practices Akali and Murmur practices Seraphine as a carry."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-109"
+  ],
+  "continuityNotes": [
+    "Secondary-AWP configurations are situational, not permanent purchases or mandatory double-AWP setups; primary roles do not change: Glacier remains Main's primary AWPer and dentalplan remains Academy's primary AWPer, and no starting position, contract, or roster membership changes.",
+    "Zayn remains an Academy lurker/rifler: no promotion, loan, or transfer occurs, and Adrian explicitly instructs the coaches not to promise a Main chair.",
+    "The Fearless Draft compositions are temporary training picks and do not replace any player's established signature champions or role.",
+    "Zayn is described as sixteen years old."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_110.txt",
+      "locator": "Episódio 110 — Fora da Zona de Conforto",
+      "information": "Supplies full prose for the secondary-AWP development work, Zayn's evaluation, the Fearless Draft exercises, and Adrian's response about Zayn's development proposal.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Both Counter-Strike rosters begin developing secondary AWP options: Main has Glacier (Owen) as primary AWPer and FLACOGOMEZ (Vincente) as secondary AWPer under development; Academy has dentalplan (Nolan) as primary AWPer and wrongnumber (Reid) as secondary AWPer under development.",
+    "MoteConHuesillo (Emiliano) participates in initial AWP tests, but Vincente becomes the preferred candidate for development.",
+    "p4rkingl0t (Zayn) shows proficiency with the AWP during testing, but Stewie2K decides not to convert him into a dedicated secondary AWPer; Zayn remains a lurker/rifler.",
+    "The double-AWP configurations are situational, not permanent purchases or mandatory setups.",
+    "Zayn's performances lead Luk, Stewie2K, and Trace to discuss his long-term readiness for higher-level competition; no promotion occurs.",
+    "Aphromoo, Hai, Sable, and Thinkcard introduce Fearless Draft practice in League, in which champions selected by either team in previous games of a series cannot be selected again later in that series, while traditional bans still apply.",
+    "Confirmed experimental Main composition: rkN Gragas, Vanta Sejuani, 404 Galio, Aster Ziggs, Moss Alistar; Academy Blue: Kite practices Akali and Murmur practices Seraphine as a carry; Academy White: Sable forces players to work outside their preferred champion pools."
+  ],
+  "unconfirmedDetails": [
+    "No timeline or conditions for any Zayn promotion are established.",
+    "Results of the Fearless Draft simulations beyond the narrated outcomes are not recorded, and no statistics exist.",
+    "Dates for the upcoming external League scrims used to test the adaptations are not established."
+  ],
+  "notes": []
+}

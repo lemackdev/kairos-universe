@@ -100,16 +100,20 @@ describe("2027 League regional restructuring", () => {
     expect(cupid.note).toMatch(/Not named in the author's confirmed/);
   });
 
-  it("all removed-team players remain in the database as free agents with no invented destination", () => {
+  it("all removed-team players remain in the database as free agents unless a destination or retirement is confirmed", () => {
     const scene = catalog.externalScene!;
     const freeAgentIds = new Set(catalog.worldState2027!.freeAgents.players.map((p) => p.playerId));
+    const resolvedIds = new Set([
+      ...catalog.worldState2027!.lcsRosters.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
+      ...catalog.worldState2027!.lcsRosters.retirements.map((retirement) => retirement.playerId),
+    ]);
     for (const teamIds of Object.values(removed)) {
       for (const teamId of teamIds) {
         const team = scene.teams.find((t) => t.id === teamId)!;
         for (const tenureId of team.rosterTenureIds) {
           const tenure = scene.rosterTenures.find((t) => t.id === tenureId)!;
           expect(scene.players.some((p) => p.id === tenure.playerId)).toBe(true);
-          expect(freeAgentIds.has(tenure.playerId)).toBe(true);
+          expect(freeAgentIds.has(tenure.playerId) !== resolvedIds.has(tenure.playerId)).toBe(true);
         }
       }
     }

@@ -8,12 +8,14 @@
   "seasonIds": [],
   "sourceIds": [
     "source-canon-directive-2027-competitive-calendar",
-    "source-canon-directive-2027-league-regional-restructuring"
+    "source-canon-directive-2027-league-regional-restructuring",
+    "source-canon-directive-2027-league-import-ban-and-calendar-revision"
   ],
   "canonStatus": "confirmed",
   "overview": "LEC's confirmed 2027 annual regional competition, run across Stage 1, Stage 2, Stage 3 (separated by the global July competitive break), and a Championship Stage. No team placements or champions are confirmed. The LEC regional field is standardized to 8 teams for 2027; participating franchises are tracked in the pre-Worlds 2026 reference scene by 2027 regional membership, separate from Kairos's own canon team roster.",
   "format": [
-    "Stage 1: 01/02/2027 to 14/03/2027.",
+    "Stage 1: 15/02/2027 to 14/03/2027 (revised on 27/01/2027 from 01/02/2027; the end date is unchanged).",
+    "Emergency roster registration deadline: 12/02/2027.",
     "Stage 2: 05/04/2027 to 16/05/2027.",
     "Stage 3: 07/06/2027 to 27/06/2027.",
     "Global competitive break: July 2027 (no matches).",
@@ -21,11 +23,13 @@
   ],
   "organizer": null,
   "location": null,
-  "startDate": "2027-02-01",
+  "startDate": "2027-02-15",
   "endDate": "2027-09-19",
   "prizePool": "USD 1,000,000",
   "participantTeamIds": [],
-  "rulesetIds": [],
+  "rulesetIds": [
+    "league-regional-player-eligibility-2027"
+  ],
   "organizerId": "riot-games",
   "seriesId": null,
   "tier": "regional-tier-1",

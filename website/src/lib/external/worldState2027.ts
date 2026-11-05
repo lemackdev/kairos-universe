@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { repositoryRoot } from "@/lib/canon/paths";
-import type { FreeAgents2027, LeagueRegionalMembership2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
+import type { CounterStrikeRosterFreeze2027, FreeAgents2027, LcsRosters2027, LeagueRegionalMembership2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
 
 export const regionalCompetitionSlugs: Record<string, { league: string } | { tier2: string }> = {
   "lck-2027": { league: "LCK" },
@@ -50,6 +50,10 @@ export function loadWorldState2027(): WorldState2027 {
   const activeIds = new Set(Object.values(membership.regions).flatMap((region) => region.active.map((team) => team.teamId)));
   const inactiveIds = new Set(Object.values(membership.regions).flatMap((region) => region.inactive.map((team) => team.teamId)));
   for (const id of inactiveIds) if (activeIds.has(id)) throw new Error(`Team listed as both active and inactive in 2027 regional membership: ${id}`);
+  const lcsRosters = read<LcsRosters2027>("lcs-rosters-2027.json");
+  const csRosterFreeze = read<CounterStrikeRosterFreeze2027>("counter-strike-roster-freeze-2027.json");
+  validateLcsRosters(lcsRosters, membership, freeAgents);
+  validateCsFreeze(csRosterFreeze);
   const seenPlayers = new Set<string>();
   for (const player of freeAgents.players) {
     if (seenPlayers.has(player.playerId)) throw new Error(`Duplicate 2027 free agent entry: ${player.playerId}`);
@@ -65,7 +69,7 @@ export function loadWorldState2027(): WorldState2027 {
     tier2Leagues[key] = league;
   }
 
-  return { membership, freeAgents, tier2Leagues };
+  return { membership, freeAgents, tier2Leagues, lcsRosters, csRosterFreeze };
 }
 
 export function findFreeAgent(worldState: WorldState2027 | undefined, playerId: string) {
@@ -118,4 +122,53 @@ export function findRegionalStatus(worldState: WorldState2027 | undefined, teamI
     if (inactive) return { league, active: false, effectiveExitDate: inactive.effectiveExitDate };
   }
   return null;
+}
+
+const rosterRoles = ["top", "jungle", "mid", "bot", "support"];
+
+function validateLcsRosters(rosters: LcsRosters2027, membership: LeagueRegionalMembership2027, freeAgents: FreeAgents2027): void {
+  const lcsActive = new Set(membership.regions.LCS?.active.map((team) => team.teamId));
+  if (rosters.teams.length !== 8) throw new Error(`2027 LCS rosters must cover 8 teams, found ${rosters.teams.length}`);
+  const starterIds = new Set<string>();
+  for (const team of rosters.teams) {
+    if (!lcsActive.has(team.teamId)) throw new Error(`2027 LCS roster team is not an active LCS 2027 participant: ${team.teamId}`);
+    if (team.starters.length !== 5 || !rosterRoles.every((role) => team.starters.some((starter) => starter.role === role))) {
+      throw new Error(`2027 LCS roster must have exactly one starter per role: ${team.teamId}`);
+    }
+    for (const starter of team.starters) {
+      if (starterIds.has(starter.playerId)) throw new Error(`Player appears in two 2027 LCS lineups: ${starter.playerId}`);
+      starterIds.add(starter.playerId);
+    }
+  }
+  if (new Set(rosters.teams.map((team) => team.teamId)).size !== 8) throw new Error("Duplicate team in 2027 LCS rosters");
+  const retiredIds = new Set<string>();
+  for (const retirement of rosters.retirements) {
+    if (retiredIds.has(retirement.playerId)) throw new Error(`Duplicate 2027 retirement: ${retirement.playerId}`);
+    retiredIds.add(retirement.playerId);
+    if (starterIds.has(retirement.playerId)) throw new Error(`Player is both a 2027 LCS starter and retired: ${retirement.playerId}`);
+  }
+  for (const player of freeAgents.players) {
+    if (starterIds.has(player.playerId) || retiredIds.has(player.playerId)) {
+      throw new Error(`Player has a current free-agent status that contradicts a confirmed 2027 assignment: ${player.playerId}`);
+    }
+  }
+}
+
+function validateCsFreeze(freeze: CounterStrikeRosterFreeze2027): void {
+  if (freeze.freezeThrough !== "2027-05-23" || freeze.earliestLaterChangeDate !== "2027-05-24") {
+    throw new Error("Counter-Strike roster freeze must run through 2027-05-23, with 2027-05-24 as the earliest later change date");
+  }
+}
+
+export function findLcsAssignment(worldState: WorldState2027 | undefined, playerId: string) {
+  if (!worldState) return null;
+  for (const team of worldState.lcsRosters.teams) {
+    const starter = team.starters.find((entry) => entry.playerId === playerId);
+    if (starter) return { team, starter };
+  }
+  return null;
+}
+
+export function findRetirement(worldState: WorldState2027 | undefined, playerId: string) {
+  return worldState?.lcsRosters.retirements.find((entry) => entry.playerId === playerId) ?? null;
 }

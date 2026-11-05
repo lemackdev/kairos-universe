@@ -1,0 +1,81 @@
+{
+  "id": "episode-114",
+  "slug": "episode-114",
+  "episodeNumber": 114,
+  "title": "A Riot Acabou de Entregar a LCS à Kairos?",
+  "historicalTitle": "A Riot Acabou de Entregar a LCS à Kairos?",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-27",
+  "datePrecision": "exact",
+  "publicationOrder": 114,
+  "narrator": "nathaniel-price",
+  "protagonist": "nathaniel-price",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [],
+  "characters": [
+    "adrian-elias-vale"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports",
+    "asterion-intelligence"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "The Competitive Ledger publishes Nathaniel Price's opinion and analysis article, \"A Riot Acabou de Entregar a LCS à Kairos?\", on 2027-01-27 at 16:42 Pacific Time. Price argues that Riot's elimination of imports and its compression of Stage 1 (February 15 to March 14) give a structural advantage to Kairos, which already has three stable, locally eligible League rosters and a development infrastructure, while stating there is no evidence that Adrian Vale influenced the rules or that Riot acted to favor Kairos.",
+  "keyEvents": [
+    "16:42 PT — The Competitive Ledger publishes Nathaniel Price's opinion and analysis article on the import ban and the compressed Stage 1.",
+    "Price argues that a regulatory decision can create an unfair competitive advantage without intentional favoritism, and explicitly states there is no evidence Adrian Vale took part in drafting the rules or that Riot acted specifically to benefit Kairos.",
+    "Main themes: roster stability, financial inequality, lack of reasonable transition time, pressure on Tier 2 prospects, the difference between building a roster and building a team, and Riot protecting First Stand at the expense of regional preparation.",
+    "Price names Team Liquid and Cloud9 as credible competitors and says there is no evidence Kairos is guaranteed to win."
+  ],
+  "consequences": [
+    "The article is registered as the separate publication opinion-ledger-riot-imports-kairos; Price's 2027-01-15 interview article is unchanged."
+  ],
+  "canonIntroduced": [
+    "Nathaniel Price's 2027-01-27 opinion and analysis article for The Competitive Ledger is established, including its editorial position."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-113",
+    "episode-103"
+  ],
+  "continuityNotes": [
+    "Price is an independent, skeptical journalist and is not portrayed as a Kairos supporter or as an antagonist.",
+    "The article refers to the Stage 1 and eligibility changes established in episodes 111 and 113; the structured external roster import belongs to a later canon update."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_114.txt",
+      "locator": "Episódio 114 — A Riot Acabou de Entregar a LCS à Kairos?",
+      "information": "Supplies the full text of the article, its byline, section label, and publication time.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The Competitive Ledger publishes Nathaniel Price's opinion and analysis article on 2027-01-27 at 16:42 Pacific Time.",
+    "Price states there is no evidence that Adrian Vale took part in drafting the new rules or that Riot made its decision to benefit Kairos."
+  ],
+  "unconfirmedDetails": [],
+  "notes": [
+    "The article is stored in data/publications/opinion-ledger-riot-imports-kairos.json."
+  ]
+}

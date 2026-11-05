@@ -1,0 +1,126 @@
+{
+  "id": "episode-113",
+  "slug": "episode-113",
+  "episodeNumber": 113,
+  "title": "Quatro Semanas",
+  "historicalTitle": "Quatro Semanas",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-27",
+  "datePrecision": "exact",
+  "publicationOrder": 113,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Riot Games, Los Angeles, California",
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "isaac-pebble-young",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "evan-soupcrime-nakamura",
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "On 2027-01-27 Riot Games, finding that a significant share of organizations in the six major regions cannot field five eligible starters, revises the 2027 League calendar: Stage 1, originally 2027-02-01 to 2027-03-14, is compressed to 2027-02-15 to 2027-03-14, while the end of Stage 1 and the First Stand dates (2027-03-20 to 2027-03-28) are unchanged; the extraordinary roster registration deadline moves to 2027-02-12. Development leagues receive region-by-region schedule extensions. Kairos recognizes its advantage in roster continuity, expands Fearless Draft preparation and uses the extra time for scrims, while rival organizations focus on communication in rebuilt lineups.",
+  "keyEvents": [
+    "7:46 — Riot's first report shows a significant share of organizations in the six major regions still unable to present five eligible starters, especially in North America and China, while Korea has too many players for too few slots; the competitive operations director decides Stage 1 cannot begin on the original date and that the First Stand dates will not move.",
+    "9:00 — Riot publishes the revised 2027 competitive calendar: original Stage 1 from 2027-02-01 to 2027-03-14; new Stage 1 from 2027-02-15 to 2027-03-14; First Stand 2027-03-20 to 2027-03-28; a 14-day delay to the debut. The six Tier 1 regions receive compressed calendars with more weekday match days and shorter breaks and may reorganize match days and playoffs within the new window; each Stage 1 final must finish by 2027-03-14, and 2027-03-15 to 2027-03-19 is reserved for travel, administration and international preparation.",
+    "Development leagues also receive calendar extensions with regionally adjusted dates; no specific Tier 2 dates are announced. The extraordinary registration deadline moves to 2027-02-12.",
+    "9:23 — Emily briefs Adrian, Aphromoo, Hai and Sable; Hai warns newly built rosters will have less time between matches to fix errors; Adrian notes Kairos's advantage of not needing to sign five players, replace imports or run emergency tryouts, and tells everyone not to treat the competition as easy.",
+    "10:17 and 11:08 — Team Liquid and Cloud9's coaching staffs react to the new calendar with a mix of relief and concern about the concentration of matches; Cloud9 decides its early February will be dedicated to communication.",
+    "12:42 — Players discuss the extra two weeks without official play; Academy White will not take part in an official league in the first stage, and Sable uses the extra time to arrange new external training.",
+    "14:19 — In South Korea, executives welcome additional negotiating time but no new slots are created; some retired players receive new calls, mostly declined, and some discuss coach or analyst roles.",
+    "15:36 — Aphromoo expands Fearless Draft work for Main (rkN, Vanta, 404, Aster, Moss): over the next ten days each player must prepare at least two competitive alternatives outside their usual pool.",
+    "17:12 — Hai tells Academy Blue the NACL debut delay changes the path, not the objective.",
+    "19:28 — Emily summarizes the seven other LCS organizations' rebuilt lineups for Adrian; the episode discusses these rosters, but their structured import is not part of this canon record. Adrian asks for a meeting with the three coaches on Friday to present their plans until the debut and for confirmation of the international scrims.",
+    "22:11 — The Commons stays busy; players reflect that organizations must now compete with the talent inside their own territories, and Kairos does not yet know where Main will finish Stage 1 but now knows how long it has to find out."
+  ],
+  "consequences": [
+    "Stage 1 of all six Tier 1 League regions is revised to start 2027-02-15 and end 2027-03-14.",
+    "The extraordinary roster registration deadline is revised to 2027-02-12, superseding 2027-02-06.",
+    "First Stand 2027 remains 2027-03-20 to 2027-03-28.",
+    "Kairos gains two additional weeks of preparation, which it commits to Fearless Draft work and external scrims."
+  ],
+  "canonIntroduced": [
+    "The revised 2027 League Stage 1 window of 2027-02-15 to 2027-03-14 is announced on 2027-01-27.",
+    "The extraordinary roster registration deadline is moved to 2027-02-12.",
+    "Tier 2 leagues may adjust their schedules without new dates being announced."
+  ],
+  "canonChanged": [
+    "The initial 2027-02-06 extraordinary registration cutoff announced in Episode 111 is superseded by 2027-02-12.",
+    "The original Stage 1 window of 2027-02-01 to 2027-03-14 is superseded by 2027-02-15 to 2027-03-14."
+  ],
+  "continuityDependencies": [
+    "episode-111"
+  ],
+  "continuityNotes": [
+    "The end of Stage 1 and First Stand dates, and all later stages, the July global break and Counter-Strike dates, are unchanged.",
+    "No specific bracket, match schedule or Tier 2 date is established.",
+    "The episode names rebuilt external rosters and retirements by individual players; those are not imported here and belong to a later roster-reconstruction canon update.",
+    "No Kairos transfer or roster change occurs."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Riot Games and the real-world League of Legends organizations discussed in the episode (including Team Liquid and Cloud9) are referenced as part of the Kairos Universe 2027 continuity layer; no real-world roster, contract or transfer information is implied."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_113.txt",
+      "locator": "Episódio 113 — Quatro Semanas",
+      "information": "Supplies full prose and the revised 2027 League calendar, registration deadline and Kairos response.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Revised Stage 1 runs 2027-02-15 to 2027-03-14 in all six Tier 1 regions.",
+    "First Stand runs 2027-03-20 to 2027-03-28.",
+    "The extraordinary roster registration deadline is 2027-02-12.",
+    "Academy White does not take part in an official league in the first stage."
+  ],
+  "unconfirmedDetails": [
+    "No new Tier 2 dates are established.",
+    "No Stage 1 bracket or match schedule is established."
+  ],
+  "notes": [
+    "The calendar change is recorded in the 2027 competition records and calendar documentation."
+  ]
+}

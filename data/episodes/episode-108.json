@@ -1,0 +1,127 @@
+{
+  "id": "episode-108",
+  "slug": "episode-108",
+  "episodeNumber": 108,
+  "title": "Uma Cadeira Emprestada",
+  "historicalTitle": "Uma Cadeira Emprestada",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-21",
+  "datePrecision": "exact",
+  "publicationOrder": 108,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "zayn-parkinglot-haddad",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller",
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "MoteConHuesillo (Emiliano) wakes with a fever and is told by the medical staff to rest, leaving Main a player short for four hours of planned exercises. Luk asks Stewie2K to lend p4rkingl0t (Zayn) for the day, and Stewie2K joins Academy's training server as an active player so Academy is not left with four. Zayn sits in the fifth Main chair on Train under Atlas, finds two eliminations unprompted and then waits too long on one rotation, and is corrected without arguing. In the green room RAMENSOUP gives Stewie2K direct tactical instructions and corrects an early aggressive play, which Stewie accepts as a good call. After hours of blocks, a closing sequence of competitive-style rounds on Train has Zayn eliminate Stewie2K. In League, Emily, Aphromoo, Hai, and Sable review the previous day's external scrims with Adrian and plan the next external scrim block (SK Gaming, Dignitas, INTZ confirmed; Winthrop University and RMD Gaming pending). The day establishes that Zayn can keep pace with Main without abandoning his style and that RAMENSOUP can command even Stewie2K; no promotion, contract change, or official match occurs.",
+  "keyEvents": [
+    "8:12 — Luk finds only four players in the Main room: MoteConHuesillo (Emiliano) has a fever, and the medical staff recommend rest and no training participation for the day. Four hours of communication and execution exercises against Academy had been scheduled.",
+    "8:37 — Luk asks Stewie2K to lend p4rkingl0t (Zayn) 'today, only today'; Stewie2K says he will join Academy's training server as an active player so Academy is not left with four.",
+    "9:05 — Zayn takes the fifth Main chair under Atlas's leadership with no ceremony, new uniform, or contract. On Train he finds two eliminations without instruction in the first exercise and waits too long for a second player in the next; Atlas asks him to return ten seconds earlier, and he does so in the following attempt.",
+    "10:18 — In the green room RAMENSOUP (Evan) leads Academy with Stewie2K as an active rifler. Stewie2K advances against RAMENSOUP's instruction, finds two eliminations, and dies to the third player; Evan tells him he had asked him to wait, and Stewie2K concedes it was a good call.",
+    "11:42 — League of Legends: Emily, Aphromoo, Hai, and Sable plan the second half of international preparation with Adrian watching. SK Gaming and INTZ have confirmed practice windows; Winthrop University and RMD Gaming await server and schedule confirmation. Adrian asks that the previous day's results not become an internal ranking.",
+    "Stated League goals: Main against SK Gaming for communication under pressure and objective control; Blue against Dignitas for adaptation between games and discipline after taking a lead; White against INTZ for macro, wave control, and execution under monitored latency.",
+    "13:16 — Academy White: Sable sets out two possible compositions; Pebble looks at Ornn and Sion, vexemite at Kindred and Vi, and 0bit is asked to prepare Orianna; June may play Jhin but will also work Caitlyn, and Sable asks Luma to prepare Milio.",
+    "15:29 — Counter-Strike blocks close with competitive-style rounds on Train: Main uses Zayn in the roles normally shared with MoteConHuesillo, and Academy plays with Stewie2K temporarily in the fifth slot. Zayn finds Stewie2K isolated, waits for the rotation, and eliminates him.",
+    "18:06 — Atlas tells Zayn he enjoyed playing with him, that he needs to communicate more but reads very well; Stewie2K announces the loan is over.",
+    "20:11 — Emily updates Adrian: Main worked normally with Zayn performing well, Stewie2K played with Academy, and further League scrim blocks (SK, Dignitas, INTZ) are confirmed, with RMD and Winthrop expected to close soon."
+  ],
+  "consequences": [
+    "Zayn shows he can keep pace with Main's competitive rhythm without abandoning his own style.",
+    "RAMENSOUP shows he can command even a player of Stewie2K's experience as long as he trusts his own decisions.",
+    "The January 21 substitution ends at the end of the training day; Emiliano is expected back the following morning."
+  ],
+  "canonIntroduced": [
+    "On 2027-01-21 MoteConHuesillo (Emiliano) misses one Counter-Strike training day with a fever; p4rkingl0t (Zayn) fills Main's fifth training slot for that day only, and Stewie2K fills Academy's fifth training slot for that day only.",
+    "SK Gaming, Dignitas, and INTZ have confirmed League scrim practice windows; Winthrop University and RMD Gaming are awaiting confirmation (not yet scheduled).",
+    "Stewie2K participates in training rounds as a rifler alongside Academy and is eliminated by Zayn in a Train round."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-107"
+  ],
+  "continuityNotes": [
+    "The substitution applies only to 2027-01-21 training: Emiliano remains Main's signed player, Zayn remains an Academy player, and Stewie2K remains Academy's head coach.",
+    "No transfer, loan record, permanent promotion, replacement, tenure change, or official match occurs; the Train rounds are training blocks, not a scored series, and no result is recorded.",
+    "League external scrim windows are planned, not completed: SK Gaming, Dignitas, and INTZ windows are confirmed in principle, while Winthrop University and RMD Gaming still await servers and times.",
+    "Opponent rosters for planned League scrims are not specified and may change; no results exist."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "SK Gaming, Dignitas, INTZ, Winthrop University, and RMD Gaming are referenced as scrim partners; no real-world roster, contract, or transfer information is implied."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_108.txt",
+      "locator": "Episódio 108 — Uma Cadeira Emprestada",
+      "information": "Supplies full prose for the January 21 Counter-Strike substitution day, the League scrim planning meeting, and the Academy White composition work.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "MoteConHuesillo (Emiliano) misses Counter-Strike training on 2027-01-21 because of fever and illness, on the medical staff's advice.",
+    "Luk temporarily borrows p4rkingl0t (Zayn) from Academy to complete Main's training roster for that day, and Zayn plays as a temporary fifth player under Atlas's leadership.",
+    "Stewie2K joins Academy's training server as an active player for the day so Academy is not left with four; RAMENSOUP remains Academy's IGL and gives Stewie2K direct instructions.",
+    "Zayn adapts well to Main's system, but Atlas identifies areas for improvement in his communication and timing.",
+    "Luk and Stewie2K observe important development in both Zayn and Evan.",
+    "No transfer, permanent promotion, replacement, official match, or contract change occurs; the substitution applies only to January 21 training.",
+    "League of Legends continues planning external scrims: Main against SK Gaming, Blue against Dignitas, and White against INTZ, subject to confirmed scheduling."
+  ],
+  "unconfirmedDetails": [
+    "No round scores or statistics exist for the Train rounds played on January 21.",
+    "Dates and times for the planned SK Gaming, Dignitas, INTZ, RMD Gaming, and Winthrop University scrims are not established.",
+    "The state of the free-agent and transfer market mentioned by Emily is not specified beyond 'little confirmed'."
+  ],
+  "notes": []
+}

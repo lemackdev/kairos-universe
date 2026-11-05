@@ -48,8 +48,8 @@ export const classificationLabels: Record<PublicationClassification, string> = {
 };
 
 export const classificationNotes: Record<PublicationClassification, string> = {
-  "in-universe-publication": "An original publication within the Kairos Universe.",
-  "official-announcement": "An official Kairos Universe announcement.",
+  "in-universe-publication": "",
+  "official-announcement": "",
   "real-world-reference":
     "This entry points to real-world published material. Kairospedia summarizes and cites it; it does not reproduce it.",
   rumor: "This piece reports unconfirmed speculation. Nothing in it is established canon.",

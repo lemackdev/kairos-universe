@@ -1,0 +1,68 @@
+{
+  "id": "match-cs-external-main-faceit-pug-nuke-2027-01-26",
+  "slug": "match-cs-external-main-faceit-pug-nuke-2027-01-26",
+  "game": "Counter-Strike",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-main",
+    "opponent-faceit-pug-main-nuke-2027-01-26"
+  ],
+  "scheduledDate": "2027-01-26",
+  "date": "2027-01-26",
+  "datePrecision": "exact",
+  "teamAId": "kairos-cs-main",
+  "teamBId": "opponent-faceit-pug-main-nuke-2027-01-26",
+  "bestOf": 1,
+  "teamAScore": 1,
+  "teamBScore": 0,
+  "winnerTeamId": "kairos-cs-main",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-112"
+  ],
+  "relatedPlayerIds": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan"
+  ],
+  "result": {
+    "opponentName": "Independent FACEIT-style PUG group",
+    "opponentLeague": "none (independent players)",
+    "opponentRosterStatus": "unnamed independent group; identities not established",
+    "games": [
+      {
+        "number": 1,
+        "map": "Nuke",
+        "teamRounds": 13,
+        "opponentRounds": 10,
+        "roundsPlayed": 23,
+        "winnerTeamId": "kairos-cs-main",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon (Episode 112). No player statistics are established."
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_107_114_import/episode_112.txt"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos CS Main beats a group of players from different North American countries 13-10 on Nuke, Episode 112 (2027-01-26)."
+  ],
+  "unconfirmedDetails": [
+    "The opponent group's players and organization are not identified; no player K/D/A, ADR or ratings are established."
+  ],
+  "canonNotes": [
+    "Private practice against independent players; not an official match, does not affect any ranking, official statistic, achievement or standing."
+  ]
+}

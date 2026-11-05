@@ -1,0 +1,522 @@
+Episódio 111: O Fim dos Imports
+
+26 de janeiro de 2027, terça-feira, 8h43​
+Kairos Campus, Los Angeles
+Emily Chen estava terminando de organizar os próximos scrims quando recebeu um e-mail
+da Riot Games.
+O assunto não parecia particularmente interessante.
+2027 Global Competitive Eligibility Update.
+Ela abriu o documento esperando encontrar ajustes de inscrição, prazos administrativos ou
+alguma alteração secundária nas regras regionais.
+Encontrou dezessete páginas.
+Leu a primeira.
+Depois a segunda.
+Na terceira, parou.
+— Adrian?
+Ele estava sentado do outro lado da sala, analisando uma proposta comercial da Asterion.
+— O quê?
+— Você precisa ler isso.
+Emily virou o notebook na direção dele.
+Adrian examinou o título, depois a primeira seção.
+REGIONAL PLAYER ELIGIBILITY POLICY — EFFECTIVE 2027
+Leu mais alguns parágrafos.
+— Isso já foi aprovado?
+— Está assinado pela administração competitiva global.
+— Quando será anunciado?
+Emily verificou o horário.
+— Dez minutos.
+Adrian voltou para a primeira página.
+Pela primeira vez naquela manhã, abandonou completamente o assunto que estava
+analisando.
+
+9h00 — O anúncio
+
+A Riot Games publicou simultaneamente um comunicado em seus canais competitivos
+regionais.
+
+A partir da temporada de 2027, todas as ligas profissionais de League of Legends
+passariam a operar sob um novo sistema de elegibilidade.
+
+Jogadores não poderiam mais competir fora de suas regiões de origem.
+
+Não haveria limite de dois imports.
+
+Não haveria exceção para veteranos.
+
+Não haveria possibilidade de transformar residência prolongada em elegibilidade
+competitiva.
+
+As regras seriam aplicadas tanto às principais ligas quanto às competições de
+desenvolvimento.
+
+O documento estabelecia seis territórios competitivos.
+
+A LCK passaria a aceitar exclusivamente sul-coreanos. A LPL, chineses. A LEC reuniria
+atletas dos países elegíveis do território EMEA. A LCP concentraria o restante da região
+Ásia-Pacífico, sem incluir China continental e Coreia do Sul.
+
+Nas Américas, haveria uma divisão específica.
+
+A LCS aceitaria jogadores dos Estados Unidos, Canadá, México, América Central e Caribe.
+
+O CBLOL reuniria brasileiros e atletas dos demais países da América do Sul.
+
+Jogadores com dupla nacionalidade poderiam declarar uma das regiões para representar
+durante a temporada, mas não poderiam trocar de elegibilidade no decorrer do ano.
+
+Treinadores, analistas e profissionais de suporte permaneceriam livres para trabalhar
+internacionalmente.
+
+O texto terminava com duas datas.
+
+6 de fevereiro de 2027: encerramento extraordinário das inscrições.
+
+8 de fevereiro de 2027: início previsto da janela competitiva.
+
+As organizações tinham onze dias para resolver uma situação que, em muitos casos,
+exigiria reconstruir praticamente todo o elenco.
+9h18 — Seul, Coreia do Sul
+No escritório de uma agência de jogadores, seis telefones tocavam quase simultaneamente.
+O empresário responsável pelos contratos internacionais havia recebido mensagens de
+clientes na China, Europa e América do Norte.
+Todos perguntavam alguma versão da mesma coisa.
+E agora?
+Durante anos, a Coreia do Sul produzira mais jogadores de alto nível do que seu próprio
+campeonato conseguia absorver.
+Alguns haviam encontrado oportunidades na China.
+Outros construíram carreiras na Europa.
+Havia jogadores que passaram praticamente toda a vida profissional longe de Seul.
+Agora precisariam voltar.
+O problema era matemático.
+Oito equipes na LCK.
+Cinco titulares por equipe.
+Quarenta vagas.
+A Challengers oferecia outras oportunidades, mas nem de longe o suficiente para todos os
+jogadores estabelecidos, promessas locais e profissionais retornando do exterior.
+O primeiro comunicado de aposentadoria apareceu pouco depois das dez.
+Um veterano de vinte e sete anos, que passara as últimas temporadas competindo na
+China, anunciou que não buscaria um novo contrato.
+Não era falta de propostas em absoluto.
+Havia conversado com organizações coreanas.
+Mas as oportunidades disponíveis não justificavam, para ele, prolongar uma carreira que já
+atravessara quase uma década.
+Na mensagem, agradeceu aos companheiros, às organizações e aos torcedores.
+Terminou com uma frase simples:
+I wanted to finish playing on my own terms. Today, that's what I'm choosing to do.
+O anúncio não recebeu grande atenção inicialmente.
+Uma hora depois, outro jogador fez o mesmo.
+Depois mais dois.
+Antes do almoço, o mercado coreano já não discutia apenas quem voltaria para a LCK.
+Começava a discutir quantos não voltariam a jogar.
+9h31 — Kairos Campus
+Na sala do League Main, 404 (Mason) foi o primeiro a entender a dimensão da notícia.
+— Espera. Isso significa que nenhum coreano pode jogar na LCS?
+Aphromoo assentiu.
+— Exatamente.
+— Nem se estiver aqui há cinco anos?
+— Não, a menos que tenha outra nacionalidade elegível.
+Vanta (Ethan) olhou para a tela.
+— Isso vai destruir alguns elencos.
+Thinkcard estava sentado ao fundo, lendo o documento completo.
+— Alguns vão precisar substituir três ou quatro jogadores.
+Aster (Liam) abriu a página da LCS.
+Cloud9.
+Dignitas.
+FlyQuest.
+LYON.
+Sentinels.
+Shopify Rebellion.
+Team Liquid.
+Kairos.
+Oito organizações.
+Todas precisariam apresentar elencos elegíveis até o início de fevereiro.
+— E nós? — perguntou rkN (Noah).
+Aphromoo respondeu:
+— Ninguém daqui precisa sair.
+O silêncio seguinte teve um peso diferente.
+Moss (Daniel) percebeu primeiro.
+— Isso muda o mercado inteiro.
+— Muda — respondeu Thinkcard.
+404 (Mason) sorriu.
+— Então ficamos mais valiosos?
+Aphromoo apontou para o computador dele.
+— Se continuar perdendo prioridade no mid, não.
+Mason suspirou.
+— Não podemos aproveitar uma notícia histórica por cinco minutos?
+
+10h26 — Xangai, China
+
+A repercussão na LPL era ainda mais intensa.
+Durante anos, organizações chinesas haviam construído equipes combinando talentos
+nacionais e sul-coreanos.
+Algumas das parcerias mais bem-sucedidas da história da região nasceram dessa
+combinação.
+Agora, o modelo estava proibido.
+As oito organizações confirmadas para 2027 precisariam reconstruir suas escalações
+utilizando exclusivamente jogadores chineses.
+Os departamentos de scouting passaram a receber solicitações urgentes.
+Relatórios sobre jogadores da segunda divisão.
+Análises de jovens da solo queue.
+Contatos com atletas que haviam deixado o cenário profissional.
+Consultas sobre contratos que, até a manhã daquela terça-feira, pareciam perfeitamente
+seguros.
+O problema não era simplesmente encontrar cinco chineses capazes de jogar League of
+Legends.
+Era encontrar cinco jogadores capazes de competir em nível internacional, compreender um
+sistema coletivo e funcionar juntos em menos de duas semanas.
+Em uma das organizações, o diretor competitivo recebeu a informação de que dois de seus
+jogadores sul-coreanos não poderiam ser inscritos.
+Perguntou sobre uma possível autorização temporária.
+A resposta foi negativa.
+Perguntou sobre contratos existentes.
+A Riot esclareceu que a regra não cancelava obrigações contratuais, mas impedia
+inscrições incompatíveis.
+O diretor fechou o e-mail.
+Tinha dois jogadores sob contrato, duas vagas indisponíveis e onze dias para encontrar
+substitutos.
+Do outro lado da cidade, um jovem mid laner chinês recebeu a primeira ligação de uma
+organização Tier 1.
+Nunca havia disputado uma série na LPL.
+Naquela tarde, teria uma avaliação.
+
+11h14 — São Paulo, Brasil
+
+O comunicado provocou uma reação diferente no CBLOL.
+Pela primeira vez, o campeonato brasileiro passaria a aceitar oficialmente jogadores de toda
+a América do Sul como atletas regionais.
+Argentinos.
+Chilenos.
+Uruguaios.
+Colombianos.
+Peruanos.
+Equatorianos.
+Paraguaios.
+Bolivianos.
+Venezuelanos.
+E os demais países sul-americanos.
+Isso não significava que todas as equipes precisariam contratar estrangeiros
+sul-americanos.
+Mas poderiam.
+E, ao mesmo tempo, não poderiam mais buscar jogadores sul-coreanos ou chineses para
+preencher suas posições.
+Em poucos minutos, grupos de torcedores começaram a discutir os efeitos da mudança.
+Alguns comemoravam a valorização dos jogadores brasileiros.
+Outros questionavam se o nível competitivo cairia sem os imports asiáticos.
+Havia também uma terceira discussão.
+O CBLOL acabara de ganhar acesso a um mercado sul-americano inteiro.
+Jogadores que antes precisavam considerar oportunidades distantes poderiam agora
+disputar vagas em organizações como paiN Gaming, LOUD, FURIA, RED Canids, Keyd
+Stars, Fluxo W7M, Leviatán e LOS.
+Para as equipes de desenvolvimento, a situação era igualmente relevante.
+O Circuito Desafiante também seguiria a nova regra.
+De repente, promessas de diferentes países sul-americanos poderiam disputar as mesmas
+vagas que os brasileiros.
+O mercado ficou maior.
+E a concorrência também.
+12h07 — Berlim, Alemanha
+Na Europa, a preocupação principal era outra.
+A LEC já possuía uma quantidade considerável de talentos europeus distribuídos entre ligas
+regionais e organizações de desenvolvimento.
+A nova política ampliava a importância daquele ecossistema.
+Mas não resolvia o problema dos contratos.
+Jogadores de fora do território EMEA precisariam encontrar novos destinos.
+Algumas organizações tinham negociações internacionais praticamente concluídas.
+Outras haviam investido meses construindo elencos em torno de atletas que agora seriam
+inelegíveis.
+A Riot confirmou que não faria exceções para acordos assinados antes do anúncio.
+Em contrapartida, autorizou uma janela extraordinária para registros e substituições.
+Na imprensa europeia, a discussão rapidamente se dividiu entre duas posições.
+Uma defendia que a medida finalmente daria às ligas regionais um caminho mais direto
+para a LEC.
+A outra argumentava que a Riot estava interferindo excessivamente nas decisões
+esportivas e comerciais das organizações.
+Ambas concordavam em uma coisa.
+Onze dias não eram suficientes para uma transição confortável.
+
+13h42 — Kairos Academy Blue
+
+Hai reuniu os cinco jogadores diante de uma tela.
+SullCon (Connor), xNox (Jacob), Kite (Owen), Murmur (Tyler) e japalenogrits (Lucas) haviam
+passado a manhã discutindo a notícia.
+— Vocês entenderam o que aconteceu? — perguntou Hai.
+Murmur respondeu:
+— Ficou muito mais difícil contratar coreanos.
+Hai permaneceu em silêncio.
+— Certo. Ficou impossível.
+— E o que isso significa para vocês?
+Kite (Owen) respondeu primeiro.
+— Mais oportunidades para jogadores da NACL.
+— Sim.
+xNox (Jacob) completou:
+— E mais equipes procurando esses jogadores.
+Hai assentiu.
+— Exatamente.
+Ele mudou a tela.
+Apareceram os nomes das organizações da LCS.
+— Até ontem, vocês eram jogadores de desenvolvimento tentando provar que podiam
+competir.
+Apontou para o quadro.
+— Hoje continuam sendo. Mas agora existe um mercado muito maior olhando para vocês.
+SullCon (Connor) cruzou os braços.
+— Isso é bom.
+— Pode ser.
+— Por que pode?
+— Porque interesse não é garantia de carreira melhor.
+Hai se aproximou.
+— Uma organização pode oferecer mais dinheiro, mais visibilidade e menos espaço para
+crescer. Outra pode oferecer menos dinheiro e uma oportunidade real de jogar.
+Murmur olhou para os companheiros.
+— Então estamos falando de transferências?
+— Estou falando de escolhas.
+A sala ficou quieta.
+Hai continuou:
+— E, antes de escolher qualquer coisa, quero que vocês tenham jogado pelo menos uma
+partida oficial na NACL.
+14h26 — Academy White
+Sable encontrou um problema inesperado.
+Os cinco jogadores estavam analisando possíveis movimentações do mercado em vez de
+estudar os drafts preparados para aquela tarde.
+Pebble (Isaac) tinha uma lista aberta.
+0bit (Nathan) examinava nomes de mids conhecidos.
+June (Cole) estava particularmente interessado em saber se o mercado também chegaria
+até a Academy White.
+Sable fechou a porta.
+— Vocês estão preocupados com alguma coisa?
+June respondeu:
+— Não exatamente.
+— Então por que ninguém está treinando?
+0bit levantou a mão.
+— Tecnicamente estamos pesquisando o cenário competitivo.
+— Nathan.
+— Certo.
+Sable sentou diante deles.
+— A regra abre oportunidades, inclusive para vocês. Mas nada muda nosso plano de
+desenvolvimento.
+Pebble perguntou:
+— Mesmo se alguma organização perguntar por nós?
+— Isso será discutido com vocês, suas famílias e a administração da Kairos.
+Luma (Ryan) olhou para June.
+— Você quer sair?
+— Não.
+— Então por que está perguntando?
+Cole pensou.
+— Porque é estranho descobrir que talvez existam pessoas procurando jogadores que
+ainda nem estrearam profissionalmente.
+Sable assentiu.
+— É estranho mesmo.
+Ele abriu o draft.
+— Agora vamos descobrir se essas pessoas estariam certas.
+15h38 — Seul, Coreia do Sul
+
+A primeira onda de aposentadorias já havia se transformado em notícia nacional.
+Não eram apenas jogadores sem espaço em equipes importantes.
+Havia atletas que tinham passado anos longe de casa e não queriam reconstruir suas vidas
+profissionais novamente.
+Alguns tinham famílias estabelecidas no exterior.
+Outros haviam perdido o interesse em continuar disputando vagas de titulares.
+Havia jogadores na metade dos vinte anos que preferiam trabalhar como treinadores,
+analistas ou criadores de conteúdo a voltar para a Challengers.
+E havia quem simplesmente não quisesse aceitar uma redução salarial significativa.
+Naquele momento, diversas agências começaram a orientar clientes a considerar três
+possibilidades.
+Retornar ao mercado coreano.
+Migrar para funções não competitivas.
+Ou encerrar a carreira profissional.
+A terceira opção, inicialmente tratada como improvável para jogadores experientes,
+começou a ganhar força.
+Um ex-titular da LPL anunciou aposentadoria.
+Depois um suporte que passara boa parte da carreira fora da Coreia.
+Outro jogador informou que terminaria seu vínculo contratual sem buscar renovação.
+Mais tarde, uma organização anunciou que dois de seus atletas sul-coreanos haviam
+decidido encerrar suas carreiras competitivas.
+A notícia continuou durante a noite.
+As aposentadorias não aconteciam todas pelo mesmo motivo.
+Alguns jogadores já planejavam parar.
+Outros aproveitaram a mudança para tomar uma decisão que vinham adiando.
+E alguns, sem alternativas compatíveis com suas expectativas, decidiram que não queriam
+disputar outra temporada.
+A Coreia continuaria produzindo talentos.
+Mas agora também precisaria lidar com o retorno de profissionais que já haviam encontrado
+suas carreiras em outros lugares.
+A expectativa inicial de um mercado cheio de estrelas disponíveis começava a se
+transformar em algo diferente.
+Uma geração inteira teria de decidir se ainda queria competir.
+
+17h03 — O mercado de Adrian
+
+No escritório administrativo da Kairos, Emily apresentou o primeiro levantamento.
+— Nenhum dos nossos quinze jogadores de League está inelegível.
+Adrian assentiu.
+— Ótimo.
+— Mas recebemos contatos.
+— Quantos?
+Emily olhou para a tela.
+— Mais do que normalmente receberíamos em uma semana.
+Havia organizações perguntando sobre disponibilidade de jogadores.
+Algumas queriam saber se a Kairos consideraria empréstimos.
+Outras perguntavam sobre contratos.
+Uma havia manifestado interesse em conversar sobre jogadores do Academy Blue.
+Adrian não pediu nomes.
+— Alguma proposta formal?
+— Ainda não.
+— Então não temos proposta.
+Emily sorriu.
+— Você sabe que isso pode mudar amanhã.
+— Sei.
+Aphromoo, que participava da reunião, cruzou os braços.
+— Não vou desmontar nosso elenco antes da estreia porque outras organizações não se
+prepararam.
+Hai concordou.
+— E eu não quero perder dois jogadores do Blue quando estamos a dias de começar a
+NACL.
+Sable permaneceu quieto.
+Adrian olhou para ele.
+— Miles?
+— White também tem jogadores que podem despertar interesse. Não quero que sejam
+tratados como peças disponíveis apenas porque não estão numa liga oficial.
+Adrian assentiu.
+— Concordo.
+Emily fez uma anotação.
+A decisão era simples.
+A Kairos ouviria propostas.
+Não bloquearia o desenvolvimento profissional de seus jogadores.
+Mas também não colocaria ninguém no mercado apenas porque outras organizações
+precisavam reconstruir seus elencos.
+Nenhuma transferência seria autorizada sem avaliação individual.
+Nenhuma vaga seria prometida.
+E nenhuma decisão seria tomada exclusivamente pelo valor financeiro.
+18h21 — A repercussão mundial
+A Riot divulgou um segundo comunicado.
+O objetivo era esclarecer dúvidas recebidas desde o anúncio.
+As organizações poderiam manter atletas inelegíveis sob contrato enquanto negociassem
+rescisões, transferências ou novas funções.
+Mas não poderiam utilizá-los em partidas oficiais.
+As ligas Tier 2 também precisariam cumprir a regra.
+Jogadores com dupla nacionalidade deveriam apresentar a documentação exigida antes do
+encerramento das inscrições.
+Não haveria exceções para jogadores considerados residentes.
+Nem para contratos de longa duração.
+Nem para equipes que alegassem falta de tempo para reconstruir seus elencos.
+A decisão estava tomada.
+Os efeitos começavam a aparecer imediatamente.
+Na LPL, jogadores chineses de desenvolvimento passaram a receber propostas de
+organizações Tier 1.
+Na LEC, equipes começaram a procurar talentos das ligas regionais.
+No CBLOL, agentes de jogadores sul-americanos começaram a conversar com
+organizações brasileiras.
+Na LCS, as academias se tornaram um dos principais centros de atenção do mercado.
+Na LCP, organizações iniciaram uma revisão completa dos seus elencos internacionais.
+E na Coreia do Sul, outra sequência de despedidas começava a circular.
+Algumas mensagens eram curtas.
+Outras tinham vídeos de agradecimento, fotografias antigas e retrospectivas de carreira.
+Jogadores que haviam disputado campeonatos internacionais encerravam seus contratos.
+Veteranos que passaram anos na LPL decidiam não procurar novas equipes.
+Atletas que haviam sido considerados promessas importantes anunciavam mudanças para
+outras atividades.
+Não havia uma lista única.
+Não havia uma cerimônia.
+Era um processo acontecendo simultaneamente em dezenas de organizações.
+Quando a noite chegou à Coreia, jornalistas especializados já falavam na maior onda de
+aposentadorias de jogadores sul-coreanos em muitos anos.
+E o número ainda cresceria nos dias seguintes.
+
+20h14 — Kairos Commons
+404 (Mason) estava no Maker Lab quando 0bit (Nathan) apareceu carregando um console
+portátil.
+— Você viu quantos coreanos estão se aposentando?
+Mason assentiu.
+— Vi.
+— Alguns são muito bons.
+— Eu sei.
+Nathan sentou.
+— É estranho pensar que alguém pode ser bom o suficiente para competir
+internacionalmente e ainda assim não encontrar onde jogar.
+404 ficou alguns segundos em silêncio.
+— Acho que ser bom nunca garantiu uma vaga.
+Do outro lado da sala, xNox (Jacob) continuava tentando consertar um controle antigo.
+— Agora vai ser pior.
+Mason olhou para ele.
+— Para alguns.
+— E melhor para outros.
+— Exatamente.
+No corredor, Kite (Owen) passou com Murmur (Tyler).
+Tyler estava lendo uma notícia.
+— Mais dois aposentados.
+Kite parou.
+— Quem?
+Murmur mostrou a tela.
+Owen examinou a reportagem.
+Não conhecia os jogadores pessoalmente.
+Mas reconhecia os nomes.
+Tinha assistido a partidas deles anos antes.
+Agora estavam encerrando suas carreiras enquanto ele ainda se preparava para disputar
+sua primeira temporada profissional.
+Guardou o celular.
+— Que situação.
+Murmur concordou.
+Pela primeira vez naquela noite, não fez piada.
+22h06 — Administração
+Adrian ainda estava no escritório.
+Emily enviara uma atualização final antes de ir embora.
+O documento tinha seis abas.
+LCK.
+LPL.
+LEC.
+LCS.
+LCP.
+CBLOL.
+Em cada uma, as organizações participantes de 2027.
+Ao lado, três colunas.
+Current roster.
+Eligibility review.
+2027 registration.
+A maioria das células relacionadas às novas escalações ainda estava vazia.
+Não porque faltassem candidatos.
+Mas porque o mercado estava mudando rápido demais para transformar conversas em
+contratos confirmados.
+Adrian abriu a aba da LCS.
+A Kairos já tinha seu elenco.
+As outras organizações ainda precisavam avaliar suas situações.
+Ele passou para a LCK.
+Oito equipes.
+Quarenta vagas titulares.
+Um mercado enorme de jogadores que agora precisavam permanecer na própria região.
+Alguns seriam contratados.
+Outros disputariam a Challengers.
+Outros aceitariam funções diferentes.
+E muitos encerrariam a carreira.
+Adrian ficou olhando para a planilha.
+Havia passado quase um ano construindo uma organização que desenvolvia jogadores
+locais porque acreditava que a América do Norte precisava produzir mais talento.
+Agora a Riot havia transformado esse princípio em obrigação para todas as regiões.
+A ideia parecia simples.
+Cada região com seus próprios jogadores.
+Cada campeonato com sua identidade.
+Cada organização investindo no talento disponível dentro do próprio território.
+Mas as consequências estavam longe de ser simples.
+Contratos seriam encerrados.
+Salários mudariam.
+Carreiras seriam interrompidas.
+Jogadores desconhecidos receberiam oportunidades.
+Estrelas teriam de provar novamente seu valor.
+E organizações acostumadas a procurar soluções fora de suas regiões precisariam
+descobrir se realmente sabiam desenvolver atletas.
+Adrian fechou a planilha.
+No celular, havia uma última notificação.
+
+Outra aposentadoria anunciada na Coreia do Sul.
+
+Ele leu a notícia.
+
+Depois apagou a tela.
+
+Em menos de vinte e quatro horas, uma decisão administrativa havia mudado o futuro de
+centenas de jogadores.
+
+A temporada de 2027 ainda não tinha começado.
+
+Mas o mercado de transferências mais turbulento da história recente de League of Legends
+já estava em andamento.
+
+E faltavam apenas onze dias para que todas as organizações apresentassem seus novos
+elencos.

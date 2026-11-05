@@ -50,7 +50,7 @@ export default async function PublisherPage({ params }: { params: Promise<{ slug
         <span className={styles.kicker}>{publisherCategoryLabels[publisher.category]}</span>
         <h1>{publisher.name}</h1>
         <p className={styles.leadDeck}>{publisher.description}</p>
-        {publisher.coverageDisclosure ? (
+        {publisher.coverageDisclosure && !["dust2-us", "riot-games-publisher"].includes(publisher.id) ? (
           <p className={styles.disclosure} role="note">{publisher.coverageDisclosure}</p>
         ) : null}
         <div className={styles.meta}>

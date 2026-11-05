@@ -1,11 +1,11 @@
 {
-  "canonVersion": "0.13.0",
+  "canonVersion": "0.15.0",
   "project": "Kairos Universe",
-  "storyEpisode": 106,
+  "storyEpisode": 114,
   "storyStartPeriod": "early-2026",
   "storyPeriod": "early-january-2027",
   "storyYear": 2027,
-  "currentNarrativeDate": "2027-01-20",
+  "currentNarrativeDate": "2027-01-27",
   "nextCompetitiveMilestone": {
     "period": "february-2027",
     "displayName": "February 2027",
@@ -14,10 +14,10 @@
   },
   "websiteImplemented": true,
   "competitiveDatabaseImplemented": true,
-  "currentDocumentationPhase": "episodes-095-106-canonized",
+  "currentDocumentationPhase": "episodes-107-114-canonized",
   "nextPhase": "2027-preseason-competition-preparation",
-  "reconstructedThroughEpisode": 106,
-  "episodeRecordsCreatedThrough": 106,
+  "reconstructedThroughEpisode": 114,
+  "episodeRecordsCreatedThrough": 114,
   "lastValidated": null,
   "notes": [
     "Episodes 1-29 are reconstructed from the immutable historical PDF.",
@@ -60,6 +60,12 @@
     "On 2027-01-18 (episode-104), Counter-Strike Academy wins a revenge Bo5 rematch against Counter-Strike Main, 3-2.",
     "On 2027-01-19 (episode-105), Kairos begins an external scrim program (2027-01-19 through 2027-01-29); Main's game against Dignitas that day ends with no result ever narrated and must remain unknown.",
     "On 2027-01-20 (episode-106), three completed external League Bo3 scrims occur: Academy Blue defeats GIANTX (LEC) 2-1; Academy White loses to Dorado Gaming (NACL) 1-2; Main loses to Shopify Rebellion (LCS) 1-2. None of these affect any official league standing; all three opponents fielded explicitly experimental, unconfirmed rosters.",
-    "All scrims referenced in episodes 90-106 (internal and external) are private practice: officialMatch=false, affectsStandings=false, with provenance distinguishing narrated canon from authored statistical reconstruction."
+    "All scrims referenced in episodes 90-106 (internal and external) are private practice: officialMatch=false, affectsStandings=false, with provenance distinguishing narrated canon from authored statistical reconstruction.",
+    "Episodes 107-114 (2027-01-20 through 2027-01-27) are reconstructed from the author-supplied episode prose archived at archive/episode-sources/kairos_107_114_import/. Episode 114 is the current story episode and the current narrative date is 2027-01-27.",
+    "On 2027-01-26 (episode-111), Riot announces the 2027 League of Legends regional player eligibility rules (import ban) for Tier 1 and official Tier 2 competition; see data/rulesets/league-regional-player-eligibility-2027.json. Counter-Strike is unaffected and no named external retirement, transfer, or roster is established.",
+    "On 2027-01-27 (episode-113), League Tier 1 Stage 1 is revised to 2027-02-15 through 2027-03-14 for LCS, LEC, LCK, LPL, LCP, and CBLOL; the emergency roster registration deadline is 2027-02-12; First Stand 2027 remains 2027-03-20 through 2027-03-28 in Berlin; Tier 2 dates remain unconfirmed.",
+    "On 2027-01-26 (episode-112), Kairos Counter-Strike Main (Train 13-8, Nuke 13-10) and Academy (Cache 11-13, Inferno 13-9) play four private practice maps against unnamed independent FACEIT-style groups; none are official matches.",
+    "On 2027-01-27 the eight 2027 LCS starting lineups and twelve named retirements are confirmed in the Kairos Universe overlay (data/competitive-world-overrides/lcs-rosters-2027.json); see docs/canon/LCS_ROSTERS_2027.md.",
+    "External Counter-Strike 2 rosters selected by the author are frozen through 2027-05-23; 2027-05-24 is the earliest date the author may initiate changes. See docs/canon/COUNTER_STRIKE_EXTERNAL_ROSTER_FREEZE_2027.md."
   ]
 }

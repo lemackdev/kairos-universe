@@ -33,6 +33,24 @@ catalog.routes.push(...externalRoutes);
 const worldState2027 = loadWorldState2027();
 const knownTeamIds = new Set([...catalog.teams.map((team) => team.id), ...catalog.externalScene.teams.map((team) => team.id)]);
 const knownPlayerIds = new Set(catalog.externalScene.players.map((player) => player.id));
+const addedPlayerIds = new Set(worldState2027.lcsRosters.addedPlayers.map((player) => player.playerId));
+const internalPlayerIds = new Set(catalog.players.map((player) => player.id));
+for (const added of worldState2027.lcsRosters.addedPlayers) {
+  if (knownPlayerIds.has(added.playerId)) throw new Error(`2027 added player duplicates an existing external identity: ${added.playerId}`);
+  const route = `/wiki/players/${added.slug}`;
+  if (catalog.routes.includes(route)) throw new Error(`2027 added player route collides: ${route}`);
+  catalog.routes.push(route);
+}
+for (const team of worldState2027.lcsRosters.teams) {
+  if (!knownTeamIds.has(team.teamId)) throw new Error(`2027 LCS roster references unknown team: ${team.teamId}`);
+  for (const starter of team.starters) {
+    const known = team.internal ? internalPlayerIds.has(starter.playerId) : knownPlayerIds.has(starter.playerId) || addedPlayerIds.has(starter.playerId);
+    if (!known) throw new Error(`2027 LCS roster references unknown player: ${starter.playerId}`);
+  }
+}
+for (const retirement of worldState2027.lcsRosters.retirements) {
+  if (!knownPlayerIds.has(retirement.playerId)) throw new Error(`2027 retirement references unknown player: ${retirement.playerId}`);
+}
 for (const region of Object.values(worldState2027.membership.regions)) {
   for (const team of [...region.active, ...region.inactive]) {
     const known = knownTeamIds.has(team.teamId) || (team.parentTeamId !== undefined && knownTeamIds.has(team.parentTeamId));

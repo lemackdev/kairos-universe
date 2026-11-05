@@ -66,12 +66,16 @@
 .participantsWrap { margin: 10px 0 12px; }
 .participantsCaption { background: var(--article-bar); color: #f2f5f7; font-size: 12px; font-weight: 600; padding: 6px 10px; }
 .participantsGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1px; background: var(--article-line); border: 1px solid var(--article-line); }
+.participantsGridFour { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .participantTile { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 10px; background: var(--article-bg); text-align: center; }
 .participantLogo { display: grid; place-items: center; width: 72px; height: 72px; }
 .participantLogo img { max-width: 100%; max-height: 100%; object-fit: contain; }
 .participantMonogram { display: grid; place-items: center; width: 72px; height: 72px; border: 1px solid var(--article-line); color: var(--article-muted); font: 22px var(--font-display); background: var(--article-panel); }
 .participantTile strong { font-size: 13px; line-height: 1.3; }
 .participantsEmpty { padding: 14px 10px; color: var(--article-muted); background: var(--article-bg); border: 1px solid var(--article-line); border-top: none; }
+@media (max-width: 720px) {
+  .participantsGridFour { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (prefers-color-scheme: dark) {
   .article { --article-bg: #282c30; --article-panel: #20262b; --article-ink: #e4e8eb; --article-muted: #adb7bf; --article-line: #434b52; --article-link: #71bce7; --article-bar: #123449; }
 }

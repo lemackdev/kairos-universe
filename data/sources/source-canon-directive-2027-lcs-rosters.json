@@ -1,0 +1,16 @@
+{
+  "id": "source-canon-directive-2027-lcs-rosters",
+  "slug": "source-canon-directive-2027-lcs-rosters",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: 2027 LCS rosters, retirements, and identity audit",
+  "path": "docs/canon/LCS_ROSTERS_2027.md",
+  "locator": "Author-confirmed canon directive, 2027 LCS and Counter-Strike update",
+  "publicLabel": "Kairos Universe canon directive: 2027 LCS rosters, retirements, and identity audit",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Direct author-confirmed canon directive, not sourced from episode prose.",
+    "Backs the eight 2027 LCS starting lineups, twelve named retirements, and the eXyu and KryRa identity decisions."
+  ]
+}

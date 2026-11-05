@@ -1,5 +1,22 @@
 # Canon Changelog
 
+## 0.15.0 - 2027 LCS rosters, retirements, and Counter-Strike roster freeze
+
+- Confirmed the eight 2027 LCS starting lineups (as of 2027-01-27) in the Kairos Universe overlay without modifying the frozen 2026 reference data. Kairos Gaming is unchanged.
+- Added the twelve author-confirmed named retirements, preserving career history.
+- Reconciled the 2027 free-agent list: players with a confirmed assignment or retirement are no longer current free agents; the earlier period is kept as prior status.
+- Identity decisions: KyRa is the existing KryRa record; eXyu is added as a sourced 2027-overlay identity.
+- Established the external Counter-Strike 2 roster freeze through 2027-05-23 (earliest later change date 2027-05-24). No external CS2 roster, transfer, or qualification was created.
+
+## 0.14.0 - Episodes 107-114 and 2027 League eligibility and calendar revision
+
+- Canonized Episodes 107-114 (2027-01-20 through 2027-01-27) from the author-supplied prose, archived under archive/episode-sources/kairos_107_114_import/.
+- Added four private practice records for the Counter-Strike Main and Academy sessions against unnamed independent groups (Episode 112); none affect standings or statistics.
+- Added the Competitive Ledger opinion article published 2027-01-27 (Episode 114) as its own publication, leaving the 2027-01-15 interview untouched.
+- Added the 2027 League regional player eligibility ruleset (import ban), announced 2027-01-26.
+- Revised League Tier 1 Stage 1 to 2027-02-15 through 2027-03-14 and set the roster registration deadline to 2027-02-12. First Stand, Tier 2, Counter-Strike, the July break, and the frozen 2026 reference data are unchanged.
+- Not included: 2027 external rosters, named retirements, transfers, ratings, or Counter-Strike roster changes.
+
 ## 0.11.0 - Episodes 76-90 and December 2026
 
 - Reconstructed Episodes 76-90 from the preserved 186-page PDF, with documented searchable-source normalizations and no alteration to the PDF or Episodes 1-75.

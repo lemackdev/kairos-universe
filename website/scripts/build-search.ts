@@ -11,6 +11,11 @@ const catalog = readJson<KairospediaCatalog>(
 );
 const search = buildSearchRecords(catalog);
 if (catalog.externalScene) search.push(...buildExternalSearch(catalog.externalScene));
+for (const added of catalog.worldState2027?.lcsRosters.addedPlayers ?? []) {
+  search.push({ id: added.playerId, slug: added.slug, type: "player", name: added.nickname,
+    subtitle: "League of Legends / 2027 roster", href: `/wiki/players/${added.slug}`,
+    terms: [added.nickname, added.playerId, added.slug, added.legalName, "League of Legends"] });
+}
 if (new Set(search.map((record) => record.id)).size !== search.length) throw new Error("Duplicate search identity");
 writeJson(path.join(generatedRoot, "search-index.json"), search);
 

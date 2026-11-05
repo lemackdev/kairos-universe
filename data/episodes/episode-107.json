@@ -1,0 +1,109 @@
+{
+  "id": "episode-107",
+  "slug": "episode-107",
+  "episodeNumber": 107,
+  "title": "Dez Jogadores, Dois Times",
+  "historicalTitle": "Dez Jogadores, Dois Times",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-20",
+  "datePrecision": "exact",
+  "publicationOrder": 107,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "caleb-atlas-mercer",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "caleb-atlas-mercer",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "cameron-mold-ruiz",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "lukas-luk-novak",
+    "jake-stewie2k-yip",
+    "ethan-trace-miller"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Two days after Academy beat Main 3-2 in the January 18 rematch, Atlas (Caleb) rewatches the decisive Cobblestone round and asks to train with the Academy players rather than against them. Stewie2K, Luk, and Trace split the ten players into two mixed practice groups with no scoreboard, series, or Main-versus-Academy contest: Atlas calls for dentalplan, Mold, wrongnumber, and FLACOGOMEZ; RAMENSOUP calls for Glacier, MoteConHuesillo, velcroDAWG, and p4rkingl0t. The only rule is that nobody may justify a play by saying it works that way on their own team. Work on Inferno shows Atlas adapting his calls to an Academy AWPer and RAMENSOUP learning from Glacier's anticipation and positioning; a review of the same rounds shows Atlas preferring to set priorities before contact and RAMENSOUP preferring to reorganize mid-round, with Luk and Stewie2K stressing that neither should copy the other. The ten players share a table at lunch and, in the evening, Mold and Zayn bond over automotive photography and drawing in the Kairos Commons. Luk and Stewie2K agree to repeat the exercise with the players involved in the planning.",
+  "keyEvents": [
+    "9:18 — Atlas (Caleb) rewatches the final Cobblestone round of the January 18 rematch, in which p4rkingl0t (Zayn) eliminates Glacier (Owen) and defuses the bomb to close the series; Luk notes that Academy won two of the three deciding maps by exploiting problems Main should have solved, and Atlas decides he wants to train with Academy rather than against it.",
+    "10:46 — Stewie2K announces a schedule change at CS Academy: the teams will be mixed. Trace sets out the format of ten players, two mixed groups, and no overall score, series victory, or Main-versus-Academy contest.",
+    "Group A (called by Atlas/Caleb): dentalplan (Nolan), Mold (Cameron), wrongnumber (Reid), FLACOGOMEZ (Vincente). Group B (called by RAMENSOUP/Evan): Glacier (Owen), MoteConHuesillo (Emiliano), velcroDAWG (Milo), p4rkingl0t (Zayn). The only rule is that no one may argue that a play works a certain way on their own team.",
+    "11:24 — Inferno: Atlas must adapt his communication to dentalplan, who asks whether 'the usual angle' means Nolan's or Owen's. On the other side, Glacier tells RAMENSOUP an AWP is not needed to hold an advance because the opponents have already used two flashes and are preparing a rotation; the movement confirms the read two seconds later.",
+    "13:08 — The ten players end up at the same cafeteria table: Emiliano and Vincente discuss football, Nolan and Owen compare AWP positions on Nuke, and Mold and Milo trade basketball boasts. Atlas asks Zayn whether he knew where Owen was in the last Cobblestone round; Zayn says he knew where Owen wanted him to think he was.",
+    "15:36 — Communication review: Trace gives Atlas and RAMENSOUP recordings of the same rounds and asks each to explain how he would have led the five players. Atlas prefers establishing priorities before contact; RAMENSOUP prefers reorganizing during the round. Luk tells Atlas he is trying to teach Evan to be him, and Stewie2K tells Evan he is trying to show he does not need to listen to Caleb.",
+    "18:17 — Kairos Commons: practice ends without a winning team. Mold finds Zayn editing photographs of cars in the Photo & Film Room and offers to try drawing; Zayn thanks Cameron for not asking about a recent approach from another organization two days earlier and says he did not want to go.",
+    "20:02 — Luk and Stewie2K agree Zayn is becoming dangerous but does not yet notice when he is predictable from trying to be unpredictable. They agree to repeat the exercise the following week with all ten players involved in the planning.",
+    "Atlas (Caleb) arranges a half-hour session with RAMENSOUP (Evan) for the next day to show him something about Train, in exchange for watching one of Academy's Nuke executes."
+  ],
+  "consequences": [
+    "Main and Academy continue to learn from each other through mixed practice; no scored result, winner, series, or roster change comes out of the day.",
+    "Luk and Stewie2K agree to run mixed practice again the following week with the ten players contributing to the plan."
+  ],
+  "canonIntroduced": [
+    "Two mixed Main/Academy practice groups are established for 2027-01-20: Group A (Atlas as IGL, dentalplan, Mold, wrongnumber, FLACOGOMEZ) and Group B (RAMENSOUP as IGL, Glacier, MoteConHuesillo, velcroDAWG, p4rkingl0t), playing Inferno with tactical discussion of Nuke and Train.",
+    "Mold (Cameron) and p4rkingl0t (Zayn) bond over automotive photography and drawing in the Kairos Commons.",
+    "Zayn received an approach from another organization about two days before 2027-01-20; he tells Mold he did not want to go."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-106"
+  ],
+  "continuityNotes": [
+    "The mixed practice is not a scored match: no result, series, or standing is created, and no match record should be generated for it.",
+    "Mixed practice does not constitute a roster transfer, promotion, or change of team membership: Atlas, Glacier, MoteConHuesillo, Mold, and FLACOGOMEZ remain Main; RAMENSOUP, velcroDAWG, p4rkingl0t, dentalplan, and wrongnumber remain Academy.",
+    "Zayn's decisive Cobblestone round on 2027-01-18 (episode-104) is the reason he is drawing attention from Luk, Stewie2K, and Trace.",
+    "The identity of the organization that approached Zayn, and the content of the approach, are not narrated."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_107.txt",
+      "locator": "Episódio 107 — Dez Jogadores, Dois Times",
+      "information": "Supplies full prose for the January 20 mixed Main/Academy practice day, the two groups, the Inferno session, the communication review, and the Commons scene.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "On 2027-01-20 Luk, Stewie2K, and Trace run mixed-roster Counter-Strike practice with Group A (Atlas as IGL, dentalplan, Mold, wrongnumber, FLACOGOMEZ) and Group B (RAMENSOUP as IGL, Glacier, MoteConHuesillo, velcroDAWG, p4rkingl0t).",
+    "The practice has no overall score, series victory, or Main-versus-Academy contest, and covers Inferno with tactical discussion of Nuke and Train.",
+    "Atlas develops clearer communication with an AWPer (dentalplan); RAMENSOUP learns from Glacier's anticipation and positioning.",
+    "Stewie2K and Luk stress that both IGLs must develop their own styles rather than imitate one another.",
+    "Zayn continues attracting attention after his decisive Cobblestone performance on 2027-01-18.",
+    "Mold and Zayn discuss automotive photography and drawing in the Kairos Commons.",
+    "Mixed practice does not constitute a roster transfer, promotion, or change of squad."
+  ],
+  "unconfirmedDetails": [
+    "No scored result, round count, or per-player statistics exist for the mixed practice.",
+    "The organization that approached Zayn two days earlier is unidentified.",
+    "Exact dates for the repeat mixed-practice session are not set."
+  ],
+  "notes": []
+}

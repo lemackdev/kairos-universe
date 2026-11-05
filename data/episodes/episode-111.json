@@ -1,0 +1,126 @@
+{
+  "id": "episode-111",
+  "slug": "episode-111",
+  "episodeNumber": 111,
+  "title": "O Fim dos Imports",
+  "historicalTitle": "O Fim dos Imports",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-26",
+  "datePrecision": "exact",
+  "publicationOrder": 111,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "thinkcard-kairos-strategic-coach",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "On the morning of 2027-01-26 Riot Games sends its organizations a seventeen-page 2027 eligibility update and announces, at 9:00, a worldwide regional player eligibility policy: from the 2027 season, players may compete in League of Legends only within their own competitive region, with no import cap, no veteran exception, and no path from long residency to eligibility, across both the major leagues and the development leagues. Six competitive territories are defined, dual nationals must declare one region for the season, and staff remain free to work internationally. The announcement sets an extraordinary registration cutoff of 2027-02-06 and an expected competitive window opening on 2027-02-08. The policy triggers an emergency transfer market in every region, a crowded South Korean market and the first of many retirement announcements by South Korean players. Kairos learns that none of its fifteen League players is ineligible, hears from interested organizations, and decides to listen to proposals without placing anyone on the market.",
+  "keyEvents": [
+    "8:43 — Emily Chen receives a seventeen-page Riot Games email titled '2027 Global Competitive Eligibility Update' containing the 'Regional Player Eligibility Policy — Effective 2027' and shows it to Adrian ten minutes before the public announcement.",
+    "9:00 — Riot publishes the policy on its regional competitive channels: players can no longer compete outside their home regions; there is no two-import limit, no veteran exception, and no way to turn long-term residency into competitive eligibility; the rules apply to major leagues and development competitions alike.",
+    "The document defines six competitive territories: the LCK accepts only South Koreans, the LPL only Chinese players, the LEC players from eligible EMEA territories, the LCP the rest of Asia-Pacific excluding mainland China and South Korea, the LCS players from the United States, Canada, Mexico, Central America and the Caribbean, and the CBLOL Brazilians and players from the rest of South America.",
+    "Dual nationals may declare one region to represent for the season but cannot change eligibility during the year; coaches, analysts and support staff remain free to work internationally.",
+    "The document ends with two dates: an extraordinary registration closing on 2027-02-06 and a projected competitive window start of 2027-02-08, leaving organizations eleven days. (The registration date is revised in Episode 113.)",
+    "9:18 — In Seoul, a player agency's phones ring as clients in China, Europe and North America ask what happens next. The South Korean market faces more established and prospective players than slots (eight LCK teams, forty starting places). A little after 10:00 the first retirement announcement appears, from a 27-year-old veteran who had spent recent seasons in China; later that day a former LPL starter, a support and others follow, and one organization announces that two of its South Korean players are ending their careers. The episode describes these retirements generally and does not establish a full list of players.",
+    "9:31 — In the Main room, Aphromoo confirms that no Korean player can play in the LCS regardless of years of residence unless holding another eligible nationality; Thinkcard notes some rivals will have to replace three or four players. Aphromoo tells Main that no one in the Kairos roster has to leave, which Moss recognizes as changing the market.",
+    "10:26 — In Shanghai, LPL organizations must rebuild lineups with Chinese players only; Riot clarifies that the rule does not cancel contract obligations but prevents incompatible registrations, and refuses a temporary authorization.",
+    "11:14 — In São Paulo the CBLOL gains access to players from across South America and loses access to South Korean and Chinese imports; the Circuito Desafiante will follow the same rule.",
+    "12:07 — In Berlin, Riot confirms no exceptions for agreements signed before the announcement and authorizes an extraordinary window for registrations and replacements; European press divides over the policy.",
+    "13:42 — Hai tells Academy Blue that the wider market now looking at NACL players is an opportunity but not a guarantee of a better career, and asks that they play at least one official NACL match before choosing anything.",
+    "14:26 — Sable keeps Academy White focused on its development plan; any outside interest would be discussed with the player, their family and Kairos management.",
+    "17:03 — Emily reports that none of Kairos's fifteen League players is ineligible and that Kairos has received more contacts than usual in a week, including questions about loans and contracts and an expression of interest about Academy Blue players; there are no formal offers. Aphromoo and Hai refuse to dismantle rosters before their debut and Sable asks that White players not be treated as available pieces. Adrian decides that Kairos will hear proposals without blocking players' professional development, will authorize no transfer without individual evaluation, promise no place, and decide nothing purely on financial value.",
+    "18:21 — Riot's second communication clarifies that organizations may keep ineligible players under contract while negotiating terminations, transfers or new roles but may not use them in official matches; Tier 2 leagues must comply; dual nationals must file documentation before registration closes; there are no exceptions for residents, long contracts or time shortages.",
+    "22:06 — Adrian reviews Emily's six-tab tracking sheet (LCK, LPL, LEC, LCS, LCP, CBLOL), most roster cells still empty because the market is moving too fast to confirm contracts, and reflects on Riot turning regional talent development into an obligation for every region."
+  ],
+  "consequences": [
+    "The 2027 regional eligibility policy is announced and takes effect for the 2027 season; an emergency transfer market opens in every major League of Legends region.",
+    "Kairos's existing fifteen League players are all eligible, and Kairos adopts a policy of listening to proposals while promising no transfers.",
+    "Multiple South Korean players announce retirements, the identities of whom are not established by this episode."
+  ],
+  "canonIntroduced": [
+    "Riot Games's 2027 regional player eligibility policy and its six competitive territories are announced on 2027-01-26.",
+    "The initial extraordinary registration cutoff of 2027-02-06 and projected competitive window start of 2027-02-08 are established (the registration date is later revised in Episode 113).",
+    "No Kairos League player is ineligible under the policy.",
+    "Kairos will listen to proposals but authorize no transfer without individual evaluation."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-106"
+  ],
+  "continuityNotes": [
+    "The episode describes multiple South Korean retirements only in general terms; no individual retiring player, retirement date or career history is established by this canon record.",
+    "The policy does not cancel existing contracts; it prevents the registration of ineligible players in official matches. Private international scrims are unaffected.",
+    "Counter-Strike is not affected by the policy.",
+    "Named external 2027 rosters, transfers and retirement lists belong to a later roster-reconstruction canon update and are not imported here."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Riot Games and the real-world League of Legends regions and organizations named in the episode (including the LCS organizations and Brazilian CBLOL organizations) are referenced as part of the Kairos Universe 2027 continuity layer; no real-world roster, contract or transfer information is implied."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_107_114_import/episode_111.txt",
+      "locator": "Episódio 111 — O Fim dos Imports",
+      "information": "Supplies full prose for the eligibility policy announcement, regional reactions, the Kairos response and the first wave of South Korean retirements.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Riot Games announces the 2027 regional player eligibility policy on 2027-01-26 at 9:00.",
+    "The LCK accepts only South Koreans, the LPL only Chinese players, and the other four regions use the territories described in keyEvents.",
+    "The initial extraordinary registration closing is 2027-02-06 and the projected window start is 2027-02-08.",
+    "None of Kairos's fifteen League players is ineligible.",
+    "Multiple South Korean players announce their retirement on 2027-01-26."
+  ],
+  "unconfirmedDetails": [
+    "The identities of retiring players and the full number of retirements are not established by this episode.",
+    "No formal offer for any Kairos player is made."
+  ],
+  "notes": [
+    "The structured 2027 eligibility regulations are maintained as a separate ruleset entity; this episode record only establishes the in-story announcement."
+  ]
+}

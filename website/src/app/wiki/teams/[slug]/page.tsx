@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Fragment } from "react";
-import { FictionalWorldNotice, ReferenceNotice, Tier2TeamArticle } from "@/components/articles/ExternalArticles";
+import { ReferenceNotice, Tier2TeamArticle } from "@/components/articles/ExternalArticles";
 import { TeamArticle } from "@/components/articles/TeamArticle";
 import { getCatalog } from "@/lib/canon/server";
 import { externalLogoPath } from "@/lib/externalLogos";
@@ -30,13 +29,19 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
     const event = scene.sources.find((s) => reference.sourceIds.includes(s.id))!;
     const logoPath = externalLogoPath(scene.organizations.find((o) => o.id === reference.organizationId)!.slug);
     const regionalStatus = findRegionalStatus(catalog.worldState2027, reference.id);
+    const has2027Lineup = Boolean(catalog.worldState2027?.lcsRosters.teams.some((entry) => entry.teamId === reference.id));
     return <TeamArticle external
-      team={sceneTeamToTeamView(reference, scene)}
+      team={sceneTeamToTeamView(reference, scene, catalog.worldState2027?.lcsRosters)}
       organization={sceneTeamOrganizationLite(reference, scene)}
       logo={logoPath && <img src={logoPath} alt={`${reference.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />}
-      banner={<Fragment><ReferenceNotice />{regionalStatus && <FictionalWorldNotice />}</Fragment>}
-      overview={<p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) roster referenced in Kairospedia&rsquo;s pre-Worlds 2026 real-world reference collection. Roster membership reflects the {event.title}, which ended {formatDate(event.eventEndDate)}; it is not a live roster, a current contract list, or a Kairos narrative event. <Link href="/wiki/world">Scope and source limitations</Link>.</p>}
+      banner={has2027Lineup
+        ? <p className="fictionNotice">The 2027 lineup reflects Kairos Universe continuity only, not these players’ real-world competitive, contractual, or employment status. 2026 observations are retained as history. <Link href="/wiki/world">Scope and source limitations</Link>.</p>
+        : <ReferenceNotice />}
+      overview={has2027Lineup
+        ? <p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) organization. Its 2027 starting lineup was confirmed as of {formatDate(catalog.worldState2027!.lcsRosters.confirmedBy)}; no signing dates or contract terms are established. The roster observed at the {event.title}, which ended {formatDate(event.eventEndDate)}, is retained as the 2026 reference. <Link href="/wiki/world">Scope and source limitations</Link>.</p>
+        : <p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) roster referenced in Kairospedia&rsquo;s pre-Worlds 2026 real-world reference collection. Roster membership reflects the {event.title}, which ended {formatDate(event.eventEndDate)}; it is not a live roster, a current contract list, or a Kairos narrative event. <Link href="/wiki/world">Scope and source limitations</Link>.</p>}
       extraFacts={regionalStatus ? [
+        ...(catalog.worldState2027?.lcsRosters.teams.some((entry) => entry.teamId === reference.id) ? [{ label: "2027 starting lineup", value: `Confirmed ${formatDate(catalog.worldState2027.lcsRosters.confirmedBy)}` }] : []),
         { label: "2027 competitive status", value: regionalStatus.active ? `Active ${regionalStatus.league} 2027 participant` : "Inactive / not participating" },
         ...(regionalStatus.active ? [] : [
           { label: "Last active Tier 1 season", value: "2026" },

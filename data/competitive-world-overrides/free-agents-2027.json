@@ -3,7 +3,8 @@
   "originType": "fictional",
   "canonStatus": "confirmed",
   "sourceIds": [
-    "source-canon-directive-2027-league-regional-restructuring"
+    "source-canon-directive-2027-league-regional-restructuring",
+    "source-canon-directive-2027-lcs-rosters"
   ],
   "disclaimer": "Kairos Universe fictional speculation. Every player below remains the same real-world-referenced person documented in the frozen pre-Worlds 2026 reference scene (external-data/pre-worlds-2026); only their Kairos Universe 2027 fictional competitive status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No destination is invented for any player: each becomes a Free Agent in this fictional continuity unless a destination is already confirmed elsewhere in Kairos canon (none currently are). No reason beyond roster/contract non-renewal at season end is recorded for any player.",
   "players": [
@@ -26,26 +27,8 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-insanity",
-      "nickname": "Insanity",
-      "previousTeamId": "external-lol-team-conviction",
-      "previousTeamName": "Conviction",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-cody-sun",
       "nickname": "Cody Sun",
-      "previousTeamId": "external-lol-team-conviction",
-      "previousTeamName": "Conviction",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-zyko",
-      "nickname": "Zyko",
       "previousTeamId": "external-lol-team-conviction",
       "previousTeamName": "Conviction",
       "league": "NACL",
@@ -74,36 +57,6 @@
     {
       "playerId": "external-lol-player-music",
       "nickname": "Music",
-      "previousTeamId": "external-lol-team-cupid-esports",
-      "previousTeamName": "Cupid eSports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent",
-      "note": "Cupid eSports is not named in the author's confirmed 2027 NACL departures list; excluded from the active roster for exact-8 consistency and treated the same as other removed-organization players. Flagged for author review."
-    },
-    {
-      "playerId": "external-lol-player-ablazeolive",
-      "nickname": "Ablazeolive",
-      "previousTeamId": "external-lol-team-cupid-esports",
-      "previousTeamName": "Cupid eSports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent",
-      "note": "Cupid eSports is not named in the author's confirmed 2027 NACL departures list; excluded from the active roster for exact-8 consistency and treated the same as other removed-organization players. Flagged for author review."
-    },
-    {
-      "playerId": "external-lol-player-mobility",
-      "nickname": "Mobility",
-      "previousTeamId": "external-lol-team-cupid-esports",
-      "previousTeamName": "Cupid eSports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent",
-      "note": "Cupid eSports is not named in the author's confirmed 2027 NACL departures list; excluded from the active roster for exact-8 consistency and treated the same as other removed-organization players. Flagged for author review."
-    },
-    {
-      "playerId": "external-lol-player-breezy",
-      "nickname": "Breezy",
       "previousTeamId": "external-lol-team-cupid-esports",
       "previousTeamName": "Cupid eSports",
       "league": "NACL",
@@ -625,33 +578,6 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-kryra",
-      "nickname": "KryRa",
-      "previousTeamId": "external-lol-team-disguised",
-      "previousTeamName": "Disguised",
-      "league": "LCS",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-callme",
-      "nickname": "Callme",
-      "previousTeamId": "external-lol-team-disguised",
-      "previousTeamName": "Disguised",
-      "league": "LCS",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-sajed",
-      "nickname": "Sajed",
-      "previousTeamId": "external-lol-team-disguised",
-      "previousTeamName": "Disguised",
-      "league": "LCS",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-lyonz",
       "nickname": "Lyonz",
       "previousTeamId": "external-lol-team-disguised",
@@ -706,15 +632,6 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-jrockets",
-      "nickname": "JRockets",
-      "previousTeamId": "external-lol-team-contingent-esports",
-      "previousTeamName": "Contingent Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-siddywiddy",
       "nickname": "SiddyWiddy",
       "previousTeamId": "external-lol-team-contingent-esports",
@@ -744,15 +661,6 @@
     {
       "playerId": "external-lol-player-tubs",
       "nickname": "Tubs",
-      "previousTeamId": "external-lol-team-contingent-esports",
-      "previousTeamName": "Contingent Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-arbrio",
-      "nickname": "Arbrio",
       "previousTeamId": "external-lol-team-contingent-esports",
       "previousTeamName": "Contingent Esports",
       "league": "NACL",

@@ -3,7 +3,6 @@ import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
 import { ArticleInfobox, ArticleLink, ArticleSection, Facts, ParticipantsGrid, WikiArticle, WikiTable } from "./WikiArticle";
-import { FictionalWorldNotice } from "./ExternalArticles";
 import { formatDate } from "@/lib/formatting/date";
 
 const sections = [
@@ -53,8 +52,8 @@ export function TournamentArticle({ tournament, regionalField2027 }: { tournamen
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
       {regionalField2027 ? <>
-        <FictionalWorldNotice />
         <ParticipantsGrid caption="Participants (2027)" empty="No active teams recorded."
+          columns={4}
           teams={regionalField2027.map((team, index) => ({ key: String(index), name: team.name, href: team.href, logo: team.logo }))} />
       </> : <ParticipantsGrid caption="Participants" empty="No confirmed participants recorded."
         teams={tournament.participants.map((team) => ({ key: team.id, name: team.name, href: `/wiki/teams/${team.slug}` }))} />}

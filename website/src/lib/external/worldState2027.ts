@@ -147,6 +147,16 @@ function validateLcsRosters(rosters: LcsRosters2027, membership: LeagueRegionalM
     retiredIds.add(retirement.playerId);
     if (starterIds.has(retirement.playerId)) throw new Error(`Player is both a 2027 LCS starter and retired: ${retirement.playerId}`);
   }
+  const lineupTeamIds = new Set(rosters.teams.map((team) => team.teamId));
+  for (const departure of rosters.departures) {
+    if (!starterIds.has(departure.playerId) && !retiredIds.has(departure.playerId)) throw new Error(`Departure for a player with no 2027 assignment or retirement: ${departure.playerId}`);
+    if (departure.destinationTeamId === departure.teamId) throw new Error(`Departure matches the destination team: ${departure.playerId}`);
+    const stillStarts = rosters.teams.find((team) => team.teamId === departure.teamId)?.starters.some((starter) => starter.playerId === departure.playerId);
+    if (stillStarts) throw new Error(`Departed player is still an active starter on the previous team: ${departure.playerId}`);
+  }
+  for (const vacancy of rosters.vacancies) {
+    if (lineupTeamIds.has(vacancy.teamId)) throw new Error(`Vacancy listed for a team with a confirmed full lineup: ${vacancy.teamId}`);
+  }
   for (const player of freeAgents.players) {
     if (starterIds.has(player.playerId) || retiredIds.has(player.playerId)) {
       throw new Error(`Player has a current free-agent status that contradicts a confirmed 2027 assignment: ${player.playerId}`);

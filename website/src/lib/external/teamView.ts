@@ -58,8 +58,14 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, lcs20
       teamSlug: team.slug,
     };
   });
-  const activeRoster = roster2027 ? starters2027 : roster;
-  const formerRoster = roster2027 ? roster.filter((entry) => !starterIds.has(entry.playerId)) : [];
+  const departures = (lcs2027?.departures ?? []).filter((entry) => entry.teamId === team.id);
+  const departedIds = new Set(departures.map((entry) => entry.playerId));
+  const activeRoster = roster2027 ? starters2027 : roster.filter((entry) => !departedIds.has(entry.playerId));
+  const formerRoster = roster2027 ? roster.filter((entry) => !starterIds.has(entry.playerId)) : roster.filter((entry) => departedIds.has(entry.playerId));
+  const departureEntries = departures.map((entry) => ({
+    id: `${team.id}-2027-${entry.playerId}`, date: lcs2027!.confirmedBy,
+    text: entry.reason === "retired" ? `${entry.nickname} is confirmed retired for 2027.` : `${entry.nickname} is confirmed with ${entry.destinationTeamName} for 2027.`,
+  }));
   return {
     id: team.id,
     slug: team.slug,
@@ -92,6 +98,7 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, lcs20
     transactions: [
       { id: `${team.id}-observed`, date: event.eventEndDate, text: `Roster observed at ${event.title}.` },
       ...(roster2027 ? [{ id: `${team.id}-2027-lineup`, date: lcs2027!.confirmedBy, text: "2027 starting lineup confirmed." }] : []),
+      ...departureEntries,
     ],
     relatedEpisodes: [],
     sources,

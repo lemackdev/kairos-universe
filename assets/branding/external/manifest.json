@@ -1,6 +1,6 @@
 {
-  "source": "Wikipedia / Wikimedia Commons, fetched via MediaWiki API for non-commercial identification use on Kairospedia real-world reference pages.",
-  "fetchedDate": "2026-10-31",
+  "source": "Wikipedia / Wikimedia Commons for the listed community-sourced marks; official club press kit where specified.",
+  "fetchedDate": "2026-11-05",
   "logos": [
     {
       "slug": "external-anyone-s-legend",
@@ -169,6 +169,14 @@
       "name": "LOUD",
       "file": "external-loud.png",
       "wikiPage": "https://en.wikipedia.org/wiki/Loud_(esports)"
+    },
+    {
+      "slug": "external-lyon",
+      "name": "LYON",
+      "file": "external-lyon.png",
+      "wikiPage": "https://lyon.gg/",
+      "sourceUrl": "https://lyon.gg/",
+      "note": "Official dark-background isotype from the LYON media kit."
     },
     {
       "slug": "external-maryville-university",

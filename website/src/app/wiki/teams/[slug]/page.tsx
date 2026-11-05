@@ -41,6 +41,8 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
         ? <p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) organization. Its 2027 starting lineup was confirmed as of {formatDate(catalog.worldState2027!.lcsRosters.confirmedBy)}; no signing dates or contract terms are established. The roster observed at the {event.title}, which ended {formatDate(event.eventEndDate)}, is retained as the 2026 reference. <Link href="/wiki/world">Scope and source limitations</Link>.</p>
         : <p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) roster referenced in Kairospedia&rsquo;s pre-Worlds 2026 real-world reference collection. Roster membership reflects the {event.title}, which ended {formatDate(event.eventEndDate)}; it is not a live roster, a current contract list, or a Kairos narrative event. <Link href="/wiki/world">Scope and source limitations</Link>.</p>}
       extraFacts={regionalStatus ? [
+        ...(catalog.worldState2027?.lcsRosters.vacancies.some((entry) => entry.teamId === reference.id)
+          ? [{ label: "2027 vacant positions", value: catalog.worldState2027.lcsRosters.vacancies.filter((entry) => entry.teamId === reference.id).map((entry) => entry.role).join(", ") + " (replacements not yet confirmed)" }] : []),
         ...(catalog.worldState2027?.lcsRosters.teams.some((entry) => entry.teamId === reference.id) ? [{ label: "2027 starting lineup", value: `Confirmed ${formatDate(catalog.worldState2027.lcsRosters.confirmedBy)}` }] : []),
         { label: "2027 competitive status", value: regionalStatus.active ? `Active ${regionalStatus.league} 2027 participant` : "Inactive / not participating" },
         ...(regionalStatus.active ? [] : [

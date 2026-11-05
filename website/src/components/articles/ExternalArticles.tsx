@@ -53,6 +53,7 @@ export function ExternalPlayerArticle({ player, scene, worldState }: { player: S
   const freeAgent = findFreeAgent(worldState, player.id);
   const assignment = findLcsAssignment(worldState, player.id);
   const retirement = findRetirement(worldState, player.id);
+  const supersededTenures = (worldState?.lcsRosters.departures ?? []).filter((entry) => entry.playerId === player.id);
   const previousTeam = freeAgent ? scene.teams.find((t) => t.id === freeAgent.previousTeamId) : null;
   return <WikiArticle title={player.nickname} kind="Players" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.slice(0, 2)} groups={[
     { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Legal name", value: "Unknown" },
@@ -77,10 +78,13 @@ export function ExternalPlayerArticle({ player, scene, worldState }: { player: S
     <ReferenceNotice />
     <ArticleSection id="overview" title="Overview"><p>{player.nickname} appears in the source tournament roster lists below. This page does not assert a current club, age, or full career history.</p></ArticleSection>
     <ArticleSection id="background-information" title="Background Information"><p>Personal biography, nationality, residence, date of birth, contract details and captaincy have not been researched in this import.</p></ArticleSection>
-    <ArticleSection id="team-history" title="Team History"><WikiTable caption="Observed tournament memberships, not dated contracts" columns={["Team", "League", "Role", "Listing", "Tournament ended"]} rows={tenures.map((tenure) => {
+    <ArticleSection id="team-history" title="Team History"><WikiTable caption="Observed tournament memberships, not dated contracts" columns={["Team", "League", "Role", "Listing", "Tournament ended"]} rows={[...tenures.map((tenure) => {
       const team = scene.teams.find((t) => t.id === tenure.teamId)!;
-      return { key: tenure.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.league, roleLabels[tenure.role], tenure.designation, formatDate(tenure.observedAtEventEnd)] };
-    })} empty="No source-backed history imported." /></ArticleSection>
+      const superseded = supersededTenures.some((entry) => entry.tenureId === tenure.id);
+      return { key: tenure.id, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.league, roleLabels[tenure.role], superseded ? `${tenure.designation} (2026, superseded)` : tenure.designation, formatDate(tenure.observedAtEventEnd)] };
+    }),
+    ...(assignment ? [{ key: "2027", cells: [<Link key="team" href={`/wiki/teams/${assignment.team.teamId.replace(/^external-lol-team-/, "external-")}`}>{assignment.team.name}</Link>, "LCS", roleLabels[assignment.starter.role], "2027 starter", formatDate(worldState!.lcsRosters.confirmedBy)] }] : []),
+    ...(retirement ? [{ key: "2027-retired", cells: ["Retired", "—", roleLabels[retirement.previousRole], "2027 status", formatDate(worldState!.lcsRosters.confirmedBy)] }] : [])]} empty="No source-backed history imported." /></ArticleSection>
     <ArticleSection id="trivia" title="Trivia"><p>No trivia imported.</p></ArticleSection>
     <ArticleSection id="individual-awards" title="Individual Awards"><p>Awards have not been imported. This does not mean the player has none.</p></ArticleSection>
     <ArticleSection id="tournament-results" title="Tournament Results"><p>Results and statistics have not been imported. Roster membership alone does not establish games played or placement.</p></ArticleSection>

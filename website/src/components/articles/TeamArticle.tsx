@@ -26,7 +26,8 @@ const northAmerica = new Set(["United States", "Canada"]);
 
 function locationWithFlag(location: { city: string; region: string; country: string }) {
   const code = countryFlags[location.country];
-  const label = [location.city, location.region, location.country].filter((part) => part && part !== "TBD").join(", ") || "TBD";
+  const label = [location.city, location.region, ...(northAmerica.has(location.country) ? [] : [location.country])]
+    .filter((part) => part && part !== "TBD").join(", ") || "TBD";
   return <span style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem" }}>
     {code && <Image src={`/flags/${code}.png`} width={24} height={18} unoptimized alt="" />}
     {label}
@@ -39,7 +40,7 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
   team: TeamView; organization?: TeamOrganization; banner?: ReactNode; logo?: ReactNode; overview?: ReactNode; external?: boolean;
   extraFacts?: Array<{ label: string; value: ReactNode }>;
 }) {
-  const region = northAmerica.has(team.trainingLocation.country) ? "North America" : team.trainingLocation.country;
+  const region = northAmerica.has(team.trainingLocation.country) ? "NA" : team.trainingLocation.country;
   const facts = [
     { label: "Org Location", value: organization ? locationWithFlag(organization.headquarters ?? team.trainingLocation) : "TBD" },
     { label: "Team Location", value: locationWithFlag(team.trainingLocation) },

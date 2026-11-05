@@ -115,6 +115,29 @@ export interface AddedPlayer2027 {
   notes: string[];
 }
 
+export interface Departure2027 {
+  playerId: string;
+  nickname: string;
+  teamId: string;
+  teamName: string;
+  league: string;
+  role: RosterRole2027;
+  designation: "main" | "substitute";
+  tenureId: string;
+  reason: "transferred" | "retired";
+  destinationTeamId?: string;
+  destinationTeamName?: string;
+}
+
+export interface Vacancy2027 {
+  teamId: string;
+  teamName: string;
+  league: string;
+  role: RosterRole2027;
+  formerPlayerId: string;
+  formerNickname: string;
+}
+
 export interface LcsRosters2027 {
   continuityId: "kairos-universe";
   originType: "fictional";
@@ -125,6 +148,8 @@ export interface LcsRosters2027 {
   addedPlayers: AddedPlayer2027[];
   teams: LcsTeamRoster2027[];
   retirements: Retirement2027[];
+  departures: Departure2027[];
+  vacancies: Vacancy2027[];
 }
 
 export interface CounterStrikeRosterFreeze2027 {

@@ -3,6 +3,7 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { repositoryRoot } from "@/lib/canon/paths";
 import { loadExternalScene } from "@/lib/external/scene";
+import { sceneTeamToTeamView } from "@/lib/external/teamView";
 import { loadWorldState2027 } from "@/lib/external/worldState2027";
 
 const worldState = loadWorldState2027();
@@ -69,5 +70,61 @@ describe("Counter-Strike 2 external roster freeze", () => {
     expect(csRosterFreeze.preservedKairosRosters["kairos-cs-main"]).toHaveLength(5);
     expect(csRosterFreeze.preservedKairosRosters["kairos-cs-academy"]).toHaveLength(5);
     expect(major.participantTeamIds ?? []).toEqual([]);
+  });
+});
+
+describe("2027 roster reconciliation", () => {
+  const views = scene.teams.map((team) => ({ team, view: sceneTeamToTeamView(team, scene, lcsRosters) }));
+  const assigned = new Set([
+    ...lcsRosters.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
+    ...lcsRosters.retirements.map((retirement) => retirement.playerId),
+  ]);
+
+  it("derives departures from the 2026 tenures of every reassigned or retired player", () => {
+    const destination = new Map(lcsRosters.teams.flatMap((team) => team.starters.map((starter) => [starter.playerId, team.teamId] as const)));
+    const expected = scene.rosterTenures
+      .filter((tenure) => assigned.has(tenure.playerId) && destination.get(tenure.playerId) !== tenure.teamId)
+      .map((tenure) => tenure.id).sort();
+    expect(lcsRosters.departures.map((entry) => entry.tenureId).sort()).toEqual(expected);
+  });
+
+  it("keeps every reassigned or retired player active on at most one team and retirees on none", () => {
+    const retiredIds = new Set(lcsRosters.retirements.map((entry) => entry.playerId));
+    const appearances = new Map<string, number>();
+    for (const { view } of views) for (const entry of view.roster) appearances.set(entry.playerId, (appearances.get(entry.playerId) ?? 0) + 1);
+    for (const playerId of assigned) {
+      const count = appearances.get(playerId) ?? 0;
+      expect(count).toBeLessThanOrEqual(1);
+      if (retiredIds.has(playerId)) expect(count).toBe(0);
+    }
+    for (const team of lcsRosters.teams.filter((entry) => !entry.internal)) {
+      expect(views.find((entry) => entry.team.id === team.teamId)!.view.roster).toHaveLength(5);
+    }
+  });
+
+  it("moves departed players to the former list without deleting their 2026 tenures", () => {
+    for (const departure of lcsRosters.departures) {
+      const { team, view } = views.find((entry) => entry.team.id === departure.teamId)!;
+      expect(view.roster.some((entry) => entry.playerId === departure.playerId)).toBe(false);
+      expect(view.formerRoster.some((entry) => entry.playerId === departure.playerId)).toBe(true);
+      expect(team.rosterTenureIds).toContain(departure.tenureId);
+    }
+  });
+
+  it("leaves vacancies empty and only on teams without a confirmed lineup", () => {
+    const lineupIds = new Set(lcsRosters.teams.map((team) => team.teamId));
+    expect(lcsRosters.vacancies.length).toBeGreaterThan(0);
+    for (const vacancy of lcsRosters.vacancies) {
+      expect(lineupIds.has(vacancy.teamId)).toBe(false);
+      const { view } = views.find((entry) => entry.team.id === vacancy.teamId)!;
+      expect(view.roster.some((entry) => entry.role === vacancy.role && scene.rosterTenures.find((t) => t.playerId === entry.playerId && t.teamId === vacancy.teamId)?.designation === "main")).toBe(false);
+    }
+  });
+
+  it("does not touch Kairos League or Counter-Strike team records", () => {
+    for (const id of ["kairos-lol-main", "kairos-lol-academy-blue", "kairos-lol-academy-white", "kairos-cs-main", "kairos-cs-academy"]) {
+      expect(lcsRosters.departures.some((entry) => entry.teamId === id)).toBe(false);
+      expect(lcsRosters.vacancies.some((entry) => entry.teamId === id)).toBe(false);
+    }
   });
 });

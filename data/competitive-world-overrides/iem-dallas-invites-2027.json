@@ -1,0 +1,82 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-iem-dallas-invites"
+  ],
+  "competitionId": "iem-dallas-2027",
+  "competitionSlug": "iem-dallas-2027",
+  "status": "invited",
+  "expectedTeamCount": 16,
+  "inviteDate": null,
+  "teams": [
+    {
+      "teamId": "external-cs-team-team-vitality",
+      "name": "Team Vitality"
+    },
+    {
+      "teamId": "external-cs-team-spirit",
+      "name": "Spirit"
+    },
+    {
+      "teamId": "external-cs-team-mouz",
+      "name": "MOUZ"
+    },
+    {
+      "teamId": "external-cs-team-furia",
+      "name": "FURIA"
+    },
+    {
+      "teamId": "external-cs-team-falcons",
+      "name": "Falcons"
+    },
+    {
+      "teamId": "external-cs-team-aurora",
+      "name": "Aurora"
+    },
+    {
+      "teamId": "external-cs-team-natus-vincere",
+      "name": "Natus Vincere"
+    },
+    {
+      "teamId": "external-cs-team-g2-esports",
+      "name": "G2 Esports"
+    },
+    {
+      "teamId": "external-cs-team-faze",
+      "name": "FaZe"
+    },
+    {
+      "teamId": "external-cs-team-astralis",
+      "name": "Astralis"
+    },
+    {
+      "teamId": "external-cs-team-bc-game",
+      "name": "BC.Game"
+    },
+    {
+      "teamId": "external-cs-team-team-liquid",
+      "name": "Team Liquid"
+    },
+    {
+      "teamId": "external-cs-team-m80",
+      "name": "M80"
+    },
+    {
+      "teamId": "external-cs-team-mibr",
+      "name": "MIBR"
+    },
+    {
+      "teamId": "external-cs-team-pain-gaming",
+      "name": "paiN Gaming"
+    },
+    {
+      "teamId": "external-cs-team-legacy",
+      "name": "Legacy"
+    }
+  ],
+  "notEstablished": [
+    "Format, groups, seeding, schedule of matches, results, standings and qualification are not established."
+  ]
+}

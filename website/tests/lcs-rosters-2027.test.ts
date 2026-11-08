@@ -33,8 +33,10 @@ describe("2027 LCS rosters", () => {
     expect(lcsRosters.addedPlayers[0]!.dateOfBirth).toBe("2001-12-14");
   });
 
-  it("records exactly twelve retirements and keeps them out of lineups and free agency", () => {
-    expect(lcsRosters.retirements).toHaveLength(12);
+  it("records exactly eleven retirements (Loki's retirement was reversed) and keeps them out of lineups and free agency", () => {
+    expect(lcsRosters.retirements).toHaveLength(11);
+    expect(lcsRosters.retirements.some((entry) => entry.playerId === "external-lol-player-loki")).toBe(false);
+    expect(lcsRosters.departures.some((entry) => entry.playerId === "external-lol-player-loki")).toBe(false);
     const starterIds = new Set(lcsRosters.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)));
     const freeAgentIds = new Set(freeAgents.players.map((player) => player.playerId));
     for (const retirement of lcsRosters.retirements) {

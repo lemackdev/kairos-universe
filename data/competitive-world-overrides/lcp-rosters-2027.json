@@ -1,0 +1,736 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "league": "LCP",
+  "sourceIds": [
+    "source-canon-directive-2027-lck-lcp-rosters"
+  ],
+  "confirmedBy": null,
+  "confirmedPeriod": "2027 season reconstruction; no exact collective announcement date has been approved",
+  "displayPeriod": "2027 season (exact date not established)",
+  "disclaimer": "Kairos Universe fictional speculation layered on top of the frozen pre-Worlds 2026 real-world-sourced reference scene (external-data/pre-worlds-2026). Every player below is the same real-world-referenced person documented there (or, for added identities, in the cited Leaguepedia snapshot or named by the author); only their Kairos Universe 2027 fictional roster, retirement, or market status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No announcement date, signing date, contract term, salary, or rating is established; former-team Left dates are intentionally left unknown.",
+  "addedPlayers": [
+    {
+      "playerId": "external-lol-player-popp",
+      "slug": "external-popp",
+      "nickname": "Popp",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-yuhe",
+      "slug": "external-yuhe",
+      "nickname": "Yuhe",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-leaky",
+      "slug": "external-leaky",
+      "nickname": "Leaky",
+      "legalName": "Chang Tsu-Chia",
+      "nationality": "Taiwan",
+      "dateOfBirth": "2000-12-02",
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "Leaky - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Leaky"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "CTBC Flying Oyster Academy",
+          "role": "jungle",
+          "joinedDate": "2026-07-15",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No contract or other status is asserted beyond the author-confirmed 2027 status.",
+        "The snapshot lists Leaky as Jungle and Head Coach of CTBC Flying Oyster Academy; the author-confirmed 2027 assignment is GAM Esports starting Jungle. No coaching change is asserted."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-chain1",
+      "slug": "external-chain1",
+      "nickname": "Chain1",
+      "legalName": "Chen Sih-Han",
+      "nationality": "Taiwan",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "Chain1 - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Chain1"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "Ground Zero Academy",
+          "role": "mid",
+          "joinedDate": "2026-04-23",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No contract or other status is asserted beyond the author-confirmed 2027 status."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-hitzo",
+      "slug": "external-hitzo",
+      "nickname": "Hitzo",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "external-lol-team-ctbc-flying-oyster",
+      "name": "CTBC Flying Oyster",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-rest",
+          "nickname": "Rest"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-draktharr",
+          "nickname": "Draktharr"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-uniboy",
+          "nickname": "Uniboy"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-harky",
+          "nickname": "Harky"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-kino",
+          "nickname": "Kino"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-deep-cross-gaming",
+      "name": "Deep Cross Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-flauren",
+          "nickname": "Flauren"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-popp",
+          "nickname": "Popp"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-yuhe",
+          "nickname": "Yuhe"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-feng",
+          "nickname": "Feng"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-shiauc",
+          "nickname": "ShiauC"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-detonation-focusme",
+      "name": "DetonatioN FocusMe",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-momo",
+          "nickname": "Momo"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-shad0w",
+          "nickname": "Shad0w"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-samikin",
+          "nickname": "SamiKin"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-kakkun",
+          "nickname": "Kakkun"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-woody",
+          "nickname": "Woody"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-gam-esports",
+      "name": "GAM Esports",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-fudge",
+          "nickname": "Fudge"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-leaky",
+          "nickname": "Leaky"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-gloryy",
+          "nickname": "Gloryy"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-doggo",
+          "nickname": "Doggo"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-taki",
+          "nickname": "Taki"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-ground-zero-gaming",
+      "name": "Ground Zero Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-1jiang",
+          "nickname": "1Jiang"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-husha",
+          "nickname": "Husha"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-dire",
+          "nickname": "Dire"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-betty",
+          "nickname": "Betty"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-kaiwing",
+          "nickname": "Kaiwing"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-mvk-esports",
+      "name": "MVK Esports",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-kratos",
+          "nickname": "Kratos"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-gury",
+          "nickname": "Gury"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-chika",
+          "nickname": "Chika"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-artemis",
+          "nickname": "Artemis"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-isles",
+          "nickname": "Isles"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-softbank-hawks-gaming",
+      "name": "SoftBank HAWKS gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-kiaya",
+          "nickname": "Kiaya"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-junjia",
+          "nickname": "JunJia"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-chain1",
+          "nickname": "Chain1"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-marble",
+          "nickname": "Marble"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-cryogen",
+          "nickname": "Cryogen"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-secret-whales",
+      "name": "Secret Whales",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-pun",
+          "nickname": "Pun"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-hitzo",
+          "nickname": "Hitzo"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-aadam",
+          "nickname": "aadam"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-eddie",
+          "nickname": "Eddie"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-bie",
+          "nickname": "Bie"
+        }
+      ]
+    }
+  ],
+  "pendingIdentities": [],
+  "retirements": [
+    {
+      "playerId": "external-lol-player-pout",
+      "nickname": "Pout",
+      "previousTeamId": "external-lol-team-ctbc-flying-oyster",
+      "previousTeamName": "CTBC Flying Oyster",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hongsuo",
+      "nickname": "HongSuo",
+      "previousTeamId": "external-lol-team-deep-cross-gaming",
+      "previousTeamName": "Deep Cross Gaming",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-citrus",
+      "nickname": "Citrus",
+      "previousTeamId": "external-lol-team-detonation-focusme",
+      "previousTeamName": "DetonatioN FocusMe",
+      "previousRole": "jungle",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-fisher",
+      "nickname": "Fisher",
+      "previousTeamId": "external-lol-team-detonation-focusme",
+      "previousTeamName": "DetonatioN FocusMe",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-van1",
+      "nickname": "van1",
+      "previousTeamId": "external-lol-team-softbank-hawks-gaming",
+      "previousTeamName": "SoftBank HAWKS gaming",
+      "previousRole": "jungle",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-aria",
+      "nickname": "Aria",
+      "previousTeamId": "external-lol-team-softbank-hawks-gaming",
+      "previousTeamName": "SoftBank HAWKS gaming",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-vsta",
+      "nickname": "Vsta",
+      "previousTeamId": "external-lol-team-softbank-hawks-gaming",
+      "previousTeamName": "SoftBank HAWKS gaming",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-siuloong",
+      "nickname": "SiuLoong",
+      "previousTeamId": "external-lol-team-mvk-esports",
+      "previousTeamName": "MVK Esports",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-evi",
+      "nickname": "Evi",
+      "previousTeamId": "external-lol-team-softbank-hawks-gaming",
+      "previousTeamName": "SoftBank HAWKS gaming",
+      "previousRole": "top",
+      "status": "retired"
+    }
+  ],
+  "departures": [
+    {
+      "playerId": "external-lol-player-draktharr",
+      "nickname": "Draktharr",
+      "teamId": "external-lol-team-gam-esports",
+      "teamName": "GAM Esports",
+      "league": "LCP",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-gam-esports-draktharr-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-ctbc-flying-oyster",
+      "destinationTeamName": "CTBC Flying Oyster"
+    },
+    {
+      "playerId": "external-lol-player-uniboy",
+      "nickname": "Uniboy",
+      "teamId": "external-lol-team-ground-zero-gaming",
+      "teamName": "Ground Zero Gaming",
+      "league": "LCP",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ground-zero-gaming-uniboy-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-ctbc-flying-oyster",
+      "destinationTeamName": "CTBC Flying Oyster"
+    },
+    {
+      "playerId": "external-lol-player-harky",
+      "nickname": "Harky",
+      "teamId": "external-lol-team-mvk-esports",
+      "teamName": "MVK Esports",
+      "league": "LCP",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-mvk-esports-harky-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-ctbc-flying-oyster",
+      "destinationTeamName": "CTBC Flying Oyster"
+    },
+    {
+      "playerId": "external-lol-player-shad0w",
+      "nickname": "Shad0w",
+      "teamId": "external-lol-team-ctbc-flying-oyster",
+      "teamName": "CTBC Flying Oyster",
+      "league": "LCP",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ctbc-flying-oyster-shad0w-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-detonation-focusme",
+      "destinationTeamName": "DetonatioN FocusMe"
+    },
+    {
+      "playerId": "external-lol-player-samikin",
+      "nickname": "Samikin",
+      "teamId": "external-lol-team-winthrop-university",
+      "teamName": "Winthrop University",
+      "league": "NACL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-winthrop-university-samikin-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-detonation-focusme",
+      "destinationTeamName": "DetonatioN FocusMe"
+    },
+    {
+      "playerId": "external-lol-player-fudge",
+      "nickname": "Fudge",
+      "teamId": "external-lol-team-shopify-rebellion",
+      "teamName": "Shopify Rebellion",
+      "league": "LCS",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-shopify-rebellion-fudge-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-gam-esports",
+      "destinationTeamName": "GAM Esports"
+    },
+    {
+      "playerId": "external-lol-player-doggo",
+      "nickname": "Doggo",
+      "teamId": "external-lol-team-ctbc-flying-oyster",
+      "teamName": "CTBC Flying Oyster",
+      "league": "LCP",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ctbc-flying-oyster-doggo-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-gam-esports",
+      "destinationTeamName": "GAM Esports"
+    },
+    {
+      "playerId": "external-lol-player-dire",
+      "nickname": "Dire",
+      "teamId": "external-lol-team-secret-whales",
+      "teamName": "Secret Whales",
+      "league": "LCP",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-secret-whales-dire-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-ground-zero-gaming",
+      "destinationTeamName": "Ground Zero Gaming"
+    },
+    {
+      "playerId": "external-lol-player-artemis",
+      "nickname": "Artemis",
+      "teamId": "external-lol-team-gam-esports",
+      "teamName": "GAM Esports",
+      "league": "LCP",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-gam-esports-artemis-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-mvk-esports",
+      "destinationTeamName": "MVK Esports"
+    },
+    {
+      "playerId": "external-lol-player-isles",
+      "nickname": "Isles",
+      "teamId": "external-lol-team-lyon",
+      "teamName": "LYON",
+      "league": "LCS",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lyon-isles-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-mvk-esports",
+      "destinationTeamName": "MVK Esports"
+    },
+    {
+      "playerId": "external-lol-player-kiaya",
+      "nickname": "Kiaya",
+      "teamId": "external-lol-team-gam-esports",
+      "teamName": "GAM Esports",
+      "league": "LCP",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-gam-esports-kiaya-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-softbank-hawks-gaming",
+      "destinationTeamName": "SoftBank HAWKS gaming"
+    },
+    {
+      "playerId": "external-lol-player-junjia",
+      "nickname": "JunJia",
+      "teamId": "external-lol-team-jd-gaming",
+      "teamName": "JD Gaming",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-jd-gaming-junjia-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-softbank-hawks-gaming",
+      "destinationTeamName": "SoftBank HAWKS gaming"
+    },
+    {
+      "playerId": "external-lol-player-cryogen",
+      "nickname": "Cryogen",
+      "teamId": "external-lol-team-flyquest",
+      "teamName": "FlyQuest",
+      "league": "LCS",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-flyquest-cryogen-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-softbank-hawks-gaming",
+      "destinationTeamName": "SoftBank HAWKS gaming"
+    },
+    {
+      "playerId": "external-lol-player-aadam",
+      "nickname": "Aadam",
+      "teamId": "external-lol-team-dorado-gaming",
+      "teamName": "Dorado Gaming",
+      "league": "NACL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-dorado-gaming-aadam-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-secret-whales",
+      "destinationTeamName": "Secret Whales"
+    },
+    {
+      "playerId": "external-lol-player-pout",
+      "nickname": "Pout",
+      "teamId": "external-lol-team-ctbc-flying-oyster",
+      "teamName": "CTBC Flying Oyster",
+      "league": "LCP",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ctbc-flying-oyster-pout-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hongsuo",
+      "nickname": "HongSuo",
+      "teamId": "external-lol-team-deep-cross-gaming",
+      "teamName": "Deep Cross Gaming",
+      "league": "LCP",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-deep-cross-gaming-hongsuo-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-citrus",
+      "nickname": "Citrus",
+      "teamId": "external-lol-team-detonation-focusme",
+      "teamName": "DetonatioN FocusMe",
+      "league": "LCP",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-detonation-focusme-citrus-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-fisher",
+      "nickname": "Fisher",
+      "teamId": "external-lol-team-detonation-focusme",
+      "teamName": "DetonatioN FocusMe",
+      "league": "LCP",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-detonation-focusme-fisher-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-van1",
+      "nickname": "van1",
+      "teamId": "external-lol-team-softbank-hawks-gaming",
+      "teamName": "SoftBank HAWKS gaming",
+      "league": "LCP",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-softbank-hawks-gaming-van1-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-aria",
+      "nickname": "Aria",
+      "teamId": "external-lol-team-softbank-hawks-gaming",
+      "teamName": "SoftBank HAWKS gaming",
+      "league": "LCP",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-softbank-hawks-gaming-aria-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-vsta",
+      "nickname": "Vsta",
+      "teamId": "external-lol-team-softbank-hawks-gaming",
+      "teamName": "SoftBank HAWKS gaming",
+      "league": "LCP",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-softbank-hawks-gaming-vsta-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-siuloong",
+      "nickname": "SiuLoong",
+      "teamId": "external-lol-team-mvk-esports",
+      "teamName": "MVK Esports",
+      "league": "LCP",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-mvk-esports-siuloong-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-evi",
+      "nickname": "Evi",
+      "teamId": "external-lol-team-softbank-hawks-gaming",
+      "teamName": "SoftBank HAWKS gaming",
+      "league": "LCP",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-softbank-hawks-gaming-evi-pre-worlds-2026-domestic",
+      "reason": "retired"
+    }
+  ],
+  "vacancies": [],
+  "outgoing": [],
+  "marketAvailability": []
+}

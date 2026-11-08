@@ -347,14 +347,6 @@
   ],
   "retirements": [
     {
-      "playerId": "external-lol-player-loki",
-      "nickname": "Loki",
-      "previousTeamId": "external-lol-team-cloud9",
-      "previousTeamName": "Cloud9",
-      "previousRole": "mid",
-      "status": "retired"
-    },
-    {
       "playerId": "external-lol-player-ignar",
       "nickname": "IgNar",
       "previousTeamId": "external-lol-team-dignitas",
@@ -475,17 +467,6 @@
       "reason": "transferred",
       "destinationTeamId": "external-lol-team-lyon",
       "destinationTeamName": "LYON"
-    },
-    {
-      "playerId": "external-lol-player-loki",
-      "nickname": "Loki",
-      "teamId": "external-lol-team-cloud9",
-      "teamName": "Cloud9",
-      "league": "LCS",
-      "role": "mid",
-      "designation": "main",
-      "tenureId": "external-lol-tenure-cloud9-loki-pre-worlds-2026-domestic",
-      "reason": "retired"
     },
     {
       "playerId": "external-lol-player-vulcan",
@@ -936,14 +917,6 @@
   ],
   "vacancies": [
     {
-      "teamId": "external-lol-team-karmine-corp",
-      "teamName": "Karmine Corp",
-      "league": "LEC",
-      "role": "support",
-      "formerPlayerId": "external-lol-player-busio",
-      "formerNickname": "Busio"
-    },
-    {
       "teamId": "external-lol-team-maryville-university",
       "teamName": "Maryville University",
       "league": "NACL",
@@ -958,14 +931,6 @@
       "role": "top",
       "formerPlayerId": "external-lol-player-crimson",
       "formerNickname": "Crimson"
-    },
-    {
-      "teamId": "external-lol-team-movistar-koi",
-      "teamName": "Movistar KOI",
-      "league": "LEC",
-      "role": "mid",
-      "formerPlayerId": "external-lol-player-jojopyun",
-      "formerNickname": "Jojopyun"
     },
     {
       "teamId": "external-lol-team-nrg",

@@ -1,6 +1,6 @@
 {
   "source": "Wikipedia / Wikimedia Commons for the listed community-sourced marks; official club press kit where specified.",
-  "fetchedDate": "2026-11-05",
+  "fetchedDate": "2026-11-06",
   "logos": [
     {
       "slug": "external-anyone-s-legend",
@@ -87,6 +87,13 @@
       "wikiPage": "https://en.wikipedia.org/wiki/Fnatic"
     },
     {
+      "slug": "external-fluxo-w7m",
+      "name": "Fluxo W7M",
+      "file": "external-fluxo-w7m.png",
+      "wikiPage": "https://liquipedia.net/leagueoflegends/Fluxo_W7M",
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Fluxo_W7M_Dec_2025_allmode.png"
+    },
+    {
       "slug": "external-furia",
       "name": "FURIA",
       "file": "external-furia.png",
@@ -147,6 +154,13 @@
       "wikiPage": "https://en.wikipedia.org/wiki/Karmine_Corp"
     },
     {
+      "slug": "external-keyd-stars",
+      "name": "Keyd Stars",
+      "file": "external-keyd-stars.png",
+      "wikiPage": "https://liquipedia.net/leagueoflegends/Keyd_Stars",
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Keyd_Stars_2022_full_lightmode.png"
+    },
+    {
       "slug": "external-kt-rolster",
       "name": "KT Rolster",
       "wikiPage": "https://en.wikipedia.org/wiki/KT_Rolster",
@@ -175,8 +189,8 @@
       "name": "LYON",
       "file": "external-lyon.png",
       "wikiPage": "https://lyon.gg/",
-      "sourceUrl": "https://lyon.gg/",
-      "note": "Official dark-background isotype from the LYON media kit."
+      "sourceUrl": "https://static.lolesports.com/teams/1743717443673_isotypelyon-03.png",
+      "note": "Current gold LYON team mark from the official 2026 LoL Esports handbook."
     },
     {
       "slug": "external-maryville-university",
@@ -213,6 +227,13 @@
       "name": "Nongshim RedForce",
       "file": "external-nongshim-redforce.png",
       "wikiPage": "https://en.wikipedia.org/wiki/Nongshim_RedForce"
+    },
+    {
+      "slug": "external-red-canids",
+      "name": "RED Canids",
+      "file": "external-red-canids.png",
+      "wikiPage": "https://liquipedia.net/leagueoflegends/RED_Canids",
+      "sourceUrl": "https://liquipedia.net/commons/images/thumb/3/3b/Red_Canids_allmode.png/900px-Red_Canids_allmode.png"
     },
     {
       "slug": "external-oh-my-god",

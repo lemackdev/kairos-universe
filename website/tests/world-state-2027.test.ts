@@ -106,6 +106,14 @@ describe("2027 League regional restructuring", () => {
     const resolvedIds = new Set([
       ...catalog.worldState2027!.lcsRosters.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
       ...catalog.worldState2027!.lcsRosters.retirements.map((retirement) => retirement.playerId),
+      ...catalog.worldState2027!.lecRosters.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
+      ...catalog.worldState2027!.lecRosters.retirements.map((retirement) => retirement.playerId),
+      ...(catalog.worldState2027!.lecRosters.marketAvailability ?? []).map((entry) => entry.playerId),
+      ...[catalog.worldState2027!.lplRosters, catalog.worldState2027!.cblolRosters, catalog.worldState2027!.lckRosters, catalog.worldState2027!.lcpRosters].flatMap((set) => [
+        ...set.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
+        ...set.retirements.map((retirement) => retirement.playerId),
+        ...(set.marketAvailability ?? []).map((entry) => entry.playerId),
+      ]),
     ]);
     for (const teamIds of Object.values(removed)) {
       for (const teamId of teamIds) {

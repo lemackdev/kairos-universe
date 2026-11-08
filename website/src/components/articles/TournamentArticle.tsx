@@ -21,7 +21,7 @@ const tierLabels: Record<string, string> = {
   "postseason-international": "Postseason International",
 };
 
-export function TournamentArticle({ tournament, regionalField2027 }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null; logo?: ReactNode }> }) {
+export function TournamentArticle({ tournament, regionalField2027, fieldCaption = "Participants (2027)" }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null; logo?: ReactNode }>; fieldCaption?: string }) {
   const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
     { label: "Game", value: tournament.gameName },
@@ -52,7 +52,7 @@ export function TournamentArticle({ tournament, regionalField2027 }: { tournamen
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
       {regionalField2027 ? <>
-        <ParticipantsGrid caption="Participants (2027)" empty="No active teams recorded."
+        <ParticipantsGrid caption={fieldCaption} empty="No active teams recorded."
           columns={4}
           teams={regionalField2027.map((team, index) => ({ key: String(index), name: team.name, href: team.href, logo: team.logo }))} />
       </> : <ParticipantsGrid caption="Participants" empty="No confirmed participants recorded."

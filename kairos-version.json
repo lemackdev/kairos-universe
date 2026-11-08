@@ -1,5 +1,5 @@
 {
-  "canonVersion": "0.15.0",
+  "canonVersion": "0.19.0",
   "project": "Kairos Universe",
   "storyEpisode": 114,
   "storyStartPeriod": "early-2026",
@@ -66,6 +66,10 @@
     "On 2027-01-27 (episode-113), League Tier 1 Stage 1 is revised to 2027-02-15 through 2027-03-14 for LCS, LEC, LCK, LPL, LCP, and CBLOL; the emergency roster registration deadline is 2027-02-12; First Stand 2027 remains 2027-03-20 through 2027-03-28 in Berlin; Tier 2 dates remain unconfirmed.",
     "On 2027-01-26 (episode-112), Kairos Counter-Strike Main (Train 13-8, Nuke 13-10) and Academy (Cache 11-13, Inferno 13-9) play four private practice maps against unnamed independent FACEIT-style groups; none are official matches.",
     "On 2027-01-27 the eight 2027 LCS starting lineups and twelve named retirements are confirmed in the Kairos Universe overlay (data/competitive-world-overrides/lcs-rosters-2027.json); see docs/canon/LCS_ROSTERS_2027.md.",
-    "External Counter-Strike 2 rosters selected by the author are frozen through 2027-05-23; 2027-05-24 is the earliest date the author may initiate changes. See docs/canon/COUNTER_STRIKE_EXTERNAL_ROSTER_FREEZE_2027.md."
+    "External Counter-Strike 2 rosters selected by the author are frozen through 2027-05-23; 2027-05-24 is the earliest date the author may initiate changes. See docs/canon/COUNTER_STRIKE_EXTERNAL_ROSTER_FREEZE_2027.md.",
+    "Eight 2027 LEC starting lineups (40 identified starters), fourteen named LEC retirements, and four players leaving the LEC are registered in the Kairos Universe overlay (data/competitive-world-overrides/lec-rosters-2027.json); no exact announcement date is established. See docs/canon/LEC_ROSTERS_2027.md.",
+    "Eight 2027 LPL and eight 2027 CBLOL starting lineups (80 starters), thirteen LPL and ten CBLOL retirements, and nine LPL players available for the Chinese, Korean and PCS markets are registered in the overlay (data/competitive-world-overrides/lpl-rosters-2027.json and cblol-rosters-2027.json); no exact announcement date is established. See docs/canon/LPL_CBLOL_ROSTERS_2027.md.",
+    "Eight 2027 LCK and eight 2027 LCP starting lineups (80 starters), 32 LCK and 9 LCP retirements are registered in the overlay (data/competitive-world-overrides/lck-rosters-2027.json and lcp-rosters-2027.json). Loki's earlier LCS retirement is reversed (he starts for BRION) and Taeyoon is no longer a free agent (he starts for Nongshim RedForce); no exact announcement date is established. See docs/canon/LCK_LCP_ROSTERS_2027.md.",
+    "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization."
   ]
 }

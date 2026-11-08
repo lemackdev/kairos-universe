@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getCatalog } from "@/lib/canon/server";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { ExternalSources, ReferenceNotice } from "@/components/articles/ExternalArticles";
+import { ExternalSources } from "@/components/articles/ExternalArticles";
 import { WikiTable } from "@/components/articles/WikiArticle";
 import { formatDate } from "@/lib/formatting/date";
 
@@ -75,6 +75,13 @@ export default function WorldPage() {
               <Link key="team" href={`/wiki/teams/${scene?.teams.find((t) => t.id === player.previousTeamId)?.slug ?? ""}`}>{player.previousTeamName}</Link>, player.league, formatDate(player.effectiveDate)],
           }))} empty="No free agents recorded." />
         </section>
+        <section className="contentSection" id="2027-counter-strike">
+          <h3>Counter-Strike 2 external rosters (2027)</h3>
+          <p>{worldState.csExternalRosters.teams.length} external starting fives ({worldState.csExternalRosters.expectedPlayerAssignments} players), based on an HLTV reference snapshot researched {formatDate(worldState.csExternalRosters.referenceSnapshot.researchDate)}. Rosters are frozen through {formatDate(worldState.csRosterFreeze.freezeThrough)}; {formatDate(worldState.csRosterFreeze.earliestLaterChangeDate)} is the earliest author-approved change date and nothing changes automatically. No qualification, ranking or result is established.</p>
+          <WikiTable caption="2027 external Counter-Strike 2 teams" columns={["Team", "HLTV team ID", "Organization"]} rows={worldState.csExternalRosters.teams.map((team) => ({
+            key: team.teamId, cells: [<Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, team.hltvTeamId, team.organizationId ? team.organizationAction === "new-organization-created" ? "New organization" : "Existing organization (shared with League of Legends)" : "Identity awaiting review"],
+          }))} empty="No teams recorded." />
+        </section>
         <section className="contentSection"><h3>Sources</h3><p>Kairos Universe canon record: &ldquo;2027 League of Legends regional restructuring.&rdquo; Regional membership and free-agent status reference the frozen pre-Worlds 2026 reference records below by ID; it does not source or modify them.</p></section>
         </>;
       })()}
@@ -83,7 +90,6 @@ export default function WorldPage() {
     <section className="contentSection" id="2026-reference">
       <h2>Historical reference: Pre-Worlds 2026 snapshot</h2>
       <p>Pre-Worlds 2026 / League of Legends. This is the frozen historical reference the 2027 competitive world above is layered on top of. It is not modified by the 2027 restructuring and remains accurate as a historical record of the competitive world before it.</p>
-      <ReferenceNotice />
       {scene && <>
         <section className="contentSection"><h3>Coverage</h3><p>{scene.teams.length} teams. {scene.players.length} unique players. {scene.rosterTenures.length} roster observations, including substitutes. All participants are included, not only Worlds qualifiers.</p>
           <nav aria-label="Regional references" className="statusRow">{[...new Set(scene.teams.map((t) => t.league))].map((league) => <a className="badge" href={`#${league.toLowerCase()}`} key={league}>{league}</a>)}</nav>

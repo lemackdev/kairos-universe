@@ -33,23 +33,27 @@ catalog.routes.push(...externalRoutes);
 const worldState2027 = loadWorldState2027();
 const knownTeamIds = new Set([...catalog.teams.map((team) => team.id), ...catalog.externalScene.teams.map((team) => team.id)]);
 const knownPlayerIds = new Set(catalog.externalScene.players.map((player) => player.id));
-const addedPlayerIds = new Set(worldState2027.lcsRosters.addedPlayers.map((player) => player.playerId));
+const rosterSets2027 = [worldState2027.lcsRosters, worldState2027.lecRosters, worldState2027.lplRosters, worldState2027.cblolRosters, worldState2027.lckRosters, worldState2027.lcpRosters];
+const addedPlayerIds = new Set(rosterSets2027.flatMap((set) => set.addedPlayers).map((player) => player.playerId));
 const internalPlayerIds = new Set(catalog.players.map((player) => player.id));
-for (const added of worldState2027.lcsRosters.addedPlayers) {
+for (const added of rosterSets2027.flatMap((set) => set.addedPlayers)) {
   if (knownPlayerIds.has(added.playerId)) throw new Error(`2027 added player duplicates an existing external identity: ${added.playerId}`);
   const route = `/wiki/players/${added.slug}`;
   if (catalog.routes.includes(route)) throw new Error(`2027 added player route collides: ${route}`);
   catalog.routes.push(route);
 }
-for (const team of worldState2027.lcsRosters.teams) {
-  if (!knownTeamIds.has(team.teamId)) throw new Error(`2027 LCS roster references unknown team: ${team.teamId}`);
+for (const team of rosterSets2027.flatMap((set) => set.teams)) {
+  if (!knownTeamIds.has(team.teamId)) throw new Error(`2027 roster references unknown team: ${team.teamId}`);
   for (const starter of team.starters) {
     const known = team.internal ? internalPlayerIds.has(starter.playerId) : knownPlayerIds.has(starter.playerId) || addedPlayerIds.has(starter.playerId);
-    if (!known) throw new Error(`2027 LCS roster references unknown player: ${starter.playerId}`);
+    if (!known) throw new Error(`2027 roster references unknown player: ${starter.playerId}`);
   }
 }
-for (const retirement of worldState2027.lcsRosters.retirements) {
-  if (!knownPlayerIds.has(retirement.playerId)) throw new Error(`2027 retirement references unknown player: ${retirement.playerId}`);
+for (const retirement of rosterSets2027.flatMap((set) => set.retirements)) {
+  if (!knownPlayerIds.has(retirement.playerId) && !addedPlayerIds.has(retirement.playerId)) throw new Error(`2027 retirement references unknown player: ${retirement.playerId}`);
+}
+for (const market of rosterSets2027.flatMap((set) => set.marketAvailability ?? [])) {
+  if (!knownPlayerIds.has(market.playerId)) throw new Error(`2027 market availability references unknown player: ${market.playerId}`);
 }
 for (const region of Object.values(worldState2027.membership.regions)) {
   for (const team of [...region.active, ...region.inactive]) {
@@ -65,6 +69,22 @@ for (const league of Object.values(worldState2027.tier2Leagues)) {
     if (team.parentTeamId && !knownTeamIds.has(team.parentTeamId)) throw new Error(`2027 Tier 2 team references unknown parent team: ${team.parentTeamId}`);
   }
 }
+const cs = worldState2027.csExternalRosters;
+const knownOrganizationIds = new Set(catalog.externalScene.organizations.map((org) => org.id));
+const staffIds = new Set(catalog.staff.map((person) => person.id));
+const csPublishedIds = [...cs.organizations.map((org) => org.organizationId), ...cs.teams.map((team) => team.teamId), ...cs.players.map((player) => player.playerId)];
+for (const id of csPublishedIds) {
+  if (canonIds.has(id) || knownTeamIds.has(id) || knownPlayerIds.has(id) || knownOrganizationIds.has(id)) throw new Error(`Counter-Strike external identity collides with an existing identity: ${id}`);
+}
+for (const team of cs.teams) {
+  if (team.organizationId && !knownOrganizationIds.has(team.organizationId) && !cs.organizations.some((org) => org.organizationId === team.organizationId)) throw new Error(`Counter-Strike team references unknown organization: ${team.teamId}`);
+  for (const starter of team.starters) {
+    if (starter.identity === "existing-canon-person" && !staffIds.has(starter.playerId)) throw new Error(`Counter-Strike starter reuses an unknown canon person: ${starter.playerId}`);
+  }
+}
+const csRoutes = [...cs.teams.map((team) => `/wiki/teams/${team.slug}`), ...cs.players.map((player) => `/wiki/players/${player.slug}`), ...cs.organizations.map((org) => `/wiki/organizations/${org.slug}`)];
+if (csRoutes.some((route) => catalog.routes.includes(route)) || new Set(csRoutes).size !== csRoutes.length) throw new Error("Counter-Strike external route collides with an existing route");
+catalog.routes.push(...csRoutes);
 catalog.worldState2027 = worldState2027;
 const tier2Routes = listAllTier2Teams(worldState2027).map((team) => `/wiki/teams/${team.teamId}`);
 if (tier2Routes.some((route) => catalog.routes.includes(route))) throw new Error("Tier 2 team route collides with existing route");

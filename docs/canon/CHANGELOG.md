@@ -1,5 +1,39 @@
 # Canon Changelog
 
+## 0.19.0 - 2027 LCK and LCP rosters, retirements, and corrections
+
+- Registered the author-approved 2027 LCK and LCP starting lineups (8 teams and 40 starters each) as overlay files (`lck-rosters-2027.json`, `lcp-rosters-2027.json`) in the existing 2027 roster mechanism. The LCK directive supersedes all earlier LCK drafts.
+- Registered 32 LCK and 9 LCP retirements. Faker is retired; Diable is retired once. Historical 2026 tenures are preserved and superseded, never edited.
+- Reversed two earlier statuses: Loki's LCS retirement was removed (he starts Mid for BRION; Cloud9's lineup is unchanged) and Taeyoon's free-agent record was cleared (he starts ADC for Nongshim RedForce).
+- TheShy, BuLLDoG, Kael, kyeahoo and Poby moved from the Korean market lists to LCK starting slots; JunJia moved from the LPL market list to SoftBank HAWKS gaming. Burdol and Viper remain unassigned.
+- Twelve overlay identities were added: Chain1, Leaky and retirees Bluffing, Enosh and DDoiV match Leaguepedia records; Quantum, Painter, Popp, Yuhe, Hitzo and retirees Slayer and Pleata are nickname-only with no invented biography.
+- Twelve free-agent records that contradicted confirmed statuses were removed and kept as prior status. No announcement date is established.
+
+## 0.18.0 - 2027 LPL and CBLOL rosters, retirements, and market players
+
+- Registered the author-approved 2027 LPL and CBLOL starting lineups (8 teams and 40 starters each) as overlay files (`lpl-rosters-2027.json`, `cblol-rosters-2027.json`) using the existing 2027 roster mechanism.
+- Registered 13 LPL and 10 CBLOL retirements. Xiaohao, Zdz and Tangyuan stay active. Historical 2026 tenures are preserved and superseded, never edited.
+- Nine LPL players (Keshi, Feather, fengyue, Burdol, TheShy, BuLLDoG, Viper, Kael, JunJia) are available for later Chinese, Korean (LCK) and PCS (LCP) decisions and are not assigned.
+- Nine overlay identities were added: five matched to Leaguepedia records (Brance, Envy, frosty, Grevthar, Leleko) and four named by the author with no source record (Viciun, Telas, Yupps, Netuno); no biography is invented for the latter. JD Gaming Top ZUIAN reuses the existing 2026 record.
+- Free-agent records that contradicted a confirmed 2027 status were removed from `free-agents-2027.json` and kept as prior status on the new records. No announcement date is established.
+
+## 0.17.0 - 2027 external Counter-Strike 2 organizations and rosters
+
+- Imported the author-approved external Counter-Strike 2 rosters from `hltv_team_rosters.xlsx` (HLTV reference snapshot researched 2026-11-06) as a fictional-universe roster directive: 50 teams, 250 starting players, five per team. Chicken Coop (HLTV 13107) is excluded completely. The workbook is unmodified.
+- Reused eleven existing League of Legends organization identities (NRG, FURIA, paiN Gaming, Team Vitality, Natus Vincere, G2 Esports, Team Liquid, Ninjas in Pyjamas, Fnatic, FlyQuest, Fluxo W7M) and created only their separate Counter-Strike team records; 39 new organizations were created. Fluxo (HLTV 11837) is the same organization as Fluxo W7M, author-confirmed.
+- HLTV team IDs are stored as external references on the Counter-Strike team records, not on organizations. 249 player identities were created; Stewie2K reuses `jake-stewie2k-yip`.
+- Recorded the 2027-01-29 Without a Roof offer to Jake Yip: sporting proposal accepted; he is listed on the Without a Roof roster as a former Kairos employee, with no end date recorded on his coach tenure. Tarik is only a contacted candidate and is not registered.
+- Extended the existing Counter-Strike roster freeze (through 2027-05-23) to the 50 rosters instead of creating a second directive. No roles, contracts, results, rankings or qualification were created; Kairos rosters and frozen 2026 data are unchanged.
+
+## 0.16.0 - 2027 LEC rosters, retirements, and departures
+
+- Registered the eight 2027 LEC starting lineups in the Kairos Universe overlay without modifying the frozen 2026 reference data. All 40 positions resolve to player identities; the Karmine Corp and Team Vitality supports (Zoelys, Myrtus) were added as overlay identities from author-supplied Leaguepedia pages.
+- Added seven author-approved overlay identities: Harpoon, Kamiloo, Carlsen, Aetinoth and Fresskowy (Leaguepedia 2026-08-03 snapshot) plus Zoelys and Myrtus (author-supplied Leaguepedia pages).
+- Added the fourteen author-confirmed named retirements (ISMA, Skeanz and Sheo resolved from their existing team histories), preserving career history.
+- Registered kyeahoo and Poby as available for the Korean market (unassigned); Busio (Cloud9) and jojopyun (Team Liquid) keep their LCS assignments.
+- Superseded the previous active 2027 memberships of every transferred, retired or departing player; 2026 tenures are preserved. No collective announcement date is established, so former-team Left dates stay unknown.
+- Free agents reduced 74 to 64; the Karmine Corp support and Movistar KOI mid LCS-era vacancies are resolved by the LEC lineups.
+
 ## 0.15.0 - 2027 LCS rosters, retirements, and Counter-Strike roster freeze
 
 - Confirmed the eight 2027 LCS starting lineups (as of 2027-01-27) in the Kairos Universe overlay without modifying the frozen 2026 reference data. Kairos Gaming is unchanged.

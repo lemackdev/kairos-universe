@@ -1,0 +1,1118 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "league": "LPL",
+  "sourceIds": [
+    "source-canon-directive-2027-lpl-cblol-rosters"
+  ],
+  "confirmedBy": null,
+  "confirmedPeriod": "2027 season reconstruction; no exact collective announcement date has been approved",
+  "displayPeriod": "2027 season (exact date not established)",
+  "disclaimer": "Kairos Universe fictional speculation layered on top of the frozen pre-Worlds 2026 real-world-sourced reference scene (external-data/pre-worlds-2026). Every player below is the same real-world-referenced person documented there (or, for added identities, in the cited Leaguepedia snapshot or named by the author); only their Kairos Universe 2027 fictional roster, retirement, or market status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No announcement date, signing date, contract term, salary, or rating is established; former-team Left dates are intentionally left unknown.",
+  "addedPlayers": [],
+  "teams": [
+    {
+      "teamId": "external-lol-team-anyone-s-legend",
+      "name": "Anyone's Legend",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zika",
+          "nickname": "Zika"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-tian",
+          "nickname": "Tian"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-shanks",
+          "nickname": "Shanks"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-hope",
+          "nickname": "Hope"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-parukia",
+          "nickname": "Parukia",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-edward-gaming",
+            "previousTeamName": "EDward Gaming",
+            "effectiveDate": "2026-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-bilibili-gaming",
+      "name": "Bilibili Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-bin",
+          "nickname": "Bin"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-xun",
+          "nickname": "Xun"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-creme",
+          "nickname": "Creme"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-assum",
+          "nickname": "Assum"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-on",
+          "nickname": "ON"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-invictus-gaming",
+      "name": "Invictus Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-breathe",
+          "nickname": "Breathe"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-wei",
+          "nickname": "Wei"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-knight",
+          "nickname": "Knight"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-elk",
+          "nickname": "Elk"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-vampire",
+          "nickname": "Vampire"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-jd-gaming",
+      "name": "JD Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zuian",
+          "nickname": "ZUIAN"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-xiaofang",
+          "nickname": "xiaofang"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-hongq",
+          "nickname": "HongQ"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-jiaqi",
+          "nickname": "JiaQi"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-meiko",
+          "nickname": "Meiko"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-lng-esports",
+      "name": "LNG Esports",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-xiaoxu",
+          "nickname": "Xiaoxu"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-monki",
+          "nickname": "Monki",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-team-we",
+            "previousTeamName": "Team WE",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-nia",
+          "nickname": "Nia"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-gala",
+          "nickname": "GALA"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-missing",
+          "nickname": "MISSING"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-top-esports",
+      "name": "Top Esports",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-sheer",
+          "nickname": "sheer"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-xiaohao",
+          "nickname": "Xiaohao"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-care",
+          "nickname": "Care",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
+            "previousTeamName": "Ninjas in Pyjamas",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-1xn",
+          "nickname": "1xn"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-zhuo",
+          "nickname": "Zhuo"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-weibo-gaming",
+      "name": "Weibo Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-flandre",
+          "nickname": "Flandre"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-weiwei",
+          "nickname": "Weiwei"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-xiaohu",
+          "nickname": "Xiaohu"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-jackeylove",
+          "nickname": "JackeyLove"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-jwei",
+          "nickname": "Jwei"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-oh-my-god",
+      "name": "Oh My God",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zdz",
+          "nickname": "Zdz",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-edward-gaming",
+            "previousTeamName": "EDward Gaming",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-junhao",
+          "nickname": "Junhao",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-thundertalk-gaming",
+            "previousTeamName": "ThunderTalk Gaming",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-tangyuan",
+          "nickname": "Tangyuan",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-lgd-gaming",
+            "previousTeamName": "LGD Gaming",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-photic",
+          "nickname": "Photic",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
+            "previousTeamName": "Ninjas in Pyjamas",
+            "effectiveDate": "2026-12-31"
+          }
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-erha",
+          "nickname": "Erha",
+          "priorStatus": {
+            "status": "free-agent",
+            "previousTeamId": "external-lol-team-team-we",
+            "previousTeamName": "Team WE",
+            "effectiveDate": "2026-12-31"
+          }
+        }
+      ]
+    }
+  ],
+  "pendingIdentities": [],
+  "retirements": [
+    {
+      "playerId": "external-lol-player-moham",
+      "nickname": "Moham",
+      "previousTeamId": "external-lol-team-weibo-gaming",
+      "previousTeamName": "Weibo Gaming",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-karis",
+      "nickname": "Karis",
+      "previousTeamId": "external-lol-team-team-we",
+      "previousTeamName": "Team WE",
+      "previousRole": "mid",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-team-we",
+        "previousTeamName": "Team WE",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-about",
+      "nickname": "About",
+      "previousTeamId": "external-lol-team-team-we",
+      "previousTeamName": "Team WE",
+      "previousRole": "bot",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-team-we",
+        "previousTeamName": "Team WE",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-hoya",
+      "nickname": "Hoya",
+      "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
+      "previousTeamName": "Ninjas in Pyjamas",
+      "previousRole": "top",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
+        "previousTeamName": "Ninjas in Pyjamas",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-ycx",
+      "nickname": "Ycx",
+      "previousTeamId": "external-lol-team-lng-esports",
+      "previousTeamName": "LNG Esports",
+      "previousRole": "support",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-rookie",
+      "nickname": "Rookie",
+      "previousTeamId": "external-lol-team-invictus-gaming",
+      "previousTeamName": "Invictus Gaming",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-tarzan",
+      "nickname": "Tarzan",
+      "previousTeamId": "external-lol-team-anyone-s-legend",
+      "previousTeamName": "Anyone's Legend",
+      "previousRole": "jungle",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-jiejie",
+      "nickname": "Jiejie",
+      "previousTeamId": "external-lol-team-edward-gaming",
+      "previousTeamName": "EDward Gaming",
+      "previousRole": "jungle",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-edward-gaming",
+        "previousTeamName": "EDward Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-sinian",
+      "nickname": "Sinian",
+      "previousTeamId": "external-lol-team-edward-gaming",
+      "previousTeamName": "EDward Gaming",
+      "previousRole": "mid",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-edward-gaming",
+        "previousTeamName": "EDward Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-leave",
+      "nickname": "Leave",
+      "previousTeamId": "external-lol-team-edward-gaming",
+      "previousTeamName": "EDward Gaming",
+      "previousRole": "bot",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-edward-gaming",
+        "previousTeamName": "EDward Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-heng",
+      "nickname": "Heng",
+      "previousTeamId": "external-lol-team-lgd-gaming",
+      "previousTeamName": "LGD Gaming",
+      "previousRole": "jungle",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-lgd-gaming",
+        "previousTeamName": "LGD Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-shaoye",
+      "nickname": "Shaoye",
+      "previousTeamId": "external-lol-team-lgd-gaming",
+      "previousTeamName": "LGD Gaming",
+      "previousRole": "bot",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-lgd-gaming",
+        "previousTeamName": "LGD Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-crisp",
+      "nickname": "Crisp",
+      "previousTeamId": "external-lol-team-lgd-gaming",
+      "previousTeamName": "LGD Gaming",
+      "previousRole": "support",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-lgd-gaming",
+        "previousTeamName": "LGD Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    }
+  ],
+  "departures": [
+    {
+      "playerId": "external-lol-player-zika",
+      "nickname": "Zika",
+      "teamId": "external-lol-team-weibo-gaming",
+      "teamName": "Weibo Gaming",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-weibo-gaming-zika-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-anyone-s-legend",
+      "destinationTeamName": "Anyone's Legend"
+    },
+    {
+      "playerId": "external-lol-player-tian",
+      "nickname": "Tian",
+      "teamId": "external-lol-team-top-esports",
+      "teamName": "Top Esports",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-top-esports-tian-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-anyone-s-legend",
+      "destinationTeamName": "Anyone's Legend"
+    },
+    {
+      "playerId": "external-lol-player-parukia",
+      "nickname": "Parukia",
+      "teamId": "external-lol-team-edward-gaming",
+      "teamName": "EDward Gaming",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-edward-gaming-parukia-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-anyone-s-legend",
+      "destinationTeamName": "Anyone's Legend"
+    },
+    {
+      "playerId": "external-lol-player-creme",
+      "nickname": "Creme",
+      "teamId": "external-lol-team-top-esports",
+      "teamName": "Top Esports",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-top-esports-creme-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-bilibili-gaming",
+      "destinationTeamName": "Bilibili Gaming"
+    },
+    {
+      "playerId": "external-lol-player-assum",
+      "nickname": "Assum",
+      "teamId": "external-lol-team-invictus-gaming",
+      "teamName": "Invictus Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "substitute",
+      "tenureId": "external-lol-tenure-invictus-gaming-assum-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-bilibili-gaming",
+      "destinationTeamName": "Bilibili Gaming"
+    },
+    {
+      "playerId": "external-lol-player-breathe",
+      "nickname": "Breathe",
+      "teamId": "external-lol-team-anyone-s-legend",
+      "teamName": "Anyone's Legend",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-anyone-s-legend-breathe-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-invictus-gaming",
+      "destinationTeamName": "Invictus Gaming"
+    },
+    {
+      "playerId": "external-lol-player-knight",
+      "nickname": "knight",
+      "teamId": "external-lol-team-bilibili-gaming",
+      "teamName": "Bilibili Gaming",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-bilibili-gaming-knight-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-invictus-gaming",
+      "destinationTeamName": "Invictus Gaming"
+    },
+    {
+      "playerId": "external-lol-player-elk",
+      "nickname": "Elk",
+      "teamId": "external-lol-team-weibo-gaming",
+      "teamName": "Weibo Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-weibo-gaming-elk-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-invictus-gaming",
+      "destinationTeamName": "Invictus Gaming"
+    },
+    {
+      "playerId": "external-lol-player-vampire",
+      "nickname": "Vampire",
+      "teamId": "external-lol-team-jd-gaming",
+      "teamName": "JD Gaming",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-jd-gaming-vampire-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-invictus-gaming",
+      "destinationTeamName": "Invictus Gaming"
+    },
+    {
+      "playerId": "external-lol-player-jiaqi",
+      "nickname": "JiaQi",
+      "teamId": "external-lol-team-invictus-gaming",
+      "teamName": "Invictus Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-invictus-gaming-jiaqi-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-jd-gaming",
+      "destinationTeamName": "JD Gaming"
+    },
+    {
+      "playerId": "external-lol-player-meiko",
+      "nickname": "Meiko",
+      "teamId": "external-lol-team-invictus-gaming",
+      "teamName": "Invictus Gaming",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-invictus-gaming-meiko-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-jd-gaming",
+      "destinationTeamName": "JD Gaming"
+    },
+    {
+      "playerId": "external-lol-player-xiaoxu",
+      "nickname": "Xiaoxu",
+      "teamId": "external-lol-team-jd-gaming",
+      "teamName": "JD Gaming",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-jd-gaming-xiaoxu-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-lng-esports",
+      "destinationTeamName": "LNG Esports"
+    },
+    {
+      "playerId": "external-lol-player-monki",
+      "nickname": "Monki",
+      "teamId": "external-lol-team-team-we",
+      "teamName": "Team WE",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-team-we-monki-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-lng-esports",
+      "destinationTeamName": "LNG Esports"
+    },
+    {
+      "playerId": "external-lol-player-gala",
+      "nickname": "GALA",
+      "teamId": "external-lol-team-jd-gaming",
+      "teamName": "JD Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-jd-gaming-gala-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-lng-esports",
+      "destinationTeamName": "LNG Esports"
+    },
+    {
+      "playerId": "external-lol-player-sheer",
+      "nickname": "sheer",
+      "teamId": "external-lol-team-lng-esports",
+      "teamName": "LNG Esports",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lng-esports-sheer-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-top-esports",
+      "destinationTeamName": "Top Esports"
+    },
+    {
+      "playerId": "external-lol-player-xiaohao",
+      "nickname": "Xiaohao",
+      "teamId": "external-lol-team-weibo-gaming",
+      "teamName": "Weibo Gaming",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-weibo-gaming-xiaohao-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-top-esports",
+      "destinationTeamName": "Top Esports"
+    },
+    {
+      "playerId": "external-lol-player-care",
+      "nickname": "Care",
+      "teamId": "external-lol-team-ninjas-in-pyjamas",
+      "teamName": "Ninjas in Pyjamas",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ninjas-in-pyjamas-care-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-top-esports",
+      "destinationTeamName": "Top Esports"
+    },
+    {
+      "playerId": "external-lol-player-1xn",
+      "nickname": "1xn",
+      "teamId": "external-lol-team-lng-esports",
+      "teamName": "LNG Esports",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lng-esports-1xn-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-top-esports",
+      "destinationTeamName": "Top Esports"
+    },
+    {
+      "playerId": "external-lol-player-flandre",
+      "nickname": "Flandre",
+      "teamId": "external-lol-team-bilibili-gaming",
+      "teamName": "Bilibili Gaming",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-bilibili-gaming-flandre-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-weibo-gaming",
+      "destinationTeamName": "Weibo Gaming"
+    },
+    {
+      "playerId": "external-lol-player-weiwei",
+      "nickname": "Weiwei",
+      "teamId": "external-lol-team-lng-esports",
+      "teamName": "LNG Esports",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lng-esports-weiwei-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-weibo-gaming",
+      "destinationTeamName": "Weibo Gaming"
+    },
+    {
+      "playerId": "external-lol-player-jackeylove",
+      "nickname": "JackeyLove",
+      "teamId": "external-lol-team-top-esports",
+      "teamName": "Top Esports",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-top-esports-jackeylove-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-weibo-gaming",
+      "destinationTeamName": "Weibo Gaming"
+    },
+    {
+      "playerId": "external-lol-player-zdz",
+      "nickname": "Zdz",
+      "teamId": "external-lol-team-edward-gaming",
+      "teamName": "EDward Gaming",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-edward-gaming-zdz-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-oh-my-god",
+      "destinationTeamName": "Oh My God"
+    },
+    {
+      "playerId": "external-lol-player-junhao",
+      "nickname": "Junhao",
+      "teamId": "external-lol-team-thundertalk-gaming",
+      "teamName": "ThunderTalk Gaming",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-thundertalk-gaming-junhao-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-oh-my-god",
+      "destinationTeamName": "Oh My God"
+    },
+    {
+      "playerId": "external-lol-player-tangyuan",
+      "nickname": "Tangyuan",
+      "teamId": "external-lol-team-lgd-gaming",
+      "teamName": "LGD Gaming",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lgd-gaming-tangyuan-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-oh-my-god",
+      "destinationTeamName": "Oh My God"
+    },
+    {
+      "playerId": "external-lol-player-photic",
+      "nickname": "Photic",
+      "teamId": "external-lol-team-ninjas-in-pyjamas",
+      "teamName": "Ninjas in Pyjamas",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ninjas-in-pyjamas-photic-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-oh-my-god",
+      "destinationTeamName": "Oh My God"
+    },
+    {
+      "playerId": "external-lol-player-erha",
+      "nickname": "Erha",
+      "teamId": "external-lol-team-team-we",
+      "teamName": "Team WE",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-team-we-erha-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-oh-my-god",
+      "destinationTeamName": "Oh My God"
+    },
+    {
+      "playerId": "external-lol-player-moham",
+      "nickname": "Moham",
+      "teamId": "external-lol-team-oh-my-god",
+      "teamName": "Oh My God",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-oh-my-god-moham-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-moham",
+      "nickname": "Moham",
+      "teamId": "external-lol-team-weibo-gaming",
+      "teamName": "Weibo Gaming",
+      "league": "LPL",
+      "role": "support",
+      "designation": "substitute",
+      "tenureId": "external-lol-tenure-weibo-gaming-moham-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-karis",
+      "nickname": "Karis",
+      "teamId": "external-lol-team-team-we",
+      "teamName": "Team WE",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-team-we-karis-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-about",
+      "nickname": "About",
+      "teamId": "external-lol-team-team-we",
+      "teamName": "Team WE",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-team-we-about-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hoya",
+      "nickname": "Hoya",
+      "teamId": "external-lol-team-ninjas-in-pyjamas",
+      "teamName": "Ninjas in Pyjamas",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ninjas-in-pyjamas-hoya-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-ycx",
+      "nickname": "Ycx",
+      "teamId": "external-lol-team-lng-esports",
+      "teamName": "LNG Esports",
+      "league": "LPL",
+      "role": "support",
+      "designation": "substitute",
+      "tenureId": "external-lol-tenure-lng-esports-ycx-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-rookie",
+      "nickname": "Rookie",
+      "teamId": "external-lol-team-invictus-gaming",
+      "teamName": "Invictus Gaming",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-invictus-gaming-rookie-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-tarzan",
+      "nickname": "Tarzan",
+      "teamId": "external-lol-team-anyone-s-legend",
+      "teamName": "Anyone's Legend",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-anyone-s-legend-tarzan-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-jiejie",
+      "nickname": "Jiejie",
+      "teamId": "external-lol-team-edward-gaming",
+      "teamName": "EDward Gaming",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-edward-gaming-jiejie-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-sinian",
+      "nickname": "Sinian",
+      "teamId": "external-lol-team-edward-gaming",
+      "teamName": "EDward Gaming",
+      "league": "LPL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-edward-gaming-sinian-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-leave",
+      "nickname": "Leave",
+      "teamId": "external-lol-team-edward-gaming",
+      "teamName": "EDward Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-edward-gaming-leave-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-heng",
+      "nickname": "Heng",
+      "teamId": "external-lol-team-lgd-gaming",
+      "teamName": "LGD Gaming",
+      "league": "LPL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lgd-gaming-heng-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-shaoye",
+      "nickname": "Shaoye",
+      "teamId": "external-lol-team-lgd-gaming",
+      "teamName": "LGD Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lgd-gaming-shaoye-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-crisp",
+      "nickname": "Crisp",
+      "teamId": "external-lol-team-lgd-gaming",
+      "teamName": "LGD Gaming",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lgd-gaming-crisp-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-keshi",
+      "nickname": "Keshi",
+      "teamId": "external-lol-team-thundertalk-gaming",
+      "teamName": "ThunderTalk Gaming",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-thundertalk-gaming-keshi-pre-worlds-2026-domestic",
+      "reason": "available-for-market"
+    },
+    {
+      "playerId": "external-lol-player-feather",
+      "nickname": "Feather",
+      "teamId": "external-lol-team-thundertalk-gaming",
+      "teamName": "ThunderTalk Gaming",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-thundertalk-gaming-feather-pre-worlds-2026-domestic",
+      "reason": "available-for-market"
+    },
+    {
+      "playerId": "external-lol-player-fengyue",
+      "nickname": "fengyue",
+      "teamId": "external-lol-team-ninjas-in-pyjamas",
+      "teamName": "Ninjas in Pyjamas",
+      "league": "LPL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ninjas-in-pyjamas-fengyue-pre-worlds-2026-domestic",
+      "reason": "available-for-market"
+    },
+    {
+      "playerId": "external-lol-player-burdol",
+      "nickname": "Burdol",
+      "teamId": "external-lol-team-lgd-gaming",
+      "teamName": "LGD Gaming",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-lgd-gaming-burdol-pre-worlds-2026-domestic",
+      "reason": "available-for-market"
+    },
+    {
+      "playerId": "external-lol-player-viper",
+      "nickname": "Viper",
+      "teamId": "external-lol-team-bilibili-gaming",
+      "teamName": "Bilibili Gaming",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-bilibili-gaming-viper-pre-worlds-2026-domestic",
+      "reason": "available-for-market"
+    },
+    {
+      "playerId": "external-lol-player-zuian",
+      "nickname": "ZUIAN",
+      "teamId": "external-lol-team-top-esports",
+      "teamName": "Top Esports",
+      "league": "LPL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-top-esports-zuian-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-jd-gaming",
+      "destinationTeamName": "JD Gaming"
+    }
+  ],
+  "vacancies": [],
+  "outgoing": [],
+  "marketAvailability": [
+    {
+      "playerId": "external-lol-player-keshi",
+      "nickname": "Keshi",
+      "previousTeamId": "external-lol-team-thundertalk-gaming",
+      "previousTeamName": "ThunderTalk Gaming",
+      "previousRole": "top",
+      "eligibleRegion": "CN",
+      "targetLeague": "LPL",
+      "status": "available-for-market",
+      "note": "Chinese-region player. Not retired and not assigned to any 2027 team; destination is author-controlled.",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-thundertalk-gaming",
+        "previousTeamName": "ThunderTalk Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-feather",
+      "nickname": "Feather",
+      "previousTeamId": "external-lol-team-thundertalk-gaming",
+      "previousTeamName": "ThunderTalk Gaming",
+      "previousRole": "support",
+      "eligibleRegion": "CN",
+      "targetLeague": "LPL",
+      "status": "available-for-market",
+      "note": "Chinese-region player. Not retired and not assigned to any 2027 team; destination is author-controlled.",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-thundertalk-gaming",
+        "previousTeamName": "ThunderTalk Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-fengyue",
+      "nickname": "fengyue",
+      "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
+      "previousTeamName": "Ninjas in Pyjamas",
+      "previousRole": "support",
+      "eligibleRegion": "CN",
+      "targetLeague": "LPL",
+      "status": "available-for-market",
+      "note": "Chinese-region player. Not retired and not assigned to any 2027 team; destination is author-controlled.",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
+        "previousTeamName": "Ninjas in Pyjamas",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-burdol",
+      "nickname": "Burdol",
+      "previousTeamId": "external-lol-team-lgd-gaming",
+      "previousTeamName": "LGD Gaming",
+      "previousRole": "top",
+      "eligibleRegion": "KR",
+      "targetLeague": "LCK",
+      "status": "available-for-market",
+      "note": "Not retired and not assigned to any LCK organization; destination is author-controlled.",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-lgd-gaming",
+        "previousTeamName": "LGD Gaming",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-viper",
+      "nickname": "Viper",
+      "previousTeamId": "external-lol-team-bilibili-gaming",
+      "previousTeamName": "Bilibili Gaming",
+      "previousRole": "bot",
+      "eligibleRegion": "KR",
+      "targetLeague": "LCK",
+      "status": "available-for-market",
+      "note": "Not retired and not assigned to any LCK organization; destination is author-controlled."
+    }
+  ]
+}

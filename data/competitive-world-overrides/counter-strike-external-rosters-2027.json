@@ -1,0 +1,6180 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-cs-external-rosters"
+  ],
+  "directiveId": "counter-strike-external-rosters-2027",
+  "name": "Counter-Strike 2 External Organizations and Rosters, Kairos Universe 2027",
+  "game": "Counter-Strike 2",
+  "season": 2027,
+  "freezeDirectiveId": "counter-strike-external-roster-freeze-2027",
+  "referenceSnapshot": {
+    "provider": "HLTV",
+    "researchDate": "2026-11-06",
+    "workbook": "hltv_team_rosters.xlsx",
+    "scope": "Active five only; coaches, stand-ins and benched players excluded.",
+    "note": "Author-approved fictional-universe roster directive based on a historical HLTV reference snapshot. The research date is not a fictional signing date; no contract dates, transfer announcements or role assignments are established."
+  },
+  "expectedTeamCount": 50,
+  "expectedPlayerAssignments": 250,
+  "roleNote": "The workbook does not state in-game roles. None is inferred; roster order is not a role.",
+  "disclaimer": "Kairos Universe fictional continuity directive layered on a real-world reference snapshot. It is not a verified report of real-world 2027 rosters, and it establishes no results, rankings, qualification or tournament participation.",
+  "organizations": [
+    {
+      "organizationId": "external-org-m80",
+      "slug": "external-m80",
+      "name": "M80",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-m80"
+      ]
+    },
+    {
+      "organizationId": "external-org-without-a-roof",
+      "slug": "external-without-a-roof",
+      "name": "Without a Roof",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-without-a-roof"
+      ]
+    },
+    {
+      "organizationId": "external-org-legacy",
+      "slug": "external-legacy",
+      "name": "Legacy",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-legacy"
+      ]
+    },
+    {
+      "organizationId": "external-org-mibr",
+      "slug": "external-mibr",
+      "name": "MIBR",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-mibr"
+      ]
+    },
+    {
+      "organizationId": "external-org-dendele",
+      "slug": "external-dendele",
+      "name": "DENDELE",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-dendele"
+      ]
+    },
+    {
+      "organizationId": "external-org-imperial",
+      "slug": "external-imperial",
+      "name": "Imperial",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-imperial"
+      ]
+    },
+    {
+      "organizationId": "external-org-bestia",
+      "slug": "external-bestia",
+      "name": "BESTIA",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-bestia"
+      ]
+    },
+    {
+      "organizationId": "external-org-spirit",
+      "slug": "external-spirit",
+      "name": "Spirit",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-spirit"
+      ]
+    },
+    {
+      "organizationId": "external-org-mouz",
+      "slug": "external-mouz",
+      "name": "MOUZ",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-mouz"
+      ]
+    },
+    {
+      "organizationId": "external-org-aurora",
+      "slug": "external-aurora",
+      "name": "Aurora",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-aurora"
+      ]
+    },
+    {
+      "organizationId": "external-org-falcons",
+      "slug": "external-falcons",
+      "name": "Falcons",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-falcons"
+      ]
+    },
+    {
+      "organizationId": "external-org-betboom",
+      "slug": "external-betboom",
+      "name": "BetBoom",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-betboom"
+      ]
+    },
+    {
+      "organizationId": "external-org-fut",
+      "slug": "external-fut",
+      "name": "FUT",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-fut"
+      ]
+    },
+    {
+      "organizationId": "external-org-nemiga",
+      "slug": "external-nemiga",
+      "name": "Nemiga",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-nemiga"
+      ]
+    },
+    {
+      "organizationId": "external-org-parivision",
+      "slug": "external-parivision",
+      "name": "PARIVISION",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-parivision"
+      ]
+    },
+    {
+      "organizationId": "external-org-the-mongolz",
+      "slug": "external-the-mongolz",
+      "name": "The MongolZ",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-the-mongolz"
+      ]
+    },
+    {
+      "organizationId": "external-org-1win",
+      "slug": "external-1win",
+      "name": "1win",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-1win"
+      ]
+    },
+    {
+      "organizationId": "external-org-astralis",
+      "slug": "external-astralis",
+      "name": "Astralis",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-astralis"
+      ]
+    },
+    {
+      "organizationId": "external-org-faze",
+      "slug": "external-faze",
+      "name": "FaZe",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-faze"
+      ]
+    },
+    {
+      "organizationId": "external-org-eternal-fire",
+      "slug": "external-eternal-fire",
+      "name": "Eternal Fire",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-eternal-fire"
+      ]
+    },
+    {
+      "organizationId": "external-org-gamerlegion",
+      "slug": "external-gamerlegion",
+      "name": "GamerLegion",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-gamerlegion"
+      ]
+    },
+    {
+      "organizationId": "external-org-heroic",
+      "slug": "external-heroic",
+      "name": "HEROIC",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-heroic"
+      ]
+    },
+    {
+      "organizationId": "external-org-envy",
+      "slug": "external-envy",
+      "name": "Envy",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-envy"
+      ]
+    },
+    {
+      "organizationId": "external-org-luminosity",
+      "slug": "external-luminosity",
+      "name": "Luminosity",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-luminosity"
+      ]
+    },
+    {
+      "organizationId": "external-org-100-thieves",
+      "slug": "external-100-thieves",
+      "name": "100 Thieves",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-100-thieves"
+      ]
+    },
+    {
+      "organizationId": "external-org-tyloo",
+      "slug": "external-tyloo",
+      "name": "TYLOO",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-tyloo"
+      ]
+    },
+    {
+      "organizationId": "external-org-alliance",
+      "slug": "external-alliance",
+      "name": "Alliance",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-alliance"
+      ]
+    },
+    {
+      "organizationId": "external-org-big",
+      "slug": "external-big",
+      "name": "BIG",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-big"
+      ]
+    },
+    {
+      "organizationId": "external-org-jijiehao",
+      "slug": "external-jijiehao",
+      "name": "JiJieHao",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-jijiehao"
+      ]
+    },
+    {
+      "organizationId": "external-org-sinners",
+      "slug": "external-sinners",
+      "name": "SINNERS",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-sinners"
+      ]
+    },
+    {
+      "organizationId": "external-org-wildcard",
+      "slug": "external-wildcard",
+      "name": "Wildcard",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-wildcard"
+      ]
+    },
+    {
+      "organizationId": "external-org-bc-game",
+      "slug": "external-bc-game",
+      "name": "BC.Game",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-bc-game"
+      ]
+    },
+    {
+      "organizationId": "external-org-eyeballers",
+      "slug": "external-eyeballers",
+      "name": "EYEBALLERS",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-eyeballers"
+      ]
+    },
+    {
+      "organizationId": "external-org-chinggis-warriors",
+      "slug": "external-chinggis-warriors",
+      "name": "Chinggis Warriors",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-chinggis-warriors"
+      ]
+    },
+    {
+      "organizationId": "external-org-saw",
+      "slug": "external-saw",
+      "name": "SAW",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-saw"
+      ]
+    },
+    {
+      "organizationId": "external-org-metizport",
+      "slug": "external-metizport",
+      "name": "Metizport",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-metizport"
+      ]
+    },
+    {
+      "organizationId": "external-org-og",
+      "slug": "external-og",
+      "name": "OG",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-og"
+      ]
+    },
+    {
+      "organizationId": "external-org-lag",
+      "slug": "external-lag",
+      "name": "LAG",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-lag"
+      ]
+    },
+    {
+      "organizationId": "external-org-marsborne",
+      "slug": "external-marsborne",
+      "name": "Marsborne",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ],
+      "teamIds": [
+        "external-cs-team-marsborne"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "external-cs-team-m80",
+      "slug": "external-cs-m80",
+      "name": "M80",
+      "spreadsheetName": "M80",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12376",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12376",
+          "url": "https://www.hltv.org/team/12376"
+        }
+      ],
+      "organizationId": "external-org-m80",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-slaxz",
+          "nickname": "slaxz-",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-swisher",
+          "nickname": "Swisher",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-s1n",
+          "nickname": "s1n",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jba",
+          "nickname": "JBa",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-lake",
+          "nickname": "Lake",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-nrg",
+      "slug": "external-cs-nrg",
+      "name": "NRG",
+      "spreadsheetName": "NRG",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "6673",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "6673",
+          "url": "https://www.hltv.org/team/6673"
+        }
+      ],
+      "organizationId": "external-lol-org-nrg",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-nitr0",
+          "nickname": "nitr0",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-sonic",
+          "nickname": "Sonic",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-hallzerk",
+          "nickname": "hallzerk",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-grim",
+          "nickname": "Grim",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jeorge",
+          "nickname": "Jeorge",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "exact-name"
+    },
+    {
+      "teamId": "external-cs-team-without-a-roof",
+      "slug": "external-cs-without-a-roof",
+      "name": "Without a Roof",
+      "spreadsheetName": "Without a Roof",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "6914",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "6914",
+          "url": "https://www.hltv.org/team/6914"
+        }
+      ],
+      "organizationId": "external-org-without-a-roof",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-autimatic",
+          "nickname": "autimatic",
+          "identity": "new"
+        },
+        {
+          "playerId": "jake-stewie2k-yip",
+          "nickname": "Stewie2K",
+          "identity": "existing-canon-person"
+        },
+        {
+          "playerId": "external-cs-player-brehze",
+          "nickname": "Brehze",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cerq",
+          "nickname": "CeRq",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-fang",
+          "nickname": "FaNg",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-furia",
+      "slug": "external-cs-furia",
+      "name": "FURIA",
+      "spreadsheetName": "FURIA",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "8297",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "8297",
+          "url": "https://www.hltv.org/team/8297"
+        }
+      ],
+      "organizationId": "external-lol-org-furia",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-fallen",
+          "nickname": "FalleN",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-yuurih",
+          "nickname": "yuurih",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-yekindar",
+          "nickname": "YEKINDAR",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kscerato",
+          "nickname": "KSCERATO",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-molodoy",
+          "nickname": "molodoy",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "exact-name"
+    },
+    {
+      "teamId": "external-cs-team-legacy",
+      "slug": "external-cs-legacy",
+      "name": "Legacy",
+      "spreadsheetName": "Legacy",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12468",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12468",
+          "url": "https://www.hltv.org/team/12468"
+        }
+      ],
+      "organizationId": "external-org-legacy",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-art",
+          "nickname": "arT",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-dumau",
+          "nickname": "dumau",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-latto",
+          "nickname": "latto",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-try",
+          "nickname": "try",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ksloks",
+          "nickname": "ksloks",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-mibr",
+      "slug": "external-cs-mibr",
+      "name": "MIBR",
+      "spreadsheetName": "MIBR",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "9215",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "9215",
+          "url": "https://www.hltv.org/team/9215"
+        }
+      ],
+      "organizationId": "external-org-mibr",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-lnz",
+          "nickname": "LNZ",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nqz",
+          "nickname": "nqz",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-insani",
+          "nickname": "insani",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-venomzera",
+          "nickname": "venomzera",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-tomaszin",
+          "nickname": "tomaszin",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-dendele",
+      "slug": "external-cs-dendele",
+      "name": "DENDELE",
+      "spreadsheetName": "DENDELE",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "13926",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "13926",
+          "url": "https://www.hltv.org/team/13926"
+        }
+      ],
+      "organizationId": "external-org-dendele",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-gafolo",
+          "nickname": "gafolo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-koala",
+          "nickname": "koala",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-maxxkor",
+          "nickname": "maxxkor",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-rdnzao",
+          "nickname": "rdnzao",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-doc",
+          "nickname": "doc",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-pain-gaming",
+      "slug": "external-cs-pain-gaming",
+      "name": "paiN Gaming",
+      "spreadsheetName": "paiN",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "4773",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "4773",
+          "url": "https://www.hltv.org/team/4773"
+        }
+      ],
+      "organizationId": "external-lol-org-pain-gaming",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-biguzera",
+          "nickname": "biguzera",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-saffee",
+          "nickname": "saffee",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-snow",
+          "nickname": "snow",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-tatu",
+          "nickname": "Tatu",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-rkzinho",
+          "nickname": "Rkzinho",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "known-alias"
+    },
+    {
+      "teamId": "external-cs-team-imperial",
+      "slug": "external-cs-imperial",
+      "name": "Imperial",
+      "spreadsheetName": "Imperial",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "9455",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "9455",
+          "url": "https://www.hltv.org/team/9455"
+        }
+      ],
+      "organizationId": "external-org-imperial",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-chelo",
+          "nickname": "chelo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-vini",
+          "nickname": "VINI",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-decenty",
+          "nickname": "decenty",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-noway",
+          "nickname": "noway",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-saadzin",
+          "nickname": "saadzin",
+          "identity": "new"
+        }
+      ],
+      "notes": [
+        "Brazilian organization (workbook source note). Not merged with any similarly named organization."
+      ]
+    },
+    {
+      "teamId": "external-cs-team-bestia",
+      "slug": "external-cs-bestia",
+      "name": "BESTIA",
+      "spreadsheetName": "BESTIA",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12144",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12144",
+          "url": "https://www.hltv.org/team/12144"
+        }
+      ],
+      "organizationId": "external-org-bestia",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-drop",
+          "nickname": "drop",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kauez",
+          "nickname": "kauez",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cass1n",
+          "nickname": "cass1n",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-buda",
+          "nickname": "buda",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-timo",
+          "nickname": "timo",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-fluxo",
+      "slug": "external-cs-fluxo",
+      "name": "Fluxo",
+      "spreadsheetName": "Fluxo",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11837",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11837",
+          "url": "https://www.hltv.org/team/11837"
+        }
+      ],
+      "organizationId": "external-lol-org-fluxo-w7m",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-exit",
+          "nickname": "exit",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-dav1deus",
+          "nickname": "dav1deuS",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-zevy",
+          "nickname": "zevy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kye",
+          "nickname": "kye",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ltz",
+          "nickname": "Ltz",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "author-confirmed"
+    },
+    {
+      "teamId": "external-cs-team-team-vitality",
+      "slug": "external-cs-team-vitality",
+      "name": "Team Vitality",
+      "spreadsheetName": "Vitality",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "9565",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "9565",
+          "url": "https://www.hltv.org/team/9565"
+        }
+      ],
+      "organizationId": "external-lol-org-team-vitality",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-apex",
+          "nickname": "apEX",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ropz",
+          "nickname": "ropz",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-zywoo",
+          "nickname": "ZywOo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-flamez",
+          "nickname": "flameZ",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-mezii",
+          "nickname": "mezii",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "known-alias"
+    },
+    {
+      "teamId": "external-cs-team-spirit",
+      "slug": "external-cs-spirit",
+      "name": "Spirit",
+      "spreadsheetName": "Spirit",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "7020",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "7020",
+          "url": "https://www.hltv.org/team/7020"
+        }
+      ],
+      "organizationId": "external-org-spirit",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-sh1ro",
+          "nickname": "sh1ro",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-magixx",
+          "nickname": "magixx",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-tn1r",
+          "nickname": "tN1R",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-zont1x",
+          "nickname": "zont1x",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-donk",
+          "nickname": "donk",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-mouz",
+      "slug": "external-cs-mouz",
+      "name": "MOUZ",
+      "spreadsheetName": "MOUZ",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "4494",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "4494",
+          "url": "https://www.hltv.org/team/4494"
+        }
+      ],
+      "organizationId": "external-org-mouz",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-torzsi",
+          "nickname": "torzsi",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-spinx",
+          "nickname": "Spinx",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-xertion",
+          "nickname": "xertioN",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-pr",
+          "nickname": "PR",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-xelex",
+          "nickname": "xelex",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-aurora",
+      "slug": "external-cs-aurora",
+      "name": "Aurora",
+      "spreadsheetName": "Aurora",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11861",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11861",
+          "url": "https://www.hltv.org/team/11861"
+        }
+      ],
+      "organizationId": "external-org-aurora",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-xantares",
+          "nickname": "XANTARES",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-woxic",
+          "nickname": "woxic",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jimpphat",
+          "nickname": "Jimpphat",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kyxsan",
+          "nickname": "kyxsan",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-wicadia",
+          "nickname": "Wicadia",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-falcons",
+      "slug": "external-cs-falcons",
+      "name": "Falcons",
+      "spreadsheetName": "Falcons",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11283",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11283",
+          "url": "https://www.hltv.org/team/11283"
+        }
+      ],
+      "organizationId": "external-org-falcons",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-karrigan",
+          "nickname": "karrigan",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-niko",
+          "nickname": "NiKo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-teses",
+          "nickname": "TeSeS",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-m0nesy",
+          "nickname": "m0NESY",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kyousuke",
+          "nickname": "kyousuke",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-betboom",
+      "slug": "external-cs-betboom",
+      "name": "BetBoom",
+      "spreadsheetName": "BetBoom",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12394",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12394",
+          "url": "https://www.hltv.org/team/12394"
+        }
+      ],
+      "organizationId": "external-org-betboom",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-boombl4",
+          "nickname": "Boombl4",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-zorte",
+          "nickname": "zorte",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-s1ren",
+          "nickname": "S1ren",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-d1ledez",
+          "nickname": "d1Ledez",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-magnojez",
+          "nickname": "Magnojez",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-fut",
+      "slug": "external-cs-fut",
+      "name": "FUT",
+      "spreadsheetName": "FUT",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "13286",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "13286",
+          "url": "https://www.hltv.org/team/13286"
+        }
+      ],
+      "organizationId": "external-org-fut",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-sunpayus",
+          "nickname": "SunPayus",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-xfl0ud",
+          "nickname": "xfl0ud",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-dem0n",
+          "nickname": "dem0n",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-krabeni",
+          "nickname": "Krabeni",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-dziugss",
+          "nickname": "dziugss",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-nemiga",
+      "slug": "external-cs-nemiga",
+      "name": "Nemiga",
+      "spreadsheetName": "Nemiga",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "7969",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "7969",
+          "url": "https://www.hltv.org/team/7969"
+        }
+      ],
+      "organizationId": "external-org-nemiga",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-kair0n",
+          "nickname": "KaiR0N-",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-xant3r",
+          "nickname": "Xant3r",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-robo",
+          "nickname": "robo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-khan",
+          "nickname": "khaN",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-syph0",
+          "nickname": "syph0",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-natus-vincere",
+      "slug": "external-cs-natus-vincere",
+      "name": "Natus Vincere",
+      "spreadsheetName": "Natus Vincere",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "4608",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "4608",
+          "url": "https://www.hltv.org/team/4608"
+        }
+      ],
+      "organizationId": "external-lol-org-natus-vincere",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-aleksib",
+          "nickname": "Aleksib",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-im",
+          "nickname": "iM",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-b1t",
+          "nickname": "b1t",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-w0nderful",
+          "nickname": "w0nderful",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-makazze",
+          "nickname": "makazze",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "exact-name"
+    },
+    {
+      "teamId": "external-cs-team-g2-esports",
+      "slug": "external-cs-g2-esports",
+      "name": "G2 Esports",
+      "spreadsheetName": "G2",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "5995",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "5995",
+          "url": "https://www.hltv.org/team/5995"
+        }
+      ],
+      "organizationId": "external-lol-org-g2-esports",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-hunter",
+          "nickname": "huNter-",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nertz",
+          "nickname": "NertZ",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-r1nkle",
+          "nickname": "r1nkle",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-heavygod",
+          "nickname": "HeavyGod",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-matys",
+          "nickname": "MATYS",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "known-alias"
+    },
+    {
+      "teamId": "external-cs-team-parivision",
+      "slug": "external-cs-parivision",
+      "name": "PARIVISION",
+      "spreadsheetName": "PARIVISION",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12467",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12467",
+          "url": "https://www.hltv.org/team/12467"
+        }
+      ],
+      "organizationId": "external-org-parivision",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-hobbit",
+          "nickname": "HObbit",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-fl1t",
+          "nickname": "FL1T",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jame",
+          "nickname": "Jame",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-xielo",
+          "nickname": "xiELO",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-zweih",
+          "nickname": "zweih",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-the-mongolz",
+      "slug": "external-cs-the-mongolz",
+      "name": "The MongolZ",
+      "spreadsheetName": "The MongolZ",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "6248",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "6248",
+          "url": "https://www.hltv.org/team/6248"
+        }
+      ],
+      "organizationId": "external-org-the-mongolz",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-nin9",
+          "nickname": "nin9",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-blitz",
+          "nickname": "bLitz",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-techno",
+          "nickname": "Techno",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-910",
+          "nickname": "910",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cobrazera",
+          "nickname": "cobrazera",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-1win",
+      "slug": "external-cs-1win",
+      "name": "1win",
+      "spreadsheetName": "1win",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "10621",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "10621",
+          "url": "https://www.hltv.org/team/10621"
+        }
+      ],
+      "organizationId": "external-org-1win",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-ax1le",
+          "nickname": "Ax1Le",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nafany",
+          "nickname": "nafany",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-belchonokk",
+          "nickname": "BELCHONOKK",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-fame",
+          "nickname": "fame",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-artfr0st",
+          "nickname": "ArtFr0st",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-team-liquid",
+      "slug": "external-cs-team-liquid",
+      "name": "Team Liquid",
+      "spreadsheetName": "Liquid",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "5973",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "5973",
+          "url": "https://www.hltv.org/team/5973"
+        }
+      ],
+      "organizationId": "external-lol-org-team-liquid",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-naf",
+          "nickname": "NAF",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-elige",
+          "nickname": "EliGE",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-malbsmd",
+          "nickname": "malbsMd",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jt",
+          "nickname": "JT",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jorko",
+          "nickname": "Jorko",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "known-alias",
+      "notes": [
+        "North American team (workbook source note). Reuses the existing Team Liquid organization."
+      ]
+    },
+    {
+      "teamId": "external-cs-team-astralis",
+      "slug": "external-cs-astralis",
+      "name": "Astralis",
+      "spreadsheetName": "Astralis",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "6665",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "6665",
+          "url": "https://www.hltv.org/team/6665"
+        }
+      ],
+      "organizationId": "external-org-astralis",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-phzy",
+          "nickname": "phzy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-siuhy",
+          "nickname": "siuhy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-staehr",
+          "nickname": "Staehr",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ryu",
+          "nickname": "ryu",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cmtry",
+          "nickname": "cmtry",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-faze",
+      "slug": "external-cs-faze",
+      "name": "FaZe",
+      "spreadsheetName": "FaZe",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "6667",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "6667",
+          "url": "https://www.hltv.org/team/6667"
+        }
+      ],
+      "organizationId": "external-org-faze",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-frozen",
+          "nickname": "frozen",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-twistzz",
+          "nickname": "Twistzz",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-neityu",
+          "nickname": "Neityu",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jcobbb",
+          "nickname": "jcobbb",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jboen",
+          "nickname": "JBOEN",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-eternal-fire",
+      "slug": "external-cs-eternal-fire",
+      "name": "Eternal Fire",
+      "spreadsheetName": "Eternal Fire",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11251",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11251",
+          "url": "https://www.hltv.org/team/11251"
+        }
+      ],
+      "organizationId": "external-org-eternal-fire",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-mistem",
+          "nickname": "MisteM",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-regali",
+          "nickname": "regali",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-soulfly",
+          "nickname": "soulfly",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kvem",
+          "nickname": "Kvem",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jottaaa",
+          "nickname": "jottAAA",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-ninjas-in-pyjamas",
+      "slug": "external-cs-ninjas-in-pyjamas",
+      "name": "Ninjas in Pyjamas",
+      "spreadsheetName": "Ninjas in Pyjamas",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "4411",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "4411",
+          "url": "https://www.hltv.org/team/4411"
+        }
+      ],
+      "organizationId": "external-lol-org-ninjas-in-pyjamas",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-stavn",
+          "nickname": "stavn",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-sjuush",
+          "nickname": "sjuush",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-krimbo",
+          "nickname": "Krimbo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-adamb",
+          "nickname": "adamb",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-xkacpersky",
+          "nickname": "xKacpersky",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "exact-name"
+    },
+    {
+      "teamId": "external-cs-team-gamerlegion",
+      "slug": "external-cs-gamerlegion",
+      "name": "GamerLegion",
+      "spreadsheetName": "GamerLegion",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "9928",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "9928",
+          "url": "https://www.hltv.org/team/9928"
+        }
+      ],
+      "organizationId": "external-org-gamerlegion",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-rez",
+          "nickname": "REZ",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-shalfey",
+          "nickname": "shalfey",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-tauson",
+          "nickname": "Tauson",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-fl4mus",
+          "nickname": "FL4MUS",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-hypex",
+          "nickname": "hypex",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-heroic",
+      "slug": "external-cs-heroic",
+      "name": "HEROIC",
+      "spreadsheetName": "HEROIC",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "7175",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "7175",
+          "url": "https://www.hltv.org/team/7175"
+        }
+      ],
+      "organizationId": "external-org-heroic",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-brollan",
+          "nickname": "Brollan",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nilo",
+          "nickname": "nilo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-susp",
+          "nickname": "susp",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-martinezsa",
+          "nickname": "MartinezSa",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-chr1zn",
+          "nickname": "Chr1zN",
+          "identity": "new"
+        }
+      ],
+      "notes": [
+        "Swedish-based organization (workbook source note)."
+      ]
+    },
+    {
+      "teamId": "external-cs-team-fnatic",
+      "slug": "external-cs-fnatic",
+      "name": "Fnatic",
+      "spreadsheetName": "fnatic",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "4991",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "4991",
+          "url": "https://www.hltv.org/team/4991"
+        }
+      ],
+      "organizationId": "external-lol-org-fnatic",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-fear",
+          "nickname": "fEAR",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jambo",
+          "nickname": "jambo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jackasmo",
+          "nickname": "jackasmo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cairne",
+          "nickname": "cairne",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-mazay",
+          "nickname": "mazay",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "case-variant"
+    },
+    {
+      "teamId": "external-cs-team-envy",
+      "slug": "external-cs-envy",
+      "name": "Envy",
+      "spreadsheetName": "Envy",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "5991",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "5991",
+          "url": "https://www.hltv.org/team/5991"
+        }
+      ],
+      "organizationId": "external-org-envy",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-maka",
+          "nickname": "Maka",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-lucky",
+          "nickname": "Lucky",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-misutaaa",
+          "nickname": "misutaaa",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kursy",
+          "nickname": "Kursy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-graviti",
+          "nickname": "Graviti",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-luminosity",
+      "slug": "external-cs-luminosity",
+      "name": "Luminosity",
+      "spreadsheetName": "Luminosity",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "6290",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "6290",
+          "url": "https://www.hltv.org/team/6290"
+        }
+      ],
+      "organizationId": "external-org-luminosity",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-rainwaker",
+          "nickname": "Rainwaker",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-afro",
+          "nickname": "afro",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-lux",
+          "nickname": "lux",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-yxngstxr",
+          "nickname": "yxngstxr",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-azuwu",
+          "nickname": "AZUWU",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-100-thieves",
+      "slug": "external-cs-100-thieves",
+      "name": "100 Thieves",
+      "spreadsheetName": "100 Thieves",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "8474",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "8474",
+          "url": "https://www.hltv.org/team/8474"
+        }
+      ],
+      "organizationId": "external-org-100-thieves",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-device",
+          "nickname": "device",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-rain",
+          "nickname": "rain",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-gizmy",
+          "nickname": "Gizmy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-sirah",
+          "nickname": "sirah",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-poiii",
+          "nickname": "poiii",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-tyloo",
+      "slug": "external-cs-tyloo",
+      "name": "TYLOO",
+      "spreadsheetName": "TYLOO",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "4863",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "4863",
+          "url": "https://www.hltv.org/team/4863"
+        }
+      ],
+      "organizationId": "external-org-tyloo",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-jamyoung",
+          "nickname": "JamYoung",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jee",
+          "nickname": "Jee",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-mercury",
+          "nickname": "Mercury",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-moseyuh",
+          "nickname": "Moseyuh",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-zero",
+          "nickname": "Zero",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-alliance",
+      "slug": "external-cs-alliance",
+      "name": "Alliance",
+      "spreadsheetName": "Alliance",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12474",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12474",
+          "url": "https://www.hltv.org/team/12474"
+        }
+      ],
+      "organizationId": "external-org-alliance",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-twist",
+          "nickname": "twist",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-eraa",
+          "nickname": "eraa",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-bobeksde",
+          "nickname": "bobeksde",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-upe",
+          "nickname": "upE",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-avid",
+          "nickname": "avid",
+          "identity": "new"
+        }
+      ],
+      "notes": [
+        "Swedish organization (workbook source note)."
+      ]
+    },
+    {
+      "teamId": "external-cs-team-big",
+      "slug": "external-cs-big",
+      "name": "BIG",
+      "spreadsheetName": "BIG",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "7532",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "7532",
+          "url": "https://www.hltv.org/team/7532"
+        }
+      ],
+      "organizationId": "external-org-big",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-tabsen",
+          "nickname": "tabseN",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-jdc",
+          "nickname": "JDC",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-faven",
+          "nickname": "faveN",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-blamef",
+          "nickname": "blameF",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-gr1ks",
+          "nickname": "gr1ks",
+          "identity": "new"
+        }
+      ],
+      "notes": [
+        "A Leaguepedia-only League of Legends record named \"Berlin International Gaming\" exists in the frozen snapshot; it has no canonical organization identity, so it is recorded as an unverified external reference only."
+      ]
+    },
+    {
+      "teamId": "external-cs-team-jijiehao",
+      "slug": "external-cs-jijiehao",
+      "name": "JiJieHao",
+      "spreadsheetName": "JiJieHao",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "10245",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "10245",
+          "url": "https://www.hltv.org/team/10245"
+        }
+      ],
+      "organizationId": "external-org-jijiehao",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-m1n1",
+          "nickname": "m1N1",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-sinnopsyy",
+          "nickname": "sinnopsyy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-bibu",
+          "nickname": "Bibu",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cacanito",
+          "nickname": "CacaNito",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-0samas",
+          "nickname": "0SAMAS",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-sinners",
+      "slug": "external-cs-sinners",
+      "name": "SINNERS",
+      "spreadsheetName": "SINNERS",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "10577",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "10577",
+          "url": "https://www.hltv.org/team/10577"
+        }
+      ],
+      "organizationId": "external-org-sinners",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-beastik",
+          "nickname": "beastik",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-shock",
+          "nickname": "SHOCK",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-modo",
+          "nickname": "MoDo",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-kisserek",
+          "nickname": "kisserek",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-stressarn",
+          "nickname": "stressarN",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-wildcard",
+      "slug": "external-cs-wildcard",
+      "name": "Wildcard",
+      "spreadsheetName": "Wildcard",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12257",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12257",
+          "url": "https://www.hltv.org/team/12257"
+        }
+      ],
+      "organizationId": "external-org-wildcard",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-nemanha",
+          "nickname": "nEMANHA",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cxzi",
+          "nickname": "Cxzi",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-reck",
+          "nickname": "reck",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-hext",
+          "nickname": "HexT",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-fr3nd",
+          "nickname": "fr3nd",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-bc-game",
+      "slug": "external-cs-bc-game",
+      "name": "BC.Game",
+      "spreadsheetName": "BC.Game",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12878",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12878",
+          "url": "https://www.hltv.org/team/12878"
+        }
+      ],
+      "organizationId": "external-org-bc-game",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-s1mple",
+          "nickname": "s1mple",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-magisk",
+          "nickname": "Magisk",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-asap",
+          "nickname": "asap",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-senzu",
+          "nickname": "Senzu",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-mzinho",
+          "nickname": "mzinho",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-flyquest",
+      "slug": "external-cs-flyquest",
+      "name": "FlyQuest",
+      "spreadsheetName": "FlyQuest",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12774",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12774",
+          "url": "https://www.hltv.org/team/12774"
+        }
+      ],
+      "organizationId": "external-lol-org-flyquest",
+      "organizationAction": "existing-organization-cs-team-created",
+      "organizationConfidence": "high",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-jks",
+          "nickname": "jks",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-alistair",
+          "nickname": "aliStair",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ins",
+          "nickname": "INS",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-vexite",
+          "nickname": "Vexite",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nettik",
+          "nickname": "nettik",
+          "identity": "new"
+        }
+      ],
+      "organizationMatchBasis": "exact-name"
+    },
+    {
+      "teamId": "external-cs-team-eyeballers",
+      "slug": "external-cs-eyeballers",
+      "name": "EYEBALLERS",
+      "spreadsheetName": "EYEBALLERS",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11737",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11737",
+          "url": "https://www.hltv.org/team/11737"
+        }
+      ],
+      "organizationId": "external-org-eyeballers",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-jw",
+          "nickname": "JW",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-krimz",
+          "nickname": "KRIMZ",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-maxster",
+          "nickname": "maxster",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ro1f",
+          "nickname": "Ro1f",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-dex",
+          "nickname": "dex",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-chinggis-warriors",
+      "slug": "external-cs-chinggis-warriors",
+      "name": "Chinggis Warriors",
+      "spreadsheetName": "Chinggis Warriors",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "12646",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "12646",
+          "url": "https://www.hltv.org/team/12646"
+        }
+      ],
+      "organizationId": "external-org-chinggis-warriors",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-sk0r",
+          "nickname": "sk0R",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-roux",
+          "nickname": "ROUX",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cool4st",
+          "nickname": "cool4st",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-fury5k",
+          "nickname": "fury5k",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-tikuak",
+          "nickname": "tikuak",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-saw",
+      "slug": "external-cs-saw",
+      "name": "SAW",
+      "spreadsheetName": "SAW",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "10567",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "10567",
+          "url": "https://www.hltv.org/team/10567"
+        }
+      ],
+      "organizationId": "external-org-saw",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-mutiris",
+          "nickname": "MUTiRiS",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nopeej",
+          "nickname": "NOPEEj",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-story",
+          "nickname": "story",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ewjerkz",
+          "nickname": "ewjerkz",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-krazy",
+          "nickname": "krazy",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-metizport",
+      "slug": "external-cs-metizport",
+      "name": "Metizport",
+      "spreadsheetName": "Metizport",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11641",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11641",
+          "url": "https://www.hltv.org/team/11641"
+        }
+      ],
+      "organizationId": "external-org-metizport",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-stanislaw",
+          "nickname": "stanislaw",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-plopski",
+          "nickname": "Plopski",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-f1ku",
+          "nickname": "F1KU",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-forsyy",
+          "nickname": "forsyy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-mail09",
+          "nickname": "MaiL09",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-og",
+      "slug": "external-cs-og",
+      "name": "OG",
+      "spreadsheetName": "OG",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "10503",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "10503",
+          "url": "https://www.hltv.org/team/10503"
+        }
+      ],
+      "organizationId": "external-org-og",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-bodyy",
+          "nickname": "bodyy",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-spooke",
+          "nickname": "spooke",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ex3rcice",
+          "nickname": "Ex3rcice",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nut-nut",
+          "nickname": "nut nut",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-chucky",
+          "nickname": "Chucky",
+          "identity": "new"
+        }
+      ],
+      "notes": [
+        "European organization, HLTV 10503 (workbook source note). Leaguepedia lists the unrelated League teams \"O'Gaming TV\" and \"Original Gaming\"; neither is merged."
+      ]
+    },
+    {
+      "teamId": "external-cs-team-lag",
+      "slug": "external-cs-lag",
+      "name": "LAG",
+      "spreadsheetName": "LAG",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "11955",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "11955",
+          "url": "https://www.hltv.org/team/11955"
+        }
+      ],
+      "organizationId": "external-org-lag",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-djay",
+          "nickname": "djay",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-cryptic",
+          "nickname": "Cryptic",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-bwills",
+          "nickname": "Bwills",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-slight",
+          "nickname": "SLIGHT",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-sandman",
+          "nickname": "Sandman",
+          "identity": "new"
+        }
+      ]
+    },
+    {
+      "teamId": "external-cs-team-marsborne",
+      "slug": "external-cs-marsborne",
+      "name": "Marsborne",
+      "spreadsheetName": "Marsborne",
+      "game": "Counter-Strike 2",
+      "hltvTeamId": "13124",
+      "externalReferences": [
+        {
+          "system": "HLTV",
+          "type": "team",
+          "id": "13124",
+          "url": "https://www.hltv.org/team/13124"
+        }
+      ],
+      "organizationId": "external-org-marsborne",
+      "organizationAction": "new-organization-created",
+      "organizationConfidence": "n/a",
+      "rosterStatus": "starting-five",
+      "starters": [
+        {
+          "playerId": "external-cs-player-freshie",
+          "nickname": "freshie",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-nicx",
+          "nickname": "nicx",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-grizz",
+          "nickname": "Grizz",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-ogwizard",
+          "nickname": "ogwizard",
+          "identity": "new"
+        },
+        {
+          "playerId": "external-cs-player-wumbo",
+          "nickname": "WUMBO",
+          "identity": "new"
+        }
+      ]
+    }
+  ],
+  "players": [
+    {
+      "playerId": "external-cs-player-slaxz",
+      "slug": "external-cs-slaxz",
+      "nickname": "slaxz-",
+      "legalName": "Fritz Dietrich",
+      "nationality": "Germany",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-swisher",
+      "slug": "external-cs-swisher",
+      "nickname": "Swisher",
+      "legalName": "Michael Schmid",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-s1n",
+      "slug": "external-cs-s1n",
+      "nickname": "s1n",
+      "legalName": "Elias Stein",
+      "nationality": "Germany",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jba",
+      "slug": "external-cs-jba",
+      "nickname": "JBa",
+      "legalName": "Josh Barutt",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-lake",
+      "slug": "external-cs-lake",
+      "nickname": "Lake",
+      "legalName": "Mason Sanderson",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nitr0",
+      "slug": "external-cs-nitr0",
+      "nickname": "nitr0",
+      "legalName": "Nick Cannella",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sonic",
+      "slug": "external-cs-sonic",
+      "nickname": "Sonic",
+      "legalName": "Aran Groesbeek",
+      "nationality": "South Africa",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-hallzerk",
+      "slug": "external-cs-hallzerk",
+      "nickname": "hallzerk",
+      "legalName": "Håkon Fjærli",
+      "nationality": "Norway",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-grim",
+      "slug": "external-cs-grim",
+      "nickname": "Grim",
+      "legalName": "Michael Wince",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jeorge",
+      "slug": "external-cs-jeorge",
+      "nickname": "Jeorge",
+      "legalName": "Jeorge Endicott",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-autimatic",
+      "slug": "external-cs-autimatic",
+      "nickname": "autimatic",
+      "legalName": "Timothy Ta",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-brehze",
+      "slug": "external-cs-brehze",
+      "nickname": "Brehze",
+      "legalName": "Vincent Cayonte",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cerq",
+      "slug": "external-cs-cerq",
+      "nickname": "CeRq",
+      "legalName": "Tsvetelin Dimitrov",
+      "nationality": "Bulgaria",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fang",
+      "slug": "external-cs-fang",
+      "nickname": "FaNg",
+      "legalName": "Justin Coakley",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fallen",
+      "slug": "external-cs-fallen",
+      "nickname": "FalleN",
+      "legalName": "Gabriel Toledo",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-yuurih",
+      "slug": "external-cs-yuurih",
+      "nickname": "yuurih",
+      "legalName": "Yuri Santos",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-yekindar",
+      "slug": "external-cs-yekindar",
+      "nickname": "YEKINDAR",
+      "legalName": "Mareks Gaļinskis",
+      "nationality": "Latvia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kscerato",
+      "slug": "external-cs-kscerato",
+      "nickname": "KSCERATO",
+      "legalName": "Kaike Cerato",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-molodoy",
+      "slug": "external-cs-molodoy",
+      "nickname": "molodoy",
+      "legalName": "Danil Golubenko",
+      "nationality": "Kazakhstan",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-art",
+      "slug": "external-cs-art",
+      "nickname": "arT",
+      "legalName": "Andrei Piovezan",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-dumau",
+      "slug": "external-cs-dumau",
+      "nickname": "dumau",
+      "legalName": "Eduardo Wolkmer",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-latto",
+      "slug": "external-cs-latto",
+      "nickname": "latto",
+      "legalName": "Bruno Rebelatto",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-try",
+      "slug": "external-cs-try",
+      "nickname": "try",
+      "legalName": "Santino Rigal",
+      "nationality": "Argentina",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ksloks",
+      "slug": "external-cs-ksloks",
+      "nickname": "ksloks",
+      "legalName": "Italo Meinberg",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-lnz",
+      "slug": "external-cs-lnz",
+      "nickname": "LNZ",
+      "legalName": "Linus Holtäng",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nqz",
+      "slug": "external-cs-nqz",
+      "nickname": "nqz",
+      "legalName": "Lucas Soares",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-insani",
+      "slug": "external-cs-insani",
+      "nickname": "insani",
+      "legalName": "Felipe Yuji",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-venomzera",
+      "slug": "external-cs-venomzera",
+      "nickname": "venomzera",
+      "legalName": "Carlos Eduardo",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-tomaszin",
+      "slug": "external-cs-tomaszin",
+      "nickname": "tomaszin",
+      "legalName": "Tomas Corna",
+      "nationality": "Argentina",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-gafolo",
+      "slug": "external-cs-gafolo",
+      "nickname": "gafolo",
+      "legalName": "Victor Andrade",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-koala",
+      "slug": "external-cs-koala",
+      "nickname": "koala",
+      "legalName": "João Pfeffer",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-maxxkor",
+      "slug": "external-cs-maxxkor",
+      "nickname": "maxxkor",
+      "legalName": "Máximo Cortina",
+      "nationality": "Argentina",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-rdnzao",
+      "slug": "external-cs-rdnzao",
+      "nickname": "rdnzao",
+      "legalName": "Daniel Monteiro",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-doc",
+      "slug": "external-cs-doc",
+      "nickname": "doc",
+      "legalName": "Danilo Barros",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-biguzera",
+      "slug": "external-cs-biguzera",
+      "nickname": "biguzera",
+      "legalName": "Rodrigo Bittencourt",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-saffee",
+      "slug": "external-cs-saffee",
+      "nickname": "saffee",
+      "legalName": "Rafael Costa",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-snow",
+      "slug": "external-cs-snow",
+      "nickname": "snow",
+      "legalName": "João Vinicius",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-tatu",
+      "slug": "external-cs-tatu",
+      "nickname": "Tatu",
+      "legalName": "Lucas Santana",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-rkzinho",
+      "slug": "external-cs-rkzinho",
+      "nickname": "Rkzinho",
+      "legalName": "Rickson Ribeiro Dias",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-chelo",
+      "slug": "external-cs-chelo",
+      "nickname": "chelo",
+      "legalName": "Marcelo Cespedes",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-vini",
+      "slug": "external-cs-vini",
+      "nickname": "VINI",
+      "legalName": "Vinicius Figueiredo",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-decenty",
+      "slug": "external-cs-decenty",
+      "nickname": "decenty",
+      "legalName": "Lucas Bacelar",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-noway",
+      "slug": "external-cs-noway",
+      "nickname": "noway",
+      "legalName": "Kaiky Santos",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-saadzin",
+      "slug": "external-cs-saadzin",
+      "nickname": "saadzin",
+      "legalName": "Guilherme Pacheco",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-drop",
+      "slug": "external-cs-drop",
+      "nickname": "drop",
+      "legalName": "André Abreu",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kauez",
+      "slug": "external-cs-kauez",
+      "nickname": "kauez",
+      "legalName": "Kaue Kaschuk",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cass1n",
+      "slug": "external-cs-cass1n",
+      "nickname": "cass1n",
+      "legalName": "Cássio Santos",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-buda",
+      "slug": "external-cs-buda",
+      "nickname": "buda",
+      "legalName": "Nicolás Kramer",
+      "nationality": "Argentina",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-timo",
+      "slug": "external-cs-timo",
+      "nickname": "timo",
+      "legalName": "Cristhian Perez",
+      "nationality": "Uruguay",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-exit",
+      "slug": "external-cs-exit",
+      "nickname": "exit",
+      "legalName": "Raphael Lacerda",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-dav1deus",
+      "slug": "external-cs-dav1deus",
+      "nickname": "dav1deuS",
+      "legalName": "David Tapia Maldonado",
+      "nationality": "Chile",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-zevy",
+      "slug": "external-cs-zevy",
+      "nickname": "zevy",
+      "legalName": "Romeu Rocco",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kye",
+      "slug": "external-cs-kye",
+      "nickname": "kye",
+      "legalName": "Kayke Bertolucci",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ltz",
+      "slug": "external-cs-ltz",
+      "nickname": "Ltz",
+      "legalName": "João Bonetti",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-apex",
+      "slug": "external-cs-apex",
+      "nickname": "apEX",
+      "legalName": "Dan Madesclaire",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ropz",
+      "slug": "external-cs-ropz",
+      "nickname": "ropz",
+      "legalName": "Robin Kool",
+      "nationality": "Estonia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-zywoo",
+      "slug": "external-cs-zywoo",
+      "nickname": "ZywOo",
+      "legalName": "Mathieu Herbaut",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-flamez",
+      "slug": "external-cs-flamez",
+      "nickname": "flameZ",
+      "legalName": "Shahar Shushan",
+      "nationality": "Israel",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mezii",
+      "slug": "external-cs-mezii",
+      "nickname": "mezii",
+      "legalName": "William Merriman",
+      "nationality": "United Kingdom",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sh1ro",
+      "slug": "external-cs-sh1ro",
+      "nickname": "sh1ro",
+      "legalName": "Dmitry Sokolov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-magixx",
+      "slug": "external-cs-magixx",
+      "nickname": "magixx",
+      "legalName": "Boris Vorobiev",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-tn1r",
+      "slug": "external-cs-tn1r",
+      "nickname": "tN1R",
+      "legalName": "Andrey Tatarinovich",
+      "nationality": "Belarus",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-zont1x",
+      "slug": "external-cs-zont1x",
+      "nickname": "zont1x",
+      "legalName": "Myroslav Plakhotia",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-donk",
+      "slug": "external-cs-donk",
+      "nickname": "donk",
+      "legalName": "Danil Kryshkovets",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-torzsi",
+      "slug": "external-cs-torzsi",
+      "nickname": "torzsi",
+      "legalName": "Ádám Torzsás",
+      "nationality": "Hungary",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-spinx",
+      "slug": "external-cs-spinx",
+      "nickname": "Spinx",
+      "legalName": "Lotan Giladi",
+      "nationality": "Israel",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xertion",
+      "slug": "external-cs-xertion",
+      "nickname": "xertioN",
+      "legalName": "Dorian Berman",
+      "nationality": "Israel",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-pr",
+      "slug": "external-cs-pr",
+      "nickname": "PR",
+      "legalName": "Oldřich Nový",
+      "nationality": "Czech Republic",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xelex",
+      "slug": "external-cs-xelex",
+      "nickname": "xelex",
+      "legalName": "Adrian Vincze",
+      "nationality": "Hungary",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xantares",
+      "slug": "external-cs-xantares",
+      "nickname": "XANTARES",
+      "legalName": "Ismailcan Dörtkardeş",
+      "nationality": "Türkiye",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-woxic",
+      "slug": "external-cs-woxic",
+      "nickname": "woxic",
+      "legalName": "Özgür Eker",
+      "nationality": "Türkiye",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jimpphat",
+      "slug": "external-cs-jimpphat",
+      "nickname": "Jimpphat",
+      "legalName": "Jimi Salo",
+      "nationality": "Finland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kyxsan",
+      "slug": "external-cs-kyxsan",
+      "nickname": "kyxsan",
+      "legalName": "Damjan Stoilkovski",
+      "nationality": "North Macedonia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-wicadia",
+      "slug": "external-cs-wicadia",
+      "nickname": "Wicadia",
+      "legalName": "Ali Haydar Yalçın",
+      "nationality": "Türkiye",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-karrigan",
+      "slug": "external-cs-karrigan",
+      "nickname": "karrigan",
+      "legalName": "Finn Andersen",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-niko",
+      "slug": "external-cs-niko",
+      "nickname": "NiKo",
+      "legalName": "Nikola Kovač",
+      "nationality": "Bosnia and Herzegovina",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-teses",
+      "slug": "external-cs-teses",
+      "nickname": "TeSeS",
+      "legalName": "René Madsen",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-m0nesy",
+      "slug": "external-cs-m0nesy",
+      "nickname": "m0NESY",
+      "legalName": "Ilya Osipov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kyousuke",
+      "slug": "external-cs-kyousuke",
+      "nickname": "kyousuke",
+      "legalName": "Maksim Lukin",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-boombl4",
+      "slug": "external-cs-boombl4",
+      "nickname": "Boombl4",
+      "legalName": "Kirill Mikhailov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-zorte",
+      "slug": "external-cs-zorte",
+      "nickname": "zorte",
+      "legalName": "Aleksandr Zagodyrenko",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-s1ren",
+      "slug": "external-cs-s1ren",
+      "nickname": "S1ren",
+      "legalName": "Pavel Ogloblin",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-d1ledez",
+      "slug": "external-cs-d1ledez",
+      "nickname": "d1Ledez",
+      "legalName": "Daniil Kustov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-magnojez",
+      "slug": "external-cs-magnojez",
+      "nickname": "Magnojez",
+      "legalName": "Kirill Rodnov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sunpayus",
+      "slug": "external-cs-sunpayus",
+      "nickname": "SunPayus",
+      "legalName": "Álvaro García",
+      "nationality": "Spain",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xfl0ud",
+      "slug": "external-cs-xfl0ud",
+      "nickname": "xfl0ud",
+      "legalName": "Yasin Koç",
+      "nationality": "Türkiye",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-dem0n",
+      "slug": "external-cs-dem0n",
+      "nickname": "dem0n",
+      "legalName": "Dmytro Myroshnychenko",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-krabeni",
+      "slug": "external-cs-krabeni",
+      "nickname": "Krabeni",
+      "legalName": "Aulon Fazlija",
+      "nationality": "Kosovo",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-dziugss",
+      "slug": "external-cs-dziugss",
+      "nickname": "dziugss",
+      "legalName": "Džiugas Steponavičius",
+      "nationality": "Lithuania",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kair0n",
+      "slug": "external-cs-kair0n",
+      "nickname": "KaiR0N-",
+      "legalName": "Aleksandr Anashkin",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xant3r",
+      "slug": "external-cs-xant3r",
+      "nickname": "Xant3r",
+      "legalName": "Kirill Kononov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-robo",
+      "slug": "external-cs-robo",
+      "nickname": "robo",
+      "legalName": "Nikita Dushin",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-khan",
+      "slug": "external-cs-khan",
+      "nickname": "khaN",
+      "legalName": "Beksultan Ospan",
+      "nationality": "Kazakhstan",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-syph0",
+      "slug": "external-cs-syph0",
+      "nickname": "syph0",
+      "legalName": "Daniel Ageyev",
+      "nationality": "Kazakhstan",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-aleksib",
+      "slug": "external-cs-aleksib",
+      "nickname": "Aleksib",
+      "legalName": "Aleksi Virolainen",
+      "nationality": "Finland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-im",
+      "slug": "external-cs-im",
+      "nickname": "iM",
+      "legalName": "Mihai Ivan",
+      "nationality": "Romania",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-b1t",
+      "slug": "external-cs-b1t",
+      "nickname": "b1t",
+      "legalName": "Valeriy Vakhovskiy",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-w0nderful",
+      "slug": "external-cs-w0nderful",
+      "nickname": "w0nderful",
+      "legalName": "Ihor Zhdanov",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-makazze",
+      "slug": "external-cs-makazze",
+      "nickname": "makazze",
+      "legalName": "Drin Shaqiri",
+      "nationality": "Kosovo",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-hunter",
+      "slug": "external-cs-hunter",
+      "nickname": "huNter-",
+      "legalName": "Nemanja Kovač",
+      "nationality": "Bosnia and Herzegovina",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nertz",
+      "slug": "external-cs-nertz",
+      "nickname": "NertZ",
+      "legalName": "Guy Iluz",
+      "nationality": "Israel",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-r1nkle",
+      "slug": "external-cs-r1nkle",
+      "nickname": "r1nkle",
+      "legalName": "Artem Moroz",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-heavygod",
+      "slug": "external-cs-heavygod",
+      "nickname": "HeavyGod",
+      "legalName": "Nikita Martynenko",
+      "nationality": "Israel",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-matys",
+      "slug": "external-cs-matys",
+      "nickname": "MATYS",
+      "legalName": "Matúš Šimko",
+      "nationality": "Slovakia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-hobbit",
+      "slug": "external-cs-hobbit",
+      "nickname": "HObbit",
+      "legalName": "Abay Khassenov",
+      "nationality": "Kazakhstan",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fl1t",
+      "slug": "external-cs-fl1t",
+      "nickname": "FL1T",
+      "legalName": "Evgenii Lebedev",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jame",
+      "slug": "external-cs-jame",
+      "nickname": "Jame",
+      "legalName": "Dzhami Ali",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xielo",
+      "slug": "external-cs-xielo",
+      "nickname": "xiELO",
+      "legalName": "Vladislav Lysov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-zweih",
+      "slug": "external-cs-zweih",
+      "nickname": "zweih",
+      "legalName": "Ivan Gogin",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nin9",
+      "slug": "external-cs-nin9",
+      "nickname": "nin9",
+      "legalName": "Yesuntumur Gantulga",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-blitz",
+      "slug": "external-cs-blitz",
+      "nickname": "bLitz",
+      "legalName": "Garidmagnai Byambasuren",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-techno",
+      "slug": "external-cs-techno",
+      "nickname": "Techno",
+      "legalName": "Sodbayar Munkhbold",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-910",
+      "slug": "external-cs-910",
+      "nickname": "910",
+      "legalName": "Usukhbayar Banzragch",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cobrazera",
+      "slug": "external-cs-cobrazera",
+      "nickname": "cobrazera",
+      "legalName": "Anarbileg Uuganbayar",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ax1le",
+      "slug": "external-cs-ax1le",
+      "nickname": "Ax1Le",
+      "legalName": "Sergey Rykhtorov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nafany",
+      "slug": "external-cs-nafany",
+      "nickname": "nafany",
+      "legalName": "Vladislav Gorshkov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-belchonokk",
+      "slug": "external-cs-belchonokk",
+      "nickname": "BELCHONOKK",
+      "legalName": "Andrey Yasinskiy",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fame",
+      "slug": "external-cs-fame",
+      "nickname": "fame",
+      "legalName": "Petr Bolyshev",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-artfr0st",
+      "slug": "external-cs-artfr0st",
+      "nickname": "ArtFr0st",
+      "legalName": "Artem Kharitonov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-naf",
+      "slug": "external-cs-naf",
+      "nickname": "NAF",
+      "legalName": "Keith Markovic",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-elige",
+      "slug": "external-cs-elige",
+      "nickname": "EliGE",
+      "legalName": "Jonathan Jablonowski",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-malbsmd",
+      "slug": "external-cs-malbsmd",
+      "nickname": "malbsMd",
+      "legalName": "Mario Samayoa",
+      "nationality": "Guatemala",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jt",
+      "slug": "external-cs-jt",
+      "nickname": "JT",
+      "legalName": "Johnny Theodosiou",
+      "nationality": "South Africa",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jorko",
+      "slug": "external-cs-jorko",
+      "nickname": "Jorko",
+      "legalName": "Georgi Mitev",
+      "nationality": "Bulgaria",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-phzy",
+      "slug": "external-cs-phzy",
+      "nickname": "phzy",
+      "legalName": "Love Smidebrant",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-siuhy",
+      "slug": "external-cs-siuhy",
+      "nickname": "siuhy",
+      "legalName": "Kamil Szkaradek",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-staehr",
+      "slug": "external-cs-staehr",
+      "nickname": "Staehr",
+      "legalName": "Victor Staehr",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ryu",
+      "slug": "external-cs-ryu",
+      "nickname": "ryu",
+      "legalName": "Gytis Glušauskas",
+      "nationality": "Lithuania",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cmtry",
+      "slug": "external-cs-cmtry",
+      "nickname": "cmtry",
+      "legalName": "Nikita Samolotov",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-frozen",
+      "slug": "external-cs-frozen",
+      "nickname": "frozen",
+      "legalName": "David Čerňanský",
+      "nationality": "Slovakia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-twistzz",
+      "slug": "external-cs-twistzz",
+      "nickname": "Twistzz",
+      "legalName": "Russel Van Dulken",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-neityu",
+      "slug": "external-cs-neityu",
+      "nickname": "Neityu",
+      "legalName": "Ryan Aubry",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jcobbb",
+      "slug": "external-cs-jcobbb",
+      "nickname": "jcobbb",
+      "legalName": "Jakub Pietruszewski",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jboen",
+      "slug": "external-cs-jboen",
+      "nickname": "JBOEN",
+      "legalName": "Jason Boe Nielsen",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mistem",
+      "slug": "external-cs-mistem",
+      "nickname": "MisteM",
+      "legalName": "Gareth Ries",
+      "nationality": "South Africa",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-regali",
+      "slug": "external-cs-regali",
+      "nickname": "regali",
+      "legalName": "Iulian Harjău",
+      "nationality": "Romania",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-soulfly",
+      "slug": "external-cs-soulfly",
+      "nickname": "soulfly",
+      "legalName": "Caner Kesici",
+      "nationality": "Türkiye",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kvem",
+      "slug": "external-cs-kvem",
+      "nickname": "Kvem",
+      "legalName": "Vladyslav Korol",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jottaaa",
+      "slug": "external-cs-jottaaa",
+      "nickname": "jottAAA",
+      "legalName": "Samet Köklü",
+      "nationality": "Türkiye",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-stavn",
+      "slug": "external-cs-stavn",
+      "nickname": "stavn",
+      "legalName": "Martin Lund",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sjuush",
+      "slug": "external-cs-sjuush",
+      "nickname": "sjuush",
+      "legalName": "Rasmus Beck",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-krimbo",
+      "slug": "external-cs-krimbo",
+      "nickname": "Krimbo",
+      "legalName": "Karim Moussa",
+      "nationality": "Germany",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-adamb",
+      "slug": "external-cs-adamb",
+      "nickname": "adamb",
+      "legalName": "Adam Ångström",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-xkacpersky",
+      "slug": "external-cs-xkacpersky",
+      "nickname": "xKacpersky",
+      "legalName": "Kacper Gabara",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-rez",
+      "slug": "external-cs-rez",
+      "nickname": "REZ",
+      "legalName": "Fredrik Sterner",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-shalfey",
+      "slug": "external-cs-shalfey",
+      "nickname": "shalfey",
+      "legalName": "Aleksandr Marenov",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-tauson",
+      "slug": "external-cs-tauson",
+      "nickname": "Tauson",
+      "legalName": "Sebastian Tauson Lindelof",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fl4mus",
+      "slug": "external-cs-fl4mus",
+      "nickname": "FL4MUS",
+      "legalName": "Timur Marev",
+      "nationality": "Russia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-hypex",
+      "slug": "external-cs-hypex",
+      "nickname": "hypex",
+      "legalName": "Milan Polowiec",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-brollan",
+      "slug": "external-cs-brollan",
+      "nickname": "Brollan",
+      "legalName": "Ludvig Brolin",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nilo",
+      "slug": "external-cs-nilo",
+      "nickname": "nilo",
+      "legalName": "Linus Bergman",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-susp",
+      "slug": "external-cs-susp",
+      "nickname": "susp",
+      "legalName": "Tim Ångström",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-martinezsa",
+      "slug": "external-cs-martinezsa",
+      "nickname": "MartinezSa",
+      "legalName": "Antonio Martinez",
+      "nationality": "Spain",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-chr1zn",
+      "slug": "external-cs-chr1zn",
+      "nickname": "Chr1zN",
+      "legalName": "Christoffer Storgaard",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fear",
+      "slug": "external-cs-fear",
+      "nickname": "fEAR",
+      "legalName": "Rodion Smyk",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jambo",
+      "slug": "external-cs-jambo",
+      "nickname": "jambo",
+      "legalName": "Dmytro Semera",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jackasmo",
+      "slug": "external-cs-jackasmo",
+      "nickname": "jackasmo",
+      "legalName": "Nikita Skyba",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cairne",
+      "slug": "external-cs-cairne",
+      "nickname": "cairne",
+      "legalName": "Artem Mushynskyi",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mazay",
+      "slug": "external-cs-mazay",
+      "nickname": "mazay",
+      "legalName": "Volodymyr Iorhachov",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-maka",
+      "slug": "external-cs-maka",
+      "nickname": "Maka",
+      "legalName": "Bryan Canda",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-lucky",
+      "slug": "external-cs-lucky",
+      "nickname": "Lucky",
+      "legalName": "Lucas Chastang",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-misutaaa",
+      "slug": "external-cs-misutaaa",
+      "nickname": "misutaaa",
+      "legalName": "Kévin Rabier",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kursy",
+      "slug": "external-cs-kursy",
+      "nickname": "Kursy",
+      "legalName": "Jeremy Gast",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-graviti",
+      "slug": "external-cs-graviti",
+      "nickname": "Graviti",
+      "legalName": "Filip Brankovic",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-rainwaker",
+      "slug": "external-cs-rainwaker",
+      "nickname": "Rainwaker",
+      "legalName": "Aleks Petrov",
+      "nationality": "Bulgaria",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-afro",
+      "slug": "external-cs-afro",
+      "nickname": "afro",
+      "legalName": "Aurélien Drapier",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-lux",
+      "slug": "external-cs-lux",
+      "nickname": "lux",
+      "legalName": "Lucas Meneghini",
+      "nationality": "Brazil",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-yxngstxr",
+      "slug": "external-cs-yxngstxr",
+      "nickname": "yxngstxr",
+      "legalName": "Simon Boije",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-azuwu",
+      "slug": "external-cs-azuwu",
+      "nickname": "AZUWU",
+      "legalName": "Oscar Bell",
+      "nationality": "United Kingdom",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-device",
+      "slug": "external-cs-device",
+      "nickname": "device",
+      "legalName": "Nicolai Reedtz",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-rain",
+      "slug": "external-cs-rain",
+      "nickname": "rain",
+      "legalName": "Håvard Nygaard",
+      "nationality": "Norway",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-gizmy",
+      "slug": "external-cs-gizmy",
+      "nickname": "Gizmy",
+      "legalName": "Jack von Spreckelsen",
+      "nationality": "United Kingdom",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sirah",
+      "slug": "external-cs-sirah",
+      "nickname": "sirah",
+      "legalName": "William Kjærsgaard",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-poiii",
+      "slug": "external-cs-poiii",
+      "nickname": "poiii",
+      "legalName": "Alex Nyholm Sundgren",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jamyoung",
+      "slug": "external-cs-jamyoung",
+      "nickname": "JamYoung",
+      "legalName": "Yi Yang",
+      "nationality": "China",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jee",
+      "slug": "external-cs-jee",
+      "nickname": "Jee",
+      "legalName": "Dongkai Ji",
+      "nationality": "China",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mercury",
+      "slug": "external-cs-mercury",
+      "nickname": "Mercury",
+      "legalName": "Jingxiang Wang",
+      "nationality": "China",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-moseyuh",
+      "slug": "external-cs-moseyuh",
+      "nickname": "Moseyuh",
+      "legalName": "Qianhao Chen",
+      "nationality": "China",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-zero",
+      "slug": "external-cs-zero",
+      "nickname": "Zero",
+      "legalName": "Su Jingshen",
+      "nationality": "China",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-twist",
+      "slug": "external-cs-twist",
+      "nickname": "twist",
+      "legalName": "Simon Eliasson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-eraa",
+      "slug": "external-cs-eraa",
+      "nickname": "eraa",
+      "legalName": "Sean Knutsson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-bobeksde",
+      "slug": "external-cs-bobeksde",
+      "nickname": "bobeksde",
+      "legalName": "Jonatan Persson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-upe",
+      "slug": "external-cs-upe",
+      "nickname": "upE",
+      "legalName": "Markus Johansson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-avid",
+      "slug": "external-cs-avid",
+      "nickname": "avid",
+      "legalName": "Arvid Åberg",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-tabsen",
+      "slug": "external-cs-tabsen",
+      "nickname": "tabseN",
+      "legalName": "Johannes Wodarz",
+      "nationality": "Germany",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jdc",
+      "slug": "external-cs-jdc",
+      "nickname": "JDC",
+      "legalName": "Jon de Castro",
+      "nationality": "Germany",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-faven",
+      "slug": "external-cs-faven",
+      "nickname": "faveN",
+      "legalName": "Josef Baumann",
+      "nationality": "Germany",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-blamef",
+      "slug": "external-cs-blamef",
+      "nickname": "blameF",
+      "legalName": "Benjamin Bremer",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-gr1ks",
+      "slug": "external-cs-gr1ks",
+      "nickname": "gr1ks",
+      "legalName": "Gleb Gazin",
+      "nationality": "Belarus",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-m1n1",
+      "slug": "external-cs-m1n1",
+      "nickname": "m1N1",
+      "legalName": "Hussein Hijazi",
+      "nationality": "Lebanon",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sinnopsyy",
+      "slug": "external-cs-sinnopsyy",
+      "nickname": "sinnopsyy",
+      "legalName": "Dionis Budeci",
+      "nationality": "Kosovo",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-bibu",
+      "slug": "external-cs-bibu",
+      "nickname": "Bibu",
+      "legalName": "Bebu Aadil",
+      "nationality": "Iraq",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cacanito",
+      "slug": "external-cs-cacanito",
+      "nickname": "CacaNito",
+      "legalName": "Aleksandar Kjulukoski",
+      "nationality": "North Macedonia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-0samas",
+      "slug": "external-cs-0samas",
+      "nickname": "0SAMAS",
+      "legalName": "Osama Orabi",
+      "nationality": "Palestine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-beastik",
+      "slug": "external-cs-beastik",
+      "nickname": "beastik",
+      "legalName": "Sebastian Daňo",
+      "nationality": "Czech Republic",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-shock",
+      "slug": "external-cs-shock",
+      "nickname": "SHOCK",
+      "legalName": "Max Kvapil",
+      "nationality": "Czech Republic",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-modo",
+      "slug": "external-cs-modo",
+      "nickname": "MoDo",
+      "legalName": "Mădălin-Andrei Mirea",
+      "nationality": "Romania",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-kisserek",
+      "slug": "external-cs-kisserek",
+      "nickname": "kisserek",
+      "legalName": "Kamil Banak",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-stressarn",
+      "slug": "external-cs-stressarn",
+      "nickname": "stressarN",
+      "legalName": "Jordan Manevski",
+      "nationality": "North Macedonia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nemanha",
+      "slug": "external-cs-nemanha",
+      "nickname": "nEMANHA",
+      "legalName": "Nemanja Đukić",
+      "nationality": "Serbia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cxzi",
+      "slug": "external-cs-cxzi",
+      "nickname": "Cxzi",
+      "legalName": "Danny Strzelczyk",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-reck",
+      "slug": "external-cs-reck",
+      "nickname": "reck",
+      "legalName": "Ethan Serrano",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-hext",
+      "slug": "external-cs-hext",
+      "nickname": "HexT",
+      "legalName": "Jadan Postma",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fr3nd",
+      "slug": "external-cs-fr3nd",
+      "nickname": "fr3nd",
+      "legalName": "Sebastian Kuśmierz",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-s1mple",
+      "slug": "external-cs-s1mple",
+      "nickname": "s1mple",
+      "legalName": "Oleksandr Kostyliev",
+      "nationality": "Ukraine",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-magisk",
+      "slug": "external-cs-magisk",
+      "nickname": "Magisk",
+      "legalName": "Emil Reif",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-asap",
+      "slug": "external-cs-asap",
+      "nickname": "asap",
+      "legalName": "Tyson Paterson",
+      "nationality": "Australia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-senzu",
+      "slug": "external-cs-senzu",
+      "nickname": "Senzu",
+      "legalName": "Azbayar Munkhbold",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mzinho",
+      "slug": "external-cs-mzinho",
+      "nickname": "mzinho",
+      "legalName": "Ayush Batbold",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jks",
+      "slug": "external-cs-jks",
+      "nickname": "jks",
+      "legalName": "Justin Savage",
+      "nationality": "Australia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-alistair",
+      "slug": "external-cs-alistair",
+      "nickname": "aliStair",
+      "legalName": "Alistair Johnston",
+      "nationality": "Australia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ins",
+      "slug": "external-cs-ins",
+      "nickname": "INS",
+      "legalName": "Joshua Potter",
+      "nationality": "Australia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-vexite",
+      "slug": "external-cs-vexite",
+      "nickname": "Vexite",
+      "legalName": "Declan Portelli",
+      "nationality": "Australia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nettik",
+      "slug": "external-cs-nettik",
+      "nickname": "nettik",
+      "legalName": "Corey Browne",
+      "nationality": "New Zealand",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-jw",
+      "slug": "external-cs-jw",
+      "nickname": "JW",
+      "legalName": "Jesper Wecksell",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-krimz",
+      "slug": "external-cs-krimz",
+      "nickname": "KRIMZ",
+      "legalName": "Freddy Johansson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-maxster",
+      "slug": "external-cs-maxster",
+      "nickname": "maxster",
+      "legalName": "Max Jansson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ro1f",
+      "slug": "external-cs-ro1f",
+      "nickname": "Ro1f",
+      "legalName": "Kalle Johansson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-dex",
+      "slug": "external-cs-dex",
+      "nickname": "dex",
+      "legalName": "Sebastian Samuelsson",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sk0r",
+      "slug": "external-cs-sk0r",
+      "nickname": "sk0R",
+      "legalName": "Tengis Batjargal",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-roux",
+      "slug": "external-cs-roux",
+      "nickname": "ROUX",
+      "legalName": "Undrakhbayar Zolbayar",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cool4st",
+      "slug": "external-cs-cool4st",
+      "nickname": "cool4st",
+      "legalName": "Sodbileg Batbaatar",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-fury5k",
+      "slug": "external-cs-fury5k",
+      "nickname": "fury5k",
+      "legalName": "Davaasuren Ganbaatar",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-tikuak",
+      "slug": "external-cs-tikuak",
+      "nickname": "tikuak",
+      "legalName": "Zolbayar Chimedtseren",
+      "nationality": "Mongolia",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mutiris",
+      "slug": "external-cs-mutiris",
+      "nickname": "MUTiRiS",
+      "legalName": "Christopher Fernandes",
+      "nationality": "Portugal",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nopeej",
+      "slug": "external-cs-nopeej",
+      "nickname": "NOPEEj",
+      "legalName": "Filipe Dias",
+      "nationality": "Portugal",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-story",
+      "slug": "external-cs-story",
+      "nickname": "story",
+      "legalName": "João Vieira",
+      "nationality": "Portugal",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ewjerkz",
+      "slug": "external-cs-ewjerkz",
+      "nickname": "ewjerkz",
+      "legalName": "Michel Pinto",
+      "nationality": "Portugal",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-krazy",
+      "slug": "external-cs-krazy",
+      "nickname": "krazy",
+      "legalName": "Adones Nobre",
+      "nationality": "Portugal",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-stanislaw",
+      "slug": "external-cs-stanislaw",
+      "nickname": "stanislaw",
+      "legalName": "Peter Jarguz",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-plopski",
+      "slug": "external-cs-plopski",
+      "nickname": "Plopski",
+      "legalName": "Nicolas Gonzalez Zamora",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-f1ku",
+      "slug": "external-cs-f1ku",
+      "nickname": "F1KU",
+      "legalName": "Maciej Miklas",
+      "nationality": "Poland",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-forsyy",
+      "slug": "external-cs-forsyy",
+      "nickname": "forsyy",
+      "legalName": "David Bílý",
+      "nationality": "Czech Republic",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-mail09",
+      "slug": "external-cs-mail09",
+      "nickname": "MaiL09",
+      "legalName": "Liam Tügel",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-bodyy",
+      "slug": "external-cs-bodyy",
+      "nickname": "bodyy",
+      "legalName": "Alexandre Pianaro",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-spooke",
+      "slug": "external-cs-spooke",
+      "nickname": "spooke",
+      "legalName": "Olle Grundström",
+      "nationality": "Sweden",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ex3rcice",
+      "slug": "external-cs-ex3rcice",
+      "nickname": "Ex3rcice",
+      "legalName": "Pierre Bulinge",
+      "nationality": "France",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nut-nut",
+      "slug": "external-cs-nut-nut",
+      "nickname": "nut nut",
+      "legalName": "Martin Holm Vestergaard",
+      "nationality": "Denmark",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-chucky",
+      "slug": "external-cs-chucky",
+      "nickname": "Chucky",
+      "legalName": "Jordan Molnar",
+      "nationality": "Belgium",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-djay",
+      "slug": "external-cs-djay",
+      "nickname": "djay",
+      "legalName": "Jonathan Dallal",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-cryptic",
+      "slug": "external-cs-cryptic",
+      "nickname": "Cryptic",
+      "legalName": "Matthew Whitmore",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-bwills",
+      "slug": "external-cs-bwills",
+      "nickname": "Bwills",
+      "legalName": "Brendan Williams",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-slight",
+      "slug": "external-cs-slight",
+      "nickname": "SLIGHT",
+      "legalName": "Keller Nilan",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-sandman",
+      "slug": "external-cs-sandman",
+      "nickname": "Sandman",
+      "legalName": "Justin Saulle",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-freshie",
+      "slug": "external-cs-freshie",
+      "nickname": "freshie",
+      "legalName": "Adam Paterson",
+      "nationality": "Canada",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-nicx",
+      "slug": "external-cs-nicx",
+      "nickname": "nicx",
+      "legalName": "Nick Lee",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-grizz",
+      "slug": "external-cs-grizz",
+      "nickname": "Grizz",
+      "legalName": "Adam Golden",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-ogwizard",
+      "slug": "external-cs-ogwizard",
+      "nickname": "ogwizard",
+      "legalName": "Bogdan Savula",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    },
+    {
+      "playerId": "external-cs-player-wumbo",
+      "slug": "external-cs-wumbo",
+      "nickname": "WUMBO",
+      "legalName": "Chance Boyer",
+      "nationality": "United States",
+      "game": "Counter-Strike 2",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-approved",
+      "sourceIds": [
+        "source-canon-directive-2027-cs-external-rosters"
+      ]
+    }
+  ],
+  "continuityCases": [
+    {
+      "caseId": "stewie2k-without-a-roof",
+      "personId": "jake-stewie2k-yip",
+      "nickname": "Stewie2K",
+      "legalName": "Jake Yip",
+      "playerTeamId": "external-cs-team-without-a-roof",
+      "effectiveFrom": "2027-01-29",
+      "status": "accepted-sporting-proposal-former-kairos-employee",
+      "kairosCoachTenureId": "jake-stewie2k-yip-kairos-cs-academy",
+      "kairosCoachTenurePreserved": true,
+      "kairosCoachTenureEndDate": null,
+      "statements": [
+        "On 2027-01-29 Jake Yip receives an offer from Without a Roof to return as a professional Counter-Strike player.",
+        "He accepts the sporting proposal. He is listed on the Without a Roof roster as a former Kairos employee.",
+        "Kairos begins searching for his replacement. Tarik has been contacted as a prospective candidate only."
+      ],
+      "notEstablished": [
+        "No exact departure date from Kairos is established, and no end date is recorded on his coach tenure.",
+        "Tarik is not appointed Kairos Academy head coach and has not accepted any role.",
+        "Stewie2K is not a Without a Roof player during any episode before the 2027-01-29 offer.",
+        "No contract terms, salary or buyout are established."
+      ],
+      "kairosAcademyRosterChanged": false,
+      "rosterLabel": "Former Kairos employee"
+    }
+  ]
+}

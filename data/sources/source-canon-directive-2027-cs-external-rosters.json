@@ -1,0 +1,17 @@
+{
+  "id": "source-canon-directive-2027-cs-external-rosters",
+  "slug": "source-canon-directive-2027-cs-external-rosters",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: Counter-Strike 2 external organizations and rosters for Kairos Universe 2027",
+  "path": "docs/canon/COUNTER_STRIKE_EXTERNAL_ROSTERS_2027.md",
+  "locator": "Author-confirmed canon directive, hltv_team_rosters.xlsx (HLTV research dated 2026-11-06)",
+  "publicLabel": "Kairos Universe canon directive: Counter-Strike 2 external rosters (HLTV reference snapshot, 2026-11-06)",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Direct author-confirmed canon directive, not sourced from episode prose.",
+    "Fictional-universe roster directive based on a historical HLTV reference snapshot; it is not a verified report of real-world 2027 rosters.",
+    "Establishes 50 external Counter-Strike 2 starting fives (250 assignments). No contract dates, transfers, roles, results or qualification are established."
+  ]
+}

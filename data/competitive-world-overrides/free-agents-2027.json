@@ -4,7 +4,8 @@
   "canonStatus": "confirmed",
   "sourceIds": [
     "source-canon-directive-2027-league-regional-restructuring",
-    "source-canon-directive-2027-lcs-rosters"
+    "source-canon-directive-2027-lcs-rosters",
+    "source-canon-directive-2027-lec-rosters"
   ],
   "disclaimer": "Kairos Universe fictional speculation. Every player below remains the same real-world-referenced person documented in the frozen pre-Worlds 2026 reference scene (external-data/pre-worlds-2026); only their Kairos Universe 2027 fictional competitive status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No destination is invented for any player: each becomes a Free Agent in this fictional continuity unless a destination is already confirmed elsewhere in Kairos canon (none currently are). No reason beyond roster/contract non-renewal at season end is recorded for any player.",
   "players": [
@@ -65,51 +66,6 @@
       "note": "Cupid eSports is not named in the author's confirmed 2027 NACL departures list; excluded from the active roster for exact-8 consistency and treated the same as other removed-organization players. Flagged for author review."
     },
     {
-      "playerId": "external-lol-player-rich",
-      "nickname": "Rich",
-      "previousTeamId": "external-lol-team-drx",
-      "previousTeamName": "DRX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-willer",
-      "nickname": "Willer",
-      "previousTeamId": "external-lol-team-drx",
-      "previousTeamName": "DRX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-ucal",
-      "nickname": "Ucal",
-      "previousTeamId": "external-lol-team-drx",
-      "previousTeamName": "DRX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-aiming",
-      "nickname": "Aiming",
-      "previousTeamId": "external-lol-team-drx",
-      "previousTeamName": "DRX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-andil",
-      "nickname": "Andil",
-      "previousTeamId": "external-lol-team-drx",
-      "previousTeamName": "DRX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-frog",
       "nickname": "Frog",
       "previousTeamId": "external-lol-team-drx",
@@ -128,107 +84,8 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-lazyfeel",
-      "nickname": "LazyFeel",
-      "previousTeamId": "external-lol-team-drx",
-      "previousTeamName": "DRX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-clear",
-      "nickname": "Clear",
-      "previousTeamId": "external-lol-team-fearx",
-      "previousTeamName": "FEARX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-raptor",
-      "nickname": "Raptor",
-      "previousTeamId": "external-lol-team-fearx",
-      "previousTeamName": "FEARX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-vicla",
-      "nickname": "VicLa",
-      "previousTeamId": "external-lol-team-fearx",
-      "previousTeamName": "FEARX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-taeyoon",
-      "nickname": "Taeyoon",
-      "previousTeamId": "external-lol-team-fearx",
-      "previousTeamName": "FEARX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-kellin",
-      "nickname": "Kellin",
-      "previousTeamId": "external-lol-team-fearx",
-      "previousTeamName": "FEARX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-daystar",
-      "nickname": "Daystar",
-      "previousTeamId": "external-lol-team-fearx",
-      "previousTeamName": "FEARX",
-      "league": "LCK",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-cube",
       "nickname": "Cube",
-      "previousTeamId": "external-lol-team-team-we",
-      "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-monki",
-      "nickname": "Monki",
-      "previousTeamId": "external-lol-team-team-we",
-      "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-karis",
-      "nickname": "Karis",
-      "previousTeamId": "external-lol-team-team-we",
-      "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-about",
-      "nickname": "About",
-      "previousTeamId": "external-lol-team-team-we",
-      "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-erha",
-      "nickname": "Erha",
       "previousTeamId": "external-lol-team-team-we",
       "previousTeamName": "Team WE",
       "league": "LPL",
@@ -240,123 +97,6 @@
       "nickname": "Tyrion",
       "previousTeamId": "external-lol-team-team-we",
       "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-burdol",
-      "nickname": "Burdol",
-      "previousTeamId": "external-lol-team-lgd-gaming",
-      "previousTeamName": "LGD Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-heng",
-      "nickname": "Heng",
-      "previousTeamId": "external-lol-team-lgd-gaming",
-      "previousTeamName": "LGD Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-tangyuan",
-      "nickname": "Tangyuan",
-      "previousTeamId": "external-lol-team-lgd-gaming",
-      "previousTeamName": "LGD Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-shaoye",
-      "nickname": "Shaoye",
-      "previousTeamId": "external-lol-team-lgd-gaming",
-      "previousTeamName": "LGD Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-crisp",
-      "nickname": "Crisp",
-      "previousTeamId": "external-lol-team-lgd-gaming",
-      "previousTeamName": "LGD Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-zdz",
-      "nickname": "Zdz",
-      "previousTeamId": "external-lol-team-edward-gaming",
-      "previousTeamName": "EDward Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-jiejie",
-      "nickname": "Jiejie",
-      "previousTeamId": "external-lol-team-edward-gaming",
-      "previousTeamName": "EDward Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-bulldog",
-      "nickname": "BuLLDoG",
-      "previousTeamId": "external-lol-team-edward-gaming",
-      "previousTeamName": "EDward Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-leave",
-      "nickname": "Leave",
-      "previousTeamId": "external-lol-team-edward-gaming",
-      "previousTeamName": "EDward Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-parukia",
-      "nickname": "Parukia",
-      "previousTeamId": "external-lol-team-edward-gaming",
-      "previousTeamName": "EDward Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-sinian",
-      "nickname": "Sinian",
-      "previousTeamId": "external-lol-team-edward-gaming",
-      "previousTeamName": "EDward Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-keshi",
-      "nickname": "Keshi",
-      "previousTeamId": "external-lol-team-thundertalk-gaming",
-      "previousTeamName": "ThunderTalk Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-junhao",
-      "nickname": "Junhao",
-      "previousTeamId": "external-lol-team-thundertalk-gaming",
-      "previousTeamName": "ThunderTalk Gaming",
       "league": "LPL",
       "effectiveDate": "2026-12-31",
       "status": "free-agent"
@@ -380,53 +120,8 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-feather",
-      "nickname": "Feather",
-      "previousTeamId": "external-lol-team-thundertalk-gaming",
-      "previousTeamName": "ThunderTalk Gaming",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-hoya",
-      "nickname": "Hoya",
-      "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
-      "previousTeamName": "Ninjas in Pyjamas",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-guwon",
       "nickname": "Guwon",
-      "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
-      "previousTeamName": "Ninjas in Pyjamas",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-care",
-      "nickname": "Care",
-      "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
-      "previousTeamName": "Ninjas in Pyjamas",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-photic",
-      "nickname": "Photic",
-      "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
-      "previousTeamName": "Ninjas in Pyjamas",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-fengyue",
-      "nickname": "fengyue",
       "previousTeamId": "external-lol-team-ninjas-in-pyjamas",
       "previousTeamName": "Ninjas in Pyjamas",
       "league": "LPL",
@@ -461,110 +156,11 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-hena",
-      "nickname": "Hena",
-      "previousTeamId": "external-lol-team-ultra-prime",
-      "previousTeamName": "Ultra Prime",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-xiaoxia",
       "nickname": "Xiaoxia",
       "previousTeamId": "external-lol-team-ultra-prime",
       "previousTeamName": "Ultra Prime",
       "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-rooster",
-      "nickname": "Rooster",
-      "previousTeamId": "external-lol-team-shifters",
-      "previousTeamName": "Shifters",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-sheo",
-      "nickname": "Sheo",
-      "previousTeamId": "external-lol-team-shifters",
-      "previousTeamName": "Shifters",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-nuc",
-      "nickname": "nuc",
-      "previousTeamId": "external-lol-team-shifters",
-      "previousTeamName": "Shifters",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-paduck",
-      "nickname": "Paduck",
-      "previousTeamId": "external-lol-team-shifters",
-      "previousTeamName": "Shifters",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-stend",
-      "nickname": "Stend",
-      "previousTeamId": "external-lol-team-shifters",
-      "previousTeamName": "Shifters",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-tracyn",
-      "nickname": "Tracyn",
-      "previousTeamId": "external-lol-team-team-heretics",
-      "previousTeamName": "Team Heretics",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-daglas",
-      "nickname": "Daglas",
-      "previousTeamId": "external-lol-team-team-heretics",
-      "previousTeamName": "Team Heretics",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-serin",
-      "nickname": "Serin",
-      "previousTeamId": "external-lol-team-team-heretics",
-      "previousTeamName": "Team Heretics",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-hype",
-      "nickname": "Hype",
-      "previousTeamId": "external-lol-team-team-heretics",
-      "previousTeamName": "Team Heretics",
-      "league": "LEC",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-way",
-      "nickname": "Way",
-      "previousTeamId": "external-lol-team-team-heretics",
-      "previousTeamName": "Team Heretics",
-      "league": "LEC",
       "effectiveDate": "2026-12-31",
       "status": "free-agent"
     },

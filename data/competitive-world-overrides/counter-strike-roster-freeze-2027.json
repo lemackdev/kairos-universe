@@ -2,26 +2,52 @@
   "continuityId": "kairos-universe",
   "originType": "fictional",
   "canonStatus": "confirmed",
-  "sourceIds": ["source-canon-directive-2027-cs-roster-freeze"],
+  "sourceIds": [
+    "source-canon-directive-2027-cs-roster-freeze",
+    "source-canon-directive-2027-cs-external-rosters"
+  ],
   "directiveId": "counter-strike-external-roster-freeze-2027",
   "name": "Counter-Strike 2 External Roster Freeze, First Half of 2027",
   "game": "Counter-Strike 2",
   "season": 2027,
-  "scope": "Author-selected and author-approved external Counter-Strike 2 team rosters for the initial 2027 competitive ecosystem. It is not applied to every real-world organization, and no external roster list has been supplied yet.",
+  "scope": "Author-selected and author-approved external Counter-Strike 2 team rosters for the initial 2027 competitive ecosystem: the 50 starting fives in counter-strike-external-rosters-2027.json. It is not applied to every real-world organization.",
   "freezeThrough": "2027-05-23",
   "freezeThroughInclusive": true,
   "earliestLaterChangeDate": "2027-05-24",
   "anchorCompetitionId": "pgl-copenhagen-major-2027",
-  "anchorCompetitionDates": { "startDate": "2027-05-07", "endDate": "2027-05-23" },
+  "anchorCompetitionDates": {
+    "startDate": "2027-05-07",
+    "endDate": "2027-05-23"
+  },
   "authorOverrideAllowed": true,
   "preservedKairosRosters": {
-    "kairos-cs-main": ["caleb-atlas-mercer", "owen-glacier-fletcher", "emiliano-moteconhuesillo-navarro", "cameron-mold-ruiz", "vincente-flacogomez-galan"],
-    "kairos-cs-academy": ["evan-soupcrime-nakamura", "milo-velcrodog-radovic", "zayn-parkinglot-haddad", "nolan-dentalplan-hart", "reid-wrongnumber-hart"]
+    "kairos-cs-main": [
+      "caleb-atlas-mercer",
+      "owen-glacier-fletcher",
+      "emiliano-moteconhuesillo-navarro",
+      "cameron-mold-ruiz",
+      "vincente-flacogomez-galan"
+    ],
+    "kairos-cs-academy": [
+      "evan-soupcrime-nakamura",
+      "milo-velcrodog-radovic",
+      "zayn-parkinglot-haddad",
+      "nolan-dentalplan-hart",
+      "reid-wrongnumber-hart"
+    ]
   },
   "notEstablished": [
-    "No external Counter-Strike 2 roster is established or invented by this directive.",
+    "Only the 50 author-approved external Counter-Strike 2 starting fives in counter-strike-external-rosters-2027.json are established. No contract dates, roles, results or transfers are created by them.",
     "May 24, 2027 is the earliest date on which the author may initiate external roster changes; it is not an automatic transfer date, and no transfer, retirement, promotion, benching, or contract expiration occurs automatically.",
     "Roster freeze does not imply qualification: no team, including Kairos, is qualified for the PGL Copenhagen Major 2027 by this directive."
   ],
-  "disclaimer": "Kairos Universe fictional continuity directive. It does not modify any frozen real-world source snapshot."
+  "disclaimer": "Kairos Universe fictional continuity directive. It does not modify any frozen real-world source snapshot.",
+  "externalRosters": {
+    "rosterFile": "counter-strike-external-rosters-2027.json",
+    "directiveId": "counter-strike-external-rosters-2027",
+    "teamCount": 50,
+    "playerAssignmentCount": 250,
+    "referenceSnapshot": "HLTV, researched 2026-11-06",
+    "status": "frozen-through-2027-05-23"
+  }
 }

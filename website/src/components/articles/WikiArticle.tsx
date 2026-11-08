@@ -70,14 +70,21 @@ export function WikiTable({ caption, columns, rows, empty }: {
 }
 
 export function ParticipantsGrid({ caption, teams, empty, columns }: {
-    caption: string; teams: Array<{ key: string; name: string; href: string | null; logo?: ReactNode }>; empty: string; columns?: number;
+    caption: string; teams: Array<{ key: string; name: string; href: string | null; logo?: ReactNode; logoTone?: "dark" }>; empty: string; columns?: number;
 }) {
   return <div className={styles.participantsWrap}>
     <div className={styles.participantsCaption}>{caption}</div>
       {teams.length ? <div className={`${styles.participantsGrid}${columns === 4 ? ` ${styles.participantsGridFour}` : ""}`}>
       {teams.map((team) => {
+        const logoClass = [
+          styles.participantLogo,
+          team.logo ? styles.participantLogoWithImage : "",
+          team.logoTone === "dark" ? styles.participantLogoDark : "",
+        ].filter(Boolean).join(" ");
         const tile = <div className={styles.participantTile} key={team.key}>
-          <span className={styles.participantLogo}>{team.logo ?? <span className={styles.participantMonogram}>{team.name.slice(0, 2)}</span>}</span>
+          <span className={logoClass}>
+            {team.logo ?? <span className={styles.participantMonogram}>{team.name.slice(0, 2)}</span>}
+          </span>
           <strong>{team.name}</strong>
         </div>;
         return team.href ? <Link href={team.href} key={team.key} style={{ color: "inherit", textDecoration: "none" }}>{tile}</Link> : tile;

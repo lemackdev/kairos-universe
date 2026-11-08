@@ -3,7 +3,7 @@ import { EntityCard } from "@/components/EntityCard";
 import { PageHeader } from "@/components/PageHeader";
 import { getCatalog } from "@/lib/canon/server";
 import { BrandLogo } from "@/components/UniformPanel";
-import { listAllTier2Teams } from "@/lib/external/worldState2027";
+import { csExternalTeams, listAllTier2Teams } from "@/lib/external/worldState2027";
 
 export const metadata = { title: "Teams" };
 
@@ -19,6 +19,7 @@ export default function TeamsPage() {
   const games = [...teamsByGame.keys()].sort(
     (a, b) => gameOrder.indexOf(a) - gameOrder.indexOf(b),
   );
+  const csTeams = csExternalTeams(catalog.worldState2027);
   const tier2Teams = listAllTier2Teams(catalog.worldState2027);
   const tier2ByEcosystem = new Map<string, typeof tier2Teams>();
   for (const team of tier2Teams) {
@@ -59,6 +60,20 @@ export default function TeamsPage() {
           </div>
         </section>
       ))}
+      {csTeams.length > 0 && <section className="contentSection">
+        <h2 className="sectionKicker">Counter-Strike 2 &mdash; External teams (2027)</h2>
+        <p>{csTeams.length} author-approved starting fives, based on a historical HLTV reference snapshot and frozen through 2027-05-23. See <a href="/wiki/world">the competitive world</a> for scope and limitations.</p>
+        <div className="entityGrid">
+          {csTeams.map((team) => <EntityCard
+            key={team.teamId}
+            href={`/wiki/teams/${team.slug}`}
+            kicker="Counter-Strike 2"
+            title={team.name}
+            description="2027 starting five"
+            meta={`HLTV ${team.hltvTeamId}`}
+          />)}
+        </div>
+      </section>}
       {tier2Teams.length > 0 && <section className="contentSection">
         <h2 className="sectionKicker">League of Legends &mdash; Tier 2 (2027)</h2>
         <p>Kairos Universe 2027 Tier 2 regional ecosystems. See <a href="/wiki/world">the competitive world</a> for sourcing and scope.</p>

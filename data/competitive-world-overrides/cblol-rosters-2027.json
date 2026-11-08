@@ -1,0 +1,888 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "league": "CBLOL",
+  "sourceIds": [
+    "source-canon-directive-2027-lpl-cblol-rosters"
+  ],
+  "confirmedBy": null,
+  "confirmedPeriod": "2027 season reconstruction; no exact collective announcement date has been approved",
+  "displayPeriod": "2027 season (exact date not established)",
+  "disclaimer": "Kairos Universe fictional speculation layered on top of the frozen pre-Worlds 2026 real-world-sourced reference scene (external-data/pre-worlds-2026). Every player below is the same real-world-referenced person documented there (or, for added identities, in the cited Leaguepedia snapshot or named by the author); only their Kairos Universe 2027 fictional roster, retirement, or market status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No announcement date, signing date, contract term, salary, or rating is established; former-team Left dates are intentionally left unknown.",
+  "addedPlayers": [
+    {
+      "playerId": "external-lol-player-viciun",
+      "slug": "external-viciun",
+      "nickname": "Viciun",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author in the 2027 lineup; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-envy",
+      "slug": "external-envy",
+      "nickname": "Envy",
+      "legalName": "Bruno Farias",
+      "nationality": "Brazil",
+      "dateOfBirth": "1998-08-12",
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "Envy - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Envy_(Bruno_Farias)"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "Estral Esports",
+          "role": "mid",
+          "joinedDate": "2026-07-09",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname, region and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No retirement, contract, or other status is asserted beyond the author-confirmed 2027 assignment."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-telas",
+      "slug": "external-telas",
+      "nickname": "Telas",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author in the 2027 lineup; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-yupps",
+      "slug": "external-yupps",
+      "nickname": "Yupps",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author in the 2027 lineup; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-brance",
+      "slug": "external-brance",
+      "nickname": "Brance",
+      "legalName": "Diego Amaral",
+      "nationality": "Brazil",
+      "dateOfBirth": "2004-02-25",
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "Brance - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Brance"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "Estral Esports",
+          "role": "bot",
+          "joinedDate": "2026-02-16",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname, region and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No retirement, contract, or other status is asserted beyond the author-confirmed 2027 assignment."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-leleko",
+      "slug": "external-leleko",
+      "nickname": "Leleko",
+      "legalName": "Leandro Hideki Aihara",
+      "nationality": "Brazil",
+      "dateOfBirth": "1999-12-26",
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "Leleko - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Leleko"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "INTZ",
+          "role": "mid",
+          "joinedDate": "2026-03-22",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname, region and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No retirement, contract, or other status is asserted beyond the author-confirmed 2027 assignment."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-frosty",
+      "slug": "external-frosty",
+      "nickname": "frosty",
+      "legalName": "José Eduardo Leal Pacheco",
+      "nationality": "Brazil",
+      "dateOfBirth": "2004-10-13",
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "frosty - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Frosty_(José_Eduardo)"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "RED Canids",
+          "role": "support",
+          "joinedDate": "2026-07-28",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname, region and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No retirement, contract, or other status is asserted beyond the author-confirmed 2027 assignment."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-grevthar",
+      "slug": "external-grevthar",
+      "nickname": "Grevthar",
+      "legalName": "Daniel Xavier Ferreira",
+      "nationality": "Brazil",
+      "dateOfBirth": "1999-08-24",
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "researched-needs-review",
+      "sources": [
+        {
+          "title": "Grevthar - Leaguepedia",
+          "url": "https://lol.fandom.com/wiki/Grevthar"
+        }
+      ],
+      "history": [
+        {
+          "teamName": "KaBuM! Ilha das Lendas",
+          "role": "mid",
+          "joinedDate": "2025-07-18",
+          "basis": "external-data/leaguepedia/snapshots/leaguepedia-2026-08-03 (current-tenures-global)"
+        }
+      ],
+      "notes": [
+        "Nickname, region and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
+        "Added as a 2027 overlay identity. No retirement, contract, or other status is asserted beyond the author-confirmed 2027 assignment."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-netuno",
+      "slug": "external-netuno",
+      "nickname": "Netuno",
+      "legalName": null,
+      "nationality": null,
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author in the 2027 lineup; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "external-lol-team-fluxo-w7m",
+      "name": "Fluxo W7M",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zothve",
+          "nickname": "Zothve"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-josedeodo",
+          "nickname": "Josedeodo"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-cody",
+          "nickname": "cody"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-viciun",
+          "nickname": "Viciun"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-ackerman",
+          "nickname": "Ackerman"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-furia",
+      "name": "FURIA",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-xyno",
+          "nickname": "Xyno"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-tatu",
+          "nickname": "Tatu"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-fuuu",
+          "nickname": "Fuuu"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-ayu",
+          "nickname": "Ayu"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-ceos",
+          "nickname": "Ceos"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-leviatan",
+      "name": "Leviatán",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-devost",
+          "nickname": "Devost"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-booki",
+          "nickname": "Booki"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-enga",
+          "nickname": "Enga"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-strensh",
+          "nickname": "Strensh"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-shiku",
+          "nickname": "Shiku"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-los",
+      "name": "LOS",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-boal",
+          "nickname": "Boal"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-curse",
+          "nickname": "Curse"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-namiru",
+          "nickname": "Namiru"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-duduhh",
+          "nickname": "Duduhh"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-jojo",
+          "nickname": "JoJo"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-loud",
+      "name": "LOUD",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-guigo",
+          "nickname": "Guigo"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-disamis",
+          "nickname": "Disamis"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-envy",
+          "nickname": "Envy"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-rabelo",
+          "nickname": "Rabelo"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-telas",
+          "nickname": "Telas"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-pain-gaming",
+      "name": "paiN Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-yupps",
+          "nickname": "Yupps"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-stepz",
+          "nickname": "STEPZ"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-tutsz",
+          "nickname": "Tutsz"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-brance",
+          "nickname": "Brance"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-uzent",
+          "nickname": "uZent"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-red-canids",
+      "name": "RED Canids",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zynts",
+          "nickname": "zynts"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-cariok",
+          "nickname": "CarioK"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-leleko",
+          "nickname": "Leleko"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-morttheus",
+          "nickname": "Morttheus"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-frosty",
+          "nickname": "frosty"
+        }
+      ]
+    },
+    {
+      "teamId": "external-lol-team-keyd-stars",
+      "name": "Keyd Stars",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-zekas",
+          "nickname": "zekas"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-sinatra",
+          "nickname": "Sinatra"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-grevthar",
+          "nickname": "Grevthar"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-netuno",
+          "nickname": "Netuno"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-scamber",
+          "nickname": "scamber"
+        }
+      ]
+    }
+  ],
+  "pendingIdentities": [],
+  "retirements": [
+    {
+      "playerId": "external-lol-player-peach",
+      "nickname": "Peach",
+      "previousTeamId": "external-lol-team-fluxo-w7m",
+      "previousTeamName": "Fluxo W7M",
+      "previousRole": "jungle",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-bao",
+      "nickname": "BAO",
+      "previousTeamId": "external-lol-team-fluxo-w7m",
+      "previousTeamName": "Fluxo W7M",
+      "previousRole": "bot",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-zest",
+      "nickname": "Zest",
+      "previousTeamId": "external-lol-team-los",
+      "previousTeamName": "LOS",
+      "previousRole": "top",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-feisty",
+      "nickname": "Feisty",
+      "previousTeamId": "external-lol-team-los",
+      "previousTeamName": "LOS",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-keine",
+      "nickname": "Keine",
+      "previousTeamId": "external-lol-team-pain-gaming",
+      "previousTeamName": "paiN Gaming",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hena",
+      "nickname": "Hena",
+      "previousTeamId": "external-lol-team-pain-gaming",
+      "previousTeamName": "paiN Gaming",
+      "previousRole": "bot",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-ultra-prime",
+        "previousTeamName": "Ultra Prime",
+        "effectiveDate": "2026-12-31"
+      }
+    },
+    {
+      "playerId": "external-lol-player-mireu",
+      "nickname": "Mireu",
+      "previousTeamId": "external-lol-team-keyd-stars",
+      "previousTeamName": "Keyd Stars",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-jeskla",
+      "nickname": "Jeskla",
+      "previousTeamId": "external-lol-team-keyd-stars",
+      "previousTeamName": "Keyd Stars",
+      "previousRole": "bot",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-kaze",
+      "nickname": "Kaze",
+      "previousTeamId": "external-lol-team-loud",
+      "previousTeamName": "LOUD",
+      "previousRole": "mid",
+      "status": "retired"
+    },
+    {
+      "playerId": "external-lol-player-momochi",
+      "nickname": "Momochi",
+      "previousTeamId": "external-lol-team-fluxo-w7m",
+      "previousTeamName": "Fluxo W7M",
+      "previousRole": "support",
+      "status": "retired"
+    }
+  ],
+  "departures": [
+    {
+      "playerId": "external-lol-player-josedeodo",
+      "nickname": "Josedeodo",
+      "teamId": "external-lol-team-team-liquid",
+      "teamName": "Team Liquid",
+      "league": "LCS",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-team-liquid-josedeodo-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-fluxo-w7m",
+      "destinationTeamName": "Fluxo W7M"
+    },
+    {
+      "playerId": "external-lol-player-ackerman",
+      "nickname": "Ackerman",
+      "teamId": "external-lol-team-los",
+      "teamName": "LOS",
+      "league": "CBLOL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-los-ackerman-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-fluxo-w7m",
+      "destinationTeamName": "Fluxo W7M"
+    },
+    {
+      "playerId": "external-lol-player-xyno",
+      "nickname": "Xyno",
+      "teamId": "external-lol-team-loud",
+      "teamName": "LOUD",
+      "league": "CBLOL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-loud-xyno-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-furia",
+      "destinationTeamName": "FURIA"
+    },
+    {
+      "playerId": "external-lol-player-fuuu",
+      "nickname": "Fuuu",
+      "teamId": "external-lol-team-red-canids",
+      "teamName": "RED Canids",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-red-canids-fuuu-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-furia",
+      "destinationTeamName": "FURIA"
+    },
+    {
+      "playerId": "external-lol-player-ceos",
+      "nickname": "Ceos",
+      "teamId": "external-lol-team-pain-gaming",
+      "teamName": "paiN Gaming",
+      "league": "CBLOL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-pain-gaming-ceos-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-furia",
+      "destinationTeamName": "FURIA"
+    },
+    {
+      "playerId": "external-lol-player-boal",
+      "nickname": "Boal",
+      "teamId": "external-lol-team-pain-gaming",
+      "teamName": "paiN Gaming",
+      "league": "CBLOL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-pain-gaming-boal-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-los",
+      "destinationTeamName": "LOS"
+    },
+    {
+      "playerId": "external-lol-player-namiru",
+      "nickname": "Namiru",
+      "teamId": "external-lol-team-pain-gaming",
+      "teamName": "paiN Gaming",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-pain-gaming-namiru-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-los",
+      "destinationTeamName": "LOS"
+    },
+    {
+      "playerId": "external-lol-player-jojo",
+      "nickname": "Jojo",
+      "teamId": "external-lol-team-furia",
+      "teamName": "FURIA",
+      "league": "CBLOL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-furia-jojo-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-los",
+      "destinationTeamName": "LOS"
+    },
+    {
+      "playerId": "external-lol-player-guigo",
+      "nickname": "Guigo",
+      "teamId": "external-lol-team-furia",
+      "teamName": "FURIA",
+      "league": "CBLOL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-furia-guigo-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-loud",
+      "destinationTeamName": "LOUD"
+    },
+    {
+      "playerId": "external-lol-player-disamis",
+      "nickname": "Disamis",
+      "teamId": "external-lol-team-keyd-stars",
+      "teamName": "Keyd Stars",
+      "league": "CBLOL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-keyd-stars-disamis-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-loud",
+      "destinationTeamName": "LOUD"
+    },
+    {
+      "playerId": "external-lol-player-stepz",
+      "nickname": "STEPZ",
+      "teamId": "external-lol-team-red-canids",
+      "teamName": "RED Canids",
+      "league": "CBLOL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-red-canids-stepz-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-pain-gaming",
+      "destinationTeamName": "paiN Gaming"
+    },
+    {
+      "playerId": "external-lol-player-tutsz",
+      "nickname": "Tutsz",
+      "teamId": "external-lol-team-furia",
+      "teamName": "FURIA",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-furia-tutsz-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-pain-gaming",
+      "destinationTeamName": "paiN Gaming"
+    },
+    {
+      "playerId": "external-lol-player-uzent",
+      "nickname": "uZent",
+      "teamId": "external-lol-team-loud",
+      "teamName": "LOUD",
+      "league": "CBLOL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-loud-uzent-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-pain-gaming",
+      "destinationTeamName": "paiN Gaming"
+    },
+    {
+      "playerId": "external-lol-player-cariok",
+      "nickname": "Cariok",
+      "teamId": "external-lol-team-pain-gaming",
+      "teamName": "paiN Gaming",
+      "league": "CBLOL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-pain-gaming-cariok-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-red-canids",
+      "destinationTeamName": "RED Canids"
+    },
+    {
+      "playerId": "external-lol-player-sinatra",
+      "nickname": "Sinatra",
+      "teamId": "external-lol-team-loud",
+      "teamName": "LOUD",
+      "league": "CBLOL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-loud-sinatra-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "external-lol-team-keyd-stars",
+      "destinationTeamName": "Keyd Stars"
+    },
+    {
+      "playerId": "external-lol-player-peach",
+      "nickname": "Peach",
+      "teamId": "external-lol-team-fluxo-w7m",
+      "teamName": "Fluxo W7M",
+      "league": "CBLOL",
+      "role": "jungle",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-fluxo-w7m-peach-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-bao",
+      "nickname": "BAO",
+      "teamId": "external-lol-team-fluxo-w7m",
+      "teamName": "Fluxo W7M",
+      "league": "CBLOL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-fluxo-w7m-bao-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-zest",
+      "nickname": "Zest",
+      "teamId": "external-lol-team-los",
+      "teamName": "LOS",
+      "league": "CBLOL",
+      "role": "top",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-los-zest-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-feisty",
+      "nickname": "Feisty",
+      "teamId": "external-lol-team-los",
+      "teamName": "LOS",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-los-feisty-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-keine",
+      "nickname": "Keine",
+      "teamId": "external-lol-team-pain-gaming",
+      "teamName": "paiN Gaming",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-pain-gaming-keine-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hena",
+      "nickname": "Hena",
+      "teamId": "external-lol-team-pain-gaming",
+      "teamName": "paiN Gaming",
+      "league": "CBLOL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-pain-gaming-hena-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-hena",
+      "nickname": "Hena",
+      "teamId": "external-lol-team-ultra-prime",
+      "teamName": "Ultra Prime",
+      "league": "LPL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-ultra-prime-hena-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-mireu",
+      "nickname": "Mireu",
+      "teamId": "external-lol-team-keyd-stars",
+      "teamName": "Keyd Stars",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-keyd-stars-mireu-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-jeskla",
+      "nickname": "Jeskla",
+      "teamId": "external-lol-team-keyd-stars",
+      "teamName": "Keyd Stars",
+      "league": "CBLOL",
+      "role": "bot",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-keyd-stars-jeskla-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-kaze",
+      "nickname": "Kaze",
+      "teamId": "external-lol-team-loud",
+      "teamName": "LOUD",
+      "league": "CBLOL",
+      "role": "mid",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-loud-kaze-pre-worlds-2026-domestic",
+      "reason": "retired"
+    },
+    {
+      "playerId": "external-lol-player-momochi",
+      "nickname": "Momochi",
+      "teamId": "external-lol-team-fluxo-w7m",
+      "teamName": "Fluxo W7M",
+      "league": "CBLOL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-fluxo-w7m-momochi-pre-worlds-2026-domestic",
+      "reason": "retired"
+    }
+  ],
+  "vacancies": [],
+  "outgoing": [],
+  "marketAvailability": []
+}

@@ -2,7 +2,13 @@ import type { RosterEntryView, SourceView, TeamView } from "@/types/catalog";
 import type { ExternalScene, SceneTeam } from "@/types/external-scene";
 import type { LcsRosters2027 } from "@/types/world-state-2027";
 
-export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, lcs2027?: LcsRosters2027): TeamView {
+const marketLabel = (sets: LcsRosters2027[], playerId: string) => {
+  const region = sets.flatMap((set) => set.marketAvailability ?? []).find((entry) => entry.playerId === playerId)?.eligibleRegion ?? "";
+  return ({ KR: "Korean", CN: "Chinese" } as Record<string, string>)[region] ?? region;
+};
+
+export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, rosters2027?: LcsRosters2027 | LcsRosters2027[]): TeamView {
+  const sets = rosters2027 ? (Array.isArray(rosters2027) ? rosters2027 : [rosters2027]) : [];
   const organization = scene.organizations.find((o) => o.id === team.organizationId)!;
   const event = scene.sources.find((s) => team.sourceIds.includes(s.id))!;
 
@@ -33,9 +39,10 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, lcs20
     id: s.id, label: s.title, type: "Indexed tournament page", canonStatus: "unconfirmed", originType: "real-world-reference",
   }));
 
-  const roster2027 = lcs2027?.teams.find((entry) => entry.teamId === team.id);
+  const lineupSet = sets.find((set) => set.teams.some((entry) => entry.teamId === team.id));
+  const roster2027 = lineupSet?.teams.find((entry) => entry.teamId === team.id);
   const starterIds = new Set(roster2027?.starters.map((starter) => starter.playerId));
-  const addedPlayers = new Map((lcs2027?.addedPlayers ?? []).map((player) => [player.playerId, player]));
+  const addedPlayers = new Map(sets.flatMap((set) => set.addedPlayers).map((player) => [player.playerId, player]));
   const starters2027: RosterEntryView[] = (roster2027?.starters ?? []).map((starter) => {
     const added = addedPlayers.get(starter.playerId);
     const scenePlayer = scene.players.find((p) => p.id === starter.playerId);
@@ -58,14 +65,15 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, lcs20
       teamSlug: team.slug,
     };
   });
-  const departures = (lcs2027?.departures ?? []).filter((entry) => entry.teamId === team.id);
-  const departedIds = new Set(departures.map((entry) => entry.playerId));
+  const departures = sets.flatMap((set) => set.departures.filter((entry) => entry.teamId === team.id).map((entry) => ({ entry, date: set.confirmedBy })));
+  const departedIds = new Set(departures.map(({ entry }) => entry.playerId));
   const activeRoster = roster2027 ? starters2027 : roster.filter((entry) => !departedIds.has(entry.playerId));
   const formerRoster = roster2027 ? roster.filter((entry) => !starterIds.has(entry.playerId)) : roster.filter((entry) => departedIds.has(entry.playerId));
-  const departureEntries = departures.map((entry) => ({
-    id: `${team.id}-2027-${entry.playerId}`, date: lcs2027!.confirmedBy,
-    text: entry.reason === "retired" ? `${entry.nickname} is confirmed retired for 2027.` : `${entry.nickname} is confirmed with ${entry.destinationTeamName} for 2027.`,
-  }));
+  const departureText = (entry: (typeof departures)[number]["entry"]) => entry.reason === "retired" ? `${entry.nickname} is confirmed retired for 2027.`
+    : entry.reason === "available-for-market" ? `${entry.nickname} is available for the ${marketLabel(sets, entry.playerId)} market for 2027.`
+    : `${entry.nickname} is confirmed with ${entry.destinationTeamName} for 2027.`;
+  const departureEntries = departures.map(({ entry, date }) => ({ id: `${team.id}-2027-${entry.playerId}`, date, text: departureText(entry) }));
+  const pendingEntries = sets.flatMap((set) => (set.pendingIdentities ?? []).filter((entry) => entry.teamId === team.id));
   return {
     id: team.id,
     slug: team.slug,
@@ -97,8 +105,9 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, lcs20
     formerStaffIds: [],
     transactions: [
       { id: `${team.id}-observed`, date: event.eventEndDate, text: `Roster observed at ${event.title}.` },
-      ...(roster2027 ? [{ id: `${team.id}-2027-lineup`, date: lcs2027!.confirmedBy, text: "2027 starting lineup confirmed." }] : []),
+      ...(roster2027 ? [{ id: `${team.id}-2027-lineup`, date: lineupSet!.confirmedBy, text: "2027 starting lineup confirmed." }] : []),
       ...departureEntries,
+      ...pendingEntries.map((entry) => ({ id: `${team.id}-2027-pending-${entry.role}`, date: lineupSet?.confirmedBy ?? null, text: `${entry.nickname} is the author-confirmed 2027 ${entry.role}; player identity profile pending author approval.` })),
     ],
     relatedEpisodes: [],
     sources,

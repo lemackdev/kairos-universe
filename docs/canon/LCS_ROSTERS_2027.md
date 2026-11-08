@@ -44,7 +44,7 @@ Support, and no transition dates are established.
 
 ## Retirements (author-confirmed, January 2027 restructuring)
 
-Loki (Cloud9), IgNar (Dignitas), Callme (Disguised), Impact, Hambak, Rahel, and
+Loki (Cloud9; later reversed: see LCK_LCP_ROSTERS_2027.md), IgNar (Dignitas), Callme (Disguised), Impact, Hambak, Rahel, and
 huhi (Sentinels), Bvoy (Shopify Rebellion), Morgan and CoreJJ (Team Liquid),
 Gakgos and Quad (FlyQuest). Career history is preserved; no announcement dates,
 ceremonies, statements, or reasons are established. No other player is retired.

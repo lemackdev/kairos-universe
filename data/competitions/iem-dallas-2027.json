@@ -7,10 +7,11 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-canon-directive-2027-competitive-calendar"
+    "source-canon-directive-2027-competitive-calendar",
+    "source-canon-directive-2027-iem-dallas-invites"
   ],
   "canonStatus": "confirmed",
-  "overview": "A 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
+  "overview": "A 2027 Counter-Strike Premier event in Dallas with sixteen invited teams. Format, qualification and results have not been confirmed yet.",
   "format": [],
   "organizer": null,
   "location": "Dallas, Texas, USA",
@@ -25,7 +26,7 @@
   "seriesId": "series-intel-extreme-masters",
   "tier": "premier",
   "region": "north-america",
-  "teamsCount": "TBD",
+  "teamsCount": 16,
   "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,

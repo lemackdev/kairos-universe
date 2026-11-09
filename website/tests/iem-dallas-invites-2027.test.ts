@@ -5,7 +5,7 @@ import { repositoryRoot } from "@/lib/canon/paths";
 import { fieldCaptionFor, loadWorldState2027, regionalFieldFor } from "@/lib/external/worldState2027";
 
 const worldState = loadWorldState2027();
-const invites = worldState.eventInvites;
+const invites = worldState.eventInvites.find((entry) => entry.competitionSlug === "iem-dallas-2027")!;
 
 describe("IEM Dallas 2027 invited teams", () => {
   it("lists exactly sixteen distinct external Counter-Strike teams", () => {

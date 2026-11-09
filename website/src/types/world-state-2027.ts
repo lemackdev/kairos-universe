@@ -321,7 +321,7 @@ export interface EventInvites2027 {
 }
 
 export interface WorldState2027 {
-  eventInvites: EventInvites2027;
+  eventInvites: EventInvites2027[];
   lcsRosters: LcsRosters2027;
   lecRosters: LcsRosters2027;
   lplRosters: LcsRosters2027;

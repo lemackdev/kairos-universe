@@ -1,0 +1,82 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-cct-north-america-1-invites"
+  ],
+  "competitionId": "cct-north-america-1-2027",
+  "competitionSlug": "cct-north-america-1-2027",
+  "status": "invited",
+  "expectedTeamCount": 16,
+  "inviteDate": null,
+  "teams": [
+    {
+      "teamId": "external-cs-team-nrg",
+      "name": "NRG"
+    },
+    {
+      "teamId": "external-cs-team-without-a-roof",
+      "name": "Without a Roof"
+    },
+    {
+      "teamId": "external-cs-team-wildcard",
+      "name": "Wildcard"
+    },
+    {
+      "teamId": "external-cs-team-lag",
+      "name": "LAG"
+    },
+    {
+      "teamId": "kairos-cs-main",
+      "name": "Kairos Gaming"
+    },
+    {
+      "teamId": "external-cs-team-100-thieves",
+      "name": "100 Thieves"
+    },
+    {
+      "teamId": "external-cs-team-envy",
+      "name": "Envy"
+    },
+    {
+      "teamId": "external-cs-team-imperial",
+      "name": "Imperial"
+    },
+    {
+      "teamId": "external-cs-team-bestia",
+      "name": "BESTIA"
+    },
+    {
+      "teamId": "external-cs-team-fluxo",
+      "name": "Fluxo"
+    },
+    {
+      "teamId": "external-cs-team-the-mongolz",
+      "name": "The MongolZ"
+    },
+    {
+      "teamId": "external-cs-team-parivision",
+      "name": "PARIVISION"
+    },
+    {
+      "teamId": "external-cs-team-betboom",
+      "name": "BetBoom"
+    },
+    {
+      "teamId": "external-cs-team-ninjas-in-pyjamas",
+      "name": "Ninjas in Pyjamas"
+    },
+    {
+      "teamId": "external-cs-team-heroic",
+      "name": "HEROIC"
+    },
+    {
+      "teamId": "external-cs-team-eternal-fire",
+      "name": "Eternal Fire"
+    }
+  ],
+  "notEstablished": [
+    "Format, groups, seeding, schedule of matches, results, standings and qualification are not established."
+  ]
+}

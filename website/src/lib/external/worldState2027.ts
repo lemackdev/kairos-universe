@@ -19,12 +19,13 @@ export const regionalCompetitionSlugs: Record<string, { league: string } | { tie
 };
 
 export function fieldCaptionFor(worldState: WorldState2027 | undefined, competitionSlug: string): string {
-  return worldState?.eventInvites.competitionSlug === competitionSlug ? "Invited teams (2027)" : "Participants (2027)";
+  return worldState?.eventInvites.some((entry) => entry.competitionSlug === competitionSlug) ? "Invited teams (2027)" : "Participants (2027)";
 }
 
 export function regionalFieldFor(worldState: WorldState2027 | undefined, competitionSlug: string): { name: string; teamId: string }[] | null {
   if (!worldState) return null;
-  if (worldState.eventInvites.competitionSlug === competitionSlug) return worldState.eventInvites.teams.map((team) => ({ name: team.name, teamId: team.teamId }));
+  const invited = worldState.eventInvites.find((entry) => entry.competitionSlug === competitionSlug);
+  if (invited) return invited.teams.map((team) => ({ name: team.name, teamId: team.teamId }));
   const entry = regionalCompetitionSlugs[competitionSlug];
   if (!entry) return null;
   if ("league" in entry) {
@@ -67,8 +68,8 @@ export function loadWorldState2027(): WorldState2027 {
   const csExternalRosters = read<CsExternalRosters2027>("counter-strike-external-rosters-2027.json");
   validateCsFreeze(csRosterFreeze);
   validateCsExternalRosters(csExternalRosters, csRosterFreeze);
-  const eventInvites = read<EventInvites2027>("iem-dallas-invites-2027.json");
-  validateEventInvites(eventInvites, csExternalRosters);
+  const eventInvites = ["iem-dallas-invites-2027.json", "cct-north-america-1-invites-2027.json"].map((file) => read<EventInvites2027>(file));
+  for (const invites of eventInvites) validateEventInvites(invites, csExternalRosters);
   const seenPlayers = new Set<string>();
   for (const player of freeAgents.players) {
     if (seenPlayers.has(player.playerId)) throw new Error(`Duplicate 2027 free agent entry: ${player.playerId}`);
@@ -303,10 +304,10 @@ export function csOrganizationSlugOf(worldState: WorldState2027, team: { organiz
 }
 
 function validateEventInvites(invites: EventInvites2027, rosters: CsExternalRosters2027): void {
-  const fail = (message: string): never => { throw new Error(`IEM Dallas invites: ${message}`); };
+  const fail = (message: string): never => { throw new Error(`${invites.competitionSlug} invites: ${message}`); };
   const ids = invites.teams.map((team) => team.teamId);
   if (ids.length !== invites.expectedTeamCount || ids.length !== 16) fail(`expected 16 invited teams, found ${ids.length}`);
   if (new Set(ids).size !== ids.length) fail("duplicate invited team");
-  const known = new Set(rosters.teams.map((team) => team.teamId));
-  for (const id of ids) if (!known.has(id)) fail(`invited team is not an external Counter-Strike team: ${id}`);
+  const known = new Set([...rosters.teams.map((team) => team.teamId), "kairos-cs-main"]);
+  for (const id of ids) if (!known.has(id)) fail(`invited team is not a Counter-Strike team: ${id}`);
 }

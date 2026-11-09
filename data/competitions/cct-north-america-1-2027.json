@@ -10,7 +10,7 @@
     "source-canon-directive-2027-competitive-calendar"
   ],
   "canonStatus": "confirmed",
-  "overview": "A 2027 Counter-Strike Tier 2 event. No participants, qualification, or results have been confirmed yet.",
+  "overview": "A 2027 Counter-Strike Tier 2 event with sixteen invited teams. Format, qualification and results have not been confirmed yet.",
   "format": [],
   "organizer": null,
   "location": "Austin, Texas, USA",
@@ -25,7 +25,7 @@
   "seriesId": null,
   "tier": "tier-2",
   "region": "north-america",
-  "teamsCount": "TBD",
+  "teamsCount": 16,
   "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,

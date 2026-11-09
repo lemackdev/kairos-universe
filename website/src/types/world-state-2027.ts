@@ -327,6 +327,12 @@ export interface WorldState2027 {
   lplRosters: LcsRosters2027;
   lckRosters: LcsRosters2027;
   lcpRosters: LcsRosters2027;
+  naclRosters: LcsRosters2027;
+  emeaMastersRosters: LcsRosters2027;
+  lckChallengersRosters: LcsRosters2027;
+  ldlRosters: LcsRosters2027;
+  lcpChallengersRosters: LcsRosters2027;
+  circuitoDesafianteRosters: LcsRosters2027;
   cblolRosters: LcsRosters2027;
   csRosterFreeze: CounterStrikeRosterFreeze2027;
   csExternalRosters: CsExternalRosters2027;

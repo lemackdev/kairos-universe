@@ -109,7 +109,7 @@ describe("2027 League regional restructuring", () => {
       ...catalog.worldState2027!.lecRosters.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
       ...catalog.worldState2027!.lecRosters.retirements.map((retirement) => retirement.playerId),
       ...(catalog.worldState2027!.lecRosters.marketAvailability ?? []).map((entry) => entry.playerId),
-      ...[catalog.worldState2027!.lplRosters, catalog.worldState2027!.cblolRosters, catalog.worldState2027!.lckRosters, catalog.worldState2027!.lcpRosters].flatMap((set) => [
+      ...[catalog.worldState2027!.lplRosters, catalog.worldState2027!.cblolRosters, catalog.worldState2027!.lckRosters, catalog.worldState2027!.lcpRosters, catalog.worldState2027!.naclRosters, catalog.worldState2027!.emeaMastersRosters, catalog.worldState2027!.lckChallengersRosters, catalog.worldState2027!.ldlRosters, catalog.worldState2027!.lcpChallengersRosters, catalog.worldState2027!.circuitoDesafianteRosters].flatMap((set) => [
         ...set.teams.flatMap((team) => team.starters.map((starter) => starter.playerId)),
         ...set.retirements.map((retirement) => retirement.playerId),
         ...(set.marketAvailability ?? []).map((entry) => entry.playerId),
@@ -158,7 +158,7 @@ describe("2027 League regional restructuring", () => {
 
 describe("2027 League Tier 2 regional ecosystems", () => {
   const expectedTeams: Record<string, string[]> = {
-    "EMEA Masters": ["Galions", "Solary", "Movistar KOI Fénix", "Anubis Gaming", "ILN Pirates", "Kaufland Hangry Knights", "G2 NORD", "Karmine Corp Blue"],
+    "EMEA Masters": ["Galions", "Solary", "Movistar KOI Fénix", "Anubis Gaming", "TLN Pirates", "Kaufland Hangry Knights", "G2 NORD", "Karmine Corp Blue"],
     "LCK Challengers": ["T1 Esports Academy", "Dplus Kia Challengers", "KT Rolster Challengers", "Nongshim Esports Academy", "DN SOOPers Challengers", "Kiwoom DRX Challengers", "BNK FEARX Youth", "Hanwha Life Esports Challengers"],
     "LCP Challengers": ["CFO Academy", "Frank Esports", "SillySilly Gaming", "Reignfall", "Sponge Gaming", "EWH", "Ground Zero Academy", "RogerSaMa"],
     "Circuito Desafiante": ["Estral Esports", "KaBuM! IDL", "VKS Academy", "INTZ", "RMD Gaming", "Ei Nerd Esports", "paiN Academy", "7REX"],
@@ -272,3 +272,4 @@ describe("2027 League Tier 2 regional ecosystems", () => {
     expect(tier1Count + naclCount + otherTier2Count).toBe(96);
   });
 });
+

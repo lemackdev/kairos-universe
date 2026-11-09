@@ -33,6 +33,7 @@ export function CompetitionsIndexView({ competitions }: { competitions: Competit
         <select value={region} onChange={(event) => setRegion(event.target.value)}>
           <option value="all">All</option>
           <option value="north-america">North America</option>
+          <option value="south-america">South America</option>
           <option value="europe">Europe</option>
           <option value="international">International</option>
         </select>

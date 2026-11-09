@@ -96,3 +96,23 @@ if (fs.existsSync(externalLogoSource)) {
   for (const filename of sourceFiles) fs.copyFileSync(path.join(externalLogoSource, filename), path.join(externalLogoDestination, filename));
   console.log(`External org logos published: ${sourceFiles.filter(f => f !== "manifest.json").length}.`);
 }
+
+const competitionLogoSource = path.join(root, "assets/branding/competitions");
+const competitionLogoDestination = path.join(appRoot, "public/branding/competitions");
+if (fs.existsSync(competitionLogoSource)) {
+  const competitionManifest = JSON.parse(fs.readFileSync(path.join(competitionLogoSource, "manifest.json"), "utf8")) as { logos: Array<{ slug: string; file: string }> };
+  const ownedMarker = path.join(competitionLogoDestination, ".generated-assets");
+  if (fs.existsSync(competitionLogoDestination) && !fs.existsSync(ownedMarker)) throw new Error("Refusing to overwrite an unowned competition branding directory.");
+  fs.mkdirSync(competitionLogoDestination, { recursive: true });
+  fs.writeFileSync(ownedMarker, "Derived from assets/branding/competitions; rebuilt by branding:build.\n");
+  const filenames = new Set(["manifest.json", ...competitionManifest.logos.map(logo => logo.file)]);
+  for (const filename of fs.readdirSync(competitionLogoDestination)) {
+    if (filename !== ".generated-assets" && !filenames.has(filename)) fs.unlinkSync(path.join(competitionLogoDestination, filename));
+  }
+  for (const logo of competitionManifest.logos) {
+    if (!/^[a-z0-9-]+\.(png|svg)$/.test(logo.file)) throw new Error(`Invalid competition logo filename: ${logo.file}`);
+    fs.copyFileSync(path.join(competitionLogoSource, logo.file), path.join(competitionLogoDestination, logo.file));
+  }
+  fs.copyFileSync(path.join(competitionLogoSource, "manifest.json"), path.join(competitionLogoDestination, "manifest.json"));
+  console.log(`Competition logos published: ${competitionManifest.logos.length}.`);
+}

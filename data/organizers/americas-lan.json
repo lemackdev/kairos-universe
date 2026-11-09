@@ -1,0 +1,17 @@
+{
+  "id": "americas-lan",
+  "slug": "americas-lan",
+  "continuityId": "kairos-universe",
+  "name": "Americas LAN",
+  "gameIds": [
+    "game-counter-strike"
+  ],
+  "originType": "fictional",
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "notes": [
+    "Americas LAN is an invented organizer and event brand for the Kairos Universe continuity. It runs five Tier 3 LAN events across the USA, Canada and Mexico in 2027."
+  ]
+}

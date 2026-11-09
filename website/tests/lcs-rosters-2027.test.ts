@@ -115,7 +115,7 @@ describe("2027 roster reconciliation", () => {
 
   it("leaves vacancies empty and only on teams without a confirmed lineup", () => {
     const lineupIds = new Set(lcsRosters.teams.map((team) => team.teamId));
-    expect(lcsRosters.vacancies.length).toBeGreaterThan(0);
+    expect(lcsRosters.vacancies).toEqual([]);
     for (const vacancy of lcsRosters.vacancies) {
       expect(lineupIds.has(vacancy.teamId)).toBe(false);
       const { view } = views.find((entry) => entry.team.id === vacancy.teamId)!;

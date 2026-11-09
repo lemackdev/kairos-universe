@@ -13,3 +13,9 @@ export const nationalityCountries: Record<string, { code: string; country: strin
   "Puerto Rican": { code: "pr", country: "Puerto Rico" },
   "South Korean": { code: "kr", country: "South Korea" },
 };
+
+const countryByName = new Map(Object.values(nationalityCountries).map((entry) => [entry.country, entry]));
+
+export function flagCountryFor(value: string): { code: string; country: string } | undefined {
+  return nationalityCountries[value] ?? countryByName.get(value);
+}

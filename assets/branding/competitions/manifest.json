@@ -1,0 +1,100 @@
+{
+  "logos": [
+    {
+      "slug": "lck",
+      "file": "lck.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/League_of_Legends_Champions_Korea_logo.svg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:League_of_Legends_Champions_Korea_logo.svg"
+    },
+    {
+      "slug": "lpl",
+      "file": "lpl.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/LPL_Logo.png",
+      "sourcePage": "https://liquipedia.net/leagueoflegends/File:LPL_Logo.png"
+    },
+    {
+      "slug": "lec",
+      "file": "lec.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/LEC_Logo.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LEC_Logo.png"
+    },
+    {
+      "slug": "lcp",
+      "file": "lcp.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/League_of_Legends_Championship_Pacific_logo.svg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:League_of_Legends_Championship_Pacific_logo.svg"
+    },
+    {
+      "slug": "lcs",
+      "file": "lcs.png",
+      "sourceUrl": "https://onivia.com/leagues/lcs.png",
+      "sourcePage": "https://lolesports.com/news/lcs-2026-address"
+    },
+    {
+      "slug": "cblol",
+      "file": "cblol.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CBLOL_logo.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:CBLOL_logo.png"
+    },
+    {
+      "slug": "blast",
+      "file": "blast.svg",
+      "sourceUrl": "https://cdn.prod.website-files.com/66f3ec0f7d83cf54d1a80ef3/672c6dfff6a176df8ce77ccc_logo-blast-black.svg",
+      "sourcePage": "https://brandkit.blast.io/"
+    },
+    {
+      "slug": "cct",
+      "file": "cct.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/CCT_2024_Finals_allmode.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/Champion_of_Champions_Tour"
+    },
+    {
+      "slug": "dreamhack-open",
+      "file": "dreamhack-open.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/DreamHack_Open_2018_allmode.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/DreamHack_Open"
+    },
+    {
+      "slug": "esl-challenger-league",
+      "file": "esl-challenger-league.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/ESL_Challenger_League_lightmode.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/ESL/Challenger_League"
+    },
+    {
+      "slug": "esl-pro-league",
+      "file": "esl-pro-league.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/ESL_Pro_League_logo.svg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:ESL_Pro_League_logo.svg"
+    },
+    {
+      "slug": "esports-world-cup",
+      "file": "esports-world-cup.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Esports_World_Cup_lightmode.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/Esports_World_Cup"
+    },
+    {
+      "slug": "fragadelphia",
+      "file": "fragadelphia.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Fraglogohighres.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/Fragadelphia"
+    },
+    {
+      "slug": "iem",
+      "file": "iem.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/IEM_logo_2014.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters"
+    },
+    {
+      "slug": "pgl",
+      "file": "pgl.png",
+      "sourceUrl": "https://twogpedia.com/images/e/ee/PGL.png?version=4e4a012e980c2325577062e12372ee7a",
+      "sourcePage": "https://liquipedia.net/counterstrike/PGL"
+    },
+    {
+      "slug": "thunderpick",
+      "file": "thunderpick.png",
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Thunderpick_World_Championship_2025_lightmode.png",
+      "sourcePage": "https://liquipedia.net/counterstrike/Thunderpick_World_Championship"
+    }
+  ]
+}

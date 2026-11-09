@@ -1,0 +1,987 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "league": "Circuito Desafiante",
+  "sourceIds": [
+    "source-canon-directive-2027-circuito-desafiante-rosters"
+  ],
+  "confirmedBy": null,
+  "confirmedPeriod": "2027 season reconstruction; no exact collective announcement date has been approved",
+  "displayPeriod": "2027 season (exact date not established)",
+  "disclaimer": "Kairos Universe fictional speculation layered on top of the frozen pre-Worlds 2026 real-world-sourced reference scene (external-data/pre-worlds-2026). Every player below is the same real-world-referenced person documented there (or, for added identities, in the cited source); only their Kairos Universe 2027 fictional roster or retirement status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. Confirmation date is the date by which each lineup was intended; no signing dates, contract terms, salaries, buyouts, or agents are established.",
+  "addedPlayers": [
+    {
+      "playerId": "external-lol-player-brayaron",
+      "slug": "external-brayaron",
+      "nickname": "Brayaron",
+      "legalName": null,
+      "nationality": "Peru",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-alluk",
+      "slug": "external-alluk",
+      "nickname": "Alluk",
+      "legalName": null,
+      "nationality": "Argentina",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-aloned",
+      "slug": "external-aloned",
+      "nickname": "Aloned",
+      "legalName": null,
+      "nationality": "Chile",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-kumew",
+      "slug": "external-kumew",
+      "nickname": "KUMEW",
+      "legalName": null,
+      "nationality": "Argentina",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-shu-hari",
+      "slug": "external-shu-hari",
+      "nickname": "Shu Hari",
+      "legalName": null,
+      "nationality": "Chile",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-nate",
+      "slug": "external-nate",
+      "nickname": "Nate",
+      "legalName": null,
+      "nationality": "Argentina",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-neo7",
+      "slug": "external-neo7",
+      "nickname": "Neo7",
+      "legalName": null,
+      "nationality": "Chile",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-piqueos",
+      "slug": "external-piqueos",
+      "nickname": "Piqueos",
+      "legalName": null,
+      "nationality": "Peru",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-scenari0",
+      "slug": "external-scenari0",
+      "nickname": "Scenari0",
+      "legalName": null,
+      "nationality": "Peru",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-ux",
+      "slug": "external-ux",
+      "nickname": "Ux",
+      "legalName": null,
+      "nationality": "Argentina",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-hakari",
+      "slug": "external-hakari",
+      "nickname": "Hakari",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-stiner",
+      "slug": "external-stiner",
+      "nickname": "StineR",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-qats",
+      "slug": "external-qats",
+      "nickname": "Qats",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-celo",
+      "slug": "external-celo",
+      "nickname": "Celo",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-elkinhoo",
+      "slug": "external-elkinhoo",
+      "nickname": "Elkinhoo",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-makes",
+      "slug": "external-makes",
+      "nickname": "Makes",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-aegis",
+      "slug": "external-aegis",
+      "nickname": "Aegis",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-lolo",
+      "slug": "external-lolo",
+      "nickname": "lolo",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-marvin",
+      "slug": "external-marvin",
+      "nickname": "Marvin",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-jmz",
+      "slug": "external-jmz",
+      "nickname": "jmz",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-sarolu",
+      "slug": "external-sarolu",
+      "nickname": "sarolu",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-pilot",
+      "slug": "external-pilot",
+      "nickname": "Pilot",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-bipi",
+      "slug": "external-bipi",
+      "nickname": "bipi",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-bulas",
+      "slug": "external-bulas",
+      "nickname": "bulas",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-tyrin",
+      "slug": "external-tyrin",
+      "nickname": "Tyrin",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-hirotto",
+      "slug": "external-hirotto",
+      "nickname": "Hirotto",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-nukenin",
+      "slug": "external-nukenin",
+      "nickname": "Nukenin",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-buero",
+      "slug": "external-buero",
+      "nickname": "BUERO",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-guigs",
+      "slug": "external-guigs",
+      "nickname": "Guigs",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-kiari",
+      "slug": "external-kiari",
+      "nickname": "Kiari",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-nero",
+      "slug": "external-nero",
+      "nickname": "Nero",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-randomgap",
+      "slug": "external-randomgap",
+      "nickname": "randomgap",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-aikawa",
+      "slug": "external-aikawa",
+      "nickname": "Aikawa",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-zay",
+      "slug": "external-zay",
+      "nickname": "zay",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-supercleber",
+      "slug": "external-supercleber",
+      "nickname": "SUPERCLEBER",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "top",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-samkz",
+      "slug": "external-samkz",
+      "nickname": "Samkz",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "jungle",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-blacky",
+      "slug": "external-blacky",
+      "nickname": "BLACKY",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "mid",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-kog",
+      "slug": "external-kog",
+      "nickname": "Kog",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "bot",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    },
+    {
+      "playerId": "external-lol-player-houndin",
+      "slug": "external-houndin",
+      "nickname": "houndin",
+      "legalName": null,
+      "nationality": "Brazil",
+      "dateOfBirth": null,
+      "primaryRole": "support",
+      "originType": "real-world-reference",
+      "reviewStatus": "author-named-identity-only",
+      "sources": [],
+      "history": [],
+      "notes": [
+        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name or birth date is established.",
+        "Nationality is the flag shown beside the nickname in the author's Leaguepedia roster screenshot.",
+        "Added as a 2027 overlay identity with the nickname only."
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "tier2-circuito-desafiante-estral-esports",
+      "name": "Estral Esports",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-brayaron",
+          "nickname": "Brayaron"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-alluk",
+          "nickname": "Alluk"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-aloned",
+          "nickname": "Aloned"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-kumew",
+          "nickname": "KUMEW"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-shu-hari",
+          "nickname": "Shu Hari"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-7rex",
+      "name": "7REX",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-nate",
+          "nickname": "Nate"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-neo7",
+          "nickname": "Neo7"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-piqueos",
+          "nickname": "Piqueos"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-scenari0",
+          "nickname": "Scenari0"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-ux",
+          "nickname": "Ux"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-kabum-idl",
+      "name": "KaBuM! IDL",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-hakari",
+          "nickname": "Hakari"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-stiner",
+          "nickname": "StineR"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-qats",
+          "nickname": "Qats"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-celo",
+          "nickname": "Celo"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-elkinhoo",
+          "nickname": "Elkinhoo"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-vks-academy",
+      "name": "VKS Academy",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-makes",
+          "nickname": "Makes"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-aegis",
+          "nickname": "Aegis"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-lolo",
+          "nickname": "lolo"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-marvin",
+          "nickname": "Marvin"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-manel",
+          "nickname": "Manel"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-intz",
+      "name": "INTZ",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-jmz",
+          "nickname": "jmz"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-sarolu",
+          "nickname": "sarolu"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-pilot",
+          "nickname": "Pilot"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-bipi",
+          "nickname": "bipi"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-bulas",
+          "nickname": "bulas"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-rmd-gaming",
+      "name": "RMD Gaming",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-tyrin",
+          "nickname": "Tyrin"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-hirotto",
+          "nickname": "Hirotto"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-nukenin",
+          "nickname": "Nukenin"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-buero",
+          "nickname": "BUERO"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-guigs",
+          "nickname": "Guigs"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-ei-nerd-esports",
+      "name": "Ei Nerd Esports",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-kiari",
+          "nickname": "Kiari"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-nero",
+          "nickname": "Nero"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-randomgap",
+          "nickname": "randomgap"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-aikawa",
+          "nickname": "Aikawa"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-zay",
+          "nickname": "zay"
+        }
+      ]
+    },
+    {
+      "teamId": "tier2-circuito-desafiante-pain-academy",
+      "name": "paiN Academy",
+      "starters": [
+        {
+          "role": "top",
+          "playerId": "external-lol-player-supercleber",
+          "nickname": "SUPERCLEBER"
+        },
+        {
+          "role": "jungle",
+          "playerId": "external-lol-player-samkz",
+          "nickname": "Samkz"
+        },
+        {
+          "role": "mid",
+          "playerId": "external-lol-player-blacky",
+          "nickname": "BLACKY"
+        },
+        {
+          "role": "bot",
+          "playerId": "external-lol-player-kog",
+          "nickname": "Kog"
+        },
+        {
+          "role": "support",
+          "playerId": "external-lol-player-houndin",
+          "nickname": "houndin"
+        }
+      ]
+    }
+  ],
+  "pendingIdentities": [],
+  "retirements": [],
+  "departures": [
+    {
+      "playerId": "external-lol-player-manel",
+      "nickname": "Manel",
+      "teamId": "external-lol-team-red-canids",
+      "teamName": "RED Canids",
+      "league": "CBLOL",
+      "role": "support",
+      "designation": "main",
+      "tenureId": "external-lol-tenure-red-canids-manel-pre-worlds-2026-domestic",
+      "reason": "transferred",
+      "destinationTeamId": "tier2-circuito-desafiante-vks-academy",
+      "destinationTeamName": "VKS Academy"
+    }
+  ],
+  "vacancies": [],
+  "outgoing": [],
+  "marketAvailability": []
+}

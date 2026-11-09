@@ -1,0 +1,13 @@
+{
+  "id": "series-dreamhack-open",
+  "slug": "series-dreamhack-open",
+  "continuityId": "kairos-universe",
+  "name": "DreamHack Open",
+  "gameId": "game-counter-strike",
+  "organizerId": "dreamhack",
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

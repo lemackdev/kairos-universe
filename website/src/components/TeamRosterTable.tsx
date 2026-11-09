@@ -5,18 +5,17 @@ import Link from "next/link";
 import type { RosterEntryView } from "@/types/catalog";
 import { NationalityFlags } from "./NationalityFlags";
 import { RoleIcon } from "./RoleIcon";
-import { formatDate } from "@/lib/formatting/date";
+import { regionCodesFor } from "@/lib/regions";
 
-type SortColumn = "nationality" | "player" | "name" | "role" | "contractEndDate" | "joinedDate";
+type SortColumn = "region" | "nationality" | "player" | "name" | "role";
 type SortDirection = "asc" | "desc";
 
 const columns: Array<{ key: SortColumn; label: string }> = [
-  { key: "nationality", label: "Region" },
+  { key: "region", label: "Region" },
+  { key: "nationality", label: "NAT" },
   { key: "player", label: "Player" },
   { key: "name", label: "Name" },
   { key: "role", label: "Role" },
-  { key: "contractEndDate", label: "Contract Ends" },
-  { key: "joinedDate", label: "Joined" },
 ];
 
 const roleOrder = ["top", "jungle", "mid", "adc", "bot", "support"];
@@ -28,16 +27,15 @@ function roleRank(role: string): number {
 
 function sortValue(entry: RosterEntryView, column: SortColumn): string {
   switch (column) {
+    case "region": return regionCodesFor(entry.nationality, entry.nationalities).join("/");
     case "nationality": return entry.nationality ?? "";
     case "player": return entry.nickname;
     case "name": return entry.realName;
     case "role": return entry.role;
-    case "contractEndDate": return entry.contractEndDate ?? "";
-    case "joinedDate": return entry.joinedDate ?? "";
   }
 }
 
-export function TeamRosterTable({ roster, caption = "Current active roster" }: { roster: RosterEntryView[]; caption?: string }) {
+export function TeamRosterTable({ roster, caption = "Current active roster", empty = "No active players recorded." }: { roster: RosterEntryView[]; caption?: string; empty?: string }) {
   const [sortColumn, setSortColumn] = useState<SortColumn>("role");
   const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
 
@@ -56,7 +54,7 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
     }
   }
 
-  if (!roster.length) return <p>No active players recorded.</p>;
+  if (!roster.length) return <p>{empty}</p>;
 
   return (
     <div className="tableWrap">
@@ -76,20 +74,14 @@ export function TeamRosterTable({ roster, caption = "Current active roster" }: {
         <tbody>
           {sorted.map((entry) => (
             <tr key={entry.tenureId}>
-              <td data-label="Region">
-                <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}>
-                  <NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact />
-                  NA
-                </span>
-              </td>
+              <td data-label="Region">{regionCodesFor(entry.nationality, entry.nationalities).join(" / ") || "TBD"}</td>
+              <td data-label="NAT"><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
               <td data-label="Player">
                 <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>
                 {entry.isCaptain && <span className="badge badgeCanon" style={{ marginLeft: "0.4rem" }}>Captain</span>}
               </td>
               <td data-label="Name">{entry.realName}</td>
               <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><RoleIcon role={entry.role} />{entry.role}</span></td>
-              <td data-label="Contract Ends">{formatDate(entry.contractEndDate)}</td>
-              <td data-label="Joined">{formatDate(entry.joinedDate)}</td>
             </tr>
           ))}
         </tbody>

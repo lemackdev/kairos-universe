@@ -64,6 +64,11 @@
     "evelyn-park"
   ],
   "enabledCompetitions": [
+    "americas-lan-1-2027",
+    "americas-lan-2-2027",
+    "americas-lan-3-2027",
+    "americas-lan-4-2027",
+    "americas-lan-5-2027",
     "blast-austin-2027",
     "blast-los-angeles-2027",
     "blast-toronto-2027",
@@ -78,8 +83,14 @@
     "crossroads-challengers-2027",
     "crossroads-cup-2027",
     "demacia-cup-global-2027",
+    "dreamhack-open-1-2027",
+    "dreamhack-open-2-2027",
+    "dreamhack-open-3-2027",
+    "dreamhack-open-4-2027",
     "elisa-masters-boston-2027",
     "elisa-masters-seattle-2027",
+    "epicenter-2027-1",
+    "epicenter-2027-2",
     "esl-challenger-league-season-51",
     "esl-challenger-league-season-52",
     "esl-challenger-league-season-53",
@@ -118,7 +129,11 @@
     "thunderpick-masters-2027",
     "world-championship-2027",
     "wsci-2027",
-    "xse-pro-montreal-2027"
+    "xse-pro-montreal-2027",
+    "zotac-cup-masters-calgary-2027",
+    "zotac-cup-masters-columbus-2027",
+    "zotac-cup-masters-cordoba-2027",
+    "zotac-cup-masters-curitiba-2027"
   ],
   "enabledMatches": [],
   "enabledTransfers": []

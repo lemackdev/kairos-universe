@@ -14,14 +14,14 @@ const sections = [
 ];
 
 const tierLabels: Record<string, string> = {
-  premier: "Premier", major: "Major", "tier-2": "Tier 2",
+  premier: "Premier", major: "Major", "tier-2": "Tier 2", "tier-3": "Tier 3",
   "tier-1-international": "Tier 1 International", "tier-2-international": "Tier 2 International",
   "world-championship": "World Championship", "tier-2-world-championship": "Tier 2 World Championship",
   "regional-tier-1": "Regional Tier 1", "regional-tier-2": "Regional Tier 2",
   "postseason-international": "Postseason International",
 };
 
-export function TournamentArticle({ tournament, regionalField2027, fieldCaption = "Participants (2027)" }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null; logo?: ReactNode }>; fieldCaption?: string }) {
+export function TournamentArticle({ tournament, regionalField2027, fieldCaption = "Participants (2027)", logo }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null; logo?: ReactNode }>; fieldCaption?: string; logo?: ReactNode }) {
   const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
     { label: "Game", value: tournament.gameName },
@@ -35,7 +35,7 @@ export function TournamentArticle({ tournament, regionalField2027, fieldCaption 
     { label: "Teams", value: tournament.teamsCount != null ? String(tournament.teamsCount) : null },
   ];
   return <WikiArticle title={tournament.name} kind="Tournaments" game={tournament.gameName} sections={sections}
-    infobox={<ArticleInfobox title={tournament.name} monogram={tournament.name.slice(0, 1)} groups={[
+    infobox={<ArticleInfobox title={tournament.name} monogram={tournament.name.slice(0, 1)} image={logo} groups={[
       { title: "Tournament Information", rows: information },
       { title: "Prize Pool", rows: [{ label: "Total", value: tournament.prizePool }] },
     ]} />}>

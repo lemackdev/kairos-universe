@@ -33,7 +33,7 @@ catalog.routes.push(...externalRoutes);
 const worldState2027 = loadWorldState2027();
 const knownTeamIds = new Set([...catalog.teams.map((team) => team.id), ...catalog.externalScene.teams.map((team) => team.id)]);
 const knownPlayerIds = new Set(catalog.externalScene.players.map((player) => player.id));
-const rosterSets2027 = [worldState2027.lcsRosters, worldState2027.lecRosters, worldState2027.lplRosters, worldState2027.cblolRosters, worldState2027.lckRosters, worldState2027.lcpRosters];
+const rosterSets2027 = [worldState2027.lcsRosters, worldState2027.lecRosters, worldState2027.lplRosters, worldState2027.cblolRosters, worldState2027.lckRosters, worldState2027.lcpRosters, worldState2027.naclRosters, worldState2027.emeaMastersRosters, worldState2027.lckChallengersRosters, worldState2027.ldlRosters, worldState2027.lcpChallengersRosters, worldState2027.circuitoDesafianteRosters];
 const addedPlayerIds = new Set(rosterSets2027.flatMap((set) => set.addedPlayers).map((player) => player.playerId));
 const internalPlayerIds = new Set(catalog.players.map((player) => player.id));
 for (const added of rosterSets2027.flatMap((set) => set.addedPlayers)) {
@@ -43,7 +43,7 @@ for (const added of rosterSets2027.flatMap((set) => set.addedPlayers)) {
   catalog.routes.push(route);
 }
 for (const team of rosterSets2027.flatMap((set) => set.teams)) {
-  if (!knownTeamIds.has(team.teamId)) throw new Error(`2027 roster references unknown team: ${team.teamId}`);
+  if (!knownTeamIds.has(team.teamId) && !listAllTier2Teams(worldState2027).some((entry) => entry.teamId === team.teamId)) throw new Error(`2027 roster references unknown team: ${team.teamId}`);
   for (const starter of team.starters) {
     const known = team.internal ? internalPlayerIds.has(starter.playerId) : knownPlayerIds.has(starter.playerId) || addedPlayerIds.has(starter.playerId);
     if (!known) throw new Error(`2027 roster references unknown player: ${starter.playerId}`);

@@ -1,0 +1,13 @@
+{
+  "id": "series-epicenter",
+  "slug": "series-epicenter",
+  "continuityId": "kairos-universe",
+  "name": "EPICENTER",
+  "gameId": "game-counter-strike",
+  "organizerId": "epicenter",
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

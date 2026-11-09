@@ -1,5 +1,5 @@
 {
-  "canonVersion": "0.19.0",
+  "canonVersion": "0.26.0",
   "project": "Kairos Universe",
   "storyEpisode": 114,
   "storyStartPeriod": "early-2026",
@@ -70,6 +70,13 @@
     "Eight 2027 LEC starting lineups (40 identified starters), fourteen named LEC retirements, and four players leaving the LEC are registered in the Kairos Universe overlay (data/competitive-world-overrides/lec-rosters-2027.json); no exact announcement date is established. See docs/canon/LEC_ROSTERS_2027.md.",
     "Eight 2027 LPL and eight 2027 CBLOL starting lineups (80 starters), thirteen LPL and ten CBLOL retirements, and nine LPL players available for the Chinese, Korean and PCS markets are registered in the overlay (data/competitive-world-overrides/lpl-rosters-2027.json and cblol-rosters-2027.json); no exact announcement date is established. See docs/canon/LPL_CBLOL_ROSTERS_2027.md.",
     "Eight 2027 LCK and eight 2027 LCP starting lineups (80 starters), 32 LCK and 9 LCP retirements are registered in the overlay (data/competitive-world-overrides/lck-rosters-2027.json and lcp-rosters-2027.json). Loki's earlier LCS retirement is reversed (he starts for BRION) and Taeyoon is no longer a free agent (he starts for Nongshim RedForce); no exact announcement date is established. See docs/canon/LCK_LCP_ROSTERS_2027.md.",
+    "CCT North America #1 2027 has sixteen invited teams (docs/canon/CCT_NORTH_AMERICA_1_2027_INVITES.md), and fifteen Tier 2 and Tier 3 Counter-Strike events were added: Americas LAN (5), ZOTAC Cup Masters (4), EPICENTER 2027 (2) and DreamHack Open (4). No participants, format or results are established. See docs/canon/TIER_2_3_EVENTS_2027.md.",
+    "The 2027 NACL rosters are registered (data/competitive-world-overrides/nacl-rosters-2027.json): seven external teams with 35 starters, plus the unchanged Kairos Academy Blue roster. Six nickname-only players were added, 13 free-agent records were cleared, and the seven NACL vacancies left by LCS transfers are closed. See docs/canon/NACL_ROSTERS_2027.md.",
+    "The 2027 EMEA Masters rosters are registered (data/competitive-world-overrides/emea-masters-rosters-2027.json): eight teams, 40 starters, all nickname-only overlay identities. See docs/canon/EMEA_MASTERS_ROSTERS_2027.md.",
+    "The 2027 LCK Challengers rosters are registered (data/competitive-world-overrides/lck-challengers-rosters-2027.json): eight teams, 40 starters, and five surplus players retired. See docs/canon/LCK_CHALLENGERS_ROSTERS_2027.md.",
+    "The 2027 LDL rosters are registered (data/competitive-world-overrides/ldl-rosters-2027.json): eight teams, 40 starters, and fourteen surplus players retired. See docs/canon/LDL_ROSTERS_2027.md.",
+    "The 2027 LCP Challengers rosters are registered (data/competitive-world-overrides/lcp-challengers-rosters-2027.json): eight teams, 40 starters mixing Taiwan, Hong Kong, Vietnam and Japan. See docs/canon/LCP_CHALLENGERS_ROSTERS_2027.md.",
+    "The 2027 Circuito Desafiante rosters are registered (data/competitive-world-overrides/circuito-desafiante-rosters-2027.json): eight teams and 40 starters, with Estral Esports and 7REX fielding only Spanish-speaking players. See docs/canon/CIRCUITO_DESAFIANTE_ROSTERS_2027.md.",
     "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization."
   ]
 }

@@ -1,7 +1,10 @@
 [
+  "data/organizers/americas-lan.json",
   "data/organizers/blast.json",
   "data/organizers/cct.json",
+  "data/organizers/dreamhack.json",
   "data/organizers/elisa-masters.json",
+  "data/organizers/epicenter.json",
   "data/organizers/esl.json",
   "data/organizers/esports-world-cup.json",
   "data/organizers/fissure.json",
@@ -10,5 +13,6 @@
   "data/organizers/riot-games.json",
   "data/organizers/starladder.json",
   "data/organizers/thunderpick.json",
-  "data/organizers/xse.json"
+  "data/organizers/xse.json",
+  "data/organizers/zotac.json"
 ]

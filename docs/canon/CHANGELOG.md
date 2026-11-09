@@ -1,5 +1,60 @@
 # Canon Changelog
 
+## 0.26.0 - Circuito Desafiante 2027 rosters
+
+- Registered the 2027 Circuito Desafiante lineups for Estral Esports, 7REX, KaBuM! IDL, VKS Academy, INTZ, RMD Gaming, Ei Nerd Esports and paiN Academy (40 starters).
+- Estral Esports and 7REX field only Spanish-speaking players (Argentina, Chile, Peru); the other six teams field Brazilian players.
+- Excluded Bwipo (not eligible), nine players who already start in CBLOL 2027, and the Peruvian Relax (nickname collision). Surplus players were not created.
+- Manel (2026 RED Canids) receives a transfer departure; 39 starters are nickname-only identities with flag nationality.
+- No contract, signing date or announcement date is established.
+
+## 0.25.0 - LCP Challengers 2027 rosters
+
+- Registered the 2027 LCP Challengers lineups for CFO Academy, Ground Zero Academy, SillySilly Gaming, Frank Esports, EWH, Reignfall, RogerSaMa and Sponge Gaming (40 starters).
+- Excluded players with a mainland China or South Korea flag, and Leaky, Yuhe and Chain1 who already start in LCP 2027. Added Nern, nTnT, Vin, HRK, Jericho and chico to fill the open slots.
+- All 40 are nickname-only identities. Nationality comes from the flags in the author's screenshots (Taiwan, Hong Kong, Vietnam, Japan); three players have no flag and no nationality.
+- Hong Kong now maps to its own HK region code on roster tables.
+- No contract, signing date or announcement date is established.
+
+## 0.24.0 - LDL 2027 rosters
+
+- Registered the 2027 LDL lineups for BLG Junior, TES Challenger, Oh My God, EDG Youth Team, WBG Youth Team, LGD Young Team, WE Academy and AL Young (40 starters).
+- Players already starting or retired in LPL 2027 (ZUIAN, Nia, Erha, Moham, sinian) were excluded. Heru and Tyrion left the free-agent list; Heru, Tyrion, re0 and Starry receive transfer departures from their 2026 tenures.
+- Retired fourteen surplus players as nickname-only identities; 36 starters are nickname-only identities.
+- No contract, signing date or announcement date is established.
+
+## 0.23.0 - LCK Challengers 2027 rosters
+
+- Registered the 2027 LCK Challengers lineups for T1 Esports Academy, Dplus Kia Challengers, KT Rolster Challengers, Nongshim Esports Academy, DN SOOPers Challengers, Kiwoom DRX Challengers, BNK FEARX Youth and Hanwha Life Esports Challengers (40 starters).
+- Players already starting or retired in LCK 2027 were excluded. Ghost and Pollu (2026 KT Rolster) receive transfer departures; 38 starters are nickname-only identities.
+- Retired five surplus players (Ripple, DDahyuk, Courage, Kemish, Tempester) as nickname-only identities.
+- No contract, signing date or announcement date is established.
+
+## 0.22.0 - EMEA Masters 2027 rosters
+
+- Registered the 2027 EMEA Masters lineups for Galions, Solary, Movistar KOI Fénix, Anubis Gaming, TLN Pirates, Kaufland Hangry Knights, G2 NORD and Karmine Corp Blue (40 starters).
+- Added 40 nickname-only identities. Guli moves from Jungle to Mid, as approved by the author; every team received a mixed lineup.
+- Carlsen, Aetinoth, HARPOON, Zoelys and Kamiloo stay in LEC 2027 and are not part of this set.
+- No contract, signing date or announcement date is established.
+
+## 0.21.0 - NACL 2027 rosters
+
+- Registered the 2027 NACL lineups for Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels (NACL), University of Mississippi and Winthrop University (35 starters), with Kairos Academy Blue unchanged.
+- Author-approved role changes: Wilson and Will (Jungle to Top), Sushee (ADC) and Aeon Crystal (Jungle to Support).
+- Added six nickname-only identities (Dcoy, Phillip, Kaido, ADJune, Kismo, Mixture) and cleared 13 free-agent records, kept as prior status. Only35 and Cody Sun fill the two slots the author's pool could not.
+- Closed the seven NACL vacancies on NRG, Maryville University and Winthrop University.
+- Sentinels (NACL) now lists its roster on its team page.
+- No contract, signing date or announcement date is established.
+
+## 0.20.0 - Tier 3 events and 2027 CCT North America #1 invites
+
+- Added a new competition tier, `tier-3`, below Tier 2, and a `south-america` region value.
+- Added fifteen 2027 Counter-Strike events: Americas LAN #1-#5 (Tier 3 LAN, USA, Canada, Mexico), ZOTAC Cup Masters in Cordoba, Curitiba, Calgary and Columbus (Tier 2 LAN), EPICENTER 2027 #1 and #2 (Tier 3 online) and DreamHack Open #1-#4 (Tier 3 online).
+- Every new event starts in March 2027 or later, none runs in July, none overlaps a Major, and none overlaps another new event. Three March and April events overlap Premier or Tier 2 events because those months are full. Prize pools run from USD 15,000 to USD 50,000.
+- Added organizers Americas LAN, ZOTAC, EPICENTER and DreamHack, and one series for each.
+- Registered the sixteen CCT North America #1 2027 invited teams, including Kairos Gaming. No team is also an IEM Dallas 2027 invitee.
+- No participants, format, seeding, results or qualification are established for any of these events.
+
 ## 0.19.0 - 2027 LCK and LCP rosters, retirements, and corrections
 
 - Registered the author-approved 2027 LCK and LCP starting lineups (8 teams and 40 starters each) as overlay files (`lck-rosters-2027.json`, `lcp-rosters-2027.json`) in the existing 2027 roster mechanism. The LCK directive supersedes all earlier LCK drafts.

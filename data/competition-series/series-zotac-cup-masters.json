@@ -1,0 +1,13 @@
+{
+  "id": "series-zotac-cup-masters",
+  "slug": "series-zotac-cup-masters",
+  "continuityId": "kairos-universe",
+  "name": "ZOTAC Cup Masters",
+  "gameId": "game-counter-strike",
+  "organizerId": "zotac",
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

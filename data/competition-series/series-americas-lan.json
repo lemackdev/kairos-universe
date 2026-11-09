@@ -1,0 +1,13 @@
+{
+  "id": "series-americas-lan",
+  "slug": "series-americas-lan",
+  "continuityId": "kairos-universe",
+  "name": "Americas LAN",
+  "gameId": "game-counter-strike",
+  "organizerId": "americas-lan",
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "notes": []
+}

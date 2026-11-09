@@ -132,26 +132,28 @@ export function ExternalOrganizationArticle({ organization, scene, worldState }:
   </WikiArticle>;
 }
 
-export function Tier2TeamArticle({ team, parent }: { team: Tier2TeamLookup; parent?: { name: string; slug: string } }) {
-  const sections = ["Overview", "Ecosystem", "Parent organization", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
+export function Tier2TeamArticle({ team, parent, roster }: { team: Tier2TeamLookup; parent?: { name: string; slug: string }; roster?: Array<{ role: string; nickname: string; slug: string }> }) {
+  const sections = ["Overview", "Ecosystem", ...(roster?.length ? ["Player Roster"] : []), "Parent organization", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
+  const at = (title: string) => sections.find((section) => section.title === title)!;
   return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)} groups={[
     { title: "Team Information", rows: [
       { label: "Ecosystem", value: team.ecosystem }, { label: "Tier", value: "Tier 2" }, { label: "Region", value: team.region },
       { label: "Parent organization", value: parent ? <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> : "None confirmed" },
     ] },
   ]} />}>
-    <ArticleSection {...sections[0]!}>
+    <ArticleSection {...at("Overview")}>
       <p><strong>{team.name}</strong> competes in the {team.ecosystem} for the 2027 season. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately and are never merged with this entity&rsquo;s.</> : "No parent-organization relationship is established for this team."}</p>
     </ArticleSection>
-    <ArticleSection {...sections[1]!}>
+    <ArticleSection {...at("Ecosystem")}>
       <p>{team.name} is one of 8 confirmed 2027 {team.ecosystem} participants, a Tier 2 regional ecosystem ({team.region}). See <Link href="/wiki/world">the competitive world</Link> for the full {team.ecosystem} field and the rest of the Tier 1 / Tier 2 structure.</p>
     </ArticleSection>
-    <ArticleSection {...sections[2]!}>
+    {roster?.length ? <ArticleSection {...at("Player Roster")}><ExternalRosterTable caption={`${team.name} ${team.ecosystem} 2027 roster`} rows={roster.map((entry) => ({ id: `${team.teamId}-${entry.slug}`, role: entry.role, roleLabel: roleLabels[entry.role as keyof typeof roleLabels], nickname: entry.nickname, slug: entry.slug, designation: "2027 starter" }))} /></ArticleSection> : null}
+    <ArticleSection {...at("Parent organization")}>
       {parent ? <p><Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> is this team&rsquo;s confirmed parent organization. The two remain separate competitive team entities; no roster, result, or membership is shared between them.</p>
         : <p>No parent-organization relationship is confirmed for this team.</p>}
     </ArticleSection>
-    <ArticleSection {...sections[3]!}>
-      <p>Canon record establishing the {team.ecosystem} 2027 ecosystem. See <Link href="/wiki/world">the competitive world</Link> for sourcing. No roster, result, or standings data is tracked for this team.</p>
+    <ArticleSection {...at("Sources")}>
+      <p>Canon record establishing the {team.ecosystem} 2027 ecosystem. See <Link href="/wiki/world">the competitive world</Link> for sourcing. {roster?.length ? "No result or standings data is tracked for this team." : "No roster, result, or standings data is tracked for this team."}</p>
     </ArticleSection>
   </WikiArticle>;
 }

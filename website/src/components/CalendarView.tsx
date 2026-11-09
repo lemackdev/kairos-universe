@@ -60,6 +60,7 @@ export function CalendarView({ competitions }: { competitions: CompetitionView[]
     if (tier !== "all") {
       if (tier === "premier-tier-1" && !["premier", "tier-1-international", "regional-tier-1"].includes(competition.tier ?? "")) return false;
       if (tier === "tier-2" && !["tier-2", "tier-2-international", "regional-tier-2"].includes(competition.tier ?? "")) return false;
+      if (tier === "tier-3" && competition.tier !== "tier-3") return false;
       if (tier === "major-world" && !["major", "world-championship", "tier-2-world-championship"].includes(competition.tier ?? "")) return false;
     }
     if (region !== "all" && competition.region !== region) return false;
@@ -107,6 +108,7 @@ export function CalendarView({ competitions }: { competitions: CompetitionView[]
           <option value="all">All</option>
           <option value="premier-tier-1">Premier / Tier 1</option>
           <option value="tier-2">Tier 2</option>
+          <option value="tier-3">Tier 3</option>
           <option value="major-world">Major / World Championship</option>
         </select>
       </label>
@@ -114,6 +116,7 @@ export function CalendarView({ competitions }: { competitions: CompetitionView[]
         <select value={region} onChange={(event) => setRegion(event.target.value)}>
           <option value="all">All</option>
           <option value="north-america">North America</option>
+          <option value="south-america">South America</option>
           <option value="europe">Europe</option>
           <option value="international">International</option>
         </select>

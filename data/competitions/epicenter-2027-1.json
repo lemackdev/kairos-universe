@@ -1,0 +1,35 @@
+{
+  "id": "epicenter-2027-1",
+  "slug": "epicenter-2027-1",
+  "continuityId": "kairos-universe",
+  "name": "EPICENTER 2027 #1",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "A 2027 Counter-Strike Tier 3 event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Online",
+  "startDate": "2027-05-24",
+  "endDate": "2027-05-29",
+  "prizePool": "USD 25,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "epicenter",
+  "seriesId": "series-epicenter",
+  "tier": "tier-3",
+  "region": "international",
+  "teamsCount": "TBD",
+  "eventType": "online",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

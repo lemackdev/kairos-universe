@@ -1,0 +1,35 @@
+{
+  "id": "zotac-cup-masters-calgary-2027",
+  "slug": "zotac-cup-masters-calgary-2027",
+  "continuityId": "kairos-universe",
+  "name": "ZOTAC Cup Masters Calgary",
+  "gameId": "game-counter-strike",
+  "status": "planned",
+  "seasonIds": [],
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "overview": "A 2027 Counter-Strike Tier 2 event. No participants, qualification, or results have been confirmed yet.",
+  "format": [],
+  "organizer": null,
+  "location": "Calgary, Alberta, Canada",
+  "startDate": "2027-11-29",
+  "endDate": "2027-12-02",
+  "prizePool": "USD 50,000",
+  "participantTeamIds": [],
+  "rulesetIds": [
+    "counter-strike-global-map-pool"
+  ],
+  "organizerId": "zotac",
+  "seriesId": "series-zotac-cup-masters",
+  "tier": "tier-2",
+  "region": "north-america",
+  "teamsCount": "TBD",
+  "eventType": "lan",
+  "inviteDate": null,
+  "rankingDate": null,
+  "parentCompetitionId": null,
+  "relatedCompetitionIds": [],
+  "prizeDistribution": []
+}

@@ -25,7 +25,10 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
   const tier2Team = !team && !reference ? findTier2Team(catalog.worldState2027, slug) : null;
   if (tier2Team) {
     const parent = tier2Team.parentTeamId ? catalog.externalScene?.teams.find((entry) => entry.id === tier2Team.parentTeamId) : undefined;
-    return <Tier2TeamArticle team={tier2Team} parent={parent ? { name: parent.name, slug: parent.slug } : undefined} />;
+    const lineup = rosterSets(catalog.worldState2027).flatMap((set) => set.teams).find((entry) => entry.teamId === tier2Team.teamId);
+    const addedSlugs = new Map(rosterSets(catalog.worldState2027).flatMap((set) => set.addedPlayers).map((player) => [player.playerId, player.slug]));
+    const roster = lineup?.starters.map((starter) => ({ role: starter.role, nickname: starter.nickname, slug: addedSlugs.get(starter.playerId) ?? catalog.externalScene?.players.find((player) => player.id === starter.playerId)?.slug ?? "" })).filter((entry) => entry.slug);
+    return <Tier2TeamArticle team={tier2Team} parent={parent ? { name: parent.name, slug: parent.slug } : undefined} roster={roster} />;
   }
   if (!team && reference && catalog.externalScene) {
     const scene = catalog.externalScene;

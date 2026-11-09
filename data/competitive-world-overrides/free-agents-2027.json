@@ -10,52 +10,6 @@
   "disclaimer": "Kairos Universe fictional speculation. Every player below remains the same real-world-referenced person documented in the frozen pre-Worlds 2026 reference scene (external-data/pre-worlds-2026); only their Kairos Universe 2027 fictional competitive status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No destination is invented for any player: each becomes a Free Agent in this fictional continuity unless a destination is already confirmed elsewhere in Kairos canon (none currently are). No reason beyond roster/contract non-renewal at season end is recorded for any player.",
   "players": [
     {
-      "playerId": "external-lol-player-sniper",
-      "nickname": "Sniper",
-      "previousTeamId": "external-lol-team-conviction",
-      "previousTeamName": "Conviction",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-tomio",
-      "nickname": "Tomio",
-      "previousTeamId": "external-lol-team-conviction",
-      "previousTeamName": "Conviction",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-cody-sun",
-      "nickname": "Cody Sun",
-      "previousTeamId": "external-lol-team-conviction",
-      "previousTeamName": "Conviction",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-perry",
-      "nickname": "Perry",
-      "previousTeamId": "external-lol-team-conviction",
-      "previousTeamName": "Conviction",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-horder",
-      "nickname": "Horder",
-      "previousTeamId": "external-lol-team-cupid-esports",
-      "previousTeamName": "Cupid eSports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent",
-      "note": "Cupid eSports is not named in the author's confirmed 2027 NACL departures list; excluded from the active roster for exact-8 consistency and treated the same as other removed-organization players. Flagged for author review."
-    },
-    {
       "playerId": "external-lol-player-music",
       "nickname": "Music",
       "previousTeamId": "external-lol-team-cupid-esports",
@@ -88,24 +42,6 @@
       "nickname": "Cube",
       "previousTeamId": "external-lol-team-team-we",
       "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-tyrion",
-      "nickname": "Tyrion",
-      "previousTeamId": "external-lol-team-team-we",
-      "previousTeamName": "Team WE",
-      "league": "LPL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-heru",
-      "nickname": "Heru",
-      "previousTeamId": "external-lol-team-thundertalk-gaming",
-      "previousTeamName": "ThunderTalk Gaming",
       "league": "LPL",
       "effectiveDate": "2026-12-31",
       "status": "free-agent"
@@ -183,51 +119,6 @@
       "status": "free-agent"
     },
     {
-      "playerId": "external-lol-player-fiji",
-      "nickname": "Fiji",
-      "previousTeamId": "external-lol-team-ccg-esports",
-      "previousTeamName": "CCG Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-aeon-crystal",
-      "nickname": "Aeon Crystal",
-      "previousTeamId": "external-lol-team-ccg-esports",
-      "previousTeamName": "CCG Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-leza",
-      "nickname": "Leza",
-      "previousTeamId": "external-lol-team-ccg-esports",
-      "previousTeamName": "CCG Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-spawn",
-      "nickname": "Spawn",
-      "previousTeamId": "external-lol-team-ccg-esports",
-      "previousTeamName": "CCG Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-only35",
-      "nickname": "Only35",
-      "previousTeamId": "external-lol-team-ccg-esports",
-      "previousTeamName": "CCG Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
       "playerId": "external-lol-player-siddywiddy",
       "nickname": "SiddyWiddy",
       "previousTeamId": "external-lol-team-contingent-esports",
@@ -239,33 +130,6 @@
     {
       "playerId": "external-lol-player-asilah",
       "nickname": "Asilah",
-      "previousTeamId": "external-lol-team-contingent-esports",
-      "previousTeamName": "Contingent Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-daption",
-      "nickname": "Daption",
-      "previousTeamId": "external-lol-team-contingent-esports",
-      "previousTeamName": "Contingent Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-tubs",
-      "nickname": "Tubs",
-      "previousTeamId": "external-lol-team-contingent-esports",
-      "previousTeamName": "Contingent Esports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent"
-    },
-    {
-      "playerId": "external-lol-player-shochi",
-      "nickname": "shochi",
       "previousTeamId": "external-lol-team-contingent-esports",
       "previousTeamName": "Contingent Esports",
       "league": "NACL",

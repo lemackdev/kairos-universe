@@ -1,6 +1,6 @@
 {
-  "source": "Wikipedia / Wikimedia Commons for the listed community-sourced marks; official club press kit where specified.",
-  "fetchedDate": "2026-11-06",
+  "source": "Team and league pages, official brand resources, Liquipedia Commons, and established esports coverage; each logo records its direct image source.",
+  "fetchedDate": "2026-11-09",
   "logos": [
     {
       "slug": "external-anyone-s-legend",
@@ -330,6 +330,188 @@
       "name": "Winthrop University",
       "file": "external-winthrop-university.png",
       "wikiPage": "https://en.wikipedia.org/wiki/Winthrop_University"
+    },
+    {
+      "slug": "external-7rex",
+      "name": "7REX",
+      "file": "external-7rex.png",
+      "wikiPage": "https://liquipedia.net/rainbowsix/7REX_TEAM",
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/7REX_TEAM_allmode.png"
+    },
+    {
+      "slug": "external-anubis-gaming",
+      "name": "Anubis Gaming",
+      "file": "external-anubis-gaming-rft.png",
+      "wikiPage": "https://rft.gg/event/emea-masters-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/anubis-gaming-2020.png"
+    },
+    {
+      "slug": "external-blue-otter",
+      "name": "Blue Otter",
+      "file": "external-blue-otter.png",
+      "wikiPage": "https://ensigame.com/pt/matches/history/51260303-blue-otter-vs-conviction-lol",
+      "sourceUrl": "https://storage.ensigame.com/logos/teams/a2b108995ad804cf18cca294618b595d.png"
+    },
+    {
+      "slug": "external-brion",
+      "name": "BRION",
+      "file": "external-brion.png",
+      "wikiPage": "https://liquipedia.net/leagueoflegends/BRION",
+      "sourceUrl": "https://liquipedia.net/commons/images/thumb/8/8c/BRION_2023_full_lightmode.png/600px-BRION_2023_full_lightmode.png"
+    },
+    {
+      "slug": "external-dorado-gaming",
+      "name": "Dorado Gaming",
+      "file": "external-dorado-gaming.png",
+      "wikiPage": "https://polymarket.com/zh/esports/league-of-legends/north-american-challengers-league/lol-dog-nrg-2026-04-02",
+      "sourceUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/team_logos/esports/lol/league-of-legends_dorado+gaming_137158.png"
+    },
+    {
+      "slug": "external-ei-nerd-esports",
+      "name": "Ei Nerd Esports",
+      "file": "external-ei-nerd-esports.png",
+      "wikiPage": "https://maisesports.com.br/circuito-desafiante-2026-com-vaga-no-mid-em-aberto-ei-nerd-esports-anuncia-line-up",
+      "sourceUrl": "https://noticias.maisesports.com.br/wp-content/uploads/2026/02/ei-nerd-esports-logo.png"
+    },
+    {
+      "slug": "external-estral-esports",
+      "name": "Estral Esports",
+      "file": "external-estral-esports.webp",
+      "wikiPage": "https://rft.gg/event/cblol-2027-promotion-tournament",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/estral-esports-2020.webp"
+    },
+    {
+      "slug": "external-frank-esports",
+      "name": "Frank Esports",
+      "file": "external-frank-esports.jpg",
+      "wikiPage": "https://x.com/FrankEsportsLoL",
+      "sourceUrl": "https://pbs.twimg.com/profile_images/1641051561014226950/0OxVuR4e_400x400.jpg"
+    },
+    {
+      "slug": "external-galions",
+      "name": "Galions",
+      "file": "external-galions-rft.webp",
+      "wikiPage": "https://rft.gg/event/emea-masters-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/galions.webp"
+    },
+    {
+      "slug": "external-intz",
+      "name": "INTZ",
+      "file": "external-intz.png",
+      "wikiPage": "https://seeklogo.com/vector-logo/484738/intz",
+      "sourceUrl": "https://images.seeklogo.com/logo-png/48/1/intz-logo-png_seeklogo-484738.png"
+    },
+    {
+      "slug": "external-kabum-idl",
+      "name": "KaBuM! IDL",
+      "file": "external-kabum-idl.png",
+      "wikiPage": "https://esports.kabum.com.br/pages/marca.html",
+      "sourceUrl": "https://esports.kabum.com.br/assets/img/marca/kabumidl.png"
+    },
+    {
+      "slug": "external-kaufland-hangry-knights",
+      "name": "Kaufland Hangry Knights",
+      "file": "external-kaufland-hangry-knights-current.png",
+      "wikiPage": "https://rft.gg/event/emea-masters-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/kaufland-hangry-knights.png"
+    },
+    {
+      "slug": "external-leviatan",
+      "name": "Leviatán",
+      "file": "external-leviatan.webp",
+      "wikiPage": "https://rft.gg/event/cblol-2026-split-2",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/leviatan-2021.webp"
+    },
+    {
+      "slug": "external-los",
+      "name": "LOS",
+      "file": "external-los.png",
+      "wikiPage": "https://maisesports.com.br/cblol-2026-riot-oficializa-los-como-nova-equipe-da-competicao",
+      "sourceUrl": "https://maisesports.com.br/_next/image?q=75&url=https%3A%2F%2Fnoticias.maisesports.com.br%2Fwp-content%2Fuploads%2F2025%2F12%2Flogo-los-retorno-cblol-2025.png&w=3840"
+    },
+    {
+      "slug": "external-nrg",
+      "name": "NRG",
+      "file": "external-nrg.png",
+      "wikiPage": "https://liquipedia.net/apexlegends/NRG",
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/NRG_2020_lightmode.png"
+    },
+    {
+      "slug": "external-rmd-gaming",
+      "name": "RMD Gaming",
+      "file": "external-rmd-gaming.png",
+      "wikiPage": "https://maisesports.com.br/partidas/estral-esports-vs-rmd-gaming-2026-03-31",
+      "sourceUrl": "https://cdn-api.pandascore.co/images/team/image/138385/rmd_gaminglogo_square.png"
+    },
+    {
+      "slug": "external-secret-whales",
+      "name": "Secret Whales",
+      "file": "external-secret-whales.png",
+      "wikiPage": "https://liquipedia.net/leagueoflegends/Secret_Whales",
+      "sourceUrl": "https://liquipedia.net/commons/images/thumb/a/a4/Secret_Whales_full_lightmode.png/900px-Secret_Whales_full_lightmode.png"
+    },
+    {
+      "slug": "external-softbank-hawks-gaming",
+      "name": "SoftBank HAWKS gaming",
+      "file": "external-softbank-hawks-gaming.png",
+      "wikiPage": "https://seeklogo.com/vector-logo/659314/fukuoka-softbank-hawks-gaming",
+      "sourceUrl": "https://images.seeklogo.com/logo-png/65/1/fukuoka-softbank-hawks-gaming-logo-png_seeklogo-659314.png"
+    },
+    {
+      "slug": "external-soopers",
+      "name": "SOOPers",
+      "file": "external-soopers.png",
+      "wikiPage": "https://onivia.com/lck",
+      "sourceUrl": "https://onivia.com/logos/dns.png"
+    },
+    {
+      "slug": "external-solary",
+      "name": "Solary",
+      "file": "external-solary-rft.webp",
+      "wikiPage": "https://rft.gg/event/emea-masters-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/solary.webp"
+    },
+    {
+      "slug": "external-embrace-whatever-happens",
+      "name": "Embrace Whatever Happens",
+      "file": "external-embrace-whatever-happens.png",
+      "wikiPage": "https://rft.gg/event/pcs-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/embrace-whatever-happens.png"
+    },
+    {
+      "slug": "external-reignfall",
+      "name": "Reignfall",
+      "file": "external-reignfall.png",
+      "wikiPage": "https://rft.gg/event/pcs-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/reignfall.png"
+    },
+    {
+      "slug": "external-rogersama",
+      "name": "RogerSaMa",
+      "file": "external-rogersama.png",
+      "wikiPage": "https://rft.gg/event/pcs-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/rogersama.png"
+    },
+    {
+      "slug": "external-sillysilly-gaming",
+      "name": "SillySilly Gaming",
+      "file": "external-sillysilly-gaming.png",
+      "wikiPage": "https://rft.gg/event/pcs-2026-spring",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/sillysilly-gaming.png"
+    },
+    {
+      "slug": "external-sponge-gaming",
+      "name": "Sponge Gaming",
+      "file": "external-sponge-gaming.png",
+      "wikiPage": "https://rft.gg/event/pcs-2026-summer",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/sponge-gaming.png"
+    },
+    {
+      "slug": "external-tln-pirates",
+      "name": "TLN Pirates",
+      "file": "external-tln-pirates.png",
+      "wikiPage": "https://rft.gg/team/1627-tln-pirates",
+      "sourceUrl": "https://uploads.rft.gg/images/esport/teams/tln-pirates-2026.png"
     }
   ]
 }

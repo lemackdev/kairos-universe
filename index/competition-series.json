@@ -1,7 +1,11 @@
 [
+  "data/competition-series/series-americas-lan.json",
   "data/competition-series/series-blast-world-final.json",
   "data/competition-series/series-counter-strike-major.json",
+  "data/competition-series/series-dreamhack-open.json",
+  "data/competition-series/series-epicenter.json",
   "data/competition-series/series-esl-challenger-league.json",
   "data/competition-series/series-esl-pro-league.json",
-  "data/competition-series/series-intel-extreme-masters.json"
+  "data/competition-series/series-intel-extreme-masters.json",
+  "data/competition-series/series-zotac-cup-masters.json"
 ]

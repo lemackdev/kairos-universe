@@ -61,10 +61,17 @@ export function loadWorldState2027(): WorldState2027 {
   const lplRosters = read<LcsRosters2027>("lpl-rosters-2027.json");
   const lckRosters = read<LcsRosters2027>("lck-rosters-2027.json");
   const lcpRosters = read<LcsRosters2027>("lcp-rosters-2027.json");
+  const naclRosters = read<LcsRosters2027>("nacl-rosters-2027.json");
+  const emeaMastersRosters = read<LcsRosters2027>("emea-masters-rosters-2027.json");
+  const lckChallengersRosters = read<LcsRosters2027>("lck-challengers-rosters-2027.json");
+  const ldlRosters = read<LcsRosters2027>("ldl-rosters-2027.json");
+  const lcpChallengersRosters = read<LcsRosters2027>("lcp-challengers-rosters-2027.json");
+  const circuitoDesafianteRosters = read<LcsRosters2027>("circuito-desafiante-rosters-2027.json");
   const cblolRosters = read<LcsRosters2027>("cblol-rosters-2027.json");
   const csRosterFreeze = read<CounterStrikeRosterFreeze2027>("counter-strike-roster-freeze-2027.json");
-  const regionalSets: Array<[string, LcsRosters2027]> = [["LCS", lcsRosters], ["LEC", lecRosters], ["LPL", lplRosters], ["CBLOL", cblolRosters], ["LCK", lckRosters], ["LCP", lcpRosters]];
-  for (const [league, set] of regionalSets) validateRegionalRosters(set, league, membership, freeAgents, regionalSets.filter(([, other]) => other !== set).map(([, other]) => other));
+  const regionalSets: Array<[string, LcsRosters2027]> = [["LCS", lcsRosters], ["LEC", lecRosters], ["LPL", lplRosters], ["CBLOL", cblolRosters], ["LCK", lckRosters], ["LCP", lcpRosters], ["NACL", naclRosters], ["EMEA Masters", emeaMastersRosters], ["LCK Challengers", lckChallengersRosters], ["LDL", ldlRosters], ["LCP Challengers", lcpChallengersRosters], ["Circuito Desafiante", circuitoDesafianteRosters]];
+  const tier2Active = (league: string) => tier2Files[league] ? new Set(read<Tier2League2027>(tier2Files[league]).teams.map((team) => team.teamId)) : undefined;
+  for (const [league, set] of regionalSets) validateRegionalRosters(set, league, membership, freeAgents, regionalSets.filter(([, other]) => other !== set).map(([, other]) => other), tier2Active(league));
   const csExternalRosters = read<CsExternalRosters2027>("counter-strike-external-rosters-2027.json");
   validateCsFreeze(csRosterFreeze);
   validateCsExternalRosters(csExternalRosters, csRosterFreeze);
@@ -85,7 +92,7 @@ export function loadWorldState2027(): WorldState2027 {
     tier2Leagues[key] = league;
   }
 
-  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, csRosterFreeze, csExternalRosters, eventInvites };
+  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, csRosterFreeze, csExternalRosters, eventInvites };
 }
 
 export function findFreeAgent(worldState: WorldState2027 | undefined, playerId: string) {
@@ -142,8 +149,8 @@ export function findRegionalStatus(worldState: WorldState2027 | undefined, teamI
 
 const rosterRoles = ["top", "jungle", "mid", "bot", "support"];
 
-function validateRegionalRosters(rosters: LcsRosters2027, league: string, membership: LeagueRegionalMembership2027, freeAgents: FreeAgents2027, otherSets: LcsRosters2027[]): void {
-  const active = new Set(membership.regions[league]?.active.map((team) => team.teamId));
+function validateRegionalRosters(rosters: LcsRosters2027, league: string, membership: LeagueRegionalMembership2027, freeAgents: FreeAgents2027, otherSets: LcsRosters2027[], activeTeamIds?: Set<string>): void {
+  const active = activeTeamIds ?? new Set(membership.regions[league]?.active.map((team) => team.teamId));
   if (rosters.teams.length !== 8) throw new Error(`2027 ${league} rosters must cover 8 teams, found ${rosters.teams.length}`);
   const starterIds = new Set<string>();
   const otherStarterIds = new Set(otherSets.flatMap((set) => set.teams.flatMap((team) => team.starters.map((starter) => starter.playerId))));
@@ -261,7 +268,7 @@ export function csTeamsOfOrganization(worldState: WorldState2027 | undefined, or
 }
 
 export function rosterSets(worldState: WorldState2027 | undefined): LcsRosters2027[] {
-  return worldState ? [worldState.lcsRosters, worldState.lecRosters, worldState.lplRosters, worldState.cblolRosters, worldState.lckRosters, worldState.lcpRosters] : [];
+  return worldState ? [worldState.lcsRosters, worldState.lecRosters, worldState.lplRosters, worldState.cblolRosters, worldState.lckRosters, worldState.lcpRosters, worldState.naclRosters, worldState.emeaMastersRosters, worldState.lckChallengersRosters, worldState.ldlRosters, worldState.lcpChallengersRosters, worldState.circuitoDesafianteRosters] : [];
 }
 
 export function rosterLeague(set: LcsRosters2027): string {

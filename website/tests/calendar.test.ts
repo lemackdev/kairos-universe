@@ -56,7 +56,7 @@ describe("2027 competitive calendar", () => {
   it("every Counter-Strike 2027 competition references the fixed seven-map pool and no banned map", () => {
     const banned = ["Mirage", "Ancient", "Anubis", "Vertigo"];
     const csEvents = year2027.filter((c) => c.gameName === "Counter-Strike");
-    expect(csEvents.length).toBe(34);
+    expect(csEvents.length).toBe(49);
     for (const event of csEvents) {
       expect(event.mapPool).toEqual(["Cobblestone", "Inferno", "Nuke", "Overpass", "Dust II", "Train", "Cache"]);
       for (const map of banned) expect(event.mapPool).not.toContain(map);

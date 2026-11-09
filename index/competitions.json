@@ -1,4 +1,9 @@
 [
+  "data/competitions/americas-lan-1-2027.json",
+  "data/competitions/americas-lan-2-2027.json",
+  "data/competitions/americas-lan-3-2027.json",
+  "data/competitions/americas-lan-4-2027.json",
+  "data/competitions/americas-lan-5-2027.json",
   "data/competitions/blast-austin-2027.json",
   "data/competitions/blast-los-angeles-2027.json",
   "data/competitions/blast-toronto-2027.json",
@@ -13,8 +18,14 @@
   "data/competitions/crossroads-challengers-2027.json",
   "data/competitions/crossroads-cup-2027.json",
   "data/competitions/demacia-cup-global-2027.json",
+  "data/competitions/dreamhack-open-1-2027.json",
+  "data/competitions/dreamhack-open-2-2027.json",
+  "data/competitions/dreamhack-open-3-2027.json",
+  "data/competitions/dreamhack-open-4-2027.json",
   "data/competitions/elisa-masters-boston-2027.json",
   "data/competitions/elisa-masters-seattle-2027.json",
+  "data/competitions/epicenter-2027-1.json",
+  "data/competitions/epicenter-2027-2.json",
   "data/competitions/esl-challenger-league-season-51.json",
   "data/competitions/esl-challenger-league-season-52.json",
   "data/competitions/esl-challenger-league-season-53.json",
@@ -53,5 +64,9 @@
   "data/competitions/thunderpick-masters-2027.json",
   "data/competitions/world-championship-2027.json",
   "data/competitions/wsci-2027.json",
-  "data/competitions/xse-pro-montreal-2027.json"
+  "data/competitions/xse-pro-montreal-2027.json",
+  "data/competitions/zotac-cup-masters-calgary-2027.json",
+  "data/competitions/zotac-cup-masters-columbus-2027.json",
+  "data/competitions/zotac-cup-masters-cordoba-2027.json",
+  "data/competitions/zotac-cup-masters-curitiba-2027.json"
 ]

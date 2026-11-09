@@ -60,7 +60,7 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
   const historyFacts = [
     { label: "Founded", value: organization?.founded ?? "TBD" },
   ];
-  return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={sections} banner={banner}
+  return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={external ? sections.filter((section) => section.id !== "uniform") : sections} banner={banner}
     infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={logo ?? (organization && <BrandLogo organizationId={organization.id} />)} groups={[
       { title: "Team Information", rows: facts },
       { title: "History", rows: historyFacts },
@@ -87,30 +87,28 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
       <TeamLineupBanner team={team} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
-      <WikiTable caption="Former players" columns={["Player", "Name", "Role", "Joined", "Left"]}
-        empty="No former players recorded." rows={team.formerRoster.map((player) => ({
-          key: player.tenureId, cells: [<ArticleLink key="link" href={`/wiki/players/${player.slug}`}>{player.nickname}</ArticleLink>,
-            player.realName, player.role, formatDate(player.joinedDate), formatDate(player.leftDate)],
-        }))} />
-      <WikiTable caption="Former staff" columns={["Staff", "Name", "Former role", "Mentored"]}
+      <TeamRosterTable roster={team.formerRoster} caption={`${team.shortName} former players`} empty="No former players recorded." />
+      {!external && <WikiTable caption="Former staff" columns={["Staff", "Name", "Former role", "Mentored"]}
         empty="No former staff recorded." rows={team.formerStaff.map((person) => ({
           key: person.id, cells: [<ArticleLink key="link" href={`/wiki/staff/${person.slug}`}>{person.name}</ArticleLink>,
             person.realName, person.role, person.playerNickname],
-        }))} />
+        }))} />}
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {organization && <p><Link href={`/wiki/organizations/${organization.slug}`}>{organization.name}</Link></p>}
-      <h3>Management and staff</h3>
-      <ManagementTable staff={(organization?.management ?? []).filter(
-        (person) => !team.formerStaffIds.includes(person.id) && (
-          person.division === "Executive"
-          || team.assignedStaffIds.includes(person.id)
-          || person.currentTeamId === team.id
-          || (!person.currentTeamId && person.division === team.gameName)
-        ),
-      )} />
+      {!external && <>
+        <h3>Management and staff</h3>
+        <ManagementTable staff={(organization?.management ?? []).filter(
+          (person) => !team.formerStaffIds.includes(person.id) && (
+            person.division === "Executive"
+            || team.assignedStaffIds.includes(person.id)
+            || person.currentTeamId === team.id
+            || (!person.currentTeamId && person.division === team.gameName)
+          ),
+        )} />
+      </>}
     </ArticleSection>
-    <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>
+    {!external && <ArticleSection {...sections[6]!}><UniformPanel teamId={team.id} /></ArticleSection>}
     <ArticleSection {...sections[7]!}>
       <details><summary>Sources ({team.sources.length})</summary><SourceList sources={team.sources} /></details>
     </ArticleSection>

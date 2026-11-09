@@ -32,8 +32,8 @@
       "parentTeamId": null
     },
     {
-      "teamId": "tier2-emea-masters-iln-pirates",
-      "name": "ILN Pirates",
+      "teamId": "tier2-emea-masters-tln-pirates",
+      "name": "TLN Pirates",
       "parentTeamId": null
     },
     {
@@ -53,3 +53,5 @@
     }
   ]
 }
+
+

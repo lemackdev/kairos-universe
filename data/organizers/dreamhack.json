@@ -1,0 +1,17 @@
+{
+  "id": "dreamhack",
+  "slug": "dreamhack",
+  "continuityId": "kairos-universe",
+  "name": "DreamHack",
+  "gameIds": [
+    "game-counter-strike"
+  ],
+  "originType": "real-world-reference",
+  "sourceIds": [
+    "source-canon-directive-2027-tier-2-3-events"
+  ],
+  "canonStatus": "confirmed",
+  "notes": [
+    "DreamHack is a real-world esports organizer name reused inside the fictional Kairos Universe alternate continuity to run 2027 competitive events. No real-world event history, results, or identity is implied."
+  ]
+}

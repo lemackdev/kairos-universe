@@ -5,6 +5,8 @@ import { PageHeader } from "@/components/PageHeader";
 import { ProvenanceBadge } from "@/components/matches/ProvenanceBadge";
 import { getCatalog } from "@/lib/canon/server";
 import { formatDate } from "@/lib/formatting/date";
+import { CsRoleIcons } from "@/components/CsRoleIcons";
+import { RoleIcon } from "@/components/RoleIcon";
 import type { MatchView } from "@/types/catalog";
 
 export function generateStaticParams() {
@@ -244,7 +246,7 @@ function LolSeriesDetail({ catalog, games }: { catalog: ReturnType<typeof getCat
                     {side.players.map((p, i) => (
                       <tr key={i}>
                         <td data-label="Player"><PlayerCell catalog={catalog} playerId={p.playerId} displayName={p.displayName} /></td>
-                        <td data-label="Role">{p.role}</td>
+                        <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><CsRoleIcons role={p.role} /><RoleIcon role={p.role} />{p.role}</span></td>
                         <td data-label="Champion">{p.champion}</td>
                         <td data-label="K/D/A">{p.kills}/{p.deaths}/{p.assists ?? "—"}</td>
                         <td data-label="CS">{p.cs}</td>

@@ -1,0 +1,15 @@
+{
+  "id": "source-canon-directive-2027-cs-player-roles",
+  "slug": "source-canon-directive-2027-cs-player-roles",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "HLTV role icons for 2027 Counter-Strike players",
+  "path": "docs/canon/CS_PLAYER_ROLES_2027.md",
+  "locator": "HLTV team pages, role icons, fetched 2026-11-09",
+  "publicLabel": "Kairos Universe canon directive: CS player roles from HLTV",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "AWPer and in-game leader come from the HLTV role icons; all other players are riflers, as directed by the author."
+  ]
+}

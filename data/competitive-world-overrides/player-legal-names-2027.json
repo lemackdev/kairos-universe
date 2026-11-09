@@ -1,0 +1,1149 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-player-legal-names"
+  ],
+  "notes": [
+    "Legal names of nickname-only 2027 identities, taken from each player's Leaguepedia page (fetched 2026-11-09).",
+    "Matched by nickname; only unambiguous matches in the player's own region are recorded."
+  ],
+  "players": {
+    "external-lol-player-0909": {
+      "nickname": "0909",
+      "legalName": "Chi Zhi-Hong",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-1116": {
+      "nickname": "1116",
+      "legalName": "Chien Mao-An",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-113": {
+      "nickname": "113",
+      "legalName": "Doğukan Balcı",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-2274": {
+      "nickname": "2274",
+      "legalName": "Chiu Chang-En",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-5t5": {
+      "nickname": "5t5",
+      "legalName": "Zeng Jun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-abbedagge": {
+      "nickname": "Abbedagge",
+      "legalName": "Felix Alfred Braun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-adiza1": {
+      "nickname": "Adiza1",
+      "legalName": "Lu Kuan-Ting",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-aegis": {
+      "nickname": "Aegis",
+      "legalName": "Gabriel Vinicius Saes de Lemos",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-aeru": {
+      "nickname": "Aeru",
+      "legalName": "Oussema Ben Amara",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-aikawa": {
+      "nickname": "Aikawa",
+      "legalName": "Kalil Hoyer Kayatt",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-akaje": {
+      "nickname": "AKaJe",
+      "legalName": "Choi Soo-hyuk",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-alex": {
+      "nickname": "Alex",
+      "legalName": "Chen Yu-Ming",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-alluk": {
+      "nickname": "Alluk",
+      "legalName": "Tomas Cruz",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-aloned": {
+      "nickname": "Aloned",
+      "legalName": "Tomás Antonio Díaz Valiente",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-aojune": {
+      "nickname": "AoJune",
+      "legalName": "Jun-Hao Chen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-axelent": {
+      "nickname": "Axelent",
+      "legalName": "Nikola Petrusev",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-b-butcher": {
+      "nickname": "B Butcher",
+      "legalName": "Abdulkader Halwani",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-banye": {
+      "nickname": "Banye",
+      "legalName": "Chen Hong-Jun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-beluga": {
+      "nickname": "Beluga",
+      "legalName": "Wang Shao-Hua",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-bipi": {
+      "nickname": "bipi",
+      "legalName": "Filipe Souza Lima Viscardi",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-blacky": {
+      "nickname": "BLACKY",
+      "legalName": "Matheus Lessa",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-boda": {
+      "nickname": "Boda",
+      "legalName": "Mohamed Yahia",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-brayaron": {
+      "nickname": "Brayaron",
+      "legalName": "Brayan Erick Pereda Córdova",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-buero": {
+      "nickname": "BUERO",
+      "legalName": "Daniel Nunes de Jesus",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-bulas": {
+      "nickname": "bulas",
+      "legalName": "Lucas Adriel",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-bulukaka": {
+      "nickname": "BuLuKaKa",
+      "legalName": "Leong Ka Kit",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-bwipo": {
+      "nickname": "Bwipo",
+      "legalName": "Gabriël Rau",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-carim": {
+      "nickname": "Carim",
+      "legalName": "Oh Jae-seung",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-carry": {
+      "nickname": "Carry",
+      "legalName": "Mustafa Selim Yılmaz",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-cc": {
+      "nickname": "cc",
+      "legalName": "Yan Cheng-Chao",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-celo": {
+      "nickname": "Celo",
+      "legalName": "Marcelo Leite",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-charlotte": {
+      "nickname": "charlotte",
+      "legalName": "Xue Le-Hui",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-chico": {
+      "nickname": "chico",
+      "legalName": "Hibiki Yamane",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-chips": {
+      "nickname": "chips",
+      "legalName": "Gong Jia-Hao",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-cloud": {
+      "nickname": "Cloud",
+      "legalName": "Moon Hyeon-ho",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-courage": {
+      "nickname": "Courage",
+      "legalName": "Jeon Hyun-min",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-coward": {
+      "nickname": "Coward",
+      "legalName": "Zhu Shu-Wei",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-cracker": {
+      "nickname": "Cracker",
+      "legalName": "Lee Jeong-wook",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-cyku": {
+      "nickname": "Cyku",
+      "legalName": "Chen Jin-Kun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-cypher": {
+      "nickname": "Cypher",
+      "legalName": "Kim Yu-jun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-dcoy": {
+      "nickname": "Dcoy",
+      "legalName": "Noah D'Addario",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ddahyuk": {
+      "nickname": "DDahyuk",
+      "legalName": "An Min-hyuk",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-decay": {
+      "nickname": "Decay",
+      "legalName": "Nicolas Gawron",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-dengleng": {
+      "nickname": "Dengleng",
+      "legalName": "Po Han-Wang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-densi": {
+      "nickname": "Densi",
+      "legalName": "Denis Aljic",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-dinai": {
+      "nickname": "Dinai",
+      "legalName": "Hwang Chi-hyeon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-dinoo": {
+      "nickname": "Dinoo",
+      "legalName": "Jhang Cheng-Ci",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-doss": {
+      "nickname": "Doss",
+      "legalName": "Mads Schwartz Berg Jensen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-driver": {
+      "nickname": "Driver",
+      "legalName": "Shen Tsung-Hua",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-eclipse": {
+      "nickname": "Eclipse",
+      "legalName": "Kim Min-jun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-elkinhoo": {
+      "nickname": "Elkinhoo",
+      "legalName": "Elker Marques",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-emok1ng": {
+      "nickname": "Emok1ng",
+      "legalName": "Li Lai-Him",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-epic": {
+      "nickname": "Epic",
+      "legalName": "Wu Chun Hin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-fishone": {
+      "nickname": "fishone",
+      "legalName": "Yu Yi",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-flip": {
+      "nickname": "Flip",
+      "legalName": "Kim Sang-wook",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-flying": {
+      "nickname": "Flying",
+      "legalName": "Dai Hang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-fragio": {
+      "nickname": "fragio",
+      "legalName": "Lukas Brandt",
+      "basis": "Author-requested invented name"
+    },
+    "external-lol-player-garden": {
+      "nickname": "Garden",
+      "legalName": "Seo Jeong-won",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-giyuu": {
+      "nickname": "Giyuu",
+      "legalName": "Ahmad Charif",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-grizzly": {
+      "nickname": "Grizzly",
+      "legalName": "Jo Seung-hoon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-guardian": {
+      "nickname": "Guardian",
+      "legalName": "Seong Tae-hyo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-guigs": {
+      "nickname": "Guigs",
+      "legalName": "Guilherme Soares da Silva",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-guli": {
+      "nickname": "Guli",
+      "legalName": "Igor Oblizajek",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-guti": {
+      "nickname": "Guti",
+      "legalName": "Moon Jeong-hwan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-haetae": {
+      "nickname": "Haetae",
+      "legalName": "Sim Su-hyeon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-hakari": {
+      "nickname": "Hakari",
+      "legalName": "Eron Rodrigues",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-hedonist": {
+      "nickname": "Hedonist",
+      "legalName": "Hsu Ji-Xuan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-hirotto": {
+      "nickname": "Hirotto",
+      "legalName": "Caio Henrique Araujo Cordeiro",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-holo": {
+      "nickname": "Holo",
+      "legalName": "Tsang Tak Lam",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-houndin": {
+      "nickname": "houndin",
+      "legalName": "Regis de Abreu Soares",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-hran": {
+      "nickname": "Hran",
+      "legalName": "Yu Hao-Ran",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-hrk": {
+      "nickname": "HRK",
+      "legalName": "Hiroki Iida",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-hwichan": {
+      "nickname": "Hwichan",
+      "legalName": "Jeong Hwi-chan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ibo": {
+      "nickname": "iBo",
+      "legalName": "Marcin Lebuda",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-jackal": {
+      "nickname": "Jackal",
+      "legalName": "Lee Su-min",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-jaehyuk": {
+      "nickname": "Jaehyuk",
+      "legalName": "Kwon Jae-hyuk",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-janus": {
+      "nickname": "Janus",
+      "legalName": "Eom Ye-jun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-jericho": {
+      "nickname": "Jericho",
+      "legalName": "Takefumi Kosaka",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-jiux": {
+      "nickname": "Jiux",
+      "legalName": "Wang Ya-Lun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-jmz": {
+      "nickname": "jmz",
+      "legalName": "João Marcelo Loureiro",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-jungoat": {
+      "nickname": "Jungoat",
+      "legalName": "Lan De-Rong",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kangin": {
+      "nickname": "Kangin",
+      "legalName": "Choi Gang-in",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-keb": {
+      "nickname": "Keb",
+      "legalName": "Zhang Ke",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kemish": {
+      "nickname": "Kemish",
+      "legalName": "Kim Si-hun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kiari": {
+      "nickname": "Kiari",
+      "legalName": "Thiago Luiz Campos",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kingpo54": {
+      "nickname": "kingpo54",
+      "legalName": "Mak Chun Pan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kisno": {
+      "nickname": "Kisno",
+      "legalName": "James Woo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kofte": {
+      "nickname": "Kofte",
+      "legalName": "Emre Akça",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kog": {
+      "nickname": "Kog",
+      "legalName": "Gustavo Melgaço Mariano",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kryze": {
+      "nickname": "Kryze",
+      "legalName": "Felix Hellström",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-kumew": {
+      "nickname": "KUMEW",
+      "legalName": "Leandro Gabriel Paiano Krenz",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lamb": {
+      "nickname": "lamb",
+      "legalName": "Zhang Zhuo-Ya",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lancer": {
+      "nickname": "Lancer",
+      "legalName": "Han Jeong-heum",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-later": {
+      "nickname": "Later",
+      "legalName": "Zhang Wen-Jian",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-liang": {
+      "nickname": "Liang",
+      "legalName": "Ke Liang-Dai",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-liangchen": {
+      "nickname": "Liangchen",
+      "legalName": "Zhang Liang-Chen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lif": {
+      "nickname": "Lif",
+      "legalName": "Lin Li-Feng",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lime": {
+      "nickname": "lime",
+      "legalName": "Zhang Xing-Che",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-linfeng": {
+      "nickname": "Linfeng",
+      "legalName": "Qin Jia-Hao",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lolo": {
+      "nickname": "lolo",
+      "legalName": "Lorenzo Mariano Almeida Cortes Felix",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-looki": {
+      "nickname": "Looki",
+      "legalName": "Rocco Palfi",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-loopy": {
+      "nickname": "Loopy",
+      "legalName": "Kim Dong-hyeon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lqh": {
+      "nickname": "Lqh",
+      "legalName": "Li Qing-Hua",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lucker": {
+      "nickname": "Lucker",
+      "legalName": "Damian Konefał",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lucy": {
+      "nickname": "Lucy",
+      "legalName": "Hyun Soo-hoon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-lumos": {
+      "nickname": "Lumos",
+      "legalName": "Kim Jae-min",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-luon": {
+      "nickname": "Luon",
+      "legalName": "Lee Hyun-ho",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-luxury": {
+      "nickname": "luxury",
+      "legalName": "Qiu Jia-Quan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-maddogg9": {
+      "nickname": "MadDogg9",
+      "legalName": "Sham Tsz Chung Kelvin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-magicpig": {
+      "nickname": "Magicpig",
+      "legalName": "Lai Chen-You",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-makes": {
+      "nickname": "Makes",
+      "legalName": "Gabriel Nemeth Ramos",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-markoon": {
+      "nickname": "Markoon",
+      "legalName": "Mark van Woensel",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-marvin": {
+      "nickname": "Marvin",
+      "legalName": "Vinicius Marvin de Souza",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mg": {
+      "nickname": "MG",
+      "legalName": "Lee Ji-hoon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mihawk": {
+      "nickname": "MihawK",
+      "legalName": "Kim Joo-hyeong",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-minemaciek": {
+      "nickname": "minemaciek",
+      "legalName": "Maciej Wicher",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-minous": {
+      "nickname": "Minous",
+      "legalName": "Kang Min-woo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mio7": {
+      "nickname": "Mio7",
+      "legalName": "Li Yang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mitsuki": {
+      "nickname": "Mitsuki",
+      "legalName": "Lu Jia-Lun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mixtsure": {
+      "nickname": "Mixtsure",
+      "legalName": "Eric Yin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mnm": {
+      "nickname": "MnM",
+      "legalName": "Wong Ka Chun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mrozku": {
+      "nickname": "Mrozku",
+      "legalName": "Adrian Skonieczny",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-mudai": {
+      "nickname": "MUDAI",
+      "legalName": "Lee Seon-gyu",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-nate": {
+      "nickname": "Nate",
+      "legalName": "Damián Rea",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-neo7": {
+      "nickname": "Neo7",
+      "legalName": "Mario Jesús Fernandez Garrido",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-nern": {
+      "nickname": "Nern",
+      "legalName": "Đồng Nguyễn Tấn Lộc",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-nero": {
+      "nickname": "Nero",
+      "legalName": "Otávio Augusto Moura Ribeiro",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-netuno": {
+      "nickname": "Netuno",
+      "legalName": "Lucas Flores Fensterseifer",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ninefog": {
+      "nickname": "Ninefog",
+      "legalName": "Ni Hao-Jie",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-nordik": {
+      "nickname": "Nordik",
+      "legalName": "Mathieu Gagnon",
+      "basis": "Author-requested invented name"
+    },
+    "external-lol-player-ntnt": {
+      "nickname": "nTnT",
+      "legalName": "Nguyễn Nhật Trường",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-nukenin": {
+      "nickname": "Nukenin",
+      "legalName": "Davi Bezerra Loureiro",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-nul1": {
+      "nickname": "NuL1",
+      "legalName": "Chang Chi-Ya",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-oddeye": {
+      "nickname": "OddEye",
+      "legalName": "Cho Hyung-jin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-odi11": {
+      "nickname": "Odi11",
+      "legalName": "Adrian Kruk",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-omon": {
+      "nickname": "OMON",
+      "legalName": "Šimon Řiháček",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-overt1me": {
+      "nickname": "OverT1me",
+      "legalName": "Kuo Ping-Hsin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ovo": {
+      "nickname": "OvO",
+      "legalName": "Zhang Jia-Hao",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-painter": {
+      "nickname": "Painter",
+      "legalName": "Kim Eun-hoo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-panther": {
+      "nickname": "Panther",
+      "legalName": "Park Ji-ho",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-peanutcoco": {
+      "nickname": "PeanutCoco",
+      "legalName": "Chuang Shao-Fu",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-philip": {
+      "nickname": "Philip",
+      "legalName": "Philip Zeng",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-pilot": {
+      "nickname": "Pilot",
+      "legalName": "Elvis Vergara",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-piqueos": {
+      "nickname": "Piqueos",
+      "legalName": "Antony Gabriel Siapo Perez",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-pjo": {
+      "nickname": "pjo",
+      "legalName": "Lin Yi-Bo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-planb": {
+      "nickname": "PlanB",
+      "legalName": "Hong Jun-seok",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-pleata": {
+      "nickname": "Pleata",
+      "legalName": "Son Min-woo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-po8": {
+      "nickname": "PO8",
+      "legalName": "Zou Jun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-popp": {
+      "nickname": "Popp",
+      "legalName": "Phạm Hoàng Phúc",
+      "basis": "Author-requested invented name"
+    },
+    "external-lol-player-prage": {
+      "nickname": "Prage",
+      "legalName": "Chen Chung-En",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-pretender": {
+      "nickname": "Pretender",
+      "legalName": "Ng Cheuk Lun Jason",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-prime": {
+      "nickname": "Prime",
+      "legalName": "Olivier Pierre Julien Payet",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-putaogou": {
+      "nickname": "putaogou",
+      "legalName": "Ma Han-Chen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-pyeonsik": {
+      "nickname": "Pyeonsik",
+      "legalName": "Pyun Min-ki",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-qats": {
+      "nickname": "Qats",
+      "legalName": "Thiago Augusto Fernandes Barros de Freitas",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-quantum": {
+      "nickname": "Quantum",
+      "legalName": "Son Jeong-hwan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ragner": {
+      "nickname": "Ragner",
+      "legalName": "Onurcan Aslan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-randomgap": {
+      "nickname": "randomgap",
+      "legalName": "Vinícius Krick de Souza",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-relax": {
+      "nickname": "Relax",
+      "legalName": "Zhuang Yu-Kai",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-renye": {
+      "nickname": "RenYe",
+      "legalName": "Yang Yu-Jen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-rin": {
+      "nickname": "rin",
+      "legalName": "Khalil Sahraoui",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ripple": {
+      "nickname": "Ripple",
+      "legalName": "Byeon Jong-min",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-roger": {
+      "nickname": "Roger",
+      "legalName": "Fu Po-Yu",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ruep": {
+      "nickname": "Ruep",
+      "legalName": "İlker Bilen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ryan3": {
+      "nickname": "Ryan3",
+      "legalName": "Chen Qi-Hong",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-samkz": {
+      "nickname": "Samkz",
+      "legalName": "Samuel Pereira Rosa",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-sarolu": {
+      "nickname": "sarolu",
+      "legalName": "Victor Satoru Noguchi",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-scenari0": {
+      "nickname": "Scenari0",
+      "legalName": "Edwin Tapia Vilca",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-scorth": {
+      "nickname": "Scorth",
+      "legalName": "Sergen Eke",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-sero": {
+      "nickname": "Sero",
+      "legalName": "An Hyo-chan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-setab": {
+      "nickname": "SeTab",
+      "legalName": "Song Kyeong-jin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-shelfmade": {
+      "nickname": "Shelfmade",
+      "legalName": "Francesco Cardia",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-shu-hari": {
+      "nickname": "Shu Hari",
+      "legalName": "Diego Angel Placencia Mora",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-slayer": {
+      "nickname": "Slayer",
+      "legalName": "Kim Jin-young",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-sniper1": {
+      "nickname": "Sniper1",
+      "legalName": "Huang Chia-Chun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-solid": {
+      "nickname": "Solid",
+      "legalName": "Jang Seung-hyun",
+      "basis": "Author-requested invented name"
+    },
+    "external-lol-player-sorrow": {
+      "nickname": "sorrow",
+      "legalName": "Li De-Ming",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-spooder": {
+      "nickname": "Spooder",
+      "legalName": "Muhanad Maitham Sharad",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-stefan": {
+      "nickname": "Stefan",
+      "legalName": "Stefan Nikolić",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-stiner": {
+      "nickname": "StineR",
+      "legalName": "Vinicius Dias",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-supercleber": {
+      "nickname": "SUPERCLEBER",
+      "legalName": "Cleber Nantes",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-sylvie": {
+      "nickname": "Sylvie",
+      "legalName": "Lee Seung-bok",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-szfylan": {
+      "nickname": "SzfyLan",
+      "legalName": "Liu Hao-Qiang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-tao": {
+      "nickname": "Tao",
+      "legalName": "Xu Hongtao Alessandro",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-telas": {
+      "nickname": "Telas",
+      "legalName": "Luis Gustavo de Lima Drumond",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-tempester": {
+      "nickname": "Tempester",
+      "legalName": "Oh Yeong-woong",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-teng": {
+      "nickname": "TENG",
+      "legalName": "Chu Xiao-Teng",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-thayger": {
+      "nickname": "Thayger",
+      "legalName": "Francisco Mazo Sánchez",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-thehank": {
+      "nickname": "TheHank",
+      "legalName": "Xu Hai-Han",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-theocacs": {
+      "nickname": "Theocacs",
+      "legalName": "Theo Sauda",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-thomas": {
+      "nickname": "Thomas",
+      "legalName": "Tomislav Nanjara",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-thor": {
+      "nickname": "Thor",
+      "legalName": "Zhao Yu-Qi",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-tianzhen": {
+      "nickname": "Tianzhen",
+      "legalName": "Guo Qi-Fan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-tockimo": {
+      "nickname": "Tockimo",
+      "legalName": "Timo Nils Bock",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-today": {
+      "nickname": "Today",
+      "legalName": "Zhang Yu-Fan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-toffe": {
+      "nickname": "Toffe",
+      "legalName": "Tautvydas Gegeckas",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-tracy": {
+      "nickname": "Tracy",
+      "legalName": "Lin Hong-Lin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-tyrin": {
+      "nickname": "Tyrin",
+      "legalName": "William Portugal",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-unforgiven": {
+      "nickname": "Unforgiven",
+      "legalName": "William Nieminen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-ux": {
+      "nickname": "Ux",
+      "legalName": "Laureano Damian Frias",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-valiant": {
+      "nickname": "Valiant",
+      "legalName": "Han Kang-hyun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-viciun": {
+      "nickname": "Viciun",
+      "legalName": "Nicolás Andres Bravo Canales",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-vin": {
+      "nickname": "Vin",
+      "legalName": "Trần Hoài Vinh",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-wako": {
+      "nickname": "Wako",
+      "legalName": "Tsou Wei-Yang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-wayne": {
+      "nickname": "Wayne",
+      "legalName": "Hwang Seo-hyeon",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-wenjian": {
+      "nickname": "Wenjian",
+      "legalName": "Zhang Shu-Hang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-windblows": {
+      "nickname": "WindBlows",
+      "legalName": "King Ham-Cheung",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-winner": {
+      "nickname": "Winner",
+      "legalName": "Woo Joo-sung",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-xby": {
+      "nickname": "XBY",
+      "legalName": "Pan Xin",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-xiang": {
+      "nickname": "Xiang",
+      "legalName": "Luo Xiang-Yu",
+      "basis": "Author-requested invented name"
+    },
+    "external-lol-player-xiao-yu": {
+      "nickname": "Xiao Yu",
+      "legalName": "Jun Yu-Pan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-xiaochiao": {
+      "nickname": "XiaoChiao",
+      "legalName": "Wang Jian-Qiao",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-xiaorui": {
+      "nickname": "Xiaorui",
+      "legalName": "Niu Xiao-Rui",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-xinsheng": {
+      "nickname": "xinsheng",
+      "legalName": "Ding Xin-Sheng",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-xlun": {
+      "nickname": "xlun",
+      "legalName": "Shi Jia-Lun",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-yanxiang": {
+      "nickname": "Yanxiang",
+      "legalName": "Yu Yan-Xiang",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-yskm": {
+      "nickname": "YSKM",
+      "legalName": "Chau Shu Tak",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-yuanyue": {
+      "nickname": "Yuanyue",
+      "legalName": "Huang Bao-Yuan",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-yuhe": {
+      "nickname": "Yuhe",
+      "legalName": "Huang Xing-Wei",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-yukina": {
+      "nickname": "Yukina",
+      "legalName": "Song Jia-Rong",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-yupps": {
+      "nickname": "Yupps",
+      "legalName": "Yuri Gabriel Petermann",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-zay": {
+      "nickname": "zay",
+      "legalName": "Vinicius Argolo Viana",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-zer0fa": {
+      "nickname": "Zer0Fa",
+      "legalName": "Sze Ka Ho",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-zicssi": {
+      "nickname": "Zicssi",
+      "legalName": "Lanzo Ciajolo",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-zkai": {
+      "nickname": "Zkai",
+      "legalName": "Yang Li-Kai",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-zoey": {
+      "nickname": "Zoey",
+      "legalName": "Chen Po-Yen",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    },
+    "external-lol-player-zuoqing": {
+      "nickname": "Zuoqing",
+      "legalName": "Yu Jing-Tao",
+      "basis": "Leaguepedia player page, fetched 2026-11-09"
+    }
+  }
+}

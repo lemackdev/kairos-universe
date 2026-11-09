@@ -1,5 +1,16 @@
 # Canon Changelog
 
+## 0.29.0 - Counter-Strike player roles
+
+- Added roles for 250 Counter-Strike 2 players from the HLTV role icons: 46 AWPers, 41 IGL / Riflers, 4 IGL / AWPers and 159 Riflers.
+- External CS team pages now use the standard roster table (NAT, Player, Name, Role).
+
+## 0.28.0 - Leaguepedia legal names
+
+- Added 227 legal names for nickname-only 2027 players from Leaguepedia (data/competitive-world-overrides/player-legal-names-2027.json).
+- Added Leaguepedia nationalities for EMEA Masters, Circuito Desafiante, LCP Challengers, CBLOL and NACL players.
+- Every nickname-only player now has a legal name.
+
 ## 0.27.0 - Roster table regions and nationalities
 
 - Region column now shows the league's code: KR (LCK, LCK Challengers), CH (LPL, LDL), SA (CBLOL, Circuito Desafiante), PCS (LCP, LCP Challengers), EU (LEC, EMEA Masters), NA (LCS, NACL).
@@ -27,7 +38,7 @@
 
 - Registered the 2027 LDL lineups for BLG Junior, TES Challenger, Oh My God, EDG Youth Team, WBG Youth Team, LGD Young Team, WE Academy and AL Young (40 starters).
 - Players already starting or retired in LPL 2027 (ZUIAN, Nia, Erha, Moham, sinian) were excluded. Heru and Tyrion left the free-agent list; Heru, Tyrion, re0 and Starry receive transfer departures from their 2026 tenures.
-- Retired fourteen surplus players as nickname-only identities; 36 starters are nickname-only identities.
+- Retired thirteen surplus players as nickname-only identities; 36 starters are nickname-only identities.
 - No contract, signing date or announcement date is established.
 
 ## 0.23.0 - LCK Challengers 2027 rosters
@@ -48,7 +59,7 @@
 
 - Registered the 2027 NACL lineups for Blue Otter, Dorado Gaming, Maryville University, NRG, Sentinels (NACL), University of Mississippi and Winthrop University (35 starters), with Kairos Academy Blue unchanged.
 - Author-approved role changes: Wilson and Will (Jungle to Top), Sushee (ADC) and Aeon Crystal (Jungle to Support).
-- Added six nickname-only identities (Dcoy, Phillip, Kaido, ADJune, Kismo, Mixture) and cleared 13 free-agent records, kept as prior status. Only35 and Cody Sun fill the two slots the author's pool could not.
+- Added two nickname-only identities (Dcoy, Nordik) and cleared 13 free-agent records, kept as prior status. Only35 and Cody Sun fill the two slots the author's pool could not.
 - Closed the seven NACL vacancies on NRG, Maryville University and Winthrop University.
 - Sentinels (NACL) now lists its roster on its team page.
 - No contract, signing date or announcement date is established.

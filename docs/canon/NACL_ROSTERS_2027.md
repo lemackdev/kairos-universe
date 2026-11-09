@@ -32,8 +32,8 @@ list is the existing Tubs record (Contingent Esports Support).
 
 ### Dorado Gaming
 
-- top: Phillip
-- jungle: Kaido
+- top: Philip
+- jungle: Nordik
 - mid: Young
 - bot: Array
 - support: Spirax
@@ -50,7 +50,7 @@ list is the existing Tubs record (Contingent Esports Support).
 
 - top: Sniper
 - jungle: Griffin
-- mid: ADJune
+- mid: AoJune
 - bot: Levitate
 - support: Kim Down
 
@@ -73,14 +73,14 @@ list is the existing Tubs record (Contingent Esports Support).
 ### Winthrop University
 
 - top: Wilson
-- jungle: Kismo
+- jungle: Kisno
 - mid: Bradley
 - bot: Cody Sun
-- support: Mixture
+- support: Mixtsure
 
-Six players had no record anywhere and are nickname-only overlay identities
-(no legal name, nationality or birth date): Dcoy, Phillip, Kaido, ADJune,
-Kismo and Mixture. Thirteen free-agent records were cleared and kept as prior
+Two players had no record anywhere and are nickname-only overlay identities
+(no legal name, nationality or birth date): Dcoy and Nordik. Philip,
+AoJune, Kisno and Mixtsure are existing reference-scene players. Thirteen free-agent records were cleared and kept as prior
 status. CCG Esports, Contingent Esports, Conviction and Cupid Esports remain
 inactive. The seven NACL vacancies that earlier transfers to LCS had left on
 NRG, Maryville University and Winthrop University are closed.

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { CsRoleIcons } from "@/components/CsRoleIcons";
+import { RoleIcon } from "@/components/RoleIcon";
 
 import { EpisodeReferenceList } from "@/components/EpisodeReferenceList";
 import type { GameView, PlayerView, TeamView } from "@/types/catalog";
@@ -44,7 +46,7 @@ export function GameArticle({ game, teams, players, nextMilestone }: {
       <WikiTable caption="Published Kairos players" columns={["ID", "Name", "Role", "Team"]}
         empty="No players published." rows={players.map((player) => ({ key: player.id, cells: [
           <Link key="player" href={`/wiki/players/${player.slug}`}>{player.nickname}</Link>,
-          player.realName, player.role, player.currentTeamName,
+          player.realName, <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><CsRoleIcons role={game.name === "Counter-Strike 2" ? player.role : null} /><RoleIcon role={game.name === "League of Legends" ? player.role : ""} />{player.role}</span>, player.currentTeamName,
         ] }))} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>

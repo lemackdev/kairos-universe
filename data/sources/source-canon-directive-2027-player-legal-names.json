@@ -1,0 +1,16 @@
+{
+  "id": "source-canon-directive-2027-player-legal-names",
+  "slug": "source-canon-directive-2027-player-legal-names",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Leaguepedia legal names for nickname-only 2027 players",
+  "path": "docs/canon/PLAYER_LEGAL_NAMES_2027.md",
+  "locator": "Author-requested lookup of legal names and flags on Leaguepedia, fetched 2026-11-09",
+  "publicLabel": "Kairos Universe canon directive: Leaguepedia legal names",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Legal names and nationalities were read from each player's public Leaguepedia page.",
+    "Only nickname matches that were unambiguous and in the player's own region are recorded."
+  ]
+}

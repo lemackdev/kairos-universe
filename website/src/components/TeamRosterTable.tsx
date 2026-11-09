@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { RosterEntryView } from "@/types/catalog";
 import { NationalityFlags } from "./NationalityFlags";
 import { RoleIcon } from "./RoleIcon";
+import { CsRoleIcons } from "./CsRoleIcons";
 import { regionCodesFor } from "@/lib/regions";
 
 type SortColumn = "region" | "nationality" | "player" | "name" | "role";
@@ -37,7 +38,7 @@ function sortValue(entry: RosterEntryView, column: SortColumn): string {
   }
 }
 
-export function TeamRosterTable({ roster, caption = "Current active roster", empty = "No active players recorded." }: { roster: RosterEntryView[]; caption?: string; empty?: string }) {
+export function TeamRosterTable({ roster, caption = "Current active roster", empty = "No active players recorded.", showRegion = true }: { roster: RosterEntryView[]; caption?: string; empty?: string; showRegion?: boolean }) {
   const [sortColumn, setSortColumn] = useState<SortColumn>("role");
   const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
 
@@ -56,6 +57,8 @@ export function TeamRosterTable({ roster, caption = "Current active roster", emp
     }
   }
 
+  const visibleColumns = showRegion ? columns : columns.filter((column) => column.key !== "region");
+
   if (!roster.length) return <p>{empty}</p>;
 
   return (
@@ -64,7 +67,7 @@ export function TeamRosterTable({ roster, caption = "Current active roster", emp
         <caption className="srOnly">{caption}</caption>
         <thead>
           <tr>
-            {columns.map((column) => <th scope="col" key={column.key}>
+            {visibleColumns.map((column) => <th scope="col" key={column.key}>
               <button type="button" onClick={() => toggleSort(column.key)}
                 aria-sort={sortColumn === column.key ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}
                 style={{ all: "unset", cursor: "pointer", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
@@ -76,14 +79,14 @@ export function TeamRosterTable({ roster, caption = "Current active roster", emp
         <tbody>
           {sorted.map((entry) => (
             <tr key={entry.tenureId}>
-              <td data-label="Region">{regionLabel(entry) || "TBD"}</td>
+              {showRegion && <td data-label="Region">{regionLabel(entry) || "TBD"}</td>}
               <td data-label="NAT"><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
               <td data-label="Player">
-                <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>
+                <Link href={entry.href ?? `/wiki/players/${entry.slug}`}>{entry.nickname}</Link>{entry.note ? <> <em>({entry.note})</em></> : null}
                 {entry.isCaptain && <span className="badge badgeCanon" style={{ marginLeft: "0.4rem" }}>Captain</span>}
               </td>
               <td data-label="Name">{entry.realName}</td>
-              <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><RoleIcon role={entry.role} />{entry.role}</span></td>
+              <td data-label="Role"><span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><CsRoleIcons role={entry.role} /><RoleIcon role={entry.role} />{entry.role || "TBD"}</span></td>
             </tr>
           ))}
         </tbody>

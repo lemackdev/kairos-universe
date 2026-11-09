@@ -1,0 +1,1263 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-cs-player-roles"
+  ],
+  "notes": [
+    "Roles come from the role icons on each team's HLTV page: the crosshair icon marks an AWPer and the crown icon marks the in-game leader. Every other player is a Rifler, as directed by the author."
+  ],
+  "players": {
+    "external-cs-player-0samas": {
+      "nickname": "0SAMAS",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-910": {
+      "nickname": "910",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-adamb": {
+      "nickname": "adamb",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-afro": {
+      "nickname": "afro",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-aleksib": {
+      "nickname": "Aleksib",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-alistair": {
+      "nickname": "aliStair",
+      "role": "IGL / AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-apex": {
+      "nickname": "apEX",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-art": {
+      "nickname": "arT",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-artfr0st": {
+      "nickname": "ArtFr0st",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-asap": {
+      "nickname": "asap",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-autimatic": {
+      "nickname": "autimatic",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-avid": {
+      "nickname": "avid",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ax1le": {
+      "nickname": "Ax1Le",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-azuwu": {
+      "nickname": "AZUWU",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-b1t": {
+      "nickname": "b1t",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-beastik": {
+      "nickname": "beastik",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-belchonokk": {
+      "nickname": "BELCHONOKK",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-bibu": {
+      "nickname": "Bibu",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-biguzera": {
+      "nickname": "biguzera",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-blamef": {
+      "nickname": "blameF",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-blitz": {
+      "nickname": "bLitz",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-bobeksde": {
+      "nickname": "bobeksde",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-bodyy": {
+      "nickname": "bodyy",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-boombl4": {
+      "nickname": "Boombl4",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-brehze": {
+      "nickname": "Brehze",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-brollan": {
+      "nickname": "Brollan",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-buda": {
+      "nickname": "buda",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-bwills": {
+      "nickname": "Bwills",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cacanito": {
+      "nickname": "CacaNito",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cairne": {
+      "nickname": "cairne",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cass1n": {
+      "nickname": "cass1n",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cerq": {
+      "nickname": "CeRq",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-chelo": {
+      "nickname": "chelo",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-chr1zn": {
+      "nickname": "Chr1zN",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-chucky": {
+      "nickname": "Chucky",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cmtry": {
+      "nickname": "cmtry",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cobrazera": {
+      "nickname": "cobrazera",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cool4st": {
+      "nickname": "cool4st",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cryptic": {
+      "nickname": "Cryptic",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-cxzi": {
+      "nickname": "Cxzi",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-d1ledez": {
+      "nickname": "d1Ledez",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-dav1deus": {
+      "nickname": "dav1deuS",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-decenty": {
+      "nickname": "decenty",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-dem0n": {
+      "nickname": "dem0n",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-device": {
+      "nickname": "device",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-dex": {
+      "nickname": "dex",
+      "role": "Rifler",
+      "basis": "Default: not shown on the HLTV team page for this lineup"
+    },
+    "external-cs-player-djay": {
+      "nickname": "djay",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-doc": {
+      "nickname": "doc",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-donk": {
+      "nickname": "donk",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-drop": {
+      "nickname": "drop",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-dumau": {
+      "nickname": "dumau",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-dziugss": {
+      "nickname": "dziugss",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-elige": {
+      "nickname": "EliGE",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-eraa": {
+      "nickname": "eraa",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ewjerkz": {
+      "nickname": "ewjerkz",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ex3rcice": {
+      "nickname": "Ex3rcice",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-exit": {
+      "nickname": "exit",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-f1ku": {
+      "nickname": "F1KU",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fallen": {
+      "nickname": "FalleN",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fame": {
+      "nickname": "fame",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fang": {
+      "nickname": "FaNg",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-faven": {
+      "nickname": "faveN",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fear": {
+      "nickname": "fEAR",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fl1t": {
+      "nickname": "FL1T",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fl4mus": {
+      "nickname": "FL4MUS",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-flamez": {
+      "nickname": "flameZ",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-forsyy": {
+      "nickname": "forsyy",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fr3nd": {
+      "nickname": "fr3nd",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-freshie": {
+      "nickname": "freshie",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-frozen": {
+      "nickname": "frozen",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-fury5k": {
+      "nickname": "fury5k",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-gafolo": {
+      "nickname": "gafolo",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-gizmy": {
+      "nickname": "Gizmy",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-gr1ks": {
+      "nickname": "gr1ks",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-graviti": {
+      "nickname": "Graviti",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-grim": {
+      "nickname": "Grim",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-grizz": {
+      "nickname": "Grizz",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-hallzerk": {
+      "nickname": "hallzerk",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-heavygod": {
+      "nickname": "HeavyGod",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-hext": {
+      "nickname": "HexT",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-hobbit": {
+      "nickname": "HObbit",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-hunter": {
+      "nickname": "huNter-",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-hypex": {
+      "nickname": "hypex",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-im": {
+      "nickname": "iM",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ins": {
+      "nickname": "INS",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-insani": {
+      "nickname": "insani",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jackasmo": {
+      "nickname": "jackasmo",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jambo": {
+      "nickname": "jambo",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jame": {
+      "nickname": "Jame",
+      "role": "IGL / AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jamyoung": {
+      "nickname": "JamYoung",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jba": {
+      "nickname": "JBa",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jboen": {
+      "nickname": "JBOEN",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jcobbb": {
+      "nickname": "jcobbb",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jdc": {
+      "nickname": "JDC",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jee": {
+      "nickname": "Jee",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jeorge": {
+      "nickname": "Jeorge",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jimpphat": {
+      "nickname": "Jimpphat",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jks": {
+      "nickname": "jks",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jorko": {
+      "nickname": "Jorko",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jottaaa": {
+      "nickname": "jottAAA",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jt": {
+      "nickname": "JT",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-jw": {
+      "nickname": "JW",
+      "role": "IGL / AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kair0n": {
+      "nickname": "KaiR0N-",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-karrigan": {
+      "nickname": "karrigan",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kauez": {
+      "nickname": "kauez",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-khan": {
+      "nickname": "khaN",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kisserek": {
+      "nickname": "kisserek",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-koala": {
+      "nickname": "koala",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-krabeni": {
+      "nickname": "Krabeni",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-krazy": {
+      "nickname": "krazy",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-krimbo": {
+      "nickname": "Krimbo",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-krimz": {
+      "nickname": "KRIMZ",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kscerato": {
+      "nickname": "KSCERATO",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ksloks": {
+      "nickname": "ksloks",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kursy": {
+      "nickname": "Kursy",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kvem": {
+      "nickname": "Kvem",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kye": {
+      "nickname": "kye",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kyousuke": {
+      "nickname": "kyousuke",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-kyxsan": {
+      "nickname": "kyxsan",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-lake": {
+      "nickname": "Lake",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-latto": {
+      "nickname": "latto",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-lnz": {
+      "nickname": "LNZ",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ltz": {
+      "nickname": "Ltz",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-lucky": {
+      "nickname": "Lucky",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-lux": {
+      "nickname": "lux",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-m0nesy": {
+      "nickname": "m0NESY",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-m1n1": {
+      "nickname": "m1N1",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-magisk": {
+      "nickname": "Magisk",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-magixx": {
+      "nickname": "magixx",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-magnojez": {
+      "nickname": "Magnojez",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mail09": {
+      "nickname": "MaiL09",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-maka": {
+      "nickname": "Maka",
+      "role": "IGL / AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-makazze": {
+      "nickname": "makazze",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-malbsmd": {
+      "nickname": "malbsMd",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-martinezsa": {
+      "nickname": "MartinezSa",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-matys": {
+      "nickname": "MATYS",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-maxster": {
+      "nickname": "maxster",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-maxxkor": {
+      "nickname": "maxxkor",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mazay": {
+      "nickname": "mazay",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mercury": {
+      "nickname": "Mercury",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mezii": {
+      "nickname": "mezii",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mistem": {
+      "nickname": "MisteM",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-misutaaa": {
+      "nickname": "misutaaa",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-modo": {
+      "nickname": "MoDo",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-molodoy": {
+      "nickname": "molodoy",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-moseyuh": {
+      "nickname": "Moseyuh",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mutiris": {
+      "nickname": "MUTiRiS",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-mzinho": {
+      "nickname": "mzinho",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-naf": {
+      "nickname": "NAF",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nafany": {
+      "nickname": "nafany",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-neityu": {
+      "nickname": "Neityu",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nemanha": {
+      "nickname": "nEMANHA",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nertz": {
+      "nickname": "NertZ",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nettik": {
+      "nickname": "nettik",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nicx": {
+      "nickname": "nicx",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-niko": {
+      "nickname": "NiKo",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nilo": {
+      "nickname": "nilo",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nin9": {
+      "nickname": "nin9",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nitr0": {
+      "nickname": "nitr0",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nopeej": {
+      "nickname": "NOPEEj",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-noway": {
+      "nickname": "noway",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nqz": {
+      "nickname": "nqz",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-nut-nut": {
+      "nickname": "nut nut",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ogwizard": {
+      "nickname": "ogwizard",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-phzy": {
+      "nickname": "phzy",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-plopski": {
+      "nickname": "Plopski",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-poiii": {
+      "nickname": "poiii",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-pr": {
+      "nickname": "PR",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-r1nkle": {
+      "nickname": "r1nkle",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-rain": {
+      "nickname": "rain",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-rainwaker": {
+      "nickname": "Rainwaker",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-rdnzao": {
+      "nickname": "rdnzao",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-reck": {
+      "nickname": "reck",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-regali": {
+      "nickname": "regali",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-rez": {
+      "nickname": "REZ",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-rkzinho": {
+      "nickname": "Rkzinho",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ro1f": {
+      "nickname": "Ro1f",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-robo": {
+      "nickname": "robo",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ropz": {
+      "nickname": "ropz",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-roux": {
+      "nickname": "ROUX",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-ryu": {
+      "nickname": "ryu",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-s1mple": {
+      "nickname": "s1mple",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-s1n": {
+      "nickname": "s1n",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-s1ren": {
+      "nickname": "S1ren",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-saadzin": {
+      "nickname": "saadzin",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-saffee": {
+      "nickname": "saffee",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sandman": {
+      "nickname": "Sandman",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-senzu": {
+      "nickname": "Senzu",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sh1ro": {
+      "nickname": "sh1ro",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-shalfey": {
+      "nickname": "shalfey",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-shock": {
+      "nickname": "SHOCK",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sinnopsyy": {
+      "nickname": "sinnopsyy",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sirah": {
+      "nickname": "sirah",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-siuhy": {
+      "nickname": "siuhy",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sjuush": {
+      "nickname": "sjuush",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sk0r": {
+      "nickname": "sk0R",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-slaxz": {
+      "nickname": "slaxz-",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-slight": {
+      "nickname": "SLIGHT",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-snow": {
+      "nickname": "snow",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sonic": {
+      "nickname": "Sonic",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-soulfly": {
+      "nickname": "soulfly",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-spinx": {
+      "nickname": "Spinx",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-spooke": {
+      "nickname": "spooke",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-staehr": {
+      "nickname": "Staehr",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-stanislaw": {
+      "nickname": "stanislaw",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-stavn": {
+      "nickname": "stavn",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-story": {
+      "nickname": "story",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-stressarn": {
+      "nickname": "stressarN",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-sunpayus": {
+      "nickname": "SunPayus",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-susp": {
+      "nickname": "susp",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-swisher": {
+      "nickname": "Swisher",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-syph0": {
+      "nickname": "syph0",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-tabsen": {
+      "nickname": "tabseN",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-tatu": {
+      "nickname": "Tatu",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-tauson": {
+      "nickname": "Tauson",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-techno": {
+      "nickname": "Techno",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-teses": {
+      "nickname": "TeSeS",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-tikuak": {
+      "nickname": "tikuak",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-timo": {
+      "nickname": "timo",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-tn1r": {
+      "nickname": "tN1R",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-tomaszin": {
+      "nickname": "tomaszin",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-torzsi": {
+      "nickname": "torzsi",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-try": {
+      "nickname": "try",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-twist": {
+      "nickname": "twist",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-twistzz": {
+      "nickname": "Twistzz",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-upe": {
+      "nickname": "upE",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-venomzera": {
+      "nickname": "venomzera",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-vexite": {
+      "nickname": "Vexite",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-vini": {
+      "nickname": "VINI",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-w0nderful": {
+      "nickname": "w0nderful",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-wicadia": {
+      "nickname": "Wicadia",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-woxic": {
+      "nickname": "woxic",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-wumbo": {
+      "nickname": "WUMBO",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xant3r": {
+      "nickname": "Xant3r",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xantares": {
+      "nickname": "XANTARES",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xelex": {
+      "nickname": "xelex",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xertion": {
+      "nickname": "xertioN",
+      "role": "IGL / Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xfl0ud": {
+      "nickname": "xfl0ud",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xielo": {
+      "nickname": "xiELO",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-xkacpersky": {
+      "nickname": "xKacpersky",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-yekindar": {
+      "nickname": "YEKINDAR",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-yuurih": {
+      "nickname": "yuurih",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-yxngstxr": {
+      "nickname": "yxngstxr",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-zero": {
+      "nickname": "Zero",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-zevy": {
+      "nickname": "zevy",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-zont1x": {
+      "nickname": "zont1x",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-zorte": {
+      "nickname": "zorte",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-zweih": {
+      "nickname": "zweih",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "external-cs-player-zywoo": {
+      "nickname": "ZywOo",
+      "role": "AWPer",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    },
+    "jake-stewie2k-yip": {
+      "nickname": "Stewie2K",
+      "role": "Rifler",
+      "basis": "HLTV team page role icon, fetched 2026-11-09"
+    }
+  }
+}

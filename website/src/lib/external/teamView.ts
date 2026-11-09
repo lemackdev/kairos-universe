@@ -1,7 +1,7 @@
 import type { RosterEntryView, SourceView, TeamView } from "@/types/catalog";
 import type { ExternalScene, SceneTeam } from "@/types/external-scene";
 import type { LcsRosters2027, WorldState2027 } from "@/types/world-state-2027";
-import { nationalitiesOf, regionCodeOfLeague } from "@/lib/external/worldState2027";
+import { legalNameOf, nationalitiesOf, regionCodeOfLeague } from "@/lib/external/worldState2027";
 
 const marketLabel = (sets: LcsRosters2027[], playerId: string) => {
   const region = sets.flatMap((set) => set.marketAvailability ?? []).find((entry) => entry.playerId === playerId)?.eligibleRegion ?? "";
@@ -58,7 +58,7 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, roste
       tenureId: `${team.id}-${starter.playerId}-2027`,
       playerId: starter.playerId,
       slug: added?.slug ?? scenePlayer!.slug,
-      realName: added?.legalName ?? "TBD",
+      realName: legalNameOf(worldState, starter.playerId, added?.legalName) ?? "TBD",
       nickname: starter.nickname === "KyRa" ? "KryRa" : (scenePlayer?.nickname ?? starter.nickname),
       role: starter.role,
       rosterStatus: "active",

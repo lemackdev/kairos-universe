@@ -6,9 +6,9 @@
 Backs `data/competitive-world-overrides/ldl-rosters-2027.json`. The eight LDL
 2027 teams are filled from the author's pool of LPL Academy players, after
 removing the players who already start in LPL 2027 (ZUIAN, Nia, Erha) or are
-retired there (Moham, sinian). The pool had 54 players for 40 slots, with no role
-changes needed. Players were reshuffled across all eight teams. Fourteen surplus
-players are retired: xinsheng (top), Flying (top), Jiux (top), putaogou (jungle), XBY (jungle), Coward (jungle), Zuoqing (mid), 0909 (mid), Ryan3 (bot), fishone (bot), JiaHao (bot), Keb (support), 5t5 (support), luxury (support). Spares were drawn from the groups that are
+retired there (Moham, sinian). The pool had 53 players for 40 slots, with no role
+changes needed. Players were reshuffled across all eight teams. Thirteen surplus
+players are retired: xinsheng (top), Flying (top), Jiux (top), putaogou (jungle), XBY (jungle), Coward (jungle), Zuoqing (mid), 0909 (mid), Ryan3 (bot), fishone (bot), Keb (support), 5t5 (support), luxury (support). Spares were drawn from the groups that are
 not LDL teams where possible.
 
 ### BLG Junior

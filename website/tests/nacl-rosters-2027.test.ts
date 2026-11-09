@@ -26,14 +26,14 @@ describe("NACL 2027 rosters", () => {
   it("applies the approved reshuffle and role changes", () => {
     expect(byTeam("Blue Otter")).toEqual(["top:Dcoy", "jungle:Niles", "mid:Retrozing", "bot:Hub", "support:Tubs"]);
     expect(byTeam("Sentinels")).toEqual(["top:Horder", "jungle:Tomio", "mid:shochi", "bot:Spawn", "support:Only35"]);
-    expect(byTeam("Winthrop University")).toEqual(["top:Wilson", "jungle:Kismo", "mid:Bradley", "bot:Cody Sun", "support:Mixture"]);
+    expect(byTeam("Winthrop University")).toEqual(["top:Wilson", "jungle:Kisno", "mid:Bradley", "bot:Cody Sun", "support:Mixtsure"]);
     expect(byTeam("Maryville University")[0]).toBe("top:Will");
     expect(byTeam("University of Mississippi")).toContain("support:Aeon Crystal");
     expect(byTeam("University of Mississippi")).toContain("bot:Sushee");
   });
 
   it("adds only nickname-only identities for players with no record", () => {
-    expect(nacl.addedPlayers.map((player) => player.nickname).sort()).toEqual(["ADJune", "Dcoy", "Kaido", "Kismo", "Mixture", "Phillip"]);
+    expect(nacl.addedPlayers.map((player) => player.nickname).sort()).toEqual(["Dcoy", "Nordik"]);
     for (const player of nacl.addedPlayers) {
       expect(player.reviewStatus).toBe("author-named-identity-only");
       expect(player.legalName).toBeNull();

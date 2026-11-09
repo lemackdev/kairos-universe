@@ -97,9 +97,9 @@
       ]
     },
     {
-      "playerId": "external-lol-player-hatae",
-      "slug": "external-hatae",
-      "nickname": "Hatae",
+      "playerId": "external-lol-player-haetae",
+      "slug": "external-haetae",
+      "nickname": "Haetae",
       "legalName": null,
       "nationality": null,
       "dateOfBirth": null,
@@ -781,8 +781,8 @@
       "starters": [
         {
           "role": "top",
-          "playerId": "external-lol-player-hatae",
-          "nickname": "Hatae"
+          "playerId": "external-lol-player-haetae",
+          "nickname": "Haetae"
         },
         {
           "role": "jungle",

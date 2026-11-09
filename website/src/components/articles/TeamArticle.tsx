@@ -83,11 +83,11 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
       <h3>Active</h3>
-      <TeamRosterTable roster={team.roster} caption={`${team.shortName} active roster`} />
+      <TeamRosterTable roster={team.roster} caption={`${team.shortName} active roster`} showRegion={team.gameName !== "Counter-Strike"} />
       <TeamLineupBanner team={team} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
-      <TeamRosterTable roster={team.formerRoster} caption={`${team.shortName} former players`} empty="No former players recorded." />
+      <TeamRosterTable roster={team.formerRoster} caption={`${team.shortName} former players`} empty="No former players recorded." showRegion={team.gameName !== "Counter-Strike"} />
       {!external && <WikiTable caption="Former staff" columns={["Staff", "Name", "Former role", "Mentored"]}
         empty="No former staff recorded." rows={team.formerStaff.map((person) => ({
           key: person.id, cells: [<ArticleLink key="link" href={`/wiki/staff/${person.slug}`}>{person.name}</ArticleLink>,

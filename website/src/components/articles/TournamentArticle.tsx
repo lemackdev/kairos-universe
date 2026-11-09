@@ -2,8 +2,11 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
 import { SourceList } from "@/components/SourceList";
-import { ArticleInfobox, ArticleLink, ArticleSection, Facts, ParticipantsGrid, WikiArticle, WikiTable } from "./WikiArticle";
+import { ArticleInfobox, ArticleLink, ArticleSection, Facts, WikiArticle, WikiTable } from "./WikiArticle";
+import { CompetitionParticipants, type CompetitionParticipant, type CompetitionRosterPlayer } from "./CompetitionParticipants";
 import { formatDate } from "@/lib/formatting/date";
+import { LeagueResults, type LeagueResultTeam } from "./LeagueResults";
+import type { ScheduleWeek } from "@/lib/leagueSchedule";
 
 const sections = [
   { id: "overview", title: "Overview" },
@@ -21,12 +24,12 @@ const tierLabels: Record<string, string> = {
   "postseason-international": "Postseason International",
 };
 
-export function TournamentArticle({ tournament, regionalField2027, fieldCaption = "Participants (2027)", logo }: { tournament: CompetitionView; regionalField2027?: Array<{ name: string; href: string | null; logo?: ReactNode }>; fieldCaption?: string; logo?: ReactNode }) {
+export function TournamentArticle({ tournament, regionalField2027, participantRosters, fieldCaption = "Participants (2027)", logo, leagueResults }: { leagueResults?: { teams: LeagueResultTeam[]; weeks: ScheduleWeek[] }; tournament: CompetitionView; regionalField2027?: CompetitionParticipant[]; participantRosters?: Record<string, CompetitionRosterPlayer[]>; fieldCaption?: string; logo?: ReactNode }) {
   const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
     { label: "Game", value: tournament.gameName },
     { label: "Organizer", value: tournament.organizerName ?? tournament.organizer },
-    { label: "Series", value: tournament.seriesName },
+    ...(tournament.seriesName ? [{ label: "Series", value: tournament.seriesName }] : []),
     { label: "Tier", value: tierLabel },
     { label: "Region", value: tournament.region },
     { label: "Location", value: tournament.location }, { label: "LAN / Online", value: tournament.eventType },
@@ -51,14 +54,13 @@ export function TournamentArticle({ tournament, regionalField2027, fieldCaption 
         rows={tournament.prizes.map((prize, index) => ({ key: String(index), cells: [prize.place, prize.prize, prize.teamName] }))} />
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
-      {regionalField2027 ? <>
-        <ParticipantsGrid caption={fieldCaption} empty="No active teams recorded."
-          columns={4}
-          teams={regionalField2027.map((team, index) => ({ key: String(index), name: team.name, href: team.href, logo: team.logo }))} />
-      </> : <ParticipantsGrid caption="Participants" empty="No confirmed participants recorded."
-        teams={tournament.participants.map((team) => ({ key: team.id, name: team.name, href: `/wiki/teams/${team.slug}` }))} />}
+      <CompetitionParticipants caption={regionalField2027 ? fieldCaption : "Participants"} empty={regionalField2027 ? "No active teams recorded." : "No confirmed participants recorded."}
+        teams={regionalField2027 ?? tournament.participants.map((team) => ({
+          key: team.id, name: team.name, href: `/wiki/teams/${team.slug}`, roster: participantRosters?.[team.id] ?? [],
+        }))} />
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
+      {leagueResults && <LeagueResults teams={leagueResults.teams} weeks={leagueResults.weeks} />}
       <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."
         rows={tournament.results.map((result) => ({ key: result.id, cells: [result.place,
           <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>, formatDate(result.date)] }))} />

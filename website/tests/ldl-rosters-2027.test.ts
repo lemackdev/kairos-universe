@@ -22,8 +22,8 @@ describe("LDL 2027 rosters", () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it("retires fourteen surplus players and keeps them out of every lineup", () => {
-    expect(ldl.retirements).toHaveLength(14);
+  it("retires thirteen surplus players and keeps them out of every lineup", () => {
+    expect(ldl.retirements).toHaveLength(13);
     const startIds = new Set(starters.map((starter) => starter.playerId));
     for (const entry of ldl.retirements) expect(startIds.has(entry.playerId)).toBe(false);
   });
@@ -33,7 +33,7 @@ describe("LDL 2027 rosters", () => {
     expect(freeAgents.has("external-lol-player-heru")).toBe(false);
     expect(freeAgents.has("external-lol-player-tyrion")).toBe(false);
     expect(ldl.departures.map((entry) => entry.nickname).sort()).toEqual(["Heru", "Starry", "Tyrion", "re0"]);
-    expect(ldl.addedPlayers).toHaveLength(50);
+    expect(ldl.addedPlayers).toHaveLength(49);
     for (const player of ldl.addedPlayers) {
       expect(player.reviewStatus).toBe("author-named-identity-only");
       expect(player.legalName).toBeNull();

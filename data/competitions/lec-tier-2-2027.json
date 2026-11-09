@@ -11,10 +11,15 @@
     "source-canon-directive-2027-league-tier-2-ecosystems"
   ],
   "canonStatus": "confirmed",
-  "overview": "EMEA Masters is the confirmed 2027 Europe / EMEA Tier 2 League of Legends ecosystem, separate from its Tier 1 league. 8 active teams for 2027 (see /wiki/world). No standings, results, or promotion/relegation outcomes are confirmed; no team receives automatic international qualification.",
-  "format": [],
+  "overview": "EMEA Masters is the eight-team Tier 2 competition for Europe's League of Legends ecosystem, held in Cologne. Teams face each other once in best-of-three matches during the single round robin, and the top six advance to playoffs.",
+  "format": [
+    "8 teams participate",
+    "Single Round Robin",
+    "All matches are best of three",
+    "Top six teams advance to Playoffs"
+  ],
   "organizer": null,
-  "location": null,
+  "location": "Cologne, Germany",
   "startDate": "2027-02-15",
   "endDate": "2027-09-18",
   "prizePool": "USD 350,000",
@@ -25,7 +30,7 @@
   "tier": "regional-tier-2",
   "region": "europe",
   "teamsCount": 8,
-  "eventType": "hybrid",
+  "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": "lec-2027",

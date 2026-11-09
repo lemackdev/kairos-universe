@@ -6,7 +6,7 @@ import { getCatalog } from "@/lib/canon/server";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { sceneTeamOrganizationLite, sceneTeamToTeamView, tier2TeamToTeamView } from "@/lib/external/teamView";
 import { tier2LogoOrgSlug } from "@/lib/tier2Logos";
-import { csExternalTeams, findRegionalStatus, findTier2Team, listAllTier2Teams, nationalitiesOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
+import { csExternalTeams, csOrganizationSlugOf, findRegionalStatus, findTier2Team, legalNameOf, listAllTier2Teams, nationalitiesOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
 import { formatDate } from "@/lib/formatting/date";
 import type { RosterEntryView } from "@/types/catalog";
 
@@ -23,7 +23,10 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
   const team = catalog.teams.find((entry) => entry.slug === slug);
   const reference = catalog.externalScene?.teams.find((entry) => entry.slug === slug);
   const csTeam = !team && !reference ? csExternalTeams(catalog.worldState2027).find((entry) => entry.slug === slug) : undefined;
-  if (csTeam && catalog.worldState2027) return <CsTeamArticle team={csTeam} worldState={catalog.worldState2027} />;
+  if (csTeam && catalog.worldState2027) {
+    const logoPath = externalLogoPath(csOrganizationSlugOf(catalog.worldState2027, csTeam));
+    return <CsTeamArticle team={csTeam} worldState={catalog.worldState2027} logo={logoPath ? <img src={logoPath} alt={`${csTeam.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} /> : undefined} />;
+  }
   const tier2Team = !team && !reference ? findTier2Team(catalog.worldState2027, slug) : null;
   if (tier2Team) {
     const parent = tier2Team.parentTeamId ? catalog.externalScene?.teams.find((entry) => entry.id === tier2Team.parentTeamId) : undefined;
@@ -36,7 +39,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
       const nationalities = nationalitiesOf(catalog.worldState2027, starter.playerId, tier2Team.ecosystem, added?.nationality);
       return [{
         nationality: nationalities[0] ?? null, nationalities, regionCode: regionCodeOfLeague(catalog.worldState2027, tier2Team.ecosystem), tenureId: `${tier2Team.teamId}-${starter.playerId}-2027`, playerId: starter.playerId, slug,
-        realName: added?.legalName ?? "TBD", nickname: starter.nickname, role: starter.role, rosterStatus: "active", isCaptain: false, isStarter: true,
+        realName: legalNameOf(catalog.worldState2027, starter.playerId, added?.legalName) ?? "TBD", nickname: starter.nickname, role: starter.role, rosterStatus: "active", isCaptain: false, isStarter: true,
         joinedDate: null, leftDate: null, contractEndDate: null, teamId: tier2Team.teamId, teamName: tier2Team.name, teamSlug: tier2Team.teamId,
       }];
     });

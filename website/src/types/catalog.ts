@@ -74,6 +74,8 @@ export interface RosterEntryView {
   nationality?: string | null;
   nationalities?: string[];
   regionCode?: string | null;
+  href?: string;
+  note?: string;
   tenureId: string;
   playerId: string;
   slug: string;

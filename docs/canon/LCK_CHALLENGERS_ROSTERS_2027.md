@@ -22,7 +22,7 @@ HANJIN BRION Challengers), are retired: Ripple (top), DDahyuk (top), Courage (ju
 
 ### Dplus Kia Challengers
 
-- top: Hatae
+- top: Haetae
 - jungle: Grizzly
 - mid: Flip
 - bot: Pyeonsik

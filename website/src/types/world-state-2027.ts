@@ -331,6 +331,24 @@ export interface PlayerNationalities2027 {
   notes: string[];
 }
 
+export interface PlayerLegalNames2027 {
+  continuityId: "kairos-universe";
+  originType: string;
+  canonStatus: string;
+  sourceIds: string[];
+  players: Record<string, { nickname: string; legalName: string; basis: string }>;
+  notes: string[];
+}
+
+export interface CsPlayerRoles2027 {
+  continuityId: "kairos-universe";
+  originType: string;
+  canonStatus: string;
+  sourceIds: string[];
+  players: Record<string, { nickname: string; role: string; basis: string }>;
+  notes: string[];
+}
+
 export interface WorldState2027 {
   eventInvites: EventInvites2027[];
   lcsRosters: LcsRosters2027;
@@ -345,6 +363,8 @@ export interface WorldState2027 {
   lcpChallengersRosters: LcsRosters2027;
   circuitoDesafianteRosters: LcsRosters2027;
   playerNationalities: PlayerNationalities2027;
+  playerLegalNames: PlayerLegalNames2027;
+  csPlayerRoles: CsPlayerRoles2027;
   cblolRosters: LcsRosters2027;
   csRosterFreeze: CounterStrikeRosterFreeze2027;
   csExternalRosters: CsExternalRosters2027;

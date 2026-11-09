@@ -12,17 +12,15 @@
     "source-canon-directive-2027-league-import-ban-and-calendar-revision"
   ],
   "canonStatus": "confirmed",
-  "overview": "LEC's confirmed 2027 annual regional competition, run across Stage 1, Stage 2, Stage 3 (separated by the global July competitive break), and a Championship Stage. No team placements or champions are confirmed. The LEC regional field is standardized to 8 teams for 2027; participating franchises are tracked in the pre-Worlds 2026 reference scene by 2027 regional membership, separate from Kairos's own canon team roster.",
+  "overview": "Eight teams meet in Cologne for the 2027 LEC season, EMEA's top-level League of Legends competition. The season's single round robin is played entirely in best-of-three series, with the top six teams qualifying for playoffs.",
   "format": [
-    "Stage 1: 15/02/2027 to 14/03/2027 (revised on 27/01/2027 from 01/02/2027; the end date is unchanged).",
-    "Emergency roster registration deadline: 12/02/2027.",
-    "Stage 2: 05/04/2027 to 16/05/2027.",
-    "Stage 3: 07/06/2027 to 27/06/2027.",
-    "Global competitive break: July 2027 (no matches).",
-    "Championship Stage: 21/08/2027 to 19/09/2027."
+    "8 teams participate",
+    "Single Round Robin",
+    "All matches are best of three",
+    "Top six teams advance to Playoffs"
   ],
   "organizer": null,
-  "location": null,
+  "location": "Cologne, Germany",
   "startDate": "2027-02-15",
   "endDate": "2027-09-19",
   "prizePool": "USD 1,000,000",
@@ -35,7 +33,7 @@
   "tier": "regional-tier-1",
   "region": "europe",
   "teamsCount": 8,
-  "eventType": "hybrid",
+  "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": null,

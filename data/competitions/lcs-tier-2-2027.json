@@ -12,10 +12,15 @@
     "source-canon-directive-2027-nacl-ldl-tier-2-formalization"
   ],
   "canonStatus": "confirmed",
-  "overview": "North American Challengers League 2027, LCS's confirmed Tier 2 regional ecosystem. Kairos Academy Blue is the organization's official active NACL Tier 2 representative, distinct from Kairos Gaming (LCS Main) and Kairos Academy White (developmental, non-NACL); no automatic promotion exists between them. Kairos Academy Blue may qualify internationally without automatic promotion to the LCS Main roster. The NACL regional field is standardized to 8 active teams for 2027; most participating franchises are tracked in the pre-Worlds 2026 reference scene by 2027 regional membership, separate from Kairos's own canon team roster.",
-  "format": [],
+  "overview": "NACL 2027 is an eight-team League of Legends competition in Los Angeles and the Tier 2 counterpart to the LCS. Teams play a best-of-three single round robin, with the six highest finishers moving on to playoffs.",
+  "format": [
+    "8 teams participate",
+    "Single Round Robin",
+    "All matches are best of three",
+    "Top six teams advance to Playoffs"
+  ],
   "organizer": null,
-  "location": null,
+  "location": "Los Angeles, California, USA",
   "startDate": "2027-02-15",
   "endDate": "2027-09-18",
   "prizePool": "USD 350,000",
@@ -26,7 +31,7 @@
   "tier": "regional-tier-2",
   "region": "north-america",
   "teamsCount": 8,
-  "eventType": "hybrid",
+  "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": "lcs-2027",

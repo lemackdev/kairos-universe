@@ -11,10 +11,15 @@
     "source-canon-directive-2027-nacl-ldl-tier-2-formalization"
   ],
   "canonStatus": "confirmed",
-  "overview": "League of Legends Development League 2027, LPL's confirmed Tier 2 regional ecosystem. Its 8 confirmed teams are each distinct competitive entities from their LPL Tier 1 parent organizations, even where a parent/affiliate relationship is recorded; three (EDG Youth Team, LGD Young Team, WE Academy) remain active despite their parent organizations' exit from active 2027 LPL Tier 1 competition. No automatic Tier 1 promotion or automatic international qualification exists for any LDL team.",
-  "format": [],
+  "overview": "The 2027 LDL is China's eight-team Tier 2 League of Legends competition, played in Shanghai. Its single round robin features best-of-three series, with the top six teams earning places in playoffs.",
+  "format": [
+    "8 teams participate",
+    "Single Round Robin",
+    "All matches are best of three",
+    "Top six teams advance to Playoffs"
+  ],
   "organizer": null,
-  "location": null,
+  "location": "Shanghai, China",
   "startDate": "2027-02-15",
   "endDate": "2027-09-18",
   "prizePool": "USD 500,000",
@@ -25,7 +30,7 @@
   "tier": "regional-tier-2",
   "region": "international",
   "teamsCount": 8,
-  "eventType": "hybrid",
+  "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": "lpl-2027",

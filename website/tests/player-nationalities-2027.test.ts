@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { loadExternalScene } from "@/lib/external/scene";
-import { nationalitiesOf, regionCodeOfLeague, rosterSets, loadWorldState2027 } from "@/lib/external/worldState2027";
+import { csRoleOf, legalNameOf, nationalitiesOf, regionCodeOfLeague, rosterSets, loadWorldState2027 } from "@/lib/external/worldState2027";
 import { sceneTeamToTeamView } from "@/lib/external/teamView";
 
 const worldState = loadWorldState2027();
@@ -40,5 +40,24 @@ describe("roster table regions and nationalities", () => {
       expect(entry.regionCode).toBe("KR");
       expect(entry.nationalities).toEqual(["South Korea"]);
     }
+  });
+});
+
+describe("Leaguepedia legal names", () => {
+  it("fills legal names for resolved nickname-only players and skips unresolved ones", () => {
+    expect(legalNameOf(worldState, "external-lol-player-guli")).toBe("Igor Oblizajek");
+    expect(legalNameOf(worldState, "external-lol-player-garden")).toBe("Seo Jeong-won");
+    expect(legalNameOf(worldState, "external-lol-player-popp")).toBe("Phạm Hoàng Phúc");
+    expect(legalNameOf(worldState, "external-lol-player-pun-nacl")).toBeNull();
+    expect(nationalitiesOf(worldState, "external-lol-player-guli", "EMEA Masters")).toEqual(["Poland"]);
+  });
+});
+
+describe("CS player roles", () => {
+  it("assigns AWPer, IGL and Rifler from HLTV role icons", () => {
+    expect(csRoleOf(worldState, "external-cs-player-zywoo")).toBe("AWPer");
+    expect(csRoleOf(worldState, "external-cs-player-apex")).toBe("IGL / Rifler");
+    expect(csRoleOf(worldState, "external-cs-player-donk")).toBe("Rifler");
+    expect(csRoleOf(worldState, "external-cs-player-jame")).toBe("IGL / AWPer");
   });
 });

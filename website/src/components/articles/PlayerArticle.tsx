@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { PlayerPortrait } from "@/components/PlayerPortrait";
+import { CsRoleIcons } from "@/components/CsRoleIcons";
+import { RoleIcon } from "@/components/RoleIcon";
 import { NationalityFlags } from "@/components/NationalityFlags";
 import { ChampionFavoritesRow } from "@/components/FavoritesRow";
 import type { PlayerView, TeamView } from "@/types/catalog";
@@ -31,7 +33,7 @@ export function PlayerArticle({ player, team, narrativeDate }: { player: PlayerV
   const competitive = [
     { label: "Game", value: player.gameName },
     { label: "Team", value: team ? <Link href={`/wiki/teams/${team.slug}`}>{team.shortName}</Link> : "TBD" },
-    { label: "Role", value: player.role },
+    { label: "Role", value: <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><CsRoleIcons role={player.gameName === "Counter-Strike 2" ? player.role : null} /><RoleIcon role={player.gameName === "League of Legends" ? player.role : ""} />{player.role}</span> },
     ...(player.favoriteChampions.length ? [{ label: "Favorite Champs", value: <ChampionFavoritesRow champions={player.favoriteChampions} /> }] : []),
     ...(player.favoriteMap ? [{ label: "Favorite Map", value: player.favoriteMap }] : []),
     ...(player.favoriteWeapon ? [{ label: "One Weapon Forever", value: player.favoriteWeapon }] : []),

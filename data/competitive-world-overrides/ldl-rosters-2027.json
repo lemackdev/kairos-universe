@@ -794,23 +794,6 @@
       ]
     },
     {
-      "playerId": "external-lol-player-jiahao",
-      "slug": "external-jiahao",
-      "nickname": "JiaHao",
-      "legalName": null,
-      "nationality": null,
-      "dateOfBirth": null,
-      "primaryRole": "bot",
-      "originType": "real-world-reference",
-      "reviewStatus": "author-named-identity-only",
-      "sources": [],
-      "history": [],
-      "notes": [
-        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
-        "Added as a 2027 overlay identity with the nickname only."
-      ]
-    },
-    {
       "playerId": "external-lol-player-keb",
       "slug": "external-keb",
       "nickname": "Keb",
@@ -1212,15 +1195,6 @@
       "nickname": "fishone",
       "previousTeamId": null,
       "previousTeamName": "LNG Academy",
-      "previousRole": "bot",
-      "status": "retired",
-      "note": "Previous organization is the author's roster-group reference; no source record exists to verify it."
-    },
-    {
-      "playerId": "external-lol-player-jiahao",
-      "nickname": "JiaHao",
-      "previousTeamId": null,
-      "previousTeamName": "AL.Young",
       "previousRole": "bot",
       "status": "retired",
       "note": "Previous organization is the author's roster-group reference; no source record exists to verify it."

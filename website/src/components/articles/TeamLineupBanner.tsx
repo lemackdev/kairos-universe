@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { readPublishedTeamLineups } from "../../../../shared/branding";
 import type { TeamView } from "@/types/catalog";
+import { CsRoleIcons } from "@/components/CsRoleIcons";
 import styles from "./TeamLineupBanner.module.css";
 
 export function TeamLineupBanner({ team }: { team: TeamView }) {
@@ -26,7 +27,7 @@ export function TeamLineupBanner({ team }: { team: TeamView }) {
         <figcaption className={styles.players}>
           {players.map(player => player && <div className={styles.player} key={player.playerId}>
             <Link href={`/wiki/players/${player.slug}`}>{player.nickname}</Link>
-            {player.role !== "TBD" && <span>{player.role}</span>}
+            {player.role !== "TBD" && <span>{team.gameName === "Counter-Strike 2" && <CsRoleIcons role={player.role} />}{player.role}</span>}
           </div>)}
         </figcaption>
       </div>

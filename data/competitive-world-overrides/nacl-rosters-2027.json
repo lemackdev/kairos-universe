@@ -29,81 +29,13 @@
       ]
     },
     {
-      "playerId": "external-lol-player-phillip",
-      "slug": "external-phillip",
-      "nickname": "Phillip",
-      "legalName": null,
-      "nationality": null,
-      "dateOfBirth": null,
-      "primaryRole": "top",
-      "originType": "real-world-reference",
-      "reviewStatus": "author-named-identity-only",
-      "sources": [],
-      "history": [],
-      "notes": [
-        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
-        "Added as a 2027 overlay identity with the nickname only."
-      ]
-    },
-    {
-      "playerId": "external-lol-player-kaido",
-      "slug": "external-kaido",
-      "nickname": "Kaido",
+      "playerId": "external-lol-player-nordik",
+      "slug": "external-nordik",
+      "nickname": "Nordik",
       "legalName": null,
       "nationality": null,
       "dateOfBirth": null,
       "primaryRole": "jungle",
-      "originType": "real-world-reference",
-      "reviewStatus": "author-named-identity-only",
-      "sources": [],
-      "history": [],
-      "notes": [
-        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
-        "Added as a 2027 overlay identity with the nickname only."
-      ]
-    },
-    {
-      "playerId": "external-lol-player-adjune",
-      "slug": "external-adjune",
-      "nickname": "ADJune",
-      "legalName": null,
-      "nationality": null,
-      "dateOfBirth": null,
-      "primaryRole": "mid",
-      "originType": "real-world-reference",
-      "reviewStatus": "author-named-identity-only",
-      "sources": [],
-      "history": [],
-      "notes": [
-        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
-        "Added as a 2027 overlay identity with the nickname only."
-      ]
-    },
-    {
-      "playerId": "external-lol-player-kismo",
-      "slug": "external-kismo",
-      "nickname": "Kismo",
-      "legalName": null,
-      "nationality": null,
-      "dateOfBirth": null,
-      "primaryRole": "jungle",
-      "originType": "real-world-reference",
-      "reviewStatus": "author-named-identity-only",
-      "sources": [],
-      "history": [],
-      "notes": [
-        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
-        "Added as a 2027 overlay identity with the nickname only."
-      ]
-    },
-    {
-      "playerId": "external-lol-player-mixture",
-      "slug": "external-mixture",
-      "nickname": "Mixture",
-      "legalName": null,
-      "nationality": null,
-      "dateOfBirth": null,
-      "primaryRole": "support",
       "originType": "real-world-reference",
       "reviewStatus": "author-named-identity-only",
       "sources": [],
@@ -190,13 +122,13 @@
       "starters": [
         {
           "role": "top",
-          "playerId": "external-lol-player-phillip",
-          "nickname": "Phillip"
+          "playerId": "external-lol-player-philip",
+          "nickname": "Philip"
         },
         {
           "role": "jungle",
-          "playerId": "external-lol-player-kaido",
-          "nickname": "Kaido"
+          "playerId": "external-lol-player-nordik",
+          "nickname": "Nordik"
         },
         {
           "role": "mid",
@@ -280,8 +212,8 @@
         },
         {
           "role": "mid",
-          "playerId": "external-lol-player-adjune",
-          "nickname": "ADJune"
+          "playerId": "external-lol-player-aojune",
+          "nickname": "AoJune"
         },
         {
           "role": "bot",
@@ -416,8 +348,8 @@
         },
         {
           "role": "jungle",
-          "playerId": "external-lol-player-kismo",
-          "nickname": "Kismo"
+          "playerId": "external-lol-player-kisno",
+          "nickname": "Kisno"
         },
         {
           "role": "mid",
@@ -437,8 +369,8 @@
         },
         {
           "role": "support",
-          "playerId": "external-lol-player-mixture",
-          "nickname": "Mixture"
+          "playerId": "external-lol-player-mixtsure",
+          "nickname": "Mixtsure"
         }
       ]
     }

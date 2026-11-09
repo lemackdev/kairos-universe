@@ -150,7 +150,7 @@ describe("LCK and LCP cross-database rules", () => {
       expect(set.confirmedBy).toBeNull();
       expect(JSON.stringify({ ...set, disclaimer: undefined })).not.toMatch(/\bplacements?\b|\bstandings?\b|\bsalary\b|\boverall\b|\bpotential\b/i);
     }
-    for (const nick of ["Quantum", "Painter", "Slayer", "Pleata", "Popp", "Yuhe", "Hitzo"]) {
+    for (const nick of ["Quantum", "Painter", "Slayer", "Pleata", "Popp", "Yuhe"]) {
       const added = all.flatMap((set) => set.addedPlayers).find((entry) => entry.nickname === nick)!;
       expect(added.legalName).toBeNull();
       expect(added.nationality).toBeNull();

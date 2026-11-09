@@ -143,7 +143,7 @@ Author roster-group labels that disagree with the 2026 scene (scene used): Diabl
 | SoftBank HAWKS gaming | ADC | Marble | `external-lol-player-marble` | SoftBank HAWKS gaming | EXISTING, stays |
 | SoftBank HAWKS gaming | SUPPORT | Cryogen | `external-lol-player-cryogen` | FlyQuest | EXISTING, transferred |
 | Secret Whales | TOP | Pun | `external-lol-player-pun` | Secret Whales | EXISTING, stays |
-| Secret Whales | JUNGLE | Hitzo | `external-lol-player-hitzo` | none established | NEW, author-named, nickname only |
+| Secret Whales | JUNGLE | Hizto | `external-lol-player-hizto` | existing 2026 scene player (spelled Hitzo in the first draft) | EXISTING |
 | Secret Whales | MID | aadam | `external-lol-player-aadam` | Dorado Gaming | EXISTING, transferred |
 | Secret Whales | ADC | Eddie | `external-lol-player-eddie` | Secret Whales | EXISTING, stays |
 | Secret Whales | SUPPORT | Bie | `external-lol-player-bie` | Secret Whales | EXISTING, stays |
@@ -168,7 +168,7 @@ Author roster-group labels that disagree with the 2026 scene (scene used): Diabl
 - Modified: `lcs-rosters-2027.json` (Loki retirement and departure removed), `lec-rosters-2027.json` (kyeahoo and Poby market entries and departures removed), `lpl-rosters-2027.json` (TheShy, BuLLDoG, Kael and JunJia market entries and departures removed), `free-agents-2027.json` (12 superseded records removed), `index/sources.json`, `kairos-version.json`, `CHANGELOG.md`, `LCS_ROSTERS_2027.md`, the world-state types and loader, `build-canon.ts`, `ExternalArticles.tsx`, and the tests that assumed the old Loki or market statuses (`lcs-`, `lec-`, `lpl-cblol-` and `world-state-2027.test.ts`).
 - Identities and organizations: all 16 League teams and organizations were reused; 0 created. 12 overlay identities were created (listed in the changelog). Retirements use existing scene identities except Bluffing, Enosh, DDoiV, Slayer and Pleata.
 - Historical records: no `external-data/` file changed; 2026 tenures are only superseded by departure records.
-- Genuine ambiguities: Chain1, Leaky, Bluffing, Enosh and DDoiV are probable Leaguepedia matches (nickname and role) and are marked for review. Leaky is listed as a head coach at CTBC Flying Oyster Academy. Painter, Quantum, Popp, Yuhe, Hitzo, Slayer and Pleata have no source record. DDoiV's previous team is unresolved (author and Leaguepedia disagree). Shad0w has no Leaguepedia record, so his regional eligibility could not be verified. Fudge and Isles are Australian per Leaguepedia; no eligibility change was made.
+- Genuine ambiguities: Chain1, Leaky, Bluffing, Enosh and DDoiV are probable Leaguepedia matches (nickname and role) and are marked for review. Leaky is listed as a head coach at CTBC Flying Oyster Academy. Painter, Quantum, Popp, Yuhe, Slayer and Pleata have no source record. DDoiV's previous team is unresolved (author and Leaguepedia disagree). Shad0w has no Leaguepedia record, so his regional eligibility could not be verified. Fudge and Isles are Australian per Leaguepedia; no eligibility change was made.
 - Not changed: LCS, LEC, LPL and CBLOL starting lineups, Kairos teams, Counter-Strike, the competitive calendar and regional membership.
 
 ## F. Validation

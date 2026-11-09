@@ -1,0 +1,16 @@
+{
+  "id": "source-canon-directive-2027-player-nationalities",
+  "slug": "source-canon-directive-2027-player-nationalities",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Author directive: roster table regions and nationalities",
+  "path": "docs/canon/PLAYER_NATIONALITIES_2027.md",
+  "locator": "Author-confirmed canon directive, roster table Region and NAT columns",
+  "publicLabel": "Kairos Universe canon directive: roster table regions and nationalities",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Direct author-confirmed canon directive, not sourced from episode prose.",
+    "Sets the Region code of every league's roster table (KR, CH, SA, PCS, EU, NA) and the real-world nationality shown as a flag in the NAT column."
+  ]
+}

@@ -1,12 +1,14 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { CsTeamArticle, Tier2TeamArticle } from "@/components/articles/ExternalArticles";
+import { CsTeamArticle } from "@/components/articles/ExternalArticles";
 import { TeamArticle } from "@/components/articles/TeamArticle";
 import { getCatalog } from "@/lib/canon/server";
 import { externalLogoPath } from "@/lib/externalLogos";
-import { sceneTeamOrganizationLite, sceneTeamToTeamView } from "@/lib/external/teamView";
-import { csExternalTeams, findRegionalStatus, findTier2Team, listAllTier2Teams, rosterSets } from "@/lib/external/worldState2027";
+import { sceneTeamOrganizationLite, sceneTeamToTeamView, tier2TeamToTeamView } from "@/lib/external/teamView";
+import { tier2LogoOrgSlug } from "@/lib/tier2Logos";
+import { csExternalTeams, findRegionalStatus, findTier2Team, listAllTier2Teams, nationalitiesOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
 import { formatDate } from "@/lib/formatting/date";
+import type { RosterEntryView } from "@/types/catalog";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
@@ -26,9 +28,27 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
   if (tier2Team) {
     const parent = tier2Team.parentTeamId ? catalog.externalScene?.teams.find((entry) => entry.id === tier2Team.parentTeamId) : undefined;
     const lineup = rosterSets(catalog.worldState2027).flatMap((set) => set.teams).find((entry) => entry.teamId === tier2Team.teamId);
-    const addedSlugs = new Map(rosterSets(catalog.worldState2027).flatMap((set) => set.addedPlayers).map((player) => [player.playerId, player.slug]));
-    const roster = lineup?.starters.map((starter) => ({ role: starter.role, nickname: starter.nickname, slug: addedSlugs.get(starter.playerId) ?? catalog.externalScene?.players.find((player) => player.id === starter.playerId)?.slug ?? "" })).filter((entry) => entry.slug);
-    return <Tier2TeamArticle team={tier2Team} parent={parent ? { name: parent.name, slug: parent.slug } : undefined} roster={roster} />;
+    const addedPlayers = new Map(rosterSets(catalog.worldState2027).flatMap((set) => set.addedPlayers).map((player) => [player.playerId, player]));
+    const roster: RosterEntryView[] | undefined = lineup?.starters.flatMap((starter) => {
+      const added = addedPlayers.get(starter.playerId);
+      const slug = added?.slug ?? catalog.externalScene?.players.find((player) => player.id === starter.playerId)?.slug;
+      if (!slug) return [];
+      const nationalities = nationalitiesOf(catalog.worldState2027, starter.playerId, tier2Team.ecosystem, added?.nationality);
+      return [{
+        nationality: nationalities[0] ?? null, nationalities, regionCode: regionCodeOfLeague(catalog.worldState2027, tier2Team.ecosystem), tenureId: `${tier2Team.teamId}-${starter.playerId}-2027`, playerId: starter.playerId, slug,
+        realName: added?.legalName ?? "TBD", nickname: starter.nickname, role: starter.role, rosterStatus: "active", isCaptain: false, isStarter: true,
+        joinedDate: null, leftDate: null, contractEndDate: null, teamId: tier2Team.teamId, teamName: tier2Team.name, teamSlug: tier2Team.teamId,
+      }];
+    });
+    const scene = catalog.externalScene;
+    const logoSlug = tier2LogoOrgSlug(scene, tier2Team);
+    const logoPath = logoSlug ? externalLogoPath(logoSlug) : null;
+    return <TeamArticle external
+      team={tier2TeamToTeamView(tier2Team, roster ?? [], parent?.organizationId ?? "")}
+      organization={parent && scene ? sceneTeamOrganizationLite(parent, scene) : undefined}
+      logo={logoPath ? <img src={logoPath} alt={`${tier2Team.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} /> : undefined}
+      overview={<p><strong>{tier2Team.name}</strong> competes in the {tier2Team.ecosystem} for the 2027 season, a Tier 2 regional ecosystem with eight confirmed participants. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately. </> : null}<Link href="/wiki/world">Scope and source limitations</Link>.</p>}
+    />;
   }
   if (!team && reference && catalog.externalScene) {
     const scene = catalog.externalScene;
@@ -41,7 +61,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
     const vacancies2027 = sets2027.flatMap((set) => set.vacancies).filter((entry) => entry.teamId === reference.id);
     const pending2027 = sets2027.flatMap((set) => set.pendingIdentities ?? []).filter((entry) => entry.teamId === reference.id);
     return <TeamArticle external
-      team={sceneTeamToTeamView(reference, scene, sets2027)}
+      team={sceneTeamToTeamView(reference, scene, sets2027, catalog.worldState2027)}
       organization={sceneTeamOrganizationLite(reference, scene)}
       logo={logoPath && <img src={logoPath} alt={`${reference.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />}
       overview={has2027Lineup
@@ -52,8 +72,6 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
           ? [{ label: "2027 vacant positions", value: vacancies2027.map((entry) => entry.role).join(", ") + " (replacements not yet confirmed)" }] : []),
         ...(pending2027.length
           ? [{ label: "2027 pending identities", value: pending2027.map((entry) => `${entry.role}: ${entry.nickname}`).join(", ") + " (profile awaiting author approval)" }] : []),
-        ...(lineupSet ? [{ label: "2027 starting lineup", value: lineupSet.confirmedBy ? `Confirmed ${formatDate(lineupSet.confirmedBy)}` : "Confirmed (January 2027, exact date not established)" }] : []),
-        { label: "2027 competitive status", value: regionalStatus.active ? `Active ${regionalStatus.league} 2027 participant` : "Inactive / not participating" },
         ...(regionalStatus.active ? [] : [
           { label: "Last active Tier 1 season", value: "2026" },
           { label: "Effective exit date", value: formatDate(regionalStatus.effectiveExitDate ?? null) },

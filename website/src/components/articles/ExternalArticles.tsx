@@ -3,10 +3,12 @@ import { ArticleInfobox, ArticleSection, WikiArticle, WikiTable } from "./WikiAr
 import { RealWorldTeamsTable } from "./RealWorldTeamsTable";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { ExternalRosterTable } from "@/components/ExternalRosterTable";
+import { TeamRosterTable } from "@/components/TeamRosterTable";
+import type { RosterEntryView } from "@/types/catalog";
 import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 import type { AddedPlayer2027, CsOrganization2027, CsPlayer2027, CsTeam2027, WorldState2027 } from "@/types/world-state-2027";
-import { csTeamsOfOrganization, findCsAssignment, findFreeAgent, findLcsAssignment, findMarketAvailability, findRetirement, rosterSets, type Tier2TeamLookup } from "@/lib/external/worldState2027";
+import { csTeamsOfOrganization, findCsAssignment, findFreeAgent, findLcsAssignment, findMarketAvailability, findRetirement, listAllTier2Teams, nationalitiesOf, rosterSets, type Tier2TeamLookup } from "@/lib/external/worldState2027";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 
@@ -52,14 +54,14 @@ export function ExternalPlayerArticle({ player, scene, worldState }: { player: S
   const market = findMarketAvailability(worldState, player.id);
   const supersededTenures = rosterSets(worldState).flatMap((set) => set.departures).filter((entry) => entry.playerId === player.id);
   const previousTeam = freeAgent ? scene.teams.find((t) => t.id === freeAgent.previousTeamId) : null;
+  const league = assignment?.league ?? scene.teams.find((t) => t.id === tenures[tenures.length - 1]?.teamId)?.league ?? "";
+  const nationalities = nationalitiesOf(worldState, player.id, league);
   return <WikiArticle title={player.nickname} kind="Players" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.slice(0, 2)} groups={[
     { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Legal name", value: "Unknown" },
-      { label: "Nationality", value: "Unknown" }, { label: "Date of birth", value: "Unknown" }, { label: "Current contract", value: "Unknown" }] },
+      { label: "Nationality", value: nationalities.length ? nationalities.join(", ") : "Unknown" }] },
     ...(assignment ? [{ title: "Kairos Universe 2027", rows: [
-      { label: "2027 status", value: "Starter" },
       { label: "Team", value: <Link href={`/wiki/teams/${assignment.team.teamId.replace(/^external-lol-team-/, "external-")}`}>{assignment.team.name}</Link> },
       { label: "Role", value: roleLabels[assignment.starter.role] },
-      { label: "Lineup confirmed", value: assignment.rosters.confirmedBy ? formatDate(assignment.rosters.confirmedBy) : (assignment.rosters.displayPeriod ?? "January 2027 (exact date not established)") },
     ] }] : []),
     ...(retirement ? [{ title: "Kairos Universe 2027", rows: [
       { label: "2027 status", value: "Retired" },
@@ -105,12 +107,14 @@ export function ExternalOrganizationArticle({ organization, scene, worldState }:
   ];
   const teams = scene.teams.filter((team) => organization.teamIds.includes(team.id));
   const csTeams = csTeamsOfOrganization(worldState, organization.id);
+  const academyTeams = listAllTier2Teams(worldState).filter((entry) => entry.parentTeamId && organization.teamIds.includes(entry.parentTeamId));
   return <WikiArticle title={organization.name} kind="Organizations" game="Real-world reference" sections={sections}
     infobox={<ArticleInfobox title={organization.name} monogram={organization.name.slice(0, 2)}
       image={logo && <img src={logo} alt={`${organization.name} logo`} style={{ maxWidth: "100%", maxHeight: "150px", objectFit: "contain" }} />}
       groups={[{ title: "Organization Information", rows: [
         { label: "Origin", value: "Real-world reference" },
         { label: "Published teams", value: teams.length + csTeams.length },
+        ...(academyTeams.length ? [{ label: "Academy teams", value: academyTeams.length }] : []),
         { label: "Game divisions", value: ["League of Legends", ...(csTeams.length ? ["Counter-Strike 2"] : [])].join(", ") },
         { label: "Ownership", value: "Unknown" },
       ] }]} />}>
@@ -126,13 +130,15 @@ export function ExternalOrganizationArticle({ organization, scene, worldState }:
           <Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, "League of Legends", team.league,
         ] })), ...csTeams.map((team) => ({ key: team.teamId, cells: [
           <Link key="team" href={`/wiki/teams/${team.slug}`}>{team.name}</Link>, "Counter-Strike 2", "2027 starting five (roster frozen through 2027-05-23)",
+        ] })), ...academyTeams.map((entry) => ({ key: entry.teamId, cells: [
+          <Link key="team" href={`/wiki/teams/${entry.teamId}`}>{entry.name}</Link>, "League of Legends", `${entry.ecosystem} (academy of ${scene.teams.find((team) => team.id === entry.parentTeamId)?.name ?? organization.name})`,
         ] }))]} />
     </ArticleSection>
     <ArticleSection {...sections[3]!}><details><summary>Sources</summary><ExternalSources scene={scene} ids={organization.sourceIds} /></details></ArticleSection>
   </WikiArticle>;
 }
 
-export function Tier2TeamArticle({ team, parent, roster }: { team: Tier2TeamLookup; parent?: { name: string; slug: string }; roster?: Array<{ role: string; nickname: string; slug: string }> }) {
+export function Tier2TeamArticle({ team, parent, roster }: { team: Tier2TeamLookup; parent?: { name: string; slug: string }; roster?: RosterEntryView[] }) {
   const sections = ["Overview", "Ecosystem", ...(roster?.length ? ["Player Roster"] : []), "Parent organization", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
   const at = (title: string) => sections.find((section) => section.title === title)!;
   return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)} groups={[
@@ -147,7 +153,7 @@ export function Tier2TeamArticle({ team, parent, roster }: { team: Tier2TeamLook
     <ArticleSection {...at("Ecosystem")}>
       <p>{team.name} is one of 8 confirmed 2027 {team.ecosystem} participants, a Tier 2 regional ecosystem ({team.region}). See <Link href="/wiki/world">the competitive world</Link> for the full {team.ecosystem} field and the rest of the Tier 1 / Tier 2 structure.</p>
     </ArticleSection>
-    {roster?.length ? <ArticleSection {...at("Player Roster")}><ExternalRosterTable caption={`${team.name} ${team.ecosystem} 2027 roster`} rows={roster.map((entry) => ({ id: `${team.teamId}-${entry.slug}`, role: entry.role, roleLabel: roleLabels[entry.role as keyof typeof roleLabels], nickname: entry.nickname, slug: entry.slug, designation: "2027 starter" }))} /></ArticleSection> : null}
+    {roster?.length ? <ArticleSection {...at("Player Roster")}><h3>Active</h3><TeamRosterTable roster={roster} caption={`${team.name} active roster`} /></ArticleSection> : null}
     <ArticleSection {...at("Parent organization")}>
       {parent ? <p><Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> is this team&rsquo;s confirmed parent organization. The two remain separate competitive team entities; no roster, result, or membership is shared between them.</p>
         : <p>No parent-organization relationship is confirmed for this team.</p>}
@@ -170,15 +176,14 @@ const marketRegionLabel = (region: string) => ({ KR: "Korean", CN: "Chinese" } a
 export function AddedPlayerArticle({ player, worldState }: { player: AddedPlayer2027; worldState: WorldState2027 }) {
   const assignment = findLcsAssignment(worldState, player.playerId);
   const retirement = findRetirement(worldState, player.playerId);
+  const addedNationalities = nationalitiesOf(worldState, player.playerId, assignment?.league ?? "", player.nationality);
   const sections = ["Overview", "Background Information", "Team History", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
   return <WikiArticle title={player.nickname} kind="Players" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={player.nickname} monogram={player.nickname.slice(0, 2)} groups={[
     { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Legal name", value: player.legalName ?? "Unknown" },
-      { label: "Nationality", value: player.nationality ?? "Unknown" }, { label: "Date of birth", value: player.dateOfBirth ? formatDate(player.dateOfBirth) : "Unknown" }, { label: "Role", value: roleLabels[player.primaryRole] }] },
+      { label: "Nationality", value: addedNationalities.length ? addedNationalities.join(", ") : "Unknown" }, ...(player.dateOfBirth ? [{ label: "Date of birth", value: formatDate(player.dateOfBirth) }] : []), { label: "Role", value: roleLabels[player.primaryRole] }] },
     ...(assignment ? [{ title: "Kairos Universe 2027", rows: [
-      { label: "2027 status", value: "Starter" },
       { label: "Team", value: <Link href={`/wiki/teams/${assignment.team.teamId.replace(/^external-lol-team-/, "external-")}`}>{assignment.team.name}</Link> },
       { label: "Role", value: roleLabels[assignment.starter.role] },
-      { label: "Lineup confirmed", value: assignment.rosters.confirmedBy ? formatDate(assignment.rosters.confirmedBy) : (assignment.rosters.displayPeriod ?? "January 2027 (exact date not established)") },
     ] }] : []),
     ...(retirement ? [{ title: "Kairos Universe 2027", rows: [
       { label: "2027 status", value: "Retired" },
@@ -263,9 +268,7 @@ export function CsPlayerArticle({ player, worldState }: { player: CsPlayer2027; 
     { title: "Background Information", rows: [{ label: "Nickname", value: player.nickname }, { label: "Full name", value: player.legalName },
       { label: "Nationality", value: player.nationality }, { label: "Game", value: "Counter-Strike 2" }] },
     ...(assignment ? [{ title: "Kairos Universe 2027", rows: [
-      { label: "2027 status", value: "Starting five" },
       { label: "Team", value: <Link href={`/wiki/teams/${assignment.team.slug}`}>{assignment.team.name}</Link> },
-      { label: "Roster freeze", value: `Through ${formatDate(worldState.csRosterFreeze.freezeThrough)}` },
     ] }] : []),
   ]} />}>
     <ArticleSection {...sections[0]!}><p>{player.nickname} ({player.legalName}) is a Counter-Strike 2 player from {player.nationality}{assignment ? <>, in the 2027 starting five of <Link href={`/wiki/teams/${assignment.team.slug}`}>{assignment.team.name}</Link></> : null}. Role, age, contract and results are not established.</p></ArticleSection>

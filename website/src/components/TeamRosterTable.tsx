@@ -18,6 +18,8 @@ const columns: Array<{ key: SortColumn; label: string }> = [
   { key: "role", label: "Role" },
 ];
 
+const regionLabel = (entry: RosterEntryView) => entry.regionCode ?? regionCodesFor(entry.nationality ?? entry.nationalities?.[0]).join(" / ");
+
 const roleOrder = ["top", "jungle", "mid", "adc", "bot", "support"];
 
 function roleRank(role: string): number {
@@ -27,7 +29,7 @@ function roleRank(role: string): number {
 
 function sortValue(entry: RosterEntryView, column: SortColumn): string {
   switch (column) {
-    case "region": return regionCodesFor(entry.nationality, entry.nationalities).join("/");
+    case "region": return regionLabel(entry);
     case "nationality": return entry.nationality ?? "";
     case "player": return entry.nickname;
     case "name": return entry.realName;
@@ -74,7 +76,7 @@ export function TeamRosterTable({ roster, caption = "Current active roster", emp
         <tbody>
           {sorted.map((entry) => (
             <tr key={entry.tenureId}>
-              <td data-label="Region">{regionCodesFor(entry.nationality, entry.nationalities).join(" / ") || "TBD"}</td>
+              <td data-label="Region">{regionLabel(entry) || "TBD"}</td>
               <td data-label="NAT"><NationalityFlags nationality={entry.nationality} nationalities={entry.nationalities} compact /></td>
               <td data-label="Player">
                 <Link href={`/wiki/players/${entry.slug}`}>{entry.nickname}</Link>

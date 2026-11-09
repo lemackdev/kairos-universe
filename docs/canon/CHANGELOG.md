@@ -1,5 +1,12 @@
 # Canon Changelog
 
+## 0.27.0 - Roster table regions and nationalities
+
+- Region column now shows the league's code: KR (LCK, LCK Challengers), CH (LPL, LDL), SA (CBLOL, Circuito Desafiante), PCS (LCP, LCP Challengers), EU (LEC, EMEA Masters), NA (LCS, NACL).
+- NAT column shows each player's real-world nationality: South Korea and China for the Korean and Chinese leagues, and individual nationalities for CBLOL, LCP and LEC.
+- Added 104 nationalities (Curse Brazil, Shad0w Taiwan and Hizto Vietnam by author directive). Popp (Vietnam) and SamiKin (Cambodia) by author directive.
+- No contract, signing date or announcement date is established.
+
 ## 0.26.0 - Circuito Desafiante 2027 rosters
 
 - Registered the 2027 Circuito Desafiante lineups for Estral Esports, 7REX, KaBuM! IDL, VKS Academy, INTZ, RMD Gaming, Ei Nerd Esports and paiN Academy (40 starters).
@@ -61,7 +68,7 @@
 - Registered 32 LCK and 9 LCP retirements. Faker is retired; Diable is retired once. Historical 2026 tenures are preserved and superseded, never edited.
 - Reversed two earlier statuses: Loki's LCS retirement was removed (he starts Mid for BRION; Cloud9's lineup is unchanged) and Taeyoon's free-agent record was cleared (he starts ADC for Nongshim RedForce).
 - TheShy, BuLLDoG, Kael, kyeahoo and Poby moved from the Korean market lists to LCK starting slots; JunJia moved from the LPL market list to SoftBank HAWKS gaming. Burdol and Viper remain unassigned.
-- Twelve overlay identities were added: Chain1, Leaky and retirees Bluffing, Enosh and DDoiV match Leaguepedia records; Quantum, Painter, Popp, Yuhe, Hitzo and retirees Slayer and Pleata are nickname-only with no invented biography.
+- Twelve overlay identities were added: Chain1, Leaky and retirees Bluffing, Enosh and DDoiV match Leaguepedia records; Quantum, Painter, Popp, Yuhe and retirees Slayer and Pleata are nickname-only with no invented biography.
 - Twelve free-agent records that contradicted confirmed statuses were removed and kept as prior status. No announcement date is established.
 
 ## 0.18.0 - 2027 LPL and CBLOL rosters, retirements, and market players

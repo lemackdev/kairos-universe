@@ -73,6 +73,7 @@ export interface MentorView {
 export interface RosterEntryView {
   nationality?: string | null;
   nationalities?: string[];
+  regionCode?: string | null;
   tenureId: string;
   playerId: string;
   slug: string;

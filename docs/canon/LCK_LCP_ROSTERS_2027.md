@@ -41,7 +41,7 @@ organizations.
 | Ground Zero Gaming | 1Jiang | Husha | Dire | Betty | Kaiwing |
 | MVK Esports | Kratos | Gury | Chika | Artemis | Isles |
 | SoftBank HAWKS gaming | Kiaya | JunJia | Chain1 | Marble | Cryogen |
-| Secret Whales | Pun | Hitzo | aadam | Eddie | Bie |
+| Secret Whales | Pun | Hizto | aadam | Eddie | Bie |
 
 ## Corrections to earlier canon
 
@@ -65,5 +65,5 @@ Overlay identities that match Leaguepedia 2026-08-03 snapshot records by nicknam
 and role: Chain1 (Mid, Ground Zero Academy), Leaky (Jungle and Head Coach,
 CTBC Flying Oyster Academy; no coaching change asserted), and retirees Bluffing,
 Enosh and DDoiV. Nickname-only identities (no source record, no biography):
-Quantum, Painter, Popp, Yuhe, Hitzo, and retirees Slayer and Pleata.
+Quantum, Painter, Popp, Yuhe, and retirees Slayer and Pleata.
 FEARX and DRX remain inactive historical organizations.

@@ -1,0 +1,565 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-player-nationalities"
+  ],
+  "regionByLeague": {
+    "LCK": "KR",
+    "LCK Challengers": "KR",
+    "LPL": "CH",
+    "LDL": "CH",
+    "CBLOL": "SA",
+    "Circuito Desafiante": "SA",
+    "LCP": "PCS",
+    "LCP Challengers": "PCS",
+    "LEC": "EU",
+    "EMEA Masters": "EU",
+    "LCS": "NA",
+    "NACL": "NA"
+  },
+  "defaultNationalityByLeague": {
+    "LCK": "South Korea",
+    "LCK Challengers": "South Korea",
+    "LPL": "China",
+    "LDL": "China"
+  },
+  "players": {
+    "external-lol-player-1jiang": {
+      "nickname": "1Jiang",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-aadam": {
+      "nickname": "aadam",
+      "nationality": "Canada",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-ackerman": {
+      "nickname": "Ackerman",
+      "nationality": "Argentina",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-alvaro": {
+      "nickname": "Alvaro",
+      "nationality": "Spain",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-artemis": {
+      "nickname": "Artemis",
+      "nationality": "Vietnam",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-ayu": {
+      "nickname": "Ayu",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-betty": {
+      "nickname": "Betty",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-bie": {
+      "nickname": "Bie",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-boal": {
+      "nickname": "Boal",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-booki": {
+      "nickname": "Booki",
+      "nationality": "Peru",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-brokenblade": {
+      "nickname": "BrokenBlade",
+      "nationality": "Germany",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-caliste": {
+      "nickname": "Caliste",
+      "nationality": "France",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-caps": {
+      "nickname": "Caps",
+      "nationality": "Denmark",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-cariok": {
+      "nickname": "CarioK",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-carzzy": {
+      "nickname": "Carzzy",
+      "nationality": "Czech Republic",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-ceos": {
+      "nickname": "Ceos",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-chika": {
+      "nickname": "Chika",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-cody": {
+      "nickname": "cody",
+      "nationality": "Chile",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-cryogen": {
+      "nickname": "Cryogen",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-curse": {
+      "nickname": "Curse",
+      "nationality": "Brazil",
+      "basis": "Author directive, November 2026"
+    },
+    "external-lol-player-daglas": {
+      "nickname": "Daglas",
+      "nationality": "Poland",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-devost": {
+      "nickname": "Devost",
+      "nationality": "Colombia",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-dire": {
+      "nickname": "Dire",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-disamis": {
+      "nickname": "Disamis",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-doggo": {
+      "nickname": "Doggo",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-draktharr": {
+      "nickname": "Draktharr",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-duduhh": {
+      "nickname": "Duduhh",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-eddie": {
+      "nickname": "Eddie",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-elyoya": {
+      "nickname": "Elyoya",
+      "nationality": "Spain",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-enga": {
+      "nickname": "Enga",
+      "nationality": "Argentina",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-feng": {
+      "nickname": "Feng",
+      "nationality": "Taiwan",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-flakked": {
+      "nickname": "Flakked",
+      "nationality": "Spain",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-flauren": {
+      "nickname": "Flauren",
+      "nationality": "Hong Kong",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-fleshy": {
+      "nickname": "Fleshy",
+      "nationality": "Turkey",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-fudge": {
+      "nickname": "Fudge",
+      "nationality": "Australia",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-fuuu": {
+      "nickname": "Fuuu",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-gloryy": {
+      "nickname": "Gloryy",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-guigo": {
+      "nickname": "Guigo",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-gury": {
+      "nickname": "Gury",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-hans-sama": {
+      "nickname": "Hans Sama",
+      "nationality": "France",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-harky": {
+      "nickname": "Harky",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-hizto": {
+      "nickname": "Hizto",
+      "nationality": "Vietnam",
+      "basis": "Author directive, November 2026"
+    },
+    "external-lol-player-husha": {
+      "nickname": "Husha",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-inspired": {
+      "nickname": "Inspired",
+      "nationality": "Poland",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-isles": {
+      "nickname": "Isles",
+      "nationality": "Australia",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-jackies": {
+      "nickname": "Jackies",
+      "nationality": "Czech Republic",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-jojo": {
+      "nickname": "JoJo",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-josedeodo": {
+      "nickname": "Josedeodo",
+      "nationality": "Argentina",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-junjia": {
+      "nickname": "JunJia",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-kaiwing": {
+      "nickname": "Kaiwing",
+      "nationality": "Hong Kong",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-kakkun": {
+      "nickname": "Kakkun",
+      "nationality": "Japan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-kiaya": {
+      "nickname": "Kiaya",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-kino": {
+      "nickname": "Kino",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-kratos": {
+      "nickname": "Kratos",
+      "nationality": "Vietnam",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-labrov": {
+      "nickname": "Labrov",
+      "nationality": "Greece",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-lyncas": {
+      "nickname": "Lyncas",
+      "nationality": "Lithuania",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-marble": {
+      "nickname": "Marble",
+      "nationality": "Japan",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-maynter": {
+      "nickname": "Maynter",
+      "nationality": "Ukraine",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-mikyx": {
+      "nickname": "Mikyx",
+      "nationality": "Slovenia",
+      "basis": "Leaguepedia snapshot leaguepedia-2026-08-03 (current tenures)"
+    },
+    "external-lol-player-momo": {
+      "nickname": "Momo",
+      "nationality": "Japan",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-morttheus": {
+      "nickname": "Morttheus",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-myrwn": {
+      "nickname": "Myrwn",
+      "nationality": "Spain",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-naak-nako": {
+      "nickname": "Naak Nako",
+      "nationality": "Turkey",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-namiru": {
+      "nickname": "Namiru",
+      "nationality": "Brazil",
+      "basis": "Author screenshot flag"
+    },
+    "external-lol-player-netuno": {
+      "nickname": "Netuno",
+      "nationality": "Brazil",
+      "basis": "Author screenshot flag"
+    },
+    "external-lol-player-nuc": {
+      "nickname": "nuc",
+      "nationality": "France",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-oscarinin": {
+      "nickname": "Oscarinin",
+      "nationality": "Spain",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-parus": {
+      "nickname": "Parus",
+      "nationality": "Turkey",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-popp": {
+      "nickname": "Popp",
+      "nationality": "Vietnam",
+      "basis": "Author directive, November 2026"
+    },
+    "external-lol-player-pun": {
+      "nickname": "Pun",
+      "nationality": "Vietnam",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-rabelo": {
+      "nickname": "Rabelo",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-razork": {
+      "nickname": "Razork",
+      "nationality": "Spain",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-rest": {
+      "nickname": "Rest",
+      "nationality": "Taiwan",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-rhilech": {
+      "nickname": "Rhilech",
+      "nationality": "Turkey",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-samikin": {
+      "nickname": "SamiKin",
+      "nationality": "Cambodia",
+      "basis": "Author directive, November 2026"
+    },
+    "external-lol-player-scamber": {
+      "nickname": "scamber",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-serin": {
+      "nickname": "Serin",
+      "nationality": "Turkey",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-shad0w": {
+      "nickname": "Shad0w",
+      "nationality": "Taiwan",
+      "basis": "Author directive, November 2026"
+    },
+    "external-lol-player-shiauc": {
+      "nickname": "ShiauC",
+      "nationality": "Taiwan",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-shiku": {
+      "nickname": "Shiku",
+      "nationality": "Peru",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-sinatra": {
+      "nickname": "Sinatra",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-skewmond": {
+      "nickname": "SkewMond",
+      "nationality": "France",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-slowq": {
+      "nickname": "SlowQ",
+      "nationality": "South Korea",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-stend": {
+      "nickname": "Stend",
+      "nationality": "France",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-stepz": {
+      "nickname": "STEPZ",
+      "nationality": "Venezuela",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-strensh": {
+      "nickname": "Strensh",
+      "nationality": "Chile",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-supa": {
+      "nickname": "Supa",
+      "nationality": "Spain",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-taki": {
+      "nickname": "Taki",
+      "nationality": "Vietnam",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-tatu": {
+      "nickname": "Tatu",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-telas": {
+      "nickname": "Telas",
+      "nationality": "Brazil",
+      "basis": "Author screenshot flag"
+    },
+    "external-lol-player-tracyn": {
+      "nickname": "Tracyn",
+      "nationality": "Poland",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-tutsz": {
+      "nickname": "Tutsz",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-uniboy": {
+      "nickname": "Uniboy",
+      "nationality": "Taiwan",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-upset": {
+      "nickname": "Upset",
+      "nationality": "Germany",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-uzent": {
+      "nickname": "uZent",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-viciun": {
+      "nickname": "Viciun",
+      "nationality": "Chile",
+      "basis": "Author screenshot flag"
+    },
+    "external-lol-player-vladi": {
+      "nickname": "Vladi",
+      "nationality": "Greece",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-woody": {
+      "nickname": "Woody",
+      "nationality": "Taiwan",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-wunder": {
+      "nickname": "Wunder",
+      "nationality": "Denmark",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-xyno": {
+      "nickname": "Xyno",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-yike": {
+      "nickname": "Yike",
+      "nationality": "Sweden",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-yuhe": {
+      "nickname": "Yuhe",
+      "nationality": "Taiwan",
+      "basis": "Author screenshot flag"
+    },
+    "external-lol-player-yupps": {
+      "nickname": "Yupps",
+      "nationality": "Brazil",
+      "basis": "Author screenshot flag"
+    },
+    "external-lol-player-zekas": {
+      "nickname": "zekas",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-zothve": {
+      "nickname": "Zothve",
+      "nationality": "Chile",
+      "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-zynts": {
+      "nickname": "zynts",
+      "nationality": "Brazil",
+      "basis": "Web research of public esports databases, November 2026"
+    }
+  },
+  "notes": [
+    "Region codes follow the author's directive: Korean leagues KR, Chinese leagues CH, South American leagues SA, Pacific leagues PCS, European leagues EU.",
+    "Every player in a Korean or Chinese league uses the league default nationality (South Korea or China) unless an explicit record overrides it.",
+    "Individual nationalities come from the Leaguepedia 2026-08-03 snapshot, the flags in the author's Leaguepedia screenshots, or public esports databases. Players without an entry have no nationality established."
+  ]
+}

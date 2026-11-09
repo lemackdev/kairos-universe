@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { repositoryRoot } from "@/lib/canon/paths";
-import type { CounterStrikeRosterFreeze2027, CsExternalRosters2027, EventInvites2027, FreeAgents2027, LcsRosters2027, LeagueRegionalMembership2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
+import type { CounterStrikeRosterFreeze2027, CsExternalRosters2027, EventInvites2027, FreeAgents2027, LcsRosters2027, LeagueRegionalMembership2027, PlayerNationalities2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
 
 export const regionalCompetitionSlugs: Record<string, { league: string } | { tier2: string }> = {
   "lck-2027": { league: "LCK" },
@@ -67,6 +67,7 @@ export function loadWorldState2027(): WorldState2027 {
   const ldlRosters = read<LcsRosters2027>("ldl-rosters-2027.json");
   const lcpChallengersRosters = read<LcsRosters2027>("lcp-challengers-rosters-2027.json");
   const circuitoDesafianteRosters = read<LcsRosters2027>("circuito-desafiante-rosters-2027.json");
+  const playerNationalities = read<PlayerNationalities2027>("player-nationalities-2027.json");
   const cblolRosters = read<LcsRosters2027>("cblol-rosters-2027.json");
   const csRosterFreeze = read<CounterStrikeRosterFreeze2027>("counter-strike-roster-freeze-2027.json");
   const regionalSets: Array<[string, LcsRosters2027]> = [["LCS", lcsRosters], ["LEC", lecRosters], ["LPL", lplRosters], ["CBLOL", cblolRosters], ["LCK", lckRosters], ["LCP", lcpRosters], ["NACL", naclRosters], ["EMEA Masters", emeaMastersRosters], ["LCK Challengers", lckChallengersRosters], ["LDL", ldlRosters], ["LCP Challengers", lcpChallengersRosters], ["Circuito Desafiante", circuitoDesafianteRosters]];
@@ -92,7 +93,7 @@ export function loadWorldState2027(): WorldState2027 {
     tier2Leagues[key] = league;
   }
 
-  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, csRosterFreeze, csExternalRosters, eventInvites };
+  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, playerNationalities, csRosterFreeze, csExternalRosters, eventInvites };
 }
 
 export function findFreeAgent(worldState: WorldState2027 | undefined, playerId: string) {
@@ -317,4 +318,14 @@ function validateEventInvites(invites: EventInvites2027, rosters: CsExternalRost
   if (new Set(ids).size !== ids.length) fail("duplicate invited team");
   const known = new Set([...rosters.teams.map((team) => team.teamId), "kairos-cs-main"]);
   for (const id of ids) if (!known.has(id)) fail(`invited team is not a Counter-Strike team: ${id}`);
+}
+
+export function regionCodeOfLeague(worldState: WorldState2027 | undefined, league: string): string | null {
+  return worldState?.playerNationalities.regionByLeague[league] ?? null;
+}
+
+export function nationalitiesOf(worldState: WorldState2027 | undefined, playerId: string, league: string, own?: string | null): string[] {
+  const direct = (own ?? worldState?.playerNationalities.players[playerId]?.nationality ?? worldState?.playerNationalities.defaultNationalityByLeague[league] ?? "")
+    .split(",").map((value) => value.trim()).filter(Boolean);
+  return direct;
 }

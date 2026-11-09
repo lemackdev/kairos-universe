@@ -1,5 +1,5 @@
 {
-  "canonVersion": "0.26.0",
+  "canonVersion": "0.27.0",
   "project": "Kairos Universe",
   "storyEpisode": 114,
   "storyStartPeriod": "early-2026",
@@ -77,6 +77,7 @@
     "The 2027 LDL rosters are registered (data/competitive-world-overrides/ldl-rosters-2027.json): eight teams, 40 starters, and fourteen surplus players retired. See docs/canon/LDL_ROSTERS_2027.md.",
     "The 2027 LCP Challengers rosters are registered (data/competitive-world-overrides/lcp-challengers-rosters-2027.json): eight teams, 40 starters mixing Taiwan, Hong Kong, Vietnam and Japan. See docs/canon/LCP_CHALLENGERS_ROSTERS_2027.md.",
     "The 2027 Circuito Desafiante rosters are registered (data/competitive-world-overrides/circuito-desafiante-rosters-2027.json): eight teams and 40 starters, with Estral Esports and 7REX fielding only Spanish-speaking players. See docs/canon/CIRCUITO_DESAFIANTE_ROSTERS_2027.md.",
+    "Roster tables now show a league Region code (KR, CH, SA, PCS, EU, NA) and a real-world nationality flag per player (data/competitive-world-overrides/player-nationalities-2027.json). See docs/canon/PLAYER_NATIONALITIES_2027.md.",
     "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization."
   ]
 }

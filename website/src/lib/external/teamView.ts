@@ -1,13 +1,14 @@
 import type { RosterEntryView, SourceView, TeamView } from "@/types/catalog";
 import type { ExternalScene, SceneTeam } from "@/types/external-scene";
-import type { LcsRosters2027 } from "@/types/world-state-2027";
+import type { LcsRosters2027, WorldState2027 } from "@/types/world-state-2027";
+import { nationalitiesOf, regionCodeOfLeague } from "@/lib/external/worldState2027";
 
 const marketLabel = (sets: LcsRosters2027[], playerId: string) => {
   const region = sets.flatMap((set) => set.marketAvailability ?? []).find((entry) => entry.playerId === playerId)?.eligibleRegion ?? "";
   return ({ KR: "Korean", CN: "Chinese" } as Record<string, string>)[region] ?? region;
 };
 
-export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, rosters2027?: LcsRosters2027 | LcsRosters2027[]): TeamView {
+export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, rosters2027?: LcsRosters2027 | LcsRosters2027[], worldState?: WorldState2027): TeamView {
   const sets = rosters2027 ? (Array.isArray(rosters2027) ? rosters2027 : [rosters2027]) : [];
   const organization = scene.organizations.find((o) => o.id === team.organizationId)!;
   const event = scene.sources.find((s) => team.sourceIds.includes(s.id))!;
@@ -15,8 +16,11 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, roste
   const roster: RosterEntryView[] = team.rosterTenureIds.map((tenureId) => {
     const tenure = scene.rosterTenures.find((t) => t.id === tenureId)!;
     const player = scene.players.find((p) => p.id === tenure.playerId)!;
+    const nationalities = nationalitiesOf(worldState, player.id, team.league);
     return {
-      nationality: null,
+      nationality: nationalities[0] ?? null,
+      nationalities,
+      regionCode: regionCodeOfLeague(worldState, team.league),
       tenureId: tenure.id,
       playerId: player.id,
       slug: player.slug,
@@ -46,8 +50,11 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, roste
   const starters2027: RosterEntryView[] = (roster2027?.starters ?? []).map((starter) => {
     const added = addedPlayers.get(starter.playerId);
     const scenePlayer = scene.players.find((p) => p.id === starter.playerId);
+    const nationalities = nationalitiesOf(worldState, starter.playerId, team.league, added?.nationality);
     return {
-      nationality: added?.nationality ?? null,
+      nationality: nationalities[0] ?? null,
+      nationalities,
+      regionCode: regionCodeOfLeague(worldState, team.league),
       tenureId: `${team.id}-${starter.playerId}-2027`,
       playerId: starter.playerId,
       slug: added?.slug ?? scenePlayer!.slug,
@@ -127,5 +134,43 @@ export function sceneTeamOrganizationLite(team: SceneTeam, scene: ExternalScene)
     ownerSlug: null,
     founded: null,
     management: [],
+  };
+}
+
+export function tier2TeamToTeamView(team: { teamId: string; name: string; ecosystem: string }, roster: RosterEntryView[], organizationId: string): TeamView {
+  return {
+    id: team.teamId,
+    slug: team.teamId,
+    name: team.name,
+    shortName: team.name,
+    organizationId,
+    gameId: "game-league-of-legends",
+    gameName: "League of Legends",
+    divisionId: team.ecosystem,
+    rosterLevel: team.ecosystem,
+    status: "active",
+    competitiveState: "Real-world reference",
+    intendedCompetition: team.ecosystem,
+    currentStoryPeriod: "2027",
+    officialDebutPeriod: "Unknown",
+    captainPlayerId: "",
+    headCoachName: null,
+    headCoachSlug: null,
+    trainingLocation: { city: "TBD", region: "TBD", country: "TBD" },
+    roster,
+    formerRoster: [],
+    officialMatchCount: 0,
+    history: [],
+    timeline: [],
+    staff: [],
+    assignedStaffIds: [],
+    mentors: [],
+    formerStaff: [],
+    formerStaffIds: [],
+    transactions: roster.length ? [{ id: `${team.teamId}-2027-lineup`, date: null, text: "2027 starting lineup confirmed." }] : [],
+    relatedEpisodes: [],
+    sources: [],
+    achievements: [],
+    statistics: {},
   };
 }

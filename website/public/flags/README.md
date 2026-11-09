@@ -2,7 +2,7 @@
 
 Local PNG icons downloaded from https://flagcdn.com/48x36/{code}.png.
 Provider: [Flagpedia / FlagCDN](https://flagpedia.net/download/api), based on
-Wikimedia Commons flag artwork. Codes: us, ca, mx, cl, br, kr, cn, eu, jp.
+Wikimedia Commons flag artwork. Codes: us, ca, mx, cl, br, kr, cn, eu, jp, ar, au, co, cz, dk, fr, de, gr, hk, lt, ma, pe, pl, es, se, tw, tr, ua, ve, vn, kh.
 Rendered at 24 x 18 CSS pixels; no emoji or runtime CDN request is used.
 
 The Puerto Rico flag is a locally maintained SVG at `pr.svg`; South Korea

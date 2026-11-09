@@ -103,23 +103,6 @@
         "Nickname and role match the Leaguepedia 2026-08-03 snapshot record; not present in the frozen pre-Worlds 2026 reference scene, which is unchanged.",
         "Added as a 2027 overlay identity. No contract or other status is asserted beyond the author-confirmed 2027 status."
       ]
-    },
-    {
-      "playerId": "external-lol-player-hitzo",
-      "slug": "external-hitzo",
-      "nickname": "Hitzo",
-      "legalName": null,
-      "nationality": null,
-      "dateOfBirth": null,
-      "primaryRole": "jungle",
-      "originType": "real-world-reference",
-      "reviewStatus": "author-named-identity-only",
-      "sources": [],
-      "history": [],
-      "notes": [
-        "Named by the author; no record exists in the frozen pre-Worlds 2026 scene or the Leaguepedia 2026-08-03 snapshot, so no legal name, nationality or birth date is established.",
-        "Added as a 2027 overlay identity with the nickname only."
-      ]
     }
   ],
   "teams": [
@@ -351,8 +334,8 @@
         },
         {
           "role": "jungle",
-          "playerId": "external-lol-player-hitzo",
-          "nickname": "Hitzo"
+          "playerId": "external-lol-player-hizto",
+          "nickname": "Hizto"
         },
         {
           "role": "mid",

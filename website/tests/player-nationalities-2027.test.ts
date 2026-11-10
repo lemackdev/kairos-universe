@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { loadExternalScene } from "@/lib/external/scene";
-import { csRoleOf, legalNameOf, nationalitiesOf, regionCodeOfLeague, rosterSets, loadWorldState2027 } from "@/lib/external/worldState2027";
+import { csRoleOf, legalNameOf, organizationOverviewOf, nationalitiesOf, regionCodeOfLeague, rosterSets, loadWorldState2027 } from "@/lib/external/worldState2027";
 import { sceneTeamToTeamView } from "@/lib/external/teamView";
 
 const worldState = loadWorldState2027();
@@ -59,5 +59,14 @@ describe("CS player roles", () => {
     expect(csRoleOf(worldState, "external-cs-player-apex")).toBe("IGL / Rifler");
     expect(csRoleOf(worldState, "external-cs-player-donk")).toBe("Rifler");
     expect(csRoleOf(worldState, "external-cs-player-jame")).toBe("IGL / AWPer");
+  });
+});
+
+describe("organization overviews", () => {
+  it("covers every external organization and does not mention the fictional universe", () => {
+    const all = Object.values(worldState.organizationOverviews.organizations);
+    expect(all.length).toBeGreaterThanOrEqual(107);
+    for (const entry of all) { expect(entry.overview.length).toBeGreaterThan(40); expect(entry.overview).not.toMatch(/Kairos/i); }
+    expect(organizationOverviewOf(worldState, "external-lol-org-t1")).toMatch(/SK Telecom/);
   });
 });

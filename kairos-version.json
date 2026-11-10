@@ -1,5 +1,5 @@
 {
-  "canonVersion": "0.29.0",
+  "canonVersion": "0.30.0",
   "project": "Kairos Universe",
   "storyEpisode": 114,
   "storyStartPeriod": "early-2026",
@@ -80,6 +80,7 @@
     "Roster tables now show a league Region code (KR, CH, SA, PCS, EU, NA) and a real-world nationality flag per player (data/competitive-world-overrides/player-nationalities-2027.json). See docs/canon/PLAYER_NATIONALITIES_2027.md.",
     "Legal names and nationalities of nickname-only 2027 players added from Leaguepedia. See docs/canon/PLAYER_LEGAL_NAMES_2027.md.",
     "Counter-Strike 2 players now have roles (AWPer, IGL, Rifler) from HLTV role icons. See docs/canon/CS_PLAYER_ROLES_2027.md.",
+    "Every external team page now carries an overview of its organization. See docs/canon/ORGANIZATION_OVERVIEWS_2027.md.",
     "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization."
   ]
 }

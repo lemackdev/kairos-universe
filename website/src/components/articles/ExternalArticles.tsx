@@ -10,7 +10,7 @@ import type { RosterEntryView } from "@/types/catalog";
 import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 import type { AddedPlayer2027, CsOrganization2027, CsPlayer2027, CsTeam2027, WorldState2027 } from "@/types/world-state-2027";
-import { csTeamsOfOrganization, findCsAssignment, findFreeAgent, findLcsAssignment, findMarketAvailability, csRoleOf, findRetirement, legalNameOf, listAllTier2Teams, nationalitiesOf, rosterSets, type Tier2TeamLookup } from "@/lib/external/worldState2027";
+import { csTeamsOfOrganization, findCsAssignment, findFreeAgent, findLcsAssignment, findMarketAvailability, csRoleOf, findRetirement, legalNameOf, listAllTier2Teams, nationalitiesOf, organizationOverviewOf, rosterSets, type Tier2TeamLookup } from "@/lib/external/worldState2027";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 
@@ -222,8 +222,7 @@ export function CsTeamArticle({ team, worldState, logo }: { team: CsTeam2027; wo
     { title: "History", rows: [{ label: "Founded", value: "TBD" }] },
   ]} />}>
     <ArticleSection {...sections[0]!}>
-      <p><strong>{team.name}</strong> is a Counter-Strike 2 team in the Kairos Universe 2027 competitive ecosystem. Its five starting players and their in-game roles are listed below. Contract dates and results are not established.</p>
-      {team.notes?.map((note) => <p key={note} className="muted">{note}</p>)}
+      <p>{organizationOverviewOf(worldState, team.organizationId) ?? `${team.name} is a Counter-Strike 2 team.`}</p>
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       <TeamRosterTable showRegion={false} caption={`${team.name} starting five`} empty="No roster imported." roster={team.starters.map((starter): RosterEntryView => {

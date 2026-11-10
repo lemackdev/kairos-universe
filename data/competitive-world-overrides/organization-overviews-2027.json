@@ -1,0 +1,506 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-organization-overviews"
+  ],
+  "notes": [
+    "Organization overviews written from Wikipedia introductions and public esports reporting, retrieved 2026-11-09. Only facts present in those sources are used."
+  ],
+  "organizations": {
+    "external-lol-org-anyone-s-legend": {
+      "name": "Anyone's Legend",
+      "overview": "Anyone's Legend (AL) is the name of several teams belonging to the Chinese esports organisation All Gamers, best known for its League of Legends division. The main team was founded in 2021 and competes in the League of Legends Pro League (LPL), where it won its first title in the second split of 2025."
+    },
+    "external-lol-org-bilibili-gaming": {
+      "name": "Bilibili Gaming",
+      "overview": "Bilibili Gaming (BLG) is a professional esports organisation based in China. It was formed in December 2017, when the video-sharing website Bilibili acquired the I May League of Legends roster, and later expanded into Overwatch."
+    },
+    "external-lol-org-blue-otter": {
+      "name": "Blue Otter",
+      "overview": "Blue Otter is a North American organisation whose League of Legends roster competes in the NACL, the second tier of the region's League of Legends ecosystem."
+    },
+    "external-lol-org-brion": {
+      "name": "BRION",
+      "overview": "BRION is a South Korean League of Legends organisation, now known as HANJIN BRION after a partnership with the Hanjin conglomerate. Its roots go back to 2019 as Brion Blade, and the main team has competed in the LCK under several sponsor names, alongside separate academy and Challengers rosters."
+    },
+    "external-lol-org-ccg-esports": {
+      "name": "CCG Esports",
+      "overview": "CCG Esports is a North American organisation whose League of Legends roster competes in the NACL, the second tier of the region's League of Legends ecosystem."
+    },
+    "external-lol-org-cloud9": {
+      "name": "Cloud9",
+      "overview": "Cloud9 (C9) is an American professional esports company based in Santa Monica, California. It was founded as a League of Legends team by Jack and Paullie Etienne in May 2013, was incorporated as Cloud9 Esports, Inc. in September 2016, and was ranked the world's fifth most valuable esports organization in mid-2022."
+    },
+    "external-lol-org-contingent-esports": {
+      "name": "Contingent Esports",
+      "overview": "Contingent Esports is a North American organisation whose League of Legends roster competes in the NACL, the second tier of the region's League of Legends ecosystem."
+    },
+    "external-lol-org-conviction": {
+      "name": "Conviction",
+      "overview": "Conviction is a North American organisation whose League of Legends roster competes in the NACL, the second tier of the region's League of Legends ecosystem."
+    },
+    "external-lol-org-ctbc-flying-oyster": {
+      "name": "CTBC Flying Oyster",
+      "overview": "CTBC Flying Oyster (CFO) is a Taiwanese professional League of Legends team competing in the League of Legends Championship Pacific (LCP), after previously playing in the Pacific Championship Series. It is owned by CTBC Sports Entertainment, a subsidiary of CTBC Bank, and has won four domestic titles, three in the LCP and one in the PCS."
+    },
+    "external-lol-org-cupid-esports": {
+      "name": "Cupid eSports",
+      "overview": "Cupid eSports is a North American organisation whose League of Legends roster competes in the NACL, the second tier of the region's League of Legends ecosystem."
+    },
+    "external-lol-org-deep-cross-gaming": {
+      "name": "Deep Cross Gaming",
+      "overview": "Deep Cross Gaming (DCG) is a Taiwanese esports organization with teams in Arena of Valor, Apex Legends, Counter-Strike 2 and League of Legends. Its League of Legends team competes in the League of Legends Championship Pacific (LCP) and formerly played in the Pacific Championship Series."
+    },
+    "external-lol-org-detonation-focusme": {
+      "name": "DetonatioN FocusMe",
+      "overview": "DetonatioN FocusMe (DFM) is a Japanese esports organization established in July 2012 as the Counter-Strike Online team DetonatioN Gaming. The name originally belonged to its League of Legends division, which began as an amateur team called FocusMe."
+    },
+    "external-lol-org-dignitas": {
+      "name": "Dignitas",
+      "overview": "Dignitas is an American esports organization based in Newark, New Jersey. It was founded in 2003 by Michael \"ODEE\" O'Dell as a merger of two Battlefield 1942 clans, was acquired by the Philadelphia 76ers in 2016 and is now part of Harris Blitzer Sports & Entertainment."
+    },
+    "external-lol-org-disguised": {
+      "name": "Disguised",
+      "overview": "Disguised (DSG) is an esports organization founded in 2023 by the Canadian streamer Jeremy \"Disguised Toast\" Wang. It fields teams in League of Legends, Apex Legends, Tekken 8 and Overwatch, and its games are generally streamed on Disguised Toast's Twitch channel."
+    },
+    "external-lol-org-dorado-gaming": {
+      "name": "Dorado Gaming",
+      "overview": "Dorado Gaming is a North American organisation whose League of Legends roster competes in the NACL, the second tier of the region's League of Legends ecosystem."
+    },
+    "external-lol-org-dplus": {
+      "name": "Dplus",
+      "overview": "Dplus KIA (DK), formerly DWG KIA and DAMWON Gaming, is a South Korean professional esports organization. Its League of Legends team won its first LCK title in the 2020 summer split and went on to win the 2020 World Championship."
+    },
+    "external-lol-org-drx": {
+      "name": "DRX",
+      "overview": "DRX, short for the former name DragonX and currently Kiwoom DRX for sponsorship reasons, is a South Korean esports organization with teams in League of Legends, Tekken 8, Valorant and Warcraft. Its League of Legends division has won two back-to-back LCK titles, in 2017 Summer and 2018 Spring."
+    },
+    "external-lol-org-edward-gaming": {
+      "name": "EDward Gaming",
+      "overview": "Edward Gaming (EDG) is a professional esports organization based in Shanghai, China. Its League of Legends team is the only LPL team to have won both the Mid-Season Invitational and the World Championship, in 2015 and 2021 respectively."
+    },
+    "external-lol-org-fearx": {
+      "name": "FEARX",
+      "overview": "FearX, formerly Liiv SANDBOX and Sandbox Gaming, is a South Korean esports organization owned by the multi-channel network Sandbox Network. Its League of Legends team, known as BNK FearX through its sponsorship with BNK Financial Group, competes in the LCK."
+    },
+    "external-lol-org-fluxo-w7m": {
+      "name": "Fluxo W7M",
+      "overview": "Fluxo W7M is a Brazilian esports organization formed by the merger of Fluxo, founded in January 2021, and W7M Esports, founded in 2017. The two partnered in January 2025 and announced a definitive merger in December 2025."
+    },
+    "external-lol-org-flyquest": {
+      "name": "FlyQuest",
+      "overview": "FlyQuest is an American professional esports organization founded on January 6, 2017 and owned by the Viola family, owners of the Florida Panthers. It began with the acquisition of the League of Legends roster of Cloud9 Challenger, the sister team of Cloud9."
+    },
+    "external-lol-org-fnatic": {
+      "name": "Fnatic",
+      "overview": "Fnatic is a professional esports organisation headquartered in London, England, founded on 23 July 2004. Its League of Legends team won the first League of Legends World Championship in 2011 and holds a place among the most successful organisations in the LEC."
+    },
+    "external-lol-org-furia": {
+      "name": "FURIA",
+      "overview": "FURIA is a Brazilian professional esports organization that competes in Counter-Strike 2, Rocket League, League of Legends, Valorant, Rainbow Six Siege, Apex Legends and Kings League. In 2022 it was named the fifth most successful esports organization in the world by the North American portal Nerd Street."
+    },
+    "external-lol-org-g2-esports": {
+      "name": "G2 Esports",
+      "overview": "G2 Esports is a European esports organization headquartered in Berlin, Germany. It was founded in Spain on 24 February 2014 as Gamers2 by the former League of Legends professional Carlos \"ocelote\" Rodriguez Santiago and the investor Jens Hilgers, and fields players in League of Legends, Valorant, Counter-Strike 2 and other titles."
+    },
+    "external-lol-org-gam-esports": {
+      "name": "GAM Esports",
+      "overview": "GAM Esports is a Vietnamese professional esports organization whose League of Legends team competes as a partnered team in the League of Legends Championship Pacific (LCP). It was the dominant team of the Vietnam Championship Series and rose to international prominence at the 2017 Mid-Season Invitational."
+    },
+    "external-lol-org-gen-g-esports": {
+      "name": "Gen.G Esports",
+      "overview": "Gen.G, short for Generation Gaming and also known as Gen.G Esports, is a professional esports organization with headquarters in Santa Monica, Seoul and Shanghai. It was previously known as KSV Esports and was ranked by Forbes as the eighth most valuable esports organization in the world as of May 2022."
+    },
+    "external-lol-org-giantx": {
+      "name": "GIANTX",
+      "overview": "GIANTX is a European esports organisation created on 14 December 2023 through a merger of Excel Esports and Giants Gaming. It runs two League of Legends divisions, one in the LEC and an academy team in the second tier."
+    },
+    "external-lol-org-ground-zero-gaming": {
+      "name": "Ground Zero Gaming",
+      "overview": "Ground Zero Gaming (GZ) is an Australian esports organisation with professional teams in Counter-Strike 2, League of Legends and Rocket League. Its League of Legends team is based in Taiwan and competes in the League of Legends Championship Pacific, and the organisation also hosts esports tournaments in Australia."
+    },
+    "external-lol-org-hanwha-life-esports": {
+      "name": "Hanwha Life Esports",
+      "overview": "Hanwha Life Esports (HLE) is a South Korean esports organization based in Seoul and owned by Hanwha Life Insurance, with teams in League of Legends and Kart Rider. In mid-2018 it acquired the League of Legends team and LCK spot of the org-less team Tigers, runners-up at the 2015 World Championship."
+    },
+    "external-lol-org-invictus-gaming": {
+      "name": "Invictus Gaming",
+      "overview": "Invictus Gaming (IG) is a Chinese multi-game esports organization founded in 2011 by the businessman Wang Sicong. Its Dota 2 team won The International 2012 and its League of Legends team won the 2018 World Championship."
+    },
+    "external-lol-org-jd-gaming": {
+      "name": "JD Gaming",
+      "overview": "JD Gaming (JDG) is a Chinese professional esports organization based in Beijing. It was formed on 20 May 2017 after the e-commerce company JD.com acquired an LPL spot, and runs a main League of Legends roster in the LPL and an academy roster, Joy Dream, in the LDL."
+    },
+    "external-lol-org-karmine-corp": {
+      "name": "Karmine Corp",
+      "overview": "Karmine Corp is a French professional esports organization headquartered in Paris. It was founded as Kameto Corp on 30 March 2020 by the Twitch streamers Kamel \"Kameto\" Kebir and Zouhair \"Kotei\" Darji, and has divisions in League of Legends, TrackMania, Teamfight Tactics, Super Smash Bros. Ultimate, Valorant and Rocket League."
+    },
+    "external-lol-org-keyd-stars": {
+      "name": "Keyd Stars",
+      "overview": "Keyd Stars is a Brazilian esports organization generally dated to 2010. The current entity came from the November 2022 merger of Vivo Keyd and Stars Horizon, which created Vivo Keyd Stars, and its League of Legends team competes in the CBLOL."
+    },
+    "external-lol-org-kt-rolster": {
+      "name": "KT Rolster",
+      "overview": "KT Rolster is a South Korean multi-gaming organization founded in 1999 with Korea Telecom as its head sponsor. It holds one of the most successful StarCraft teams in history as well as one of the most successful League of Legends teams in Korea."
+    },
+    "external-lol-org-leviatan": {
+      "name": "Leviatán",
+      "overview": "Leviatán is an esports organization founded by Fernando \"F10\" Diez, whose first official match was played on November 10, 2020. Its League of Legends team reached the LLA in 2024 by taking over a vacated spot after the Opening split."
+    },
+    "external-lol-org-lgd-gaming": {
+      "name": "LGD Gaming",
+      "overview": "LGD Gaming is a Chinese professional esports organization based in Hangzhou and one of the oldest in China. It has players in Dota 2, Honor of Kings, League of Legends, Overwatch and PUBG, and its Dota 2 team reached the grand finals of The International 2018 and 2021."
+    },
+    "external-lol-org-lng-esports": {
+      "name": "LNG Esports",
+      "overview": "LNG Esports is a Chinese professional esports organization based in Suzhou. It was known as Snake Esports from its creation in 2013 until sportswear company Li-Ning acquired it in 2019, and its main League of Legends team plays in the LPL."
+    },
+    "external-lol-org-los": {
+      "name": "LOS",
+      "overview": "LOS, formerly Los Grandes and briefly LOS + oNe, is a Brazilian professional esports organization whose lineage reaches back to the Team oNe banner that won the 2017 CBLOL. After spending 2025 in the second-tier Circuito Desafiante, it returned to the CBLOL as a guest team for 2026."
+    },
+    "external-lol-org-loud": {
+      "name": "LOUD",
+      "overview": "LOUD is a Brazilian esports organization founded in 2019 with teams in Free Fire, League of Legends, Valorant and Brawl Stars. It has the largest following on social media of any esports organization in Brazil, and its Valorant team won the 2022 Valorant Champions."
+    },
+    "external-lol-org-lyon": {
+      "name": "LYON",
+      "overview": "LYON, formerly Lyon Gaming and Rainbow7, is a Mexican League of Legends organization founded in early 2013 by Karzek, FraGio and Nikez. After competing as Rainbow7 from 2018 to 2024 it rebranded back to Lyon Gaming through a merger with Six Karma and later became LYON, moving into North America's LCS."
+    },
+    "external-lol-org-maryville-university": {
+      "name": "Maryville University",
+      "overview": "Maryville University is a university esports program whose League of Legends roster competes in the NACL, the second tier of North America's League of Legends ecosystem."
+    },
+    "external-lol-org-movistar-koi": {
+      "name": "Movistar KOI",
+      "overview": "KOI, known as Movistar KOI for sponsorship reasons, is a Spanish professional esports organization owned by OverActive Media. It was founded on 15 December 2021 by the streamer Ibai Llanos and the former footballer Gerard Pique."
+    },
+    "external-lol-org-mvk-esports": {
+      "name": "MVK Esports",
+      "overview": "MVK Esports is a Vietnamese professional League of Legends team competing in the League of Legends Championship Pacific. Founded in 2016 as Young Generation, it has been through several rebrands and qualified for the World Championship in 2017, 2018, 2022 and 2026."
+    },
+    "external-lol-org-natus-vincere": {
+      "name": "Natus Vincere",
+      "overview": "Natus Vincere, commonly abbreviated NAVI, is a Ukrainian esports organization based in Kyiv. Founded in 2009, its name is Latin for \"born to win\", and it fields teams in Counter-Strike 2, Dota 2, FIFA, Valorant and League of Legends, among other titles."
+    },
+    "external-lol-org-ninjas-in-pyjamas": {
+      "name": "Ninjas in Pyjamas",
+      "overview": "Ninjas in Pyjamas (NIP) is a professional esports organisation based in Sweden, best known for its Counter-Strike teams. It reformed in 2012 with a Counter-Strike: Global Offensive lineup and also has teams in Valorant, Rainbow Six Siege, FIFA, Rocket League and League of Legends."
+    },
+    "external-lol-org-nongshim-redforce": {
+      "name": "Nongshim RedForce",
+      "overview": "Nongshim RedForce is a South Korean esports organization owned by the food and beverage company Nongshim, its name and logo a reference to the Shin Ramyun noodle brand. It started as a League of Legends team before branching out into other esports."
+    },
+    "external-lol-org-nrg": {
+      "name": "NRG",
+      "overview": "NRG Esports is an American esports organization based in Los Angeles, California, with rosters in Overwatch, Rocket League, Valorant, Counter-Strike 2, Apex Legends, League of Legends and Marvel Rivals, as well as Twitch streamers."
+    },
+    "external-lol-org-oh-my-god": {
+      "name": "Oh My God",
+      "overview": "OMG, short for Oh My God, is a Chinese esports organization. Its League of Legends division was formed in May 2012, competes in the LPL, and first appeared at the World Championship in 2013."
+    },
+    "external-lol-org-pain-gaming": {
+      "name": "paiN Gaming",
+      "overview": "paiN Gaming is a Brazilian esports organization founded in March 2010 by Arthur Zarzur, a former professional Dota player. It is best known for its League of Legends team, which has competed in the CBLOL since 2012, and was the first esports organization in Latin America to have a gaming house."
+    },
+    "external-lol-org-red-canids": {
+      "name": "RED Canids",
+      "overview": "RED Canids, competing as RED Canids Kalunga through a title sponsorship with the Brazilian stationery retailer Kalunga, is a Brazilian esports organization. Its history begins with INTZ Red, a team acquired by a group of investors in December 2015 that was soon rebranded as RED Canids."
+    },
+    "external-lol-org-secret-whales": {
+      "name": "Secret Whales",
+      "overview": "Secret Whales is a Vietnamese League of Legends team formed as a joint venture between the European organization Team Secret and the Vietnamese organization Team Whales. The union was announced in December 2024, and the team played its first match on January 18, 2025."
+    },
+    "external-lol-org-sentinels": {
+      "name": "Sentinels",
+      "overview": "Sentinels is an American esports organization based in Los Angeles, California. It was founded as the League of Legends team Phoenix1 and rebranded to Sentinels in June 2018, and now fields teams in League of Legends, Valorant, Apex Legends, Marvel Rivals and Halo."
+    },
+    "external-lol-org-shifters": {
+      "name": "Shifters",
+      "overview": "Shifters is a Swiss esports organization with rosters in League of Legends and Rainbow Six Siege, created in 2018 as Team BDS. It rebranded to Shifters in December 2025 after a new CEO was appointed and a move of its headquarters to Geneva was planned, and its League of Legends team plays in the LEC."
+    },
+    "external-lol-org-shopify-rebellion": {
+      "name": "Shopify Rebellion",
+      "overview": "Shopify Rebellion is a Canadian esports organization founded in February 2021 by the e-commerce company Shopify. It has rosters in Apex Legends, Dota 2, League of Legends, Rainbow Six Siege, Valorant and several other titles, and is co-owned by Shopify, Charles \"MoistCr1tikal\" White Jr. and Ludwig Ahgren."
+    },
+    "external-lol-org-sk-gaming": {
+      "name": "SK Gaming",
+      "overview": "SK Gaming is a professional esports organization based in Germany, particularly known for its success in Counter-Strike. It began in 1997 as a small group of Quake players in Oberhausen under the name Schrot Kommando."
+    },
+    "external-lol-org-softbank-hawks-gaming": {
+      "name": "SoftBank HAWKS gaming",
+      "overview": "SoftBank HAWKS Gaming (SHG) is the esports team of the Fukuoka SoftBank Hawks baseball club, with SoftBank Corp. and its subsidiary BBIX as major sponsors. Its League of Legends team has competed in the Japanese league since 2020, won its first title in the LJL 2024 Spring Split, and signed a memorandum of understanding with T1 in 2024."
+    },
+    "external-lol-org-soopers": {
+      "name": "SOOPers",
+      "overview": "DN SOOPers is a South Korean League of Legends organization with a history of sponsor-driven rebrands. It began as Rebels Anarchy, became Afreeca Freecs on December 29, 2015, then Kwangdong Freecs and DN Freecs, and took its current name in December 2025 when AfreecaTV became SOOP, the platform that owns the team."
+    },
+    "external-lol-org-t1": {
+      "name": "T1",
+      "overview": "T1, formerly SK Telecom T1, is a South Korean esports organization operated by T1 Entertainment & Sports, a joint venture between SK Telecom and Comcast Spectacor. The team began in 2002 as Team Orion, founded by the StarCraft player Lim \"BoxeR\" Yo-hwan, and SK Telecom started sponsoring it in April 2004."
+    },
+    "external-lol-org-team-heretics": {
+      "name": "Team Heretics",
+      "overview": "Team Heretics is a Spanish esports organization founded on 24 August 2016 and based in Madrid. It fields professional teams in League of Legends, Valorant, Rainbow Six Siege, Brawl Stars, Marvel Rivals and other titles."
+    },
+    "external-lol-org-team-liquid": {
+      "name": "Team Liquid",
+      "overview": "Team Liquid is a multi-regional professional esports organization based in the Netherlands, founded in 2000. It signed its first professional players with the release of StarCraft II, acquired a Dota 2 team in 2012, and merged with Team Curse in January 2015."
+    },
+    "external-lol-org-team-vitality": {
+      "name": "Team Vitality",
+      "overview": "Team Vitality is a French esports club founded in 2013, with teams in ten PC and console titles including League of Legends, Valorant, Counter-Strike 2 and Rocket League, plus mobile titles under the Bee Vitality name."
+    },
+    "external-lol-org-team-we": {
+      "name": "Team WE",
+      "overview": "Team WE, formerly known as World Elite, is a Chinese esports organisation based in Xi'an and one of the oldest esports organisations in China."
+    },
+    "external-lol-org-thundertalk-gaming": {
+      "name": "ThunderTalk Gaming",
+      "overview": "ThunderTalk Gaming, or TT Esports, is a Chinese esports organization with teams in League of Legends, Honor of Kings, PUBG Mobile, Wild Rift and Valorant Mobile. Its League of Legends team competes in the LPL, and the organization is a core business division of Quwan Group."
+    },
+    "external-lol-org-top-esports": {
+      "name": "Top Esports",
+      "overview": "Top Esports, previously Topsports Gaming, is a Chinese esports organization founded on 21 December 2017 by the athletic apparel company Topsports. Its League of Legends team competes in the LPL."
+    },
+    "external-lol-org-ultra-prime": {
+      "name": "Ultra Prime",
+      "overview": "Ultra Prime is a Chinese professional esports franchise owned by Nenking, whose League of Legends team competes in the LPL."
+    },
+    "external-lol-org-university-of-mississippi": {
+      "name": "University of Mississippi",
+      "overview": "The University of Mississippi esports program fields a League of Legends roster in the NACL, the second tier of North America's League of Legends ecosystem."
+    },
+    "external-lol-org-weibo-gaming": {
+      "name": "Weibo Gaming",
+      "overview": "Weibo Gaming is a Chinese esports organization owned by the Weibo Corporation. Its League of Legends team competes in the LPL and was previously known as Suning, under its former owner, the e-commerce company Suning.com."
+    },
+    "external-lol-org-winthrop-university": {
+      "name": "Winthrop University",
+      "overview": "Winthrop University is a public university in Rock Hill, South Carolina, whose esports program fields a League of Legends roster in the NACL, the second tier of North America's League of Legends ecosystem."
+    },
+    "external-org-100-thieves": {
+      "name": "100 Thieves",
+      "overview": "100 Thieves is an American lifestyle brand and gaming organization based in Los Angeles, California, founded in 2017 by Matthew \"Nadeshot\" Haag. It competes in Apex Legends, Call of Duty, Counter-Strike 2, Rainbow Six Siege, Marvel Rivals and Valorant."
+    },
+    "external-org-1win": {
+      "name": "1win",
+      "overview": "1win is a Russian esports organization founded by the bookmaker 1win that began in Counter-Strike in early 2020. Its Counter-Strike team peaked at 16th in the world rankings in September 2023 and won Moscow Cyber Games 2026."
+    },
+    "external-org-alliance": {
+      "name": "Alliance",
+      "overview": "Alliance is a professional gaming and esports organization based in Sweden, formed in April 2013. It became player-owned in December 2016, and its Dota 2 team won The International 2013."
+    },
+    "external-org-astralis": {
+      "name": "Astralis",
+      "overview": "Astralis is a Danish esports organization best known for its Counter-Strike teams, with additional rosters in FIFA. Its parent, Astralis Group, became the first esports organization to hold an initial public offering and was listed on the Copenhagen Stock Exchange."
+    },
+    "external-org-aurora": {
+      "name": "Aurora",
+      "overview": "Aurora Gaming is an esports organization founded in Serbia in 2022, with professional rosters in Apex Legends, Counter-Strike 2, Dota 2, Warcraft III, Free Fire, Valorant and Mobile Legends: Bang Bang."
+    },
+    "external-org-bc-game": {
+      "name": "BC.Game",
+      "overview": "BC.Game Esports is the esports team of the online casino brand BC.Game, which entered Counter-Strike 2 in June 2024. It signed s1mple from Natus Vincere in July 2025 and added three players from the Portuguese team SAW in January 2026."
+    },
+    "external-org-bestia": {
+      "name": "BESTIA",
+      "overview": "BESTIA is an Argentine Counter-Strike 2 organization that competes in the South American region. It was formed in early 2023, won the CBCS 2023 Season 2 final, and qualified for the BLAST Austin Major 2025 before being replaced by Legacy because of player visa problems."
+    },
+    "external-org-betboom": {
+      "name": "BetBoom",
+      "overview": "BetBoom Team is a Russian esports club founded in 2022 with divisions in Dota 2, Counter-Strike 2 and PUBG. It won BLAST Slam I on December 1, 2024, its first Tier-1 title."
+    },
+    "external-org-big": {
+      "name": "BIG",
+      "overview": "BIG, short for Berlin International Gaming, is a German esports organization based in Berlin and founded in 2017. It runs teams in Counter-Strike 2, League of Legends, Fortnite and Trackmania, plus an academy."
+    },
+    "external-org-chinggis-warriors": {
+      "name": "Chinggis Warriors",
+      "overview": "Chinggis Warriors is a Mongolian Counter-Strike team founded in late 2023. It competes in the Southeast Asia and Oceania region, won MESA League Season 4, and is separate from the older Mongolian organization The MongolZ."
+    },
+    "external-org-dendele": {
+      "name": "DENDELE",
+      "overview": "DENDELE CS is a Brazilian Counter-Strike team that rebranded in July 2026 from Sharks Esports after a partnership with DENDELE FC, a club in Kings League Brazil. The roster, which has competed in Counter-Strike since 2017, and its tournament slot remained unchanged."
+    },
+    "external-org-envy": {
+      "name": "Envy",
+      "overview": "Envy, formerly Team Envy, is an American esports franchise based in Dallas, Texas. It was founded in 2007 as the Call of Duty team Team EnVyUs and later merged with OpTic Gaming."
+    },
+    "external-org-eternal-fire": {
+      "name": "Eternal Fire",
+      "overview": "Eternal Fire is a Turkish esports organization founded on 13 August 2021 with teams in Counter-Strike 2 and Valorant."
+    },
+    "external-org-eyeballers": {
+      "name": "EYEBALLERS",
+      "overview": "EYEBALLERS is a Swedish Counter-Strike organization with roots in 1998 that was revived in 2022 by the three-time Major winners Jesper \"JW\" Wecksell and Robin \"flusha\" Ronnquist. It focuses only on Counter-Strike, is based in Avesta, Sweden, and has signed the two-time Major champion Freddy \"KRiMZ\" Johansson."
+    },
+    "external-org-falcons": {
+      "name": "Falcons",
+      "overview": "Team Falcons, formerly Falcons Esports, is a Saudi esports organization founded in 2017 that fields rosters in multiple titles. It has built a reputation for signing high-profile players and coaches, and won the Esports World Cup Club Championship in 2024 and 2025."
+    },
+    "external-org-faze": {
+      "name": "FaZe",
+      "overview": "FaZe Clan is a professional esports and former entertainment brand founded on May 30, 2010 as FaZe Sniping. In October 2023 its parent company FaZe Holdings was acquired by GameSquare, and in May 2024 the esports business was spun off."
+    },
+    "external-org-fut": {
+      "name": "FUT",
+      "overview": "FUT Esports is a Turkish esports organization based in Istanbul, formerly known as Futbolist. It began in 2014 as a sports news app by Cesur Sunnetcioglu, moved into esports with a FIFA team in 2017, and entered Counter-Strike 2 in 2025."
+    },
+    "external-org-gamerlegion": {
+      "name": "GamerLegion",
+      "overview": "GamerLegion is a German professional esports organization based in Stuttgart and founded in 2017, with teams in Age of Empires II, Counter-Strike 2 and Tekken 8. Its Counter-Strike team reached the grand final of the BLAST Paris Major 2023."
+    },
+    "external-org-heroic": {
+      "name": "HEROIC",
+      "overview": "Heroic is a Norwegian esports organization with teams in Counter-Strike 2 and Dota 2, best known for its Counter-Strike team. That team placed second at the IEM Rio Major 2022 and reached the playoffs of several other Majors."
+    },
+    "external-org-imperial": {
+      "name": "Imperial",
+      "overview": "Gamdom Imperial, formerly Imperial Esports, is a Brazilian professional esports organization sponsored by the online casino Gamdom. It is best known for its Counter-Strike team, whose 2022 lineup was nicknamed \"The Last Dance\" ahead of the Rio 2022 Major."
+    },
+    "external-org-jijiehao": {
+      "name": "JiJieHao",
+      "overview": "JiJieHao is a Chinese Counter-Strike organization that began competing in August 2019 and grew from a local tag into an international project. It now competes in the Southeast Asia and Oceania region."
+    },
+    "external-org-lag": {
+      "name": "LAG",
+      "overview": "Life's A Game (LAG) is an American esports organization founded in September 2019. Its Counter-Strike team competes in North America and has played professionally since August 2021."
+    },
+    "external-org-legacy": {
+      "name": "Legacy",
+      "overview": "Legacy is a Brazilian Counter-Strike organization founded in August 2023 after the Brazilian division of 00 Nation split apart. It competes in the North American region and reached the semifinals at the Esports World Cup."
+    },
+    "external-org-luminosity": {
+      "name": "Luminosity",
+      "overview": "Luminosity Gaming is a North American professional esports organization founded in Canada by Steve \"Buyaka\" Maida in 2015 and based in Toronto, Ontario. It has teams in Counter-Strike 2, Call of Duty, Overwatch, Rainbow Six Siege and other titles."
+    },
+    "external-org-m80": {
+      "name": "M80",
+      "overview": "M80 is an American esports organization founded on December 8, 2022 by Nate Schanker and Marco Mereu. It began in Valorant, entered Counter-Strike in 2023, qualified for ESL Pro League Season 21 and acquired the organization beastcoast."
+    },
+    "external-org-marsborne": {
+      "name": "Marsborne",
+      "overview": "Marsborne is a North American Counter-Strike 2 organization that emerged in early 2025, taking over the ESL Challenger League slot of Undone with a roster built around motm and chop. It won its first trophy at a Dust2.us Eagle Masters series event."
+    },
+    "external-org-metizport": {
+      "name": "Metizport",
+      "overview": "Metizport is a Counter-Strike 2 organization with Swedish and Norwegian ties, competing in the European region. It has fielded 39 players over its history, among them nilo, susp and Lekr0, and climbed from 109th to around 60th in the rankings during the first half of 2026."
+    },
+    "external-org-mibr": {
+      "name": "MIBR",
+      "overview": "Made in Brazil, abbreviated MIBR, is a professional esports organization with players in Counter-Strike 2, Rainbow Six Siege, Valorant and Rocket League. It was founded on March 1, 2003 in Rio de Janeiro by the businessman Paulo Velloso, dissolved in 2012 and returned in March 2016."
+    },
+    "external-org-mouz": {
+      "name": "MOUZ",
+      "overview": "MOUZ, formerly mousesports, is a professional esports organisation based in Germany. It fields teams in several games, is particularly known for its Counter-Strike 2 team, and was a founding member of the G7 Teams."
+    },
+    "external-org-nemiga": {
+      "name": "Nemiga",
+      "overview": "Nemiga Gaming is a Belarusian esports organization founded in June 2017, with teams in Counter-Strike, Dota 2 and PUBG and a youth division, Nemiga Academy. It has been based in Cyprus since 2025."
+    },
+    "external-org-og": {
+      "name": "OG",
+      "overview": "OG is a professional esports organisation based in Europe and Southeast Asia, formed in 2015. It is best known for its Dota 2 team, which won The International in 2018 and 2019, and it also fields teams in Counter-Strike 2, Rocket League and Honor of Kings."
+    },
+    "external-org-parivision": {
+      "name": "PARIVISION",
+      "overview": "PARIVISION is a Russian-led esports organization formed in 2023 and backed by the betting and technology company PARI. It entered Counter-Strike in September 2023, won BLAST Bounty Winter 2026, and launched a youth team, NEW VISION, in April 2026."
+    },
+    "external-org-saw": {
+      "name": "SAW",
+      "overview": "SAW is a Portuguese esports organization whose Counter-Strike team formed in early 2020 from players released by Giants Gaming. It became the first Portuguese team to qualify for a Major, at PGL Major Copenhagen, and also fields teams in Valorant and League of Legends."
+    },
+    "external-org-sinners": {
+      "name": "SINNERS",
+      "overview": "SINNERS Esports is a Czech Counter-Strike organization whose first official match was on January 7, 2020. It reached a peak world ranking of 14th in March 2021 and also runs an academy team."
+    },
+    "external-org-spirit": {
+      "name": "Spirit",
+      "overview": "Team Spirit is an esports organization founded in 2015 and now based in Belgrade, Serbia, after relocating in 2022. Its Dota 2 team won The International in 2021 and 2023, and its Counter-Strike division won the Perfect World Shanghai Major 2024."
+    },
+    "external-org-the-mongolz": {
+      "name": "The MongolZ",
+      "overview": "The MongolZ is a Mongolian esports organization founded in 2013 with rosters in Counter-Strike 2, Dota 2, Mobile Legends: Bang Bang, PUBG Mobile and Chess. Its Counter-Strike team won IEM Season X Taipei in 2016 and the 2025 Esports World Cup, and finished as runner-up at the BLAST Austin Major 2025."
+    },
+    "external-org-tyloo": {
+      "name": "TYLOO",
+      "overview": "TYLOO is a Chinese esports organization widely regarded as a pioneer of the Chinese Counter-Strike scene, competing first in Counter-Strike 1.6 and later in CS:GO. In July 2025 it won FISSURE Playground 1, its first tier-S title, beating Astralis 3-1."
+    },
+    "external-org-wildcard": {
+      "name": "Wildcard",
+      "overview": "Wildcard is a Houston-based esports organization founded in April 2017, formerly styled Wildcard Gaming. It has competed in Rainbow Six Siege, Dota 2 and Rocket League, and now focuses mostly on Rainbow Six Siege and Counter-Strike 2."
+    },
+    "external-org-without-a-roof": {
+      "name": "Without a Roof",
+      "overview": "Without a Roof is a Counter-Strike team formed in 2026 when Stewie2K, autimatic and Skadoodle reunited as an org-less roster, joined by Brehze and CeRq. The team won the ESEA Season 58 North America final while seeking an organization to back it."
+    }
+  },
+  "tier2Teams": {
+    "tier2-circuito-desafiante-7rex": {
+      "overview": "7REX is a Brazilian League of Legends organization that competes in the Circuito Desafiante. Its first official match was on September 15, 2025."
+    },
+    "tier2-circuito-desafiante-ei-nerd-esports": {
+      "overview": "Ei Nerd Esports is an esports organization whose League of Legends roster competes in the Circuito Desafiante, the second tier of Brazilian League of Legends."
+    },
+    "tier2-circuito-desafiante-estral-esports": {
+      "overview": "Estral Esports is a Mexican League of Legends organization whose first official match was on October 19, 2019. It won Super Copa Norte in November 2019, created the women's team Estral Esports Aurora through the acquisition of FS Gaming, and partnered with Isurus as Isurus Estral from late 2024 until mid-2025."
+    },
+    "tier2-circuito-desafiante-intz": {
+      "overview": "INTZ is a Brazilian multi-game organization that started in June 2014 and built its reputation in the CBLOL, where it won several titles and qualified for the 2019 Mid-Season Invitational. It left competition in 2025 after losing its slot, and was acquired by Hivescale in January 2026."
+    },
+    "tier2-circuito-desafiante-kabum-idl": {
+      "overview": "KaBuM! e-Sports is a Brazilian esports organization founded by the KaBuM! e-commerce company, with a League of Legends line-up dating back to 2013. Its team won the first stage of the 2014 Brazilian League of Legends Championship, now the CBLOL."
+    },
+    "tier2-circuito-desafiante-rmd-gaming": {
+      "overview": "RMD Gaming is an esports organization whose League of Legends roster competes in the Circuito Desafiante, the second tier of Brazilian League of Legends."
+    },
+    "tier2-circuito-desafiante-vks-academy": {
+      "overview": "VKS Academy is the youth roster of an esports organization whose League of Legends team competes in the Circuito Desafiante, the second tier of Brazilian League of Legends."
+    },
+    "tier2-emea-masters-anubis-gaming": {
+      "overview": "Anubis Gaming is an Egyptian esports organization that competes in the Middle East and North Africa region. Its League of Legends team debuted on October 19, 2019, and won the Arabian League 2026 Spring, earning a place in the EMEA Masters."
+    },
+    "tier2-emea-masters-g2-nord": {
+      "overview": "G2 Esports is a European esports organization headquartered in Berlin, Germany. It was founded in Spain on 24 February 2014 as Gamers2 by the former League of Legends professional Carlos \"ocelote\" Rodriguez Santiago and the investor Jens Hilgers."
+    },
+    "tier2-emea-masters-galions": {
+      "overview": "Galions is a French esports organization, previously known as Team GO and, before that, GamersOrigin, under which names it won back-to-back LFL titles in 2020. As Galions it won its first LFL title in the 2026 Summer Playoffs, beating TLN Pirates 3-1, and won the EMEA Masters in 2026 Spring and Summer."
+    },
+    "tier2-emea-masters-karmine-corp-blue": {
+      "overview": "Karmine Corp is a French professional esports organization headquartered in Paris. It was founded as Kameto Corp on 30 March 2020 by the Twitch streamers Kamel \"Kameto\" Kebir and Zouhair \"Kotei\" Darji."
+    },
+    "tier2-emea-masters-kaufland-hangry-knights": {
+      "overview": "Kaufland Hangry Knights is a German League of Legends team created by the supermarket chain Kaufland. After a recruitment drive in late 2021 drew more than 500 applicants, five players were selected in early 2022 and given a gaming house and scholarship in the fourth division of the Prime League, and the team reached the first division in 2024."
+    },
+    "tier2-emea-masters-movistar-koi-fenix": {
+      "overview": "KOI, known as Movistar KOI for sponsorship reasons, is a Spanish professional esports organization owned by OverActive Media. It was founded on 15 December 2021 by the streamer Ibai Llanos and the former footballer Gerard Pique."
+    },
+    "tier2-emea-masters-solary": {
+      "overview": "Solary is a French esports organization based in Tours, with a League of Legends team in the LFL since the league's creation. In 2026 it won its first LFL title after 16 splits, beating Galions 3-0 in the Winter Invitational final, and qualified for the EMEA Masters for the first time."
+    },
+    "tier2-emea-masters-tln-pirates": {
+      "overview": "TLN Pirates is a French League of Legends organization that competes in the LFL, the country's top domestic league, and reached the 2026 Summer final."
+    },
+    "tier2-lcp-challengers-ewh": {
+      "overview": "EWH is an esports organization whose League of Legends roster competes in the LCP Challengers, the second tier of the Asia-Pacific League of Legends ecosystem."
+    },
+    "tier2-lcp-challengers-frank-esports": {
+      "overview": "Frank Esports is a Hong Kong professional League of Legends team that has competed in the Pacific Championship Series."
+    },
+    "tier2-lcp-challengers-reignfall": {
+      "overview": "Reignfall is an esports organization whose League of Legends roster competes in the LCP Challengers, the second tier of the Asia-Pacific League of Legends ecosystem."
+    },
+    "tier2-lcp-challengers-rogersama": {
+      "overview": "RogerSaMa is an esports organization whose League of Legends roster competes in the LCP Challengers, the second tier of the Asia-Pacific League of Legends ecosystem."
+    },
+    "tier2-lcp-challengers-sillysilly-gaming": {
+      "overview": "SillySilly Gaming is an esports organization whose League of Legends roster competes in the LCP Challengers, the second tier of the Asia-Pacific League of Legends ecosystem."
+    },
+    "tier2-lcp-challengers-sponge-gaming": {
+      "overview": "Sponge Gaming is an esports organization whose League of Legends team competes in the Pacific Championship Series and fields a roster in the LCP Challengers."
+    }
+  }
+}

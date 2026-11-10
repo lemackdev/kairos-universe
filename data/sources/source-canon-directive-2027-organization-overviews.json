@@ -1,0 +1,15 @@
+{
+  "id": "source-canon-directive-2027-organization-overviews",
+  "slug": "source-canon-directive-2027-organization-overviews",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Organization overviews for external League of Legends and Counter-Strike teams",
+  "path": "docs/canon/ORGANIZATION_OVERVIEWS_2027.md",
+  "locator": "Wikipedia introductions and public esports reporting, retrieved 2026-11-09",
+  "publicLabel": "Kairos Universe canon directive: organization overviews",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Each overview is written only from facts found in Wikipedia introductions or public esports reporting."
+  ]
+}

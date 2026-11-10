@@ -1,5 +1,10 @@
 # Canon Changelog
 
+## 0.30.0 - Organization overviews
+
+- Added overviews for 107 external organizations and 21 Tier 2 teams, written from Wikipedia and public esports reporting.
+- Team pages now open with the organization overview in place of the generated scope text; the CS Roster freeze section was removed.
+
 ## 0.29.0 - Counter-Strike player roles
 
 - Added roles for 250 Counter-Strike 2 players from the HLTV role icons: 46 AWPers, 41 IGL / Riflers, 4 IGL / AWPers and 159 Riflers.

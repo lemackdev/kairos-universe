@@ -6,7 +6,7 @@ import { getCatalog } from "@/lib/canon/server";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { sceneTeamOrganizationLite, sceneTeamToTeamView, tier2TeamToTeamView } from "@/lib/external/teamView";
 import { tier2LogoOrgSlug } from "@/lib/tier2Logos";
-import { csExternalTeams, csOrganizationSlugOf, findRegionalStatus, findTier2Team, legalNameOf, listAllTier2Teams, nationalitiesOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
+import { csExternalTeams, csOrganizationSlugOf, findRegionalStatus, findTier2Team, legalNameOf, listAllTier2Teams, nationalitiesOf, organizationOverviewOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
 import { formatDate } from "@/lib/formatting/date";
 import type { RosterEntryView } from "@/types/catalog";
 
@@ -50,7 +50,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
       team={tier2TeamToTeamView(tier2Team, roster ?? [], parent?.organizationId ?? "")}
       organization={parent && scene ? sceneTeamOrganizationLite(parent, scene) : undefined}
       logo={logoPath ? <img src={logoPath} alt={`${tier2Team.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} /> : undefined}
-      overview={<p><strong>{tier2Team.name}</strong> competes in the {tier2Team.ecosystem} for the 2027 season, a Tier 2 regional ecosystem with eight confirmed participants. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately. </> : null}<Link href="/wiki/world">Scope and source limitations</Link>.</p>}
+      overview={organizationOverviewOf(catalog.worldState2027, parent?.organizationId, tier2Team.teamId) ? <p>{organizationOverviewOf(catalog.worldState2027, parent?.organizationId, tier2Team.teamId)}</p> : <p><strong>{tier2Team.name}</strong> competes in the {tier2Team.ecosystem} for the 2027 season, a Tier 2 regional ecosystem with eight confirmed participants. {parent ? <>It is recorded as a distinct competitive entity from its parent organization, <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link>, whose own Tier 1 membership and roster are tracked separately. </> : null}<Link href="/wiki/world">Scope and source limitations</Link>.</p>}
     />;
   }
   if (!team && reference && catalog.externalScene) {
@@ -67,7 +67,9 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
       team={sceneTeamToTeamView(reference, scene, sets2027, catalog.worldState2027)}
       organization={sceneTeamOrganizationLite(reference, scene)}
       logo={logoPath && <img src={logoPath} alt={`${reference.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />}
-      overview={has2027Lineup
+      overview={organizationOverviewOf(catalog.worldState2027, reference.organizationId)
+        ? <p>{organizationOverviewOf(catalog.worldState2027, reference.organizationId)}</p>
+        : has2027Lineup
         ? <p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) organization. Its 2027 starting lineup was confirmed {lineupSet!.confirmedBy ? <>as of {formatDate(lineupSet!.confirmedBy)}</> : <>in the January 2027 reconstruction period (exact date not established)</>}; no signing dates or contract terms are established. The roster observed at the {event.title}, which ended {formatDate(event.eventEndDate)}, is retained as the 2026 reference. <Link href="/wiki/world">Scope and source limitations</Link>.</p>
         : <p><strong>{reference.name}</strong> is a {reference.league} ({reference.region}) roster referenced in Kairospedia&rsquo;s pre-Worlds 2026 real-world reference collection. Roster membership reflects the {event.title}, which ended {formatDate(event.eventEndDate)}; it is not a live roster, a current contract list, or a Kairos narrative event. <Link href="/wiki/world">Scope and source limitations</Link>.</p>}
       extraFacts={regionalStatus ? [

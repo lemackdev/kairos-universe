@@ -1,0 +1,67 @@
+{
+  "id": "tarik-kairos-cs-academy-head-coach",
+  "slug": "tarik-kairos-cs-academy-head-coach",
+  "realName": "TBD",
+  "nickname": "Tarik",
+  "nationality": "TBD",
+  "role": "Head Coach",
+  "division": "Counter-Strike",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-cs-academy",
+  "status": "active",
+  "firstAppearance": "episode-117",
+  "joinedKairos": "2027-01-28",
+  "realWorldFigure": false,
+  "formerPlayingCareer": "Former professional Counter-Strike player; teams, dates and achievements are not stated.",
+  "coachingPhilosophy": "Develop the five existing Academy players as a team before judging results, keep what already works from the previous coaching work and change only what needs to improve.",
+  "responsibilities": [
+    "Serve as Head Coach of Kairos Academy Green.",
+    "Train the five Academy players day to day.",
+    "Work with Trace's development methodology and with Luk, Head Coach of Kairos Gaming."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "kairos-cs-academy",
+      "type": "head-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ethan-trace-miller",
+      "type": "development-coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lukas-luk-novak",
+      "type": "coach",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "jake-stewie2k-yip",
+      "type": "coach",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [
+    "Understand what works and what does not in the Academy before changing it.",
+    "Develop the Academy players as a team before any concern with results."
+  ],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Episode 117 (2027-01-28): Tarik, already in contact with Kairos and told of Stewie2K's plans, asks Adrian and Emily about autonomy and the Academy's development goals, accepts the position of Head Coach of Kairos Academy Green on a 19:12 video call and is introduced to the Academy and Main players at 20:06."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Tarik is the Head Coach of Kairos Academy Green, appointed on 2027-01-28 after Stewie2K announced his departure.",
+    "Trace remains Development Coach and Luk remains Head Coach of Kairos Gaming.",
+    "He did not ask for new signings, a new roster or the replacement of any player."
+  ],
+  "unconfirmedDetails": [
+    "Real name, nationality, age, former teams, achievements, contract terms and the administrative start date are not established.",
+    "Whether the character corresponds to a real-world figure is not established."
+  ],
+  "canonNotes": [
+    "Do not invent contract terms, salary or dates for Tarik.",
+    "Tarik replaces Stewie2K as Academy Head Coach; he does not replace Trace."
+  ]
+}

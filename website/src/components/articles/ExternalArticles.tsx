@@ -5,12 +5,13 @@ import { RealWorldTeamsTable } from "./RealWorldTeamsTable";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { ExternalRosterTable } from "@/components/ExternalRosterTable";
 import { TeamRosterTable } from "@/components/TeamRosterTable";
+import { LocationValue } from "@/components/LocationValue";
 import { CsRoleIcons } from "@/components/CsRoleIcons";
 import type { RosterEntryView } from "@/types/catalog";
 import { formatDate } from "@/lib/formatting/date";
 import type { ExternalScene, SceneOrganization, ScenePlayer, SceneTeam } from "@/types/external-scene";
 import type { AddedPlayer2027, CsOrganization2027, CsPlayer2027, CsTeam2027, WorldState2027 } from "@/types/world-state-2027";
-import { csTeamsOfOrganization, findCsAssignment, findFreeAgent, findLcsAssignment, findMarketAvailability, csRoleOf, findRetirement, legalNameOf, listAllTier2Teams, nationalitiesOf, organizationOverviewOf, rosterSets, type Tier2TeamLookup } from "@/lib/external/worldState2027";
+import { csTeamsOfOrganization, findCsAssignment, findFreeAgent, findLcsAssignment, findMarketAvailability, csRoleOf, findRetirement, legalNameOf, listAllTier2Teams, nationalitiesOf, organizationOverviewOf, teamLocationOf, rosterSets, type Tier2TeamLookup } from "@/lib/external/worldState2027";
 const roleLabels = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot / ADC", support: "Support" };
 
 
@@ -28,7 +29,7 @@ export function ExternalTeamArticle({ team, scene }: { team: SceneTeam; scene: E
   const logo = externalLogoPath(organization.slug);
   return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)}
     image={logo && <img src={logo} alt={`${team.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />} groups={[
-    { title: "Team Information", rows: [{ label: "League", value: team.league }, { label: "Region", value: team.region },
+    { title: "Team Information", rows: [{ label: "League", value: team.league },
       { label: "Roster basis", value: event.title }, { label: "Event ended", value: formatDate(event.eventEndDate) },
       { label: "Review status", value: "Needs review" }, { label: "Current contracts", value: "Unknown" }] },
   ]} />}>
@@ -118,7 +119,6 @@ export function ExternalOrganizationArticle({ organization, scene, worldState }:
         { label: "Published teams", value: teams.length + csTeams.length },
         ...(academyTeams.length ? [{ label: "Academy teams", value: academyTeams.length }] : []),
         { label: "Game divisions", value: ["League of Legends", ...(csTeams.length ? ["Counter-Strike 2"] : [])].join(", ") },
-        { label: "Ownership", value: "Unknown" },
       ] }]} />}>
     <ArticleSection {...sections[0]!}>
       <p>{organization.name} is an esports organization.</p>
@@ -145,7 +145,7 @@ export function Tier2TeamArticle({ team, parent, roster }: { team: Tier2TeamLook
   const at = (title: string) => sections.find((section) => section.title === title)!;
   return <WikiArticle title={team.name} kind="Teams" game="League of Legends" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)} groups={[
     { title: "Team Information", rows: [
-      { label: "Ecosystem", value: team.ecosystem }, { label: "Tier", value: "Tier 2" }, { label: "Region", value: team.region },
+      { label: "Ecosystem", value: team.ecosystem }, { label: "Tier", value: "Tier 2" },
       { label: "Parent organization", value: parent ? <Link href={`/wiki/teams/${parent.slug}`}>{parent.name}</Link> : "None confirmed" },
     ] },
   ]} />}>
@@ -214,12 +214,16 @@ export function CsTeamArticle({ team, worldState, logo }: { team: CsTeam2027; wo
   const organizationName = team.organizationId
     ? (rosters.organizations.find((org) => org.organizationId === team.organizationId)?.name ?? team.name)
     : null;
+  const location = teamLocationOf(worldState, team.teamId);
   const players = new Map(rosters.players.map((player) => [player.playerId, player]));
   const cases = rosters.continuityCases.filter((entry) => entry.playerTeamId === team.teamId);
   const sections = ["Overview", "Starting roster", "Timeline", "Organization", "Sources"].map((title) => ({ title, id: title.toLowerCase().replaceAll(" ", "-") }));
   return <WikiArticle title={team.name} kind="Teams" game="Counter-Strike 2" sections={sections} infobox={<ArticleInfobox title={team.name} monogram={team.name.slice(0, 2)} image={logo} groups={[
-    { title: "Team Information", rows: ["Org Location", "Team Location", "Region", "Owner", "Head Coach"].map((label) => ({ label, value: "TBD" })) },
-    { title: "History", rows: [{ label: "Founded", value: "TBD" }] },
+    { title: "Team Information", rows: [
+      { label: "Org Location", value: location ? <LocationValue country={location.orgCountry} /> : "TBD" },
+      { label: "Team Location", value: location ? <LocationValue city={location.teamCity} country={location.teamCountry} /> : "TBD" },
+      { label: "Head Coach", value: location?.headCoach ?? "TBD" },
+    ] },
   ]} />}>
     <ArticleSection {...sections[0]!}>
       <p>{organizationOverviewOf(worldState, team.organizationId) ?? `${team.name} is a Counter-Strike 2 team.`}</p>
@@ -278,7 +282,7 @@ export function CsOrganizationArticle({ organization, worldState }: { organizati
   const sections = [{ id: "overview", title: "Overview" }, { id: "teams", title: "Game divisions" }, { id: "sources", title: "Sources" }];
   return <WikiArticle title={organization.name} kind="Organizations" game="Real-world reference" sections={sections}
     infobox={<ArticleInfobox title={organization.name} monogram={organization.name.slice(0, 2)} groups={[{ title: "Organization Information", rows: [
-      { label: "Origin", value: "Real-world reference" }, { label: "Game divisions", value: "Counter-Strike 2" }, { label: "Ownership", value: "Unknown" },
+      { label: "Origin", value: "Real-world reference" }, { label: "Game divisions", value: "Counter-Strike 2" },
     ] }]} />}>
     <ArticleSection {...sections[0]!}><p>{organization.name} is an esports organization with a Counter-Strike 2 division. Headquarters, ownership and staff have not been imported.</p></ArticleSection>
     <ArticleSection {...sections[1]!}><WikiTable caption="Game divisions and teams" columns={["Team", "Game", "Status"]} empty="No teams listed."

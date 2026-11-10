@@ -1,0 +1,102 @@
+{
+  "id": "episode-115",
+  "slug": "episode-115",
+  "episodeNumber": 115,
+  "title": "O Fim de Uma Era",
+  "historicalTitle": "O Fim de Uma Era",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-28",
+  "datePrecision": "exact",
+  "publicationOrder": 115,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Seoul, South Korea",
+    "Shanghai, China",
+    "São Paulo, Brazil",
+    "Taipei, Taiwan",
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "thinkcard-kairos-strategic-coach",
+    "zaqueri-aphromoo-black"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main"
+  ],
+  "summary": "On 2027-01-28 the LCK, LPL, CBLOL and LCP present their complete 2027 starting rosters under the new regional eligibility rules: thirty-two organizations and one hundred and sixty starters. The T1 reveal is the first lineup of a season without Faker, who is among thirty-two LCK retirements; thirteen LPL, ten named CBLOL and nine LCP retirements are also announced. Kairos watches from Los Angeles, Adrian asks the League staff to follow the Korean and Chinese contenders during Stage 1 without planning to face them, and ends the night worried that every rival has just built a roster while Kairos still does not know how good it is.",
+  "keyEvents": [
+    "8:12 KST — A Korean esports newsroom watches the official LCK broadcast, the eight organizations' social channels and the confirmed retirements list: thirty-two players, headed by Faker.",
+    "8:58 KST — The LCK broadcast begins; the host confirms that all eight organizations completed registration of five starters under the new eligibility system.",
+    "T1 (Siwoo, Oner, ShowMaker, Smash, Kael), Dplus (TheShy, Painter, Chovy, Peyz, Career), Gen.G Esports (Doran, Canyon, Zeka, deokdam, Namgung), Hanwha Life Esports (Zeus, Lucid, kyeahoo, Gumayusi, Effort), KT Rolster (Perfect, Kanavi, Saint, Aiming, Keria), Nongshim RedForce (Kingen, Sponge, BuLLDoG, Taeyoon, Delight), SOOPers (Thanatos, Sharvel, Poby, Berserker, Quantum) and BRION (Casting, GIDEON, Loki, Zinie, Duro) present their 2027 LCK starters; at 10:21 forty starters are confirmed and no main-roster slot remains.",
+    "10:38 CST — The LPL presents Bilibili Gaming (Bin, Xun, Creme, Assum, ON), Invictus Gaming (Breathe, Wei, Knight, Elk, Vampire), Weibo Gaming (Flandre, Weiwei, Xiaohu, JackeyLove, Jwei), Anyone's Legend (Zika, Tian, Shanks, Hope, Parukia), JD Gaming (ZUIAN, xiaofang, HongQ, JiaQi, Meiko), LNG Esports (Xiaoxu, Monki, Nia, GALA, MISSING), Top Esports (sheer, Xiaohao, Care, 1xn, Zhuo) and Oh My God (Zdz, Junhao, Tangyuan, Photic, Erha).",
+    "The thirteen LPL retirements are Rookie, Tarzan, Jiejie, Crisp, Moham, Karis, About, HOYA, Ycx, sinian, Leave, Heng and Shaoye; Keshi, Feather and fengyue remain without confirmed destinations, as do some South Korean players who left China.",
+    "12:34 PT — Adrian, Emily Chen and Thinkcard review the sixteen LCK and LPL lineups at Kairos Campus; Adrian asks the League staff to follow these organizations during Stage 1 to learn how the world will play, not because Kairos expects to face them.",
+    "18:16 BRT — The CBLOL presents its eight organizations (FURIA, Keyd Stars, paiN Gaming, LOUD, RED Canids, Fluxo W7M, LOS and Leviatán) with the ten named retirements Peach, BAO, Zest, Feisty, Keine, Hena, Mireu, Jeskla, Kaze and Momochi.",
+    "Later, in Taipei — The LCP presents CTBC Flying Oyster, Deep Cross Gaming, DetonatioN FocusMe, GAM Esports, Ground Zero Gaming, MVK Esports, SoftBank HAWKS gaming and Secret Whales; Fudge joins GAM Esports with Leaky, Gloryy, Doggo and Taki, JunJia joins SoftBank HAWKS gaming with Kiaya, Chain1, Marble and Cryogen, and nine retirements are registered, including Evi, Aria, Vsta and Fisher.",
+    "21:47 PT — Emily sends Adrian the final report: LCK, LPL, CBLOL and LCP, thirty-two organizations and one hundred and sixty starters. Aphromoo asks about Nathaniel Price's article; Adrian says it does not worry him, and that eighteen days remain until the LCS debut."
+  ],
+  "consequences": [
+    "The 2027 LCK, LPL, CBLOL and LCP starting rosters and retirement counts in the existing roster datasets are confirmed by the episode prose; no player or roster is added or changed.",
+    "Kairos's League staff is asked to follow the Stage 1 contenders in the LCK and LPL as an information exercise only."
+  ],
+  "canonIntroduced": [
+    "The public presentation of the complete 2027 LCK, LPL, CBLOL and LCP starting rosters is narrated on 2027-01-28, with the retirement counts of thirty-two, thirteen, ten (named) and nine.",
+    "T1 presents its first lineup without Faker as a player, with ShowMaker in the Mid position."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-111",
+    "episode-113",
+    "episode-114"
+  ],
+  "continuityNotes": [
+    "The rosters and retirements narrated here match data/competitive-world-overrides/lck-rosters-2027.json, lpl-rosters-2027.json, cblol-rosters-2027.json and lcp-rosters-2027.json exactly; those datasets are reused, not duplicated.",
+    "The episode mixes local times in Seoul, Shanghai, Los Angeles and São Paulo on the same calendar day; the Los Angeles meeting at 12:34 is narrated as reacting to rosters announced 'that morning' in Asia. See the continuity notes for the time-zone ambiguity reported for author review.",
+    "Tier 2 rosters are mentioned only in Episode 118; no Tier 2 roster is announced here."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Real-world League of Legends players, organizations and leagues appear as nicknames and organization names in the 2027 fictional competitive ecosystem; no real-world result or contract is asserted."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_115_118_import/episode_115.txt",
+      "locator": "Episódio 115 — O Fim de Uma Era",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "On 2027-01-28 the LCK confirms forty starters across eight organizations and thirty-two retirements; the LPL confirms eight organizations and thirteen retirements; the CBLOL confirms eight organizations and ten named retirements; the LCP confirms eight organizations and nine retirements.",
+    "Across the four regions there are thirty-two organizations and one hundred and sixty starters, all with complete lineups.",
+    "ShowMaker is T1's Mid for 2027; Faker is among the retired players.",
+    "Adrian says the LCS debut is eighteen days away on 2027-01-28."
+  ],
+  "unconfirmedDetails": [
+    "The full list of the thirty-two LCK and nine LCP retirements is not named in the prose beyond the examples quoted; the existing roster datasets carry the complete lists."
+  ],
+  "notes": [
+    "Source of the existing roster datasets: author directives; this episode narrates the same facts and adds no roster."
+  ]
+}

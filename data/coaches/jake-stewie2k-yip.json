@@ -67,7 +67,7 @@
     "Episode 63: Jake is first mentioned as an exploratory Academy coaching candidate; no offer or appointment exists.",
     "Episode 64: Kairos continues exploratory interest without making a proposal.",
     "Episode 74: Jake accepts and becomes active Head Coach of Kairos Academy Green on 2026-11-23.",
-    "Episode 118 (2027-01-29): Without a Roof offers Jake a return as a professional Counter-Strike player. He accepts the sporting proposal, subject to the formalization of contractual terms and an organized departure from his Kairos coaching position. Kairos begins searching for a replacement; Tarik has been contacted as a prospective candidate only."
+    "Episode 117 (2027-01-28): Without a Roof's return-as-player proposal has already been accepted by 11:08; at 13:16 Jake tells the five Academy players he is leaving Kairos to return as a professional player with Without a Roof, and Trace confirms the structure continues. Tarik is appointed his successor as Head Coach of Kairos Academy Green that evening."
   ],
   "achievements": [],
   "confirmedFacts": [
@@ -76,18 +76,19 @@
     "He becomes active Head Coach of Kairos Academy Green on 2026-11-23.",
     "He does not assign permanent positions, a captain, or an IGL upon appointment.",
     "His real-world playing background is distinct from his fictional Kairos employment.",
-    "Since 2027-01-29 Jake has accepted, in principle, Without a Roof's offer to return as a player; the administrative transition is not complete and he remains Head Coach of Kairos Academy Green until it is formalized."
+    "By 2027-01-28 Jake has accepted Without a Roof's offer to return as a player; he tells the Academy players at 13:16 and Tarik is appointed Head Coach of Kairos Academy Green at 19:12 the same day. The administrative departure remains to be formalized and no end date is established."
   ],
   "unconfirmedDetails": [
     "Nationality, exact contract terms, contract length, salary, incentives, and reporting line are TBD.",
     "Detailed future Academy responsibilities and results are TBD.",
-    "The date and terms of his contractual departure from Kairos and of his Without a Roof contract are not established. Tarik is not appointed as his replacement and has not accepted a role."
+    "The date and terms of his contractual departure from Kairos and of his Without a Roof contract are not established."
   ],
   "canonNotes": [
     "Stewie2K is a real-world esports figure used in a fictional Kairos role.",
     "Do not represent exploratory discussion before 2026-11-23 as employment.",
     "Do not invent contract terms, ownership, equity, salary, or announcement metrics.",
     "Real-world achievements are not Kairos achievements.",
-    "Stewie2K is one person: the Without a Roof player entry (Counter-Strike 2, 2027) reuses this identity. His Kairos coach tenure is preserved and has no end date."
+    "Stewie2K is one person: the Without a Roof player entry (Counter-Strike 2, 2027) reuses this identity. His Kairos coach tenure is preserved and has no end date.",
+    "Retcon of record metadata: an earlier version of this record placed Without a Roof's offer, his acceptance and Tarik's candidacy in 'Episode 118 (2027-01-29)' and said Tarik had not accepted a role. The author's Episode 117 (2027-01-28) places the Academy announcement and Tarik's acceptance on 2027-01-28; Episode 118 contains no Counter-Strike staff events. The source prose is unchanged; the metadata now follows it. See docs/canon/EPISODES_115_118_IMPORT.md."
   ]
 }

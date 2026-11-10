@@ -1,0 +1,15 @@
+{
+  "id": "source-canon-directive-2027-team-locations",
+  "slug": "source-canon-directive-2027-team-locations",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Organization and team locations, and CS head coaches",
+  "path": "docs/canon/TEAM_LOCATIONS_2027.md",
+  "locator": "Leaguepedia 2026-08-03 snapshot (League of Legends) and HLTV team pages (Counter-Strike)",
+  "publicLabel": "Kairos Universe canon directive: team locations",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Org Location is a country with its flag; Team Location is a city, using the country's capital where no city is established."
+  ]
+}

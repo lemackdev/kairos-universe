@@ -1,0 +1,728 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-team-locations"
+  ],
+  "notes": [
+    "Org Location is the country of the organization (Leaguepedia 2026-08-03 snapshot for League of Legends; HLTV for Counter-Strike). Team Location is the country where the team is based, shown as that country's capital where no city is established."
+  ],
+  "capitals": {
+    "South Korea": "Seoul",
+    "China": "Beijing",
+    "Taiwan": "Taipei",
+    "Hong Kong": "Hong Kong",
+    "Japan": "Tokyo",
+    "Vietnam": "Hanoi",
+    "Australia": "Canberra",
+    "United States": "Washington, D.C.",
+    "Canada": "Ottawa",
+    "Mexico": "Mexico City",
+    "Brazil": "Brasília",
+    "Argentina": "Buenos Aires",
+    "Chile": "Santiago",
+    "France": "Paris",
+    "Germany": "Berlin",
+    "Spain": "Madrid",
+    "United Kingdom": "London",
+    "Netherlands": "Amsterdam",
+    "Denmark": "Copenhagen",
+    "Sweden": "Stockholm",
+    "Egypt": "Cairo",
+    "United Arab Emirates": "Abu Dhabi",
+    "Poland": "Warsaw",
+    "Turkey": "Ankara",
+    "Switzerland": "Bern",
+    "Belgium": "Brussels",
+    "Italy": "Rome",
+    "Russia": "Moscow",
+    "Ukraine": "Kyiv",
+    "Serbia": "Belgrade",
+    "Norway": "Oslo",
+    "Finland": "Helsinki",
+    "Czech Republic": "Prague",
+    "Portugal": "Lisbon",
+    "Israel": "Jerusalem",
+    "Mongolia": "Ulaanbaatar",
+    "Kazakhstan": "Astana",
+    "Bulgaria": "Sofia",
+    "Romania": "Bucharest",
+    "Hungary": "Budapest",
+    "Belarus": "Minsk",
+    "Slovakia": "Bratislava",
+    "Latvia": "Riga",
+    "Estonia": "Tallinn",
+    "Lithuania": "Vilnius",
+    "Cyprus": "Nicosia",
+    "Saudi Arabia": "Riyadh",
+    "South Africa": "Pretoria",
+    "New Zealand": "Wellington",
+    "Uruguay": "Montevideo",
+    "Peru": "Lima",
+    "Colombia": "Bogotá",
+    "Bosnia and Herzegovina": "Sarajevo",
+    "Malta": "Valletta",
+    "Austria": "Vienna",
+    "Singapore": "Singapore",
+    "Thailand": "Bangkok",
+    "Philippines": "Manila",
+    "Indonesia": "Jakarta",
+    "Malaysia": "Kuala Lumpur",
+    "Türkiye": "Ankara"
+  },
+  "lol": {
+    "external-lol-team-anyone-s-legend": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-bilibili-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-blue-otter": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-brion": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-ccg-esports": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-cloud9": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-conviction": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-ctbc-flying-oyster": {
+      "orgCountry": "Taiwan",
+      "teamCountry": "Taiwan"
+    },
+    "external-lol-team-deep-cross-gaming": {
+      "orgCountry": "Taiwan",
+      "teamCountry": "Taiwan"
+    },
+    "external-lol-team-detonation-focusme": {
+      "orgCountry": "Japan",
+      "teamCountry": "Japan"
+    },
+    "external-lol-team-dignitas": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-disguised": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-dorado-gaming": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-dplus": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-drx": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-edward-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-fearx": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-fluxo-w7m": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-flyquest": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-fnatic": {
+      "orgCountry": "United Kingdom",
+      "teamCountry": "United Kingdom"
+    },
+    "external-lol-team-furia": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-g2-esports": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany"
+    },
+    "external-lol-team-gam-esports": {
+      "orgCountry": "Vietnam",
+      "teamCountry": "Vietnam"
+    },
+    "external-lol-team-gen-g-esports": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-giantx": {
+      "orgCountry": "United Kingdom",
+      "teamCountry": "United Kingdom"
+    },
+    "external-lol-team-ground-zero-gaming": {
+      "orgCountry": "Australia",
+      "teamCountry": "Taiwan"
+    },
+    "external-lol-team-hanwha-life-esports": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-invictus-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-jd-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-karmine-corp": {
+      "orgCountry": "France",
+      "teamCountry": "France"
+    },
+    "external-lol-team-keyd-stars": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-kt-rolster": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-lgd-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-lng-esports": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-los": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-loud": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-lyon": {
+      "orgCountry": "Mexico",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-maryville-university": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-movistar-koi": {
+      "orgCountry": "Spain",
+      "teamCountry": "Spain"
+    },
+    "external-lol-team-mvk-esports": {
+      "orgCountry": "Vietnam",
+      "teamCountry": "Vietnam"
+    },
+    "external-lol-team-natus-vincere": {
+      "orgCountry": "Ukraine",
+      "teamCountry": "Ukraine"
+    },
+    "external-lol-team-ninjas-in-pyjamas": {
+      "orgCountry": "United Arab Emirates",
+      "teamCountry": "China"
+    },
+    "external-lol-team-nongshim-redforce": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-nrg": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-oh-my-god": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-pain-gaming": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-red-canids": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "external-lol-team-secret-whales": {
+      "orgCountry": "Vietnam",
+      "teamCountry": "Vietnam"
+    },
+    "external-lol-team-sentinels": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-shifters": {
+      "orgCountry": "Switzerland",
+      "teamCountry": "Switzerland"
+    },
+    "external-lol-team-shopify-rebellion": {
+      "orgCountry": "Canada",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-sk-gaming": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany"
+    },
+    "external-lol-team-softbank-hawks-gaming": {
+      "orgCountry": "Japan",
+      "teamCountry": "Japan"
+    },
+    "external-lol-team-soopers": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-t1": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "external-lol-team-team-heretics": {
+      "orgCountry": "Spain",
+      "teamCountry": "Germany"
+    },
+    "external-lol-team-team-liquid": {
+      "orgCountry": "Netherlands",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-team-vitality": {
+      "orgCountry": "France",
+      "teamCountry": "Germany"
+    },
+    "external-lol-team-team-we": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-thundertalk-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-top-esports": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-ultra-prime": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-university-of-mississippi": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-lol-team-weibo-gaming": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "external-lol-team-winthrop-university": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "tier2-circuito-desafiante-7rex": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-ei-nerd-esports": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-estral-esports": {
+      "orgCountry": "Mexico",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-intz": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-kabum-idl": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-pain-academy": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-rmd-gaming": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-circuito-desafiante-vks-academy": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil"
+    },
+    "tier2-emea-masters-anubis-gaming": {
+      "orgCountry": "Egypt",
+      "teamCountry": "Egypt"
+    },
+    "tier2-emea-masters-g2-nord": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany"
+    },
+    "tier2-emea-masters-galions": {
+      "orgCountry": "France",
+      "teamCountry": "France"
+    },
+    "tier2-emea-masters-karmine-corp-blue": {
+      "orgCountry": "France",
+      "teamCountry": "France"
+    },
+    "tier2-emea-masters-kaufland-hangry-knights": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany"
+    },
+    "tier2-emea-masters-movistar-koi-fenix": {
+      "orgCountry": "Spain",
+      "teamCountry": "Spain"
+    },
+    "tier2-emea-masters-solary": {
+      "orgCountry": "France",
+      "teamCountry": "France"
+    },
+    "tier2-emea-masters-tln-pirates": {
+      "orgCountry": "France",
+      "teamCountry": "France"
+    },
+    "tier2-lck-challengers-bnk-fearx-youth": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-dn-soopers-challengers": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-dplus-kia-challengers": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-hanwha-life-esports-challengers": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-kiwoom-drx-challengers": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-kt-rolster-challengers": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-nongshim-esports-academy": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lck-challengers-t1-esports-academy": {
+      "orgCountry": "South Korea",
+      "teamCountry": "South Korea"
+    },
+    "tier2-lcp-challengers-cfo-academy": {
+      "orgCountry": "Taiwan",
+      "teamCountry": "Taiwan"
+    },
+    "tier2-lcp-challengers-frank-esports": {
+      "orgCountry": "Hong Kong",
+      "teamCountry": "Hong Kong"
+    },
+    "tier2-lcp-challengers-ground-zero-academy": {
+      "orgCountry": "Australia",
+      "teamCountry": "Taiwan"
+    },
+    "tier2-lcp-challengers-rogersama": {
+      "orgCountry": "Taiwan",
+      "teamCountry": "Taiwan"
+    },
+    "tier2-lcp-challengers-sillysilly-gaming": {
+      "orgCountry": "Taiwan",
+      "teamCountry": "Taiwan"
+    },
+    "tier2-lcp-challengers-sponge-gaming": {
+      "orgCountry": "Taiwan",
+      "teamCountry": "Taiwan"
+    },
+    "tier2-ldl-al-young": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-blg-junior": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-edg-youth-team": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-lgd-young-team": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-oh-my-god": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-tes-challenger": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-wbg-youth-team": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    },
+    "tier2-ldl-we-academy": {
+      "orgCountry": "China",
+      "teamCountry": "China"
+    }
+  },
+  "cs": {
+    "external-cs-team-100-thieves": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "gla1ve (Lukas)"
+    },
+    "external-cs-team-1win": {
+      "orgCountry": "Russia",
+      "teamCountry": "Russia",
+      "headCoach": "groove (Konstantin)"
+    },
+    "external-cs-team-alliance": {
+      "orgCountry": "Sweden",
+      "teamCountry": "Sweden",
+      "headCoach": "Hawk (Simon)"
+    },
+    "external-cs-team-astralis": {
+      "orgCountry": "Denmark",
+      "teamCountry": "Denmark",
+      "headCoach": "NEO (Filip)"
+    },
+    "external-cs-team-aurora": {
+      "orgCountry": "Serbia",
+      "teamCountry": "Türkiye",
+      "headCoach": "ash (Ashley)"
+    },
+    "external-cs-team-bestia": {
+      "orgCountry": "Argentina",
+      "teamCountry": "Brazil",
+      "headCoach": "tge (Gustavo)"
+    },
+    "external-cs-team-betboom": {
+      "orgCountry": "Russia",
+      "teamCountry": "Russia",
+      "headCoach": "Fierce (Artem)"
+    },
+    "external-cs-team-big": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany",
+      "headCoach": "xenn (Sebastian)"
+    },
+    "external-cs-team-chinggis-warriors": {
+      "orgCountry": "Mongolia",
+      "teamCountry": "Mongolia",
+      "headCoach": "Redka (Munkh-ochir)"
+    },
+    "external-cs-team-dendele": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "coachi (Hélder)"
+    },
+    "external-cs-team-envy": {
+      "orgCountry": "United States",
+      "teamCountry": "France",
+      "headCoach": "wasiNk (Damien)"
+    },
+    "external-cs-team-eternal-fire": {
+      "orgCountry": "Turkey",
+      "teamCountry": "Turkey",
+      "headCoach": "Fabre (Sezgin)"
+    },
+    "external-cs-team-eyeballers": {
+      "orgCountry": "Sweden",
+      "teamCountry": "Sweden",
+      "headCoach": "pita (Faruk)"
+    },
+    "external-cs-team-falcons": {
+      "orgCountry": "Saudi Arabia",
+      "teamCountry": "Saudi Arabia",
+      "headCoach": "zonic (Danny)"
+    },
+    "external-cs-team-faze": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "enkay J (Niclas)"
+    },
+    "external-cs-team-fluxo": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "Juve (Gustavo)"
+    },
+    "external-cs-team-flyquest": {
+      "orgCountry": "United States",
+      "teamCountry": "Australia",
+      "headCoach": "AZR (Aaron)"
+    },
+    "external-cs-team-fnatic": {
+      "orgCountry": "United Kingdom",
+      "teamCountry": "Ukraine",
+      "headCoach": "Independent (Miks)"
+    },
+    "external-cs-team-furia": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "sidde (Sid)"
+    },
+    "external-cs-team-fut": {
+      "orgCountry": "Turkey",
+      "teamCountry": "Turkey",
+      "headCoach": "coolio (András)"
+    },
+    "external-cs-team-g2-esports": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany",
+      "headCoach": "sAw (Eetu)"
+    },
+    "external-cs-team-gamerlegion": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany",
+      "headCoach": "imd (Adrian)"
+    },
+    "external-cs-team-heroic": {
+      "orgCountry": "Norway",
+      "teamCountry": "Sweden",
+      "headCoach": "Snappi (Marco)"
+    },
+    "external-cs-team-imperial": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "tacitus (Marcos)"
+    },
+    "external-cs-team-jijiehao": {
+      "orgCountry": "China",
+      "teamCountry": "China",
+      "headCoach": "mithR (Torbjørn)"
+    },
+    "external-cs-team-lag": {
+      "orgCountry": "United States",
+      "teamCountry": "United States"
+    },
+    "external-cs-team-legacy": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "adrrr (Alan)"
+    },
+    "external-cs-team-luminosity": {
+      "orgCountry": "Canada",
+      "teamCountry": "Canada",
+      "headCoach": "kakafu (Alexander)"
+    },
+    "external-cs-team-m80": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "dephh (Rory)"
+    },
+    "external-cs-team-marsborne": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "ben1337 (Ben)"
+    },
+    "external-cs-team-metizport": {
+      "orgCountry": "Sweden",
+      "teamCountry": "Sweden",
+      "headCoach": "vinS (Vincent)"
+    },
+    "external-cs-team-mibr": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "LETN1 (Nestor)"
+    },
+    "external-cs-team-mouz": {
+      "orgCountry": "Germany",
+      "teamCountry": "Germany",
+      "headCoach": "sycrone (Dennis)"
+    },
+    "external-cs-team-natus-vincere": {
+      "orgCountry": "Ukraine",
+      "teamCountry": "Ukraine",
+      "headCoach": "B1ad3 (Andrey)"
+    },
+    "external-cs-team-nemiga": {
+      "orgCountry": "Cyprus",
+      "teamCountry": "Russia",
+      "headCoach": "boX (Anton)"
+    },
+    "external-cs-team-ninjas-in-pyjamas": {
+      "orgCountry": "Sweden",
+      "teamCountry": "Sweden",
+      "headCoach": "Xizt (Richard)"
+    },
+    "external-cs-team-nrg": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "daps (Damian)"
+    },
+    "external-cs-team-pain-gaming": {
+      "orgCountry": "Brazil",
+      "teamCountry": "Brazil",
+      "headCoach": "rikz (Henrique)"
+    },
+    "external-cs-team-parivision": {
+      "orgCountry": "Russia",
+      "teamCountry": "Russia",
+      "headCoach": "dastan (Dastan)"
+    },
+    "external-cs-team-saw": {
+      "orgCountry": "Portugal",
+      "teamCountry": "Portugal"
+    },
+    "external-cs-team-sinners": {
+      "orgCountry": "Czech Republic",
+      "teamCountry": "Czech Republic",
+      "headCoach": "Bfull (Jakub)"
+    },
+    "external-cs-team-spirit": {
+      "orgCountry": "Serbia",
+      "teamCountry": "Russia",
+      "headCoach": "hally (Sergey)"
+    },
+    "external-cs-team-team-liquid": {
+      "orgCountry": "Netherlands",
+      "teamCountry": "Netherlands",
+      "headCoach": "flashie (Viktor)"
+    },
+    "external-cs-team-team-vitality": {
+      "orgCountry": "France",
+      "teamCountry": "France",
+      "headCoach": "XTQZZZ (Rémy)"
+    },
+    "external-cs-team-the-mongolz": {
+      "orgCountry": "Mongolia",
+      "teamCountry": "Mongolia",
+      "headCoach": "maaRaa (Erdenedalai)"
+    },
+    "external-cs-team-tyloo": {
+      "orgCountry": "China",
+      "teamCountry": "China",
+      "headCoach": "zhokiNg (WeiJie)"
+    },
+    "external-cs-team-wildcard": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "splawik (Łukasz)"
+    },
+    "external-cs-team-without-a-roof": {
+      "orgCountry": "United States",
+      "teamCountry": "United States",
+      "headCoach": "steel (Joshua)"
+    }
+  }
+}

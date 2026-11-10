@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { repositoryRoot } from "@/lib/canon/paths";
-import type { CounterStrikeRosterFreeze2027, CsExternalRosters2027, CsPlayerRoles2027, EventInvites2027, FreeAgents2027, LcsRosters2027, LeagueRegionalMembership2027, OrganizationOverviews2027, PlayerLegalNames2027, PlayerNationalities2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
+import type { CounterStrikeRosterFreeze2027, CsExternalRosters2027, CsPlayerRoles2027, EventInvites2027, FreeAgents2027, LcsRosters2027, LeagueRegionalMembership2027, OrganizationOverviews2027, PlayerLegalNames2027, TeamLocations2027, PlayerNationalities2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
 
 export const regionalCompetitionSlugs: Record<string, { league: string } | { tier2: string }> = {
   "lck-2027": { league: "LCK" },
@@ -71,6 +71,7 @@ export function loadWorldState2027(): WorldState2027 {
   const playerLegalNames = read<PlayerLegalNames2027>("player-legal-names-2027.json");
   const csPlayerRoles = read<CsPlayerRoles2027>("cs-player-roles-2027.json");
   const organizationOverviews = read<OrganizationOverviews2027>("organization-overviews-2027.json");
+  const teamLocations = read<TeamLocations2027>("team-locations-2027.json");
   const cblolRosters = read<LcsRosters2027>("cblol-rosters-2027.json");
   const csRosterFreeze = read<CounterStrikeRosterFreeze2027>("counter-strike-roster-freeze-2027.json");
   const regionalSets: Array<[string, LcsRosters2027]> = [["LCS", lcsRosters], ["LEC", lecRosters], ["LPL", lplRosters], ["CBLOL", cblolRosters], ["LCK", lckRosters], ["LCP", lcpRosters], ["NACL", naclRosters], ["EMEA Masters", emeaMastersRosters], ["LCK Challengers", lckChallengersRosters], ["LDL", ldlRosters], ["LCP Challengers", lcpChallengersRosters], ["Circuito Desafiante", circuitoDesafianteRosters]];
@@ -96,7 +97,7 @@ export function loadWorldState2027(): WorldState2027 {
     tier2Leagues[key] = league;
   }
 
-  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, playerNationalities, playerLegalNames, csPlayerRoles, organizationOverviews, csRosterFreeze, csExternalRosters, eventInvites };
+  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, playerNationalities, playerLegalNames, csPlayerRoles, organizationOverviews, teamLocations, csRosterFreeze, csExternalRosters, eventInvites };
 }
 
 export function findFreeAgent(worldState: WorldState2027 | undefined, playerId: string) {
@@ -344,4 +345,13 @@ export function csRoleOf(worldState: WorldState2027 | undefined, playerId: strin
 export function organizationOverviewOf(worldState: WorldState2027 | undefined, organizationId: string | null | undefined, tier2TeamId?: string): string | null {
   return (tier2TeamId ? worldState?.organizationOverviews.tier2Teams[tier2TeamId]?.overview : undefined)
     ?? (organizationId ? worldState?.organizationOverviews.organizations[organizationId]?.overview : undefined) ?? null;
+}
+
+export interface TeamLocationInfo { orgCountry: string; teamCity: string; teamCountry: string; headCoach: string | null }
+
+export function teamLocationOf(worldState: WorldState2027 | undefined, teamId: string): TeamLocationInfo | null {
+  const locations = worldState?.teamLocations;
+  const entry = (locations?.cs[teamId] ?? locations?.lol[teamId]) as { orgCountry: string; teamCountry: string; teamCity?: string; headCoach?: string } | undefined;
+  if (!locations || !entry) return null;
+  return { orgCountry: entry.orgCountry, teamCity: entry.teamCity ?? locations.capitals[entry.teamCountry] ?? entry.teamCountry, teamCountry: entry.teamCountry, headCoach: entry.headCoach ?? null };
 }

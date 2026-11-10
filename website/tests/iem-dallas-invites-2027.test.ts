@@ -30,7 +30,7 @@ describe("IEM Dallas 2027 invited teams", () => {
     expect(regionalFieldFor(worldState, "iem-dallas-2027")).toHaveLength(16);
     expect(fieldCaptionFor(worldState, "iem-dallas-2027")).toBe("Invited teams (2027)");
     expect(fieldCaptionFor(worldState, "lck-2027")).toBe("Participants (2027)");
-    expect(invites.inviteDate).toBeNull();
+    expect(invites.inviteDate).toBe("2027-01-28");
     expect(invites.notEstablished.join(" ")).toMatch(/results/);
   });
 

@@ -6,7 +6,7 @@ import { getCatalog } from "@/lib/canon/server";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { sceneTeamOrganizationLite, sceneTeamToTeamView, tier2TeamToTeamView } from "@/lib/external/teamView";
 import { tier2LogoOrgSlug } from "@/lib/tier2Logos";
-import { csExternalTeams, csOrganizationSlugOf, findRegionalStatus, findTier2Team, legalNameOf, listAllTier2Teams, nationalitiesOf, organizationOverviewOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
+import { csExternalTeams, csOrganizationSlugOf, findRegionalStatus, findTier2Team, legalNameOf, listAllTier2Teams, nationalitiesOf, organizationOverviewOf, teamLocationOf, regionCodeOfLeague, rosterSets } from "@/lib/external/worldState2027";
 import { formatDate } from "@/lib/formatting/date";
 import type { RosterEntryView } from "@/types/catalog";
 
@@ -46,7 +46,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
     const scene = catalog.externalScene;
     const logoSlug = tier2LogoOrgSlug(scene, tier2Team);
     const logoPath = logoSlug ? externalLogoPath(logoSlug) : null;
-    return <TeamArticle external
+    return <TeamArticle external locationInfo={teamLocationOf(catalog.worldState2027, tier2Team.teamId)}
       team={tier2TeamToTeamView(tier2Team, roster ?? [], parent?.organizationId ?? "")}
       organization={parent && scene ? sceneTeamOrganizationLite(parent, scene) : undefined}
       logo={logoPath ? <img src={logoPath} alt={`${tier2Team.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} /> : undefined}
@@ -63,7 +63,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
     const has2027Lineup = Boolean(lineupSet);
     const vacancies2027 = sets2027.flatMap((set) => set.vacancies).filter((entry) => entry.teamId === reference.id);
     const pending2027 = sets2027.flatMap((set) => set.pendingIdentities ?? []).filter((entry) => entry.teamId === reference.id);
-    return <TeamArticle external
+    return <TeamArticle external locationInfo={teamLocationOf(catalog.worldState2027, reference.id)}
       team={sceneTeamToTeamView(reference, scene, sets2027, catalog.worldState2027)}
       organization={sceneTeamOrganizationLite(reference, scene)}
       logo={logoPath && <img src={logoPath} alt={`${reference.name} logo`} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />}

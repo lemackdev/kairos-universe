@@ -26,3 +26,5 @@ from the 2027 external Counter-Strike 2 roster import:
 
 No invite date, format, groups, seeding, results, standings or qualification is
 established. Rosters follow the existing Counter-Strike roster freeze.
+
+Announced on 2027-01-28 (Episode 117): ESL at 9:30 PT. The invitee lists in the episode match this document exactly.

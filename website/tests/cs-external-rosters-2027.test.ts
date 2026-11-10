@@ -96,13 +96,12 @@ describe("2027 external Counter-Strike 2 rosters", () => {
     expect(entry.kairosAcademyRosterChanged).toBe(false);
   });
 
-  it("does not register Tarik as a coach or change Kairos Academy", () => {
-    const text = JSON.stringify(read("data/teams/kairos-counter-strike-academy.json"));
-    expect(text).not.toMatch(/tarik/i);
+  it("keeps both Kairos Counter-Strike rosters unchanged; Tarik is registered only as Academy Head Coach after Episode 117", () => {
     const academy = read("data/teams/kairos-counter-strike-academy.json");
+    expect(academy.coachingStaff).toContain("tarik-kairos-cs-academy-head-coach");
     expect(academy.roster).toEqual(freeze.preservedKairosRosters["kairos-cs-academy"]);
     expect(read("data/teams/kairos-counter-strike.json").roster).toEqual(freeze.preservedKairosRosters["kairos-cs-main"]);
-    expect(fs.readdirSync(path.join(repositoryRoot, "data", "coaches")).some((file) => /tarik/i.test(file))).toBe(false);
+    expect(fs.readdirSync(path.join(repositoryRoot, "data", "coaches")).filter((file) => /tarik/i.test(file))).toEqual(["tarik-kairos-cs-academy-head-coach.json"]);
     for (const id of starters.map((entry) => entry.playerId)) expect(Object.values(freeze.preservedKairosRosters).flat()).not.toContain(id);
   });
 

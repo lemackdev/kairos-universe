@@ -30,7 +30,7 @@ describe("CCT North America #1 2027 invited teams", () => {
   it("feeds the event page field and establishes no format or results", () => {
     expect(regionalFieldFor(worldState, "cct-north-america-1-2027")).toHaveLength(16);
     expect(fieldCaptionFor(worldState, "cct-north-america-1-2027")).toBe("Invited teams (2027)");
-    expect(cct.inviteDate).toBeNull();
+    expect(cct.inviteDate).toBe("2027-01-28");
   });
 
   it("never states why a team was invited", () => {

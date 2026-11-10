@@ -3,13 +3,14 @@
   "originType": "fictional",
   "canonStatus": "confirmed",
   "sourceIds": [
-    "source-canon-directive-2027-cct-north-america-1-invites"
+    "source-canon-directive-2027-cct-north-america-1-invites",
+    "source-episodes-115-118"
   ],
   "competitionId": "cct-north-america-1-2027",
   "competitionSlug": "cct-north-america-1-2027",
   "status": "invited",
   "expectedTeamCount": 16,
-  "inviteDate": null,
+  "inviteDate": "2027-01-28",
   "teams": [
     {
       "teamId": "external-cs-team-nrg",

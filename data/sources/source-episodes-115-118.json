@@ -1,0 +1,16 @@
+{
+  "id": "source-episodes-115-118",
+  "slug": "source-episodes-115-118",
+  "continuityId": "kairos-universe",
+  "sourceType": "episode",
+  "title": "Episodes 115-118 — author-supplied episode prose",
+  "path": "archive/episode-sources/kairos_115_118_import/",
+  "locator": "Episodes 115 (2027-01-28) through 118 (2027-01-29), extracted from 107-118.docx into episode_115.txt through episode_118.txt",
+  "publicLabel": "Kairos Universe, Episodes 115-118",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Full episode prose supplied by the author in 107-118.docx and archived as plain text, one file per episode, one paragraph per line; table cells appear one per line.",
+    "Backs the structured records for episodes 115 through 118. Episodes 107-114 in the same document were compared with their existing archive and are unchanged."
+  ]
+}

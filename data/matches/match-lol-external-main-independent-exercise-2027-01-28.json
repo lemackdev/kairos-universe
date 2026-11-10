@@ -1,0 +1,71 @@
+{
+  "id": "match-lol-external-main-independent-exercise-2027-01-28",
+  "slug": "match-lol-external-main-independent-exercise-2027-01-28",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-independent-high-level-group-2027-01-28"
+  ],
+  "scheduledDate": "2027-01-28",
+  "date": "2027-01-28",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-independent-high-level-group-2027-01-28",
+  "bestOf": null,
+  "teamAScore": 0,
+  "teamBScore": 1,
+  "winnerTeamId": "opponent-independent-high-level-group-2027-01-28",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-116"
+  ],
+  "relatedPlayerIds": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "result": {
+    "opponentName": "Independent high-level private group",
+    "opponentLeague": "none (independent players)",
+    "opponentRosterStatus": "unnamed independent team; identities not established",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-independent-high-level-group-2027-01-28",
+        "provenance": "narrated-canon",
+        "picks": {
+          "rkN": "Rumble",
+          "Vanta": "Skarner",
+          "404": "Aurora",
+          "Aster": "Varus",
+          "Moss": "Rell"
+        }
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_115_118_import/episode_116.txt"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Kairos Main loses the morning exercise on 2027-01-28 against a private group of high-level independent players using Rumble, Skarner, Aurora, Varus and Rell (Episode 116)."
+  ],
+  "unconfirmedDetails": [
+    "The opponents, the length of the game and the final statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice against independent players; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "The other 2027-01-28 exercises in Episode 116 are drills without a recorded outcome."
+  ]
+}

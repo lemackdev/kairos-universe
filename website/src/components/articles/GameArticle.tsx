@@ -46,7 +46,7 @@ export function GameArticle({ game, teams, players, nextMilestone }: {
       <WikiTable caption="Published Kairos players" columns={["ID", "Name", "Role", "Team"]}
         empty="No players published." rows={players.map((player) => ({ key: player.id, cells: [
           <Link key="player" href={`/wiki/players/${player.slug}`}>{player.nickname}</Link>,
-          player.realName, <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><CsRoleIcons role={game.name === "Counter-Strike 2" ? player.role : null} /><RoleIcon role={game.name === "League of Legends" ? player.role : ""} />{player.role}</span>, player.currentTeamName,
+          <span key="name">{player.realName}</span>, <span key="role" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}><CsRoleIcons role={game.name === "Counter-Strike 2" ? player.role : null} /><RoleIcon role={game.name === "League of Legends" ? player.role : ""} />{player.role}</span>, player.currentTeamName,
         ] }))} />
     </ArticleSection>
     <ArticleSection {...sections[4]!}>

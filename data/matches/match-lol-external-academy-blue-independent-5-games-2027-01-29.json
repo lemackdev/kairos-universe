@@ -1,0 +1,108 @@
+{
+  "id": "match-lol-external-academy-blue-independent-5-games-2027-01-29",
+  "slug": "match-lol-external-academy-blue-independent-5-games-2027-01-29",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-blue",
+    "opponent-independent-team-blue-2027-01-29"
+  ],
+  "scheduledDate": "2027-01-29",
+  "date": "2027-01-29",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-blue",
+  "teamBId": "opponent-independent-team-blue-2027-01-29",
+  "bestOf": null,
+  "teamAScore": 2,
+  "teamBScore": 3,
+  "winnerTeamId": "opponent-independent-team-blue-2027-01-29",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-118"
+  ],
+  "relatedPlayerIds": [
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster"
+  ],
+  "result": {
+    "opponentName": "Independent team with strong individual mechanics",
+    "opponentLeague": "none (independent players)",
+    "opponentRosterStatus": "unnamed independent team; identities not established",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-independent-team-blue-2027-01-29",
+        "provenance": "narrated-canon",
+        "durationMinutes": 28,
+        "picks": {
+          "SullCon": "K'Sante",
+          "xNox": "Maokai",
+          "Kite": "Ahri",
+          "Murmur": "Ziggs",
+          "japalenogrits": "Alistar"
+        }
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "provenance": "narrated-canon",
+        "picks": {
+          "SullCon": "Rumble",
+          "xNox": "Poppy",
+          "Kite": "Akali",
+          "Murmur": "Seraphine",
+          "japalenogrits": "Rell"
+        }
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "opponent-independent-team-blue-2027-01-29",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Narrated as a close loss."
+      },
+      {
+        "number": 4,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "provenance": "narrated-canon",
+        "picks": {
+          "SullCon": "Gragas",
+          "xNox": "Sejuani",
+          "Kite": "Hwei",
+          "Murmur": "Miss Fortune",
+          "japalenogrits": "Renata Glasc"
+        }
+      },
+      {
+        "number": 5,
+        "winnerTeamId": "opponent-independent-team-blue-2027-01-29",
+        "provenance": "derived-from-narrated-total",
+        "provenanceNote": "Not individually narrated; derived from the narrated 2-3 total."
+      }
+    ]
+  },
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_115_118_import/episode_118.txt"
+  ],
+  "canonStatus": "confirmed",
+  "confirmedFacts": [
+    "Academy Blue wins two and loses three of five private scrims against an independent team on 2027-01-29 (Episode 118)."
+  ],
+  "unconfirmedDetails": [
+    "Game 5 is not individually narrated."
+  ],
+  "canonNotes": [
+    "Private practice against independent players; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Game 5 is derived from the narrated 2-3 total."
+  ]
+}

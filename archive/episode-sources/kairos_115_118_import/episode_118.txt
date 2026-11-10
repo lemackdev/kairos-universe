@@ -1,0 +1,424 @@
+Episódio 118: Cinco Campeões Que Você Não Escolheria
+29 de janeiro de 2027, sexta-feira, 8h14.
+Kairos Campus, Los Angeles.
+8h14, sala de reuniões da divisão de League of Legends
+404 (Mason) percebeu que alguma coisa estava errada quando encontrou os cinco mentores reunidos antes dos jogadores.
+Darshan conversava com Xmithie perto do telão. Goldenglue revisava uma planilha, enquanto WildTurtle examinava gravações de rotas inferiores. Aphromoo estava sentado ao lado de Thinkcard, acompanhado de Hai e Sable.
+Não era comum que todos participassem da mesma reunião.
+— Alguém foi demitido? — perguntou Mason.
+Goldenglue levantou os olhos.
+— Ainda não.
+— Ótimo. Sexta-feira começando bem.
+Atrás dele, rkN (Noah) entrou acompanhado de Vanta (Ethan), Aster (Liam) e Moss (Daniel). Os cinco jogadores da Academy Blue e os cinco da White chegaram logo depois.
+Thinkcard esperou todos se acomodarem.
+— Ontem vocês trabalharam campeões desconfortáveis. Hoje vamos descobrir se conseguem continuar jogando quando o draft inteiro é desconfortável.
+Aphromoo assumiu a apresentação.
+— Cada jogador vai utilizar cinco campeões diferentes, todos fora de sua pool habitual. Cinco partidas completas contra equipes independentes, sem vínculo com organizações profissionais. Vocês não poderão escolher um campeão de conforto para salvar um jogo ruim.
+Murmur (Tyler) levantou a mão.
+— Cinco campeões por equipe?
+— Por jogador.
+Tyler abaixou a mão lentamente.
+— Certo. Era importante esclarecer antes de eu ficar feliz.
+Thinkcard abriu a programação. Cada uma das três equipes enfrentaria um quinteto independente de jogadores de alto nível. Eram grupos formados por competidores da fila Challenger, jogadores que treinavam juntos e alguns atletas sem contrato profissional. Nenhum representava uma organização, e nenhum resultado seria divulgado publicamente.
+O formato seria simples. Cinco partidas completas, com drafts normais e sem interrupções artificiais. Os treinadores acompanhariam os jogos e fariam suas análises depois que cada partida terminasse.
+— Estamos procurando jogadores que consigam mudar de função dentro do time — explicou Thinkcard. — Não apenas trocar o campeão selecionado.
+Hai acrescentou:
+— O Blue vai enfrentar um grupo com excelente mecânica individual. Quero ver o que acontece quando vocês não conseguem ganhar as rotas da maneira habitual.
+Sable explicou que o adversário do White era conhecido por jogar composições agressivas e procurar vantagens cedo.
+Aphromoo encerrou:
+— E o Main vai enfrentar cinco jogadores que já treinam juntos há algum tempo. Eles sabem executar suas composições. Não são profissionais contratados, mas também não são cinco desconhecidos improvisando uma partida.
+404 olhou para Goldenglue.
+— Posso pelo menos jogar Orianna na quinta?
+— Não.
+— Azir?
+— Não.
+— Syndra?
+Goldenglue fechou o notebook.
+— Mason, você conseguiu reclamar de três campeões que nem estão na lista.
+9h02, Sala Black
+Darshan havia preparado cinco escolhas para rkN (Noah): Rumble, Gnar, Kennen, Ornn e Sion. Nenhuma fazia parte do núcleo de campeões com que o top laner normalmente tentava assumir o controle de partidas.
+Para Vanta (Ethan), Xmithie selecionara Skarner, Maokai, Poppy, Sejuani e Ivern.
+Goldenglue entregou a 404 (Mason) Aurora, Galio, Taliyah, Hwei e Akali.
+WildTurtle preparou Varus, Ziggs, Seraphine, Miss Fortune e Sivir para Aster (Liam). Aphromoo completou a lista do Main com Rell, Alistar, Bard, Renata Glasc e Taric para Moss (Daniel).
+Os jogadores já haviam experimentado algumas dessas escolhas nos dias anteriores. Mas nenhuma estava suficientemente consolidada para ser tratada como uma opção confortável.
+A primeira composição reuniu Rumble, Skarner, Aurora, Varus e Rell.
+— Vocês já jogaram algo parecido ontem — explicou Aphromoo. — Então quero descobrir se entenderam a composição ou apenas memorizaram uma boa luta.
+O scrim começou às 9h18.
+O adversário utilizava um top laner capaz de pressionar constantemente as laterais, um jungler agressivo e uma bot lane com alcance suficiente para dificultar a aproximação de Rell.
+Nos primeiros minutos, Noah voltou a cometer o erro que Darshan havia identificado na quinta-feira. Tentou ganhar uma troca prolongada com Rumble, mesmo sem possuir as ferramentas de fuga que normalmente utilizava com Camille.
+Perdeu a troca e precisou recuar.
+— Estou sem prioridade — avisou.
+Ethan respondeu:
+— Então não vou disputar o primeiro rio por esse lado.
+Mason, entretanto, já estava se movimentando para acompanhar uma luta.
+— Posso chegar.
+Moss observou a posição dos adversários.
+— Não entra. Estamos em desvantagem.
+Mason hesitou, mas recuou.
+Aos quinze minutos, o adversário conquistou o segundo dragão. Main tentou compensar com pressão no topo, mas Noah utilizou a ultimate de Rumble cedo demais, permitindo que os oponentes escapassem antes da chegada de Ethan.
+A partida terminou em derrota, aos trinta e dois minutos.
+Ninguém reiniciou o jogo. Ninguém modificou o estado da partida para repetir o dragão. Aphromoo esperou o resultado aparecer e chamou os jogadores para a revisão.
+Darshan mostrou a troca perdida no topo.
+— Noah, você está procurando uma vantagem que esse campeão não precisa criar sozinho.
+— Estou acostumado a ter mais controle do duelo.
+— Exatamente. Com Rumble, você pode perder uma troca individual e ainda ser o jogador mais importante da próxima luta. Mas, se entregar sua vida tentando provar que vence a rota, não vai chegar ao objetivo com recursos.
+Xmithie assumiu o replay seguinte.
+— Ethan, você fez certo em abandonar o primeiro rio. O problema foi tentar recuperar essa decisão depois, entrando numa área sem visão.
+Ethan concordou.
+— Eu estava pensando no dragão perdido.
+— E deveria estar pensando no próximo.
+Goldenglue não comentou imediatamente. Ficou observando Mason até o jogador perguntar:
+— Eu errei alguma coisa?
+— Errou menos do que ontem. Só que, no minuto vinte e quatro, você teve uma boa oportunidade de flanco e não entrou.
+Mason reconheceu o lance.
+— Achei que não conseguiríamos acompanhar.
+— Então precisava perguntar. Ontem você entrava sozinho. Hoje está evitando entrar. Precisamos encontrar o meio-termo.
+Aphromoo encerrou a revisão depois que WildTurtle e Moss discutiram o posicionamento da bot lane.
+O Main havia perdido.
+Mas, pela primeira vez, os cinco pareciam compreender exatamente por quê.
+10h36, Sala Blue
+Academy Blue começou o dia de maneira ainda pior.
+Hai escolhera uma rotação que obrigava SullCon (Connor) a trabalhar K'Sante, Rumble, Aatrox, Gragas e Gnar. xNox (Jacob) passaria por Maokai, Poppy, Ivern, Sejuani e Skarner. Kite (Owen) teria Ahri, Akali, Galio, Hwei e Lissandra.
+Murmur (Tyler), que preferia atiradores tradicionais, recebera Ziggs, Seraphine, Varus, Miss Fortune e Sivir.
+Para japalenogrits (Lucas), os cinco campeões eram Alistar, Rell, Braum, Renata Glasc e Tahm Kench.
+Na primeira partida, Connor jogou de K'Sante, Jacob de Maokai, Owen de Ahri, Tyler de Ziggs e Lucas de Alistar.
+Aos seis minutos, o adversário já havia conquistado duas eliminações na bot lane.
+— Estou começando a achar que odeio esse campeão — comentou Tyler.
+Lucas respondeu:
+— Você odeia todo campeão que não ataca automaticamente.
+— Porque ataques automáticos são uma invenção maravilhosa.
+Owen conseguiu uma eliminação no mid e tentou utilizar a vantagem para ajudar os companheiros. Jacob, entretanto, estava ocupado protegendo a entrada da própria jungle, enquanto Connor enfrentava pressão no topo.
+A movimentação chegou tarde.
+O adversário conquistou outra eliminação e transformou a vantagem numa torre.
+Blue perdeu em vinte e oito minutos.
+Hai reuniu os cinco diante do replay.
+— Tyler, você passou metade da lane tentando acertar habilidades no ADC adversário. Quantas vezes conseguiu preparar uma wave para o Lucas sair da rota?
+Tyler pensou.
+— Nenhuma.
+— Então você jogou de Ziggs como se estivesse usando Jinx, só que com menos ataques básicos.
+Owen começou a rir.
+Hai virou para ele.
+— E você tentou três roams sem considerar o estado das laterais.
+A risada terminou.
+— Certo.
+Darshan, que acompanhava a revisão do topo, apontou para Connor.
+— E você não precisa transformar K'Sante num campeão que vence todas as trocas. Quero ver você reconhecendo quando seu papel é absorver pressão.
+Connor assentiu.
+— Eu estava tentando carregar.
+— Às vezes, a melhor forma de carregar é impedir que o outro top carregue.
+Hai organizou a segunda partida com outra composição e voltou à sala de observação.
+Nenhum jogador recebeu autorização para retornar a um campeão favorito.
+11h41, Sala White
+Sable encontrou Pebble (Isaac) olhando para a própria lista de escolhas com evidente insatisfação.
+Gnar, K'Sante, Rumble, Kennen e Gragas.
+— Você tirou todos os campeões em que consigo ficar parado na frente dos outros — comentou Isaac.
+— Não tirei. Só quero descobrir o que você faz quando precisa oferecer alguma coisa além de resistência.
+vexemite (Benjamin) recebeu Sejuani, Maokai, Poppy, Ivern e Skarner. 0bit (Nathan) teria Hwei, Galio, Aurora, Ahri e Taliyah.
+June (Cole) trabalharia Ashe, Sivir, Ziggs, Seraphine e Varus. Para Luma (Ryan), Sable escolhera Leona, Alistar, Rell, Nautilus e Renata Glasc.
+O adversário do White era um quinteto independente que jogava junto com frequência e procurava forçar lutas desde os primeiros minutos.
+Na estreia, Benjamin escolheu Sejuani e tentou estabelecer controle da jungle. Mas o adversário percebeu rapidamente que o White dependia de tempo para organizar suas movimentações.
+Invadiram cedo.
+Forçaram duas lutas no rio.
+E começaram a pressionar Nathan antes que Hwei conseguisse atingir seus primeiros picos de poder.
+Aos dezessete minutos, White estava consideravelmente atrás em ouro.
+Luma tentou encontrar uma iniciação com Leona, mas os companheiros não tinham condições de acompanhá-lo.
+Ele morreu.
+O adversário conquistou o Baron alguns minutos depois e encerrou o jogo.
+Sable não levantou a voz durante a revisão.
+— Ryan, por que você entrou?
+— Achei que conseguiria alcançar o ADC.
+— Conseguiria. Mas o que aconteceria depois?
+Ryan ficou quieto.
+— Eu morreria.
+— E o Cole?
+— Também.
+— Então você encontrou uma oportunidade de fazer uma jogada. Não uma oportunidade de vencer a luta.
+June concordou.
+— Eu nem tinha conseguido chegar.
+Sable voltou o replay para a movimentação do jungler.
+— Benjamin, você passou a primeira metade da partida tentando recuperar a jungle sozinho. Com Sejuani, precisamos que você ofereça segurança para os outros jogarem.
+Benjamin respirou fundo.
+— Eu estava tentando consertar o começo.
+— E acabou piorando o meio.
+A segunda partida começou pouco depois.
+O resultado seria novamente uma derrota.
+Mas, dessa vez, White conseguiu prolongar a partida até os trinta e cinco minutos.
+Para Sable, aquilo não era uma vitória.
+Era uma oportunidade de identificar problemas que não apareciam quando seus jogadores recebiam Ornn, Kindred, Viktor, Jhin e Bard.
+12h38, refeitório
+Os quinze jogadores se encontraram para almoçar em horários próximos.
+Murmur (Tyler) sentou ao lado de 404 (Mason), ainda reclamando de Ziggs.
+— Você sabe o que é horrível?
+— Muitas coisas.
+— Jogar uma lane inteira sem poder confiar nos ataques básicos.
+Mason apontou para o prato dele.
+— Você está falando de Ziggs há quatro horas.
+— Porque estou sofrendo há quatro horas.
+Kite (Owen) aproximou-se.
+— Pelo menos você não está tentando descobrir quando deve entrar com Akali.
+Mason levantou os olhos.
+— Akali?
+— Próximo jogo.
+— Você vai gostar.
+— Não tenho tanta certeza.
+Na mesa ao lado, June (Cole) conversava com Aster (Liam) sobre Ashe. WildTurtle passou por eles e ouviu Cole reclamar da falta de mobilidade.
+— Você precisa começar a pensar dois segundos antes de entrar numa posição — comentou o mentor.
+Cole olhou para ele.
+— Dois segundos?
+— Com alguns campeões, pode cometer um erro e sair vivo. Com Ashe, o erro começa antes de alguém encostar em você.
+Liam concordou.
+— Passei por isso quando comecei a jogar Varus.
+WildTurtle puxou uma cadeira.
+— Então os dois vão analisar seus posicionamentos depois do almoço.
+Do outro lado da mesa, Darshan conversava com Isaac e Connor sobre como jogar com pressão adversária no topo. Xmithie havia encontrado Jacob e Benjamin para discutir o problema das invasões na jungle.
+Os mentores normalmente trabalhavam com seus jogadores específicos do Main, mas Aphromoo havia organizado aquela sexta-feira para que suas orientações também alcançassem as duas academias.
+A ideia não era transformar Blue e White em cópias do Main.
+Era permitir que todos aprendessem com profissionais que já haviam enfrentado problemas semelhantes.
+Pouco antes de voltarem às salas, Emily apresentou uma atualização rápida sobre os novos elencos das ligas de desenvolvimento.
+A NACL estava completa. NRG contaria com Sniper no topo, e Winthrop University havia confirmado Cody Sun como ADC. EMEA Masters, LCK Challengers, LDL, Circuito Desafiante e LCP Challengers também tinham seus titulares registrados.
+Kite examinou os nomes da NACL.
+— Então já sabemos quem vai estar lá.
+Hai respondeu:
+— Sabemos os elencos. Ainda não sabemos o nível que vão apresentar juntos.
+Tyler perguntou:
+— Podemos enfrentar algum deles na semana que vem?
+— Talvez. Mas hoje vocês ainda têm três partidas contra um time que está conseguindo ganhar de vocês sem usar uniforme.
+A conversa terminou.
+Era hora de voltar aos computadores.
+14h06, terceira partida do Main
+O terceiro jogo foi o ponto de virada para a equipe principal.
+Noah estava de Kennen. Ethan jogava de Poppy. Mason havia recebido Taliyah, Liam utilizava Seraphine na bot lane e Daniel jogava de Bard.
+A composição era diferente de tudo que haviam utilizado nos meses anteriores.
+Não possuíam o mesmo potencial de duelo individual do estilo habitual do Main. Dependiam de movimentação, controle de espaço e decisões coletivas bem coordenadas.
+Nos primeiros minutos, o adversário conquistou vantagem no topo e tentou transformar essa pressão numa invasão da jungle.
+Ethan não contestou sozinho.
+— Eles estão entrando pelo topo. Não temos prioridade.
+Mason respondeu:
+— Posso empurrar a wave e chegar primeiro na próxima.
+Moss acompanhou a movimentação pelo mapa.
+— Não precisamos lutar agora. Espera o dragão.
+Noah, que normalmente tentaria recuperar a rota procurando um duelo, permaneceu defensivo. Utilizou Kennen para limpar as waves e preservar recursos.
+Aos vinte e dois minutos, o adversário começou a preparar o terceiro dragão.
+Moss encontrou uma oportunidade de deslocamento com Bard.
+— Tenho portal. Podemos chegar por trás.
+Ethan verificou a posição da equipe.
+— Noah consegue acompanhar?
+— Consigo. Tenho Flash e ultimate.
+Mason completou:
+— Vou fechar a saída com Taliyah.
+O adversário iniciou o dragão.
+Moss abriu o caminho.
+Ethan chegou primeiro, bloqueando o avanço do jungler inimigo.
+Mason utilizou a parede de Taliyah para separar três adversários dos outros dois.
+Noah entrou pela lateral.
+A ultimate de Kennen atingiu os jogadores presos no espaço reduzido.
+Liam permaneceu na retaguarda, utilizando Seraphine para oferecer controle e proteção enquanto os companheiros avançavam.
+Quatro eliminações.
+Dragão garantido.
+O Main conquistou o Baron minutos depois e venceu sua terceira partida.
+Na sala de observação, Goldenglue olhou para Aphromoo.
+— Foi a primeira vez hoje que o Mason não tentou ser o centro da composição.
+Aphromoo concordou.
+— E foi uma das melhores partidas dele.
+Darshan observou a movimentação de Noah.
+— Ele também não tentou vencer o jogo sozinho.
+Xmithie completou:
+— Ethan teve paciência. Não tentou transformar toda informação num gank.
+WildTurtle, entretanto, apontou para outro detalhe.
+— O Liam causou menos dano do que costuma causar. Mas manteve todo mundo vivo nas lutas importantes.
+Aphromoo sorriu.
+— É exatamente por isso que estamos fazendo isso.
+O Main ainda tinha duas partidas pela frente.
+E, pela primeira vez, ninguém pediu para voltar aos campeões favoritos.
+15h27, Academy Blue
+Blue havia perdido a primeira partida, mas conseguira vencer a segunda utilizando Rumble, Poppy, Akali, Seraphine e Rell.
+Agora disputava seu quarto jogo, depois de uma derrota apertada na terceira.
+Connor estava de Gragas, Jacob de Sejuani, Owen de Hwei, Tyler de Miss Fortune e Lucas de Renata Glasc.
+O adversário pressionava o mapa por meio de movimentações constantes, buscando encontrar Tyler sozinho nas laterais.
+Na primeira tentativa, conseguiu.
+Miss Fortune morreu antes de uma luta pelo dragão.
+— Não posso andar sozinho — reconheceu Tyler.
+Lucas respondeu:
+— Então para de andar sozinho.
+— Eu estava procurando uma wave.
+— E eles estavam procurando você.
+Aos vinte e sete minutos, Blue encontrou uma luta em torno do Baron. O adversário havia avançado pelo rio, mas Connor conseguiu interromper a aproximação de dois jogadores com Gragas.
+Jacob manteve Sejuani próxima dos carregadores.
+Owen utilizou Hwei para controlar a entrada.
+Lucas esperou que a equipe adversária comprometesse seus recursos antes de usar a ultimate de Renata Glasc.
+Tyler encontrou espaço para posicionar a ultimate de Miss Fortune.
+A luta terminou com três eliminações e o Baron para Blue.
+O jogo terminou em vitória.
+Hai observou a equipe comemorar discretamente.
+Na revisão, chamou a atenção para Lucas.
+— Essa foi sua melhor decisão do dia.
+Lucas sorriu.
+— A ultimate?
+— Não. Esperar.
+O suporte ficou surpreso.
+Hai explicou:
+— Você tinha uma habilidade que podia mudar a luta. Se utilizasse cedo demais, eles recuariam. Você esperou que precisassem continuar avançando.
+Aphromoo, que acompanhava aquela revisão, concordou.
+— É a diferença entre ter uma boa mecânica e entender por que uma habilidade deve ser utilizada.
+Tyler olhou para Lucas.
+— Então você ganhou o jogo?
+— Parece que sim.
+— Vou precisar rever essa informação.
+16h19, Academy White
+Na quarta partida, White finalmente conseguiu vencer.
+Isaac utilizava Kennen, Benjamin jogava de Ivern, Nathan estava de Ahri, Cole de Seraphine e Ryan de Nautilus.
+A composição exigia uma abordagem bastante diferente daquela que os jogadores normalmente preferiam.
+Benjamin não tinha o mesmo potencial de duelo de Kindred. Cole precisava proteger e acompanhar os companheiros em vez de procurar dano constante como ADC tradicional. Isaac precisava encontrar oportunidades de entrada em vez de simplesmente ocupar espaço na linha de frente.
+O adversário começou melhor.
+Conquistou vantagem no mid e forçou o primeiro dragão.
+White permaneceu atrás durante boa parte do jogo, mas não perdeu o controle completamente.
+Aos trinta minutos, Nathan encontrou uma oportunidade de eliminação sobre o suporte inimigo. O restante da equipe chegou rapidamente.
+Ryan protegeu Cole durante a aproximação adversária.
+Benjamin utilizou Ivern para impedir que os jogadores inimigos alcançassem a retaguarda.
+Isaac encontrou uma entrada com Kennen.
+Cole conseguiu manter os quatro companheiros vivos durante a luta.
+White venceu o confronto e conquistou o Baron.
+Pouco depois, encerrou a partida.
+Quando a tela de vitória apareceu, Ryan tirou o headset.
+— Finalmente.
+Sable aproximou-se.
+— O que mudou?
+Benjamin respondeu:
+— A gente parou de tentar resolver tudo sozinho.
+Nathan completou:
+— E começou a usar os campeões pelas funções deles.
+Sable assentiu.
+— Exatamente.
+A equipe ainda perderia o quinto jogo, encerrando o dia com apenas uma vitória em cinco partidas.
+Mas a derrota final foi diferente das duas primeiras. White conseguiu jogar de maneira organizada durante trinta e sete minutos utilizando Gragas, Skarner, Taliyah, Varus e Renata Glasc.
+Perdeu uma luta decisiva porque Ryan avançou antes que Benjamin estivesse em posição de acompanhar.
+Na revisão, Sable mostrou o momento.
+Ryan começou a explicar o erro, mas o treinador interrompeu.
+— Eu já sei o que aconteceu. Quero saber se você consegue reconhecer essa situação na próxima vez.
+Ryan assentiu.
+— Consigo.
+— Então hoje valeu a pena.
+17h38, última partida do Main
+A última composição da equipe principal reunia Sion, Ivern, Akali, Sivir e Taric.
+Mason olhou para o campeão selecionado.
+— Finalmente uma coisa que posso usar para matar alguém sozinho.
+Goldenglue respondeu da área de observação:
+— E é exatamente por isso que quero ver você trabalhar com o resto do time.
+O scrim começou.
+O adversário percebeu rapidamente que Main havia selecionado uma composição que dependia da mobilidade de Akali e da capacidade dos outros quatro jogadores de manter as lutas organizadas.
+Durante os primeiros vinte minutos, tentaram impedir Mason de participar das movimentações coletivas.
+Funcionou.
+A equipe adversária conquistou dois dragões e uma vantagem de quase quatro mil de ouro.
+Mason começou a demonstrar impaciência.
+— Se eu conseguir entrar pelo lado, mato o ADC.
+Moss respondeu:
+— Você também pode morrer.
+— Posso.
+— Então espera a gente encontrar uma entrada.
+Mason permaneceu escondido atrás de uma parede, observando os adversários ocuparem o rio.
+Noah utilizou Sion para pressionar a entrada principal.
+Ethan começou a estabelecer visão com Ivern.
+Liam permaneceu próximo de Daniel, que jogava de Taric.
+O adversário tentou iniciar a luta.
+Noah recebeu a maior parte das primeiras habilidades.
+Ethan protegeu a aproximação de Liam.
+Daniel utilizou a ultimate de Taric quando os adversários comprometeram seus recursos para eliminar o ADC.
+Mason finalmente encontrou espaço.
+Entrou pela lateral.
+Eliminou o atirador inimigo.
+Recuou.
+Esperou a próxima oportunidade.
+Eliminou o mid laner.
+A luta terminou com quatro jogadores adversários mortos.
+Main conquistou o Baron.
+Aos trinta e seis minutos, destruiu o Nexus.
+O resultado final do dia foi de três vitórias e duas derrotas.
+Ninguém comemorou como se tivesse vencido um campeonato.
+Mas os cinco jogadores estavam satisfeitos.
+Mason olhou para Goldenglue assim que tirou o headset.
+— Admito que você tinha razão.
+Goldenglue sorriu.
+— Sobre qual das quarenta coisas?
+— Sobre não precisar entrar sozinho.
+— Ótimo. Agora precisamos conseguir fazer você lembrar disso quando estiver jogando de um campeão confortável.
+18h23, revisão conjunta
+Os três elencos voltaram à sala de reuniões.
+Thinkcard apresentou os resultados do dia.
+Equipe
+Scrims
+Resultado
+Kairos Main
+5
+3 vitórias, 2 derrotas
+Academy Blue
+5
+2 vitórias, 3 derrotas
+Academy White
+5
+1 vitória, 4 derrotas
+Nenhum dos jogos seria tratado como resultado oficial. Os adversários não representavam organizações profissionais e não existia qualquer classificação a ser atualizada.
+Ainda assim, os relatórios mostravam diferenças importantes.
+O Main havia melhorado sua capacidade de jogar com composições de controle e proteção, mas ainda dependia de decisões corretas de Mason e Noah para encontrar oportunidades de ataque.
+Blue demonstrara evolução na disciplina de rotas, embora continuasse cometendo erros quando seus jogadores tentavam compensar individualmente uma vantagem adversária.
+White permanecia o mais inconsistente dos três, mas havia conseguido desenvolver estruturas coletivas que não dependiam dos campeões de conforto.
+Darshan foi o primeiro mentor a falar.
+— Quero que os tops entendam uma coisa. Vocês não precisam abandonar campeões agressivos. Precisam parar de acreditar que toda partida deve ser vencida por uma vantagem individual no topo.
+Xmithie continuou:
+— Os três junglers tentaram recuperar jogos ruins fazendo alguma coisa sozinhos. Isso funcionava contra adversários mais fracos. Hoje descobriram que jogadores bons conseguem punir essas decisões.
+Goldenglue apresentou as anotações sobre os mids.
+— Mason foi melhor quando parou de tentar carregar todas as lutas. Owen precisa reconhecer quando uma movimentação realmente oferece vantagem. Nathan está evoluindo, mas ainda hesita quando precisa tomar uma decisão sem ter o controle completo da rota.
+WildTurtle voltou-se aos três ADCs.
+— Liam descobriu que consegue influenciar uma luta mesmo causando menos dano. Tyler finalmente começou a entender como controlar waves com magos. Cole foi paciente quando precisou ser paciente. Quero que mantenham isso quando voltarem aos atiradores favoritos.
+Aphromoo encerrou com os suportes.
+— Daniel está aprendendo a adaptar o tipo de iniciação à composição. Lucas melhorou muito quando esperou o momento certo. Ryan ainda precisa reconhecer quando proteger é mais importante do que avançar.
+Adrian, que havia acompanhado a parte final da reunião, fez uma pergunta.
+— Então conseguimos o que queríamos?
+Thinkcard respondeu:
+— Conseguimos identificar quais desses campeões ainda não são escolhas confiáveis. Isso é diferente de dominá-los.
+— Quanto tempo precisamos?
+— Depende. Alguns jogadores vão incorporar duas ou três opções rapidamente. Outros precisarão de semanas. E pode ser que alguns desses campeões saiam das prioridades competitivas antes disso.
+Adrian concordou.
+— Então não quero ninguém contando essas cinco escolhas como se já estivessem prontas para o palco.
+Aphromoo assentiu.
+— Não estão. Hoje foi apenas o primeiro teste completo.
+Hai olhou para os jogadores de Blue.
+— Amanhã quero revisar as partidas em que vocês perderam o controle do mapa.
+Sable fez a mesma observação ao White.
+— E eu quero que vocês expliquem por que a quarta partida funcionou, não apenas por que as outras quatro deram errado.
+Mason levantou a mão.
+— Posso fazer uma pergunta importante?
+Aphromoo suspirou.
+— Pode.
+— Segunda-feira podemos jogar com nossos campeões favoritos?
+Thinkcard respondeu antes dos outros.
+— Vamos ver.
+Mason olhou para o teto.
+— Essa organização realmente odeia felicidade.
+20h11, Kairos Commons
+A maior parte dos jogadores havia encerrado o dia.
+Kite (Owen) estava ao piano quando 404 (Mason) apareceu na porta. Os dois haviam passado quase seis horas jogando scrims, mas nenhum parecia particularmente cansado.
+— Como foi a Akali? — perguntou Mason.
+Owen continuou tocando por alguns segundos.
+— Melhor do que achei. Pior do que queria.
+Mason sorriu.
+— A minha também.
+— Você acha que a gente vai precisar de tudo isso na LCS?
+Mason pensou.
+— Talvez não de todos os campeões. Mas acho que vamos precisar saber fazer coisas que ainda não sabemos.
+Owen parou de tocar.
+— O problema é que eu passei muito tempo tentando ficar bom em alguns campeões. Agora parece que isso não basta.
+— Provavelmente não basta.
+Do outro lado do corredor, June (Cole) conversava com Luma (Ryan) sobre a quarta partida do White. Murmur (Tyler) havia voltado à sala azul para assistir à gravação de sua derrota com Ziggs. Na sala preta, Aster (Liam) revisava os momentos em que Seraphine permitira que seus companheiros sobrevivessem às lutas.
+Os mentores também continuavam trabalhando.
+Darshan, Xmithie, Goldenglue, WildTurtle e Aphromoo haviam passado o dia inteiro ensinando algo que nenhum dos quinze jogadores aprenderia apenas aumentando o número de partidas.
+A diferença entre saber utilizar um campeão e compreender o que ele precisava oferecer à equipe.
+O adiamento do Stage 1 havia dado à Kairos mais duas semanas de preparação. Em outros lugares, organizações utilizavam esse tempo para apresentar seus novos elencos, reorganizar contratos e descobrir como cinco jogadores poderiam trabalhar juntos.
+A Kairos já tinha seus quinze jogadores.
+Tinha três equipes.
+Tinha mentores experientes.
+Mas ainda precisava provar que conseguia jogar de maneiras diferentes.
+Na segunda-feira, alguns daqueles campeões seriam testados novamente. Outros poderiam ser substituídos por novas prioridades. E, quando o Fearless Draft começasse a eliminar opções durante uma série oficial, ninguém poderia simplesmente pedir seu favorito de volta.
+Pela primeira vez, a organização não estava tentando descobrir quais eram os melhores campeões de cada jogador.
+Estava tentando descobrir o que restava de cada jogador quando seus melhores campeões não estavam disponíveis.
+Faltavam dezessete dias para a abertura da LCS.
+E a Kairos ainda tinha muito a aprender.

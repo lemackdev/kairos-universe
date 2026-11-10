@@ -1,0 +1,125 @@
+{
+  "id": "episode-118",
+  "slug": "episode-118",
+  "episodeNumber": 118,
+  "title": "Cinco Campeões Que Você Não Escolheria",
+  "historicalTitle": "Cinco Campeões Que Você Não Escolheria",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-29",
+  "datePrecision": "exact",
+  "publicationOrder": 118,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "mason-404-brooks",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "zaqueri-aphromoo-black",
+    "darshan-kairos-top-mentor",
+    "xmithie-kairos-jungle-mentor",
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "On 2027-01-29 each of Kairos's fifteen League players works on five champions outside their usual pool in five full private scrims per team against independent teams of Challenger-level and untied players, with the five mentors present: Darshan (Top), Xmithie (Jungle), Goldenglue (Mid), WildTurtle (ADC) and Aphromoo (Support). Main finishes 3-2, Academy Blue 2-3 and Academy White 1-4. The staff stresses that none of the games is an official result and that the champions are not yet reliable picks. Emily also reports that the NACL and the other development leagues have their rosters registered, including Sniper at NRG's Top and Cody Sun at Winthrop University's ADC. Seventeen days remain until the LCS opens.",
+  "keyEvents": [
+    "8:14 — The five mentors and the coaches meet the three teams; Aphromoo explains that each player uses five champions outside the usual pool in five full games against independent teams, so no comfort pick can rescue a bad game.",
+    "9:02 — Main's champion lists: Noah (Rumble, Gnar, Kennen, Ornn, Sion), Ethan (Skarner, Maokai, Poppy, Sejuani, Ivern), Mason (Aurora, Galio, Taliyah, Hwei, Akali), Liam (Varus, Ziggs, Seraphine, Miss Fortune, Sivir) and Daniel (Rell, Alistar, Bard, Renata Glasc, Taric); the first game, from 9:18, ends in a loss after 32 minutes.",
+    "10:36 — Academy Blue (SullCon, xNox, Kite, Murmur, japalenogrits) loses its first game after 28 minutes; Hai and Darshan review Tyler's Ziggs lane and Connor's K'Sante role.",
+    "11:41 — Academy White (Pebble, vexemite, 0bit, June, Luma) loses its first two games, the second after 35 minutes.",
+    "12:38 — At lunch the mentors work with players across teams; Emily reports that the NACL is complete, with NRG fielding Sniper at Top and Winthrop University confirming Cody Sun as ADC, and that the EMEA Masters, LCK Challengers, LDL, Circuito Desafiante and LCP Challengers also have registered starters.",
+    "14:06 — Main wins its third game with Kennen, Poppy, Taliyah, Seraphine and Bard.",
+    "15:27 — Academy Blue wins its fourth game with Gragas, Sejuani, Hwei, Miss Fortune and Renata Glasc, after winning its second game earlier.",
+    "16:19 — Academy White wins its fourth game with Kennen, Ivern, Ahri, Seraphine and Nautilus; it loses the fifth, after 37 minutes.",
+    "17:38 — Main wins its last game with Sion, Ivern, Akali, Sivir and Taric after 36 minutes, ending the day 3-2.",
+    "18:23 — Thinkcard presents the day's results (Main 3-2, Blue 2-3, White 1-4); none is an official result and no standing changes. Adrian asks the team not to treat the five picks as ready for the stage.",
+    "20:11 — Mason and Kite talk in the Commons; seventeen days remain until the LCS opens, and the postponed Stage 1 has given Kairos two extra weeks of preparation."
+  ],
+  "consequences": [
+    "Main, Academy Blue and Academy White each record five private scrims against independent teams on 2027-01-29: Main 3-2, Blue 2-3, White 1-4.",
+    "The staff concludes the five off-pool champions are not yet reliable competitive picks; development continues on Monday."
+  ],
+  "canonIntroduced": [
+    "The 2027-01-29 five-champion off-pool exercise is established, with the five mentors active for Main, Blue and White.",
+    "The NACL roster information is stated: NRG fields Sniper at Top and Winthrop University confirms Cody Sun as ADC; the other development leagues' rosters are registered."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-113",
+    "episode-116"
+  ],
+  "continuityNotes": [
+    "The scrims are private practice against independent teams, not official results; no standing, ranking or statistic is affected.",
+    "Goldenglue and WildTurtle are present as the Mid and ADC mentors, alongside Darshan, Xmithie and Aphromoo.",
+    "Aphromoo's Main result of 3-2 is narrated by team totals; games 2 and 4 are not individually narrated, so the order of the remaining win and loss is not established.",
+    "The NACL, NRG and Winthrop University details match data/competitive-world-overrides/nacl-rosters-2027.json and are reused."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "League of Legends champions are real-world game elements; independent opponents are unnamed."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_115_118_import/episode_118.txt",
+      "locator": "Episódio 118 — Cinco Campeões Que Você Não Escolheria",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "On 2027-01-29 Main plays five scrims, winning three and losing two; Blue plays five, winning two and losing three; White plays five, winning one and losing four, all against independent teams.",
+    "Each player uses five champions outside their usual pool during the exercise.",
+    "Darshan, Xmithie, Goldenglue, WildTurtle and Aphromoo are the Top, Jungle, Mid, ADC and Support mentors.",
+    "Emily reports Sniper as NRG's Top and Cody Sun as Winthrop University's ADC.",
+    "Seventeen days remain until the LCS opens, and the Stage 1 postponement gives Kairos two extra weeks of preparation."
+  ],
+  "unconfirmedDetails": [
+    "The identities of the independent opponent teams are not established.",
+    "Games 2 and 4 of Main's set are not individually narrated."
+  ],
+  "notes": [
+    "Private practice: stored as three match records dated 2027-01-29."
+  ]
+}

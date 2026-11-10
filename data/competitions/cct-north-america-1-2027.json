@@ -7,7 +7,8 @@
   "status": "planned",
   "seasonIds": [],
   "sourceIds": [
-    "source-canon-directive-2027-competitive-calendar"
+    "source-canon-directive-2027-competitive-calendar",
+    "source-episodes-115-118"
   ],
   "canonStatus": "confirmed",
   "overview": "A 2027 Counter-Strike Tier 2 event with sixteen invited teams. Format, qualification and results have not been confirmed yet.",
@@ -27,7 +28,7 @@
   "region": "north-america",
   "teamsCount": 16,
   "eventType": "lan",
-  "inviteDate": null,
+  "inviteDate": "2027-01-28",
   "rankingDate": null,
   "parentCompetitionId": null,
   "relatedCompetitionIds": [],

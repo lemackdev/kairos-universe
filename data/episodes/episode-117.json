@@ -1,0 +1,122 @@
+{
+  "id": "episode-117",
+  "slug": "episode-117",
+  "episodeNumber": 117,
+  "title": "O Primeiro Convite",
+  "historicalTitle": "O Primeiro Convite",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-28",
+  "datePrecision": "exact",
+  "publicationOrder": 117,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "caleb-atlas-mercer",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "jake-stewie2k-yip",
+    "tarik-kairos-cs-academy-head-coach",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "zayn-parkinglot-haddad"
+  ],
+  "firstAppearances": [
+    "tarik-kairos-cs-academy-head-coach"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "On 2027-01-28 the ESL announces the sixteen invited teams of IEM Dallas 2027 (3 to 14 February, USD 1,000,000), and Kairos Gaming is not among them. At 17:31 PT the CCT announces the sixteen teams of CCT North America #1 in Austin (8 to 15 February, USD 100,000), and Kairos Gaming is invited, its first confirmed Counter-Strike event; none of the sixteen teams is also an IEM Dallas invitee. Earlier in the day Emily tells Adrian the Kairos invitation has been accepted, Stewie2K tells the Academy he is leaving to return as a player with Without a Roof, and Without a Roof appears on the CCT list with autimatic, Stewie2K, Brehze, CeRq and FaNg. That evening Tarik accepts and is introduced as Head Coach of Kairos Academy Green; Trace remains Development Coach and Luk remains Head Coach of Kairos Gaming.",
+  "keyEvents": [
+    "9:24 — Atlas, Mold, Glacier, MoteConHuesillo and FLACOGOMEZ watch the ESL announcement; Luk reminds them they are not invited and that IEM Dallas starts on 2027-02-03.",
+    "9:30 — The ESL announces the sixteen IEM Dallas 2027 invitees: Team Vitality, Spirit, MOUZ, FURIA, Falcons, Aurora, Natus Vincere, G2 Esports, FaZe, Astralis, BC.Game, Team Liquid, M80, MIBR, paiN Gaming and Legacy (3 to 14 February, USD 1,000,000). Luk notes that Kairos played a private series against Team Liquid in November that produced no official result.",
+    "11:08 — Emily tells Adrian that Kairos Gaming is among the teams considered for CCT North America #1 (Austin, 8 to 15 February); the invitation has passed administrative checks, Kairos's participation has been accepted, and the official announcement is due in the late afternoon. She also raises the Academy: since Stewie2K accepted Without a Roof's proposal to return as a player, Kairos has been working on formalizing his departure; Trace can maintain preparation during the transition, and Tarik, spoken to again, is interested but wants to understand his autonomy and time commitment.",
+    "13:16 — Stewie2K tells RAMENSOUP (Evan), velcroDAWG (Milo), dentalplan (Nolan), p4rkingl0t (Zayn) and wrongnumber (Reid), with Trace present, that he is leaving Kairos for Without a Roof; Trace confirms the five players, Trace and Luk remain and a new head coach will be named; Evan acts as IGL but no captain has been designated.",
+    "16:42 — Luk tells the Main players after a private Nuke practice that Kairos Gaming has been invited to CCT North America #1 and that the full list will be released at 17:30; no opponents or schedule are known.",
+    "17:31 — The CCT announces North America: NRG, Without a Roof, Wildcard, LAG, Kairos Gaming, 100 Thieves and Envy; South America: Imperial, BESTIA and Fluxo; international: The MongolZ, PARIVISION, BetBoom, Ninjas in Pyjamas, HEROIC and Eternal Fire. The broadcast describes Kairos Gaming as the biggest unknown among the sixteen.",
+    "18:09 — The Academy notices that Stewie2K's new team is on the same CCT list; Trace tells them the head coach appointment is still being finalized.",
+    "19:12 — On a video call with Adrian and Emily, Tarik accepts the position of Head Coach of Kairos Academy Green after asking about autonomy and the Academy's development goals; Trace remains Development Coach and Luk remains Head Coach of Kairos Gaming.",
+    "20:06 — Adrian thanks Stewie2K in the Commons and introduces Tarik to the Academy and Main players; Tarik says he wants to watch the games before changing anything.",
+    "21:14 — Evan thanks Stewie2K for letting him continue as IGL; Stewie2K tells him to keep thinking for himself rather than letting Tarik make every call."
+  ],
+  "consequences": [
+    "Kairos Gaming has its first confirmed Counter-Strike event: CCT North America #1 (2027-02-08 to 2027-02-15, Austin); no match, schedule, format or result is established.",
+    "Stewie2K's departure from Kairos Academy Green to Without a Roof is announced internally; Tarik is appointed Head Coach of Kairos Academy Green; Trace stays as Development Coach and Luk as Head Coach of Kairos Gaming."
+  ],
+  "canonIntroduced": [
+    "Tarik is introduced and appointed Head Coach of Kairos Academy Green on 2027-01-28.",
+    "The IEM Dallas 2027 and CCT North America #1 invitations are announced publicly on 2027-01-28 (IEM Dallas 9:30 PT; CCT 17:31 PT), and Kairos Gaming's CCT invitation is confirmed.",
+    "Stewie2K's return to professional play with Without a Roof is communicated to the Academy players on 2027-01-28 at 13:16."
+  ],
+  "canonChanged": [
+    "Stewie2K's departure is narrated in this episode on 2027-01-28, earlier than the earlier canon record that placed the offer and his acceptance in 'Episode 118 (2027-01-29)'; Tarik, previously a prospective candidate only, accepts and is appointed."
+  ],
+  "continuityDependencies": [
+    "episode-112",
+    "episode-113",
+    "episode-074"
+  ],
+  "continuityNotes": [
+    "The invite lists match data/competitive-world-overrides/iem-dallas-invites-2027.json and cct-north-america-1-invites-2027.json exactly; those datasets are reused and only the announcement date is added.",
+    "The private Team Liquid series in November is recalled; it remains outside official match history.",
+    "The exact date of Stewie2K's acceptance of the Without a Roof offer is not stated; the prose only says he had accepted before 11:08 on 2027-01-28. No contract term or administrative end date is stated for him or a start date or terms for Tarik.",
+    "Tarik's real name is not stated in the episode."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "IEM Dallas 2027 (ESL) and CCT North America #1 are fictional-canon 2027 events involving real-world organizations; Stewie2K and Without a Roof are real-world references; no real-world result or contract is asserted."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_115_118_import/episode_117.txt",
+      "locator": "Episódio 117 — O Primeiro Convite",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "The ESL announced sixteen IEM Dallas 2027 invitees on 2027-01-28; Kairos Gaming is not invited.",
+    "Kairos Gaming, the Counter-Strike Main team, is invited to CCT North America #1 in Austin from 2027-02-08 to 2027-02-15 (sixteen invited teams, USD 100,000); the CCT announcement was made at 17:31 PT on 2027-01-28.",
+    "Without a Roof is on the CCT list with autimatic, Stewie2K, Brehze, CeRq and FaNg.",
+    "Tarik accepts and is introduced as the new Head Coach of Kairos Academy Green on 2027-01-28; Trace remains Development Coach and Luk remains Head Coach of Kairos Gaming.",
+    "Evan acts as IGL of the Academy; no captain has been designated.",
+    "Kairos has played no official Counter-Strike match; no opponent or schedule for the CCT is known."
+  ],
+  "unconfirmedDetails": [
+    "Stewie2K's contract terms, administrative end date at Kairos and Without a Roof contract are not established.",
+    "Tarik's contract terms, administrative start date and real name are not established.",
+    "No CCT or IEM Dallas format, group, seeding, schedule or result is established."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

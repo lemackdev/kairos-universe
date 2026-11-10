@@ -28,3 +28,5 @@ IEM Dallas 2027 invitee.
 
 No invite date, format, groups, seeding, results, standings or qualification is
 established. Rosters follow the existing Counter-Strike roster freeze.
+
+Announced on 2027-01-28 (Episode 117): CCT at 17:31 PT. The invitee lists in the episode match this document exactly.

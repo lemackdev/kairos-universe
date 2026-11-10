@@ -1,0 +1,120 @@
+{
+  "id": "episode-116",
+  "slug": "episode-116",
+  "episodeNumber": 116,
+  "title": "O Meta Não Espera Ninguém",
+  "historicalTitle": "O Meta Não Espera Ninguém",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-28",
+  "datePrecision": "exact",
+  "publicationOrder": 116,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "mason-404-brooks",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "cameron-mold-ruiz",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "On 2027-01-28 Kairos's three League teams work on champions chosen from early 2027 preparation trends rather than from their players' comfort picks. Main trains Rumble, Skarner, Aurora, Varus and Rell with Aphromoo and Thinkcard; Academy Blue trains K'Sante, Maokai, Ahri, Ziggs and Alistar with Hai; Academy White trains Gnar, Sejuani, Hwei, Ashe and Leona with Sable. Main loses the morning exercise against a private group of high-level independent players, then wins a controlled fight around a dragon in the afternoon block. Adrian is told the goal is adaptability, not a fixed champion pool, and a full Fearless Draft series of five simulated games is scheduled for the next morning. Mason stays late to practice Aurora.",
+  "keyEvents": [
+    "8:17 — Main learns the day's composition from Aphromoo and Thinkcard: Rumble, Skarner, Aurora, Varus and Rell, chosen from January preparation reports, draft trends and scrim information gathered from other organizations; the aim is to master picks that appear in rivals' preparation, especially once Fearless Draft removes options.",
+    "9:06 — Main plays a private high-level exercise against independent players with no organization, who were asked to use a traditional composition; Main loses, with Noah overextending on Rumble and Mason dying on a premature Aurora entry; Aphromoo stops the replay to correct each decision.",
+    "10:42 — In the Blue room, Hai assigns SullCon (Connor) K'Sante, xNox (Jacob) Maokai, Kite (Owen) Ahri, Murmur (Tyler) Ziggs and japalenogrits (Lucas) Alistar; after a first exercise against an analyst-built composition Tyler learns to prioritize the wave over hitting the opposing ADC, and Blue takes the first mid tower at 16 minutes.",
+    "12:18 — Players from the three teams discuss the LPL lineups, Invictus Gaming's roster, and who will win the LCK; Aphromoo tells them to remember that nobody knows when someone predicts Kairos's LCS position.",
+    "13:47 — In the White room, Sable assigns Pebble (Isaac) Gnar, vexemite (Benjamin) Sejuani, 0bit (Nathan) Hwei, June (Cole) Ashe and Luma (Ryan) Leona and runs a Baron-defense exercise; the second attempt ends with three eliminations for White.",
+    "15:09 — Main keeps the same champions for a second block; Aster, Moss, Ethan and Noah wait for each other before a fight and win a dragon fight with four eliminations and no deaths; Mold, visiting the room, applauds and is sent back to Counter-Strike by Aphromoo.",
+    "17:26 — Thinkcard, Aphromoo, Hai and Sable compare the day's reports in front of Adrian. Thinkcard explains that the champions are relevant now according to preparation data but may change, so the goal is for players to understand different roles and adapt if the meta shifts; a five-game simulated Fearless series is planned for the next day.",
+    "19:14 — In the Commons, players watch Brazilian CBLOL coverage and the LCP updates (Fudge at GAM, JunJia at SoftBank HAWKS); Aphromoo tells Mason that the full Fearless session is at 9:00 the next day.",
+    "20:36 — Mason keeps practicing Aurora alone; Aphromoo tells him he does not need to abandon Orianna, Azir or Syndra, only to be able to win when they are unavailable."
+  ],
+  "consequences": [
+    "Main, Academy Blue and Academy White begin deliberate off-comfort champion work tied to January 2027 preparation trends.",
+    "A full Fearless Draft series of five simulated games is scheduled for 2027-01-29 at 9:00."
+  ],
+  "canonIntroduced": [
+    "The 2027-01-28 development focus is established: Main on Rumble, Skarner, Aurora, Varus and Rell; Academy Blue on K'Sante, Maokai, Ahri, Ziggs and Alistar; Academy White on Gnar, Sejuani, Hwei, Ashe and Leona.",
+    "The staff's stated rationale is adaptability under Fearless Draft rather than building team identity around fifteen specific champions."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-113",
+    "episode-115"
+  ],
+  "continuityNotes": [
+    "The morning game against independent players is a private practice exercise and is not an official result; the other exercises on this day are described as drills without a recorded outcome.",
+    "Players are presented as nickname followed by first name; Mold (Cameron) appears only to visit the room.",
+    "Rumble, Skarner, Aurora, Varus and Rell are narrated as training picks for 2027-01-28; they are not declared permanent picks."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "League of Legends champions and the Fearless Draft format are real-world game elements; the 2027 preparation trends are fictional narrated context."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_115_118_import/episode_116.txt",
+      "locator": "Episódio 116 — O Meta Não Espera Ninguém",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "On 2027-01-28 Main trains Rumble, Skarner, Aurora, Varus and Rell; Blue trains K'Sante, Maokai, Ahri, Ziggs and Alistar; White trains Gnar, Sejuani, Hwei, Ashe and Leona.",
+    "Main loses its first private exercise of the day against independent high-level players and later wins a dragon fight with four eliminations and no deaths.",
+    "Aphromoo, Hai and Sable lead the Main, Blue and White sessions respectively; Thinkcard supports the Main session and the analysis.",
+    "A five-game Fearless Draft simulation is scheduled for 2027-01-29 at 9:00.",
+    "Mason practices Aurora alone at 20:36 after the other players have finished."
+  ],
+  "unconfirmedDetails": [
+    "The identities of the independent opponents are not established.",
+    "The results of the Blue and White exercises are not narrated."
+  ],
+  "notes": [
+    "Private practice: stored as match-lol-external-main-independent-exercise-2027-01-28."
+  ]
+}

@@ -359,6 +359,17 @@ export interface OrganizationOverviews2027 {
   notes: string[];
 }
 
+export interface TeamLocations2027 {
+  continuityId: "kairos-universe";
+  originType: string;
+  canonStatus: string;
+  sourceIds: string[];
+  capitals: Record<string, string>;
+  lol: Record<string, { orgCountry: string; teamCountry: string }>;
+  cs: Record<string, { orgCountry: string; teamCountry: string; teamCity?: string; headCoach?: string }>;
+  notes: string[];
+}
+
 export interface WorldState2027 {
   eventInvites: EventInvites2027[];
   lcsRosters: LcsRosters2027;
@@ -376,6 +387,7 @@ export interface WorldState2027 {
   playerLegalNames: PlayerLegalNames2027;
   csPlayerRoles: CsPlayerRoles2027;
   organizationOverviews: OrganizationOverviews2027;
+  teamLocations: TeamLocations2027;
   cblolRosters: LcsRosters2027;
   csRosterFreeze: CounterStrikeRosterFreeze2027;
   csExternalRosters: CsExternalRosters2027;

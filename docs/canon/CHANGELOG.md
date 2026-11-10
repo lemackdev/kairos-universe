@@ -1,5 +1,13 @@
 # Canon Changelog
 
+## 0.31.0 - Episodes 115-118
+
+- Canonized Episodes 115-118 from 107-118.docx (prose archived in archive/episode-sources/kairos_115_118_import/); Episodes 107-114 were verified against the document and left unchanged.
+- Registered the 2027-01-28 IEM Dallas and CCT North America #1 announcements (invite date) and Kairos Gaming's first confirmed Counter-Strike event.
+- Added Tarik as Head Coach of Kairos Academy Green; corrected the Stewie2K record's episode and date metadata (Episode 117, 2027-01-28).
+- Added four private League scrim records (2027-01-28 and 2027-01-29); none affects standings.
+- Extended timelines for Kairos coaches, mentors and players.
+
 ## 0.30.0 - Organization overviews
 
 - Added overviews for 107 external organizations and 21 Tier 2 teams, written from Wikipedia and public esports reporting.

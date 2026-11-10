@@ -3,13 +3,14 @@
   "originType": "fictional",
   "canonStatus": "confirmed",
   "sourceIds": [
-    "source-canon-directive-2027-iem-dallas-invites"
+    "source-canon-directive-2027-iem-dallas-invites",
+    "source-episodes-115-118"
   ],
   "competitionId": "iem-dallas-2027",
   "competitionSlug": "iem-dallas-2027",
   "status": "invited",
   "expectedTeamCount": 16,
-  "inviteDate": null,
+  "inviteDate": "2027-01-28",
   "teams": [
     {
       "teamId": "external-cs-team-team-vitality",

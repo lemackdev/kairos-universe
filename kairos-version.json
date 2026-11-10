@@ -1,11 +1,11 @@
 {
-  "canonVersion": "0.30.0",
+  "canonVersion": "0.31.0",
   "project": "Kairos Universe",
-  "storyEpisode": 114,
+  "storyEpisode": 118,
   "storyStartPeriod": "early-2026",
   "storyPeriod": "early-january-2027",
   "storyYear": 2027,
-  "currentNarrativeDate": "2027-01-27",
+  "currentNarrativeDate": "2027-01-29",
   "nextCompetitiveMilestone": {
     "period": "february-2027",
     "displayName": "February 2027",
@@ -14,10 +14,10 @@
   },
   "websiteImplemented": true,
   "competitiveDatabaseImplemented": true,
-  "currentDocumentationPhase": "episodes-107-114-canonized",
+  "currentDocumentationPhase": "episodes-107-118-canonized",
   "nextPhase": "2027-preseason-competition-preparation",
-  "reconstructedThroughEpisode": 114,
-  "episodeRecordsCreatedThrough": 114,
+  "reconstructedThroughEpisode": 118,
+  "episodeRecordsCreatedThrough": 118,
   "lastValidated": null,
   "notes": [
     "Episodes 1-29 are reconstructed from the immutable historical PDF.",
@@ -81,6 +81,7 @@
     "Legal names and nationalities of nickname-only 2027 players added from Leaguepedia. See docs/canon/PLAYER_LEGAL_NAMES_2027.md.",
     "Counter-Strike 2 players now have roles (AWPer, IGL, Rifler) from HLTV role icons. See docs/canon/CS_PLAYER_ROLES_2027.md.",
     "Every external team page now carries an overview of its organization. See docs/canon/ORGANIZATION_OVERVIEWS_2027.md.",
+    "Episodes 115-118 are canonized from 107-118.docx (episodes 107-114 verified unchanged); Tarik becomes Head Coach of Kairos Academy Green; four private scrim records are added. See docs/canon/EPISODES_115_118_IMPORT.md.",
     "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization."
   ]
 }

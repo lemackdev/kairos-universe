@@ -1456,3 +1456,11 @@ body:has(.wikiGrid) { background: var(--paper-muted); }
     flex-wrap: wrap;
   }
 }
+
+/* The field-guide sidebar was removed: the content spans the full grid width. */
+.wikiGrid,
+.wikiGrid:has(.wikiArticle),
+.wikiGrid:not(:has(.wikiArticle)) { grid-template-columns: minmax(0, 1fr); }
+.wikiGrid .mainContent,
+.wikiGrid:has(.wikiArticle) .mainContent,
+.wikiGrid:not(:has(.wikiArticle)) .mainContent { grid-column: 1; grid-row: auto; }

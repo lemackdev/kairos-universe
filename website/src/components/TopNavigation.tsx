@@ -15,6 +15,7 @@ const links = [
   ["Campus", "/wiki/campus"],
   ["Matches", "/wiki/matches"],
   ["Transfers", "/wiki/transfers"],
+  ["Ranking", "/wiki/rankings/counter-strike"],
 ] as const;
 
 export function TopNavigation({ searchRecords }: { searchRecords: SearchRecord[] }) {

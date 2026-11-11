@@ -1160,6 +1160,696 @@
       "nickname": "zynts",
       "nationality": "Brazil",
       "basis": "Web research of public esports databases, November 2026"
+    },
+    "external-lol-player-retrozing": {
+      "nickname": "Retrozing",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-tubs": {
+      "nickname": "Tubs",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-munchy": {
+      "nickname": "Munchy",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-young": {
+      "nickname": "Young",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-levitate": {
+      "nickname": "Levitate",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-minui": {
+      "nickname": "Minui",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-fiji": {
+      "nickname": "Fiji",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-aeon-crystal": {
+      "nickname": "Aeon Crystal",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-leza": {
+      "nickname": "Leza",
+      "nationality": "Mexico",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-spawn": {
+      "nickname": "Spawn",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-only35": {
+      "nickname": "Only35",
+      "nationality": "Turkey",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-zamudo": {
+      "nickname": "Zamudo",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-darkwings": {
+      "nickname": "DARKWINGS",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-tactical": {
+      "nickname": "Tactical",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-busio": {
+      "nickname": "Busio",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-thanatos": {
+      "nickname": "Thanatos",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-blaber": {
+      "nickname": "Blaber",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-loki": {
+      "nickname": "Loki",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-apa": {
+      "nickname": "APA",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-zven": {
+      "nickname": "Zven",
+      "nationality": "Denmark",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-vulcan": {
+      "nickname": "Vulcan",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-sniper": {
+      "nickname": "Sniper",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-tomio": {
+      "nickname": "Tomio",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-perry": {
+      "nickname": "Perry",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-insanity": {
+      "nickname": "Insanity",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-cody-sun": {
+      "nickname": "Cody Sun",
+      "nationality": "China",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-zyko": {
+      "nickname": "Zyko",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-siddywiddy": {
+      "nickname": "SiddyWiddy",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-asilah": {
+      "nickname": "Asilah",
+      "nationality": "Morocco",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-jrockets": {
+      "nickname": "JRockets",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-arbrio": {
+      "nickname": "Arbrio",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-shochi": {
+      "nickname": "shochi",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-daption": {
+      "nickname": "Daption",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-pop9": {
+      "nickname": "POP9",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-hongsuo": {
+      "nickname": "HongSuo",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-pout": {
+      "nickname": "Pout",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-horder": {
+      "nickname": "Horder",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-ablazeolive": {
+      "nickname": "Ablazeolive",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-mobility": {
+      "nickname": "Mobility",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-breezy": {
+      "nickname": "Breezy",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-citrus": {
+      "nickname": "Citrus",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-fisher": {
+      "nickname": "Fisher",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-denathor": {
+      "nickname": "Denathor",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-kryra": {
+      "nickname": "KryRa",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-palafox": {
+      "nickname": "Palafox",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-scaryjerry": {
+      "nickname": "ScaryJerry",
+      "nationality": "Argentina",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-dardoch": {
+      "nickname": "Dardoch",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-fbi": {
+      "nickname": "FBI",
+      "nationality": "Australia",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-ignar": {
+      "nickname": "IgNar",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-srtty": {
+      "nickname": "Srtty",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-lyonz": {
+      "nickname": "Lyonz",
+      "nationality": "Argentina",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-callme": {
+      "nickname": "Callme",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-sajed": {
+      "nickname": "Sajed",
+      "nationality": "Lebanon",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-array": {
+      "nickname": "Array",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-spirax": {
+      "nickname": "Spirax",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-lojaz": {
+      "nickname": "Lojaz",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-inflame": {
+      "nickname": "InFlame",
+      "nationality": "United States",
+      "basis": "Author directive, 2026-11-11"
+    },
+    "external-lol-player-peach": {
+      "nickname": "Peach",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-momochi": {
+      "nickname": "Momochi",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-gryffinn": {
+      "nickname": "Gryffinn",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-gakgos": {
+      "nickname": "GaKGoS",
+      "nationality": "Turkey",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-quad": {
+      "nickname": "Quad",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-massu": {
+      "nickname": "Massu",
+      "nationality": "Iraq",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-soboro": {
+      "nickname": "Soboro",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-lospa": {
+      "nickname": "Lospa",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-shini": {
+      "nickname": "Shini",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-isma": {
+      "nickname": "Isma",
+      "nationality": "France",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-canna": {
+      "nickname": "Canna",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-kyeahoo": {
+      "nickname": "kyeahoo",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-mireu": {
+      "nickname": "Mireu",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-jeskla": {
+      "nickname": "Jeskla",
+      "nationality": "Sweden",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-feisty": {
+      "nickname": "Feisty",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-kaze": {
+      "nickname": "Kaze",
+      "nationality": "Argentina",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-crimson": {
+      "nickname": "Crimson",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-armao": {
+      "nickname": "Armao",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-dhokla": {
+      "nickname": "Dhokla",
+      "nationality": "United States",
+      "basis": "Author directive, 2026-11-11"
+    },
+    "external-lol-player-berserker": {
+      "nickname": "Berserker",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-yuuji": {
+      "nickname": "Yuuji",
+      "nationality": "Mongolia",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-obstinatus": {
+      "nickname": "Obstinatus",
+      "nationality": "Portugal",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-nightslayer": {
+      "nickname": "NightSlayer",
+      "nationality": "Ukraine",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-jojopyun": {
+      "nickname": "Jojopyun",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-sansan": {
+      "nickname": "SanSan",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-siuloong": {
+      "nickname": "SiuLoong",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-poby": {
+      "nickname": "Poby",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-samd": {
+      "nickname": "SamD",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-griffin": {
+      "nickname": "Griffin",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-kim-down": {
+      "nickname": "Kim Down",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-phymini": {
+      "nickname": "PhyMini",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-sushee": {
+      "nickname": "Sushee",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-spica": {
+      "nickname": "Spica",
+      "nationality": "China",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-keine": {
+      "nickname": "Keine",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-hena": {
+      "nickname": "Hena",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-manel": {
+      "nickname": "Manel",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-pun": {
+      "nickname": "Pun",
+      "nationality": "Vietnam",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-tomo": {
+      "nickname": "Tomo",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-impact": {
+      "nickname": "Impact",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-hambak": {
+      "nickname": "HamBak",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-rahel": {
+      "nickname": "Rahel",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-huhi": {
+      "nickname": "huhi",
+      "nationality": "France",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-rooster": {
+      "nickname": "Rooster",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-sheo": {
+      "nickname": "Sheo",
+      "nationality": "France",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-paduck": {
+      "nickname": "Paduck",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-contractz": {
+      "nickname": "Contractz",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-zinie": {
+      "nickname": "Zinie",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-bvoy": {
+      "nickname": "Bvoy",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-zeyzal": {
+      "nickname": "Zeyzal",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-skeanz": {
+      "nickname": "Skeanz",
+      "nationality": "France",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-jopa": {
+      "nickname": "Jopa",
+      "nationality": "Croatia",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-evi": {
+      "nickname": "Evi",
+      "nationality": "Japan",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-van1": {
+      "nickname": "van1",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-aria": {
+      "nickname": "Aria",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-vsta": {
+      "nickname": "Vsta",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-hype": {
+      "nickname": "Hype",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-way": {
+      "nickname": "Way",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-berik": {
+      "nickname": "Berik",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-yeon": {
+      "nickname": "Yeon",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-morgan": {
+      "nickname": "Morgan",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-quid": {
+      "nickname": "Quid",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-corejj": {
+      "nickname": "CoreJJ",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-ariana": {
+      "nickname": "Ariana",
+      "nationality": "Poland",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-bradley": {
+      "nickname": "Bradley",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-bounty": {
+      "nickname": "Bounty",
+      "nationality": "Brazil",
+      "basis": "Leaguepedia player page, fetched 2026-11-11"
+    },
+    "external-lol-player-wilson": {
+      "nickname": "Wilson",
+      "nationality": "United States",
+      "basis": "Author directive, 2026-11-11"
+    },
+    "external-lol-player-dengleng": {
+      "nickname": "Dengleng",
+      "nationality": "China",
+      "basis": "Author directive, 2026-11-11"
+    },
+    "external-lol-player-magicpig": {
+      "nickname": "Magicpig",
+      "nationality": "China",
+      "basis": "Author directive, 2026-11-11"
+    },
+    "external-lol-player-xiao-yu": {
+      "nickname": "Xiao Yu",
+      "nationality": "China",
+      "basis": "Author directive, 2026-11-11"
+    },
+    "external-lol-player-niles": {
+      "nickname": "Niles",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page (Niles (Aiden Tidwell)), fetched 2026-11-11"
+    },
+    "external-lol-player-decoy": {
+      "nickname": "Decoy",
+      "nationality": "New Zealand",
+      "basis": "Leaguepedia player page (Decoy), fetched 2026-11-11"
+    },
+    "external-lol-player-bao": {
+      "nickname": "BAO",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page (BAO (Jeong Hyeon-woo)), fetched 2026-11-11"
+    },
+    "external-lol-player-jun": {
+      "nickname": "Jun",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page (Jun (Yoon Se-jun)), fetched 2026-11-11"
+    },
+    "external-lol-player-zest": {
+      "nickname": "Zest",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page (Zest (Kim Dong-min)), fetched 2026-11-11"
+    },
+    "external-lol-player-saint": {
+      "nickname": "Saint",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page (Saint (Kang Sung-in)), fetched 2026-11-11"
+    },
+    "external-lol-player-fiesta": {
+      "nickname": "FIESTA",
+      "nationality": "South Korea",
+      "basis": "Leaguepedia player page (FIESTA (An Hyeon-seo)), fetched 2026-11-11"
+    },
+    "external-lol-player-hub": {
+      "nickname": "Hub",
+      "nationality": "Canada",
+      "basis": "Leaguepedia player page (Hub (Max Munday)), fetched 2026-11-11"
+    },
+    "external-lol-player-will": {
+      "nickname": "Will",
+      "nationality": "United States",
+      "basis": "Leaguepedia player page (Will (William Cummins)), fetched 2026-11-11"
+    },
+    "external-lol-player-redemption": {
+      "nickname": "Redemption",
+      "nationality": "New Zealand",
+      "basis": "Leaguepedia player page (Redemption (Jason Zhi)), fetched 2026-11-11"
+    },
+    "external-lol-player-xiaoxiang": {
+      "nickname": "XiaoXiang",
+      "nationality": "Taiwan",
+      "basis": "Leaguepedia player page (XiaoXiang (Liao Yi-Xiang)), fetched 2026-11-11"
+    },
+    "jake-stewie2k-yip": {
+      "nickname": "Stewie2K",
+      "nationality": "United States",
+      "basis": "Author directive, 2026-11-11"
     }
   },
   "notes": [

@@ -10,16 +10,6 @@
   "disclaimer": "Kairos Universe fictional speculation. Every player below remains the same real-world-referenced person documented in the frozen pre-Worlds 2026 reference scene (external-data/pre-worlds-2026); only their Kairos Universe 2027 fictional competitive status is recorded here. This is not a report of any real player's actual current team, contract, or employment status. No destination is invented for any player: each becomes a Free Agent in this fictional continuity unless a destination is already confirmed elsewhere in Kairos canon (none currently are). No reason beyond roster/contract non-renewal at season end is recorded for any player.",
   "players": [
     {
-      "playerId": "external-lol-player-music",
-      "nickname": "Music",
-      "previousTeamId": "external-lol-team-cupid-esports",
-      "previousTeamName": "Cupid eSports",
-      "league": "NACL",
-      "effectiveDate": "2026-12-31",
-      "status": "free-agent",
-      "note": "Cupid eSports is not named in the author's confirmed 2027 NACL departures list; excluded from the active roster for exact-8 consistency and treated the same as other removed-organization players. Flagged for author review."
-    },
-    {
       "playerId": "external-lol-player-frog",
       "nickname": "Frog",
       "previousTeamId": "external-lol-team-drx",

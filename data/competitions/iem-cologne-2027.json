@@ -11,7 +11,13 @@
   ],
   "canonStatus": "confirmed",
   "overview": "A 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
-  "format": [],
+  "format": [
+    "16 teams participate",
+    "Group stage: 4 groups of 4",
+    "The two best teams of each group advance",
+    "Playoffs: single elimination (quarter-finals, semi-finals, grand final)",
+    "All matches are best of three, except the grand final, which is a best of five"
+  ],
   "organizer": null,
   "location": "Cologne, Germany",
   "startDate": "2027-06-14",
@@ -25,11 +31,92 @@
   "seriesId": "series-intel-extreme-masters",
   "tier": "premier",
   "region": "europe",
-  "teamsCount": "TBD",
+  "teamsCount": 16,
   "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": null,
   "relatedCompetitionIds": [],
-  "prizeDistribution": []
+  "prizeDistribution": [
+    {
+      "place": "1st",
+      "prize": "USD 500,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "2nd",
+      "prize": "USD 187,500",
+      "teamId": "TBD"
+    },
+    {
+      "place": "3rd-4th",
+      "prize": "USD 93,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "3rd-4th",
+      "prize": "USD 93,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 50,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 50,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 50,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 50,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 21,875",
+      "teamId": "TBD"
+    }
+  ]
 }

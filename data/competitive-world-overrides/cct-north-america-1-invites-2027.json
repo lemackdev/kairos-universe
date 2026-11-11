@@ -78,6 +78,353 @@
     }
   ],
   "notEstablished": [
-    "Format, groups, seeding, schedule of matches, results, standings and qualification are not established."
-  ]
+    "Seeding, pairings of the playoff bracket, schedule of matches, results, standings and qualification are not established."
+  ],
+  "groupStage": {
+    "format": "4 groups of 4",
+    "advancing": 2,
+    "drawMethod": "Random draw (unseeded); Kairos Gaming and Without a Roof are kept in different groups",
+    "drawSeed": 847383867,
+    "matchFormat": "Bo3",
+    "pairings": "Round robin in three rounds: every team plays the other three teams of its group once, two matches per round at the same time",
+    "groups": [
+      {
+        "name": "Group A",
+        "teamIds": [
+          "external-cs-team-bestia",
+          "external-cs-team-eternal-fire",
+          "external-cs-team-the-mongolz",
+          "external-cs-team-parivision"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-bestia",
+            "teamBId": "external-cs-team-eternal-fire",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-the-mongolz",
+            "teamBId": "external-cs-team-parivision",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-eternal-fire",
+            "teamBId": "external-cs-team-the-mongolz",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-parivision",
+            "teamBId": "external-cs-team-bestia",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-bestia",
+            "teamBId": "external-cs-team-the-mongolz",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-eternal-fire",
+            "teamBId": "external-cs-team-parivision",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      },
+      {
+        "name": "Group B",
+        "teamIds": [
+          "external-cs-team-nrg",
+          "external-cs-team-wildcard",
+          "external-cs-team-envy",
+          "external-cs-team-lag"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-nrg",
+            "teamBId": "external-cs-team-wildcard",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-envy",
+            "teamBId": "external-cs-team-lag",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-wildcard",
+            "teamBId": "external-cs-team-envy",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-lag",
+            "teamBId": "external-cs-team-nrg",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-nrg",
+            "teamBId": "external-cs-team-envy",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-wildcard",
+            "teamBId": "external-cs-team-lag",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      },
+      {
+        "name": "Group C",
+        "teamIds": [
+          "external-cs-team-without-a-roof",
+          "external-cs-team-ninjas-in-pyjamas",
+          "external-cs-team-heroic",
+          "external-cs-team-100-thieves"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-without-a-roof",
+            "teamBId": "external-cs-team-ninjas-in-pyjamas",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-heroic",
+            "teamBId": "external-cs-team-100-thieves",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-ninjas-in-pyjamas",
+            "teamBId": "external-cs-team-heroic",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-100-thieves",
+            "teamBId": "external-cs-team-without-a-roof",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-without-a-roof",
+            "teamBId": "external-cs-team-heroic",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-ninjas-in-pyjamas",
+            "teamBId": "external-cs-team-100-thieves",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      },
+      {
+        "name": "Group D",
+        "teamIds": [
+          "external-cs-team-fluxo",
+          "kairos-cs-main",
+          "external-cs-team-imperial",
+          "external-cs-team-betboom"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-fluxo",
+            "teamBId": "kairos-cs-main",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-imperial",
+            "teamBId": "external-cs-team-betboom",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "kairos-cs-main",
+            "teamBId": "external-cs-team-imperial",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-betboom",
+            "teamBId": "external-cs-team-fluxo",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-fluxo",
+            "teamBId": "external-cs-team-imperial",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "kairos-cs-main",
+            "teamBId": "external-cs-team-betboom",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      }
+    ]
+  },
+  "playoffs": {
+    "name": "Playoffs",
+    "format": "Single elimination; best of three until the grand final, which is a best of five",
+    "participants": "The two best teams of each group (8 teams)",
+    "rounds": [
+      {
+        "name": "Quarter-finals",
+        "matchFormat": "Bo3",
+        "matches": [
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          }
+        ]
+      },
+      {
+        "name": "Semi-finals",
+        "matchFormat": "Bo3",
+        "matches": [
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          }
+        ]
+      },
+      {
+        "name": "Grand final",
+        "matchFormat": "Bo5",
+        "matches": [
+          {
+            "teamAId": null,
+            "teamBId": null
+          }
+        ]
+      }
+    ]
+  }
 }

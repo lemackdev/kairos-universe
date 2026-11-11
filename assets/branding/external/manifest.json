@@ -6,8 +6,9 @@
       "slug": "external-100-thieves",
       "name": "100 Thieves",
       "file": "external-100-thieves.png",
-      "wikiPage": "https://twogpedia.com/News/100_Thieves_Partners_with_Crazy_Raccoon",
-      "sourceUrl": "https://twogpedia.com/images/7/78/100thieves.png?version=2617205c482e0db7f9e7f2af09b6afd2"
+      "wikiPage": "https://www.hltv.org/team/8474",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-100-thieves-dark.png"
     },
     {
       "slug": "external-1win",
@@ -54,8 +55,8 @@
       "slug": "external-aurora",
       "name": "aurora",
       "file": "external-aurora.png",
-      "wikiPage": "https://seeklogo.com/vector-logo/614232/aurora-gaming",
-      "sourceUrl": "https://images.seeklogo.com/logo-png/61/1/aurora-gaming-logo-png_seeklogo-614232.png"
+      "wikiPage": "https://www.hltv.org/team/11861",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-bc-game",
@@ -67,9 +68,10 @@
     {
       "slug": "external-bestia",
       "name": "bestia",
-      "file": "external-bestia.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/bestia",
-      "sourceUrl": "https://escharts.com/metaImage/teams/bestia?game=5"
+      "file": "external-bestia.png",
+      "wikiPage": "https://www.hltv.org/team/12144",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-bestia-dark.png"
     },
     {
       "slug": "external-betboom",
@@ -81,9 +83,10 @@
     {
       "slug": "external-big",
       "name": "BIG",
-      "file": "external-big.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/big",
-      "sourceUrl": "https://escharts.com/metaImage/teams/big?game=5"
+      "file": "external-big.svg",
+      "wikiPage": "https://www.hltv.org/team/7532",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-big-dark.svg"
     },
     {
       "slug": "external-bilibili-gaming",
@@ -115,9 +118,9 @@
     {
       "slug": "external-chinggis-warriors",
       "name": "Chinggis Warriors",
-      "file": "external-chinggis-warriors.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/chinggis-warriors",
-      "sourceUrl": "https://escharts.com/metaImage/teams/chinggis-warriors?game=5"
+      "file": "external-chinggis-warriors.png",
+      "wikiPage": "https://www.hltv.org/team/12646",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-cloud9",
@@ -161,9 +164,9 @@
     {
       "slug": "external-dendele",
       "name": "DENDELE",
-      "file": "external-dendele.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/dendele",
-      "sourceUrl": "https://escharts.com/metaImage/teams/dendele?game=5"
+      "file": "external-dendele.png",
+      "wikiPage": "https://www.hltv.org/team/13926",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-detonation-focusme",
@@ -225,9 +228,10 @@
     {
       "slug": "external-envy",
       "name": "Envy",
-      "file": "external-envy.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/envy",
-      "sourceUrl": "https://escharts.com/metaImage/teams/envy?game=5"
+      "file": "external-envy.svg",
+      "wikiPage": "https://www.hltv.org/team/5991",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-envy-dark.png"
     },
     {
       "slug": "external-estral-esports",
@@ -239,16 +243,17 @@
     {
       "slug": "external-eternal-fire",
       "name": "Eternal Fire",
-      "file": "external-eternal-fire.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/eternal-fire",
-      "sourceUrl": "https://escharts.com/metaImage/teams/eternal-fire?game=5"
+      "file": "external-eternal-fire.png",
+      "wikiPage": "https://www.hltv.org/team/11251",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-eyeballers",
       "name": "EYEBALLERS",
-      "file": "external-eyeballers.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/eyeballers",
-      "sourceUrl": "https://escharts.com/metaImage/teams/eyeballers?game=5"
+      "file": "external-eyeballers.png",
+      "wikiPage": "https://www.hltv.org/team/11737",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-eyeballers-dark.png"
     },
     {
       "slug": "external-falcons",
@@ -305,9 +310,9 @@
     {
       "slug": "external-fut",
       "name": "FUT",
-      "file": "external-fut.webp",
-      "wikiPage": "https://www.gosugamers.net/counterstrike/teams",
-      "sourceUrl": "https://static.gosugamers.net/17/58/80/b12390a5e9c6937672a131841b4cc7d1aca2b4121e3a87aa2272eb1be6.webp"
+      "file": "external-fut.png",
+      "wikiPage": "https://www.hltv.org/team/13286",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-g2-esports",
@@ -331,9 +336,9 @@
     {
       "slug": "external-gamerlegion",
       "name": "GamerLegion",
-      "file": "external-gamerlegion.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/gamerlegion",
-      "sourceUrl": "https://escharts.com/metaImage/teams/gamerlegion?game=5"
+      "file": "external-gamerlegion.png",
+      "wikiPage": "https://www.hltv.org/team/9928",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-gen-g-esports",
@@ -395,9 +400,9 @@
     {
       "slug": "external-jijiehao",
       "name": "JiJieHao",
-      "file": "external-jijiehao.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/jijiehao",
-      "sourceUrl": "https://escharts.com/metaImage/teams/jijiehao?game=5"
+      "file": "external-jijiehao.png",
+      "wikiPage": "https://www.hltv.org/team/10245",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-kabum-idl",
@@ -503,9 +508,9 @@
     {
       "slug": "external-marsborne",
       "name": "Marsborne",
-      "file": "external-marsborne.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/marsborne",
-      "sourceUrl": "https://escharts.com/metaImage/teams/marsborne?game=5"
+      "file": "external-marsborne.png",
+      "wikiPage": "https://www.hltv.org/team/13124",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-maryville-university",
@@ -516,9 +521,9 @@
     {
       "slug": "external-metizport",
       "name": "Metizport",
-      "file": "external-metizport.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/metizport",
-      "sourceUrl": "https://escharts.com/metaImage/teams/metizport?game=5"
+      "file": "external-metizport.png",
+      "wikiPage": "https://www.hltv.org/team/11641",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-mibr",
@@ -549,8 +554,9 @@
     {
       "slug": "external-natus-vincere",
       "name": "Natus Vincere",
-      "file": "external-natus-vincere.png",
-      "wikiPage": "https://en.wikipedia.org/wiki/Natus_Vincere"
+      "file": "external-natus-vincere.svg",
+      "wikiPage": "https://www.hltv.org/team/4608",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-nemiga",
@@ -581,9 +587,9 @@
     {
       "slug": "external-og",
       "name": "OG",
-      "file": "external-og.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/og",
-      "sourceUrl": "https://escharts.com/metaImage/teams/og?game=5"
+      "file": "external-og.png",
+      "wikiPage": "https://www.hltv.org/team/10503",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-oh-my-god",
@@ -600,9 +606,9 @@
     {
       "slug": "external-parivision",
       "name": "PARIVISION",
-      "file": "external-parivision.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/parivision",
-      "sourceUrl": "https://escharts.com/metaImage/teams/parivision?game=5"
+      "file": "external-parivision.png",
+      "wikiPage": "https://www.hltv.org/team/12467",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-red-canids",
@@ -635,9 +641,10 @@
     {
       "slug": "external-saw",
       "name": "SAW",
-      "file": "external-saw.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/saw",
-      "sourceUrl": "https://escharts.com/metaImage/teams/saw?game=5"
+      "file": "external-saw.png",
+      "wikiPage": "https://www.hltv.org/team/10567",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-saw-dark.png"
     },
     {
       "slug": "external-secret-whales",
@@ -710,7 +717,9 @@
       "slug": "external-spirit",
       "name": "Spirit",
       "file": "external-spirit.png",
-      "wikiPage": "https://teamspirit.gg/"
+      "wikiPage": "https://www.hltv.org/team/7020",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-spirit-dark.png"
     },
     {
       "slug": "external-sponge-gaming",
@@ -741,7 +750,9 @@
       "slug": "external-team-vitality",
       "name": "Team Vitality",
       "file": "external-team-vitality.png",
-      "wikiPage": "https://en.wikipedia.org/wiki/Team_Vitality"
+      "wikiPage": "https://www.hltv.org/team/9565",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)",
+      "darkFile": "external-team-vitality-dark.png"
     },
     {
       "slug": "external-team-we",
@@ -752,9 +763,9 @@
     {
       "slug": "external-the-mongolz",
       "name": "The MongolZ",
-      "file": "external-the-mongolz.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/the-mongolz",
-      "sourceUrl": "https://escharts.com/metaImage/teams/the-mongolz?game=5"
+      "file": "external-the-mongolz.png",
+      "wikiPage": "https://www.hltv.org/team/6248",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     },
     {
       "slug": "external-thundertalk-gaming",
@@ -816,9 +827,9 @@
     {
       "slug": "external-without-a-roof",
       "name": "Without a Roof",
-      "file": "external-without-a-roof.jpg",
-      "wikiPage": "https://escharts.com/teams/csgo/without-a-roof",
-      "sourceUrl": "https://escharts.com/metaImage/teams/without-a-roof?game=5"
+      "file": "external-without-a-roof.svg",
+      "wikiPage": "https://www.hltv.org/team/6914",
+      "sourceUrl": "https://img-cdn.hltv.org/teamlogo (HLTV team page logo, fetched 2026-11-11)"
     }
   ]
 }

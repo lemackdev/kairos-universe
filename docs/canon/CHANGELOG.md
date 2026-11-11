@@ -1,5 +1,13 @@
 # Canon Changelog
 
+## 0.32.0 - Counter-Strike world ranking
+
+- Added a hand-maintained Counter-Strike world ranking page (/wiki/rankings/counter-strike) seeded with the 2026-11-09 HLTV positions of all 50 repository teams; see docs/canon/CS_WORLD_RANKING_2027.md.
+- Replaced 22 low-quality Counter-Strike team logos (website preview images and logos with solid backgrounds) with the HLTV team logos, with white variants for dark mode; both Kairos Counter-Strike teams are listed last on the ranking page.
+- Drew the IEM Dallas 2027 group stage at random: 4 groups of 4, the two best of each group advance; added round-robin Bo3 matches, a Bo3/Bo5 playoff bracket and a calculated prize split. CCT North America #1 (the other 16-team Counter-Strike event) follows the same pattern.
+- Applied the 16-team page pattern (groups, matches, bracket, prize split, all teams TBD) to every non-Major Counter-Strike tournament: Tier 1 and Tier 2 have 16 teams, Tier 3 has 8; see docs/canon/CS_TOURNAMENT_PATTERN_2027.md. Kairos Gaming and Without a Roof are in different CCT North America #1 groups.
+- Completed nationalities and legal names for the remaining flagless League roster players; Music is retired and hidden from the Cupid eSports roster.
+
 ## 0.31.0 - Episodes 115-118
 
 - Canonized Episodes 115-118 from 107-118.docx (prose archived in archive/episode-sources/kairos_115_118_import/); Episodes 107-114 were verified against the document and left unchanged.

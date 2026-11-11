@@ -41,4 +41,17 @@ describe("CCT North America #1 2027 invited teams", () => {
     ];
     for (const file of files) expect(fs.readFileSync(file, "utf8")).not.toMatch(/contender|storyline|big-stage|connection|favou?rite|reason/i);
   });
+
+  it("follows the IEM Dallas page pattern: four groups of four, round-robin Bo3 rounds, a Bo3/Bo5 playoff bracket", () => {
+    const stage = cct.groupStage!;
+    expect(stage.groups.map((group) => group.name)).toEqual(["Group A", "Group B", "Group C", "Group D"]);
+    expect(stage.advancing).toBe(2);
+    expect(stage.groups.flatMap((group) => group.teamIds).sort()).toEqual(cct.teams.map((team) => team.teamId).sort());
+    for (const group of stage.groups) {
+      expect(group.matches).toHaveLength(6);
+      for (const round of [1, 2, 3]) expect(group.matches!.filter((match) => match.round === round)).toHaveLength(2);
+      for (const match of group.matches!) expect([match.format, match.mapsA, match.mapsB]).toEqual(["Bo3", null, null]);
+    }
+    expect(cct.playoffs!.rounds.map((round) => [round.name, round.matches.length, round.matchFormat])).toEqual([["Quarter-finals", 4, "Bo3"], ["Semi-finals", 2, "Bo3"], ["Grand final", 1, "Bo5"]]);
+  });
 });

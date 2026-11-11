@@ -7,6 +7,9 @@ import { CompetitionParticipants, type CompetitionParticipant, type CompetitionR
 import { formatDate } from "@/lib/formatting/date";
 import { LeagueResults, type LeagueResultTeam } from "./LeagueResults";
 import type { ScheduleWeek } from "@/lib/leagueSchedule";
+import { PrizeCards } from "./PrizeCards";
+import { PlayoffBracket, type BracketRound } from "./PlayoffBracket";
+import { GroupMatches, GroupStage, type GroupStageMatch, type GroupStageTeam } from "./GroupStage";
 
 const sections = [
   { id: "overview", title: "Overview" },
@@ -24,7 +27,7 @@ const tierLabels: Record<string, string> = {
   "postseason-international": "Postseason International",
 };
 
-export function TournamentArticle({ tournament, regionalField2027, participantRosters, fieldCaption = "Participants (2027)", logo, leagueResults }: { leagueResults?: { teams: LeagueResultTeam[]; weeks: ScheduleWeek[] }; tournament: CompetitionView; regionalField2027?: CompetitionParticipant[]; participantRosters?: Record<string, CompetitionRosterPlayer[]>; fieldCaption?: string; logo?: ReactNode }) {
+export function TournamentArticle({ tournament, regionalField2027, participantRosters, fieldCaption = "Participants (2027)", logo, leagueResults, groupStage, playoffs }: { playoffs?: { title: string; rounds: BracketRound[] }; groupStage?: { format: string; advancing: number; groups: Array<{ name: string; teams: GroupStageTeam[]; matches: GroupStageMatch[] }> }; leagueResults?: { teams: LeagueResultTeam[]; weeks: ScheduleWeek[] }; tournament: CompetitionView; regionalField2027?: CompetitionParticipant[]; participantRosters?: Record<string, CompetitionRosterPlayer[]>; fieldCaption?: string; logo?: ReactNode }) {
   const tierLabel = tournament.tier ? tierLabels[tournament.tier] ?? tournament.tier : null;
   const information = [
     { label: "Game", value: tournament.gameName },
@@ -50,25 +53,30 @@ export function TournamentArticle({ tournament, regionalField2027, participantRo
     </ArticleSection>
     <ArticleSection {...sections[1]!}>
       <p>Total prize pool: <strong>{tournament.prizePool ?? "TBD"}</strong></p>
-      <WikiTable caption="Prize distribution" columns={["Place", "Prize", "Team"]} empty="No confirmed prize distribution recorded."
-        rows={tournament.prizes.map((prize, index) => ({ key: String(index), cells: [prize.place, prize.prize, prize.teamName] }))} />
+      {tournament.prizes.length > 0 && tournament.prizes.every((prize) => prize.teamName === null)
+        ? <PrizeCards prizes={tournament.prizes} />
+        : <WikiTable caption="Prize distribution" columns={["Place", "Prize", "Team"]} empty="No confirmed prize distribution recorded."
+          rows={tournament.prizes.map((prize, index) => ({ key: String(index), cells: [prize.place, prize.prize, prize.teamName] }))} />}
     </ArticleSection>
     <ArticleSection {...sections[2]!}>
       <CompetitionParticipants caption={regionalField2027 ? fieldCaption : "Participants"} empty={regionalField2027 ? "No active teams recorded." : "No confirmed participants recorded."}
         teams={regionalField2027 ?? tournament.participants.map((team) => ({
           key: team.id, name: team.name, href: `/wiki/teams/${team.slug}`, roster: participantRosters?.[team.id] ?? [],
         }))} />
+      {groupStage && <><h3>Group stage</h3><GroupStage groups={groupStage.groups} format={groupStage.format} advancing={groupStage.advancing} /></>}
     </ArticleSection>
     <ArticleSection {...sections[3]!}>
+      {groupStage && <GroupMatches title="Group stage matches" groups={groupStage.groups} />}
+      {playoffs && <PlayoffBracket title={playoffs.title} rounds={playoffs.rounds} />}
       {leagueResults && <LeagueResults teams={leagueResults.teams} weeks={leagueResults.weeks} />}
-      <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."
+      {(tournament.results.length > 0 || !(groupStage || playoffs || leagueResults)) && <WikiTable caption="Tournament results" columns={["Place", "Team", "Date"]} empty="No confirmed results recorded."
         rows={tournament.results.map((result) => ({ key: result.id, cells: [result.place,
-          <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>, formatDate(result.date)] }))} />
+          <ArticleLink key="team" href={result.teamSlug ? `/wiki/teams/${result.teamSlug}` : null}>{result.teamName}</ArticleLink>, formatDate(result.date)] }))} />}
     </ArticleSection>
     <ArticleSection {...sections[4]!}>
-      <WikiTable caption="MVPs and individual awards" columns={["Award", "Recipient", "Date"]} empty="No MVPs or individual awards recorded."
+      <WikiTable caption="MVPs and individual awards" columns={["Award", "Recipient"]} empty="No MVPs or individual awards recorded."
         rows={tournament.awards.map((award) => ({ key: award.id, cells: [award.name,
-          <ArticleLink key="recipient" href={award.recipientHref}>{award.recipientName}</ArticleLink>, formatDate(award.date)] }))} />
+          <ArticleLink key="recipient" href={award.recipientHref}>{award.recipientName}</ArticleLink>] }))} />
     </ArticleSection>
     <ArticleSection {...sections[5]!}>
       {tournament.gameName === "Counter-Strike"

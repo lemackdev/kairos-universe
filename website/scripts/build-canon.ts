@@ -31,6 +31,7 @@ if (externalRoutes.some((route) => catalog.routes.includes(route))) throw new Er
 catalog.routes.push(...externalRoutes);
 
 const worldState2027 = loadWorldState2027();
+if (!catalog.routes.includes("/wiki/rankings/counter-strike")) catalog.routes.push("/wiki/rankings/counter-strike");
 const knownTeamIds = new Set([...catalog.teams.map((team) => team.id), ...catalog.externalScene.teams.map((team) => team.id)]);
 const knownPlayerIds = new Set(catalog.externalScene.players.map((player) => player.id));
 const rosterSets2027 = [worldState2027.lcsRosters, worldState2027.lecRosters, worldState2027.lplRosters, worldState2027.cblolRosters, worldState2027.lckRosters, worldState2027.lcpRosters, worldState2027.naclRosters, worldState2027.emeaMastersRosters, worldState2027.lckChallengersRosters, worldState2027.ldlRosters, worldState2027.lcpChallengersRosters, worldState2027.circuitoDesafianteRosters];

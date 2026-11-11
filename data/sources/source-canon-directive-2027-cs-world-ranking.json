@@ -1,0 +1,15 @@
+{
+  "id": "source-canon-directive-2027-cs-world-ranking",
+  "slug": "source-canon-directive-2027-cs-world-ranking",
+  "continuityId": "kairos-universe",
+  "sourceType": "canon-document",
+  "title": "Counter-Strike world ranking",
+  "path": "docs/canon/CS_WORLD_RANKING_2027.md",
+  "locator": "Author-supplied ranking (points and previous ranks), updated by hand",
+  "publicLabel": "Kairos Universe canon directive: Counter-Strike world ranking",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "notes": [
+    "The ranking is maintained by hand in data/competitive-world-overrides/cs-world-ranking-2027.json."
+  ]
+}

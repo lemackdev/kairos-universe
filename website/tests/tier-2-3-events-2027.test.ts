@@ -48,10 +48,11 @@ describe("2027 Tier 2 and Tier 3 Counter-Strike events", () => {
     for (const a of all) for (const b of all) if (a < b) expect(overlaps(find(a), find(b)), `${a} overlaps ${b}`).toBe(false);
   });
 
-  it("establishes no participants, teams count or results", () => {
+  it("establishes no participants or results (the team count follows the tier: 16 for Tier 2, 8 for Tier 3)", () => {
     for (const slug of all) {
       const event = find(slug);
-      expect(event.teamsCount ?? null).toBeNull();
+      expect(event.teamsCount).toBe(event.tier === "tier-3" ? 8 : 16);
+      expect(event.participantTeamIds ?? []).toEqual([]);
       expect(event.status).toBe("planned");
       expect(event.prizePool).toMatch(/^USD [\d,]+$/);
     }

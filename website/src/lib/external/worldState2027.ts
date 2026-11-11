@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { repositoryRoot } from "@/lib/canon/paths";
-import type { CounterStrikeRosterFreeze2027, CsExternalRosters2027, CsPlayerRoles2027, EventInvites2027, FreeAgents2027, LcsRosters2027, LeagueRegionalMembership2027, OrganizationOverviews2027, PlayerLegalNames2027, TeamLocations2027, PlayerNationalities2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
+import type { CounterStrikeRosterFreeze2027, CsExternalRosters2027, CsPlayerRoles2027, CsWorldRanking2027, EventInvites2027, FreeAgents2027, GroupMatch2027, LcsRosters2027, LeagueRegionalMembership2027, OrganizationOverviews2027, PlayerLegalNames2027, TeamLocations2027, PlayerNationalities2027, Tier2League2027, WorldState2027 } from "@/types/world-state-2027";
 
 export const regionalCompetitionSlugs: Record<string, { league: string } | { tier2: string }> = {
   "lck-2027": { league: "LCK" },
@@ -20,6 +20,39 @@ export const regionalCompetitionSlugs: Record<string, { league: string } | { tie
 
 export function fieldCaptionFor(worldState: WorldState2027 | undefined, competitionSlug: string): string {
   return worldState?.eventInvites.some((entry) => entry.competitionSlug === competitionSlug) ? "Invited teams (2027)" : "Participants (2027)";
+}
+
+export interface GroupStandingRow { teamId: string; wins: number; losses: number; maps: number; roundsWon: number; roundsLost: number; roundDiff: number }
+
+// Wins and losses count played Bo3 matches; the round difference sums roundsA - roundsB where both are entered.
+export function groupStandings(group: { teamIds: string[]; matches?: GroupMatch2027[] }, nameOf: (teamId: string) => string): GroupStandingRow[] {
+  const rows = new Map<string, GroupStandingRow>(group.teamIds.map((teamId) => [teamId, { teamId, wins: 0, losses: 0, maps: 0, roundsWon: 0, roundsLost: 0, roundDiff: 0 }]));
+  let played = 0;
+  for (const match of group.matches ?? []) {
+    if (match.mapsA === null || match.mapsB === null) continue;
+    played += 1;
+    const a = rows.get(match.teamAId)!;
+    const b = rows.get(match.teamBId)!;
+    if (match.mapsA > match.mapsB) { a.wins += 1; b.losses += 1; } else { b.wins += 1; a.losses += 1; }
+    a.maps += match.mapsA + match.mapsB;
+    b.maps += match.mapsA + match.mapsB;
+    if (match.roundsA !== null && match.roundsB !== null) {
+      a.roundsWon += match.roundsA; a.roundsLost += match.roundsB;
+      b.roundsWon += match.roundsB; b.roundsLost += match.roundsA;
+    }
+  }
+  for (const row of rows.values()) row.roundDiff = row.roundsWon - row.roundsLost;
+  const list = [...rows.values()];
+  const byName = (x: GroupStandingRow, y: GroupStandingRow) => nameOf(x.teamId).localeCompare(nameOf(y.teamId), "en", { sensitivity: "base" });
+  return played === 0 ? list.sort(byName) : list.sort((x, y) => y.wins - x.wins || y.roundDiff - x.roundDiff || byName(x, y));
+}
+
+export function playoffsFor(worldState: WorldState2027 | undefined, competitionSlug: string) {
+  return worldState?.eventInvites.find((entry) => entry.competitionSlug === competitionSlug)?.playoffs ?? null;
+}
+
+export function groupStageFor(worldState: WorldState2027 | undefined, competitionSlug: string) {
+  return worldState?.eventInvites.find((entry) => entry.competitionSlug === competitionSlug)?.groupStage ?? null;
 }
 
 export function regionalFieldFor(worldState: WorldState2027 | undefined, competitionSlug: string): { name: string; teamId: string }[] | null {
@@ -72,6 +105,7 @@ export function loadWorldState2027(): WorldState2027 {
   const csPlayerRoles = read<CsPlayerRoles2027>("cs-player-roles-2027.json");
   const organizationOverviews = read<OrganizationOverviews2027>("organization-overviews-2027.json");
   const teamLocations = read<TeamLocations2027>("team-locations-2027.json");
+  const csWorldRanking = read<CsWorldRanking2027>("cs-world-ranking-2027.json");
   const cblolRosters = read<LcsRosters2027>("cblol-rosters-2027.json");
   const csRosterFreeze = read<CounterStrikeRosterFreeze2027>("counter-strike-roster-freeze-2027.json");
   const regionalSets: Array<[string, LcsRosters2027]> = [["LCS", lcsRosters], ["LEC", lecRosters], ["LPL", lplRosters], ["CBLOL", cblolRosters], ["LCK", lckRosters], ["LCP", lcpRosters], ["NACL", naclRosters], ["EMEA Masters", emeaMastersRosters], ["LCK Challengers", lckChallengersRosters], ["LDL", ldlRosters], ["LCP Challengers", lcpChallengersRosters], ["Circuito Desafiante", circuitoDesafianteRosters]];
@@ -80,6 +114,7 @@ export function loadWorldState2027(): WorldState2027 {
   const csExternalRosters = read<CsExternalRosters2027>("counter-strike-external-rosters-2027.json");
   validateCsFreeze(csRosterFreeze);
   validateCsExternalRosters(csExternalRosters, csRosterFreeze);
+  validateCsWorldRanking(csWorldRanking, csExternalRosters);
   const eventInvites = ["iem-dallas-invites-2027.json", "cct-north-america-1-invites-2027.json"].map((file) => read<EventInvites2027>(file));
   for (const invites of eventInvites) validateEventInvites(invites, csExternalRosters);
   const seenPlayers = new Set<string>();
@@ -97,7 +132,7 @@ export function loadWorldState2027(): WorldState2027 {
     tier2Leagues[key] = league;
   }
 
-  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, playerNationalities, playerLegalNames, csPlayerRoles, organizationOverviews, teamLocations, csRosterFreeze, csExternalRosters, eventInvites };
+  return { membership, freeAgents, tier2Leagues, lcsRosters, lecRosters, lplRosters, cblolRosters, lckRosters, lcpRosters, naclRosters, emeaMastersRosters, lckChallengersRosters, ldlRosters, lcpChallengersRosters, circuitoDesafianteRosters, playerNationalities, playerLegalNames, csPlayerRoles, csWorldRanking, organizationOverviews, teamLocations, csRosterFreeze, csExternalRosters, eventInvites };
 }
 
 export function findFreeAgent(worldState: WorldState2027 | undefined, playerId: string) {
@@ -208,6 +243,23 @@ function validateCsFreeze(freeze: CounterStrikeRosterFreeze2027): void {
 
 const kairosCsPlayerIds = (freeze: CounterStrikeRosterFreeze2027) => new Set(Object.values(freeze.preservedKairosRosters).flat());
 
+const kairosCsTeamIds = new Set(["kairos-cs-main", "kairos-cs-academy"]);
+
+function validateCsWorldRanking(ranking: CsWorldRanking2027, rosters: CsExternalRosters2027): void {
+  const teamIds = new Set(rosters.teams.map((team) => team.teamId));
+  const seen = new Set<string>();
+  const positions = new Set<number>();
+  for (const entry of ranking.entries) {
+    if (!teamIds.has(entry.teamId) && !kairosCsTeamIds.has(entry.teamId)) throw new Error(`CS world ranking references an unknown team: ${entry.teamId}`);
+    if (seen.has(entry.teamId)) throw new Error(`CS world ranking lists a team twice: ${entry.teamId}`);
+    seen.add(entry.teamId);
+    if (!Number.isInteger(entry.position) || entry.position < 1) throw new Error(`CS world ranking has an invalid position: ${entry.teamId}`);
+    if (positions.has(entry.position)) throw new Error(`CS world ranking repeats position ${entry.position}`);
+    positions.add(entry.position);
+    if (entry.previousPosition !== null && (!Number.isInteger(entry.previousPosition) || entry.previousPosition < 1)) throw new Error(`CS world ranking has an invalid previous position: ${entry.teamId}`);
+  }
+}
+
 function validateCsExternalRosters(rosters: CsExternalRosters2027, freeze: CounterStrikeRosterFreeze2027): void {
   const fail = (message: string): never => { throw new Error(`Counter-Strike external rosters: ${message}`); };
   if (rosters.freezeDirectiveId !== freeze.directiveId) fail("must reference the existing roster-freeze directive");
@@ -253,6 +305,21 @@ function validateCsExternalRosters(rosters: CsExternalRosters2027, freeze: Count
     if (!teamIds.has(entry.playerTeamId) || !starterIds.includes(entry.personId)) fail(`continuity case is not assigned: ${entry.caseId}`);
     if (entry.kairosCoachTenureEndDate !== null || !entry.kairosCoachTenurePreserved || entry.kairosAcademyRosterChanged) fail(`continuity case invents a transition: ${entry.caseId}`);
   }
+}
+
+export interface CsRankingRow {
+  position: number;
+  teamId: string;
+  name: string;
+  previousPosition: number | null;
+  change: number | null;
+}
+
+export function csRankingRows(worldState: WorldState2027 | undefined): CsRankingRow[] {
+  return [...(worldState?.csWorldRanking.entries ?? [])].sort((a, b) => a.position - b.position).map((entry) => ({
+    position: entry.position, teamId: entry.teamId, name: entry.name, previousPosition: entry.previousPosition,
+    change: entry.previousPosition === null ? null : entry.previousPosition - entry.position,
+  }));
 }
 
 export function csExternalTeams(worldState: WorldState2027 | undefined) {
@@ -322,6 +389,37 @@ function validateEventInvites(invites: EventInvites2027, rosters: CsExternalRost
   if (new Set(ids).size !== ids.length) fail("duplicate invited team");
   const known = new Set([...rosters.teams.map((team) => team.teamId), "kairos-cs-main"]);
   for (const id of ids) if (!known.has(id)) fail(`invited team is not a Counter-Strike team: ${id}`);
+  if (invites.playoffs) {
+    const sizes = invites.playoffs.rounds.map((round) => round.matches.length);
+    if (sizes.join(",") !== "4,2,1") fail("playoffs must have 4 quarter-finals, 2 semi-finals and a final");
+    for (const match of invites.playoffs.rounds.flatMap((round) => round.matches)) {
+      for (const id of [match.teamAId, match.teamBId]) if (id !== null && !ids.includes(id)) fail(`playoff slot is not an invited team: ${id}`);
+    }
+  }
+  if (invites.groupStage) {
+    const grouped = invites.groupStage.groups.flatMap((group) => group.teamIds);
+    if (invites.groupStage.groups.some((group) => group.teamIds.length !== 4)) fail("every group must have four teams");
+    if (grouped.length !== ids.length || new Set(grouped).size !== grouped.length || grouped.some((id) => !ids.includes(id))) fail("groups must contain every invited team exactly once");
+    for (const group of invites.groupStage.groups) {
+      const pairs = new Set<string>();
+      for (const match of group.matches ?? []) {
+        if (!group.teamIds.includes(match.teamAId) || !group.teamIds.includes(match.teamBId) || match.teamAId === match.teamBId) fail(`${group.name} has a match between teams outside the group`);
+        const key = [match.teamAId, match.teamBId].sort().join("|");
+        if (pairs.has(key)) fail(`${group.name} lists the same pairing twice`);
+        pairs.add(key);
+        const played = match.mapsA !== null && match.mapsB !== null;
+        if ((match.mapsA === null) !== (match.mapsB === null)) fail(`${group.name} has a half-entered score`);
+        if (played && !(Math.max(match.mapsA!, match.mapsB!) === 2 && Math.min(match.mapsA!, match.mapsB!) < 2 && Math.min(match.mapsA!, match.mapsB!) >= 0)) fail(`${group.name} has an invalid Bo3 score`);
+      }
+      if (group.matches && group.matches.length !== 6) fail(`${group.name} must list six round-robin matches`);
+      for (const round of [1, 2, 3]) {
+        const inRound = (group.matches ?? []).filter((match) => match.round === round);
+        const teamsInRound = inRound.flatMap((match) => [match.teamAId, match.teamBId]);
+        if (group.matches && (inRound.length !== 2 || new Set(teamsInRound).size !== 4)) fail(`${group.name} round ${round} must have two simultaneous matches covering all four teams`);
+      }
+    }
+    if (!Number.isInteger(invites.groupStage.advancing) || invites.groupStage.advancing < 1 || invites.groupStage.advancing >= 4) fail("invalid number of advancing teams");
+  }
 }
 
 export function regionCodeOfLeague(worldState: WorldState2027 | undefined, league: string): string | null {

@@ -376,7 +376,24 @@
     }
   ],
   "pendingIdentities": [],
-  "retirements": [],
+  "retirements": [
+    {
+      "playerId": "external-lol-player-music",
+      "nickname": "Music",
+      "previousTeamId": "external-lol-team-cupid-esports",
+      "previousTeamName": "Cupid eSports",
+      "previousRole": "jungle",
+      "status": "retired",
+      "priorStatus": {
+        "status": "free-agent",
+        "previousTeamId": "external-lol-team-cupid-esports",
+        "previousTeamName": "Cupid eSports",
+        "effectiveDate": "2026-12-31"
+      },
+      "hideFromRoster": true,
+      "note": "Retired and hidden from the team roster at the author's request (2026-11-11)."
+    }
+  ],
   "departures": [
     {
       "playerId": "external-lol-player-niles",

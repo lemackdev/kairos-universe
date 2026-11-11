@@ -11,7 +11,13 @@
   ],
   "canonStatus": "confirmed",
   "overview": "A 2027 Counter-Strike Premier event. No participants, qualification, or results have been confirmed yet.",
-  "format": [],
+  "format": [
+    "16 teams participate",
+    "Group stage: 4 groups of 4",
+    "The two best teams of each group advance",
+    "Playoffs: single elimination (quarter-finals, semi-finals, grand final)",
+    "All matches are best of three, except the grand final, which is a best of five"
+  ],
   "organizer": null,
   "location": "Austin, Texas, USA",
   "startDate": "2027-04-16",
@@ -25,11 +31,92 @@
   "seriesId": null,
   "tier": "premier",
   "region": "north-america",
-  "teamsCount": "TBD",
+  "teamsCount": 16,
   "eventType": "lan",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": null,
   "relatedCompetitionIds": [],
-  "prizeDistribution": []
+  "prizeDistribution": [
+    {
+      "place": "1st",
+      "prize": "USD 200,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "2nd",
+      "prize": "USD 75,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "3rd-4th",
+      "prize": "USD 37,500",
+      "teamId": "TBD"
+    },
+    {
+      "place": "3rd-4th",
+      "prize": "USD 37,500",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 20,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 20,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 20,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 20,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    },
+    {
+      "place": "9th-16th",
+      "prize": "USD 8,750",
+      "teamId": "TBD"
+    }
+  ]
 }

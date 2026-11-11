@@ -1,0 +1,18 @@
+.page { max-width: 780px; margin: 0 auto; }
+.heading { text-align: center; margin: 18px 0 22px; }
+.list { list-style: none; margin: 0 0 40px; padding: 0; border: 1px solid color-mix(in srgb, currentColor 22%, transparent); background: color-mix(in srgb, currentColor 4%, transparent); }
+.row { display: grid; grid-template-columns: 64px 56px minmax(0, 1fr) 48px; align-items: center; gap: 14px; padding: 12px 16px 12px 0; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+.row:last-child { border-bottom: 0; }
+.row:nth-child(even) { background: color-mix(in srgb, currentColor 8%, transparent); }
+.rank { align-self: stretch; display: flex; align-items: center; justify-content: center; border-right: 1px solid color-mix(in srgb, currentColor 22%, transparent); font-weight: 700; font-size: 18px; color: color-mix(in srgb, currentColor 65%, transparent); }
+.logo { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; justify-self: center; }
+.logo > *, .logo picture, .logo img { max-width: 100%; max-height: 100%; }
+.logo img { width: 44px; height: 44px; object-fit: contain; display: block; }
+.mono { width: 40px; height: 40px; display: inline-grid; place-items: center; font-size: 12px; font-weight: 700; color: color-mix(in srgb, currentColor 65%, transparent); border: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+.body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.title { font-size: 17px; font-weight: 700; }
+.title a { text-decoration: none; }
+.title a:hover { text-decoration: underline; }
+.roster { color: color-mix(in srgb, currentColor 65%, transparent); font-size: 12px; overflow-wrap: anywhere; }
+.change { text-align: center; font-weight: 700; color: color-mix(in srgb, currentColor 65%, transparent); }
+@media (max-width: 520px) { .row { grid-template-columns: 44px 40px minmax(0, 1fr) 28px; gap: 8px; padding-right: 8px; } .rank { font-size: 15px; } .logo, .logo img { width: 36px; height: 36px; } }

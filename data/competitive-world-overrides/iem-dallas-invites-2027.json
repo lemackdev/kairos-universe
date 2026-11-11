@@ -78,6 +78,353 @@
     }
   ],
   "notEstablished": [
-    "Format, groups, seeding, schedule of matches, results, standings and qualification are not established."
-  ]
+    "Seeding, pairings of the playoff bracket, schedule of matches, results, standings and qualification are not established."
+  ],
+  "groupStage": {
+    "format": "4 groups of 4",
+    "advancing": 2,
+    "drawMethod": "Random draw (unseeded)",
+    "drawSeed": 498406176,
+    "groups": [
+      {
+        "name": "Group A",
+        "teamIds": [
+          "external-cs-team-furia",
+          "external-cs-team-team-liquid",
+          "external-cs-team-team-vitality",
+          "external-cs-team-mibr"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-furia",
+            "teamBId": "external-cs-team-team-liquid",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-team-vitality",
+            "teamBId": "external-cs-team-mibr",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-team-liquid",
+            "teamBId": "external-cs-team-team-vitality",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-mibr",
+            "teamBId": "external-cs-team-furia",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-furia",
+            "teamBId": "external-cs-team-team-vitality",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-team-liquid",
+            "teamBId": "external-cs-team-mibr",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      },
+      {
+        "name": "Group B",
+        "teamIds": [
+          "external-cs-team-legacy",
+          "external-cs-team-faze",
+          "external-cs-team-falcons",
+          "external-cs-team-natus-vincere"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-legacy",
+            "teamBId": "external-cs-team-faze",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-falcons",
+            "teamBId": "external-cs-team-natus-vincere",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-faze",
+            "teamBId": "external-cs-team-falcons",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-natus-vincere",
+            "teamBId": "external-cs-team-legacy",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-legacy",
+            "teamBId": "external-cs-team-falcons",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-faze",
+            "teamBId": "external-cs-team-natus-vincere",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      },
+      {
+        "name": "Group C",
+        "teamIds": [
+          "external-cs-team-m80",
+          "external-cs-team-astralis",
+          "external-cs-team-pain-gaming",
+          "external-cs-team-bc-game"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-m80",
+            "teamBId": "external-cs-team-astralis",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-pain-gaming",
+            "teamBId": "external-cs-team-bc-game",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-astralis",
+            "teamBId": "external-cs-team-pain-gaming",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-bc-game",
+            "teamBId": "external-cs-team-m80",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-m80",
+            "teamBId": "external-cs-team-pain-gaming",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-astralis",
+            "teamBId": "external-cs-team-bc-game",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      },
+      {
+        "name": "Group D",
+        "teamIds": [
+          "external-cs-team-mouz",
+          "external-cs-team-spirit",
+          "external-cs-team-aurora",
+          "external-cs-team-g2-esports"
+        ],
+        "matches": [
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-mouz",
+            "teamBId": "external-cs-team-spirit",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 1,
+            "teamAId": "external-cs-team-aurora",
+            "teamBId": "external-cs-team-g2-esports",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-spirit",
+            "teamBId": "external-cs-team-aurora",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 2,
+            "teamAId": "external-cs-team-g2-esports",
+            "teamBId": "external-cs-team-mouz",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-mouz",
+            "teamBId": "external-cs-team-aurora",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          },
+          {
+            "round": 3,
+            "teamAId": "external-cs-team-spirit",
+            "teamBId": "external-cs-team-g2-esports",
+            "format": "Bo3",
+            "mapsA": null,
+            "mapsB": null,
+            "roundsA": null,
+            "roundsB": null
+          }
+        ]
+      }
+    ],
+    "matchFormat": "Bo3",
+    "pairings": "Round robin in three rounds: every team plays the other three teams of its group once, two matches per round at the same time"
+  },
+  "playoffs": {
+    "name": "Playoffs",
+    "format": "Single elimination; best of three until the grand final, which is a best of five",
+    "participants": "The two best teams of each group (8 teams)",
+    "rounds": [
+      {
+        "name": "Quarter-finals",
+        "matches": [
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          }
+        ],
+        "matchFormat": "Bo3"
+      },
+      {
+        "name": "Semi-finals",
+        "matches": [
+          {
+            "teamAId": null,
+            "teamBId": null
+          },
+          {
+            "teamAId": null,
+            "teamBId": null
+          }
+        ],
+        "matchFormat": "Bo3"
+      },
+      {
+        "name": "Grand final",
+        "matches": [
+          {
+            "teamAId": null,
+            "teamBId": null
+          }
+        ],
+        "matchFormat": "Bo5"
+      }
+    ]
+  }
 }

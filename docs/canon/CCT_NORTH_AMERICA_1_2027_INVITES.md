@@ -30,3 +30,7 @@ No invite date, format, groups, seeding, results, standings or qualification is
 established. Rosters follow the existing Counter-Strike roster freeze.
 
 Announced on 2027-01-28 (Episode 117): CCT at 17:31 PT. The invitee lists in the episode match this document exactly.
+
+## Group stage, playoffs and prizes
+
+The event follows the same page pattern as IEM Dallas 2027 (see IEM_DALLAS_2027_INVITES.md): the sixteen invited teams are drawn at random into four groups of four, each group plays six Bo3 matches in three rounds, the two best teams of each group advance to a single-elimination bracket (Bo3 until the grand final, a Bo5), and the USD 100,000 prize pool is split by placement with every team still TBD (1st USD 40,000, 2nd USD 15,000, 3rd-4th USD 7,500 each, 5th-8th USD 4,000 each, 9th-16th USD 1,750 each; calculated, not announced). Seeding, the schedule of matches and results are not established.

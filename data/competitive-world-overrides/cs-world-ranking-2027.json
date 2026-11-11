@@ -1,0 +1,378 @@
+{
+  "continuityId": "kairos-universe",
+  "originType": "real-world-reference",
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-canon-directive-2027-cs-world-ranking"
+  ],
+  "game": "Counter-Strike 2",
+  "rankingLabel": "Order of the HLTV world ranking, 2026-11-09",
+  "notes": [
+    "Positions are 1 to 52: the 50 external teams keep the order of the HLTV world ranking of 2026-11-09 (hltvPosition is the original HLTV position), followed by the two Kairos Counter-Strike teams.",
+    "previousPosition is null; the page does not show a change column value."
+  ],
+  "entries": [
+    {
+      "teamId": "external-cs-team-mouz",
+      "name": "MOUZ",
+      "position": 1,
+      "previousPosition": null,
+      "hltvPosition": 1
+    },
+    {
+      "teamId": "external-cs-team-furia",
+      "name": "FURIA",
+      "position": 2,
+      "previousPosition": null,
+      "hltvPosition": 2
+    },
+    {
+      "teamId": "external-cs-team-team-vitality",
+      "name": "Team Vitality",
+      "position": 3,
+      "previousPosition": null,
+      "hltvPosition": 3
+    },
+    {
+      "teamId": "external-cs-team-spirit",
+      "name": "Spirit",
+      "position": 4,
+      "previousPosition": null,
+      "hltvPosition": 4
+    },
+    {
+      "teamId": "external-cs-team-aurora",
+      "name": "Aurora",
+      "position": 5,
+      "previousPosition": null,
+      "hltvPosition": 5
+    },
+    {
+      "teamId": "external-cs-team-falcons",
+      "name": "Falcons",
+      "position": 6,
+      "previousPosition": null,
+      "hltvPosition": 6
+    },
+    {
+      "teamId": "external-cs-team-betboom",
+      "name": "BetBoom",
+      "position": 7,
+      "previousPosition": null,
+      "hltvPosition": 7
+    },
+    {
+      "teamId": "external-cs-team-natus-vincere",
+      "name": "Natus Vincere",
+      "position": 8,
+      "previousPosition": null,
+      "hltvPosition": 8
+    },
+    {
+      "teamId": "external-cs-team-fut",
+      "name": "FUT",
+      "position": 9,
+      "previousPosition": null,
+      "hltvPosition": 9
+    },
+    {
+      "teamId": "external-cs-team-the-mongolz",
+      "name": "The MongolZ",
+      "position": 10,
+      "previousPosition": null,
+      "hltvPosition": 10
+    },
+    {
+      "teamId": "external-cs-team-nemiga",
+      "name": "Nemiga",
+      "position": 11,
+      "previousPosition": null,
+      "hltvPosition": 11
+    },
+    {
+      "teamId": "external-cs-team-g2-esports",
+      "name": "G2 Esports",
+      "position": 12,
+      "previousPosition": null,
+      "hltvPosition": 12
+    },
+    {
+      "teamId": "external-cs-team-parivision",
+      "name": "PARIVISION",
+      "position": 13,
+      "previousPosition": null,
+      "hltvPosition": 13
+    },
+    {
+      "teamId": "external-cs-team-legacy",
+      "name": "Legacy",
+      "position": 14,
+      "previousPosition": null,
+      "hltvPosition": 14
+    },
+    {
+      "teamId": "external-cs-team-1win",
+      "name": "1win",
+      "position": 15,
+      "previousPosition": null,
+      "hltvPosition": 15
+    },
+    {
+      "teamId": "external-cs-team-mibr",
+      "name": "MIBR",
+      "position": 16,
+      "previousPosition": null,
+      "hltvPosition": 16
+    },
+    {
+      "teamId": "external-cs-team-team-liquid",
+      "name": "Team Liquid",
+      "position": 17,
+      "previousPosition": null,
+      "hltvPosition": 17
+    },
+    {
+      "teamId": "external-cs-team-faze",
+      "name": "FaZe",
+      "position": 18,
+      "previousPosition": null,
+      "hltvPosition": 18
+    },
+    {
+      "teamId": "external-cs-team-astralis",
+      "name": "Astralis",
+      "position": 19,
+      "previousPosition": null,
+      "hltvPosition": 20
+    },
+    {
+      "teamId": "external-cs-team-ninjas-in-pyjamas",
+      "name": "Ninjas in Pyjamas",
+      "position": 20,
+      "previousPosition": null,
+      "hltvPosition": 22
+    },
+    {
+      "teamId": "external-cs-team-eternal-fire",
+      "name": "Eternal Fire",
+      "position": 21,
+      "previousPosition": null,
+      "hltvPosition": 23
+    },
+    {
+      "teamId": "external-cs-team-m80",
+      "name": "M80",
+      "position": 22,
+      "previousPosition": null,
+      "hltvPosition": 24
+    },
+    {
+      "teamId": "external-cs-team-heroic",
+      "name": "HEROIC",
+      "position": 23,
+      "previousPosition": null,
+      "hltvPosition": 25
+    },
+    {
+      "teamId": "external-cs-team-gamerlegion",
+      "name": "GamerLegion",
+      "position": 24,
+      "previousPosition": null,
+      "hltvPosition": 26
+    },
+    {
+      "teamId": "external-cs-team-fnatic",
+      "name": "Fnatic",
+      "position": 25,
+      "previousPosition": null,
+      "hltvPosition": 27
+    },
+    {
+      "teamId": "external-cs-team-envy",
+      "name": "Envy",
+      "position": 26,
+      "previousPosition": null,
+      "hltvPosition": 28
+    },
+    {
+      "teamId": "external-cs-team-tyloo",
+      "name": "TYLOO",
+      "position": 27,
+      "previousPosition": null,
+      "hltvPosition": 30
+    },
+    {
+      "teamId": "external-cs-team-big",
+      "name": "BIG",
+      "position": 28,
+      "previousPosition": null,
+      "hltvPosition": 32
+    },
+    {
+      "teamId": "external-cs-team-100-thieves",
+      "name": "100 Thieves",
+      "position": 29,
+      "previousPosition": null,
+      "hltvPosition": 33
+    },
+    {
+      "teamId": "external-cs-team-luminosity",
+      "name": "Luminosity",
+      "position": 30,
+      "previousPosition": null,
+      "hltvPosition": 34
+    },
+    {
+      "teamId": "external-cs-team-dendele",
+      "name": "DENDELE",
+      "position": 31,
+      "previousPosition": null,
+      "hltvPosition": 35
+    },
+    {
+      "teamId": "external-cs-team-nrg",
+      "name": "NRG",
+      "position": 32,
+      "previousPosition": null,
+      "hltvPosition": 36
+    },
+    {
+      "teamId": "external-cs-team-jijiehao",
+      "name": "JiJieHao",
+      "position": 33,
+      "previousPosition": null,
+      "hltvPosition": 38
+    },
+    {
+      "teamId": "external-cs-team-alliance",
+      "name": "Alliance",
+      "position": 34,
+      "previousPosition": null,
+      "hltvPosition": 39
+    },
+    {
+      "teamId": "external-cs-team-sinners",
+      "name": "SINNERS",
+      "position": 35,
+      "previousPosition": null,
+      "hltvPosition": 40
+    },
+    {
+      "teamId": "external-cs-team-pain-gaming",
+      "name": "paiN Gaming",
+      "position": 36,
+      "previousPosition": null,
+      "hltvPosition": 41
+    },
+    {
+      "teamId": "external-cs-team-wildcard",
+      "name": "Wildcard",
+      "position": 37,
+      "previousPosition": null,
+      "hltvPosition": 43
+    },
+    {
+      "teamId": "external-cs-team-bc-game",
+      "name": "BC.Game",
+      "position": 38,
+      "previousPosition": null,
+      "hltvPosition": 47
+    },
+    {
+      "teamId": "external-cs-team-imperial",
+      "name": "Imperial",
+      "position": 39,
+      "previousPosition": null,
+      "hltvPosition": 48
+    },
+    {
+      "teamId": "external-cs-team-bestia",
+      "name": "BESTIA",
+      "position": 40,
+      "previousPosition": null,
+      "hltvPosition": 57
+    },
+    {
+      "teamId": "external-cs-team-eyeballers",
+      "name": "EYEBALLERS",
+      "position": 41,
+      "previousPosition": null,
+      "hltvPosition": 59
+    },
+    {
+      "teamId": "external-cs-team-flyquest",
+      "name": "FlyQuest",
+      "position": 42,
+      "previousPosition": null,
+      "hltvPosition": 60
+    },
+    {
+      "teamId": "external-cs-team-chinggis-warriors",
+      "name": "Chinggis Warriors",
+      "position": 43,
+      "previousPosition": null,
+      "hltvPosition": 62
+    },
+    {
+      "teamId": "external-cs-team-saw",
+      "name": "SAW",
+      "position": 44,
+      "previousPosition": null,
+      "hltvPosition": 64
+    },
+    {
+      "teamId": "external-cs-team-metizport",
+      "name": "Metizport",
+      "position": 45,
+      "previousPosition": null,
+      "hltvPosition": 65
+    },
+    {
+      "teamId": "external-cs-team-fluxo",
+      "name": "Fluxo",
+      "position": 46,
+      "previousPosition": null,
+      "hltvPosition": 66
+    },
+    {
+      "teamId": "external-cs-team-without-a-roof",
+      "name": "Without a Roof",
+      "position": 47,
+      "previousPosition": null,
+      "hltvPosition": 83
+    },
+    {
+      "teamId": "external-cs-team-marsborne",
+      "name": "Marsborne",
+      "position": 48,
+      "previousPosition": null,
+      "hltvPosition": 92
+    },
+    {
+      "teamId": "external-cs-team-og",
+      "name": "OG",
+      "position": 49,
+      "previousPosition": null,
+      "hltvPosition": 97
+    },
+    {
+      "teamId": "external-cs-team-lag",
+      "name": "LAG",
+      "position": 50,
+      "previousPosition": null,
+      "hltvPosition": 111
+    },
+    {
+      "teamId": "kairos-cs-main",
+      "name": "Kairos Gaming",
+      "position": 51,
+      "previousPosition": null
+    },
+    {
+      "teamId": "kairos-cs-academy",
+      "name": "Kairos Academy Green",
+      "position": 52,
+      "previousPosition": null
+    }
+  ]
+}

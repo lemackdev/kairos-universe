@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import { TournamentArticle } from "@/components/articles/TournamentArticle";
 import { getCatalog } from "@/lib/canon/server";
-import { csExternalTeams, csOrganizationSlugOf, csRoleOf, fieldCaptionFor, findTier2Team, nationalitiesOf, regionCodeOfLeague, regionalCompetitionSlugs, regionalFieldFor, rosterLeague, rosterSets } from "@/lib/external/worldState2027";
+import { csExternalTeams, csOrganizationSlugOf, csRoleOf, fieldCaptionFor, findTier2Team, groupStageFor, groupStandings, playoffsFor, nationalitiesOf, regionCodeOfLeague, regionalCompetitionSlugs, regionalFieldFor, rosterLeague, rosterSets } from "@/lib/external/worldState2027";
 import { buildLeagueSchedule } from "@/lib/leagueSchedule";
+import { buildTbdPattern, patternTeamCounts } from "@/lib/tournamentPattern";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { BrandLogo } from "@/components/UniformPanel";
 import { competitionLogo } from "@/lib/competitionLogos";
@@ -34,7 +35,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
     if (csTeam && worldState) return csTeam.starters.map((starter) => {
       const csPlayer = csPlayers.get(starter.playerId);
       const canonPlayer = catalog.players.find((player) => player.id === starter.playerId);
-      const nationality = csPlayer?.nationality ?? canonPlayer?.nationality ?? null;
+      const nationality = csPlayer?.nationality ?? canonPlayer?.nationality ?? nationalitiesOf(worldState, starter.playerId, "")[0] ?? null;
       const flag = nationality ? flagCountryFor(nationality) : undefined;
       return { name: starter.nickname, href: csPlayer ? `/wiki/players/${csPlayer.slug}` : canonPlayer ? `/wiki/players/${canonPlayer.slug}` : null, nationality, flagCode: flag?.code ?? null, role: csRoleOf(worldState, starter.playerId) };
     });
@@ -57,6 +58,10 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       const nationality = player.nationality ?? player.nationalities?.[0] ?? null;
       const flag = nationality ? flagCountryFor(nationality) : undefined;
       const role = player.role.toLowerCase();
+      if (canonTeam.gameName === "Counter-Strike") {
+        const csRole = role.includes("awp") ? (role.includes("igl") ? "IGL / AWPer" : "AWPer") : role.includes("igl") ? "IGL / Rifler" : "Rifler";
+        return { name: player.nickname, href: `/wiki/players/${player.slug}`, nationality, flagCode: flag?.code ?? null, role: csRole };
+      }
       const roleIcon = role.includes("top") ? "top" : role.includes("jungle") ? "jungle" : role.includes("mid") ? "mid" : role.includes("bot") || role.includes("adc") ? "bot" : role.includes("support") ? "support" : null;
       return { name: player.nickname, href: `/wiki/players/${player.slug}`, nationality, flagCode: flag?.code ?? null, role: roleIcon };
     });
@@ -95,7 +100,35 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
     const teams = regionalField2027.map((team) => ({ key: team.key, name: team.name, href: team.href, logo: team.logo }));
     return { teams, weeks: buildLeagueSchedule(teams, tournament.startDate, tournament.endDate, blackouts) };
   })() : undefined;
-  return <TournamentArticle leagueResults={leagueResults} tournament={tournament} regionalField2027={regionalField2027} participantRosters={participantRosters} fieldCaption={fieldCaptionFor(worldState, slug)} logo={competitionLogo(slug, tournament.name)} />;
+  const drawn = groupStageFor(worldState, slug);
+  const groupStage = drawn && regionalField2027 ? (() => {
+    const teamOf = (teamId: string) => {
+      const team = regionalField2027[(field ?? []).findIndex((entry) => entry.teamId === teamId)]!;
+      return { key: team.key, name: team.name, href: team.href, logo: team.logo };
+    };
+    return {
+      format: drawn.format, advancing: drawn.advancing,
+      groups: drawn.groups.map((group) => ({
+        name: group.name,
+        teams: groupStandings(group, (teamId) => teamOf(teamId).name).map((row) => ({ ...teamOf(row.teamId), wins: row.wins, losses: row.losses, maps: row.maps, roundsWon: row.roundsWon, roundsLost: row.roundsLost, roundDiff: row.roundDiff })),
+        matches: (group.matches ?? []).map((match) => ({ round: match.round, key: `${match.teamAId}-${match.teamBId}`, teamA: teamOf(match.teamAId), teamB: teamOf(match.teamBId), format: match.format, mapsA: match.mapsA, mapsB: match.mapsB })),
+      })),
+    };
+  })() : undefined;
+  const bracket = playoffsFor(worldState, slug);
+  const playoffs = bracket && regionalField2027 ? {
+    title: bracket.name,
+    rounds: bracket.rounds.map((round) => ({ name: round.name, matchFormat: round.matchFormat, matches: round.matches.map((match) => {
+      const slot = (teamId: string | null) => {
+        if (!teamId) return null;
+        const team = regionalField2027[(field ?? []).findIndex((entry) => entry.teamId === teamId)]!;
+        return { key: team.key, name: team.name, href: team.href, logo: team.logo };
+      };
+      return { teamA: slot(match.teamAId), teamB: slot(match.teamBId) };
+    }) })),
+  } : undefined;
+  const tbdPattern = !drawn && tournament.gameName === "Counter-Strike" && tournament.teamsCount !== null && (patternTeamCounts as readonly number[]).includes(tournament.teamsCount) ? buildTbdPattern(tournament.teamsCount) : null;
+  return <TournamentArticle playoffs={playoffs ?? tbdPattern?.playoffs} groupStage={groupStage ?? tbdPattern?.groupStage} leagueResults={leagueResults} tournament={tournament} regionalField2027={regionalField2027} participantRosters={participantRosters} fieldCaption={fieldCaptionFor(worldState, slug)} logo={competitionLogo(slug, tournament.name)} />;
 }
 
 

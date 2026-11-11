@@ -99,6 +99,7 @@ export interface Retirement2027 {
   status: "retired";
   priorStatus?: PriorStatus2027;
   note?: string;
+  hideFromRoster?: boolean;
 }
 
 export interface AddedPlayer2027 {
@@ -306,6 +307,17 @@ export interface CsExternalRosters2027 {
   continuityCases: CsContinuityCase2027[];
 }
 
+export interface GroupMatch2027 {
+  round: number;
+  teamAId: string;
+  teamBId: string;
+  format: string;
+  mapsA: number | null;
+  mapsB: number | null;
+  roundsA: number | null;
+  roundsB: number | null;
+}
+
 export interface EventInvites2027 {
   continuityId: "kairos-universe";
   originType: "fictional";
@@ -317,6 +329,8 @@ export interface EventInvites2027 {
   expectedTeamCount: number;
   inviteDate: string | null;
   teams: Array<{ teamId: string; name: string }>;
+  playoffs?: { name: string; format: string; participants: string; rounds: Array<{ name: string; matchFormat: string; matches: Array<{ teamAId: string | null; teamBId: string | null }> }> };
+  groupStage?: { format: string; advancing: number; drawMethod: string; drawSeed?: number; matchFormat?: string; pairings?: string; groups: Array<{ name: string; teamIds: string[]; matches?: GroupMatch2027[] }> };
   notEstablished: string[];
 }
 
@@ -338,6 +352,17 @@ export interface PlayerLegalNames2027 {
   sourceIds: string[];
   players: Record<string, { nickname: string; legalName: string; basis: string }>;
   notes: string[];
+}
+
+export interface CsWorldRanking2027 {
+  continuityId: "kairos-universe";
+  originType: string;
+  canonStatus: string;
+  sourceIds: string[];
+  game: string;
+  rankingLabel: string;
+  notes: string[];
+  entries: Array<{ teamId: string; name: string; position: number; hltvPosition?: number; previousPosition: number | null }>;
 }
 
 export interface CsPlayerRoles2027 {
@@ -386,6 +411,7 @@ export interface WorldState2027 {
   playerNationalities: PlayerNationalities2027;
   playerLegalNames: PlayerLegalNames2027;
   csPlayerRoles: CsPlayerRoles2027;
+  csWorldRanking: CsWorldRanking2027;
   organizationOverviews: OrganizationOverviews2027;
   teamLocations: TeamLocations2027;
   cblolRosters: LcsRosters2027;

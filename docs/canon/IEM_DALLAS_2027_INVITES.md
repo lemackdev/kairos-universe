@@ -28,3 +28,17 @@ No invite date, format, groups, seeding, results, standings or qualification is
 established. Rosters follow the existing Counter-Strike roster freeze.
 
 Announced on 2027-01-28 (Episode 117): ESL at 9:30 PT. The invitee lists in the episode match this document exactly.
+
+## Group stage
+
+At the author's request the sixteen invited teams were drawn at random (unseeded draw) into four groups of four; the two best teams of each group advance. The draw is stored in `groupStage` of `data/competitive-world-overrides/iem-dallas-invites-2027.json`. Seeding, the schedule of matches, results, standings and qualification are not established.
+
+Every group plays a round robin of six Bo3 matches (24 in total) in three rounds of two simultaneous matches; each match carries its `round`. The matches are shown in the Results section. The matches are listed in `groupStage.groups[].matches` with `mapsA`, `mapsB`, `roundsA` and `roundsB` set to `null` until played. Enter the maps won (2-0 or 2-1) and the total rounds of each side; the group tables show maps played (M), rounds won (RW), rounds lost (RL), round difference (RD) and the match record, and are ordered by wins, then round difference. No match date is established.
+
+## Playoffs
+
+The eight advancing teams (two best of each group) play a single-elimination bracket: four quarter-finals, two semi-finals and a grand final. Every match is a best of three until the grand final, which is a best of five (`matchFormat` of each round). The bracket is stored in `playoffs` of the invites file with every slot empty (`null`); the seeding and pairings are not established. Fill `teamAId` and `teamBId` of a match once they are known.
+
+## Prize distribution
+
+At the author's request the USD 1,000,000 prize pool is split by placement with every team slot still `TBD`: 1st USD 400,000, 2nd USD 150,000, 3rd-4th USD 75,000 each, 5th-8th USD 40,000 each and 9th-16th USD 17,500 each. These amounts are calculated, not announced by the organizer.

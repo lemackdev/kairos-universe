@@ -11,7 +11,13 @@
   ],
   "canonStatus": "confirmed",
   "overview": "A 2027 Counter-Strike Tier 3 event. No participants, qualification, or results have been confirmed yet.",
-  "format": [],
+  "format": [
+    "8 teams participate",
+    "Group stage: 2 groups of 4",
+    "The two best teams of each group advance",
+    "Playoffs: single elimination (semi-finals, grand final)",
+    "All matches are best of three, except the grand final, which is a best of five"
+  ],
   "organizer": null,
   "location": "Online",
   "startDate": "2027-12-20",
@@ -25,11 +31,52 @@
   "seriesId": "series-epicenter",
   "tier": "tier-3",
   "region": "international",
-  "teamsCount": "TBD",
+  "teamsCount": 8,
   "eventType": "online",
   "inviteDate": null,
   "rankingDate": null,
   "parentCompetitionId": null,
   "relatedCompetitionIds": [],
-  "prizeDistribution": []
+  "prizeDistribution": [
+    {
+      "place": "1st",
+      "prize": "USD 11,240",
+      "teamId": "TBD"
+    },
+    {
+      "place": "2nd",
+      "prize": "USD 5,000",
+      "teamId": "TBD"
+    },
+    {
+      "place": "3rd-4th",
+      "prize": "USD 2,500",
+      "teamId": "TBD"
+    },
+    {
+      "place": "3rd-4th",
+      "prize": "USD 2,500",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 940",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 940",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 940",
+      "teamId": "TBD"
+    },
+    {
+      "place": "5th-8th",
+      "prize": "USD 940",
+      "teamId": "TBD"
+    }
+  ]
 }

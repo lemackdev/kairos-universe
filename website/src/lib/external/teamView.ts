@@ -13,7 +13,8 @@ export function sceneTeamToTeamView(team: SceneTeam, scene: ExternalScene, roste
   const organization = scene.organizations.find((o) => o.id === team.organizationId)!;
   const event = scene.sources.find((s) => team.sourceIds.includes(s.id))!;
 
-  const roster: RosterEntryView[] = team.rosterTenureIds.map((tenureId) => {
+  const hiddenIds = new Set([...sets, ...(worldState ? Object.values(worldState).flatMap((value) => (value && typeof value === "object" && "retirements" in value ? [value as LcsRosters2027] : [])) : [])].flatMap((set) => set.retirements.filter((entry) => entry.hideFromRoster).map((entry) => entry.playerId)));
+  const roster: RosterEntryView[] = team.rosterTenureIds.filter((tenureId) => !hiddenIds.has(scene.rosterTenures.find((t) => t.id === tenureId)!.playerId)).map((tenureId) => {
     const tenure = scene.rosterTenures.find((t) => t.id === tenureId)!;
     const player = scene.players.find((p) => p.id === tenure.playerId)!;
     const nationalities = nationalitiesOf(worldState, player.id, team.league);

@@ -1,0 +1,28 @@
+{
+  "id": "post-20270128-002",
+  "slug": "kairos-gaming-cct-locked-in",
+  "continuityId": "kairos-universe",
+  "authorType": "team",
+  "authorId": "kairos-cs-main",
+  "text": "we are on the CCT North America #1 list. 8 feb. someone check on atlas, he has not blinked in 20 minutes",
+  "postedAt": "2027-01-28T18:05",
+  "timeZone": "PT",
+  "storyDate": "2027-01-28",
+  "episodeIds": [
+    "episode-117"
+  ],
+  "sourceIds": [
+    "source-episodes-115-118"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [
+    "cct-north-america-1-2027"
+  ],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Voice rewritten at the author's request; the facts (CCT invite, 8 February, Tarik as Head Coach) come from Episode 117."
+  ]
+}

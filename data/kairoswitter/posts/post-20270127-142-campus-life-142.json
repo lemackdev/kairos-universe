@@ -1,0 +1,28 @@
+{
+  "id": "post-20270127-142",
+  "slug": "campus-life-142",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "zaqueri-aphromoo-black",
+  "text": "good work today. now go eat something that did not come out of a vending machine",
+  "postedAt": "2027-01-27T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-27",
+  "episodeIds": [
+    "episode-113"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/aphromoo-practice.png",
+    "alt": "Aphromoo laughing during a practice break"
+  }
+}

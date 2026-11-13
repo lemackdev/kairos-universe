@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import type { SearchRecord } from "@/types/catalog";
+import { NavMenu } from "./NavMenu";
 import { NavSearch } from "./NavSearch";
 
 const links = [
@@ -16,6 +17,7 @@ const links = [
   ["Matches", "/wiki/matches"],
   ["Transfers", "/wiki/transfers"],
   ["Ranking", "/wiki/rankings/counter-strike"],
+  ["Kairoswitter", "/wiki/kairoswitter"],
 ] as const;
 
 export function TopNavigation({ searchRecords }: { searchRecords: SearchRecord[] }) {
@@ -28,13 +30,7 @@ export function TopNavigation({ searchRecords }: { searchRecords: SearchRecord[]
           <span className="wordmarkDescriptor">The esports encyclopedia</span>
         </span>
       </Link>
-      <div className="topNavLinks">
-        {links.map(([label, href]) => (
-          <Link key={href} href={href}>
-            {label}
-          </Link>
-        ))}
-      </div>
+      <NavMenu links={links} />
       <NavSearch records={searchRecords} />
     </nav>
   );

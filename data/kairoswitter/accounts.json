@@ -1,0 +1,222 @@
+{
+  "continuityId": "kairos-universe",
+  "note": "One handle per account. Handles are lower case letters, digits and underscores (3-20 characters), unique, and do not have to be the person's name. Display names come from the entity.",
+  "accounts": [
+    {
+      "key": "player:noah-rkn-bennett",
+      "handle": "rkn_or_nothing"
+    },
+    {
+      "key": "player:ethan-vanta-walker",
+      "handle": "vanta_snooze"
+    },
+    {
+      "key": "player:mason-404-brooks",
+      "handle": "error_404_mid"
+    },
+    {
+      "key": "player:liam-aster-oconnor",
+      "handle": "oconnor_on_bot"
+    },
+    {
+      "key": "player:daniel-moss-reyes",
+      "handle": "moss_grows_slowly"
+    },
+    {
+      "key": "player:caleb-atlas-mercer",
+      "handle": "atlas_holds_it"
+    },
+    {
+      "key": "player:owen-glacier-fletcher",
+      "handle": "slow_glacier"
+    },
+    {
+      "key": "player:emiliano-moteconhuesillo-navarro",
+      "handle": "mote_con_huesillo"
+    },
+    {
+      "key": "player:cameron-mold-ruiz",
+      "handle": "mold_on_bread"
+    },
+    {
+      "key": "player:vincente-flacogomez-galan",
+      "handle": "flacogomez_vg"
+    },
+    {
+      "key": "player:evan-soupcrime-nakamura",
+      "handle": "soup_crimes"
+    },
+    {
+      "key": "player:milo-velcrodog-radovic",
+      "handle": "velcrodawg_woof"
+    },
+    {
+      "key": "player:nolan-dentalplan-hart",
+      "handle": "no_dental_plan"
+    },
+    {
+      "key": "player:reid-wrongnumber-hart",
+      "handle": "wrong_number_who"
+    },
+    {
+      "key": "player:zayn-parkinglot-haddad",
+      "handle": "p4rking_l0t_zayn"
+    },
+    {
+      "key": "player:connor-mako-sullivan",
+      "handle": "mako_sull_con"
+    },
+    {
+      "key": "player:jacob-xnox-price",
+      "handle": "xnox_in_the_dark"
+    },
+    {
+      "key": "player:owen-kite-hughes",
+      "handle": "kite_no_string"
+    },
+    {
+      "key": "player:tyler-murmur-grant",
+      "handle": "murmur_murmur"
+    },
+    {
+      "key": "player:lucas-grit-foster",
+      "handle": "grits_and_gg"
+    },
+    {
+      "key": "player:benjamin-vex-carter",
+      "handle": "vex_e_mite"
+    },
+    {
+      "key": "player:cole-june-mercer",
+      "handle": "june_not_july"
+    },
+    {
+      "key": "player:isaac-pebble-young",
+      "handle": "pebble_in_shoe"
+    },
+    {
+      "key": "player:nathan-0bit-hall",
+      "handle": "zero_bit_nate"
+    },
+    {
+      "key": "player:ryan-luma-chen",
+      "handle": "luma_after_dark"
+    },
+    {
+      "key": "staff:adrian-elias-vale",
+      "handle": "vale_of_kairos"
+    },
+    {
+      "key": "staff:zaqueri-aphromoo-black",
+      "handle": "aphro_says_ward"
+    },
+    {
+      "key": "staff:thinkcard-kairos-strategic-coach",
+      "handle": "think_card_tom"
+    },
+    {
+      "key": "staff:emily-chen",
+      "handle": "emily_does_math"
+    },
+    {
+      "key": "staff:lukas-luk-novak",
+      "handle": "luk_calls_it"
+    },
+    {
+      "key": "staff:claire-kairos-executive",
+      "handle": "whitcomb_signs"
+    },
+    {
+      "key": "staff:ethan-kairos-executive",
+      "handle": "ethan_calder_inc"
+    },
+    {
+      "key": "staff:sofia-kairos-executive",
+      "handle": "alvarez_says_yes"
+    },
+    {
+      "key": "staff:marcus-kairos-general-manager",
+      "handle": "bell_rings_twice"
+    },
+    {
+      "key": "staff:darshan-kairos-top-mentor",
+      "handle": "darshan_top_diff"
+    },
+    {
+      "key": "staff:doublelift-kairos-adc-mentor",
+      "handle": "lift_double"
+    },
+    {
+      "key": "staff:pobelter-kairos-mid-mentor",
+      "handle": "pobe_lter"
+    },
+    {
+      "key": "staff:goldenglue-kairos-mid-mentor",
+      "handle": "golden_glue_gg"
+    },
+    {
+      "key": "staff:wildturtle-kairos-adc-mentor",
+      "handle": "turtle_wild"
+    },
+    {
+      "key": "staff:xmithie-kairos-jungle-mentor",
+      "handle": "x_mithie_x"
+    },
+    {
+      "key": "staff:ethan-trace-miller",
+      "handle": "trace_the_dev"
+    },
+    {
+      "key": "staff:jake-stewie2k-yip",
+      "handle": "stewie2k_wanders"
+    },
+    {
+      "key": "staff:hai-du-lam",
+      "handle": "hai_from_blue"
+    },
+    {
+      "key": "staff:miles-sable-warren",
+      "handle": "sable_in_white"
+    },
+    {
+      "key": "staff:maya-torres",
+      "handle": "maya_is_listening"
+    },
+    {
+      "key": "staff:evelyn-park",
+      "handle": "dr_evelyn_park"
+    },
+    {
+      "key": "staff:tarik-kairos-cs-academy-head-coach",
+      "handle": "tarik_greenroom"
+    },
+    {
+      "key": "staff:alex-xpecial-chu",
+      "handle": "xpecial_oop"
+    },
+    {
+      "key": "team:kairos-lol-main",
+      "handle": "kairos_gaming_lol"
+    },
+    {
+      "key": "team:kairos-cs-main",
+      "handle": "kairos_gaming_cs"
+    },
+    {
+      "key": "team:kairos-cs-academy",
+      "handle": "kairos_green_room"
+    },
+    {
+      "key": "team:kairos-lol-academy-blue",
+      "handle": "kairos_blue_hour"
+    },
+    {
+      "key": "team:kairos-lol-academy-white",
+      "handle": "kairos_white_noise"
+    },
+    {
+      "key": "organization:kairos-esports",
+      "handle": "kairos_hq"
+    }
+  ]
+}

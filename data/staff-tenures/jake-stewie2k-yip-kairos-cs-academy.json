@@ -11,9 +11,9 @@
     "role-head-coach"
   ],
   "startedDate": "2026-11-23",
-  "endedDate": null,
+  "endedDate": "2027-01-28",
   "datePrecision": "exact",
-  "status": "active",
+  "status": "inactive",
   "sourceIds": [
     "source-episodes-115-118",
     "source-staff-jake-stewie2k-yip",

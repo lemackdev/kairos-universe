@@ -1,0 +1,28 @@
+{
+  "id": "post-20261219-113",
+  "slug": "campus-life-113",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "owen-kite-hughes",
+  "text": "no assigned seats. maximum chance of hearing a conversation you were absolutely not prepared for",
+  "postedAt": "2026-12-19T22:53",
+  "timeZone": "PT",
+  "storyDate": "2026-12-19",
+  "episodeIds": [
+    "episode-092"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/holiday-table.png",
+    "alt": "Owen Hughes laughing at the campus holiday dinner"
+  }
+}

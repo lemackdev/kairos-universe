@@ -1,0 +1,28 @@
+{
+  "id": "post-20270120-133",
+  "slug": "campus-life-133",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "adrian-elias-vale",
+  "text": "Still learning where to look when taking one of these. The screen is a trap.",
+  "postedAt": "2027-01-20T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-20",
+  "episodeIds": [
+    "episode-107"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/adrian-selfie.png",
+    "alt": "Adrian Vale taking a casual selfie in the Commons"
+  }
+}

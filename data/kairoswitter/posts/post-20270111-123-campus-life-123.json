@@ -1,0 +1,24 @@
+{
+  "id": "post-20270111-123",
+  "slug": "campus-life-123",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "connor-mako-sullivan",
+  "text": "NACL. our name on the actual list. stared at it for a completely normal amount of time",
+  "postedAt": "2027-01-11T20:03",
+  "timeZone": "PT",
+  "storyDate": "2027-01-11",
+  "episodeIds": [
+    "episode-099"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ]
+}

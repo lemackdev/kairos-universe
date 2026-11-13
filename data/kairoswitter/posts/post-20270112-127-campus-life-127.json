@@ -1,0 +1,28 @@
+{
+  "id": "post-20270112-127",
+  "slug": "campus-life-127",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "zayn-parkinglot-haddad",
+  "text": "a room where taking a photo does not automatically become a work assignment. nice.",
+  "postedAt": "2027-01-12T21:07",
+  "timeZone": "PT",
+  "storyDate": "2027-01-12",
+  "episodeIds": [
+    "episode-100"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/photo-room.png",
+    "alt": "Zayn Haddad checking his camera in the photo room"
+  }
+}

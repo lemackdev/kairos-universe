@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 
 import type { SearchEntityType, SearchRecord } from "@/types/catalog";
@@ -21,8 +21,14 @@ const GROUP_ORDER: SearchEntityType[] = ["player", "team", "staff", "competition
 const MAX_PER_GROUP = 4;
 
 export function NavSearch({ records }: { records: SearchRecord[] }) {
-  const [query, setQuery] = useState("");
-  const [open, setOpen] = useState(false);
+  // The text and the dropdown belong to the page they were typed on: navigating anywhere empties the box and closes the dropdown.
+  const pathname = usePathname();
+  const [typed, setTyped] = useState({ text: "", path: "" });
+  const [openPath, setOpenPath] = useState<string | null>(null);
+  const query = typed.path === pathname ? typed.text : "";
+  const open = openPath === pathname;
+  const setQuery = (text: string) => setTyped({ text, path: pathname });
+  const setOpen = (value: boolean) => setOpenPath(value ? pathname : null);
   const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
@@ -79,7 +85,7 @@ export function NavSearch({ records }: { records: SearchRecord[] }) {
               <div className="navSearchGroup" key={type}>
                 <span className="navSearchGroupLabel">{GROUP_LABELS[type]}</span>
                 {grouped.get(type)!.slice(0, MAX_PER_GROUP).map((record) => (
-                  <Link className="navSearchResult" href={record.href} key={record.id} onClick={() => setOpen(false)}>
+                  <Link className="navSearchResult" href={record.href} key={record.id} onClick={() => { setOpen(false); setQuery(""); }}>
                     {record.type === "player"
                       ? <span className="searchResultPortrait navSearchPortrait">
                           {record.portraitUrl

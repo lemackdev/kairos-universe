@@ -1,0 +1,29 @@
+{
+  "id": "post-20270128-003",
+  "slug": "atlas-cct-we-are-in",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "caleb-atlas-mercer",
+  "text": "ok. CCT North America #1. real list, real names, ours in the middle of it. feb 8. i'm going to go stare at a wall productively",
+  "postedAt": "2027-01-28T18:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-28",
+  "episodeIds": [
+    "episode-117"
+  ],
+  "sourceIds": [
+    "source-episodes-115-118"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [
+    "cct-north-america-1-2027"
+  ],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Atlas is the Counter-Strike captain.",
+    "Voice rewritten at the author's request; the facts (CCT invite, 8 February, Tarik as Head Coach) come from Episode 117."
+  ]
+}

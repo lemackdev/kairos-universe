@@ -42,7 +42,13 @@
   "inspirations": [],
   "objectives": [],
   "insecurities": [],
-  "relationships": [],
+  "relationships": [
+    {
+      "subjectId": "alex-xpecial-chu",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
   "careerHistory": [
     {
       "organizationId": "kairos-esports",

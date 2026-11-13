@@ -1,5 +1,11 @@
 # Canon Changelog
 
+## 0.33.0 - Kairoswitter
+
+- Added Kairoswitter, the in-universe feed (/wiki/kairoswitter): one JSON file per post in data/kairoswitter/posts/, accounts and profiles derived from the authors, posts limited to 280 characters and shown once the story date reaches them. Rules for writing posts are in docs/kairoswitter/README.md.
+- Added five sample posts from Episode 117 (the CCT North America #1 invite and Tarik joining Kairos Academy Green).
+- Phone layout: hamburger menu, search box empties after navigating, capped infobox logos.
+
 ## 0.32.0 - Counter-Strike world ranking
 
 - Added a hand-maintained Counter-Strike world ranking page (/wiki/rankings/counter-strike) seeded with the 2026-11-09 HLTV positions of all 50 repository teams; see docs/canon/CS_WORLD_RANKING_2027.md.

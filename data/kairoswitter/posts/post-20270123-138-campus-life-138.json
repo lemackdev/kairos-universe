@@ -1,0 +1,28 @@
+{
+  "id": "post-20270123-138",
+  "slug": "campus-life-138",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "claire-kairos-executive",
+  "text": "This coffee was meant to last through three emails. It lasted through the first subject line.",
+  "postedAt": "2027-01-23T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-23",
+  "episodeIds": [
+    "episode-109"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/claire-selfie.png",
+    "alt": "Claire Whitcomb taking a coffee break selfie"
+  }
+}

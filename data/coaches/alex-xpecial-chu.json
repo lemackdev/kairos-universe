@@ -1,0 +1,53 @@
+{
+  "id": "alex-xpecial-chu",
+  "slug": "alex-xpecial-chu",
+  "realName": "Alex Chu",
+  "nickname": "Xpecial",
+  "nationality": "American",
+  "role": "Support Mentor",
+  "division": "League of Legends",
+  "currentOrganization": "kairos-esports",
+  "currentTeam": "kairos-lol-main",
+  "status": "active",
+  "firstAppearance": "TBD",
+  "joinedKairos": "TBD",
+  "realWorldFigure": true,
+  "formerPlayingCareer": "Former professional League of Legends Support player.",
+  "coachingPhilosophy": "TBD",
+  "responsibilities": [
+    "Mentor Support players across Kairos Gaming, Academy Blue and Academy White."
+  ],
+  "personality": "TBD",
+  "relationships": [
+    {
+      "subjectId": "daniel-moss-reyes",
+      "type": "role-mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "lucas-grit-foster",
+      "type": "role-mentor",
+      "status": "confirmed"
+    },
+    {
+      "subjectId": "ryan-luma-chen",
+      "type": "role-mentor",
+      "status": "confirmed"
+    }
+  ],
+  "objectives": [],
+  "careerHistory": [],
+  "individualTimeline": [
+    "Author directive 2026-11-13: appointed Support Mentor; in-story start date not established."
+  ],
+  "achievements": [],
+  "confirmedFacts": [
+    "Xpecial is the Support Mentor across the Kairos League teams."
+  ],
+  "unconfirmedDetails": [
+    "In-story appointment date and contract terms are not established."
+  ],
+  "canonNotes": [
+    "Author directive 2026-11-13 supersedes current Aphromoo mentorship assignments. Historical episodes remain historical."
+  ]
+}

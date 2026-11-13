@@ -1,0 +1,28 @@
+{
+  "id": "post-20270123-135",
+  "slug": "campus-life-135",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "cameron-mold-ruiz",
+  "text": "proof i went outside. please respect my privacy during this difficult adjustment",
+  "postedAt": "2027-01-23T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-23",
+  "episodeIds": [
+    "episode-109"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/mold-beach-selfie.png",
+    "alt": "Mold taking a selfie at Manhattan Beach"
+  }
+}

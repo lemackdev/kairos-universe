@@ -1,0 +1,28 @@
+{
+  "id": "post-20261207-103",
+  "slug": "campus-life-103",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "nolan-dentalplan-hart",
+  "text": "green jersey appreciation post. that gold trim is doing a LOT",
+  "postedAt": "2026-12-07T21:43",
+  "timeZone": "PT",
+  "storyDate": "2026-12-07",
+  "episodeIds": [
+    "episode-082"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/jersey-detail.png",
+    "alt": "Close-up phone photo of Nolan’s green Kairos jersey"
+  }
+}

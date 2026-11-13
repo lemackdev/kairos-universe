@@ -87,8 +87,8 @@ describe("2027 external Counter-Strike 2 rosters", () => {
     expect(cs.players.some((player) => /stewie2k/i.test(player.nickname) || /^jake yip$/i.test(player.legalName))).toBe(false);
     expect(wor.starters.map((starter) => starter.nickname).sort()).toEqual(["CeRq", "FaNg", "Stewie2K", "autimatic", "Brehze"].sort());
     const tenure = read("data/staff-tenures/jake-stewie2k-yip-kairos-cs-academy.json");
-    expect(tenure.endedDate).toBeNull();
-    expect(tenure.status).toBe("active");
+    expect(tenure.endedDate).toBe("2027-01-28");
+    expect(tenure.status).toBe("inactive");
     const entry = cs.continuityCases[0]!;
     expect(entry.effectiveFrom).toBe("2027-01-29");
     expect(entry.status).toBe("accepted-sporting-proposal-former-kairos-employee");

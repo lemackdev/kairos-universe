@@ -1,0 +1,28 @@
+{
+  "id": "post-20270112-125",
+  "slug": "campus-life-125",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "owen-glacier-fletcher",
+  "text": "best part of the day. love you grandpa.",
+  "postedAt": "2027-01-12T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-12",
+  "episodeIds": [
+    "episode-100"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/glacier-arthur-selfie.png",
+    "alt": "Glacier taking a selfie with his grandfather Arthur Fletcher"
+  }
+}

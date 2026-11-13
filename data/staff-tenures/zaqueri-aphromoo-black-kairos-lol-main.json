@@ -6,9 +6,9 @@
   "organizationId": "kairos-esports",
   "teamId": "kairos-lol-main",
   "divisionId": "division-league-of-legends",
-  "title": "Head Coach and Support Mentor",
+  "title": "Head Coach",
   "responsibilityIds": [
-    "role-head-coach-and-support-mentor"
+    "role-head-coach"
   ],
   "startedDate": "TBD",
   "endedDate": null,

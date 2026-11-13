@@ -1,0 +1,28 @@
+{
+  "id": "post-20270112-124",
+  "slug": "campus-life-124",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "owen-kite-hughes",
+  "text": "there is a piano here. sorry in advance if you hear the same four bars for 40 minutes",
+  "postedAt": "2027-01-12T21:04",
+  "timeZone": "PT",
+  "storyDate": "2027-01-12",
+  "episodeIds": [
+    "episode-100"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/piano-room.png",
+    "alt": "Owen Hughes playing the Commons digital piano"
+  }
+}

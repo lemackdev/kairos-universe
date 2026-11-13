@@ -12,11 +12,11 @@ export interface BracketTeam {
 export interface BracketRound {
   name: string;
   matchFormat?: string;
-  matches: Array<{ teamA: BracketTeam | null; teamB: BracketTeam | null }>;
+  matches: Array<{ teamA: BracketTeam | null; teamB: BracketTeam | null; seedA?: number; seedB?: number }>;
 }
 
-function Slot({ team }: { team: BracketTeam | null }) {
-  if (!team) return <div className={`${styles.slot} ${styles.tbd}`}><span className={styles.mark}>?</span><span>TBD</span></div>;
+function Slot({ team, seed }: { team: BracketTeam | null; seed?: number }) {
+  if (!team) return <div className={`${styles.slot} ${styles.tbd}`}><span className={styles.mark}>?</span><span>{seed ? `Seed ${seed}` : "TBD"}</span></div>;
   return <div className={styles.slot}>
     <span className={styles.logo}>{team.logo ?? <span className={styles.mono}>{team.name.slice(0, 2)}</span>}</span>
     {team.href ? <Link href={team.href}>{team.name}</Link> : <span>{team.name}</span>}
@@ -40,7 +40,7 @@ export function PlayoffBracket({ title, rounds }: { title: string; rounds: Brack
                 className={`${styles.match} ${r > 0 ? styles.hasIn : ""} ${last ? "" : i % 2 === 0 ? styles.up : styles.down}`}
                 style={{ gridRow: `${i * span + 1} / span ${span}`, "--half": 2 ** r } as CSSProperties}
               >
-                <div className={styles.box}><Slot team={match.teamA} /><Slot team={match.teamB} /></div>
+                <div className={styles.box}><Slot team={match.teamA} seed={match.seedA} /><Slot team={match.teamB} seed={match.seedB} /></div>
               </div>)}
             </div>
           </div>;

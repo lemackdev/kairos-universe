@@ -1,0 +1,28 @@
+{
+  "id": "post-20270118-131",
+  "slug": "campus-life-131",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "ethan-vanta-walker",
+  "text": "practice face. apparently i look like the monitor owes me money",
+  "postedAt": "2027-01-18T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-18",
+  "episodeIds": [
+    "episode-104"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/vanta-training.png",
+    "alt": "Vanta concentrating at his practice PC"
+  }
+}

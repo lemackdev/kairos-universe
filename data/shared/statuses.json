@@ -83,5 +83,10 @@
     "id": "status-unconfirmed",
     "name": "Unconfirmed",
     "value": "unconfirmed"
+  },
+  {
+    "id": "status-inactive",
+    "name": "Inactive",
+    "value": "inactive"
   }
 ]

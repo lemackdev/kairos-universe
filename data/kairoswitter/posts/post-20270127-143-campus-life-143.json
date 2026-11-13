@@ -1,0 +1,28 @@
+{
+  "id": "post-20270127-143",
+  "slug": "campus-life-143",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "sofia-kairos-executive",
+  "text": "Cinco minutos de sol entre reuniões. Não negocio.",
+  "postedAt": "2027-01-27T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-27",
+  "episodeIds": [
+    "episode-114"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/sofia-selfie.png",
+    "alt": "Sofia Alvarez taking a selfie outside on campus"
+  }
+}

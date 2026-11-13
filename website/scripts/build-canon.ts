@@ -6,6 +6,7 @@ import { readJson, writeJson } from "@/lib/canon/json";
 import { filterScene, loadExternalScene, sceneRoutes } from "@/lib/external/scene";
 import { listAllTier2Teams, loadWorldState2027 } from "@/lib/external/worldState2027";
 import { buildPublicationCatalog, publicationRoutes } from "@/lib/publications/build";
+import { buildKairoswitterCatalog, kairoswitterRoutes } from "@/lib/kairoswitter/build";
 import {
   loadCanonUniverse,
   loadPublicationManifest,
@@ -97,6 +98,10 @@ catalog.publications = buildPublicationCatalog(universe, catalog, { includeDraft
 const publicationRouteList = publicationRoutes(catalog.publications);
 if (publicationRouteList.some((route) => catalog.routes.includes(route))) throw new Error("Publication route collides with existing route");
 catalog.routes.push(...publicationRouteList);
+catalog.kairoswitter = buildKairoswitterCatalog(universe, catalog);
+const kairoswitterRouteList = kairoswitterRoutes(catalog.kairoswitter);
+if (kairoswitterRouteList.some((route) => catalog.routes.includes(route))) throw new Error("Kairoswitter route collides with existing route");
+catalog.routes.push(...kairoswitterRouteList);
 writeJson(path.join(generatedRoot, "catalog.json"), catalog);
 writeJson(path.join(generatedRoot, "route-manifest.json"), catalog.routes);
 

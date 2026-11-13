@@ -330,6 +330,7 @@ export interface KairospediaCatalog {
   externalScene?: import("./external-scene").ExternalScene;
   worldState2027?: import("./world-state-2027").WorldState2027;
   publications?: import("./publications").PublicationCatalog;
+  kairoswitter?: import("./kairoswitter").KairoswitterCatalog;
   metadata: CatalogMetadata;
   games: GameView[];
   organizations: OrganizationView[];

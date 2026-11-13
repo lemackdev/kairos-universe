@@ -1,0 +1,28 @@
+{
+  "id": "post-20270129-145",
+  "slug": "campus-life-145",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "lukas-luk-novak",
+  "text": "the expression of a man who said last review ten minutes ago",
+  "postedAt": "2027-01-29T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-29",
+  "episodeIds": [
+    "episode-118"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/luk-practice.png",
+    "alt": "Luk reviewing at a practice desk"
+  }
+}

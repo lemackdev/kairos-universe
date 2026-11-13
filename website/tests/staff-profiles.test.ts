@@ -64,7 +64,7 @@ describe("published management and coach profiles", () => {
   it("shows both Academy head coaches without changing Counter-Strike Academy leadership", () => {
     expect(catalog.teams.find((entry) => entry.id === "kairos-lol-academy-blue")?.headCoachName).toBe("Hai");
     expect(catalog.teams.find((entry) => entry.id === "kairos-lol-academy-white")?.headCoachName).toBe("Sable");
-    expect(catalog.teams.find((entry) => entry.id === "kairos-cs-academy")?.headCoachName).toBe("Stewie2K");
+    expect(catalog.teams.find((entry) => entry.id === "kairos-cs-academy")?.headCoachName).toBe("Tarik");
     expect(catalog.routes).toContain("/wiki/staff/maya-torres");
     expect(catalog.routes).toContain("/wiki/staff/evelyn-park");
   });

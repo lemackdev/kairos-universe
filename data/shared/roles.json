@@ -143,5 +143,10 @@
     "id": "role-top-mentor",
     "name": "Top Mentor",
     "value": "Top Mentor"
+  },
+  {
+    "id": "role-support-mentor",
+    "name": "Support Mentor",
+    "value": "Support Mentor"
   }
 ]

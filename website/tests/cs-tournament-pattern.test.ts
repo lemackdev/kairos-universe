@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { buildTbdPattern } from "../src/lib/tournamentPattern";
+import { buildTbdPattern, quarterFinalSeedPairs, seedAdvancingTeams } from "../src/lib/tournamentPattern";
 import { loadWorldState2027 } from "../src/lib/external/worldState2027";
 
 const root = path.resolve(__dirname, "../..");
@@ -51,5 +51,21 @@ describe("Counter-Strike tournament page pattern", () => {
     const withoutARoof = cct.teams.find((team) => team.name === "Without a Roof")!.teamId;
     expect(groupOf("kairos-cs-main")).toBeGreaterThanOrEqual(0);
     expect(groupOf("kairos-cs-main")).not.toBe(groupOf(withoutARoof));
+  });
+
+  it("seeds the 16-team quarter-finals 1-8, 4-5, 2-7, 3-6 (so 1-8 meets 4-5 and 2-7 meets 3-6 next) from the group results", () => {
+    expect(quarterFinalSeedPairs).toEqual([[1, 8], [4, 5], [2, 7], [3, 6]]);
+    const pattern = buildTbdPattern(16).playoffs.rounds[0]!;
+    expect(pattern.matches.map((match) => [match.seedA, match.seedB])).toEqual([[1, 8], [4, 5], [2, 7], [3, 6]]);
+    expect(buildTbdPattern(8).playoffs.rounds[0]!.matches.every((match) => match.seedA === undefined)).toBe(true);
+    const row = (teamId: string, wins: number, roundDiff: number) => ({ teamId, name: teamId, wins, roundDiff });
+    const groups = [
+      { complete: true, rows: [row("a1", 3, 20), row("a2", 2, 5)] },
+      { complete: true, rows: [row("b1", 3, 30), row("b2", 2, 9)] },
+      { complete: true, rows: [row("c1", 3, 10), row("c2", 1, 1)] },
+      { complete: true, rows: [row("d1", 2, 4), row("d2", 2, 2)] },
+    ];
+    expect(seedAdvancingTeams(groups, 2)).toEqual(["b1", "a1", "c1", "d1", "b2", "a2", "d2", "c2"]);
+    expect(seedAdvancingTeams([{ ...groups[0]!, complete: false }, ...groups.slice(1)], 2)).toBeNull();
   });
 });

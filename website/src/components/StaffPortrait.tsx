@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 const portraits: Record<string, { width: number; height: number; name: string }> = {
+  "tarik-kairos-cs-academy-head-coach": { width: 1122, height: 1402, name: "Tarik" },
+  "alex-xpecial-chu": { width: 1199, height: 1312, name: "Xpecial" },
   "adrian-elias-vale": { width: 1145, height: 1374, name: "Adrian Vale" },
   "claire-kairos-executive": { width: 1122, height: 1402, name: "Claire Whitcomb" },
   "darshan-kairos-top-mentor": { width: 1199, height: 1312, name: "Darshan" },

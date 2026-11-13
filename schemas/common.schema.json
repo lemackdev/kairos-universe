@@ -108,6 +108,7 @@
         "Sports Psychologist",
         "Clinical Psychologist",
         "Support",
+        "Support Mentor",
         "Support / Anchor",
         "TBD",
         "Top",
@@ -118,6 +119,7 @@
     "knownStatus": {
       "enum": [
         "active",
+        "inactive",
         "active-pre-debut",
         "active-training-pre-debut",
         "being-scouted",

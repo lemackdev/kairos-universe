@@ -3,7 +3,7 @@ import { TournamentArticle } from "@/components/articles/TournamentArticle";
 import { getCatalog } from "@/lib/canon/server";
 import { csExternalTeams, csOrganizationSlugOf, csRoleOf, fieldCaptionFor, findTier2Team, groupStageFor, groupStandings, playoffsFor, nationalitiesOf, regionCodeOfLeague, regionalCompetitionSlugs, regionalFieldFor, rosterLeague, rosterSets } from "@/lib/external/worldState2027";
 import { buildLeagueSchedule } from "@/lib/leagueSchedule";
-import { buildTbdPattern, patternTeamCounts } from "@/lib/tournamentPattern";
+import { buildTbdPattern, patternTeamCounts, quarterFinalSeedPairs, seedAdvancingTeams } from "@/lib/tournamentPattern";
 import { externalLogoPath } from "@/lib/externalLogos";
 import { BrandLogo } from "@/components/UniformPanel";
 import { competitionLogo } from "@/lib/competitionLogos";
@@ -116,14 +116,25 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
     };
   })() : undefined;
   const bracket = playoffsFor(worldState, slug);
+  const nameOf = (teamId: string) => regionalField2027?.[(field ?? []).findIndex((entry) => entry.teamId === teamId)]?.name ?? teamId;
+  // 16-team rule: once every group match is played, the eight advancing teams are seeded from the group results and the quarter-finals are 1-8, 4-5, 2-7, 3-6.
+  const sixteenTeamStage = drawn !== null && drawn.groups.length === 4;
+  const groupsComplete = drawn !== null && drawn.groups.every((group) => (group.matches?.length ?? 0) > 0 && group.matches!.every((match) => match.mapsA !== null && match.mapsB !== null));
+  const seedOrder = drawn && groupsComplete
+    ? seedAdvancingTeams(drawn.groups.map((group) => ({ complete: true, rows: groupStandings(group, nameOf).map((row) => ({ teamId: row.teamId, name: nameOf(row.teamId), wins: row.wins, roundDiff: row.roundDiff })) })), drawn.advancing)
+    : null;
   const playoffs = bracket && regionalField2027 ? {
     title: bracket.name,
-    rounds: bracket.rounds.map((round) => ({ name: round.name, matchFormat: round.matchFormat, matches: round.matches.map((match) => {
+    rounds: bracket.rounds.map((round, roundIndex) => ({ name: round.name, matchFormat: round.matchFormat, matches: round.matches.map((match, matchIndex) => {
       const slot = (teamId: string | null) => {
         if (!teamId) return null;
         const team = regionalField2027[(field ?? []).findIndex((entry) => entry.teamId === teamId)]!;
         return { key: team.key, name: team.name, href: team.href, logo: team.logo };
       };
+      if (roundIndex === 0 && sixteenTeamStage) {
+        const [seedA, seedB] = quarterFinalSeedPairs[matchIndex]!;
+        return { teamA: slot(match.teamAId ?? seedOrder?.[seedA - 1] ?? null), teamB: slot(match.teamBId ?? seedOrder?.[seedB - 1] ?? null), seedA, seedB };
+      }
       return { teamA: slot(match.teamAId), teamB: slot(match.teamBId) };
     }) })),
   } : undefined;

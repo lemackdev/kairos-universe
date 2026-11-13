@@ -1,0 +1,28 @@
+{
+  "id": "post-20270123-136",
+  "slug": "campus-life-136",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "emiliano-moteconhuesillo-navarro",
+  "text": "en el server doy calls. en la playa pido la pelota y nadie me la pasa",
+  "postedAt": "2027-01-23T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-23",
+  "episodeIds": [
+    "episode-109"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/mote-football.png",
+    "alt": "MoteConHuesillo playing football on the beach"
+  }
+}

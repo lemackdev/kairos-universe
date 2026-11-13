@@ -1,0 +1,28 @@
+{
+  "id": "post-20270112-126",
+  "slug": "campus-life-126",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "nolan-dentalplan-hart",
+  "text": "new setup. recoil pattern is different",
+  "postedAt": "2027-01-12T20:06",
+  "timeZone": "PT",
+  "storyDate": "2027-01-12",
+  "episodeIds": [
+    "episode-100"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/drum-practice.png",
+    "alt": "Nolan Hart at the Commons electronic drum kit"
+  }
+}

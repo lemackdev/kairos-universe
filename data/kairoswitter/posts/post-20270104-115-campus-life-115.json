@@ -1,0 +1,28 @@
+{
+  "id": "post-20270104-115",
+  "slug": "campus-life-115",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "nathan-0bit-hall",
+  "text": "back. the cables did not untangle themselves while i was gone. disappointing work ethic",
+  "postedAt": "2027-01-04T21:55",
+  "timeZone": "PT",
+  "storyDate": "2027-01-04",
+  "episodeIds": [
+    "episode-093"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/new-year-desk.png",
+    "alt": "Nathan Hall back at his desk holding a tangled cable"
+  }
+}

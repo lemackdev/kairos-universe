@@ -1,0 +1,28 @@
+{
+  "id": "post-20270125-140",
+  "slug": "campus-life-140",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "hai-du-lam",
+  "text": "\"one quick question\"\n\nwe have been here for 25 minutes",
+  "postedAt": "2027-01-25T21:30",
+  "timeZone": "PT",
+  "storyDate": "2027-01-25",
+  "episodeIds": [
+    "episode-110"
+  ],
+  "sourceIds": [],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "New author-authorized social vignette inspired by the cited episode; wording and incidental everyday details are creative additions, not episode quotations. No private scrim details are disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/hai-practice.png",
+    "alt": "Hai talking beside a desk in the practice room"
+  }
+}

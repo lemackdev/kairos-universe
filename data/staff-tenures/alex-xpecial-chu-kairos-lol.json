@@ -1,0 +1,21 @@
+{
+  "id": "alex-xpecial-chu-kairos-lol",
+  "slug": "alex-xpecial-chu-kairos-lol",
+  "continuityId": "kairos-universe",
+  "personId": "alex-xpecial-chu",
+  "organizationId": "kairos-esports",
+  "teamId": null,
+  "divisionId": "division-league-of-legends",
+  "title": "Support Mentor",
+  "responsibilityIds": [
+    "role-support-mentor"
+  ],
+  "startedDate": "TBD",
+  "endedDate": null,
+  "datePrecision": "unknown",
+  "status": "active",
+  "sourceIds": [
+    "source-staff-alex-xpecial-chu"
+  ],
+  "canonStatus": "confirmed"
+}

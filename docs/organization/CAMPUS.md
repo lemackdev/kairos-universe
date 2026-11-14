@@ -9,6 +9,11 @@ United States.
 
 ## Purpose
 
+The author's visual direction is a private gaming mansion or residential esports
+compound, not a college or university. Shared rooms should read as lived-in
+residential spaces adapted for team life and training. Detailed layouts remain
+unspecified.
+
 The campus is intended to support:
 
 - Training

@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { assetUrl, readPublishedBranding } from "../../../shared/branding";
+import { assetUrl, findBrandLogo, readPublishedBranding } from "../../../shared/branding";
 import styles from "./UniformPanel.module.css";
 
-export function BrandLogo({ organizationId, width = 180 }: { organizationId: string; width?: number }) {
-  const asset = readPublishedBranding().assets.find(a => a.category === "logo" && a.organizationId === organizationId);
+export function BrandLogo({ organizationId, teamId, width = 180 }: { organizationId: string; teamId?: string; width?: number }) {
+  const asset = findBrandLogo(readPublishedBranding(), organizationId, teamId);
   if (!asset) return null;
-  return <Image src={assetUrl(asset)} alt={organizationId.replaceAll("-", " ") + " approved logo"}
+  return <Image src={assetUrl(asset)} alt={asset.id.replaceAll("-", " ")}
     width={asset.width} height={asset.height} sizes={width + "px"}
     style={{ width, maxWidth: "100%", height: "auto", objectFit: "contain" }} />;
 }

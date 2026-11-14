@@ -1,0 +1,27 @@
+{
+  "id": "kairos-academy-white-logo",
+  "slug": "kairos-academy-white-logo",
+  "path": "assets/branding/kairos/kairos-academy-white-logo.png",
+  "mimeType": "image/png",
+  "organizationId": "kairos-esports",
+  "season": null,
+  "category": "logo",
+  "orientation": "logo",
+  "color": "white",
+  "canonStatus": "confirmed",
+  "teamIds": [
+    "kairos-academy-white"
+  ],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-11-13",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "800890b144e9166eefa56163ee8212f1116559bf57a156b13665f24d7006e520",
+  "referencePath": "assets/branding/kairos/kairos-academy-white-logo.png",
+  "referenceSha256": "800890b144e9166eefa56163ee8212f1116559bf57a156b13665f24d7006e520",
+  "processing": "academy-variant-from-original",
+  "garmentHeight": null,
+  "notes": [
+    "Author-requested academy identity retaining the Kairos gold helmet and wordmark, with an academy-colored rim and label."
+  ]
+}

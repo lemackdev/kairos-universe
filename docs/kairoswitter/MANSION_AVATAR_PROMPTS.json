@@ -1,0 +1,35 @@
+{
+  "method": "Built-in image generation using existing player portraits as identity references",
+  "avatars": [
+    {
+      "output": "/kairoswitter/avatars/noah-rkn-bennett-v2.png",
+      "reference": "/portraits/noah-rkn-bennett.png",
+      "prompt": "A friend catches him laughing while seated on the living room floor beside a sofa, holding a game controller low at his lap. Dark casual tee, head and upper torso visible, informal slightly high camera angle. Large private house lounge, no public buildings."
+    },
+    {
+      "output": "/kairoswitter/avatars/ethan-vanta-walker-v2.png",
+      "reference": "/portraits/ethan-vanta-walker.png",
+      "prompt": "Candid breakfast photo in the private gaming house kitchen. Grey sweatshirt, sitting at the island looking sideways at a friend and trying not to laugh, cereal bowl below frame. Head and shoulders, normal indoor morning light, no academic buildings."
+    },
+    {
+      "output": "/kairoswitter/avatars/caleb-atlas-mercer-v2.png",
+      "reference": "/portraits/caleb-atlas-mercer.png",
+      "prompt": "Relaxed candid photo slouched comfortably on a house sofa in a dark hoodie, talking with someone off camera. Slight side angle, head and shoulders centered, a lamp and residential curtain behind. Not a hallway, office, or classroom."
+    },
+    {
+      "output": "/kairoswitter/avatars/connor-mako-sullivan-v2.png",
+      "reference": "/portraits/connor-mako-sullivan.png",
+      "prompt": "A slightly grainy evening photo taken by a friend at his home gaming desk. Plain navy tee, headset around neck, turning toward the friend with a small grin, head and shoulders. Soft monitor light plus ordinary desk lamp, private residential bedroom, not a university."
+    },
+    {
+      "output": "/kairoswitter/avatars/owen-kite-hughes-v2.png",
+      "reference": "/portraits/owen-kite-hughes.png",
+      "prompt": "Candid photo beside a digital piano in a house music room, dark blue sweatshirt, looking down and smiling after playing a wrong note. Head and shoulders, residential rug and curtain behind, normal daylight. No school corridor or institutional architecture."
+    },
+    {
+      "output": "/kairoswitter/avatars/vincente-flacogomez-galan-v2.png",
+      "reference": "/portraits/vincente-flacogomez-galan.png",
+      "prompt": "A friend photographs him leaning against the gaming house kitchen counter in a cream tee, laughing mid-conversation. Head and shoulders, wooden cabinets and simple residential cooker behind, not a dining hall or cafe. Hands out of frame."
+    }
+  ]
+}

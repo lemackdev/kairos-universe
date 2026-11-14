@@ -26,6 +26,18 @@ export interface RawKairoswitterPost {
   media?: { src: string; alt: string };
 }
 
+export type KairoswitterGroup = "organization" | "management" | "coaches" | "mentors" | "support" | "lol" | "cs";
+
+export const kairoswitterGroupLabels: Record<KairoswitterGroup, string> = {
+  organization: "Organization and teams",
+  management: "Founder and management",
+  coaches: "Coaches",
+  mentors: "Mentors",
+  support: "Analytics and wellbeing",
+  lol: "League of Legends players",
+  cs: "Counter-Strike players",
+};
+
 export interface KairoswitterAccount {
   key: string;
   handle: string;
@@ -37,6 +49,8 @@ export interface KairoswitterAccount {
   organizationId: string | null;
   postCount: number;
   avatarSrc?: string;
+  /** Directory group: what the account holder is in the organization. */
+  group: KairoswitterGroup;
 }
 
 export interface KairoswitterLink {
@@ -44,10 +58,17 @@ export interface KairoswitterLink {
   href: string;
 }
 
+/** A piece of a post's text; `handle` is set when it is a tag of another account. */
+export interface KairoswitterTextPart {
+  text: string;
+  handle?: string;
+}
+
 export interface KairoswitterPost {
   id: string;
   slug: string;
   text: string;
+  textParts: KairoswitterTextPart[];
   postedAt: string;
   timeZone: string;
   storyDate: string;

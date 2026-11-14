@@ -4,7 +4,7 @@ import type {
 } from "@/types/catalog";
 import { nationalityCountries } from "@/lib/nationalities";
 import { articleTypeLabels, formatLongDate } from "@/lib/publications/labels";
-import { assetUrl, readPublishedBranding, readPublishedPortraits } from "../../../../shared/branding";
+import { assetUrl, findBrandLogo, readPublishedBranding, readPublishedPortraits } from "../../../../shared/branding";
 
 export function buildSearchRecords(
   catalog: KairospediaCatalog,
@@ -19,8 +19,8 @@ export function buildSearchRecords(
   );
   const portraitIds = new Set(readPublishedPortraits().map((portrait) => portrait.playerId));
   const branding = readPublishedBranding();
-  const teamLogoUrl = (organizationId: string) => {
-    const asset = branding.assets.find((a) => a.category === "logo" && a.organizationId === organizationId);
+  const teamLogoUrl = (organizationId: string, teamId: string) => {
+    const asset = findBrandLogo(branding, organizationId, teamId);
     return asset ? assetUrl(asset) : null;
   };
 
@@ -100,7 +100,7 @@ export function buildSearchRecords(
       flagCode: flag?.code ?? null,
       flagLabel: flag?.country ?? player.nationality ?? null,
       playingFor: team?.shortName ?? (player.currentTeamName !== "TBD" ? player.currentTeamName : null),
-      teamLogoUrl: team ? teamLogoUrl(team.organizationId) : null,
+      teamLogoUrl: team ? teamLogoUrl(team.organizationId, team.id) : null,
     });
   }
 

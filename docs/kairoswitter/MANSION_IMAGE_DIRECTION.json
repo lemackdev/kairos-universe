@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-13",
+  "method": "Built-in image generation",
+  "direction": "Private gaming mansion in Los Angeles, never a college. Mix object photos, candid group scenes and occasional distinct selfies. Preserve current tweet text.",
+  "postScenes": [
+    {
+      "output": "/kairoswitter/media/new-year-desk-v2.png",
+      "references": [],
+      "prompt": "A messy tangle of USB and headset cables on a wooden bedroom gaming desk, keyboard pushed aside, mouse and a small screwdriver nearby. Shot looking down from a player's seated point of view, no face or visible person. A normal mildly annoying real-life mess, not artfully arranged.",
+      "alt": "Tangled cables on a bedroom gaming desk"
+    },
+    {
+      "output": "/kairoswitter/media/piano-room-v2.png",
+      "references": [],
+      "prompt": "Close off-center phone photo of a digital piano keyboard in a cozy residential hobby room: headphones resting on one end, a worn bench, a mug on a separate side table. Camera looks diagonally down across the keys. No people, no music-school classroom, no readable sheet music.",
+      "alt": "The Commons piano and headphones in a residential music room"
+    },
+    {
+      "output": "/kairoswitter/media/drum-practice-v2.png",
+      "references": [],
+      "prompt": "First-person photo looking down between a seated drummer's knees at an electronic practice drum kit, two drumsticks resting crossed on the rubber snare pad. Casual jeans visible at lower edge, no face. Private house spare room with a rug and normal lamps. Not a staged product photo.",
+      "alt": "A drummer's view of the electronic kit in the house music room"
+    },
+    {
+      "output": "/kairoswitter/media/photo-room-v2.png",
+      "references": [],
+      "prompt": "Casual close phone photograph of a camera with a loose lens cap and tangled neck strap on a side table in a house hobby corner. A folded portable backdrop leaning against the wall, a sofa edge. No people. Uneven ordinary room light, slightly tilted shot, photograph of hobby equipment not a product advertisement.",
+      "alt": "Camera equipment left on a side table in the Commons hobby room"
+    },
+    {
+      "output": "/kairoswitter/media/holiday-table-v2.png",
+      "references": [],
+      "prompt": "Phone photo from the end of a long dining table inside a Los Angeles gaming mansion after a holiday meal. Half-finished plates, crumpled napkins, serving dishes, mismatched mugs, a few modest wrapped gifts. Only cropped sleeves/hands of friends at the edges, no identifiable faces. Behind, a residential open-plan kitchen and a sofa, small holiday tree. Lived-in happy mess, NOT a university cafeteria, no food-service counters.",
+      "alt": "The shared dining table after the house holiday meal"
+    },
+    {
+      "output": "/kairoswitter/media/claire-selfie-v2.png",
+      "references": [],
+      "prompt": "A quick downward phone snap of an empty coffee mug with a coffee ring inside beside a laptop on a private gaming house kitchen island, crumbs on a small plate, a charging cable. Laptop screen angled away, no legible messages. No people or faces. Midmorning ordinary light, not an aspirational coffee flat lay.",
+      "alt": "An empty coffee cup beside a laptop on the house kitchen island"
+    },
+    {
+      "output": "/kairoswitter/media/sofia-selfie-v2.png",
+      "references": [],
+      "prompt": "A spontaneous phone photo from a shaded private house balcony looking over a quiet Los Angeles residential garden. A chair, a mug on a low outdoor table and sun falling on the balcony floor. No people. Modest slice of a large private gaming residence, not an institutional courtyard or public park. Slightly crooked horizon, ordinary daylight.",
+      "alt": "A quiet sunny balcony break at the gaming house"
+    },
+    {
+      "output": "/kairoswitter/media/adrian-selfie-v2.png",
+      "references": [
+        "staff-portraits/adrian-elias-vale",
+        "staff-portraits/claire-kairos-executive"
+      ],
+      "prompt": "An imperfect MIRROR SELFIE in a large private gaming house entrance hall. Adrian (reference1, black shirt) holds a phone visibly in one hand at chest level while looking down at its screen; Claire (reference2, olive casual jacket) is behind him taking off her jacket, not posing. Wider framing includes their upper bodies, shoes by the door, console table, residential stairs. No glamorous hotel lobby. NOT a close-up arm-length selfie.",
+      "alt": "Adrian's mirror selfie in the house entryway, with Claire in the background"
+    },
+    {
+      "output": "/kairoswitter/media/vanta-training-v2.png",
+      "references": [
+        "portraits/ethan-vanta-walker"
+      ],
+      "prompt": "Vanta, same person as reference, in his black gold jersey, absorbed in PC practice, unaware of camera. Shot from behind and slightly beside the sofa in a large private house room converted to esports practice: normal residential ceiling, wooden floor, a rug, desks and PCs along one wall, window to private garden. Face in three-quarter profile. No office ceiling tiles, institutional classroom or trophies; screen content not legible.",
+      "alt": "Vanta practicing in a house room converted for gaming"
+    },
+    {
+      "output": "/kairoswitter/media/luma-training-v2.png",
+      "references": [
+        "portraits/ryan-luma-chen",
+        "portraits/isaac-pebble-young"
+      ],
+      "prompt": "Luma (ref1) and Pebble (ref2) focused at neighboring PCs, white gold jerseys, headsets. Unposed photograph from the far end of a domestic room converted to gaming practice, not close-up: wood flooring, residential windows with curtains, wall-mounted desks, a sofa and discarded hoodie at frame edge. Private gaming mansion, not an office or school. Nobody looks at camera; no legible screen content.",
+      "alt": "Luma and Pebble practicing in the gaming house"
+    },
+    {
+      "output": "/kairoswitter/media/hai-practice-v2.png",
+      "references": [
+        "staff-portraits/hai-du-lam",
+        "portraits/connor-mako-sullivan",
+        "portraits/jacob-xnox-price"
+      ],
+      "prompt": "Coach Hai (ref1 navy shirt) discussing with SullCon (ref2 blue jersey) and xNox (ref3 blue jersey). An unposed wider phone photo from a house hallway through an open doorway: the three are seated around a small living-room coffee table beside gaming desks, no one aware of camera. Residential wood floor, rug, sofa and ordinary ceiling, garden through windows. No academic buildings, conference room or office tiles. No readable tactics.",
+      "alt": "Hai talking with SullCon and xNox beside the house practice room"
+    },
+    {
+      "output": "/kairoswitter/media/aphromoo-practice-v2.png",
+      "references": [
+        "staff-portraits/zaqueri-aphromoo-black",
+        "portraits/noah-rkn-bennett",
+        "portraits/mason-404-brooks"
+      ],
+      "prompt": "Aphromoo (ref1 dark green sweater, glasses), rkN (ref2 black gold jersey) and 404 (ref3 black gold jersey, glasses) laughing during a break. Candid phone photo from across the open-plan living room of a private gaming mansion. One sits on the sofa and others lean against the kitchen island, practice PCs visible in an adjoining room. Home lighting, residential ceiling, water bottles. Nobody poses or looks at camera, no scoreboard.",
+      "alt": "Aphromoo, rkN and 404 laughing during a break in the house lounge"
+    },
+    {
+      "output": "/kairoswitter/media/luk-practice-v2.png",
+      "references": [
+        "staff-portraits/lukas-luk-novak",
+        "portraits/caleb-atlas-mercer",
+        "portraits/owen-glacier-fletcher"
+      ],
+      "prompt": "Luk (ref1 olive shirt), Atlas (ref2 black gold jersey), Glacier (ref3 black gold jersey) reviewing at a PC in a private gaming house. View from slightly behind at doorway, all three looking toward monitor and not photographer. Real residential room with ordinary ceiling, wood flooring, books on small shelf, sofa behind desks, curtains. No office partitions or ceiling tiles. No legible scores or tactics. Naturally imperfect snapshot.",
+      "alt": "Luk reviewing with Atlas and Glacier in the gaming house"
+    }
+  ]
+}

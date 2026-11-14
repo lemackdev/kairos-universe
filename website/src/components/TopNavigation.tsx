@@ -6,18 +6,22 @@ import { NavMenu } from "./NavMenu";
 import { NavSearch } from "./NavSearch";
 
 const links = [
-  ["Games", "/wiki/games"],
-  ["Organizations", "/wiki/organizations"],
   ["Teams", "/wiki/teams"],
   ["Players", "/wiki/players"],
-  ["Calendar", "/wiki/calendar"],
   ["Competitions", "/wiki/competitions"],
-  ["Publications", "/wiki/publications"],
-  ["Campus", "/wiki/campus"],
-  ["Matches", "/wiki/matches"],
-  ["Transfers", "/wiki/transfers"],
+  ["Calendar", "/wiki/calendar"],
   ["Ranking", "/wiki/rankings/counter-strike"],
   ["Kairoswitter", "/wiki/kairoswitter"],
+] as const;
+
+// Secondary pages live behind "More" on a wide bar and in the hamburger panel on small screens.
+const moreLinks = [
+  ["Games", "/wiki/games"],
+  ["Organizations", "/wiki/organizations"],
+  ["Matches", "/wiki/matches"],
+  ["Transfers", "/wiki/transfers"],
+  ["Publications", "/wiki/publications"],
+  ["Campus", "/wiki/campus"],
 ] as const;
 
 export function TopNavigation({ searchRecords }: { searchRecords: SearchRecord[] }) {
@@ -30,7 +34,7 @@ export function TopNavigation({ searchRecords }: { searchRecords: SearchRecord[]
           <span className="wordmarkDescriptor">The esports encyclopedia</span>
         </span>
       </Link>
-      <NavMenu links={links} />
+      <NavMenu links={links} moreLinks={moreLinks} />
       <NavSearch records={searchRecords} />
     </nav>
   );

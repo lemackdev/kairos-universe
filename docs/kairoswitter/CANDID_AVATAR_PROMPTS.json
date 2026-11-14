@@ -1,0 +1,21 @@
+{
+  "method": "Built-in image generation",
+  "direction": "Replace repeated headshots with genuinely different camera distances, body positions and activities.",
+  "images": [
+    {
+      "output": "/kairoswitter/avatars/vincente-flacogomez-galan-v3.png",
+      "reference": "/kairoswitter/avatars/vincente-flacogomez-galan-v2.png",
+      "prompt": "A friend takes a casual full-body photograph from FIVE METERS away through the open patio door of their private gaming mansion. The young man in the reference is outside in cream T-shirt, loose dark shorts and sneakers, stepping sideways to stop a round soccer ball with his foot, looking DOWN at the ball, body turned three quarters away, not smiling for camera. Entire person including shoes fits within middle 55 percent of image height. Doorframe and a bit of indoor floor in foreground, garden and patio around him. Off-center snapshot, ordinary overcast light, slight movement in leg. NOT headshot, NOT chest-up, no face-forward pose."
+    },
+    {
+      "output": "/kairoswitter/avatars/owen-kite-hughes-v3.png",
+      "reference": "/kairoswitter/avatars/owen-kite-hughes-v2.png",
+      "prompt": "A quiet candid phone picture shot from FOUR METERS away, slightly elevated as though a standing friend took it from across the living room. Young man from reference in navy sweatshirt and jeans is seated SIDEWAYS at digital piano, both hands actually playing keys, looking at his hands, not the camera. Whole seated figure, piano, bench and feet visible. Subject occupies only 40 percent of square image height, positioned slightly right of center. Sofa arm partially blocks lower foreground. Residential gaming mansion music corner, imperfect daylight, no portrait lighting, no smile for camera. NOT headshot or chest-up."
+    },
+    {
+      "output": "/kairoswitter/avatars/connor-mako-sullivan-v3.png",
+      "reference": "/kairoswitter/avatars/connor-mako-sullivan-v2.png",
+      "prompt": "An incidental evening phone photo from THREE METERS to the player's left, shot from low height of a friend sitting on a nearby bed. Young man from reference, navy tee and shorts, is sitting sideways in gaming chair with one foot tucked on chair, headphones ON ears, leaning toward desk using mouse, face in strict side profile and NOT looking at photographer. Full seated body with legs and desk visible, person only 55 percent frame height, dim bedroom space around him, chair back and bed corner in foreground. Ordinary small lamp and monitor light, modest phone noise, slightly crooked framing. Gaming mansion bedroom, NOT office. No readable screen content. NOT closeup, NOT centered smiling portrait."
+    }
+  ]
+}

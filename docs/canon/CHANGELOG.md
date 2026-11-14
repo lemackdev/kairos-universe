@@ -4,6 +4,9 @@
 
 - Added Kairoswitter, the in-universe feed (/wiki/kairoswitter): one JSON file per post in data/kairoswitter/posts/, accounts and profiles derived from the authors, posts limited to 280 characters and shown once the story date reaches them. Rules for writing posts are in docs/kairoswitter/README.md.
 - Added five sample posts from Episode 117 (the CCT North America #1 invite and Tarik joining Kairos Academy Green).
+- Rebuilt the home page: a short hero, the next event with a day count, upcoming events, the Counter-Strike top 8, the latest Kairoswitter posts and the Kairos teams. The top bar now shows six main links and a "More" menu, and uses the hamburger below 1180px.
+- Kairoswitter: new handles (real-world people use their own, executives NameLastname, players mix @KG_nick, nicknames and invented ones, the organization is @KairosGaming), @tags inside posts link to the account, the time sits at the bottom of each post, and a Portuguese post by Sofia Alvarez was rewritten in English.
+- Home page restyled flat (no gradients, one radius, one accent); the Natus Vincere logo is visible in the ranking.
 - Phone layout: hamburger menu, search box empties after navigating, capped infobox logos.
 
 ## 0.32.0 - Counter-Strike world ranking

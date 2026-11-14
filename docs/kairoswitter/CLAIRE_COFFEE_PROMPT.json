@@ -1,0 +1,5 @@
+{
+  "method": "Built-in image generation edit",
+  "output": "/kairoswitter/media/claire-coffee-v3.png",
+  "prompt": "Edit this photo only to correct the laptop orientation. Keep the empty coffee mug, crumb plate, kitchen island and gaming mansion background unchanged. The photograph is from the seated laptop USER's viewpoint. Rotate the entire laptop on the right so its palm rest and trackpad are nearest the bottom edge/camera, keyboard beyond the trackpad, and screen hinged at the FAR edge toward the room, facing the camera/user. We must clearly see the INNER display above the keyboard, never the outer lid. Normal open laptop geometry at 105 degrees. Screen shows a soft indistinct email window with no readable text. Keep laptop on right and coffee on left, preserve original casual framing and lighting. Do not mirror the entire photo."
+}

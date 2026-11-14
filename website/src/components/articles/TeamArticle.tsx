@@ -63,7 +63,7 @@ export function TeamArticle({ team, organization, banner, logo, overview, extern
     { label: "Founded", value: organization?.founded ?? "TBD" },
   ];
   return <WikiArticle title={team.name} game={team.gameName} kind="Teams" sections={external ? sections.filter((section) => section.id !== "uniform") : sections} banner={banner}
-    infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={logo ?? (organization && <BrandLogo organizationId={organization.id} />)} groups={[
+    infobox={<ArticleInfobox title={team.shortName} monogram={team.shortName.slice(0, 1)} image={logo ?? (organization && <BrandLogo organizationId={organization.id} teamId={team.id} />)} groups={[
       { title: "Team Information", rows: facts },
       ...(external ? [] : [{ title: "History", rows: historyFacts }]),
     ]} />}>

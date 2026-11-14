@@ -606,6 +606,7 @@ export function buildCatalog(
     "/wiki/competitions",
     "/wiki/matches",
     "/wiki/transfers",
+    "/wiki/calendar",
     ...gameViews.map((game) => `/wiki/games/${game.slug}`),
     ...organizationViews.map(
       (organization) => `/wiki/organizations/${organization.slug}`,

@@ -4,7 +4,7 @@ Kairoswitter is the in-universe feed of the Kairos organization, teams, players 
 
 - Feed: `/wiki/kairoswitter` - account pages: `/wiki/kairoswitter/accounts/<handle>` - single post: `/wiki/kairoswitter/posts/<slug>`
 - One file per post in `data/kairoswitter/posts/`, named `<id>-<slug>.json`. Nothing else has to be edited: `npm run canon:prepare` (in `website/`) validates the posts and builds the pages.
-- Every published player, staff member, team and the organization has an account, including accounts with no posts. Handles are chosen by hand in `data/kairoswitter/accounts.json` (`"key": "player:<id>"`, `"handle"`): 3-20 characters of a-z, 0-9 and `_`, unique, and they do not have to be the person's name (`rkn_or_nothing`, `soup_crimes`, `x_mithie_x`). The display name is the person's real name (the nickname when the real name is TBD). A new published entity needs a handle there or the build stops. Avatars use `/kairoswitter/avatars/<id>.png` when present, then the player or staff portrait, then an initial.
+- Every published player, staff member, team and the organization has an account, including accounts with no posts. Handles are chosen in `data/kairoswitter/accounts.json` (`"key": "player:<id>"`, `"handle"`): 3-20 letters, digits or `_`, unique ignoring case, shown as written. Real-world people use their well-known handle (`@Aphromoo`, `@Doublelift`, `@tarik`); executives and some staff use NameLastname (`@AdrianVale`, `@EmilyChen`); Kairos Gaming players mix `@KG_Atlas`, plain nicknames (`@Vanta`) and invented ones (`@soup_crimes`); the organization is `@KairosGaming`. The display name is the person's real name (the nickname when it is TBD). A new published entity needs a handle there or the build stops. Avatars use `/kairoswitter/avatars/<id>.png` when present, then the player or staff portrait, then an initial.
 
 ## Post file
 
@@ -55,3 +55,8 @@ Kairoswitter is the in-universe feed of the Kairos organization, teams, players 
 The author explicitly commissioned 50 posts using episodes 79-118, informal everyday details and original images using existing character portraits as references. The 45 new campus-life posts supplement the five original announcement posts. Their incidental jokes, captions and photos are newly authored social vignettes, not quotations from the episodes. Private scrim scores, opponents and tactical details remain excluded. Seventeen posts carry generated images. The profile directory is collapsed by default so it does not displace the timeline.
 
 The build stops with a clear error when a post breaks a rule.
+
+## Tags and layout
+
+- Write `@Handle` in a post's `text` to tag another account. The tag is shown as a link to that account's page and must match an existing handle (ignoring case), otherwise the build stops.
+- Each post shows the author's name and handle on top, the text and image, and the time and date at the bottom.

@@ -39,17 +39,32 @@ describe("Kairoswitter", () => {
     expect(shown.length + catalog.kairoswitter!.mediaPending).toBe(requested.length);
   });
 
-  it("gives every published player, staff member, team and the organization one chosen handle that is not just their name", () => {
+  it("gives every published player, staff member, team and the organization one handle, mixing styles", () => {
     const accounts = catalog.kairoswitter!.accounts;
     const expected = catalog.players.length + catalog.staff.length + catalog.teams.length + catalog.organizations.length;
     expect(accounts).toHaveLength(expected);
-    for (const account of accounts) expect(account.handle).toMatch(/^[a-z0-9_]{3,20}$/);
-    const normalized = (text: string) => text.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
-    for (const account of accounts.filter(entry => entry.type === "player")) {
-      expect(account.handle).not.toBe(normalized(account.displayName));
-      const player = catalog.players.find(entry => entry.id === account.entityId)!;
-      expect(account.handle).not.toBe(normalized(player.nickname));
+    expect(new Set(accounts.map(account => account.handle.toLowerCase())).size).toBe(accounts.length);
+    for (const account of accounts) expect(account.handle).toMatch(/^[A-Za-z0-9_]{3,20}$/);
+    const handleOf = (key: string) => accounts.find(account => account.key === key)!.handle;
+    expect(handleOf("organization:kairos-esports")).toBe("KairosGaming");
+    expect(handleOf("player:caleb-atlas-mercer")).toBe("KG_Atlas");
+    expect(handleOf("staff:zaqueri-aphromoo-black")).toBe("Aphromoo");
+    expect(handleOf("staff:adrian-elias-vale")).toBe("AdrianVale");
+    const players = accounts.filter(account => account.type === "player");
+    expect(players.some(account => account.handle.startsWith("KG_"))).toBe(true);
+    expect(players.some(account => account.handle.includes("_") && !account.handle.startsWith("KG_"))).toBe(true);
+    expect(players.some(account => !account.handle.includes("_"))).toBe(true);
+  });
+
+  it("turns @tags in a post into links to existing accounts and rejects unknown tags", () => {
+    const feed = catalog.kairoswitter!;
+    const tagged = feed.posts.filter(post => post.textParts.some(part => part.handle));
+    expect(tagged.length).toBeGreaterThanOrEqual(6);
+    for (const post of tagged) {
+      expect(post.textParts.map(part => part.text).join("")).toBe(post.text.replace(/@([A-Za-z0-9_]+)/g, (_, handle: string) => `@${feed.accounts.find(account => account.handle.toLowerCase() === handle.toLowerCase())!.handle}`));
+      for (const part of post.textParts.filter(entry => entry.handle)) expect(feed.accounts.some(account => account.handle === part.handle)).toBe(true);
     }
+    expect(() => build({ text: "hello @nobody_here" })).toThrow(/not a Kairoswitter account/);
   });
 
   it("rejects media outside the post image directory and missing image files", () => {
@@ -64,7 +79,7 @@ describe("Kairoswitter", () => {
     expect(feed.posts.length + feed.scheduledCount).toBe(readRawPosts().length);
     expect(feed.posts.map((post) => post.postedAt)).toEqual([...feed.posts.map((post) => post.postedAt)].sort().reverse());
     for (const post of feed.posts) expect(feed.accounts.some((account) => account.key === post.authorKey)).toBe(true);
-    expect(feed.accounts.map((account) => account.handle)).toContain("kairos_hq");
+    expect(feed.accounts.map((account) => account.handle)).toContain("KairosGaming");
     expect(catalog.routes).toContain("/wiki/kairoswitter");
   });
 
@@ -94,5 +109,21 @@ describe("Kairoswitter", () => {
     expect(() => buildKairoswitterCatalog(universe, catalog, [base, base])).toThrow(/duplicate id/);
     expect(() => build({ postedAt: "2027-01-29T09:00" })).toThrow(/on the storyDate/);
     expect(() => build({ timeZone: "" })).toThrow(/timeZone/);
+  });
+
+  it("groups every account by what the holder is, with players split by game", () => {
+    const accounts = catalog.kairoswitter!.accounts;
+    const groupOf = (key: string) => accounts.find(account => account.key === key)!.group;
+    expect(groupOf("organization:kairos-esports")).toBe("organization");
+    expect(groupOf("team:kairos-cs-main")).toBe("organization");
+    expect(groupOf("staff:adrian-elias-vale")).toBe("management");
+    expect(groupOf("staff:lukas-luk-novak")).toBe("coaches");
+    expect(groupOf("staff:zaqueri-aphromoo-black")).toBe("coaches");
+    expect(groupOf("staff:doublelift-kairos-adc-mentor")).toBe("mentors");
+    expect(groupOf("staff:alex-xpecial-chu")).toBe("mentors");
+    expect(groupOf("staff:maya-torres")).toBe("support");
+    expect(groupOf("player:caleb-atlas-mercer")).toBe("cs");
+    expect(groupOf("player:noah-rkn-bennett")).toBe("lol");
+    expect(new Set(accounts.map(account => account.group)).size).toBe(7);
   });
 });

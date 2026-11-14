@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { assetUrl, findBrandLogo, readPublishedBranding } from "../../../../shared/branding";
 
 import type { CanonUniverse } from "@/types/canon";
 import type { KairospediaCatalog } from "@/types/catalog";
@@ -7,8 +8,10 @@ import type {
   KairoswitterAccount,
   KairoswitterAuthorType,
   KairoswitterCatalog,
+  KairoswitterGroup,
   KairoswitterLink,
   KairoswitterPost,
+  KairoswitterTextPart,
   RawKairoswitterPost,
 } from "@/types/kairoswitter";
 import { getCollection } from "@/lib/canon/loader";
@@ -27,7 +30,8 @@ export function readRawPosts(directory = postsDirectory): RawKairoswitterPost[] 
 }
 
 export const accountsFile = path.join(repositoryRoot, "data", "kairoswitter", "accounts.json");
-const handlePattern = /^[a-z0-9_]{3,20}$/;
+const handlePattern = /^[A-Za-z0-9_]{3,20}$/;
+const mentionPattern = /(?<![A-Za-z0-9_])@([A-Za-z0-9_]{3,20})/g;
 
 /** `key` is `<authorType>:<entityId>`; the handle is chosen by the author and does not have to be the person's name. */
 export function readAccountHandles(file = accountsFile): Map<string, string> {
@@ -35,33 +39,45 @@ export function readAccountHandles(file = accountsFile): Map<string, string> {
   const handles = new Map<string, string>();
   const used = new Set<string>();
   for (const entry of raw.accounts) {
-    if (!handlePattern.test(entry.handle)) throw new Error(`Kairoswitter account ${entry.key}: handle "${entry.handle}" must be 3-20 characters of a-z, 0-9 or _`);
-    if (used.has(entry.handle)) throw new Error(`Duplicate Kairoswitter handle: ${entry.handle}`);
+    if (!handlePattern.test(entry.handle)) throw new Error(`Kairoswitter account ${entry.key}: handle "${entry.handle}" must be 3-20 characters of letters, digits or _`);
+    if (used.has(entry.handle.toLowerCase())) throw new Error(`Duplicate Kairoswitter handle: ${entry.handle}`);
     if (handles.has(entry.key)) throw new Error(`Kairoswitter account listed twice: ${entry.key}`);
-    used.add(entry.handle);
+    used.add(entry.handle.toLowerCase());
     handles.set(entry.key, entry.handle);
   }
   return handles;
 }
 
-interface Author { key: string; handle: string; displayName: string; href: string; organizationId: string | null; avatarSrc?: string }
+interface Author { key: string; handle: string; displayName: string; href: string; organizationId: string | null; avatarSrc?: string; group: KairoswitterGroup }
+
+const staffGroup = (role: string): KairoswitterGroup => {
+  const text = role.toLowerCase();
+  if (text.includes("mentor")) return "mentors";
+  if (text.includes("coach")) return "coaches";
+  if (text.includes("founder") || text.includes("owner") || text.includes("executive") || text.includes("manager")) return "management";
+  return "support";
+};
 
 const publicFile = (src: string) => fs.existsSync(path.join(repositoryRoot, "website", "public", src));
 const firstExisting = (...sources: string[]) => sources.find(publicFile);
 
 function authorLookup(catalog: KairospediaCatalog, handles: Map<string, string>): Map<string, Author> {
   const authors = new Map<string, Author>();
+  const branding = readPublishedBranding();
   const add = (key: string, author: Omit<Author, "key" | "handle">) => {
     const handle = handles.get(key);
     if (!handle) throw new Error(`Kairoswitter: ${key} has no handle in data/kairoswitter/accounts.json`);
     authors.set(key, { key, handle, ...author });
   };
-  for (const org of catalog.organizations) add(`organization:${org.id}`, { displayName: org.name, href: `/wiki/organizations/${org.slug}`, organizationId: org.id });
-  for (const team of catalog.teams) add(`team:${team.id}`, { displayName: team.name, href: `/wiki/teams/${team.slug}`, organizationId: team.organizationId });
-  for (const player of catalog.players) add(`player:${player.id}`, { displayName: player.realName, href: `/wiki/players/${player.slug}`, organizationId: null, avatarSrc: firstExisting(`/kairoswitter/avatars/${player.id}.png`, `/portraits/${player.id}.png`) });
+  for (const org of catalog.organizations) add(`organization:${org.id}`, { group: "organization", displayName: org.name, href: `/wiki/organizations/${org.slug}`, organizationId: org.id });
+  for (const team of catalog.teams) {
+    const logo = findBrandLogo(branding, team.organizationId, team.id);
+    add(`team:${team.id}`, { group: "organization", displayName: team.name, href: `/wiki/teams/${team.slug}`, organizationId: team.organizationId, avatarSrc: logo ? assetUrl(logo) : undefined });
+  }
+  for (const player of catalog.players) add(`player:${player.id}`, { group: player.gameName.toLowerCase().includes("counter") ? "cs" : "lol", displayName: player.realName, href: `/wiki/players/${player.slug}`, organizationId: null, avatarSrc: firstExisting(`/kairoswitter/avatars/${player.id}-v3.png`, `/kairoswitter/avatars/${player.id}-v2.png`, `/kairoswitter/avatars/${player.id}.png`, `/portraits/${player.id}.png`) });
   for (const member of catalog.staff) {
     const named = member.realName && member.realName !== "TBD" ? member.realName : member.nickname ?? member.displayName;
-    add(`staff:${member.id}`, { displayName: named, href: `/wiki/staff/${member.slug}`, organizationId: null, avatarSrc: firstExisting(`/kairoswitter/avatars/${member.id}.png`, `/staff-portraits/${member.id}.png`) });
+    add(`staff:${member.id}`, { group: staffGroup(member.role), displayName: named, href: `/wiki/staff/${member.slug}`, organizationId: null, avatarSrc: firstExisting(`/kairoswitter/avatars/${member.id}.png`, `/staff-portraits/${member.id}.png`) });
   }
   for (const key of handles.keys()) if (!authors.has(key)) throw new Error(`Kairoswitter: ${key} in accounts.json is not a published entity`);
   return authors;
@@ -87,8 +103,8 @@ export function buildKairoswitterCatalog(universe: CanonUniverse, catalog: Kairo
   let mediaPending = 0;
   for (const author of authors.values()) {
     const [type, entityId] = author.key.split(':');
-    if (handles.has(author.handle)) throw new Error(`Duplicate Kairoswitter handle: ${author.handle}`);
-    handles.set(author.handle, author.key);
+    if (handles.has(author.handle.toLowerCase())) throw new Error(`Duplicate Kairoswitter handle: ${author.handle}`);
+    handles.set(author.handle.toLowerCase(), author.key);
     accounts.set(author.key, { ...author, type: type as KairoswitterAuthorType, entityId: entityId!, postCount: 0 });
   }
 
@@ -133,13 +149,24 @@ export function buildKairoswitterCatalog(universe: CanonUniverse, catalog: Kairo
 
     if (post.storyDate > narrativeDate) { scheduledCount += 1; continue; }
 
-    const existingHandle = handles.get(author!.handle);
+    const existingHandle = handles.get(author!.handle.toLowerCase());
     if (existingHandle && existingHandle !== author!.key) fail(`handle @${author!.handle} is used by two accounts`);
-    handles.set(author!.handle, author!.key);
-    const account = accounts.get(author!.key) ?? { key: author!.key, handle: author!.handle, displayName: author!.displayName, type: post.authorType as KairoswitterAuthorType, entityId: post.authorId, href: author!.href, organizationId: author!.organizationId, postCount: 0 };
+    handles.set(author!.handle.toLowerCase(), author!.key);
+    const account = accounts.get(author!.key) ?? { key: author!.key, handle: author!.handle, displayName: author!.displayName, type: post.authorType as KairoswitterAuthorType, entityId: post.authorId, href: author!.href, organizationId: author!.organizationId, postCount: 0, group: author!.group, avatarSrc: author!.avatarSrc };
     account.postCount += 1;
     accounts.set(author!.key, account);
-    posts.push({ id: post.id, slug: post.slug, text: post.text, postedAt: post.postedAt, timeZone: post.timeZone, storyDate: post.storyDate, authorKey: author!.key, episodeLabels, related, pinned: post.pinned, media: post.media });
+    const textParts: KairoswitterTextPart[] = [];
+    let cursor = 0;
+    for (const match of post.text.matchAll(mentionPattern)) {
+      const target = handles.get(match[1]!.toLowerCase());
+      if (!target) fail(`mentions @${match[1]}, which is not a Kairoswitter account`);
+      const mentioned = accounts.get(target!)!;
+      if (match.index! > cursor) textParts.push({ text: post.text.slice(cursor, match.index) });
+      textParts.push({ text: `@${mentioned.handle}`, handle: mentioned.handle });
+      cursor = match.index! + match[0].length;
+    }
+    if (cursor < post.text.length) textParts.push({ text: post.text.slice(cursor) });
+    posts.push({ id: post.id, slug: post.slug, text: post.text, textParts, postedAt: post.postedAt, timeZone: post.timeZone, storyDate: post.storyDate, authorKey: author!.key, episodeLabels, related, pinned: post.pinned, media: post.media });
   }
 
   posts.sort((a, b) => b.postedAt.localeCompare(a.postedAt) || a.id.localeCompare(b.id));

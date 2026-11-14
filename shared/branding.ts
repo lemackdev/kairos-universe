@@ -78,7 +78,8 @@ export function filterBranding(catalog: BrandingCatalog, teamIds: string[]): Bra
     .map(u => ({ ...u, teamIds: u.teamIds.filter(id => teamIds.includes(id)) }));
   const assetIds = new Set(uniforms.flatMap(u => [u.frontAsset, u.backAsset]));
   const organizations = new Set(uniforms.flatMap(u => [u.organizationId, u.institutionalPartner.organizationId]));
-  const assets = catalog.assets.filter(a => assetIds.has(a.id) || (a.category === "logo" && organizations.has(a.organizationId)))
+  const assets = catalog.assets.filter(a => assetIds.has(a.id) || (a.category === "logo" && organizations.has(a.organizationId)
+    && (a.teamIds.length === 0 || a.teamIds.some(id => teamIds.includes(id)))))
     .map(a => ({ ...a, teamIds: a.teamIds.filter(id => teamIds.includes(id)) }));
   return { uniforms, assets };
 }
@@ -88,6 +89,12 @@ export function readPublishedBranding(appRoot = process.cwd()): BrandingCatalog 
 }
 
 export function assetUrl(asset: VisualAsset): string { return `/branding/${asset.id}.png`; }
+
+export function findBrandLogo(catalog: BrandingCatalog, organizationId: string, teamId?: string): VisualAsset | undefined {
+  const logos = catalog.assets.filter(asset => asset.category === "logo" && asset.organizationId === organizationId);
+  return (teamId ? logos.find(asset => asset.teamIds.includes(teamId)) : undefined)
+    ?? logos.find(asset => asset.teamIds.length === 0);
+}
 
 export interface PlayerPortraitAsset {
   playerId: string; file: string; width: number; height: number; sha256: string;

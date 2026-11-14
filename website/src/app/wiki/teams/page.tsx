@@ -54,7 +54,7 @@ export default function TeamsPage() {
                 title={team.name}
                 description={team.competitiveState}
                 meta={`${team.roster.length} active players`}
-                image={<BrandLogo organizationId={team.organizationId} width={36} />}
+                image={<BrandLogo organizationId={team.organizationId} teamId={team.id} width={36} />}
               />
             ))}
           </div>

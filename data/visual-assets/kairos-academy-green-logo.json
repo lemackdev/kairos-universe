@@ -1,0 +1,27 @@
+{
+  "id": "kairos-academy-green-logo",
+  "slug": "kairos-academy-green-logo",
+  "path": "assets/branding/kairos/kairos-academy-green-logo.png",
+  "mimeType": "image/png",
+  "organizationId": "kairos-esports",
+  "season": null,
+  "category": "logo",
+  "orientation": "logo",
+  "color": "green",
+  "canonStatus": "confirmed",
+  "teamIds": [
+    "kairos-counter-strike-academy"
+  ],
+  "source": "user-approved-generated-asset",
+  "importDate": "2026-11-13",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "0ec28aeb503c6b1537d2ced656cb91c50ec8e7839efee8777d86112dbdd719ea",
+  "referencePath": "assets/branding/kairos/kairos-academy-green-logo.png",
+  "referenceSha256": "0ec28aeb503c6b1537d2ced656cb91c50ec8e7839efee8777d86112dbdd719ea",
+  "processing": "academy-variant-from-original",
+  "garmentHeight": null,
+  "notes": [
+    "Author-requested academy identity retaining the Kairos gold helmet and wordmark, with an academy-colored rim and label."
+  ]
+}

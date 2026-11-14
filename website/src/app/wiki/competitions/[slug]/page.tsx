@@ -75,7 +75,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
     const tier2Slug = tier2Team ? tier2LogoOrgSlug(catalog.externalScene, tier2Team) : null;
     const csTeam = csExternalTeams(catalog.worldState2027).find((entry) => entry.teamId === team.teamId);
     const href = canonTeam ? `/wiki/teams/${canonTeam.slug}` : externalTeam ? `/wiki/teams/${externalTeam.slug}` : csTeam ? `/wiki/teams/${csTeam.slug}` : team.teamId.startsWith("tier2-") ? `/wiki/teams/${team.teamId}` : null;
-    const logo = canonTeam ? <BrandLogo organizationId={canonTeam.organizationId} width={56} />
+    const logo = canonTeam ? <BrandLogo organizationId={canonTeam.organizationId} teamId={canonTeam.id} width={56} />
       : externalTeam ? (() => {
         const org = catalog.externalScene?.organizations.find((entry) => entry.id === externalTeam.organizationId);
         return org ? orgLogo(org.slug, team.name) : undefined;

@@ -17,7 +17,7 @@ export default function CsWorldRankingPage() {
   const view = (teamId: string) => {
     const kairos = catalog.teams.find((entry) => entry.id === teamId);
     if (kairos) {
-      return { href: `/wiki/teams/${kairos.slug}`, logo: <BrandLogo organizationId={kairos.organizationId} width={40} />, nicknames: kairos.roster.map((entry) => entry.nickname) };
+      return { href: `/wiki/teams/${kairos.slug}`, logo: <BrandLogo organizationId={kairos.organizationId} teamId={kairos.id} width={40} />, nicknames: kairos.roster.map((entry) => entry.nickname) };
     }
     const team = teams.find((entry) => entry.teamId === teamId);
     const slug = team && worldState ? csOrganizationSlugOf(worldState, team) : null;

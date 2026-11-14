@@ -1,14 +1,14 @@
 {
   "continuityId": "kairos-universe",
-  "note": "One handle per account. Handles are lower case letters, digits and underscores (3-20 characters), unique, and do not have to be the person's name. Display names come from the entity.",
+  "note": "One handle per account (the @ name). Letters, digits and underscores, 3-20 characters, unique ignoring case. Real people use their well-known handle; others are chosen and do not have to be the person's name. Display names come from the entity.",
   "accounts": [
     {
       "key": "player:noah-rkn-bennett",
-      "handle": "rkn_or_nothing"
+      "handle": "KG_rkN"
     },
     {
       "key": "player:ethan-vanta-walker",
-      "handle": "vanta_snooze"
+      "handle": "Vanta"
     },
     {
       "key": "player:mason-404-brooks",
@@ -16,31 +16,31 @@
     },
     {
       "key": "player:liam-aster-oconnor",
-      "handle": "oconnor_on_bot"
+      "handle": "KG_Aster"
     },
     {
       "key": "player:daniel-moss-reyes",
-      "handle": "moss_grows_slowly"
+      "handle": "KG_Moss"
     },
     {
       "key": "player:caleb-atlas-mercer",
-      "handle": "atlas_holds_it"
+      "handle": "KG_Atlas"
     },
     {
       "key": "player:owen-glacier-fletcher",
-      "handle": "slow_glacier"
+      "handle": "KG_Glacier"
     },
     {
       "key": "player:emiliano-moteconhuesillo-navarro",
-      "handle": "mote_con_huesillo"
+      "handle": "KG_MoteCon"
     },
     {
       "key": "player:cameron-mold-ruiz",
-      "handle": "mold_on_bread"
+      "handle": "Mold"
     },
     {
       "key": "player:vincente-flacogomez-galan",
-      "handle": "flacogomez_vg"
+      "handle": "KG_FLACOGOMEZ"
     },
     {
       "key": "player:evan-soupcrime-nakamura",
@@ -48,7 +48,7 @@
     },
     {
       "key": "player:milo-velcrodog-radovic",
-      "handle": "velcrodawg_woof"
+      "handle": "velcroDAWG"
     },
     {
       "key": "player:nolan-dentalplan-hart",
@@ -76,7 +76,7 @@
     },
     {
       "key": "player:tyler-murmur-grant",
-      "handle": "murmur_murmur"
+      "handle": "Murmur"
     },
     {
       "key": "player:lucas-grit-foster",
@@ -88,11 +88,11 @@
     },
     {
       "key": "player:cole-june-mercer",
-      "handle": "june_not_july"
+      "handle": "June"
     },
     {
       "key": "player:isaac-pebble-young",
-      "handle": "pebble_in_shoe"
+      "handle": "Pebble"
     },
     {
       "key": "player:nathan-0bit-hall",
@@ -104,19 +104,19 @@
     },
     {
       "key": "staff:adrian-elias-vale",
-      "handle": "vale_of_kairos"
+      "handle": "AdrianVale"
     },
     {
       "key": "staff:zaqueri-aphromoo-black",
-      "handle": "aphro_says_ward"
+      "handle": "Aphromoo"
     },
     {
       "key": "staff:thinkcard-kairos-strategic-coach",
-      "handle": "think_card_tom"
+      "handle": "Thinkcard"
     },
     {
       "key": "staff:emily-chen",
-      "handle": "emily_does_math"
+      "handle": "EmilyChen"
     },
     {
       "key": "staff:lukas-luk-novak",
@@ -124,43 +124,43 @@
     },
     {
       "key": "staff:claire-kairos-executive",
-      "handle": "whitcomb_signs"
+      "handle": "claire_whitcomb"
     },
     {
       "key": "staff:ethan-kairos-executive",
-      "handle": "ethan_calder_inc"
+      "handle": "calder_ethan"
     },
     {
       "key": "staff:sofia-kairos-executive",
-      "handle": "alvarez_says_yes"
+      "handle": "SofiaAlvarez"
     },
     {
       "key": "staff:marcus-kairos-general-manager",
-      "handle": "bell_rings_twice"
+      "handle": "MarcusBell"
     },
     {
       "key": "staff:darshan-kairos-top-mentor",
-      "handle": "darshan_top_diff"
+      "handle": "Darshan"
     },
     {
       "key": "staff:doublelift-kairos-adc-mentor",
-      "handle": "lift_double"
+      "handle": "Doublelift"
     },
     {
       "key": "staff:pobelter-kairos-mid-mentor",
-      "handle": "pobe_lter"
+      "handle": "Pobelter"
     },
     {
       "key": "staff:goldenglue-kairos-mid-mentor",
-      "handle": "golden_glue_gg"
+      "handle": "goldenglue"
     },
     {
       "key": "staff:wildturtle-kairos-adc-mentor",
-      "handle": "turtle_wild"
+      "handle": "WildTurtle"
     },
     {
       "key": "staff:xmithie-kairos-jungle-mentor",
-      "handle": "x_mithie_x"
+      "handle": "Xmithie"
     },
     {
       "key": "staff:ethan-trace-miller",
@@ -168,11 +168,11 @@
     },
     {
       "key": "staff:jake-stewie2k-yip",
-      "handle": "stewie2k_wanders"
+      "handle": "stewie2k"
     },
     {
       "key": "staff:hai-du-lam",
-      "handle": "hai_from_blue"
+      "handle": "Hai_LoL"
     },
     {
       "key": "staff:miles-sable-warren",
@@ -180,7 +180,7 @@
     },
     {
       "key": "staff:maya-torres",
-      "handle": "maya_is_listening"
+      "handle": "MayaTorres"
     },
     {
       "key": "staff:evelyn-park",
@@ -188,35 +188,35 @@
     },
     {
       "key": "staff:tarik-kairos-cs-academy-head-coach",
-      "handle": "tarik_greenroom"
+      "handle": "tarik"
     },
     {
       "key": "staff:alex-xpecial-chu",
-      "handle": "xpecial_oop"
+      "handle": "Xpecial"
     },
     {
       "key": "team:kairos-lol-main",
-      "handle": "kairos_gaming_lol"
+      "handle": "KairosLoL"
     },
     {
       "key": "team:kairos-cs-main",
-      "handle": "kairos_gaming_cs"
+      "handle": "KairosCS"
     },
     {
       "key": "team:kairos-cs-academy",
-      "handle": "kairos_green_room"
+      "handle": "KairosAcademyGreen"
     },
     {
       "key": "team:kairos-lol-academy-blue",
-      "handle": "kairos_blue_hour"
+      "handle": "KairosAcademyBlue"
     },
     {
       "key": "team:kairos-lol-academy-white",
-      "handle": "kairos_white_noise"
+      "handle": "KairosAcademyWhite"
     },
     {
       "key": "organization:kairos-esports",
-      "handle": "kairos_hq"
+      "handle": "KairosGaming"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "method": "Built-in image generation",
+  "reference": "assets/branding/kairos/kairos-esports-logo.png",
+  "logos": [
+    {
+      "output": "assets/branding/kairos/kairos-academy-green-logo.png",
+      "prompt": "Create a subtle academy variant of this supplied Kairos logo. Preserve the EXACT recognizable gold Spartan helmet silhouette, circular medallion, metallic gold material and large KAIROS serif wordmark. Keep the overall proportions and square arrangement of the supplied logo. Change ONLY these branding details: add a narrow but clearly visible deep emerald green enamel accent around the circular medallion rim; replace the small bottom text ESPORTS with the exact text \"ACADEMY GREEN\" in compact beautifully spaced readable uppercase type, in deep emerald green. Retain the small flanking gold horizontal rules. Gold remains the dominant material. The helmet is still gold, do not recolor the entire logo. No new symbols, shields, stars, wings, backdrop or mockup. Clean cutout on fully transparent background, no shadow haze outside the emblem and letters. One centered finished logo only, high resolution."
+    },
+    {
+      "output": "assets/branding/kairos/kairos-academy-blue-logo.png",
+      "prompt": "Create a subtle academy variant of this supplied Kairos logo. Preserve the EXACT recognizable gold Spartan helmet silhouette, circular medallion, metallic gold material and large KAIROS serif wordmark. Keep the overall proportions and square arrangement of the supplied logo. Change ONLY these branding details: add a narrow but clearly visible rich royal blue enamel accent around the circular medallion rim; replace the small bottom text ESPORTS with the exact text \"ACADEMY BLUE\" in compact beautifully spaced readable uppercase type, in rich royal blue. Retain the small flanking gold horizontal rules. Gold remains the dominant material. The helmet is still gold, do not recolor the entire logo. No new symbols, shields, stars, wings, backdrop or mockup. Clean cutout on fully transparent background, no shadow haze outside the emblem and letters. One centered finished logo only, high resolution."
+    },
+    {
+      "output": "assets/branding/kairos/kairos-academy-white-logo.png",
+      "prompt": "Create a subtle academy variant of this supplied Kairos logo. Preserve the EXACT recognizable gold Spartan helmet silhouette, circular medallion, metallic gold material and large KAIROS serif wordmark. Keep the overall proportions and square arrangement of the supplied logo. Change ONLY these branding details: add a narrow but clearly visible pearl silver-white with a fine graphite outline for legibility enamel accent around the circular medallion rim; replace the small bottom text ESPORTS with the exact text \"ACADEMY WHITE\" in compact beautifully spaced readable uppercase type, in pearl silver-white with a fine graphite outline for legibility. Retain the small flanking gold horizontal rules. Gold remains the dominant material. The helmet is still gold, do not recolor the entire logo. No new symbols, shields, stars, wings, backdrop or mockup. Clean cutout on fully transparent background, no shadow haze outside the emblem and letters. One centered finished logo only, high resolution."
+    }
+  ]
+}

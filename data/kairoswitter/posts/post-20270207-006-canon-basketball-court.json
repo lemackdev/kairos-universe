@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-006",
+  "slug": "canon-basketball-court",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "nathan-0bit-hall",
+  "text": "that midcourt shot is going to live in my head rent free for a while",
+  "postedAt": "2027-01-31T15:42",
+  "timeZone": "PT",
+  "storyDate": "2027-01-31",
+  "episodeIds": [
+    "episode-120"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-basketball-court.png",
+    "alt": "Illustrative candid photo related to episode 120, basketball court"
+  }
+}

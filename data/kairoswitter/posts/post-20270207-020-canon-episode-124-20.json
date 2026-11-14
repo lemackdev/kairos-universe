@@ -1,0 +1,26 @@
+{
+  "id": "post-20270207-020",
+  "slug": "canon-episode-124-20",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "owen-glacier-fletcher",
+  "text": "I left my hoodie at the hospital and only noticed when I got back. Grandpa says this is proof I need a checklist.",
+  "postedAt": "2027-02-03T17:20",
+  "timeZone": "PT",
+  "storyDate": "2027-02-03",
+  "episodeIds": [
+    "episode-124"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ]
+}

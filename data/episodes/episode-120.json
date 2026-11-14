@@ -1,0 +1,129 @@
+{
+  "id": "episode-120",
+  "slug": "episode-120",
+  "episodeNumber": 120,
+  "title": "Um Dia Fora do Jogo",
+  "historicalTitle": "Um Dia Fora do Jogo",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-31",
+  "datePrecision": "exact",
+  "publicationOrder": 120,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "nathan-0bit-hall",
+  "divisions": [
+    "League of Legends",
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "arthur-fletcher",
+    "lukas-luk-novak",
+    "tarik-kairos-cs-academy-head-coach",
+    "zaqueri-aphromoo-black",
+    "miles-sable-warren",
+    "darshan-kairos-top-mentor",
+    "xmithie-kairos-jungle-mentor",
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Sunday 2027-01-31, a full day off for all twenty-five players, coaches, mentors, support staff and administration: the LA Galaxy and San Diego FC friendly at Dignity Health Sports Park (2-2) and the Lakers against the Phoenix Suns at Crypto.com Arena (118-116). In a half-time challenge Nathan Hall (Academy White) makes a mid-court shot that secures a USD 20,000 donation to a Los Angeles community technology programme for young people.",
+  "keyEvents": [
+    "8:46 — Adrian announces a day without training, review or scrim talk; players may sit with anyone, not only their own team.",
+    "13:00 — LA Galaxy 2-2 San Diego FC; Arthur Fletcher attends the first half with Owen and receives a Galaxy cap from Adrian; Nathan appears on the stadium screen.",
+    "18:07 — The delegation watches Los Angeles Lakers vs Phoenix Suns from a reserved area; the arena presents the delegation and Adrian Vale as founder, noting Kairos will play the LCS and professional Counter-Strike in 2027.",
+    "20:29 — The Lakers' half-time challenge picks Nathan; after three stages he attempts a mid-court shot, which goes in, securing a USD 20,000 donation to a community technology access programme (not a prize to Nathan).",
+    "21:16 — The Lakers win 118-116; the footage of the shot circulates on the arena's social channels; Adrian asks that Nathan be consulted before any republication and that it not become a marketing campaign without authorization.",
+    "23:46 — Adrian tells Emily he wants more such days; the CCT starts in one week and the LCS in fifteen days."
+  ],
+  "consequences": [
+    "Nathan Hall's shot makes him briefly the centre of attention without any link to a League match; Kairos will ask his consent before any use of the video."
+  ],
+  "canonIntroduced": [
+    "A USD 20,000 donation to a Los Angeles community technology access programme results from Nathan Hall's mid-court shot at the Lakers game of 2027-01-31.",
+    "The whole organisation attends the LA Galaxy and Lakers games on 2027-01-31."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-119"
+  ],
+  "continuityNotes": [
+    "Players are not told to avoid the shot's popularity; a later episode records a community invitation from the programme.",
+    "Episode 124 and later refer to the trip."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "LA Galaxy, San Diego FC, Los Angeles Lakers, Phoenix Suns and the two venues are real-world references; the results are fictional-canon for the Kairos Universe."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_120.txt",
+      "locator": "Episódio 120 — Um Dia Fora do Jogo",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "LA Galaxy vs San Diego FC ended 2-2 (Galaxy 1-0 at 22', San Diego equalised before half-time and led 2-1 at 63', Galaxy tied from a corner).",
+    "Lakers 118, Suns 116 after 116-116 with sixteen seconds left; Nathan Hall made the final stage shot.",
+    "Arthur Fletcher attended only the football and returned to the campus with organised transport.",
+    "Nathan Hall is a member of Academy White and is a retro-console repair hobbyist who works at the Maker Lab."
+  ],
+  "unconfirmedDetails": [
+    "Name of the community programme and of the sponsoring company, and how the donation was delivered."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

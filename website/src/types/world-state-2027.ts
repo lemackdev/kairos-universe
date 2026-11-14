@@ -316,6 +316,10 @@ export interface GroupMatch2027 {
   mapsB: number | null;
   roundsA: number | null;
   roundsB: number | null;
+  /** Date of the series, when an episode states it. */
+  date?: string | null;
+  /** Map by map result in the orientation teamA : teamB; a null score means the episode names the winner without the score. */
+  maps?: Array<{ map: string; scoreA: number | null; scoreB: number | null }>;
 }
 
 export interface EventInvites2027 {
@@ -325,7 +329,7 @@ export interface EventInvites2027 {
   sourceIds: string[];
   competitionId: string;
   competitionSlug: string;
-  status: "invited";
+  status: "invited" | "in-progress";
   expectedTeamCount: number;
   inviteDate: string | null;
   teams: Array<{ teamId: string; name: string }>;

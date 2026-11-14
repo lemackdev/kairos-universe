@@ -6,7 +6,7 @@ import { PostCard } from "@/components/kairoswitter/PostCard";
 import { getCatalog } from "@/lib/canon/server";
 import { competitionLogo } from "@/lib/competitionLogos";
 import { externalLogoDarkPath, externalLogoPath } from "@/lib/externalLogos";
-import { csExternalTeams, csOrganizationSlugOf, csRankingRows } from "@/lib/external/worldState2027";
+import { csExternalTeams, csOrganizationSlugOf, csRankingRows, groupStageFor } from "@/lib/external/worldState2027";
 import styles from "./home.module.css";
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -52,6 +52,25 @@ export default function WikiHomePage() {
   const kairosRows = rankingRows.filter((row) => row.teamId.startsWith("kairos-") && row.position > 10).map(rowFor);
   const ranking = [...topTen, ...kairosRows];
 
+  // Events under way today, with the group results narrated so far (newest first).
+  const liveEvents = catalog.competitions
+    .filter((competition) => isIso(competition.startDate) && isIso(competition.endDate) && competition.startDate <= today && today <= competition.endDate)
+    .sort((a, b) => a.startDate!.localeCompare(b.startDate!));
+  const teamView = (teamId: string) => {
+    const team = csTeams.find((entry) => entry.teamId === teamId);
+    const slug = team && worldState ? csOrganizationSlugOf(worldState, team) : null;
+    return { name: team?.name ?? teamId, href: team ? `/wiki/teams/${team.slug}` : null, logo: slug ? externalLogoPath(slug) : null, logoDark: slug ? externalLogoDarkPath(slug) : null };
+  };
+  const liveResults = (slug: string) => {
+    const stage = groupStageFor(worldState, slug);
+    if (!stage) return [];
+    return stage.groups
+      .flatMap((group) => (group.matches ?? []).filter((match) => match.mapsA !== null && match.mapsB !== null).map((match) => ({ group: group.name.replace("Group ", ""), match })))
+      .sort((x, y) => (y.match.date ?? "").localeCompare(x.match.date ?? "") || x.group.localeCompare(y.group))
+      .slice(0, 6);
+  };
+  const logoOf = (view: ReturnType<typeof teamView>) => view.logo ? <picture>{view.logoDark && <source media="(prefers-color-scheme: dark)" srcSet={view.logoDark} />}<img src={view.logo} alt="" /></picture> : <span className={styles.mono}>{view.name.slice(0, 2)}</span>;
+
   const feed = catalog.kairoswitter;
   const accounts = new Map((feed?.accounts ?? []).map((account) => [account.key, account]));
   const latest = (feed?.posts ?? []).slice(0, 4);
@@ -79,6 +98,28 @@ export default function WikiHomePage() {
         </Link>}
       </section>
 
+      {liveEvents.map((competition) => {
+        const results = liveResults(competition.slug);
+        return <section key={competition.id} className={styles.section} aria-labelledby={`live-${competition.slug}`}>
+          <div className={styles.sectionHead}><h2 id={`live-${competition.slug}`}><span className={styles.liveDot} aria-hidden="true" />{competition.name}</h2><Link href={`/wiki/competitions/${competition.slug}`}>Groups and results <span aria-hidden="true">&rarr;</span></Link></div>
+          <p className={styles.liveMeta}>Under way &middot; {dateRange(competition.startDate, competition.endDate)}{competition.location ? ` · ${competition.location}` : ""}{competition.prizePool ? ` · ${competition.prizePool}` : ""}</p>
+          {results.length > 0 && <ul className={styles.resultList}>
+            {results.map(({ group, match }) => {
+              const a = teamView(match.teamAId);
+              const b = teamView(match.teamBId);
+              const aWon = match.mapsA! > match.mapsB!;
+              return <li key={`${match.teamAId}-${match.teamBId}`}>
+                <span className={styles.resultGroup}>{group}</span>
+                <span className={`${styles.resultSide} ${aWon ? styles.resultWon : ""}`}><span className={styles.resultLogo}>{logoOf(a)}</span>{a.href ? <Link href={a.href}>{a.name}</Link> : a.name}</span>
+                <strong className={styles.resultScore}>{match.mapsA} : {match.mapsB}</strong>
+                <span className={`${styles.resultSide} ${styles.resultRight} ${aWon ? "" : styles.resultWon}`}>{b.href ? <Link href={b.href}>{b.name}</Link> : b.name}<span className={styles.resultLogo}>{logoOf(b)}</span></span>
+                <span className={styles.resultDate}>{shortDate(match.date ?? null)}</span>
+              </li>;
+            })}
+          </ul>}
+        </section>;
+      })}
+
       {after.length > 0 && <section className={styles.section} aria-labelledby="then">
         <div className={styles.sectionHead}><h2 id="then">Then</h2><Link href="/wiki/calendar">Full calendar <span aria-hidden="true">&rarr;</span></Link></div>
         <div className={styles.eventGrid}>
@@ -103,7 +144,7 @@ export default function WikiHomePage() {
               {row.isKairos && !ranking[index - 1]?.isKairos && <li className={styles.rankGap} aria-hidden="true">{"⋯"}</li>}
               <li data-top={row.position <= 3 ? "true" : undefined} data-kairos={row.isKairos ? "true" : undefined}>
                 <span className={styles.rankNo}>{row.position}</span>
-                <span className={styles.rankLogo}>{row.organizationId ? <BrandLogo organizationId={row.organizationId} width={28} /> : row.logo ? <picture>{row.logoDark && <source media="(prefers-color-scheme: dark)" srcSet={row.logoDark} />}<img src={row.logo} alt="" /></picture> : <span className={styles.mono}>{row.name.slice(0, 2)}</span>}</span>
+                <span className={styles.rankLogo}>{row.organizationId ? <BrandLogo organizationId={row.organizationId} teamId={row.teamId} width={28} /> : row.logo ? <picture>{row.logoDark && <source media="(prefers-color-scheme: dark)" srcSet={row.logoDark} />}<img src={row.logo} alt="" /></picture> : <span className={styles.mono}>{row.name.slice(0, 2)}</span>}</span>
                 {row.href ? <Link href={row.href}>{row.name}</Link> : <span>{row.name}</span>}
               </li>
             </Fragment>)}

@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-026",
+  "slug": "canon-workshop-kit",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "marcus-kairos-general-manager",
+  "text": "Workshop invitation came in for Nathan, Jacob and Zayn. No broadcast, no stage show, just a technology workshop with the community.",
+  "postedAt": "2027-02-04T11:02",
+  "timeZone": "PT",
+  "storyDate": "2027-02-04",
+  "episodeIds": [
+    "episode-125"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-workshop-kit.png",
+    "alt": "Illustrative candid photo related to episode 125, workshop kit"
+  }
+}

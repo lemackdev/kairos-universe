@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-002",
+  "slug": "canon-academy-room",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "tarik-kairos-cs-academy-head-coach",
+  "text": "First full day with Green. Seven maps on the board, and everyone had an opinion about Train. Good start.",
+  "postedAt": "2027-01-30T11:14",
+  "timeZone": "PT",
+  "storyDate": "2027-01-30",
+  "episodeIds": [
+    "episode-119"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-academy-room.png",
+    "alt": "Illustrative candid photo related to episode 119, academy room"
+  }
+}

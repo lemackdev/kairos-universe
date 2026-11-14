@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-029",
+  "slug": "canon-ge-interview",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "vincente-flacogomez-galan",
+  "text": "Hoje saiu a entrevista no ge. Falei da camisa, da minha família e de como esse apelido apareceu. Obrigado pelo carinho, Brasil.",
+  "postedAt": "2027-02-05T14:23",
+  "timeZone": "PT",
+  "storyDate": "2027-02-05",
+  "episodeIds": [
+    "episode-126"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-ge-interview.png",
+    "alt": "Illustrative candid photo related to episode 126, ge interview"
+  }
+}

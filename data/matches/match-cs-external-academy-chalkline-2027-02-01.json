@@ -1,0 +1,88 @@
+{
+  "id": "match-cs-external-academy-chalkline-2027-02-01",
+  "slug": "match-cs-external-academy-chalkline-2027-02-01",
+  "game": "Counter-Strike",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-academy",
+    "opponent-chalkline"
+  ],
+  "scheduledDate": "2027-02-01",
+  "date": "2027-02-01",
+  "datePrecision": "exact",
+  "teamAId": "kairos-cs-academy",
+  "teamBId": "opponent-chalkline",
+  "bestOf": 3,
+  "teamAScore": 2,
+  "teamBScore": 1,
+  "winnerTeamId": "kairos-cs-academy",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-122"
+  ],
+  "relatedPlayerIds": [
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_122.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Chalkline",
+    "opponentLeague": "none (independent players)",
+    "opponentRosterStatus": "independent five that train together and play small online events; not affiliated with an organisation",
+    "games": [
+      {
+        "number": 1,
+        "map": "Inferno",
+        "teamRounds": 13,
+        "opponentRounds": 10,
+        "roundsPlayed": 23,
+        "winnerTeamId": "kairos-cs-academy",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon. No player statistics are established."
+      },
+      {
+        "number": 2,
+        "map": "Cache",
+        "teamRounds": 9,
+        "opponentRounds": 13,
+        "roundsPlayed": 22,
+        "winnerTeamId": "opponent-chalkline",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon. No player statistics are established."
+      },
+      {
+        "number": 3,
+        "map": "Cobblestone",
+        "teamRounds": 13,
+        "opponentRounds": 11,
+        "roundsPlayed": 24,
+        "winnerTeamId": "kairos-cs-academy",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon. No player statistics are established."
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Academy Green beat Chalkline 2-1 in a private MD3 (Inferno 13-10, Cache 9-13, Cobblestone 13-11) (Episode 122)."
+  ],
+  "unconfirmedDetails": [
+    "Player statistics and the opponent's roster are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing."
+  ]
+}

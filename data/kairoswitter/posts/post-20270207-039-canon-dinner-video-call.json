@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-039",
+  "slug": "canon-dinner-video-call",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "adrian-elias-vale",
+  "text": "We made it to Austin together. Arthur joined dinner by video, which was the best part of the evening.",
+  "postedAt": "2027-02-07T12:33",
+  "timeZone": "PT",
+  "storyDate": "2027-02-07",
+  "episodeIds": [
+    "episode-128"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-dinner-video-call.png",
+    "alt": "Illustrative candid photo related to episode 128, dinner video call"
+  }
+}

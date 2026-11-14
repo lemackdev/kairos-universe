@@ -1,23 +1,23 @@
 {
-  "canonVersion": "0.33.0",
+  "canonVersion": "0.34.0",
   "project": "Kairos Universe",
-  "storyEpisode": 118,
+  "storyEpisode": 128,
   "storyStartPeriod": "early-2026",
-  "storyPeriod": "early-january-2027",
+  "storyPeriod": "early-february-2027",
   "storyYear": 2027,
-  "currentNarrativeDate": "2027-01-29",
+  "currentNarrativeDate": "2027-02-07",
   "nextCompetitiveMilestone": {
     "period": "february-2027",
-    "displayName": "February 2027",
+    "displayName": "CCT North America #1",
     "exactDate": "2027-02-08",
-    "dateMeaning": "start of primary competitive debut window, not a confirmed first match"
+    "dateMeaning": "start of CCT North America #1 in Austin; Kairos Gaming's first series, against Fluxo in Group D, is scheduled for the first day (time not set)"
   },
   "websiteImplemented": true,
   "competitiveDatabaseImplemented": true,
-  "currentDocumentationPhase": "episodes-107-118-canonized",
+  "currentDocumentationPhase": "episodes-107-128-canonized",
   "nextPhase": "2027-preseason-competition-preparation",
-  "reconstructedThroughEpisode": 118,
-  "episodeRecordsCreatedThrough": 118,
+  "reconstructedThroughEpisode": 128,
+  "episodeRecordsCreatedThrough": 128,
   "lastValidated": null,
   "notes": [
     "Episodes 1-29 are reconstructed from the immutable historical PDF.",
@@ -84,6 +84,10 @@
     "A Counter-Strike world ranking page is added. See docs/canon/CS_WORLD_RANKING_2027.md.",
     "Kairoswitter, the in-universe feed, is added. See docs/kairoswitter/README.md.",
     "Episodes 115-118 are canonized from 107-118.docx (episodes 107-114 verified unchanged); Tarik becomes Head Coach of Kairos Academy Green; four private scrim records are added. See docs/canon/EPISODES_115_118_IMPORT.md.",
-    "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization."
+    "0.17.0 adds 50 author-approved external Counter-Strike 2 rosters (250 players) frozen through 2027-05-23; Fluxo shares the Fluxo W7M organization.",
+    "Episodes 119-128 (2027-01-30 to 2027-02-07) are canonized; see docs/canon/EPISODES_119_128_IMPORT.md. Episode 128 is the current story episode and the current narrative date is 2027-02-07.",
+    "IEM Dallas 2027 is in progress (started 2027-02-03, ends 2027-02-14); group results are registered only as narrated in Episodes 125-128. Kairos Gaming is not a participant.",
+    "CCT North America #1 starts 2027-02-08 in Austin; the CCT approved six registered players per team and Zayn (Academy Green) is registered as Kairos Gaming's reserve; Kairos Gaming is in Group D with Fluxo, Imperial and BetBoom; no CCT match has been played.",
+    "Xpecial accepted the Support Mentor role on 2027-02-02; Arthur Fletcher has been hospitalised in Los Angeles since 2027-02-03 and is stable."
   ]
 }

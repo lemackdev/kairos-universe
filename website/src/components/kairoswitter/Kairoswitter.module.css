@@ -1,4 +1,8 @@
-.page { max-width: 640px; margin: 0 auto; }
+.page { max-width: 760px; margin: 0 auto; }
+.page :global(.pageHeader) { justify-items: center; text-align: center; border-bottom: 0; padding-bottom: 8px; }
+.page :global(.pageHeader .lede) { margin-inline: auto; }
+.directory > summary { text-align: center; }
+.directory .accounts, .directoryGroup h2 { justify-content: center; text-align: center; }
 .title { margin: 14px 0 4px; }
 .lede { margin: 0 0 18px; color: color-mix(in srgb, currentColor 65%, transparent); }
 .feed { border: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
@@ -37,3 +41,5 @@
 .directoryGroup h2 { margin: 0 0 8px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, currentColor 62%, transparent); }
 .directoryGroup h2 span { margin-left: 6px; font-weight: 400; }
 .directoryGroup .accounts { margin-bottom: 0; }
+.directory { margin: 28px 0 24px; }
+.feed { border-radius: 8px; }

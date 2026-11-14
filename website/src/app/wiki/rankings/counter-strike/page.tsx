@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCatalog } from "@/lib/canon/server";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { PageHeader } from "@/components/PageHeader";
 import { BrandLogo } from "@/components/UniformPanel";
 import { csExternalTeams, csOrganizationSlugOf, csRankingRows } from "@/lib/external/worldState2027";
 import { externalLogoDarkPath, externalLogoPath } from "@/lib/externalLogos";
@@ -27,7 +28,7 @@ export default function CsWorldRankingPage() {
     return { href: team ? `/wiki/teams/${team.slug}` : null, logo, nicknames: (team?.starters ?? []).map((starter) => players.get(starter.playerId)?.nickname ?? starter.nickname) };
   };
   return <article className={styles.page}><Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Rankings" }, { label: "Counter-Strike" }]} />
-    <h1 className={styles.heading}>Counter-Strike world ranking</h1>
+    <PageHeader eyebrow="Counter-Strike 2" title="World ranking" description="Every Counter-Strike team of the Kairos Universe, in the order of the HLTV world ranking of 9 November 2026." compact />
     <ol className={styles.list}>
       {rows.map((row) => {
         const { href, logo, nicknames } = view(row.teamId);

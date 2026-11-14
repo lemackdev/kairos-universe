@@ -598,7 +598,6 @@ export function buildCatalog(
     "/wiki",
     "/wiki/about",
     "/wiki/search",
-    "/wiki/games",
     "/wiki/organizations",
     "/wiki/teams",
     "/wiki/players",

@@ -22,11 +22,12 @@ export function fieldCaptionFor(worldState: WorldState2027 | undefined, competit
   return worldState?.eventInvites.some((entry) => entry.competitionSlug === competitionSlug) ? "Invited teams (2027)" : "Participants (2027)";
 }
 
-export interface GroupStandingRow { teamId: string; wins: number; losses: number; maps: number; roundsWon: number; roundsLost: number; roundDiff: number }
+export interface GroupStandingRow { teamId: string; wins: number; losses: number; maps: number; roundsWon: number; roundsLost: number; roundDiff: number; roundsKnown: boolean }
 
-// Wins and losses count played Bo3 matches; the round difference sums roundsA - roundsB where both are entered.
+// Wins and losses count played Bo3 matches. Rounds are summed only when an episode states every map score of the series;
+// roundsKnown is false for a team with a played series whose round totals are not established.
 export function groupStandings(group: { teamIds: string[]; matches?: GroupMatch2027[] }, nameOf: (teamId: string) => string): GroupStandingRow[] {
-  const rows = new Map<string, GroupStandingRow>(group.teamIds.map((teamId) => [teamId, { teamId, wins: 0, losses: 0, maps: 0, roundsWon: 0, roundsLost: 0, roundDiff: 0 }]));
+  const rows = new Map<string, GroupStandingRow>(group.teamIds.map((teamId) => [teamId, { teamId, wins: 0, losses: 0, maps: 0, roundsWon: 0, roundsLost: 0, roundDiff: 0, roundsKnown: true }]));
   let played = 0;
   for (const match of group.matches ?? []) {
     if (match.mapsA === null || match.mapsB === null) continue;
@@ -39,6 +40,9 @@ export function groupStandings(group: { teamIds: string[]; matches?: GroupMatch2
     if (match.roundsA !== null && match.roundsB !== null) {
       a.roundsWon += match.roundsA; a.roundsLost += match.roundsB;
       b.roundsWon += match.roundsB; b.roundsLost += match.roundsA;
+    } else {
+      a.roundsKnown = false;
+      b.roundsKnown = false;
     }
   }
   for (const row of rows.values()) row.roundDiff = row.roundsWon - row.roundsLost;

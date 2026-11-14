@@ -1,0 +1,71 @@
+{
+  "id": "match-lol-external-academy-white-maryville-university-2027-02-06",
+  "slug": "match-lol-external-academy-white-maryville-university-2027-02-06",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-white",
+    "opponent-maryville-university"
+  ],
+  "scheduledDate": "2027-02-06",
+  "date": "2027-02-06",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-white",
+  "teamBId": "opponent-maryville-university",
+  "bestOf": null,
+  "teamAScore": 0,
+  "teamBScore": 2,
+  "winnerTeamId": "opponent-maryville-university",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-127"
+  ],
+  "relatedPlayerIds": [
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_127.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Maryville University",
+    "opponentLeague": "NACL (Will, Lojaz, Leza, Daption, Minui)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-maryville-university",
+        "provenance": "narrated-canon",
+        "durationMinutes": 29
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "opponent-maryville-university",
+        "provenance": "narrated-canon",
+        "durationMinutes": 36
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Maryville University beat Kairos Academy White 2-0 in a private Fearless Draft MD3 on 2027-02-06 (Episode 127)."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

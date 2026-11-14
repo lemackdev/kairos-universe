@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-005",
+  "slug": "canon-stadium-wide",
+  "continuityId": "kairos-universe",
+  "authorType": "team",
+  "authorId": "kairos-cs-main",
+  "text": "Sunday off. Galaxy game, Lakers game, and absolutely no one pretending they were checking work messages.",
+  "postedAt": "2027-01-31T14:35",
+  "timeZone": "PT",
+  "storyDate": "2027-01-31",
+  "episodeIds": [
+    "episode-120"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-stadium-wide.png",
+    "alt": "Illustrative candid photo related to episode 120, stadium wide"
+  }
+}

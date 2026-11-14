@@ -110,8 +110,8 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       format: drawn.format, advancing: drawn.advancing,
       groups: drawn.groups.map((group) => ({
         name: group.name,
-        teams: groupStandings(group, (teamId) => teamOf(teamId).name).map((row) => ({ ...teamOf(row.teamId), wins: row.wins, losses: row.losses, maps: row.maps, roundsWon: row.roundsWon, roundsLost: row.roundsLost, roundDiff: row.roundDiff })),
-        matches: (group.matches ?? []).map((match) => ({ round: match.round, key: `${match.teamAId}-${match.teamBId}`, teamA: teamOf(match.teamAId), teamB: teamOf(match.teamBId), format: match.format, mapsA: match.mapsA, mapsB: match.mapsB })),
+        teams: groupStandings(group, (teamId) => teamOf(teamId).name).map((row) => ({ ...teamOf(row.teamId), wins: row.wins, losses: row.losses, maps: row.maps, roundsWon: row.roundsWon, roundsLost: row.roundsLost, roundDiff: row.roundDiff, roundsKnown: row.roundsKnown })),
+        matches: (group.matches ?? []).map((match) => ({ round: match.round, key: `${match.teamAId}-${match.teamBId}`, teamA: teamOf(match.teamAId), teamB: teamOf(match.teamBId), format: match.format, mapsA: match.mapsA, mapsB: match.mapsB, date: match.date ?? null, mapDetail: (match.maps ?? []).map((map) => `${map.map} ${map.scoreA ?? "?"}-${map.scoreB ?? "?"}`).join(" · ") })),
       })),
     };
   })() : undefined;

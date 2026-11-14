@@ -78,7 +78,7 @@ export function collectPublicationErrors(ctx: PublicationValidationContext): str
     const at = `publisher ${publisher.id}`;
     if (publisher.originType === "real-world-reference") {
       if (!publisher.realWorldEntity) fail(`${at}: real-world-reference publishers must name realWorldEntity.`);
-      if (!publisher.coverageDisclosure?.trim() && !["dust2-us", "riot-games-publisher"].includes(publisher.id)) {
+      if (!publisher.coverageDisclosure?.trim() && !["dust2-us", "riot-games-publisher", "ge-globo"].includes(publisher.id)) {
         fail(`${at}: real-world-reference publishers need a coverageDisclosure.`);
       }
     } else if (publisher.realWorldEntity) {
@@ -151,7 +151,7 @@ export function collectPublicationErrors(ctx: PublicationValidationContext): str
       if (
         publisher?.originType === "real-world-reference" &&
         !publisher.coverageDisclosure?.trim() &&
-        !["dust2-us", "riot-games-publisher"].includes(publisher.id)
+        !["dust2-us", "riot-games-publisher", "ge-globo"].includes(publisher.id)
       ) {
         fail(`${at}: fictional coverage under a real-world publisher needs a coverageDisclosure.`);
       }

@@ -1,0 +1,76 @@
+{
+  "id": "match-lol-external-academy-blue-dorado-gaming-2027-02-06",
+  "slug": "match-lol-external-academy-blue-dorado-gaming-2027-02-06",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-blue",
+    "opponent-dorado-gaming"
+  ],
+  "scheduledDate": "2027-02-06",
+  "date": "2027-02-06",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-blue",
+  "teamBId": "opponent-dorado-gaming",
+  "bestOf": null,
+  "teamAScore": 2,
+  "teamBScore": 1,
+  "winnerTeamId": "kairos-lol-academy-blue",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-127"
+  ],
+  "relatedPlayerIds": [
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_127.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Dorado Gaming",
+    "opponentLeague": "NACL (Philip, Nordik, Young, Array, Spirax)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-dorado-gaming",
+        "provenance": "narrated-canon"
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "provenance": "narrated-canon",
+        "durationMinutes": 25
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "provenance": "narrated-canon",
+        "durationMinutes": 32
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Academy Blue beat Dorado Gaming 2-1 in a private Fearless Draft MD3 on 2027-02-06 (Episode 127)."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

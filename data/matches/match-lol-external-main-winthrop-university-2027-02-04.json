@@ -1,0 +1,85 @@
+{
+  "id": "match-lol-external-main-winthrop-university-2027-02-04",
+  "slug": "match-lol-external-main-winthrop-university-2027-02-04",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-winthrop-university"
+  ],
+  "scheduledDate": "2027-02-04",
+  "date": "2027-02-04",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-winthrop-university",
+  "bestOf": null,
+  "teamAScore": 2,
+  "teamBScore": 0,
+  "winnerTeamId": "kairos-lol-main",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-125"
+  ],
+  "relatedPlayerIds": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_125.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Winthrop University",
+    "opponentLeague": "NACL (Wilson, Kisno, Bradley, Cody Sun, Mixtsure)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "kairos-lol-main",
+        "provenance": "narrated-canon",
+        "durationMinutes": 31,
+        "picks": {
+          "rkN": "Gnar",
+          "Vanta": "Viego",
+          "404": "Azir",
+          "Aster": "Kai'Sa",
+          "Moss": "Rakan"
+        }
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-main",
+        "provenance": "narrated-canon",
+        "picks": {
+          "rkN": "Ornn",
+          "Vanta": "Poppy",
+          "404": "Taliyah",
+          "Aster": "Ashe",
+          "Moss": "Braum"
+        },
+        "provenanceNote": "Kairos came back from 5000 gold behind."
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Main beat Winthrop University 2-0 in a private Fearless Draft MD3 on 2027-02-04 (Episode 125)."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

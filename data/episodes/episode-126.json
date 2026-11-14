@@ -1,0 +1,119 @@
+{
+  "id": "episode-126",
+  "slug": "episode-126",
+  "episodeNumber": 126,
+  "title": "A Escolha de Owen",
+  "historicalTitle": "A Escolha de Owen",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-05",
+  "datePrecision": "exact",
+  "publicationOrder": 126,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "owen-glacier-fletcher",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "claire-kairos-executive",
+    "arthur-fletcher",
+    "lukas-luk-novak",
+    "tarik-kairos-cs-academy-head-coach",
+    "miles-sable-warren",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "nathan-0bit-hall",
+    "jacob-xnox-price",
+    "zayn-parkinglot-haddad",
+    "reid-wrongnumber-hart",
+    "evan-soupcrime-nakamura"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Friday 2027-02-05. Arthur's fever subsides and he is clinically stable with encouraging signs, but remains in hospital. Owen decides to travel to Austin. Adrian decides on six Academy Green players instead of a bench for Main. Vincente gives an interview to ge.globo (published 19:14). Nathan is invited to a community workshop. IEM Dallas Feb 5 results: Vitality 2-0 Liquid, FURIA 2-1 MIBR, M80 2-0 BC.Game, paiN 2-1 Astralis.",
+  "keyEvents": [
+    "8:36 — Adrian: no one will be hired to sit on Main's bench; Academy Green will have six players (five starters plus one), with possible promotion if rules allow; Owen is not leaving Kairos Gaming; no public announcement.",
+    "9:42 — A Los Angeles community organisation tied to the programme that received the USD 20,000 donation invites Nathan to a technology workshop; conditions: no live broadcast, no use of players as an attraction without authorisation, compatible with study and training; Jacob and Zayn will help.",
+    "10:51 — ge.globo interviews Vincente (Palmeiras 2026 blue shirt); the article is published at 19:14.",
+    "11:37 — IEM Dallas Group A: Team Vitality 2-0 Team Liquid (Nuke 13-9; Dust II won by Vitality).",
+    "12:49 — Doctor: encouraging signs, no new fever, clinically stable, no safe forecast of discharge; Arthur tells Owen the decision must be his.",
+    "14:18 — Group A: FURIA 2-1 MIBR (Inferno MIBR 13-11, Overpass FURIA 13-7, Train FURIA 13-10).",
+    "16:12 — Group C: M80 2-0 BC.Game (Train 13-8, Nuke 13-11).",
+    "17:26 — Group C: paiN Gaming 2-1 Astralis (Cobblestone Astralis 13-9, Cache paiN 13-8, Nuke paiN won after 10-8).",
+    "18:03 — Owen tells Adrian and Luk he wants to go to Austin and asks to be allowed to return, even during the tournament; they agree; the Sunday departure is kept.",
+    "20:07 — Owen confirms to the Main players on a call; 21:36 Emily's travel report: Main leave Los Angeles on 2027-02-07 with Owen; Arthur stays in hospital with logistical support; Marcus presents the first list of candidates for a sixth Academy Green player (none hired)."
+  ],
+  "consequences": [
+    "Glacier will travel to Austin with the five Kairos Gaming starters.",
+    "The sixth-player plan is redirected to Academy Green and stays unannounced."
+  ],
+  "canonIntroduced": [
+    "Owen decides to play the CCT.",
+    "Vincente's ge.globo interview is published on 2027-02-05 at 19:14 (article in data/publications).",
+    "IEM Dallas results of 2027-02-05."
+  ],
+  "canonChanged": [
+    "Episode 125's idea of a sixth player for the main team is replaced by a sixth Academy Green player."
+  ],
+  "continuityDependencies": [
+    "episode-122",
+    "episode-124",
+    "episode-125"
+  ],
+  "continuityNotes": [
+    "The in-episode table lists the day's results as Vitality 2-0 Liquid, FURIA 2-1 MIBR, M80 2-0 BC.Game, paiN 2-1 Astralis.",
+    "The ge.globo article text appears only as a headline, a standfirst and a summary in the episode; the full article in data/publications is a writing based strictly on the interview scene.",
+    "Vincente's Palmeiras shirt is green in Episode 122 and blue (2026) here."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "ge.globo and Palmeiras are real-world references; the article is labelled in the episode as fictional reporting in the Kairos universe."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_126.txt",
+      "locator": "Episódio 126 — A Escolha de Owen",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Vitality 2-0 Liquid; FURIA 2-1 MIBR; M80 2-0 BC.Game; paiN 2-1 Astralis (Group A and C, 2027-02-05).",
+    "Arthur is clinically stable with encouraging signs; he remains in hospital with no safe discharge forecast.",
+    "Owen travels to Austin on 2027-02-07 and may return if Arthur worsens.",
+    "Vincente's parents are from Curitiba; he grew up in Tulsa; he has never lived in Brazil."
+  ],
+  "unconfirmedDetails": [
+    "Name of the journalist and of the ge.globo section, and who owns the community organisation behind the workshop."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

@@ -37,7 +37,7 @@ describe("encyclopedia article templates", () => {
     const player = catalog.players.find((entry) => entry.nickname === "404")!;
     const html = renderToStaticMarkup(createElement(PlayerArticle, { player, team: catalog.teams[0], narrativeDate: catalog.metadata.currentNarrativeDate }));
     checkSections(html, ["overview", "background-information", "team-history", "trivia", "individual-awards", "tournament-results"]);
-    expect(html).toContain("19 (as of 29/01/2027)");
+    expect(html).toContain("19 (as of 07/02/2027)");
     expect(html).toContain("No confirmed individual awards recorded.");
     expect(html).toContain("No confirmed tournament results recorded.");
     expect(html).toContain("No official matches recorded.");

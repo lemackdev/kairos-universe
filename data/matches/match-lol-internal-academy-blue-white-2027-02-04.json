@@ -1,0 +1,123 @@
+{
+  "id": "match-lol-internal-academy-blue-white-2027-02-04",
+  "slug": "match-lol-internal-academy-blue-white-2027-02-04",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "scheduledDate": "2027-02-04",
+  "date": "2027-02-04",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-blue",
+  "teamBId": "kairos-lol-academy-white",
+  "bestOf": null,
+  "teamAScore": 1,
+  "teamBScore": 2,
+  "winnerTeamId": "kairos-lol-academy-white",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-125"
+  ],
+  "relatedPlayerIds": [
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_125.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Kairos Academy White (internal)",
+    "opponentLeague": "Kairos internal",
+    "opponentRosterStatus": "Kairos roster",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "kairos-lol-academy-white",
+        "provenance": "narrated-canon",
+        "durationMinutes": 34,
+        "picks": {
+          "SullCon": "Renekton",
+          "xNox": "Nidalee",
+          "Kite": "Ahri",
+          "Murmur": "Xayah",
+          "japalenogrits": "Rakan"
+        },
+        "opponentPicks": {
+          "Pebble": "Ornn",
+          "vexemite": "Sejuani",
+          "0bit": "Viktor",
+          "June": "Jhin",
+          "Luma": "Bard"
+        }
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-academy-blue",
+        "provenance": "narrated-canon",
+        "durationMinutes": 28,
+        "picks": {
+          "SullCon": "K'Sante",
+          "xNox": "Skarner",
+          "Kite": "Galio",
+          "Murmur": "Varus",
+          "japalenogrits": "Nautilus"
+        },
+        "opponentPicks": {
+          "Pebble": "Aatrox",
+          "vexemite": "Poppy",
+          "0bit": "Taliyah",
+          "June": "Sivir",
+          "Luma": "Alistar"
+        }
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-academy-white",
+        "provenance": "narrated-canon",
+        "picks": {
+          "SullCon": "Rumble",
+          "xNox": "Ivern",
+          "Kite": "Orianna",
+          "Murmur": "Ziggs",
+          "japalenogrits": "Braum"
+        },
+        "opponentPicks": {
+          "Pebble": "Gnar",
+          "vexemite": "Maokai",
+          "0bit": "Hwei",
+          "June": "Jinx",
+          "Luma": "Rell"
+        }
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Academy White beat Kairos Academy Blue 2-1 in an internal private Fearless Draft MD3 on 2027-02-04 (Episode 125); the Academy Blue NACL slot is not in dispute."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

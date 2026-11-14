@@ -1,0 +1,113 @@
+{
+  "id": "episode-128",
+  "slug": "episode-128",
+  "episodeNumber": 128,
+  "title": "Todos a Bordo",
+  "historicalTitle": "Todos a Bordo",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-07",
+  "datePrecision": "exact",
+  "publicationOrder": 128,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California",
+    "Austin, Texas"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "arthur-fletcher",
+    "jake-stewie2k-yip",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "tarik-kairos-cs-academy-head-coach",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Sunday 2027-02-07. Adrian takes the whole Counter-Strike department, including the four unregistered Academy Green players, to Austin on his private jet. The CCT North America #1 groups and Group D schedule are shown: Kairos Gaming, Fluxo, Imperial and BetBoom, with Kairos x Fluxo as the first series on 2027-02-08. MOUZ beat G2 2-0 in IEM Dallas Group D. Players meet Stewie2K, now with Without a Roof, at the venue. Arthur remains stable in hospital.",
+  "keyEvents": [
+    "7:12 — Adrian decides to take all ten Counter-Strike players; Zayn remains the only registered reserve; the other four Academy players are accredited guests.",
+    "10:48 — Departure from the executive airport; the aircraft is Adrian's private jet; he says it is not the standard for Kairos travel.",
+    "12:04 — On the flight Luk shows the CCT draw: Group A BESTIA, Eternal Fire, The MongolZ, PARIVISION; Group B NRG, Wildcard, Envy, LAG; Group C Without a Roof, Ninjas in Pyjamas, HEROIC, 100 Thieves; Group D Kairos Gaming, Fluxo, Imperial, BetBoom. Two advance per group; all group series are MD3.",
+    "12:04 — Group D schedule: Round 1 Kairos x Fluxo and Imperial x BetBoom; Round 2 Kairos x Imperial and BetBoom x Fluxo; Round 3 Kairos x BetBoom and Fluxo x Imperial; exact times not set.",
+    "13:21 — IEM Dallas Group D round 2: MOUZ 2-0 G2 Esports (Dust II 13-2, Inferno 13-5).",
+    "14:06–17:06 — Landing in Austin, hotel, venue walk-through; Owen is nervous before his first official LAN.",
+    "18:12 — The Academy meet Stewie2K with Without a Roof (autimatic, Brehze, CeRq, FaNg); Kairos and Without a Roof are in different groups and could meet in the playoffs.",
+    "19:24 — Last meeting before the debut against Fluxo (exit, dav1deuS, zevy, kye, Ltz); the Train setups exposed on 2027-02-01 have been changed.",
+    "20:41 — Group dinner; Arthur joins by video, still hospitalised, stable and improving, with no definite discharge date.",
+    "23:16–23:49 — Caleb and Owen talk the night before; Kairos Gaming x Fluxo is the first official Counter-Strike series in the history of Kairos."
+  ],
+  "consequences": [
+    "The Counter-Strike department is in Austin; the Kairos Gaming debut is the next morning."
+  ],
+  "canonIntroduced": [
+    "The Counter-Strike department travels together to Austin on Adrian's private jet (2027-02-07).",
+    "CCT North America #1 draw and Group D calendar are shown to the team.",
+    "IEM Dallas Group D round 2: MOUZ 2-0 G2 Esports."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-117",
+    "episode-127"
+  ],
+  "continuityNotes": [
+    "The groups and Group D schedule match data/competitive-world-overrides/cct-north-america-1-invites-2027.json exactly; only confirmation is added.",
+    "The episode ends before the first CCT match; no CCT result exists."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "CCT teams, players and Stewie2K are real-world references; the draw and results are fictional-canon."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_128.txt",
+      "locator": "Episódio 128 — Todos a Bordo",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "CCT North America #1 runs 2027-02-08 to 2027-02-15 in Austin, USD 100,000, four groups, two advance, MD3 group series.",
+    "Kairos Gaming's first series is against Fluxo (exit, dav1deuS, zevy, kye, Ltz).",
+    "MOUZ beat G2 2-0 (13-2, 13-5) on 2027-02-07.",
+    "Zayn is the only Academy player registered for the CCT."
+  ],
+  "unconfirmedDetails": [
+    "Times of the Group D series and any result of the CCT."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

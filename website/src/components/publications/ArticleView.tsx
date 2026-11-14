@@ -84,14 +84,14 @@ export function ArticleView({
       ) : null}
 
       {((article.classification === "rumor" && article.publisherId !== "the-competitive-ledger") ||
-        (article.classification === "real-world-reference" && !["dust2-us", "riot-games-publisher"].includes(article.publisherId)) ||
-        (publisher?.coverageDisclosure && !["dust2-us", "riot-games-publisher"].includes(publisher.id))) ? (
+        (article.classification === "real-world-reference" && !["dust2-us", "riot-games-publisher", "ge-globo"].includes(article.publisherId)) ||
+        (publisher?.coverageDisclosure && !["dust2-us", "riot-games-publisher", "ge-globo"].includes(publisher.id))) ? (
         <div className={`${styles.disclosure} ${disclosureClass[article.classification]}`} role="note">
           {article.classification !== "rumor" || article.publisherId !== "the-competitive-ledger" ? (
             <strong>{classificationLabels[article.classification]}</strong>
           ) : null}
           {classificationNotes[article.classification] ? <span>{classificationNotes[article.classification]}</span> : null}
-          {publisher?.coverageDisclosure && !["dust2-us", "riot-games-publisher"].includes(publisher.id) ? (
+          {publisher?.coverageDisclosure && !["dust2-us", "riot-games-publisher", "ge-globo"].includes(publisher.id) ? (
             <span>{publisher.coverageDisclosure}</span>
           ) : null}
         </div>

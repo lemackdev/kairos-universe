@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { PageHeader } from "@/components/PageHeader";
 import { kairoswitterGroupLabels, type KairoswitterGroup } from "@/types/kairoswitter";
 import { Avatar, PostCard } from "@/components/kairoswitter/PostCard";
 import { getCatalog } from "@/lib/canon/server";
@@ -15,8 +16,7 @@ export default function KairoswitterPage() {
   const posts = feed?.posts ?? [];
   return <article className={styles.page}>
     <Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Kairoswitter" }]} />
-    <h1 className={styles.title}>Kairoswitter</h1>
-    <p className={styles.lede}>Posts of the Kairos organization, teams, players and staff, up to {feed ? formatDate(feed.narrativeDate) : "the current story date"}.</p>
+    <PageHeader eyebrow="Kairos feed" title="Kairoswitter" description={`Posts of the Kairos organization, teams, players and staff, up to ${feed ? formatDate(feed.narrativeDate) : "the current story date"}.`} compact />
     {(feed?.accounts.length ?? 0) > 0 && <details className={styles.directory}><summary>Find people ({feed!.accounts.length})</summary>
       {(Object.keys(kairoswitterGroupLabels) as KairoswitterGroup[]).map((group) => {
         const members = feed!.accounts.filter((account) => account.group === group).sort((a, b) => a.handle.localeCompare(b.handle, "en", { sensitivity: "base" }));

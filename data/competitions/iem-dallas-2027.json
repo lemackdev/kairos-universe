@@ -4,12 +4,13 @@
   "continuityId": "kairos-universe",
   "name": "IEM Dallas 2027",
   "gameId": "game-counter-strike",
-  "status": "planned",
+  "status": "active",
   "seasonIds": [],
   "sourceIds": [
     "source-canon-directive-2027-competitive-calendar",
     "source-canon-directive-2027-iem-dallas-invites",
-    "source-episodes-115-118"
+    "source-episodes-115-118",
+    "source-episodes-119-128"
   ],
   "canonStatus": "confirmed",
   "overview": "A 2027 Counter-Strike Premier event in Dallas with sixteen invited teams, drawn at random into four groups of four. The two best teams of each group advance to a single-elimination playoff bracket. The match schedule and results have not been confirmed yet.",

@@ -1,5 +1,6 @@
 [
   "data/publishers/dust2-us.json",
+  "data/publishers/ge-globo.json",
   "data/publishers/riot-games-publisher.json",
   "data/publishers/the-competitive-ledger.json"
 ]

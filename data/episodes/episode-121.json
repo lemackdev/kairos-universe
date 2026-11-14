@@ -1,0 +1,112 @@
+{
+  "id": "episode-121",
+  "slug": "episode-121",
+  "episodeNumber": 121,
+  "title": "O Primeiro Teste de Verdade",
+  "historicalTitle": "O Primeiro Teste de Verdade",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-01",
+  "datePrecision": "exact",
+  "publicationOrder": 121,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "mason-404-brooks",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "darshan-kairos-top-mentor",
+    "xmithie-kairos-jungle-mentor",
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Monday 2027-02-01. Three private Fearless Draft MD3 scrims against full 2027 rosters: Main beat Dignitas 2-1, Academy Blue lose 1-2 to Blue Otter, Academy White beat the University of Mississippi 2-1. Results stay internal. Adrian considers having White keep playing NACL and possibly EMEA Masters opponents but creates no automatic NACL slot.",
+  "keyEvents": [
+    "8:47 — Emily, the four head coaches and Adrian confirm the three MD3 series; Fearless Draft means champions used in earlier games of the series cannot be picked again by either team.",
+    "9:21–12:26 — Main vs Dignitas (Denathor, KryRa, Palafox, ScaryJerry, Breezy): Dignitas win game 1 (32 min); Kairos win game 2 (30 min) with Rumble, Poppy, Galio, Varus, Rell; Kairos win game 3 (44 min) with Sion, Ivern, Taliyah, Sivir, Taric. Main 2-1.",
+    "9:43–13:31 — Academy Blue vs Blue Otter (Dcoy, Niles, Retrozing, Hub, Tubs): Blue win game 1 (27 min); Blue Otter win games 2 and 3 (game 3 at 31 min). Blue Otter 2-1.",
+    "10:12–13:47 — Academy White vs University of Mississippi (Fiji, Munchy, Perry, Sushee, Aeon Crystal): White win game 1 (31 min), lose game 2 (29 min), win game 3 (Gragas, Ivern, Taliyah, Varus, Rell). White 2-1.",
+    "16:22 — Joint review; Adrian orders that no one publish that Kairos beat Dignitas or Mississippi; results stay internal and change no ranking.",
+    "18:14 — Adrian examines White's result: he will not invent a NACL slot (eight participants, Kairos already has its representative) but wants White to keep facing NACL teams and possibly EMEA Masters opponents."
+  ],
+  "consequences": [
+    "Academy White become the first Kairos development roster to beat a 2027 NACL roster in a full series (private).",
+    "Main learn they can win with off-pool champions and without relying on comfort picks."
+  ],
+  "canonIntroduced": [
+    "Three private League scrims are played on 2027-02-01 (see data/matches).",
+    "Fearless Draft is used in all three series."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-116",
+    "episode-118"
+  ],
+  "continuityNotes": [
+    "The LCS debut is on 2027-02-15 (fourteen days after this episode).",
+    "Kairos Academy White still has no automatic place in a professional league."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Dignitas, Blue Otter and the University of Mississippi are real-world organisations; the rosters named are those already in the fictional-canon 2027 overlays."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_121.txt",
+      "locator": "Episódio 121 — O Primeiro Teste de Verdade",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Main 2-1 Dignitas; Blue 1-2 Blue Otter; White 2-1 University of Mississippi. All private scrims, affects no standings.",
+    "Dignitas are projected internally as a mid-table LCS team; Blue Otter is considered an accessible NACL opponent."
+  ],
+  "unconfirmedDetails": [
+    "Any official place for Academy White and the timing of further external scrims."
+  ],
+  "notes": []
+}

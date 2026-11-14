@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-016",
+  "slug": "canon-video-call",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "alex-xpecial-chu",
+  "text": "Met the three supports today. Good questions, honest answers. Looking forward to doing this properly when I’m in person.",
+  "postedAt": "2027-02-02T13:52",
+  "timeZone": "PT",
+  "storyDate": "2027-02-02",
+  "episodeIds": [
+    "episode-123"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-video-call.png",
+    "alt": "Illustrative candid photo related to episode 123, video call"
+  }
+}

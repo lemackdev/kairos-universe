@@ -1,0 +1,99 @@
+{
+  "method": "Built-in image generation",
+  "direction": "Fifteen varied candid documentary-style illustrations grounded in Episodes 119-128. Mix distant room views, object scenes, and natural group moments. Preserve character identity from repository portraits where supplied. Avoid posed repetitive closeups.",
+  "images": [
+    {
+      "output": "/kairoswitter/media/canon-academy-room.png",
+      "references": [
+        "staff-portraits/tarik-kairos-cs-academy-head-coach.png"
+      ],
+      "prompt": "Wide candid photo from a hallway doorway: Tarik standing beside a whiteboard with seven map names handwritten, several players seated at PCs in the background. Real private gaming mansion converted practice room, nobody looking at camera, no tactics."
+    },
+    {
+      "output": "/kairoswitter/media/canon-stadium-wide.png",
+      "references": [],
+      "prompt": "A long-distance phone photo from high in the stands at an LA Galaxy match, crowd and field dominate, a few friends in the row below seen from behind. Natural stadium lighting, no readable signs, not a posed group."
+    },
+    {
+      "output": "/kairoswitter/media/canon-basketball-court.png",
+      "references": [],
+      "prompt": "Distant view across a basketball court after a community donation ceremony, one young man at midcourt holding a ball, spectators scattered in bleachers. Human figure small in frame; no readable signs or text. Casual phone photo."
+    },
+    {
+      "output": "/kairoswitter/media/canon-lol-practice.png",
+      "references": [
+        "portraits/ryan-luma-chen.png",
+        "portraits/isaac-pebble-young.png"
+      ],
+      "prompt": "Wide side view from behind a sofa of two teammates at separate gaming PCs during League practice, people small in frame, focus also on lived-in residential gaming room. They wear simple dark team jerseys, no one looks at camera, no readable monitors."
+    },
+    {
+      "output": "/kairoswitter/media/canon-palmeiras-jersey.png",
+      "references": [
+        "portraits/vincente-flacogomez-galan.png"
+      ],
+      "prompt": "Unposed medium-wide phone photo of the referenced young man in a blue Palmeiras jersey at an arena concourse with basketball crowd softly visible behind. Seen from across a table, hands gesturing mid-conversation, subject not posing. Natural photojournalism."
+    },
+    {
+      "output": "/kairoswitter/media/canon-camera-check.png",
+      "references": [
+        "staff-portraits/emily-chen.png"
+      ],
+      "prompt": "Candid over-the-shoulder shot of a woman checking a small video camera monitor before filming, reflection shows a doorway and room behind her, not her face close up. Ordinary house interior, monitor blank/unreadable."
+    },
+    {
+      "output": "/kairoswitter/media/canon-video-call.png",
+      "references": [
+        "staff-portraits/alex-xpecial-chu.png"
+      ],
+      "prompt": "Wide photograph of a laptop on a kitchen table during a video call with four small indistinct participant windows, notebook and tea nearby, no readable screen text, home environment, laptop viewed from user side."
+    },
+    {
+      "output": "/kairoswitter/media/canon-food-at-door.png",
+      "references": [],
+      "prompt": "A casserole dish and handwritten blank card being left outside a bedroom door in a large shared home, only someone's hand visible at edge, warm but ordinary night lighting, quiet documentary snapshot, no people posing."
+    },
+    {
+      "output": "/kairoswitter/media/canon-table-tennis.png",
+      "references": [],
+      "prompt": "Wide candid photo of two young adults playing table tennis in a mansion recreation room, one reaching for a return, both mid-motion and slightly blurred, people not centered, sofa and game table visible, nobody aware of camera."
+    },
+    {
+      "output": "/kairoswitter/media/canon-workshop-kit.png",
+      "references": [],
+      "prompt": "Top-down casual phone picture of a disassembled handheld game console, tiny screwdriver, screws in a dish and two pairs of hands repairing it on a wooden living-room table. No faces, real imperfect hobby scene."
+    },
+    {
+      "output": "/kairoswitter/media/canon-ge-interview.png",
+      "references": [
+        "portraits/vincente-flacogomez-galan.png"
+      ],
+      "prompt": "Documentary-style interview still: the referenced young man wearing blue Palmeiras shirt, seated at a slight angle in an ordinary quiet room, speaking toward an off-camera interviewer, waist-up but not tight portrait, camera at eye level, natural window light, neutral background, authentic press interview."
+    },
+    {
+      "output": "/kairoswitter/media/canon-tech-bag.png",
+      "references": [],
+      "prompt": "Candid top-down snapshot of an open backpack on bedroom floor with two adapters, spare cables, small toolkit and notebook packed for a community technology workshop. Slightly messy, no brand names or legible writing."
+    },
+    {
+      "output": "/kairoswitter/media/canon-tarik-zayn.png",
+      "references": [
+        "staff-portraits/tarik-kairos-cs-academy-head-coach.png",
+        "portraits/zayn-parkinglot-haddad.png"
+      ],
+      "prompt": "Distant candid photo in a residential gaming house lounge: coach and young player seated at opposite ends of sofa talking quietly, full room visible, side profile, no posing. Warm normal lamps, no screens or tactics."
+    },
+    {
+      "output": "/kairoswitter/media/canon-austin-hotel.png",
+      "references": [],
+      "prompt": "A slightly crooked phone snapshot through a hotel room window at dusk: Austin rooftops and highway lights, edge of an open suitcase in foreground, no recognizable landmark or text. Quiet travel moment."
+    },
+    {
+      "output": "/kairoswitter/media/canon-dinner-video-call.png",
+      "references": [
+        "staff-portraits/adrian-elias-vale.png"
+      ],
+      "prompt": "Wide candid group dinner at a long table in a private hotel dining room, several esports players seen from side/back, a tablet propped at the end on a video call with an older man, food and conversation, not posed, tablet screen indistinct."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "episode-122",
+  "slug": "episode-122",
+  "episodeNumber": 122,
+  "title": "Dois a Zero Também Dói",
+  "historicalTitle": "Dois a Zero Também Dói",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-01",
+  "datePrecision": "exact",
+  "publicationOrder": 122,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "vincente-flacogomez-galan",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "tarik-kairos-cs-academy-head-coach",
+    "marcus-kairos-general-manager",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Monday 2027-02-01. A photo of Vincente in a Palmeiras shirt at the Lakers game goes viral among Brazilian fans (over one million views). A private MD3 against M80 ends 0-2 for Kairos Gaming (Nuke 8-13, Train 11-13) and exposes friction between Caleb and Mold over information. The Academy beat the independent group Chalkline 2-1. A short video recorded for Brazilian fans accidentally shows a tactical board with two Train setups, forcing Kairos to change that preparation a week before the CCT.",
+  "keyEvents": [
+    "8:32 — A photo of Vincente at the Lakers game is shared by a Brazilian fan; his nickname FLACOGOMEZ (Flaco López + Gustavo Gómez) is identified; it exceeds one million views.",
+    "10:03 — Private scrim, Kairos Gaming vs M80 (slaxz-, Swisher, s1n, JBa, Lake): Nuke 8-13 (4-8 at half) and Train 11-13; M80 win 2-0; Cache not played. The M80 will travel to Dallas for IEM Dallas.",
+    "10:52–14:21 — Academy Green vs Chalkline (independent five): Inferno 13-10, Cache 9-13, Cobblestone 13-11; Academy win 2-1.",
+    "12:48 — Vincente records a short video in Portuguese explaining his nickname; it is posted by the communications team.",
+    "15:03 — Emily finds a tactical board with Train notes visible for under two seconds behind a glass door; the video was online for 43 minutes and a screenshot circulates with the caption 'Kairos accidentally leaks Train setups a week before CCT debut'.",
+    "17:08 — Emergency meeting: Vincente is not at fault; two Train configurations will be changed; no recording may show tactical boards, analysis screens or preparation material without specific review.",
+    "20:14 — Luk tells Caleb a good system must not replace thinking; Caleb asks Cameron to review Train rounds with him."
+  ],
+  "consequences": [
+    "Kairos modifies timings and defensive responses of two Train setups before the CCT.",
+    "New communications rule: no filming of tactical material without review; training rooms stay available for authorised interviews."
+  ],
+  "canonIntroduced": [
+    "Private scrims: M80 2-0 Kairos Gaming (2027-02-01); Academy Green 2-1 Chalkline.",
+    "Vincente's Palmeiras photo goes viral in Brazil on 2027-02-01.",
+    "A tactical board with Train notes was accidentally shown in a video on 2027-02-01."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-117",
+    "episode-121"
+  ],
+  "continuityNotes": [
+    "Vincente's shirt is green in this episode and blue (Palmeiras 2026) in Episode 126; both are recorded as narrated.",
+    "The M80 series is recorded as a private scrim; M80's own results at IEM Dallas are in Episodes 125-126."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "M80, Palmeiras, LA Galaxy and the Lakers are real-world references."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_122.txt",
+      "locator": "Episódio 122 — Dois a Zero Também Dói",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Kairos Gaming lost 0-2 to M80 in a private MD3 (Nuke 8-13, Train 11-13).",
+    "Academy Green beat Chalkline 2-1 (Inferno 13-10, Cache 9-13, Cobblestone 13-11).",
+    "Vincente Galán's parents emigrated from Curitiba before he was born; he grew up in Tulsa and later in California and follows Palmeiras.",
+    "Seven days remain before the CCT; no opponent or bracket is yet known to the team."
+  ],
+  "unconfirmedDetails": [
+    "How many people saw the video or the screenshots before removal."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

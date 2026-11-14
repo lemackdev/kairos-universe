@@ -1,0 +1,121 @@
+{
+  "id": "episode-124",
+  "slug": "episode-124",
+  "episodeNumber": 124,
+  "title": "A Família Que Escolhemos",
+  "historicalTitle": "A Família Que Escolhemos",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-03",
+  "datePrecision": "exact",
+  "publicationOrder": 124,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "owen-glacier-fletcher",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "tarik-kairos-cs-academy-head-coach",
+    "maya-torres",
+    "arthur-fletcher",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "cole-june-mercer",
+    "ryan-luma-chen",
+    "nathan-0bit-hall",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "isaac-pebble-young"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Wednesday 2027-02-03. A normal day at the Commons (pancakes, repairs, table tennis, karaoke) is interrupted when Arthur Fletcher, in chemotherapy, develops chills and a 38.4 C fever and is sent to a Los Angeles hospital for urgent evaluation. He is admitted and stable but with no safe forecast of discharge. Owen stays with him and tells Caleb he may not be able to travel to Austin; the Commons community cooks for him and sends photos.",
+  "keyEvents": [
+    "8:24–12:37 — Commons breakfast and activities; Arthur eats at the Commons but looks more tired than usual; Mold repairs a campus bicycle with maintenance approval; Reid decides to sing at karaoke so as not to be seen as part of 'the Hart brothers'.",
+    "14:08 — Arthur messages Owen that he is going to rest; Vincente alerts Caleb to keep an eye on Owen.",
+    "15:46 — Milo beats Tyler at table tennis (loser sings at karaoke); Nathan, Jacob and Zayn repair a handheld console.",
+    "16:28 — Arthur reports chills; temperature 38.4 C; because he is in chemotherapy the health team contacts the treating professionals and sends him for urgent hospital evaluation; Adrian insists Owen be told.",
+    "16:51 — Luk tells Owen; the afternoon training meeting is cancelled; Caleb tells him to leave the equipment.",
+    "18:16 — Hospital: reduced white-cell count possible during chemotherapy; a possible infection is investigated and treated; Arthur is kept for monitoring; he is stable but it is too early to say how he will evolve.",
+    "19:04–21:18 — Players of both divisions cook for Owen; Reid and Tyler sing; Adrian asks for discretion about Arthur's health.",
+    "20:37 — Arthur tells Owen he too is afraid, that others can help carry what they have carried alone, and asks him not to decide about Austin that night; Owen promises not to say he is fine just to avoid the conversation.",
+    "22:48 — Owen tells Caleb he does not know whether he can go to Austin; the CCT starts in five days.",
+    "23:56 — Adrian will not choose for Owen nor treat family care as lack of commitment; no safe forecast of discharge."
+  ],
+  "consequences": [
+    "Arthur Fletcher is hospitalised on 2027-02-03; Owen's participation in the CCT becomes uncertain.",
+    "Adrian asks Luk to examine what substitution options the CCT allows."
+  ],
+  "canonIntroduced": [
+    "Arthur Fletcher is admitted to a hospital in Los Angeles on 2027-02-03 with fever during chemotherapy.",
+    "Mold worked as a mechanic in Truth or Consequences, New Mexico; Caleb played ice-hockey defender."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-086",
+    "episode-119"
+  ],
+  "continuityNotes": [
+    "Medical details are limited to those the family authorised; Maya Torres advises that Owen decide how much to share with teammates.",
+    "IEM Dallas starts on this date (see Episodes 125-128); it is not mentioned in this episode."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_124.txt",
+      "locator": "Episódio 124 — A Família Que Escolhemos",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Arthur's temperature was 38.4 C; he was admitted to a hospital in Los Angeles for monitoring and treatment of a possible infection; stable.",
+    "Karaoke at the Commons: Tyler and Reid sing; Milo beat Tyler at table tennis.",
+    "Arthur lives in the campus residential area and had eaten at the Commons in recent months."
+  ],
+  "unconfirmedDetails": [
+    "Cause of the fever, length of the hospital stay and whether Owen will travel."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

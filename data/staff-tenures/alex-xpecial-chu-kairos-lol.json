@@ -10,12 +10,13 @@
   "responsibilityIds": [
     "role-support-mentor"
   ],
-  "startedDate": "TBD",
+  "startedDate": "2027-02-02",
   "endedDate": null,
-  "datePrecision": "unknown",
+  "datePrecision": "exact",
   "status": "active",
   "sourceIds": [
-    "source-staff-alex-xpecial-chu"
+    "source-staff-alex-xpecial-chu",
+    "source-episodes-119-128"
   ],
   "canonStatus": "confirmed"
 }

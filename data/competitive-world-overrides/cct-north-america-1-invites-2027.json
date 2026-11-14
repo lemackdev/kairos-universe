@@ -4,7 +4,8 @@
   "canonStatus": "confirmed",
   "sourceIds": [
     "source-canon-directive-2027-cct-north-america-1-invites",
-    "source-episodes-115-118"
+    "source-episodes-115-118",
+    "source-episodes-119-128"
   ],
   "competitionId": "cct-north-america-1-2027",
   "competitionSlug": "cct-north-america-1-2027",
@@ -426,5 +427,19 @@
         ]
       }
     ]
+  },
+  "registeredRosters": {
+    "kairos-cs-main": {
+      "starters": [
+        "caleb-atlas-mercer",
+        "owen-glacier-fletcher",
+        "cameron-mold-ruiz",
+        "emiliano-moteconhuesillo-navarro",
+        "vincente-flacogomez-galan"
+      ],
+      "reserve": "zayn-parkinglot-haddad",
+      "approvedDate": "2027-02-06",
+      "rules": "Up to six registered players; substitution between series with approval, never during a started MD3."
+    }
   }
 }

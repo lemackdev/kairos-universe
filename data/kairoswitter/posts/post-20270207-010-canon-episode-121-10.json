@@ -1,0 +1,26 @@
+{
+  "id": "post-20270207-010",
+  "slug": "canon-episode-121-10",
+  "continuityId": "kairos-universe",
+  "authorType": "team",
+  "authorId": "kairos-lol-academy-blue",
+  "text": "long day, close games, lots to talk through. back at it tomorrow.",
+  "postedAt": "2027-02-01T19:10",
+  "timeZone": "PT",
+  "storyDate": "2027-02-01",
+  "episodeIds": [
+    "episode-121"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ]
+}

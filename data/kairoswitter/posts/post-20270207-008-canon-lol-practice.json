@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-008",
+  "slug": "canon-lol-practice",
+  "continuityId": "kairos-universe",
+  "authorType": "team",
+  "authorId": "kairos-lol-main",
+  "text": "Fearless day. You find out quickly which parts of your game travel with you when the comfort picks are gone.",
+  "postedAt": "2027-02-01T17:56",
+  "timeZone": "PT",
+  "storyDate": "2027-02-01",
+  "episodeIds": [
+    "episode-121"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-lol-practice.png",
+    "alt": "Illustrative candid photo related to episode 121, lol practice"
+  }
+}

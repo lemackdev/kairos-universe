@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-032",
+  "slug": "canon-tech-bag",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "jacob-xnox-price",
+  "text": "Workshop prep: adapter, spare adapter, cable, another cable because I know me.",
+  "postedAt": "2027-02-05T17:44",
+  "timeZone": "PT",
+  "storyDate": "2027-02-05",
+  "episodeIds": [
+    "episode-125"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-tech-bag.png",
+    "alt": "Illustrative candid photo related to episode 125, tech bag"
+  }
+}

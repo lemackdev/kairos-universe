@@ -1,0 +1,26 @@
+{
+  "id": "post-20270207-040",
+  "slug": "canon-episode-128-40",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "owen-glacier-fletcher",
+  "text": "tomorrow is the first official series. grandpa told me to go do my job. so that is what i am going to try to do",
+  "postedAt": "2027-02-07T13:40",
+  "timeZone": "PT",
+  "storyDate": "2027-02-07",
+  "episodeIds": [
+    "episode-128"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ]
+}

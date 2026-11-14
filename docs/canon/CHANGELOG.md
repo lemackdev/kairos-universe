@@ -1,5 +1,14 @@
 # Canon Changelog
 
+## 0.34.0 - Episodes 119-128
+
+- Canonized Episodes 119-128 from 107-128.pdf (prose archived in archive/episode-sources/kairos_119_128_import/); Episodes 107-118 were verified against the document and left unchanged. See docs/canon/EPISODES_119_128_IMPORT.md.
+- Current narrative date is now 2027-02-07 (Episode 128): the CCT North America #1 starts the next day; Kairos Gaming is in Group D with Fluxo, Imperial and BetBoom and the CCT approved Zayn (Academy Green) as sixth, reserve player.
+- Registered 14 private scrims (Counter-Strike and League), Xpecial's appointment as Support Mentor (2027-02-02), Arthur Fletcher's hospitalisation (2027-02-03) and the expansion research for Street Fighter 6 and Rocket League.
+- IEM Dallas 2027 is under way: the narrated group results of 2027-02-04 to 2027-02-07 are in the groups and match lists with dates and map scores; the group tables show a dash for round totals that are not fully known.
+- Added the Portuguese ge.globo interview with FLACOGOMEZ (Vincente) to Publications, with a new real-world publisher labelled "Reportagem fictícia no universo Kairos".
+- Home page: a section for events under way with their latest results.
+
 ## 0.33.0 - Kairoswitter
 
 - Added Kairoswitter, the in-universe feed (/wiki/kairoswitter): one JSON file per post in data/kairoswitter/posts/, accounts and profiles derived from the authors, posts limited to 280 characters and shown once the story date reaches them. Rules for writing posts are in docs/kairoswitter/README.md.
@@ -7,6 +16,7 @@
 - Rebuilt the home page: a short hero, the next event with a day count, upcoming events, the Counter-Strike top 8, the latest Kairoswitter posts and the Kairos teams. The top bar now shows six main links and a "More" menu, and uses the hamburger below 1180px.
 - Kairoswitter: new handles (real-world people use their own, executives NameLastname, players mix @KG_nick, nicknames and invented ones, the organization is @KairosGaming), @tags inside posts link to the account, the time sits at the bottom of each post, and a Portuguese post by Sofia Alvarez was rewritten in English.
 - Home page restyled flat (no gradients, one radius, one accent); the Natus Vincere logo is visible in the ranking.
+- Restyled all index pages (Teams, Players, Tournaments, Calendar, Ranking, Kairoswitter, Organizations, Transfers, Publications, Campus) with the home design: no page frame, flat cards, one radius, hairlines; tournaments are now date cards; the Games listing page (/wiki/games) was removed (the game pages stay).
 - Phone layout: hamburger menu, search box empties after navigating, capped infobox logos.
 
 ## 0.32.0 - Counter-Strike world ranking

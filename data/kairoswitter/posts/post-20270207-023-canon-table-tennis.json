@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-023",
+  "slug": "canon-table-tennis",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "milo-velcrodog-radovic",
+  "text": "table tennis rematch pending. the karaoke punishment is still legally binding",
+  "postedAt": "2027-02-03T20:41",
+  "timeZone": "PT",
+  "storyDate": "2027-02-03",
+  "episodeIds": [
+    "episode-124"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-table-tennis.png",
+    "alt": "Illustrative candid photo related to episode 124, table tennis"
+  }
+}

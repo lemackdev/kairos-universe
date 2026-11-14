@@ -3,6 +3,10 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { CompetitionView } from "@/types/catalog";
+import { competitionLogo } from "@/lib/competitionLogos";
+
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const tierNames: Record<string, string> = { premier: "Premier", major: "Major", "tier-2": "Tier 2", "tier-3": "Tier 3", "regional-tier-1": "Tier 1", "regional-tier-2": "Tier 2", "tier-1-international": "International", "tier-2-international": "International", "world-championship": "World Championship", "tier-2-world-championship": "World Championship", "postseason-international": "International" };
 
 export function CompetitionsIndexView({ competitions }: { competitions: CompetitionView[] }) {
   const [game, setGame] = useState("all");
@@ -12,7 +16,8 @@ export function CompetitionsIndexView({ competitions }: { competitions: Competit
 
   const organizers = useMemo(() => Array.from(new Set(competitions.map((c) => c.organizerName).filter((name): name is string => Boolean(name)))).sort(), [competitions]);
 
-  const filtered = competitions.filter((competition) => {
+  const sorted = [...competitions].sort((a, b) => (a.startDate ?? "9999").localeCompare(b.startDate ?? "9999") || a.name.localeCompare(b.name));
+  const filtered = sorted.filter((competition) => {
     if (game !== "all" && competition.gameName !== game) return false;
     if (region !== "all" && competition.region !== region) return false;
     if (organizer !== "all" && competition.organizerName !== organizer) return false;
@@ -53,9 +58,14 @@ export function CompetitionsIndexView({ competitions }: { competitions: Competit
         </select>
       </label>
     </div>
-    {filtered.length ? <ul className="entityList">{filtered.map((competition) => <li key={competition.id}>
-      <Link href={`/wiki/competitions/${competition.slug}`}>{competition.name}</Link>
-      <p>{competition.gameName} / {competition.status}{competition.organizerName ? ` / ${competition.organizerName}` : ""}</p>
-    </li>)}</ul> : <p>No tournaments match these filters.</p>}
+    {filtered.length ? <div className="eventCards">{filtered.map((competition) => <Link className="eventCard" key={competition.id} href={`/wiki/competitions/${competition.slug}`}>
+      <span className="eventCardDate"><small>{competition.startDate ? months[Number(competition.startDate.slice(5, 7)) - 1] : "TBD"}</small><strong>{competition.startDate ? Number(competition.startDate.slice(8)) : "–"}</strong></span>
+      <span className="eventCardBody">
+        <span className="eventCardGame">{competition.gameName}{competition.tier ? ` · ${tierNames[competition.tier] ?? competition.tier}` : ""}</span>
+        <strong>{competition.name}</strong>
+        <span className="eventCardMeta">{competition.startDate && competition.endDate && competition.startDate !== competition.endDate ? `${Number(competition.startDate.slice(8))} ${months[Number(competition.startDate.slice(5, 7)) - 1]} – ${Number(competition.endDate.slice(8))} ${months[Number(competition.endDate.slice(5, 7)) - 1]}` : "Date TBD"}{competition.prizePool ? ` · ${competition.prizePool}` : ""}</span>
+      </span>
+      <span className="eventCardLogo">{competitionLogo(competition.slug, competition.name) ?? <span>{competition.name.slice(0, 2)}</span>}</span>
+    </Link>)}</div> : <p>No tournaments match these filters.</p>}
   </>;
 }

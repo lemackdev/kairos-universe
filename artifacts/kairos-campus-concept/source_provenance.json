@@ -1,0 +1,85 @@
+{
+  "purpose": "What each source establishes about Kairos Campus, and what it does not. Only statements listed under 'establishes' were treated as canon by the model.",
+  "sources": [
+    {
+      "id": "docs/organization/CAMPUS.md",
+      "kind": "repository canon document",
+      "establishes": [
+        "Campus is in Los Angeles, California",
+        "Visual direction: private gaming mansion or residential esports compound, not a college",
+        "A separate League of Legends building",
+        "A separate Counter-Strike building",
+        "Shared operational areas and shared performance resources",
+        "Space reserved for future esports divisions",
+        "Campus supports training, coaching, analytics, health, performance, content, administration",
+        "Project Casa Arthur was a conditional plan (Episode 54): one bedroom, living room, kitchen, garden",
+        "By Episode 86 Arthur lives in the campus residential area; whether a separate Casa Arthur was built is TBD",
+        "Recreation Center operates by Episode 86, for rest and wellbeing, not a public arena",
+        "Food-service policy: three chains selected for invitations and negotiations only; nothing built or signed"
+      ],
+      "does_not_establish": ["address", "dimensions", "costs", "room counts", "floor plans", "architectural style", "dates"]
+    },
+    {
+      "id": "website/src/lib/campus/masterplan.ts",
+      "kind": "repository design proposal (explicitly not canon)",
+      "establishes": [
+        "List of confirmed-function areas: Adrian's office, media/interview, LoL Main/Black, Academy Blue, Academy White rooms, CS Main and Academy rooms, the five Commons rooms, accessible family-residential zone"
+      ],
+      "does_not_establish": ["any placement or geometry; everything else in the file is marked proposed-layout"]
+    },
+    {
+      "id": "Episode 86",
+      "title": "Fora do Servidor (2026-12-13)",
+      "kind": "episode source text (docs/episodes/sources/KAIROS_EPISODES_076_090_NORMALIZED.md, data/episodes/episode-086.json)",
+      "establishes": [
+        "Recreation Center is a new building between the dormitories and the performance center",
+        "Not an arena; no public stands; no intention to host competitions",
+        "Covered multi-sport court: basketball, futsal, volleyball",
+        "Two table-tennis tables beside it",
+        "A smaller stretching and mobility area",
+        "After the corridor, the gym that already existed in the performance program, now directly connected",
+        "Arthur Fletcher lives in an accessible campus residence"
+      ],
+      "does_not_establish": ["dimensions", "which side each element is on", "corridor length", "dormitory count or layout"]
+    },
+    {
+      "id": "Episode 100",
+      "title": "Mais do Que Jogadores (2027-01-12)",
+      "kind": "episode source text (archive/episode-sources/kairos_90_106_import/episode_100.txt, data/episodes/episode-100.json)",
+      "establishes": [
+        "Kairos Commons opens in the west wing, for all 25 players of both divisions and their coaches",
+        "Maker Lab: large benches, tools, disassembled computers, electronics kits, soldering station, 3D printing space, cabinets still empty, wall sign MAKER LAB",
+        "Next room: acoustic treatment, large digital piano, two guitars, bass, electronic drum kit, microphones, small recording desk",
+        "Then the image room: cameras, lenses, editing computers, lighting, small neutral backdrop; no large Kairos logo; publishing is voluntary",
+        "Then the kitchen: much smaller than the professional dining-hall kitchen, but complete: counter, stove, oven, refrigerator, utensils, cabinets",
+        "Outdoor area: multipurpose court, half basketball court, space for futsal, small smooth strip usable for skating, tables, covered area; nothing gigantic or professional; skateboards kept in a cabinet",
+        "At the end of the corridor: a small, almost office-like room with a whiteboard, sign KAIROS COMMUNITY",
+        "A main room ('sala principal') where the group gathers",
+        "Rules: no performance metrics, no content requirement",
+        "Training rooms are called 'sala preta' and 'sala azul'; a dining hall ('refeitório') with a professional kitchen exists"
+      ],
+      "does_not_establish": ["room sizes", "which side of the corridor rooms are on", "what the wing is west of", "where the skate cabinet stands", "microphone count"]
+    },
+    {
+      "id": "project brief",
+      "kind": "author brief supplied in conversation, narrative through Episode 128 (2027-02-07)",
+      "establishes": [
+        "CS academy room is the Academy Green room; five active players, a sixth only being scouted",
+        "p4rkingl0t's CCT reserve registration is temporary and adds no permanent station",
+        "Commons later used for group meals, TV, casual gaming, karaoke, tabletop and cross-division gatherings",
+        "Health structure: gym, physiotherapy, nutrition, performance, psychological and medical support; Dr. Maya Torres and Dr. Evelyn Park",
+        "Adrian Vale's office, executive meetings and interviews happen on campus",
+        "Planning interest in Street Fighter 6 and Rocket League (higher), F1 sim racing and EA Sports FC (lower); nothing built",
+        "Pet therapy discussed; no facility confirmed"
+      ],
+      "does_not_establish": ["any geometry"],
+      "note": "These later episodes are not yet in the repository world state; this folder does not add them to canon files."
+    },
+    {
+      "id": "campus illustrations",
+      "kind": "visual reference only",
+      "establishes": [],
+      "does_not_establish": ["anything; not used for dimensions, counts, street names or layout"]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "canon_status": "PROPOSED_VISUALIZATION",
+  "warning": "Every number in this file is a schematic working unit chosen for the model. None is a canon dimension, distance, orientation or scale. Edit freely and rerun build_kairos_campus.py.",
+  "axes": "X grows to the right of the plan, Y to the top. The plan claims no north. 'West wing' is drawn on the left side only by drawing convention.",
+  "params": {"wall_thickness": 0.18, "wall_height": 3.0, "floor_thickness": 0.1},
+  "site": [-92, -74, 88, 46],
+  "rooms": {
+    "Commons_Shared_Lounge": {"rect": [-44, 14, -30, 34], "openings": {"W": [[15.5, 2.4, "open"]], "E": [[24, 2.0, "door"], [30, 2.4, "window"]], "S": [[-37, 2.0, "door"], [-41, 2.0, "window"], [-33, 2.0, "window"]], "N": [[-40.5, 2.6, "window"], [-33.5, 2.6, "window"]]}},
+    "Commons_Corridor": {"rect": [-76, 14, -44, 17], "walls": "S", "openings": {"S": [[-70, 2.0, "door"], [-62, 2.4, "window"], [-54, 2.4, "window"], [-48, 2.4, "window"]]}},
+    "Commons_Maker_Lab": {"rect": [-54, 17, -44, 30], "openings": {"S": [[-49, 1.6, "door"]], "N": [[-51.5, 2.2, "window"], [-46.5, 2.2, "window"]]}},
+    "Commons_Music_Room": {"rect": [-62, 17, -54, 30], "openings": {"S": [[-58, 1.4, "door"]]}},
+    "Commons_Photo_Film": {"rect": [-70, 17, -62, 30], "openings": {"S": [[-66, 1.4, "door"]]}},
+    "Commons_Kitchen_Studio": {"rect": [-76, 17, -70, 30], "openings": {"S": [[-73, 1.4, "door"]], "N": [[-73, 2.0, "window"]]}},
+    "Commons_Kairos_Community": {"rect": [-82, 14, -76, 21], "openings": {"E": [[15.5, 1.4, "door"]], "W": [[17.5, 2.0, "window"]]}},
+
+    "Dining_Main_Hall": {"rect": [-26, 14, -8, 36], "openings": {"W": [[24, 2.0, "door"]], "S": [[-17, 2.4, "door"], [-23, 2.2, "window"], [-11, 2.2, "window"]], "N": [[-22, 2.6, "window"], [-17, 2.6, "window"], [-12, 2.6, "window"]], "E": [[19, 1.6, "door"], [29, 5.0, "open"]]}},
+    "Dining_Professional_Kitchen": {"rect": [-8, 14, 4, 36], "openings": {"W": [[19, 1.6, "door"], [29, 5.0, "open"]], "E": [[17, 1.6, "door"]], "N": [[-2, 2.4, "window"]]}},
+
+    "Admin_Adrian_Office": {"rect": [12, 27, 20, 36], "openings": {"S": [[16, 1.4, "door"]], "N": [[16, 3.0, "window"]]}},
+    "Admin_Meeting": {"rect": [20, 27, 29, 36], "openings": {"S": [[24.5, 1.4, "door"]], "N": [[24.5, 3.0, "window"]]}},
+    "Admin_Media_Interview": {"rect": [29, 27, 38, 36], "openings": {"S": [[33.5, 1.4, "door"]]}},
+    "Admin_Entry_Circulation": {"rect": [12, 24, 38, 27], "walls": "EW", "openings": {"W": [[25.5, 1.8, "door"]], "E": [[25.5, 1.8, "door"]]}},
+    "Admin_Operations": {"rect": [12, 18, 38, 24], "openings": {"N": [[25, 1.6, "door"]], "S": [[16, 2.4, "window"], [22, 2.4, "window"], [28, 2.4, "window"], [34, 2.4, "window"]]}},
+
+    "LoL_Black_Training": {"rect": [-27, -10, -16, 2], "openings": {"S": [[-21.5, 1.6, "door"]], "N": [[-24, 2.4, "window"], [-19, 2.4, "window"]]}},
+    "LoL_Blue_Training": {"rect": [-16, -10, -5, 2], "openings": {"S": [[-10.5, 1.6, "door"]], "N": [[-13, 2.4, "window"], [-8, 2.4, "window"]]}},
+    "LoL_White_Training": {"rect": [-5, -10, 6, 2], "openings": {"S": [[0.5, 1.6, "door"]], "N": [[-2, 2.4, "window"], [3, 2.4, "window"]]}},
+    "LoL_Circulation": {"rect": [-27, -13, 6, -10], "walls": "EWS", "openings": {"W": [[-11.5, 1.8, "door"]], "E": [[-11.5, 1.8, "door"]], "S": [[-19, 1.6, "open"]]}},
+    "LoL_Review_Coaching_Support": {"rect": [-27, -22, -11, -13], "walls": "ESW", "openings": {"S": [[-23, 2.4, "window"], [-15, 2.4, "window"]]}},
+
+    "CS_Main_Training": {"rect": [14, -10, 27, 2], "openings": {"S": [[20.5, 1.6, "door"]], "N": [[17.5, 2.4, "window"], [23.5, 2.4, "window"]]}},
+    "CS_Green_Training": {"rect": [27, -10, 40, 2], "openings": {"S": [[33.5, 1.6, "door"]], "N": [[30.5, 2.4, "window"], [36.5, 2.4, "window"]]}},
+    "CS_Circulation": {"rect": [14, -13, 40, -10], "walls": "EWS", "openings": {"W": [[-11.5, 1.8, "door"]], "E": [[-11.5, 1.8, "door"]], "S": [[32, 1.6, "open"]]}},
+    "CS_Tactical_Review_Support": {"rect": [24, -22, 40, -13], "walls": "ESW", "openings": {"S": [[28, 2.4, "window"], [36, 2.4, "window"]]}},
+
+    "Recreation_Indoor_Multipurpose_Court": {"rect": [-22, -64, 14, -36], "openings": {"E": [[-50, 2.4, "door"]], "W": [[-50, 2.4, "door"]], "N": [[-8, 2.4, "door"], [-17, 3.0, "window"], [1, 3.0, "window"], [9, 3.0, "window"]], "S": [[-16, 3.0, "window"], [-8, 3.0, "window"], [0, 3.0, "window"], [10, 3.0, "window"]]}},
+    "Recreation_Table_Tennis": {"rect": [6, -63.8, 13.8, -52.2], "walls": "", "overlay": true},
+    "Recreation_Mobility_Area": {"rect": [6, -47.8, 13.8, -36.2], "walls": "", "overlay": true},
+    "Recreation_Gym_Connection": {"rect": [14, -52, 22, -48], "walls": "NS", "openings": {"N": [[18, 3.0, "window"]], "S": [[18, 3.0, "window"]]}},
+
+    "Performance_Gym": {"rect": [22, -64, 38, -36], "openings": {"W": [[-50, 2.4, "door"]], "E": [[-50, 2.0, "door"]], "N": [[26, 3.0, "window"], [34, 3.0, "window"]], "S": [[26, 3.0, "window"], [34, 3.0, "window"]]}},
+    "Performance_Circulation": {"rect": [38, -64, 42, -36], "walls": "NS", "openings": {"N": [[40, 1.8, "door"]]}},
+    "Health_Physiotherapy": {"rect": [42, -43, 52, -36], "openings": {"W": [[-39.5, 1.4, "door"]], "E": [[-39.5, 2.4, "window"]]}},
+    "Health_Nutrition_Performance": {"rect": [42, -50, 52, -43], "openings": {"W": [[-46.5, 1.4, "door"]], "E": [[-46.5, 2.4, "window"]]}},
+    "Health_Psychology": {"rect": [42, -57, 52, -50], "openings": {"W": [[-53.5, 1.4, "door"]]}},
+    "Health_Medical_Support": {"rect": [42, -64, 52, -57], "openings": {"W": [[-60.5, 1.4, "door"]], "E": [[-60.5, 2.4, "window"]]}}
+  },
+  "roofs": {
+    "01_League_Building": [[-27, -13, 6, 2], [-27, -22, -11, -13]],
+    "02_CounterStrike_Building": [[14, -13, 40, 2], [24, -22, 40, -13]],
+    "03_Kairos_Commons": [[-44, 14, -30, 34], [-76, 14, -44, 30], [-82, 14, -76, 21]],
+    "04_Dining": [[-26, 14, 4, 36]],
+    "05_Recreation_Center": [[-22, -64, 14, -36], [14, -52, 22, -48]],
+    "06_Performance_Health": [[22, -64, 52, -36]],
+    "08_Administration_Media": [[12, 18, 38, 36]]
+  },
+  "residential_masses": [[-72, -64, -62, -36], [-62, -44, -36, -36], [-62, -64, -36, -56]],
+  "residential_court": [-62, -56, -36, -44],
+  "arthur_marker": [-42, -60],
+  "commons_dining_link": [-30, 22.5, -26, 25.5],
+  "outdoor": {
+    "hardscape": [-84, -22, -36, 11],
+    "multipurpose_court": [-81, -19, -57, -5],
+    "half_basketball": [-52, -19, -40, -7],
+    "skate_surface": [-81, 1, -63, 7],
+    "covered_area": [-48, -2, -39, 7],
+    "tables": [[-58, 4], [-54, 0], [-58, -3], [-45.5, 4.5], [-45.5, 0.5]]
+  },
+  "future_zone": [50, -22, 80, 6],
+  "paths": [
+    [-38, 6, 48, 9], [-38, 9, -36, 14], [-18.2, 9, -15.8, 14], [-34, -34, -31, 6], [8, -34, 12, 27],
+    [-34, -34, 47, -31], [44, -34, 47, 26.5], [38, 24.5, 47, 26.5], [-9.2, -36, -6.8, -34], [39, -36, 41, -34],
+    [-36, -51, -22, -49], [-31, -12.5, -27, -10.5], [6, -12.5, 8, -10.5], [12, -12.5, 14, -10.5], [40, -12.5, 44, -10.5],
+    [-71, 11, -69, 14], [-36, -12.5, -34, -10.5], [4, 16, 8, 18], [47, -8, 50, -6]
+  ],
+  "cameras": {
+    "01_masterplan_topdown": {"type": "ORTHO", "center": [19, -13], "ortho_scale": 228, "res": [3840, 2260], "board": true},
+    "02_isometric_overview": {"type": "PERSP", "loc": [120, -172, 128], "target": [0, -21, 0], "lens": 46, "res": [3840, 2160]},
+    "03_commons_cutaway": {"type": "PERSP", "loc": [-56, -2, 46], "target": [-56, 22, 0], "lens": 27, "res": [3840, 2160]},
+    "04_league_training": {"type": "PERSP", "loc": [-10.5, -30, 30], "target": [-10.5, -6, 0], "lens": 27, "res": [3840, 2160]},
+    "05_counter_strike_training": {"type": "PERSP", "loc": [27, -30, 28], "target": [27, -6, 0], "lens": 27, "res": [3840, 2160]},
+    "06_recreation_center": {"type": "PERSP", "loc": [8, -86, 48], "target": [8, -50, 0], "lens": 26, "res": [3840, 2160]},
+    "07_residential_performance": {"type": "PERSP", "loc": [-10, -122, 70], "target": [-10, -40, 0], "lens": 27, "res": [3840, 2160]}
+  }
+}

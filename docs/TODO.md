@@ -9,3 +9,6 @@
 - League of Legends head coaches for the external teams (the author postponed it).
 - Counter-Strike org location and head coach for BC.Game and OG (HLTV gave no usable country).
 - Fill the TBD teams of the Counter-Strike tournaments as they are confirmed; the two Majors still have no format.
+- Enter the remaining IEM Dallas group results and the CCT North America #1 results in the overlays as the next episodes narrate them; the map scores that Episodes 125-128 leave out (Vitality-Liquid Dust II, M80-Astralis Train and Nuke, paiN-Astralis Nuke, MOUZ-Spirit Train) stay empty until stated.
+- Kairoswitter posts for Episodes 119-128 (the feed still ends at 2027-01-29).
+- Home page `Then` list: decide whether Kairos events (the LCS debut on 2027-02-15) should take priority over other events on the same date.

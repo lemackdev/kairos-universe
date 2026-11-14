@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-022",
+  "slug": "canon-food-at-door",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "maya-torres",
+  "text": "The kitchen is doing what it does best tonight: sending food where it is needed and not asking anyone to explain themselves.",
+  "postedAt": "2027-02-03T19:34",
+  "timeZone": "PT",
+  "storyDate": "2027-02-03",
+  "episodeIds": [
+    "episode-124"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-food-at-door.png",
+    "alt": "Illustrative candid photo related to episode 124, food at door"
+  }
+}

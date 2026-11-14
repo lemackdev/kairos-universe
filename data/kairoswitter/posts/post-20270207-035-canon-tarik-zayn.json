@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-035",
+  "slug": "canon-tarik-zayn",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "tarik-kairos-cs-academy-head-coach",
+  "text": "Proud of Zayn. His spot with Green matters, and now he has a chance to travel with Main as the approved reserve. Both things can be true.",
+  "postedAt": "2027-02-06T20:05",
+  "timeZone": "PT",
+  "storyDate": "2027-02-06",
+  "episodeIds": [
+    "episode-127"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-tarik-zayn.png",
+    "alt": "Illustrative candid photo related to episode 127, tarik zayn"
+  }
+}

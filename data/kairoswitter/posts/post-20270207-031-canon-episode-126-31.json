@@ -1,0 +1,26 @@
+{
+  "id": "post-20270207-031",
+  "slug": "canon-episode-126-31",
+  "continuityId": "kairos-universe",
+  "authorType": "player",
+  "authorId": "owen-glacier-fletcher",
+  "text": "I am going to Austin. I can come back if Grandpa needs me, and everyone made sure I knew that.",
+  "postedAt": "2027-02-05T16:37",
+  "timeZone": "PT",
+  "storyDate": "2027-02-05",
+  "episodeIds": [
+    "episode-126"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ]
+}

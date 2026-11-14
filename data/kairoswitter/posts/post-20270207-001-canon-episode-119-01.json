@@ -1,0 +1,26 @@
+{
+  "id": "post-20270207-001",
+  "slug": "canon-episode-119-01",
+  "continuityId": "kairos-universe",
+  "authorType": "team",
+  "authorId": "kairos-cs-main",
+  "text": "Monday reset. Tabs closed, desk cleared, water bottle found. That counts as a system.",
+  "postedAt": "2027-01-30T10:07",
+  "timeZone": "PT",
+  "storyDate": "2027-01-30",
+  "episodeIds": [
+    "episode-119"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ]
+}

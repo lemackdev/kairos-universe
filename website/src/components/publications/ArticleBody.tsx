@@ -78,7 +78,12 @@ function renderBlock(
         <div key={index} className={styles.embed}>
           <strong>{block.title}</strong>
           {block.availability === "available" && block.url ? (
-            <a href={block.url} target="_blank" rel="noopener noreferrer">
+            block.kind === "video" && block.url.startsWith("/publications/") ? (
+              // eslint-disable-next-line jsx-a11y/media-has-caption
+              <video controls preload="metadata" src={block.url} style={{ width: "100%", maxWidth: "760px" }}>
+                Your browser does not support embedded video.
+              </video>
+            ) : <a href={block.url} target="_blank" rel="noopener noreferrer">
               {block.kind === "video" ? "Watch" : block.kind === "audio" ? "Listen" : "Open"} (opens in a new tab)
             </a>
           ) : (

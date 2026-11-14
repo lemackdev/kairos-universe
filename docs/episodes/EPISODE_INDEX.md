@@ -129,3 +129,7 @@ create another record.
 - [Episodes 57-75 normalization](EPISODES_057_075_NORMALIZATION.md)
 - [Source manifest](../../archive/SOURCE_MANIFEST.md)
 - [Character index](../characters/CHARACTER_INDEX.md)
+
+## Episodes 119-128
+
+Episodes 119 through 128 (2027-01-30 to 2027-02-07) are canonized from `107-128.pdf`; prose in `archive/episode-sources/kairos_119_128_import/`, source [source-episodes-119-128](../../data/sources/source-episodes-119-128.json). See the [import report](../canon/EPISODES_119_128_IMPORT.md).

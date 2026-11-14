@@ -71,3 +71,4 @@ details:not([open]) > .sectionHead .chevron { transform: rotate(-45deg); margin:
 .round .side.right .team { flex-direction: row; }
 .tbdTeam { color: color-mix(in srgb, currentColor 55%, transparent); }
 .tbdMark { width: 28px; height: 28px; display: inline-grid; place-items: center; font-weight: 800; font-size: 16px; }
+.detail { grid-column: 1 / -1; text-align: center; font-size: 11px; color: var(--article-muted); font-variant-numeric: tabular-nums; }

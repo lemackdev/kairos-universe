@@ -1,0 +1,134 @@
+{
+  "id": "episode-125",
+  "slug": "episode-125",
+  "episodeNumber": 125,
+  "title": "O Próximo Passo",
+  "historicalTitle": "O Próximo Passo",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-04",
+  "datePrecision": "exact",
+  "publicationOrder": 125,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "adrian-elias-vale",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "claire-kairos-executive",
+    "ethan-kairos-executive",
+    "sofia-kairos-executive",
+    "arthur-fletcher",
+    "lukas-luk-novak",
+    "tarik-kairos-cs-academy-head-coach",
+    "ethan-trace-miller",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Thursday 2027-02-04. The executives set preliminary priorities for expansion: Street Fighter 6 (one competitor) and Rocket League (three players and a coach) are the 2027 priorities for research, F1 and EA Sports FC stay in medium-term planning, nothing authorised. Adrian also starts a discreet search for a flexible sixth Counter-Strike player. League scrims: Main beat Winthrop University 2-0; Academy White beat Academy Blue 2-1. The organisation watches the first IEM Dallas matches at the Commons.",
+  "keyEvents": [
+    "8:14 — Executive meeting (Ethan Calder, Claire Whitcomb, Sofia Alvarez, Marcus, Emily): Street Fighter 6 with a single player and technical support; Rocket League with three players and one coach; F1 and EA Sports FC with individual representatives later; no hiring and no debut date.",
+    "9:06 — Sixth-player problem: a versatile player able to rifle, support roles and eventually AWP; not a replacement for Owen; no public announcement; Marcus and Luk may study free-agent profiles and CCT substitution rules.",
+    "9:48–11:56 — Main vs Winthrop University (Wilson, Kisno, Bradley, Cody Sun, Mixtsure), private MD3: Kairos win 2-0 (31 min; second game after being 5k gold behind).",
+    "10:17–15:48 — Academy Blue vs Academy White, private MD3: White win game 1 (34 min) and game 3, Blue win game 2 (28 min); Academy White 2-1 Academy Blue. Hai and Sable warn against reading it as a promotion.",
+    "12:38 — The Commons watches IEM Dallas 2027, in progress since 2027-02-03: Group C M80 vs Astralis, Astralis win 2-1 (Train to Astralis, Nuke to M80, Cobblestone 13-11 Astralis).",
+    "17:22 — Group A: FURIA beat Team Liquid 2-0 (Inferno 13-9, Overpass 13-10).",
+    "18:36 — Owen, in hospital, is told by Caleb that Adrian and Luk are checking rules for an emergency option; no one is hired and he remains the AWPer.",
+    "20:11–22:27 — Commons evening: Rocket League and Street Fighter on the shared consoles; Sofia proposes an internal tournament to present those games; Marcus has found only imperfect free-agent profiles and awaits the CCT's reply."
+  ],
+  "consequences": [
+    "Street Fighter 6 and Rocket League enter a research and scouting phase; no contract, date or division exists.",
+    "A discreet search for a sixth Counter-Strike player begins."
+  ],
+  "canonIntroduced": [
+    "Expansion priorities for 2027: Street Fighter 6 and Rocket League (research only); F1 and EA Sports FC later.",
+    "IEM Dallas group results of 2027-02-04 (see data/competitive-world-overrides)."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-117",
+    "episode-124"
+  ],
+  "continuityNotes": [
+    "The episode says the IEM Dallas groups are A (Vitality, FURIA, Liquid, MIBR) and C (M80, Astralis, paiN, BC.Game); they match the draw already in the overlay.",
+    "Only the results narrated are registered; the other round-1 matches of groups A and C are not narrated."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Street Fighter 6, Rocket League, F1 and EA Sports FC are real-world games; IEM Dallas teams and players are real-world references with fictional-canon results."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_125.txt",
+      "locator": "Episódio 125 — O Próximo Passo",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "IEM Dallas started on 2027-02-03 and has four groups with two advancing; Kairos Gaming does not take part.",
+    "Astralis beat M80 2-1 in Group C; FURIA beat Team Liquid 2-0 in Group A.",
+    "Main beat Winthrop University 2-0 in a private scrim; White beat Blue 2-1 in a private scrim."
+  ],
+  "unconfirmedDetails": [
+    "Any hiring, budget or date for the new modalities and the identity of any sixth-player candidate."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

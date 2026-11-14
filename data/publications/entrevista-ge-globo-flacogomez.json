@@ -1,0 +1,139 @@
+{
+  "id": "entrevista-ge-globo-flacogomez",
+  "slug": "entrevista-ge-globo-flacogomez",
+  "continuityId": "kairos-universe",
+  "title": "Filho de brasileiros, jogador de CS viraliza com camisa do Palmeiras e apelido inspirado em Flaco López e Gustavo Gómez",
+  "subtitle": "Vincente Galán, de 17 anos, fala português, acompanha o Palmeiras desde criança e se prepara para estrear profissionalmente pela Kairos Gaming nos Estados Unidos.",
+  "publisherId": "ge-globo",
+  "authorIds": [],
+  "byline": "Redação ge.globo",
+  "publicationDate": "2027-02-05",
+  "fictionalWorldDate": "2027-02-05",
+  "articleType": "interview",
+  "classification": "in-universe-publication",
+  "canonStatus": "confirmed",
+  "publicationStatus": "published",
+  "featured": false,
+  "summary": "Filho de brasileiros de Curitiba, criado em Tulsa e torcedor do Palmeiras, Vincente Galán (FLACOGOMEZ) explica ao ge.globo a origem do nickname e fala da estreia da Kairos Gaming na CCT.",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "O nickname já dizia muito, mas foi uma camisa verde numa arquibancada de Los Angeles que fez a história de Vincente Galán chegar ao Brasil. Numa foto tirada durante o jogo dos Lakers, o jovem jogador de Counter-Strike aparece de camisa do Palmeiras no meio da delegação da Kairos Gaming. A imagem circulou entre palmeirenses nas redes sociais, alguém identificou o escudo, descobriu o perfil da organização e chegou ao nickname: FLACOGOMEZ, uma mistura de Flaco López e Gustavo Gómez."
+    },
+    {
+      "type": "image",
+      "path": "/publications/ge-globo-flacogomez/flacogomez-palmeiras-shirt.png",
+      "alt": "Vincente Galán com a camisa do Palmeiras",
+      "caption": "Vincente Galán, o FLACOGOMEZ, com a camisa do Palmeiras.",
+      "credit": "Arquivo pessoal de Vincente Galán"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vincente tem 17 anos e nasceu nos Estados Unidos, mas o português é a língua de casa. Os pais são de Curitiba e se mudaram para o país antes de ele nascer. Cresceu em Tulsa, no estado de Oklahoma, e hoje mora no campus da Kairos, em Los Angeles. Em entrevista ao ge.globo por chamada de vídeo, usando a camisa azul do Palmeiras de 2026, ele contou como a ligação com o Brasil e com o clube nunca se perdeu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "“O Palmeiras sempre fez parte disso”"
+    },
+    {
+      "type": "paragraph",
+      "text": "“Meus pais são de Curitiba. Eles se mudaram para os Estados Unidos antes de eu nascer, então cresci ouvindo português em casa. O Palmeiras sempre fez parte disso. Mesmo morando longe, eu acompanhava os jogos”, disse. Ele nunca morou no Brasil, mas pretende conhecer o país melhor, principalmente a capital paranaense, de onde a família veio: “Quero conhecer melhor. Principalmente Curitiba.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "O nickname nasceu de uma escolha simples. “Eu precisava escolher um nickname. Gostava muito do Flaco López e do Gustavo Gómez, então acabei juntando os nomes.” A repercussão, porém, passou longe do que imaginava. “Eu achei que algumas pessoas talvez reconhecessem, mas nunca imaginei que torcedores brasileiros fossem encontrar uma foto minha num jogo de basquete em Los Angeles.” Os seguidores aumentaram, e a família acompanha tudo com bom humor: “Minha família está achando engraçado.”"
+    },
+    {
+      "type": "pullQuote",
+      "text": "Não vou prometer que vamos ganhar tudo.",
+      "attribution": "Vincente Galán, FLACOGOMEZ"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A estreia da Kairos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vincente integra o time principal da Kairos Gaming, que se prepara para a primeira competição oficial da organização: a CCT North America #1, em Austin, no Texas, de 8 a 15 de fevereiro, com premiação de US$ 100 mil. Perguntado sobre o que os palmeirenses podem esperar, o jogador foi cauteloso. “Somos uma equipe muito jovem. Estamos trabalhando bastante, mas sabemos que existem times com muito mais experiência. Quero que as pessoas acompanhem nosso crescimento. Não vou prometer que vamos ganhar tudo.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sobre os treinos contra outras organizações, ele preferiu não entrar em detalhes. “Já tivemos experiências importantes, mas os resultados dos treinos são privados. O que posso dizer é que aprendemos muito.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "A conversa terminou com perguntas sobre adversários brasileiros. Enfrentar uma equipe do país seria especial, admitiu, mas a prioridade é outra: “Quando começa o jogo, eu quero ganhar de qualquer adversário.” E se o sorteio colocar a FURIA no caminho? “Vou tentar ganhar.” E a paiN? “Também.” E cinco palmeirenses? “Aí fica mais difícil”, respondeu, rindo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vincente também falou da rotina no campus, da convivência com colegas de diferentes países e da importância de ter encontrado uma organização que aposta em atletas jovens."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Um recado aos brasileiros"
+    },
+    {
+      "type": "embed",
+      "kind": "video",
+      "title": "Vincente Galán explica a origem do apelido FLACOGOMEZ",
+      "url": "/publications/ge-globo-flacogomez/flacogomez-interview.mp4",
+      "availability": "available",
+      "note": "Trecho da entrevista em vídeo para o ge.globo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao final, olhando para a câmera, deixou uma mensagem aos torcedores que passaram a acompanhá-lo. “Quero agradecer muito pelo carinho. Estou representando a Kairos, mas é muito legal saber que tem gente do Brasil acompanhando. Espero que vocês gostem do nosso CS.” Depois de uma pequena pausa, o grito que qualquer palmeirense reconhece: “Avanti, Palestra!”"
+    }
+  ],
+  "cover": null,
+  "imageCredits": [
+    "Imagem fornecida pelo autor do projeto."
+  ],
+  "relatedOrganizationIds": [
+    "kairos-esports"
+  ],
+  "relatedTeamIds": [
+    "kairos-cs-main"
+  ],
+  "relatedPlayerIds": [
+    "vincente-flacogomez-galan"
+  ],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [
+    "cct-north-america-1-2027"
+  ],
+  "relatedGameIds": [
+    "game-counter-strike"
+  ],
+  "relatedEpisodeIds": [
+    "episode-122",
+    "episode-126"
+  ],
+  "relatedPublicationIds": [
+    "interview-dust2-dez-cadeiras"
+  ],
+  "sourceIds": [
+    "source-episode-126-ge-globo-interview"
+  ],
+  "realWorldCitation": null,
+  "rumorAuthorization": null,
+  "corrections": [],
+  "tags": [
+    "counter-strike",
+    "entrevista",
+    "palmeiras",
+    "portugues",
+    "kairos-gaming",
+    "cct"
+  ],
+  "notes": [
+    "Episode 126 gives the headline 'De Tulsa para o mundo: ...'; at the author's request the published title is the same headline without the 'De Tulsa para o mundo:' opening and with 'apelido' instead of 'nickname'. Episode 126 shows only the headline, the standfirst and a summary of this article; the body was written for Kairospedia from the interview scene (10:51) and the facts of Episodes 122 and 126. Every quotation is taken from that scene; no fact beyond the episodes was added.",
+    "The journalist is unnamed in the episode, so the byline is the staff of ge.globo.",
+    "Episode 122 says Vincente grew up in Tulsa and later in California; the interview scene says Tulsa. The article says he grew up in Tulsa.",
+    "Vincente wears a blue 2026 Palmeiras shirt in the interview; the viral photo shows a green one (Episode 122)."
+  ],
+  "lastUpdated": "2026-11-14"
+}

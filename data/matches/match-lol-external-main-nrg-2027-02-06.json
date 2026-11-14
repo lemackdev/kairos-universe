@@ -1,0 +1,83 @@
+{
+  "id": "match-lol-external-main-nrg-2027-02-06",
+  "slug": "match-lol-external-main-nrg-2027-02-06",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-nrg"
+  ],
+  "scheduledDate": "2027-02-06",
+  "date": "2027-02-06",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-nrg",
+  "bestOf": null,
+  "teamAScore": 2,
+  "teamBScore": 1,
+  "winnerTeamId": "kairos-lol-main",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-127"
+  ],
+  "relatedPlayerIds": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_127.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "NRG",
+    "opponentLeague": "NACL (Sniper, Griffin, AoJune, Levitate, Kim Down)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "kairos-lol-main",
+        "provenance": "narrated-canon",
+        "durationMinutes": 30
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "opponent-nrg",
+        "provenance": "narrated-canon"
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-main",
+        "provenance": "narrated-canon",
+        "durationMinutes": 37,
+        "picks": {
+          "rkN": "Ornn",
+          "Vanta": "Ivern",
+          "404": "Orianna",
+          "Aster": "Xayah",
+          "Moss": "Braum"
+        }
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Main beat NRG 2-1 in a private Fearless Draft MD3 on 2027-02-06 (Episode 127)."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

@@ -17,7 +17,6 @@ const required = [
   "/wiki",
   "/wiki/about",
   "/wiki/search",
-  "/wiki/games",
   "/wiki/games/league-of-legends",
   "/wiki/organizations",
   "/wiki/organizations/kairos-esports",

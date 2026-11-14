@@ -1,0 +1,137 @@
+{
+  "id": "episode-127",
+  "slug": "episode-127",
+  "episodeNumber": 127,
+  "title": "O Sexto Nome",
+  "historicalTitle": "O Sexto Nome",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-06",
+  "datePrecision": "exact",
+  "publicationOrder": 127,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "zayn-parkinglot-haddad",
+  "divisions": [
+    "Counter-Strike",
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "marcus-kairos-general-manager",
+    "arthur-fletcher",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "tarik-kairos-cs-academy-head-coach",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes",
+    "connor-mako-sullivan",
+    "jacob-xnox-price",
+    "owen-kite-hughes",
+    "tyler-murmur-grant",
+    "lucas-grit-foster",
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy",
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Saturday 2027-02-06. The CCT confirms each team may register six players (five starters and a reserve) and allows substitutions between series. Luk chooses Zayn (p4rkingl0t) of Academy Green as sixth player after a short test; with parental consent, the CCT approves the registration at 18:02. League scrims: Main 2-1 NRG, Blue 2-1 Dorado Gaming, White 0-2 Maryville University. IEM Dallas groups B and D open: Legacy 2-1 FaZe, Falcons 2-0 NAVI, MOUZ 2-1 Spirit, Aurora 2-0 G2.",
+  "keyEvents": [
+    "6:58 — Official CCT reply: up to six players per team, a reserve can be substituted between series with approval but not during a started MD3; documentation due 18:00 Austin time.",
+    "8:04–8:41 — Luk proposes Zayn; Tarik agrees but wants to consult the five players first; Zayn stays an Academy Green player and will not be permanently promoted.",
+    "9:32 — Short communication test with Main (Zayn in Mold's slot on Cache and Overpass).",
+    "10:18 — Tyler confesses overdue school tasks; Hai arranges study schedules; Hai tells Tyler and Lucas to stop guessing each other's intentions.",
+    "11:03–13:09 — Main vs NRG (Sniper, Griffin, AoJune, Levitate, Kim Down): Kairos win game 1, NRG win game 2, Kairos win game 3 (37 min). Main 2-1.",
+    "12:21 — IEM Dallas Group B: Legacy 2-1 FaZe (Train 11-13, Cache 13-10, Inferno 13-9, Legacy view).",
+    "14:26 — Group D: MOUZ 2-1 Spirit (Inferno Spirit 13-9, Overpass MOUZ 13-11, Train MOUZ won).",
+    "15:17 — Academy Blue 2-1 Dorado Gaming (Philip, Nordik, Young, Array, Spirax).",
+    "16:08 — Group B: Falcons 2-0 Natus Vincere (Nuke 13-8, Dust II 13-11).",
+    "16:54 — Academy White 0-2 Maryville University (Will, Lojaz, Leza, Daption, Minui).",
+    "17:37 — Group D: Aurora 2-0 G2 Esports (Cache 13-7, Nuke 13-11).",
+    "18:02 — CCT approves the registration: IGL/Rifler Atlas, AWPer Glacier, Entry Mold, Rifler MoteConHuesillo, Support/Anchor FLACOGOMEZ, Reserve p4rkingl0t (Zayn); Zayn remains Academy Green and is eligible for substitution between series."
+  ],
+  "consequences": [
+    "Zayn is registered as the sixth player of Kairos Gaming for CCT North America #1 only.",
+    "The search for a permanent sixth Academy Green player continues."
+  ],
+  "canonIntroduced": [
+    "CCT North America #1 allows six registered players per team; substitutions between series with approval.",
+    "p4rkingl0t (Zayn) is registered as reserve of Kairos Gaming for the CCT.",
+    "IEM Dallas group results of 2027-02-06."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-117",
+    "episode-126"
+  ],
+  "continuityNotes": [
+    "The registration does not create a permanent sixth Main player or a new building.",
+    "The Group D third map of MOUZ vs Spirit has no stated score; the Legacy-FaZe third map was won 13-9 by Legacy.",
+    "Milo says Spirit are in IEM Dallas, not the CCT."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "IEM Dallas teams and players, NRG, Dorado Gaming, Maryville University and the CCT are real-world references; results are fictional-canon."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_127.txt",
+      "locator": "Episódio 127 — O Sexto Nome",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Registered: Atlas (IGL/rifler), Glacier (AWPer), Mold (entry), MoteConHuesillo (rifler), FLACOGOMEZ (support/anchor), reserve p4rkingl0t (Zayn).",
+    "Legacy 2-1 FaZe; Falcons 2-0 Natus Vincere; MOUZ 2-1 Spirit; Aurora 2-0 G2 Esports (round 1 of groups B and D).",
+    "Main 2-1 NRG; Blue 2-1 Dorado; White 0-2 Maryville University; private scrims only."
+  ],
+  "unconfirmedDetails": [
+    "Whether Zayn will play and any score of MOUZ-Spirit game 3."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

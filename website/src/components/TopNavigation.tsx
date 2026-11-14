@@ -16,7 +16,6 @@ const links = [
 
 // Secondary pages live behind "More" on a wide bar and in the hamburger panel on small screens.
 const moreLinks = [
-  ["Games", "/wiki/games"],
   ["Organizations", "/wiki/organizations"],
   ["Matches", "/wiki/matches"],
   ["Transfers", "/wiki/transfers"],

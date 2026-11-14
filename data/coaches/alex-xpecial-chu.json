@@ -9,11 +9,11 @@
   "currentOrganization": "kairos-esports",
   "currentTeam": "kairos-lol-main",
   "status": "active",
-  "firstAppearance": "TBD",
-  "joinedKairos": "TBD",
+  "firstAppearance": "episode-123",
+  "joinedKairos": "2027-02-02",
   "realWorldFigure": true,
   "formerPlayingCareer": "Former professional League of Legends Support player.",
-  "coachingPhilosophy": "TBD",
+  "coachingPhilosophy": "Develop supports individually without taking draft authority from the Head Coaches; put the three supports in the same situation and ask for different decisions; review bad games, not only highlights.",
   "responsibilities": [
     "Mentor Support players across Kairos Gaming, Academy Blue and Academy White."
   ],
@@ -38,14 +38,17 @@
   "objectives": [],
   "careerHistory": [],
   "individualTimeline": [
-    "Author directive 2026-11-13: appointed Support Mentor; in-story start date not established."
+    "Author directive 2026-11-13: appointed Support Mentor; in-story start date not established.",
+    "Episode 123 (2027-02-02): Aphromoo proposes him; after a video call he reviews the three supports, sets conditions (no authority over the academy coaches, a weekly joint session, bad games included) and accepts the Support Mentor role; in-person activities start after administrative steps, contract terms not disclosed."
   ],
   "achievements": [],
   "confirmedFacts": [
-    "Xpecial is the Support Mentor across the Kairos League teams."
+    "Xpecial is the Support Mentor across the Kairos League teams.",
+    "Xpecial accepted the Support Mentor role on 2027-02-02 after a video call with Adrian, Aphromoo and Thinkcard; in-person activities start after administrative steps; contract terms were not disclosed.",
+    "He has no authority over the academy coaches' drafts and will run a weekly joint session of the three supports."
   ],
   "unconfirmedDetails": [
-    "In-story appointment date and contract terms are not established."
+    "Contract terms and the date of his first in-person day are not established."
   ],
   "canonNotes": [
     "Author directive 2026-11-13 supersedes current Aphromoo mentorship assignments. Historical episodes remain historical."

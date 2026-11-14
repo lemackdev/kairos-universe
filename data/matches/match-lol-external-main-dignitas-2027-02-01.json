@@ -1,0 +1,98 @@
+{
+  "id": "match-lol-external-main-dignitas-2027-02-01",
+  "slug": "match-lol-external-main-dignitas-2027-02-01",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-main",
+    "opponent-dignitas"
+  ],
+  "scheduledDate": "2027-02-01",
+  "date": "2027-02-01",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-main",
+  "teamBId": "opponent-dignitas",
+  "bestOf": null,
+  "teamAScore": 2,
+  "teamBScore": 1,
+  "winnerTeamId": "kairos-lol-main",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-121"
+  ],
+  "relatedPlayerIds": [
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor",
+    "daniel-moss-reyes"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_121.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Dignitas",
+    "opponentLeague": "LCS (Denathor, KryRa, Palafox, ScaryJerry, Breezy)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "opponent-dignitas",
+        "provenance": "narrated-canon",
+        "durationMinutes": 32,
+        "picks": {
+          "rkN": "Fiora",
+          "Vanta": "Lee Sin",
+          "404": "Orianna",
+          "Aster": "Xayah",
+          "Moss": "Rakan"
+        }
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "kairos-lol-main",
+        "provenance": "narrated-canon",
+        "durationMinutes": 30,
+        "picks": {
+          "rkN": "Rumble",
+          "Vanta": "Poppy",
+          "404": "Galio",
+          "Aster": "Varus",
+          "Moss": "Rell"
+        }
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-main",
+        "provenance": "narrated-canon",
+        "durationMinutes": 44,
+        "picks": {
+          "rkN": "Sion",
+          "Vanta": "Ivern",
+          "404": "Taliyah",
+          "Aster": "Sivir",
+          "Moss": "Taric"
+        }
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Main beat Dignitas 2-1 in a private Fearless Draft MD3 on 2027-02-01 (Episode 121)."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

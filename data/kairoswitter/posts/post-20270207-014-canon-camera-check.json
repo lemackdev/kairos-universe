@@ -1,0 +1,30 @@
+{
+  "id": "post-20270207-014",
+  "slug": "canon-camera-check",
+  "continuityId": "kairos-universe",
+  "authorType": "staff",
+  "authorId": "emily-chen",
+  "text": "Reminder from Comms: check the room behind you before you hit post. We have updated the checklist.",
+  "postedAt": "2027-02-01T11:38",
+  "timeZone": "PT",
+  "storyDate": "2027-02-01",
+  "episodeIds": [
+    "episode-122"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ],
+  "media": {
+    "src": "/kairoswitter/media/canon-camera-check.png",
+    "alt": "Illustrative candid photo related to episode 122, camera check"
+  }
+}

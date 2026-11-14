@@ -14,6 +14,8 @@ export interface GroupStageTeam {
   roundsWon?: number;
   roundsLost?: number;
   roundDiff?: number;
+  /** False when a played series has no complete map scores, so round totals would be misleading. */
+  roundsKnown?: boolean;
 }
 
 export interface GroupStageMatch {
@@ -24,6 +26,9 @@ export interface GroupStageMatch {
   format: string;
   mapsA: number | null;
   mapsB: number | null;
+  /** Short text such as "Nuke 13-9 · Dust II 13-?" shown under a played series. */
+  mapDetail?: string;
+  date?: string | null;
 }
 
 const signed = (value: number) => (value > 0 ? `+${value}` : String(value));
@@ -49,9 +54,9 @@ export function GroupStage({ groups, format, advancing }: { groups: Array<{ name
               <th scope="row">{index + 1}</th>
               <td><TeamCell team={team} /></td>
               <td className={styles.num}>{team.maps ?? 0}</td>
-              <td className={styles.num}>{team.roundsWon ?? 0}</td>
-              <td className={styles.num}>{team.roundsLost ?? 0}</td>
-              <td className={styles.num}>{signed(team.roundDiff ?? 0)}</td>
+              <td className={styles.num}>{team.roundsKnown === false ? "–" : (team.roundsWon ?? 0)}</td>
+              <td className={styles.num}>{team.roundsKnown === false ? "–" : (team.roundsLost ?? 0)}</td>
+              <td className={styles.num}>{team.roundsKnown === false ? "–" : signed(team.roundDiff ?? 0)}</td>
               <td className={`${styles.num} ${styles.record}`}>{team.wins ?? 0} - {team.losses ?? 0}</td>
             </tr>)}
           </tbody>
@@ -74,6 +79,7 @@ export function GroupMatches({ groups, title }: { groups: Array<{ name: string; 
               <span className={`${styles.side} ${played && match.mapsA! > match.mapsB! ? styles.won : ""}`}><TeamCell team={match.teamA} /></span>
               <span className={styles.score}>{played ? `${match.mapsA} : ${match.mapsB}` : "x"}</span>
               <span className={`${styles.side} ${styles.right} ${played && match.mapsB! > match.mapsA! ? styles.won : ""}`}><TeamCell team={match.teamB} /></span>
+              {played && (match.mapDetail || match.date) && <span className={styles.detail}>{[match.date, match.mapDetail].filter(Boolean).join(" · ")}</span>}
             </div>;
           })}
         </div>)}

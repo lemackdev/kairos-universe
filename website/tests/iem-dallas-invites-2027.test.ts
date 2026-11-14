@@ -32,6 +32,7 @@ describe("IEM Dallas 2027 invited teams", () => {
     expect(fieldCaptionFor(worldState, "lck-2027")).toBe("Participants (2027)");
     expect(invites.inviteDate).toBe("2027-01-28");
     expect(invites.notEstablished.join(" ")).toMatch(/results/);
+    expect(invites.notEstablished.join(" ")).toMatch(/not established/);
   });
 
   it("draws the sixteen invited teams into four groups of four, two advancing", () => {
@@ -42,7 +43,7 @@ describe("IEM Dallas 2027 invited teams", () => {
     expect(stage.groups.flatMap((group) => group.teamIds).sort()).toEqual(invites.teams.map((team) => team.teamId).sort());
   });
 
-  it("lists all six Bo3 matches of every group with no result entered", () => {
+  it("lists all six Bo3 matches of every group; results exist only where an episode narrates them", () => {
     for (const group of invites.groupStage!.groups) {
       expect(group.matches).toHaveLength(6);
       for (const round of [1, 2, 3]) {
@@ -52,10 +53,31 @@ describe("IEM Dallas 2027 invited teams", () => {
       }
       for (const match of group.matches!) {
         expect(match.format).toBe("Bo3");
-        expect([match.mapsA, match.mapsB, match.roundsA, match.roundsB]).toEqual([null, null, null, null]);
+        expect((match.mapsA === null) === (match.mapsB === null)).toBe(true);
+        if (match.mapsA === null) expect([match.roundsA, match.roundsB, match.date ?? null, match.maps ?? null]).toEqual([null, null, null, null]);
       }
-      expect(groupStandings(group, (id) => id).every((row) => row.wins === 0 && row.losses === 0 && row.roundDiff === 0)).toBe(true);
     }
+    const played = invites.groupStage!.groups.flatMap((group) => group.matches!.filter((match) => match.mapsA !== null));
+    expect(played).toHaveLength(11);
+    expect(invites.status).toBe("in-progress");
+  });
+
+  it("registers the narrated group results of Episodes 125-128 in the overlay's orientation", () => {
+    const find = (a: string, b: string) => invites.groupStage!.groups.flatMap((group) => group.matches!).find((match) => [match.teamAId, match.teamBId].sort().join() === [`external-cs-team-${a}`, `external-cs-team-${b}`].sort().join())!;
+    const furiaLiquid = find("furia", "team-liquid");
+    expect([furiaLiquid.mapsA, furiaLiquid.mapsB, furiaLiquid.roundsA, furiaLiquid.roundsB, furiaLiquid.date]).toEqual([2, 0, 26, 19, "2027-02-04"]);
+    const mibrFuria = find("mibr", "furia");
+    expect([mibrFuria.teamAId, mibrFuria.mapsA, mibrFuria.mapsB, mibrFuria.roundsA, mibrFuria.roundsB]).toEqual(["external-cs-team-mibr", 1, 2, 30, 37]);
+    const vitalityLiquid = find("team-vitality", "team-liquid");
+    expect([vitalityLiquid.mapsA, vitalityLiquid.mapsB, vitalityLiquid.roundsA]).toEqual([0, 2, null]);
+    expect(vitalityLiquid.maps![1]).toEqual({ map: "Dust II", scoreA: null, scoreB: null });
+    const mouzG2 = find("mouz", "g2-esports");
+    expect([mouzG2.mapsA, mouzG2.mapsB, mouzG2.roundsA, mouzG2.roundsB]).toEqual([0, 2, 7, 26]);
+    const groupA = invites.groupStage!.groups[0]!;
+    const rows = groupStandings(groupA, (id) => id);
+    expect(rows[0]).toMatchObject({ teamId: "external-cs-team-furia", wins: 2, losses: 0 });
+    expect(rows.find((row) => row.teamId === "external-cs-team-team-liquid")).toMatchObject({ wins: 0, losses: 2, roundsKnown: false });
+    expect(rows.find((row) => row.teamId === "external-cs-team-furia")!.roundsKnown).toBe(true);
   });
 
   it("derives standings from entered match results", () => {

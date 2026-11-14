@@ -1,0 +1,102 @@
+{
+  "all_passed": true,
+  "objects": 3332,
+  "checks": [
+    {
+      "n": 1,
+      "check": "Three League training rooms, five stations each",
+      "passed": true,
+      "detail": "{'LoL_Black_Training': 5, 'LoL_Blue_Training': 5, 'LoL_White_Training': 5}"
+    },
+    {
+      "n": 2,
+      "check": "Two Counter-Strike training rooms, five stations each",
+      "passed": true,
+      "detail": "{'CS_Main_Training': 5, 'CS_Green_Training': 5}"
+    },
+    {
+      "n": 3,
+      "check": "Five confirmed Commons rooms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 4,
+      "check": "Commons shared by both divisions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 5,
+      "check": "Recreation Center between residential and performance",
+      "passed": true,
+      "detail": "residential<= -36, rec -22..14, performance from 22"
+    },
+    {
+      "n": 6,
+      "check": "Recreation Center directly connected to the gym",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 7,
+      "check": "Indoor and outdoor recreation are distinct places",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 8,
+      "check": "Arthur represented as a function, no separate Casa Arthur",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 9,
+      "check": "Future divisions remain unbuilt",
+      "passed": true,
+      "detail": "60 objects, outline and ground only"
+    },
+    {
+      "n": 10,
+      "check": "No restaurant partnership depicted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 11,
+      "check": "No public arena or spectator stands",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 12,
+      "check": "No dimensions, address or parking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "n": 13,
+      "check": "Exactly two table-tennis tables",
+      "passed": true,
+      "detail": "2"
+    },
+    {
+      "n": 14,
+      "check": "Every inventory area has a tagged object",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "n": 15,
+      "check": "All room objects carry the six metadata fields",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "n": 16,
+      "check": "Disclaimer present on the board",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

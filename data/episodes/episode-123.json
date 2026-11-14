@@ -1,0 +1,111 @@
+{
+  "id": "episode-123",
+  "slug": "episode-123",
+  "episodeNumber": 123,
+  "title": "A Quinta Cadeira",
+  "historicalTitle": "A Quinta Cadeira",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "early-february-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-02-02",
+  "datePrecision": "exact",
+  "publicationOrder": 123,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "zaqueri-aphromoo-black",
+  "divisions": [
+    "League of Legends"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "zaqueri-aphromoo-black",
+    "thinkcard-kairos-strategic-coach",
+    "hai-du-lam",
+    "miles-sable-warren",
+    "darshan-kairos-top-mentor",
+    "xmithie-kairos-jungle-mentor",
+    "goldenglue-kairos-mid-mentor",
+    "wildturtle-kairos-adc-mentor",
+    "alex-xpecial-chu",
+    "daniel-moss-reyes",
+    "lucas-grit-foster",
+    "ryan-luma-chen",
+    "noah-rkn-bennett",
+    "ethan-vanta-walker",
+    "mason-404-brooks",
+    "liam-aster-oconnor"
+  ],
+  "firstAppearances": [
+    "alex-xpecial-chu"
+  ],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-lol-main",
+    "kairos-lol-academy-blue",
+    "kairos-lol-academy-white"
+  ],
+  "summary": "Tuesday 2027-02-02. Aphromoo asks to stop being formally the support mentor and remain only Head Coach of Kairos Main. Adrian, Thinkcard, Hai and Sable agree; after a video call, Xpecial (Alex Chu) accepts the role of support mentor for the three League teams, with in-person activities to start in the following days after administrative steps. The mentor structure becomes five dedicated mentors.",
+  "keyEvents": [
+    "7:42 — Aphromoo realises he gave too much attention to Taric execution with Moss and too little to collective decisions after the Dignitas series.",
+    "8:36 — Aphromoo, with Thinkcard, tells Adrian he wants to remain Head Coach of Main but give up the formal support-mentor role; he proposes Xpecial.",
+    "9:54 — Video call with Xpecial: mentor of the three support starters; Head Coaches keep draft authority; he asks to watch bad games and talk to the academy coaches first.",
+    "11:27–12:18 — Hai and Sable agree; both ask that Lucas and Ryan not receive conflicting instructions or be judged by single decisions.",
+    "13:39 — Aphromoo tells Moss; Moss fears he is not improving and is told the decision is not about performance.",
+    "15:08–16:24 — Xpecial reviews the Main loss to Dignitas, Blue loss to Blue Otter and White win over Mississippi; proposes a weekly joint session of the three supports; accepts the role without authority over the academy coaches; no financial or contract terms are disclosed.",
+    "17:51 — The three supports meet Xpecial by video; 22:04 final organisation chart: Top Darshan, Jungle Xmithie, Mid Goldenglue, ADC WildTurtle, Support Xpecial."
+  ],
+  "consequences": [
+    "Aphromoo remains exclusively Head Coach of Main; Thinkcard keeps the strategic work; Hai and Sable keep command of Blue and White.",
+    "Xpecial becomes the fifth dedicated position mentor."
+  ],
+  "canonIntroduced": [
+    "Xpecial (Alex Chu) accepts the role of support mentor for the three Kairos League teams on 2027-02-02.",
+    "Aphromoo gives up the formal support-mentor function."
+  ],
+  "canonChanged": [
+    "The author directive of 2026-11-13 that named Xpecial support mentor is now narrated in story: the first conversation and acceptance are on 2027-02-02."
+  ],
+  "continuityDependencies": [
+    "episode-121",
+    "episode-065"
+  ],
+  "continuityNotes": [
+    "The start of Xpecial's in-person activities and all contract terms are not stated.",
+    "Seven LCS opponents are listed: Cloud9, FlyQuest, Team Liquid, Dignitas, LYON, Sentinels, Shopify Rebellion."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [
+    "Xpecial is a real-world former professional support; his in-story role is fictional-canon."
+  ],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_123.txt",
+      "locator": "Episódio 123 — A Quinta Cadeira",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Xpecial accepts the support mentor role on 2027-02-02; no contract details are disclosed.",
+    "Mentors: Top Darshan, Jungle Xmithie, Mid Goldenglue, ADC WildTurtle, Support Xpecial.",
+    "Aphromoo remains Head Coach of Kairos Main; Hai commands Blue; Sable commands White; Thinkcard remains responsible for strategic work."
+  ],
+  "unconfirmedDetails": [
+    "Date on which Xpecial starts in person, contract terms and salary."
+  ],
+  "notes": []
+}

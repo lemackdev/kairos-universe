@@ -1,0 +1,79 @@
+{
+  "id": "match-cs-external-main-m80-2027-02-01",
+  "slug": "match-cs-external-main-m80-2027-02-01",
+  "game": "Counter-Strike",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-main",
+    "opponent-m80"
+  ],
+  "scheduledDate": "2027-02-01",
+  "date": "2027-02-01",
+  "datePrecision": "exact",
+  "teamAId": "kairos-cs-main",
+  "teamBId": "opponent-m80",
+  "bestOf": 3,
+  "teamAScore": 0,
+  "teamBScore": 2,
+  "winnerTeamId": "opponent-m80",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-122"
+  ],
+  "relatedPlayerIds": [
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_122.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "M80",
+    "opponentLeague": "Counter-Strike (slaxz-, Swisher, s1n, JBa, Lake)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "map": "Nuke",
+        "teamRounds": 8,
+        "opponentRounds": 13,
+        "roundsPlayed": 21,
+        "winnerTeamId": "opponent-m80",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon. No player statistics are established."
+      },
+      {
+        "number": 2,
+        "map": "Train",
+        "teamRounds": 11,
+        "opponentRounds": 13,
+        "roundsPlayed": 24,
+        "winnerTeamId": "opponent-m80",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon. No player statistics are established."
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "M80 beat Kairos Gaming 2-0 in a private MD3 (Nuke 13-8 to M80, Train 13-11 to M80); Cache was not played (Episode 122)."
+  ],
+  "unconfirmedDetails": [
+    "Player statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Chosen maps: Kairos Nuke, M80 Train, Cache as decider."
+  ]
+}

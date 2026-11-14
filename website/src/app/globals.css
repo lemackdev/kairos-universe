@@ -1640,3 +1640,122 @@ body:has(.wikiGrid) { background: var(--paper-muted); }
   box-shadow: none;
 }
 .wikiGrid:has([data-page="home"]) .mainContent a { color: inherit; }
+
+/* ==========================================================================
+   Index pages share the home design (flat, hairlines, one radius, gold accent).
+   Applies to every wiki page that is not an encyclopedia article.
+   ========================================================================== */
+.wikiGrid:not(:has(.wikiArticle)) {
+  --hairline: color-mix(in srgb, var(--ink) 14%, transparent);
+  --surface: color-mix(in srgb, var(--ink) 4%, transparent);
+  --surface-hover: color-mix(in srgb, var(--ink) 8%, transparent);
+  --muted: color-mix(in srgb, var(--ink) 62%, transparent);
+  width: min(1240px, calc(100% - 2rem));
+}
+
+.wikiGrid:not(:has(.wikiArticle)) .mainContent {
+  margin: 0;
+  padding: 24px 0 56px;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+}
+
+.wikiGrid:not(:has(.wikiArticle)) .mainContent a.entityCard,
+.wikiGrid:not(:has(.wikiArticle)) .mainContent a.entityCard:hover { color: inherit; }
+
+.wikiGrid:not(:has(.wikiArticle)) .breadcrumbs { margin-bottom: 20px; font-family: var(--font-body); font-size: 13px; letter-spacing: 0; text-transform: none; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .breadcrumbs a { color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .breadcrumbs a:hover { color: var(--ink); }
+.wikiGrid:not(:has(.wikiArticle)) .breadcrumbSeparator { color: var(--muted); }
+
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader { gap: 10px; padding: 8px 0 32px; border-bottom: 1px solid var(--hairline); }
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader .eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader h1,
+.wikiGrid:not(:has(.wikiArticle)) .pageHeaderCompact h1 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(2.2rem, 4.4vw, 3.4rem); line-height: 1.05; letter-spacing: -0.03em; }
+.wikiGrid:not(:has(.wikiArticle)) .pageHeader .lede { max-width: 40em; margin: 0; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.55; color: var(--muted); }
+
+.wikiGrid:not(:has(.wikiArticle)) .contentSection { gap: 16px; padding: 40px 0 0; border-bottom: 0; }
+.wikiGrid:not(:has(.wikiArticle)) h2.sectionKicker { margin: 0; font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; letter-spacing: -0.015em; text-transform: none; color: var(--ink); }
+.wikiGrid:not(:has(.wikiArticle)) .sectionHeader { align-items: baseline; }
+
+.wikiGrid:not(:has(.wikiArticle)) .entityGrid,
+.wikiGrid:not(:has(.wikiArticle)) .featureGrid,
+.wikiGrid:not(:has(.wikiArticle)) .metricGrid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+
+.wikiGrid:not(:has(.wikiArticle)) .entityCard,
+.wikiGrid:not(:has(.wikiArticle)) .featureCard,
+.wikiGrid:not(:has(.wikiArticle)) .metricCard,
+.wikiGrid:not(:has(.wikiArticle)) .emptyState { border: 1px solid var(--hairline); border-radius: 8px; background: var(--surface); box-shadow: none; }
+.wikiGrid:not(:has(.wikiArticle)) .entityCard,
+.wikiGrid:not(:has(.wikiArticle)) .featureCard { align-content: start; gap: 8px; min-height: 0; padding: 20px; }
+.wikiGrid:not(:has(.wikiArticle)) .entityCard:hover { border-color: color-mix(in srgb, var(--ink) 24%, transparent); background: var(--surface-hover); }
+.wikiGrid:not(:has(.wikiArticle)) .entityCard h3 { margin: 0; font-family: var(--font-body); font-size: 1rem; font-weight: 600; }
+.wikiGrid:not(:has(.wikiArticle)) .entityCard p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .entityCard .sectionKicker { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .entityCardMeta { font-family: var(--font-body); font-size: 12.5px; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .entityCardHead { align-items: center; gap: 12px; }
+.wikiGrid:not(:has(.wikiArticle)) .entityCardLogo { width: 44px; height: 44px; padding: 4px; box-sizing: border-box; background: #fff; border-radius: 6px; }
+.wikiGrid:not(:has(.wikiArticle)) .gameBadge { margin-left: 0; padding: 0; border: 0; border-radius: 0; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; }
+
+.wikiGrid:not(:has(.wikiArticle)) .tableWrap { border: 1px solid var(--hairline); border-radius: 8px; background: var(--surface); }
+.wikiGrid:not(:has(.wikiArticle)) .dataTable th { padding: 12px 16px; background: transparent; border-bottom: 1px solid var(--hairline); font-family: var(--font-body); font-size: 11.5px; font-weight: 600; letter-spacing: 0.06em; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .dataTable td { padding: 12px 16px; border-bottom: 1px solid var(--hairline); }
+.wikiGrid:not(:has(.wikiArticle)) .dataTable tbody tr:hover { background: var(--surface-hover); }
+
+.wikiGrid:not(:has(.wikiArticle)) .badge,
+.wikiGrid:not(:has(.wikiArticle)) .statusRow .badge { border-radius: 4px; }
+
+@media (max-width: 620px) {
+  .wikiGrid:not(:has(.wikiArticle)) .mainContent { padding: 16px 0 40px; }
+}
+
+/* ---- filters, calendar and tournament cards (index layer) ---- */
+.wikiGrid:not(:has(.wikiArticle)) .calendarFilters { gap: 16px; padding: 0 0 24px; border-bottom: 1px solid var(--hairline); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarFilters label { gap: 6px; font-family: var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarFilters select { min-width: 150px; height: 38px; padding: 0 12px; border: 1px solid var(--hairline); border-radius: 8px; background: var(--surface); color: var(--ink); font-size: 14px; }
+.wikiGrid:not(:has(.wikiArticle)) .calendarFilters select:focus { outline: 0; border-color: var(--gold); }
+
+.wikiGrid:not(:has(.wikiArticle)) .calendarView { display: grid; gap: 24px; }
+.wikiGrid:not(:has(.wikiArticle)) .calendarGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 1100px) { .wikiGrid:not(:has(.wikiArticle)) .calendarGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .wikiGrid:not(:has(.wikiArticle)) .calendarGrid { grid-template-columns: minmax(0, 1fr); } }
+.wikiGrid:not(:has(.wikiArticle)) .calendarMonthCard { border: 1px solid var(--hairline); border-radius: 8px; background: var(--surface); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarMonthTitle { padding: 10px 14px; background: var(--surface-hover); border-bottom: 1px solid var(--hairline); font-family: var(--font-mono); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarMonthBody { padding: 6px 12px 10px; }
+.wikiGrid:not(:has(.wikiArticle)) .calendarRow { border-bottom: 1px solid var(--hairline); }
+.wikiGrid:not(:has(.wikiArticle)) .mainContent a.calendarRowLink { padding: 7px 0; color: var(--ink); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarRowName { font-size: 13px; font-weight: 500; }
+.wikiGrid:not(:has(.wikiArticle)) .calendarRowDate { font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarDot { width: 8px; height: 8px; }
+.wikiGrid:not(:has(.wikiArticle)) .calendarExpandButton { margin-top: 6px; padding: 8px 0 0; border-top: 0; font-family: var(--font-mono); font-size: 11px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold); }
+.wikiGrid:not(:has(.wikiArticle)) .calendarEmptyMonth { padding: 4px 0 0; color: var(--muted); font-size: 13.5px; }
+.wikiGrid:not(:has(.wikiArticle)) .calendarBreak { padding: 4px 0 0; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.06em; color: var(--muted); }
+
+.wikiGrid:not(:has(.wikiArticle)) .eventCards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; padding-top: 24px; }
+.wikiGrid:not(:has(.wikiArticle)) .mainContent a.eventCard { display: flex; align-items: center; gap: 16px; min-height: 92px; padding: 16px; border: 1px solid var(--hairline); border-radius: 8px; background: var(--surface); color: inherit; text-decoration: none; }
+.wikiGrid:not(:has(.wikiArticle)) .mainContent a.eventCard:hover { background: var(--surface-hover); }
+.eventCardDate { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; width: 48px; line-height: 1; }
+.eventCardDate small { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted, #8a9490); }
+.eventCardDate strong { margin-top: 6px; font-family: var(--font-display); font-size: 1.8rem; font-weight: 600; color: var(--gold); }
+.eventCardBody { flex: 1 1 auto; display: flex; flex-direction: column; gap: 3px; min-width: 0; padding-left: 16px; border-left: 1px solid var(--hairline, rgba(128, 128, 128, 0.25)); }
+.eventCardBody strong { font-size: 15px; line-height: 1.25; }
+.eventCardGame { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted, #8a9490); }
+.eventCardMeta { font-size: 12.5px; color: var(--muted, #8a9490); }
+.eventCardLogo { flex: 0 0 auto; width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; padding: 4px; box-sizing: border-box; background: #fff; border-radius: 6px; color: #555; font-size: 11px; font-weight: 700; }
+.eventCardLogo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+/* ---- campus ---- */
+.campusPage { max-width: 1240px; }
+.wikiGrid:not(:has(.wikiArticle)) .campusPage .fictionNotice { margin: 24px 0 0; padding: 14px 18px; border: 1px solid var(--hairline); border-left: 3px solid var(--gold); border-radius: 8px; background: var(--surface); font-family: var(--font-body); font-size: 13.5px; line-height: 1.55; color: var(--muted); }
+.wikiGrid:not(:has(.wikiArticle)) .campusPage .fictionNotice strong { color: var(--ink); }
+.wikiGrid:not(:has(.wikiArticle)) .campusPage .statusRow { gap: 8px; }
+.wikiGrid:not(:has(.wikiArticle)) .campusPage .statusRow .badge { padding: 7px 12px; border: 1px solid var(--hairline); border-radius: 6px; background: var(--surface); font-family: var(--font-body); font-size: 13px; font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--ink); }
+.wikiGrid:not(:has(.wikiArticle)) .campusPage .statusRow .badge:hover { background: var(--surface-hover); }
+.campusSummary { margin: 0; max-width: 46em; color: var(--muted, #8a9490); line-height: 1.55; }
+.campusGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 8px 0 0; }
+.campusCard { padding: 18px 20px; border: 1px solid var(--hairline, rgba(128, 128, 128, 0.25)); border-radius: 8px; background: var(--surface, transparent); }
+.campusCard dt { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; font-weight: 600; font-size: 15px; }
+.campusCard dt .badge { flex: 0 0 auto; padding: 2px 8px; border-radius: 4px; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+.campusCard dd { margin: 8px 0 0; font-size: 13.5px; line-height: 1.55; color: var(--muted, #8a9490); }

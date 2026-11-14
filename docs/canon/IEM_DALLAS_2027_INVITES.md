@@ -42,3 +42,23 @@ The eight advancing teams (two best of each group) play a single-elimination bra
 ## Prize distribution
 
 At the author's request the USD 1,000,000 prize pool is split by placement with every team slot still `TBD`: 1st USD 400,000, 2nd USD 150,000, 3rd-4th USD 75,000 each, 5th-8th USD 40,000 each and 9th-16th USD 17,500 each. These amounts are calculated, not announced by the organizer.
+
+## Results so far (Episodes 125-128)
+
+IEM Dallas 2027 is under way. The group draw above matches the episodes. Results narrated through 2027-02-07 are stored in `groupStage.groups[].matches` with `mapsA`, `mapsB`, `roundsA`, `roundsB`, `date` and a `maps` list (map, `scoreA`, `scoreB`; a null score means the episode names the map winner without the score, and then `roundsA` and `roundsB` stay null and the group table shows a dash for round totals of the teams involved).
+
+| Date | Group | Result |
+| --- | --- | --- |
+| 2027-02-04 | A | FURIA 2-0 Team Liquid (Inferno 13-9, Overpass 13-10) |
+| 2027-02-04 | C | Astralis 2-1 M80 (Cobblestone 13-11 Astralis; Train and Nuke scores not stated) |
+| 2027-02-05 | A | Team Vitality 2-0 Team Liquid (Nuke 13-9; Dust II score not stated) |
+| 2027-02-05 | A | FURIA 2-1 MIBR (Inferno 11-13, Overpass 13-7, Train 13-10) |
+| 2027-02-05 | C | M80 2-0 BC.Game (Train 13-8, Nuke 13-11) |
+| 2027-02-05 | C | paiN Gaming 2-1 Astralis (Cobblestone 9-13, Cache 13-8; Nuke score not stated) |
+| 2027-02-06 | B | Legacy 2-1 FaZe (Train 11-13, Cache 13-10, Inferno 13-9) |
+| 2027-02-06 | B | Falcons 2-0 Natus Vincere (Nuke 13-8, Dust II 13-11) |
+| 2027-02-06 | D | MOUZ 2-1 Spirit (Inferno 9-13, Overpass 13-11; Train score not stated) |
+| 2027-02-06 | D | Aurora 2-0 G2 Esports (Cache 13-7, Nuke 13-11) |
+| 2027-02-07 | D | MOUZ 2-0 G2 Esports (Dust II 13-2, Inferno 13-5) |
+
+Not narrated: Vitality x MIBR and paiN x BC.Game (round 1), every round-3 match, standings after the group stage, qualification, the playoff bracket and the final prize distribution. Kairos Gaming does not take part. The competition status is `active`.

@@ -1,32 +1,35 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CampusViewerLoader } from "@/components/campus/CampusViewerLoader";
 import { campusZones } from "@/lib/campus/masterplan";
 
 export const metadata = {
   title: "Kairos Campus",
   description:
-    "The Kairos Campus building directory: confirmed functions and a proposed masterplan, ahead of an interactive 3D view.",
+    "The Kairos Campus in interactive 3D: confirmed room functions on a proposed, non-canon layout, plus the building directory.",
 };
 
 export default function CampusPage() {
   return (
-    <article>
+    <article className="campusPage">
       <Breadcrumbs items={[{ label: "Kairospedia", href: "/wiki" }, { label: "Kairos Campus" }]} />
-      <h1>Kairos Campus</h1>
-      <p>
-        The Kairos Campus in Los Angeles is the organization&rsquo;s shared training, support, and
-        residential facility. This page is a building directory and a proposed masterplan; it is a
-        foundation page, not the finished interactive campus.
-      </p>
+      <header className="pageHeader">
+        <span className="eyebrow">Los Angeles</span>
+        <h1>Kairos Campus</h1>
+        <p className="lede">
+          The organization&rsquo;s shared training, support and residential facility. Orbit the
+          model, pick a view, and click a room to see what is established about it.
+        </p>
+      </header>
       <p className="fictionNotice">
-        <strong>Foundation page &mdash; interactive 3D view not yet built.</strong> Building{" "}
-        <em>functions</em> below are either established in canon or proposed for author review, and
-        each is labelled. Exact building geography, dimensions, shapes, and placement are not
-        canonized anywhere and are a design proposal only, safe to revise later without affecting
-        anything else on this page.
+        <strong>Conceptual model.</strong> Room <em>functions</em> come from canon and each is
+        labelled with its status. Positions, sizes, shapes and distances are not canonized anywhere.
+        They are a proposal made so the campus can be drawn, and can change without affecting canon.
       </p>
 
+      <CampusViewerLoader />
+
       <section className="contentSection" id="zones">
-        <h2>Campus zones</h2>
+        <h2 className="sectionKicker">Campus zones</h2>
         <nav aria-label="Campus zones" className="statusRow">
           {campusZones.map((zone) => (
             <a className="badge" href={`#zone-${zone.id}`} key={zone.id}>
@@ -38,15 +41,15 @@ export default function CampusPage() {
 
       {campusZones.map((zone) => (
         <section className="contentSection" id={`zone-${zone.id}`} key={zone.id}>
-          <h2>
+          <h2 className="sectionKicker">
             {zone.letter}. {zone.name}
           </h2>
-          <p>{zone.summary}</p>
-          <dl>
+          <p className="campusSummary">{zone.summary}</p>
+          <dl className="campusGrid">
             {zone.buildings.map((building) => (
-              <div key={building.id}>
+              <div className="campusCard" key={building.id}>
                 <dt>
-                  {building.name}{" "}
+                  <span>{building.name}</span>
                   <span className="badge">
                     {building.status === "confirmed-function" ? "Confirmed function" : "Proposed layout"}
                   </span>
@@ -66,14 +69,13 @@ export default function CampusPage() {
         </section>
       ))}
 
-      <section className="contentSection" id="roadmap">
-        <h2>Roadmap</h2>
+      <section className="contentSection" id="about-model">
+        <h2 className="sectionKicker">About the model</h2>
         <p>
-          The long-term goal is a genuine interactive 3D campus, modelled in Blender and displayed in
-          the browser with React Three Fiber, where readers can orbit, select a building, and see its
-          confirmed rooms and associated teams. That 3D view, its Blender asset pipeline, and its
-          procedural architectural-massing MVP have not been built yet. This directory is the
-          canon-safe foundation it will be built on top of.
+          The 3D campus is generated in Blender from an inventory of established functions and a
+          separate layout proposal, then exported for the browser. Residential buildings are shown as
+          closed volumes because no interior is established. The directory above is the earlier
+          proposal list and may name areas the model leaves out for lack of canon support.
         </p>
       </section>
     </article>

@@ -1,0 +1,68 @@
+{
+  "id": "match-cs-external-main-independent-nuke-2027-01-30",
+  "slug": "match-cs-external-main-independent-nuke-2027-01-30",
+  "game": "Counter-Strike",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "late-january-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-cs-main",
+    "opponent-independent-north-american-group-2027-01-30"
+  ],
+  "scheduledDate": "2027-01-30",
+  "date": "2027-01-30",
+  "datePrecision": "exact",
+  "teamAId": "kairos-cs-main",
+  "teamBId": "opponent-independent-north-american-group-2027-01-30",
+  "bestOf": 1,
+  "teamAScore": 1,
+  "teamBScore": 0,
+  "winnerTeamId": "kairos-cs-main",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-119"
+  ],
+  "relatedPlayerIds": [
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_119.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "Independent North American group",
+    "opponentLeague": "none (independent players)",
+    "opponentRosterStatus": "unnamed independent group; identities not established",
+    "games": [
+      {
+        "number": 1,
+        "map": "Nuke",
+        "teamRounds": 13,
+        "opponentRounds": 8,
+        "roundsPlayed": 21,
+        "winnerTeamId": "kairos-cs-main",
+        "provenance": "narrated-canon",
+        "provenanceNote": "Map score is narrated story canon. No player statistics are established."
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Gaming win Nuke 13-8 in a private scrim on 2027-01-30 (Episode 119)."
+  ],
+  "unconfirmedDetails": [
+    "The opponent's identity and player statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "source-episode-126-ge-globo-interview",
+  "slug": "source-episode-126-ge-globo-interview",
+  "continuityId": "kairos-universe",
+  "sourceType": "interview",
+  "title": "Episode 126, \"A Escolha de Owen\" — ge.globo interview with FLACOGOMEZ",
+  "path": "archive/episode-sources/kairos_119_128_import/episode_126.txt",
+  "locator": "Episode 126, 2027-02-05, 10:51 (interview) and 19:14 (publication)",
+  "publicLabel": "Kairos Universe, Episode 126 (\"A Escolha de Owen\")",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Episode 126 narrates the interview Vincente Galán gives to a ge.globo journalist at 10:51 and states that ge.globo publishes it at 19:14 the same day.",
+    "The episode shows only the headline, the standfirst and a summary of the article; the full text in data/publications was written for Kairospedia strictly from the interview scene (questions and answers) and the facts of Episodes 122 and 126.",
+    "The episode labels the piece 'Reportagem fictícia no universo Kairos'. Backs the Kairospedia publication entrevista-ge-globo-flacogomez."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "source-episodes-119-128",
+  "slug": "source-episodes-119-128",
+  "continuityId": "kairos-universe",
+  "sourceType": "episode",
+  "title": "Episodes 119-128 — author-supplied episode prose",
+  "path": "archive/episode-sources/kairos_119_128_import/",
+  "locator": "Episodes 119 (2027-01-30) through 128 (2027-02-07), extracted from 107-128.pdf into episode_119.txt through episode_128.txt",
+  "publicLabel": "Kairos Universe, Episodes 119-128",
+  "originType": "fictional",
+  "canonStatus": "confirmed",
+  "notes": [
+    "Full episode prose supplied by the author in 107-128.pdf and archived as plain text, one file per episode. The PDF wraps lines, so paragraphs were rejoined automatically and long paragraphs may be merged; wording is unchanged.",
+    "Backs the structured records for episodes 119 through 128. Episodes 107-118 in the same document were compared with their existing archive; see docs/canon/EPISODES_119_128_IMPORT.md."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "episode-119",
+  "slug": "episode-119",
+  "episodeNumber": 119,
+  "title": "O Que Ninguém Vê",
+  "historicalTitle": "O Que Ninguém Vê",
+  "archiveSource": null,
+  "recordStatus": "reconstructed",
+  "canonStatus": "confirmed",
+  "reconstructionStatus": "source-recovered",
+  "approximateStoryPeriod": "late-january-2027",
+  "storyYear": 2027,
+  "exactStoryDate": "2027-01-30",
+  "datePrecision": "exact",
+  "publicationOrder": 119,
+  "narrator": "adrian-elias-vale",
+  "protagonist": "zayn-parkinglot-haddad",
+  "divisions": [
+    "Counter-Strike"
+  ],
+  "locations": [
+    "Kairos Campus, Los Angeles, California"
+  ],
+  "characters": [
+    "adrian-elias-vale",
+    "emily-chen",
+    "lukas-luk-novak",
+    "ethan-trace-miller",
+    "tarik-kairos-cs-academy-head-coach",
+    "maya-torres",
+    "evelyn-park",
+    "arthur-fletcher",
+    "caleb-atlas-mercer",
+    "cameron-mold-ruiz",
+    "owen-glacier-fletcher",
+    "emiliano-moteconhuesillo-navarro",
+    "vincente-flacogomez-galan",
+    "evan-soupcrime-nakamura",
+    "milo-velcrodog-radovic",
+    "zayn-parkinglot-haddad",
+    "nolan-dentalplan-hart",
+    "reid-wrongnumber-hart"
+  ],
+  "firstAppearances": [],
+  "organizations": [
+    "kairos-esports"
+  ],
+  "teams": [
+    "kairos-cs-main",
+    "kairos-cs-academy"
+  ],
+  "summary": "Saturday 2027-01-30. Tarik runs his first full Academy Green day and the first of four private Counter-Strike scrims (Main beat an independent group 13-8 on Nuke and lose 11-13 on Train; Academy lose 11-13 on Overpass and win 13-10 on Cobblestone). Arthur Fletcher watches the Main train. Zayn asks Maya Torres and Evelyn Park for a private conversation about how he processes sudden changes; no diagnosis is made. Adrian and Maya begin discussing supervised animal visits at the campus.",
+  "keyEvents": [
+    "8:17 — Tarik's first full Academy Green session: he tells Evan the problem in a lost Overpass round may have been the information he received, not his call; he presents the seven competitive maps (Cobblestone, Inferno, Nuke, Overpass, Dust II, Train, Cache) and Zayn names Train as favourite and Dust II as least liked.",
+    "9:32 — Main prepare for CCT North America #1 (Austin, from 2027-02-08) after watching NRG, Imperial and HEROIC; Mold wants to face Stewie2K's team.",
+    "9:48 — Private scrim, Main vs an independent North American group, Nuke: Kairos Gaming win 13-8 (8-4 at half).",
+    "11:16 — Private scrim, Academy Green vs another independent five, Overpass: the Academy lose 13-11 (7-5 for the opponent at half); Zayn's correct reads are not communicated in time.",
+    "12:38 — Arthur Fletcher, living in the campus residential area since moving from Mackenzie months earlier, talks with Owen about the CCT trip; he tells Owen to go to Austin thinking about his work.",
+    "13:46 — Zayn meets Maya Torres and Evelyn Park privately; the content is confidential, no diagnosis is made, an assessment is offered with family consent because he is a minor, and no update is made to his competitive profile or sent to Tarik, Luk or Adrian.",
+    "14:52 — Private scrim, Main vs the same independent group, Train: Kairos Gaming lose 13-11 after Owen wins a 1v2 clutch (6-6 at half, 11-11); Arthur watches from the observation area.",
+    "16:08 — Private scrim, Academy Green vs the independent group on Cobblestone: the Academy win 13-10 (6-6 at half); Zayn shares a hypothesis without waiting for certainty and Tarik gets his first win.",
+    "18:17 — Adrian asks Maya about bringing animals to the campus: supervised visits with a partner organisation first, no permanent residents and no kennel decided; Maya will assess viability with Evelyn and administration.",
+    "22:13 — Luk, Tarik and Trace review the four scrims; no official result, ranking or statistic changes; nine days remain before the CCT."
+  ],
+  "consequences": [
+    "Tarik starts working with the Academy Green; Zayn is asked to communicate hypotheses without waiting for certainty and Evan to separate confirmed information from hypotheses.",
+    "Adrian asks Maya Torres and Evelyn Park to assess the viability of supervised animal visits; nothing is approved."
+  ],
+  "canonIntroduced": [
+    "Four private Counter-Strike scrims are played on 2027-01-30 (see data/matches).",
+    "Adrian begins studying supervised animal visits at the campus (feasibility only)."
+  ],
+  "canonChanged": [],
+  "continuityDependencies": [
+    "episode-117",
+    "episode-118"
+  ],
+  "continuityNotes": [
+    "Opponents of the four scrims are unnamed independent groups; the Main opponent is described as one group of North American players who train together and have minor-tournament experience, the Academy opponent as another group of high-ranked queue players.",
+    "Zayn's private conversation is deliberately confidential; no diagnosis exists and none should be stated on any public page.",
+    "The scrim table in the episode lists the opponents only as 'Kairos Gaming' and 'Academy Green' with maps and scores."
+  ],
+  "historicalNotes": [],
+  "realWorldReferences": [],
+  "retcons": [],
+  "sourceReferences": [
+    {
+      "sourceType": "original-episode",
+      "sourcePath": "archive/episode-sources/kairos_119_128_import/episode_119.txt",
+      "locator": "Episódio 119 — O Que Ninguém Vê",
+      "information": "Supplies the full episode prose.",
+      "evidenceLevel": "explicit",
+      "confidence": "confirmed",
+      "userConfirmationRequired": false
+    }
+  ],
+  "confidence": "confirmed",
+  "missingInformation": [],
+  "confirmedFacts": [
+    "Main: Nuke win 13-8; Train loss 11-13. Academy Green: Overpass loss 11-13; Cobblestone win 13-10. All four are private, unofficial and affect no ranking.",
+    "Kairos Gaming's CCT participation is confirmed; the Academy has no official debut defined.",
+    "Arthur Fletcher moved from Mackenzie to Los Angeles months earlier and lives in the campus residential area; his chemotherapy had positive responses but treatment and follow-up continue.",
+    "Zayn plays lurker; Evan IGL, Milo entry, Nolan AWP, Reid anchor; no role changes.",
+    "Adrian has invested in common areas, recreation, psychological support and spaces for interests outside games."
+  ],
+  "unconfirmedDetails": [
+    "Names of the independent opponents, any contract or date for an animal programme, and any outcome of Zayn's conversation beyond a possible later appointment."
+  ],
+  "notes": [
+    "Kairos Gaming is the public name of the Counter-Strike Main team."
+  ]
+}

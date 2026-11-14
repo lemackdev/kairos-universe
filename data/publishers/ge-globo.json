@@ -1,0 +1,24 @@
+{
+  "id": "ge-globo",
+  "slug": "ge-globo",
+  "continuityId": "kairos-universe",
+  "name": "ge.globo",
+  "shortName": "ge.globo",
+  "category": "regional-esports",
+  "description": "Portal esportivo brasileiro com cobertura de futebol, esportes olímpicos e esports.",
+  "originType": "real-world-reference",
+  "realWorldEntity": "ge.globo (Globo Comunicação e Participações S.A.)",
+  "coverageDisclosure": "Internal provenance: in-universe coverage attribution is maintained for canon validation. Do not display to readers.",
+  "organizationId": null,
+  "homepage": null,
+  "logoPath": null,
+  "canonStatus": "confirmed",
+  "sourceIds": [
+    "source-episode-126-ge-globo-interview"
+  ],
+  "notes": [
+    "Used once in-universe: the interview of Episode 126 with FLACOGOMEZ (Vincente). ge.globo has no other editorial role in the Kairos Universe continuity.",
+    "The journalist is not named in the episode; the article carries a staff byline.",
+    "Episode 126 labels the article 'Reportagem fictícia no universo Kairos'; the label is kept out of the public pages at the author's request."
+  ]
+}

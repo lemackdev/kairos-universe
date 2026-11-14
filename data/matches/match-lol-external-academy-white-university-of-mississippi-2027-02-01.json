@@ -1,0 +1,97 @@
+{
+  "id": "match-lol-external-academy-white-university-of-mississippi-2027-02-01",
+  "slug": "match-lol-external-academy-white-university-of-mississippi-2027-02-01",
+  "game": "League of Legends",
+  "matchType": "private-scrim",
+  "status": "confirmed",
+  "storyPeriod": "early-february-2027",
+  "competition": null,
+  "season": null,
+  "teams": [
+    "kairos-lol-academy-white",
+    "opponent-university-of-mississippi"
+  ],
+  "scheduledDate": "2027-02-01",
+  "date": "2027-02-01",
+  "datePrecision": "exact",
+  "teamAId": "kairos-lol-academy-white",
+  "teamBId": "opponent-university-of-mississippi",
+  "bestOf": null,
+  "teamAScore": 2,
+  "teamBScore": 1,
+  "winnerTeamId": "kairos-lol-academy-white",
+  "visibility": "public",
+  "officialStatus": "practice",
+  "provenance": "narrated-canon",
+  "affectsStandings": false,
+  "relatedEpisodeIds": [
+    "episode-121"
+  ],
+  "relatedPlayerIds": [
+    "isaac-pebble-young",
+    "benjamin-vex-carter",
+    "nathan-0bit-hall",
+    "cole-june-mercer",
+    "ryan-luma-chen"
+  ],
+  "statistics": {},
+  "sources": [
+    "archive/episode-sources/kairos_119_128_import/episode_121.txt"
+  ],
+  "canonStatus": "confirmed",
+  "result": {
+    "opponentName": "University of Mississippi",
+    "opponentLeague": "NACL (Fiji, Munchy, Perry, Sushee, Aeon Crystal)",
+    "opponentRosterStatus": "named in the episode",
+    "games": [
+      {
+        "number": 1,
+        "winnerTeamId": "kairos-lol-academy-white",
+        "provenance": "narrated-canon",
+        "durationMinutes": 31,
+        "picks": {
+          "Pebble": "Ornn",
+          "vexemite": "Kindred",
+          "0bit": "Viktor",
+          "June": "Jhin",
+          "Luma": "Bard"
+        }
+      },
+      {
+        "number": 2,
+        "winnerTeamId": "opponent-university-of-mississippi",
+        "provenance": "narrated-canon",
+        "durationMinutes": 29,
+        "picks": {
+          "Pebble": "Gnar",
+          "vexemite": "Sejuani",
+          "0bit": "Hwei",
+          "June": "Ashe",
+          "Luma": "Leona"
+        }
+      },
+      {
+        "number": 3,
+        "winnerTeamId": "kairos-lol-academy-white",
+        "provenance": "narrated-canon",
+        "picks": {
+          "Pebble": "Gragas",
+          "vexemite": "Ivern",
+          "0bit": "Taliyah",
+          "June": "Varus",
+          "Luma": "Rell"
+        }
+      }
+    ]
+  },
+  "confirmedFacts": [
+    "Kairos Academy White beat the University of Mississippi 2-1 in a private Fearless Draft MD3 on 2027-02-01 (Episode 121)."
+  ],
+  "unconfirmedDetails": [
+    "Individual statistics are not established."
+  ],
+  "canonNotes": [
+    "Private practice; not an official match, does not affect any ranking, official statistic, achievement or standing.",
+    "Fearless Draft: champions used in earlier games of the series cannot be picked again by either team."
+  ]
+}

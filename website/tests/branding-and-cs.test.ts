@@ -2,7 +2,7 @@ import path from "node:path";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-import { filterBranding, loadBranding, readPublishedPortraits, readPublishedTeamLineups, safeAssetPath } from "../../shared/branding";
+import { filterBranding, findBrandLogo, loadBranding, readPublishedPortraits, readPublishedTeamLineups, safeAssetPath } from "../../shared/branding";
 import { loadCanonUniverse, loadPublicationManifest } from "@/lib/canon/loader";
 import { buildCatalog } from "@/lib/catalog/build";
 import { TeamArticle } from "@/components/articles/TeamArticle";
@@ -10,6 +10,18 @@ import { PlayerArticle } from "@/components/articles/PlayerArticle";
 
 const root = path.resolve("..");
 describe("branding and Counter-Strike publication", () => {
+  it("selects academy logos without changing the organization or main team logo", () => {
+    const branding = loadBranding(root);
+    for (const [teamId, color] of [["kairos-cs-academy", "green"], ["kairos-lol-academy-blue", "blue"], ["kairos-lol-academy-white", "white"]]) {
+      expect(findBrandLogo(branding, "kairos-esports", teamId)?.id).toBe(`kairos-academy-${color}-logo`);
+    }
+    for (const teamId of [undefined, "kairos-cs-main", "kairos-lol-main"]) {
+      expect(findBrandLogo(branding, "kairos-esports", teamId)?.id).toBe("kairos-esports-logo");
+    }
+    const mainOnly = filterBranding(branding, ["kairos-cs-main"]);
+    expect(mainOnly.assets.filter(asset => asset.category === "logo" && asset.teamIds.length > 0)).toHaveLength(0);
+    expect(findBrandLogo(mainOnly, "kairos-esports")?.id).toBe("kairos-esports-logo");
+  });
   it("validates thirteen original, reconstructed and academy logo assets and all assignments", () => {
     const branding = loadBranding(root);
     expect(branding.assets).toHaveLength(13);

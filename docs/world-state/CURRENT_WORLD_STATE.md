@@ -1,6 +1,20 @@
 # Current World State
 
-## Canonical Endpoint: 4 January 2027
+## Canonical Endpoint: 7 February 2027
+
+- **Current episode:** 128, "Todos a Bordo".
+- **Current narrative date:** 2027-02-07, the eve of CCT North America #1.
+- **Official Kairos matches:** none. Kairos Gaming's first official series is Kairos x Fluxo, Group D, Bo3, on 2027-02-08 (time not set). The Academy Green has no official debut; Academy White has no professional-league slot.
+- **Counter-Strike:** the CCT approved six registered players per team; Kairos Gaming registered Atlas, Glacier, Mold, MoteConHuesillo and FLACOGOMEZ with p4rkingl0t (Zayn, Academy Green) as reserve (substitution only between series). The whole department, including the other four Academy Green players as accredited guests, flew to Austin on Adrian's private jet on 2027-02-07. Tarik is Head Coach of Academy Green; Luk of Kairos Gaming.
+- **League:** Aphromoo is only Head Coach of Main; Xpecial accepted the Support Mentor role on 2027-02-02 (five mentors: Darshan, Xmithie, Goldenglue, WildTurtle, Xpecial). The LCS debut is on 2027-02-15. Private scrim results are recorded but do not affect any ranking.
+- **Arthur Fletcher:** hospitalised in Los Angeles since 2027-02-03 (fever during chemotherapy), stable and improving, no discharge date; Owen decided to travel to Austin.
+- **IEM Dallas 2027:** under way (2027-02-03 to 2027-02-14); Kairos does not participate; narrated group results through 2027-02-07 are in the overlay.
+- **Expansion:** Street Fighter 6 and Rocket League are research and scouting priorities (no hiring or date); F1 and EA Sports FC remain later plans. A sixth Academy Green player is being scouted discreetly.
+- **Campus:** Adrian is studying supervised animal visits only; nothing is approved.
+
+The sections below are retained as historical snapshots.
+
+## Archived 4 January 2027 Snapshot (Episode 94)
 
 - **Current episode:** 94, "Duas Cadeiras".
 - **Current narrative date:** 2027-01-04, early January 2027.

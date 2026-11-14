@@ -1,0 +1,26 @@
+{
+  "id": "post-20270207-019",
+  "slug": "canon-episode-123-19",
+  "continuityId": "kairos-universe",
+  "authorType": "team",
+  "authorId": "kairos-lol-academy-white",
+  "text": "Three supports, one call, a lot of notes. We will take the joint session when it comes.",
+  "postedAt": "2027-02-02T16:13",
+  "timeZone": "PT",
+  "storyDate": "2027-02-02",
+  "episodeIds": [
+    "episode-123"
+  ],
+  "sourceIds": [
+    "source-episodes-119-128"
+  ],
+  "relatedTeamIds": [],
+  "relatedPlayerIds": [],
+  "relatedStaffIds": [],
+  "relatedCompetitionIds": [],
+  "pinned": false,
+  "canonStatus": "confirmed",
+  "notes": [
+    "Original social post based on the cited episode. Incidental personal wording is creative; no private scrim or tactical information is disclosed."
+  ]
+}

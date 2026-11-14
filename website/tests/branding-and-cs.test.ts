@@ -10,9 +10,9 @@ import { PlayerArticle } from "@/components/articles/PlayerArticle";
 
 const root = path.resolve("..");
 describe("branding and Counter-Strike publication", () => {
-  it("validates ten original and reconstructed assets and all assignments", () => {
+  it("validates thirteen original, reconstructed and academy logo assets and all assignments", () => {
     const branding = loadBranding(root);
-    expect(branding.assets).toHaveLength(10);
+    expect(branding.assets).toHaveLength(13);
     expect(branding.uniforms).toHaveLength(4);
     const assignments = Object.fromEntries(branding.uniforms.flatMap(u => u.teamIds.map(id => [id, u.primaryColor])));
     expect(assignments).toEqual({ "kairos-lol-main": "black", "kairos-cs-main": "black", "kairos-lol-academy-blue": "blue", "kairos-lol-academy-white": "white", "kairos-cs-academy": "green" });
@@ -23,7 +23,7 @@ describe("branding and Counter-Strike publication", () => {
     const manifest = loadPublicationManifest();
     const filtered = filterBranding(loadBranding(root), manifest.enabledTeams);
     expect(filtered.uniforms).toHaveLength(4);
-    expect(filtered.assets).toHaveLength(10);
+    expect(filtered.assets).toHaveLength(13);
     for (const teamId of manifest.enabledTeams) {
       expect(JSON.stringify(filtered)).toContain(teamId);
     }
